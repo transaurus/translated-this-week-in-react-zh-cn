@@ -1,0 +1,149 @@
+---
+slug: /116
+title: "This Week In React #116: Next.js, Gatsby, Blitz, Fresh, Astro, Preact, Redwood, Deno, Remotion, React-Native, Expo, TypeScript, Lightning CSS..."
+authors: [slorber]
+date: 09-09-2022
+---
+
+大家好！
+
+很高兴通知各位，我通过[ConvertKit](https://thisweekinreact.com/convertkit)发送的首封邮件已成功送达大多数订阅者：邮箱服务迁移顺利完成！
+
+同时非常感谢大家对[《useSyncExternalStore：被低估的React API》](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api)一文的热情反馈！我会尽快撰写更多深度文章。计划是每期专注一个技术主题，用简短的篇幅带大家掌握新知识。
+
+本周的精选周报有些特别：由于积压了太多优质链接，这次先以纯合集形式呈现（实在来不及逐一点评了😅）。别担心，等我九月份度假归来就会恢复带独家解读的常规版！
+
+<!-- truncate -->
+
+---
+
+**支持我的方式：**
+
+- 😘 **将周报推荐给朋友**：这对我帮助巨大！
+- 💸 [**赞助周报**](https://thisweekinreact.com/sponsor) 或 [**直接赞助我**](https://github.com/sponsors/slorber)
+- 🧵 [**转发最新Twitter技术帖**](https://slo.im/thread)
+- 📨 回复本封[**邮件**](mailto:sebastien@thisweekinreact.com)：欢迎任何反馈
+
+<SubscribeFormEmbed />
+
+---
+
+## 💸 赞助商
+
+[![Storyblok](/emails/issues/116/storyblok.png)](https://www.storyblok.com/?utm_source=thisweekinreact&utm_medium=display&utm_campaign=AWA_SPON_TWIREACT_TRA&utm_content=thisweekinreact_en)
+
+尝试过[Storyblok](https://www.storyblok.com/?utm_source=thisweekinreact&utm_medium=display&utm_campaign=AWA_SPON_TWIREACT_TRA&utm_content=thisweekinreact_en)了吗？这款为开发者和营销人员设计的无头CMS配备可视化编辑器！
+
+使用Storyblok React SDK快速构建可复用组件，轻松获取内容数据来开发React、Next.js、Remix甚至React-Native应用/网站/电商系统。
+
+立即访问[技术中心](https://www.storyblok.com/technologies?utm_source=thisweekinreact&utm_medium=display&utm_campaign=AWA_SPON_TWIREACT_TRA&utm_content=thisweekinreact_en)体验吧！
+
+---
+
+## ⚛️ React生态
+
+- 📜 [用React 18和Suspense提升INP指标](https://vercel.com/blog/improving-interaction-to-next-paint-with-react-18-and-suspense)
+- 📜 [PureComponents对比带hooks的函数组件](https://www.developerway.com/posts/pure-components-vs-functional-and-hooks)
+- 📜 [React重渲染机制解析](https://www.joshwcomeau.com/react/why-react-re-renders/)
+- 📜 [深入理解useMemo与useCallback](https://www.joshwcomeau.com/react/usememo-and-usecallback/)
+- 📜 [使用回调ref避免useEffect](https://tkdodo.eu/blog/avoiding-use-effect-with-callback-refs)
+- 📜 [React Query与React Router的融合实践](https://tkdodo.eu/blog/react-query-meets-react-router)
+- 📜 [(重新)介绍Gatsby：响应式站点生成器](https://www.gatsbyjs.com/blog/re-introducing-gatsby-a-reactive-site-generator/)
+- 📜 [高级React组件组合指南](https://frontendmastery.com/posts/advanced-react-component-composition-guide/)
+- 📜 [我们能否承认React Hooks是个错误？(第二部分)](https://medium.com/codex/can-we-all-just-admit-react-hooks-were-a-bad-idea-795505b0485d)
+- 📜 [2022年为什么选择Storybook？](https://storybook.js.org/blog/why-storybook-in-2022/) + [7.0设计alpha版](https://storybook.js.org/blog/7-0-design-alpha/) + [用TypeScript编写stories](https://storybook.js.org/blog/writing-stories-in-typescript/)
+- 📜 [React Router完全指南](https://ui.dev/react-router-tutorial)
+- 📜 [需要戒除的9个React不良习惯](https://cult.honeypot.io/reads/bad-react-habits-to-kick/)
+- 📜 [在Remix动作函数中使用Zod和TypeScript验证表单数据](https://egghead.io/blog/validating-remix-form-data-using-zod-and-typescript-in-action-functions)
+- 📜 [React开发必备的TypeScript知识](https://ente.io/blog/tech/typescript-for-react/)
+- 📜 [Patterns.dev - 渲染模式](https://www.patterns.dev/posts/rendering-introduction/)
+- 📜 [六大JS框架SSR性能实测](https://dev.to/kaspera/we-measured-the-ssr-performance-of-6-js-frameworks-heres-what-we-found-1ck0)
+- 📜 [是否应该使用className属性？](https://www.chakshunyu.com/blog/should-you-use-a-classname-prop/)
+- 📜 [避免React中的动态CSS-in-JS样式](https://nickb.dev/blog/avoid-dynamic-css-in-js-styles-in-react/)
+- 📜 [前端安全基础](https://frontendmastery.com/posts/frontend-security-primer/)
+- 📜 [React错误边界完全指南](https://meticulous.ai/blog/react-error-boundaries-complete-guide/)
+- 📜 [GPU香蕉摊](https://acko.net/blog/the-gpu-banana-stand/)
+- 📜 [初探create-t3-app](https://dev.to/ajcwebdev/a-first-look-at-create-t3-app-1i8f)
+- 📜 [迁移到Next.js的实践](https://blog.benchsci.com/moving-house-to-next.js)
+- 📜 [使用keyboard-testing-library统一键盘与点击测试](https://testingaccessibility.com/introducing-keyboard-testing-library-by-grunet)
+- 📜 [React开发者常犯的5个useState错误](https://refine.dev/blog/common-usestate-mistakes-and-how-to-avoid/)
+- 📜 [通过Netlify的Next.js运行时实现边缘内容转换](https://www.netlify.com/blog/nextjs-advanced-middleware-better-runtime-that-extends-nextjs/)
+- 📜 [利用Gatsby数据层扩展RSG构建](https://www.gatsbyjs.com/blog/scaling-rsg-builds-with-gatsbys-data-layer/)
+- 📜 [Gatsby正在衰落吗？](https://deliciousreverie.co.uk/posts/is-gatsby-decline/)
+- 📖 [将事件与副作用分离](https://beta.reactjs.org/learn/separating-events-from-effects)
+- 📖 [移除Effect依赖项](https://beta.reactjs.org/learn/removing-effect-dependencies)
+- 👥 [Next.js Conf 2022大会](https://vercel.com/blog/nextjs-conf-2022)
+- 🎥 [用JavaScript创建F1赛车图形](https://www.youtube.com/watch?v=sA-X0Bw_7Gg)
+- ⏱ [网站性能对比：Gatsby vs Next vs Nuxt](https://www.gatsbyjs.com/blog/comparing-website-performance-gatsby-vs-next-vs-nuxt/)
+- 📦 [Redwood v3.0.0候选版](https://community.redwoodjs.com/t/redwood-v3-0-0-rc-is-now-available/3836)
+- 📦 [Next.js 12.3发布](https://nextjs.org/blog/next-12-3)
+- 📦 [Preact Signals特性](https://preactjs.com/blog/introducing-signals/)
+- 📦 [Blitz 2.0测试版](https://github.com/blitz-js/blitz/releases/tag/v2.0.0-beta.1)
+- 📦 [Astro 1.0正式发布](https://astro.build/blog/astro-1/)
+- 📦 [Fresh 1.1版本](https://deno.com/blog/fresh-1.1)
+- 📦 [Mailing邮件框架](https://www.mailing.run/)
+- 📦 [Remotion 3.2更新](https://www.remotion.dev/blog/3-2)
+- 📦 Gatsby [v4.20](https://www.gatsbyjs.com/docs/reference/release-notes/v4.20/) + [v4.21](https://www.gatsbyjs.com/docs/reference/release-notes/v4.21/) + [v4.22](https://www.gatsbyjs.com/docs/reference/release-notes/v4.22/)版本
+
+<SubscribeFormEmbed />
+
+---
+
+## 📱 React-Native
+
+- 📦 [React Native 0.70 正式发布](https://reactnative.dev/blog/2022/09/05/version-070)
+- 📜 [全新 Expo CLI](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421)
+- 📜 [EAS 构建更新日志](https://blog.expo.dev/eas-build-changelog-43b886b2fa24)
+- 📜 [性能瞬间提升：从 FlatList 迁移到 FlashList](https://shopify.engineering/instant-performance-upgrade-flatlist-flashlist)
+- 📜 [告别模拟器——在 M1 Mac 上原生运行 Expo 开发客户端](https://medium.com/@derekstavis/ditch-the-simulator-running-expo-dev-client-natively-on-an-m1-mac-28d269e9af17)
+- 📜 [在 React Native 中同时支持网页和移动端时设置最大宽度](https://www.reactnativeschool.com/setting-max-width-when-supporting-web-and-mobile-in-react-native)
+- 🚧 [Metro `require.context`](https://github.com/facebook/metro/pull/822) + [Expo 文件系统路由演示](https://twitter.com/Baconbrix/status/1560353229241831425)
+- 🎥 [React-Native EU 2022](https://www.youtube.com/playlist?list=PLZ3MwD-soTTE-qcA0MrcvZBdmkHJSIjJX)
+- 💬 [ umbrella issue - 添加对 Web 样式的支持](https://github.com/facebook/react-native/issues/34425)
+- 💬 [RFC: 减少跨平台 API 碎片化](https://github.com/react-native-community/discussions-and-proposals/pull/496)
+- 💬 [迁移到新架构的主要痛点](https://github.com/reactwg/react-native-new-architecture/discussions/68)
+- 🎨 [Expo + 白标应用演示](https://twitter.com/Baconbrix/status/1557773847717416964)
+- 🎨 [Baran 动画演示](https://twitter.com/barany6m)
+- 🎨 [飞行动画演示](https://twitter.com/lima_lucas3)
+- 📡 [Meta 正在开发 Yoga 的继任者？](https://github.com/facebook/yoga/pull/1116#issuecomment-1201813564)
+- 🎙️ [React-Native-Radio #243-246](https://reactnativeradio.com/episodes)
+- 🎙️ [React Native Show #15 - Reassure](https://www.youtube.com/watch?v=8pTQKBHFs-8)
+
+---
+
+## 🧑‍💻 工作机会
+
+🧑‍💼 [**G2i - 100% 远程 JavaScript 工作**](https://www.g2i.co/)
+
+唯一将开发者健康放在首位的招聘平台。我们为 React 和 React Native 自由职业者对接那些致力于改善开发者心理、生理和情感健康的优秀公司。
+
+💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
+
+---
+
+## 🔀 其他
+
+- [Lightning CSS](https://lightningcss.dev/)
+- [TypeScript 4.8 发布公告](https://devblogs.microsoft.com/typescript/announcing-typescript-4-8/)
+- [TypeScript 4.9 迭代计划](https://github.com/microsoft/TypeScript/issues/50457)
+- [Oven.sh](https://oven.sh/)
+- [8月Web平台新功能](https://web.dev/web-platform-08-2022/)
+- [Chrome 105 新特性](https://developer.chrome.com/blog/new-in-chrome-105/)
+- [为什么CrUX数据与我的RUM数据不同？](https://web.dev/crux-and-rum-differences/)
+- [使用GPT3将测试从Cypress迁移到Playwright](https://contra.com/p/PWBcPYZc-rewriting-tests-from-cypress-to-playwright-using-gpt-3)
+- [关键CSS？别急！](https://csswizardry.com/2022/09/critical-css-not-so-fast/)
+- [GraphiQL 2.0](https://github.com/graphql/graphiql/releases/tag/graphiql%402.0.0)
+- [Bunchee - 零配置的ECMAScript库打包工具](https://github.com/huozhi/bunchee)
+- [可恢复性，什么鬼？](https://dev.to/this-is-learning/resumability-wtf-2gcm)
+- [JavaScript悖论](https://dev.to/this-is-learning/the-javascript-paradox-2njj)
+- [CSS容器查询终于来了](https://ishadeed.com/article/container-queries-are-finally-here/)
+- [使用:has()作为CSS父选择器及其他用途](https://webkit.org/blog/13096/css-has-pseudo-class/)
+- [使用正确的容器查询语法](https://www.oddbird.net/2022/08/18/cq-syntax/)
+- [Deno重大变革即将到来](https://deno.com/blog/changes) + [Deno 1.25](https://deno.com/blog/v1.25)
+- [PlanetScale JavaScript无服务驱动](https://planetscale.com/blog/introducing-the-planetscale-serverless-driver-for-javascript)
+- [初探Bun：它真的比Node.js和Deno快3倍吗？](https://dev.to/builderio/a-first-look-at-bun-is-it-really-3x-faster-than-nodejs-and-deno-45od)
+- [浏览器能优化第三方资源的加载吗？](https://developer.chrome.com/blog/third-party-scripts/)
+
+---
+
+[![表情包](/emails/issues/116/meme.png)](https://twitter.com/Keithamus/status/1562894696476999682)

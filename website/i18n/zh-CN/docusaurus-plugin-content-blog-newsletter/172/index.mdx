@@ -1,0 +1,175 @@
+---
+slug: /172
+title: "This Week In React #172: Next.js, PPR, Remotion, State of React Native, Parcel, Panda, StyleX, Cosmos, Remix, RTK, TypeScript, Skia, Reanimated, RNTL, Storybook, Flashlight, Tamagui..."
+authors: [slorber, bndkt]
+date: 01-31-2024
+---
+
+大家好！
+
+**[@ThisWeekInReact](https://twitter.com/ThisWeekInReact)** 是我们的全新X平台账号，快来订阅吧！我们的承诺是近乎实时地分享和转发React社区中有趣的动态，并尽可能做到**高信息量/低噪音**。
+
+本周React服务端组件再次成为多篇文章和讨论的焦点。社区对Next.js应用路由器的态度喜忧参半。尽管人们认同其愿景，但对当前实现似乎有些失望。希望这只是暂时的🤞。
+
+本周React Native尤其引人关注。[React Native现状](https://results.stateofreactnative.com/)调查报告已发布，整体反响日趋积极。报告中还涉及Skia、Reanimated以及无桥模式等亮点。社区对Expo正在成为全栈通用框架感到兴奋。
+
+祝阅读愉快！
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化版式 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![Axiom - Vercel应用的最佳日志平台](/emails/issues/171/axiom.jpg)](https://axiom.co/vercel)
+
+**[Axiom - Vercel应用的最佳日志平台](https://axiom.co/vercel)**
+
+😴 安心入睡，Axiom为Vercel项目提供的零配置可观测性为您保驾护航。
+
+- 使用Axiom预建仪表板总览所有Vercel日志和性能指标，一键深入查看具体项目与部署，获取函数执行洞察
+- [next-axiom](https://github.com/axiomhq/next-axiom) 支持从Next.js项目的任何部分（客户端、边缘或服务端）直接发送日志和事件，无需特殊配置
+- 轻松从代码发送结构化日志，并与Vercel日志进行关联分析
+
+Axiom高效捕获100%事件数据，您永远无需担心采样或保留问题，也无需猜测用户体验。
+
+**附注**：[我本人用它来监控简报订阅情况](https://twitter.com/sebastienlorber/status/1528666563452317696) 😉
+
+---
+
+## ⚛️ React动态 {#react}
+
+[![Next.js深度解析](/emails/issues/172/ppr.jpg)](https://www.youtube.com/watch?v=MTcPrTIBkpA)
+
+🎥 [**Next.js深度解析 - 部分预渲染**](https://www.youtube.com/watch?v=MTcPrTIBkpA)
+
+视频内容很少成为这里的头条，但本期视频有几个特别之处。
+
+首先是主题极具吸引力，通过丰富的动画可视化进行了精彩讲解。部分预渲染作为[Next.js 14实验性功能](https://nextjs.org/blog/next-14#partial-prerendering-preview)，完善了Next.js的愿景，在静态与动态渲染间取得了完美平衡。这使Next.js成为支持全频谱渲染范式的多范式框架。该特性易于采用，基于Suspense构建且无需新API：仅需启用一个标志。
+
+其次：这部制作精良的视频是用[Remotion](https://www.remotion.dev/)通过React网页代码制作的🙉。干得漂亮Delba！我们期待更多此类视频，并想了解您的Remotion创作过程。值得一提的是，Remotion团队刚通过[GitHub Unwrapped 2023幕后花絮](https://www.youtube.com/watch?v=WW8vIZ1kwR0)分享了他们的经验。
+
+---
+
+- 💸 [使用MightyMeld加速React代码库开发流程，这款可视化开发工具支持拖放、点击和提示式UI编排，同时保留手动编码灵活性。](https://www.mightymeld.com/?utm_source=thisweekinreact5&utm_medium=newsletter&utm_campaign=1&utm_content=top)
+- 👀 [React核心PR - react-server-dom-parcel包](https://github.com/facebook/react/pull/28138)：Parcel团队的Devon正在开发新的打包器集成方案。
+- 👀 [Remix - 通过Remix Vite插件实现对Cloudflare的支持](https://github.com/remix-run/remix/tree/dev/templates/unstable-vite-cloudflare)
+- 🐦 [Partykit - React服务端组件实时功能预览](https://twitter.com/threepointone/status/1751963277394116993)
+- 📜 [Panda CSS初体验](https://newsletter.baptiste.devessier.fr/archive/my-first-impressions-of-panda-css/)：Baptiste曾青睐Tailwind，但出于类型安全、样式分组可读性及开箱即用的样式合并/变体支持等优势，现更推荐Panda。
+- 📜 [实现Next.js路由完全类型安全](https://www.flightcontrol.dev/blog/fix-nextjs-routing-to-have-full-type-safety)：Next.js实验性typedRoute功能尚不完善，通过路由构建器API可提升路由参数、搜索参数及链接等场景的类型安全。
+- 📜 [迁移至Next.js应用路由器的利弊分析](https://www.flightcontrol.dev/blog/nextjs-app-router-migration-the-good-bad-and-ugly)：Flightcontrol团队使用App Router重构仪表盘后反馈，虽有亮点但整体更倾向选择Remix，并直言不愿再使用Next.js开发服务器（注：他们仍停留在v13.5，近期性能已改善）。
+- 📜 [forwardRef在泛型组件中的用法](https://www.totaltypescript.com/forwardref-with-generic-components)：Matt通过包装forwardRef重定义类型以解决类型推断问题。
+- 📜 [Next.js公共环境变量免重建更新方案](https://phase.dev/blog/nextjs-public-runtime-variables/)：NEXT_PUBLIC变量在构建时被内联至客户端包，本文提出使用查找替换脚本实现免重建更新。
+- 📜 [2024年如何启动React项目](https://www.robinwieruch.de/react-starter/)：Robin对比分析使用Vite、Next.js或Astro启动React项目的权衡取舍。
+- 📜 [在App Router RSC中引入静态文件](https://www.hipstersmoothie.com/blog/posts/including-static-files-with-rscs)：演示Webpack高级特性如require.context和内联加载器的使用。
+- 📜 [用Astro暂别React与Qwik的对比](https://thenewstack.io/take-a-qwik-break-from-react-with-astro/)：Paul通过多案例对比Qwik与React，称"编码体验类React，运行效果近原生"。
+- 📜 [React服务端组件在Web发展史中的定位](https://dev.to/matfrana/where-do-react-server-components-fit-in-the-history-of-web-development-1l0f)
+- 📦 [Remix-Client-Cache - 利用clientLoader缓存服务端loader数据](https://github.com/Code-Forge-Net/remix-client-cache)
+- 📦 [StyleX 0.5 - 新增stylex.attrs函数、ESLint排序规则、Babel别名选项及esbuild插件](https://stylexjs.com/blog/v0.5.0)
+- 📦 [React Cosmos 6 - 独立开发测试UI组件的沙盒环境，支持RSC、插件系统及Vite/Webpack/Next.js/RN集成，新增惰性模式和MDX夹具](https://github.com/react-cosmos/react-cosmos/releases/tag/v6.0.0)
+- 📦 [Panda CSS 0.29 - 配置验证、模式默认值、媒体查询令牌、颜色透明度调节等](https://github.com/chakra-ui/panda/discussions/2110)
+- 📦 [React-Live-Chat-Loader 2.9 - 高性能实时聊天集成，新增HubSpot/Front支持](https://github.com/calibreapp/react-live-chat-loader/)
+- 📦 [fumadocs - 基于Next.js的强大多文档站点构建框架](https://github.com/fuma-nama/fumadocs)
+- 📦 [React Bricks 4.2 - 支持RSC](https://docs.reactbricks.com/docs/rsc/visual-components/)
+- 📦 [Redux Toolkit 2.1发布](https://github.com/reduxjs/redux-toolkit/releases/tag/v2.1.0)
+- 🎥 [Jack Herrington - RSC和NextJS真有那么糟？](https://www.youtube.com/watch?v=u0OMdWJfdhg)：通过三个案例对比证明App Router在开发体验上显著优于Page Router，并演示如何轻松封装分发RSC逻辑。
+- 🎥 [Nadia Makarevich - React进阶：全面解析记忆化机制](https://www.youtube.com/watch?v=huBxeruVnAM)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![React 全栈用户管理解决方案](/emails/issues/172/clerk.jpg)](https://clerk.com/?utm_source=sponsorship&utm_medium=newsletter&utm_campaign=thisweekinreact&utm_term=01-31-24)
+
+**[React 全栈用户管理解决方案](https://clerk.com/?utm_source=sponsorship&utm_medium=newsletter&utm_campaign=thisweekinreact&utm_term=01-31-24)**
+
+Clerk 为 React 应用提供开箱即用的身份验证和用户管理功能，助力现代 Web 应用快速上线。
+
+Clerk 核心优势：
+
+- 💅 预制登录/注册/用户资料/组织管理等 UI 组件，支持任意 CSS 库定制并部署到自有域名
+- 📦 提供 React/React Native/Next.js/Redwood/Remix 等框架的 SDK
+- ⚡ 无缝集成 Firebase/Supabase/Convex 等 BaaS 服务
+- 🎁 内置用户管理、社交登录、魔法链接、多因素认证等功能
+
+立即体验 [快速入门指南](https://clerk.com/docs/quickstarts/overview?utm_source=sponsorship&utm_medium=newsletter&utm_campaign=thisweekinreact&utm_term=01-31-24) 开启项目🚀
+
+---
+
+## 📱 React-Native 动态 {#react-native}
+
+本栏目现由 [Benedikt](https://twitter.com/bndkt) 联合主理，欢迎通过邮件或 [Twitter](https://twitter.com/bndkt) 与我们互动！
+
+[![2023年React Native生态调查报告](/emails/issues/172/stateofrn.jpg)](https://results.stateofreactnative.com/)
+
+**[2023年React Native生态调查报告](https://results.stateofreactnative.com/)**
+
+作为各类"生态现状"调研的忠实读者，我认为这些报告能独特地揭示技术生态的真实发展态势。社交媒体上的热度是一回事，而开发者实际采用的数据则是另一番景象。因此看到第二届React Native年度调研结果发布令我倍感欣喜！通过对比去年数据，我们还能洞察一些趋势变化。欲知详情请查阅[完整报告](https://results.stateofreactnative.com/)，以下是我发现的几个有趣现象（部分结果确实出人意料）：
+
+- 状态管理领域仍处于非常有趣的状态（双关语），Redux以仅44%的留存率（去年为57%）排名垫底，但在使用率方面仍以78%（去年为85%）紧随React原生能力之后位居第二。
+- 数据获取类别的结果与社交媒体上的关注度相符，TanStack Query和tRPC在兴趣度和留存率方面占据榜首，而Meta自家的Relay在Meta外部基本无关紧要，使用率仅为5%。
+- 导航的未来属于Expo Router，其使用率从去年的12%激增至如今的40%。
+- 从社交媒体活跃度来看，样式方案是讨论最热烈的类别，选项繁多。实际使用中，经典方案（StyleSheet API、行内样式、styled-components）仍占主导，NativeWind和Tamagui正在迎头赶上。Tamagui在过去一年成功吸引了最多关注（在UI组件库中也拥有最高留存率和兴趣度），紧随其后的是新晋竞争者react-native-unistyles。
+- 特别提及Expo：在"React Native工具"部分，前10名工具中有6个来自Expo，部署类别的前2名选项也由Expo包揽。
+- 超过85%的受访者认为React Native正朝着正确方向前进，认为当前RN应用开发过于复杂的开发者比例从约30%降至25%——这个比例仍然偏高，但我们似乎正走在正确的道路上！
+
+总体而言，这些非常值得[详细查阅](https://results.stateofreactnative.com/)的调研结果！衷心感谢Bartłomiej、Kacper和Software Mansion团队促成此事！
+
+---
+
+- 💸 [Moropo - 告别调试耗时，快速构建有价值的测试](https://www.moropo.com?utm_source=newsletter&utm_medium=emails&utm_campaign=twir-20240131)
+- 👀 [React Native 0.74 PR - 启用新架构时默认采用无桥模式](https://github.com/facebook/react-native/pull/42714)
+- 👀 [Reanimated PR - 生成器支持](https://github.com/software-mansion/react-native-reanimated/pull/5565): William Candillon 使用生成器编写动画效率显著，并为此功能贡献给 Reanimated (🐦 [演示](https://twitter.com/wcandillon/status/1751893521907261773))
+- 👀 [Flashlight React Native 性能看板](https://app.flashlight.dev/projects/react-native): 使用 Flashlight 追踪各版本 React Native 性能表现，目前仅包含基于 FlatList 的测试场景。
+- 🐦 [React Native visionOS - 即将推出全新 𝚂𝚙𝚊𝚝𝚒𝚊𝚕 API](https://x.com/o_kwasniewski/status/1750532404245373434?s=20)
+- 📖 [Expo 文档 - Sentry 集成指南](https://docs.expo.dev/guides/using-sentry/): SDK 50 中 Expo 与 Sentry 的集成大幅简化，现在仅需单个依赖 (@sentry/react-native) 且无需在 app.json 配置钩子。
+- 📖 [Skia 文档 - 新 Atlas 组件 - 高效渲染海量相似纹理/图像](https://shopify.github.io/react-native-skia/docs/shapes/atlas/): 查看 🐦 [效果演示](https://twitter.com/alihdjr/status/1751175731533488464)
+- 🧑‍🎓 [使用 Expo EAS 构建部署 React Native 应用 - Expo 工程师 Kadi Kraman 的免费 Egghead 课程](https://egghead.io/courses/build-and-deploy-react-native-apps-with-expo-eas-85ab521e)
+- 📜 [John Gruber - 苹果应对欧盟 DMA 法案的策略](https://daringfireball.net/2024/01/apples_plans_for_the_dma): 苹果为满足欧盟要求对 App Store 进行多项调整，多家媒体评价其为"恶意合规"。(另参阅: 📖 [苹果开发者文档](https://developer.apple.com/support/alternative-browser-engines/))
+- 📜 [2024 年 React Native 测试库推荐实践](https://mdj.hashnode.dev/recommended-practices-for-react-native-testing-library-in-2024): RNTL 作者 Maciej 分享最新功能指南（如 screen API 和语义化查询）。
+- 📜 [React Native WebView 通信机制](https://making.close.com/posts/react-native-webviews): 本文详解如何建立原生与网页端的通信链路，避免混合开发中的割裂感。
+- 📜 [基于 React Native 和 Skia 构建类 PhotoRoom 的背景移除应用](https://medium.com/@ludwighenne/building-a-photoroom-like-background-remover-app-with-react-native-and-skia-%EF%B8%8F-540743c6ec0f)
+- 📦 [React Native Storybook 7](https://github.com/storybookjs/react-native/discussions/545): 历经迭代后终与主项目大版本同步。
+- 📦 [React Native 0.73.3 - 错误修复版](https://github.com/facebook/react-native/releases/tag/v0.73.3)
+- 📦 [vision-camera-resize-plugin 2.0: 完全重写为 C++，性能显著提升，支持自定义裁剪逻辑](https://github.com/mrousavy/vision-camera-resize-plugin/releases/tag/v2.0.0)
+- 📦 [Tamagui 1.88 - 重大更新：支持 Expo SDK 50，通过新版 Metro 插件简化配置](https://github.com/tamagui/tamagui/releases/tag/v1.88.0)
+- 📦 [Create Expo Stack 2.4 - 集成 Expo SDK 50/Expo Router v3/NativeWind v4/Shopify Restyle/Unistyles 的启动模板](https://github.com/danstepanov/create-expo-stack/releases/tag/create-expo-stack%402.4.0)
+- 🎙️ [RNR 286 期 - React Native 0.73 新特性解析](https://x.com/ReactNativeRdio/status/1751015494591918434?s=20)
+- 🎙️ [Rocket Ship 27 期 - Theo Browne 谈 React Native 的超级能力](https://share.transistor.fm/s/5b8f8a1a)
+- 🎥 [Simon Grimm - 它能取代 NextJS 吗？](https://www.youtube.com/watch?v=gzehQxHxtfw): 成为全栈框架的 Expo Router 正直接对标 Next.js。
+- 🎥 [Theo Brown - 移动开发者为何厌恶服务端？Expo 的解决之道](https://www.youtube.com/watch?v=2P0q1EdH_oQ)
+
+---
+
+## 🔀 其他 {#other}
+
+- 📜 [CSS revert-layer 的几种使用场景 - 比 Shadow DOM 更好的隔离/封装方案](https://www.mayank.co/blog/revert-layer/)
+- 📜 [你可能并不需要 eslint-config-prettier 或 eslint-plugin-prettier](https://www.joshuakgoldberg.com/blog/you-probably-dont-need-eslint-config-prettier-or-eslint-plugin-prettier/)
+- 📜 [Web Component 的成功故事](https://jakelazaroff.com/words/the-web-component-success-story/)
+- 📜 [12 个现代 CSS 单行升级技巧](https://moderncss.dev/12-modern-css-one-line-upgrades/)
+- 📜 [Zed 现已开源 - 免费的基于 Rust 的现代 IDE](https://zed.dev/blog/zed-is-now-open-source)
+- 📦 [TypeScript 5.4 Beta - 新增 `NoInfer<T>`、闭包类型收窄、groupBy...](https://devblogs.microsoft.com/typescript/announcing-typescript-5-4-beta/)
+- 📦 [Safari 17.4 beta - 支持 groupBy、withResolvers、@scope、ArrayBuffer 及 Intl 改进](https://developer.apple.com/documentation/safari-release-notes/safari-17_4-release-notes)
+- 📦 [Qwik 1.4 - JSX 类型变更、自动 Link 预取、MPA 导航回退](https://github.com/BuilderIO/qwik/releases/tag/v1.4.0)
+- 📦 [Lucia Auth 3.0 - 大幅简化的库，OAuth 逻辑抽离至新包 "arctic"](https://github.com/lucia-auth/lucia/discussions/1361)
+- 📦 [Shiki 1.0 beta.0 - 现代 ESM 语法高亮器 - 将 Shikiji 合并回 Shiki](https://github.com/shikijs/shiki/releases/tag/v1.0.0-beta.0)
+- 📦 [Adonis v6 - ESM 支持、类型安全改进...](https://adonisjs.com/blog/adonisjs-v6-announcement)
+- 📦 [Deno 1.40 - 新增 Temporal API、meta.filename/dirname、装饰器](https://deno.com/blog/v1.40)
+
+---
+
+## 🤭 趣味 {#fun}
+
+[![alt](/emails/issues/172/meme.jpg)](https://twitter.com/dabit3/status/1752143163546911036)
+
+下次见！👋

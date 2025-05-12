@@ -1,0 +1,136 @@
+---
+slug: /170
+title: "This Week In React #170: Waku, Remix, Donuts, RSC resentment, React 19, Aria Components, Storybook, Postgres Components, hydration, streams, VisionOS, atob, Maestro, Orbit, Tamagui, VisionCamera..."
+authors: [slorber, bndkt]
+date: 01-17-2024
+---
+
+大家好！
+
+本周我们收获了一些非常棒的React文章，同时Waku和Remix也发布了有趣的更新。社区对React服务端组件提出了既有关注又有保留的反馈，主要集中在复杂性和所有权问题上。
+
+React Native方面较为平静。我们正热切等待比测试版发布延迟许久的Expo SDK 50，同时也期待VisionOS这一React Native即将支持的新平台正式亮相。
+
+我刚庆祝了[自己使用React十周年](https://twitter.com/sebastienlorber/status/1747307299356447148)🙉 想到当年我其实很讨厌JavaScript，React对我职业生涯的改变真是难以置信。
+
+<!-- truncate -->
+
+**💡 [在Twitter上浏览本期简报](https://slo.im/thread) - 可视化排版 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![支持Next.js/Remix/Gatsby的所见即所得CMS](/emails/issues/169/reactbricks.jpg)](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)
+
+**[支持Next.js/Remix/Gatsby的所见即所得CMS](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)**
+
+[**1分钟快速创建项目**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)，通过CLI将React组件定义为可视化区块，使用任意CSS框架实现像素级品牌呈现。
+
+内容编辑者可以像使用文字处理器那样直观地组合页面，同时完全保持设计系统规范。
+
+React Bricks具备企业级功能：数字资产管理、高级SEO、协作编辑、定时发布、多语言支持、外部数据源集成、审批流程、单点登录、多环境部署、备份与版本历史。
+
+已获The Weather Channel、Deel.com、法国邮政银行等企业客户及全球8500+用户信赖。  
+[**立即体验！**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)
+
+---
+
+## ⚛️ React动态 {#react}
+
+[![Waku 0.19](/emails/issues/170/waku.jpg)](https://waku.gg/blog/introducing-create-pages)
+
+**[Waku 0.19](https://waku.gg/blog/introducing-create-pages)**
+
+本次更新推出了编程式创建布局和页面的新API `createPage`，标志着Waku从React服务端组件学习平台正式转型为生产级React框架。轻量级文件路由功能预计将在v0.20实现。
+
+---
+
+[![甜甜圈组件设计](/emails/issues/170/donuts.jpg)](https://frontendatscale.com/blog/donut-components/)
+
+**[甜甜圈组件设计](https://frontendatscale.com/blog/donut-components/)**
+
+这篇充满趣味的交互式文章用甜甜圈（带"children"孔洞的客户端组件）比喻生动阐释了客户端/服务端组件的嵌套原理，还深入探讨了RSC组合的高级用法。我从中学会了那个巧妙的服务器动作渲染属性技巧！
+
+---
+
+- 💸 [参与开发者国家调查 - 每份完整回复，Developer Nation将向受访者选择的慈善机构捐赠！](https://developereconomics.net/?member_id=thisweekinreact&utm_medium=nl_ad4)
+- 🐦 [Dan Abramov - "React服务端组件并不强制需要服务器"](https://twitter.com/dan_abramov2/status/1745795274977493317): 再次重要提醒，RSCs也可以完全在构建时运行，CI就是你的服务器。你可以使用RSCs将完全静态的Next.js站点部署到S3或GitHub Pages。
+- 🐦 [React v19即将到来 - React v18.3暂无计划](https://twitter.com/sebastienlorber/status/1747633798374625525)
+- 🐦 [预渲染(SSG)功能即将登陆Remix](https://twitter.com/brophdawg11/status/1747402216925704684)
+- 👀 [React Postgres组件](https://react-postgres-components.vercel.app/): 在Postgres RPC内部使用V8渲染React SSR？听起来疯狂，但确实可行！
+- 📜 [2024年React库推荐](https://www.robinwieruch.de/react-libraries/): 如同往年，Robin Wieruch更新了他推荐的React库列表，这是发现生态系统中众多库的好方法。
+- 📜 [对React有些恼火](https://blog.cassidoo.co/post/annoyed-at-react/): Cassidy分享了对React当前状态的合理看法，似乎引起了社区的共鸣，特别是🐦 [Tanner Linsley带着日益增长的抵触情绪使用React](https://twitter.com/tannerlinsley/status/1746970043836158330)。
+- 📜 [React，你要去向何方？](https://dev.to/matfrana/react-where-are-you-going-5284): Matteo在Cassidy的观点基础上，阐述了他对React所有权和日益复杂化的挫败感。他主张建立一个财务可持续的社区驱动框架。让我震惊的是，为他们的库React-Bricks添加RSC支持反而降低了开发体验（也有其他人证实了这一点，🐦 [推文](https://twitter.com/sebastienlorber/status/1747643069460021405)）。
+- 📜 [流与React服务端组件](https://minimalistweb.dev/p/streams-and-react-server-components): 即使抛开RSC不谈，这篇由Waku贡献者撰写的文章也是对Streams API的深度剖析。
+- 📜 [服务端渲染本地时间而无FOUC](https://blog.6nok.org/server-side-rendering-local-dates-without-fouc/): 在尝试以用户时区渲染时间时，React水合不匹配很常见。本文建议在React水合之前内联脚本修改SSR渲染的时间以避免不匹配。
+- 📜 [如何在Next.js中设置客户端-服务端中继](https://ericbureltech.hashnode.dev/how-to-setup-client-server-relaying-in-nextjs): 解释了我们如何在服务端渲染动态值，然后让SWR在客户端接管该值。
+- 📜 [向Panda CSS问好 - 零运行时的新CSS-in-JS库](https://www.telerik.com/blogs/say-hello-panda-css-new-css-js-library-zero-runtime)
+- 📜 [使用React Hook Form构建动态表单](https://claritydev.net/blog/build-dynamic-forms-react-hook-form)
+- 📦 [Remix 2.5 - SPA模式](https://github.com/remix-run/remix/blob/main/CHANGELOG.md#v250): 使用SPA模式部署无需服务器的Remix应用（例如在GitHub pages上），生成单个`index.html`文件。
+- 📦 [React-Aria组件 + Tailwind入门套件 - 可修改的新一组精美样式组件](https://react-spectrum.adobe.com/react-aria/getting-started.html#starter-kits)
+- 🎥 [Storybook 7与React的初学者指南 - 免费Egghead课程](https://egghead.io/courses/a-beginner-s-guide-to-storybook-7-with-react-56f61ecf)
+- 🔐 [@clerk/nextjs中的关键安全漏洞 - 升级至4.29.3](https://clerk.com/changelog/2024-01-12)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![使用Apryse的React PDF库处理文档](/emails/issues/170/apryse.jpg)](https://bit.ly/3He15PD)
+
+**[使用Apryse的React PDF库处理文档](https://bit.ly/3He15PD)**
+
+通过Apryse的React PDF库为您的应用程序带来变革。无缝集成卓越的跨平台文档查看体验，支持Web、移动端和桌面端。可对PDF、Microsoft Office文档、视频、图像、HTML等多种格式进行查看、编辑、密文遮盖及批注。
+
+立即开启[免费试用](https://apryse.com/form/contact-sales?utm_source=email%20newsletter&utm_medium=email&utm_campaign=cta%20button)。
+
+---
+
+## 📱 React-Native {#react-native}
+
+- 💸 [Moropo - 直接在浏览器中构建和运行开源React Native测试](https://www.moropo.com?utm_source=newsletter&utm_medium=emails&utm_campaign=twir-20240117)
+- 👀 [Expo 50发布会直播定于2024年1月31日举行](https://www.youtube.com/watch?v=cKFSVUo3AnI)
+- 👀 [Hermes引擎新增atob()和btoa()方法](https://github.com/facebook/hermes/commit/d2177c31b271e92d1725742605b53d7f6e8acf3e)
+- 👀 [ChatGPT React Native助手](https://chat.openai.com/g/g-S9qpp72cb-react-native-buddy)
+- 📅 [App.js Conf征稿截止1月28日](https://appjs.co/#CFP)
+- 📜 [用Maestro解锁新可能：超越自动化测试](https://www.bam.tech/article/unlocking-new-possibilities-with-maestro-beyond-automated-testing)：介绍如何通过Maestro实现React Native应用的自动化视觉测试。
+- 📦 [Tamagui官方设计系统Figma资源发布](https://www.figma.com/community/file/1326593766534421119/tamagui-v1-2-0)：使用Figma中的Tamagui组件进行设计。
+- 📦 [React Native Test App 3.0](https://github.com/microsoft/react-native-test-app/releases/tag/3.0.0)：微软为库作者提供的测试应用。主要进行清理性更新，放弃对Node 14、React Native 0.65及更早版本以及Flipper的支持。
+- 📦 [通过新CLI命令支持React Native visionOS](https://github.com/callstack/react-native-visionos)：visionOS即将推出，社区正竞相让React Native为其做好准备。
+- 📦 [vision-camera-resize-plugin - 用于快速缓冲区调整大小的帧处理器插件](https://github.com/mrousavy/vision-camera-resize-plugin)
+- 📦 [Expo Orbit 1.0.2](https://expo.dev/orbit)
+- 🎥 [Simon Grimm - 比React Native Stylesheet更好用的Unistyles](https://www.youtube.com/watch?v=OT5hQbvGRW8)
+- 🎙️ [Rocket Ship第25期 - 与Kadi Kraman探讨EAS、Expo Prebuild及SDK 50](https://podcast.galaxies.dev/episodes/025-eas-expo-prebuild-sdk-50-with-kadi-kraman)
+- 🎙️ [React Native Show第33期 - 与Rafael Mendiola探讨规模化React Native开发](https://www.callstack.com/podcasts/react-native-at-scale-with-rafael-mendiola)
+
+---
+
+## 🔀 其他 {#other}
+
+- 📜 [Rspack新增模块联邦功能](https://www.rspack.dev/blog/module-federation-added-to-rspack.html)
+- 📜 [基于Rust的JavaScript代码检查工具：速度快，但目前不支持类型检查](https://www.joshuakgoldberg.com/blog/rust-based-javascript-linters-fast-but-no-typed-linting-right-now/)
+- 📜 [npm年度回顾：2023年增长、安全与趣事](https://socket.dev/blog/2023-npm-retrospective)
+- 📜 [htmx只是另一个JavaScript框架吗？](https://htmx.org/essays/is-htmx-another-javascript-framework/)
+- 📜 [设计更合理的点击目标尺寸（CSS篇）](https://ishadeed.com/article/target-size/)
+- 📜 [Node.js安全进展报告](https://openjsf.org/blog/nodejs-security-progress-report-january24?utm_content=278704719&utm_medium=social&utm_source=twitter&hss_channel=tw-91985735)
+- 📦 [Node.js 21.6 - 权限模型改进](https://nodejs.org/en/blog/release/v21.6.0)
+- 📦 [gql.tada - 理解GraphQL的TypeScript工具](https://github.com/0no-co/gql.tada)
+- 📦 [Lightning CSS 1.23](https://github.com/parcel-bundler/lightningcss/releases/tag/v1.23.0)
+- 📦 [Prettier 3.2 - 支持JSONC、Angular的ICU表达式](https://prettier.io/blog/2024/01/12/3.2.0)
+- 📦 [fsx - 面向JavaScript的现代文件系统API](https://humanwhocodes.com/blog/2024/01/fsx-modern-filesystem-api-javascript/)
+
+---
+
+## 🤭 趣闻 {#fun}
+
+[![alt](/emails/issues/170/meme.jpg)](https://twitter.com/tlakomy/status/1745394119889801454?s=20)
+
+下次见！👋

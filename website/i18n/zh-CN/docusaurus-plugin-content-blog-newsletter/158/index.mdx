@@ -1,0 +1,164 @@
+---
+slug: /158
+title: "This Week In React #158: Astro, Server Components, VisionCamera, Owner Tree, Props Drilling, Next.js, Remix, Chakra, TypeScript, Skia, Biome, CSS, Node.js..."
+authors: [slorber]
+date: 09-06-2023
+---
+
+大家好！
+
+本期我们将涵盖两周的新闻，包括两个重要版本发布：Astro 3.0和VisionCamera 3.0。同时还有大量有趣的文章，因此我不得不做些筛选！
+
+Bun 1.0将于今晚发布。我很好奇他们会带来什么新特性。在单元测试中用它替代Jest进行测试时，速度确实非常快。
+
+React-Native EU大会今天开幕。我发现[🐦 一些非常精彩的演讲](https://twitter.com/sebastienlorber/status/1696837186677530813)，特别是关于静态Hermes的分享。
+
+想去意大利的朋友们，可以参加10月27日在维罗纳举办的[reactjsday](https://2023.reactjsday.it/)。大会为读者提供[-10%门票优惠](https://ti.to/grusp/reactjsday-2023/discount/media_TWIR)，还有2张在线/远程门票，我将赠予最先回复邮件申领的两位读者。
+
+我常忘记在这里提及，但我"公开构建"。你可以查看我最新的[月度Indie Hackers报告](https://www.indiehackers.com/product/french-react-newsletter)和[🐦 Twitter详情](https://twitter.com/sebastienlorber/status/1699065823959421109)。
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化格式 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助 {#sponsor1}
+
+[![Frontendmasters](/emails/issues/158/frontendmasters.jpg)](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)
+
+**[FrontendMasters – 从初级到高级React开发者的完整学习路径](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)**
+
+从零开始学习React.js，直至掌握性能优化、测试和代码质量等高级主题。首先通过《React完全入门》构建真实应用，接着用《中级React》集成生态中最流行的工具，最后学习性能优化、TypeScript乃至全栈React框架Next.js！
+
+---
+
+## ⚛️ React {#react}
+
+[![Astro 3.0](/emails/issues/158/astro3.jpg)](https://astro.build/blog/astro-3/)
+
+[**Astro 3.0**](https://astro.build/blog/astro-3/)
+
+新版本Astro的创新点在于运用了View Transition API，实现页面间流畅的转场动画效果，同时保持组件状态。这减少了许多场景下对SPA的需求。
+
+其他显著改进包括：
+
+- 稳定的图片优化功能
+- 渲染性能提升30-75%
+- 无服务端渲染增强：新增与托管平台的连接方式
+- JSX热更新增强：支持React和Preact的快速刷新
+- 优化的构建输出：更简洁高效的HTML
+
+---
+
+[![理解React服务端组件](/emails/issues/158/rsc.jpg)](https://www.joshwcomeau.com/react/server-components/)
+
+[**理解React服务端组件**](https://www.joshwcomeau.com/react/server-components/)
+
+Josh Comeau带着他对React服务端组件的精彩解读回归，这篇源自他下周即将发布的[课程](https://www.joyofreact.com/)。丰富的动态图解让这个React新范式变得通俗易懂。
+
+---
+
+- 💸 [从零到上线 - 掌握快节奏全栈开发并**最终**发布产品](https://www.zerotoshipped.com/)
+- 🐦 [Remix v2 预发布版](https://twitter.com/remix_run/status/1696525340640936190)：若已启用[v2未来标志](https://remix.run/blog/future-flags)，您应能轻松升级并移除这些标志。
+- 🐦 [Dan Abramov加入Bluesky](https://twitter.com/dan_abramov/status/1695566446007386214)：Dan已离开Meta并加入这个基于跨平台Expo应用的Twitter竞品。我认为这是重大利好消息，我们可能收获了一位强力布道者[来推广跨平台和Expo](https://twitter.com/dan_abramov/status/1699476986727399933)。
+- 🐦 [Next.js应用路由器的测试文档（开发中）](https://twitter.com/leeerob/status/1698758756924825723)
+- 🧑‍🎓 [Next.js应用路由器 - 表单与变更文档](https://nextjs.org/docs/app/building-your-application/data-fetching/forms-and-mutations)：新文档页面详解Server Actions及React的`useFormStatus`和`useOptimistic`钩子用法。
+- 💬 [Next.js Tim Neutkens深度解析 - 缓存与重新验证](https://github.com/vercel/next.js/discussions/54075)
+- 📜 [React中的父级与所有者：数据流](https://julesblom.com/writing/parents-owners-data-flow)：原创交互式可视化文章，解析属性钻取问题及如何通过插槽组件规避。清晰图解父树与所有者树概念，属性钻取问题在图表中一目了然。
+- 📜 [挑战既定规范：让组件获取成为例外](https://jjenzz.com/making-component-fetching-the-exception/)：提倡在路由层级执行查询以避免瀑布流，并通过组合模式规避属性钻取的有趣观点。
+- 📜 [Rust服务端组件](https://anto.pt/articles/rust-server-components)：尝试用Rust、HTMX等库部分复现RSC、MDX和Suspense功能。"相当于Rust版的T3技术栈"。阅读体验佳，虽不熟悉Rust，但不确定最终方案能否解决RSC的所有问题。
+- 📜 [Chakra、Panda与Ark - 未来规划？](https://www.adebayosegun.com/blog/chakra-panda-ark-whats-the-plan)：Segun解答关于其库的诸多疑问。Chakra v3将于Q4发布，但仍使用Emotion。"use client"的加入使其更易在RSC中使用。采用Radix的`asChild`模式。
+- 📜 [如何在React中将组件作为属性传递](https://www.totaltypescript.com/pass-component-as-prop-react)：Matt分享TypeScript+React类型技巧。实现"as"属性的类型定义相当复杂😬。
+- 📜 [在Remix应用中用zod处理类型安全的通知提示](https://alemtuzlak.hashnode.dev/handling-toasts-in-remix)：讲解如何利用Remix闪存会话在操作后提供反馈。
+- 📜 [为Vercel优化Next.js冷启动](https://holocron.so/blog/optimizing-next.js-cold-starts-for-vercel)
+- 📜 [用TypeScript强类型化React属性](https://www.totaltypescript.com/react-props-typescript)
+- 📜 [你可能不需要useEffectAsync钩子](https://krassnig.dev/blog/you-might-not-need-a-use-effect-async-hook.html)
+- 📜 [Web开发者们，CSS-in-JS正在毁掉你们的产品](https://cord.com/blog/migrating-from-css-in-js-to-vanilla-extract)
+- 📜 [构建你自己的无头UI组件](https://www.jacobparis.com/content/react-headless-submenus)
+- 📜 [构建通知提示组件](https://emilkowal.ski/ui/building-a-toast-component)
+- 📦 [next-flat-routes](https://github.com/ifyio/next-flat-routes)
+- 📦 [Puck - 自托管的React拖拽编辑器](https://github.com/measuredco/puck)
+- 📦 [react-prod-sourcemaps](https://github.com/markerikson/react-prod-sourcemaps)
+- 📦 [Reshaped 2.2 - 现已登陆NPM](https://reshaped.so/content/blog/2.2)
+- 👥 [reactjsday](https://2023.reactjsday.it/)（意大利维罗纳🇮🇹，2023年10月27日）为我们提供[会议门票9折优惠](https://ti.to/grusp/reactjsday-2023/discount/media_TWIR)，优惠码"media_TWIR"
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![谷歌表单的全功能非云端替代方案](/emails/issues/155/surveyjs.jpg)](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)
+
+**[谷歌表单的全功能非云端替代方案](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)**
+
+如果您正在寻找一个与IT基础设施深度集成、能完全掌控数据流向的健壮表单管理系统，且不希望耗费数月时间和数千美元来搭建，那么SurveyJS正是您需要的解决方案！
+
+SurveyJS是由四个开源JavaScript库构成的产品套件，支持通过拖拽式表单构建器创建和编辑动态JSON表单，在React应用中渲染表单，并将敏感调查数据存储于自有基础设施中。您还可以将自定义问卷渲染为可编辑的浏览器PDF文件，并通过交互式图表和表格可视化调查结果。[立即了解更多](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)。
+
+---
+
+## 📱 React-Native {#react-native}
+
+[![VisionCamera 3.0](/emails/issues/158/visioncamera3.jpg)](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.0.0)
+
+[**VisionCamera 3.0**](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.0.0)
+
+新版VisionCamera已正式发布，主要亮点包括：
+
+- 完整的Android Camera2重写
+- 自定义GPU OpenGL视频处理管线
+- 新增相机功能
+- 全新帧处理器引擎（react-native-worklets-core）
+- 新版帧处理器插件API
+
+Marc最终决定[移除与Skia的集成](https://github.com/mrousavy/react-native-vision-camera/pull/1740)，以保持VisionCamera的代码体积和复杂度在合理范围内。
+
+在[**使用VisionCamera V3、TFLite和Skia实现姿态检测**](https://mrousavy.com/blog/VisionCamera-Pose-Detection-TFLite)一文中，他详细阐述了这种技术集成的可能性，其成果令人印象深刻。
+
+[![使用VisionCamera V3、TFLite和Skia实现姿态检测](/emails/issues/158/frame-processing-skia.jpg)](https://mrousavy.com/blog/VisionCamera-Pose-Detection-TFLite)
+
+---
+
+- 📜 [React Native 未来展望](https://buttondown.email/whatever_jamie/archive/things-to-look-forward-to-in-react-native/)：全面概述了 React Native 未来的发展方向，包括 Web 一致性、静态 Hermes、Node-API、React 服务端组件等。
+- 📜 [React Native 性能测量与监控工具](https://semaphoreci.com/blog/react-native-performance-measuring-monitoring-tools)
+- 🧵 [React Native 手势处理器的所有手势及实际用例解析](https://twitter.com/kacperkapusciak/status/1698719844089160189)
+- 👀 [Expo - 通过 EAS Insights 了解用户并促进应用增长](https://expo.dev/changelog/2023/08-22-insights)
+- 📦 [expo-ahap - Apple 触觉与音频模式库](https://github.com/EvanBacon/expo-ahap)
+- 📦 [react-native-z-view](https://github.com/intergalacticspacehighway/react-native-z-view)
+- 📦 [Universal Medusa - 基于 Expo、Solito、Next.js、Nativewind 和 Medusa 的电商项目模板](https://github.com/bidah/universal-medusa/)
+- 🔗 [Awesome Universal React - 跨端框架、库、设计系统、应用及资源合集](https://github.com/axeldelafosse/awesome-universal-react)
+- 🎥 [React Native 实验性模糊渐变效果](https://www.youtube.com/watch?v=oboF_H1MApo)
+- 🎥 [用 React Native Skia 实现 iPhone 壁纸效果](https://www.youtube.com/watch?v=Apqd749v34I)
+- 👥 [React Native EU 2023](https://www.react-native.eu/)（波兰弗罗茨瓦夫，9月7-8日）提供会议门票[-15%折扣](https://ti.to/react-native-eu/2023/discount/thisweekinreact15)，优惠码 "thisweekinreact15"。
+
+---
+
+## 🔀 其他 {#other}
+
+- 📊 [2023 CSS 现状调查报告](https://2023.stateofcss.com/)
+- 📜 [我的 Node.js 有点 Rust 化了](https://gal.hagever.com/posts/my-node-js-is-a-bit-rusty)
+- 📜 [Biome 发布公告 - Rome 的官方分支（原项目已无人维护）](https://biomejs.dev/blog/annoucing-biome)
+- 📜 [视图过渡会破坏渐进式渲染](https://ericportis.com/posts/2023/view-transitions-break-incremental-rendering/)
+- 📜 [善用 Web Components 的优势](https://nolanlawson.com/2023/08/23/use-web-components-for-what-theyre-good-at/)
+- 📜 [使用 @property 实现类型安全的 CSS 设计系统](https://nerdy.dev/cant-break-this-design-system)
+- 👀 [TypeScript 5.3 迭代计划](https://github.com/microsoft/TypeScript/issues/55486)
+- 📦 [TypeScript 5.2 发布公告](https://devblogs.microsoft.com/typescript/announcing-typescript-5-2/)
+- 📦 [Node 20.6 - 内置 .env 文件支持](https://nodejs.org/en/blog/release/v20.6.0)
+- 📦 [Firefox 117 - CSS 嵌套特性全面可用](https://www.mozilla.org/en-US/firefox/117.0/releasenotes/)
+- 📦 [Espresso Build - 实验性新一代包注册中心、包管理器和工具链](https://espresso.build/)
+
+---
+
+## 🤭 趣闻 {#fun}
+
+[![alt](/emails/issues/158/meme.jpg)](https://twitter.com/sebastienlorber/status/1687456078198394882)
+
+下次见！👋

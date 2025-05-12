@@ -1,0 +1,347 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/126/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /126\ntitle: \"This Week In React #126: React Perf, Progressive Enhancement, Remix, Storybook, React-Native, FlashList, Nitro, TC39...\"\nauthors: [slorber]\ndate: 11-29-2022\n---",
+      "sourceMdx": "---\nslug: /126\ntitle: \"This Week In React #126: React Perf, Progressive Enhancement, Remix, Storybook, React-Native, FlashList, Nitro, TC39...\"\nauthors: [slorber]\ndate: 11-29-2022\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "As you might expect with Thanksgiving, it's a rather quiet week in terms of React news.",
+      "sourceMdx": "As you might expect with Thanksgiving, it's a rather quiet week in terms of React news."
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "It's the end of [Black Friday](https://thisweekinreact.com/black-friday), but some offers are still valid.",
+      "sourceMdx": "It's the end of [Black Friday](https://thisweekinreact.com/black-friday), but some offers are still valid."
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "If your company is recruiting, I also offer a [**discount of -50% on job offer ads**](https://thisweekinreact.com/sponsor#sponsor-jobs). Don't hesitate to talk to your HR or your manager, it helps me a lot!",
+      "sourceMdx": "If your company is recruiting, I also offer a [**discount of -50% on job offer ads**](https://thisweekinreact.com/sponsor#sponsor-jobs). Don't hesitate to talk to your HR or your manager, it helps me a lot!"
+    },
+    {
+      "id": "6429a3aa",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "39b3772c",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "507b4652",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "fcd52337",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "42e34e45",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "caf67047",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "3c36424c",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "26524352",
+      "translatable": true,
+      "content": "[![FlyCode Makes React Apps Editable without coding, Git based](/emails/issues/124/flycode.jpg)](https://bit.ly/3UPwAoJ)",
+      "sourceMdx": "[![FlyCode Makes React Apps Editable without coding, Git based](/emails/issues/124/flycode.jpg)](https://bit.ly/3UPwAoJ)"
+    },
+    {
+      "id": "73ab96a3",
+      "translatable": true,
+      "content": "**[FlyCode Makes React Apps Editable without coding, Git based](https://bit.ly/3UPwAoJ)**",
+      "sourceMdx": "**[FlyCode Makes React Apps Editable without coding, Git based](https://bit.ly/3UPwAoJ)**"
+    },
+    {
+      "id": "7499a4e7",
+      "translatable": true,
+      "content": "[FlyCode](https://bit.ly/3wWSi00) (YC S22) makes React web apps editable in minutes so Product and UX teams can iterate and release products faster, so they don't have to wait on (or consume) developer time.",
+      "sourceMdx": "[FlyCode](https://bit.ly/3wWSi00) (YC S22) makes React web apps editable in minutes so Product and UX teams can iterate and release products faster, so they don't have to wait on (or consume) developer time."
+    },
+    {
+      "id": "517051a7",
+      "translatable": true,
+      "content": "FlyCode reads your regular React code and finds Texts, Images, Design tokens and Analytics event, then it let's non-coders collaborate and edit them and send back a pull request (they don't need access to GitHub!)",
+      "sourceMdx": "FlyCode reads your regular React code and finds Texts, Images, Design tokens and Analytics event, then it let's non-coders collaborate and edit them and send back a pull request (they don't need access to GitHub!)"
+    },
+    {
+      "id": "157151e9",
+      "translatable": true,
+      "content": "* Saves development time\n* No code integration, it just reads your code!\n* GitHub based, a bot is scanning the code and creates pull requests\n* Use your own stack and components\n* Retain codebase ownership",
+      "sourceMdx": "- Saves development time\n- No code integration, it just reads your code!\n- GitHub based, a bot is scanning the code and creates pull requests\n- Use your own stack and components\n- Retain codebase ownership"
+    },
+    {
+      "id": "95e9ba12",
+      "translatable": true,
+      "content": "You can get started here: [flycode.com/developers](https://www.flycode.com/developers)",
+      "sourceMdx": "You can get started here: [flycode.com/developers](https://www.flycode.com/developers)"
+    },
+    {
+      "id": "06784e79",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "c674e260",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "a44047a5",
+      "translatable": true,
+      "content": "**[Is React going anywhere?](https://www.infoxicator.com/is-react-going-anywhere)**",
+      "sourceMdx": "**[Is React going anywhere?](https://www.infoxicator.com/is-react-going-anywhere)**"
+    },
+    {
+      "id": "f7ef78f9",
+      "translatable": true,
+      "content": "Interesting reflection from Ruben, after meeting an e-commerce CTO who decided to abandon React for Vanilla JS. Is React really responsible for the poor performance of his app? Is adopting an alternative justified? Will React remain the leader for the next 5 or 10 years?",
+      "sourceMdx": "Interesting reflection from Ruben, after meeting an e-commerce CTO who decided to abandon React for Vanilla JS. Is React really responsible for the poor performance of his app? Is adopting an alternative justified? Will React remain the leader for the next 5 or 10 years?"
+    },
+    {
+      "id": "b36c6338",
+      "translatable": true,
+      "content": "**[Improving React Interaction Times by 4x](https://www.causal.app/blog/react-perf)**",
+      "sourceMdx": "**[Improving React Interaction Times by 4x](https://www.causal.app/blog/react-perf)**"
+    },
+    {
+      "id": "b9aaa519",
+      "translatable": true,
+      "content": "Causal's cloud spreadsheet app had performance issues. They give us a detailed analysis of the problems and how they solved them via the Chrome profiler. Some issues related to AG Grid (which they patched). Others from their own code mainly related to memoization. They also tried to use Web Workers, but serialization was too expensive.",
+      "sourceMdx": "Causal's cloud spreadsheet app had performance issues. They give us a detailed analysis of the problems and how they solved them via the Chrome profiler. Some issues related to AG Grid (which they patched). Others from their own code mainly related to memoization. They also tried to use Web Workers, but serialization was too expensive."
+    },
+    {
+      "id": "e3321a43",
+      "translatable": true,
+      "content": "* 📜 [Progressively enhance the useFetcher hook in Remix](https://sergiodxa.com/articles/progressively-enhance-the-usefetcher-hook-in-remix): little trick to support users with/without JS on Remix's useFetcher API: force a redirect for users without JS. In the same way, it is possible to handle [progressive enhancement on a file upload](https://twitter.com/ebey_jacob/status/1596223682246234113). All this is probably not essential for many apps, but it's good to know that it's possible if needed.\n* 📜 [Remix Deferred overview](https://gist.github.com/jacob-ebey/9bde9546c1aafaa6bc8c242054b1be26): an explanation of how [defer](https://github.com/remix-run/remix/issues/4486) works in Remix, which will allow to \"teleport\" a promise from the back to the front. For those who want to understand the inner workings of Remix.\n* 📜 [How to update the state of a sibling component in React?](https://alexsidorenko.com/blog/react-siblings/): short article that illustrates well the concept of \"Lifting the state up\".\n* 📜 [Minimal TypeScript Crash Course For React](https://profy.dev/article/react-typescript): to get started with TypeScript and React.\n* 📜 [Data Structures In Frontend JavaScript In The Real World - With React Code Examples](https://profy.dev/article/javascript-data-structures): to become familiar with data structures in a React context.\n* 📜 [ArConnect Migrates Its Chrome Extension to the Plasmo Framework](https://blog.plasmo.com/p/migrating-chrome-extension-to-plasmo): feedback on the use of [Plasmo](https://github.com/PlasmoHQ/plasmo): open-source React framework to create web extensions.\n* 📜 [Storybook for full-stack developers](https://storybook.js.org/blog/storybook-for-full-stack-developers/): a good overview of all that the Storybook ecosystem can do for you.\n* 📜 [Solid Final Form – Proof of Concept](https://erikras.com/blog/solid-final-form-poc): Erik explains that his lib [Final Form](https://final-form.org/react) (popular a few years ago) is decoupled from React and shows that it is possible to use it in a SolidJS context.\n* 📜 [Ant Design 5.0 - Component-level CSS-in-JS](https://ant.design/docs/blog/css-in-js): the React design system releases a new major version and explains how they have optimized their CSS-in-JS runtime.\n* 🎥 [On the merits & limitations of React & single-page apps](https://www.youtube.com/watch?v=ChfjZV-aA_Y): 2 hours debate between Alex Russell and Theo Browne. I haven't had time to watch yet. Alex is well known for his criticism of React and SPAs, and Theo should be a good defender of the React ecosystem.\n* 🎥 [React Dev, You Need To Know @container!](https://www.youtube.com/watch?v=ypN-Uwshc5M): good introduction to query containers, new CSS feature, presented in a React context in vanilla CSS + Tailwind. Firefox support is still missing, but there is a polyfill.\n* 🎥 [RTK Query Basics: Query Endpoints, Data Flow and TypeScript](https://egghead.io/courses/rtk-query-basics-query-endpoints-data-flow-and-typescript-57ea3c43): new free course on Egghead by Lenz one of the creators of RTK Query.\n* 🧑‍💻 [Remix PR - Add \"jump to definition\" support](https://github.com/remix-run/remix/pull/4689): tRPC contributors port their TypeScript learnings to Remix to improve its DX.\n* 📦 [react-three-editor](https://github.com/pmndrs/react-three-editor): a React-Three-Fiber scene editor is being created.\n* 📦 [Gatsby 5.1](https://www.gatsbyjs.com/docs/reference/release-notes/v5.1/)",
+      "sourceMdx": "- 📜 [Progressively enhance the useFetcher hook in Remix](https://sergiodxa.com/articles/progressively-enhance-the-usefetcher-hook-in-remix): little trick to support users with/without JS on Remix's useFetcher API: force a redirect for users without JS. In the same way, it is possible to handle [progressive enhancement on a file upload](https://twitter.com/ebey_jacob/status/1596223682246234113). All this is probably not essential for many apps, but it's good to know that it's possible if needed.\n- 📜 [Remix Deferred overview](https://gist.github.com/jacob-ebey/9bde9546c1aafaa6bc8c242054b1be26): an explanation of how [defer](https://github.com/remix-run/remix/issues/4486) works in Remix, which will allow to \"teleport\" a promise from the back to the front. For those who want to understand the inner workings of Remix.\n- 📜 [How to update the state of a sibling component in React?](https://alexsidorenko.com/blog/react-siblings/): short article that illustrates well the concept of \"Lifting the state up\".\n- 📜 [Minimal TypeScript Crash Course For React](https://profy.dev/article/react-typescript): to get started with TypeScript and React.\n- 📜 [Data Structures In Frontend JavaScript In The Real World - With React Code Examples](https://profy.dev/article/javascript-data-structures): to become familiar with data structures in a React context.\n- 📜 [ArConnect Migrates Its Chrome Extension to the Plasmo Framework](https://blog.plasmo.com/p/migrating-chrome-extension-to-plasmo): feedback on the use of [Plasmo](https://github.com/PlasmoHQ/plasmo): open-source React framework to create web extensions.\n- 📜 [Storybook for full-stack developers](https://storybook.js.org/blog/storybook-for-full-stack-developers/): a good overview of all that the Storybook ecosystem can do for you.\n- 📜 [Solid Final Form – Proof of Concept](https://erikras.com/blog/solid-final-form-poc): Erik explains that his lib [Final Form](https://final-form.org/react) (popular a few years ago) is decoupled from React and shows that it is possible to use it in a SolidJS context.\n- 📜 [Ant Design 5.0 - Component-level CSS-in-JS](https://ant.design/docs/blog/css-in-js): the React design system releases a new major version and explains how they have optimized their CSS-in-JS runtime.\n- 🎥 [On the merits & limitations of React & single-page apps](https://www.youtube.com/watch?v=ChfjZV-aA_Y): 2 hours debate between Alex Russell and Theo Browne. I haven't had time to watch yet. Alex is well known for his criticism of React and SPAs, and Theo should be a good defender of the React ecosystem.\n- 🎥 [React Dev, You Need To Know @container!](https://www.youtube.com/watch?v=ypN-Uwshc5M): good introduction to query containers, new CSS feature, presented in a React context in vanilla CSS + Tailwind. Firefox support is still missing, but there is a polyfill.\n- 🎥 [RTK Query Basics: Query Endpoints, Data Flow and TypeScript](https://egghead.io/courses/rtk-query-basics-query-endpoints-data-flow-and-typescript-57ea3c43): new free course on Egghead by Lenz one of the creators of RTK Query.\n- 🧑‍💻 [Remix PR - Add \"jump to definition\" support](https://github.com/remix-run/remix/pull/4689): tRPC contributors port their TypeScript learnings to Remix to improve its DX.\n- 📦 [react-three-editor](https://github.com/pmndrs/react-three-editor): a React-Three-Fiber scene editor is being created.\n- 📦 [Gatsby 5.1](https://www.gatsbyjs.com/docs/reference/release-notes/v5.1/)"
+    },
+    {
+      "id": "68209f5c",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed />",
+      "sourceMdx": "<SubscribeFormEmbed />"
+    },
+    {
+      "id": "fe5fa73a",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "98355e36",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "7736989b",
+      "translatable": true,
+      "content": "[![Yuzu is the Best Finance Data API for Frontends](/emails/issues/126/yuzu.png)](https://www.yuzu.dev/)",
+      "sourceMdx": "[![Yuzu is the Best Finance Data API for Frontends](/emails/issues/126/yuzu.png)](https://www.yuzu.dev/)"
+    },
+    {
+      "id": "6270d577",
+      "translatable": true,
+      "content": "**[Yuzu is the Best Finance Data API for Frontends](https://www.yuzu.dev/)**",
+      "sourceMdx": "**[Yuzu is the Best Finance Data API for Frontends](https://www.yuzu.dev/)**"
+    },
+    {
+      "id": "a1fa5396",
+      "translatable": true,
+      "content": "Yuzu is designed to eliminate data engineering for frontend developers building with data sets like:",
+      "sourceMdx": "Yuzu is designed to eliminate data engineering for frontend developers building with data sets like:"
+    },
+    {
+      "id": "cc9271fb",
+      "translatable": true,
+      "content": "* Live Stock, crypto & forex prices\n* Up-to-the minute market news\n* ETF and Mutual fund details",
+      "sourceMdx": "- Live Stock, crypto & forex prices\n- Up-to-the minute market news\n- ETF and Mutual fund details"
+    },
+    {
+      "id": "0750bfa1",
+      "translatable": true,
+      "content": "Developers love Yuzu's GraphQL, Websockets, and SQL APIs because it allows them to flexibly grab any data, and focus on building end-user experiences, not on scraping, normalizing and maintaining data sets.",
+      "sourceMdx": "Developers love Yuzu's GraphQL, Websockets, and SQL APIs because it allows them to flexibly grab any data, and focus on building end-user experiences, not on scraping, normalizing and maintaining data sets."
+    },
+    {
+      "id": "86348f98",
+      "translatable": true,
+      "content": "Yuzu's professional-grade data is used by brokerages, analytical platforms, and investing apps ranging from emerging startups to established finance firms.",
+      "sourceMdx": "Yuzu's professional-grade data is used by brokerages, analytical platforms, and investing apps ranging from emerging startups to established finance firms."
+    },
+    {
+      "id": "6b77b644",
+      "translatable": true,
+      "content": "Best thing? Anyone can [start for free](https://www.yuzu.dev/pricing)!",
+      "sourceMdx": "Best thing? Anyone can [start for free](https://www.yuzu.dev/pricing)!"
+    },
+    {
+      "id": "4f2104fa",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "f8edb6d2",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "1862c5fe",
+      "translatable": true,
+      "content": "**[React Native Core Contributor Summit 2022](https://reactnative.dev/blog/2022/11/22/react-native-core-contributor-summit-2022)**",
+      "sourceMdx": "**[React Native Core Contributor Summit 2022](https://reactnative.dev/blog/2022/11/22/react-native-core-contributor-summit-2022)**"
+    },
+    {
+      "id": "6ca4479f",
+      "translatable": true,
+      "content": "A good part of the React-Native contributors met at the beginning of September for the React-Native EU conference. They participated in a series of workshops and give us a report. Various topics were discussed, such as the new architecture, the Metro bundler or the release workflow.",
+      "sourceMdx": "A good part of the React-Native contributors met at the beginning of September for the React-Native EU conference. They participated in a series of workshops and give us a report. Various topics were discussed, such as the new architecture, the Metro bundler or the release workflow."
+    },
+    {
+      "id": "a2c0166e",
+      "translatable": true,
+      "content": "**[Shopify - Our Solution for Measuring React Native Rendering Times](https://shopify.engineering/measuring-react-native-rendering-times)**",
+      "sourceMdx": "**[Shopify - Our Solution for Measuring React Native Rendering Times](https://shopify.engineering/measuring-react-native-rendering-times)**"
+    },
+    {
+      "id": "c1eaf30b",
+      "translatable": true,
+      "content": "Presentation of the [react-native-performance](https://github.com/Shopify/react-native-performance) package which allows to generate [field / Real User Monitoring](https://web.dev/lab-and-field-data-differences/) performance reports (in JSON). It integrates easily with React-Navigation. You can send these reports to an analytics dashboard of your choice. This allows you to identify a specific screen that has performance issues in production. It reminds of existing web metrics: Core Web Vitals, TTI, INP and the Vercel/Netlify/Gatsby perf dashboards...",
+      "sourceMdx": "Presentation of the [react-native-performance](https://github.com/Shopify/react-native-performance) package which allows to generate [field / Real User Monitoring](https://web.dev/lab-and-field-data-differences/) performance reports (in JSON). It integrates easily with React-Navigation. You can send these reports to an analytics dashboard of your choice. This allows you to identify a specific screen that has performance issues in production. It reminds of existing web metrics: Core Web Vitals, TTI, INP and the Vercel/Netlify/Gatsby perf dashboards..."
+    },
+    {
+      "id": "7a3b7c62",
+      "translatable": true,
+      "content": "* 📜 [Shopify - What We Learned from Open-Sourcing FlashList](https://shopify.engineering/what-we-learned-from-open-sourcing-flashlist): feedback on a successful open-source launch at Shopify. Marketing and planning is an important part of the success, and should not be neglected. See also my launch of [Docusaurus 2.0](https://www.indiehackers.com/post/1-on-product-hunt-thanks-to-newsletters-and-good-timing-2c7d8809d9).\n* 📜 [How to build a React Native app 5x faster with Nitro](https://blog.nitro.build/how-to-build-a-react-native-app-5x-faster-with-nitro-d7e512b18d90): Nitro is a tool (paid, in preview) that allows to significantly reduce React-Native CI build times when only the JS code has changed.\n* 📜 [React Native in 2022 and Beyond](https://semaphoreci.com/blog/react-native)\n* 📜 [How react-native became performant as native with the new architecture](https://medium.com/ocp-digital-factory/how-react-native-became-performant-as-native-with-the-new-architecture-6e678c3178aa)\n* 🐦 [setNativeProps is back on Fabric?](https://twitter.com/o_kwasniewski/status/1596090790350303233)\n* 🎨 [VisionCamera Frame Processor + Skia - Censor faces demo](https://twitter.com/mrousavy/status/1595746972190883840)\n* 📦 [React-Native 0.71.0-rc.2](https://twitter.com/Kelset/status/1595839212502261760)\n* 📦 [React Native Windows 0.69.14](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.69.14)",
+      "sourceMdx": "- 📜 [Shopify - What We Learned from Open-Sourcing FlashList](https://shopify.engineering/what-we-learned-from-open-sourcing-flashlist): feedback on a successful open-source launch at Shopify. Marketing and planning is an important part of the success, and should not be neglected. See also my launch of [Docusaurus 2.0](https://www.indiehackers.com/post/1-on-product-hunt-thanks-to-newsletters-and-good-timing-2c7d8809d9).\n- 📜 [How to build a React Native app 5x faster with Nitro](https://blog.nitro.build/how-to-build-a-react-native-app-5x-faster-with-nitro-d7e512b18d90): Nitro is a tool (paid, in preview) that allows to significantly reduce React-Native CI build times when only the JS code has changed.\n- 📜 [React Native in 2022 and Beyond](https://semaphoreci.com/blog/react-native)\n- 📜 [How react-native became performant as native with the new architecture](https://medium.com/ocp-digital-factory/how-react-native-became-performant-as-native-with-the-new-architecture-6e678c3178aa)\n- 🐦 [setNativeProps is back on Fabric?](https://twitter.com/o_kwasniewski/status/1596090790350303233)\n- 🎨 [VisionCamera Frame Processor + Skia - Censor faces demo](https://twitter.com/mrousavy/status/1595746972190883840)\n- 📦 [React-Native 0.71.0-rc.2](https://twitter.com/Kelset/status/1595839212502261760)\n- 📦 [React Native Windows 0.69.14](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.69.14)"
+    },
+    {
+      "id": "510c9c5b",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "37fca32e",
+      "translatable": true,
+      "content": "## 🧑‍💻 Jobs",
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+    },
+    {
+      "id": "a8610918",
+      "translatable": true,
+      "content": "🧑‍💼 [**Product Engineer at Causal, Remote/London/NY, $150-250k**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied\\&lever-source%5B%5D=thisweekinreact.com)",
+      "sourceMdx": "🧑‍💼 [**Product Engineer at Causal, Remote/London/NY, $150-250k**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied&lever-source%5B%5D=thisweekinreact.com)"
+    },
+    {
+      "id": "a6c928a1",
+      "translatable": true,
+      "content": "Causal is a Series A Startup (backed by Coatue/Accel) building an all-in-one tool for working with numbers and visualizing data. We're looking for strong React engineers who can solve difficult UX/performance challenges.",
+      "sourceMdx": "Causal is a Series A Startup (backed by Coatue/Accel) building an all-in-one tool for working with numbers and visualizing data. We're looking for strong React engineers who can solve difficult UX/performance challenges."
+    },
+    {
+      "id": "b6152880",
+      "translatable": true,
+      "content": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
+      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)"
+    },
+    {
+      "id": "b9331170",
+      "translatable": true,
+      "content": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
+      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!"
+    },
+    {
+      "id": "8fcdd6d4",
+      "translatable": true,
+      "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+    },
+    {
+      "id": "53aa2b95",
+      "translatable": true,
+      "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+    },
+    {
+      "id": "9c9e2b64",
+      "translatable": true,
+      "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+    },
+    {
+      "id": "dc45ba24",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "a461a67b",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "1fe5236e",
+      "translatable": true,
+      "content": "* [Agenda for the 93rd meeting of Ecma TC39](https://github.com/tc39/agendas/blob/main/2022/11.md): a meeting is in progress! I'm particularly interested in the new [Async Context proposal](https://github.com/legendecas/proposal-async-context)!\n* [Advanced web font optimization techniques](https://pixelpoint.io/blog/advanced-web-font-optimization-techniques/): explains well how to optimize your fonts: reduce the size, avoid layout shifts and adjust the vertical alignment.\n* [Octoverse 2022 - The state of open source software](https://octoverse.github.com/)\n* [A first look at SolidStart](https://ajcwebdev.com/2022/11/20/a-first-look-at-solidstart/)\n* [How to split JavaScript strings into sentences, words or graphemes with \"Intl.Segmenter\"](https://www.stefanjudis.com/today-i-learned/how-to-split-javascript-strings-with-intl-segmenter/)\n* [How we lost our slick new npm package name (and then got it back)](https://reactflow.dev/blog/reactflow-npm-package-name/)\n* [JavaScript from ES6 to ES12 in 2022](https://medium.com/@bluetch/javascript-es6-es7-es8-es9-es10-es11-and-es12-519d8be7d48c)\n* [Color Formats in CSS](https://www.joshwcomeau.com/css/color-formats/)\n* [TypeScript 5.0 is coming...](https://www.youtube.com/watch?v=PTU-H6Wwbh8)\n* [The Complete Guide to the Fastify Plugin System](https://www.nearform.com/blog/complete-guide-fastify-plugin-system/)\n* [GitHub Copilot CLI](https://githubnext.com/projects/copilot-cli/)\n* [Wasmer 3.0](https://wasmer.io/posts/announcing-wasmer-3.0)\n* [WebAssembly: TinyGo vs Rust vs AssemblyScript](https://ecostack.dev/posts/wasm-tinygo-vs-rust-vs-assemblyscript/)\n* [The large, small, and dynamic viewport units](https://web.dev/viewport-units/)\n* [Node.js Architecture Pitfalls to Avoid](https://blog.appsignal.com/2022/11/23/nodejs-architecture-pitfalls-to-avoid.html)\n* [Cloudflare - Server-side render full stack applications with Pages Functions](https://blog.cloudflare.com/pages-full-stack-frameworks/)\n* [Vercel - Edge Config: Ultra-low latency data at the edge](https://vercel.com/blog/edge-config-ultra-low-latency-data-at-the-edge)",
+      "sourceMdx": "- [Agenda for the 93rd meeting of Ecma TC39](https://github.com/tc39/agendas/blob/main/2022/11.md): a meeting is in progress! I'm particularly interested in the new [Async Context proposal](https://github.com/legendecas/proposal-async-context)!\n- [Advanced web font optimization techniques](https://pixelpoint.io/blog/advanced-web-font-optimization-techniques/): explains well how to optimize your fonts: reduce the size, avoid layout shifts and adjust the vertical alignment.\n- [Octoverse 2022 - The state of open source software](https://octoverse.github.com/)\n- [A first look at SolidStart](https://ajcwebdev.com/2022/11/20/a-first-look-at-solidstart/)\n- [How to split JavaScript strings into sentences, words or graphemes with \"Intl.Segmenter\"](https://www.stefanjudis.com/today-i-learned/how-to-split-javascript-strings-with-intl-segmenter/)\n- [How we lost our slick new npm package name (and then got it back)](https://reactflow.dev/blog/reactflow-npm-package-name/)\n- [JavaScript from ES6 to ES12 in 2022](https://medium.com/@bluetch/javascript-es6-es7-es8-es9-es10-es11-and-es12-519d8be7d48c)\n- [Color Formats in CSS](https://www.joshwcomeau.com/css/color-formats/)\n- [TypeScript 5.0 is coming...](https://www.youtube.com/watch?v=PTU-H6Wwbh8)\n- [The Complete Guide to the Fastify Plugin System](https://www.nearform.com/blog/complete-guide-fastify-plugin-system/)\n- [GitHub Copilot CLI](https://githubnext.com/projects/copilot-cli/)\n- [Wasmer 3.0](https://wasmer.io/posts/announcing-wasmer-3.0)\n- [WebAssembly: TinyGo vs Rust vs AssemblyScript](https://ecostack.dev/posts/wasm-tinygo-vs-rust-vs-assemblyscript/)\n- [The large, small, and dynamic viewport units](https://web.dev/viewport-units/)\n- [Node.js Architecture Pitfalls to Avoid](https://blog.appsignal.com/2022/11/23/nodejs-architecture-pitfalls-to-avoid.html)\n- [Cloudflare - Server-side render full stack applications with Pages Functions](https://blog.cloudflare.com/pages-full-stack-frameworks/)\n- [Vercel - Edge Config: Ultra-low latency data at the edge](https://vercel.com/blog/edge-config-ultra-low-latency-data-at-the-edge)"
+    },
+    {
+      "id": "c66a3543",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "c6b2ca77",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "dce16ab4",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/126/meme.png)](https://twitter.com/addyosmani/status/1595470573001314309)",
+      "sourceMdx": "[![alt](/emails/issues/126/meme.png)](https://twitter.com/addyosmani/status/1595470573001314309)"
+    }
+  ]
+}

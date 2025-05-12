@@ -1,0 +1,147 @@
+---
+slug: /212
+title: "This Week In React #212: Astro, Next.js, Storybook, INP, Virtualization, WebXR, LiveView, Radon, Yoga, Unistyles, gluestack, Expo-Video, Node, Playwright, Prisma, Undici..."
+authors: [slorber]
+date: 12-04-2024
+---
+
+大家好！
+
+本周React开发者们要么心怀感恩，要么忙着把钱花在无用的东西上。幸运的是，Astro登上了头条。我们还有两篇关于React性能优化的优质文章。
+
+React Native生态更为活跃，Radon IDE正式发布，还有许多有趣的版本更新。
+
+Node 22.12版本发布，LTS版本默认启用`require(esm)`功能！TC39会议正在进行中，ES提案也有进展，不过这些要留到下周再说！
+
+<!-- truncate -->
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![daily.dev: 您的个人开发者新闻订阅](/emails/issues/212/daily.jpg)](https://daily.dev/w/this-week-in-react)
+
+**[daily.dev: 您的个人开发者新闻订阅](https://daily.dev/w/this-week-in-react)**
+
+daily.dev为超过100万开发者提供个性化新闻订阅，涵盖所有需要了解的更新、框架和梗图。完全免费，您还可以选择不看榜单文章。
+
+与志同道合的开发者一起痛苦并成长。
+
+- 轻松保持最新资讯
+- 第一时间发现新框架和开发工具
+- 成为房间里最聪明的开发者
+
+**完全免费。为了最佳体验，**[**下载扩展程序**](https://chromewebstore.google.com/detail/dailydev-the-homepage-dev/jlmpjdjjbgclbocgajdjefcidcncaied?hl=en)**。**
+
+---
+
+## ⚛️ React {#react}
+
+[![Astro 5.0](/emails/issues/212/astro.jpg)](https://astro.build/blog/astro-5/)
+
+**[Astro 5.0](https://astro.build/blog/astro-5/)**
+
+Astro发布了全新主版本。虽然严格来说不是纯粹的React框架，但在React社区广泛使用，可以轻松集成交互式React组件，并依赖MDX。主要亮点包括：
+
+- 内容层(Content Layer)：将所有内容整合到一个友好、类型安全的数据存储中，包括来自CMS、API和其他来源的内容
+- 服务端岛屿(Server Islands)：在保持大部分静态布局的同时，尽可能快地提供初始页面响应，并穿插动态内容。这是React服务端组件和Next.js部分预渲染的一个有趣且更简单的替代方案
+- 简化预渲染，移除了"混合"选项
+- 类型安全的环境变量
+- 搭载新环境API的Vite 6
+- 实验性功能：图像裁剪、响应式图像布局、SVG组件
+
+---
+
+- 💸 [Omlet – 扫描你的代码库并测量React组件的使用方式和位置](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-nov-2024)
+- 👀 [Next.js PR \- 取消弃用revalidate API并重命名expire API](https://github.com/vercel/next.js/pull/73193): 我之前提到新的expire API将取代revalidate API，但显然为时过早。新的expire API现在被标记为不稳定，并将进行迭代。
+- 👀 [Next.js Canary \- `authInterrupts` API](https://nextjs.org/docs/canary/app/api-reference/config/next-config-js/authInterrupts): 新增禁止/未授权的函数和文件约定，用于返回401/403状态码。
+- 👀 [Next.js Canary \- 新增禁用CSS分块的配置选项](https://nextjs.org/docs/canary/app/api-reference/config/next-config-js/cssChunking)
+- 📜 [如何提升INP: React篇](https://kurtextrem.de/posts/improve-inp-react): Interaction-to-Next-Paint现已成为核心Web指标的一部分，而根据httparchive数据，许多React站点的INP得分并不理想。本文详细分享了从实战经验中总结的优化应用INP得分的实用技巧，涵盖调度、并发特性、水合、过渡、状态更新、非受控输入、副作用、门户等。
+- 📜 [通过虚拟化实现更优代码渲染](https://sentry.engineering/blog/better-code-rendering-through-virtualization): CodeCov工程师讲述了在渲染TypeScript代码库中52k行文件时遇到的性能问题排查过程。他们成功采用TanStack虚拟化库，并记录了遇到的挑战（原生搜索和滚动）。
+- 📜 [Storybook针对RSCs的组件测试方案](https://storybook.js.org/blog/component-testing-rscs/): 测试RSCs通常需要端到端测试，而Storybook提出了一种更快的实验性替代方案，在模拟服务器IO后直接在浏览器中运行。
+- 📜 [对Tailwind 4的思考](https://nmn.sh/blog/2024-11-30-thoughts-on-tailwind-4): 虽然更多是关于CSS而非React，但Meta StyleX CSS-in-JS库的创建者表达了担忧。后代变体的引入破坏了原子化CSS的保证。
+- 📜 [为Next.js引入高效的Valkey缓存方案](https://blog.platformatic.dev/introducing-efficient-valkey-based-caching-for-nextjs): Platformatic解释了如何通过Next.js可插拔缓存处理系统为其托管平台提供可扩展的共享缓存。
+- 📜 [React数据获取模式](https://www.robinwieruch.de/react-data-fetching-patterns/)
+- 📜 [在React中更高效地使用i18next](https://lingual.dev/blog/getting-more-out-of-i18next-in-react/)
+- 📜 [在Deno Deploy上运行Next.js SSR应用](https://deno.com/blog/nextjs-on-deno-deploy)
+- 📜 [EdgePipes \- SSR和RSCs的替代方案](https://runspired.com/2024/12/01/edge-pipes.html)
+- 📜 [如果不用React，那用什么？](https://infrequently.org/2024/11/if-not-react-then-what/): 不确定是否应该在简报中包含这类对React的批评。读起来并不让人愉快😅。请回复告诉我你的想法！
+- 📦 [Phoenix LiveView 1.0发布](https://phoenixframework.org/blog/phoenix-liveview-1.0-released): 这是Elixir的版本更新，但我认为对React开发者仍然非常相关，因为LiveView和RSCs在消除网络感知方面有相似之处。
+- 📦 [WebXR入门指南 \- 沉浸式网页开发的第一步](https://github.com/meta-quest/webxr-first-steps-react): 通过2小时教程，使用React-Three-XR构建沉浸式VR第一人称射击迷你游戏。
+- 🎥 [Lee Robinson \- 在Next.js应用路由中使用MDX](https://www.youtube.com/watch?v=34bRv6cQezo)
+- 🎥 [Theo \- Vite 6为何重要](https://www.youtube.com/watch?v=yT4DWBWm6DM)
+- 🎥 [Ankita \- TanStack Start与Next.js的诚实对比评测](https://www.youtube.com/watch?v=D27AfH0pSp8)
+- 🎥 [Fireship \- Next.js 15真的好吗？"use cache" API初探](https://www.youtube.com/watch?v=xWkozeculPo)
+- 🎙️ [本月React动态 \- React 19解除阻碍，Next 15进入"稳定"，Expo发布周](https://creators.spotify.com/pod/show/reactiflux/episodes/TMiR-2024-11-React-19-is-unblocked--Next-15-is-stable--Expo-launch-week--The-cool-kids-are-on-BlueSky-e2rn2pu)
+- 🎙️ [Syntax \- 与Matt Perry一起探索网页动画：动态效果研究](https://syntax.fm/show/854/animating-the-web-with-matt-perry-exploring-motion)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![Clerk推出的等待名单功能](/emails/issues/212/clerk.jpg)](https://go.clerk.com/tWHD2yj)
+
+**[Clerk推出等待名单功能](https://go.clerk.com/tWHD2yj)**
+
+`<Waitlist />` 是一种新的注册模式和组件，允许用户登记兴趣并加入等待名单，以获取产品的早期访问权限。您可以在Clerk仪表板中统一管理用户访问和 onboarding 流程。阅读我们的更新日志公告以获取更多详情。
+
+---
+
+## 📱 React-Native {#react-native}
+
+[![Radon IDE 1.0](/emails/issues/212/radon.jpg)](https://ide.swmansion.com/)
+
+**[Radon IDE 1.0](https://ide.swmansion.com/)**
+
+Software Mansion 开发了一款 VSCode 扩展（同时支持 Cursor），可将您的编辑器转变为功能完备的 React Native 和 Expo 集成开发环境。该产品现已正式发布稳定版本。作为付费产品，考虑到其低廉的价格和显著的开发者体验提升，这无疑是一个明智的选择，同时也支持了该公司卓越的开源工作。观看 [Radon IDE 发布视频](https://www.youtube.com/watch?v=07Un9EfE8D4) 快速了解其功能：模拟器面板与设置、调试、点击检查、URL驱动导航、Storybook集成等特性。
+
+---
+
+- 💸 [React Native Mastery - 现已开放报名！](https://notjust.dev/react-native-mastery?utm_source=twir&utm_medium=email)
+- 👀 [React Native RFC - 精简核心，从React Native核心中移除JSC（JavaScriptCore）](https://github.com/react-native-community/discussions-and-proposals/pull/836): 由于Hermes已成为默认运行时，继续在核心中包含未使用的JSC效率低下。
+- 📜 [Expo-video: 一种简单强大的应用内视频播放方案](https://expo.dev/blog/expo-video-a-simple-powerful-way-to-play-videos-in-apps)
+- 📜 [为什么React Native的棕地开发值得关注](https://www.callstack.com/blog/brownfield-development-with-react-native)
+- 📜 [Android中延迟加载视图管理器](https://yogeshpaliyal.com/quick-tips/rn-tip-lazy-viewmanagers-in-android/)
+- 🗓️ [React Universe Conf](https://www.reactuniverseconf.com/?utm_campaign=RUC2025&utm_source=TWIRpartnership&utm_content=savethedate) - 🇵🇱 弗罗茨瓦夫 - 2025年9月2-4日 - 限量盲鸟票发售中（售完即止）
+- 📦 [React Native 0.77.0-rc.1 - 修复punycode Node22警告 😄](https://github.com/facebook/react-native/releases/tag/v0.77.0-rc.1)
+- 📦 [gluestack-ui 2.0 - 支持NativeWind v4.1和RSC，移除不必要的复杂性，减小CSS体积](https://gluestack.io/blogs/gluestack-ui-v2-stable-release-with-nativewind-v4-1-support)
+- 📦 [Unistyles 3.0测试版 - 无重新渲染、StyleSheet功能对等、影子树更新，基于Nitro引擎](https://www.reactnativecrossroads.com/posts/unistyles-3-preview): 这个即将发布的版本看起来是默认StyleSheet API的理想替代方案。虽然还不完全清楚其工作原理，但听起来非常有趣。
+- 📦 [Yoga 3.2- 支持CSS `box-sizing`和`display: contents`](https://www.yogalayout.dev/blog/announcing-yoga-3.2)
+- 📦 [React Navigation 7.3 - 在链接配置中支持正则表达式和别名](https://reactnavigation.org/docs/configuring-links/#matching-regular-expressions)
+- 📦 [Skia 1.6 - 不透明的Android画布以提升性能](https://github.com/Shopify/react-native-skia/releases/tag/v1.6.0)
+- 📦 [Nitro 0.18 - 支持macOS和tvOS](https://github.com/mrousavy/nitro/releases/tag/v0.18.0)
+- 📦 [Expo-Share-Extension 2.0 - 支持SDK 52](https://github.com/MaxAst/expo-share-extension)
+- 🎙️ [React Universe On Air - Radon IDE: 提升React Native团队的开发体验](https://www.youtube.com/watch?v=-GT6DPk2K_s)
+- 🎙️ [Rocket Ship 55 - 企业为何选择React Native、工作面试与开源趋势（与Jamon Holmgren对谈）](https://share.transistor.fm/s/654cb5cf)
+- 🎥 [Simon Grimm - React Native调试：从JS到原生](https://www.youtube.com/watch?v=FXn1vUGCci8)
+- 🎥 [Beto - 如何使用DOM组件实现富文本编辑器](https://www.youtube.com/watch?v=CxORa1tXMjw)
+
+---
+
+## 🔀 其他 {#other}
+
+- 🎄 [Advent of TypeScript - 25个类型挑战](https://www.adventofts.com/)
+- 📜 [进阶毛玻璃效果：backdrop-filter实践](https://www.joshwcomeau.com/css/backdrop-filter/)
+- 📜 [无需打包工具的现代JavaScript开发](https://playfulprogramming.com/posts/modern-js-bundleless)
+- 📜 [代码整洁之道：别让我思考](https://sapegin.me/blog/dont-make-me-think/)
+- 📜 [尽可能少用Try...Catch](https://www.joshuakgoldberg.com/blog/try-catch-as-little-as-possible/)
+- 📦 [Node v22.12 - 默认启用require(esm)](https://nodejs.org/en/blog/release/v22.12.0)
+- 📦 [Playwright 1.48 - Aria快照、测试运行器改进](https://github.com/microsoft/playwright/releases/tag/v1.49.0)
+- 📦 [Undici 7 - 计划随Node.js 24发布，更严格的fetch()规范兼容](https://blog.platformatic.dev/undici-v7-is-here)
+- 📦 [Prisma 6 - 更佳性能、更高灵活性及类型安全的SQL](https://www.prisma.io/blog/prisma-6-better-performance-more-flexibility-and-type-safe-sql)
+
+---
+
+## 🤭 趣味 {#fun}
+
+[![alt](/emails/issues/212/meme.jpg)](https://bsky.app/profile/astro.build/post/3lcf2lt6xik2p)
+
+[![alt](/emails/issues/212/meme3.jpg)](https://x.com/MicrosoftEdge/status/1862149469610914126)
+
+回见！👋

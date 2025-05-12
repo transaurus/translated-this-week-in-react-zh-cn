@@ -1,0 +1,140 @@
+---
+slug: /199
+title: "This Week In React #199: shadcn, Next.js, TanStack, Remix, MDX, Astro, Storybook, @svg-use, MSW, RAG, RN-WebGPU, React-Three-Fiber, Re.Pack, Super Apps, RN-macOS, EAS, Node.jx, Stage 2.7, AggregateError, Style-Observer..."
+authors: [matthieugicquel, cyrilbo]
+date: 09-04-2024
+---
+
+大家好！
+
+我们是来自[Theodo Apps（原BAM）](https://apps.theodo.com/en?utm_source=thisweekinreact)的Cyril和Matthieu 👋，本周暂代Seb为大家带来React和React Native领域的最新动态。
+
+本周，shadcn发布了全新CLI工具，我们还注意到其他正在酝酿中的亮点功能，比如React Query中对`use()`钩子的支持。
+
+React Universe Conf明天开幕，我们预计会有React Native相关的重要发布，下周将为大家详细解读！
+
+<!-- truncate -->
+
+**💡 [在Twitter上浏览本期简报](https://slo.im/thread) - 可视化版式 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![[直播研讨会] 使用实例调试Next.js](/emails/issues/199/sentry.jpg)](https://sentry.io/resources/faster-apis-better-experiences/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=tracing-fy25q3-fasterapiworkshop&utm_content=newsletter-Danworkshop-rsvp)
+
+**[[直播研讨会] 使用实例调试Next.js](https://sentry.io/resources/faster-apis-better-experiences/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=tracing-fy25q3-fasterapiworkshop&utm_content=newsletter-Danworkshop-rsvp)**
+
+9月15日加入Morning Maker节目联合主持人Dan Mindru的实战研讨会，他将演示如何通过Sentry将API调用耗时缩短22.3秒。您将学习使用Sentry的Tracing和Session Replay功能调试错误与性能问题的实用技巧——立即预约席位。
+
+---
+
+## ⚛️ React {#react}
+
+[![Shadcn推出全新CLI工具](/emails/issues/199/shadcn.jpg)](https://ui.shadcn.com/docs/changelog)
+
+**[Shadcn推出全新CLI工具](https://ui.shadcn.com/docs/changelog)**
+
+功能显著增强且更灵活：
+
+- `shadcn add`现在可安装组件、主题、钩子、工具库、依赖项等
+- 支持多框架（Next.js、Remix、Vite、Laravel）
+- 可增量更新tailwind配置而非覆盖
+- 支持直接从URL导入组件
+
+更多细节详见 🐦 [这条推文](https://x.com/shadcn/status/1829646528149143992)。
+
+---
+
+- 💸 [React组件分析工具Omlet——通过扫描代码库量化组件使用率，提升代码质量与设计系统采用率](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-aug-2024)
+- 👀 [TanStack Query PR - 新增对`React.use()`的支持](https://github.com/TanStack/query/pull/7988)：React Query计划返回可被`use()`的Promise，从而更高效地与Suspense集成。相比`usePrefetchQuery`更便捷，比`useSuspenseQuery`更具并行性。
+- 👀 [Remix路由约定演进方案](https://github.com/brookslybrand/route-convention-evolution)：上周提到的`routes.ts`新特性将允许跳过基于文件系统的路由，或自由选择路由约定规范。
+- 🐦 [Next.js 15可能即将发布](https://x.com/feedthejim/status/1829569083777437745)，无需等待React 19稳定版，且不强制要求pages路由使用React 19。版本将包含Turbopack重大改进。
+- 🐦 [渲染时获取 vs 获取后渲染](https://x.com/t3dotgg/status/1829988532489793957)：Theo用可视化图表对比React渲染模式差异，配套视频可深入探讨。
+- 📜 [@svg-use工具链发布](https://fotis.xyz/posts/introducing-svg-use/)：深入解析SVG-in-JS（如React的SVGR）在主题化和分发时的便利性，及其在性能和代码冗余方面的缺陷。`<use href>`模式是理想替代方案但需手动配置，作者因此开发了自动化工具链。
+- 📜 [编译时组件](https://codehike.org/blog/build-time-components)：图文并茂阐述React服务端组件对MDX用户的优势。客户端组件和编译时Remark/Rehype插件存在局限，而RSCs能兼顾两者优势。
+- 📜 [服务端函数与TanStack Query结合实践](https://www.brenelz.com/posts/using-server-functions-and-tanstack-query/)：TanStack Start即将发布，其数据获取方案通过"server fns"与react-query及路由（预取）深度集成，并保持完全类型安全。
+- 📜 [原子状态管理究竟是什么？](https://www.frontendundefined.com/posts/monthly/jotai-atomic-state-management/)：重温Jotai的正确使用方式及其带来的优势。
+- 📜 [Storybook组件测试指南](https://storybook.js.org/blog/component-testing/)：Storybook提倡将组件测试作为端到端测试的补充，在保证浏览器保真度的同时提升UI测试覆盖率和执行速度。
+- 📜 [React 19完全开发者指南](https://www.callstack.com/blog/the-complete-developer-guide-to-react-19-part-1-async-handling)：两万字系列详解React 19新特性，包括useTransition、useActionState、useOptimistic、use、服务端组件、服务端动作、ref作为prop、水合错误差异报告、改进的错误提示、Context即provider、useDeferredValue初始值等。
+- 📜 [TypeScript和React应用的简易RAG实现](https://edspencer.net/2024/9/2/easy-rag-for-typescript-and-react-apps)：通过处理文本文档、生成嵌入向量并利用向量数据库实现语义搜索，构建问答系统。
+- 📜 [NextJS中混合Markdown与React组件](https://edspencer.net/2024/8/28/using-markdown-with-nextjs)
+- 📜 [React高阶组件(HOCs)详解与实践](https://www.reactsquad.io/blog/higher-order-components-hocs-in-react)
+- 📜 [React全面测试：使用Mock Service Worker处理API调用](https://www.trevorlasn.com/blog/react-testing-mock-service-worker/)
+- 📜 [React中的inert属性应用](https://www.mayank.co/notes/inert-in-react)
+- 📜 [现代JavaScript应用中的CSS编写规范](https://www.alexchantastic.com/modern-css-authoring)
+- 📦 [Midday V1 - 基于Next.js/Turborepo/Shadcn的 starter kit](https://github.com/midday-ai/v1)
+- 📦 [Bulletproof-React - 可扩展React架构仓库，新增Next.js示例](https://github.com/alan2207/bulletproof-react)
+- 📦 [Astro 4.15 - 新增Astro Actions、i18n后备路由重写、@astrojs/db的libSQL远程连接、client:idle超时选项、ViewTransitions交换助手](https://astro.build/blog/astro-4150/)
+- 🎥 [Lee Robinson - 用v0构建3D游戏和交互应用](https://www.youtube.com/watch?v=zA-eCGFBXjM)
+- 🎥 [Jack Herrington - 在NextJS+React中使用AI结构化输出](https://www.youtube.com/watch?v=_Rb4SpWRHC8)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![以半价成本运行GitHub Actions，速度提升高达2倍](/emails/issues/199/blacksmith.jpg)](https://blacksmith.sh/?utm_source=thisweekinreact&utm_medium=classified&utm_campaign=sep-4&utm_term=react)
+
+**[以半价成本运行GitHub Actions，速度提升高达2倍](https://blacksmith.sh/?utm_source=thisweekinreact&utm_medium=classified&utm_campaign=sep-4&utm_term=react)**
+
+Blacksmith通过在现代游戏CPU上运行您的GitHub Actions，显著提升执行速度。集成Blacksmith仅需一行代码更改。已有100多家企业如Ashby、GitBook、Superblocks和Slope采用Blacksmith，帮助开发者更快合并代码。
+
+---
+
+## 📱 React-Native {#react-native}
+
+[![React Universe大会](/emails/issues/199/react-universe.jpg)](https://www.reactuniverseconf.com/)
+
+在我们撰写本期内容时，React Native核心贡献者峰会正在弗罗茨瓦夫举行。
+
+随后将于周四和周五举办React Universe大会。众多精彩演讲已安排就绪，[您可通过YouTube观看直播](https://www.youtube.com/watch?v=b48Lax2-jOQ)。亮点包括：全新调试器、新架构、Expo DOM组件、静态Hermes等。
+
+因此下周我们可能会为您带来更多React Native相关新闻！
+
+---
+
+- 💸 [React Native大师课 - 精通React Native与Expo的唯一课程](https://notjust.dev/react-native-mastery?utm_source=twir&utm_medium=email)
+- 👀 [Re.Pack正添加对Rspack的支持](https://github.com/callstack/repack/pull/720)：这项变更可能为React Native的替代性webpack兼容打包工具带来显著速度提升。
+- 🐦 [React Native IDE将集成Storybook至IDE预览模式](https://x.com/kzzzf/status/1829262449541062716)
+- 🐦 [React Three Fiber在react-native-webgpu上运行](https://x.com/aarongrider/status/1830629528005460016)：我们已看到Three.js结合react-native-webgpu运行的案例。SpaceX的Aaron Grider正在开发React Three Fiber支持，将其声明式API引入React Native领域。
+- 📜 [使用Moropo和Expo创建并运行快速端到端测试：基于Maestro](https://expo.dev/blog/create-and-run-fast-end-to-end-tests-using-moropo-and-expo)
+- 📜 [如何用React Native开发超级应用？](https://medium.com/@xayilmaz/how-to-develop-a-super-app-with-react-native-fe18fbe002c5)：通过原生模块实现子应用间通信的方案，与利用Webpack为每个子应用生成独立JavaScript包的Repack方案形成对比。
+- 📖 [Expo文档更新](https://x.com/amanhimself/status/1828545129499750498)：本地优先架构、DOM组件、SDK 51原生项目升级助手。
+- 📖 [Expo应用服务(EAS)定价](https://expo.dev/pricing#update)：自9月1日起，EAS更新和构建的并发成本降低。
+- 📦 [react-native-macos 0.75](https://www.npmjs.com/package/react-native-macos/v/0.75.2)
+- 🎥 [分钟React Native - 2分钟详解React Native WebGPU](https://www.youtube.com/watch?v=DQrO2LFnrOw)
+- 🎥 [Dan的实验室 - 如何使用Expo构建二维码扫描器](https://www.youtube.com/watch?v=PZIEqcdFjpQ)
+- 🎥 [Simon Grimm - Expo DOM组件令人惊艳](https://www.youtube.com/watch?v=BWA8KY5QEPk)
+- 🎥 [Chain React 2024 - YouTube播放列表已上线](https://www.youtube.com/playlist?list=PLE7tQUdRKcyb81ybEVsrk6PfxXu7pJs1i#chainreact2024)
+
+---
+
+## 🔀 其他 {#other}
+
+- 📜 [深入ECMAScript：JavaScript标准新增一个阶段](https://thenewstack.io/inside-ecmascript-javascript-standard-gets-an-extra-stage/)
+- 📜 [网页剪贴板及其如何存储不同类型的数据](https://alexharri.com/blog/clipboard)
+- 📜 [JavaScript生成器详解：高级开发者视角](https://www.reactsquad.io/blog/understanding-generators-in-javascript)
+- 📜 [JavaScript中的AggregateError](https://www.trevorlasn.com/blog/aggregate-error-in-javascript/)
+- 📦 [ThreeJS 168版本发布](https://github.com/mrdoob/three.js/releases/tag/r168)
+- 📦 [Style-observer：CSS的MutationObserver](https://www.bram.us/2024/08/31/introducing-bramus-style-observer-a-mutationobserver-for-css/)
+- 📦 [Effect 3.7版本：新增HttpApi，声明式定义API端点](https://effect.website/blog/effect-3.7)
+- 📦 [Node 22.8版本](https://nodejs.org/en/blog/release/v22.8.0) - 新增module.enableCompileCache()、vm.createContext()支持freezable globalThis、覆盖率阈值功能
+- 📦 [Sherif 1.0发布：面向JavaScript单体仓库的零配置代码检查工具](https://github.com/QuiiBz/sherif)
+- 📦 [Safari Technology Preview 202版本：大量CSS特性更新](https://webkit.org/blog/15798/release-notes-for-safari-technology-preview-202/)
+- 📦 [i-html：行内HTML导入元素](https://www.keithcirkel.co.uk/i-html/)
+
+---
+
+## 🤭 轻松一刻 {#fun}
+
+[![2024年程序员的生活写照](/emails/issues/199/meme.jpg)](https://x.com/daboigbae/status/1828778118888452572)
+
+下次见！👋

@@ -1,0 +1,317 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/217/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /217\ntitle: \"This Week In React #217: View Transitions, RSC, Next.js, SWR, Nextra, React Router, Rails, Compiler, EAS Hosting, Shopify, Skia, OTP, Gesture Handler, Radon, React-Query, TC55, Bun, CSS...\"\nauthors: [slorber]\ndate: 01-15-2025\n---",
+      "sourceMdx": "---\nslug: /217\ntitle: \"This Week In React #217: View Transitions, RSC, Next.js, SWR, Nextra, React Router, Rails, Compiler, EAS Hosting, Shopify, Skia, OTP, Gesture Handler, Radon, React-Query, TC55, Bun, CSS...\"\nauthors: [slorber]\ndate: 01-15-2025\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "This week we continue to notice interesting activity around the upcoming `<ViewTransition>` component.",
+      "sourceMdx": "This week we continue to notice interesting activity around the upcoming `<ViewTransition>` component."
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "Expo is finally launching its universal cross-platform hosting solution, and Shopify shared interesting feedback on its usage of React Native.",
+      "sourceMdx": "Expo is finally launching its universal cross-platform hosting solution, and Shopify shared interesting feedback on its usage of React Native."
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "Make sure to check our partner conf,️ [React Paris 2025](https://react.paris/?utm_source=thisweekinreact) -  🇫🇷 Paris - 20 & 21 March (2 days) / 19th of March (Workshops) - Full Speaker line up just dropped! Jemima Abu, Antoine Chalifour and David Khourshid joined the line up. Get 20% off tickets with code \"TWIR”.",
+      "sourceMdx": "Make sure to check our partner conf,️ [React Paris 2025](https://react.paris/?utm_source=thisweekinreact) -  🇫🇷 Paris - 20 & 21 March (2 days) / 19th of March (Workshops) - Full Speaker line up just dropped! Jemima Abu, Antoine Chalifour and David Khourshid joined the line up. Get 20% off tickets with code \"TWIR”."
+    },
+    {
+      "id": "6429a3aa",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "6c991806",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "8f488ab5",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "fb3d50cd",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "95b38f97",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "ccc88b4c",
+      "translatable": true,
+      "content": "[![If It’s Slow, It’s Broken 🐢](/emails/issues/217/sentry.jpg)](https://sentry.io/lp/new-apm/?utm_source=thisweekinreact\\&utm_medium=paid-community\\&utm_campaign=perf-fy26q1-evergreen\\&utm_content=newsletter-primary-slowbug-seehow)",
+      "sourceMdx": "[![If It’s Slow, It’s Broken 🐢](/emails/issues/217/sentry.jpg)](https://sentry.io/lp/new-apm/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=perf-fy26q1-evergreen&utm_content=newsletter-primary-slowbug-seehow)"
+    },
+    {
+      "id": "d9172fa4",
+      "translatable": true,
+      "content": "**[If It’s Slow, It’s Broken 🐢](https://sentry.io/lp/new-apm/?utm_source=thisweekinreact\\&utm_medium=paid-community\\&utm_campaign=perf-fy26q1-evergreen\\&utm_content=newsletter-primary-slowbug-seehow)**",
+      "sourceMdx": "**[If It’s Slow, It’s Broken 🐢](https://sentry.io/lp/new-apm/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=perf-fy26q1-evergreen&utm_content=newsletter-primary-slowbug-seehow)**"
+    },
+    {
+      "id": "26524352",
+      "translatable": true,
+      "content": "Bad performance is just another kind of bug 🐛 . And Sentry helps you find bugs fast, even the ones that aren’t obvious.",
+      "sourceMdx": "Bad performance is just another kind of bug 🐛 . And Sentry helps you find bugs fast, even the ones that aren’t obvious."
+    },
+    {
+      "id": "86b525ab",
+      "translatable": true,
+      "content": "* Cut chunks of time off of bad API calls\n* Reduce extremely costly, frequently pinged, or generally slow db operations\n* Uncover the source of a traffic spike spike in minutes",
+      "sourceMdx": "- Cut chunks of time off of bad API calls\n- Reduce extremely costly, frequently pinged, or generally slow db operations\n- Uncover the source of a traffic spike spike in minutes"
+    },
+    {
+      "id": "517051a7",
+      "translatable": true,
+      "content": "Whether it’s an error or a slowdown, Sentry helps you fix issues fast and keep your app running smoothly. Because if it’s slow, it’s broken. [See for yourself](https://sentry.io/lp/new-apm/?utm_source=thisweekinreact\\&utm_medium=paid-community\\&utm_campaign=perf-fy26q1-evergreen\\&utm_content=newsletter-primary-slowbug-seehow).",
+      "sourceMdx": "Whether it’s an error or a slowdown, Sentry helps you fix issues fast and keep your app running smoothly. Because if it’s slow, it’s broken. [See for yourself](https://sentry.io/lp/new-apm/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=perf-fy26q1-evergreen&utm_content=newsletter-primary-slowbug-seehow)."
+    },
+    {
+      "id": "91afe33f",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "782c902a",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "50746522",
+      "translatable": true,
+      "content": "[![Revealed: React's experimental animations API](/emails/issues/217/viewtransition.jpg)](https://motion.dev/blog/reacts-experimental-view-transition-api)",
+      "sourceMdx": "[![Revealed: React's experimental animations API](/emails/issues/217/viewtransition.jpg)](https://motion.dev/blog/reacts-experimental-view-transition-api)"
+    },
+    {
+      "id": "95e9ba12",
+      "translatable": true,
+      "content": "**[Revealed: React's experimental animations API](https://motion.dev/blog/reacts-experimental-view-transition-api)**",
+      "sourceMdx": "**[Revealed: React's experimental animations API](https://motion.dev/blog/reacts-experimental-view-transition-api)**"
+    },
+    {
+      "id": "8af76f3d",
+      "translatable": true,
+      "content": "Motion creator explains the animation tradeoffs of using View Transitions and why it makes sense for React to directly integrate it into its reconciler through a new `<ViewTransition>` component. This interactive post shows an early look at the upcoming React feature, including some of its current implementation details, and explains how it overlaps a bit with Motion layout animations.",
+      "sourceMdx": "Motion creator explains the animation tradeoffs of using View Transitions and why it makes sense for React to directly integrate it into its reconciler through a new `<ViewTransition>` component. This interactive post shows an early look at the upcoming React feature, including some of its current implementation details, and explains how it overlaps a bit with Motion layout animations."
+    },
+    {
+      "id": "a9d49f92",
+      "translatable": true,
+      "content": "Keep in mind this exciting new API is still in active development, subject to change, and new PRs keep landing, notably:",
+      "sourceMdx": "Keep in mind this exciting new API is still in active development, subject to change, and new PRs keep landing, notably:"
+    },
+    {
+      "id": "40251870",
+      "translatable": true,
+      "content": "* 👀 [React Core PR - Support only View Transitions v2](https://github.com/facebook/react/pull/31996): The new component will leverage recent v2 spec APIs such as `view-transition-class`, requires Safari 18.2+, and still unsupported in Firefox.\n* 👀 [React Core PR - View Transition Class Names based on event kind](https://github.com/facebook/react/pull/32050)\n* 👀 [Next.js PR - `experimental.viewTransition` flag](https://github.com/vercel/next.js/pull/74659): You can try the feature in Next.js 15.2 canary 4.",
+      "sourceMdx": "- 👀 [React Core PR \\- Support only View Transitions v2](https://github.com/facebook/react/pull/31996): The new component will leverage recent v2 spec APIs such as `view-transition-class`, requires Safari 18.2+, and still unsupported in Firefox.\n- 👀 [React Core PR \\- View Transition Class Names based on event kind](https://github.com/facebook/react/pull/32050)\n- 👀 [Next.js PR \\- `experimental.viewTransition` flag](https://github.com/vercel/next.js/pull/74659): You can try the feature in Next.js 15.2 canary 4\\."
+    },
+    {
+      "id": "49d8fe2a",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "9b797309",
+      "translatable": true,
+      "content": "* 💸 [Product for Engineers - Product management is broken. Engineers can fix it](https://dub.link/twir-jan15)\n* 👀 [React website PR - Upgrade to Next.js 15, React 19, enable React Compiler](https://github.com/reactjs/react.dev/pull/6996)\n* 👀 [React Router Milestones](https://github.com/remix-run/react-router/milestones): Now communicating what they hope to ship in upcoming releases. v7.2 should include initial RSC support (from loaders/actions), Server Actions, middleware.\n* 👀 [Adopting the compiler at Wakelet](https://github.com/reactwg/react-compiler/discussions/52): Positive feedback, improving LCP and INP metrics. It did not magically solve all the perf issues, but was close to a “free lunch” experience.\n* 📖 [Next.js docs - Single-Page Applications with Next.js](https://nextjs.org/docs/app/building-your-application/upgrading/single-page-applications): This new page notably documents how the newly released [SWR 2.3](https://github.com/vercel/swr/releases/tag/v2.3.0) now allows passing promises in `<SWRConfig fallback>`, enabling you to seamlessly move data fetching from the client to the server.\n* 📜 [Understanding React Server Components](https://tonyalicea.dev/blog/understanding-react-server-components/): A comprehensive and well-presented overview of RSCs.\n* 📜 [Accessibility essentials every front-end developer should know](https://martijnhols.nl/blog/accessibility-essentials-every-front-end-developer-should-know): Accessibility tips with React examples.\n* 📜 [Bloated React code? Try component hooks](https://www.tymzap.com/blog/bloated-react-code-try-component-hooks): Reduce cognitive load by extracting a component hook so that the component can solely focus on rendering.\n* 📜 [Make FormData and input names type-safe in React](https://www.typeonce.dev/article/make-form-data-and-input-names-type-safe-in-react): Using hand-made TS, then using Effect.Schema and FP.\n* 📜 [Maybe don't navigate(-1) in Remix/React Router](https://programmingarehard.com/2025/01/13/maybe-dont-navigate-1.html/): Or how to navigate backward but ensure you never leave the current app.\n* 📜 [Should you use MobX-State-Tree with React in 2025?](https://coolsoftware.dev/blog/mobx-state-tree-react-2025/)\n* 📜 [Become expert in React Query](https://tigerabrodi.blog/become-expert-in-react-query)\n* 📦 [Next.js React Server Component Testing](https://github.com/kettanaito/nextjs-rsc-testing): An example repository of testing Next.js RSCs using MSW and Playwright.\n* 📦 [Nextra 4.0](https://the-guild.dev/blog/nextra-4): The Next.js-based docs framework upgrades to App Router among many other things.\n* 📦 [Base UI 1.0.0-alpha.5](https://base-ui.com/react/overview/releases)\n* 📦 [Superglue 1.0 - React + Rails](https://thoughtbot.com/blog/superglue-1-0-react-rails-a-new-era-of-thoughtfulness)\n* 🎥 [Theo - All the ways HTML gets to your browser](https://www.youtube.com/watch?v=Cifkb-ZVps4)\n* 🎥 [Simeon Griggs - useOptimistic from React docs to production](https://www.youtube.com/watch?v=_0bwnnlUZRU)",
+      "sourceMdx": "- 💸 [Product for Engineers - Product management is broken. Engineers can fix it](https://dub.link/twir-jan15)\n- 👀 [React website PR \\- Upgrade to Next.js 15, React 19, enable React Compiler](https://github.com/reactjs/react.dev/pull/6996)\n- 👀 [React Router Milestones](https://github.com/remix-run/react-router/milestones): Now communicating what they hope to ship in upcoming releases. v7.2 should include initial RSC support (from loaders/actions), Server Actions, middleware.\n- 👀 [Adopting the compiler at Wakelet](https://github.com/reactwg/react-compiler/discussions/52): Positive feedback, improving LCP and INP metrics. It did not magically solve all the perf issues, but was close to a “free lunch” experience.\n- 📖 [Next.js docs \\- Single-Page Applications with Next.js](https://nextjs.org/docs/app/building-your-application/upgrading/single-page-applications): This new page notably documents how the newly released [SWR 2.3](https://github.com/vercel/swr/releases/tag/v2.3.0) now allows passing promises in `<SWRConfig fallback>`, enabling you to seamlessly move data fetching from the client to the server.\n- 📜 [Understanding React Server Components](https://tonyalicea.dev/blog/understanding-react-server-components/): A comprehensive and well-presented overview of RSCs.\n- 📜 [Accessibility essentials every front-end developer should know](https://martijnhols.nl/blog/accessibility-essentials-every-front-end-developer-should-know): Accessibility tips with React examples.\n- 📜 [Bloated React code? Try component hooks](https://www.tymzap.com/blog/bloated-react-code-try-component-hooks): Reduce cognitive load by extracting a component hook so that the component can solely focus on rendering.\n- 📜 [Make FormData and input names type-safe in React](https://www.typeonce.dev/article/make-form-data-and-input-names-type-safe-in-react): Using hand-made TS, then using Effect.Schema and FP.\n- 📜 [Maybe don't navigate(-1) in Remix/React Router](https://programmingarehard.com/2025/01/13/maybe-dont-navigate-1.html/): Or how to navigate backward but ensure you never leave the current app.\n- 📜 [Should you use MobX-State-Tree with React in 2025?](https://coolsoftware.dev/blog/mobx-state-tree-react-2025/)\n- 📜 [Become expert in React Query](https://tigerabrodi.blog/become-expert-in-react-query)\n- 📦 [Next.js React Server Component Testing](https://github.com/kettanaito/nextjs-rsc-testing): An example repository of testing Next.js RSCs using MSW and Playwright.\n- 📦 [Nextra 4.0](https://the-guild.dev/blog/nextra-4): The Next.js-based docs framework upgrades to App Router among many other things.\n- 📦 [Base UI 1.0.0-alpha.5](https://base-ui.com/react/overview/releases)\n- 📦 [Superglue 1.0 \\- React \\+ Rails](https://thoughtbot.com/blog/superglue-1-0-react-rails-a-new-era-of-thoughtfulness)\n- 🎥 [Theo \\- All the ways HTML gets to your browser](https://www.youtube.com/watch?v=Cifkb-ZVps4)\n- 🎥 [Simeon Griggs \\- useOptimistic from React docs to production](https://www.youtube.com/watch?v=_0bwnnlUZRU)"
+    },
+    {
+      "id": "e7961985",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed placement=\"middle\" />",
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+    },
+    {
+      "id": "63e1d83c",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "58ed925f",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "463ed165",
+      "translatable": true,
+      "content": "[![Tests are dead - Meticulous is here](/emails/issues/217/meticulous.jpg)](https://www.meticulous.ai?utm_source=thisweekinreact\\&utm_campaign=jan15th)",
+      "sourceMdx": "[![Tests are dead - Meticulous is here](/emails/issues/217/meticulous.jpg)](https://www.meticulous.ai?utm_source=thisweekinreact&utm_campaign=jan15th)"
+    },
+    {
+      "id": "a5c5772a",
+      "translatable": true,
+      "content": "**[Tests are dead - Meticulous is here](https://www.meticulous.ai?utm_source=thisweekinreact\\&utm_campaign=jan15th)**",
+      "sourceMdx": "**[Tests are dead - Meticulous is here](https://www.meticulous.ai?utm_source=thisweekinreact&utm_campaign=jan15th)**"
+    },
+    {
+      "id": "fbc2db85",
+      "translatable": true,
+      "content": "Meticulous creates and maintains an exhaustive suite of e2e ui tests with **zero** developer effort.",
+      "sourceMdx": "Meticulous creates and maintains an exhaustive suite of e2e ui tests with **zero** developer effort."
+    },
+    {
+      "id": "8126f763",
+      "translatable": true,
+      "content": "This quote from the CTO of Traba sums the product up best: \"Meticulous has fundamentally changed the way we approach frontend testing in our web applications, fully eliminating the need to write any frontend tests. The software gives us confidence that every change will be completely regression tested, allowing us to ship more quickly with significantly fewer bugs in our code. The platform is easy to use and reduces the barrier to entry for backend-focused devs to contribute to our frontend codebase.\"",
+      "sourceMdx": "This quote from the CTO of Traba sums the product up best: \"Meticulous has fundamentally changed the way we approach frontend testing in our web applications, fully eliminating the need to write any frontend tests. The software gives us confidence that every change will be completely regression tested, allowing us to ship more quickly with significantly fewer bugs in our code. The platform is easy to use and reduces the barrier to entry for backend-focused devs to contribute to our frontend codebase.\""
+    },
+    {
+      "id": "74dd7937",
+      "translatable": true,
+      "content": "Meticulous is used by companies like Lattice, Bilt Rewards, Power and many others.",
+      "sourceMdx": "Meticulous is used by companies like Lattice, Bilt Rewards, Power and many others."
+    },
+    {
+      "id": "5803caac",
+      "translatable": true,
+      "content": "This [post](https://www.meticulous.ai/blog/lessons-from-a-decade?utm_source=thisweekinreact\\&utm_campaign=jan15th) from our CTO sets out the context of why exhaustive testing can double engineering velocity.",
+      "sourceMdx": "This [post](https://www.meticulous.ai/blog/lessons-from-a-decade?utm_source=thisweekinreact&utm_campaign=jan15th) from our CTO sets out the context of why exhaustive testing can double engineering velocity."
+    },
+    {
+      "id": "945bf499",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "e33a2404",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "82e90254",
+      "translatable": true,
+      "content": "[![EAS Hosting Preview](/emails/issues/217/easdeploy.jpg)](https://expo.dev/blog/expo-announces-eas-hosting-service)",
+      "sourceMdx": "[![EAS Hosting Preview](/emails/issues/217/easdeploy.jpg)](https://expo.dev/blog/expo-announces-eas-hosting-service)"
+    },
+    {
+      "id": "2822251a",
+      "translatable": true,
+      "content": "**[EAS Hosting Preview](https://expo.dev/blog/expo-announces-eas-hosting-service)**",
+      "sourceMdx": "**[EAS Hosting Preview](https://expo.dev/blog/expo-announces-eas-hosting-service)**"
+    },
+    {
+      "id": "25212439",
+      "translatable": true,
+      "content": "Expo unveiled what we expected, the first-ever universal app-hosting platform that completes the vision of bringing the web DX to the cross-platform world. It enables us to seamlessly deploy Expo’s server-related features, notably Expo for Web, API Routes, and Universal React Server Components. It takes into account mobile app subtleties, such as syncing the backend/app versions. You can use either the CLI or CI (EAS Workflows). Under the hood, it’s using Cloudflare Workers. There’s a free plan.",
+      "sourceMdx": "Expo unveiled what we expected, the first-ever universal app-hosting platform that completes the vision of bringing the web DX to the cross-platform world. It enables us to seamlessly deploy Expo’s server-related features, notably Expo for Web, API Routes, and Universal React Server Components. It takes into account mobile app subtleties, such as syncing the backend/app versions. You can use either the CLI or CI (EAS Workflows). Under the hood, it’s using Cloudflare Workers. There’s a free plan."
+    },
+    {
+      "id": "4c30a6aa",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "2838eb68",
+      "translatable": true,
+      "content": "[![Five years of React Native at Shopify](/emails/issues/217/shopify.jpg)](https://shopifyengineering.myshopify.com/blogs/engineering/five-years-of-react-native-at-shopify)",
+      "sourceMdx": "[![Five years of React Native at Shopify](/emails/issues/217/shopify.jpg)](https://shopifyengineering.myshopify.com/blogs/engineering/five-years-of-react-native-at-shopify)"
+    },
+    {
+      "id": "4be28ed1",
+      "translatable": true,
+      "content": "**[Five years of React Native at Shopify](https://shopifyengineering.myshopify.com/blogs/engineering/five-years-of-react-native-at-shopify)**",
+      "sourceMdx": "**[Five years of React Native at Shopify](https://shopifyengineering.myshopify.com/blogs/engineering/five-years-of-react-native-at-shopify)**"
+    },
+    {
+      "id": "0e80209e",
+      "translatable": true,
+      "content": "Shopify successfully migrated all their 6 apps to React Native, and shared a nuanced feedback summarizes well the tradeoffs of using React Native in practice. On the positive side we have: cross-platform support, performance, hot reloading, knowledge portability... You still need native knowledge, and a few things could be improved, such as the debugging experience and the ability to easily upgrade.",
+      "sourceMdx": "Shopify successfully migrated all their 6 apps to React Native, and shared a nuanced feedback summarizes well the tradeoffs of using React Native in practice. On the positive side we have: cross-platform support, performance, hot reloading, knowledge portability... You still need native knowledge, and a few things could be improved, such as the debugging experience and the ability to easily upgrade."
+    },
+    {
+      "id": "3c5a1374",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "b0465fca",
+      "translatable": true,
+      "content": "* 💸 [WithFrame - React Native Templates to accelerate your app development](https://withfra.me)\n* 👀 [Expo Router RSC Movies Demo](https://github.com/EvanBacon/expo-rsc-movies)\n* 📜 [Animated Loader with React Native Skia](https://reactiive.io/articles/animated-loader-skia)\n* 📦 [React Native 0.78 RC.0](https://github.com/facebook/react-native/releases/tag/v0.78.0-rc.0): This upcoming version upgrades to React 19! Note that the v0.77 stable release has been postponed until next week due to a bug.\n* 📦 [React Native 0.76.6](https://github.com/facebook/react-native/releases/tag/v0.76.6)\n* 📦 [React Query 5.63 - Allow useQuery and useQueries to unsubscribe from the query cache](https://github.com/TanStack/query/releases/tag/v5.63.0): Particularly useful to unsubscribe hidden RN stack screens (including querying), more powerful/granular than react-freeze.\n* 📦 [Input OTP Native - One Time Passcode input, unstyled and fully customizable](https://github.com/yjose/input-otp-native)\n* 📦 [Edge-to-Edge 1.3 - Transparent button navigation bar](https://github.com/zoontek/react-native-edge-to-edge/releases/tag/1.3.0)\n* 📦 [Skia 1.9 & 1.10 - tvOS support, new reconcilier, image sampling options](https://github.com/Shopify/react-native-skia/releases)\n* 📦 [Radon 1.2 - RN 0.77, Redux and React Query tools, local EAS builds](https://github.com/software-mansion/radon-ide/releases/tag/v1.2.0)\n* 📦 [Screens 4.5 - RN 0.77 support](https://github.com/software-mansion/react-native-screens/releases/tag/4.5.0)\n* 📦 [Gesture Handler 2.22 - RN 0.77 support, Text component](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.22.0)\n* 📦 [Reanimated 3.16.7 - RN 0.77 support](https://github.com/software-mansion/react-native-reanimated/releases/tag/3.16.7)\n* 🎥 [Simon Grimm - The Missing Piece to Universal React Native](https://www.youtube.com/watch?v=UpPj5xZiiFo)\n* 🎙️ [React Universe On Air 46 - Lessons from Shopify's Migration to React Native with Mustafa Ali](https://www.youtube.com/watch?v=WFoO-GDvrY8)\n* 🎙️ [Rocket Ship 58 - React Native Games & Animations with Ben Awad](https://share.transistor.fm/s/249233ec)\n* 🎙️ [RNR 318 - Maintaining Open Source Libraries at Software Mansion](https://www.reactnativeradio.com/episodes/rnr-318-maintaining-open-source-libraries-at-software-mansion)",
+      "sourceMdx": "- 💸 [WithFrame - React Native Templates to accelerate your app development](https://withfra.me)\n- 👀 [Expo Router RSC Movies Demo](https://github.com/EvanBacon/expo-rsc-movies)\n- 📜 [Animated Loader with React Native Skia](https://reactiive.io/articles/animated-loader-skia)\n- 📦 [React Native 0.78 RC.0](https://github.com/facebook/react-native/releases/tag/v0.78.0-rc.0): This upcoming version upgrades to React 19\\! Note that the v0.77 stable release has been postponed until next week due to a bug.\n- 📦 [React Native 0.76.6](https://github.com/facebook/react-native/releases/tag/v0.76.6)\n- 📦 [React Query 5.63 \\- Allow useQuery and useQueries to unsubscribe from the query cache](https://github.com/TanStack/query/releases/tag/v5.63.0): Particularly useful to unsubscribe hidden RN stack screens (including querying), more powerful/granular than react-freeze.\n- 📦 [Input OTP Native \\- One Time Passcode input, unstyled and fully customizable](https://github.com/yjose/input-otp-native)\n- 📦 [Edge-to-Edge 1.3 \\- Transparent button navigation bar](https://github.com/zoontek/react-native-edge-to-edge/releases/tag/1.3.0)\n- 📦 [Skia 1.9 & 1.10 \\- tvOS support, new reconcilier, image sampling options](https://github.com/Shopify/react-native-skia/releases)\n- 📦 [Radon 1.2 \\- RN 0.77, Redux and React Query tools, local EAS builds](https://github.com/software-mansion/radon-ide/releases/tag/v1.2.0)\n- 📦 [Screens 4.5 \\- RN 0.77 support](https://github.com/software-mansion/react-native-screens/releases/tag/4.5.0)\n- 📦 [Gesture Handler 2.22 \\- RN 0.77 support, Text component](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.22.0)\n- 📦 [Reanimated 3.16.7 \\- RN 0.77 support](https://github.com/software-mansion/react-native-reanimated/releases/tag/3.16.7)\n- 🎥 [Simon Grimm \\- The Missing Piece to Universal React Native](https://www.youtube.com/watch?v=UpPj5xZiiFo)\n- 🎙️ [React Universe On Air 46 \\- Lessons from Shopify's Migration to React Native with Mustafa Ali](https://www.youtube.com/watch?v=WFoO-GDvrY8)\n- 🎙️ [Rocket Ship 58 \\- React Native Games & Animations with Ben Awad](https://share.transistor.fm/s/249233ec)\n- 🎙️ [RNR 318 \\- Maintaining Open Source Libraries at Software Mansion](https://www.reactnativeradio.com/episodes/rnr-318-maintaining-open-source-libraries-at-software-mansion)"
+    },
+    {
+      "id": "75603060",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "c766290e",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "6409152f",
+      "translatable": true,
+      "content": "* 📣 [WinterTC (TC55) - Technical Committee on Web-interoperable Server Runtimes](https://www.w3.org/blog/2025/collaborating-across-w3c-and-ecma-for-web-interoperable-server-runtimes-through-wintertc/): Supersede WinterCG, responsible for defining a Minimum Common API spec for server runtimes, aligned with web APIs.\n* 📜 [Build systems and bundlers](https://github.com/orgs/web-infra-dev/discussions/24): Rspack maintainer’s research on how build tools and bundlers implement their incremental mode.\n* 📜 [Everything You Need to Know About Node.js Type Stripping](https://satanacchio.hashnode.dev/everything-you-need-to-know-about-nodejs-type-stripping): Tradeoffs explained by the Node.js PR author, including why `.tsx` files are not supported.\n* 📜 [CSS text-box-trim - Take back space from above/below, achieve optical balance](https://developer.chrome.com/blog/css-text-box-trim)\n* 📜 [Updates to the customizable select API](https://una.im/select-updates/)\n* 📜 [ECMAScript feature: import attributes](https://2ality.com/2025/01/import-attributes.html)\n* 📦 [Lightning CSS 1.29 - Support for view transitions level 2](https://github.com/parcel-bundler/lightningcss/releases/tag/v1.29.0)\n* 📦 [Bun 1.1.43 - S3 support, HTML bundling, V8 snapshots and more](https://bun.sh/blog/bun-v1.1.43)",
+      "sourceMdx": "- 📣 [WinterTC (TC55) \\- Technical Committee on Web-interoperable Server Runtimes](https://www.w3.org/blog/2025/collaborating-across-w3c-and-ecma-for-web-interoperable-server-runtimes-through-wintertc/): Supersede WinterCG, responsible for defining a Minimum Common API spec for server runtimes, aligned with web APIs.\n- 📜 [Build systems and bundlers](https://github.com/orgs/web-infra-dev/discussions/24): Rspack maintainer’s research on how build tools and bundlers implement their incremental mode.\n- 📜 [Everything You Need to Know About Node.js Type Stripping](https://satanacchio.hashnode.dev/everything-you-need-to-know-about-nodejs-type-stripping): Tradeoffs explained by the Node.js PR author, including why `.tsx` files are not supported.\n- 📜 [CSS text-box-trim \\- Take back space from above/below, achieve optical balance](https://developer.chrome.com/blog/css-text-box-trim)\n- 📜 [Updates to the customizable select API](https://una.im/select-updates/)\n- 📜 [ECMAScript feature: import attributes](https://2ality.com/2025/01/import-attributes.html)\n- 📦 [Lightning CSS 1.29 \\- Support for view transitions level 2](https://github.com/parcel-bundler/lightningcss/releases/tag/v1.29.0)\n- 📦 [Bun 1.1.43 \\- S3 support, HTML bundling, V8 snapshots and more](https://bun.sh/blog/bun-v1.1.43)"
+    },
+    {
+      "id": "c63467a3",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "73776161",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "f7e6e884",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/217/meme.jpg)](https://bsky.app/profile/did:plc:hxmev3uady7j4litwnr5fzbg/post/3lfmnhwx6e222)",
+      "sourceMdx": "[![alt](/emails/issues/217/meme.jpg)](https://bsky.app/profile/did:plc:hxmev3uady7j4litwnr5fzbg/post/3lfmnhwx6e222)"
+    },
+    {
+      "id": "17b50e81",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/217/meme2.jpg)](https://x.com/mrousavy/status/1878383018324222000)",
+      "sourceMdx": "[![alt](/emails/issues/217/meme2.jpg)](https://x.com/mrousavy/status/1878383018324222000)"
+    },
+    {
+      "id": "719d3997",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

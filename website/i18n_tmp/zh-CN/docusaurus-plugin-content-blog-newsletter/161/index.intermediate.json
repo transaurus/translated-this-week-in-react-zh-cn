@@ -1,0 +1,305 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/161/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /161\ntitle: \"This Week In React #161: useFormState, Memo, Conform, Progressive Enhancement, Astro, Radix, React-Aria, Rustymotion, Ecctrl, Expo Apple Settings, Unistyles, TypeScript, TC39...\"\nauthors: [slorber]\ndate: 10-04-2023\n---",
+      "sourceMdx": "---\nslug: /161\ntitle: \"This Week In React #161: useFormState, Memo, Conform, Progressive Enhancement, Astro, Radix, React-Aria, Rustymotion, Ecctrl, Expo Apple Settings, Unistyles, TypeScript, TC39...\"\nauthors: [slorber]\ndate: 10-04-2023\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "This week I've found the React ecosystem rather quiet, but we've got some pretty cool articles to read.",
+      "sourceMdx": "This week I've found the React ecosystem rather quiet, but we've got some pretty cool articles to read."
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "React progressive enhancement is in the spotlight in both Remix and Next.js!",
+      "sourceMdx": "React progressive enhancement is in the spotlight in both Remix and Next.js!"
+    },
+    {
+      "id": "e883b2cc",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "86b54d44",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "7f7f1cb2",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "92f4ea84",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "5dfba1c3",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "1856ef44",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "79b2d0b9",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "d9172fa4",
+      "translatable": true,
+      "content": "[![Enterprise Grade APIs for Feeds, Chat, & Video!](/emails/issues/153/stream.jpg)](https://getstream.io/video/voice-calling/?utm_source=thisweekinreact\\&utm_medium=sponsorship\\&utm_content=\\&utm_campaign=thisweekinreact_July2023_video_klmh22)",
+      "sourceMdx": "[![Enterprise Grade APIs for Feeds, Chat, & Video!](/emails/issues/153/stream.jpg)](https://getstream.io/video/voice-calling/?utm_source=thisweekinreact&utm_medium=sponsorship&utm_content=&utm_campaign=thisweekinreact_July2023_video_klmh22)"
+    },
+    {
+      "id": "26524352",
+      "translatable": true,
+      "content": "[**Enterprise Grade APIs for Feeds, Chat, & Video!**](https://getstream.io/video/docs/react/?utm_source=thisweekinreact\\&utm_medium=sponsorship\\&utm_content=\\&utm_campaign=thisweekinreact_July2023_video_klmh22)",
+      "sourceMdx": "[**Enterprise Grade APIs for Feeds, Chat, & Video!**](https://getstream.io/video/docs/react/?utm_source=thisweekinreact&utm_medium=sponsorship&utm_content=&utm_campaign=thisweekinreact_July2023_video_klmh22)"
+    },
+    {
+      "id": "73ab96a3",
+      "translatable": true,
+      "content": "Stream is the maker of enterprise-grade **APIs** and **SDKs** that help product and engineering teams solve two common problems at scale: in-app chat and social activity feeds.",
+      "sourceMdx": "Stream is the maker of enterprise-grade **APIs** and **SDKs** that help product and engineering teams solve two common problems at scale: in-app chat and social activity feeds."
+    },
+    {
+      "id": "7499a4e7",
+      "translatable": true,
+      "content": "With Stream, developers can integrate any type of messaging or feed experience into their app in a fraction of the time it would take to build these features from scratch. Stream Chat makes it easy for developers to integrate rich, real-time messaging into their applications.",
+      "sourceMdx": "With Stream, developers can integrate any type of messaging or feed experience into their app in a fraction of the time it would take to build these features from scratch. Stream Chat makes it easy for developers to integrate rich, real-time messaging into their applications."
+    },
+    {
+      "id": "517051a7",
+      "translatable": true,
+      "content": "Stream provides robust client-side SDKs for popular frameworks such as [**React**](https://getstream.io/chat/sdk/react/?utm_source=thisweekinreact\\&utm_medium=sponsorship\\&utm_content=\\&utm_campaign=thisweekinreact_July2023_video_klmh22), [**React-Native**](https://getstream.io/chat/sdk/react-native/?utm_source=thisweekinreact\\&utm_medium=sponsorship\\&utm_content=\\&utm_campaign=thisweekinreact_July2023_video_klmh22), Expo, Flutter, Android, Angular, Compose, Unreal, and iOS.\nUnlock enterprise-grade features, functions, and UI components completely free for your startup or side project with the Maker Account.",
+      "sourceMdx": "Stream provides robust client-side SDKs for popular frameworks such as [**React**](https://getstream.io/chat/sdk/react/?utm_source=thisweekinreact&utm_medium=sponsorship&utm_content=&utm_campaign=thisweekinreact_July2023_video_klmh22), [**React-Native**](https://getstream.io/chat/sdk/react-native/?utm_source=thisweekinreact&utm_medium=sponsorship&utm_content=&utm_campaign=thisweekinreact_July2023_video_klmh22), Expo, Flutter, Android, Angular, Compose, Unreal, and iOS.\nUnlock enterprise-grade features, functions, and UI components completely free for your startup or side project with the Maker Account."
+    },
+    {
+      "id": "c3a738de",
+      "translatable": true,
+      "content": "[**Try the new React Video tutorial!**](https://getstream.io/video/docs/react/?utm_source=thisweekinreact\\&utm_medium=sponsorship\\&utm_content=\\&utm_campaign=thisweekinreact_July2023_video_klmh22)",
+      "sourceMdx": "[**Try the new React Video tutorial!**](https://getstream.io/video/docs/react/?utm_source=thisweekinreact&utm_medium=sponsorship&utm_content=&utm_campaign=thisweekinreact_July2023_video_klmh22)"
+    },
+    {
+      "id": "bd7c9323",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "06c0f776",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "aa1e7006",
+      "translatable": true,
+      "content": "[![The Uphill Battle of Memoization](/emails/issues/161/memo.jpg)](https://tkdodo.eu/blog/the-uphill-battle-of-memoization)",
+      "sourceMdx": "[![The Uphill Battle of Memoization](/emails/issues/161/memo.jpg)](https://tkdodo.eu/blog/the-uphill-battle-of-memoization)"
+    },
+    {
+      "id": "13d9cd70",
+      "translatable": true,
+      "content": "[**The Uphill Battle of Memoization**](https://tkdodo.eu/blog/the-uphill-battle-of-memoization)",
+      "sourceMdx": "[**The Uphill Battle of Memoization**](https://tkdodo.eu/blog/the-uphill-battle-of-memoization)"
+    },
+    {
+      "id": "29528c8d",
+      "translatable": true,
+      "content": "We want to create high-performance applications, and to do that we use `React.memo`, which avoids unnecessary re-renders. But these optimisations break too easily. Dominik shares with us several scenarios that lead to performance degradation, including the use of inlined objects/callbacks, or the use of JSX slots with a props like `children`.",
+      "sourceMdx": "We want to create high-performance applications, and to do that we use `React.memo`, which avoids unnecessary re-renders. But these optimisations break too easily. Dominik shares with us several scenarios that lead to performance degradation, including the use of inlined objects/callbacks, or the use of JSX slots with a props like `children`."
+    },
+    {
+      "id": "c504c207",
+      "translatable": true,
+      "content": "I took the opportunity to give [my opinion on Twitter](https://twitter.com/sebastienlorber/status/1709258817844752794): the performance of a React component should be better encapsulated. While we're waiting for the React-Forget compiler, there are a few lesser-known avenues to explore, such as the use of Babel plugins.",
+      "sourceMdx": "I took the opportunity to give [my opinion on Twitter](https://twitter.com/sebastienlorber/status/1709258817844752794): the performance of a React component should be better encapsulated. While we're waiting for the React-Forget compiler, there are a few lesser-known avenues to explore, such as the use of Babel plugins."
+    },
+    {
+      "id": "5f01394b",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "d3649a1e",
+      "translatable": true,
+      "content": "[![Accessible, Typesafe, Progressively Enhanced Modern Web Forms](/emails/issues/161/epicweb.jpg)](https://www.epicweb.dev/accessible-typesafe-progressively-enhanced-modern-web-forms)",
+      "sourceMdx": "[![Accessible, Typesafe, Progressively Enhanced Modern Web Forms](/emails/issues/161/epicweb.jpg)](https://www.epicweb.dev/accessible-typesafe-progressively-enhanced-modern-web-forms)"
+    },
+    {
+      "id": "4d52a261",
+      "translatable": true,
+      "content": "[**Accessible, Typesafe, Progressively Enhanced Modern Web Forms**](https://www.epicweb.dev/accessible-typesafe-progressively-enhanced-modern-web-forms)",
+      "sourceMdx": "[**Accessible, Typesafe, Progressively Enhanced Modern Web Forms**](https://www.epicweb.dev/accessible-typesafe-progressively-enhanced-modern-web-forms)"
+    },
+    {
+      "id": "23dfb152",
+      "translatable": true,
+      "content": "Kent shows us a few examples of Remix code and how easy it is to implement pending UI and optimistic UI. He recommends using a shared Zod schema to validate forms on the frontend, and extending it on the backend to eventually add additional rules. [conform](https://conform.guide/) facilitates the use of a Zod schema to validate a `FormData`, and seems to be an underrated solution for managing a React form, from the local state to the server.",
+      "sourceMdx": "Kent shows us a few examples of Remix code and how easy it is to implement pending UI and optimistic UI. He recommends using a shared Zod schema to validate forms on the frontend, and extending it on the backend to eventually add additional rules. [conform](https://conform.guide/) facilitates the use of a Zod schema to validate a `FormData`, and seems to be an underrated solution for managing a React form, from the local state to the server."
+    },
+    {
+      "id": "aa7d3f2b",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "ea0c7bae",
+      "translatable": true,
+      "content": "* 💸 [Ably Realtime Hackathon - Create a real-time React app, win $19,000 in prizes - from real-time dashboards to collaborative experiences!](https://ably.devpost.com/?utm_campaign=23-hackathon\\&utm_source=thisweekinreact\\&utm_medium=referral)\n* 👀 [Next.js PR - Progressive enhancement for form state](https://github.com/vercel/next.js/pull/55584): Next.js includes a brand-new `useFormState` React core hook (not to be confused with `useFormStatus`), which can be used to manage the feedback/response of Server Actions, even when JavaScript is disabled.\n* 👀 [React core PR - Add Server Context deprecation warning](https://github.com/facebook/react/pull/27424): the secret hook `createServerContext` is deprecated and will be removed.\n* 👀 [Panda CSS Public Roadmap - Container Query, Panda Studio](https://panda-css.canny.io/)\n* 🐦 [Astro View Transition + persistent React-Three-Fiber model demo](https://twitter.com/astrodotbuild/status/1707918024471355406)\n* 🐦 [Remotion contracting with GitHub - Assembled a team to produce GitHub Unwrapped 2023 videos](https://twitter.com/Remotion/status/1707664519403614323)\n* 📜 [Sharing State with Islands Architecture](https://frontendatscale.com/blog/islands-architecture-state/): well-illustrated article analysing several possible solutions for getting Islands to communicate in an Astro/React context.\n* 📜 [Next.js 13 vs Remix: An In-depth case study](https://prateeksurana.me/blog/nextjs-13-vs-remix-an-in-depth-case-study/): exhaustive, well-documented article comparing many Next.js and Remix features side-by-side.\n* 📜 [React Google Maps: Drawing Tools](https://sudolabs.com/insights/react-google-maps-drawing-tools)\n* 📜 [Docusaurus - Preparing your site for v3 + MDX 2](https://docusaurus.io/blog/preparing-your-site-for-docusaurus-v3)\n* 📦 [Astro 3.2 - View Transitions improvements](https://astro.build/blog/astro-320/)\n* 📦 [Radix Themes 2.0 - New colors, better Tailwind compatibility, many component improvements](https://www.radix-ui.com/themes/docs/overview/releases#200)\n* 📦 [React Aria - October 2 2023 releases - Client-side routing integration](https://react-spectrum.adobe.com/releases/2023-10-02.html)\n* 📦 [Rustymotion - A Rust-based renderer for Remotion videos](https://github.com/clearlysid/rustymotion)\n* 📦 [Ecctrl - React-Three-Fiber character controller](https://github.com/pmndrs/ecctrl)\n* 🎥 [Theo T3 - Facebook Tried Tailwind, Then Built This Instead (styleX)](https://www.youtube.com/watch?v=PHV94q7BivI)\n* 🎙️ [This Month in React – September 2023](https://podcasters.spotify.com/pod/show/reactiflux/episodes/This-Month-in-React--September-2023-e29vb6o)\n* 👥 [reactjsday](https://2023.reactjsday.it/) (Verona 🇮🇹, Octobre 27) is offering us [-10% - code \"media\\_TWIR\"](https://ti.to/grusp/reactjsday-2023/discount/media_TWIR)\n* 👥 [React Advanced](https://reactadvanced.com/?utm_source=email\\&utm_medium=thisweekinreact) (London 🇬🇧, Octobre 20-23) is offering us [-10% - code \"REACT10\"](https://ti.to/gitnation/react-advanced-london-2023/discount/REACT10)",
+      "sourceMdx": "- 💸 [Ably Realtime Hackathon - Create a real-time React app, win $19,000 in prizes - from real-time dashboards to collaborative experiences!](https://ably.devpost.com/?utm_campaign=23-hackathon&utm_source=thisweekinreact&utm_medium=referral)\n- 👀 [Next.js PR - Progressive enhancement for form state](https://github.com/vercel/next.js/pull/55584): Next.js includes a brand-new `useFormState` React core hook (not to be confused with `useFormStatus`), which can be used to manage the feedback/response of Server Actions, even when JavaScript is disabled.\n- 👀 [React core PR - Add Server Context deprecation warning](https://github.com/facebook/react/pull/27424): the secret hook `createServerContext` is deprecated and will be removed.\n- 👀 [Panda CSS Public Roadmap - Container Query, Panda Studio](https://panda-css.canny.io/)\n- 🐦 [Astro View Transition + persistent React-Three-Fiber model demo](https://twitter.com/astrodotbuild/status/1707918024471355406)\n- 🐦 [Remotion contracting with GitHub - Assembled a team to produce GitHub Unwrapped 2023 videos](https://twitter.com/Remotion/status/1707664519403614323)\n- 📜 [Sharing State with Islands Architecture](https://frontendatscale.com/blog/islands-architecture-state/): well-illustrated article analysing several possible solutions for getting Islands to communicate in an Astro/React context.\n- 📜 [Next.js 13 vs Remix: An In-depth case study](https://prateeksurana.me/blog/nextjs-13-vs-remix-an-in-depth-case-study/): exhaustive, well-documented article comparing many Next.js and Remix features side-by-side.\n- 📜 [React Google Maps: Drawing Tools](https://sudolabs.com/insights/react-google-maps-drawing-tools)\n- 📜 [Docusaurus - Preparing your site for v3 + MDX 2](https://docusaurus.io/blog/preparing-your-site-for-docusaurus-v3)\n- 📦 [Astro 3.2 - View Transitions improvements](https://astro.build/blog/astro-320/)\n- 📦 [Radix Themes 2.0 - New colors, better Tailwind compatibility, many component improvements](https://www.radix-ui.com/themes/docs/overview/releases#200)\n- 📦 [React Aria - October 2 2023 releases - Client-side routing integration](https://react-spectrum.adobe.com/releases/2023-10-02.html)\n- 📦 [Rustymotion - A Rust-based renderer for Remotion videos](https://github.com/clearlysid/rustymotion)\n- 📦 [Ecctrl - React-Three-Fiber character controller](https://github.com/pmndrs/ecctrl)\n- 🎥 [Theo T3 - Facebook Tried Tailwind, Then Built This Instead (styleX)](https://www.youtube.com/watch?v=PHV94q7BivI)\n- 🎙️ [This Month in React – September 2023](https://podcasters.spotify.com/pod/show/reactiflux/episodes/This-Month-in-React--September-2023-e29vb6o)\n- 👥 [reactjsday](https://2023.reactjsday.it/) (Verona 🇮🇹, Octobre 27) is offering us [\\-10% - code \"media_TWIR\"](https://ti.to/grusp/reactjsday-2023/discount/media_TWIR)\n- 👥 [React Advanced](https://reactadvanced.com/?utm_source=email&utm_medium=thisweekinreact) (London 🇬🇧, Octobre 20-23) is offering us [\\-10% - code \"REACT10\"](https://ti.to/gitnation/react-advanced-london-2023/discount/REACT10)"
+    },
+    {
+      "id": "688f86d6",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed placement=\"middle\" />",
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+    },
+    {
+      "id": "4e1804a3",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "759d12dd",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "74dd7937",
+      "translatable": true,
+      "content": "[![A Non-Cloud Alternative to Google Forms that has it all](/emails/issues/155/surveyjs.jpg)](https://surveyjs.io/?utm_source=thisweekinreact\\&utm_medium=email)",
+      "sourceMdx": "[![A Non-Cloud Alternative to Google Forms that has it all](/emails/issues/155/surveyjs.jpg)](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)"
+    },
+    {
+      "id": "5803caac",
+      "translatable": true,
+      "content": "**[A Non-Cloud Alternative to Google Forms that has it all](https://surveyjs.io/?utm_source=thisweekinreact\\&utm_medium=email)**",
+      "sourceMdx": "**[A Non-Cloud Alternative to Google Forms that has it all](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)**"
+    },
+    {
+      "id": "51867d16",
+      "translatable": true,
+      "content": "If you are looking to set up **a robust form management system fully integrated in your IT infrastructure** that allows you to **retain full control over the data flow**, and you don’t want to spend months and thousands of dollars to get it up and running, then SurveyJS is the way to go!",
+      "sourceMdx": "If you are looking to set up **a robust form management system fully integrated in your IT infrastructure** that allows you to **retain full control over the data flow**, and you don’t want to spend months and thousands of dollars to get it up and running, then SurveyJS is the way to go!"
+    },
+    {
+      "id": "785750ac",
+      "translatable": true,
+      "content": "SurveyJS is a product suite of four open-source JavaScript libraries that allow you to **create and edit** multiple dynamic **JSON-based forms** in a drag-and-drop form builder, render them in your React app and **store sensitive survey data within your in-house infrastructure**. You can then **render your custom surveys and forms as editable PDF files** in a browser and visualize survey results with **interactive charts and tables**. [Learn more now](https://surveyjs.io/?utm_source=thisweekinreact\\&utm_medium=email).",
+      "sourceMdx": "SurveyJS is a product suite of four open-source JavaScript libraries that allow you to **create and edit** multiple dynamic **JSON-based forms** in a drag-and-drop form builder, render them in your React app and **store sensitive survey data within your in-house infrastructure**. You can then **render your custom surveys and forms as editable PDF files** in a browser and visualize survey results with **interactive charts and tables**. [Learn more now](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)."
+    },
+    {
+      "id": "f7a7cb1b",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "e06c002e",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "25212439",
+      "translatable": true,
+      "content": "[![Custom Apple Settings UI with Expo](/emails/issues/161/exposettings.jpg)](https://evanbacon.dev/blog/apple-settings)",
+      "sourceMdx": "[![Custom Apple Settings UI with Expo](/emails/issues/161/exposettings.jpg)](https://evanbacon.dev/blog/apple-settings)"
+    },
+    {
+      "id": "d79a4831",
+      "translatable": true,
+      "content": "[**Custom Apple Settings UI with Expo**](https://evanbacon.dev/blog/apple-settings)",
+      "sourceMdx": "[**Custom Apple Settings UI with Expo**](https://evanbacon.dev/blog/apple-settings)"
+    },
+    {
+      "id": "2838eb68",
+      "translatable": true,
+      "content": "Evan points out the few advantages of using the iOS settings screen. It's a pain to implement natively, and the ROI is low, but his Expo Config Plugin simplifies the task. He explains how to toggle an app's sound with a switch, or how to automate the display of your app's software licenses.",
+      "sourceMdx": "Evan points out the few advantages of using the iOS settings screen. It's a pain to implement natively, and the ROI is low, but his Expo Config Plugin simplifies the task. He explains how to toggle an app's sound with a switch, or how to automate the display of your app's software licenses."
+    },
+    {
+      "id": "f414353c",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "664ad8b1",
+      "translatable": true,
+      "content": "* 💸 [Blitz - Build React Native Apps Faster for iOS, Android, and Web!](https://www.blitz-rn.com/)\n* 📜 [Expo EAS - Support for XCode 15 and iOS 17](https://expo.dev/changelog/2023/09-28-new-xcode-ios)\n* 📖 [Expo Docs - Continuous Native Generation (CNG)](https://docs.expo.dev/workflow/continuous-native-generation/): presents the idea of generating native platforms on an ongoing basis with Expo Prebuild.\n* 📦 [create-react-native-library v0.34 - local library support](https://github.com/callstack/react-native-builder-bob/releases/tag/create-react-native-library%400.34.0): it's now very easy to generate a local library in React-Native vanilla. Expo supports it too.\n* 📦 [react-native-unistyles - Level up your React Native StyleSheet, make it cross-platform and scalable](https://github.com/jpudysz/react-native-unistyles)\n* 📦 [react-native-compressor - Compress Image, Video, and Audio before uploading](https://github.com/numandev1/react-native-compressor)\n* 📦 [Expo-Image 1.3.4 - Fix libwepb security issue](https://expo.dev/changelog/2023/09-29-libwebp)\n* 📦 [React-Native-Skia v0.1.211 beta - Animated images](https://shopify.github.io/react-native-skia/docs/animated-images/)\n* 🎥 [Why did your app crash? How to use Logcat & macOS Console to debug](https://www.youtube.com/watch?v=LvCci4Bwmpc)\n* 🎥 [Why Airbnb was wrong to ditch React Native in 2018](https://www.youtube.com/watch?v=RwUQnfcxH0o)\n* 🎙 [React Native Radio 276 - Announcing Ignite v9](https://reactnativeradio.com/episodes/rnr-276-announcing-ignite-v9-expresso)",
+      "sourceMdx": "- 💸 [Blitz - Build React Native Apps Faster for iOS, Android, and Web!](https://www.blitz-rn.com/)\n- 📜 [Expo EAS - Support for XCode 15 and iOS 17](https://expo.dev/changelog/2023/09-28-new-xcode-ios)\n- 📖 [Expo Docs - Continuous Native Generation (CNG)](https://docs.expo.dev/workflow/continuous-native-generation/): presents the idea of generating native platforms on an ongoing basis with Expo Prebuild.\n- 📦 [create-react-native-library v0.34 - local library support](https://github.com/callstack/react-native-builder-bob/releases/tag/create-react-native-library%400.34.0): it's now very easy to generate a local library in React-Native vanilla. Expo supports it too.\n- 📦 [react-native-unistyles - Level up your React Native StyleSheet, make it cross-platform and scalable](https://github.com/jpudysz/react-native-unistyles)\n- 📦 [react-native-compressor - Compress Image, Video, and Audio before uploading](https://github.com/numandev1/react-native-compressor)\n- 📦 [Expo-Image 1.3.4 - Fix libwepb security issue](https://expo.dev/changelog/2023/09-29-libwebp)\n- 📦 [React-Native-Skia v0.1.211 beta - Animated images](https://shopify.github.io/react-native-skia/docs/animated-images/)\n- 🎥 [Why did your app crash? How to use Logcat & macOS Console to debug](https://www.youtube.com/watch?v=LvCci4Bwmpc)\n- 🎥 [Why Airbnb was wrong to ditch React Native in 2018](https://www.youtube.com/watch?v=RwUQnfcxH0o)\n- 🎙 [React Native Radio 276 - Announcing Ignite v9](https://reactnativeradio.com/episodes/rnr-276-announcing-ignite-v9-expresso)"
+    },
+    {
+      "id": "0bee36ce",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "b9b8694c",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "82abb0a4",
+      "translatable": true,
+      "content": "* 📜 [Updates from the 98th TC39 meeting - Resizable ArrayBuffer, ShadowRealm, RegEx escape...](https://dev.to/hemanth/updates-from-the-98th-tc39-meeting-1lcf)\n* 📜 [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023](https://tonsky.me/blog/unicode/)\n* 📜 [CSS Subgrid - Now available in all browsers thanks to Chrome 117](https://web.dev/css-subgrid/)\n* 📜 [CSS Nesting and the Cascade](https://webkit.org/blog/14571/css-nesting-and-the-cascade/)\n* 📜 [New to the web platform in September](https://web.dev/web-platform-09-2023/)\n* 📦 [TypeScript 5.3 Beta - Import Attributes, \"resolution-mode\" for type imports ...](https://devblogs.microsoft.com/typescript/announcing-typescript-5-3-beta/)\n* 📦 [string-ts - Strongly typed string functions](https://github.com/gustavoguichard/string-ts)\n* 📦 [every-ts - A utility to build and bisect any version of TypeScript](https://github.com/jakebailey/every-ts)\n* 📦 [pattycake - Zero-runtime pattern matching - Optimizing compiler for ts-pattern](https://github.com/aidenybai/pattycake)\n* 📦 [Node.js 20.8 - Notable performance improvements](https://nodejs.org/en/blog/release/v20.8.0)\n* 📦 [Vitest 1.0 beta](https://github.com/vitest-dev/vitest/releases/tag/v1.0.0-beta.0)",
+      "sourceMdx": "- 📜 [Updates from the 98th TC39 meeting - Resizable ArrayBuffer, ShadowRealm, RegEx escape...](https://dev.to/hemanth/updates-from-the-98th-tc39-meeting-1lcf)\n- 📜 [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023](https://tonsky.me/blog/unicode/)\n- 📜 [CSS Subgrid - Now available in all browsers thanks to Chrome 117](https://web.dev/css-subgrid/)\n- 📜 [CSS Nesting and the Cascade](https://webkit.org/blog/14571/css-nesting-and-the-cascade/)\n- 📜 [New to the web platform in September](https://web.dev/web-platform-09-2023/)\n- 📦 [TypeScript 5.3 Beta - Import Attributes, \"resolution-mode\" for type imports ...](https://devblogs.microsoft.com/typescript/announcing-typescript-5-3-beta/)\n- 📦 [string-ts - Strongly typed string functions](https://github.com/gustavoguichard/string-ts)\n- 📦 [every-ts - A utility to build and bisect any version of TypeScript](https://github.com/jakebailey/every-ts)\n- 📦 [pattycake - Zero-runtime pattern matching - Optimizing compiler for ts-pattern](https://github.com/aidenybai/pattycake)\n- 📦 [Node.js 20.8 - Notable performance improvements](https://nodejs.org/en/blog/release/v20.8.0)\n- 📦 [Vitest 1.0 beta](https://github.com/vitest-dev/vitest/releases/tag/v1.0.0-beta.0)"
+    },
+    {
+      "id": "efbc76b7",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "c6868a9f",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "bb1346b6",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/161/meme.jpg)](https://twitter.com/creatine_cycle/status/1706912311309652159)",
+      "sourceMdx": "[![alt](/emails/issues/161/meme.jpg)](https://twitter.com/creatine_cycle/status/1706912311309652159)"
+    },
+    {
+      "id": "8664ed0b",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

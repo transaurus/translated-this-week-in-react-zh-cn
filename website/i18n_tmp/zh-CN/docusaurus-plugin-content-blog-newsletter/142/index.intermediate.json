@@ -1,0 +1,365 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/142/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /142\ntitle: \"This Week In React #142: JSX, React-Query, Server Components, Next.js, Million, OpenNext, Ariakit, Expo-Image, React-Three-Fiber, TS 5.1, Node.js 20, WebGPU...\"\nauthors: [slorber]\ndate: 04-18-2023\n---",
+      "sourceMdx": "---\nslug: /142\ntitle: \"This Week In React #142: JSX, React-Query, Server Components, Next.js, Million, OpenNext, Ariakit, Expo-Image, React-Three-Fiber, TS 5.1, Node.js 20, WebGPU...\"\nauthors: [slorber]\ndate: 04-18-2023\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "This week, TypeScript 5.1 is released in beta with many improvements related to JSX and React!",
+      "sourceMdx": "This week, TypeScript 5.1 is released in beta with many improvements related to JSX and React!"
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "React-Query plans to remove query callbacks in version 5, and this idea does not please everyone.",
+      "sourceMdx": "React-Query plans to remove query callbacks in version 5, and this idea does not please everyone."
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "For React-Native developers, don't miss [React-Native-Connection](https://reactnativeconnection.io/) on June 1st in Paris! I participated to the talks selection committee, and we just [published the complete line-up](https://twitter.com/sebastienlorber/status/1648269027318411264) with international and local speakers. 10% discount with the code \"REACTHEBDO\".",
+      "sourceMdx": "For React-Native developers, don't miss [React-Native-Connection](https://reactnativeconnection.io/) on June 1st in Paris! I participated to the talks selection committee, and we just [published the complete line-up](https://twitter.com/sebastienlorber/status/1648269027318411264) with international and local speakers. 10% discount with the code \"REACTHEBDO\"."
+    },
+    {
+      "id": "6429a3aa",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "39b3772c",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "507b4652",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "fcd52337",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "42e34e45",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "caf67047",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "3c36424c",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "26524352",
+      "translatable": true,
+      "content": "[![React-admin](/emails/issues/141/react_admin.png)](https://marmelab.com/react-admin/?utm_source=newsletter\\&utm_term=this-week-in-react)",
+      "sourceMdx": "[![React-admin](/emails/issues/141/react_admin.png)](https://marmelab.com/react-admin/?utm_source=newsletter&utm_term=this-week-in-react)"
+    },
+    {
+      "id": "73ab96a3",
+      "translatable": true,
+      "content": "**[React-admin - The Open-Source Framework for B2B apps](https://marmelab.com/react-admin/?utm_source=newsletter\\&utm_term=this-week-in-react)**",
+      "sourceMdx": "**[React-admin - The Open-Source Framework for B2B apps](https://marmelab.com/react-admin/?utm_source=newsletter&utm_term=this-week-in-react)**"
+    },
+    {
+      "id": "7499a4e7",
+      "translatable": true,
+      "content": "Are you currently building an admin panel with React? If so, we have some exciting news for you! By using React-admin, an open-source framework for B2B apps, you can spare yourself days of coding! 🤩",
+      "sourceMdx": "Are you currently building an admin panel with React? If so, we have some exciting news for you! By using React-admin, an open-source framework for B2B apps, you can spare yourself days of coding! 🤩"
+    },
+    {
+      "id": "517051a7",
+      "translatable": true,
+      "content": "With React-admin you can not only save valuable time, but you can also become a better developer! You don't have to take only our word for it, though. There are already over 20,000 developers who use it daily and swear by its effectiveness. And if you're curious about the experiences of developers who have used React-admin for years already, check out NPO [Caritas' testimonial](https://marmelab.com/blog/2022/07/07/react-admin-caritas.html).",
+      "sourceMdx": "With React-admin you can not only save valuable time, but you can also become a better developer! You don't have to take only our word for it, though. There are already over 20,000 developers who use it daily and swear by its effectiveness. And if you're curious about the experiences of developers who have used React-admin for years already, check out NPO [Caritas' testimonial](https://marmelab.com/blog/2022/07/07/react-admin-caritas.html)."
+    },
+    {
+      "id": "135468ee",
+      "translatable": true,
+      "content": "Join our thriving community as well as [Discord](https://discord.com/invite/jR3D6SdQ) server, so you can stay up-to-date on the latest React-admin updates and get support from a network of experienced developers.",
+      "sourceMdx": "Join our thriving community as well as [Discord](https://discord.com/invite/jR3D6SdQ) server, so you can stay up-to-date on the latest React-admin updates and get support from a network of experienced developers."
+    },
+    {
+      "id": "33331f27",
+      "translatable": true,
+      "content": "So what are you waiting for? Start using React-admin now, it’s free 😉, and take your development to the next level! 🚀",
+      "sourceMdx": "So what are you waiting for? Start using React-admin now, it’s free 😉, and take your development to the next level! 🚀"
+    },
+    {
+      "id": "602e59c7",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "54268405",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "8af76f3d",
+      "translatable": true,
+      "content": "[![TypeScript 5.1 beta](/emails/issues/142/ts5.1.jpg)](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-beta/)",
+      "sourceMdx": "[![TypeScript 5.1 beta](/emails/issues/142/ts5.1.jpg)](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-beta/)"
+    },
+    {
+      "id": "a9d49f92",
+      "translatable": true,
+      "content": "**[TypeScript 5.1 (beta) + React](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-beta/)**",
+      "sourceMdx": "**[TypeScript 5.1 (beta) + React](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-beta/)**"
+    },
+    {
+      "id": "a44047a5",
+      "translatable": true,
+      "content": "An important TypeScript release that will allow React to be able to declare its own valid JSX types. It is planned to use this new feature as soon as possible in React typedefs, which have already been [forked](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/65126) to continue to support older versions (TypeScript \\<= 5.0).",
+      "sourceMdx": "An important TypeScript release that will allow React to be able to declare its own valid JSX types. It is planned to use this new feature as soon as possible in React typedefs, which have already been [forked](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/65126) to continue to support older versions (TypeScript \\<= 5.0)."
+    },
+    {
+      "id": "f7ef78f9",
+      "translatable": true,
+      "content": "There are good reasons to adopt TypeScript 5.1+ as soon as possible. It unlocks among other things:",
+      "sourceMdx": "There are good reasons to adopt TypeScript 5.1+ as soon as possible. It unlocks among other things:"
+    },
+    {
+      "id": "157c9741",
+      "translatable": true,
+      "content": "* the ability to use a React Server Component `async` in JSX without TypeScript errors or [workaround](https://gist.github.com/cramforce/b5e3f0b103f841d2e5e429b1d5ac4ded).\n* the ability to return all valid types for `ReactNode` (string, array, boolean...) without needing a fragment ([details](https://twitter.com/sebastienlorber/status/1648619398259769344)).\n* other interesting improvements around JSX: namespaced attributes and linked editing (VSCode).",
+      "sourceMdx": "- the ability to use a React Server Component `async` in JSX without TypeScript errors or [workaround](https://gist.github.com/cramforce/b5e3f0b103f841d2e5e429b1d5ac4ded).\n- the ability to return all valid types for `ReactNode` (string, array, boolean...) without needing a fragment ([details](https://twitter.com/sebastienlorber/status/1648619398259769344)).\n- other interesting improvements around JSX: namespaced attributes and linked editing (VSCode)."
+    },
+    {
+      "id": "e2fed468",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "40158b4b",
+      "translatable": true,
+      "content": "[![Breaking React Query's API on purpose](/emails/issues/142/rq.jpg)](https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose)",
+      "sourceMdx": "[![Breaking React Query's API on purpose](/emails/issues/142/rq.jpg)](https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose)"
+    },
+    {
+      "id": "6ea4c715",
+      "translatable": true,
+      "content": "**[Breaking React Query's API on purpose](https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose)**",
+      "sourceMdx": "**[Breaking React Query's API on purpose](https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose)**"
+    },
+    {
+      "id": "79ad944d",
+      "translatable": true,
+      "content": "React-Query will remove the callbacks (`onSuccess`, `onError`, `onSettled`) from the `useQuery` hook with v5. Dominik explains this choice and suggest alternatives more adapted to common cases, like displaying a toast. A controversial but necessary decision because these APIs were often misused. Note: callbacks are kept for `useMutation`.",
+      "sourceMdx": "React-Query will remove the callbacks (`onSuccess`, `onError`, `onSettled`) from the `useQuery` hook with v5. Dominik explains this choice and suggest alternatives more adapted to common cases, like displaying a toast. A controversial but necessary decision because these APIs were often misused. Note: callbacks are kept for `useMutation`."
+    },
+    {
+      "id": "e874d9e7",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "645e08e3",
+      "translatable": true,
+      "content": "* 🧵 [Dan Abramov - \"good rule of thumb. for any “server components”](https://twitter.com/dan_abramov/status/1647203329854799872): explains the minimum requirements for a proper Server Components implementation, taking full advantage of their potential. Presents the limitations of Qwik and Remix models.\n* 👀 [Dan Abramov has a \"story to tell\" at Remix Conf (\"React from Another Dimension\")](https://twitter.com/remix_run/status/1646177445454950400)\n* 👀 [Next.js ships its own copy of React](https://twitter.com/devongovett/status/1647728887927906304): copy used only when using App Router.\n* 👀 [Use Storybook with Rspack](https://twitter.com/rspack_dev/status/1646164228598792196)\n* 👀 [WebGPU in React-Three-Fiber demo](https://twitter.com/CantBeFaraz/status/1647811509014216710)\n* ⚡ [SpiderMonkey Newsletter (Firefox 112-113)](https://spidermonkey.dev/blog/2023/04/14/newsletter-firefox-112-113.html): \"We’re working on improving performance for popular web frameworks such as React\".\n* 📜 [Animating View Transitions](https://www.patterns.dev/posts/view-transitions): explains how to use the new View Transition API (Chrome 111+) in a React context with Next.js App Router, and in a MPA context. Interesting, but the proposed React integration doesn't look ideal.\n* 📜 [An Animated Guide to Reacts Optional Parameters](https://julesblom.com/writing/react-optional-parameters): interactive article that presents some features of React APIs that we use less often.\n* 📜 [Next over Remix](https://bradgarropy.com/blog/next-over-remix): feedback from a dev who had planned to switch to Remix, but finally stayed with Next.js.\n* 📜 [Building a blog with Next.js 13 and React Server Components](https://maxleiter.com/blog/build-a-blog-with-nextjs-13): uses all the latest Next.js features to create a modern blog.\n* 📜 [React forwardRef(): How to Pass Refs to Child Components](https://dmitripavlutin.com/react-forwardref/)\n* 📜 [Is React the New WordPress?](https://www.seancdavis.com/posts/is-react-the-new-wordpress/)\n* 📜 [Becoming an Astro maintainer](https://www.elian.codes/blog/23-04-12-becoming-an-astro-maintainer/)\n* 📜 [Display Warning for Unsaved Form Data on Page Exit](https://claritydev.net/blog/display-warning-for-unsaved-form-data-on-page-exit)\n* 📜 [Mastering React: Techniques to Take Your UI to the Next Level](https://blog.bitsrc.io/mastering-react-techniques-to-take-your-ui-to-the-next-level-a5002173904f)\n* 📜 [What's new in the new Storybook](https://www.mariasimo.codes/storybook-7-new-release)\n* 📜 [Full-stack Web Apps Without React](https://remotesynthesis.com/blog/full-stack-without-react/)\n* 🎥 [Must Know React Portability Patterns](https://www.youtube.com/watch?v=yi8UCnXPu8U): good advices to reduce coupling of your code to a particular framework.\n* 🎥 [Maybe Create React App Isn't Dead?](https://www.youtube.com/watch?v=A2kWoKnpy1U)\n* 📦 [Ariakit 0.1.0](https://github.com/ariakit/ariakit/releases/tag/%40ariakit%2Freact%400.1.0): new way of managing state based on component stores. Motivations in this [RFC](https://github.com/ariakit/ariakit/issues/1875): less re-renders, becoming framework-agnostic...\n* 📦 [Million.js 2.2.1 - Support for hooks and non-primitives](https://twitter.com/aidenybai/status/1646238355427041285). This [thread](https://twitter.com/aidenybai/status/1647005716350406656) gives interesting explanations about the difference between React and Million reconciliation.\n* 📦 [OpenNext 1.0](https://github.com/serverless-stack/open-next/releases/tag/v1.0.0): aims to make Next.js more portable thanks to serverless adapter.\n* 📦 [Astro 2.3](https://twitter.com/astrodotbuild/status/1646593124997779465)\n* 📦 [React-Three-Next - starter updated - App Router support](https://twitter.com/onirenaud/status/1646139899291254786)\n* 📦 [React-Three-Fiber AutoFocus DOF](https://github.com/ektogamat/AutoFocusDOF)",
+      "sourceMdx": "- 🧵 [Dan Abramov - \"good rule of thumb. for any “server components”](https://twitter.com/dan_abramov/status/1647203329854799872): explains the minimum requirements for a proper Server Components implementation, taking full advantage of their potential. Presents the limitations of Qwik and Remix models.\n- 👀 [Dan Abramov has a \"story to tell\" at Remix Conf (\"React from Another Dimension\")](https://twitter.com/remix_run/status/1646177445454950400)\n- 👀 [Next.js ships its own copy of React](https://twitter.com/devongovett/status/1647728887927906304): copy used only when using App Router.\n- 👀 [Use Storybook with Rspack](https://twitter.com/rspack_dev/status/1646164228598792196)\n- 👀 [WebGPU in React-Three-Fiber demo](https://twitter.com/CantBeFaraz/status/1647811509014216710)\n- ⚡ [SpiderMonkey Newsletter (Firefox 112-113)](https://spidermonkey.dev/blog/2023/04/14/newsletter-firefox-112-113.html): \"We’re working on improving performance for popular web frameworks such as React\".\n- 📜 [Animating View Transitions](https://www.patterns.dev/posts/view-transitions): explains how to use the new View Transition API (Chrome 111+) in a React context with Next.js App Router, and in a MPA context. Interesting, but the proposed React integration doesn't look ideal.\n- 📜 [An Animated Guide to Reacts Optional Parameters](https://julesblom.com/writing/react-optional-parameters): interactive article that presents some features of React APIs that we use less often.\n- 📜 [Next over Remix](https://bradgarropy.com/blog/next-over-remix): feedback from a dev who had planned to switch to Remix, but finally stayed with Next.js.\n- 📜 [Building a blog with Next.js 13 and React Server Components](https://maxleiter.com/blog/build-a-blog-with-nextjs-13): uses all the latest Next.js features to create a modern blog.\n- 📜 [React forwardRef(): How to Pass Refs to Child Components](https://dmitripavlutin.com/react-forwardref/)\n- 📜 [Is React the New WordPress?](https://www.seancdavis.com/posts/is-react-the-new-wordpress/)\n- 📜 [Becoming an Astro maintainer](https://www.elian.codes/blog/23-04-12-becoming-an-astro-maintainer/)\n- 📜 [Display Warning for Unsaved Form Data on Page Exit](https://claritydev.net/blog/display-warning-for-unsaved-form-data-on-page-exit)\n- 📜 [Mastering React: Techniques to Take Your UI to the Next Level](https://blog.bitsrc.io/mastering-react-techniques-to-take-your-ui-to-the-next-level-a5002173904f)\n- 📜 [What's new in the new Storybook](https://www.mariasimo.codes/storybook-7-new-release)\n- 📜 [Full-stack Web Apps Without React](https://remotesynthesis.com/blog/full-stack-without-react/)\n- 🎥 [Must Know React Portability Patterns](https://www.youtube.com/watch?v=yi8UCnXPu8U): good advices to reduce coupling of your code to a particular framework.\n- 🎥 [Maybe Create React App Isn't Dead?](https://www.youtube.com/watch?v=A2kWoKnpy1U)\n- 📦 [Ariakit 0.1.0](https://github.com/ariakit/ariakit/releases/tag/%40ariakit%2Freact%400.1.0): new way of managing state based on component stores. Motivations in this [RFC](https://github.com/ariakit/ariakit/issues/1875): less re-renders, becoming framework-agnostic...\n- 📦 [Million.js 2.2.1 - Support for hooks and non-primitives](https://twitter.com/aidenybai/status/1646238355427041285). This [thread](https://twitter.com/aidenybai/status/1647005716350406656) gives interesting explanations about the difference between React and Million reconciliation.\n- 📦 [OpenNext 1.0](https://github.com/serverless-stack/open-next/releases/tag/v1.0.0): aims to make Next.js more portable thanks to serverless adapter.\n- 📦 [Astro 2.3](https://twitter.com/astrodotbuild/status/1646593124997779465)\n- 📦 [React-Three-Next - starter updated - App Router support](https://twitter.com/onirenaud/status/1646139899291254786)\n- 📦 [React-Three-Fiber AutoFocus DOF](https://github.com/ektogamat/AutoFocusDOF)"
+    },
+    {
+      "id": "0904148e",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed />",
+      "sourceMdx": "<SubscribeFormEmbed />"
+    },
+    {
+      "id": "4f2104fa",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "f8edb6d2",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "1862c5fe",
+      "translatable": true,
+      "content": "[![Tina.io is a headless CMS for Markdown-powered sites](/emails/issues/140/tinacms.jpg)](https://tina.io/?utm_source=newsletter\\&utm_term=this-week-in-react)",
+      "sourceMdx": "[![Tina.io is a headless CMS for Markdown-powered sites](/emails/issues/140/tinacms.jpg)](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)"
+    },
+    {
+      "id": "6ca4479f",
+      "translatable": true,
+      "content": "**[Tina.io is a headless CMS for Markdown-powered sites](https://tina.io/?utm_source=newsletter\\&utm_term=this-week-in-react)**",
+      "sourceMdx": "**[Tina.io is a headless CMS for Markdown-powered sites](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)**"
+    },
+    {
+      "id": "936011bd",
+      "translatable": true,
+      "content": "* Editing UI for your Markdown files\n* UI for MDX components\n* Supports static (SSG) and server-side rendering (SSR)\n* Option for visual editing (live-preview)\n* Build with reusable blocks",
+      "sourceMdx": "- Editing UI for your Markdown files\n- UI for MDX components\n- Supports static (SSG) and server-side rendering (SSR)\n- Option for visual editing (live-preview)\n- Build with reusable blocks"
+    },
+    {
+      "id": "a81544fd",
+      "translatable": true,
+      "content": "Test a starter site",
+      "sourceMdx": "Test a starter site"
+    },
+    {
+      "id": "5cb70a3d",
+      "translatable": true,
+      "content": "* [Docusaurus](https://github.com/tinacms/tinasaurus) (Github)\n* [Next.js + Tailwind with visual editing](https://github.com/tinacms/tina-cloud-starter) (Github)",
+      "sourceMdx": "- [Docusaurus](https://github.com/tinacms/tinasaurus) (Github)\n- [Next.js + Tailwind with visual editing](https://github.com/tinacms/tina-cloud-starter) (Github)"
+    },
+    {
+      "id": "e9313fef",
+      "translatable": true,
+      "content": "Or run  `npx create-tina-app@latest` then visit `localhost:3000/admin`",
+      "sourceMdx": "Or run  `npx create-tina-app@latest` then visit `localhost:3000/admin`"
+    },
+    {
+      "id": "1b4de6df",
+      "translatable": true,
+      "content": "Watch the [4-min demo video](https://www.youtube.com/watch?v=zRkeKSZjlyw)",
+      "sourceMdx": "Watch the [4-min demo video](https://www.youtube.com/watch?v=zRkeKSZjlyw)"
+    },
+    {
+      "id": "6ad15270",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "c7fa1e8d",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "9673e622",
+      "translatable": true,
+      "content": "* 👀 [Hover gesture coming soon to React Native Gesture Handler](https://twitter.com/breskin67/status/1646511002933153794): future cross-platform API with support for iOS, Android, web.\n* 👀 [Image perf demo](https://twitter.com/nightstomp/status/1647231665222176769): shows the bad perf impact of using too large images on your React-Native apps.\n* 📦 [Expo-Image 1.2.0 - ThumbHash support](https://twitter.com/tsapeta/status/1646875246362861569)\n* 📦 [React-Native-Widget-Extension](https://twitter.com/bndkt/status/1648431242025766912)\n* 📦 [AnimateReactNative](https://www.animatereactnative.com/): more than 100 animations by Catalin Miron (paid product).\n* 🧵 [Expo Docs Updates](https://twitter.com/amanhimself/status/1646959895995105281)\n* 🧵 [Jamon Holmgren - \"Want to know how easy it is to grab API keys out of a compiled iPhone app?\"](https://twitter.com/jamonholmgren/status/1647305506053320704)\n* 🎥 [Song of Bloom - “Can it be done in React Native?”](https://www.youtube.com/watch?v=PfCQEA72ljU)\n* 🎥 [React Native File Based Routing with Expo Router](https://www.youtube.com/watch?v=RglRiycD0oQ)\n* 👥 [React-Native-Connection](https://reactnativeconnection.io/) (Paris, 1er June) is offering us -10% on entries (code \"REACTHEBDO\").\n* 👥 [App.js](https://appjs.co/) (Krakow, May 10-12) is offering us [-20% on workshops](https://ti.to/appjs/2023/discount/ThisWeekinReact20) (code \"ThisWeekinReact20\").\n* 👥 [Chain React](https://chainreactconf.com/) (Portland, May 18-19) is offering us -10% on entries (code \"thisweekinreact\").",
+      "sourceMdx": "- 👀 [Hover gesture coming soon to React Native Gesture Handler](https://twitter.com/breskin67/status/1646511002933153794): future cross-platform API with support for iOS, Android, web.\n- 👀 [Image perf demo](https://twitter.com/nightstomp/status/1647231665222176769): shows the bad perf impact of using too large images on your React-Native apps.\n- 📦 [Expo-Image 1.2.0 - ThumbHash support](https://twitter.com/tsapeta/status/1646875246362861569)\n- 📦 [React-Native-Widget-Extension](https://twitter.com/bndkt/status/1648431242025766912)\n- 📦 [AnimateReactNative](https://www.animatereactnative.com/): more than 100 animations by Catalin Miron (paid product).\n- 🧵 [Expo Docs Updates](https://twitter.com/amanhimself/status/1646959895995105281)\n- 🧵 [Jamon Holmgren - \"Want to know how easy it is to grab API keys out of a compiled iPhone app?\"](https://twitter.com/jamonholmgren/status/1647305506053320704)\n- 🎥 [Song of Bloom - “Can it be done in React Native?”](https://www.youtube.com/watch?v=PfCQEA72ljU)\n- 🎥 [React Native File Based Routing with Expo Router](https://www.youtube.com/watch?v=RglRiycD0oQ)\n- 👥 [React-Native-Connection](https://reactnativeconnection.io/) (Paris, 1er June) is offering us -10% on entries (code \"REACTHEBDO\").\n- 👥 [App.js](https://appjs.co/) (Krakow, May 10-12) is offering us [-20% on workshops](https://ti.to/appjs/2023/discount/ThisWeekinReact20) (code \"ThisWeekinReact20\").\n- 👥 [Chain React](https://chainreactconf.com/) (Portland, May 18-19) is offering us -10% on entries (code \"thisweekinreact\")."
+    },
+    {
+      "id": "f1a2be1a",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "13292277",
+      "translatable": true,
+      "content": "## 🧑‍💻 Jobs",
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+    },
+    {
+      "id": "e478ec2c",
+      "translatable": true,
+      "content": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)",
+      "sourceMdx": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)"
+    },
+    {
+      "id": "534ac82e",
+      "translatable": true,
+      "content": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses.",
+      "sourceMdx": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses."
+    },
+    {
+      "id": "a9c2a503",
+      "translatable": true,
+      "content": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
+      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)"
+    },
+    {
+      "id": "cfeb9eb1",
+      "translatable": true,
+      "content": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
+      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!"
+    },
+    {
+      "id": "f7e6e884",
+      "translatable": true,
+      "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+    },
+    {
+      "id": "17b50e81",
+      "translatable": true,
+      "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+    },
+    {
+      "id": "719d3997",
+      "translatable": true,
+      "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+    },
+    {
+      "id": "7057b5fb",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "2f2d5f01",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "9fbd2efb",
+      "translatable": true,
+      "content": "* [Node.js 20 Now Available](https://openjsf.org/blog/2023/04/18/node-js-20-now-available/): with stable test runner, permission model, compiling to executable binary...\n* [pretty-ts-errors](https://github.com/yoavbls/pretty-ts-errors): great idea to improve the TS DX in VSCode.\n* [total-typescript/shoehorn - Partial mocks in TypeScript](https://github.com/total-typescript/shoehorn)\n* [Chrome ships WebGPU](https://developer.chrome.com/blog/webgpu-release/): in Chrome 113+.\n* [WebGPU Fundamentals](https://webgpufundamentals.org/)\n* [Turborepo 1.9](https://twitter.com/turborepo/status/1646238976196444162)",
+      "sourceMdx": "- [Node.js 20 Now Available](https://openjsf.org/blog/2023/04/18/node-js-20-now-available/): with stable test runner, permission model, compiling to executable binary...\n- [pretty-ts-errors](https://github.com/yoavbls/pretty-ts-errors): great idea to improve the TS DX in VSCode.\n- [total-typescript/shoehorn - Partial mocks in TypeScript](https://github.com/total-typescript/shoehorn)\n- [Chrome ships WebGPU](https://developer.chrome.com/blog/webgpu-release/): in Chrome 113+.\n- [WebGPU Fundamentals](https://webgpufundamentals.org/)\n- [Turborepo 1.9](https://twitter.com/turborepo/status/1646238976196444162)"
+    },
+    {
+      "id": "1af652fb",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "3f77c6a0",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "39f476dc",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/142/meme.jpg)](https://twitter.com/thekitze/status/1646511070801203202)",
+      "sourceMdx": "[![alt](/emails/issues/142/meme.jpg)](https://twitter.com/thekitze/status/1646511070801203202)"
+    },
+    {
+      "id": "827eb9a3",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

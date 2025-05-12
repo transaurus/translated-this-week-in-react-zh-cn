@@ -1,0 +1,171 @@
+---
+slug: /182
+title: "This Week In React #182: v18.3, useDeferredValue, Next.js, DevTools, Zustand, CSS-in-JS, R19, Remix, Jest, XState, Astro, RNSC, Strict DOM, 3D, Metro, Worklets, TC39, TypeScript, Effect, Rspack, GraphQL..."
+authors: [slorber, bndkt]
+date: 04-17-2024
+---
+
+大家好！
+
+本周我们迎来了Next.js的重要更新以及众多精彩的社区技术文章。
+
+可以明显感受到React核心团队正全力打磨React 19的细节。出人意料的是，团队最终决定发布v18.3版本，该版本虽无行为变更但会新增废弃特性警告。React Native 0.74也即将发布。
+
+本周我想向大家推荐[**ECMAScript News**](https://ecmascript.news/?utm_source=thisweekinreact)，这是我追踪ES标准、TC39提案、JS工具链和运行时更新的首选资讯源。
+
+下周巴黎将举办[React Connection](https://reactconnection.io/)和[React Native Connection](https://reactnativeconnection.io/)技术大会，参会的小伙伴们现场见👋。使用我的合作伙伴优惠码"TWIR"仍可享受[-20%购票折扣](https://www.billetweb.fr/react-connection-2024?discount=TWIR)。
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化排版 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![React-admin: 开源B2B应用框架](/emails/issues/182/marmelab.jpg)](https://marmelab.com/react-admin/)
+
+**[React-admin: 开源B2B应用框架](https://marmelab.com/react-admin/)**
+
+已被25,000家企业采用，React-admin是构建ERP系统、内部工具和B2B应用的领先React框架。三大核心优势：
+
+1️⃣ **极速开发** 🏎️🏁 提供170+ hooks与组件库，让您专注于业务逻辑而非重复CRUD操作
+
+2️⃣ **深度可定制** ✨💫 基于headless架构，既能完全自定义UI风格，又不会限制业务逻辑实现
+
+3️⃣ **内置最佳实践** 🤓 凝聚7年数据获取、性能优化、表单处理和安全性经验，提供稳健的开发体验
+
+最大亮点：完全免费且无需[SSO税](https://sso.tax/)，可无缝对接现有API。[立即试用](https://marmelab.com/react-admin/) 😉
+
+---
+
+## ⚛️ React动态 {#react}
+
+[![Next.js 14.2](/emails/issues/182/next14.2.jpg)](https://nextjs.org/blog/next-14-2)
+
+[**Next.js 14.2**](https://nextjs.org/blog/next-14-2)
+
+在React 19和Next.js 15到来之前，这个次版本带来了开发、生产环境和缓存的多项优化：
+
+- Turbopack(RC)：`next dev --turbo`测试通过率达99.8%
+- 构建优化：降低生产环境内存占用
+- 缓存改进：支持通过`staleTimes`配置客户端缓存失效策略
+- 错误诊断：增强hydration不匹配错误提示
+
+令人振奋的是，Next.js已率先实现了出色的React hydration错误对话框！截至撰稿时，Turbopark开发模式完成度达99.9%（仅剩6项集成测试），构建模式完成75%，正式版尚需等待。
+
+---
+
+- 💸 [Clerk - 一套完整的嵌入式UI组件、灵活API和管理面板，用于用户认证与管理](https://go.clerk.com/JTqLYDZ)
+- 👀 [React核心 - 即将发布的v18.3版本](https://github.com/facebook/react/pull/28843): React团队最终决定发布v18小版本更新。该版本不会包含行为变更，但会针对废弃特性新增警告提示，以帮助开发者升级至React 19。它将警告使用字符串refs、在FC/memo组件上使用defaultProps，或展开key属性的情况（🐦 [预览](https://twitter.com/sebastienlorber/status/1780519349247205589)）。
+- 👀 [React核心 - useDeferredValue的`initialValue`](https://github.com/reactjs/react.dev/pull/6747): 在React 19的canary版本中，该钩子将新增第二个参数影响初始渲染。初始渲染时返回`initialValue`，并在后台调度使用`value`的重新渲染。
+- 👀 [React核心 - 动作完成后自动重置表单](https://github.com/facebook/react/pull/28804): 这一React 19新行为仅影响非受控输入，并与原生平台行为保持一致（现在有无JS表现相同）。同时新增[DOM.requestFormReset](https://github.com/facebook/react/pull/28809)公共API，方便表单抽象库实现该功能。
+- 👀 [React核心 - DevTools v5.1](https://github.com/facebook/react/pull/28840)
+- 👀 [React核心 - 文档化新的react-reconciler方法](https://github.com/facebook/react/pull/28750)
+- 🗓 [React峰会](https://reactsummit.com/?utm_source=thisweekinreact) - 🇳🇱 阿姆斯特丹 - 6月14-18日 - 使用代码"TWIR"可享9折优惠。阵容包括Evan Bacon、Kent C. Dodds、Theo等大咖！
+- 📜 [Zustand与React Context](https://tkdodo.eu/blog/zustand-and-react-context): Dominik建议将Zustand store实例放入React context中，这样可以通过props初始化store、简化测试，并支持在多子树中使用store。
+- 📜 [React服务端组件中的CSS](https://www.joshwcomeau.com/react/css-in-rsc/): Josh解释为何Styled-Components/Emotion与RSC不兼容，并推荐Linaria、Panda或Pigment等替代方案。强调现有应用若无问题不必急于迁移。
+- 📜 [R19极简框架 - 第二部分 - 代码实现与原理](https://www.cmrg.me/blog/rsc-part-2-the-code): 深度解析如何基于Bun搭建自定义React 19/RSC/Server Actions方案。
+- 📜 [用Next.js 14重构"Remix Contacts"应用](https://aurorascharff.no/posts/rebuilding-remix-contacts-in-nextjs-14-with-transitions-server-actions-and-prisma/): 详细对比Remix与Next.js在渐进增强实现上的差异，两者各有优劣但Remix表现亮眼。
+- 📜 [Web样式中的双树问题](https://danielnagy.me/posts/Post_jt4adn0o5bnr): 探讨DOM/CSS树分离问题，分析React CSS-in-JS与Tailwind的解决方案，作者倾向内联样式。
+- 📜 [Jest执行速度提升300%的优化实践](https://www.camggould.com/posts/Jest-With-RTL-Is-Slow/): 诊断React代码库中RTL的getByRole等成为Jest性能瓶颈。
+- 📜 [共情式编码 - 按钮组件设计](https://react-japan.dev/en/blog/empathetic-coding-button-component): 使用TypeScript和Tailwind设计可维护的React按钮组件。
+- 📜 [突破Next.js布局中搜索参数的限制](https://www.nico.fyi/blog/workaround-layout-has-no-search-params): 建议使用并行路由解决该限制。
+- 📜 [前端process.env的定时炸弹](https://massimilianomirra.com/notes/the-frontend-process-env-time-bomb-plus-a-sustainable-definition-of-fixed): 推荐用Zod解析环境变量并通过React Context暴露配置。
+- 📜 [如何设计React应用样式](https://alexkondov.com/full-stack-tao-styling/)
+- 📜 [理解Next.js应用路由中的Layout与Template](https://www.nico.fyi/blog/understanding-layout-and-template-next-app-router)
+- 📦 [Next.js视图过渡效果](https://next-view-transitions.vercel.app/): Vercel成员实现的CSS视图过渡方案，未来可能被Next.js官方支持。
+- 📦 [XState Store](https://stately.ai/blog/2024-04-10-xstate-store): 新型轻量类型安全事件驱动状态管理库，含React useSelector API。
+- 📦 [Astro 4.6 - 手动i18n路由、开发工具栏移动、CSRF防护等](https://astro.build/blog/astro-460/)
+- 📦 [Next-Video 1.0 - NextJS视频集成方案](https://github.com/muxinc/next-video/releases/tag/v1.0.0)
+- 📦 [Mantine 7.8.0 - 非受控表单模式、表单值获取等](https://mantine.dev/changelog/7-8-0/)
+- 📦 [NextUI 2.3 - 新增日期/时间组件](https://nextui.org/blog/v2.3.0)
+- 🎥 [Theo - 从零到生产的现代React教程](https://www.youtube.com/watch?v=d5x0JCZbAJs)
+- 🎥 [React巴黎2024演讲合集](https://www.youtube.com/playlist?list=PL53Z0yyYnpWhUzgvr2Nys3kZBBLcY0TA7)
+- 🎥 [Ryan Toronto - Next.js中处理RSC错误](https://www.youtube.com/watch?v=idEL0dv2V1A)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![React表单构建SDK](/emails/issues/171/tripetto.jpg)](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)
+
+**[React表单构建SDK](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)**
+
+专为React项目打造的完整表单解决方案，被财富500强企业采用。提供易用的开源组件，可快速构建强大表单并集成到React应用中。文档详尽，分钟级部署，支持深度定制。
+
+- 可视化表单构建器
+- 表单运行器支持数据收集
+- 灵活布局（对话式、聊天式等）与样式配置
+- 可扩展自定义问题类型
+- 完整文档、示例和演示
+- 支持无外部依赖的自托管
+- 免费试用与测试
+
+TWIR专属福利：[立即获取表单构建SDK许可证25%折扣](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)。
+
+---
+
+## 📱 React-Native动态 {#react-native}
+
+[![React Native能否实现零包大小的服务端组件？](/emails/issues/182/rn0kb.jpg)](https://twitter.com/Baconbrix/status/1780259340458340360)
+
+🐦 [React Native能否实现零包大小的服务端组件？](https://twitter.com/Baconbrix/status/1780259340458340360)
+
+Evan Bacon给出了肯定答案，并为我们展示了未来服务端驱动React Native世界的可能性。激动人心的时代即将到来！
+
+---
+
+- 💸 [PowerSync – 构建本地优先应用，提供简化的状态管理和实时响应能力。对现有架构无侵入性。](https://www.powersync.com/?utm_source=newsletter&utm_medium=sponsorship&utm_campaign=this-week-in-react)
+- 🐦 [Brent Vatne的自动批处理演示](https://twitter.com/notbrent/status/1778266063832056285): 观看新架构的实际效果！
+- 🐦 [针对破坏性操作的优雅对话框组件演示](https://twitter.com/marceloterreiro/status/1779657639745798411)
+- 🐦 [Ignite Cookbook网站悄然新增多个配方](https://twitter.com/jamonholmgren/status/1778829659775676653): Supabase & PowerSync
+- 🐦 [在Vision Pro上使用RN进行3D渲染](https://twitter.com/o_kwasniewski/status/1780602815167283485)
+- 👀 [rn.new – 启动React Native项目的巧妙方式](https://rn.new)
+- 🗓 [App.js Conf](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 克拉科夫 - 5月22-24日。使用代码"TWIR"可享[10%折扣](https://ti.to/appjs/2024/discount/TWIR)。
+- 📜 [使用React、Expo和ThreeJS为3D动画添加形状与纹理](https://www.themorrow.digital/blog/add-shapes-and-textures-to-3d-animations-with-react-expo-and-threejs): 上周我提到即将推出的3D动画库，但RN中已有现成的3D方案。本文介绍了其中一种实现。
+- 📜 [如何实现Metro的HTTP缓存](https://andrei-calazans.com/posts/metro-http-cache/): 你是否知道Meta为其RN开发者使用中央缓存，这意味着如果一位开发者已经构建了某些内容，其他开发者可以直接利用缓存结果。本文解析了Metro中远程HTTP缓存的工作原理。
+- 📜 [React Strict DOM: 用React Native构建通用应用的未来](https://blog.theodo.com/2024/04/react-strict-dom-react-native-web/)
+- 📜 [状态栏设计的遗忘艺术](https://brainsandbeards.com/blog/2024-forgotten-art-of-status-bar-design/)
+- 📜 [要点 - 使用Expo 50.0.17实现Apple隐私清单](https://gist.github.com/catalinmiron/d2cabb835088d0342bc48030464ee615)
+- 📜 [react-native-worklets-core 1.0发布](https://github.com/margelo/react-native-worklets-core/releases/tag/v1.0.0)
+- 📦 [VisionCamera 4.0.0-beta.15 - 支持Skia帧处理器的首个测试版](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v4.0.0-beta.15)
+- 📦 [react-native 0.74.0-rc.9发布](https://github.com/facebook/react-native/releases/tag/v0.74.0-rc.9): 新增iOS隐私清单构建步骤模板
+- 📦 [Unistyle 2.6 + 2.7 - 新增tvOS和visionOS支持](https://github.com/jpudysz/react-native-unistyles/releases)
+- 📦 [RN Storybook v8.0.0-alpha.4](https://github.com/storybookjs/react-native/releases/tag/v8.0.0-alpha.4)
+- 🎥 [Simon Grimm - 10个超棒的React Native动画库](https://www.youtube.com/watch?v=8CZy6DjDXK0)
+- 🎥 [应用体积至关重要 | React Native优化短片第二集](https://www.youtube.com/watch?v=d2xlQRoea-8)
+- 🎙️ [火箭飞船第38期 - Expo EAS与Jon Samp的100条蛇](https://share.transistor.fm/s/6896005f)
+
+---
+
+## 🔀 其他 {#other}
+
+- 📜 [第101次TC39会议更新 - Set方法、正则表达式、Promise.try、isError、Signals等](https://dev.to/hemanth/updates-from-the-101th-tc39-meeting-1mm)
+- 📜 [TypeScript功能开发纪实：类型谓词推断](https://effectivetypescript.com/2024/04/16/inferring-a-type-predicate/)
+- 📜 [Deno构建JSR的技术内幕](https://deno.com/blog/how-we-built-jsr)
+- 📜 [你可能并不需要GraphQL](https://mxstbr.com/thoughts/graphql)
+- 📜 [Node.js协作峰会（2024伦敦站）](https://nodejs.org/en/blog/events/collab-summit-2024-london)
+- 📜 [Rspack与Webpack Tree Shaking深度解析](https://github.com/orgs/web-infra-dev/discussions/17)
+- 📦 [Safari技术预览版192 - CSS视图过渡、URL.parse()](https://webkit.org/blog/15260/release-notes-for-safari-technology-preview-192/)
+- 📦 [Rspack v0.6 - 内置CSS提取插件，启用全新Tree Shaking](https://www.rspack.dev/blog/announcing-0.6.html)
+- 📦 [pnpm 9.0 - 放弃Node 16支持，改进锁文件格式与依赖解析](https://github.com/pnpm/pnpm/releases/tag/v9.0.0)
+- 📦 [Biome 1.7 - 优化ESLint/Prettier迁移CLI工具](https://biomejs.dev/blog/biome-v1-7/)
+- 📦 [Effect 3.0 - 稳定API发布](https://effect.website/blog/effect-3.0)
+- 📦 [gql.tada 1.5 - 持久化操作、Turbo模式、全新CLI](https://gql-tada.0no.co/devlog/2024-04-15)
+
+---
+
+## 🤭 轻松一刻 {#fun}
+
+[![趣味图片](/emails/issues/182/meme.jpg)](https://twitter.com/bndkt/status/1780615189202907426)
+
+下次见！👋

@@ -1,0 +1,371 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/139/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /139\ntitle: \"This Week In React #139: React.dev, Remix, next export, Server Components, i18n, Error Boundary, Wakuwork, Astro, React-Native, Bottom Sheet, TypeScript, TC39...\"\nauthors: [slorber]\ndate: 03-21-2023\n---",
+      "sourceMdx": "---\nslug: /139\ntitle: \"This Week In React #139: React.dev, Remix, next export, Server Components, i18n, Error Boundary, Wakuwork, Astro, React-Native, Bottom Sheet, TypeScript, TC39...\"\nauthors: [slorber]\ndate: 03-21-2023\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "The new React site is finally out, and it's safe to say that it kicks ass 🤗 I've put up quite a few related links, and will let you make up your own mind!",
+      "sourceMdx": "The new React site is finally out, and it's safe to say that it kicks ass 🤗 I've put up quite a few related links, and will let you make up your own mind!"
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "There are also some really cool articles. I like the interactive map of React APIs, Remix's approach to breaking changes for v2, or the use of React-Server-Components for translations.",
+      "sourceMdx": "There are also some really cool articles. I like the interactive map of React APIs, Remix's approach to breaking changes for v2, or the use of React-Server-Components for translations."
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "On the React-Native side, the first RC of v0.72 is out. Some long-awaited new features of Metro 0.76 should be available soon, like symlinks support!",
+      "sourceMdx": "On the React-Native side, the first RC of v0.72 is out. Some long-awaited new features of Metro 0.76 should be available soon, like symlinks support!"
+    },
+    {
+      "id": "6429a3aa",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "39b3772c",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "507b4652",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "fcd52337",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "42e34e45",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "caf67047",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "3c36424c",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "26524352",
+      "translatable": true,
+      "content": "[![Suncel](/emails/issues/136/suncel.jpg)](https://suncel.io/)",
+      "sourceMdx": "[![Suncel](/emails/issues/136/suncel.jpg)](https://suncel.io/)"
+    },
+    {
+      "id": "73ab96a3",
+      "translatable": true,
+      "content": "**[Build reusable blocks. Publish content faster. Get better Core Web Vitals and SEO.](https://suncel.io/)**",
+      "sourceMdx": "**[Build reusable blocks. Publish content faster. Get better Core Web Vitals and SEO.](https://suncel.io/)**"
+    },
+    {
+      "id": "7499a4e7",
+      "translatable": true,
+      "content": "**Content editors** : a game changer for companies that need to produce a lot of content and\nhave a strong SEO strategy. Marketers and content editors can edit and publish pages\nwithout any complexity. Eliminate long delays and publish instantly. Pages and images are\noptimized thanks to Next.js in order to achieve perfect Core Web Vitals scores.",
+      "sourceMdx": "**Content editors** : a game changer for companies that need to produce a lot of content and\nhave a strong SEO strategy. Marketers and content editors can edit and publish pages\nwithout any complexity. Eliminate long delays and publish instantly. Pages and images are\noptimized thanks to Next.js in order to achieve perfect Core Web Vitals scores."
+    },
+    {
+      "id": "c3a738de",
+      "translatable": true,
+      "content": "**Developers :** plug and play with your existing Next.js app. Number of benefits to use\nSuncel CMS as developer :",
+      "sourceMdx": "**Developers :** plug and play with your existing Next.js app. Number of benefits to use\nSuncel CMS as developer :"
+    },
+    {
+      "id": "8612da05",
+      "translatable": true,
+      "content": "* Build your reusable blocks in React\n* SEO Meta and sitemap are generated automatically (thanks to our SEO module)\n* Create your own custom settings in React\n* Admin customizable in React\n* No routing system needed to fit the CMS",
+      "sourceMdx": "- Build your reusable blocks in React\n- SEO Meta and sitemap are generated automatically (thanks to our SEO module)\n- Create your own custom settings in React\n- Admin customizable in React\n- No routing system needed to fit the CMS"
+    },
+    {
+      "id": "a9d49f92",
+      "translatable": true,
+      "content": "**[Visit Suncel.io](https://suncel.io/)** | **[5mn demo video](https://www.youtube.com/watch?v=LUupLEZKp3w)**",
+      "sourceMdx": "**[Visit Suncel.io](https://suncel.io/)** | **[5mn demo video](https://www.youtube.com/watch?v=LUupLEZKp3w)**"
+    },
+    {
+      "id": "816a06a6",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "cb5b269c",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "b36c6338",
+      "translatable": true,
+      "content": "[![Introducing react.dev](/emails/issues/139/reactdev.jpg)](https://react.dev/blog/2023/03/16/introducing-react-dev)",
+      "sourceMdx": "[![Introducing react.dev](/emails/issues/139/reactdev.jpg)](https://react.dev/blog/2023/03/16/introducing-react-dev)"
+    },
+    {
+      "id": "b9aaa519",
+      "translatable": true,
+      "content": "**[Introducing react.dev](https://react.dev/blog/2023/03/16/introducing-react-dev)**",
+      "sourceMdx": "**[Introducing react.dev](https://react.dev/blog/2023/03/16/introducing-react-dev)**"
+    },
+    {
+      "id": "e536ea0d",
+      "translatable": true,
+      "content": "The new React website is finally online! A new article comes with this launch. It's a very big project (both tech and content) that required several years of efforts and many collaborators.",
+      "sourceMdx": "The new React website is finally online! A new article comes with this launch. It's a very big project (both tech and content) that required several years of efforts and many collaborators."
+    },
+    {
+      "id": "40158b4b",
+      "translatable": true,
+      "content": "What I like in particular:",
+      "sourceMdx": "What I like in particular:"
+    },
+    {
+      "id": "24c174ca",
+      "translatable": true,
+      "content": "* The focus on hooks and functional components\n* The guides with many diagrams, illustrations and interactive challenges\n* The emphasis of React as a cross-platform solution, not web-only\n* API pages well separated in references/usage, current/deprecated, client/server\n* The overall consistency of the whole experience",
+      "sourceMdx": "- The focus on hooks and functional components\n- The guides with many diagrams, illustrations and interactive challenges\n- The emphasis of React as a cross-platform solution, not web-only\n- API pages well separated in references/usage, current/deprecated, client/server\n- The overall consistency of the whole experience"
+    },
+    {
+      "id": "06e24cc0",
+      "translatable": true,
+      "content": "Some changes were also controversial this week, in particular the fact of recommending only a small list of frameworks to start a new React project (Next.js, Remix, Gatsby, Expo) but not recommending many others (Vite, Create-React-App, client-side SPA...).",
+      "sourceMdx": "Some changes were also controversial this week, in particular the fact of recommending only a small list of frameworks to start a new React project (Next.js, Remix, Gatsby, Expo) but not recommending many others (Vite, Create-React-App, client-side SPA...)."
+    },
+    {
+      "id": "7f71ff2a",
+      "translatable": true,
+      "content": "**Also read:**",
+      "sourceMdx": "**Also read:**"
+    },
+    {
+      "id": "76dbcc76",
+      "translatable": true,
+      "content": "* 📜 [New React docs pretend SPAs don't exist anymore](https://wasp-lang.dev/blog/2023/03/17/new-react-docs-pretend-spas-dont-exist)\n* 📜 [How to start a React Project in 2023](https://www.robinwieruch.de/react-starter/)\n* 🧵 [Dan Abramov on the shipping the new React.dev website](https://twitter.com/dan_abramov/status/1638004334544707584)\n* 🧵 [Dan Abramov on possible futures for CRA - \"client-only doesn’t make sense. way too limiting\"](https://twitter.com/dan_abramov/status/1636827365677383700)\n* 🧵 [Dan Abramov - \"petition to retire terms: SPA, MPA, SSR, SSG. they represent the previous generation of tools\"](https://twitter.com/dan_abramov/status/1636943182322704385)\n* 🧵 [Dan Abramov - \"most modern React frameworks don’t require a Node.js server anymore. they just let you add one if you need it.\"](https://twitter.com/dan_abramov/status/1636716018973257728)\n* 🧵 [Dan Abramov - Next.js example - purely client-side SPA (no Node.js server, 100% static bundle)](https://twitter.com/dan_abramov/status/1636886736784457734)",
+      "sourceMdx": "- 📜 [New React docs pretend SPAs don't exist anymore](https://wasp-lang.dev/blog/2023/03/17/new-react-docs-pretend-spas-dont-exist)\n- 📜 [How to start a React Project in 2023](https://www.robinwieruch.de/react-starter/)\n- 🧵 [Dan Abramov on the shipping the new React.dev website](https://twitter.com/dan_abramov/status/1638004334544707584)\n- 🧵 [Dan Abramov on possible futures for CRA - \"client-only doesn’t make sense. way too limiting\"](https://twitter.com/dan_abramov/status/1636827365677383700)\n- 🧵 [Dan Abramov - \"petition to retire terms: SPA, MPA, SSR, SSG. they represent the previous generation of tools\"](https://twitter.com/dan_abramov/status/1636943182322704385)\n- 🧵 [Dan Abramov - \"most modern React frameworks don’t require a Node.js server anymore. they just let you add one if you need it.\"](https://twitter.com/dan_abramov/status/1636716018973257728)\n- 🧵 [Dan Abramov - Next.js example - purely client-side SPA (no Node.js server, 100% static bundle)](https://twitter.com/dan_abramov/status/1636886736784457734)"
+    },
+    {
+      "id": "0170c674",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "6270d577",
+      "translatable": true,
+      "content": "[![Map of React API](/emails/issues/139/reactmap.jpg)](https://julesblom.com/writing/map-of-react-api)",
+      "sourceMdx": "[![Map of React API](/emails/issues/139/reactmap.jpg)](https://julesblom.com/writing/map-of-react-api)"
+    },
+    {
+      "id": "a1fa5396",
+      "translatable": true,
+      "content": "**[Map of React API](https://julesblom.com/writing/map-of-react-api)**",
+      "sourceMdx": "**[Map of React API](https://julesblom.com/writing/map-of-react-api)**"
+    },
+    {
+      "id": "ec619944",
+      "translatable": true,
+      "content": "A spatial and interactive representation of the React APIs, with references to great external articles for each of these APIs. I think it's a great idea and a good opinionated complement to the official documentation.",
+      "sourceMdx": "A spatial and interactive representation of the React APIs, with references to great external articles for each of these APIs. I think it's a great idea and a good opinionated complement to the official documentation."
+    },
+    {
+      "id": "8b0ba3cf",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "4d429946",
+      "translatable": true,
+      "content": "* 👀 [React PR - Suspend commit without blocking render](https://github.com/facebook/react/pull/26398): a feature that will be used internally first, especially on resources (CSS, font, images). When navigating with startTransition, React will be able to wait a bit until the images of the next page are loaded before commiting the transition ([details](https://twitter.com/acdlite/status/1637102880850059264)).\n* 👀 [React PR - Remove layout effect warning on the server](https://github.com/facebook/react/pull/26395): the SSR warning for useLayoutEffect will be removed. Dan Abramov comments on [useIsomorphicLayoutEffect](https://twitter.com/dan_abramov/status/1636176793592905729).\n* 🧵 [Tim Neutkens on improving `next export`](https://twitter.com/timneutkens/status/1636693508223270912): compatible with App Router, Server Components...\n* 📜 [Future Proofing Your Remix App](https://remix.run/blog/future-flags): Remix explains their strategy for deploying breaking changes on major releases. They plan to introduce \"Future flags\" that allow you to opt-in for planned breaking changes in advance. If you managed to activate all flags in v1, it should be easy to upgrade to v2.\n* 📜 [Internationalization In Next.js 13 With React Server Components](https://www.smashingmagazine.com/2023/03/internationalization-nextjs-13-react-server-components/): Server Components will have a big impact on the way we translate our React apps, especially on performance, code splitting and bundle size. This article introduces the topic well. I give some more extra details in this [thread](https://twitter.com/sebastienlorber/status/1638528549056311297).\n* 📜 [Hooks You Probably Don't Need](https://reacttraining.com/blog/hooks-you-probably-dont-need): presentation of the lesser known hooks of React, classified by chance to need them (hello `useInsertionEffect` 😅). I liked the last section presenting a common anti-pattern and how `useLayoutEffect` prevents it. I think [useSyncExternalStore is great](https://twitter.com/sebastienlorber/status/1615329010761842689) for reading browser APIs such as `localStorage`.\n* 📜 [Front-Commerce is getting a Remix](https://developers.front-commerce.com/changelog/front-commerce-is-getting-a-remix): after Shopify, it is now Front-Commerce that decides to base itself on Remix. This has many advantages, such as the possibility of using progressive enhancement, an MPA mode, and being less coupled to React.\n* 📜 [Astro: How Good Is the New JavaScript Framework?](https://cult.honeypot.io/reads/astro-the-new-javascript-framework/)\n* 📜 [Reducing 97% of the Open UI site's JavaScript by migrating to Astro](https://blog.andri.co/023-migrating-open-ui-site-from-gatsby-to-astro/)\n* 📦 [React-Error-Boundary v4](https://twitter.com/sebastienlorber/status/1638465247886426113): new `useErrorBoundary` API to trigger error boundaries for non-render errors, and reset the boundary easily from anywhere.\n* 📦 [Wakuwork](https://github.com/dai-shi/wakuwork): Daishi Kato works on a minimalistic React framework with React Server Components support.\n* 📦 [Framer-Motion 10.5](https://twitter.com/mattgperry/status/1636714500731592706): `useAnimate()`\n* 📦 [Remix-Sitemap](https://github.com/fedeya/remix-sitemap)\n* 🎥 [Will React's New Cache Fix Its \"Use\" Hook?](https://www.youtube.com/watch?v=T3m-MZkuadU)\n* 🎥 [State Management for NextJS 13 Server and Client Components](https://www.youtube.com/watch?v=dRLjoT4r-jc)\n* 🎥 [Understanding React's types](https://www.youtube.com/watch?v=u_zoRJh9krU)\n* 🎙️ [The future of React](https://changelog.com/jsparty/267)",
+      "sourceMdx": "- 👀 [React PR - Suspend commit without blocking render](https://github.com/facebook/react/pull/26398): a feature that will be used internally first, especially on resources (CSS, font, images). When navigating with startTransition, React will be able to wait a bit until the images of the next page are loaded before commiting the transition ([details](https://twitter.com/acdlite/status/1637102880850059264)).\n- 👀 [React PR - Remove layout effect warning on the server](https://github.com/facebook/react/pull/26395): the SSR warning for useLayoutEffect will be removed. Dan Abramov comments on [useIsomorphicLayoutEffect](https://twitter.com/dan_abramov/status/1636176793592905729).\n- 🧵 [Tim Neutkens on improving `next export`](https://twitter.com/timneutkens/status/1636693508223270912): compatible with App Router, Server Components...\n- 📜 [Future Proofing Your Remix App](https://remix.run/blog/future-flags): Remix explains their strategy for deploying breaking changes on major releases. They plan to introduce \"Future flags\" that allow you to opt-in for planned breaking changes in advance. If you managed to activate all flags in v1, it should be easy to upgrade to v2.\n- 📜 [Internationalization In Next.js 13 With React Server Components](https://www.smashingmagazine.com/2023/03/internationalization-nextjs-13-react-server-components/): Server Components will have a big impact on the way we translate our React apps, especially on performance, code splitting and bundle size. This article introduces the topic well. I give some more extra details in this [thread](https://twitter.com/sebastienlorber/status/1638528549056311297).\n- 📜 [Hooks You Probably Don't Need](https://reacttraining.com/blog/hooks-you-probably-dont-need): presentation of the lesser known hooks of React, classified by chance to need them (hello `useInsertionEffect` 😅). I liked the last section presenting a common anti-pattern and how `useLayoutEffect` prevents it. I think [useSyncExternalStore is great](https://twitter.com/sebastienlorber/status/1615329010761842689) for reading browser APIs such as `localStorage`.\n- 📜 [Front-Commerce is getting a Remix](https://developers.front-commerce.com/changelog/front-commerce-is-getting-a-remix): after Shopify, it is now Front-Commerce that decides to base itself on Remix. This has many advantages, such as the possibility of using progressive enhancement, an MPA mode, and being less coupled to React.\n- 📜 [Astro: How Good Is the New JavaScript Framework?](https://cult.honeypot.io/reads/astro-the-new-javascript-framework/)\n- 📜 [Reducing 97% of the Open UI site's JavaScript by migrating to Astro](https://blog.andri.co/023-migrating-open-ui-site-from-gatsby-to-astro/)\n- 📦 [React-Error-Boundary v4](https://twitter.com/sebastienlorber/status/1638465247886426113): new `useErrorBoundary` API to trigger error boundaries for non-render errors, and reset the boundary easily from anywhere.\n- 📦 [Wakuwork](https://github.com/dai-shi/wakuwork): Daishi Kato works on a minimalistic React framework with React Server Components support.\n- 📦 [Framer-Motion 10.5](https://twitter.com/mattgperry/status/1636714500731592706): `useAnimate()`\n- 📦 [Remix-Sitemap](https://github.com/fedeya/remix-sitemap)\n- 🎥 [Will React's New Cache Fix Its \"Use\" Hook?](https://www.youtube.com/watch?v=T3m-MZkuadU)\n- 🎥 [State Management for NextJS 13 Server and Client Components](https://www.youtube.com/watch?v=dRLjoT4r-jc)\n- 🎥 [Understanding React's types](https://www.youtube.com/watch?v=u_zoRJh9krU)\n- 🎙️ [The future of React](https://changelog.com/jsparty/267)"
+    },
+    {
+      "id": "a6f06194",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed />",
+      "sourceMdx": "<SubscribeFormEmbed />"
+    },
+    {
+      "id": "bc8bc928",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "722e4930",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "3c19e221",
+      "translatable": true,
+      "content": "**[![Build and Run Synthetic Monitoring That Scales](/emails/issues/134/checkly.jpg)](https://www.checklyhq.com/product/monitoring-as-code/?utm_medium=email\\&utm_source=newsletter\\&utm_campaign=this-week-in-react)**",
+      "sourceMdx": "**[![Build and Run Synthetic Monitoring That Scales](/emails/issues/134/checkly.jpg)](https://www.checklyhq.com/product/monitoring-as-code/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react)**"
+    },
+    {
+      "id": "d21af28f",
+      "translatable": true,
+      "content": "**[Build and Run Synthetic Monitoring That Scales](https://www.checklyhq.com/product/monitoring-as-code/?utm_medium=email\\&utm_source=newsletter\\&utm_campaign=this-week-in-react)**",
+      "sourceMdx": "**[Build and Run Synthetic Monitoring That Scales](https://www.checklyhq.com/product/monitoring-as-code/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react)**"
+    },
+    {
+      "id": "44aaa880",
+      "translatable": true,
+      "content": "You build it, you own it! It’s a simple mantra that has driven software development for years. But what is the best way to monitor complex React applications?",
+      "sourceMdx": "You build it, you own it! It’s a simple mantra that has driven software development for years. But what is the best way to monitor complex React applications?"
+    },
+    {
+      "id": "396efb28",
+      "translatable": true,
+      "content": "First: Use Playwright to simulate critical user flows and guarantee that your app works. Second: Be confident that mission-critical APIs are up and running.",
+      "sourceMdx": "First: Use Playwright to simulate critical user flows and guarantee that your app works. Second: Be confident that mission-critical APIs are up and running."
+    },
+    {
+      "id": "558df877",
+      "translatable": true,
+      "content": "Monitoring as code is a new way to define, test, and deploy entire Playwright-based testing and monitoring setup directly from code. Get started with the Checkly CLI by running npm create @checkly/cli.",
+      "sourceMdx": "Monitoring as code is a new way to define, test, and deploy entire Playwright-based testing and monitoring setup directly from code. Get started with the Checkly CLI by running npm create @checkly/cli."
+    },
+    {
+      "id": "f38d1cb0",
+      "translatable": true,
+      "content": "Learn more about the Checkly CLI [here](https://www.checklyhq.com/docs/cli/?utm_medium=email\\&utm_source=newsletter\\&utm_campaign=this-week-in-react).",
+      "sourceMdx": "Learn more about the Checkly CLI [here](https://www.checklyhq.com/docs/cli/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react)."
+    },
+    {
+      "id": "5f82a1e9",
+      "translatable": true,
+      "content": "[Unite your QA, dev, and ops teams with Checkly](https://www.checklyhq.com/product/monitoring-as-code/?utm_medium=email\\&utm_source=newsletter\\&utm_campaign=this-week-in-react)",
+      "sourceMdx": "[Unite your QA, dev, and ops teams with Checkly](https://www.checklyhq.com/product/monitoring-as-code/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react)"
+    },
+    {
+      "id": "ce5ba214",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "4dd6a631",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "cd2fd2f2",
+      "translatable": true,
+      "content": "* 👀 [Advantages of code splitting in Expo](https://twitter.com/Baconbrix/status/1636398236373078018): code splitting (made possible by resolveWeak, Metro 0.76, React-Native 0.72) could have many advantages for Expo Router!\n* 👀 [Built-in TypeScript aliases / absolute paths are coming in Expo SDK 49](https://twitter.com/Baconbrix/status/1636048353799684115)\n* 👀 [Reanimated examples running on Docusaurus](https://twitter.com/kacperkapusciak/status/1638539744635174914)\n* 📦 [React-Native v0.72 RC.0](https://github.com/facebook/react-native/releases/tag/v0.72.0-rc.0): the upcoming v0.72 features are listed in [Road to 0.72.0](https://github.com/reactwg/react-native-releases/discussions/54): Metro (symlinks, exports, resolveWeak), Hermes...\n* 📦 [Bottom Sheet v5 Alpha](https://twitter.com/gorhom/status/1637237501294268416): Reanimated v3, Gesture Handler v2, Web support\n* 📦 [React-Native-Permissions v3.8](https://github.com/zoontek/react-native-permissions/releases/tag/3.8.0): new architecture support\n* 📦 [React-Native-PDF-Renderer v1](https://github.com/douglasjunior/react-native-pdf-renderer): native PDF renderer\n* 📦 [React-Native-Testing-Library v12](https://twitter.com/mdj_dev/status/1635927436947865600)\n* 📜 [Explore Expo Router Alpha](https://www.g2i.co/blog/explore-expo-router-alpha)\n* 📜 [Simplifying React Native Development with Expo](https://thoughtbot.com/blog/simplifying-react-native-development-with-expo)\n* 🎥 [Build a Native View Library with Expo, React-Native, Swift and Kotlin](https://www.youtube.com/watch?v=c-tFADXScEI)\n* 🎥️ [The React Native Show #21 - Profiling in native and React Native](https://www.youtube.com/watch?v=IyFxgEit3Jc)",
+      "sourceMdx": "- 👀 [Advantages of code splitting in Expo](https://twitter.com/Baconbrix/status/1636398236373078018): code splitting (made possible by resolveWeak, Metro 0.76, React-Native 0.72) could have many advantages for Expo Router!\n- 👀 [Built-in TypeScript aliases / absolute paths are coming in Expo SDK 49](https://twitter.com/Baconbrix/status/1636048353799684115)\n- 👀 [Reanimated examples running on Docusaurus](https://twitter.com/kacperkapusciak/status/1638539744635174914)\n- 📦 [React-Native v0.72 RC.0](https://github.com/facebook/react-native/releases/tag/v0.72.0-rc.0): the upcoming v0.72 features are listed in [Road to 0.72.0](https://github.com/reactwg/react-native-releases/discussions/54): Metro (symlinks, exports, resolveWeak), Hermes...\n- 📦 [Bottom Sheet v5 Alpha](https://twitter.com/gorhom/status/1637237501294268416): Reanimated v3, Gesture Handler v2, Web support\n- 📦 [React-Native-Permissions v3.8](https://github.com/zoontek/react-native-permissions/releases/tag/3.8.0): new architecture support\n- 📦 [React-Native-PDF-Renderer v1](https://github.com/douglasjunior/react-native-pdf-renderer): native PDF renderer\n- 📦 [React-Native-Testing-Library v12](https://twitter.com/mdj_dev/status/1635927436947865600)\n- 📜 [Explore Expo Router Alpha](https://www.g2i.co/blog/explore-expo-router-alpha)\n- 📜 [Simplifying React Native Development with Expo](https://thoughtbot.com/blog/simplifying-react-native-development-with-expo)\n- 🎥 [Build a Native View Library with Expo, React-Native, Swift and Kotlin](https://www.youtube.com/watch?v=c-tFADXScEI)\n- 🎥️ [The React Native Show #21 - Profiling in native and React Native](https://www.youtube.com/watch?v=IyFxgEit3Jc)"
+    },
+    {
+      "id": "ce87f480",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "a0d0e29e",
+      "translatable": true,
+      "content": "## 🧑‍💻 Jobs",
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+    },
+    {
+      "id": "be17ccc3",
+      "translatable": true,
+      "content": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
+      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)"
+    },
+    {
+      "id": "ad3e22c6",
+      "translatable": true,
+      "content": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
+      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!"
+    },
+    {
+      "id": "3e8f45da",
+      "translatable": true,
+      "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+    },
+    {
+      "id": "4c787c52",
+      "translatable": true,
+      "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+    },
+    {
+      "id": "63565425",
+      "translatable": true,
+      "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+    },
+    {
+      "id": "e2bc0815",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "3c6dd548",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "0c315794",
+      "translatable": true,
+      "content": "* [Agenda for the 95th meeting of Ecma TC39](https://github.com/tc39/agendas/blob/main/2023/03.md): Meeting in progress. [Async Context](https://twitter.com/sebastienlorber/status/1620391460679065601) candidate for stage 2 👌 Also some brand new [Promise-related proposals](https://twitter.com/sebastienlorber/status/1638130215443390464).\n* [Announcing Rspack](https://www.rspack.dev/blog/announcement.html): official introduction article for the new Rust bundler\n* [Farm - Super fast web build tool written in Rust](https://github.com/farm-fe/farm): another one 😄\n* [TypeScript 5.0](https://twitter.com/typescript/status/1636416665071288321): decorators, new config options...\n* [Prettier 2.8.5](https://twitter.com/PrettierCode/status/1637707276286062593): TypeScript 5.0 support\n* [Vite 4.2](https://twitter.com/vite_js/status/1636362767744765952)\n* [Signals vs. Observables, what's all the fuss about?](https://www.builder.io/blog/signals-vs-observables)\n* [The End of Front-End Development](https://www.joshwcomeau.com/blog/the-end-of-frontend-development/)\n* [Writing Your Own Reactive Signal Library](https://www.lksh.dev/blog/writing-your-own-reactive-signal-library/)\n* [Why We Added package.json Support to Deno](https://deno.com/blog/package-json-support)\n* [Speeding up the JavaScript ecosystem - npm scripts](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-4/)\n* [6 CSS snippets every front-end developer should know in 2023](https://web.dev/6-css-snippets-every-front-end-developer-should-know-in-2023/)\n* [Drizzle - An ORM that lets you just write SQL](https://www.propelauth.com/post/drizzle-an-orm-that-lets-you-just-write-sql)\n* [Introducing \"safe npm\", a Socket npm Wrapper](https://socket.dev/blog/introducing-safe-npm)\n* [Turbowatch - Extremely fast file change detector](https://github.com/gajus/turbowatch)",
+      "sourceMdx": "- [Agenda for the 95th meeting of Ecma TC39](https://github.com/tc39/agendas/blob/main/2023/03.md): Meeting in progress. [Async Context](https://twitter.com/sebastienlorber/status/1620391460679065601) candidate for stage 2 👌 Also some brand new [Promise-related proposals](https://twitter.com/sebastienlorber/status/1638130215443390464).\n- [Announcing Rspack](https://www.rspack.dev/blog/announcement.html): official introduction article for the new Rust bundler\n- [Farm - Super fast web build tool written in Rust](https://github.com/farm-fe/farm): another one 😄\n- [TypeScript 5.0](https://twitter.com/typescript/status/1636416665071288321): decorators, new config options...\n- [Prettier 2.8.5](https://twitter.com/PrettierCode/status/1637707276286062593): TypeScript 5.0 support\n- [Vite 4.2](https://twitter.com/vite_js/status/1636362767744765952)\n- [Signals vs. Observables, what's all the fuss about?](https://www.builder.io/blog/signals-vs-observables)\n- [The End of Front-End Development](https://www.joshwcomeau.com/blog/the-end-of-frontend-development/)\n- [Writing Your Own Reactive Signal Library](https://www.lksh.dev/blog/writing-your-own-reactive-signal-library/)\n- [Why We Added package.json Support to Deno](https://deno.com/blog/package-json-support)\n- [Speeding up the JavaScript ecosystem - npm scripts](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-4/)\n- [6 CSS snippets every front-end developer should know in 2023](https://web.dev/6-css-snippets-every-front-end-developer-should-know-in-2023/)\n- [Drizzle - An ORM that lets you just write SQL](https://www.propelauth.com/post/drizzle-an-orm-that-lets-you-just-write-sql)\n- [Introducing \"safe npm\", a Socket npm Wrapper](https://socket.dev/blog/introducing-safe-npm)\n- [Turbowatch - Extremely fast file change detector](https://github.com/gajus/turbowatch)"
+    },
+    {
+      "id": "f83eccd3",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "2b5df263",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "e29bd639",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/139/meme.jpg)](https://twitter.com/trashh_dev/status/1636743375956348928)",
+      "sourceMdx": "[![alt](/emails/issues/139/meme.jpg)](https://twitter.com/trashh_dev/status/1636743375956348928)"
+    },
+    {
+      "id": "e5821418",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

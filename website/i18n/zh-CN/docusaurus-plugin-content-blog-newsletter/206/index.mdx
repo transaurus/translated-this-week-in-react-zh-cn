@@ -1,0 +1,146 @@
+---
+slug: /206
+title: "This Week In React #206: Next.js, Compiler, DevTools, State Of React, nuqs, Chakra UI, Remix, shadcn/ui, Turbopack, Microfrontends, Fumadocs, NewArch, react-native-mmkv, whip-whep, Svelte, Hono..."
+authors: [matthieugicquel, cyrilbo]
+date: 10-23-2024
+---
+
+大家好！
+
+我们是来自[Theodo Apps（原BAM）](https://apps.theodo.com/en?utm_source=thisweekinreact)的Cyril和Matthieu 👋，本周暂代Seb为大家带来React和React Native领域的最新动态。
+
+React生态本周迎来重大更新！Next.js 15正式发布，围绕缓存和性能进行了关键改进，同时React编译器也进入测试阶段——未来可期。
+
+我们还精选了多篇优质文章，从利用React Cache优化状态管理，到深入解析React Native新架构。
+
+说到React Native，v0.76版本即将发布！这是首个默认启用新架构的版本，标志着多年开发成果的里程碑，值得庆贺！🥳️
+
+[2024年React生态现状调查](https://survey.devographics.com/en-US/survey/state-of-react/2024?source=this_week_in_react)已开放问卷收集。
+
+现在开始本周精选内容！
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 视觉版 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![Handsontable：React高级数据表格](/emails/issues/206/handsontable.jpg)](https://handsontable.com/docs/react-data-grid/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=twirsep11)
+
+**[Handsontable：React高级数据表格](https://handsontable.com/docs/react-data-grid/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=twirsep11)**
+
+Handsontable是[功能丰富的数据表格组件](https://handsontable.com/demo?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=twirsep11)，专为需要强大、可定制且无障碍解决方案来管理复杂数据的React开发者设计。
+
+- 独特的**电子表格式界面**，支持排序、筛选和CRUD操作
+- 高级功能如条件格式和**400多种内置公式**，媲美Excel
+- **可定制的编辑器和渲染器**，支持在单元格内嵌入下拉菜单或自定义组件
+- **性能优化**确保流畅交互体验
+- **符合WCAG 2.1无障碍标准**，更好支持残障用户
+
+Handsontable适用于从企业级应用到简单网站的各种场景，其性能和灵活性已获全球企业信赖。
+
+[立即体验！](https://handsontable.com/docs/react-data-grid/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=twirsep11)
+
+---
+
+## ⚛️ React核心 {#react}
+
+[![Next.js 15](/emails/issues/206/nextjs-15.png)](https://nextjs.org/blog/next-15)
+
+[**Next.js 15**](https://nextjs.org/blog/next-15)
+
+适逢Next.js大会，Next.js 15正式发布。相比RC2版本主要进行了稳定性修复。本次v15主要特性：
+
+- 缓存行为反转，默认不再缓存多数请求（如`fetch`）
+- App路由使用React 19 RC，Pages路由保持React 18
+- 现推荐使用Turbopack开发（仍支持webpack）
+- 存在破坏性变更（如部分API改为异步），可通过`@next/codemod upgrade`辅助升级
+
+此外还包含大量开发者体验、安全性和性能优化。
+
+---
+
+- 💸 [Omlet – 扫描您的代码库，测量组件使用方式和位置](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-oct-2024)
+- 📊 [2024年React现状调查 - 问卷已开放](https://survey.devographics.com/en-US/survey/state-of-react/2024?source=this_week_in_react): 请别忘了填写今年的调查问卷。Seb参与了问卷设计。如果您能在最后回答您阅读了《This Week In React》，我们将不胜感激 😇。
+- 📜 [NextJS中的服务端状态管理：深入React Cache](https://www.yoseph.tech/posts/nextjs/server-side-state-management-in-nextjs-a-deep-dive-into-react-cache): 使用`cache`、`unstable_cache`和`patched fetch`，解释这些工具如何优化状态处理、减少属性钻取并简化服务端代码。
+- 📜 [Framer站点现在交互速度提升50%](https://www.framer.com/blog/sites-interactive-faster/): 通过细粒度Suspense实现更快的水合。
+- 📜 [Remix待办事项应用](https://www.udohjeremiah.com/blog/remix-todo-app-part-1-building-the-app-layout-and-structure): 分为6部分的详细指南。
+- 📜 [Vercel如何采用微前端](https://vercel.com/blog/how-vercel-adopted-microfrontends)
+- 📜 [在React中完美适配文本到容器](https://sentry.engineering/blog/perfectly-fitting-text-to-container-in-react)
+- 📜 [在React中创建键盘快捷键钩子](https://www.taniarascia.com/keyboard-shortcut-hook-react/)
+- 📦 [React编译器测试版](https://react.dev/blog/2024/10/21/react-compiler-beta-release): 已在Meta的数万个组件中使用，现寻求社区反馈。此版本新增对React 17和18的官方支持。您可以立即添加ESLint插件来准备代码库。建议库作者预编译他们的库。
+- 📦 [React DevTools 6.0.1 - 支持React服务器组件](https://github.com/facebook/react/blob/main/packages/react-devtools/CHANGELOG.md#601): React团队修复了一些v6错误，最终将这个新版本发布到商店，以便我们轻松安装。
+- 📦 [Turbopack开发版稳定](https://nextjs.org/blog/turbopack-for-development-stable): 缓慢的开发服务器一直是使用Next.js时的痛点。Vercel两年来一直在开发基于rust的webpack替代品，现在终于可以在所有不依赖特殊webpack插件的项目上安全使用。
+- 📦 [nuqs 2.0 - 类型安全的搜索参数状态管理器](https://nuqs.47ng.com/blog/nuqs-2): 最初是Next.js的查询字符串库，现在扩展到其他React框架，支持Remix、React Router...以及全新的Next.js 15。
+- 📦 [Chakra UI 3.0](https://www.chakra-ui.com/blog/00-announcing-v3): 完全重写，提供更多组件、语义令牌和更好的性能。
+- 📦 [react-render-stream-testing-library](https://github.com/testing-library/react-render-stream-testing-library): 用于在测试组件和钩子时进行详细的逐渲染断言。在许多情况下，这相当于测试实现细节，但对库作者或在性能敏感场景中非常有用。
+- 📦 [shadcn/ui - 侧边栏组件](https://ui.shadcn.com/docs/components/sidebar)
+- 📦 [next-intl 3.22 - 逐步推进](https://next-intl-docs.vercel.app/blog/next-intl-3-22)
+- 📦 [Fumadocs 14 - 支持Next.js 15 App Router的文档框架](https://fumadocs.vercel.app/blog/v14)
+- 🎥 [Theo - Next.js隐藏了一些东西...](https://www.youtube.com/watch?v=g4g2YUtjh9g): 提前窥探Next.js 15发布文章中未提及的即将推出的功能，包括`'use cache'`指令、`cacheTag()`和`cacheLife` API。
+- 🎥 [Tanner Linsley - TanStack Start的早期一瞥](https://www.youtube.com/watch?v=AuHqwQsf64o)
+- 🎥 [Jack Herrington - 我在比较React和NextJS用于Astro 5的服务器岛屿时的发现](https://www.youtube.com/watch?v=rCkhCG7n8sA)
+- 🔗 [NextMaster - 使用Next.js实现的高性能McMaster-Carr复制品](https://github.com/ethanniser/NextMaster): McMaster-Carr（美国供应公司）的网站因速度极快而在Twitter上走红。此仓库是一个更快的现代Next.js 15移植版。
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![Workshop: Implementing Clean Architecture in Next.js](/emails/issues/206/sentry.jpg)](https://sentry.io/resources/clean-architecture-nextjs/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=debuggability-fy25q3-cleanarchworkshop&utm_content=newsletter-lazar-rsvp)
+
+**[研讨会：在Next.js中实现清洁架构](https://sentry.io/resources/clean-architecture-nextjs/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=debuggability-fy25q3-cleanarchworkshop&utm_content=newsletter-lazar-rsvp)**
+
+Lazar Nikolov和Sarah Guthals将举办一场免费研讨会，主题为[在Next.js中实现清洁架构](https://sentry.io/resources/clean-architecture-nextjs/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=debuggability-fy25q3-cleanarchworkshop&utm_content=newsletter-lazar-rsvp)。研讨会将深入探讨清洁架构的实际含义、解决的问题以及如何在Next.js应用中结合Sentry实现该架构。
+
+---
+
+## 📱 React-Native {#react-native}
+
+- 💸 [通过notJust Newsletter获取React Native & Expo最新动态](https://www.notjust.dev/newsletter?utm_source=twir&utm_medium=email&utm_campaign=newsletter)
+- 👀 [React Native PR - 支持CSS `display: contents`](https://github.com/facebook/react-native/pull/46584)：定义对布局零影响但仍可附加事件处理器的视图。一个潜在应用场景是`react-native-gesture-handler`中的`GestureDetector`组件，它依赖原生视图处理触摸手势而不影响布局，可解决组件视图自动折叠等问题。
+- 📖 [React Native文档 - 新版0.76开发者工具](https://reactnative.dev/docs/next/react-native-devtools)
+- 📜 [React Native新架构的棘手问题](https://blog.swmansion.com/react-natives-new-architecture-the-tricky-parts-1-2-bb0c16950f2d)：视图扁平化、视图回收、第三方库支持。
+- 📜 [PostHog - 移动端会话回放功能开发历程](https://posthog.com/blog/mobile-session-replay)：其React Native SDK 3.2现已支持会话回放功能（测试版）。
+- 📜 [将Expo SQLite移植到React Native MacOS](https://coolsoftware.dev/blog/hacking-expo-sqlite-into-react-native-macos/)
+- 📜 [利用传感器为React Native应用注入活力](https://expo.dev/blog/how-to-bring-your-react-native-apps-to-life-using-sensors)
+- 📜 [Kraken通过渐进式采用React Native新架构解决性能问题](https://blog.kraken.com/product/engineering/how-kraken-fixed-performance-issues-via-incremental-adoption-of-the-react-native-new-architecture)
+- 📦 [react-native-mmkv 3.1 - 支持GC安全的自动清理、只读模式](https://github.com/mrousavy/react-native-mmkv/releases/tag/v3.1.0)
+- 📦 [react-native-whip-whep - WebRTC点对点连接](https://blog.swmansion.com/introducing-react-native-whip-whep-ac9e5588d4da?source=rss----e003bf129483---4)
+- 📦 [expo-in-app-updates - 安卓/iOS原生应用内更新](https://github.com/SohelIslamImran/expo-in-app-updates)
+- 📦 [expo-import-cost - 显示依赖导入成本的VSCode插件](https://github.com/SohelIslamImran/expo-import-cost)
+- 🎥 [Catalin Miron - TikTok消息到达动画实现](https://www.youtube.com/watch?v=dFUaYZ_AXcc)
+
+---
+
+## 🔀 其他 {#other}
+
+- 📜 [Web框架Hono的诞生故事](https://blog.cloudflare.com/the-story-of-web-framework-hono-from-the-creator-of-hono/)："与从客户端React起步的Next.js框架不同，Hono正试图从服务端出发成为全栈框架"
+- 📜 [JavaScript是否需要编译器？——TC39 JSSugar提案探讨](https://bleepbloop.studio/posts/new-tc39-proposal-does-javascript-require-a-compiler-soon)
+- 📜 [为什么我对用'更快'语言重写JavaScript工具持怀疑态度](https://nolanlawson.com/2024/10/20/why-im-skeptical-of-rewriting-javascript-tools-in-faster-languages/)
+- 📜 [视图过渡动画的错落效果实现](https://frontendmasters.com/blog/view-transitions-staggering/)
+- 📜 [Brisa框架——服务器操作(Server Actions)已修复](https://brisa.build/blog/server-actions-have-been-fixed)
+- 📦 [Turborepo v2.2——实验性GraphQL仓库查询、缓存安全警告、GitHub Action自动对比](https://turbo.build/blog/turbo-2-2-0)
+- 📦 [is-my-node-vulnerable——检测Node.js安装是否存在已知安全漏洞的工具](https://github.com/RafaelGSS/is-my-node-vulnerable)
+- 📦 [Svelte v5发布](https://svelte.dev/blog/svelte-5-release-candidate)
+
+---
+
+## 🤭 趣味时刻 {#fun}
+
+[![头肩膝盖脚趾HTML版](/emails/issues/206/meme2.jpg)](https://x.com/mrousavy/status/1846497922675810533)
+
+为Next.js 15发布无耻转发 😄
+
+[![异步函数传染性](/emails/issues/206/meme.jpg)](https://x.com/sebastienlorber/status/1848743816162869640)
+
+下次见！👋

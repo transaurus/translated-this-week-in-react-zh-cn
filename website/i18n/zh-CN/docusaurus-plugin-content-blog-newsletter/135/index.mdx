@@ -1,0 +1,206 @@
+---
+slug: /135
+title: "This Week In React #135: Signals, Sandpack, React doc, Server References, TanStack Start, Next.js, Remix, Hydrogen, Storybook, Expo, TypeScript, rspack..."
+authors: [slorber]
+date: 02-21-2023
+---
+
+大家好！
+
+经过短暂休整后，我们为您带来两周新闻汇总：本期内容满满！
+
+**《This Week In React》刚刚迎来三周年庆！** 我发布了[简短推文](https://link.slo.im/3-years)说明现状，包括我的"公开构建"页面链接。简而言之：这份简报终于实现良性发展，拥有**超过17500名订阅者**，增长迅速，2022年营收达**2.7万欧元**。感谢大家多年来的支持让这一切成为可能！
+
+[React-Native-Connection](https://reactnativeconnection.io/)大会（6月1日巴黎举行）的[征稿通道](https://conference-hall.io/public/event/5hkuk4Ueg7U9y0uwNRRK)已开启。欢迎踊跃投稿，演讲者的差旅和两晚住宿将由主办方承担。我本人担任程序委员会委员。
+
+出于多方面考虑，我将调整[推特串推](https://slo.im/thread)的发布方式。当前形式化的串推让我显得不够真实，也难以激发有价值的讨论。同时感受到推特算法对外链越来越不友好，影响内容传播。我会继续在推特分享React动态，但会采用新形式呈现。
+
+<!-- truncate -->
+
+**💡 [在推特查看本期简报](https://slo.im/thread) - 可视化排版 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![refine](/emails/issues/135/refine.png)](https://github.com/refinedev/refine)
+
+[**refine - 100%开源的无头React框架，专为构建CRUD应用而生**](https://github.com/refinedev/refine)
+
+开发下一个管理后台、仪表盘或内部工具前，请先[体验refine](https://github.com/refinedev/refine)。您将惊叹于其开发速度，同时仍保持高度灵活性！
+
+---
+
+## ⚛️ React动态 {#react}
+
+[![useSignal()是Web框架的未来](/emails/issues/135/signals.jpg)](https://www.builder.io/blog/usesignal-is-the-future-of-web-frameworks)
+
+**[`useSignal()`是Web框架的未来](https://www.builder.io/blog/usesignal-is-the-future-of-web-frameworks)**
+
+Qwik和AngularJS的创建者Misko阐述了signals技术的优势，并与React工作机制进行对比。React直接使用状态值，而signals采用getter方法，在调用getter时建立订阅关系。
+
+Signals能实现细粒度的自动重渲染优化，无需记忆化处理。那些仅进行属性传递的中间组件无需重新渲染。
+
+本文发布次日，[Angular团队宣布](https://twitter.com/angular/status/1625939902046117890)计划采用signals技术（现已提供[演示](https://twitter.com/sarah_edo/status/1628065696247857152)）。
+
+Andrew Clark已[评论](https://twitter.com/acdlite/status/1626590880126889984)React引入signals的可能性。他目前更倾向于押注[React Forget](https://www.youtube.com/watch?v=lGEMwh32soc)编译器，相关进展将通过React Labs文章发布。我认为React逆势坚持[当前探索方向](https://twitter.com/acdlite/status/1625599973420154881)是明智之举。
+
+---
+
+[![Sandpack 2.0发布：浏览器端Node.js运行时](/emails/issues/135/sandpack2.jpg)](https://codesandbox.io/blog/announcing-sandpack-2)
+
+**[Sandpack 2.0发布：全浏览器兼容的Node.js运行时](https://codesandbox.io/blog/announcing-sandpack-2)**
+
+CodeSandbox 宣布了 Sandpack 的新版本，这是一个能在浏览器中创建交互式实时编码体验的工具（代码编辑器 + 预览）。Sandpack 通过专用包与 React 深度集成。v1 版本已被新版 React Beta 文档站点、Josh Comeau 等众多开发者采用。
+
+v2 版本基于全新的 NodeBox 技术，可在浏览器中运行 Node.js，支持 Next.js、Vite、Astro 等技术栈。
+
+这让人联想到 StackBlitz 的技术，后者刚发布了 [WebContainers API](https://blog.stackblitz.com/posts/webcontainer-api-is-here/)。Sandpack 文章详细对比了 NodeBox 与 WebContainers 的技术差异。
+
+---
+
+[![useSignal() 是 Web 框架的未来](/emails/issues/135/reactdocumentary.jpg)](https://www.youtube.com/watch?v=8pDqJVdNa44)
+
+**[React.js：纪录片](https://www.youtube.com/watch?v=8pDqJVdNa44)**
+
+你可能已经知道 React 纪录片上线了 😉！这里补充些精彩花絮：
+
+- 🎥 [《React.js：纪录片》主创问答](https://www.youtube.com/watch?v=WzRSysq7F4k)：Michael Chan 向原始 React 团队提出的深度问题
+- 📜 [《React.js：纪录片》幕后故事](https://newsletter.pragmaticengineer.com/p/react-documentary)：纪录片制作人 Ida 的独家访谈
+- 📜 [早期采用 React 的历程](https://cult.honeypot.io/reads/adopting-react-in-the-early-days/)：我对那段时期的观察视角
+
+---
+
+- 🐦 [Andrew Clark - "我将加入Vercel"](https://twitter.com/acdlite/status/1623353741750546439)。他仍保留在React团队中的角色。
+- 🐦 [Netflix在其电视UI中使用React](https://twitter.com/sebastienlorber/status/1628391651835011076)：由于Netflix很少公开其专有电视UI技术，这一点常被忽视。Kaleb原计划在React NYC会议上演讲，但会议取消：他正在寻找新的会议机会，欢迎邀请他！
+- 👀 [React PR - 支持从服务端向客户端传递Server References](https://github.com/facebook/react/pull/26124)：在当前RPC趋势下，允许客户端组件调用服务端回调的有趣PR。
+- 👀 [React PR - CPU密集型树的Suspense支持](https://twitter.com/acdlite/status/1628128850377940993)：可能很快会在小版本中推出的功能。
+- 👀 [TanStack Start](https://twitter.com/sebastienlorber/status/1627740526551175190)：正在开发的新React元框架？
+- 👀 [Next.js Route Handlers](https://twitter.com/nextjs/status/1626341664402051072)：替代routes API的Next.js新方案？
+- 👀 [RFC: React Aria Components](https://github.com/adobe/react-spectrum/pull/4058)：React Aria希望提供稍高层次的抽象以简化库的使用。
+- 🧵 ["如果JSX针对JS虚拟机设计得更优化，速度本可提升2倍！"](https://twitter.com/mhevery/status/1626422858862960648)：有趣讨论，尤其是Dan Abramov的回应，对提议结果进行了细致分析。
+- 🧵 [Dan Abramov - "20年代：将服务端与客户端组合为统一范式"](https://twitter.com/dan_abramov/status/1625225990023655425)
+- 📖 [迁移到现代Redux](https://redux.js.org/usage/migrating-to-modern-redux)：新文档上线。
+- 📜 [Hydrogen v2已Remix化](https://twitter.com/remix_run/status/1623744656701026306)：如预期，Shopify Hydrogen框架转向Remix。文章列举了一些优势。实际上这并非真正的v2：他们决定采用不同的版本策略。
+- 📜 [Framer Motion中Keys的力量](https://www.nan.fyi/keys-in-framer-motion)：出色的交互式文章，解释使用React keys触发动画的价值。
+- 📜 [利用Server Context实现高级Next.js优化模式](https://prismic.io/blog/advanced-nextjs-server-context)：关于server context的优质文章，该特性虽仍存在，但随着Server Components变得更隐式。底层API `AsyncLocalStorage` 可用于去重服务端请求和创建缓存。
+- 📜 [React中的错误处理](https://www.developerway.com/posts/how-to-handle-errors-in-react)：今日[我学到一项实用技巧](https://twitter.com/sebastienlorber/status/1628340871899893768)，确保错误边界能捕获所有类型错误，而不仅是React渲染期间抛出的错误。
+- 📜 [开源功能决策树](https://tkdodo.eu/blog/oss-feature-decision-tree)：Dominik阐述他如何决定是否将功能集成到React-Query中。这让我想起[可扩展Web宣言](https://twitter.com/sebastienlorber/status/1627637410438815744)。
+- 📜 [框架存在的理由](https://seldo.com/posts/the_case_for_frameworks)：回应Alex Russell，解释为何我们选择采用React等较重框架，尽管对性能有负面影响。
+- 📜 [高效的高阶组件](https://www.bbss.dev/posts/effective-hocs/)：列出HOC的一些建议和反模式，不过度推销。作者喜欢hooks，但HOC仍有适用场景。
+- 📜 [使用Context API检测React中的嵌套组件](https://www.aleksandrhovhannisyan.com/blog/react-context-nested-components/)：实用的context技巧。补充：不必担心在多层级使用context provider，有时可随组件树深入逐步丰富context值。
+- 📜 [Storybook 7中改进的类型安全](https://storybook.js.org/blog/improved-type-safety-in-storybook-7/)：Component Story Format 3 + TypeScript `satisfies` 提升了类型安全。
+- 📜 [通过React代码分割技术最大化性能](https://edvins.io/react-code-splitting-techniques)
+- 📜 [使用成熟UI模式模块化React应用](https://martinfowler.com/articles/modularizing-react-apps.html)
+- 📜 [React批评的历史参考](https://www.zachleat.com/web/react-criticism/)
+- 📜 [一个极简、多框架、响应式的图片组件](https://dev.to/ascorbic/a-minimal-multi-framework-responsive-image-component-3iop)
+- 📜 [在Redux应用中使用WebSockets](https://www.taniarascia.com/websockets-in-redux/)
+- 📜 [如何将GreenSock集成到Remotion中](https://enlear.academy/how-to-integrate-greensock-with-remotion-e4eee6f5a41f)
+- 📜 [Netlify收购Gatsby的真正意义](https://remotesynthesis.com/blog/gatsby-plus-netlify/)
+- 🎥 [Fireship - 创建React应用的7种更好方式](https://www.youtube.com/watch?app=desktop&v=2OTq15A5s0Y)
+- 🎥 [终结ReactJS - 有抱负框架的指南](https://www.youtube.com/watch?v=LMUKsAf2Rfs)
+- 📦 [Remix 1.13](https://github.com/remix-run/remix/releases/tag/remix%401.13.0)：支持Tailwind + PostCSS
+- 📦 [MDX 2.3](https://github.com/mdx-js/mdx/releases/tag/2.3.0)：新增编译器选项以支持React外的框架，适应不同命名约定（如className与class）
+- 📦 [Unovis - 面向React、Angular、Svelte等的模块化数据可视化框架](https://unovis.dev/)
+- 📦 [Redwood 4.1](https://github.com/redwoodjs/redwood/releases/tag/v4.1.0)
+
+<SubscribeFormEmbed />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![surveyjs.jpg](/emails/issues/136/surveyjs.jpg)](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=referral)
+
+**[可扩展的JavaScript调查问卷与表单库](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=referral)**
+
+[SurveyJS](https://github.com/surveyjs) 是一套开源JavaScript表单库，可轻松集成到您的Web应用中。它允许您**创建并运行多个表单**，将所有敏感数据保留在您的服务器上，或拥有**自主托管的WYSIWYG表单构建器**，非技术人员可直接使用。
+
+您还可以**在自定义仪表板中分析调查结果**，将表单保存为PDF，或直接**将其转换为可编辑的PDF文件**。它原生支持**React和Angular渲染**，并提供后端技术的完全自由选择，因为**任何服务器+数据库组合都完全兼容**。
+
+---
+
+## 📱 React-Native {#react-native}
+
+[![Expo SDK 48 beta现已可用](/emails/issues/135/expo48.jpg)](https://blog.expo.dev/expo-sdk-48-beta-is-now-available-7ee5713d0937)
+
+**[Expo SDK 48 beta现已可用](https://blog.expo.dev/expo-sdk-48-beta-is-now-available-7ee5713d0937)**
+
+新版Expo SDK约两周前发布beta版本，稳定版即将推出！亮点包括：
+
+- React Native 0.71.3 - React 18.2.0
+- Expo Image v1候选版
+- Expo Router v1候选版
+- EAS构建器默认支持M1芯片
+- 默认启用Hermes引擎
+- 所有Expo模块实验性支持Fabric
+
+---
+
+- 🐦 [Sebastian Markbåge谈服务端组件："Meta最初资助该项目的原因之一，是看中了其在原生应用中使用服务端驱动技术的潜力"](https://twitter.com/sebmarkbage/status/1623175042971344896)：再次证实React-Native服务端组件的合理性。Expo可能是实现该功能的最佳平台。
+- 👀 [React-Navigation 7 alpha](https://twitter.com/reactnavigation/status/1626648568189620238)：静态配置API
+- 📊 [2022年React-Native现状调查报告](https://results.stateofreactnative.com/)
+- 📜 [Expo更新日志：2023年1月](https://blog.expo.dev/expo-changelog-january-2023-c5eab76df08)
+- 📜 [Expo - 逐步淘汰'expo publish'和经典更新](https://blog.expo.dev/sunsetting-expo-publish-and-classic-updates-6cb9cd295378)
+- 📜 [STRV公司2023年的React Native实践](https://www.aronberezkin.com/posts/react-native-at-strv-in-2023)
+- 📜 [如何在Storybook v7 beta中使用React Native Web](https://dev.to/dannyhw/how-to-use-react-native-web-with-storybook-v7-beta-1io7)
+- 📦 React-Native-Skia - [无头模式支持](https://twitter.com/wcandillon/status/1622558366940778496) + [仅Web支持](https://github.com/Shopify/react-native-skia/pull/1336)：该库正变得更加通用。
+- 📦 [React-Native-MKKV 2.7.0](https://twitter.com/mrousavy/status/1625059908927234048)
+- 📦 [expo-github-action v8](https://twitter.com/cedricvanputten/status/1627732937008349186)
+- 📦 [expo html-element v0.4.1](https://twitter.com/Baconbrix/status/1625984235713581057)
+- 🐦 [SpaceX星链项目使用Expo](https://twitter.com/sebastienlorber/status/1626150388704452611)
+- 💬 [将Fastlane迁移至Mobile Native基金会？](https://github.com/MobileNativeFoundation/discussions/discussions/194)
+- 🎙️ [React-Native-Radio第259期 - Tamagui与Nate Weinert](https://reactnativeradio.com/episodes/rnr-259-tamagui-with-nate-weinert)
+- 🎙️ [React-Native-Radio第260期 - 解读React Native 0.71](https://reactnativeradio.com/episodes/rnr-260-typescript-by-default-unpacking-react-native-071)
+
+---
+
+## 🧑‍💻 招聘信息 {#jobs}
+
+🧑‍💼 [**Passionfroot - 高级全栈工程师（Remix方向）- 年薪€160k+，柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)
+
+Passionfroot的使命是通过YouTube、播客、社交媒体和新闻通讯赋能未来的独立创业者。加入我们，共同打造一款能帮助全球创作者建立可扩展、可持续业务的工具。
+
+🧑‍💼 [**Callstack - 高级React Native开发工程师 - 完全远程，B2B月薪净收入21-32k波兰兹罗提**](https://www.callstack.com/senior-react-native-developer)
+
+您想为全球使用最广泛的应用贡献力量吗？您愿意参与React Native技术的共同创造吗？加入Callstack这个由React和React Native技术领袖组成的团队。详情请访问我们的网站。我们期待您的申请——请向我们展示您的实力！
+
+🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
+
+我们为专注于React Native的开发者开放了多个职位！薪资约为16万美元外加10%奖金。应聘者需具备RN实际项目经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解更多信息，别忘了提及This Week in React。
+
+💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
+
+---
+
+## 🔀 其他 {#other}
+
+- [ts-reset](https://github.com/total-typescript/ts-reset)：一个有趣的概念，类似于TypeScript的CSS重置方案，用于修补TS中某些恼人的部分。例如，`.filter(Boolean)`会成为真正的类型守卫而不会返回`undefined`类型。许多其他方法会返回`unknown`而非`any`。
+- [rspack](https://www.npmjs.com/package/@rspack/core) + [oxc](https://github.com/Boshen/oxc)：字节跳动（TikTok）开发者正在开发Webpack/Babel的Rust替代方案。
+- [HOTScript - 高阶TypeScript](https://github.com/gvergnaud/hotscript)：如果您想在类型系统中进行函数式编程，这个项目正适合您😄
+- [iOS和iPadOS上的Web应用推送通知](https://webkit.org/blog/13878/web-push-for-web-apps-on-ios-and-ipados/)
+- [WebKit - 立即尝试CSS嵌套](https://webkit.org/blog/13813/try-css-nesting-today-in-safari-technology-preview/)
+- [容器查询功能登陆主流浏览器稳定版](https://web.dev/cq-stable/)
+- [TypeScript课程 - 从零构建TypeScript项目（免费）](https://www.typescriptcourse.com/tutorials/build-a-typescript-project-from-scratch)
+- [理解单态化可将JavaScript性能提升高达60倍](https://www.builder.io/blog/monomorphic-javascript)
+- [Vercel定时任务](https://twitter.com/leeerob/status/1625249090932994051)
+- [声明式Shadow DOM](https://webkit.org/blog/13851/declarative-shadow-dom/)
+- [硬核方式将Rust编译为WebAssembly](https://surma.dev/things/rust-to-webassembly/)
+- [Lighthouse 10.0](https://developer.chrome.com/blog/lighthouse-10-0/)
+- [Safari技术预览版163](https://webkit.org/blog/13839/release-notes-for-safari-technology-preview-163/)
+- [为Shopify Functions引入JavaScript到WebAssembly](https://shopify.engineering/javascript-in-webassembly-for-shopify-functions)
+- [Deno创始人如何重构Web运行时](https://www.sequoiacap.com/article/deno-spotlight/)
+
+---
+
+## 🤭 趣闻 {#fun}
+
+[![alt](/emails/issues/135/meme.jpg)](https://twitter.com/t3dotgg/status/1626393874393595907)
+
+下次见！👋

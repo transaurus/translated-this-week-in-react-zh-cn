@@ -1,0 +1,167 @@
+---
+slug: /171
+title: "This Week In React #171: Expo, React Conf, React 19 preview, Next.js, React-Email, Storybook, Panda, Nexar, React-Query, TypeScript, Vocs, Skottie, Harmony, VisionOS..."
+authors: [slorber, bndkt]
+date: 01-24-2024
+---
+
+大家好！
+
+本周官方React大会已官宣。与Callstack联合举办，期待React Native能获得充分关注！React 19即将到来，我们持续窥见其新特性进展，比如完善的Web Components支持。我毫不意外它可能会在大会期间与React Forget一同发布🤞。
+
+其他动态方面，本周涌现了大量精彩文章和版本更新，包括Next.js、React-Emails...
+
+React Native领域随着Expo SDK 50的惊艳发布而苏醒，Expo Router v3成为首个真正全栈通用的React框架。
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化版 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![Axiom - Vercel应用的最佳日志平台](/emails/issues/171/axiom.jpg)](https://axiom.co/vercel)
+
+**[Axiom - Vercel应用的最佳日志平台](https://axiom.co/vercel)**
+
+😴 高枕无忧，Axiom为Vercel项目提供的零配置可观测性为您保驾护航。
+
+- 使用Axiom预建仪表盘纵览所有Vercel日志与性能指标，一键深入特定项目与部署，洞悉函数执行状况
+- [next-axiom](https://github.com/axiomhq/next-axiom)支持从Next.js项目的任何环节（客户端、边缘或服务端）发送日志事件，无需特殊配置
+- 轻松从代码发送结构化日志，并与Vercel日志协同分析
+
+Axiom高效捕获100%事件数据，您永远不必担心采样率或保留策略，也无需猜测用户体验。
+
+**附**：[我本人用它监控简报订阅情况](https://twitter.com/sebastienlorber/status/1528666563452317696) 😉
+
+---
+
+## ⚛️ React动态 {#react}
+
+[![Next.js App Router训练营](/emails/issues/171/appRouterTraining.jpg)](https://nextjs-app-router-training.vercel.app/)
+
+**[Next.js App Router训练营](https://nextjs-app-router-training.vercel.app/)**
+
+这个互动演示场收录了详尽的Next.js功能案例，通过实时运行效果与便捷的代码浏览，是理解App Router行为模式的绝佳资源。
+
+---
+
+- 💸 [使用MightyMeld加速你的工作流程，这是一款针对React代码库的可视化开发工具。通过拖放、点击和提示来调整UI布局，同时手动编写其余代码。](https://www.mightymeld.com/?utm_source=thisweekinreact4&utm_medium=newsletter&utm_campaign=1&utm_content=top)
+- 📅 [React Conf 2024：](https://conf.react.dev/)官方大会将于5月15-16日在美国内华达州亨德森回归，与Callstack合作举办。
+- 👀 [React核心 - Web Components/自定义元素支持已为React 19做好准备](https://github.com/facebook/react/issues/11347#issuecomment-1899140345)
+- 👀 [Nexar：面向Next.js App Router应用的架构方案](https://nexar.dev/)：一套包含完整开源应用的约定式模式，用于构建可扩展的Next.js应用。
+- 🐦 [React-Forget采用TypeScript/Babel编写，未来将用Rust重写或通过Static Hermes编译为原生代码！](https://twitter.com/dan_abramov2/status/1747640983980806466) 🙉
+- 📜 [React 19即将推出的新客户端Hook](https://marmelab.com/blog/2024/01/23/react-19-new-hooks.html)：概述无需框架即可使用的新React Hook和API。
+- 📜 [Query Options API](https://tkdodo.eu/blog/the-query-options-api)：Dominik阐释React-Query v5中移除重载的优势，通过TypeScript鸭子类型实现跨API复用的统一配置对象。DataTag技术显著提升开发者体验🙉。
+- 📜 [Panda v1路线图](https://www.adebayosegun.com/blog/panda-v1-roadmap)：这款CSS-in-JS库正朝着v1版本迈进，已优化运行时并集成Lightning CSS。剩余任务包括Panda Studio（可视化设计令牌）、透明度修饰器、容器查询、配置验证等。
+- 📜 [元组类型驯服指南](https://kyleshevlin.com/wrangling-tuple-types/)：解释在自定义React Hook中返回元组时使用TypeScript "as const"的原因。
+- 📜 [在Storybook中构建支持RSC和MSW的Next.js应用](https://storybook.js.org/blog/build-a-nextjs-app-with-rsc-msw-storybook/)：Storybook 8的RSC支持可隔离开发完整Next.js应用。
+- 📜 [用Remix和Bun构建应用](https://sergiodxa.com/tutorials/build-an-app-with-remix-and-bun)：目前可在运行时使用Bun，但构建仍需依赖Node。
+- 📜 [Harmony - 新型React色彩选择器](https://polar.sh/emilwidlund/posts/a-new-kind-of-color-picker-with-react-typescript)：根据色彩协调原理匹配多组颜色的创新组件库。
+- 📜 [RSC是React Server + Component](https://bobaekang.com/blog/rsc-is-react-server-plus-component/)：提供理解服务端组件的新思维模型。
+- 📜 [从Next.js到Rails再到Elixir：我的React.js倦怠之旅](https://dev.to/danielbergholz/from-nextjs-to-rails-then-elixir-my-journey-through-reactjs-burnout-h8d)
+- 📜 [深度解析React：协调机制、渲染器、Fiber、虚拟树](https://blog.frontend-almanac.com/JqtGelofzm1)
+- 📜 [用着色器和React Three Fiber实现焦散光效](https://blog.maximeheckel.com/posts/caustics-in-webgl/)
+- 📜 [React与OpenLayers集成权威指南](https://mxd.codes/articles/how-to-create-a-web-map-with-open-layers-and-react)
+- 📜 [使用imgproxy和docker优化Next.js站点图片](https://mxd.codes/articles/optimizing-images-for-next-js-sites-with-imgproxy-and-docker)
+- 📦 [dream-css-tool - 无客户端运行时的styled-components，专为Next.js打造](https://github.com/joshwcomeau/dream-css-tool)：Josh Comeau探索自研CSS-in-JS方案。
+- 📦 [React Email 2.0 - 全新预览体验、性能提升、CodeBlock组件](https://resend.com/blog/react-email-2)…
+- 📦 [Next.js 14.1 - 开发者体验优化、Turbopack、自托管、历史API、图片组件、并行与拦截路由…](https://nextjs.org/blog/next-14-1)
+- 📦 [Zustand 4.5 - 新增getInitialState防止hydration不匹配](https://github.com/pmndrs/zustand/releases/tag/v4.5.0)
+- 📦 [Relay 16.2 - 支持@preloadable指令](https://github.com/facebook/relay/releases/tag/v16.2.0)
+- 📦 [Astro 4.2 - 基于Speculation Rules API的预渲染、可定制图片优化](https://astro.build/blog/astro-420/)…
+- 📦 [vocs - 基于React+Vite的极简文档框架](https://github.com/wevm/vocs)
+- 📦 [ReScript 11.0 - 支持React懒加载组件](https://rescript-lang.org/blog/release-11-0-0)
+- 🎥 [Lee Robinson讲解Next.js App Router缓存机制](https://www.youtube.com/watch?v=VBlSe8tvg4U)
+- 🎥 [Lee Robinson演示Next.js部署到Vercel](https://www.youtube.com/watch?v=AiiGjB2AxqA)
+- 🎥 [Ben Holmes剖析React表单验证 - Next.js与Astro实践](https://www.youtube.com/watch?v=DwEkvie79xI)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![React表单构建SDK](/emails/issues/171/tripetto.jpg)](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)
+
+**[React表单构建SDK](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)**
+
+为React项目提供的完整表单解决方案，被财富500强企业采用。通过易用的开源组件，快速在React应用中构建和运行强大的表单。提供详尽文档，分钟级部署，支持深度定制。
+
+- 可视化表单构建器；
+- 表单运行器用于部署和收集数据；
+- 灵活的布局（对话式、聊天式等）与样式；
+- 可扩展的自定义问题类型；
+- 完整的文档、示例和演示；
+- 无外部依赖的自托管方案；
+- 免费试用与测试。
+
+TWIR专属优惠：[立享FormBuilder SDK许可证75折](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)。
+
+---
+
+## 📱 React-Native动态 {#react-native}
+
+本周React Native资讯由Benedikt整理。反馈、建议或新闻线索？通过[Twitter](https://twitter.com/bndkt)联系我。
+
+[![Expo SDK 50](/emails/issues/171/expo50.jpg)](https://expo.dev/changelog/2024/01-18-sdk-50k)
+
+**[Expo SDK 50](https://expo.dev/changelog/2024/01-18-sdk-50)**
+
+Expo SDK 50推出开发者工具插件，新增SQLite和Camera API，并引入`@expo/fingerprint`用于判断JS包更新是否与原生构建兼容。此版本也[终止了对Webpack的支持](https://blog.expo.dev/webpack-support-in-expo-cli-is-now-deprecated-e9831d7eb631)，全面转向Metro打包方案。快速了解Expo 50的最佳方式是通过Simon的15分钟[YouTube视频](https://www.youtube.com/watch?v=shaGaiwu4Fg)。
+
+---
+
+[![Expo Router v3](/emails/issues/171/router3.jpg)](https://expo.dev/changelog/2024/01-23-router-3)
+
+**[Expo Router v3](https://expo.dev/changelog/2024/01-23-router-3)**
+
+伴随Expo SDK 50发布的Router v3带来多项性能优化和稳定性提升，文档全面升级。最值得注意的是新增了API Routes的实验性支持，可构建通用服务端端点。Expo Router由此成为首个全栈通用的React框架！
+
+---
+
+- 💸 [Moropo - 通过支持双因素认证、Google Play、离线模式和平板设备来增强您的移动端UI测试](https://www.moropo.com?utm_source=newsletter&utm_medium=emails&utm_campaign=twir-20240124)
+- 🐦 [VisionOS模糊效果演示](https://twitter.com/o_kwasniewski/status/1747976103505821946): `@react-native-community/blur`现已支持visionOS平台。
+- 📖 [Expo文档：使用Bun](https://docs.expo.dev/guides/using-bun/): Bun当前正当红（理所当然），它与Expo配合得天衣无缝！
+- 📜 [Expo CLI中的Webpack支持现已弃用](https://blog.expo.dev/webpack-support-in-expo-cli-is-now-deprecated-e9831d7eb631): 是时候迁移到Metro了，这是React Native和Expo Web的通用打包工具。还提供了[迁移指南](https://docs.expo.dev/router/migrate/from-expo-webpack/)。
+- 📜 [EAS Build现已提供Xcode 15.2镜像](https://expo.dev/changelog/2024/01-18-eas-build-xcode-15.2-image)
+- 📜 [React Native Video在visionOS上的应用](https://thewidlarzgroup.com/react-native-video-on-visionos/): react-native-video将能够在Apple Vision Pro上渲染视频。
+- 📜 [我们的React Native工具箱：2024年开发者必备的24款工具](https://thewidlarzgroup.com/24-react-native-tools-for-2024/): 从IDE到调试和追踪，全面概览工具生态。
+- 📜 [如何在React Native应用中设置视频背景](https://thewidlarzgroup.com/video-background-with-react-native-video/)
+- 📦 [React Native Storybook v7 alpha版](https://github.com/storybookjs/react-native/releases/tag/v7.6.10-alpha.0): 现已兼容最新的Storybook 7.6.1，并支持动态故事导入。
+- 📦 [react-native-skottie - 使用Skia的GPU加速引擎运行Lottie动画](https://github.com/margelo/react-native-skottie)
+- 📦 [nativecn-ui - 将流行的shadcn-ui移植到React Native的尝试](https://github.com/Mobilecn-UI/nativecn-ui)
+- 📦 [react-native-fast-tflite 1.1 - 升级至最新TensorFlow Lite](https://github.com/mrousavy/react-native-fast-tflite/releases/tag/v1.1.0)
+- 🎙️ [RNR 285 - Expo主宰App Store（及其他新闻）](https://reactnativeradio.com/episodes/rnr-285-expo-dominates-the-app-store-and-other-news)
+- 🎙️ [火箭飞船26期 - 与Szymon Rybczak探讨React Native的React Server Components](https://podcast.galaxies.dev/episodes/026-react-server-components-for-react-native-with-szymon-rybczak)
+- 🎥 [William Candillon - 使用React Native Skia实现3D变换](https://www.youtube.com/watch?v=pYu3DiWYtL0)
+- 🎥 [Catalin Miron - 通过create-expo-app -w with-router-tailwind快速启动项目](https://www.youtube.com/watch?v=RsFoOlYj-gc&themeRefresh=1)
+- 🎥 [Simon Grimm - 世界顶级应用都在使用React Native](https://www.youtube.com/watch?v=LIMyd5FoKyc)
+
+---
+
+## 🔀 其他 {#other}
+
+- 👀 [Biome RFC - 插件系统](https://github.com/biomejs/biome/discussions/1649)
+- 📜 [核心网页指标如何影响SEO - 现场数据与实验室数据对比](https://vercel.com/blog/how-core-web-vitals-affect-seo)
+- 📜 [Bun Shell - 用JavaScript和TypeScript运行跨平台Shell脚本](https://bun.sh/blog/the-bun-shell)
+- 📜 [AHA技术栈 - 结合Astro、htmx和Alpine.js构建现代Web应用](https://ahastack.dev/)
+- 📜 [你可能不需要eslint-config-prettier或eslint-plugin-prettier](https://www.joshuakgoldberg.com/blog/you-probably-dont-need-eslint-config-prettier-or-eslint-plugin-prettier)
+- 📜 [从Zod迁移到Valibot的对比体验](https://mwskwong.com/blog/migrating-from-zod-to-valibot-a-comparative-experience)
+- 📦 [og-img - 使用Satori和resvg生成Open Graph图像的框架无关工具包](https://github.com/fabian-hiller/og-img)
+- 📦 [Knip 4.0 - 检测JavaScript和TypeScript项目中未使用的文件、依赖项和导出](https://knip.dev/blog/knip-v4)
+
+---
+
+## 🤭 趣味 {#fun}
+
+[![趣味图片](/emails/issues/171/meme.jpg)](https://twitter.com/trashh_dev/status/1750233852553924709)
+
+下次见！👋

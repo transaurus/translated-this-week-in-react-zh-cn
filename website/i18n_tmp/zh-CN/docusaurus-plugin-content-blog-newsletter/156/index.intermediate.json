@@ -1,0 +1,299 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/156/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /156\ntitle: \"This Week In React #156: Server Actions, Stale Closures, React Falls Behind, Expo Builds, Suspense Throttling, React-Aria, Natuerlich, Obsidiosaurus, Expo-SQLite, Expo DevTools...\"\nauthors: [slorber]\ndate: 08-15-2023\n---",
+      "sourceMdx": "---\nslug: /156\ntitle: \"This Week In React #156: Server Actions, Stale Closures, React Falls Behind, Expo Builds, Suspense Throttling, React-Aria, Natuerlich, Obsidiosaurus, Expo-SQLite, Expo DevTools...\"\nauthors: [slorber]\ndate: 08-15-2023\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "This week, we've got many articles from the React and React-Native community, and the latest Expo Launch Party announcements. Some articles are very long, and I didn't have time to read them all.",
+      "sourceMdx": "This week, we've got many articles from the React and React-Native community, and the latest Expo Launch Party announcements. Some articles are very long, and I didn't have time to read them all."
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "📷 I've been too busy creating the newsletter's [**Instagram account**](https://www.instagram.com/thisweekinreact/)! I plan to post visual React news and tips there, including the best memes I couldn't include here 🤭.",
+      "sourceMdx": "📷 I've been too busy creating the newsletter's [**Instagram account**](https://www.instagram.com/thisweekinreact/)! I plan to post visual React news and tips there, including the best memes I couldn't include here 🤭."
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "🧑 I've also removed the Jobs section, which didn't add much: I'll see later how to reintegrate it.",
+      "sourceMdx": "🧑 I've also removed the Jobs section, which didn't add much: I'll see later how to reintegrate it."
+    },
+    {
+      "id": "86b54d44",
+      "translatable": true,
+      "content": "👥 For React-Native devs: [React Native EU](https://www.react-native.eu/) (Wrocław/Poland, 7-8 September) is offering us a [-15% discount on admissions](https://ti.to/react-native-eu/2023/discount/thisweekinreact15).",
+      "sourceMdx": "👥 For React-Native devs: [React Native EU](https://www.react-native.eu/) (Wrocław/Poland, 7-8 September) is offering us a [-15% discount on admissions](https://ti.to/react-native-eu/2023/discount/thisweekinreact15)."
+    },
+    {
+      "id": "45c63027",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "1acb9a05",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "fb3d50cd",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "0adfe0aa",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "1941846d",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "a5403c6e",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "d06306f7",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "73ab96a3",
+      "translatable": true,
+      "content": "[![Enterprise Grade APIs for Feeds, Chat, & Video!](/emails/issues/153/stream.jpg)](https://getstream.io/video/voice-calling/?utm_source=thisweekinreact\\&utm_medium=sponsorship\\&utm_content=\\&utm_campaign=thisweekinreact_July2023_video_klmh22)",
+      "sourceMdx": "[![Enterprise Grade APIs for Feeds, Chat, & Video!](/emails/issues/153/stream.jpg)](https://getstream.io/video/voice-calling/?utm_source=thisweekinreact&utm_medium=sponsorship&utm_content=&utm_campaign=thisweekinreact_July2023_video_klmh22)"
+    },
+    {
+      "id": "7499a4e7",
+      "translatable": true,
+      "content": "[**Enterprise Grade APIs for Feeds, Chat, & Video!**](https://getstream.io/video/docs/react/?utm_source=thisweekinreact\\&utm_medium=sponsorship\\&utm_content=\\&utm_campaign=thisweekinreact_July2023_video_klmh22)",
+      "sourceMdx": "[**Enterprise Grade APIs for Feeds, Chat, & Video!**](https://getstream.io/video/docs/react/?utm_source=thisweekinreact&utm_medium=sponsorship&utm_content=&utm_campaign=thisweekinreact_July2023_video_klmh22)"
+    },
+    {
+      "id": "517051a7",
+      "translatable": true,
+      "content": "Stream is the maker of enterprise-grade **APIs** and **SDKs** that help product and engineering teams solve two common problems at scale: in-app chat and social activity feeds.",
+      "sourceMdx": "Stream is the maker of enterprise-grade **APIs** and **SDKs** that help product and engineering teams solve two common problems at scale: in-app chat and social activity feeds."
+    },
+    {
+      "id": "135468ee",
+      "translatable": true,
+      "content": "With Stream, developers can integrate any type of messaging or feed experience into their app in a fraction of the time it would take to build these features from scratch. Stream Chat makes it easy for developers to integrate rich, real-time messaging into their applications.",
+      "sourceMdx": "With Stream, developers can integrate any type of messaging or feed experience into their app in a fraction of the time it would take to build these features from scratch. Stream Chat makes it easy for developers to integrate rich, real-time messaging into their applications."
+    },
+    {
+      "id": "33331f27",
+      "translatable": true,
+      "content": "Stream provides robust client-side SDKs for popular frameworks such as [**React**](https://getstream.io/chat/sdk/react/?utm_source=thisweekinreact\\&utm_medium=sponsorship\\&utm_content=\\&utm_campaign=thisweekinreact_July2023_video_klmh22), [**React-Native**](https://getstream.io/chat/sdk/react-native/?utm_source=thisweekinreact\\&utm_medium=sponsorship\\&utm_content=\\&utm_campaign=thisweekinreact_July2023_video_klmh22), Expo, Flutter, Android, Angular, Compose, Unreal, and iOS.\nUnlock enterprise-grade features, functions, and UI components completely free for your startup or side project with the Maker Account.",
+      "sourceMdx": "Stream provides robust client-side SDKs for popular frameworks such as [**React**](https://getstream.io/chat/sdk/react/?utm_source=thisweekinreact&utm_medium=sponsorship&utm_content=&utm_campaign=thisweekinreact_July2023_video_klmh22), [**React-Native**](https://getstream.io/chat/sdk/react-native/?utm_source=thisweekinreact&utm_medium=sponsorship&utm_content=&utm_campaign=thisweekinreact_July2023_video_klmh22), Expo, Flutter, Android, Angular, Compose, Unreal, and iOS.\nUnlock enterprise-grade features, functions, and UI components completely free for your startup or side project with the Maker Account."
+    },
+    {
+      "id": "1042b50d",
+      "translatable": true,
+      "content": "[**Try the new React Video tutorial!**](https://getstream.io/video/docs/react/?utm_source=thisweekinreact\\&utm_medium=sponsorship\\&utm_content=\\&utm_campaign=thisweekinreact_July2023_video_klmh22)",
+      "sourceMdx": "[**Try the new React Video tutorial!**](https://getstream.io/video/docs/react/?utm_source=thisweekinreact&utm_medium=sponsorship&utm_content=&utm_campaign=thisweekinreact_July2023_video_klmh22)"
+    },
+    {
+      "id": "39993511",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "f44c1398",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "29528c8d",
+      "translatable": true,
+      "content": "[![Can React Server Actions finally fix forms?](/emails/issues/156/serveractions.jpg)](https://www.mux.com/blog/what-are-react-server-actions)",
+      "sourceMdx": "[![Can React Server Actions finally fix forms?](/emails/issues/156/serveractions.jpg)](https://www.mux.com/blog/what-are-react-server-actions)"
+    },
+    {
+      "id": "c504c207",
+      "translatable": true,
+      "content": "[**Can React Server Actions finally fix forms?**](https://www.mux.com/blog/what-are-react-server-actions)",
+      "sourceMdx": "[**Can React Server Actions finally fix forms?**](https://www.mux.com/blog/what-are-react-server-actions)"
+    },
+    {
+      "id": "98d26038",
+      "translatable": true,
+      "content": "A great introduction to Server Actions, a forthcoming React feature that has already been integrated into Next.js 13.4 (experimental). Includes a short tutorial on uploading a video with a title. Server Actions can return a response to give feedback to the user, but it's clear that this isn't yet an ideal DX.",
+      "sourceMdx": "A great introduction to Server Actions, a forthcoming React feature that has already been integrated into Next.js 13.4 (experimental). Includes a short tutorial on uploading a video with a title. Server Actions can return a response to give feedback to the user, but it's clear that this isn't yet an ideal DX."
+    },
+    {
+      "id": "d3649a1e",
+      "translatable": true,
+      "content": "In my opinion, Server Actions should aim to fully support progressive enhancement. This probably requires to introduce a \"flash\" API to manage feedback without any client-side JavaScript. This exists in many backend frameworks, and Remix offers a ([`session.flash()`](https://remix.run/docs/en/main/utils/sessions#sessionflashkey-value)) API. Related info that might interest you: with [`action.$$FORM_ACTION`](https://twitter.com/sebastienlorber/status/1689921046856474625) you can extend React's progressive enhancement behavior.",
+      "sourceMdx": "In my opinion, Server Actions should aim to fully support progressive enhancement. This probably requires to introduce a \"flash\" API to manage feedback without any client-side JavaScript. This exists in many backend frameworks, and Remix offers a ([`session.flash()`](https://remix.run/docs/en/main/utils/sessions#sessionflashkey-value)) API. Related info that might interest you: with [`action.$$FORM_ACTION`](https://twitter.com/sebastienlorber/status/1689921046856474625) you can extend React's progressive enhancement behavior."
+    },
+    {
+      "id": "6e9a41d8",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "30193704",
+      "translatable": true,
+      "content": "* 💸 [Zero To Shipped - Master Fast-Paced Fullstack Development and **Finally** ship that product](https://www.zerotoshipped.com/)\n* 🧑‍🎓 [React.dev - Using TypeScript](https://react.dev/learn/typescript): new official documentation page.\n* 💬 [Next.js RFC - Google Tag Manager and gtag in next/third-parties](https://github.com/vercel/next.js/discussions/53868): offers to integrate Google Analytics using a hook rather than a component, with possibly Web Worker support.\n* 🐦 [Million.js Automatic Mode - Video trailer](https://twitter.com/aidenybai/status/1689773623827943424)\n* 📜 [Things you forgot (or never knew) because of React](https://joshcollinsworth.com/blog/antiquated-react): a very long criticism of React, considered to be an outdated framework. It's still an interesting read, even if [I disagree](https://github.com/josh-collinsworth/joco-sveltekit/issues/35#issuecomment-1680817566) and think the author is unfair.\n* 📜 [Fantastic closures and how to find them in React](https://www.developerway.com/posts/fantastic-closures): explains what a stale closure is in React and presents various cases that can introduce this problem, then proposes a solution based on `useRef()`.\n* 📜 [The simplest example to understand Server Actions in Next.js](https://scastiel.dev/simplest-example-server-actions-nextjs): very simple Server Actions example, easy to understand, and providing a practical way of making RPC calls to your API.\n* 📜 [On React Suspense’s throttling](https://andreigatej.dev/blog/on-react-suspense-throttling/): highlights a surprising behaviour of React when you nest `<Suspense>`.\n* 📜 [Quit Your YAP-ing](https://kyleshevlin.com/quit-your-yapping): encourages you to abandon the \"Yet-Another-Prop\" syndrome and use composition instead.\n* 📜 [Node.js's Config Hell Problem](https://deno.com/blog/node-config-hell): Deno's criticism of projects like Next.js, which often have dozens of configuration files.\n* 📜 [Supabase - Vercel Integration and Next.js App Router Support](https://supabase.com/blog/using-supabase-with-vercel): an integration worth studying. Includes APIs with interesting names like `createClientComponentClient` 😅.\n* 📜 [Lifting Off with Astro](https://remotesynthesis.com/blog/lifting-off-with-astro/)\n* 📜 [Form Validation with React Hook Form](https://claritydev.net/blog/form-validation-react-hook-form)\n* 📜 [Introducing a new lint rule for React Testing Library](https://blog.testdouble.com/posts/2023-07-31-a-new-rtl-lint-rule/)\n* 📜 [How to Use Jotai and useTransition for Mutation](https://blog.axlight.com/posts/how-to-use-jotai-and-use-transition-for-mutation/)\n* 📜 [Coding the stars - An interactive constellation with Three.js and React Three Fiber](https://supabase.com/blog/interactive-constellation-threejs-react-three-fiber)\n* 📦 [React Aria - August 9 Releases - HTML form submit/reset, DropZone, FileTrigger...](https://react-spectrum.adobe.com/releases/2023-08-09.html)\n* 📦 [Natuerlich - Composable interactions for WebXR experiences - With React-Three-Fiber support](https://github.com/coconut-xr/natuerlich)\n* 📦 [Reakit - August 2023 update](https://newsletter.ariakit.org/p/all-things)\n* 📦 [Obsidiosaurus - Obsidian -> Docusaurus Converter](https://github.com/CIMSTA/obsidiosaurus)\n* 📦 [tw2panda - Easily migrate code from Tailwind to Panda CSS](https://github.com/astahmer/tw2panda)\n* 🎥 [Why I Stopped Using Next.js And Chose Astro Instead](https://www.youtube.com/watch?v=BoeZqPaYw9s)\n* 🎥 [Responsive Framer Motion with Tailwind CSS](https://www.youtube.com/watch?v=xSuxsfn13xg)\n* 🎥 [Dominik Dorfmeister: React Query With The App Router](https://www.youtube.com/watch?v=R4NHXrvwZWA)",
+      "sourceMdx": "- 💸 [Zero To Shipped - Master Fast-Paced Fullstack Development and **Finally** ship that product](https://www.zerotoshipped.com/)\n- 🧑‍🎓 [React.dev - Using TypeScript](https://react.dev/learn/typescript): new official documentation page.\n- 💬 [Next.js RFC - Google Tag Manager and gtag in next/third-parties](https://github.com/vercel/next.js/discussions/53868): offers to integrate Google Analytics using a hook rather than a component, with possibly Web Worker support.\n- 🐦 [Million.js Automatic Mode - Video trailer](https://twitter.com/aidenybai/status/1689773623827943424)\n- 📜 [Things you forgot (or never knew) because of React](https://joshcollinsworth.com/blog/antiquated-react): a very long criticism of React, considered to be an outdated framework. It's still an interesting read, even if [I disagree](https://github.com/josh-collinsworth/joco-sveltekit/issues/35#issuecomment-1680817566) and think the author is unfair.\n- 📜 [Fantastic closures and how to find them in React](https://www.developerway.com/posts/fantastic-closures): explains what a stale closure is in React and presents various cases that can introduce this problem, then proposes a solution based on `useRef()`.\n- 📜 [The simplest example to understand Server Actions in Next.js](https://scastiel.dev/simplest-example-server-actions-nextjs): very simple Server Actions example, easy to understand, and providing a practical way of making RPC calls to your API.\n- 📜 [On React Suspense’s throttling](https://andreigatej.dev/blog/on-react-suspense-throttling/): highlights a surprising behaviour of React when you nest `<Suspense>`.\n- 📜 [Quit Your YAP-ing](https://kyleshevlin.com/quit-your-yapping): encourages you to abandon the \"Yet-Another-Prop\" syndrome and use composition instead.\n- 📜 [Node.js's Config Hell Problem](https://deno.com/blog/node-config-hell): Deno's criticism of projects like Next.js, which often have dozens of configuration files.\n- 📜 [Supabase - Vercel Integration and Next.js App Router Support](https://supabase.com/blog/using-supabase-with-vercel): an integration worth studying. Includes APIs with interesting names like `createClientComponentClient` 😅.\n- 📜 [Lifting Off with Astro](https://remotesynthesis.com/blog/lifting-off-with-astro/)\n- 📜 [Form Validation with React Hook Form](https://claritydev.net/blog/form-validation-react-hook-form)\n- 📜 [Introducing a new lint rule for React Testing Library](https://blog.testdouble.com/posts/2023-07-31-a-new-rtl-lint-rule/)\n- 📜 [How to Use Jotai and useTransition for Mutation](https://blog.axlight.com/posts/how-to-use-jotai-and-use-transition-for-mutation/)\n- 📜 [Coding the stars - An interactive constellation with Three.js and React Three Fiber](https://supabase.com/blog/interactive-constellation-threejs-react-three-fiber)\n- 📦 [React Aria - August 9 Releases - HTML form submit/reset, DropZone, FileTrigger...](https://react-spectrum.adobe.com/releases/2023-08-09.html)\n- 📦 [Natuerlich - Composable interactions for WebXR experiences - With React-Three-Fiber support](https://github.com/coconut-xr/natuerlich)\n- 📦 [Reakit - August 2023 update](https://newsletter.ariakit.org/p/all-things)\n- 📦 [Obsidiosaurus - Obsidian -> Docusaurus Converter](https://github.com/CIMSTA/obsidiosaurus)\n- 📦 [tw2panda - Easily migrate code from Tailwind to Panda CSS](https://github.com/astahmer/tw2panda)\n- 🎥 [Why I Stopped Using Next.js And Chose Astro Instead](https://www.youtube.com/watch?v=BoeZqPaYw9s)\n- 🎥 [Responsive Framer Motion with Tailwind CSS](https://www.youtube.com/watch?v=xSuxsfn13xg)\n- 🎥 [Dominik Dorfmeister: React Query With The App Router](https://www.youtube.com/watch?v=R4NHXrvwZWA)"
+    },
+    {
+      "id": "3e8b4b41",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed placement=\"middle\" />",
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+    },
+    {
+      "id": "c46c3e3d",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "2e771fd0",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "0750bfa1",
+      "translatable": true,
+      "content": "[![CoderPad: Code together before you work together](/emails/issues/154/coderpad.png)](https://coderpad.io/?utm_medium=3pmedia\\&utm_source=ThisWeekInReact\\&utm_campaign=23-Q3-3PMedia-ThisWeekInReact-ACQ-All-Global-Newsletter)",
+      "sourceMdx": "[![CoderPad: Code together before you work together](/emails/issues/154/coderpad.png)](https://coderpad.io/?utm_medium=3pmedia&utm_source=ThisWeekInReact&utm_campaign=23-Q3-3PMedia-ThisWeekInReact-ACQ-All-Global-Newsletter)"
+    },
+    {
+      "id": "86348f98",
+      "translatable": true,
+      "content": "[**CoderPad: Code together before you work together**](https://coderpad.io/?utm_medium=3pmedia\\&utm_source=ThisWeekInReact\\&utm_campaign=23-Q3-3PMedia-ThisWeekInReact-ACQ-All-Global-Newsletter)",
+      "sourceMdx": "[**CoderPad: Code together before you work together**](https://coderpad.io/?utm_medium=3pmedia&utm_source=ThisWeekInReact&utm_campaign=23-Q3-3PMedia-ThisWeekInReact-ACQ-All-Global-Newsletter)"
+    },
+    {
+      "id": "6b77b644",
+      "translatable": true,
+      "content": "Hiring front-end developers is hard. 😩 But 4,000+ engineering teams — including at Netflix, Spotify and LinkedIn — have found a better way! 🤠 Skip the algorithm interviews and **run front-end interviews in a fully customizable and collaborative IDE** - where you can:",
+      "sourceMdx": "Hiring front-end developers is hard. 😩 But 4,000+ engineering teams — including at Netflix, Spotify and LinkedIn — have found a better way! 🤠 Skip the algorithm interviews and **run front-end interviews in a fully customizable and collaborative IDE** - where you can:"
+    },
+    {
+      "id": "e0019b35",
+      "translatable": true,
+      "content": "* drag and drop a React (and Angular or Vue) repo\n* add packages with npm install\n* let candidates use ChatGPT live in the interview\n* watch & share code playback after the interview",
+      "sourceMdx": "- drag and drop a React (and Angular or Vue) repo\n- add packages with npm install\n- let candidates use ChatGPT live in the interview\n- watch & share code playback after the interview"
+    },
+    {
+      "id": "25212439",
+      "translatable": true,
+      "content": "Use CoderPad to run fast, fair and real coding interviews that candidates and interviewers trust. [Sign up for free today & hire with confidence](https://coderpad.io/?utm_medium=3pmedia\\&utm_source=ThisWeekInReact\\&utm_campaign=23-Q3-3PMedia-ThisWeekInReact-ACQ-All-Global-Newsletter).",
+      "sourceMdx": "Use CoderPad to run fast, fair and real coding interviews that candidates and interviewers trust. [Sign up for free today & hire with confidence](https://coderpad.io/?utm_medium=3pmedia&utm_source=ThisWeekInReact&utm_campaign=23-Q3-3PMedia-ThisWeekInReact-ACQ-All-Global-Newsletter)."
+    },
+    {
+      "id": "4c30a6aa",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "54bafb10",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "4be28ed1",
+      "translatable": true,
+      "content": "[![Expo Preview - Fully customizable builds on EAS Build](/emails/issues/156/easbuild.jpg)](https://expo.dev/changelog/2023/08-10-custom-builds)",
+      "sourceMdx": "[![Expo Preview - Fully customizable builds on EAS Build](/emails/issues/156/easbuild.jpg)](https://expo.dev/changelog/2023/08-10-custom-builds)"
+    },
+    {
+      "id": "0e80209e",
+      "translatable": true,
+      "content": "[**Expo Preview - Fully customizable builds on EAS Build**](https://expo.dev/changelog/2023/08-10-custom-builds).",
+      "sourceMdx": "[**Expo Preview - Fully customizable builds on EAS Build**](https://expo.dev/changelog/2023/08-10-custom-builds)."
+    },
+    {
+      "id": "7bc8bb24",
+      "translatable": true,
+      "content": "Expo has come up with a new system for EAS Build that allows you to customise the flow with a Yaml file, which should give you a lot of flexibility to use the monorepo tools of your choice (Nx, Turbo, Rush...) or add your own CI steps. It looks quite similar to GitHub Actions. TIL: it seems EAS is using Fastlane on iOS builds.",
+      "sourceMdx": "Expo has come up with a new system for EAS Build that allows you to customise the flow with a Yaml file, which should give you a lot of flexibility to use the monorepo tools of your choice (Nx, Turbo, Rush...) or add your own CI steps. It looks quite similar to GitHub Actions. TIL: it seems EAS is using Fastlane on iOS builds."
+    },
+    {
+      "id": "42bfcc5d",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "0422e2e2",
+      "translatable": true,
+      "content": "* 👀 [Expo Proof of concept - expo-sqlite integration with CR-SQLite](https://expo.dev/changelog/2023/08-10-cr-sqlite): SQLite and CRDT integration to ease creation of local-first mobile apps.\n* 👀 [Expo Proof of concept - Expo CLI Dev Tools Plugins](https://expo.dev/changelog/2023/08-10-dev-tools-plugins): Expo wants to offer a plug-in system for creating DevTools, and presents us a demo with Apollo DevTools. This should eventually replace Flipper plugins.\n* 🐦 [Reanimated on react-native-windows demo](https://twitter.com/piaskowyk/status/1689982162886430721)\n* 🐦 [Async Components + use() hook demo](https://twitter.com/SzymonRybczak/status/1691037156712599552)\n* 🐦 [Half of the Top 20 iOS Sports apps are powered by React Native](https://twitter.com/Baconbrix/status/1690805340290301954)\n* 📜 [Tale of a Web Developer Improving Startup Performance for a large React Native App](https://medium.com/engineering-udaan/reacting-to-change-tale-of-a-web-developer-improving-startup-performance-for-a-large-react-native-854f8a4850fd)\n* 📜 [Adding React-Native to a complex app - 4-part series](https://www.nearform.com/blog/adding-react-native-to-a-complex-app-part-1-planning/)\n* 📜 [Getting started with react native storybook](https://dev.to/dannyhw/getting-started-with-react-native-storybook-96c)\n* 📜 [Exploring React Native's New Architecture: A Peek into the New Architecture](https://blog.devvivek.tech/exploring-react-natives-new-architecture-a-peek-into-the-new-architecture)\n* 🎙️ [The React Native Show Podcast #25 - Databases for mobile apps React Native & Realm](https://www.callstack.com/podcasts/databases-for-mobile-apps-react-native-realm)\n* 👥 [React Native EU 2023](https://www.react-native.eu/) (Wrocław, September 7–8, 2023) is offering us [-15% on conference tickets](https://ti.to/react-native-eu/2023/discount/thisweekinreact15) with code \"thisweekinreact15\".",
+      "sourceMdx": "- 👀 [Expo Proof of concept - expo-sqlite integration with CR-SQLite](https://expo.dev/changelog/2023/08-10-cr-sqlite): SQLite and CRDT integration to ease creation of local-first mobile apps.\n- 👀 [Expo Proof of concept - Expo CLI Dev Tools Plugins](https://expo.dev/changelog/2023/08-10-dev-tools-plugins): Expo wants to offer a plug-in system for creating DevTools, and presents us a demo with Apollo DevTools. This should eventually replace Flipper plugins.\n- 🐦 [Reanimated on react-native-windows demo](https://twitter.com/piaskowyk/status/1689982162886430721)\n- 🐦 [Async Components + use() hook demo](https://twitter.com/SzymonRybczak/status/1691037156712599552)\n- 🐦 [Half of the Top 20 iOS Sports apps are powered by React Native](https://twitter.com/Baconbrix/status/1690805340290301954)\n- 📜 [Tale of a Web Developer Improving Startup Performance for a large React Native App](https://medium.com/engineering-udaan/reacting-to-change-tale-of-a-web-developer-improving-startup-performance-for-a-large-react-native-854f8a4850fd)\n- 📜 [Adding React-Native to a complex app - 4-part series](https://www.nearform.com/blog/adding-react-native-to-a-complex-app-part-1-planning/)\n- 📜 [Getting started with react native storybook](https://dev.to/dannyhw/getting-started-with-react-native-storybook-96c)\n- 📜 [Exploring React Native's New Architecture: A Peek into the New Architecture](https://blog.devvivek.tech/exploring-react-natives-new-architecture-a-peek-into-the-new-architecture)\n- 🎙️ [The React Native Show Podcast #25 - Databases for mobile apps React Native & Realm](https://www.callstack.com/podcasts/databases-for-mobile-apps-react-native-realm)\n- 👥 [React Native EU 2023](https://www.react-native.eu/) (Wrocław, September 7–8, 2023) is offering us [-15% on conference tickets](https://ti.to/react-native-eu/2023/discount/thisweekinreact15) with code \"thisweekinreact15\"."
+    },
+    {
+      "id": "18fa676c",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "2bb63d77",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "a8198b43",
+      "translatable": true,
+      "content": "- 📣 [Gecko (Firefox) - Intent to Prototype: :has selector](https://twitter.com/intenttoship/status/1690045325539520523)\n- 📜 [What Does It Mean for Web Browsers to Have a Baseline](https://thenewstack.io/what-does-it-mean-for-web-browsers-to-have-a-baseline/)\n- 📜 [Deprecating the unload event](https://developer.chrome.com/blog/deprecating-unload/)\n- 📜 [A Blog Post With Every HTML Element](https://www.patrickweaver.net/blog/a-blog-post-with-every-html-element/)\n- 📜 [How layout position impacts three big web performance levers](https://performance.shopify.com/blogs/blog/how-layout-position-impacts-three-big-web-performance-levers)\n- 📦 [Announcing TypeScript 5.2 RC](https://devblogs.microsoft.com/typescript/announcing-typescript-5-2-rc/)\n- 📦 [Zod 3.22 - readonly()](https://twitter.com/colinhacks/status/1691172205516984322)\n- 👥 [ViteConf 2023 - October 5th](https://viteconf.org/23/)",
+      "sourceMdx": "- 📣 [Gecko (Firefox) - Intent to Prototype: :has selector](https://twitter.com/intenttoship/status/1690045325539520523)\n- 📜 [What Does It Mean for Web Browsers to Have a Baseline](https://thenewstack.io/what-does-it-mean-for-web-browsers-to-have-a-baseline/)\n- 📜 [Deprecating the unload event](https://developer.chrome.com/blog/deprecating-unload/)\n- 📜 [A Blog Post With Every HTML Element](https://www.patrickweaver.net/blog/a-blog-post-with-every-html-element/)\n- 📜 [How layout position impacts three big web performance levers](https://performance.shopify.com/blogs/blog/how-layout-position-impacts-three-big-web-performance-levers)\n- 📦 [Announcing TypeScript 5.2 RC](https://devblogs.microsoft.com/typescript/announcing-typescript-5-2-rc/)\n- 📦 [Zod 3.22 - readonly()](https://twitter.com/colinhacks/status/1691172205516984322)\n- 👥 [ViteConf 2023 - October 5th](https://viteconf.org/23/)"
+    },
+    {
+      "id": "7f523b45",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "9c2ab4c8",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "a9c2a503",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/156/meme.jpg)](https://twitter.com/DanStepanov/status/1689511613026775040)",
+      "sourceMdx": "[![alt](/emails/issues/156/meme.jpg)](https://twitter.com/DanStepanov/status/1689511613026775040)"
+    },
+    {
+      "id": "cfeb9eb1",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+---
+slug: /193
+title: "This Week In React #193: State of React, Server Functions, next/form, useId, Astro, Meteor, Gluestack, React-Aria, Turbopack, Airbnb, Apollo, DRY, IDX, Bootsplash, Flash Calendar, CSS, ES, Poku..."
+authors: [slorber, bndkt]
+date: 07-24-2024
+---
+
+大家好！
+
+本周React生态调查报告结果终于出炉，其中包含许多有趣的洞察。
+
+我发现了一些关于React抽象层的优质文章，以及来自不同React和React Native公司的反馈与案例研究。
+
+Astro发布了Server Islands功能，这看起来是一个简单但极具竞争力的解决方案，可与Next.js的Partial Prerendering相媲美——Vercel也为此发表了精彩文章。此外还有Meteor框架的复兴值得期待，React Aria的发布，以及面向通用React Native开发者的Gluestack-UI v2版本。
+
+喜欢TypeScript和Web开发工具链？快来了解[Squiggle Conf](https://2024.squiggleconf.com/?utm_source=thisweekinreact)（🇺🇸波士顿 - 10月3-4日），使用优惠码"TWIR"可享9折！目前已公布多位重量级演讲嘉宾！
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化版式 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![企业级React网格定义者](/emails/issues/190/advertfinal.jpg)](https://1771technologies.com/graphitegrid)
+
+**[企业级React网格定义者](https://1771technologies.com/graphitegrid)**
+
+数据网格是Web应用中的复杂组件，但现有解决方案效率低下、维护成本高且性能不佳。[Graphite Grid](https://1771technologies.com/graphitegrid)通过两大核心特性改变现状：可重定向渲染与响应式信号状态。
+
+**Graphite Grid**将网格状态与视图逻辑分离，允许单一统一状态模型支持多种渲染目标（声明式或命令式）。内置**DOM和Canvas**渲染器，为开发者提供灵活的高性能选择方案 🚀。
+
+该网格采用声明式设计并保持一致性，利用状态信号确保与应用程序无缝集成。专为**React优化**打造，是唯一基于React状态管理原语构建的JavaScript数据网格。[立即试用！](https://1771technologies.com/graphitegrid/demo)
+
+---
+
+## ⚛️ React动态 {#react}
+
+[![2023年React生态调查报告结果](/emails/issues/193/stateofreact.jpg)](https://2023.stateofreact.com/en-US)
+
+**[2023年React生态调查报告结果](https://2023.stateofreact.com/)**
+
+首份React生态调查报告结果终于上线。数据采集于2023年11月，经过数月整理才得以发布。这份报告是分析我们钟爱的框架生态系统趋势的绝佳工具，明年将会呈现更清晰的趋势演变。以下是我的重点摘录：
+
+- [Hooks的采用取得了显著成功](https://x.com/JoshWComeau/status/1814292932461306239)
+- React Query、Zustand、Radix UI、React Aria、shadcn/ui、tRPC和Zod获得高度正面评价
+- 暂无明确的React框架赢家。Next.js最受欢迎但用户留存率略低于Astro和Remix
+- React渲染器使用情况显示React不仅限于React-DOM：超30%用户使用React Native，9%使用React-Three-Fiber
+- 仅7%开发者使用过[我最推荐的低调Hook——useSyncExternalStore](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api)
+- 本简报在"博客与杂志"类别中排名第五（❤️️感谢支持！）
+
+下一期《React 现状 2024》调查[计划于2024年9月进行](https://dev.to/sachagreif/planning-out-the-2024-state-of-surveys-4lb9)，现在正是参与问卷设计的好时机。
+
+---
+
+- 💸 [Reactile – 一种基于React的Web应用新方案。创建自定义视图，让它在单个浏览器标签页中管理窗口和小部件](https://www.reactile.net/?utm_source=reactnewsletter)
+- 👀 [Next.js PR - next/form](https://github.com/vercel/next.js/pull/68102)
+- 🗓️ [React-Brussels](https://www.react.brussels/?utm_source=thisweekinreact) - 🇧🇪 布鲁塞尔 - 10月18日 - 部分演讲嘉宾已公布！立即查看，并使用优惠码“TWIR”享受9折。
+- 📜 [Next.js中使用Server Actions进行数据获取](https://www.robinwieruch.de/next-server-actions-fetch-data/)：可通过Server Actions配合React-Query获取客户端数据。但需注意限制：它们使用POST请求且串行执行。需知：非过渡调用的"use server"函数并非Server Action，而是[Server Function](https://x.com/sebastienlorber/status/1816096442492051672)。
+- 📜 [使用useId()替代手动生成ID](https://reacttraining.com/blog/use-useid-instead-of-hand-making-ids)：ID对无障碍访问很重要，但若需多次挂载组件或支持React水合，应避免手动创建。访问DOM元素时，`useRef`足矣。
+- 📜 [不要将DTO传递给UI组件](https://darios.blog/posts/do-not-pass-dtos-to-ui-components)：解释为何应独立设计组件props结构，而非直接使用后端负载作为props。
+- 📜 [DRY原则——错误抽象的常见根源](https://swizec.com/blog/dry-the-common-source-of-bad-abstractions/)：生动阐述React开发者如何误创抽象。React UI库经多年演进，已通过组合方式提供灵活性而非过度抽象。
+- 📜 [Turbopack更新：迁移仓库](https://vercel.com/blog/turbopack-moving-homes)：打包工具Turbopack正迁移至Next.js仓库。同仓协作将加速生产构建迭代（当前完成度92%）。Turbopack仍将保持框架无关性：成熟后会迁回独立仓库。
+- 📜 [Vercel - 如何为应用选择最佳渲染策略](https://vercel.com/blog/how-to-choose-the-best-rendering-strategy-for-your-app)：全面解析SSG、SSR、ISR、CSR等策略的优劣与最佳实践。部分预渲染(PPR)基于这些策略构建。结合Next.js的Server Components和Suspense边界，可为每个组件动态选择最优策略。
+- 📜 [Airbnb如何平稳升级React](https://medium.com/airbnb-engineering/how-airbnb-smoothly-upgrades-react-b1d772a565fd)：Airbnb近期通过"React升级系统"，依托共享基建代码和渐进式迁移策略，将前端从React 16升级至18。
+- 📜 [细粒度Markdown](https://v1.codehike.org/blog/fine-grained-markdown)：Code Hike创始人（基于MDX）的交互式文章，展示如何类型安全地装饰和扩展Markdown以增强表现力。
+- 📜 [useEffect与Remix loader的数据获取对比](https://www.jacobparis.com/content/use-effect-fetching)
+- 📜 [Next.js与New Relic集成指南](https://www.thisdot.co/blog/integrating-next-js-with-new-relic)
+- 📜 [更清洁的React架构(第8部分) - React-Query如何融入？](https://profy.dev/article/react-architecture-tanstack-query)
+- 📜 [Zoom - 为何选择T3栈构建Web参考应用](https://developers.zoom.us/blog/why-we-chose-to-build-with-the-t3-stack/)
+- 📦 [Astro 4.12 - 服务端岛屿](https://astro.build/blog/astro-4120/)：Astro新推的服务端岛屿功能先在服务端渲染占位符，再异步替换为动态内容，使站点其余部分可静态渲染。这是对Next.js模型（通过RSC+Suspense+PPR实现）的替代方案，其演示版基于Next.js PPR复刻且性能更优！
+- 📦 [Meteor.js 3.0](https://forums.meteor.com/t/its-official-meteor-3-0-official-release-is-out/61860)：新版本弃用Fibers协程转向async/await，升级至Node 20并集成Express。官方称此为[Meteor.js复兴](http://meteor.js)，7月29日起将举办发布活动。作为未使用过Meteor的开发者，很好奇它将在现代React框架生态中占据何种位置。
+- 📦 [React Aria 7月22日更新 - 支持React 19、虚拟化改进、Toast焦点管理优化、Color Picker候选版](https://react-spectrum.adobe.com/releases/2024-07-22.html)
+- 📦 [Apollo Client 3.11 - 订阅功能改进、React 19+编译器支持、新测试库、Devtools新选项](https://www.apollographql.com/blog/whats-new-in-apollo-client-3-11)
+- 📦 [eslint-plugin-use-server - 禁止顶层"use server"](https://github.com/c-ehrlich/eslint-plugin-use-server)
+- 🧩️ [Design GUI - 管理CSS变量颜色的浏览器插件 - 支持shadcn/ui](https://www.designgui.io/)
+- 🎥 [React Summit 2024 - 所有演讲已上线](https://portal.gitnation.org/events/react-summit-2024)
+- 🎥 [dotJS 2024 - Malte Ubl、Mark Dalgleish等演讲的YouTube合集](https://www.youtube.com/watch?v=9tx-dE8oBTY&list=PLMW8Xq7bXrG7fOUOLJQw9I7ygJCbue9zO)
+- 🎥 [Sam Selikoff - 如何构建递归React组件](https://www.youtube.com/watch?v=6UU2Ey4KZr8)
+- 🎥 [Web Dev Simplified - 像资深开发者一样调试React应用](https://www.youtube.com/watch?v=l8knG0BPr-o)
+- 🎙️ [Mark Erikson谈2024年为何还应使用Redux](https://podrocket.logrocket.com/redux-2024-mark-erikson)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![AuthKit适配任何框架，不限于Next.js](/emails/issues/193/authkit.jpg)](https://www.youtube.com/watch?v=237vaK_nYRg)
+
+**[AuthKit适配任何框架，不限于Next.js](https://www.youtube.com/watch?v=237vaK_nYRg)**
+
+并非所有人都使用Next.js——但其他JavaScript框架似乎很难获得原生级别的集成支持。AuthKit由WorkOS驱动，是一个基于Radix组件构建的开源认证UI。
+
+这里有一个[30分钟教程，展示如何在任何JS框架中配置AuthKit](https://www.youtube.com/watch?v=237vaK_nYRg)。
+
+- 🏗️ AuthKit具有高度灵活性——既提供高层集成方案，也支持底层SDK调用
+- 🔐 可搭配WorkOS用户管理系统使用，**100万月活用户以内免费**
+- ✨ 完全掌控用户数据。唯一强制要求的用户对象字段是电子邮件地址
+- ☄️ 内置角色权限、多因素认证、用户模拟、机器人防护等功能。100万月活前无需支付任何费用
+
+---
+
+## 📱 React-Native {#react-native}
+
+本版块由[Benedikt](https://twitter.com/bndkt)供稿。
+
+[![Gluestack-UI v2](/emails/issues/193/gluestack.jpg)](https://gluestack.io/)
+
+**[Gluestack-UI v2 - 面向Expo/Next的通用复制粘贴组件](https://gluestack.io/)**
+
+Gluestack-UI为React、Next.js和React Native提供可复制粘贴的通用组件与模式。最新发布的v2版本聚焦性能优化、减少依赖项并支持RSC，基于Tailwind CSS（Web端）和NativeWind（原生端）。由于采用复制粘贴模式，升级过程不像简单更新依赖项那么容易，但官方提供了升级教程和代码修改工具。他们甚至在🐦[X平台发布了v2预告片](https://x.com/gluestack/status/1813895494005112859)来展示新特性。
+
+---
+
+- 💸 [Sentry - 支持React Native、Expo、Hermes等技术的应用监控工具（部分技术除外）。被400万开发者评为"还不错"。免费使用Sentry](https://sentry.io/welcome/?utm_medium=email&utm_source=THIS_WEEK_IN_REACT&utm_campaign=TWIR_july_2024&utm_content=rn-quick-link)
+- 🐦 [实验性功能expo-doctor新增项目依赖验证功能，可对照reactnative.directory元数据检查](https://x.com/notbrent/status/1814016564452315374)：当您使用已停止维护或不支持新架构的库时会发出提醒
+- 🐦 [Expo文档更新公告](https://x.com/amanhimself/status/1815460518515118266)：包含SSO、Metro打包器别名和expo-drizzle-studio-plugin等内容
+- 🐦 [Google IDX（基于网页的IDE）现已支持React Native/Expo](https://x.com/kirupa/status/1813690012720120225)
+- 🐦 [学习如何使用+native-intent实现链接重定向及第三方深度链接整合](https://x.com/expo/status/1814274913030520874)
+- 📜 [使用Flash Calendar构建快速灵活的日历组件](https://expo.dev/blog/build-fast-flexible-calendars-in-react-native-with-flash-calendar)：日期选择器开发复杂，性能优化更难——Flash Calendar完美解决且高度可定制
+- 📜 [构建跨平台值班移动应用实践](https://incident.io/hubs/building-on-call/building-a-multi-platform-on-call-mobile-app)：来自incident.io的案例研究
+- 📜 [驱动创新：MyWheels从RNC CLI迁移到Expo的历程](https://expo.dev/blog/from-rnc-cli-to-expo)
+- 📦 [Bootsplash 6.0发布 - 现支持Expo配置插件](https://github.com/zoontek/react-native-bootsplash/releases/tag/6.0.0)
+- 📦 [React Native 0.75候选版6](https://github.com/facebook/react-native/releases/tag/v0.75.0-rc.6)
+- 📦 [React Native版TinyBase示例项目](https://github.com/expo/examples/tree/master/with-tinybase)：构建本地优先应用的优秀入门模板
+- 🎥 [Harry Tormey - 迁移Coinbase 5600万用户到React Native的核心经验](https://stepchange.work/blog/migrating-coinbases-56-million-users-to-react-native-key-lessons-and-takeaways)
+- 🎥 [Simon Grimm - 必须掌握的10个Expo Router技巧](https://www.youtube.com/watch?v=1hD1ZClxpfc)
+- 🎥 [Daniel Friyia - 使用Expo、Skia和Reanimated进行游戏开发入门](https://www.youtube.com/watch?v=Af2-OT9mE14)
+- 🎥 [Reactiive - 动画堆叠卡片：探索插值函数](https://www.youtube.com/watch?v=8_hvNoZJsc8)
+
+---
+
+## 🔀 其他领域 {#other}
+
+- 👀 [CSS新编辑草案 - 函数与混入模块](https://drafts.csswg.org/css-mixins/)
+- 📣 [CSS font-size-adjust属性现已纳入Baseline标准](https://web.dev/blog/font-size-adjust)
+- 📜 [ECMAScript 2024为JavaScript开发者带来的新特性](https://thenewstack.io/whats-new-for-javascript-developers-in-ecmascript-2024/)
+- 📜 [TypeScript开发者看Zig语言](https://effectivetypescript.com/2024/07/17/advent2023-zig/)
+- 📜 [使用@property实现类型化CSS变量](https://css-tip.com/typed-variables/)
+- 📜 [调用器功能更新：HTML中的调用器命令](https://utilitybend.com/blog/an-update-on-invokers-invoker-commands-in-html)
+- 📜 [CSS新特性：相对颜色](https://www.stefanjudis.com/notes/new-in-css-relative-colors/)
+- 📜 [为什么Node.js创建新进程这么慢？](https://blog.val.town/blog/node-spawn-performance/)
+- 📦 [Poku - 面向Node.js/Bun/Deno的跨平台测试运行器](https://github.com/wellwelwel/poku)
+
+---
+
+## 🤭 轻松一刻 {#fun}
+
+[![表情包](/emails/issues/193/meme.jpg)](https://x.com/vinceflibustier/status/1814233715641389456)
+
+[![表情包](/emails/issues/193/meme2.jpg)](https://x.com/birch_js/status/1815299684728201400)
+
+下期见！👋

@@ -1,0 +1,167 @@
+---
+slug: /163
+title: "This Week In React #163: React-Query, React-Forget, Rspress, Remix Vite, Next.js Barrels, Storybook, Memo, Transitions, Gluestack, VisionCamera, Unistyles, VisionOS, Expo debugging..."
+authors: [slorber]
+date: 10-17-2023
+---
+
+大家好！
+
+本周内容非常丰富！不仅有新版本发布，还有一些优质的React技术文章。而且精彩还在继续，即将迎来React Advanced、Next.js Conf、reactjsday等重磅会议。
+
+提前分享一个好消息：我即将成为一名女婴的父亲啦 🤗
+
+这是创刊以来首次，简报将暂停数周，下次更新定于11月29日。
+
+目前订阅量正稳步迈向年底3万的目标。我不在期间，欢迎继续推荐新朋友订阅 😜
+
+感谢支持，我们很快再见 👋
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化版 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![Frontendmasters](/emails/issues/158/frontendmasters.jpg)](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)
+
+**[FrontendMasters - 从入门到资深开发的React.js完整学习路径](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)**
+
+从零开始学习React.js，直至掌握性能优化、测试和代码质量等高级主题。先通过《React完全入门》构建真实应用，接着用《中级React》整合生态流行工具，最后学习性能优化、TypeScript乃至全栈框架Next.js！
+
+---
+
+## ⚛️ React {#react}
+
+[![TanStack Query v5](/emails/issues/163/tanstack-query-v5.jpg)](https://tanstack.com/blog/announcing-tanstack-query-v5)
+
+[**TanStack Query v5**](https://tanstack.com/blog/announcing-tanstack-query-v5)
+
+经过多次预发布，TanStack Query v5.0稳定版终于到来，包含React Query包。主要特性：
+
+- 统一且类型更完善的API，消除重载
+- 稳定的Suspense支持。流式渲染、React服务端组件（实验性）
+- 无限查询、持久化、开发者工具、乐观更新、useMutationState等多项改进
+
+---
+
+[![Rspress v1.0 - 基于Rspack的极速静态站点生成器](/emails/issues/163/rspress.jpg)](https://github.com/orgs/web-infra-dev/discussions/5)
+
+[**Rspress v1.0 - 基于Rspack的极速静态站点生成器**](https://github.com/orgs/web-infra-dev/discussions/5)
+
+字节跳动团队推出的静态站点生成器首个稳定版。基于Rust、React和MDX构建，是Docusaurus、Nextra、Vitepress、Starlight等内容解决方案的有力竞争者。Rspress在保持高性能的同时，提供国际化、版本控制、搜索等丰富功能。激烈的竞争正激励我为Docusaurus引入Rust支持 😄！
+
+---
+
+[![Remix - Vite支持](/emails/issues/163/remix-vite.jpg)](https://remix.run/docs/en/dev/future/vite)
+
+[**Remix - Vite支持（实验性）**](https://remix.run/docs/en/dev/future/vite)
+
+Remix通过这份[提案](https://github.com/remix-run/remix/discussions/7632)解释了转型为Vite插件的决策。此举通过开放编译器架构，允许用户添加自定义Vite插件来处理MDX、GraphQL、Tailwind、路径别名等多样化场景。
+
+---
+
+[![静态分析React组件：乐趣与收益并存](/emails/issues/163/react-forget.jpg)](https://www.youtube.com/watch?v=kjOacmVsLSE)
+
+🎥 [**静态分析React组件：乐趣与收益并存**](https://www.youtube.com/watch?v=kjOacmVsLSE)
+
+Sathya正在开发备受期待的React-Forget编译器。本次演讲揭示了以下技术细节：
+
+- 编译可行性源于React新模型摒弃了类组件和`this`机制
+- 采用局部推理策略，支持并行优化，支持渐进式采用
+- 能处理无类型JavaScript代码，可识别hooks和"use"前缀等React约定
+- 其别名分析系统比V8引擎更为完备
+
+Sathya透露未来几周将有更多React-Forget相关消息，包括两天后React Advanced大会的["理解地道React"演讲](https://reactadvanced.com/schedule-offline)。简而言之，我们已迫不及待想了解更多！
+
+---
+
+- 💸 [使用Ably的应用内协作SDK，只需几行代码即可创建类似Figma和Miro的协作应用](https://hubs.la/Q023nqgg0)
+- 📜 [Vercel - 我们如何优化Next.js中的包导入](https://vercel.com/blog/how-we-optimized-package-imports-in-next-js): 解析了`optimizePackageImports`的工作原理，这是Next.js最新版本中添加的选项，用于优化"Barrel文件"（那些重新导出多个模块并导致性能问题的`index.js`）的导入。
+- 📜 [释放Storybook的潜力](https://formidable.com/blog/2023/unlocking-the-power-of-storybook/): 一篇优秀的文章，分享了使用Storybook加速迭代的实用技巧。如果你有Storybook，强烈建议尝试视觉回归测试。
+- 📜 [React useTransition: 性能改变者还是...？](https://www.developerway.com/posts/use-transition): 一篇互动性强的文章，展示了React更新阻塞主线程的经典案例。解释了如何正确使用transitions和并发渲染来提升用户体验。
+- 📜 [React memo其实很好](https://timtech.blog/posts/react-memo-is-good-actually/): 关于React中记忆化使用的有趣思考。有一点我不同意：[🐦 优化应该被封装](https://twitter.com/sebastienlorber/status/1709258823582564644)。
+- 📜 [致Remix loader的情书](https://laconicwit.com/a-love-letter-to-the-remix-loader/): 对Remix loader的赞美，这是一个优雅、动态且易于类型化的抽象。同时也描述了一些需要克服的挑战。
+- 📜 [Next.js中的程序化SEO](https://practicalprogrammatic.com/blog/programmatic-seo-in-nextjs/): 基于数据集使用RSCs生成Next.js页面。
+- 📜 [类组件](https://flexible.dev/blog/single-line-components/): 提出通过重用styled-components api和`@tw-classed/react`来简化Tailwind的使用。
+- 📜 [Next.js的崛起: 为什么它是现代网站的全栈框架首选](https://www.felixvemmer.com/blog/why-next-js/): 一篇文档详实的文章，给出了使用Next.js的好理由
+- 📜 [在Directus中嵌入Remix](https://echobind.com/post/embedding-remix-in-directus)
+- 📜 [Storybook - 介绍主题切换插件](https://storybook.js.org/blog/introducing-theme-switcher-addon/)
+- 📜 [MobX-State-Tree性能基准测试](https://coolsoftware.dev/blog/benchmarking-mobx-state-tree/)
+- 📦 [Remix v2.1 - 实验性支持View Transitions](https://github.com/remix-run/remix/releases/tag/remix%402.1.0)
+- 📦 [Astro v3.3 - 新的实验性Picture组件，shikiji语法高亮](https://astro.build/blog/astro-330/)
+- 📦 [create-t3-app v7.22 - 添加Next.js App Router选项](https://github.com/t3-oss/create-t3-app/releases/tag/create-t3-app%407.22.0)
+- 📦 [Legend-State v2.0 - 性能、持久化、开发者体验改进](https://legendapp.com/open-source/legend-state-v2/)
+- 📦 [Next-international v1.1 - 改进的App Router支持](https://github.com/QuiiBz/next-international/releases/tag/1.1.0)
+- 👥 [Next.js Conf - 10月26日 - 演讲者公布](https://nextjs.org/conf/speakers)
+- 👥 [React Advanced](https://reactadvanced.com/?utm_source=email&utm_medium=thisweekinreact) (伦敦 🇬🇧, 10月20-23日) 提供 [\-10% - 优惠码 "REACT10"](https://ti.to/gitnation/react-advanced-london-2023/discount/REACT10)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助 {#sponsor2}
+
+[![CoderPad: 在共事之前一起编码](/emails/issues/154/coderpad.png)](https://coderpad.io/?utm_medium=3pmedia&utm_source=ThisWeekInReact&utm_campaign=23-Q3-3PMedia-ThisWeekInReact-ACQ-All-Global-Newsletter)
+
+**[CoderPad: 在共事之前一起编码](https://coderpad.io/?utm_medium=3pmedia&utm_source=ThisWeekInReact&utm_campaign=23-Q3-3PMedia-ThisWeekInReact-ACQ-All-Global-Newsletter)**
+
+招聘前端开发者很难。😩 但已有4000+工程团队（包括Netflix、Spotify和LinkedIn）找到了更好的方法！🤠 跳过算法面试，**在完全可定制且协作的IDE中运行前端面试**——您可以：
+
+- 拖放React（以及Angular或Vue）代码库
+- 通过npm install添加依赖包
+- 允许候选人在面试中实时使用ChatGPT
+- 面试后查看并分享代码回放
+
+使用CoderPad进行快速、公平且真实的编程面试，赢得候选人和面试官的信任。[立即免费注册，自信招聘](https://coderpad.io/?utm_medium=3pmedia&utm_source=ThisWeekInReact&utm_campaign=23-Q3-3PMedia-ThisWeekInReact-ACQ-All-Global-Newsletter)。
+
+---
+
+## 📱 React-Native {#react-native}
+
+[![Gluestack](/emails/issues/163/gluestack.jpg)](https://gluestack.io/ui/v1)
+
+[**Gluestack-ui v1.0 - 面向React Native与Web的通用无障碍UI组件，无样式与主题化**](https://gluestack.io/ui/v1)
+
+这个新的跨平台样式解决方案和React Native组件库发布了稳定的v1.0版本。首个版本已包含丰富内容：VSCode插件、Figma套件、Expo和Next.js支持、无头和有样式基元。我们需要深入探究所有这些功能！我认为Next.js的RSC支持仍有限制，需要使用'use client'指令。
+
+---
+
+- 💸 [Moropo - 以10倍速度构建和扩展开源React Native测试](https://www.moropo.com/for-react-native?utm_source=newsletter&utm_medium=emails&utm_campaign=twir-20231018)
+- 📜 [Expo - 三种网络调试方法](https://blog.expo.dev/three-ways-to-use-network-debugging-75fa6118fac6)
+- 📦 [React-Native 0.72.6 - 修复CocoaPods安装问题](https://github.com/facebook/react-native/releases/tag/v0.72.6)
+- 📦 [react-native-visionos](https://github.com/callstack/react-native-visionos): Callstack的React Native分支已开源，可在VisionOS上运行React Native。
+- 📦 [react-native-unistyles v1.0](https://github.com/jpudysz/react-native-unistyles): 这个改进React Native StyleSheet开发者体验的新跨平台样式解决方案发布稳定版。
+- 📦 [VisionCamera v3.4 - 速度提升7倍](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.4.0)
+- 📦 [React-Native-Screens v3.26 - 新增useAnimatedHeaderHeight](https://github.com/software-mansion/react-native-screens/releases/tag/3.26.0)
+- 📦 [react-native-vercel-ai - 跨平台Vercel AI接口](https://github.com/bidah/react-native-vercel-ai)
+- 📦 [radix-ui-react-native-icons](https://github.com/Eronred/radix-ui-react-native-icons)
+
+---
+
+## 🔀 其他 {#other}
+
+- 👀 [TC39-TG4 - 新成立的任务组将标准化Source Maps](https://www.ecma-international.org/news/ecma-tc39-ecmascript-initiates-a-new-task-group-to-standardize-source-maps//)
+- 📜 [无法超越"无构建"的速度](https://world.hey.com/dhh/you-can-t-get-faster-than-no-build-7a44131c)
+- 📜 [为什么Fetch Promise在错误响应时不会拒绝](https://kettanaito.com/blog/why-fetch-promise-doesnt-reject-on-error-responses)
+- 📜 [DefinitelyTyped现在是单体仓库！](https://jakebailey.dev/posts/pnpm-dt-3/)
+- 📦 [Node.js v21 - 稳定的fetch/WebStreams、默认模块系统标志、V8 11.8、v20成为LTS...](https://openjsf.org/announcement/2023/10/17/node-js-21-available-now/)
+- 📦 [Parcel v2.10 - 重大性能改进](https://github.com/parcel-bundler/parcel/releases/tag/v2.10.0)
+- 📦 [Oslo - 身份验证相关工具集](https://github.com/pilcrowOnPaper/oslo)
+- 📦 [async-cache-dedupe v2](https://github.com/mcollina/async-cache-dedupe)
+
+---
+
+## 🤭 趣闻 {#fun}
+
+[![alt](/emails/issues/163/meme.jpg)](https://twitter.com/BHolmesDev/status/1713177728143241403)
+
+下次见！👋

@@ -1,0 +1,171 @@
+---
+slug: /147
+title: "This Week In React #147: RSCs, Next.js, Remix, Redwood, Error Boundary, JSX, Raycast, Spotify, Triplex, useHooks, ReMDX, Astro, Pastel, TypeScript..."
+authors: [slorber]
+date: 06-06-2023
+---
+
+大家好！
+
+本周我们正在庆祝[React诞生10周年](https://twitter.com/sebastienlorber/status/1662957673573130244)！🥳️
+
+过去两周出现了许多有趣的文章，尤其涉及服务端组件带来的复杂性。Dan Abramov就此主题发布了一些优质资源。Remix和Redwood已宣布将支持RSCs。
+
+在React-Native方面，近期举办了3场会议，YouTube上正陆续放出演讲视频集锦。我在巴黎首届[React-Native-Connection大会](https://twitter.com/sebastienlorber/status/1664584407775051779)度过了愉快时光，感谢所有参与者让这场首秀圆满成功。
+
+太棒了，这份简报在React Summit峰会荣获了[React开源奖项](https://twitter.com/sebastienlorber/status/1664667086860308481)！感谢所有投票支持的朋友，面对其他提名者我真没想到能获奖😆
+
+[![奖项图片](/emails/issues/147/award.jpg)](https://twitter.com/sebastienlorber/status/1664667086860308481)
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化版式 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![Start UI](/emails/issues/144/start_ui.jpg)](https://web.start-ui.com?utm_source=newsletter&utm_term=this-week-in-react)
+
+**[Start UI [web] - 开箱即用的Web应用UI启动器](https://web.start-ui.com?utm_source=newsletter&utm_term=this-week-in-react)**
+
+我们的**免费开源Web应用UI启动器**能快速构建新项目，提供**最佳实践与生产级工具**，助您跳过繁琐初始化直接进入开发。
+
+内置功能包括：🔐 认证系统、📱 响应式布局、🧑‍💻 用户管理、🇫🇷 国际化与右向左支持、🌚 暗黑模式、🎛 高阶开发组件。可体验[示例应用](https://demo.start-ui.com)。
+
+完美支持**TypeScript**、**NextJS**，集成Chakra UI、TanStack Query、Storybook等工具链。
+
+[🚀 GitHub上的Start UI [web]](https://web.start-ui.com)
+
+---
+
+## ⚛️ React技术栈 {#react}
+
+[![为何客户端组件需要SSR生成HTML？](/emails/issues/147/client-component.jpg)](https://github.com/reactwg/server-components/discussions/4)
+
+**[为何客户端组件需要SSR生成HTML？](https://github.com/reactwg/server-components/discussions/4)**
+
+Dan Abramov用可视化方式解析客户端树（传统React组件）与服务端树（新概念）的区别。这张示意图很有价值，它澄清了一个常见误解：客户端组件本质上就是我们熟知的普通React组件。在SSR过程中，**客户端组件其实会在服务端执行**，与从前完全一致。
+
+---
+
+[![Raycast API与插件工作原理](/emails/issues/147/raycast.jpg)](https://www.raycast.com/blog/how-raycast-api-extensions-work)
+
+**[Raycast API与插件工作原理](https://www.raycast.com/blog/how-raycast-api-extensions-work)**
+
+Raycast 是一款可扩展的 macOS 启动器，以其卓越品质著称的应用。本文阐述了他们实现插件系统的技术路径。团队不愿在用户体验和开发者体验上妥协：既未采用 WebView 也不使用 Electron，在确保安全性的同时支持 npm 包调用。最终他们选择开发定制化的 React 渲染器，该渲染器运行在独立的 Node 进程中，通过 JSON 桥接协议驱动 Swift 原生视图——这套架构与 React-Native 的设计理念高度相似。
+
+---
+
+- 🥳️ [庆祝React十周年](https://vercel.com/blog/10-years-of-react): Vercel通过发布[圆桌讨论视频](https://www.youtube.com/watch?v=g5BGoLyGjY0)来庆祝React诞生十周年，Andrew、Sebastian和Delba共同探讨React的最新创新。
+- 👀 [React `<Catch>` API？](https://twitter.com/wongmjane/status/1661786321176911872): 即将支持无需类组件的错误边界？
+- 👀 [Remix + RSC概念验证](https://twitter.com/ryanflorence/status/1663587026384584704): Remix终于计划实现服务端组件，并在此[推文](https://twitter.com/remix_run/status/1661017634480201734)中给出了原因之一。
+- 💬 [React工作组 - 从零实现RSC. 第一部分: 服务端组件](https://github.com/reactwg/server-components/discussions/5): Dan Abramov深入讲解如何从零实现服务端组件。第一部分（共三部分）已发布，详细描述了如何实现服务端组件。
+- 📖 [Next.js文档更新 - 项目组织页面](https://twitter.com/delba_oliveira/status/1662211824211877889)
+- 📜 [React是否正在经历Angular.js时刻？](https://marmelab.com/blog/2023/06/05/react-angularjs-moment.html): 服务端组件的出现是否类似于Angular.js到Angular 2的范式转变？答案是否定的，因为服务端组件是一个可选的新特性，React的其他部分仍保持原有功能。不过文章也提醒，现在推荐和采用RSC可能还为时过早，生态系统尚未完全准备好。
+- 📜 [关于React服务端组件的观点笔记](https://github.com/nilshartmann/react-server-component-material/blob/notes-on-rsc/notes-on-rsc.md): 一系列关于RSC的笔记和思考。内容全面且文档丰富，包含许多相关的外部参考。
+- 📜 [同构开发](https://meijer.ws/articles/isomorphic-development): 关于服务端组件带来的复杂性的有趣思考。复杂之处不在于服务端组件本身，而在于代码库的新混合性质及其边界的不明确性。
+- 📜 [React API和代码复用的演变](https://frontendmastery.com/posts/the-evolution-of-react-patterns/): 回顾了不同时期使用的模式及其权衡（混入、高阶组件、渲染属性、钩子、RSC）。
+- 📜 [为什么我们放弃支持Next.js](https://www.stormkit.io/blog/why-we-are-dropping-support-for-next-js): Stormkit部署平台放弃了对Next.js的支持，因为对于他们的小团队来说过于复杂。相反，他们提出了一个支持SSR的React + Vite模板。
+- 📜 [使用服务端组件的更好React学习路径](https://scastiel.dev/better-learning-path-react): 如果RSC实际上让React更容易学习呢？我认为从新的角度来看是有道理的。
+- 📜 [RedwoodJS的下一个时代：全面拥抱React服务端组件](https://tom.preston-werner.com/2023/05/30/redwoods-next-epoch-all-in-on-rsc.html): Tom Preston-Werner（GitHub创始人）宣布Redwood框架计划实现React服务端组件。此前，Redwood生成的是没有SSR的SPA（对SEO有限制），并且强制使用GraphQL并不总是最佳选择。
+- 📜 [解决Remix中的水合错误](https://www.jacobparis.com/content/remix-hydration-errors): 关于调试React水合错误的实用建议。这些建议也适用于其他框架。
+- 📜 [什么是JSX.IntrinsicElements？](https://www.totaltypescript.com/what-is-jsx-intrinsicelements): TypeScript使用IntrinsicElements来确定哪些JSX元素是原生支持的。可以声明自己的原生元素，这正是像React这样的框架所做的。
+- 📜 [使用SST在边缘部署Next.js](https://engineering.udacity.com/deploying-next-js-on-the-edge-with-sst-is-sst-the-game-changer-its-claimed-to-be-1f05a0abc27c): 关于使用OpenNext和SST在AWS上部署Next.js应用的积极反馈。
+- 📜 [Spotify - 设计系统中的多层抽象](https://engineering.atspotify.com/2023/05/multiple-layers-of-abstraction-in-design-systems/): Spotify解释了他们的React设计系统如何暴露三个抽象层次（配置、插槽、自定义）。
+- 📦 [TypeScript 5.1](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1): 这个新版本的TypeScript对React很重要，因为它改进了React的JSX类型，并允许组件返回Promise（异步服务端组件）、字符串、数组、布尔值等。新的React类型定义已经[发布](https://twitter.com/sebsilbermann/status/1664356039876124672)！
+- 📦 [Triplex - React Three Fiber可视化编辑器](https://twitter.com/itsdouges/status/1664874971481382913)
+- 📦 [useHooks.com v2.0 - 支持SSR的钩子集合](https://usehooks.com/)
+- 📦 [ReMDX - 美观简约的React & MDX演示工具](https://github.com/cpojer/remdx)
+- 📦 [Next-Typesafe-Url - Next.js的全类型安全和Zod验证路由](https://github.com/ethanniser/next-typesafe-url)
+- 📦 [Redux Toolkit v2.0.0-beta.0](https://twitter.com/acemarke/status/1663707088478953474)
+- 📦 [Pastel v2.0 - 基于Ink的类Next.js CLI框架](https://twitter.com/vadimdemedes/status/1661343197535129601)
+- 📦 [React Aria + React Spectrum - 2023年5月24日发布](https://twitter.com/devongovett/status/1661765315825643521)
+- 📦 [Astro v2.6 - 中间件、混合SSR、自定义客户端指令...](https://astro.build/blog/astro-260/)
+- 🔗 [React手册](https://reacthandbook.dev/)
+- 🎥 [React服务端组件真的更慢吗？](https://www.youtube.com/watch?v=3Q2q2gs0nAI): 基准测试显示Next.js的Pages Router比App Router更快，但后者的用户体验可能更好，得益于流式传输。
+- 🎥 [如何避免污染React服务端组件](https://www.youtube.com/watch?v=BZlwtR9pDp4): 使用`server-only`包避免将服务端代码导入客户端组件。
+- 🎥 [Remix Conf - React核心小组问答](https://www.youtube.com/watch?v=WiEtFPYGgbM)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![Nylas](/emails/issues/147/Nylas.png)](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-openaireplay)
+
+**[OpenAI + Nylas 生成式AI对话：立即观看！](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-openaireplay)**
+
+想一窥生成式AI的未来？OpenAI应用工程经理Evan Morikawa与Nylas联合创始人兼CTO Christine Spang将深入探讨生成式AI的下一步发展。
+
+他们将讨论大规模交付和维护AI解决方案的关键要素、AI下一阶段成熟度的形态等议题。[立即获取回放](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-openaireplay)。
+
+想在React中开始构建ChatGPT+邮件API调用？[这里有一份入门指南](https://www.nylas.com/blog/how-to-build-with-nylas-using-chatgpt/?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-chatgptblog)。
+
+---
+
+## 📱 React-Native {#react-native}
+
+- 👀 [苹果应用商店Top购物应用中近1/4使用React Native](https://twitter.com/Baconbrix/status/1664285684583002112)：React Native应用评分最高！另见其他分类[餐饮](https://twitter.com/Baconbrix/status/1661775514074247169)和[金融](https://twitter.com/Baconbrix/status/1662866951784235008)。
+- 👀 [帮助我们用Kotlin重构React Native测试](https://twitter.com/cortinico/status/1666001895360454660)：React Native从Java迁移到Kotlin的开始，从测试代码着手。
+- 👀 [React-Skia实验项目](https://github.com/wcandillon/react-skia-experiment)：William Candillon正尝试让React-Native-Skia库实现跨平台支持([推文](https://twitter.com/wcandillon/status/1662037035102683136))。
+- 👀 [Portal - 使用React Native开发的Apple Vision Pro应用](https://twitter.com/Baconbrix/status/1665816002712436736)
+- 📜 [BlueSky如何构建应用架构与管理状态](https://alexkondov.com/reading-code-bluesky/)：基于Expo、React-Native-Web和Mobx的BlueSky开源代码库导览。
+- 🔗 [React Native性能问题目录](https://spangled-split-858.notion.site/React-Native-Performance-Issues-Catalogue-9338979a2a5648e883331ef2050e963c)：记录React Native性能问题的成因与症状的Notion数据库，助你快速定位问题。
+- 📦 [React-Native 0.72.0-RC.5](https://github.com/facebook/react-native/releases/tag/v0.72.0-rc.5)：新版Golden候选版本发布。
+- 📦 [vscode-expo-tools](https://twitter.com/cedric_dev/status/1666113468078997507)
+- 📦 [style-variants - 动态可复用样式解决方案](https://github.com/oktaysenkan/style-variants)
+- 🎥 [App.js 2023大会视频集](https://www.youtube.com/playlist?list=PLSk21zn8fFZCfYEMpSqQOHMgyNKc8B7_s)
+- 🎥 [Chain React 2023大会视频集](https://www.youtube.com/playlist?list=PLFHvL21g9bk30F2UaJfn6TqJn15MAoBOc)
+- 🎙️[React-Native广播第266期 - Chain React大会综述](https://reactnativeradio.com/episodes/rnr-266-chain-react-roundup) + [第267期 - 专访Chiara Mooney谈React Native Windows](https://reactnativeradio.com/episodes/rnr-267-react-native-windows-with-chiara-mooney)
+- 🎙️ [React Native咖啡闲谈第10期 - Vercel动态、React Canaries与RN macOS 0.71](https://www.youtube.com/watch?v=qvPOkvdG0ZI)
+
+---
+
+## 🧑‍💻 招聘 {#jobs}
+
+🧑‍💼 [**Passionfroot - 高级全栈工程师（Remix方向）- €160k+，柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)
+
+Passionfroot的使命是通过YouTube、播客、社交媒体和新闻通讯赋能未来的独立企业。加入我们，共同打造一个工具，助力全球创作者建立可扩展、可持续的业务。
+
+🧑‍💼 [**Callstack - 高级React Native开发工程师 - 完全远程，B2B月薪净收入21-32k PLN**](https://www.callstack.com/senior-react-native-developer)
+
+你是否希望参与开发全球使用最广泛的应用？是否愿意共同塑造React Native技术？加入Callstack这个由React和React Native领军人物组成的团队。访问我们的网站了解更多详情。我们期待看到你的申请——向我们展示你的实力！
+
+🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
+
+我们开放了多个专注于React Native的开发职位！薪资约160k美元外加10%奖金。应聘者需具备RN生产环境经验且位于美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解更多，别忘了提及This Week in React。
+
+💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
+
+---
+
+## 🔀 其他 {#other}
+
+- [CSS中@scope规则入门指南](https://fullystacked.net/posts/scope-in-css/)
+- [并行运行Promise：可视化指南](https://julesblom.com/writing/running-promises-in-parallel)
+- [一小时TypeScript高级研讨会](https://type-level-typescript.com/articles/one-hour-workshop)
+- [Bun中的JavaScript宏](https://bun.sh/blog/bun-macros)
+- [2023年5月Web平台新特性](https://web.dev/web-platform-05-2023/)
+- [Popover API简介](https://developer.chrome.com/blog/introducing-popover-api/)
+- [Web Share API正式成为W3C推荐标准](https://www.w3.org/blog/news/archives/9931)
+- [Safari 17 beta中的WebKit新功能](https://webkit.org/blog/14205/news-from-wwdc23-webkit-features-in-safari-17-beta/)
+- [Deno 1.34：deno compile支持npm包](https://deno.com/blog/v1.34)
+- [Parcel 2.9发布](https://parceljs.org/blog/v2-9-0/)
+- [XState v5 beta版发布](https://stately.ai/blog/announcing-xstate-v5-beta)
+- [Rspack 0.2发布](https://twitter.com/rspack_dev/status/1664510907379228672)
+
+---
+
+## 🤭 趣味 {#fun}
+
+[![alt](/emails/issues/147/meme.jpg)](https://twitter.com/sophiebits/status/1663710200078151681)
+
+下次见！👋

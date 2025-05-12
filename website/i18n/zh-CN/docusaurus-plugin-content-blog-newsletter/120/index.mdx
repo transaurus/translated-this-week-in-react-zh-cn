@@ -1,0 +1,171 @@
+---
+slug: /120
+title: "This Week In React #120: use RFC, Sandpack, Progressive enhancement, Streaming, Storybook, React-Native, Codeflow, Fontaine, Unplugin, Node.js 19, TypeRunner..."
+authors: [slorber]
+date: 10-18-2022
+---
+
+大家好！
+
+本周简报延迟发布：新的React RFC让我研读良久😄 Kent C. Dodds的文章篇幅虽长但值得一读。两周内我们有两篇重点介绍Sandpack的文章，这个工具值得关注！
+
+React-Native核心进展也很顺利，新开放的讨论层出不穷。甚至让人联想到：在完成新架构迁移和稳定公共API后，可能会迎来1.0正式版？虽然实际影响不大，但似乎有人非常在意主版本号的发布。
+
+前端生态系统也有不少有趣的新动态。我对Codeflow、Fontaine和Unplugin特别感兴趣，它们可能直接适用于Docusaurus项目。
+
+说到Docusaurus，我受邀在[Changelog JS Party播客](https://changelog.com/jsparty/247)中讨论了它。
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化格式 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![Sizzy - 开发者专属浏览器](/emails/issues/120/sizzy.jpg)](https://sizzy.co/?utm_campaign=newsletter&utm_source=thisweekinreact)
+
+为什么其他行业的专业人士都有专用工具，而网页开发者还在用奶奶网购的浏览器？
+
+如果你还在非Sizzy浏览器中打开localhost:3000，就是在浪费宝贵时间。
+
+**使用Sizzy前：** 网页开发令人焦虑，响应式设计困难重重，标签页和应用堆积如山。
+
+**使用Sizzy后：** 所有工具集成一处，响应式设计轻松搞定，无需频繁切换上下文。
+
+立即[下载](https://sizzy.co/?utm_campaign=newsletter&utm_source=thisweekinreact)享受14天免费试用！
+
+---
+
+## ⚛️ React {#react}
+
+**[React RFC：原生支持Promise和async/await](https://github.com/reactjs/rfcs/pull/229)**
+
+React团队决定回归`async/await`模型以简化服务端组件的使用。但问题在于客户端组件难以支持`async/await`，因此他们提议在客户端引入`use(promise)` API。与其他钩子不同，`use`可以条件调用。未来还可能支持其他"可用对象"如React上下文（实际上已经可以[条件使用`useContext`](https://twitter.com/acdlite/status/1581401077915975680)）。差异化API也可视为优势：它能明确区分服务端组件和客户端组件。
+
+该RFC引发了热烈讨论。人们关注数据请求库的集成方案，生成器似乎适合此场景但实际使用较复杂。我们期待引入缓存API的新RFC。
+
+**[网络的下一场变革](https://www.epicweb.dev/the-webs-next-transition)**
+
+Kent C. Dodds对三种主流Web架构进行了精彩回顾，图文并茂。他重点分析了当下趋势：渐进增强型单页应用(Progressively Enhanced SPA)。Remix是该架构的实现，其精心设计的抽象层鼓励模拟浏览器原生行为。不过"必须依赖服务端"的观点值得商榷——[Docusaurus](https://github.com/facebook/docusaurus)作为PESPA实现，在无JavaScript环境下同样运行良好。
+
+**[打造世界级代码沙盒的Sandpack](https://www.joshwcomeau.com/react/next-level-playground/)**
+
+Josh Comeau高度评价了[Sandpack](https://github.com/codesandbox/sandpack)——他用来创建交互式代码沙盒的CodeSandbox工具包。这款工具看起来易用且极具灵活性！
+
+- 📜 [流式渲染：值得吗？](https://www.builder.io/blog/streaming-is-it-worth-it)：Qwik、Solid和Marko的作者们解析了流式渲染的优势及采用难点。在React生态中，相关库（如Helmet、CSS-in-JS、Redux等）必须兼容才能使流式渲染真正有效。
+- 📜 [Storybook对Vite的一流支持](https://storybook.js.org/blog/first-class-vite-support-in-storybook/)：7.0版本即将进入测试阶段：无需配置的Vite支持、预打包、告别Webpack、新增对Vue 2、Lit和Svelte等框架的支持...
+- 📜 [从React迁移到htmx的实践](https://htmx.org/essays/a-real-world-react-to-htmx-port/)：一篇结合文章与视频的迁移复盘（Python后端场景）。值得注意的是，完成概念验证的JS开发者随后竟遭解雇😅。
+- 📜 [内容优先于组件](https://www.simeongriggs.dev/components-considered-harmful-for-content)：从设计师、开发者和内容创作者（CMS）多视角探讨React组件设计的创新思路。
+- 📜 [React组件的语义化HTML技巧](https://queen.raae.codes/emails/2022-10-10-semantic-react/)：通过props传递待创建的DOM元素来实现HTML语义化。
+- 📜 [在Next.js（或其他SSR框架）中使用Web Components](https://css-tricks.com/using-web-components-with-next-or-any-ssr-framework/)
+- 📜 [深入React虚拟DOM实现原理](https://indepth.dev/posts/1501/exploring-how-virtual-dom-is-implemented-in-react)
+- 📜 [Remix中实现React组件懒加载](https://sergiodxa.com/articles/lazy-load-react-components-in-remix)
+- 🐦 [React技巧：isFocused几乎不该作为prop](https://twitter.com/DavidKPiano/status/1580179833052876800)
+- 🚧 [Preact的流式SSR原型](https://twitter.com/marvinhagemeist/status/1581762567328104448)
+- 🧑‍🎓 [用Spline和React创建带游戏控制的3D站点](https://designcode.io/spline2)（[视频](https://www.youtube.com/watch?v=uYp_ipIasYE)）
+- 🎨 [Satori与React-Three-Fiber联合演示](https://twitter.com/0xca0a/status/1581751380339232768)
+- 🎨 [Satori实现SVG代码语法高亮](https://twitter.com/shuding_/status/1581358324569645056)
+- 🎙️ [Docusaurus 2的重大意义](https://changelog.com/jsparty/247)
+- 🎥 [为useEffect辩护](https://www.youtube.com/watch?v=Zw4lJqBphvA)
+- 🎥 [让React Context飞起来！](https://www.youtube.com/watch?v=ZKlXqrcBx88)
+- 📦 [Planby——基于React.js的日程时间轴组件](https://planby.netlify.app/)
+- 📦 [Gatsby v5测试版发布](https://twitter.com/GatsbyJS/status/1580288285229735936)
+- 📦 [Astro 1.5发布](https://twitter.com/astrodotbuild/status/1580611193429168129)
+- 📦 [SWR 2.0候选版](https://github.com/vercel/swr/releases/tag/2.0.0-rc.0)
+
+<SubscribeFormEmbed />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![Chain React - 美国React Native大会 - 2023年5月17-19日 俄勒冈波特兰](/emails/issues/120/chainreact.jpg)](https://cr.infinite.red/?utm_source=react_hebdo)
+
+**[Chain React - 美国React Native大会 - 2023年5月17-19日 俄勒冈波特兰](https://cr.infinite.red/?utm_source=react_hebdo)**
+
+Chain React即将迎来第四届年度盛会，2023年5月汇聚React Native领域顶尖人才、企业与合作伙伴，不容错过。
+
+- **工作坊 | 2023年5月17日** - 我们为不同技能水平的开发者准备了三个精彩的工作坊！这些独家活动将在5月17日于官方演讲者酒店举行，您将在此学习交流，并直接获得专家指导。
+
+- **大会 | 2023年5月18-19日** - 我们的主活动！这里是企业发布重大消息、开发者分享秘诀以及缔结终身友谊的舞台。主会议内容从不进行线上直播。
+
+---
+
+## 📱 React-Native {#react-native}
+
+**[2022年：我们如何改进React Native？](https://github.com/react-native-community/discussions-and-proposals/discussions/528)**
+
+React-Native团队希望就哪些方面需要改进收集反馈。提及的要点包括：CSS支持（Yoga、间隙布局、网格、阴影等）、跨平台支持、版本升级、调试工具、键盘交互、Metro符号链接...
+
+- 💬 [重构React Native的公共API](https://github.com/react-native-community/discussions-and-proposals/discussions/523)
+- 📜 [使用Yarn Workspaces搭建React Native单体仓库](https://www.callstack.com/blog/setting-up-react-native-monorepo-with-yarn-workspaces)
+- 📜 [如何在Re.Pack 3中使用模块联邦](https://www.callstack.com/blog/module-federation-with-re-pack-3)
+- 🚧 [Expo Router 0.0.27](https://twitter.com/Baconbrix/status/1579912795323215872) + [布局API变更RFC](https://twitter.com/Baconbrix/status/1582057133939384321)
+- 🚧 [React-Native Bottom Sheet v5将支持Web](https://twitter.com/gorhom/status/1581334529121218561)
+- 🚧 [React-Native弹性布局间隙支持即将到来？](https://twitter.com/Baconbrix/status/1580587087174062080)
+- 📖 [Expo文档改进](https://twitter.com/amanhimself/status/1580615698321399811): "现在Android上可运行EAS构建的端到端测试"
+- 📦 [Metro 0.73.0](https://github.com/facebook/metro/releases/tag/v0.73.0)
+- 📦 [React-Native 0.70.3](https://twitter.com/Kelset/status/1580210635266084864)
+- 🎥 [在React-Native Re-Animated 2中实现翻转卡片动画](https://www.youtube.com/watch?v=nVsvcu93488)
+- 🎙️ [React-Native-Radio第248期 - 介绍Ignite v8: Maverick!](https://reactnativeradio.com/episodes/rnr-248-introducing-ignite-v8-maverick)
+
+---
+
+## 🧑‍💻 职位 {#jobs}
+
+🧑‍💼 [**Causal产品工程师，远程/伦敦/纽约，15-25万美元**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied&lever-source%5B%5D=thisweekinreact.com)
+
+Causal是一家由Coatue/Accel投资的A轮初创公司，致力于构建一体化数字处理和可视化工具。我们正在寻找能解决复杂UX/性能问题的资深React工程师。
+
+🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
+
+我们开放多个React Native开发岗位！薪资约16万美元外加10%奖金。应聘者需具备RN生产环境经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解详情，并提及This Week in React。
+
+💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
+
+---
+
+## 🔀 其他 {#other}
+
+**[StackBlitz Codeflow](https://stackblitz.com/codeflow)**
+
+StackBlitz的[WebContainers](https://blog.stackblitz.com/posts/introducing-webcontainers/)技术通过WebAssembly在浏览器中运行Node.js。您可以直接在浏览器中运行VS Code、Next.js或Docusaurus，而无需远程Docker容器。Codeflow新增了与GitHub深度集成的功能，使得安全地本地运行、审查或编辑拉取请求变得极其便捷——这对开源项目尤为实用。
+
+他们还推出了Web Publisher，这是一个针对Markdown文件的简化编辑视图（编辑器、预览、保存按钮）。对于在Git上贡献文档来说非常方便，即使对技术背景较弱的用户也是如此。它能提供内容的真实预览，而非GitHub Markdown预览的降级体验。这是[Docusaurus用户的一个重要需求](https://twitter.com/ericsimons40/status/1580371754974781440)。
+
+**[Fontaine - 基于字体指标的自动回退方案](https://github.com/unjs/fontaine)**
+
+用于避免加载自定义字体时的布局偏移。通过使回退字体与最终字体尺寸一致，确保过渡平滑且不影响文本容器的尺寸。绝妙的主意！
+
+- [Node.js 19](https://twitter.com/nodejs/status/1582401871179747329)
+- [Node 18.11](https://nodejs.org/en/blog/release/v18.11.0/)：新增`--watch`模式及[其他实用功能](https://twitter.com/matteocollina/status/1580911016506163202)
+- [Unplugin - 适用于Vite、Rollup、Webpack等的统一插件系统](https://github.com/unjs/unplugin)：创建兼容所有打包器的通用插件！
+- [CSS - 嵌套语法选择调查结果](https://developer.chrome.com/blog/help-css-nesting-results/)
+- [tsc移植项目进展](https://kdy1.dev/posts/2022/10/tsc-port-status) + [高性能TypeScript类型检查器开源](https://twitter.com/kdy1dev/status/1582174891230760960)
+- [TypeRunner - 高性能TypeScript编译器](https://github.com/marcj/TypeRunner)
+- [Lerna重生——v6有哪些新特性？](https://blog.nrwl.io/lerna-reborn-whats-new-in-v6-10aec6e9091c)
+- [Nx 15新功能解析](https://blog.nrwl.io/whats-new-in-nx-15-7e14e1ff282d)
+- [JetBrains Fleet公开预览版发布](https://blog.jetbrains.com/fleet/2022/10/introducing-the-fleet-public-preview/)
+- [所有浏览器即将支持Import maps](https://twitter.com/sebastienlorber/status/1582024272788480000)
+- [Bun在ViteConf的演讲](https://twitter.com/jarredsumner/status/1581427214691708929)
+- [rRPC-chrome - Web扩展的tRPC适配器](https://github.com/jlalmes/trpc-chrome)
+- [pnpm是什么？它真的又快又省空间吗？](https://dev.to/stackblitz/what-is-pnpm-and-is-it-really-so-fast-and-space-efficient-29la)
+- [Intl Explorer - ECMAScript国际化API实验工具](https://www.intl-explorer.com/)
+- [2022年我们为何选择Babylon.js而非Three.js](https://www.spotvirtual.com/blog/why-we-use-babylonjs-instead-of-threejs-in-2022)
+- [Vite诞生记 - ViteConf 2022幻灯片](https://docs.google.com/presentation/d/1O09rAOu_wRLHVjukVbBeSlRkLeX-dcYZfsdjPiU4kGQ/edit#slide=id.p)
+- [Rollup v3](https://github.com/rollup/rollup/releases/tag/v3.0.0)
+- [Jest 29.2](https://github.com/facebook/jest/releases/tag/v29.2.0)
+- [Obsidian 1.0](https://obsidian.md/1.0)
+
+---
+
+## 🤭 趣闻 {#fun}
+
+[![梗图 - 当ESLint规则是警告而非错误时。- 哦不 - 无所谓（没人在意）](/emails/issues/120/meme.png)](https://twitter.com/markdalgleish/status/1580827326799310848)

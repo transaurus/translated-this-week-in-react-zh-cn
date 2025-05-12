@@ -1,0 +1,145 @@
+---
+slug: /195
+title: "This Week In React #195: Compiler, Refactoring components, XState Store, Next.js, Redwood, Vitale, Astro, LLMs, Astro, Dédale, XR, tldraw, RN + Amazon, RN new styles, Gesture Handler, Reanimated, TC39, Node, TypeScript..."
+authors: [slorber]
+date: 08-07-2024
+---
+
+大家好！
+
+React生态圈本周波澜不惊，虽然没有重磅公告，但社区涌现了大量优质技术文章值得品读。
+
+Node.js v22.6版本携实验性TypeScript支持正式发布！🎉
+
+欢迎关注我们的合作伙伴[React Universe Conf](https://www.reactuniverseconf.com/?utm_source=thisweekinreact)（🇵🇱 波兰弗罗茨瓦夫 - 9月5-6日），前身为React Native EU。使用优惠码"TWIR"可享9折早鸟票。今年的演讲嘉宾阵容堪称梦幻！
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 视觉化排版 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![WorkOS：面向B2B SaaS的现代身份平台](/emails/issues/195/workOS.jpg)](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)
+
+**[WorkOS：面向B2B SaaS的现代身份平台](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)**
+
+通过WorkOS，仅需几行代码即可启动企业级销售方案。
+
+🔐 WorkOS AuthKit提供完整的用户管理解决方案，支持**单点登录(SSO)、跨域身份管理系统(SCIM)、基于角色的访问控制(RBAC)和细粒度授权(FGA)**。
+
+🏗️ API设计**灵活易用且模块化**，可自由组合所需功能，分钟级完成集成。
+
+🎨 用户体验至上。从技术文档质量到用户 onboarding 流程，我们**为开发者消除所有不必要的复杂性**。
+
+✨ AuthKit**免费支持百万月活用户**，包含机器人防护、多因素认证(MFA)、基于角色的访问控制等功能。
+
+🤝 WorkOS已获**Perplexity**、**Vercel**和**Webflow**等数百家领先初创企业信赖。
+
+[立即体验WorkOS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024) 🚀
+
+---
+
+## ⚛️ React动态 {#react}
+
+- 💸 [Reactile——React Web应用新范式。自由创建视图，单浏览器标签内管理窗口与组件](https://www.reactile.net/?utm_source=reactnewsletter)
+- 🐦 [扎克伯格点名React为Meta核心开源项目](https://x.com/Vjeux/status/1818766264833392763)
+- 🐦 [基于RSC的ReactBricks可视化编辑方案](https://x.com/rauchg/status/1819383553668370440)
+- 📖 [Redux官方教程《Redux精要》修订版](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
+- 🗓️ [React非洲大会](https://react-africa.com/?utm_source=thisweekinreact) - 🇲🇦 卡萨布兰卡 - 11月29日 - 阵容已公布，使用折扣码TWIR可享门票9折！
+- 📜 [React编译器原理剖析](https://yongseok.me/blog/en/react_compiler_1/)：四篇系列长文深入解析React Compiler代码实现，涵盖Babel插件、useMemoCache、HIR/SSA转换等底层细节。技术性极强，但每篇末尾的算法概述非常精彩。该编译器以函数为处理单元，通过将AST降级为高级中间表示（HIR）实现与Babel的解耦，堪称前沿技术力作！
+- 📜 [避免过早抽象：无样式React组件实践](https://buildui.com/posts/avoiding-premature-abstraction-with-unstyled-react-components)：Sam将具体表单按钮重构为无样式的LoadingButton抽象层，既保持灵活性又避免过早固化样式。笔者非常认同此理念——当时机成熟时仍可在上层创建新的样式抽象。
+- 📜 [混乱React组件的常识性重构](https://alexkondov.com/refactoring-a-messy-react-component/)：Alex演示如何重构臃肿的真实场景表单组件。笔者采用相同策略：从主组件提取子组件、自定义hook和工具代码能显著提升可读性。
+- 📜 [XState Store横空出世](https://tkdodo.eu/blog/introducing-x-state-store)：Dominik（React Query作者）欣赏Zustand，但阐释为何更青睐XState Store——设计理念相似但更强调规范性（状态/动作分离、事件驱动...）。Daishi回应称通过新推出的[Zustand-xs中间件](https://github.com/zustandjs/zustand-xs)也可实现类似接口。笔者通过[推文](https://x.com/sebastienlorber/status/1821166302469194062)解释了为何不总是推崇事件驱动接口。
+- 📜 [Next.js整合Notion作为CMS实战](https://jordaneldredge.com/notes/notion-cms/)：构建低摩擦内容发布流程，先将Notion内容转为Markdown，再通过Next.js渲染。
+- 📜 [Next.js unstable_cache()机制解密](https://jordaneldredge.com/notes/unstable_cache/)：警示返回类实例的风险，并链接到详述更多缓存陷阱的深度文章/工具包。
+- 📜 [40行代码实现React状态管理库](https://paripsky.github.io/blog/build-your-own-react-state-management/)：通过useSyncExternalStore创建外部存储，文末还提出Immer集成等两项优化建议。
+- 📜 [GitHub Vitale——VS Code实时笔记本](https://githubnext.com/projects/vitale/)：GitHub Next团队推出基于Vite的交互式探索性编程环境（类似Jupyter），支持在单元格中直接渲染React组件。
+- 📜 [前端安全清单](https://www.trevorlasn.com/blog/frontend-security-checklist)：包含React场景下防御XSS和CSRF攻击的实战案例。
+- 📜 [Web端抖动与复古着色艺术（React Three Fiber实现）](https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/)
+- 🔨 [Dédale——基于React Email的邮件模板开发环境](https://bireme.io/en/blog/announcing-dedale)
+- 📦 [Redwood 8.0候选版](https://github.com/redwoodjs/redwood/releases/tag/v8.0.0-rc.1114)：全栈React框架新增SSR/RSC支持（实验性）、Vite 5、Prettier 3，详见[v8迁移指南](https://community.redwoodjs.com/t/redwood-v8-0-0-upgrade-guide/7250)，即将推出后台任务功能。
+- 📦 [Vercel AI SDK 3.3——useChat()支持文件附件，useObject()实现结构化数据流](https://vercel.com/blog/vercel-ai-sdk-3-3)：基于Zod模式的结构化数据让LLM更易集成。注：[OpenAI也官宣了Zod结构化输出支持](https://openai.com/index/introducing-structured-outputs-in-the-api/)！
+- 📦 [Astro 4.13——稳定版请求重写、内容集合JSON模式](https://astro.build/blog/astro-4130/)
+- 📦 [react-three/xr 6.1——WebXR锚点API、命中测试API、DOM覆盖API及实验性模拟器](https://github.com/pmndrs/xr/releases/tag/v6.1.0)
+- 📦 [Tldraw sync——可自托管的白板绘图实时协作引擎](https://tldraw.substack.com/p/announcing-tldraw-sync)
+- 🎥 [Theo：服务端岛屿架构真香](https://www.youtube.com/watch?v=uBxehYwQox4)
+- 🎥 [Jack Herrington：NextJS功能开关简易实践](https://www.youtube.com/watch?v=M1Rj1xSm3SM)
+- 🎥 [UI工程学：React为何是声明式的？](https://www.youtube.com/watch?v=TVmRuP0_RGM)
+- 🎥 [Expo：React开发者必知的React Native要点](https://www.youtube.com/live/iB7sc-fzpWw)
+- 🎙️ [Syntax播客：jQuery之父John Resig谈为何选择React+TypeScript](https://syntax.fm/show/800/why-the-jquery-creator-uses-react-and-typescript-john-resig?utm_source=thisweekinreact)
+- 🎙️ [本月React动态（2024年7月）——JS生态、React与HTML现状](https://podcasters.spotify.com/pod/show/reactiflux/episodes/TMiR-2024-07-State-of-JS--React--HTML-e2mplrc)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![相约React Universe Conf 2024](/emails/issues/195/callstack.jpg)](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter)
+
+**[相约React Universe Conf 2024](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter)**
+
+[React Universe Conf](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter) 是欧洲中心为期两天的学习、社交与创新盛会。前身为React Native EU，[React Universe Conf](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter) 现已成为React和React Native爱好者的终极聚会。今年有哪些亮点？
+
+- **豪华阵容**：Dan Abramov、Evan Bacon、Kent C. Dodds、Delba de Oliveira、Marc Rousavy等众多顶尖演讲者。
+- **热门议题**：新架构、React服务器组件、静态Hermes以及树外平台开发。
+- **实战经验**：关于React Native跨平台应用开发的实用洞见。
+
+使用优惠码 **TWIR** 可享门票**9折**。立即[点击此处](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter)预订席位，弗罗茨瓦夫见！
+
+---
+
+## 📱 React-Native {#react-native}
+
+本版块由[Benedikt](https://twitter.com/bndkt)主笔。
+
+- 💸 [React Native 大师课 - 掌握 React Native 和 Expo 的唯一课程](https://notjust.dev/react-native-mastery?utm_source=twir&utm_medium=email)
+- 🐦 [为什么 Hermes 团队更青睐 JSI NativeState 而非 HostObject](https://x.com/tmikov/status/1820266381545468200)
+- 🐦 [实验性摇树优化支持已登陆 Expo](https://x.com/baconbrix/status/1816488585409052925)：实验性功能已在 SDK 52（Canary 版本）中提供
+- 🐦 [React Native 即将迎来样式革新 - 线性渐变、盒阴影、CSS 滤镜、百分比弹性间隔](https://x.com/Baconbrix/status/1821039004671741984)
+- 👀 [React Native PR - 通过实验性 backgroundImage 样式属性实现线性渐变](https://github.com/facebook/react-native/pull/45434)
+- 📜 [从 JS 到 Fire OS - 为亚马逊设备开发 React Native 应用](https://dev.to/amazonappdev/get-started-with-react-native-for-amazon-fire-os-51j8)：提醒开发者 React Native 可基于 Android 的 Fire OS 为 Fire 平板和 Fire TV 构建应用。
+- 📜 [React Native 中的电视导航：TVFocusGuideView 使用指南](https://dev.to/amazonappdev/tv-navigation-in-react-native-a-guide-to-using-tvfocusguideview-302i)：我对 React Native 超越手机和平板的潜力感到兴奋，这类针对 tvOS 和 Android TV 平台特性的指南尤为珍贵。
+- 📜 [使用 Xcode Quick Look 进行 UI 调试](https://www.oskarkwasniewski.dev/blog/xcode-quick-look-debugging)：如果你经常使用 Xcode（虽然我不怎么用 😅），这个技巧会很实用。
+- 📜 [我的 Chain React 2024 参会见闻（附会议参与建议）](https://dev.to/amazonappdev/my-visit-to-chain-react-2024-nfj)：警告——如果你没去成 Chain React，这篇文章会让你产生严重错失恐惧症，但我仍然读得津津有味。
+- 📦 [React Native 0.75.0-rc.7 - 将 CLI 更新至 14.0](https://github.com/facebook/react-native/releases/tag/v0.75.0-rc.7)
+- 📦 [React Native 0.74.5 - 小规模修复](https://github.com/facebook/react-native/releases/tag/v0.74.5)
+- 📦 [react-native-gesture-handler 2.18.0 - 新增独立组件 ReanimatedSwipeable，多项改进并支持 RN 0.75](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.18.0)
+- 📦 [react-native-svg 15.5.0 - 小版本更新：新增滤镜支持，在 FilterImage 组件中引入 CSS 滤镜 API 及大量错误修复](https://github.com/software-mansion/react-native-svg/releases/tag/v15.5.0)
+- 📦 [react-native-reanimated 3.15.0 - 新增 ReducedMotionConfig、EntryExitTransition、CurvedTransition，支持 RN 0.75 及大量修复](https://github.com/software-mansion/react-native-reanimated/releases/tag/3.15.0)
+- 🎥 [Simon Grimm - React Native 服务端定义渲染](https://www.youtube.com/watch?v=-6Mrar0r3kg)
+- 🎥 [Reactiiive - Jotai 和 MMKV 背后的秘密（React Native）](https://www.youtube.com/watch?v=-AR2PN38ovo)
+- 🎥 [notJust.dev - 用 React Native 和 Reanimated 构建 iOS 18 照片应用](https://www.youtube.com/watch?v=pZHRFNpYkAY)
+- 🎙️ [PodRocket - 与 Evan Bacon 探讨在 Expo Router 中使用 RSC](https://podrocket.logrocket.com/using-rscs-expo-router-evan-bacon)
+
+---
+
+## 🔀 其他 {#other}
+
+- 🐦 [TC39第103次会议 - `RegExp.escape`进入阶段3，并发控制+无序异步迭代器辅助功能进入阶段1](https://x.com/robpalmer2/status/1819051033215049742)
+- 📜 [谷歌如何处理JavaScript在索引过程中的作用](https://vercel.com/blog/how-google-handles-javascript-throughout-the-indexing-process)
+- 📜 [为什么Unknown类型很有用](https://michaeluloth.com/programming-types-unknown-why-useful/)
+- 📜 [关于TypeScript的另一种思考方式](https://www.rob.directory/blog/a-different-way-to-think-about-typescript)
+- 📜 [如果所有尺寸都使用Container Units会怎样？](https://frontendmasters.com/blog/what-if-you-used-container-units-for-everything/)
+- 📜 [Effect最佳实践指南](https://ethanniser.dev/blog/effect-best-practices/)
+- 📦 [Node v22.6.0发布 - 实验性支持TypeScript](https://nodejs.org/en/blog/release/v22.6.0)
+- 📦 [Rslib - 基于Rsbuild的库构建工具](https://github.com/web-infra-dev/rslib)
+- 📦 [Nx 19.5 - 新增Stackblitz支持、Bun集成、Pnpm 9适配、Vite增量构建、Gradle测试原子化](https://nx.dev/blog/nx-19-5-adds-stackblitz-new-features-and-more)
+
+---
+
+## 🤭 轻松一刻 {#fun}
+
+[![alt](/emails/issues/195/meme.jpg)](https://x.com/ryanflorence/status/1820284287356383321)
+
+[![alt](/emails/issues/195/meme2.jpg)](https://x.com/jaredpalmer/status/1819165228052996209)
+
+下期见！👋

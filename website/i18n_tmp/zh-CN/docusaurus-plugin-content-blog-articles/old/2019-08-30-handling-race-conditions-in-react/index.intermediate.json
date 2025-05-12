@@ -1,0 +1,35 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/articles/old/2019-08-30-handling-race-conditions-in-react/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: handling-api-request-race-conditions-in-react\ntitle: Handling API request race conditions in React\ndescription: Handling API request race conditions in React... or how to avoid rendering the wrong data\nauthors: [slorber]\ntwitterThreadUrl: \"https://slo.im/thread\"\nimage: ./images/hero.png\n---",
+      "sourceMdx": "---\nslug: handling-api-request-race-conditions-in-react\ntitle: Handling API request race conditions in React\ndescription: Handling API request race conditions in React... or how to avoid rendering the wrong data\nauthors: [slorber]\ntwitterThreadUrl: \"https://slo.im/thread\"\nimage: ./images/hero.png\n---"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "Many blog articles talk about loading api/async data in React apps, with `componentDidMount`, `useEffect`, Redux, Apollo...",
+      "sourceMdx": "Many blog articles talk about loading api/async data in React apps, with `componentDidMount`, `useEffect`, Redux, Apollo..."
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "Yet, all those articles are **generally optimistic**, and never mention something important to consider: race conditions could happen, and your UI may end up in an **inconsistent state**.",
+      "sourceMdx": "Yet, all those articles are **generally optimistic**, and never mention something important to consider: race conditions could happen, and your UI may end up in an **inconsistent state**."
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "[![hero](./images/hero.png)](https://sebastienlorber.com/handling-api-request-race-conditions-in-react)",
+      "sourceMdx": "[![hero](./images/hero.png)](https://sebastienlorber.com/handling-api-request-race-conditions-in-react)"
+    },
+    {
+      "id": "86b54d44",
+      "translatable": true,
+      "content": "🔗 [**Read More**](https://sebastienlorber.com/handling-api-request-race-conditions-in-react)",
+      "sourceMdx": "🔗 [**Read More**](https://sebastienlorber.com/handling-api-request-race-conditions-in-react)"
+    }
+  ]
+}

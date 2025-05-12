@@ -1,0 +1,185 @@
+---
+slug: /186
+title: "This Week In React #186: React Conf, Compiler, Universal RSC, React-Router, Google Maps, Million Lint, Pigment, Restyle, Storybook, SSRF, Inline Styles, New Arch, Expo, Bootsplash, Skia, RN-Video..."
+authors: [slorber, bndkt]
+date: 05-22-2024
+---
+
+大家好！
+
+这周我们忙得不可开交😄。React Conf果然没让人失望！虽然我们没到场，但[我们的宣传单页去了](https://x.com/sebastienlorber/status/1790771155734839313)😇。不仅有重磅会议公告（尤其是编译器！），社区还涌现了大量优质文章，以至于我不得不把部分内容推迟到下周发布。
+
+不过节奏可能缓不下来，因为明天就有两场重要会议：
+
+- Vercel Ship大会，预计将[发布Next.js 15](https://x.com/feedthejim/status/1792969159321723244)，包含更温和的缓存策略、开发环境集成Turborepo、编译器支持等特性
+- App.js Conf大会，同样有望带来React Native的重磅更新
+
+祝阅读愉快，我们下周见！
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化版式 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![React-admin：B2B应用开源框架](/emails/issues/182/marmelab.jpg)](https://marmelab.com/react-admin/)
+
+**[React-admin：B2B应用开源框架](https://marmelab.com/react-admin/)**
+
+使用这个备受赞誉的前端框架🚀加速单页应用开发。基于TanStack Query、react-hook-form、react-router和Material UI构建，React-admin能帮助你在REST或GraphQL API之上打造丰富的用户体验。
+
+除CRUD页面外，React-admin还提供诸多高级功能满足需求。完整工具包包含日历**📅**、可定制看板、内容版本控制**🔄**、嵌套表单等特性。通过headless hooks和可主题化组件，还能添加实时更新🎥、树形结构**🌲**及详细审计日志。
+
+准备好提升开发水平了吗？让React-admin成为你的首选框架，加入每日超50万用户的行列。[立即试用](https://marmelab.com/react-admin/)！
+
+---
+
+## ⚛️ React动态 {#react}
+
+[![React Conf 2024回顾](/emails/issues/186/recap.jpg)](https://react.dev/blog/2024/05/22/react-conf-2024-recap)
+
+**[React Conf 2024回顾](https://react.dev/blog/2024/05/22/react-conf-2024-recap)**
+
+React团队发布了会议回顾博文，正好赶上本期简报🤗。文章涵盖了所有演讲和主要公告。虽然我还没看完所有内容，但目前的亮点包括：
+
+- React 19已进入RC阶段，稳定版预计数周内发布
+- React编译器正式推出且功能强大
+- 通用React服务端组件将登陆Expo，演示效果惊艳
+- Remix与React Router即将合并，Remix v3最终将成为React Router v7
+- 实时React服务端组件演示使RSC具备状态能力，开启了类似Phoenix LiveView的新可能
+- React现在能协调HTML标签，这一特性被严重低估
+
+这些只是我个人最关注的内容。我们已在往期简报中覆盖了大部分React 19特性，而[React 19 beta博文](https://react.dev/blog/2024/04/25/react-19)仍是了解下个主要版本所有新功能的权威参考。
+
+---
+
+[![React编译器](/emails/issues/186/compiler.jpg)](https://react.dev/learn/react-compiler)
+
+**[React编译器正式发布](https://react.dev/learn/react-compiler)**
+
+编译器确实值得单独开辟一个章节。简而言之：它能自动优化现有代码，并通过常规JS值实现细粒度响应式。试试[React编译器演练场](https://playground.react.dev/#N4Igzg9grgTgxgUxALhAgHgBwjALgAgBMEAzAQygBsCSoA7OXASwjvwFkBPAQU0wAoAlPmAAdNvhgJcsNgB5CTAG4A+ABIJKlCPgDqOSoTkB6RaoDc4gL7iQVoA)，观察其运作机制及代码优化效果。
+
+该编译器已在Instagram网页版成功部署并取得显著成效（交互速度提升2.5倍）。它通过静态分析逐文件处理代码，对可安全优化的部分进行记忆化处理，其优化粒度甚至超越人工操作。只要遵循React规则，就无需重写代码。配套的ESLint插件会提示编译器检测到的潜在问题代码。需要注意的是，它不兼容MobX等基于代理的解决方案。通过配置选项和渐进式启用指令，可在代码库中逐步试用编译器。
+
+编译器最初采用TypeScript编写并附带Babel绑定，但其逻辑层已解耦设计。SWC支持即将推出，后续可能推出Rust移植版本（团队已通过概念验证确保可行性）。
+
+值得强调的是，React团队始终将编译器纳入长期规划（参见[Andrew Clark的推文](https://x.com/acdlite/status/1792710362745405911)）。这仅是开端，他们现已搭建起支撑更强大功能的基础设施。可以预见，未来我们将不再需要依赖数组，编译器还能优化细粒度的context消费（参见[相关推文](https://x.com/TkDodo/status/1741193371283026422)）。
+
+🔗 **延伸阅读资源：**
+
+- 📜 [React 18环境下的编译器](https://jherr2020.medium.com/react-compiler-with-react-18-1e39f60ae71a)：编译器并非React 19专属功能。Jack演示了通过简易编译器运行时hook在React 18下的实现方案。React编译器团队的Lauren已确认该方案可行，并提供了[官方polyfill](https://github.com/reactwg/react-compiler/discussions/6)供临时使用（建议升级至React 19）。
+- 🎥 [Jack Herrington - React编译器深度解析（超越React Conf 2024）](https://www.youtube.com/watch?v=PYHBHK37xlE)
+- 🎥 [Theo - React的永久变革](https://www.youtube.com/watch?v=DhfeXfF_W4w)
+- 🧵 [Theo - 澄清React编译器常见误解](https://x.com/t3dotgg/status/1791177359896555600)
+
+---
+
+[![Remix与React Router合并](/emails/issues/186/remix.jpg)](https://remix.run/blog/merging-remix-and-react-router)
+
+**[Remix与React Router合并](https://remix.run/blog/merging-remix-and-react-router)**
+
+这是React Conf的另一重磅公告。Remix与React Router已高度融合（得益于Vite插件和SPA模式），继续维持两个独立项目已无必要。技术层面，团队计划在保持向后兼容的React Router v7中集成可选Vite插件（替代原定的Remix v3），同时新增RSC、server-actions、静态预渲染等特性。另见后续文章[通向React 19的渐进之路：React Conf后续](https://remix.run/blog/incremental-path-to-react-19)。
+
+---
+
+- 💸 [React 对话式 AI 与上下文感知 LLM 聊天](https://nlux.dev/?utm_source=twir-m24-2)
+- 📜 [React 19 让你编写"不可能"的组件](https://www.mux.com/blog/react-19-server-components-and-actions)：来自早期采用 RSC 的 Mux 团队的深度好文，指出我们仅仅触及了服务端组件新模式的冰山一角。其中分页示例尤为精彩，甚至暗示像 React Query 这样的库可能逐渐失去用武之地。
+- 📜 [Pigment CSS 发布：下一代 CSS-in-JS 方案](https://mui.com/blog/introducing-pigment-css/)：MUI 团队详解其基于 WyW-in-JS 工具链自研的 CSS-in-JS 方案，该方案将支撑 MUI v6 并天然兼容 RSC，对现有 Emotion/StyledComponent 用户可实现平滑迁移。
+- 📜 [挖掘 NextJS 应用中的 SSRF 漏洞](https://www.assetnote.io/resources/research/digging-for-ssrf-in-nextjs-apps)：安全研究人员披露 Next.js 图片组件和服务端动作实现中的盲服务端请求伪造漏洞，相关漏洞已在 Next.js 14.1.1（2024年1月）版本修复。
+- 📜 [优先使用多重组合](https://kyleshevlin.com/prefer-multiple-compositions/)：当组件需要处理有限种明确场景时，采用清晰的分支条件语句比在 JSX 中分散条件判断更利于维护。
+- 📜 [名词-形容词命名法更优](https://kyleshevlin.com/prefer-noun-adjective-naming/)：相比"PrimaryButton"，更推荐使用"ButtonPrimary"命名组件，这样相关组件会在 IDE 中按字母顺序相邻排列，便于查找。
+- 📜 [强化版行内样式](https://weser.io/blog/inline-styles-on-steroids)：随着 CSS Hooks 等项目的出现，以及网页平台即将支持行内样式嵌套，行内样式即将强势回归。Fela 作者基于 CSS Hooks 复现了优秀 CSS-in-JS 库的开发体验。
+- 📜 [量化 Styled Components 对服务端响应时间的影响](https://blog.levineandrew.com/quantifying-the-impact-of-styled-components-on-server-response-times)：使用 SpeedScope（比 Chrome DevTools 更强大）分析 CPU 追踪数据，发现样式注入占用了 SSR 47% 的时间。
+- 📜 [Storybook - 用于 Playwright 组件测试的可移植故事](https://storybook.js.org/blog/portable-stories-for-playwright-ct/)：虽然 Storybook 提供了基于 Playwright 测试运行器的 play() 函数，但开发者仍可直接使用 Playwright 组件测试并复用现有故事。
+- 📜 [使用 SST 将 Remix 部署到 Cloudflare](https://ruanmartinelli.com/blog/remix-sst-cloudflare)：相比 Vercel/Netlify 等开发体验平台，使用 SST 部署应用到主流云服务是不错的替代方案，其 Cloudflare 部署流程异常简单。
+- 📦 [Restyle](https://reactstyle.vercel.app/)：兼容 RSC 的新 CSS-in-JS 库，利用 React 19 全新的样式提升与去重特性。这些 React 原语在设计时就考虑了 CSS-in-JS 库的需求，该库也可用于 React 库的 npm 包 CSS 分发。
+- 📦 [React Google Maps 1.0 正式发布](https://mapsplatform.google.com/resources/blog/google-maps-platform-graduates-react-integration-library-to-1-0/)：由 OpenJS 基金会维护的官方 React 版 Google Maps 库结束测试期。
+- 📦 [Million Lint 1.0 候选版](https://million.dev/blog/lint-rc)：通过运行时分析自动发现并修复性能问题的 IDE 扩展，可与 React 编译器互补使用。
+- 📦 [Zustand 5.0 测试版发布 - 提供迁移指南，移除废弃特性并升级 React/TS 支持](https://github.com/pmndrs/zustand/blob/v5/docs/guides/migrating-to-v5.mdx)
+- 📦 [Storybook 8.1 - 标签过滤、类型安全模拟、beforeEach、可移植故事 API](https://github.com/storybookjs/storybook/releases/tag/v8.1.0)
+- 📦 [Storybook-Rsbuild - 基于 Rsbuild 的 Storybook 构建器](https://github.com/rspack-contrib/storybook-rsbuild)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![Next.js 身份验证教程（含RSC与Server Actions）](/emails/issues/186/AuthKitNextjs.jpg)](https://www.youtube.com/watch?v=aoRG1q_kVo8)
+
+**[Next.js 身份验证教程（含RSC与Server Actions）](https://www.youtube.com/watch?v=aoRG1q_kVo8)**
+
+WorkOS与Sam Selikoff的最新教程演示了如何轻松将AuthKit托管式登录框集成到Next.js应用：
+
+📚 使用AuthKit \<> Next.js [集成库](https://github.com/workos/authkit-nextjs)快速入门  
+🤖 配置环境变量、设置回调路由和中间件，实现signIn与signOut功能  
+⚙️ 通过getUser函数保护Next.js应用路由免受未授权访问
+
+AuthKit可与WorkOS用户管理系统配合使用，支持MFA、身份关联、邮箱验证、用户模拟等功能。
+
+最重要的是，**前100万月活用户免费使用 🚀**
+
+---
+
+## 📱 React-Native {#react-native}
+
+本版块由[Benedikt](https://twitter.com/bndkt)撰写。
+
+![](/emails/issues/186/ursc.jpg)
+
+React Conf已圆满落幕，希望您有机会观看YouTube上的精彩演讲录像。我个人最大的感悟是本次会议中React Native内容的比重之高！由于RN的开发完全开源且依赖社区协作，虽然没有"重大公告"类惊喜，但完美呈现了RN的现状与未来路线图。最令人震撼的是Evan Bacon提出的"通用React服务端组件"愿景，他通过一个堪称杀手级的演示进行展示，强烈推荐您[亲自观看](https://www.youtube.com/watch?v=T8TZQ6k4SLE&t=20765s)。以下是我的核心总结：
+
+- RN蓬勃发展：周下载量突破200万，2024年已发布30个版本
+- 新架构进入Beta阶段
+- 官方推荐所有新项目使用Expo
+- 新版reactnative.dev官网已上线
+- React Conf应用开源
+- Expo提出的通用RSC愿景
+
+---
+
+- 💸 [PowerSync - Supabase 与 SQLite 同步层：跟随我们的分步视频集成指南](https://docs.powersync.com/integration-guides/supabase-+-powersync?utm_source=newsletter&utm_medium=sponsorship&utm_campaign=this-week-in-react)
+- 👀 [React Native 新首页上线](https://reactnative.dev/)
+- 🐦 [React Native 与 Expo 入门新资源](https://x.com/jonsamp/status/1791164393893609705)：新首页、新版「入门指南」文档、新版 Expo 开发环境配置文档
+- 🐦 [关于苹果对 iOS 应用中服务端驱动 UI 立场的趣味讨论](https://x.com/sregg/status/1791784335999160783)：Universal RSC 会面临苹果应用商店审核挑战吗？
+- 🐦 [减小 Android 包体积的潜在方法](https://x.com/mironcatalin/status/1792485000559935571)：两项设置可显著缩减包体积，但一如既往需要权衡取舍
+- 🗓 [Chain React Conf](https://chainreactconf.com/?utm_source=thisweekinreact) - 7月17-19日·波特兰。美国 React Native 大会回归，含实践研讨会！使用优惠码「TWIR」享门票85折
+- 📜 [跨平台框架的认知误区澄清](https://www.bam.tech/article/debunk-ideas-on-cross-platform-framework)：性能、安全性、无障碍支持、稳定性、应用商店审核、原生功能——这些常被误认为跨平台应用的短板
+- 📜 [深度解析 react-native-video 6.0.0 稳定版——增强功能与横向对比](https://www.thewidlarzgroup.com/blog/breaking-down-react-native-video-6-0-0-stable-release-enhancements-and-comparisons)
+- 📜 [使用 React-Native-Skia 创建自定义字体](https://gitstashapply.medium.com/creating-custom-fonts-with-react-native-skia-4851d8b14ddd)
+- 📦 [Bootsplash v6 beta 发布——Expo 插件，配置更简](https://github.com/zoontek/react-native-bootsplash/pull/578)：React Conf 应用已将其用于启动屏！
+- 📦 [React Conf 应用开源](https://github.com/expo/react-conf-app)：已集成 React Compiler（[推文](https://x.com/kadikraman/status/1791155001882275989)）
+- 🎙️ [RNR 297 期 - 跨越 React Native v0.74 桥梁](https://reactnativeradio.com/episodes/rnr-297-jumping-over-the-react-native-v074-bridge)
+- 🎥 [为 Windows 超级充电你的 React Native 应用](https://www.youtube.com/watch?v=4sbAvwukSWM)：微软 Build 2024 大会 React Native 专场
+
+---
+
+## 🔀 其他领域 {#other}
+
+- 📜 [Web 新动向 - 12 项新晋 Baseline 功能](https://web.dev/blog/new-in-the-web-io2024)
+- 📜 [JavaScript 框架新特性（2024年5月）](https://developer.chrome.com/blog/frameworks-may-2024)
+- 📜 [使用 Enhance SSR 实现可移植的服务端渲染 Web 组件](https://begin.com/blog/posts/2024-05-03-portable-ssr-components)
+- 📜 [ECMAScript 2023 新特性：Symbol 作为 WeakMap 键](https://2ality.com/2024/05/proposal-symbols-as-weakmap-keys.html)
+- 📦 [SolidStart 1.0 发布——框架形态新范式](https://www.solidjs.com/blog/solid-start-the-shape-frameworks-to-come)
+- 📦 [Graphql-query - 基于 Rust 的速度提升 8.7 倍的 GraphQL 查询解析器](https://stellate.co/blog/graphql-query-parsing-8x-faster-with-rust)
+- 📦 [Node.js 22.2 发布](https://nodejs.org/en/blog/release/v22.2.0)
+
+---
+
+## 🤭 轻松一刻 {#fun}
+
+[![表情包](/emails/issues/186/meme.jpg)](https://x.com/rauchg/status/1791163745307328650)
+
+[![表情包](/emails/issues/186/meme2.jpg)](https://x.com/sebastienlorber/status/1790796662153117863)
+
+（虽然 React Compiler 那个梗图技术上不准确，但依然有趣😇 对不住编译器团队）
+
+下周见！👋

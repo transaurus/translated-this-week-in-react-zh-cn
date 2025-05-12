@@ -1,0 +1,287 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/211/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /211\ntitle: \"This Week In React #211: React Router, TanStack, Next.js, Vite, RSCs, Aria, Rslib, React-Scan, Screens, Edge-to-Edge, RN 0.77 RC, Legend List, Rapier, Testing Library, Bottom Tabs, Cali, Nitro, Solito, Radon, Wasm, Tailwind, TypeScript, Deno...\"\nauthors: [slorber]\ndate: 11-27-2024\n---",
+      "sourceMdx": "---\nslug: /211\ntitle: \"This Week In React #211: React Router, TanStack, Next.js, Vite, RSCs, Aria, Rslib, React-Scan, Screens, Edge-to-Edge, RN 0.77 RC, Legend List, Rapier, Testing Library, Bottom Tabs, Cali, Nitro, Solito, Radon, Wasm, Tailwind, TypeScript, Deno...\"\nauthors: [slorber]\ndate: 11-27-2024\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "It's another great week for React with exciting releases, notably React Router 7 and Vite 6. TanStack nearly steals the show!",
+      "sourceMdx": "It's another great week for React with exciting releases, notably React Router 7 and Vite 6. TanStack nearly steals the show!"
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "The React Native ecosystem is not left behind with 0.77 in RC, Legend List, Screens... and a quite exciting Wasm-based innovation.",
+      "sourceMdx": "The React Native ecosystem is not left behind with 0.77 in RC, Legend List, Screens... and a quite exciting Wasm-based innovation."
+    },
+    {
+      "id": "e883b2cc",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "6ac004a5",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "21c93b79",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "507b4652",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "63622bf0",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "98cfbd53",
+      "translatable": true,
+      "content": "[![AG Charts: The best React Charts in the world.](/emails/issues/205/agcharts.jpg)](https://www.ag-grid.com/charts?utm_source=thisweekinreact\\&utm_medium=newsletter\\&utm_campaign=2024-email-4)",
+      "sourceMdx": "[![AG Charts: The best React Charts in the world.](/emails/issues/205/agcharts.jpg)](https://www.ag-grid.com/charts?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=2024-email-4)"
+    },
+    {
+      "id": "ccc88b4c",
+      "translatable": true,
+      "content": "**[AG Charts: The best React Charts in the world.](https://www.ag-grid.com/charts?utm_source=thisweekinreact\\&utm_medium=newsletter\\&utm_campaign=2024-email-4)**",
+      "sourceMdx": "**[AG Charts: The best React Charts in the world.](https://www.ag-grid.com/charts?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=2024-email-4)**"
+    },
+    {
+      "id": "d9172fa4",
+      "translatable": true,
+      "content": "AG Charts is a canvas-based charting library from AG Grid. Initially built to power [AG Grids](https://www.ag-grid.com/react-table?utm_source=thisweekinreact\\&utm_medium=newsletter\\&utm_campaign=2024-email-4) Integrated Charts, AG Charts now has over **1 million** npm downloads/month:",
+      "sourceMdx": "AG Charts is a canvas-based charting library from AG Grid. Initially built to power [AG Grids](https://www.ag-grid.com/react-table?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=2024-email-4) Integrated Charts, AG Charts now has over **1 million** npm downloads/month:"
+    },
+    {
+      "id": "5da9e02b",
+      "translatable": true,
+      "content": "* 🆓 **Free:** Access a range of chart types, including **bar**, **line**, **scatter**, **area**, and more – completely **free**, forever.\n* 🚀 **Fast:** Using **batch drawing** and advanced change detection alongside the **offscreen canvas API**, AG Charts can easily render hundreds of thousands of data points out of the box\n* 📊 **Financial Charts:** Build interactive financial charts featuring advanced annotations with just 3 lines of code.\n* 🏢 **Enterprise Features:** Upgrade to Enterprise to unlock advanced capabilities such as animations, context menus, crosshairs and more. Try it for free, no trial license required.",
+      "sourceMdx": "- 🆓 **Free:** Access a range of chart types, including **bar**, **line**, **scatter**, **area**, and more – completely **free**, forever.\n- 🚀 **Fast:** Using **batch drawing** and advanced change detection alongside the **offscreen canvas API**, AG Charts can easily render hundreds of thousands of data points out of the box\n- 📊 **Financial Charts:** Build interactive financial charts featuring advanced annotations with just 3 lines of code.\n- 🏢 **Enterprise Features:** Upgrade to Enterprise to unlock advanced capabilities such as animations, context menus, crosshairs and more. Try it for free, no trial license required."
+    },
+    {
+      "id": "bdc231b1",
+      "translatable": true,
+      "content": "Learn More: [www.ag-grid.com/charts](https://www.ag-grid.com/charts?utm_source=thisweekinreact\\&utm_medium=newsletter\\&utm_campaign=2024-email-4)",
+      "sourceMdx": "Learn More: [www.ag-grid.com/charts](https://www.ag-grid.com/charts?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=2024-email-4)"
+    },
+    {
+      "id": "4fdcb1ee",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "62a6890b",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "3cfe6286",
+      "translatable": true,
+      "content": "[![React Router 7.0](/emails/issues/211/reactrouter.jpg)](https://remix.run/blog/react-router-v7)",
+      "sourceMdx": "[![React Router 7.0](/emails/issues/211/reactrouter.jpg)](https://remix.run/blog/react-router-v7)"
+    },
+    {
+      "id": "1042b50d",
+      "translatable": true,
+      "content": "**[React Router 7.0](https://remix.run/blog/react-router-v7)**",
+      "sourceMdx": "**[React Router 7.0](https://remix.run/blog/react-router-v7)**"
+    },
+    {
+      "id": "aa1e7006",
+      "translatable": true,
+      "content": "As planned, Remix features have been brought to React Router, and the full-stack framework features are now powered by a Vite plugin. There are also new features related to routing, type safety, and route pre-rendering. Remix v2 users are invited to upgrade to React Router v7: it should be easy after turning on the future flags. Now that this great milestone has been completed and the team can fully focus on the next wave of innovation, we can't wait to hear the next Michael Jackson Remix.",
+      "sourceMdx": "As planned, Remix features have been brought to React Router, and the full-stack framework features are now powered by a Vite plugin. There are also new features related to routing, type safety, and route pre-rendering. Remix v2 users are invited to upgrade to React Router v7: it should be easy after turning on the future flags. Now that this great milestone has been completed and the team can fully focus on the next wave of innovation, we can't wait to hear the next Michael Jackson Remix."
+    },
+    {
+      "id": "94f98fb8",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "6773b78b",
+      "translatable": true,
+      "content": "* 💸 [PostHog - How we built mobile replay (and why it took so long)](https://posthog.com/blog/mobile-session-replay?utm_source=twir\\&utm_campaign=twir)\n* 👀 [React Core PR - Add moveBefore Experiment](https://github.com/facebook/react/pull/31596): The React team is looking to support the upcoming DOM API `Node.moveBefore()` in the reconciler after [Chromium announced its intent to ship it](https://bsky.app/profile/did:plc:hxmev3uady7j4litwnr5fzbg/post/3lbcmvgkfw227). Unlike `insertBefore()`, this new API can preserve the state of the moved DOM elements such as iframes and video players.\n* 👀 [Next.js PR - CSS inlining](https://github.com/vercel/next.js/pull/72195): New `experimental.inlineCss` option might improve your site’s First Contentful Paint score, in particular for sites using atomic CSS like Tailwind.\n* 📜 [The AutoScrollList Component](https://www.nikhilsnayak.dev/blogs/the-auto-scroll-list-component): This interactive article implementing a chat UI shows how `useRef` + `useEffect` can be simplified by a simple `ref` callback. Also shares a little-known but important lesson: [“Don't use memoization for correctness, use it only for perf!”](https://bsky.app/profile/gsathya.bsky.social/post/3lbk5putwkc2d)\n* 📜 [Why TanStack Start is Ditching Adapters](https://tanstack.com/blog/why-tanstack-start-is-ditching-adapters): TanStack Start is coming, and Tanner can fully focus on its innovative features. Instead of creating a long list of host-specific adapters, he saved time and delegated this annoying task to Vinxi, Nitro, and H3.\n* 📜 [Loading Data with TanStack Router](https://frontendmasters.com/blog/tanstack-router-data-loading-1/): A 2-part series using TanStack Router with/without React-Query. Both can be used together. Prefetching queries in loaders can avoid waterfalls.\n* 📜 [Thoughts on What RSC Means for SPAs](https://blog.axlight.com/posts/thoughts-on-what-rsc-means-for-spas/): Daishi outlines the possible benefits of RSCs for regular SPAs. This speaks directly to my next project: integrate RSCs into Docusaurus, a React static site generator.\n* 📜 [Existential React questions and a perfect Modal Dialog](https://www.developerway.com/posts/hard-react-questions-and-modal-dialog): Great article starting from a simple dialog component, incrementally adding more requirements until reaching the perfect abstraction.\n* 📜 [The anatomy of a React Island](https://swizec.com/blog/the-anatomy-of-a-react-island/): A pragmatic approach to incrementally adopt React in existing codebases.\n* 📜 [The `use cache` Directive Deep Dive in Next.js](https://www.nextjscourse.dev/courses/nextjs-course/use-cache-deep-dive): A well-presented article about the new Next.js 15 features, including an interactive demo.\n* 📜 [Feature-based React Architecture](https://www.robinwieruch.de/react-feature-architecture/): Good component composition patterns can help decouple components by feature without introducing request waterfalls.\n* 📜 [Astro Patterns - React Love](https://astropatterns.dev/p/react-love/intro-react): 2 interactive examples using React Context with Astro.\n* 📜 [Currency handling in React](https://www.jacobparis.com/content/currency-handling)\n* 📦 [Vite 6.0](https://vite.dev/blog/announcing-vite6.html): An important release for React framework authors looking to support multiple module graphs (client, SSR, RSC) through the new Environment API.\n* 📦 [Ariakit 0.4.14 - Combobox / Select performance improvements](https://newsletter.ariakit.org/p/performance-tailwind-v4-and-more): Apparently, using too many `useSyncExternalStore` hooks (in list items) can cause overhead, and “merging” them into a single one improved performance.\n* 📦 [React Aria - November 20 releases - Disclosure, ToggleButtonGroup, Menu improvements](https://react-spectrum.adobe.com/releases/2024-11-20.html)\n* 📦 [Preact 10.25 - Stricter element types, improve reconciliation for unkeyed elements](https://github.com/preactjs/preact/releases/tag/10.25.0)\n* 📦 [Rslib 0.1 – Intuitive library development tool, including support for React libs](https://lib.rsbuild.dev/guide/solution/react)\n* 📦 [Meteor.js 3.1 - Node 22, Express 5, MongoDB driver 6, core and DX improvements](https://dev.to/meteor/meteorjs-31-a-new-dawn-for-full-stack-javascript-development-4a13)\n* 🎥 [Alem Tuzlak - React Router v7 Is Here - Should You Upgrade Now?](https://www.youtube.com/watch?v=s8H5-CZOlm0)\n* 🎥 [Dev Leonardo - TanStack Start: A Full-Stack React Framework but Client-First](https://www.youtube.com/watch?v=PUf8DzCvrdc)\n* 🎥 [Theo - JavaScript runs on literally everything now](https://www.youtube.com/watch?v=tQ6fB7WClgw)\n* 🎙️ [Syntax 850 - Manage State in JavaScript Like a Pro!](https://syntax.fm/show/850/manage-state-in-javascript-like-a-pro)",
+      "sourceMdx": "- 💸 [PostHog - How we built mobile replay (and why it took so long)](https://posthog.com/blog/mobile-session-replay?utm_source=twir&utm_campaign=twir)\n- 👀 [React Core PR \\- Add moveBefore Experiment](https://github.com/facebook/react/pull/31596): The React team is looking to support the upcoming DOM API `Node.moveBefore()` in the reconciler after [Chromium announced its intent to ship it](https://bsky.app/profile/did:plc:hxmev3uady7j4litwnr5fzbg/post/3lbcmvgkfw227). Unlike `insertBefore()`, this new API can preserve the state of the moved DOM elements such as iframes and video players.\n- 👀 [Next.js PR \\- CSS inlining](https://github.com/vercel/next.js/pull/72195): New `experimental.inlineCss` option might improve your site’s First Contentful Paint score, in particular for sites using atomic CSS like Tailwind.\n- 📜 [The AutoScrollList Component](https://www.nikhilsnayak.dev/blogs/the-auto-scroll-list-component): This interactive article implementing a chat UI shows how `useRef` \\+ `useEffect` can be simplified by a simple `ref` callback. Also shares a little-known but important lesson: [“Don't use memoization for correctness, use it only for perf\\!”](https://bsky.app/profile/gsathya.bsky.social/post/3lbk5putwkc2d)\n- 📜 [Why TanStack Start is Ditching Adapters](https://tanstack.com/blog/why-tanstack-start-is-ditching-adapters): TanStack Start is coming, and Tanner can fully focus on its innovative features. Instead of creating a long list of host-specific adapters, he saved time and delegated this annoying task to Vinxi, Nitro, and H3.\n- 📜 [Loading Data with TanStack Router](https://frontendmasters.com/blog/tanstack-router-data-loading-1/): A 2-part series using TanStack Router with/without React-Query. Both can be used together. Prefetching queries in loaders can avoid waterfalls.\n- 📜 [Thoughts on What RSC Means for SPAs](https://blog.axlight.com/posts/thoughts-on-what-rsc-means-for-spas/): Daishi outlines the possible benefits of RSCs for regular SPAs. This speaks directly to my next project: integrate RSCs into Docusaurus, a React static site generator.\n- 📜 [Existential React questions and a perfect Modal Dialog](https://www.developerway.com/posts/hard-react-questions-and-modal-dialog): Great article starting from a simple dialog component, incrementally adding more requirements until reaching the perfect abstraction.\n- 📜 [The anatomy of a React Island](https://swizec.com/blog/the-anatomy-of-a-react-island/): A pragmatic approach to incrementally adopt React in existing codebases.\n- 📜 [The `use cache` Directive Deep Dive in Next.js](https://www.nextjscourse.dev/courses/nextjs-course/use-cache-deep-dive): A well-presented article about the new Next.js 15 features, including an interactive demo.\n- 📜 [Feature-based React Architecture](https://www.robinwieruch.de/react-feature-architecture/): Good component composition patterns can help decouple components by feature without introducing request waterfalls.\n- 📜 [Astro Patterns \\- React Love](https://astropatterns.dev/p/react-love/intro-react): 2 interactive examples using React Context with Astro.\n- 📜 [Currency handling in React](https://www.jacobparis.com/content/currency-handling)\n- 📦 [Vite 6.0](https://vite.dev/blog/announcing-vite6.html): An important release for React framework authors looking to support multiple module graphs (client, SSR, RSC) through the new Environment API.\n- 📦 [Ariakit 0.4.14 \\- Combobox / Select performance improvements](https://newsletter.ariakit.org/p/performance-tailwind-v4-and-more): Apparently, using too many `useSyncExternalStore` hooks (in list items) can cause overhead, and “merging” them into a single one improved performance.\n- 📦 [React Aria \\- November 20 releases \\- Disclosure, ToggleButtonGroup, Menu improvements](https://react-spectrum.adobe.com/releases/2024-11-20.html)\n- 📦 [Preact 10.25 \\- Stricter element types, improve reconciliation for unkeyed elements](https://github.com/preactjs/preact/releases/tag/10.25.0)\n- 📦 [Rslib 0.1 – Intuitive library development tool, including support for React libs](https://lib.rsbuild.dev/guide/solution/react)\n- 📦 [Meteor.js 3.1 \\- Node 22, Express 5, MongoDB driver 6, core and DX improvements](https://dev.to/meteor/meteorjs-31-a-new-dawn-for-full-stack-javascript-development-4a13)\n- 🎥 [Alem Tuzlak \\- React Router v7 Is Here \\- Should You Upgrade Now?](https://www.youtube.com/watch?v=s8H5-CZOlm0)\n- 🎥 [Dev Leonardo \\- TanStack Start: A Full-Stack React Framework but Client-First](https://www.youtube.com/watch?v=PUf8DzCvrdc)\n- 🎥 [Theo \\- JavaScript runs on literally everything now](https://www.youtube.com/watch?v=tQ6fB7WClgw)\n- 🎙️ [Syntax 850 \\- Manage State in JavaScript Like a Pro\\!](https://syntax.fm/show/850/manage-state-in-javascript-like-a-pro)"
+    },
+    {
+      "id": "32db7046",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed placement=\"middle\" />",
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+    },
+    {
+      "id": "01868def",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "93028a4e",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "e8e162a9",
+      "translatable": true,
+      "content": "[![Unleash Document Superpowers in Your React Apps!](/emails/issues/209/nutrient.jpg)](https://www.nutrient.io/sdk/web)",
+      "sourceMdx": "[![Unleash Document Superpowers in Your React Apps!](/emails/issues/209/nutrient.jpg)](https://www.nutrient.io/sdk/web)"
+    },
+    {
+      "id": "463ed165",
+      "translatable": true,
+      "content": "**[Unleash Document Superpowers in Your React Apps!](https://www.nutrient.io/sdk/web)**",
+      "sourceMdx": "**[Unleash Document Superpowers in Your React Apps!](https://www.nutrient.io/sdk/web)**"
+    },
+    {
+      "id": "a5c5772a",
+      "translatable": true,
+      "content": "Attention React enthusiasts: PSPDFKit is now **Nutrient**! 👋 We may have a new name, but our Web SDK is the same best in class choice you've come to rely on for viewing, annotating, and editing PDFs and other document types.",
+      "sourceMdx": "Attention React enthusiasts: PSPDFKit is now **Nutrient**! 👋 We may have a new name, but our Web SDK is the same best in class choice you've come to rely on for viewing, annotating, and editing PDFs and other document types."
+    },
+    {
+      "id": "5dbc17cf",
+      "translatable": true,
+      "content": "* 🏎️ Get started quickly with a free trial and extensive documentation\n* ⏱️ Save time developing by leveraging the slick built-in UI and **Baseline-UI**, our new design system\n* 🛠️ Leverage extensive APIs for processing and customization\n* 🆘 Make use of our support and solution engineering team to get help from domain experts",
+      "sourceMdx": "- 🏎️ Get started quickly with a free trial and extensive documentation\n- ⏱️ Save time developing by leveraging the slick built-in UI and **Baseline-UI**, our new design system\n- 🛠️ Leverage extensive APIs for processing and customization\n- 🆘 Make use of our support and solution engineering team to get help from domain experts"
+    },
+    {
+      "id": "0750bfa1",
+      "translatable": true,
+      "content": "We've got you covered on **all platforms** from mobile to backend.",
+      "sourceMdx": "We've got you covered on **all platforms** from mobile to backend."
+    },
+    {
+      "id": "86348f98",
+      "translatable": true,
+      "content": "Want to work on challenging problems and have **impact on hundreds of applications**? Check out our open positions such as [Senior Frontend Developer](https://www.nutrient.io/company/careers/web-frontend).",
+      "sourceMdx": "Want to work on challenging problems and have **impact on hundreds of applications**? Check out our open positions such as [Senior Frontend Developer](https://www.nutrient.io/company/careers/web-frontend)."
+    },
+    {
+      "id": "cb0bf89b",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "5baf88e2",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "eb51d107",
+      "translatable": true,
+      "content": "[![Introducing React Native Screens 4.0.0](/emails/issues/211/screens.jpg)](https://blog.swmansion.com/introducing-react-native-screens-4-0-0-1b833ff98a55)",
+      "sourceMdx": "[![Introducing React Native Screens 4.0.0](/emails/issues/211/screens.jpg)](https://blog.swmansion.com/introducing-react-native-screens-4-0-0-1b833ff98a55)"
+    },
+    {
+      "id": "1862c5fe",
+      "translatable": true,
+      "content": "**[Introducing React Native Screens 4.0.0](https://blog.swmansion.com/introducing-react-native-screens-4-0-0-1b833ff98a55)**",
+      "sourceMdx": "**[Introducing React Native Screens 4.0.0](https://blog.swmansion.com/introducing-react-native-screens-4-0-0-1b833ff98a55)**"
+    },
+    {
+      "id": "6ca4479f",
+      "translatable": true,
+      "content": "The library used by React Navigation and Expo Router was released a few weeks ago, and the promised release blog post is finally online, presenting the highlights visually through various videos:",
+      "sourceMdx": "The library used by React Navigation and Expo Router was released a few weeks ago, and the promised release blog post is finally online, presenting the highlights visually through various videos:"
+    },
+    {
+      "id": "936011bd",
+      "translatable": true,
+      "content": "* Sheets API: Android `formSheet` and iOS custom detents\n* Screen pre-loading for the native stack to improve perceived performance\n* Improved iOS animations",
+      "sourceMdx": "- Sheets API: Android `formSheet` and iOS custom detents\n- Screen pre-loading for the native stack to improve perceived performance\n- Improved iOS animations"
+    },
+    {
+      "id": "4fc5e34f",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "2270deb6",
+      "translatable": true,
+      "content": "* 💸 [Implementing Authentication and Authorization with Clerk and Expo](https://go.clerk.com/HueGwuo)\n* 👀 [React Scan PR - React Native support](https://github.com/aidenybai/react-scan/pull/23): The trending tool to detect re-renders should have React Native support by tomorrow.\n* 📜 [Edge-to-Edge display, now streamlined for Android](https://expo.dev/blog/edge-to-edge-display-now-streamlined-for-android): This immersive mode will be enforced by default starting Android 15+ and Mathieu is on a mission to migrate our ecosystem forward, in partnership with Expo.\n* 📜 [I learned React Native as a web developer, and I got everything wrong](https://fernandorojo.co/mistakes): Fernando's thoughts on the growing usa of native primitives.\n* 📜 [Upgrading to Expo SDK 52](https://expo.dev/blog/upgrading-to-expo-sdk-52)\n* 📜 [Environment variables in EAS: new changes to simplify setup](https://expo.dev/blog/environment-variables)\n* 🧑‍🎓 [React Native Mastery](https://www.notjust.dev/react-native-mastery): Vadim just launched his new project-based React Native course (paid).\n* 📦 [React Native 0.77.0-rc.0](https://github.com/facebook/react-native/releases/tag/v0.77.0-rc.0): The init template uses Swift instead of Objective-C. Improved CSS support (display contents, mixBlendMode). Ongoing work to clarify the native public API surface.\n* 📦 [Legend List - Faster drop-in replacement for FlatList](https://github.com/LegendApp/legend-list): A new signal-based list library is trending with great community feedback. Apparently, it’s also faster than FlashList.\n* 📦 [React Native Rapier](https://github.com/callstack/react-native-rapier): You may not need this Rust-based physics engine, but there’s an even more important story behind all this. It’s a playground for Callstack devs to compile back WASM code to native ([demo](https://x.com/rob_pasinski/status/1861077912713318781)), enabling efficient cross-platform usage of native languages like Rust.\n* 📦 [LiveStore - SQLite-based data layer for local-first apps](https://expo.dev/blog/local-first-application-development-with-livestore): Upcoming event-sourcing-based local-first lib with first-class Expo integration.\n* 📦 [React Native Testing Library releases](https://github.com/callstack/react-native-testing-library/releases): v12 adds support for RN 0.77 and Expo 52. v13 (beta) drops deprecated features, supports both React 18/19, and enables Concurrent rendering by default. v14 (alpha) replaces `react-test-renderer` in favor of a new [universal-test-renderer](https://github.com/mdjastrzebski/universal-test-renderer) dependency.\n* 📦 [Bottom Tabs 0.7 - React Navigation v7, `useBottomTabBarHeight`](https://github.com/okwasniewski/react-native-bottom-tabs/releases/tag/react-native-bottom-tabs%400.7.0)\n* 📦 [Cali - AI agent for building React Native apps](https://github.com/callstackincubator/cali)\n* 📦 [Nitro 0.17 - All about Promises](https://github.com/mrousavy/nitro/releases/tag/v0.17.0)\n* 📦 [Solito 4.3 - Support for React Navigtion 7](https://github.com/nandorojo/solito/releases/tag/v4.3.0)\n* 📦 [React Native Share 12.0 - Expo config plugin](https://github.com/react-native-share/react-native-share/releases/tag/v12.0.0)\n* 📦 [Radon IDE 0.24 beta - stability improvements, Expo 52, multi-touch gestures, screen recording](https://github.com/software-mansion/radon-ide/releases/tag/v0.0.24-beta)\n* 🎥 [Jack Herrington - React-Native Server Components! Change Your Native UI From Your Server!](https://www.youtube.com/watch?v=RW1SlwBx0hk)\n* 🎥 [Simon Grimm - The Future of React Native? (RSC)](https://www.youtube.com/watch?v=uLjqKLjE4UE)\n* 🎙️ [RNR 315 - What to do without App Center](https://www.reactnativeradio.com/episodes/rnr-315-what-to-do-without-app-center)",
+      "sourceMdx": "- 💸 [Implementing Authentication and Authorization with Clerk and Expo](https://go.clerk.com/HueGwuo)\n- 👀 [React Scan PR \\- React Native support](https://github.com/aidenybai/react-scan/pull/23): The trending tool to detect re-renders should have React Native support by tomorrow.\n- 📜 [Edge-to-Edge display, now streamlined for Android](https://expo.dev/blog/edge-to-edge-display-now-streamlined-for-android): This immersive mode will be enforced by default starting Android 15+ and Mathieu is on a mission to migrate our ecosystem forward, in partnership with Expo.\n- 📜 [I learned React Native as a web developer, and I got everything wrong](https://fernandorojo.co/mistakes): Fernando's thoughts on the growing usa of native primitives.\n- 📜 [Upgrading to Expo SDK 52](https://expo.dev/blog/upgrading-to-expo-sdk-52)\n- 📜 [Environment variables in EAS: new changes to simplify setup](https://expo.dev/blog/environment-variables)\n- 🧑‍🎓 [React Native Mastery](https://www.notjust.dev/react-native-mastery): Vadim just launched his new project-based React Native course (paid).\n- 📦 [React Native 0.77.0-rc.0](https://github.com/facebook/react-native/releases/tag/v0.77.0-rc.0): The init template uses Swift instead of Objective-C. Improved CSS support (display contents, mixBlendMode). Ongoing work to clarify the native public API surface.\n- 📦 [Legend List \\- Faster drop-in replacement for FlatList](https://github.com/LegendApp/legend-list): A new signal-based list library is trending with great community feedback. Apparently, it’s also faster than FlashList.\n- 📦 [React Native Rapier](https://github.com/callstack/react-native-rapier): You may not need this Rust-based physics engine, but there’s an even more important story behind all this. It’s a playground for Callstack devs to compile back WASM code to native ([demo](https://x.com/rob_pasinski/status/1861077912713318781)), enabling efficient cross-platform usage of native languages like Rust.\n- 📦 [LiveStore \\- SQLite-based data layer for local-first apps](https://expo.dev/blog/local-first-application-development-with-livestore): Upcoming event-sourcing-based local-first lib with first-class Expo integration.\n- 📦 [React Native Testing Library releases](https://github.com/callstack/react-native-testing-library/releases): v12 adds support for RN 0.77 and Expo 52\\. v13 (beta) drops deprecated features, supports both React 18/19, and enables Concurrent rendering by default. v14 (alpha) replaces `react-test-renderer` in favor of a new [universal-test-renderer](https://github.com/mdjastrzebski/universal-test-renderer) dependency.\n- 📦 [Bottom Tabs 0.7 \\- React Navigation v7, `useBottomTabBarHeight`](https://github.com/okwasniewski/react-native-bottom-tabs/releases/tag/react-native-bottom-tabs%400.7.0)\n- 📦 [Cali \\- AI agent for building React Native apps](https://github.com/callstackincubator/cali)\n- 📦 [Nitro 0.17 \\- All about Promises](https://github.com/mrousavy/nitro/releases/tag/v0.17.0)\n- 📦 [Solito 4.3 \\- Support for React Navigtion 7](https://github.com/nandorojo/solito/releases/tag/v4.3.0)\n- 📦 [React Native Share 12.0 \\- Expo config plugin](https://github.com/react-native-share/react-native-share/releases/tag/v12.0.0)\n- 📦 [Radon IDE 0.24 beta \\- stability improvements, Expo 52, multi-touch gestures, screen recording](https://github.com/software-mansion/radon-ide/releases/tag/v0.0.24-beta)\n- 🎥 [Jack Herrington \\- React-Native Server Components\\! Change Your Native UI From Your Server\\!](https://www.youtube.com/watch?v=RW1SlwBx0hk)\n- 🎥 [Simon Grimm \\- The Future of React Native? (RSC)](https://www.youtube.com/watch?v=uLjqKLjE4UE)\n- 🎙️ [RNR 315 \\- What to do without App Center](https://www.reactnativeradio.com/episodes/rnr-315-what-to-do-without-app-center)"
+    },
+    {
+      "id": "44f53186",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "8f1c1cd6",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "c7ff42af",
+      "translatable": true,
+      "content": "* 📊 [Web Almanac 2024](https://almanac.httparchive.org/en/2024/)\n* 📣 [Deno v. Oracle: Canceling the JavaScript Trademark](https://deno.com/blog/deno-v-oracle)\n* 📜 [A Framework for Evaluating Browser Support](https://www.joshwcomeau.com/css/browser-support/)\n* 📦 [Tailwind CSS 4.0 Beta - Much faster, unified toolchain, CSS-first config, modern CSS](https://tailwindcss.com/blog/tailwindcss-v4-beta)\n* 📦 [TypeScript 5.7 - 2024 lib types, check uninitialized vars, extension rewriting, faster startup](https://devblogs.microsoft.com/typescript/announcing-typescript-5-7/)\n* 📦 [Mock Service Worker - WebSockets support](https://mswjs.io/blog/enter-websockets/)\n* 📦 [Deno 2.1 - Wasm Imports and other enhancements](https://deno.com/blog/v2.1)\n* 📦 [Better Auth 1.0 - Comprehensive authentication framework for TypeScript](https://www.better-auth.com/v1)",
+      "sourceMdx": "- 📊 [Web Almanac 2024](https://almanac.httparchive.org/en/2024/)\n- 📣 [Deno v. Oracle: Canceling the JavaScript Trademark](https://deno.com/blog/deno-v-oracle)\n- 📜 [A Framework for Evaluating Browser Support](https://www.joshwcomeau.com/css/browser-support/)\n- 📦 [Tailwind CSS 4.0 Beta \\- Much faster, unified toolchain, CSS-first config, modern CSS](https://tailwindcss.com/blog/tailwindcss-v4-beta)\n- 📦 [TypeScript 5.7 \\- 2024 lib types, check uninitialized vars, extension rewriting, faster startup](https://devblogs.microsoft.com/typescript/announcing-typescript-5-7/)\n- 📦 [Mock Service Worker \\- WebSockets support](https://mswjs.io/blog/enter-websockets/)\n- 📦 [Deno 2.1 \\- Wasm Imports and other enhancements](https://deno.com/blog/v2.1)\n- 📦 [Better Auth 1.0 \\- Comprehensive authentication framework for TypeScript](https://www.better-auth.com/v1)"
+    },
+    {
+      "id": "ce87f480",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "a0d0e29e",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "be17ccc3",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/211/meme.jpg)](https://x.com/fortysevenfx/status/1850288992559796369)",
+      "sourceMdx": "[![alt](/emails/issues/211/meme.jpg)](https://x.com/fortysevenfx/status/1850288992559796369)"
+    },
+    {
+      "id": "ad3e22c6",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/211/meme2.jpg)](https://bsky.app/profile/did:plc:hxmev3uady7j4litwnr5fzbg/post/3lbtsc6z57s2f)",
+      "sourceMdx": "[![alt](/emails/issues/211/meme2.jpg)](https://bsky.app/profile/did:plc:hxmev3uady7j4litwnr5fzbg/post/3lbtsc6z57s2f)"
+    },
+    {
+      "id": "3e8f45da",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/211/meme3.jpg)](https://x.com/adamwathan/status/1861560244771422692)",
+      "sourceMdx": "[![alt](/emails/issues/211/meme3.jpg)](https://x.com/adamwathan/status/1861560244771422692)"
+    },
+    {
+      "id": "4c787c52",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

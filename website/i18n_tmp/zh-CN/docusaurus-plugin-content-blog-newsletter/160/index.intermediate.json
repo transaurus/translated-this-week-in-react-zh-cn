@@ -1,0 +1,299 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/160/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /160\ntitle: \"This Week In React #160: Remix, Next.js, Expo API Routes, Ladle, MDXEditor, Sonner, Docusaurus, AbortController, Query String, Menubar, VisionCamera, Victory Native XL, Bun, ESLint, TC39...\"\nauthors: [slorber]\ndate: 09-27-2023\n---",
+      "sourceMdx": "---\nslug: /160\ntitle: \"This Week In React #160: Remix, Next.js, Expo API Routes, Ladle, MDXEditor, Sonner, Docusaurus, AbortController, Query String, Menubar, VisionCamera, Victory Native XL, Bun, ESLint, TC39...\"\nauthors: [slorber]\ndate: 09-27-2023\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "After a little break, we're catching up on 2 weeks of news this week!",
+      "sourceMdx": "After a little break, we're catching up on 2 weeks of news this week!"
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "There's been quite a few releases, including Remix and Next.js, but also some lesser-known packages that are well worth your attention.",
+      "sourceMdx": "There's been quite a few releases, including Remix and Next.js, but also some lesser-known packages that are well worth your attention."
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "Super excited to see Expo finally venturing server-side!",
+      "sourceMdx": "Super excited to see Expo finally venturing server-side!"
+    },
+    {
+      "id": "6429a3aa",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "39b3772c",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "507b4652",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "fcd52337",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "42e34e45",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "caf67047",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "3c36424c",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "26524352",
+      "translatable": true,
+      "content": "[![Frontendmasters](/emails/issues/158/frontendmasters.jpg)](https://frontendmasters.com/learn/react/?utm_source=newsletter\\&utm_medium=thisweekinreact\\&utm_campaign=reactpath)",
+      "sourceMdx": "[![Frontendmasters](/emails/issues/158/frontendmasters.jpg)](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)"
+    },
+    {
+      "id": "73ab96a3",
+      "translatable": true,
+      "content": "**[FrontendMasters – Complete React.js Learning Path to Senior React Developer](https://frontendmasters.com/learn/react/?utm_source=newsletter\\&utm_medium=thisweekinreact\\&utm_campaign=reactpath)**",
+      "sourceMdx": "**[FrontendMasters – Complete React.js Learning Path to Senior React Developer](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)**"
+    },
+    {
+      "id": "7499a4e7",
+      "translatable": true,
+      "content": "Learn React.js from the ground up to advanced topics like performance, testing, and code quality. Start by building a real-world app in the Complete Introduction to React. Continue with Intermediate React, integrating the most popular tools from the ecosystem. Then learn performance, TypeScript, and even Next.js, the fullstack React framework!",
+      "sourceMdx": "Learn React.js from the ground up to advanced topics like performance, testing, and code quality. Start by building a real-world app in the Complete Introduction to React. Continue with Intermediate React, integrating the most popular tools from the ecosystem. Then learn performance, TypeScript, and even Next.js, the fullstack React framework!"
+    },
+    {
+      "id": "b0e5a8f2",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "80d9e13c",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "33331f27",
+      "translatable": true,
+      "content": "[![Remix v2](/emails/issues/160/remix-v2.jpg)](https://remix.run/blog/remix-v2)",
+      "sourceMdx": "[![Remix v2](/emails/issues/160/remix-v2.jpg)](https://remix.run/blog/remix-v2)"
+    },
+    {
+      "id": "50746522",
+      "translatable": true,
+      "content": "[**Remix v2**](https://remix.run/blog/remix-v2)",
+      "sourceMdx": "[**Remix v2**](https://remix.run/blog/remix-v2)"
+    },
+    {
+      "id": "95e9ba12",
+      "translatable": true,
+      "content": "As expected, Remix v2 should be a relatively straightforward upgrade, since many v2 features were already available in v1 as opt-in 'future flags'. This article gives an overview of all the flags that were delivered in v1 and are now enabled by default in v2. Remix also offers retro-compatibility packages for those who preferred some v1 conventions. React Server Component support should land in Remix v3.",
+      "sourceMdx": "As expected, Remix v2 should be a relatively straightforward upgrade, since many v2 features were already available in v1 as opt-in 'future flags'. This article gives an overview of all the flags that were delivered in v1 and are now enabled by default in v2. Remix also offers retro-compatibility packages for those who preferred some v1 conventions. React Server Component support should land in Remix v3."
+    },
+    {
+      "id": "06784e79",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "a9d49f92",
+      "translatable": true,
+      "content": "[![Next.js 13.5](/emails/issues/160/next-13.5.jpg)](https://nextjs.org/blog/next-13-5)",
+      "sourceMdx": "[![Next.js 13.5](/emails/issues/160/next-13.5.jpg)](https://nextjs.org/blog/next-13-5)"
+    },
+    {
+      "id": "a44047a5",
+      "translatable": true,
+      "content": "[**Next.js 13.5**](https://nextjs.org/blog/next-13-5)",
+      "sourceMdx": "[**Next.js 13.5**](https://nextjs.org/blog/next-13-5)"
+    },
+    {
+      "id": "f7ef78f9",
+      "translatable": true,
+      "content": "Many developers complained about the slowness of the Next.js dev server lately. Vercel heard us and came up with another rlease that significantly improves things.",
+      "sourceMdx": "Many developers complained about the slowness of the Next.js dev server lately. Vercel heard us and came up with another rlease that significantly improves things."
+    },
+    {
+      "id": "49d8fe2a",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "9b797309",
+      "translatable": true,
+      "content": "* 💸 [Ably Realtime Hackathon - Create a real-time React app, win $19,000 in prizes - from real-time dashboards to collaborative experiences!](https://ably.devpost.com/?utm_campaign=23-hackathon\\&utm_source=thisweekinreact\\&utm_medium=referral)\n* 🐦 [\"StyleX documentation site is nearly ready for launch\"](https://twitter.com/naman34/status/1703576411330810282)\n* ❓ [Did the React team forget the React Forget compiler?](https://www.reddit.com/r/reactjs/comments/16nnh4z/did_the_react_team_forget_the_react_forget/): Joseph and Sathya respond on Reddit. They are making progress and starting to experiment in production. We'll know more at React Advanced next month.\n* 👀 [Vercel v0 alpha - \"Midjourney for React\"](https://v0.dev/): Vercel introduced a preview of an impressive AI capable of writing React components based on shadcn UI and Tailwind, and easy to copy/paste.\n* 💡 [Await Component - Use Suspense without creating a new component](https://buildui.com/recipes/await-component): a useful technique inspired by Remix.\n* 📜 [Speeding up the JavaScript ecosystem - Polyfills gone rogue](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-6/): many ESLint plugins like `eslint-plugin-react` come with a lot of unnecessary dependencies.\n* 📜 [The State of Web Frameworks on Deno](https://deno.com/blog/web-frameworks-on-deno): gives a good overview of the React frameworks that can be hosted on Deno Deploy. Next.js support is limited, but Remix and Astro seem to be well-supported. I've discovered that they've migrated their docs to Docusaurus 🥲.\n* 📜 [Abort Async Calls Inside Remix Loaders and Actions](https://sergiodxa.com/tutorials/abort-async-calls-inside-remix-loaders-and-actions): explains how to correctly manage the AbortSignal received in a Remix loader. There are a few pitfalls to avoid.\n* 📜 [Build a server-side filter UI with Remix](https://www.jacobparis.com/content/remix-filter-bar): offers a complete solution and a great demo for creating advanced filters inspired by the Linear app. TIL about the OData spec, which defines how to serialize filters as query string.\n* 📜 [Storing React state in the URL with Next.js](https://francoisbest.com/posts/2023/storing-react-state-in-the-url-with-nextjs): eencourages the use of the query string via a `next-usequerystate` package. v1.8 is out and supports Next.js App Router. Also shares a few details I didn't know about, such as the browser rate-limit on `history.replaceState` calls.\n* 📜 [Displaying Local Times in Next.js](https://francoisbest.com/posts/2023/displaying-local-times-in-nextjs): interesting tips to avoid hydration mismatch problems.\n* 📜 [Islands & Server Components & Resumability, Oh My!](https://dev.to/this-is-learning/islands-server-components-resumability-oh-my-319d): the 3 approaches are orthogonal and could converge?\n* 📜 [A First Look at HTMX and How it Compares to React](https://www.builder.io/blog/htmx-vs-react)\n* 📜 [React Server Components Made Our Site Faster](https://frigade.com/blog/bundle-size-reduction-with-rsc-and-frigade)\n* 📜 [Building Low Level Components the Radix Way](https://alexkondov.com/building-low-level-components-the-radix-way/)\n* 📜 [Exploring React Server Components and Server Actions with Next.js](https://www.antstack.com/blog/exploring-react-server-components-and-server-actions-with-next-js/)\n* 📦 [Ladle v3 - Uber seamless alternative to Storybook - SWC, Node 18, MDX stories...](https://ladle.dev/blog/ladle-v3/)\n* 📦 [Docusaurus v3 beta - MDX 2, React 18, TypeScript 5, Mermaid 10](https://github.com/facebook/docusaurus/discussions/9312)\n* 📦 [TanStack Query v5 RC.1 - Last call to report bugs](https://github.com/TanStack/query/releases/tag/v5.0.0-rc.1)\n* 📦 [Million v2.6 - HMR fixes, Million CLI, better pre-evaluation](https://github.com/aidenybai/million/releases/tag/v2.6.0)\n* 📦 [Mantine v7.0 - Fully featured React components library - Native CSS, App Router support](https://mantine.dev/changelog/7-0-0/)\n* 📦 [MDX Editor v1.0 - A rich text editor React component for markdown](https://github.com/mdx-editor/editor)\n* 📦 [Sonner v1.0 - An opinionated toast component for React - RSC support](https://sonner.emilkowal.ski/)\n* 📦 [Remix DevTools v3 - Remix v2 support, ESM, new dev server](https://github.com/Code-Forge-Net/Remix-Dev-Tools/releases/tag/v3.0.0)\n* 🎥 [Theo - React Wasn't Built For The Web](https://www.youtube.com/watch?v=Y12sGu8-qFE\\&t=2s)\n* 🎥 [Jack Herrington & Ben Holmes - Future Astro and React Advanced!](https://www.youtube.com/watch?v=sbiuZj2s5fs)\n* 🎥 [Lee Robinson - Using Forms in Next.js (Server Actions, Revalidating Data)](https://www.youtube.com/watch?v=dDpZfOQBMaU)\n* 👥 [reactjsday](https://2023.reactjsday.it/) (Verona 🇮🇹, Octobre 27) is offering us [-10% - code \"media\\_TWIR\"](https://ti.to/grusp/reactjsday-2023/discount/media_TWIR)\n* 👥 [React Advanced](https://reactadvanced.com/?utm_source=email\\&utm_medium=thisweekinreact) (London 🇬🇧, Octobre 20-23) is offering us [-10% - code \"REACT10\"](https://ti.to/gitnation/react-advanced-london-2023/discount/REACT10)\n* 👥 [Next.js Conf](https://nextjs.org/conf): online, 26th of October",
+      "sourceMdx": "- 💸 [Ably Realtime Hackathon - Create a real-time React app, win $19,000 in prizes - from real-time dashboards to collaborative experiences!](https://ably.devpost.com/?utm_campaign=23-hackathon&utm_source=thisweekinreact&utm_medium=referral)\n- 🐦 [\"StyleX documentation site is nearly ready for launch\"](https://twitter.com/naman34/status/1703576411330810282)\n- ❓ [Did the React team forget the React Forget compiler?](https://www.reddit.com/r/reactjs/comments/16nnh4z/did_the_react_team_forget_the_react_forget/): Joseph and Sathya respond on Reddit. They are making progress and starting to experiment in production. We'll know more at React Advanced next month.\n- 👀 [Vercel v0 alpha - \"Midjourney for React\"](https://v0.dev/): Vercel introduced a preview of an impressive AI capable of writing React components based on shadcn UI and Tailwind, and easy to copy/paste.\n- 💡 [Await Component - Use Suspense without creating a new component](https://buildui.com/recipes/await-component): a useful technique inspired by Remix.\n- 📜 [Speeding up the JavaScript ecosystem - Polyfills gone rogue](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-6/): many ESLint plugins like `eslint-plugin-react` come with a lot of unnecessary dependencies.\n- 📜 [The State of Web Frameworks on Deno](https://deno.com/blog/web-frameworks-on-deno): gives a good overview of the React frameworks that can be hosted on Deno Deploy. Next.js support is limited, but Remix and Astro seem to be well-supported. I've discovered that they've migrated their docs to Docusaurus 🥲.\n- 📜 [Abort Async Calls Inside Remix Loaders and Actions](https://sergiodxa.com/tutorials/abort-async-calls-inside-remix-loaders-and-actions): explains how to correctly manage the AbortSignal received in a Remix loader. There are a few pitfalls to avoid.\n- 📜 [Build a server-side filter UI with Remix](https://www.jacobparis.com/content/remix-filter-bar): offers a complete solution and a great demo for creating advanced filters inspired by the Linear app. TIL about the OData spec, which defines how to serialize filters as query string.\n- 📜 [Storing React state in the URL with Next.js](https://francoisbest.com/posts/2023/storing-react-state-in-the-url-with-nextjs): eencourages the use of the query string via a `next-usequerystate` package. v1.8 is out and supports Next.js App Router. Also shares a few details I didn't know about, such as the browser rate-limit on `history.replaceState` calls.\n- 📜 [Displaying Local Times in Next.js](https://francoisbest.com/posts/2023/displaying-local-times-in-nextjs): interesting tips to avoid hydration mismatch problems.\n- 📜 [Islands & Server Components & Resumability, Oh My!](https://dev.to/this-is-learning/islands-server-components-resumability-oh-my-319d): the 3 approaches are orthogonal and could converge?\n- 📜 [A First Look at HTMX and How it Compares to React](https://www.builder.io/blog/htmx-vs-react)\n- 📜 [React Server Components Made Our Site Faster](https://frigade.com/blog/bundle-size-reduction-with-rsc-and-frigade)\n- 📜 [Building Low Level Components the Radix Way](https://alexkondov.com/building-low-level-components-the-radix-way/)\n- 📜 [Exploring React Server Components and Server Actions with Next.js](https://www.antstack.com/blog/exploring-react-server-components-and-server-actions-with-next-js/)\n- 📦 [Ladle v3 - Uber seamless alternative to Storybook - SWC, Node 18, MDX stories...](https://ladle.dev/blog/ladle-v3/)\n- 📦 [Docusaurus v3 beta - MDX 2, React 18, TypeScript 5, Mermaid 10](https://github.com/facebook/docusaurus/discussions/9312)\n- 📦 [TanStack Query v5 RC.1 - Last call to report bugs](https://github.com/TanStack/query/releases/tag/v5.0.0-rc.1)\n- 📦 [Million v2.6 - HMR fixes, Million CLI, better pre-evaluation](https://github.com/aidenybai/million/releases/tag/v2.6.0)\n- 📦 [Mantine v7.0 - Fully featured React components library - Native CSS, App Router support](https://mantine.dev/changelog/7-0-0/)\n- 📦 [MDX Editor v1.0 - A rich text editor React component for markdown](https://github.com/mdx-editor/editor)\n- 📦 [Sonner v1.0 - An opinionated toast component for React - RSC support](https://sonner.emilkowal.ski/)\n- 📦 [Remix DevTools v3 - Remix v2 support, ESM, new dev server](https://github.com/Code-Forge-Net/Remix-Dev-Tools/releases/tag/v3.0.0)\n- 🎥 [Theo - React Wasn't Built For The Web](https://www.youtube.com/watch?v=Y12sGu8-qFE&t=2s)\n- 🎥 [Jack Herrington & Ben Holmes - Future Astro and React Advanced!](https://www.youtube.com/watch?v=sbiuZj2s5fs)\n- 🎥 [Lee Robinson - Using Forms in Next.js (Server Actions, Revalidating Data)](https://www.youtube.com/watch?v=dDpZfOQBMaU)\n- 👥 [reactjsday](https://2023.reactjsday.it/) (Verona 🇮🇹, Octobre 27) is offering us [\\-10% - code \"media_TWIR\"](https://ti.to/grusp/reactjsday-2023/discount/media_TWIR)\n- 👥 [React Advanced](https://reactadvanced.com/?utm_source=email&utm_medium=thisweekinreact) (London 🇬🇧, Octobre 20-23) is offering us [\\-10% - code \"REACT10\"](https://ti.to/gitnation/react-advanced-london-2023/discount/REACT10)\n- 👥 [Next.js Conf](https://nextjs.org/conf): online, 26th of October"
+    },
+    {
+      "id": "bfba2ea7",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed placement=\"middle\" />",
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+    },
+    {
+      "id": "2a9ed33d",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "ec8ed2a1",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "51867d16",
+      "translatable": true,
+      "content": "[![CoderPad: Code together before you work together](/emails/issues/154/coderpad.png)](https://coderpad.io/?utm_medium=3pmedia\\&utm_source=ThisWeekInReact\\&utm_campaign=23-Q3-3PMedia-ThisWeekInReact-ACQ-All-Global-Newsletter)",
+      "sourceMdx": "[![CoderPad: Code together before you work together](/emails/issues/154/coderpad.png)](https://coderpad.io/?utm_medium=3pmedia&utm_source=ThisWeekInReact&utm_campaign=23-Q3-3PMedia-ThisWeekInReact-ACQ-All-Global-Newsletter)"
+    },
+    {
+      "id": "785750ac",
+      "translatable": true,
+      "content": "[**CoderPad: Code together before you work together**](https://coderpad.io/?utm_medium=3pmedia\\&utm_source=ThisWeekInReact\\&utm_campaign=23-Q3-3PMedia-ThisWeekInReact-ACQ-All-Global-Newsletter)",
+      "sourceMdx": "[**CoderPad: Code together before you work together**](https://coderpad.io/?utm_medium=3pmedia&utm_source=ThisWeekInReact&utm_campaign=23-Q3-3PMedia-ThisWeekInReact-ACQ-All-Global-Newsletter)"
+    },
+    {
+      "id": "82e90254",
+      "translatable": true,
+      "content": "Hiring front-end developers is hard. 😩 But 4,000+ engineering teams — including at Netflix, Spotify and LinkedIn — have found a better way! 🤠 Skip the algorithm interviews and **run front-end interviews in a fully customizable and collaborative IDE** - where you can:",
+      "sourceMdx": "Hiring front-end developers is hard. 😩 But 4,000+ engineering teams — including at Netflix, Spotify and LinkedIn — have found a better way! 🤠 Skip the algorithm interviews and **run front-end interviews in a fully customizable and collaborative IDE** - where you can:"
+    },
+    {
+      "id": "dee20070",
+      "translatable": true,
+      "content": "* drag and drop a React (and Angular or Vue) repo\n* add packages with npm install\n* let candidates use ChatGPT live in the interview\n* watch & share code playback after the interview",
+      "sourceMdx": "- drag and drop a React (and Angular or Vue) repo\n- add packages with npm install\n- let candidates use ChatGPT live in the interview\n- watch & share code playback after the interview"
+    },
+    {
+      "id": "a2c0166e",
+      "translatable": true,
+      "content": "Use CoderPad to run fast, fair and real coding interviews that candidates and interviewers trust. [Sign up for free today & hire with confidence](https://coderpad.io/?utm_medium=3pmedia\\&utm_source=ThisWeekInReact\\&utm_campaign=23-Q3-3PMedia-ThisWeekInReact-ACQ-All-Global-Newsletter).",
+      "sourceMdx": "Use CoderPad to run fast, fair and real coding interviews that candidates and interviewers trust. [Sign up for free today & hire with confidence](https://coderpad.io/?utm_medium=3pmedia&utm_source=ThisWeekInReact&utm_campaign=23-Q3-3PMedia-ThisWeekInReact-ACQ-All-Global-Newsletter)."
+    },
+    {
+      "id": "05765487",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "1f4b3b94",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "a81544fd",
+      "translatable": true,
+      "content": "[![Expo Router RFC - API Routes](/emails/issues/160/expo-api-routes.jpg)](https://blog.expo.dev/rfc-api-routes-cce5a3b9f25d)",
+      "sourceMdx": "[![Expo Router RFC - API Routes](/emails/issues/160/expo-api-routes.jpg)](https://blog.expo.dev/rfc-api-routes-cce5a3b9f25d)"
+    },
+    {
+      "id": "0801d969",
+      "translatable": true,
+      "content": "[**Expo Router RFC - API Routes**](https://blog.expo.dev/rfc-api-routes-cce5a3b9f25d)",
+      "sourceMdx": "[**Expo Router RFC - API Routes**](https://blog.expo.dev/rfc-api-routes-cce5a3b9f25d)"
+    },
+    {
+      "id": "3c19e221",
+      "translatable": true,
+      "content": "I've been looking forward to this! Expo is getting into server-side features by offering to deploy API Routes via an Expo Router convention. You can deploy these routes yourself, and soon on popular hosts, but it's clear that the long-term goal is to suggest hosting the server runtime in EAS.",
+      "sourceMdx": "I've been looking forward to this! Expo is getting into server-side features by offering to deploy API Routes via an Expo Router convention. You can deploy these routes yourself, and soon on popular hosts, but it's clear that the long-term goal is to suggest hosting the server runtime in EAS."
+    },
+    {
+      "id": "d21af28f",
+      "translatable": true,
+      "content": "This marks the start of a new era for Expo. Having solved the problem of native mobile, it's now time to make cross-platform a mainstream reality by filling the gaps in web support with Server Side Rendering and React Server Components.",
+      "sourceMdx": "This marks the start of a new era for Expo. Having solved the problem of native mobile, it's now time to make cross-platform a mainstream reality by filling the gaps in web support with Server Side Rendering and React Server Components."
+    },
+    {
+      "id": "55ba2007",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "2a1e835c",
+      "translatable": true,
+      "content": "* 💸 [Blitz - Build React Native Apps Faster for iOS, Android, and Web!](https://www.blitz-rn.com/)\n* 👀 [Expo - Support for Bun in EAS and Expo CLI](https://expo.dev/changelog/2023/09-25-eas-bun-support)\n* 📜 [Level up React Native styles. A fresh take on StyleSheet API for adaptive layouts](https://www.reactnativecrossroads.com/posts/level-up-react-native-styles)\n* 📜 [5+ Github Actions to Automate Your React Native Workflow](https://elazizi.com/posts/5-github-actions-to-automate-your-react-native-workflow/)\n* 📜 [Comparing iOS rendering performance: SwiftUI vs. React Native vs. Flutter](https://blog.theodo.com/2023/09/ios-rendering-performance/)\n* 📦 [React Native v0.72.5 - Fix XCode 15 compat](https://github.com/facebook/react-native/releases/tag/v0.72.5)\n* 📦 [React Native Menubar Extra - Easily add native MenuBar (NSMenu) to your React Native MacOS App](https://github.com/okwasniewski/react-native-menubar-extra)\n* 📦 [Victory Native XL - Charting library - Faster, rewritten with React-Native-Skia](https://github.com/FormidableLabs/victory-native-xl)\n* 📦 [React Native VisionCamera v3.1 - useCameraDevice, useCameraFormat, useCameraPermission, resizeMode ...](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.1.0)\n* 📦 [React Native Gesture Handler 2.13 - Universal Hover gesture, 𝚊𝚌𝚝𝚒𝚟𝚎𝙲𝚞𝚛𝚜𝚘𝚛 prop](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.13.0)\n* 🎥 [React Native EU 2023 - YouTube playlist](https://www.youtube.com/playlist?list=PLZ3MwD-soTTEm5KtB2AoZuM7fiYRR69k8)\n* 🎥 [Static Hermes: the Next Generation of Hermes - Tzvetan Mikov](https://www.youtube.com/watch?v=q-xKYA0EO-c)\n* 🎥 [React Native Podcast & React Native Radio cross-over - React Native news, insights & gossip](https://www.youtube.com/watch?v=xc15HtMuMhs)\n* 🎥 [Can it be done in React Native? - Telegram Dark Mode](https://www.youtube.com/watch?v=vKYEFpO06Tk)\n* 🎙️ [React Native Radio 275 - Recapping RN EU](https://reactnativeradio.com/episodes/rnr-275-recapping-rn-eu)",
+      "sourceMdx": "- 💸 [Blitz - Build React Native Apps Faster for iOS, Android, and Web!](https://www.blitz-rn.com/)\n- 👀 [Expo - Support for Bun in EAS and Expo CLI](https://expo.dev/changelog/2023/09-25-eas-bun-support)\n- 📜 [Level up React Native styles. A fresh take on StyleSheet API for adaptive layouts](https://www.reactnativecrossroads.com/posts/level-up-react-native-styles)\n- 📜 [5+ Github Actions to Automate Your React Native Workflow](https://elazizi.com/posts/5-github-actions-to-automate-your-react-native-workflow/)\n- 📜 [Comparing iOS rendering performance: SwiftUI vs. React Native vs. Flutter](https://blog.theodo.com/2023/09/ios-rendering-performance/)\n- 📦 [React Native v0.72.5 - Fix XCode 15 compat](https://github.com/facebook/react-native/releases/tag/v0.72.5)\n- 📦 [React Native Menubar Extra - Easily add native MenuBar (NSMenu) to your React Native MacOS App](https://github.com/okwasniewski/react-native-menubar-extra)\n- 📦 [Victory Native XL - Charting library - Faster, rewritten with React-Native-Skia](https://github.com/FormidableLabs/victory-native-xl)\n- 📦 [React Native VisionCamera v3.1 - useCameraDevice, useCameraFormat, useCameraPermission, resizeMode ...](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.1.0)\n- 📦 [React Native Gesture Handler 2.13 - Universal Hover gesture, 𝚊𝚌𝚝𝚒𝚟𝚎𝙲𝚞𝚛𝚜𝚘𝚛 prop](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.13.0)\n- 🎥 [React Native EU 2023 - YouTube playlist](https://www.youtube.com/playlist?list=PLZ3MwD-soTTEm5KtB2AoZuM7fiYRR69k8)\n- 🎥 [Static Hermes: the Next Generation of Hermes - Tzvetan Mikov](https://www.youtube.com/watch?v=q-xKYA0EO-c)\n- 🎥 [React Native Podcast & React Native Radio cross-over - React Native news, insights & gossip](https://www.youtube.com/watch?v=xc15HtMuMhs)\n- 🎥 [Can it be done in React Native? - Telegram Dark Mode](https://www.youtube.com/watch?v=vKYEFpO06Tk)\n- 🎙️ [React Native Radio 275 - Recapping RN EU](https://reactnativeradio.com/episodes/rnr-275-recapping-rn-eu)"
+    },
+    {
+      "id": "f1a2be1a",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "13292277",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "292df6cb",
+      "translatable": true,
+      "content": "* 🐦 [CSS `:has()` ships in Firefox 119 (beta) - Now supported in all browsers](https://twitter.com/sebastienlorber/status/1706976759269224724)\n* 👀 [Agenda for the 98th meeting of Ecma TC39 - 26-28 September](https://github.com/tc39/agendas/blob/main/2023/09.md#agenda-for-the-98th-meeting-of-ecma-tc39)\n* 📊 [State of HTML 2023 - Survey Open](https://survey.devographics.com/en-US/survey/state-of-html/2023)\n* 📜 [Svelte - Introducing runes](https://svelte.dev/blog/runes)\n* 📜 [Bun hype. How we learned nothing from Yarn](https://dev.to/thejaredwilcurt/bun-hype-how-we-learned-nothing-from-yarn-2n3j)\n* 📜 [Bun: lessons from disrupting a tech ecosystem](https://blog.pragmaticengineer.com/bun-lessons-from-disrupting/)\n* 📜 [One Thing Nobody Explained To You About TypeScript](https://redd.one/blog/one-thing-nobody-explained-to-you-about-typescript)\n* 📜 [ESLint - Preparing your custom rules for v9](https://eslint.org/blog/2023/09/preparing-custom-rules-eslint-v9/)\n* 📦 [Safari 17.0 - CSS, search element, popover, storage API, Set operations, URL.canParse...](https://webkit.org/blog/14445/webkit-features-in-safari-17-0/)\n* 🎥 [TypeScript Origins - The Documentary](https://www.youtube.com/watch?v=U6s2pdxebSo)\n* 🔗 [FirstIssue.dev - Make your next open-source contribution](https://firstissue.dev/)",
+      "sourceMdx": "- 🐦 [CSS `:has()` ships in Firefox 119 (beta) - Now supported in all browsers](https://twitter.com/sebastienlorber/status/1706976759269224724)\n- 👀 [Agenda for the 98th meeting of Ecma TC39 - 26-28 September](https://github.com/tc39/agendas/blob/main/2023/09.md#agenda-for-the-98th-meeting-of-ecma-tc39)\n- 📊 [State of HTML 2023 - Survey Open](https://survey.devographics.com/en-US/survey/state-of-html/2023)\n- 📜 [Svelte - Introducing runes](https://svelte.dev/blog/runes)\n- 📜 [Bun hype. How we learned nothing from Yarn](https://dev.to/thejaredwilcurt/bun-hype-how-we-learned-nothing-from-yarn-2n3j)\n- 📜 [Bun: lessons from disrupting a tech ecosystem](https://blog.pragmaticengineer.com/bun-lessons-from-disrupting/)\n- 📜 [One Thing Nobody Explained To You About TypeScript](https://redd.one/blog/one-thing-nobody-explained-to-you-about-typescript)\n- 📜 [ESLint - Preparing your custom rules for v9](https://eslint.org/blog/2023/09/preparing-custom-rules-eslint-v9/)\n- 📦 [Safari 17.0 - CSS, search element, popover, storage API, Set operations, URL.canParse...](https://webkit.org/blog/14445/webkit-features-in-safari-17-0/)\n- 🎥 [TypeScript Origins - The Documentary](https://www.youtube.com/watch?v=U6s2pdxebSo)\n- 🔗 [FirstIssue.dev - Make your next open-source contribution](https://firstissue.dev/)"
+    },
+    {
+      "id": "74a488b8",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "b77e7669",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "619c3209",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/160/meme.jpg)](https://twitter.com/HODLFrance/status/1704507457555284348)",
+      "sourceMdx": "[![alt](/emails/issues/160/meme.jpg)](https://twitter.com/HODLFrance/status/1704507457555284348)"
+    },
+    {
+      "id": "44285072",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

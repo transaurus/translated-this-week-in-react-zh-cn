@@ -1,0 +1,395 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/151/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /151\ntitle: \"This Week In React #151: Remotion, Next.js, SVG-in-JS, TypeScript, Expo, VisionCamera, Conform, TinyBase, i18n, App Clips, ES2023, CommonJS...\"\nauthors: [slorber]\ndate: 07-04-2023\n---",
+      "sourceMdx": "---\nslug: /151\ntitle: \"This Week In React #151: Remotion, Next.js, SVG-in-JS, TypeScript, Expo, VisionCamera, Conform, TinyBase, i18n, App Clips, ES2023, CommonJS...\"\nauthors: [slorber]\ndate: 07-04-2023\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "We've got some great releases this week, with Remotion 4 and Expo SDK 49 in beta. Next.js devs are working on DX optimizations. The articles on React + SVG and VisionCamera are super interesting.",
+      "sourceMdx": "We've got some great releases this week, with Remotion 4 and Expo SDK 49 in beta. Next.js devs are working on DX optimizations. The articles on React + SVG and VisionCamera are super interesting."
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "[Remotion 4 is on ProductHunt today](https://www.producthunt.com/posts/remotion-4-0): don't hesitate to vote! 👍",
+      "sourceMdx": "[Remotion 4 is on ProductHunt today](https://www.producthunt.com/posts/remotion-4-0): don't hesitate to vote! 👍"
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "No newsletter next week, see you on 18 July 👋",
+      "sourceMdx": "No newsletter next week, see you on 18 July 👋"
+    },
+    {
+      "id": "6429a3aa",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "39b3772c",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "507b4652",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "fcd52337",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "42e34e45",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "caf67047",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "3c36424c",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "26524352",
+      "translatable": true,
+      "content": "[![Frontendmasters](/emails/issues/151/frontendmasters.png)](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email\\&utm_medium=thisweekinreact\\&utm_content=uidev)",
+      "sourceMdx": "[![Frontendmasters](/emails/issues/151/frontendmasters.png)](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email&utm_medium=thisweekinreact&utm_content=uidev)"
+    },
+    {
+      "id": "73ab96a3",
+      "translatable": true,
+      "content": "**[Enterprise UI Development (With React): Testing & Code Quality](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email\\&utm_medium=thisweekinreact\\&utm_content=uidev)**",
+      "sourceMdx": "**[Enterprise UI Development (With React): Testing & Code Quality](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email&utm_medium=thisweekinreact&utm_content=uidev)**"
+    },
+    {
+      "id": "7499a4e7",
+      "translatable": true,
+      "content": "Managing or migrating large apps and codebases? This video course covers what you need to know to scale efficiently whilst maintaining code quality. Covers unit testing, CI pipelines, mocking, code coverage, and more.",
+      "sourceMdx": "Managing or migrating large apps and codebases? This video course covers what you need to know to scale efficiently whilst maintaining code quality. Covers unit testing, CI pipelines, mocking, code coverage, and more."
+    },
+    {
+      "id": "b0e5a8f2",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "80d9e13c",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "33331f27",
+      "translatable": true,
+      "content": "[![Remotion 4.0](/emails/issues/151/remotion4.jpg)](https://www.remotion.dev/blog/4-0)",
+      "sourceMdx": "[![Remotion 4.0](/emails/issues/151/remotion4.jpg)](https://www.remotion.dev/blog/4-0)"
+    },
+    {
+      "id": "50746522",
+      "translatable": true,
+      "content": "**[Remotion 4.0](https://www.remotion.dev/blog/4-0)**",
+      "sourceMdx": "**[Remotion 4.0](https://www.remotion.dev/blog/4-0)**"
+    },
+    {
+      "id": "95e9ba12",
+      "translatable": true,
+      "content": "Remotion lets you create videos with React. This week, it's [Remotion v4 launch week](https://www.remotion.dev/4), kicked off by a [Keynote](https://www.youtube.com/watch?v=S3C9wlPNhkQ) that demonstrates well the renderer's new 3D SVG capabilities. Announcements are scheduled each day to present the new features, which are also detailed in the blog post. Here are a few highlights:",
+      "sourceMdx": "Remotion lets you create videos with React. This week, it's [Remotion v4 launch week](https://www.remotion.dev/4), kicked off by a [Keynote](https://www.youtube.com/watch?v=S3C9wlPNhkQ) that demonstrates well the renderer's new 3D SVG capabilities. Announcements are scheduled each day to present the new features, which are also detailed in the blog post. Here are a few highlights:"
+    },
+    {
+      "id": "824626b3",
+      "translatable": true,
+      "content": "* Remotion Studio: Zod-based visual props editing, render button...\n* Rust-powered architecture, FFmpeg baked in, 2x faster OffthreadVideo\n* SVG 3D engine\n* Tailwind, Rive integration",
+      "sourceMdx": "- Remotion Studio: Zod-based visual props editing, render button...\n- Rust-powered architecture, FFmpeg baked in, 2x faster OffthreadVideo\n- SVG 3D engine\n- Tailwind, Rive integration"
+    },
+    {
+      "id": "c504c207",
+      "translatable": true,
+      "content": "There's also a [launch on ProductHunt](https://www.producthunt.com/posts/remotion-4-0) today so don't hesitate to vote ;)",
+      "sourceMdx": "There's also a [launch on ProductHunt](https://www.producthunt.com/posts/remotion-4-0) today so don't hesitate to vote ;)"
+    },
+    {
+      "id": "5f01394b",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "d3649a1e",
+      "translatable": true,
+      "content": "[![RBreaking Up with SVG-in-JS in 2023](/emails/issues/151/svginjs.jpg)](https://kurtextrem.de/posts/svg-in-js)",
+      "sourceMdx": "[![RBreaking Up with SVG-in-JS in 2023](/emails/issues/151/svginjs.jpg)](https://kurtextrem.de/posts/svg-in-js)"
+    },
+    {
+      "id": "4d52a261",
+      "translatable": true,
+      "content": "**[Breaking Up with SVG-in-JS in 2023](https://kurtextrem.de/posts/svg-in-js)**",
+      "sourceMdx": "**[Breaking Up with SVG-in-JS in 2023](https://kurtextrem.de/posts/svg-in-js)**"
+    },
+    {
+      "id": "23dfb152",
+      "translatable": true,
+      "content": "Very comprehensive article on the various ways of using SVGs in a React app, and their impact on performance.\nAdvises against \"SVG-in-JS\": you should avoid rendering SVG markup via React components and having the SVG code be present in the JS bundle, including via solutions such as the SVGR loader. With a few exceptions, it's best to avoid inlining SVGs in HTML: React Server Components aren't necessarily an ideal solution either. SVG sprites are a good solution.",
+      "sourceMdx": "Very comprehensive article on the various ways of using SVGs in a React app, and their impact on performance.\nAdvises against \"SVG-in-JS\": you should avoid rendering SVG markup via React components and having the SVG code be present in the JS bundle, including via solutions such as the SVGR loader. With a few exceptions, it's best to avoid inlining SVGs in HTML: React Server Components aren't necessarily an ideal solution either. SVG sprites are a good solution."
+    },
+    {
+      "id": "818747ba",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "158e1f5d",
+      "translatable": true,
+      "content": "* 👀 [React.dev PR - Adds a TypeScript overview page](https://github.com/reactjs/react.dev/pull/6120): a doc page is coming soon to document the use of React APIs with TypeScript.\n* 👀 [Next.js - Improving next/image support](https://twitter.com/leeerob/status/1674250190432116736)\n* 📜 [Form validation with Conform, Zod, and Remix](https://www.jacobparis.com/content/remix-conform): Conform is a library that validates FormData on the server, respects Remix's progressive enhancement and displays errors on the client. I think we should be able to [use it with Next.js Server Actions](https://twitter.com/sebastienlorber/status/1676210400256204800) later?\n* 📜 [Declaring JSX types in TypeScript 5.1](https://blog.logrocket.com/declaring-jsx-types-typescript-5-1/): explains the recent improvements to JSX typing, particularly for React.\n* 📜 [React Hook for Avoiding Flash of Empty UI While Data Transitions](https://www.jameskerr.blog/posts/use-data-transition/)\n* 📜 [Storybook - In-app tour for new users](https://storybook.js.org/blog/in-app-tour-for-new-users/)\n* 📜 [Internationalize NextJs URLs with next-translate](https://dev.to/martinratinaud/internationalize-nextjs-urls-with-next-translate-49d8)\n* 📜 [Creating a seamless multi-language user interface in React](https://www.honeybadger.io/blog/creating-multi-language-user-interface-with-react/)\n* 📜 [Aria-Live Regions in React](https://dev.to/abbeyperini/live-regions-in-react-4dmd)\n* 📦 [Next.js 13.4.8 - 1.5x faster local server startup and 54% faster updates](https://twitter.com/nextjs/status/1675929873720680459): as announced, Vercel is working on performance optimisations to improve the Next.js DX. See Tim Neutkens' [comment](https://github.com/vercel/next.js/issues/48748#issuecomment-1614456247) for more details.\n* 📦 [Styled-Components v6](https://github.com/styled-components/styled-components/releases/tag/v6.0.0): some breaking changes well documented in an upgrade guide..\n* 📦 [Astro Starlight](https://starlight.astro.build/): official Astro template for documentation, with a low carbon footprint and the option of using React and MDX.\n* 📦 [next-international v0.5 - initial App Router support](https://twitter.com/tomlienard/status/1675512683007705090)\n* 📦 [TinyBase v4.0 - Reactive data store for local‑first apps - SQLite and CRDT integrations](https://twitter.com/tinybasejs/status/1674826869169070080)\n* 📦 [Bun-Remix](https://github.com/jacob-ebey/bun-remix)\n* 🎙️ [Reactiflux - This Month in React – June 2023](https://podcasters.spotify.com/pod/show/reactiflux/episodes/This-Month-in-React--June-2023-e26dgii)\n* 🎥 [What's Next For Redux with Mark Erikson?](https://www.youtube.com/watch?v=n5FK8_EXcbs)",
+      "sourceMdx": "- 👀 [React.dev PR - Adds a TypeScript overview page](https://github.com/reactjs/react.dev/pull/6120): a doc page is coming soon to document the use of React APIs with TypeScript.\n- 👀 [Next.js - Improving next/image support](https://twitter.com/leeerob/status/1674250190432116736)\n- 📜 [Form validation with Conform, Zod, and Remix](https://www.jacobparis.com/content/remix-conform): Conform is a library that validates FormData on the server, respects Remix's progressive enhancement and displays errors on the client. I think we should be able to [use it with Next.js Server Actions](https://twitter.com/sebastienlorber/status/1676210400256204800) later?\n- 📜 [Declaring JSX types in TypeScript 5.1](https://blog.logrocket.com/declaring-jsx-types-typescript-5-1/): explains the recent improvements to JSX typing, particularly for React.\n- 📜 [React Hook for Avoiding Flash of Empty UI While Data Transitions](https://www.jameskerr.blog/posts/use-data-transition/)\n- 📜 [Storybook - In-app tour for new users](https://storybook.js.org/blog/in-app-tour-for-new-users/)\n- 📜 [Internationalize NextJs URLs with next-translate](https://dev.to/martinratinaud/internationalize-nextjs-urls-with-next-translate-49d8)\n- 📜 [Creating a seamless multi-language user interface in React](https://www.honeybadger.io/blog/creating-multi-language-user-interface-with-react/)\n- 📜 [Aria-Live Regions in React](https://dev.to/abbeyperini/live-regions-in-react-4dmd)\n- 📦 [Next.js 13.4.8 - 1.5x faster local server startup and 54% faster updates](https://twitter.com/nextjs/status/1675929873720680459): as announced, Vercel is working on performance optimisations to improve the Next.js DX. See Tim Neutkens' [comment](https://github.com/vercel/next.js/issues/48748#issuecomment-1614456247) for more details.\n- 📦 [Styled-Components v6](https://github.com/styled-components/styled-components/releases/tag/v6.0.0): some breaking changes well documented in an upgrade guide..\n- 📦 [Astro Starlight](https://starlight.astro.build/): official Astro template for documentation, with a low carbon footprint and the option of using React and MDX.\n- 📦 [next-international v0.5 - initial App Router support](https://twitter.com/tomlienard/status/1675512683007705090)\n- 📦 [TinyBase v4.0 - Reactive data store for local‑first apps - SQLite and CRDT integrations](https://twitter.com/tinybasejs/status/1674826869169070080)\n- 📦 [Bun-Remix](https://github.com/jacob-ebey/bun-remix)\n- 🎙️ [Reactiflux - This Month in React – June 2023](https://podcasters.spotify.com/pod/show/reactiflux/episodes/This-Month-in-React--June-2023-e26dgii)\n- 🎥 [What's Next For Redux with Mark Erikson?](https://www.youtube.com/watch?v=n5FK8_EXcbs)"
+    },
+    {
+      "id": "41b1e179",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed placement=\"middle\" />",
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+    },
+    {
+      "id": "08832b14",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "1c598ecd",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "2547a6bb",
+      "translatable": true,
+      "content": "[![React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](/emails/issues/148/reactbricks.png)](https://reactbricks.com/?utm_source=thisweekinreact)",
+      "sourceMdx": "[![React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](/emails/issues/148/reactbricks.png)](https://reactbricks.com/?utm_source=thisweekinreact)"
+    },
+    {
+      "id": "0750bfa1",
+      "translatable": true,
+      "content": "**[React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](https://reactbricks.com/?utm_source=thisweekinreact)**",
+      "sourceMdx": "**[React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](https://reactbricks.com/?utm_source=thisweekinreact)**"
+    },
+    {
+      "id": "86348f98",
+      "translatable": true,
+      "content": "**It's flexible for Developers**: with React components you can create your own design system. Add true inline Visual editing to your JSX and add sidebar controls to edit props like the background color. You can choose Next.js, Remix or Gatsby and any CSS framework!",
+      "sourceMdx": "**It's flexible for Developers**: with React components you can create your own design system. Add true inline Visual editing to your JSX and add sidebar controls to edit props like the background color. You can choose Next.js, Remix or Gatsby and any CSS framework!"
+    },
+    {
+      "id": "6b77b644",
+      "translatable": true,
+      "content": "**Content editors** can easily edit content inline without breaking the design system. It's as easy as using Word or Pages, allowing them to create landing pages in minutes without relying on developer resources.",
+      "sourceMdx": "**Content editors** can easily edit content inline without breaking the design system. It's as easy as using Word or Pages, allowing them to create landing pages in minutes without relying on developer resources."
+    },
+    {
+      "id": "a311e967",
+      "translatable": true,
+      "content": "**It's enterprise-ready** with Collaboration, Time-machine, Single Sign-on, GDPR-compliant datacenters, Global CDN for optimized images, E-commerce integration, Fine-grained permissions, Scheduled publishing and more.",
+      "sourceMdx": "**It's enterprise-ready** with Collaboration, Time-machine, Single Sign-on, GDPR-compliant datacenters, Global CDN for optimized images, E-commerce integration, Fine-grained permissions, Scheduled publishing and more."
+    },
+    {
+      "id": "eb51d107",
+      "translatable": true,
+      "content": "**Get started here: [https://reactbricks.com](https://reactbricks.com/?utm_source=thisweekinreact)**",
+      "sourceMdx": "**Get started here: [https://reactbricks.com](https://reactbricks.com/?utm_source=thisweekinreact)**"
+    },
+    {
+      "id": "7fc4bca5",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "a138e327",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "a2c0166e",
+      "translatable": true,
+      "content": "[![Expo SDK 49 beta is now available](/emails/issues/151/expo49beta.jpg)](https://blog.expo.dev/expo-sdk-49-beta-is-now-available-6373e78f8624)",
+      "sourceMdx": "[![Expo SDK 49 beta is now available](/emails/issues/151/expo49beta.jpg)](https://blog.expo.dev/expo-sdk-49-beta-is-now-available-6373e78f8624)"
+    },
+    {
+      "id": "c1eaf30b",
+      "translatable": true,
+      "content": "**[Expo SDK 49 beta is now available](https://blog.expo.dev/expo-sdk-49-beta-is-now-available-6373e78f8624)**",
+      "sourceMdx": "**[Expo SDK 49 beta is now available](https://blog.expo.dev/expo-sdk-49-beta-is-now-available-6373e78f8624)**"
+    },
+    {
+      "id": "f0984c2a",
+      "translatable": true,
+      "content": "The new 49 SDK has just been released, in beta for around a week. A release packed with lots of great improvements, it's difficult to list them all. Here are my highlights:",
+      "sourceMdx": "The new 49 SDK has just been released, in beta for around a week. A release packed with lots of great improvements, it's difficult to list them all. Here are my highlights:"
+    },
+    {
+      "id": "2270deb6",
+      "translatable": true,
+      "content": "* React-Native v0.72\n* Expo Router v2 RC\n* Reanimated v3\n* Network debugging, VS Code debugging\n* React devtools built-in\n* Environment variables\n* Local Expo Modules\n* Experimental support for Fabric in expo-dev-client",
+      "sourceMdx": "- React-Native v0.72\n- Expo Router v2 RC\n- Reanimated v3\n- Network debugging, VS Code debugging\n- React devtools built-in\n- Environment variables\n- Local Expo Modules\n- Experimental support for Fabric in expo-dev-client"
+    },
+    {
+      "id": "6ad15270",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "a8610918",
+      "translatable": true,
+      "content": "[![Reinventing Camera Processing - TensorFlow Lite GPU straight from JavaScript](/emails/issues/151/visioncamera.jpg)](https://mrousavy.com/blog/Reinventing-Camera-Processing)",
+      "sourceMdx": "[![Reinventing Camera Processing - TensorFlow Lite GPU straight from JavaScript](/emails/issues/151/visioncamera.jpg)](https://mrousavy.com/blog/Reinventing-Camera-Processing)"
+    },
+    {
+      "id": "a6c928a1",
+      "translatable": true,
+      "content": "**[Reinventing Camera Processing - TensorFlow Lite GPU straight from JavaScript](https://mrousavy.com/blog/Reinventing-Camera-Processing)**",
+      "sourceMdx": "**[Reinventing Camera Processing - TensorFlow Lite GPU straight from JavaScript](https://mrousavy.com/blog/Reinventing-Camera-Processing)**"
+    },
+    {
+      "id": "b6152880",
+      "translatable": true,
+      "content": "Marc Rousavy explains how he is able to run TensorFlow models on React-Native Vision Camera v3 ([demo](https://twitter.com/mrousavy/status/1674791891823648770)). His plugin has just been open-sourced in [VisionCamera v3 rc.3](https://twitter.com/mrousavy/status/1675883155822202880). The article is fairly technical, explaining how it works internally to run at 60+ FPS. TLDR: it's now very easy to integrate a TensorFlow model into Vision Camera, and draw some real-time feedback via React-Native-Skia. There's no need to write native code, and all this logic can even be deployed via Over-The-Air updates!",
+      "sourceMdx": "Marc Rousavy explains how he is able to run TensorFlow models on React-Native Vision Camera v3 ([demo](https://twitter.com/mrousavy/status/1674791891823648770)). His plugin has just been open-sourced in [VisionCamera v3 rc.3](https://twitter.com/mrousavy/status/1675883155822202880). The article is fairly technical, explaining how it works internally to run at 60+ FPS. TLDR: it's now very easy to integrate a TensorFlow model into Vision Camera, and draw some real-time feedback via React-Native-Skia. There's no need to write native code, and all this logic can even be deployed via Over-The-Air updates!"
+    },
+    {
+      "id": "18fa676c",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "4b530389",
+      "translatable": true,
+      "content": "* 📦 [React-Native v0.72.1](https://github.com/facebook/react-native/releases/tag/v0.72.1)\n* 📦 [App Icon Badge](https://github.com/obytes/app-icon-badge): a super handy Expo Config Plugin to generate a different icon depending on the environment: dev, staging...\n* 📜 [iOS App Clips: a faster, smoother user experience](https://www.bam.tech/en/article/app-clips-ios-experience-utilisateur): explains the UX benefits of iOS App Clips and how they can be integrated into a React-Native app. You need to stay below the 10mb limit.\n* 🧵 [Expo weekly docs update](https://twitter.com/amanhimself/status/1675794149424115714)\n* 🎥 [Hacking Xcode with Colo Loco!](https://www.youtube.com/watch?v=ucEBfIZOap8)\n* 🎥 [What's New in React Native 0.72?](https://www.youtube.com/watch?v=XNeoSaacyX4)",
+      "sourceMdx": "- 📦 [React-Native v0.72.1](https://github.com/facebook/react-native/releases/tag/v0.72.1)\n- 📦 [App Icon Badge](https://github.com/obytes/app-icon-badge): a super handy Expo Config Plugin to generate a different icon depending on the environment: dev, staging...\n- 📜 [iOS App Clips: a faster, smoother user experience](https://www.bam.tech/en/article/app-clips-ios-experience-utilisateur): explains the UX benefits of iOS App Clips and how they can be integrated into a React-Native app. You need to stay below the 10mb limit.\n- 🧵 [Expo weekly docs update](https://twitter.com/amanhimself/status/1675794149424115714)\n- 🎥 [Hacking Xcode with Colo Loco!](https://www.youtube.com/watch?v=ucEBfIZOap8)\n- 🎥 [What's New in React Native 0.72?](https://www.youtube.com/watch?v=XNeoSaacyX4)"
+    },
+    {
+      "id": "f1a2be1a",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "13292277",
+      "translatable": true,
+      "content": "## 🧑‍💻 Jobs",
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+    },
+    {
+      "id": "e478ec2c",
+      "translatable": true,
+      "content": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)",
+      "sourceMdx": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)"
+    },
+    {
+      "id": "534ac82e",
+      "translatable": true,
+      "content": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses.",
+      "sourceMdx": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses."
+    },
+    {
+      "id": "a9c2a503",
+      "translatable": true,
+      "content": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
+      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)"
+    },
+    {
+      "id": "cfeb9eb1",
+      "translatable": true,
+      "content": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
+      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!"
+    },
+    {
+      "id": "f7e6e884",
+      "translatable": true,
+      "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+    },
+    {
+      "id": "17b50e81",
+      "translatable": true,
+      "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+    },
+    {
+      "id": "719d3997",
+      "translatable": true,
+      "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+    },
+    {
+      "id": "7057b5fb",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "2f2d5f01",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "9fbd2efb",
+      "translatable": true,
+      "content": "* [Ecma International approves ES2023](https://www.ecma-international.org/news/ecma-international-approves-new-standards-at-the-125th-general-assembly-27-june-2023/). Note: Change Array By Copy is now available in all browsers [with today's release of Firefox v115](https://twitter.com/sebastienlorber/status/1676139862745923585).\n* [TypeScript 5.2 Beta](https://devblogs.microsoft.com/typescript/announcing-typescript-5-2-beta/)\n* [Qwik 1.2](https://www.builder.io/blog/qwik-1-2-performance-autopilot)\n* [Ember 5.0](https://blog.emberjs.com/ember-5-0-released/)\n* [CSS: The Good Parts](https://www.builder.io/blog/css-the-good-parts)\n* [W3C First Public Working Draft: CSS Anchor Positioning](https://twitter.com/sebastienlorber/status/1675900466553659396)\n* [New to the web platform in June](https://web.dev/web-platform-06-2023/)\n* [Understanding SVG Paths](https://www.nan.fyi/svg-paths)\n* [The massive bug at the heart of the npm ecosystem](https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem)\n* [Writing a Node Library in Rust](https://blog.metlo.com/writing-a-node-library-in-rust/)\n* [CommonJS is not going away](https://bun.sh/blog/commonjs-is-not-going-away)\n* [CommonJS is hurting JavaScript](https://deno.com/blog/commonjs-is-hurting-javascript)",
+      "sourceMdx": "- [Ecma International approves ES2023](https://www.ecma-international.org/news/ecma-international-approves-new-standards-at-the-125th-general-assembly-27-june-2023/). Note: Change Array By Copy is now available in all browsers [with today's release of Firefox v115](https://twitter.com/sebastienlorber/status/1676139862745923585).\n- [TypeScript 5.2 Beta](https://devblogs.microsoft.com/typescript/announcing-typescript-5-2-beta/)\n- [Qwik 1.2](https://www.builder.io/blog/qwik-1-2-performance-autopilot)\n- [Ember 5.0](https://blog.emberjs.com/ember-5-0-released/)\n- [CSS: The Good Parts](https://www.builder.io/blog/css-the-good-parts)\n- [W3C First Public Working Draft: CSS Anchor Positioning](https://twitter.com/sebastienlorber/status/1675900466553659396)\n- [New to the web platform in June](https://web.dev/web-platform-06-2023/)\n- [Understanding SVG Paths](https://www.nan.fyi/svg-paths)\n- [The massive bug at the heart of the npm ecosystem](https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem)\n- [Writing a Node Library in Rust](https://blog.metlo.com/writing-a-node-library-in-rust/)\n- [CommonJS is not going away](https://bun.sh/blog/commonjs-is-not-going-away)\n- [CommonJS is hurting JavaScript](https://deno.com/blog/commonjs-is-hurting-javascript)"
+    },
+    {
+      "id": "d619fa73",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "6ffd1ebe",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "89cf7bac",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/151/meme.jpg)](https://twitter.com/localhost_5173/status/1675142562473185281)",
+      "sourceMdx": "[![alt](/emails/issues/151/meme.jpg)](https://twitter.com/localhost_5173/status/1675142562473185281)"
+    },
+    {
+      "id": "808b0414",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

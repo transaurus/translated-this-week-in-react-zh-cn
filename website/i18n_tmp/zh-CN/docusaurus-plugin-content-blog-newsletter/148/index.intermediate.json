@@ -1,0 +1,347 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/148/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /148\ntitle: \"This Week In React #148: Remix Routing, Hydration, React.FC, Vite + RSC, Zedux, Astro, Tremor, Valhalla, Reanimated, Expo-Apple-Targets, XCode 15...\"\nauthors: [slorber]\ndate: 06-13-2023\n---",
+      "sourceMdx": "---\nslug: /148\ntitle: \"This Week In React #148: Remix Routing, Hydration, React.FC, Vite + RSC, Zedux, Astro, Tremor, Valhalla, Reanimated, Expo-Apple-Targets, XCode 15...\"\nauthors: [slorber]\ndate: 06-13-2023\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "Well, Dan Abramov is [on holiday](https://twitter.com/dan_abramov/status/1666459095979753477), which is probably why there hasn't been much happening this week in our beloved ecosystem 😅.",
+      "sourceMdx": "Well, Dan Abramov is [on holiday](https://twitter.com/dan_abramov/status/1666459095979753477), which is probably why there hasn't been much happening this week in our beloved ecosystem 😅."
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "We do, however, have a few interesting articles and a potential official package for integrating React Server Components with Vite.",
+      "sourceMdx": "We do, however, have a few interesting articles and a potential official package for integrating React Server Components with Vite."
+    },
+    {
+      "id": "e883b2cc",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "86b54d44",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "7f7f1cb2",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "92f4ea84",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "5dfba1c3",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "1856ef44",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "79b2d0b9",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "d9172fa4",
+      "translatable": true,
+      "content": "[![Tina.io is a headless CMS for Markdown-powered sites](/emails/issues/140/tinacms.jpg)](https://tina.io/?utm_source=newsletter\\&utm_term=this-week-in-react)",
+      "sourceMdx": "[![Tina.io is a headless CMS for Markdown-powered sites](/emails/issues/140/tinacms.jpg)](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)"
+    },
+    {
+      "id": "26524352",
+      "translatable": true,
+      "content": "**[Tina.io is a headless CMS for Markdown-powered sites](https://tina.io/?utm_source=newsletter\\&utm_term=this-week-in-react)**",
+      "sourceMdx": "**[Tina.io is a headless CMS for Markdown-powered sites](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)**"
+    },
+    {
+      "id": "86b525ab",
+      "translatable": true,
+      "content": "* Editing UI for your Markdown files\n* UI for MDX components\n* Supports static (SSG) and server-side rendering (SSR)\n* Option for visual editing (live-preview)\n* Build with reusable blocks",
+      "sourceMdx": "- Editing UI for your Markdown files\n- UI for MDX components\n- Supports static (SSG) and server-side rendering (SSR)\n- Option for visual editing (live-preview)\n- Build with reusable blocks"
+    },
+    {
+      "id": "135468ee",
+      "translatable": true,
+      "content": "Test a starter site",
+      "sourceMdx": "Test a starter site"
+    },
+    {
+      "id": "e7bc8c38",
+      "translatable": true,
+      "content": "* [Docusaurus](https://github.com/tinacms/tinasaurus) (Github)\n* [Next.js + Tailwind with visual editing](https://github.com/tinacms/tina-cloud-starter) (Github)",
+      "sourceMdx": "- [Docusaurus](https://github.com/tinacms/tinasaurus) (Github)\n- [Next.js + Tailwind with visual editing](https://github.com/tinacms/tina-cloud-starter) (Github)"
+    },
+    {
+      "id": "1042b50d",
+      "translatable": true,
+      "content": "Or run  `npx create-tina-app@latest` then visit `localhost:3000/admin`",
+      "sourceMdx": "Or run  `npx create-tina-app@latest` then visit `localhost:3000/admin`"
+    },
+    {
+      "id": "aa1e7006",
+      "translatable": true,
+      "content": "Watch the [4-min demo video](https://www.youtube.com/watch?v=zRkeKSZjlyw)",
+      "sourceMdx": "Watch the [4-min demo video](https://www.youtube.com/watch?v=zRkeKSZjlyw)"
+    },
+    {
+      "id": "94f98fb8",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "6f930b2f",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "c504c207",
+      "translatable": true,
+      "content": "[![Colocate your routes into feature folders with Remix Custom Routes](/emails/issues/148/remix-routing.jpg)](https://www.jacobparis.com/content/remix-custom-routes)",
+      "sourceMdx": "[![Colocate your routes into feature folders with Remix Custom Routes](/emails/issues/148/remix-routing.jpg)](https://www.jacobparis.com/content/remix-custom-routes)"
+    },
+    {
+      "id": "98d26038",
+      "translatable": true,
+      "content": "**[Colocate your routes into feature folders with Remix Custom Routes](https://www.jacobparis.com/content/remix-custom-routes)**",
+      "sourceMdx": "**[Colocate your routes into feature folders with Remix Custom Routes](https://www.jacobparis.com/content/remix-custom-routes)**"
+    },
+    {
+      "id": "d3649a1e",
+      "translatable": true,
+      "content": "Explains how Remix v2's flat file routing will improve featured-based code colocation. This can be activated from Remix v1 with a feature flag. With Remix, you can create your own routing conventions: Jacob proposes to improve colocation even further with [remix-custom-routes](https://github.com/jacobparis-insiders/remix-custom-routes) and a naming convention using the `.route.tsx` suffix.",
+      "sourceMdx": "Explains how Remix v2's flat file routing will improve featured-based code colocation. This can be activated from Remix v1 with a feature flag. With Remix, you can create your own routing conventions: Jacob proposes to improve colocation even further with [remix-custom-routes](https://github.com/jacobparis-insiders/remix-custom-routes) and a naming convention using the `.route.tsx` suffix."
+    },
+    {
+      "id": "6e9a41d8",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "23dfb152",
+      "translatable": true,
+      "content": "[![Hydration is a tree, Resumability is a map](/emails/issues/148/hydration.jpg)](https://www.builder.io/blog/hydration-tree-resumability-map)",
+      "sourceMdx": "[![Hydration is a tree, Resumability is a map](/emails/issues/148/hydration.jpg)](https://www.builder.io/blog/hydration-tree-resumability-map)"
+    },
+    {
+      "id": "1131ef75",
+      "translatable": true,
+      "content": "**[Hydration is a tree, Resumability is a map](https://www.builder.io/blog/hydration-tree-resumability-map)**",
+      "sourceMdx": "**[Hydration is a tree, Resumability is a map](https://www.builder.io/blog/hydration-tree-resumability-map)**"
+    },
+    {
+      "id": "8b2a52b1",
+      "translatable": true,
+      "content": "Gives an interesting mental model for understanding the difference between hydration (React) and resumability (Qwik). With resumability, all components are considered static, and event handlers are the entry point for interactivity. There is no need to traverse a tree (`O(n)`): with resumability, scalability is good, like the lookup in a hashmap (`O(1)`).",
+      "sourceMdx": "Gives an interesting mental model for understanding the difference between hydration (React) and resumability (Qwik). With resumability, all components are considered static, and event handlers are the entry point for interactivity. There is no need to traverse a tree (`O(n)`): with resumability, scalability is good, like the lookup in a hashmap (`O(1)`)."
+    },
+    {
+      "id": "42c293cc",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "180e9ce9",
+      "translatable": true,
+      "content": "* 👀 [react-server-dom-vite](https://twitter.com/nkSaraf98/status/1667934636297650179): WIP React core PR being reviewed to add an official Vite integration package for React Server Components, supporting the lazy and ESM nature of the bundler.\n* 👤 [Sophie Alpert looking for a job](https://twitter.com/sebastienlorber/status/1668562588781748224): unique opportunity to hire one of the top React contributors of all time.\n* 📜 [You Can Stop Hating React.FC](https://www.totaltypescript.com/you-can-stop-hating-react-fc): for Matt Pocock, `React.FC` is no longer an anti-pattern starting with TypeScript 5.1 and React 18, but he recommends sticking to annotating props.\n* 📜 [Better Images in Astro](https://astro.build/blog/images/): Astro v2.6 brings a new optimised image component (experimental). It uses webp, avoids layout shifts, supports Markdown relative paths and external image services.\n* 📜 [Zedux: Is this the one?](https://omnistac.github.io/zedux/blog/zedux-is-this-the-one): introduction to Zedux, a new React state manager based on atoms and composition. There are a lot of React state managers out there, and I thought this one stood out and was worth taking a look at: impressive list of features, polished documentation, and takes the best of existing solutions.\n* 📜 [React: how to debug the source code](https://andreigatej.dev/blog/react-debugging-the-source-code/): a few setup tips if you want to debug Jest tests of the React codebase.\n* 📜 [Netlify Connect](https://twitter.com/ascorbic/status/1668586011117465600): integration of the Gatsby Valhalla GraphQL data layer into Netlify, following the acquisition of the React framework.\n* 📜 [Add Drizzle ORM to a Remix app](https://www.jacobparis.com/content/remix-drizzle)\n* 📜 [A Visual Guide to the new App Router in Next.js 13](https://www.builder.io/blog/next-13-app-router)\n* 🔗 [Thinking in React Query](https://tkdodo.eu/blog/thinking-in-react-query): slides from React-Summit talk. React-Query is an Async State Manager, not just a data fetching solution.\n* 📦 [Shadcn UI CLI](https://twitter.com/shadcn/status/1666861850091458560): new configurable CLI for the Radix/Tailwind Shadcn UI component collection.\n* 📦 [Hiber 3D](https://hiberworld.com/developer): new framework for creating interactive 3D worlds, based on React.\n* 📦 [NakedJSX](https://nakedjsx.org/): simple CLI tool to generate static sites in JSX.\n* 📦 [rad-event-listener](https://github.com/JLarky/rad-event-listener): alternative API for adding listeners. Returns a cleanup function: useful for reducing the React boilerplate.\n* 📦 [Tremor v3 - React library to build dashboards](https://twitter.com/tremorlabs/status/1666706183409860610)\n* 📦 [React-Redux 8.1](https://github.com/reduxjs/react-redux/releases/tag/v8.1.0)\n* 🎙️ [This Month in React – May 2023](https://podcasters.spotify.com/pod/show/reactiflux/episodes/This-Month-in-React--May-2023-e25flvh): our monthly podcast with Reactiflux.\n* 🎥 [Does Lock-In Even Matter Anymore?](https://www.youtube.com/watch?v=rtgjFEJaFI8): interesting reflection on the potential lock-in (or not) of Vercel when using certain Next.js features.\n* 🎥 [Is Next.js App Router Slow? Performance Deep Dive](https://www.youtube.com/watch?v=HbUDiNlU6Yw)\n* 🎥 [From Pages to the App Directory in Next.js 13 (Nested Layouts)](https://www.youtube.com/watch?v=QkntFWb_V8k)\n* 🎥 [High-school student makes React a million times faster](https://www.youtube.com/watch?v=VkezQMb1DHw)",
+      "sourceMdx": "- 👀 [react-server-dom-vite](https://twitter.com/nkSaraf98/status/1667934636297650179): WIP React core PR being reviewed to add an official Vite integration package for React Server Components, supporting the lazy and ESM nature of the bundler.\n- 👤 [Sophie Alpert looking for a job](https://twitter.com/sebastienlorber/status/1668562588781748224): unique opportunity to hire one of the top React contributors of all time.\n- 📜 [You Can Stop Hating React.FC](https://www.totaltypescript.com/you-can-stop-hating-react-fc): for Matt Pocock, `React.FC` is no longer an anti-pattern starting with TypeScript 5.1 and React 18, but he recommends sticking to annotating props.\n- 📜 [Better Images in Astro](https://astro.build/blog/images/): Astro v2.6 brings a new optimised image component (experimental). It uses webp, avoids layout shifts, supports Markdown relative paths and external image services.\n- 📜 [Zedux: Is this the one?](https://omnistac.github.io/zedux/blog/zedux-is-this-the-one): introduction to Zedux, a new React state manager based on atoms and composition. There are a lot of React state managers out there, and I thought this one stood out and was worth taking a look at: impressive list of features, polished documentation, and takes the best of existing solutions.\n- 📜 [React: how to debug the source code](https://andreigatej.dev/blog/react-debugging-the-source-code/): a few setup tips if you want to debug Jest tests of the React codebase.\n- 📜 [Netlify Connect](https://twitter.com/ascorbic/status/1668586011117465600): integration of the Gatsby Valhalla GraphQL data layer into Netlify, following the acquisition of the React framework.\n- 📜 [Add Drizzle ORM to a Remix app](https://www.jacobparis.com/content/remix-drizzle)\n- 📜 [A Visual Guide to the new App Router in Next.js 13](https://www.builder.io/blog/next-13-app-router)\n- 🔗 [Thinking in React Query](https://tkdodo.eu/blog/thinking-in-react-query): slides from React-Summit talk. React-Query is an Async State Manager, not just a data fetching solution.\n- 📦 [Shadcn UI CLI](https://twitter.com/shadcn/status/1666861850091458560): new configurable CLI for the Radix/Tailwind Shadcn UI component collection.\n- 📦 [Hiber 3D](https://hiberworld.com/developer): new framework for creating interactive 3D worlds, based on React.\n- 📦 [NakedJSX](https://nakedjsx.org/): simple CLI tool to generate static sites in JSX.\n- 📦 [rad-event-listener](https://github.com/JLarky/rad-event-listener): alternative API for adding listeners. Returns a cleanup function: useful for reducing the React boilerplate.\n- 📦 [Tremor v3 - React library to build dashboards](https://twitter.com/tremorlabs/status/1666706183409860610)\n- 📦 [React-Redux 8.1](https://github.com/reduxjs/react-redux/releases/tag/v8.1.0)\n- 🎙️ [This Month in React – May 2023](https://podcasters.spotify.com/pod/show/reactiflux/episodes/This-Month-in-React--May-2023-e25flvh): our monthly podcast with Reactiflux.\n- 🎥 [Does Lock-In Even Matter Anymore?](https://www.youtube.com/watch?v=rtgjFEJaFI8): interesting reflection on the potential lock-in (or not) of Vercel when using certain Next.js features.\n- 🎥 [Is Next.js App Router Slow? Performance Deep Dive](https://www.youtube.com/watch?v=HbUDiNlU6Yw)\n- 🎥 [From Pages to the App Directory in Next.js 13 (Nested Layouts)](https://www.youtube.com/watch?v=QkntFWb_V8k)\n- 🎥 [High-school student makes React a million times faster](https://www.youtube.com/watch?v=VkezQMb1DHw)"
+    },
+    {
+      "id": "897e0025",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed placement=\"middle\" />",
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+    },
+    {
+      "id": "c9716ede",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "39db08de",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "785750ac",
+      "translatable": true,
+      "content": "[![React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](/emails/issues/148/reactbricks.png)](https://reactbricks.com/?utm_source=thisweekinreact)",
+      "sourceMdx": "[![React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](/emails/issues/148/reactbricks.png)](https://reactbricks.com/?utm_source=thisweekinreact)"
+    },
+    {
+      "id": "82e90254",
+      "translatable": true,
+      "content": "**[React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](https://reactbricks.com/?utm_source=thisweekinreact)**",
+      "sourceMdx": "**[React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](https://reactbricks.com/?utm_source=thisweekinreact)**"
+    },
+    {
+      "id": "2822251a",
+      "translatable": true,
+      "content": "**It's flexible for Developers**: with React components you can create your own design system. Add true inline Visual editing to your JSX and add sidebar controls to edit props like the background color. You can choose Next.js, Remix or Gatsby and any CSS framework!",
+      "sourceMdx": "**It's flexible for Developers**: with React components you can create your own design system. Add true inline Visual editing to your JSX and add sidebar controls to edit props like the background color. You can choose Next.js, Remix or Gatsby and any CSS framework!"
+    },
+    {
+      "id": "25212439",
+      "translatable": true,
+      "content": "**Content editors** can easily edit content inline without breaking the design system. It's as easy as using Word or Pages, allowing them to create landing pages in minutes without relying on developer resources.",
+      "sourceMdx": "**Content editors** can easily edit content inline without breaking the design system. It's as easy as using Word or Pages, allowing them to create landing pages in minutes without relying on developer resources."
+    },
+    {
+      "id": "d79a4831",
+      "translatable": true,
+      "content": "**It's enterprise-ready** with Collaboration, Time-machine, Single Sign-on, GDPR-compliant datacenters, Global CDN for optimized images, E-commerce integration, Fine-grained permissions, Scheduled publishing and more.",
+      "sourceMdx": "**It's enterprise-ready** with Collaboration, Time-machine, Single Sign-on, GDPR-compliant datacenters, Global CDN for optimized images, E-commerce integration, Fine-grained permissions, Scheduled publishing and more."
+    },
+    {
+      "id": "2838eb68",
+      "translatable": true,
+      "content": "**Get started here: [https://reactbricks.com](https://reactbricks.com/?utm_source=thisweekinreact)**",
+      "sourceMdx": "**Get started here: [https://reactbricks.com](https://reactbricks.com/?utm_source=thisweekinreact)**"
+    },
+    {
+      "id": "f414353c",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "f947c8e4",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "38417f80",
+      "translatable": true,
+      "content": "* 📦 [React-Native 0.72.0-RC.6](https://github.com/facebook/react-native/releases/tag/v0.72.0-rc.6): new Golden RC fixing bugs and bringing XCode 15 support.\n* 📦 [React-Native 0.71.10](https://github.com/facebook/react-native/releases/tag/v0.71.10): XCode 15 support, also available for v0.70 and v0.69.\n* 📦 [Reanimated 3.3](https://twitter.com/swmansion/status/1668640779923849216): supports React-Native v0.72 and React Native Web v0.19.\n* 📦 [Expo-Apple-Targets](https://github.com/EvanBacon/expo-apple-targets): Config Plugin to create Apple targets (Share Extension, Widgets, Watch App...). It only handles target generation and linking, and is not a way to [develop those targets with React-Native](https://twitter.com/Baconbrix/status/1668001651922223104).\n* 📜 [Running Maestro UI Tests in an Expo Development Build](https://blog.mobile.dev/running-maestro-ui-tests-in-an-expo-development-builds-1ca443ab2a30)\n* 🎙️ [React-Native-Radio 268 - Embarking on Expo SDK 48](https://reactnativeradio.com/episodes/rnr-268-embarking-on-expo-sdk-48)\n* 🎥 [Building a MacOS App with React Native: Is it Possible?](https://www.youtube.com/watch?v=xkYy_6kje9E)\n* 🎥 [What’s the best cross-platform technology in 2023](https://www.youtube.com/watch?v=lYfgGgJgHB0): nice retrospective of cross-platform from 2010 to 2023, and the main players in 2023.\n* 🎥 [React Native Shared Element Transitions with Reanimated 3](https://www.youtube.com/watch?v=tsleLxbvxe0)",
+      "sourceMdx": "- 📦 [React-Native 0.72.0-RC.6](https://github.com/facebook/react-native/releases/tag/v0.72.0-rc.6): new Golden RC fixing bugs and bringing XCode 15 support.\n- 📦 [React-Native 0.71.10](https://github.com/facebook/react-native/releases/tag/v0.71.10): XCode 15 support, also available for v0.70 and v0.69.\n- 📦 [Reanimated 3.3](https://twitter.com/swmansion/status/1668640779923849216): supports React-Native v0.72 and React Native Web v0.19.\n- 📦 [Expo-Apple-Targets](https://github.com/EvanBacon/expo-apple-targets): Config Plugin to create Apple targets (Share Extension, Widgets, Watch App...). It only handles target generation and linking, and is not a way to [develop those targets with React-Native](https://twitter.com/Baconbrix/status/1668001651922223104).\n- 📜 [Running Maestro UI Tests in an Expo Development Build](https://blog.mobile.dev/running-maestro-ui-tests-in-an-expo-development-builds-1ca443ab2a30)\n- 🎙️ [React-Native-Radio 268 - Embarking on Expo SDK 48](https://reactnativeradio.com/episodes/rnr-268-embarking-on-expo-sdk-48)\n- 🎥 [Building a MacOS App with React Native: Is it Possible?](https://www.youtube.com/watch?v=xkYy_6kje9E)\n- 🎥 [What’s the best cross-platform technology in 2023](https://www.youtube.com/watch?v=lYfgGgJgHB0): nice retrospective of cross-platform from 2010 to 2023, and the main players in 2023.\n- 🎥 [React Native Shared Element Transitions with Reanimated 3](https://www.youtube.com/watch?v=tsleLxbvxe0)"
+    },
+    {
+      "id": "0bee36ce",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "b9b8694c",
+      "translatable": true,
+      "content": "## 🧑‍💻 Jobs",
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+    },
+    {
+      "id": "b6152880",
+      "translatable": true,
+      "content": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)",
+      "sourceMdx": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)"
+    },
+    {
+      "id": "b9331170",
+      "translatable": true,
+      "content": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses.",
+      "sourceMdx": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses."
+    },
+    {
+      "id": "8fcdd6d4",
+      "translatable": true,
+      "content": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
+      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)"
+    },
+    {
+      "id": "53aa2b95",
+      "translatable": true,
+      "content": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
+      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!"
+    },
+    {
+      "id": "9c9e2b64",
+      "translatable": true,
+      "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+    },
+    {
+      "id": "5c7d994c",
+      "translatable": true,
+      "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+    },
+    {
+      "id": "1ecf0882",
+      "translatable": true,
+      "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+    },
+    {
+      "id": "8bafd2d7",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "fff17ff8",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "b459cfc1",
+      "translatable": true,
+      "content": "* [Polywasm - A polyfill for WebAssembly](https://github.com/evanw/polywasm)\n* [Wasmati - a TypeScript library to write Wasm at the instruction level](https://www.zksecurity.xyz/blog/posts/wasmati/)\n* [Ezno compiler/typechecker open-sourced](https://github.com/kaleidawave/ezno/discussions/21)\n* [Why We Should Stop Using JavaScript According to Douglas Crockford](https://www.youtube.com/watch?v=lc5Np9OqDHU)\n* [Web Apps on macOS Sonoma 14 Beta](https://blog.tomayac.com/2023/06/07/web-apps-on-macos-sonoma-14-beta/)\n* [Modern CSS in Real Life](https://chriscoyier.net/2023/06/06/modern-css-in-real-life/)\n* [Modern CSS For Dynamic Component-Based Architecture](https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/)\n* [Lightning CSS 1.21](https://twitter.com/devongovett/status/1666476856990908416)\n* [ts-patterns 5.0](https://github.com/gvergnaud/ts-pattern/releases/tag/v5.0.0)\n* [What's New in DevTools (Chrome 115)](https://developer.chrome.com/blog/new-in-devtools-115/)",
+      "sourceMdx": "- [Polywasm - A polyfill for WebAssembly](https://github.com/evanw/polywasm)\n- [Wasmati - a TypeScript library to write Wasm at the instruction level](https://www.zksecurity.xyz/blog/posts/wasmati/)\n- [Ezno compiler/typechecker open-sourced](https://github.com/kaleidawave/ezno/discussions/21)\n- [Why We Should Stop Using JavaScript According to Douglas Crockford](https://www.youtube.com/watch?v=lc5Np9OqDHU)\n- [Web Apps on macOS Sonoma 14 Beta](https://blog.tomayac.com/2023/06/07/web-apps-on-macos-sonoma-14-beta/)\n- [Modern CSS in Real Life](https://chriscoyier.net/2023/06/06/modern-css-in-real-life/)\n- [Modern CSS For Dynamic Component-Based Architecture](https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/)\n- [Lightning CSS 1.21](https://twitter.com/devongovett/status/1666476856990908416)\n- [ts-patterns 5.0](https://github.com/gvergnaud/ts-pattern/releases/tag/v5.0.0)\n- [What's New in DevTools (Chrome 115)](https://developer.chrome.com/blog/new-in-devtools-115/)"
+    },
+    {
+      "id": "7057b5fb",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "2f2d5f01",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "44285072",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/148/meme.jpg)](https://twitter.com/adamwathan/status/1666939669311901696)",
+      "sourceMdx": "[![alt](/emails/issues/148/meme.jpg)](https://twitter.com/adamwathan/status/1666939669311901696)"
+    },
+    {
+      "id": "a8f09c71",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

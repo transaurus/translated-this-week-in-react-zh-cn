@@ -1,0 +1,140 @@
+---
+slug: /230
+title: "This Week In React #230: Next.js, Turbopack, Rspack, Activity, RSC, oRPC, tweakcn | Expo, Fantom, FlashList, SVG, Tracy, New Arch, Radon | TC39, Temporal, Zod, Bare, Rolldown, CSS Functions"
+authors: [slorber]
+date: 04-16-2025
+---
+
+大家好！
+
+本周Next.js发布了重大版本更新，构建速度显著提升。更令人兴奋的是React即将推出的`<Activity>`组件引发了大量讨论。社区也涌现了许多优质技术文章值得一读！
+
+React Native方面同样精彩，新版Expo SDK进入测试阶段，FlashList的下一版本也开始alpha测试。
+
+<!-- truncate -->
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![产品管理已失效 工程师可以修复它](/emails/issues/230/posthog.jpg)](https://go.posthog.com/twir-apr16)
+
+**[产品管理已失效 工程师可以修复它](https://go.posthog.com/twir-apr16)**
+
+[PostHog](https://go.posthog.com/twir-apr16-ph)初创时坚持**绝不雇佣产品经理**，主张由工程师直面产品难题。他们认为产品经理只会成为障碍。
+
+事实证明他们（部分）错了。没有产品经理，就无法推出8+个产品线或达成营收目标。
+
+关键在于**重新定义产品经理与工程师的协作模式**，实现速度与自主性的平衡。[本文详述了他们的具体方案](https://go.posthog.com/twir-apr16)。
+
+---
+
+## ⚛️ React动态 {#react}
+
+[![Next.js 15.3](/emails/issues/230/nextjs.jpg)](https://nextjs.org/blog/next-15-3)
+
+**[Next.js 15.3](https://nextjs.org/blog/next-15-3)**
+
+Next.js新版本亮点：
+
+- Turbopack构建工具(alpha)：通过8000+测试的生产构建提速方案（99%通过率）
+- 社区支持Rspack(实验性)：兼容Webpack的替代打包方案
+- 客户端埋点钩子：支持早期监控与数据分析配置
+- 导航钩子：通过`onNavigate`和`useLinkStatus`控制路由
+- TypeScript插件优化：增强大型代码库支持
+
+值得关注的是Next.js通过Turbopack实现更快的构建速度，同时引入Rspack作为Webpack替代方案，二者各有适用场景。
+
+延伸阅读资源：
+
+- 📦 [Rspack 1.3.5 - 正式加入Next.js生态](https://rspack.dev/blog/rspack-next-partner)
+- 🎥 [Theo深度解读 - Next.js 15.3对Vercel的重大意义](https://www.youtube.com/watch?v=jN0kB85rxGg)
+
+---
+
+- 💸 [Bit - 一个用于开发可组合软件的构建系统框架。支持 NodeJS、React 应用（使用 Vite）、NextJS 及现代技术栈。](https://bit.dev/?utm_source=ThisWeekInReact&utm_id=8&utm_medium=newsletter)
+- 👀 [React Types PR - `unstable_Activity`](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/72454)：近期围绕 `<Activity>` 组件的活动频繁，包括新增的 TypeScript 类型定义。这个即将推出的组件曾用名 `<Offscreen>`，[自 2022 年 React Labs 更新中首次提及](https://react.dev/blog/2022/06/15/react-labs-what-we-have-been-working-on-june-2022#offscreen)，可能即将正式发布？这个底层原语尤其令框架开发者兴奋，可充分释放 Concurrent React 的潜力。
+- 👀 [Next.js PR - 实验性 bfcache - 用 `<Activity>` 恢复状态](https://github.com/vercel/next.js/pull/77992)：不出所料，Next.js 开始通过实现后退/前进缓存功能来实验上述 `<Activity>` 组件，允许点击浏览器返回按钮时立即切换至上一页面并恢复其 React 状态。未来 Next.js（及其他 React/RN 框架）可能会实现推测性预渲染：当鼠标悬停在链接上时，React 就能开始渲染目标页面，无需等待点击。
+- 👀 [React Core PR - 在标志后添加 Suspensey Images](https://github.com/facebook/react/pull/32819)：一项即将推出的 React 功能可确保所有图片加载完成后再跳转页面。具体发布计划尚不明确：可能随小版本或大版本推出。
+- 📜 [JSX Over The Wire](https://overreacted.io/jsx-over-the-wire/)：Dan Abramov 通过三个故事阐释为何需要让 API 通过线路传输 JSX。替代方案可能是在客户端应用和 REST API 中维护并行的 Component 与 ViewModel 树。他还分享了促成 Server Components 诞生的历史背景与技术脉络。
+- 📜 [React Server Components 中的 Toast 消息](https://buildui.com/posts/toast-messages-in-react-server-components)：演示如何通过服务端 Cookie 在 Next.js Server Actions 中触发 Toast 消息显示。该技术也可用于其他类型的闪存消息。
+- 📜 [React 组件记忆化：useMemo 的用例](https://gabrielpichot.fr/blog/memoizing-components-in-react-a-case-for-usememo/)：这篇交互式文章主张多数 `React.memo` 可被 `useMemo` 替代，更接近 React Compiler 的实现逻辑。
+- 📜 [避免状态同步陷阱](https://ondrejvelisek.github.io/avoid-state-synchronization-trap/)：这篇交互式文章对比四种同步不同 React 状态的方案及其权衡，确保渲染结果的一致性。
+- 📜 [新的 Cookie Store API](https://fotis.xyz/posts/the-new-cookie-store-api/)：以及如何在 React 应用中逐步集成这个尚未广泛支持的 API。
+- 📜 [用 React 19 Actions 构建可复用组件](https://aurorascharff.no/posts/building-reusable-components-with-react19-actions/)
+- 📜 [通过分层 React 结构扩展项目](https://playfulprogramming.com/posts/layered-react-structure)
+- 📜 [View Transition API 及其在 NextJS 中的集成](https://www.premieroctet.com/blog/en/view-transition-api-in-next-js-and-react)
+- 📜 [在 React.js 中用 \<use/\> 懒加载 SVG 图标](https://www.jeantinland.com/blog/lazy-load-svg-icons-with-use-react-js/)
+- 💸 [指南：将 Clerk 集成至你的 Lovable 应用。附加 B2B、候补名单、自定义域名等增值功能](https://go.clerk.com/EbcUjrv)
+- 📦 [oRPC 1.0 - 类型安全的简易 API 方案](https://orpc.unnoq.com/blog/v1-announcement)：作为 tRPC、ts-rest 和 next-safe-action 的替代方案，提供 React 绑定、框架集成和 Server Actions 支持。
+- 📦 [tweakcn - shadcn/ui 组件的可视化无代码编辑器](https://github.com/jnsahaj/tweakcn)：便捷工具用于创建自定义 shadcn/ui 主题或使用预制主题。
+- 📦 [Astro 5.7 - SVG 组件、Sessions API、配置导入、实验性 Fonts API](https://astro.build/blog/astro-570/)
+- 📦 [React Aria 更新 - 自定义日历、集合功能优化、更小包体积](https://react-spectrum.adobe.com/releases/2025-04-11.html)
+- 🎥 [Jack Herrington - 在 TanStack Start 上使用 TanStack Query 的 tRPC v11！](https://www.youtube.com/watch?v=dLUyPLbvdY0)
+- 🎥 [Theo – 为什么 Next.js 这么慢？](https://www.youtube.com/watch?v=mMQCLQTky34)
+- 🎥 [Web Dev Simplified - 我是如何从零重建 TanStack Router 的](https://www.youtube.com/watch?v=b7uUWoS1Zro)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![加入App.js大会，与React Native核心团队面对面！](/emails/issues/230/appjs.jpg)](https://appjs.co)
+
+**[加入App.js大会，与React Native核心团队面对面！](https://appjs.co)**
+
+App.js大会是**不容错过**的盛会，您可以在这里遇见热门库与框架背后的开发团队，探讨跨平台开发的未来趋势，与500位志同道合的开发者建立联系，共同享受技术乐趣！
+
+- 来自Expo、Meta、Software Mansion、NFL、Amazon等企业的[已确认演讲嘉宾](https://appjs.co/#speakers)
+- 8场实用工作坊任选参与
+- 为期3天的知识盛宴，包含技术演讲与社交活动
+
+欢迎参与本年度最盛大的React Native & Expo活动！🚀
+
+---
+
+## 📱 React-Native {#react-native}
+
+- 💸 [WithFrame - 预制React Native模板](https://withfra.me)
+- 👀 [React Native Fantom](https://github.com/facebook/react-native/blob/main/packages/react-native-fantom/__docs__/README.md)：一款新的实验性集成测试与基准测试工具正在积极开发中。这是一个运行RN C++部分的Jest测试运行器，可用于测试影子节点、布局、事件、调度和C++状态更新等。该工具主要用于测试React Native内部机制，但未来可能扩展至测试库/产品代码。
+- 📖 [原生模块开发高级主题](https://reactnative.dev/docs/the-new-architecture/advanced-topics-modules) 和 [原生组件开发高级主题](https://reactnative.dev/docs/the-new-architecture/advanced-topics-components)：近期发布了多篇新架构高级主题文档，例如使用Swift或调用原生命令。
+- 📜 [使用Tracy分析React Native内部机制以实现峰值性能](https://www.callstack.com/blog/profiling-react-native-internals-with-tracy-for-peak-performance)：有时性能瓶颈并非来自你的应用，而是源于RN本身。这个统一的分析解决方案支持全平台。
+- 📜 [如何在Android上设置React Native核心功能标志](https://andrei-calazans.com/posts/react-native-android-feature-flags/)：快速技巧，解释如何开启Android上的`enableFabricLogs`。
+- 📜 [你可能不需要react-native-svg](https://blog.swmansion.com/you-might-not-need-react-native-svg-b5c65646d01f)：这个库非常灵活，但根据SVG的不同，可能会创建非常大的React组件树。存在多种具有不同权衡的替代方案。
+- 📜 [使用Skia在React Native中创建惊艳渐变效果](https://www.fabrizioduroni.it/blog/post/2025/04/02/react-native-skia-text-gradient)
+- 📦 [Expo SDK 53测试版](https://expo.dev/changelog/sdk-53-beta)：新版SDK升级至React Native 0.79和React 19，默认启用新架构并包含大量新功能。我们将在约2周后稳定版发布时深入介绍！
+- 📦 [FlashList 2.0 alpha版](https://github.com/Shopify/flash-list/tree/new-rlv-prototype)：这个优化列表组件的新版本现已进入alpha阶段，Shopify鼓励社区试用。完全重构后速度更快，利用新架构，且不再需要尺寸预估。
+- 📦 [Radon IDE 1.5 - 新增Radon AI聊天、改进EAS工作流、支持RN 0.79](https://github.com/software-mansion/radon-ide/releases/tag/v1.5.0)
+- 📦 [底部表单步进器 - 在底部表单中管理美观的多步骤流程](https://github.com/mahdidavoodi7/bottom-sheet-stepper)
+- 🎥 [Expo - Expo Router布局文件入门](https://www.youtube.com/watch?v=Yh6Qlg2CYwQ)：Expo新推出的Expo Router基础教程系列首支视频。
+- 🎥 [Callstack - 为什么你需要React Native企业框架](https://www.youtube.com/watch?v=yf-UZJ84-Gk)
+- 🎥 [Beto - Expo SDK 53新特性：React 19、Expo UI、EAS缓存、地图及Web版SQLite](https://www.youtube.com/watch?v=uXi503z8p-g)
+
+---
+
+## 🔀 其他 {#other}
+
+- 👀 [TC39第107次会议进行中](https://github.com/tc39/agendas/blob/main/2025/04.md)：正在实时推进多项激动人心的JS提案：组合类型（阶段1，取代记录与元组）、枚举（阶段1，兼容类型剥离）、Upsert操作（阶段2.7，Map的更新或插入操作）。
+- 👀 [SpiderMonkey - 正式发布Temporal](https://spidermonkey.dev/blog/2025/04/11/shipping-temporal.html)：Firefox 139将成为首个支持Temporal新特性的浏览器。
+- 📜 [浏览器中的自定义CSS函数](https://www.oddbird.net/2025/04/11/custom-functions/)：突破性的CSS特性，现已在Chromium Canary 136+版本提供原型支持。
+- 📜 [Rolldown工作原理：模块加载、依赖图与优化机制解析](https://www.atriiy.dev/blog/rolldown-module-loader-and-dependency-graph)
+- 📦 [Zod 4.0测试版 - 更快速、更轻量、更强的TS类型推断，实现多项长期期待的功能](https://v4.zod.dev/v4)
+- 📦 [Bare - 真正全平台运行的极简JS运行时](https://pears.com/news/introducing-bare-actually-run-javascript-everywhere/)
+- 📦 [Anime.js 4.0](https://animejs.com/)：动画库的完全重制版，配合惊艳的着陆页震撼发布。
+
+---
+
+## 🤭 轻松一刻 {#fun}
+
+[![alt](/emails/issues/230/meme.jpg)](https://x.com/sebastienlorber/status/1911715079919132842)
+
+[![alt](/emails/issues/230/meme2.jpg)](https://x.com/sebastienlorber/status/1910290087163670959)
+
+[![alt](/emails/issues/230/meme3.jpg)](https://x.com/PR0GRAMMERHUM0R/status/1910694354907263383)
+
+下次见！👋

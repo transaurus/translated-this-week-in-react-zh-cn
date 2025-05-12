@@ -1,0 +1,160 @@
+---
+slug: /148
+title: "This Week In React #148: Remix Routing, Hydration, React.FC, Vite + RSC, Zedux, Astro, Tremor, Valhalla, Reanimated, Expo-Apple-Targets, XCode 15..."
+authors: [slorber]
+date: 06-13-2023
+---
+
+大家好！
+
+由于Dan Abramov正在[休假](https://twitter.com/dan_abramov/status/1666459095979753477)，这大概就是我们热爱的React生态圈本周动静不大的原因😅。
+
+不过我们仍有一些有趣的文章，以及一个可能成为官方包的Vite集成React服务端组件方案。
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化版式 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![Tina.io是面向Markdown站点的无头CMS](/emails/issues/140/tinacms.jpg)](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)
+
+**[Tina.io是面向Markdown站点的无头CMS](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)**
+
+- 为Markdown文件提供可视化编辑界面
+- 支持MDX组件编辑
+- 兼容静态生成(SSG)与服务端渲染(SSR)
+- 可选实时预览编辑功能
+- 基于可复用区块构建
+
+体验示例项目
+
+- [Docusaurus版](https://github.com/tinacms/tinasaurus) (Github)
+- [Next.js + Tailwind可视化编辑版](https://github.com/tinacms/tina-cloud-starter) (Github)
+
+或运行 `npx create-tina-app@latest` 后访问 `localhost:3000/admin`
+
+观看[4分钟演示视频](https://www.youtube.com/watch?v=zRkeKSZjlyw)
+
+---
+
+## ⚛️ React动态 {#react}
+
+[![通过Remix自定义路由实现功能文件夹路由聚合](/emails/issues/148/remix-routing.jpg)](https://www.jacobparis.com/content/remix-custom-routes)
+
+**[通过Remix自定义路由实现功能文件夹路由聚合](https://www.jacobparis.com/content/remix-custom-routes)**
+
+解析Remix v2的扁平化文件路由如何优化功能模块的代码聚合。该特性可通过功能标志在Remix v1中启用。借助[remix-custom-routes](https://github.com/jacobparis-insiders/remix-custom-routes)和`.route.tsx`后缀命名约定，Jacob提出了更深度的代码聚合方案。
+
+---
+
+[![水合是棵树，可恢复性是张图](/emails/issues/148/hydration.jpg)](https://www.builder.io/blog/hydration-tree-resumability-map)
+
+**[水合是棵树，可恢复性是张图](https://www.builder.io/blog/hydration-tree-resumability-map)**
+
+通过形象对比揭示了React水合机制与Qwik可恢复性架构的本质差异。可恢复性架构将所有组件视为静态单元，事件处理器才是交互入口。它无需遍历组件树(`O(n)`)，其扩展性如同哈希表查询(`O(1)`)般高效。
+
+---
+
+- 👀 [react-server-dom-vite](https://twitter.com/nkSaraf98/status/1667934636297650179): 正在审查中的React核心PR，旨在为React服务端组件添加官方Vite集成包，支持该打包器的懒加载和ESM特性。
+- 👤 [Sophie Alpert正在求职](https://twitter.com/sebastienlorber/status/1668562588781748224): 雇佣这位史上顶级React贡献者之一的独特机会。
+- 📜 [你可以停止讨厌React.FC了](https://www.totaltypescript.com/you-can-stop-hating-react-fc): Matt Pocock认为从TypeScript 5.1和React 18开始，`React.FC`不再是反模式，但仍建议坚持对props进行类型标注。
+- 📜 [Astro中更好的图片处理](https://astro.build/blog/images/): Astro v2.6带来了新的实验性优化图片组件，支持webp格式、避免布局偏移、兼容Markdown相对路径和外部图片服务。
+- 📜 [Zedux：就是它了吗？](https://omnistac.github.io/zedux/blog/zedux-is-this-the-one): 介绍基于原子和组合的新React状态管理器Zedux。在众多React状态管理方案中，该库以功能全面、文档完善、集现有方案之长的特点脱颖而出。
+- 📜 [React：如何调试源码](https://andreigatej.dev/blog/react-debugging-the-source-code/): 调试React代码库Jest测试的配置技巧。
+- 📜 [Netlify Connect](https://twitter.com/ascorbic/status/1668586011117465600): 收购React框架后，Netlify整合了Gatsby Valhalla GraphQL数据层。
+- 📜 [在Remix应用中添加Drizzle ORM](https://www.jacobparis.com/content/remix-drizzle)
+- 📜 [Next.js 13新版App Router可视化指南](https://www.builder.io/blog/next-13-app-router)
+- 🔗 [React Query思维模式](https://tkdodo.eu/blog/thinking-in-react-query): React峰会演讲幻灯片。React-Query是异步状态管理器，而不仅是数据获取方案。
+- 📦 [Shadcn UI CLI](https://twitter.com/shadcn/status/1666861850091458560): 为Radix/Tailwind组件集合Shadcn UI推出的可配置命令行工具。
+- 📦 [Hiber 3D](https://hiberworld.com/developer): 基于React的交互式3D场景创建框架。
+- 📦 [NakedJSX](https://nakedjsx.org/): 用JSX生成静态站点的轻量CLI工具。
+- 📦 [rad-event-listener](https://github.com/JLarky/rad-event-listener): 返回清理函数的监听器替代API，可减少React样板代码。
+- 📦 [Tremor v3 - 仪表盘构建React库](https://twitter.com/tremorlabs/status/1666706183409860610)
+- 📦 [React-Redux 8.1](https://github.com/reduxjs/react-redux/releases/tag/v8.1.0)
+- 🎙️ [React月度播客 - 2023年5月](https://podcasters.spotify.com/pod/show/reactiflux/episodes/This-Month-in-React--May-2023-e25flvh): 与Reactiflux合作的月度播客。
+- 🎥 [锁定效应现在还重要吗？](https://www.youtube.com/watch?v=rtgjFEJaFI8): 关于使用Next.js特定功能时是否会导致Vercel平台锁定的深度探讨。
+- 🎥 [Next.js App Router慢吗？性能深度分析](https://www.youtube.com/watch?v=HbUDiNlU6Yw)
+- 🎥 [从Pages迁移到Next.js 13的App目录（嵌套布局）](https://www.youtube.com/watch?v=QkntFWb_V8k)
+- 🎥 [高中生让React性能提升百万倍](https://www.youtube.com/watch?v=VkezQMb1DHw)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![React Bricks是为Next.js、Remix和Gatsby设计的可视化编辑CMS](/emails/issues/148/reactbricks.png)](https://reactbricks.com/?utm_source=thisweekinreact)
+
+**[React Bricks是为Next.js、Remix和Gatsby设计的可视化编辑CMS](https://reactbricks.com/?utm_source=thisweekinreact)**
+
+**开发者友好设计**：通过React组件，您可以创建自己的设计系统。为JSX添加真正的内联可视化编辑功能，并通过侧边栏控件调整如背景色等props属性。可自由选择Next.js、Remix或Gatsby框架，并兼容任何CSS方案！
+
+**内容编辑者**能轻松内联修改内容而不破坏设计系统。操作体验如同使用Word或Pages，使他们能在几分钟内独立创建落地页，无需依赖开发资源。
+
+**企业级功能完备**：支持多人协作、版本回溯、单点登录、符合GDPR的数据中心、全球CDN加速图片加载、电商集成、细粒度权限控制、定时发布等。
+
+**立即体验：[https://reactbricks.com](https://reactbricks.com/?utm_source=thisweekinreact)**
+
+---
+
+## 📱 React-Native动态 {#react-native}
+
+- 📦 [React-Native 0.72.0-RC.6](https://github.com/facebook/react-native/releases/tag/v0.72.0-rc.6)：修复bug的新Golden候选版，支持XCode 15
+- 📦 [React-Native 0.71.10](https://github.com/facebook/react-native/releases/tag/v0.71.10)：同样支持XCode 15，该特性也适用于v0.70和v0.69版本
+- 📦 [Reanimated 3.3](https://twitter.com/swmansion/status/1668640779923849216)：兼容React-Native v0.72和React Native Web v0.19
+- 📦 [Expo-Apple-Targets](https://github.com/EvanBacon/expo-apple-targets)：用于创建Apple目标（共享扩展/小组件/手表应用等）的配置插件。仅处理目标生成和链接，并非[用React-Native开发这些目标](https://twitter.com/Baconbrix/status/1668001651922223104)的方案
+- 📜 [在Expo开发构建中运行Maestro UI测试](https://blog.mobile.dev/running-maestro-ui-tests-in-an-expo-development-builds-1ca443ab2a30)
+- 🎙️ [React-Native-Radio 268 - 初探Expo SDK 48](https://reactnativeradio.com/episodes/rnr-268-embarking-on-expo-sdk-48)
+- 🎥 [用React Native开发MacOS应用可行吗？](https://www.youtube.com/watch?v=xkYy_6kje9E)
+- 🎥 [2023年最佳跨平台技术方案](https://www.youtube.com/watch?v=lYfgGgJgHB0)：精彩回顾2010-2023年跨平台技术演进及2023年主流方案
+- 🎥 [使用Reanimated 3实现React Native共享元素转场动画](https://www.youtube.com/watch?v=tsleLxbvxe0)
+
+---
+
+## 🧑‍💻 职位招聘 {#jobs}
+
+🧑‍💼 [**Passionfroot - 高级全栈工程师（Remix）- €160k+，柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)
+
+Passionfroot致力于通过YouTube、播客、社交媒体和新闻通讯赋能新一代独立创业者。加入我们，共同打造帮助全球创作者建立可扩展、可持续业务的工具。
+
+🧑‍💼 [**Callstack - 高级React Native开发 - 完全远程，B2B月薪净收入2.1-3.2万波兰兹罗提**](https://www.callstack.com/senior-react-native-developer)
+
+您想参与全球顶级应用的开发吗？渴望共同塑造React Native技术未来？加入Callstack这个由React & React Native领军者组成的团队。详情请访问官网，我们期待看到您的申请——请尽情展示您的才华！
+
+🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
+
+我们为专注React Native的开发者提供多个岗位！年薪约16万美元外加10%奖金。需具备RN生产环境经验且base美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解详情，记得提及This Week in React。
+
+💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
+
+---
+
+## 🔀 其他资讯 {#other}
+
+- [Polywasm - WebAssembly 的 polyfill 方案](https://github.com/evanw/polywasm)
+- [Wasmati - 指令级编写 Wasm 的 TypeScript 库](https://www.zksecurity.xyz/blog/posts/wasmati/)
+- [Ezno 编译器/类型检查器开源](https://github.com/kaleidawave/ezno/discussions/21)
+- [Douglas Crockford 认为我们应该停止使用 JavaScript](https://www.youtube.com/watch?v=lc5Np9OqDHU)
+- [macOS Sonoma 14 Beta 上的 Web 应用](https://blog.tomayac.com/2023/06/07/web-apps-on-macos-sonoma-14-beta/)
+- [现实中的现代 CSS](https://chriscoyier.net/2023/06/06/modern-css-in-real-life/)
+- [动态组件化架构中的现代 CSS](https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/)
+- [Lightning CSS 1.21 发布](https://twitter.com/devongovett/status/1666476856990908416)
+- [ts-patterns 5.0 发布](https://github.com/gvergnaud/ts-pattern/releases/tag/v5.0.0)
+- [Chrome 115 开发者工具新特性](https://developer.chrome.com/blog/new-in-devtools-115/)
+
+---
+
+## 🤭 轻松一刻 {#fun}
+
+[![alt](/emails/issues/148/meme.jpg)](https://twitter.com/adamwathan/status/1666939669311901696)
+
+下次见！👋

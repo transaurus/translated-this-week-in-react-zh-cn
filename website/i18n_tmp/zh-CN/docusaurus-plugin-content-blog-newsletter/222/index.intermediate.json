@@ -1,0 +1,323 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/222/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /222\ntitle: \"This Week In React #222: CRA, React Router, captureOwnerStack, TanStack, CTRA, tRPC, Astro, Preact | RN 0.78, React 19, Expo, noCompress, JitPack, CRNL, Screens | TC39, Interop, TS, CSS, Node.js, Deno\"\nauthors: [slorber]\ndate: 02-19-2025\n---",
+      "sourceMdx": "---\nslug: /222\ntitle: \"This Week In React #222: CRA, React Router, captureOwnerStack, TanStack, CTRA, tRPC, Astro, Preact | RN 0.78, React 19, Expo, noCompress, JitPack, CRNL, Screens | TC39, Interop, TS, CSS, Node.js, Deno\"\nauthors: [slorber]\ndate: 02-19-2025\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "This week we have 2 official blog posts from the React and React Native core teams! CRA is deprecated and React Native 0.78 is out with React 19 support.",
+      "sourceMdx": "This week we have 2 official blog posts from the React and React Native core teams! CRA is deprecated and React Native 0.78 is out with React 19 support."
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "🎂 We're also celebrating this newsletter's 5th anniversary! The [first issue](https://substack.thisweekinreact.com/p/react-hebdo-sebastien-lorber-1-20-02-13) went out on February 13th. For the first 2 years it was only in French. I’d love to know who's been reading since the early days—say hi if you have! 😀",
+      "sourceMdx": "🎂 We're also celebrating this newsletter's 5th anniversary! The [first issue](https://substack.thisweekinreact.com/p/react-hebdo-sebastien-lorber-1-20-02-13) went out on February 13th. For the first 2 years it was only in French. I’d love to know who's been reading since the early days—say hi if you have! 😀"
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "Check our partner conf **[React Native Connection](https://reactnativeconnection.io/?utm_source=thisweekinreact)** -  🇫🇷 Paris - April 1-2 - 15% discount with code \"TWIR\". The French React Native conference is back with Britta Evans-Fenton (Shopify), Kadi Kraman (Expo), Krzysztof Piaskowy (Software Mansion), Saad Najmi (Microsoft) and more - and great deep-diving talks!",
+      "sourceMdx": "Check our partner conf **[React Native Connection](https://reactnativeconnection.io/?utm_source=thisweekinreact)** -  🇫🇷 Paris - April 1-2 - 15% discount with code \"TWIR\". The French React Native conference is back with Britta Evans-Fenton (Shopify), Kadi Kraman (Expo), Krzysztof Piaskowy (Software Mansion), Saad Najmi (Microsoft) and more - and great deep-diving talks!"
+    },
+    {
+      "id": "6429a3aa",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "6c991806",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "8f488ab5",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "fb3d50cd",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "95b38f97",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "ccc88b4c",
+      "translatable": true,
+      "content": "[![PropelAuth: Make Authentication Your Advantage](/emails/issues/218/propelauth.jpg)](https://www.propelauth.com/?utm_source=newsletter\\&utm_campaign=twinrfeb192024)",
+      "sourceMdx": "[![PropelAuth: Make Authentication Your Advantage](/emails/issues/218/propelauth.jpg)](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrfeb192024)"
+    },
+    {
+      "id": "d9172fa4",
+      "translatable": true,
+      "content": "**[PropelAuth: Make Authentication Your Advantage](https://www.propelauth.com/?utm_source=newsletter\\&utm_campaign=twinrfeb192024)**",
+      "sourceMdx": "**[PropelAuth: Make Authentication Your Advantage](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrfeb192024)**"
+    },
+    {
+      "id": "26524352",
+      "translatable": true,
+      "content": "If your authentication isn't **helping you grow**, it's **holding you back**.",
+      "sourceMdx": "If your authentication isn't **helping you grow**, it's **holding you back**."
+    },
+    {
+      "id": "73ab96a3",
+      "translatable": true,
+      "content": "With [PropelAuth](https://www.propelauth.com/?utm_source=newsletter\\&utm_campaign=twinrjan222024), you get everything you need to launch and scale your B2B product:",
+      "sourceMdx": "With [PropelAuth](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024), you get everything you need to launch and scale your B2B product:"
+    },
+    {
+      "id": "f2c8a42b",
+      "translatable": true,
+      "content": "* **Easy to understand** [documentation](https://docs.propelauth.com/?utm_source=newsletter\\&utm_campaign=twinrjan222024) and **friendly, fast support**.\n* **UIs that cover all your use cases** - signup, login, MFA, organization management and more.\n* **User impersonation** so you can provide top-notch support to your users.\n* **Enterprise SAML/SSO** and **advanced security features** so you can be upmarket-ready.\n* **User insights** to help you strategize and expand.",
+      "sourceMdx": "- **Easy to understand** [documentation](https://docs.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024) and **friendly, fast support**.\n- **UIs that cover all your use cases** - signup, login, MFA, organization management and more.\n- **User impersonation** so you can provide top-notch support to your users.\n- **Enterprise SAML/SSO** and **advanced security features** so you can be upmarket-ready.\n- **User insights** to help you strategize and expand."
+    },
+    {
+      "id": "33331f27",
+      "translatable": true,
+      "content": "[Get started today](https://www.propelauth.com/?utm_source=newsletter\\&utm_campaign=twinrjan222024)",
+      "sourceMdx": "[Get started today](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)"
+    },
+    {
+      "id": "602e59c7",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "54268405",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "8af76f3d",
+      "translatable": true,
+      "content": "[![Sunsetting Create React App](/emails/issues/222/cra.jpg)](https://react.dev/blog/2025/02/14/sunsetting-create-react-app)",
+      "sourceMdx": "[![Sunsetting Create React App](/emails/issues/222/cra.jpg)](https://react.dev/blog/2025/02/14/sunsetting-create-react-app)"
+    },
+    {
+      "id": "a9d49f92",
+      "translatable": true,
+      "content": "**[Sunsetting Create React App](https://react.dev/blog/2025/02/14/sunsetting-create-react-app)**",
+      "sourceMdx": "**[Sunsetting Create React App](https://react.dev/blog/2025/02/14/sunsetting-create-react-app)**"
+    },
+    {
+      "id": "a44047a5",
+      "translatable": true,
+      "content": "Long overdue, CRA has received the latest React 19 fixes and is now officially deprecated. This article explains the limits of the CRA and build tools regarding routing, waterfalls, code splitting, and more. The React team encourages us to adopt a framework like Next.js, React Router, or Expo to address these issues. However, you can still [build a React app from scratch](https://react.dev/learn/build-a-react-app-from-scratch) using Vite, Parcel, Rsbuild, or other modern build tools.",
+      "sourceMdx": "Long overdue, CRA has received the latest React 19 fixes and is now officially deprecated. This article explains the limits of the CRA and build tools regarding routing, waterfalls, code splitting, and more. The React team encourages us to adopt a framework like Next.js, React Router, or Expo to address these issues. However, you can still [build a React app from scratch](https://react.dev/learn/build-a-react-app-from-scratch) using Vite, Parcel, Rsbuild, or other modern build tools."
+    },
+    {
+      "id": "f7ef78f9",
+      "translatable": true,
+      "content": "The initial announcement sparked heated debates on X and GitHub, mainly because it overemphasized frameworks at the expense of build tools like Vite. It was [soon updated](https://github.com/reactjs/react.dev/pull/7624) to address these concerns. All this also led to potential collaboration opportunities between [Evan You (Vite) and the React team](https://github.com/facebook/react/pull/31768#issuecomment-2666856223) to work together on an opinionated \"official\" way to integrate with Vite with React Server Components, with a commitment to maintain this integration over time in the React repository.",
+      "sourceMdx": "The initial announcement sparked heated debates on X and GitHub, mainly because it overemphasized frameworks at the expense of build tools like Vite. It was [soon updated](https://github.com/reactjs/react.dev/pull/7624) to address these concerns. All this also led to potential collaboration opportunities between [Evan You (Vite) and the React team](https://github.com/facebook/react/pull/31768#issuecomment-2666856223) to work together on an opinionated \"official\" way to integrate with Vite with React Server Components, with a commitment to maintain this integration over time in the React repository."
+    },
+    {
+      "id": "b36c6338",
+      "translatable": true,
+      "content": "Related news:",
+      "sourceMdx": "Related news:"
+    },
+    {
+      "id": "9b797309",
+      "translatable": true,
+      "content": "* 📜 [Use a framework to build React Native apps](https://reactnative.dev/blog/2024/06/25/use-a-framework-to-build-react-native-apps): A few months ago, the React Native team made a similar announcement, claiming “you’re either using a framework or you’re building your own framework”.\n* 📦 [Create TanStack Router App](https://github.com/TanStack/create-tsrouter-app): Jack Herrington’s first contribution to the TanStack is an alternative to Create-React-App, also introduced it in a [video](https://www.youtube.com/watch?v=10J6RyMOxN0)\n* 📦 [CRA to Parcel](https://github.com/parcel-bundler/cra-to-parcel): A script to migrate a non-ejected Create React App to Parcel",
+      "sourceMdx": "- 📜 [Use a framework to build React Native apps](https://reactnative.dev/blog/2024/06/25/use-a-framework-to-build-react-native-apps): A few months ago, the React Native team made a similar announcement, claiming “you’re either using a framework or you’re building your own framework”.\n- 📦 [Create TanStack Router App](https://github.com/TanStack/create-tsrouter-app): Jack Herrington’s first contribution to the TanStack is an alternative to Create-React-App, also introduced it in a [video](https://www.youtube.com/watch?v=10J6RyMOxN0)\n- 📦 [CRA to Parcel](https://github.com/parcel-bundler/cra-to-parcel): A script to migrate a non-ejected Create React App to Parcel"
+    },
+    {
+      "id": "b760ab3f",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "24c174ca",
+      "translatable": true,
+      "content": "* 💸 [Product for Engineers - How we choose technologies](https://dub.link/twir-feb19)\n* 📣 [Vercel - Support for React Router v7](https://vercel.com/changelog/support-for-react-router-v7): First-class support for React Router in framework mode with support for SSR on the new optimized Fluid compute serverless feature.\n* 📖 [React core docs - `captureOwnerStack()`](https://react.dev/reference/react/captureOwnerStack): A new experimental React core API has been recently unflagged and is now officially documented. It is particularly useful for frameworks to enhance their custom error overlays. Unsurprisingly, Next.js is working on a new overlay that leverages this API ([example](https://x.com/sebastienlorber/status/1890361565960151374)).\n* 📖 [Vercel AI docs - Duman-in-the-Loop with Next.js](https://sdk.vercel.ai/cookbook/next/human-in-the-loop): A recipe to prompt users for yes/no confirmation before LLM tool calls.\n* 📜 [Introducing the new TanStack React Query integration](https://trpc.io/blog/introducing-tanstack-react-query-client): The upcoming tRPC v11 is in RC and leverages React Query’s `queryOptions()` to remove an abstraction layer: you can now use the native `useQuery()` instead of the tRPC wrapper.\n* 📜 [Designing Backgrounds with LLMs and React](https://www.vigilant.run/blog/designing-backgrounds-with-llms-and-react): Tools like Cursor are quite good at authoring artistic React components.\n* 📜 [Snapshot testing styled-components with Vitest](https://brightinventions.pl/blog/snapshot-testing-styled-components-with-vitest/): The existing StyledComponents Jest snapshot serializer is also compatible with Vitest. I’m not a fan of snapshotting styles and usually prefer [visual regression tests](https://docusaurus.io/blog/upgrading-frontend-dependencies-with-confidence-using-visual-regression-testing), but this might help existing codebases migrate to Vitest.\n* 📜 [I like the future of Next.js](https://tigerabrodi.blog/i-like-the-future-of-nextjs): Thoughts on dynamic IO, PPR, and the `use cache` directive.\n* 📜 [React \"as\" Prop Using TypeScript](https://playfulprogramming.com/posts/react-as-prop)\n* 📜 [Client-Side Rendering in Flame Graphs](https://www.developerway.com/posts/client-side-rendering-flame-graph)\n* 📜 [React Libraries for 2025](https://www.robinwieruch.de/react-libraries/)\n* 📜 [Tanstack Start - Is it the Next NextJS?](https://spin.atomicobject.com/tanstack-start-nextjs/)\n* 📦 [React Router 7.2 - Type-safe `href()` utility](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v720): A welcome improvement giving route path autocompletion and params validation. This release also include support for an SPA fallback static file, and 2 new future flags `unstable_splitRouteModules` and `unstable_viteEnvironmentApi`.\n* 📦 [TanStack Start 1.107 - AbortSignal for server functions](https://tanstack.com/start/latest/docs/framework/react/server-functions#cancellation)\n* 📦 [Astro 5.3 - Faster SSR, automatic session storage setup](https://astro.build/blog/astro-530/)\n* 📦 [Preact 10.26 - Support for React 19 `<Context>`](https://github.com/preactjs/preact/releases/tag/10.26.0)\n* 📦 [9ui - Beautiful, customizable components built with Base UI and Tailwind CSS](https://www.9ui.dev/): Using the shadcn distribution model but using Base UI, a new interesting alternative to Radix. The author is also porting popular libs such as Vaul and cmdk.\n* 📦 [Kokonut UI - Collection of components built for Next.js and React with Tailwind CSS](https://kokonutui.com/): Another option using the shadcn distribution model.\n* 📦 [React Bits - Collection of animated, interactive & fully customizable React components for building stunning, memorable user interfaces](https://github.com/DavidHDev/react-bits)\n* 🎥 [Alem Tuzlak - Understanding the server/client boundary in react-router](https://www.youtube.com/watch?v=zyQjzId0H7s)\n* 🎙️ [Front-End Fire 81 - State of React Results, TypeScript 5.8, and v0 Upgrades](https://front-end-fire.com/episodes/81/)",
+      "sourceMdx": "- 💸 [Product for Engineers - How we choose technologies](https://dub.link/twir-feb19)\n- 📣 [Vercel \\- Support for React Router v7](https://vercel.com/changelog/support-for-react-router-v7): First-class support for React Router in framework mode with support for SSR on the new optimized Fluid compute serverless feature.\n- 📖 [React core docs \\- `captureOwnerStack()`](https://react.dev/reference/react/captureOwnerStack): A new experimental React core API has been recently unflagged and is now officially documented. It is particularly useful for frameworks to enhance their custom error overlays. Unsurprisingly, Next.js is working on a new overlay that leverages this API ([example](https://x.com/sebastienlorber/status/1890361565960151374)).\n- 📖 [Vercel AI docs \\- Duman-in-the-Loop with Next.js](https://sdk.vercel.ai/cookbook/next/human-in-the-loop): A recipe to prompt users for yes/no confirmation before LLM tool calls.\n- 📜 [Introducing the new TanStack React Query integration](https://trpc.io/blog/introducing-tanstack-react-query-client): The upcoming tRPC v11 is in RC and leverages React Query’s `queryOptions()` to remove an abstraction layer: you can now use the native `useQuery()` instead of the tRPC wrapper.\n- 📜 [Designing Backgrounds with LLMs and React](https://www.vigilant.run/blog/designing-backgrounds-with-llms-and-react): Tools like Cursor are quite good at authoring artistic React components.\n- 📜 [Snapshot testing styled-components with Vitest](https://brightinventions.pl/blog/snapshot-testing-styled-components-with-vitest/): The existing StyledComponents Jest snapshot serializer is also compatible with Vitest. I’m not a fan of snapshotting styles and usually prefer [visual regression tests](https://docusaurus.io/blog/upgrading-frontend-dependencies-with-confidence-using-visual-regression-testing), but this might help existing codebases migrate to Vitest.\n- 📜 [I like the future of Next.js](https://tigerabrodi.blog/i-like-the-future-of-nextjs): Thoughts on dynamic IO, PPR, and the `use cache` directive.\n- 📜 [React \"as\" Prop Using TypeScript](https://playfulprogramming.com/posts/react-as-prop)\n- 📜 [Client-Side Rendering in Flame Graphs](https://www.developerway.com/posts/client-side-rendering-flame-graph)\n- 📜 [React Libraries for 2025](https://www.robinwieruch.de/react-libraries/)\n- 📜 [Tanstack Start \\- Is it the Next NextJS?](https://spin.atomicobject.com/tanstack-start-nextjs/)\n- 📦 [React Router 7.2 \\- Type-safe `href()` utility](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v720): A welcome improvement giving route path autocompletion and params validation. This release also include support for an SPA fallback static file, and 2 new future flags `unstable_splitRouteModules` and `unstable_viteEnvironmentApi`.\n- 📦 [TanStack Start 1.107 \\- AbortSignal for server functions](https://tanstack.com/start/latest/docs/framework/react/server-functions#cancellation)\n- 📦 [Astro 5.3 \\- Faster SSR, automatic session storage setup](https://astro.build/blog/astro-530/)\n- 📦 [Preact 10.26 \\- Support for React 19 `<Context>`](https://github.com/preactjs/preact/releases/tag/10.26.0)\n- 📦 [9ui \\- Beautiful, customizable components built with Base UI and Tailwind CSS](https://www.9ui.dev/): Using the shadcn distribution model but using Base UI, a new interesting alternative to Radix. The author is also porting popular libs such as Vaul and cmdk.\n- 📦 [Kokonut UI \\- Collection of components built for Next.js and React with Tailwind CSS](https://kokonutui.com/): Another option using the shadcn distribution model.\n- 📦 [React Bits \\- Collection of animated, interactive & fully customizable React components for building stunning, memorable user interfaces](https://github.com/DavidHDev/react-bits)\n- 🎥 [Alem Tuzlak \\- Understanding the server/client boundary in react-router](https://www.youtube.com/watch?v=zyQjzId0H7s)\n- 🎙️ [Front-End Fire 81 \\- State of React Results, TypeScript 5.8, and v0 Upgrades](https://front-end-fire.com/episodes/81/)"
+    },
+    {
+      "id": "3e8b4b41",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed placement=\"middle\" />",
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+    },
+    {
+      "id": "c46c3e3d",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "2e771fd0",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "0750bfa1",
+      "translatable": true,
+      "content": "[![Rethink your React apps' UX with Reactile](/emails/issues/216/reactile.jpg)](https://www.reactile.net/?utm_source=ThisweekinReact)",
+      "sourceMdx": "[![Rethink your React apps' UX with Reactile](/emails/issues/216/reactile.jpg)](https://www.reactile.net/?utm_source=ThisweekinReact)"
+    },
+    {
+      "id": "86348f98",
+      "translatable": true,
+      "content": "**[Rethink your React apps' UX with Reactile](https://www.reactile.net/?utm_source=ThisweekinReact)**",
+      "sourceMdx": "**[Rethink your React apps' UX with Reactile](https://www.reactile.net/?utm_source=ThisweekinReact)**"
+    },
+    {
+      "id": "6b77b644",
+      "translatable": true,
+      "content": "Reactile is an UI/UX turnkey framework which features an out-of-the-box, intuitive tiling display with workspaces. It encourages parallel workloads for large web solutions within a single browser tab. Implement your own view containers, widgets and logic using React and let Reactile handle the display for you.",
+      "sourceMdx": "Reactile is an UI/UX turnkey framework which features an out-of-the-box, intuitive tiling display with workspaces. It encourages parallel workloads for large web solutions within a single browser tab. Implement your own view containers, widgets and logic using React and let Reactile handle the display for you."
+    },
+    {
+      "id": "a311e967",
+      "translatable": true,
+      "content": "On top of that, Reactile also offers:",
+      "sourceMdx": "On top of that, Reactile also offers:"
+    },
+    {
+      "id": "cfea4c31",
+      "translatable": true,
+      "content": "* A promise-based persistence mechanism which permits a uniform workflow across time and on multiple devices.\n* The possibility to use nested tabs for your tiles.\n* A simplified global search mechanism.\n* CSS @container based responsiveness.\n* And much more.",
+      "sourceMdx": "- A promise-based persistence mechanism which permits a uniform workflow across time and on multiple devices.\n- The possibility to use nested tabs for your tiles.\n- A simplified global search mechanism.\n- CSS @container based responsiveness.\n- And much more."
+    },
+    {
+      "id": "a2c0166e",
+      "translatable": true,
+      "content": "Version 2 coming out soon. Get started with your unique 30-day free trial. Learn more about it on reactile.net.",
+      "sourceMdx": "Version 2 coming out soon. Get started with your unique 30-day free trial. Learn more about it on reactile.net."
+    },
+    {
+      "id": "c1eaf30b",
+      "translatable": true,
+      "content": "[Reactile - The new React UI management system](https://www.reactile.net/price?utm_source=ThisweekinReact)",
+      "sourceMdx": "[Reactile - The new React UI management system](https://www.reactile.net/price?utm_source=ThisweekinReact)"
+    },
+    {
+      "id": "4fc5e34f",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "56bc971f",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "0801d969",
+      "translatable": true,
+      "content": "[![React Native 0.78 - React 19 and more](/emails/issues/222/rn.jpg)](https://reactnative.dev/blog/2025/02/19/react-native-0.78)",
+      "sourceMdx": "[![React Native 0.78 - React 19 and more](/emails/issues/222/rn.jpg)](https://reactnative.dev/blog/2025/02/19/react-native-0.78)"
+    },
+    {
+      "id": "3c19e221",
+      "translatable": true,
+      "content": "**[React Native 0.78 - React 19 and more](https://reactnative.dev/blog/2025/02/19/react-native-0.78)**",
+      "sourceMdx": "**[React Native 0.78 \\- React 19 and more](https://reactnative.dev/blog/2025/02/19/react-native-0.78)**"
+    },
+    {
+      "id": "d21af28f",
+      "translatable": true,
+      "content": "I bet you weren't expecting a React Native release so soon, but the team recently decided to releases smaller versions more frequently. Here are the highlights:",
+      "sourceMdx": "I bet you weren't expecting a React Native release so soon, but the team recently decided to releases smaller versions more frequently. Here are the highlights:"
+    },
+    {
+      "id": "2979d081",
+      "translatable": true,
+      "content": "* React 19 support!\n* Simplified process to enable the React Compiler.\n* Metro log streaming is back in 0.78 and 0.77.1, but opt-in with a new `--client-logs` flag, and still deprecated.\n* `<Image>` supports Android XML resources, unlocking possible perf improvements.\n* `ReactNativeFactory` on iOS to ease brownfield usage in any ViewController",
+      "sourceMdx": "- React 19 support\\!\n- Simplified process to enable the React Compiler.\n- Metro log streaming is back in 0.78 and 0.77.1, but opt-in with a new `--client-logs` flag, and still deprecated.\n- `<Image>` supports Android XML resources, unlocking possible perf improvements.\n- `ReactNativeFactory` on iOS to ease brownfield usage in any ViewController"
+    },
+    {
+      "id": "f38d1cb0",
+      "translatable": true,
+      "content": "React 19 itself unlocks many cool things:",
+      "sourceMdx": "React 19 itself unlocks many cool things:"
+    },
+    {
+      "id": "0aa939cf",
+      "translatable": true,
+      "content": "* Actions (async transitions), `useActionState()`, `useOptimistic()`, all useful to submit forms and manage loading, error, and optimistic state\n* Use `ref` as a regular prop instead of `forwardRef()`, also supporting a ref cleanup function\n* Use `<Context>` instead of `<Context.Provider>`\n* Read contexts and promises with `use()`",
+      "sourceMdx": "- Actions (async transitions), `useActionState()`, `useOptimistic()`, all useful to submit forms and manage loading, error, and optimistic state\n- Use `ref` as a regular prop instead of `forwardRef()`, also supporting a ref cleanup function\n- Use `<Context>` instead of `<Context.Provider>`\n- Read contexts and promises with `use()`"
+    },
+    {
+      "id": "75603060",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "d8460b5b",
+      "translatable": true,
+      "content": "* 💸 [Codemagic - a great App Center alternative for React Native devs! 8x faster builds, CodePush, automated distribution. 1-month free trial!](https://codemagic.io/migration-from-app-center/?utm_source=newsletter\\&utm_medium=email\\&utm_campaign=app_center_this_week_react)\n* 📣 [Expo support for React Native 0.78](https://expo.dev/changelog/react-native-78): Due to the React 19 upgrade, v0.78 will not be supported in SDK52, but will be in the canary version. SDK 53 is scheduled for this spring and will likely upgrade directly to 0.79.\n* 👀 [Gradle Plugin PR - Add option to disable bundle compression](https://github.com/facebook/react-native/pull/49449): Marc Rousavy proposing a `react.enableBundleCompression` Gradle property. Turning it off could greatly optimize Android app startup time became (and is now the new default), but it also increases the app install size.\n* 💬 [Making the JitPack Repository optional](https://github.com/react-native-community/discussions-and-proposals/discussions/877): Android apps With v0.78, Android apps have a new `react.includeJitpackRepository=true` Gradle property. Turning it off could improve supply chain security, and may become the default in the future.\n* 📜 [Checkbox Interactions - The beauty of Layout Animations](https://reactiive.io/articles/checkbox-interactions)\n* 📜 [Universal App with Expo](https://www.premieroctet.com/blog/en/universal-app-with-expo)\n* 📦 [Create React Native Library 0.48 - Support for Nitro modules](https://github.com/callstack/react-native-builder-bob/releases/tag/create-react-native-library%400.48.0)\n* 📦 [React Native Screens 4.7 - Fix Android formSheet transition](https://github.com/software-mansion/react-native-screens/releases/tag/4.7.0)\n* 📦 [Expo AI Chatbot - Starter to build a universal Expo + Next.js chatbot with premium option](https://www.expoaichatbot.com/)\n* 🎥 [Expo - EAS Workflows: React Native CI/CD for app developers](https://www.youtube.com/watch?v=OJ2u9tQCpr4)\n* 🎥 [Catalin Miron - Apple Invites animation](https://www.youtube.com/watch?v=P_gYeiFipsk)\n* 🎥 [Simon Grimm - The Fastest Way to Build a Mobile App (AI + Expo = Magic)](https://www.youtube.com/watch?v=fJb6f2Sw4Ek)\n* 🎙️ [React Universe On Air 48 - Reanimated 4 is the Future of Smooth React Native Animations](https://www.youtube.com/watch?v=wAfJqFX62ag)",
+      "sourceMdx": "- 💸 [Codemagic - a great App Center alternative for React Native devs! 8x faster builds, CodePush, automated distribution. 1-month free trial!](https://codemagic.io/migration-from-app-center/?utm_source=newsletter&utm_medium=email&utm_campaign=app_center_this_week_react)\n- 📣 [Expo support for React Native 0.78](https://expo.dev/changelog/react-native-78): Due to the React 19 upgrade, v0.78 will not be supported in SDK52, but will be in the canary version. SDK 53 is scheduled for this spring and will likely upgrade directly to 0.79.\n- 👀 [Gradle Plugin PR \\- Add option to disable bundle compression](https://github.com/facebook/react-native/pull/49449): Marc Rousavy proposing a `react.enableBundleCompression` Gradle property. Turning it off could greatly optimize Android app startup time became (and is now the new default), but it also increases the app install size.\n- 💬 [Making the JitPack Repository optional](https://github.com/react-native-community/discussions-and-proposals/discussions/877): Android apps With v0.78, Android apps have a new `react.includeJitpackRepository=true` Gradle property. Turning it off could improve supply chain security, and may become the default in the future.\n- 📜 [Checkbox Interactions \\- The beauty of Layout Animations](https://reactiive.io/articles/checkbox-interactions)\n- 📜 [Universal App with Expo](https://www.premieroctet.com/blog/en/universal-app-with-expo)\n- 📦 [Create React Native Library 0.48 \\- Support for Nitro modules](https://github.com/callstack/react-native-builder-bob/releases/tag/create-react-native-library%400.48.0)\n- 📦 [React Native Screens 4.7 \\- Fix Android formSheet transition](https://github.com/software-mansion/react-native-screens/releases/tag/4.7.0)\n- 📦 [Expo AI Chatbot \\- Starter to build a universal Expo \\+ Next.js chatbot with premium option](https://www.expoaichatbot.com/)\n- 🎥 [Expo \\- EAS Workflows: React Native CI/CD for app developers](https://www.youtube.com/watch?v=OJ2u9tQCpr4)\n- 🎥 [Catalin Miron \\- Apple Invites animation](https://www.youtube.com/watch?v=P_gYeiFipsk)\n- 🎥 [Simon Grimm \\- The Fastest Way to Build a Mobile App (AI \\+ Expo \\= Magic)](https://www.youtube.com/watch?v=fJb6f2Sw4Ek)\n- 🎙️ [React Universe On Air 48 \\- Reanimated 4 is the Future of Smooth React Native Animations](https://www.youtube.com/watch?v=wAfJqFX62ag)"
+    },
+    {
+      "id": "294e85af",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "8b448c8b",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "dd45f3ea",
+      "translatable": true,
+      "content": "* 📣 [TC39 - Agenda for the 106th meeting](https://github.com/tc39/agendas/blob/main/2025/02.md): Meeting in progress. Great proposals have already progressed, including `RegExp.escape()`, `import defer`, `Math.clamp(),` and more.\n* 📣 [Interop 2025](https://web.dev/blog/interop-2025): Browsers agreed to work in priority on exciting features such as CSS anchor positioning, View Transition API, Navigation API, and many others.\n* 📣 [ESLint now officially supports linting of CSS](https://eslint.org/blog/2025/02/eslint-css-support/)\n* 📜 [Bundling dependencies (and when not to do it)](https://e18e.dev/blog/bundling-dependencies.html)\n* 📜 [CSS @function + CSS if() = 🤯](https://www.bram.us/2025/02/18/css-at-function-and-css-if/)\n* 📜 [Mocking in Node.js Has Just Changed Forever](https://kettanaito.com/blog/mocking-in-nodejs-has-just-changed-forever)\n* 📦 [TypeScript 5.8 RC - `erasableSyntaxOnly`\\` , `require(esm)`, dependent return type narrowing](https://devblogs.microsoft.com/typescript/announcing-typescript-5-8-rc/)\n* 📦 [Node 23.8 - `URLPattern` API, thread names, zstd compression, using system CA](https://nodejs.org/en/blog/release/v23.8.0)\n* 📦 [Node 22.14 - `findPackageJSON`, glob `exclude`, Corepack pnpm fix](https://nodejs.org/en/blog/release/v22.14.0)\n* 📦 [Deno 2.2 - OpenTelemetry, Lint Plugins, `node:sqlite`](https://deno.com/blog/v2.2)",
+      "sourceMdx": "- 📣 [TC39 \\- Agenda for the 106th meeting](https://github.com/tc39/agendas/blob/main/2025/02.md): Meeting in progress. Great proposals have already progressed, including `RegExp.escape()`, `import defer`, `Math.clamp(),` and more.\n- 📣 [Interop 2025](https://web.dev/blog/interop-2025): Browsers agreed to work in priority on exciting features such as CSS anchor positioning, View Transition API, Navigation API, and many others.\n- 📣 [ESLint now officially supports linting of CSS](https://eslint.org/blog/2025/02/eslint-css-support/)\n- 📜 [Bundling dependencies (and when not to do it)](https://e18e.dev/blog/bundling-dependencies.html)\n- 📜 [CSS @function \\+ CSS if() \\= 🤯](https://www.bram.us/2025/02/18/css-at-function-and-css-if/)\n- 📜 [Mocking in Node.js Has Just Changed Forever](https://kettanaito.com/blog/mocking-in-nodejs-has-just-changed-forever)\n- 📦 [TypeScript 5.8 RC \\- `erasableSyntaxOnly`\\` , `require(esm)`, dependent return type narrowing](https://devblogs.microsoft.com/typescript/announcing-typescript-5-8-rc/)\n- 📦 [Node 23.8 \\- `URLPattern` API, thread names, zstd compression, using system CA](https://nodejs.org/en/blog/release/v23.8.0)\n- 📦 [Node 22.14 \\- `findPackageJSON`, glob `exclude`, Corepack pnpm fix](https://nodejs.org/en/blog/release/v22.14.0)\n- 📦 [Deno 2.2 \\- OpenTelemetry, Lint Plugins, `node:sqlite`](https://deno.com/blog/v2.2)"
+    },
+    {
+      "id": "ee213c98",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "008183b0",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/222/meme.jpg)](https://bsky.app/profile/sebastienlorber.com/post/3lifbkotlfc2v)",
+      "sourceMdx": "[![alt](/emails/issues/222/meme.jpg)](https://bsky.app/profile/sebastienlorber.com/post/3lifbkotlfc2v)"
+    },
+    {
+      "id": "0ddaa835",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/222/meme2.jpg)](https://x.com/sebastienlorber/status/1891548981848834219)",
+      "sourceMdx": "[![alt](/emails/issues/222/meme2.jpg)](https://x.com/sebastienlorber/status/1891548981848834219)"
+    },
+    {
+      "id": "fd7ed056",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+---
+slug: /127
+title: "This Week In React #127: Nextra, React-Query, React Documentary, Storybook, Remix, Tamagui, Solito, TC39, Rome..."
+authors: [slorber]
+date: 12-06-2022
+---
+
+大家好！
+
+本周我们有一些不错的文章。我很喜欢探索React-Query的实现原理，以及Storybook的最新动态。
+
+Nextra v2将成为Docusaurus的有力竞争者！
+
+一部关于React的纪录片正在制作中，预告片已经发布 🙌
+
+React-Native方面也相当活跃！有许多重要版本发布，React-Native现状调查也在进行中。
+
+本期我将图片放在了标题/文字下方，你们觉得这样更好还是更喜欢图片在上方？欢迎告诉我你们的偏好。
+
+<!-- truncate -->
+
+**💡 [在Twitter上查看本期简报](https://slo.im/thread) - 可视化格式 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![FlyCode让React应用无需编码即可编辑，基于Git](/emails/issues/124/flycode.jpg)](https://bit.ly/3UPwAoJ)
+
+**[FlyCode让React应用无需编码即可编辑，基于Git](https://bit.ly/3UPwAoJ)**
+
+[FlyCode](https://bit.ly/3wWSi00)（YC S22）能让产品与UX团队在几分钟内编辑React网页应用，加速迭代与发布流程，无需等待（或占用）开发者时间。
+
+FlyCode会解析常规React代码，识别文本、图片、设计标记和分析事件，让非技术人员协作编辑并通过拉取请求提交修改（无需GitHub访问权限！）
+
+- 节省开发时间
+- 无需代码集成，直接解析现有代码！
+- 基于GitHub，机器人自动扫描代码并创建PR
+- 兼容自有技术栈和组件
+- 保留代码库所有权
+
+立即体验：[flycode.com/developers](https://www.flycode.com/developers)
+
+---
+
+## ⚛️ React {#react}
+
+**[Nextra 2.0](https://nextra.site/)**
+
+Nextra是基于Next.js的文档站点生成工具，由Vercel工程师开发。v2版本全新发布，具有重新设计的界面和完善的功能集（MDX 2、Tailwind、搜索、国际化、无障碍支持、代码高亮等）。依托Next.js可享受现代化基础设施和最新特性，同时支持静态文档与动态页面（SSR、ISR）混合部署。这是我在开发的[Docusaurus](https://docusaurus.io/)项目的强劲竞争对手。
+
+[![Nextra 2.0](/emails/issues/127/nextra.jpg)](https://nextra.site/)
+
+---
+
+**[深入React Query](https://tkdodo.eu/blog/inside-react-query)**
+
+Dominik解析了React-Query的工作原理，详细阐述了QueryClient、QueryCache、Query、Persister、QueryObserver等核心模块的协作关系。其中许多模块不依赖React，这正是TanStack Query能通过适配器轻松支持SolidJS等其他框架的关键。
+
+[![深入React Query](/emails/issues/127/react-query.png)](https://tkdodo.eu/blog/inside-react-query)
+
+---
+
+**[NextJS、SvelteKit、Remix与Storybook的未来](https://storybook.js.org/blog/framework-api/)**
+
+Storybook 7.0将推出全新Framework API，支持创建"框架包"（如`@storybook/nextjs`）来预配置特定技术栈的Storybook（构建器、渲染器、应用设置）并支持扩展。目前已实现多个基于Vite的框架支持，Next.js和SvelteKit适配即将推出，Remix支持也在考虑中。
+
+[![NextJS、SvelteKit、Remix与Storybook的未来](/emails/issues/127/storybook-frameworks.png)](https://storybook.js.org/blog/framework-api/)
+
+---
+
+- 🍿 [React.js 纪录片 - 预告片](https://www.youtube.com/watch?v=gmp0istg5xo)：一部关于React的纪录片将于二月发布。在此期间你可以观看这段2分钟的预告片。众多知名嘉宾参与了制作。我非常期待看到这部作品，重温React的早期岁月。这个[恶搞视频](https://www.youtube.com/watch?v=Ov0alO_k_1k)也让我忍俊不禁;)
+- 📖 Beta文档：[useTransition](https://twitter.com/dan_abramov/status/1598468389340585984) + [Suspense](https://twitter.com/dan_abramov/status/1598412132827435008) + [useDeferredValue](https://twitter.com/dan_abramov/status/1598414645244534784)。我们理解Dan Abramov[连做梦都在写文档](https://twitter.com/dan_abramov/status/1598149838017003520) 😅 很高兴这项长期工作即将完成。
+- 📜 [经验之谈：如今我会如何重建Twitter这样的社交应用](https://paularmstrong.dev/blog/2022/11/28/lessons-learned-how-i-would-rebuild-twitter-today/)：Paul曾参与Twitter网页版开发。他思考如今会做出哪些技术选择：将用Tailwind替代React-Native-Web（后者存在实用性问题，且Twitter并未使用React-Native导致跨平台优势有限）；还会采用SolidJS或Preact+Signals等响应式框架。其他亮点包括：Vite、模块联邦、客户端提示、Deno...
+- 📜 [React与React Native究竟有何不同？](https://echobind.com/post/react-vs-react-native-how-different-are-they)：详细解析React(DOM)与React-Native的异同。对考虑学习React-Native的Web开发者极具参考价值，也帮助管理者评估采用React-Native的投入成本。
+- 📜 [Remix部署目标的多维分析](https://andre-landgraf.dev/blog/2022-12-03_different-dimensions-of-remix-deploy-targets)：通过适配器，Remix可部署至多种平台。本文从多个维度分析各目标平台特性，辅助开发者做出明智选择。
+- 📜 [Storybook中的组件测试](https://bradfrost.com/blog/link/component-testing-in-storybook/)：Brad Frost对Storybook最新测试功能的评价（基于[此视频](https://www.youtube.com/watch?v=wEa6W8uUGSA)）。我也认同仅用Jest不适合视觉渲染测试。
+- 📜 [类型安全且完备的React条件渲染](https://www.lloydatkinson.net/posts/2022/react-conditional-rendering-with-type-safety-and-exhaustive-checking/)：React+TypeScript实用技巧，确保联合类型的所有情况都被处理（期待真正的模式匹配支持）。
+- 📜 [从Redux迁移至TanStack Query和Redux Toolkit的实践](https://tech.storyly.io/how-we-migrated-from-redux-to-tanstack-query-and-redux-toolkit-ac9be2f445be)：两个基于Redux项目的不同迁移路径——分别采用RTK和React-Query的渐进式改造故事。
+- 📜 [重新思考Remix中的预加载](https://www.themosaad.com/blog/reconsider-prefetching-in-remix)：关于快速但不一致导航影响的深度思考（未预加载时可能变慢）。我对结论持保留意见：应保持预加载能力同时优化UX一致性。
+- 📜 [为Remix添加滚动会话](https://sergiodxa.com/articles/add-rolling-sessions-to-remix)
+- 📜 [React中的Children Prop模式](https://www.craftvalue.io/blog/react-children-prop-pattern)
+- 🎥 [TanStack Router：类型安全的路由与URL状态管理](https://www.youtube.com/watch?v=qUZm3gbMOeo)：Tanner演示其全新类型安全且框架无关的路由方案。我与他有[相同观察](https://twitter.com/sebastienlorber/status/1555493419128168449)：现有API（Next.js、React-Router）对重度使用查询字符串的应用支持不足，亟需类型安全解决方案。
+- 🎥 [深度解析React流式渲染！NextJS！Remix！手动实现！](https://www.youtube.com/watch?v=o3JWb04DRIs)：详解React流式渲染原理，涵盖Next.js和Remix框架实现，并演示非生产级自制方案。
+- 🎥 [Remix路线图规划#1](https://www.youtube.com/watch?v=YSo0vKqAWtk)：框架首次公开路线图会议，践行[Remix开放开发宣言](https://remix.run/blog/open-development)。
+- 🎥 [ChatGPT将php+jquery重构为Next.js](https://twitter.com/thekitze/status/1598414259137880066)：这款AI令人惊艳，本周引发开发者广泛讨论！
+- 🎨 [HTML+React-Three-Fiber演示](https://twitter.com/0xca0a/status/1599367266448994304)：使用React-Three-Fiber在3D场景中集成HTML变得越来越简单高效。
+- 🐦 [Nodejs.dev将采用Next.js？](https://twitter.com/ovflowd/status/1599417661242232832)：Node.js文档可能从Gatsby迁移至Next.js
+- 🐦 [React服务端组件+MDX](https://twitter.com/sebastienlorber/status/1598615824927002624)：RSC对使用MDX的内容站点（如Docusaurus/Nextra）可能有重大影响;)
+- 📨 [React.holiday](https://react.holiday/)：为期25天的Next.js 13新特性快闪邮件课程
+- 📦 [Papanasi 1.0](https://twitter.com/CKGrafico/status/1597585206034169857)：创新UI组件库发布，基于[Mitosis](https://github.com/builderio/mitosis)实现多框架编译（React/Vue/Svelte/Solid...）
+- 📦 [Jotai 1.11](https://twitter.com/jotaijs/status/1598366077527810048)
+- 📦 [Gatsby 5.2](https://www.gatsbyjs.com/docs/reference/release-notes/v5.2/)
+- 📦 [Redwood 3.5](https://github.com/redwoodjs/redwood/releases/tag/v3.5.0)
+
+<SubscribeFormEmbed />
+
+---
+
+## 💸 赞助 {#sponsor2}
+
+<div style={{maxWidth: 300}}>
+
+[![JavaScriptBoard.com - Let the job find you](/emails/issues/127/javascriptboard.jpg)](https://cutt.ly/C1VnflC)
+
+</div>
+
+**[JavaScriptBoard.com - 让工作机会找到你](https://cutt.ly/C1VnflC)**
+
+JavaScriptBoard.com **颠覆传统招聘模式**，专注于为开发者寻找**长期稳定的工作关系**。
+
+无需再浏览LinkedIn上 recruiter 的无效消息和不感兴趣的职位邀约！
+
+在JavaScriptBoard.com注册后，您只会收到符合您要求的职位推荐。
+
+- 100%的职位包含**薪资范围**。
+- 默认保障开发者**完全匿名**。
+- **无需提交简历**（可选）。
+- 通过JavaScriptBoard.com成功入职可获**500美元奖励**！
+
+**免费注册 [JavaScriptBoard.com](https://cutt.ly/C1VnflC)**
+
+---
+
+## 📱 React-Native {#react-native}
+
+- 📊 [React Native现状报告](https://stateofreactnative.com/)：Software Mansion正在筹备一项关于React-Native的调研，并邀请我们参与问题设计：[2022年问题征集](https://github.com/software-mansion/state-of-react-native/discussions/1)。
+- 📦 [Tamagui v1候选版本](https://tamagui.dev/blog/version-one-release-candidate)：Tamagui是一个基于编译器的跨平台样式解决方案（支持移动端和Web）。RC版本标志着API的稳定。
+- 📦 [Solito v2](https://solito.dev/v2)：跨平台导航方案，支持Next.js 13并新增SolitoImage组件。
+- 📦 [Reanimated 3.0-rc.8](https://twitter.com/kzzzf/status/1598394289570156544)：Shared Values全新高效实现。
+- 📦 [Preact-Native](https://github.com/barelyhuman/preact-native)：开发者尝试在React-Native中运行Preact，该项目因复杂度较高已[暂缓](https://reaper.is/writing/20221204-decisions-and-updates-november-2022)。
+- 📦 [create-react-native-library 0.27.2](https://twitter.com/satya164/status/1598774126805766144)：支持RN 0.71和Fabric模板。
+- 📦 [React-Native 0.71.0-RC.3](https://twitter.com/Kelset/status/1598018432229777408)：0.71正式版即将发布！
+- 📦 [Airbnb - Lottie 4.0 iOS版发布](https://medium.com/airbnb-engineering/announcing-lottie-4-0-for-ios-d4d226862a54)
+- 📦 [Maestro](https://github.com/mobile-dev-inc/maestro)：流行的端到端黑盒测试工具（类似Appium）
+- 💬 [Expo Router RFC - 共享路由](https://twitter.com/Baconbrix/status/1598074538298048512)
+- 💬 [VisionCamera 3.0讨论](https://github.com/mrousavy/react-native-vision-camera/issues/1376)
+- 🐦 [Krzysztof Magiera - "Reanimated下个版本将支持完整的堆栈追踪"](https://twitter.com/kzzzf/status/1598828117509910528)
+- 🎥 [用React-Native Skia实现彩带动效](https://www.youtube.com/watch?v=qOhYFDOEOmo)
+
+---
+
+## 🧑‍💻 职位 {#jobs}
+
+🧑‍💼 [**Causal产品工程师 - 远程/伦敦/纽约, $150-250k**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied&lever-source%5B%5D=thisweekinreact.com)
+
+Causal是由Coatue/Accel投资的A轮初创公司，致力于构建一体化数字处理与数据可视化工具。我们正在寻找能解决复杂UX/性能问题的资深React工程师。
+
+🧑‍💼 [**Callstack - 高级React Native开发 - 全职远程, 月薪2.1-3.2万波兰兹罗提（B2B）**](https://www.callstack.com/senior-react-native-developer)
+
+您想参与全球顶级应用开发吗？您愿意共同塑造React Native技术生态吗？加入Callstack这支由React/React Native技术领袖组成的团队。详情请访问官网，我们期待看到您的申请——请尽情展示您的实力！
+
+🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
+
+我们开放多个React Native开发岗位！薪资约16万美元外加10%奖金。应聘者需具备RN实际项目经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解详情，请注明通过This Week in React获知该职位。
+
+💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
+
+---
+
+## 🔀 其他动态 {#other}
+
+**[第93次TC39会议进展速报](https://dev.to/hemanth/updates-from-the-93rd-tc39-meeting-2n8f)**
+
+上周有多项重要JavaScript提案取得突破性进展：
+
+- [Set集合方法](https://twitter.com/robpalmer2/status/1597947853598785537)进入stage 3：并集、交集、差集运算... 🙌
+- [迭代器辅助方法](https://github.com/tc39/proposal-iterator-helpers)进入stage 3：map、flatMap、filter、reduce...
+- Intl国际化API持续完善
+
+---
+
+- [Firefox 109支持容器查询](https://twitter.com/jensimmons/status/1598798281513000960)：主流浏览器终获全支持 🙌
+- [Rome v11发布](https://rome.tools/blog/2022/12/06/rome11/)：支持TS 4.9 satisfies语法
+- [2022 CSS现状调查报告](https://2022.stateofcss.com/en-US/)
+- [2022 Rust现状调查启动](https://twitter.com/rustlang/status/1600078615143911425)
+- [ESLint RFC - 语言插件体系](https://github.com/eslint/rfcs/pull/99)
+- [Tailwind是存在抽象漏洞的设计](https://jakelazaroff.com/words/tailwind-is-a-leaky-abstraction/)
+- [持续使用Tailwind CSS两年的实践经验](https://www.themosaad.com/blog/two-years-of-tailwind-css)
+- [TypeScript 4.9 satisfies运算符优化Prisma工作流](https://www.prisma.io/blog/satisfies-operator-ur8ys8ccq7zb)
+- [Chrome预渲染实现即时页面跳转](https://developer.chrome.com/blog/prerender-pages/)
+- [快即是好，瞬时更佳！](https://calendar.perfplanet.com/2022/fast-is-good-instant-is-better/)
+- [加速JavaScript生态：逐个库优化](https://marvinh.dev/blog/speeding-up-javascript-ecosystem/)
+- [Electron 22.0发布](https://www.electronjs.org/blog/electron-22-0)
+- [Cypress 12发布](https://www.cypress.io/blog/2022/12/06/announcing-cypress-12/)
+- [Nx 15.3：独立项目/Vite支持/任务图谱等](https://blog.nrwl.io/nx-15-3-standalone-projects-vite-task-graph-and-more-3ed23f7827ed)
+- [Lightning CSS 1.17发布](https://github.com/parcel-bundler/lightningcss/releases/tag/v1.17.0)
+- [11月Web平台新特性](https://web.dev/web-platform-11-2022/)
+- [GitHub Copilot高效使用指南](https://shift.infinite.red/getting-the-most-from-github-copilot-8f7b32014748)
+- [AWS re:Invent 2022重磅发布汇总](https://aws.amazon.com/fr/blogs/aws/top-announcements-of-aws-reinvent-2022/)
+- [ChatGPT助我设计全新编程语言](https://judehunter.dev/blog/chatgpt-helped-me-design-a-brand-new-programming-language)
+- [前端工程师类型学](https://cpojer.net/posts/frontend-engineering-archetypes)
+- [基于状态机的UI框架Bahuu](https://github.com/tjkandala/baahu)
+
+---
+
+## 🤭 趣味时刻 {#fun}
+
+[![alt](/emails/issues/127/meme.png)](https://twitter.com/jaredpalmer/status/1599765374265749504)

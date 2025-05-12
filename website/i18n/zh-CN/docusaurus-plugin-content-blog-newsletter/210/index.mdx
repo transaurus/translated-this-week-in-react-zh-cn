@@ -1,0 +1,176 @@
+---
+slug: /210
+title: "This Week In React #210: React 19 pre-warming, Next.js, IDE, TanStack, React Scan, MistCSS, PayloadCMS, Expo Workflows, Universal RSC, use dom, Yoga JSI, Skia, Turbo Haptics, TV, FastIO, SwiftUI, Angular 19..."
+authors: [matthieugicquel, cyrilbo]
+date: 11-20-2024
+---
+
+大家好！
+
+我们是来自Theodo Apps（原BAM）的Cyril和Matthieu 👋，本期暂代Seb为大家带来React和React Native的最新动态！
+
+本周React世界迎来重磅消息！React 19在初次发布延期六个月后重新进入RC阶段。随着预加载（pre-warming）机制的引入，围绕Suspense的悬念终于尘埃落定。
+
+Expo正在其发布派对中掀起波澜，热度持续攀升！🚀
+
+最新发布的**Expo Workflows**将通过预制任务、智能机器选择和无缝自动化彻底改变React Native应用的CI/CD流程——让整个发布过程变得行云流水。
+
+与此同时，Expo Router中的**通用React服务端组件**已进入测试阶段，这标志着迈向**服务端优先的React Native开发**的重要里程碑。
+
+派对远未结束！🎉 敬请关注下周特刊，我们将深入解读Expo持续庆典中的更多公告。
+
+另请关注我们的合作会议[React Paris 2025](https://react.paris/?utm_source=Newsletter&utm_medium=thisweekinreact)（🇫🇷 巴黎 - 2025年3月20-21日）。用2025年首批开发者大会开启你的新年！演讲嘉宾包括Dominik 'TkDodo' Dorfmeister、Kent C. Dodds和Aurora Scharff。CFP正在征集中，使用代码"TWIR"可享门票8折优惠！
+
+如果您能分享本刊或通过以下渠道支持我们将不胜感激：
+
+- [X / 推特](https://slo.im/last/x)
+- [Bluesky](https://slo.im/last/b)
+- [领英](https://slo.im/last/l)
+
+让我们开始吧！🚀
+
+<!-- truncate -->
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![Handsontable：面向React应用的高级数据网格](/emails/issues/206/handsontable.jpg)](https://handsontable.com/docs/react-data-grid/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=twirnov20)
+
+**[Handsontable：面向React应用的高级数据网格](https://handsontable.com/docs/react-data-grid/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=twirnov20)**
+
+Handsontable是[功能丰富的数据网格](https://handsontable.com/demo?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=twirnov20)，专为需要强大、可定制且具备可访问性解决方案来管理复杂数据的React开发者设计。
+
+- 独特的**类电子表格界面**，支持排序、筛选和CRUD操作
+- 高级功能如条件格式和**400种内置公式**，媲美Excel
+- **可定制的编辑器和渲染器**，允许在网格单元格中使用下拉菜单、选项菜单或自定义组件以适应特定场景
+- **性能优化**确保流畅响应
+- **符合WCAG 2.1标准的无障碍支持**，更好地服务残障用户
+
+Handsontable适用于从企业级应用到简单网站的各种场景，其性能和灵活性已获得全球企业的信赖。
+
+[立即开始使用！](https://handsontable.com/docs/react-data-grid/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=twirnov20)
+
+---
+
+## ⚛️ React {#react}
+
+[![React 19 RC1](/emails/issues/210/react19.jpg)](https://github.com/facebook/react/issues/29898#issuecomment-2477449973)
+
+[**React 19 RC1 - 兄弟组件预加载机制**](https://github.com/facebook/react/issues/29898#issuecomment-2477449973)
+
+我们曾报道过React 19的初始发布因Suspense机制的改动而中止——该改动会导致未在事件处理函数中发起请求的Suspense应用出现瀑布流式性能问题。  
+React团队一直致力于重新引入Suspense兄弟组件预渲染功能，同时避免对提前发起请求的应用造成性能倒退。他们的解决方案现已就绪，称为[预热机制](https://react.dev/blog/2024/04/25/react-19-upgrade-guide#improvements-to-suspense)。最早提出该问题的React Query维护者Dominik[已确认对该修复方案表示满意](https://bsky.app/profile/tkdodo.eu/post/3layw6wk5bs2b)。  
+与往常一样，这些新特性已率先在Next.js（使用React Canary版本）中实现，包括服务端组件与Actions、新引入的`use`钩子、表单处理改进（`useFormStatus`和`useOptimistic`），以及一个虽小但期待已久的变更：不再需要手动使用`forwardRef`了！
+
+---
+
+- 💸 [Omlet – 扫描代码库并分析React组件的使用情况](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-nov-2024)
+- 👀 [Next.js分段缓存初始实现](https://github.com/vercel/next.js/pull/72875)：针对App Router客户端缓存机制的重构，专为PPR和"use cache"设计。目前尚未达到生产环境标准，但未来Next.js将按路由段而非完整URL进行缓存。
+- 👀 [React Query可能即将实现每个查询统一staleTime](https://github.com/TanStack/query/pull/8313)，而非每个"observer"（如每个`useQuery`）单独设置。这将降低灵活性但显著提升可理解性。
+- 👀 [React IDE](https://youtu.be/C8Mg-NSyqWg?t=14452)：React编译器团队的Mofei在React Summit上公布了基于编译器开发VSCode扩展的计划。先别太激动，具体细节尚不明确！
+- 👀 [TanStack Start正式进入测试阶段](https://bsky.app/profile/tannerlinsley.com/post/3lbdl4zp2ns2n)
+- 📖 [Next.js进阶之路](https://www.road-to-next.com/)：Robin Wieruch推出的Next.js 15付费课程，现提供早鸟优惠。
+- 🗓️ [React Day Berlin](https://reactday.berlin/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇩🇪 柏林 - 12月13日&16日 - 门票即将涨价，速抢！使用优惠码"TWIR"可享折扣。
+- 📜 [React TypeScript必备指南](https://www.jacobparis.com/content/react-ts)：浓缩高效开发的实用技巧。
+- 📜 [谨慎使用useSyncExternalStore](https://www.nico.fyi/blog/be-careful-with-usesyncexternalstore)：结合`useSyncExternalStore`和`superjson`实现`useLocalStorage`钩子。
+- 📜 [React服务端组件与传统服务端渲染的5大区别](https://www.tymzap.com/blog/5-differences-between-react-server-components-and-server-side-rendering)：澄清两者本质差异的技术解析。
+- 📜 [设计系统：从零构建还是采用现成方案？](https://www.voorhoede.nl/en/blog/design-system-from-scratch-from-the-shelf/)
+- 📜 [React Portals详解](https://techhub.iodigital.com/articles/what-are-react-portals)
+- 📜 [利用react-scanner打造设计系统分析工具](https://alexocallaghan.com/creating-your-own-react-design-system-analytics-tool)
+- 📜 [Next.js构建PWA快速指南](https://playfulprogramming.com/posts/pwa-nextjs-guide)
+- 📜 [Vercel - 新项目默认启用Skew Protection](https://vercel.com/changelog/skew-protection-is-now-enabled-by-default-for-new-projects)
+- 📜 [React反模式：停止向下传递setter函数](https://matanbobi.dev/posts/stop-passing-setter-functions-to-components)
+- 📦 [react-scan](https://github.com/aidenybai/react-scan)：MillionJS团队发布的React应用性能问题（重复渲染）检测工具。
+- 📦 [PayloadCMS 3.0 - 深度集成Next.js应用路由](https://github.com/payloadcms/payload/releases/tag/v3.0.0)：CMS现在可直接嵌入现有Next.js应用，提供`withPayload()`插件。
+- 📦 [MistCSS 1.0](https://github.com/typicode/mistcss)：不再从CSS生成完整React组件，转而通过类型增强原生JSX元素的新思路。
+- 🎥 [Jack Herrington - 解析NextJS最新数据缓存方案"use cache"](https://www.youtube.com/watch?v=ZDRGEewXkrs)
+- 🎥 [Theo - 避免Serverless巨额账单的秘诀](https://www.youtube.com/watch?v=jsuNjCAngnQ)：Vercel/Next.js用户的实用建议。
+- 🎥 [React Summit美国站直播回放](https://www.youtube.com/watch?v=C8Mg-NSyqWg)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![在React应用中释放文档超能力！](/emails/issues/209/nutrient.jpg)](https://www.nutrient.io/sdk/web)
+
+**[在React应用中释放文档超能力！](https://www.nutrient.io/sdk/web)**
+
+React开发者请注意：PSPDFKit现已更名为**Nutrient**！👋 虽然我们换了新名字，但我们的Web SDK依然是您处理PDF及其他文档类型的查看、批注和编辑功能时值得信赖的首选方案。
+
+- 🏎️ 通过免费试用和详尽文档快速上手
+- ⏱️ 利用内置的精美UI和全新设计系统**Baseline-UI**，节省开发时间
+- 🛠️ 通过丰富的API实现文档处理和深度定制
+- 🆘 专业支持团队为您提供领域专家的解决方案
+
+我们提供**全平台支持**，从移动端到后端一应俱全。
+
+想要挑战技术难题并**影响数百款应用**？查看我们的[高级前端开发工程师](https://www.nutrient.io/company/careers/web-frontend)等开放职位。
+
+---
+
+## 📱 React-Native动态 {#react-native}
+
+[![Expo工作流](/emails/issues/210/workflows.jpg)](https://expo.dev/blog/expo-workflows-automate-your-release-process)
+
+[**Expo工作流**](https://expo.dev/blog/expo-workflows-automate-your-release-process)
+Expo宣布推出"工作流"——专为React Native和Expo应用打造的新型CI/CD工具，通过预制任务（如使用Maestro进行端到端测试）、自动化流程和智能机器选择来简化和加速应用发布。虽然它并非GitHub Actions等通用CI/CD方案的直接替代品，但其带来的效率提升值得关注。
+
+🎉 [Expo发布派对](https://expo.dev/launch-party)仍在进行中，不要错过他们的重磅更新！
+
+- 📣 [Expo - 推出通道暂停功能：通过网页或eas cli暂停更新通道](https://expo.dev/changelog/2024/11-14-channel-pausing)
+- 📜 [Expo Router中的通用React服务端组件（测试版）](https://expo.dev/blog/universal-react-server-components-developer-preview)：首次实现原生与Web应用的服务器端渲染，允许直接访问数据库等资源。当前版本主要面向库开发者，生产环境支持尚待完善。
+- 📜 [Expo DOM组件的魔力](https://expo.dev/blog/the-magic-of-expo-dom-components)：以WebView速度为基础，逐步实现原生功能迁移。未来版本将强化原生集成与性能优化。
+
+---
+
+- 💸 [notJust Hack - 面向React Native开发者的顶级线上黑客马拉松。今年12月，构建、发布、竞赛并赢取奖品！](https://bit.ly/4fDgOXX)
+- 📖 [《征服大屏幕：React Native电视应用开发指南》电子书](https://www.callstack.com/ebook/mastering-the-big-screen-react-native-for-tv-guidebook)
+- 🐦 [Oskar为react-native-bottom-tabs实现了Jetpack Compose自适应导航的概念验证](https://x.com/o_kwasniewski/status/1858620684706214095)
+- 🐦 [Mike演示了通过React Native FastIO实现1.2GB文件网络上传](https://x.com/grabbou/status/1858920818744389947)
+- 🐦 [Jay正在开发代号为Legend List的新列表组件，性能可能超越FlashList](https://x.com/jmeistrich/status/1855663310386958840)
+- 🐦 [得益于Expo SDK 52未公开的新特性，SwiftUI MeshGradient组件现可在React Native中使用](https://bsky.app/profile/tsapeta.dev/post/3lbf2kw75t22y)
+- 📜 [如何将React Native集成到现有应用中](https://www.callstack.com/blog/how-to-integrate-react-native-with-an-existing-app)
+- 📦 [React Native 0.76.2发布](https://github.com/facebook/react-native/releases/tag/v0.76.2)
+- 📦 [React Native Executorch 0.1 - 通过ExecuTorch在设备端运行AI模型](https://blog.swmansion.com/introducing-react-native-executorch-2bdb87592884)
+- 📦 [React Native SVG 15.9 - 新增FeDropShadow和FeComposite滤镜](https://github.com/software-mansion/react-native-svg/releases/tag/v15.9.0)
+- 📦 [React Native Gesture Handler 2.21 - 支持Web端双指平移手势，新增`ReanimatedDrawerLayout`组件](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.21.0)
+- 📦 [React Native Screens 4.1 & 4.2 - 修复旧架构下iOS模态动画问题，支持iOS透明大标题](https://github.com/software-mansion/react-native-screens/releases/tag/4.2.0)
+- 📦 [React Native Video 6.8 - 支持Web端及HLS视频缓存](https://github.com/TheWidlarzGroup/react-native-video/releases/tag/v6.8.0)
+- 📦 [React Native Skia 1.5.4 - 实验性Graphite（Vulkan/Metal）后端可通过编译标志启用](https://github.com/Shopify/react-native-skia/releases/tag/v1.5.4)
+- 📦 [React Native Turbo Haptics - 高性能、兼容worklet的触觉反馈库](https://github.com/christianbaroni/react-native-turbo-haptics)
+- 📦 [React Native Yoga JSI 0.1](https://github.com/Swami-Laxmikant/react-native-yoga-jsi)：这个实验性库让你在JS端直接访问Yoga API，可与React Native Skia等库配合实现画布元素布局。
+- 🎙️ [火箭飞船第54期 - 与Kim Chouard探讨使用Skia、NativeWind和Expo AV开发React Native音乐游戏](https://share.transistor.fm/s/34b8c9fc)
+- 🎥 [Simon Grimm - Expo SDK 52新特性解析：DOM、RSC、路由、新架构与包更新](https://www.youtube.com/watch?v=OROMGU3jq6E)
+
+---
+
+## 🔀 其他领域 {#other}
+
+- 👀 [Deno - 支持导入wasm模块](https://github.com/denoland/deno/issues/2552)
+- 👀 [ES TC39提案`import.sync()`进入stage 0阶段](https://github.com/guybedford/proposal-import-sync)
+- 📜 [使用Deno Compile创建自包含可执行程序](https://deno.com/blog/deno-compile-executable-programs)
+- 📜 [在Chrome DevTools性能面板中直接标注跟踪记录](https://developer.chrome.com/blog/devtools-annotations?hl=en)
+- 📜 [JavaScript应用中dependencies与devDependencies的区分指南](https://angelika.me/2024/11/11/dependencies-vs-dev-dependencies-javascript-apps/)
+- 📦 [Angular 19发布](https://blog.angular.dev/meet-angular-v19-7b29dfd05b84)
+- 📦 [Bun v1.1.35版本更新](https://bun.sh/blog/bun-v1.1.35)
+
+---
+
+## 🤭 趣味时刻 {#fun}
+
+[![React 19即将到来](/emails/issues/210/meme2.jpg)](https://bsky.app/profile/sebastienlorber.com/post/3lay3dhefgc2o)
+
+[![内联函数破坏memoization效果](/emails/issues/210/meme1.jpg)](https://x.com/shuding_/status/1844678879748723059)
+
+[![Angular干得漂亮](/emails/issues/210/meme3.jpg)](https://bsky.app/profile/did:plc:hxmev3uady7j4litwnr5fzbg/post/3lbfdts6p6c27)
+
+下期见！👋

@@ -1,0 +1,209 @@
+---
+slug: /129
+title: "This Week In React #129: useEffectEvent, Storybook, OpenNEXT, React Email, Remix, Next.js, Pointer-Events, Expo-MDX, Expo-Image, Svelte..."
+authors: [slorber]
+date: 12-20-2022
+---
+
+大家好！
+
+年末这周异常忙碌🤪 我就不剧透了，你们自己探索吧。
+
+我在[React Round Up播客的访谈](https://topenddevs.)已上线，聊了React 18最新特性、MDX甚至Docusaurus。
+
+👋 本年最后一期。 newsletter将于1月10日恢复更新！
+
+🎄 节日快乐 🎅
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期newsletter](https://slo.im/thread) - 可视化排版 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助 {#sponsor1}
+
+[![React Bricks是基于React组件的可视化编辑CMS](/emails/issues/128/reactbricks.png)](https://reactbricks.com/?utm_source=this_week_in_react)
+
+**[React Bricks是基于React组件的可视化编辑CMS](https://reactbricks.com/?utm_source=this_week_in_react)**
+
+**开发者友好**：用React组件构建专属设计系统，在JSX中添加可视化编辑功能，通过侧边栏控件修改props（如背景色）。支持Next.js、Gatsby或Remix框架，兼容任意CSS方案！
+
+**内容编辑者易上手**：直接可视化编辑且不破坏设计系统，比传统无头CMS的抽象字段编辑简单得多。**节省时间**，内容团队可自主操作！
+
+**企业级功能**：协作编辑、版本回溯、单点登录、GDPR合规数据中心、全球CDN图片优化、电商集成、定时发布等。
+
+立即体验：[ReactBricks.com](https://reactbricks.com/?utm_source=this_week_in_react)
+
+---
+
+## ⚛️ React动态 {#react}
+
+[![Storybook 7.0测试版](/emails/issues/129/storybook7.png)](https://storybook.js.org/blog/7-0-beta/)
+
+**[Storybook 7.0测试版](https://storybook.js.org/blog/7-0-beta/)**
+
+Storybook正式发布v7测试版，正式版将于数月后推出。这是次重大更新，提供迁移方案甚至升级辅助工具。主要变更包括：
+
+- 设计与性能优化
+- 测试：交互测试、Playwright集成、覆盖率报告
+- MDX 2文档支持
+- 组件故事格式3.0
+- 框架支持：Vite、Next.js、SvelteKit
+
+---
+
+[![OpenNEXT - 开源Next.js无服务适配器](/emails/issues/129/opennext.png)](https://github.com/serverless-stack/open-next)
+
+**[OpenNEXT - 开源Next.js无服务适配器](https://github.com/serverless-stack/open-next)**
+
+该项目旨在提升Next.js在无服务平台的兼容性，支持**所有**特性（SSR、ISR、中间件、图片优化等）。目前仅支持AWS部署。
+
+Ryan Florence称[Next.js并非真正开源](https://twitter.com/ryanflorence/status/1600526114010845184)，引发热议。Theo Browne的视频总结到位：[NextJS是陷阱吗？供应商锁定争议](https://www.youtube.com/watch?v=mhdO8f_45CA)。Vercel虽未刻意制造锁定，但其平台确实是部署Next.js应用的最佳选择。
+
+---
+
+[![React Email](/emails/issues/129/reactemail.png)](https://react.email/)
+
+**[React Email](https://react.email/)**
+
+基于React和TypeScript构建邮件的新解决方案。实际上，它是一个渲染器和一套无头组件，兼容主流邮件客户端，同时提供了良好的开发者体验（DX）的邮件开发界面。[演示示例](https://demo.react.email/)复刻了Vercel、Airbnb、Stripe等公司的邮件模板，堪称现代化版本的[React-MJML](https://github.com/wix-incubator/mjml-react)，还额外集成了预览界面功能。
+
+---
+
+[![React Router 6.5](/emails/issues/129/reactrouter6.5.png)](https://twitter.com/remix_run/status/1603887581770354688)
+
+**[React Router 6.5](https://github.com/remix-run/react-router/releases/tag/react-router%406.5.0) 与 [Remix 1.9](https://github.com/remix-run/remix/releases/tag/remix%401.9.0)**
+
+这两个关联版本标志着[React-Router-ing Remix项目](https://twitter.com/ryanflorence/status/1604257159876730881)的终结（将Remix代码合并回React-Router），并重新引入实用功能：[可选路由片段](https://twitter.com/remix_run/status/1603887581770354688)。
+
+---
+
+- 📖 Beta文档: [useLayoutEffect](https://twitter.com/dan_abramov/status/1603772620641431553)。所有API参考页已上线，Beta版站点即将发布。
+- 👀 [useEvent => useEffectEvent](https://github.com/facebook/react/pull/25881): 这个备受期待的React API更名并略微缩减了功能范围。useEffectEvent并非用于通过稳定回调函数来优化重渲染。
+- 🎅 [GitHub年度回顾2022](https://www.githubunwrapped.com/): 生成总结你2022年GitHub活动的视频。该视频使用React和[Remotion](https://remotion.dev/)制作。想创建自己的年度视频？Fork这个[github-unwrapped-2022](https://github.com/remotion-dev/github-unwrapped-2022)项目！
+- 🎨 [NodeToy 2.0测试版](https://nodetoy.co/): 面向创意开发者，这个新版着色器编辑器通过[react-nodetoy](https://github.com/NodeToy/react-nodetoy)兼容React-Three-Fiber。
+- 📜 [在Remix中根据用户偏好降级为MPA](https://sergiodxa.com/articles/downgrade-to-mpa-if-users-prefer-reduced-data-in-remix): 讲解如何根据`Save-Data: on`请求头将Remix从SPA有条件降级为MPA。对于短会话应用/页面性能优化是个有趣的手段。
+- 📜 [SvelteKit Auth: 将NextAuth.js带给所有框架](https://vercel.com/blog/announcing-sveltekit-auth): NextAuth开始框架无关化。项目更名为Auth.js，现支持Next.js + SvelteKit。
+- 📜 [为什么`onClick={x()}`会导致React"过多重渲染"错误？](https://alexsidorenko.com/blog/onclick-too-many-re-renders/): 对这个常见错误（或拼写错误）的生动图解 😅
+- 📜 [Svelte vs React: 2023年该学哪个框架？](https://scrimba.com/articles/svelte-vs-react/)
+- 📜 [Next, Nest, Nuxt… Nust?](https://www.twilio.com/blog/comparing-nextjs-nestjs-nuxt-gatsby)
+- 📜 [2022年最受欢迎的CSS-in-JS库](https://stackdiary.com/css-in-js-libraries/)
+- 📜 [React中应用设计模式：策略模式](https://dev.to/itshugo/applying-design-patterns-in-react-strategy-pattern-enn)
+- 📜 [React中的条件包裹](https://daily-dev-tips.com/posts/conditional-wrapping-in-react/)
+- 🎥 [Tom Occhino谈管理React职业生涯的思考](https://www.youtube.com/watch?v=C1m5hQDjk20): 从React起源到服务端组件的深度访谈。Tom Occhino曾任Meta工程经理多年。
+- 🎥 [他们为React做了个IDE？](https://www.youtube.com/watch?v=_599WJnZd4g): 关于Wix的新React IDE Codux。
+- 🧑‍🎓 [用Remix和Supabase构建实时聊天应用](https://egghead.io/courses/build-a-realtime-chat-app-with-remix-and-supabase-d36e2618): Egghead上的新免费课程。
+- 📦 [TailwindUI Protocol](https://twitter.com/adamwathan/status/1603433598660407296): 基于Next.js和MDX的文档站点精美模板
+- 📦 [React-Hook-Form 7.41.0](https://twitter.com/HookForm/status/1603887632710176768)
+- 📦 [Astro 1.7](https://twitter.com/astrodotbuild/status/1603868604667158529)
+- 📦 [Redwood 3.7](https://github.com/redwoodjs/redwood/releases/tag/v3.7.0)
+- 📦 [React Spectrum + React Aria - 2022年12月更新](https://twitter.com/devongovett/status/1603864523488006144)
+- 📦 [Remix Flat Routes 0.5.1](https://twitter.com/kiliman/status/1603845269895921664)
+- 📦 [@fastify/react测试版](https://github.com/fastify/fastify-dx/releases/tag/react-v0.1.0)
+- 🐦 ["Framer Motion中引入硬件加速动画！"](https://twitter.com/mattgperry/status/1603010346763132933)
+
+<SubscribeFormEmbed />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![开发者生态调研 - 你想影响开发者生态系统吗？](/emails/issues/128/dn-survey.png)](https://developereconomics.net/?member_id=thisweekinreact)
+
+**[您想对开发者生态产生影响吗？](https://developereconomics.net/?member_id=thisweekinreact)**
+
+根据最新的《开发者国度报告》，React以58%的使用率成为最受欢迎的客户端库，远超其他同类框架。您对此有何看法？
+
+参与[调查](https://developereconomics.net/?member_id=thisweekinreact)——这是Developer Nation有史以来最全面的调研，塑造2023年开发者关键趋势，并赢取丰厚奖品！🎁
+
+完成问卷即可免费获取虚拟礼包。请务必注册参与每周抽奖。250份奖品包括ThinkPad L15 Gen 3笔记本、Intel NUC 10迷你主机、物联网套件、iPad Air、礼品卡、Udemy课程、科技配件等。
+
+[立即参与](https://developereconomics.net/?member_id=thisweekinreact)！
+
+---
+
+## 📱 React-Native {#react-native}
+
+[![React Native中的指针事件](/emails/issues/129/pointer.png)](https://reactnative.dev/blog/2022/12/13/pointer-events-in-react-native)
+
+**[React Native中的指针事件](https://reactnative.dev/blog/2022/12/13/pointer-events-in-react-native)**
+
+[Pointer Events](https://www.w3.org/TR/pointerevents3/)网页API正被移植到React-Native。这对跨平台开发是重大利好，将简化悬停、右键点击等功能的实现——这些特性原本并非React-Native JSX元素的设计目标。
+
+---
+
+[![Expo-MDX](/emails/issues/129/expo-mdx.png)](https://twitter.com/Baconbrix/status/1603053674548367360)
+
+**[Expo-MDX](https://twitter.com/Baconbrix/status/1603053674548367360)**
+
+Evan Bacon发布的新包使MDX在React-Native中的应用更便捷。Metro将MDX编译为React组件，并通过提供程序将MDX默认的DOM元素替换为可轻松定制的React-Native元素。预计该特性将用于Expo-Router，比如通过创建`.mdx`文件快速生成React-Navigation屏幕？👌
+
+React-Native的MDX支持是我特别关注的话题。可参考我在[React Native EU 2020的演讲《跨平台：ReactNative, Jamstack与未来》](https://www.youtube.com/watch?v=ScgFQojbAAc)或文章[在Gatsby中使用Expo](https://sebastienlorber.com/using-expo-in-gatsby)。
+
+---
+
+- 📜 React Native调试现状，[第一部分：Expo](https://www.g2i.co/blog/the-current-state-of-debugging-on-react-native-part-1) + [第二部分：原生RN](https://www.g2i.co/blog/the-current-state-of-debugging-on-react-native-part-two-bare-rn)：关于React-Native应用调试设置的及时概述，涉及近期禁止使用远程调试器的变更。性能分析、网络检查...要完全正常运行似乎仍有些复杂。
+- 📜 [不，React Native并非未来](https://blog.standardnotes.com/40921/no-react-native-is-not-the-future)：一个希望统一网页与移动端代码库的应用故事。最终他们选择在React-Native外壳中使用WebView。
+- 📜 [苹果考虑取消iPhone浏览器必须使用WebKit的要求](https://www.macrumors.com/2022/12/14/apple-considering-non-webkit-iphone-browsers/)：目前仅在欧洲。若全面推行，可能影响React-Native运行时和WebView的选择。
+- 📜 [在GitHub Actions上运行Maestro测试流](https://blog.mobile.dev/running-your-maestro-flows-on-github-actions-fe2e016b7338)
+- 📦 [React-Native 0.71.0-RC.5](https://twitter.com/CipolleschiR/status/1604907381971976208)：2022年最终版本。正式版0.71预计一月初发布。
+- 📦 [Expo-Image alpha版](https://twitter.com/tsapeta/status/1605240759342739456)：新的Expo版react-native-fast-image替代方案进入alpha阶段
+- 📦 [React-Native-Fiesta](https://github.com/mateoguzmana/react-native-fiesta)：用于庆祝的Skia动画效果 🥳
+- 🎨 [React-Native Skia - UI线程渲染演示](https://twitter.com/MateoGuzmanA/status/1604107348188057601)
+- 🐦 ["React-Native 0.70已突破40%市场份额"️](https://twitter.com/Kelset/status/1604794763965669377)
+- 🐦 ["你知道可以只启用React Native新架构的部分功能吗？"](https://twitter.com/Tr0zZe/status/1604854481979854848)
+- 🧵 ["Ignite v8（'Maverick'）的亮点解析"](https://twitter.com/jamonholmgren/status/1603201805336588288)
+- 📖 [Expo文档更新](https://twitter.com/amanhimself/status/1603806595808653312)
+
+---
+
+## 🧑‍💻 职位招聘 {#jobs}
+
+🧑‍💼 [**Causal产品工程师，远程/伦敦/纽约，15-25万美元**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied&lever-source%5B%5D=thisweekinreact.com)
+
+Causal是A轮初创企业（获Coatue/Accel投资），致力于构建一体化数字处理与数据可视化工具。我们正在寻找能解决复杂UX/性能问题的资深React工程师。
+
+🧑‍💼 [**Callstack - 高级React Native开发 - 完全远程，B2B月薪2.1-3.2万波兰兹罗提净收入**](https://www.callstack.com/senior-react-native-developer)
+
+您希望参与全球最热门应用的开发吗？想要共同塑造React Native技术未来吗？加入Callstack这个React & React Native领军团队。详情请访问官网。我们期待您的申请——请展示您的实力！
+
+🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
+
+我们开放多个React Native开发岗位！年薪约16万美元外加10%奖金。应聘者需具备RN生产环境经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解详情，请注明通过This Week in React获知。
+
+💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
+
+---
+
+## 🔀 其他资讯 {#other}
+
+- [互操作性2022年终总结](https://web.dev/interop-2022-wrapup/)
+- [StackOverflow 2022年度开发者调查报告](https://survey.stackoverflow.co/2022/)
+- [Matt Pocock的TypeScript系列文章](https://www.totaltypescript.com/articles)
+- [2023性能基线差距](https://infrequently.org/2022/12/performance-baseline-2023/)
+- [SvelteKit 1.0正式发布](https://svelte.dev/blog/announcing-sveltekit-1.0)
+- [Deno 1.29版本](https://twitter.com/deno_land/status/1603509812079181824)
+- [ESLint 8.30发布](https://eslint.org/blog/2022/12/eslint-v8.30.0-released/)
+- [Qwik的案例：一见钟情的TTI](https://www.builder.io/blog/the-qase-for-qwik-love-at-first-tti)
+- [Vercel边缘函数正式可用](https://vercel.com/blog/edge-functions-generally-available)
+- [参与CSS嵌套语法选择投票](https://webkit.org/blog/13607/help-choose-from-options-for-css-nesting-syntax/)
+- [为什么我对JavaScript的未来持乐观态度](https://leerob.substack.com/p/why-im-optimistic-about-javascripts)
+- [使用内联JavaScript模块避免CSS阻塞](https://calendar.perfplanet.com/2022/using-inline-javascript-modules-to-prevent-css-blockage/)
+- [Safari技术预览版160发布说明](https://webkit.org/blog/13639/release-notes-for-safari-technology-preview-160/)
+- [Chromium计划支持WebGPU](https://groups.google.com/a/chromium.org/g/blink-dev/c/VomzPhvJCxI/m/SUhU9Z0vAgAJ)
+- [Theo Browne与Max Stoiber探讨tRPC和GraphQL](https://www.youtube.com/watch?v=2-407yO8nEU)
+- [2022黄金年：JavaScript向边缘计算迈进](https://thenewstack.io/2022-a-golden-year-as-javascript-moves-to-the-edge/)
+- [Web分享API成为W3C提案推荐标准](https://www.w3.org/blog/news/archives/9773)
+
+---
+
+## 🤭 趣味时刻 {#fun}
+
+[![趣味图片](/emails/issues/129/meme.png)](https://twitter.com/ryanflorence/status/1603247783254798336)

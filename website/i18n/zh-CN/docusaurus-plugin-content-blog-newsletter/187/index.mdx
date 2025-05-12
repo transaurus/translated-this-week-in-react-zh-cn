@@ -1,0 +1,166 @@
+---
+slug: /187
+title: "This Week In React #187: Next.js, Expo, Popover, rethrow, SWR, React-Query, Astro, PPR, tRPC, zsa, Memory leaks, INP, RN IDE, Skia, WebGPU, RNSC, Atlas, Re.Pack, Prisma, SwiftUI, Flutter, Angular..."
+authors: [slorber, bndkt]
+date: 05-29-2024
+---
+
+大家好！
+
+上周Vercel Ship和App.js大会发布了重要公告。
+
+本周社区博客文章也相当精彩！这里有很多优质内容值得阅读。关于内存泄漏的那篇着实令人心惊😅。
+
+最近我一直在思考：[推特长文](https://slo.im/thread)还有价值吗？我在[推特发起讨论](https://x.com/sebastienlorber/status/1795377678918554072)后发现似乎没什么人阅读，只有零星反馈。考虑停更了，你们怎么看？🤔
+
+<!-- truncate -->
+
+**💡 [在推特查看本期简报](https://slo.im/thread) - 可视化排版 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![React-admin: 开源B2B应用框架](/emails/issues/187/reactadmin.jpg)](https://marmelab.com/react-admin/)
+
+**[React-admin: 开源B2B应用框架](https://marmelab.com/react-admin/)**
+
+👩🏻‍💻 **开发者服务开发者**：React-admin是免费的低代码库，可加速内部工具、管理后台或B2B应用的开发。与无代码工具不同，您使用代码开发，确保永远不会被框架限制。
+
+🔌 **灵活集成**：支持任何API格式（REST或GraphQL）及多种认证后端（包括Auth0、Cognito、Google Auth、Active Directory和Keycloak）。您完全掌控服务器，因此单点登录(SSO)功能不会产生额外成本。支持完整主题定制，可用公司品牌色系个性化。
+
+🚀 **成功验证**：超过25,000家公司使用React-admin构建单页应用。在下一个项目中采用react-admin可节省数周开发时间。[立即试用](https://marmelab.com/react-admin/)。
+
+---
+
+## ⚛️ React {#react}
+
+[![Next.js 15 RC](/emails/issues/187/nextjs.jpg)](https://nextjs.org/blog/next-15-rc)
+
+**[Next.js 15 RC](https://nextjs.org/blog/next-15-rc)**
+
+Next.js新主版本在上周Vercel Ship大会发布候选版。本版亮点包括：
+
+- 支持React 19 RC
+- 通过Babel插件支持React编译器（实验性，可能增加构建时间）
+- 改进水合错误提示，显示差异不匹配
+- 更宽松的缓存策略（现需手动开启）：默认不再缓存`fetch`和路由处理器
+- 渐进式采用部分预渲染，新增`experimental_ppr`路由配置选项
+- 新版`create-next-app`设计，开发环境提示使用Turbo，支持项目创建
+- next/after（实验性），用于延迟分析任务以保持响应速度的新API
+- 优化外部包捆绑功能（`serverExternalPackages`）转为稳定版
+
+Vercel Ship大会还宣布了其他重要内容，延伸阅读：
+
+- 📜 [Vercel Ship 2024回顾](https://vercel.com/blog/vercel-ship-2024)
+- 📜 [Vercel功能标志深度集成](https://vercel.com/blog/feature-flags)
+- 📜 [Vercel Web应用防火墙发布](https://vercel.com/blog/introducing-the-vercel-waf)
+- 🎥 [Jack Herrington - NextJS 15：React 19、更少缓存、Turbopack、更好的水合错误等Vercel Ship新特性！](https://www.youtube.com/watch?v=N2LzvfM2R5M)
+
+---
+
+- 💸 [用React和JavaScript构建AI应用——为任何LLM打造前端和UI](https://docs.nlkit.com/nlux/?utm_source=twir-my24-3)
+- 👀 [React核心PR - 当React与React DOM版本不匹配时抛出错误](https://github.com/facebook/react/pull/29236): React 19将更严格，要求渲染器版本(DOM或RN)必须与核心React包版本完全一致。
+- 👀 [React DOM PR - 新增Popover API支持](https://github.com/facebook/react/pull/27981): 该新API现已支持所有主流浏览器，React刚刚合并了对它的支持。
+- 👀 [Next.js PR - `unstable_rethrow`](https://github.com/vercel/next.js/pull/65831): 即将推出的Next.js API，用于避免捕获Next.js内部抛出的错误（如redirect/notFound错误）。
+- 🐦 [最新SWR测试版可无缝在客户端和服务器端之间迁移数据获取](https://x.com/shuding_/status/1794461568505352693)。而[React-Query](https://x.com/TkDodo/status/1794801851671695533)和[Apollo Client](https://x.com/phry/status/1795777518944784450)也实现了类似功能。
+- 🗓 [React Rally大会](https://reactrally.com/?utm_source=thisweekinreact) - 🇺🇸 美国犹他州 - 8月12-13日 - 使用代码"TWIR"可享9折优惠。还有Cory House主讲的React高级[研讨会](https://reactrally.com/workshop)。
+- 📜 [隐蔽的React内存泄漏：useCallback和闭包如何坑害你](https://schiener.io/2024-03-03/react-closures): 一篇通过简化真实生产环境内存泄漏案例来解释问题的好文。这让我很惊讶，没想到这样的React代码会导致内存泄漏，现在很确定我的应用也存在内存泄漏😅。不过好消息是：使用新的React编译器时应用不会泄漏内存。
+- 📜 [突变后自动查询失效](https://tkdodo.eu/blog/automatic-query-invalidation-after-mutations): React Query对于如何使缓存资源失效没有强制意见，而是让你在灵活的基元之上实现自定义策略。例如，你可以通过标签使查询失效。
+- 📜 [从Radix迁移到React Aria：提升可访问性和用户体验](https://argos-ci.com/blog/react-aria-migration): 在使用过Reakit或Radix等替代方案后，Greg给出了采用React Aria的充分理由。迁移反馈总体积极，但也遇到了一些挑战。React Aria在确保组件可访问性方面非常"严格"。
+- 📜 [论Laravel、全栈JavaScript和高效框架](https://www.jplhomer.org/posts/on-laravel-full-stack-javascript-and-productive-frameworks/): Josh创建过2个React元框架（包括Shopify Hydrogen）并广泛使用Laravel。他分享了关于Laravel与React生态系统利弊的有趣观点。
+- 📜 [200行JavaScript实现虚拟DOM](https://lazamar.github.io/virtual-dom/): 通过创建一个能运行TodoMVC应用的小型库，很好地解释了虚拟DOM（如React中的）的工作原理。
+- 📜 [设计系统回顾](https://kyleshevlin.com/design-system-retrospective/): 关于实现类Chakra设计系统（以props形式传递token）成功与否的有趣观点。普通开发者难以理解如何组合基元组件。对他们来说Tailwind可能是更好的选择。
+- 📜 [将React服务端组件与react-query结合实现简易数据管理](https://frontendmasters.com/blog/combining-react-server-components-with-react-query-for-easy-data-management/): 一篇解释RSCs限制的好文。服务端动作是串行执行的，如果没有适当的缓存，等待RSCs重新渲染可能会很慢。使用带预取的React-Query可能会略微增加包体积和产生更多往返请求，但总体上能带来更快的用户体验。
+- 📜 [在tRPC中使用服务端动作](https://trpc.io/blog/trpc-actions): 服务端动作与tRPC类似但更基础。tRPC维护者解释了tRPC在此基础上提供的功能，如认证、输入验证、可观测性、速率限制等可能的中间件。注意还有其他替代方案如next-server-action和zsa。
+- 📜 [优化React应用的INP及性能经验](https://www.iamtk.co/optimizing-inp-for-a-react-app-and-performance-learnings): 关于优化React 18生产应用响应速度的长篇反馈。各种经验包括推迟工作和分析，或注意无用的重新渲染。
+- 📜 [无框架实现部分预渲染](https://developers.netlify.com/guides/partial-prerendering-without-a-framework/): Netlify CEO演示如何实现"原生PPR"（不依赖Next.js的实验性功能）。
+- 📜 [深入'as'属性：多态性的良好实践](https://www.kripod.dev/blog/behind-the-as-prop-polymorphism-done-well/): 同时解释了如何正确地进行类型定义。
+- 📜 [Redwood - 使用中间件：RSS和站点地图](https://redwoodjs.com/blog/using-middleware-rss-and-sitemap)
+- 📜 [Next.js的结构化日志 - 使用Pino日志库](https://blog.arcjet.com/structured-logging-in-json-for-next-js/)
+- 📜 [Facebook刚刚更新了与Web组件的关系状态](https://www.mux.com/blog/facebook-just-updated-it-s-relationship-status-with-web-components)
+- 📜 [Next.js中使用WorkOS进行认证：全面指南](https://www.nirtamir.com/articles/authentication-with-workos-in-next-js-a-comprehensive-guide)
+- 📜 [Next.js的\<Image>组件](https://www.premieroctet.com/blog/en/next-image-component)
+- 📜 [如何将React应用Docker化](https://scientyficworld.org/how-to-dockerize-a-react-app/)
+- 📦 [Astro 4.9 - 支持React 19的Astro动作](https://astro.build/blog/astro-490/): 新增withState/getActionState API以集成Astro与React 19的useActionState，包括渐进增强。
+- 📦 [Storybook 8.1 - 类型安全的模拟，单元测试React服务端组件](https://storybook.js.org/blog/storybook-8-1/)
+- 📦 [NextUI 2.4](https://nextui.org/blog/v2.4.0)
+- 📦 [Ark UI 3.0](https://ark-ui.com/react/docs/overview/changelog#300---2024-05-24)
+- 📦 [React-Query 5.39 - 支持React 19](https://github.com/TanStack/query/releases/tag/v5.39.0)
+- 📦 [Redwood 7.6 - React编译器实验性标志](https://github.com/redwoodjs/redwood/releases/tag/v7.6.0)
+- 📦 [zsa 0.1 - Next.js的类型安全服务端动作](http://next.js)
+- 📦 [React-Executor - React的异步任务执行和状态管理](https://github.com/smikhalevski/react-executor)
+- 🎥 [UI工程 - 门户可以在窗口间共享状态](https://www.youtube.com/watch?v=jZx33FPMXzc): 使用React门户无缝集成窗口是个很酷的想法，对即将推出的浏览器画中画API也可能有用。
+- 🎥 [Theo - 我对React Router的看法错了](https://www.youtube.com/watch?v=m86HssTKExU)
+- 🎥 [James Quick - Astro推出类似Next.js的动作功能](https://www.youtube.com/watch?v=8mIUIhp2YGQ)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![Next.js 身份验证教程（含RSC与Server Actions）](/emails/issues/186/AuthKitNextjs.jpg)](https://www.youtube.com/watch?v=aoRG1q_kVo8)
+
+**[Next.js 身份验证教程（含RSC与Server Actions）](https://www.youtube.com/watch?v=aoRG1q_kVo8)**
+
+WorkOS与Sam Selikoff的最新教程演示了如何轻松将AuthKit托管登录框集成到Next.js应用：
+
+📚 使用AuthKit <> Next.js[集成库](https://github.com/workos/authkit-nextjs)快速入门  
+🤖 配置环境变量、回调路由和中间件，实现signIn与signOut功能  
+⚙️ 通过getUser函数保护Next.js应用路由免受未授权访问
+
+AuthKit可与WorkOS用户管理系统配合使用，支持MFA、身份关联、邮件验证、用户模拟等功能。
+
+最重要的是，**前100万月活用户免费使用 🚀**
+
+---
+
+## 📱 React-Native {#react-native}
+
+本版块由[Benedikt](https://twitter.com/bndkt)撰写。
+
+![App.js大会4张幻灯片截图](/emails/issues/187/rn.jpg)
+
+随着上周App.js大会的召开，各家保留重磅发布等待大会的旱季终于结束！Expo发布了恰如其名的Atlas工具，作为探索打包器生态的指南针。如果你想了解代码如何进出应用，这正是理想工具——既能优化包体积，更能深入理解应用运作机制。ORM领域方面，Drizzle推出了Expo开发者工具插件版的Studio，Prisma宣布将支持React Native。React Native IDE现已开放测试版，可通过VS Code扩展市场下载。最后，William Candillon宣布RN Skia即将支持视频渲染和WebGPU！当然，我们仍对上周提及的通用React服务端组件充满期待。别忘了观看[App.js大会直播回放](http://app.js)。
+
+---
+
+- 💸 [WithFrame - 预构建的React Native组件](https://withfra.me/components?utm_source=thisweekinreact&utm_medium=email&utm_campaign=quick-link--1)
+- 🐦 [Re.Pack V5将基于Rspack而非Webpack](https://x.com/_jbroma/status/1793286546008981933)：这将带来显著的性能提升（冷启动从15秒降至2.5秒，构建时间从10秒降至2秒，热模块替换从450毫秒降至100毫秒）。
+- 🗓 [Chain React Conf](https://chainreactconf.com/?utm_source=thisweekinreact) - 🇺🇸 美国波特兰 - 7月17-19日。美国React Native大会回归，带来精彩演讲和实战工作坊！使用代码“TWIR”可享门票85折优惠。
+- 📜 [Expo Atlas正式发布](https://expo.dev/blog/introducing-expo-atlas)：Expo团队内部使用该工具开发更快的Metro解析器、优化Babel配置以及研究RSC。现在你也可以用它来理解和优化你的应用了！
+- 📜 [RNW 0.74发布：画廊焕新与Fabric基础！React Native](https://devblogs.microsoft.com/react-native/2024-05-24-improved-gallery-fabric-0-74/)：从这个公告中我了解到React Native Gallery应用，这基本上是RN在Windows上的功能演示大全应用。
+- 📜 [将Prisma ORM引入React Native和Expo](https://www.prisma.io/blog/bringing-prisma-orm-to-react-native-and-expo)：Prisma（包括响应式查询）现已支持RN（测试版）。他们似乎还在开发本地优先的同步解决方案。
+- 📜 [在React Native中使用React-Admin](https://marmelab.com/blog/2024/05/22/using-react-admin-with-react-native.html)：React-Admin是快速构建CRUD应用的框架。本文展示如何利用其无头架构在RN中使用它。
+- 📜 [Flutter在云端翱翔](https://www.celest.dev/blog/fluttering-in-the-sky)：虽然不是React Native，但值得提及有公司正在为Flutter开发类似React Native服务端组件的功能。
+- 📦 [React Native IDE开放测试版发布](https://ide.swmansion.com/)：可直接从VS Code扩展市场下载安装。
+- 📦 [SwiftUI-React-Native 6.0](https://github.com/andrew-levy/swiftui-react-native)：直接在React Native中使用SwiftUI功能。
+- 📦 [React Native Skia 1.3.0](https://github.com/Shopify/react-native-skia/releases/tag/v1.3.0)：Skia现已支持视频渲染。
+- 📦 [Drizzle Studio现作为Expo开发工具插件支持SQLite](https://github.com/drizzle-team/drizzle-studio-expo/tree/main)：非常实用！无需再在Mac上查找模拟器的文件系统目录来单独打开sqlite文件进行调试。
+- 🎥 [Simon Grimm - 从App.js大会总结React Native开发者的10个要点](https://www.youtube.com/watch?v=mhos9givltA)
+
+---
+
+## 🔀 其他 {#other}
+
+- 📜 [首次HTML现状调查的启示](https://frontendmasters.com/blog/state-of-html-2023-results-2/)
+- 📜 [“Web组件”有害论](https://www.mayank.co/blog/web-components-considered-harmful/)
+- 📦 [Angular 18.0 - 无Zone、Material 3、延迟视图...](https://blog.angular.dev/angular-v18-is-now-available-e79d5ac0affe)
+- 📦 [TypeScript-ESLint v8测试版 - 支持ESLint 9](https://typescript-eslint.io/blog/announcing-typescript-eslint-v8-beta/)
+- 📦 [fnm 1.36 - 快速的Node.js版本管理器](https://github.com/Schniz/fnm/releases/tag/v1.36.0)
+- 📦 [rsbuild 0.7](https://rsbuild.dev/community/releases/v0-7)
+
+---
+
+## 🤭 趣闻 {#fun}
+
+[![alt](/emails/issues/187/meme.jpg)](https://x.com/jamonholmgren/status/1791255201774719178)
+
+下次见！👋

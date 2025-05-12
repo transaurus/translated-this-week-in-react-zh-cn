@@ -1,0 +1,225 @@
+---
+slug: /123
+title: "This Week In React #123: TanStack Router, Gatsby, Remix, Next.js, React-Three-Fiber, Astro, Expo, Open Native, Rome..."
+authors: [slorber]
+date: 11-08-2022
+---
+
+大家好！
+
+本周举办了[Jamstack Conf](https://jamstack.org/conf/)，期间有不少精彩发布，比如Tanstack Router、Gatsby 5以及他们的年度调查报告。
+
+Expo发布了出色的SDK 47。React-Native 0.71的首个候选版本导致了一些Android构建问题😅。
+
+Next.js和React-Native现在新建项目时都默认使用TypeScript。
+
+使用优惠码[TWIR](https://threejs-journey.com/join/TWIR)购买[Three.js Journey](https://threejs-journey.com/)课程的最后机会（立减30%，明日失效）。课程刚[升级](https://twitter.com/bruno_simon/status/1585222892769497089)了24小时的React-Three-Fiber模块。借此机会推荐[Maxime Heckel的博客](https://blog.maximeheckel.com/)，他去年学习了该课程，现在能做出超酷的3D效果！他刚发表了一篇关于粒子的惊艳[文章](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/)。
+
+<!-- truncate -->
+
+**💡 [在Twitter上查看本期简报](https://slo.im/thread) - 可视化格式 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![Sizzy - 开发者专属浏览器](/emails/issues/220/sizzy.jpg)](https://sizzy.co/?utm_campaign=newsletter&utm_source=thisweekinreact)
+
+为什么其他行业的专业人士都有专用工具，而网页开发者还在用奶奶网购的浏览器？
+
+如果你在非Sizzy的浏览器中打开localhost:3000，就是在浪费宝贵时间。
+
+**使用Sizzy前：** 网页开发压力山大，响应式设计困难重重，标签页和应用多到爆炸。
+
+**使用Sizzy后：** 所需工具一应俱全，响应式设计轻松搞定，无需频繁切换上下文。
+
+立即[下载](https://sizzy.co/?utm_campaign=newsletter&utm_source=thisweekinreact)，享受14天免费试用！
+
+---
+
+## ⚛️ React {#react}
+
+[![TanStack Router](/emails/issues/123/tanstack-router.png)](https://tanstack.com/router/v1)
+
+**[TanStack Router](https://tanstack.com/router/v1)**
+
+Tanner揭晓了他的新项目：一个100%类型安全、框架无关的路由器。功能列表令人印象深刻，包括：
+
+- URL状态管理
+- 内置缓存
+- 搜索参数模式/验证
+- 自动预加载
+- 加载器/动作
+- 异步元素+代码分割
+
+乍看之下有些Remix或React-Router的影子，但API截然不同且不基于JSX，这有助于实现框架无关和类型安全。目前仅提供React适配器，文档尚不完善，但前景可期！
+
+🔗 **实用链接**：
+
+- 🐦 [Tanner Linsley](https://twitter.com/tannerlinsley/status/1590101866385489929)在Twitter发布项目并配有精彩预告片！
+- 🐦 [Ryan Florence](https://twitter.com/ryanflorence/status/1590194770936463362)表示可以借鉴其工作来提升Remix的类型安全性。
+
+---
+
+[![Gatsby 5: 迄今最快的Gatsby](/emails/issues/123/gatsby5.png)](https://www.gatsbyjs.com/blog/gatsby-5/)
+
+**[Gatsby 5: 迄今最快的Gatsby](https://www.gatsbyjs.com/blog/gatsby-5/)**
+
+Gatsby 5.0 已正式发布。该版本引入了 Gatsby Slice API，可在修改布局元素（如页眉、页脚等）时显著提升构建速度，并实验性支持了可实现部分水合(partial hydration)的服务器组件。此外还新增了 Head/Script 组件、GraphiQL v2 等功能。
+
+Gatsby 同时发布了云端新服务 [Valhalla](https://www.gatsbyjs.com/products/valhalla-content-hub/)，通过 Gatsby 源插件构建内容中心和解耦的统一 GraphQL API。值得注意的是，[Valhalla 可与 Next.js 配合使用](<https://github.com/gatsby-inc/valhalla-examples/blob/main/frameworks/nextjs/app/(pets)/page.tsx>)。
+
+静态站点生成器当前虽非主流，但仍适用于许多场景。很高兴看到至少还有头部玩家在该领域持续创新——Slice API 的设计理念颇具亮点。可惜 Valhalla 目前仅限云端服务，若能支持本地运行会更理想。
+
+🔗 **相关链接**：
+
+- 📜 [Gatsby 5.0 发布说明](https://www.gatsbyjs.com/docs/reference/release-notes/v5.0/)
+- 📜 [Valhalla 内容中心详解](https://www.gatsbyjs.com/blog/valhalla-content-hub-explained/)
+- 📜 [Gatsby 5 升级指南：拒绝裸奔升级](https://www.gatsbyjs.com/blog/gatsby-5-upgrade-say-no-to-yolo/)
+- 📜 [部分水合功能(实验版)解析](https://www.gatsbyjs.com/blog/partial-hydration-beta-explained/)
+- 📜 [Gatsby Slice API：高精度增量构建](https://www.gatsbyjs.com/blog/gatsby-slice-api/)
+- 🎥 [Valhalla 内容中心介绍视频](https://www.youtube.com/watch?v=JvHvwZZAOl0)
+
+---
+
+[![React Router 重构 Remix](/emails/issues/123/reactroutering.png)](https://remix.run/blog/react-routering-remix)
+
+**[React Router 重构 Remix](https://remix.run/blog/react-routering-remix)**
+
+React-Router 6.4 已集成多项 Remix 数据 API 特性。现在 Remix 将正式基于这些新 API 进行重构，升级过程会通过 Remix v1.x 的四个向后兼容步骤分阶段完成（配合功能标志启用）。最终目标是让 Remix v2 成为 React-Router 6.4 的编译器。
+
+🔗 **相关链接**：
+
+- 🗺 [Remix 基于 Router v6.4 的改造计划](https://github.com/remix-run/remix/issues/4485)
+- 💬 [Remix RFC - v2 元数据 API](https://github.com/remix-run/remix/discussions/4462)
+- 💬 [Remix RFC - 扁平化路由](https://github.com/remix-run/remix/discussions/4482)
+- 🎙️ [Remix + Shopify 推特语音讨论](https://twitter.com/i/spaces/1MnxnpombqBGO)
+
+---
+
+- 👀 [React Core PR - 支持Promise作为可渲染节点](https://github.com/facebook/react/pull/25634)
+- 📊 [Jamstack社区调查2022](https://jamstack.org/survey/2022/): React以71%的占比被广泛使用，Next.js占据半数项目，Remix增长势头良好，[Docusaurus表现也不错](https://twitter.com/sebastienlorber/status/1590042329255391232) 😜
+- 📜 [React Router 6的延迟加载](https://dev.to/infoxicator/react-router-6-deferred-fetch-4k68): 一篇精彩文章，演示如何使用`defer` API，并强调了错误处理和避免瀑布流问题的注意事项。
+- 📜 [使用fontaine减少Docusaurus的累积布局偏移](https://blog.logrocket.com/docusaurus-using-fontaine-reduce-cumulative-layout-shift/): [@next/font](https://nextjs.org/blog/next-13#nextfont)采用的相同技术可应用于其他场景（不限于Docusaurus）以提升CLS评分
+- 📜 [Astro实践：在React和Vue组件间共享状态](https://blog.bitsrc.io/playing-with-astro-sharing-state-between-react-and-vue-components-2d5abc89f4b4): 展示React和Vue如何在Astro应用中协同工作，并通过nanostores共享状态。
+- 📜 [Remix让开发更简单](https://bradgarropy.com/blog/remix-simplifies-things): Brad阐述为何偏爱Remix。他可以编写更少的JavaScript/React代码，更多使用HTML。相比常规样式表的链接API，搭配Tailwind使用更为便捷。
+- 📜 [为何我放弃Django转向NextJS](https://billprin.com/2022/10/30/ditched-django-nextjs.html): Bill曾是Google Compute Engine上的"Python开发者"。最终他推荐使用Next.js（或至少JS/TS），并建议Web项目避免使用Python/Ruby。
+- 📜 [如何将Storybook集成到Hydrogen](https://wemakewebsites.com/blog/devguide-how-to-integrate-storybook-with-hydrogen/): 集成过程并不简单，需要正确配置Vite。
+- 📜 [Next.js 13新特性解析](https://blog.appsignal.com/2022/11/02/whats-new-in-nextjs-13.html): 全面概述Next.js v13的新功能
+- 📜 [CSR、SSR、SSG和ISR是什么？为何你需要关注？](https://www.flavienbonvin.com/data-building-strategy-for-nextjs-app/): 在Next.js v13发布前，深入解析Next.js的渲染策略
+- 📜 [在React中实现3D图形](https://blog.openreplay.com/implementing-3d-graphics-in-react/): React-Three-Fiber入门指南
+- 📜 [用React Three Fiber和着色器探索粒子魔法世界](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/): 使用React-Three-Fiber和帧缓冲对象创建粒子场景的进阶教程
+- 🎨 [Taxonomy - 采用Next.js 13所有新特性的开源应用](https://github.com/shadcn/taxonomy)
+- 🐦 [TanStack Query的Angular版本](https://twitter.com/NetanelBasal/status/1587704203178295297): React-Query正逐步移植到其他框架
+- 🐦 [scheduler.yield() - 即将推出的Web API，对React有用吗？](https://twitter.com/sebastienlorber/status/1589939130225475584)
+- 🐦 [Next-Auth - 在Server Components中使用`getServerSession()`](https://twitter.com/shadcn/status/1589671069732196352)
+- 🧵 [新版`create-next-app`介绍](https://twitter.com/leeerob/status/1589810583444287490): 默认使用TypeScript
+- 🧵 [在Next.js 13的Server Components中，你可能不需要Context](https://twitter.com/sebmarkbage/status/1587615484870098945): Sebastian为Server Components提供了多种替代React context的方案
+- 🎥 [NextJS 13警告：易犯错误=无限循环](https://www.youtube.com/watch?v=zwQs4wXr9Bg)
+- 📦 [React-Three-Next - 已适配Next.js v13](https://twitter.com/onirenaud/status/1587830274175295488)
+- 📦 [Redux ToolKit 1.9发布](https://github.com/reduxjs/redux-toolkit/releases/tag/v1.9.0)
+- 📦 [derive-zustand状态派生库](https://github.com/dai-shi/derive-zustand/)
+- 📦 [Generouted 1.6 - Vite的文件路由方案](https://twitter.com/oedotme/status/1589720850051522561)
+- 📦 [udomsay - 更严格、信号驱动、基于JSX的库](https://github.com/WebReflection/udomsay)
+
+<SubscribeFormEmbed />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![Jamf - 轻松保护和管理您的苹果设备](https://ucarecdn.com/f5a0c637-c59e-4b81-92d1-31bc896020c0/-/crop/250x146/0,52/-/resize/240x140/)](https://vpdae.com/redirect/p6sxgodi71psw70ruh4ypz7tfc9)
+
+**[Jamf - 轻松保护和管理您的苹果设备](https://vpdae.com/redirect/p6sxgodi71psw70ruh4ypz7tfc9)**
+
+Jamf Now 是一款面向苹果设备的移动设备管理(MDM)解决方案。该方案简化了设备管理任务，如配置Wi-Fi和电子邮件设置、部署应用程序、保护敏感公司数据以及强制执行密码策略。Jamf Fundamentals套餐包含更多安全功能，包括恶意软件防护以防止恶意威胁在设备上运行。注册后可免费管理最多3台设备，每增加一台设备仅需每月2美元。如需更强大功能，可升级至Jamf Fundamentals套餐，免费管理3台设备后每台设备每月收费4美元。
+
+<img src="https://www.vpdae.com/open/5031.gif?opens=1" width="1" height="1" />
+
+---
+
+## 📱 React-Native {#react-native}
+
+[![Expo SDK 47](/emails/issues/123/expo47.png)](https://blog.expo.dev/expo-sdk-47-a0f6f5c038af)
+
+**[Expo SDK 47](https://blog.expo.dev/expo-sdk-47-a0f6f5c038af)**
+
+新版SDK 47已正式发布，详细更新内容可参阅专题文章。
+
+- 包含React Native 0.70.5和React 18.1.0
+- Expo Modules API 1.0支持用Swift/Kotlin轻松创建Fabric原生模块
+- Hermes引擎支持Expo Go iOS应用，调试体验更简化。下个SDK版本将默认启用Hermes
+- 多个Expo模块已支持Fabric架构
+- Expo Router进入测试阶段：为React-Navigation提供文件系统路由方案
+- EAS各项改进：端到端安全、M1芯片构建支持等
+
+简而言之，这是个非常出色的版本！相比官方工具如react-native-codegen（目前尚不支持Swift），Expo Modules显然更便于适配新架构。
+
+---
+
+- 📦 [React-Native 0.71 RC.0](https://twitter.com/CipolleschiR/status/1588578757857533952)：包含TypeScript类型定义，新应用默认采用TypeScript，支持Flex间隙布局... 该版本曾导致[Android构建中断](https://twitter.com/reactnative/status/1589296764678705155)（现已[修复](https://twitter.com/reactnative/status/1589394317126565888)）
+- 👥 [Open Native：通用原生模块方案](https://github.com/OpenNative/open-native)：通过平台无关的原生模块和适配器，减少React-Native/Flutter/Capacitor/NativeScript等生态重复开发原生模块的工作量
+- 📜 [将React Native库迁移至新架构](https://www.callstack.com/blog/migrating-a-react-native-library-to-the-new-architecture)：Oscar记录将React-Native Slider迁移到Fabric架构的挑战，并阐述迁移现有库或创建新库的四个关键步骤
+- 📜 [为EAS Update引入端到端代码签名安全机制](https://blog.expo.dev/introducing-end-to-end-security-to-eas-update-with-code-signing-b6a14d0d88d4)
+- 📜 [Flutter vs React Native：跨平台框架选型指南](https://stackoverflow.blog/2022/10/31/comparing-frameworks-for-cross-platform-apps-flutter-vs-react-native/)
+- 💬 [RFC：Metro包导出支持](https://github.com/react-native-community/discussions-and-proposals/pull/534) + [Node.js定义"react-native"社区条件](https://github.com/nodejs/node/pull/45367)
+- 💬 [RFC：布局一致性/兼容性愿景](https://github.com/react-native-community/discussions-and-proposals/pull/540/)
+- 🎉 [React-Native新应用默认采用TypeScript](https://github.com/facebook/react-native/pull/35165)
+- 🎙️ [RNR 251期 - 深度解析React Native 0.70](https://reactnativeradio.com/episodes/rnr-251-examining-react-native-070)
+- 🎥 [React Native蓝牙低功耗(BLE)数据收发教程](https://www.youtube.com/watch?v=jeH2QmZ8T14)
+- 🎥 [React Native动画式FlatList实现](https://www.youtube.com/watch?v=3ox0R5jPb04)
+- 📦 [Storybook-Solito集成方案](https://github.com/dannyhw/storybook-solito)
+
+---
+
+## 🧑‍💻 职位招聘 {#jobs}
+
+🧑‍💼 [**Causal招聘产品工程师（远程/伦敦/纽约，年薪15-25万美元）**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied&lever-source%5B%5D=thisweekinreact.com)
+
+Causal是由Coatue/Accel投资的A轮初创公司，致力于打造集数据计算与可视化于一体的工具。现招募能解决复杂UX/性能问题的资深React工程师。
+
+🧑‍💼 [**G2i - 纯远程React Native职位（年薪约16万美元+10%奖金）**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
+
+我们开放多个React Native开发岗位！需具备RN生产环境经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)时请注明通过This Week in React获悉该职位。
+
+💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
+
+---
+
+## 🔀 其他资讯 {#other}
+
+- [Rome v10 正式发布](https://rome.tools/blog/2022/11/08/rome-10.html)：Rome工具链的首个稳定版本，旨在用更快速、更易用的Rust方案替代ESLint/Prettier。最吸引人的并非速度优势，而是其错误恢复机制和友好的报错信息。
+- [CodeSandbox GitHub应用发布](https://codesandbox.io/post/introducing-the-codesandbox-github-app)：提供集成功能简化PR的贡献与审查。这与近期推出的[StackBlitz Codeflow](https://stackblitz.com/codeflow)理念相似，但采用不同技术实现。
+- [选择Jest而非Vitest](https://bradgarropy.com/blog/jest-over-vitest)：Brad在尝试迁移至Vitest后，因执行速度未显著提升且存在适配问题，决定暂留Jest。
+- [Vitest 0.25](https://github.com/vitest-dev/vitest/releases/tag/v0.25.0)：新增对TypeScript类型测试的支持
+- [TypeScript PR - 将TypeScript转换为模块](https://twitter.com/sebastienlorber/status/1589958856561434624)：TypeScript 5.0中tsc编译速度将提升10-25%
+- [Xata - 面向现代开发者的无服务器数据平台](https://twitter.com/xata/status/1587794475274969088)
+- [Tina CMS 1.0发布](https://tina.io/blog/tina-1-0-announcement/)
+- [Safari技术预览版157](https://webkit.org/blog/13575/release-notes-for-safari-technology-preview-157/)
+- [ESLint - 新增consistent-type-imports规则](https://github.com/typescript-eslint/typescript-eslint/pull/5050)
+- [无JavaScript的客户端路由方案](https://dev.to/this-is-learning/client-side-routing-without-the-javascript-3k1i)
+- [性能：Rust与Node.js的协同关系](https://sprkl.dev/performance-rust-node-js/)
+- [JavaScript中的realm是什么？](https://weizman.github.io/page-what-is-a-realm-in-js/)
+- [Tailwind CSS五周年](https://twitter.com/adamwathan/status/1587128677724291074)
+- [10月Web平台新特性](https://web.dev/web-platform-10-2022/)
+- [Protobuf-ES：应得的Protocol Buffers TS/JS运行时](https://buf.build/blog/protobuf-es-the-protocol-buffers-typescript-javascript-runtime-we-all-deserve)
+- [ESLint v8.27发布](https://eslint.org/blog/2022/11/eslint-v8.27.0-released/)
+- [Node.js - 移除fetch实验性警告](https://twitter.com/matteocollina/status/1588966117393203203)
+- [Node.js - 2022年11月3日安全更新](https://nodejs.org/en/blog/vulnerability/november-2022-security-releases/)
+- [Playwright新增getBy系列API](https://dev.to/playwright/playwright-now-has-new-getby-apis-1iad)
+
+---
+
+## 🤭 轻松一刻 {#fun}
+
+[![上周末实况 - React-Native 0.71像小多米诺骨牌倒下，引发之前版本的大骨牌连锁反应](/emails/issues/123/meme.png)](https://twitter.com/swmansion/status/1589571114048851968)
+
+更多趣味内容请查看这条[Twitter话题](https://slo.im/fun)，其中收录了许多未曾出现在 newsletter 中的精彩发现。
+
+[![React每周资讯 - 趣味集锦](/emails/fun-banner.png)](https://slo.im/fun)

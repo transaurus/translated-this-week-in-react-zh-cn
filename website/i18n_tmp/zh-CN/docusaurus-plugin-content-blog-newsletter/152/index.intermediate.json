@@ -1,0 +1,407 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/152/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /152\ntitle: \"This Week In React #152: React 18, RSC, Kuma UI, Expo 49, Next.js, Remix DevTools, Fresh, React-Query, Redwood, Catalyst, Million, MDXEditor, Ariakit, Rewind, TC39, Prettier...\"\nauthors: [slorber]\ndate: 07-18-2023\n---",
+      "sourceMdx": "---\nslug: /152\ntitle: \"This Week In React #152: React 18, RSC, Kuma UI, Expo 49, Next.js, Remix DevTools, Fresh, React-Query, Redwood, Catalyst, Million, MDXEditor, Ariakit, Rewind, TC39, Prettier...\"\nauthors: [slorber]\ndate: 07-18-2023\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "I've just got back from holiday in French Brittany 😎, so we're covering 2 weeks of news in this edition.",
+      "sourceMdx": "I've just got back from holiday in French Brittany 😎, so we're covering 2 weeks of news in this edition."
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "I thought it was going to be a quiet summer, but there have been quite a few releases and plenty of articles on Server Components! 😄",
+      "sourceMdx": "I thought it was going to be a quiet summer, but there have been quite a few releases and plenty of articles on Server Components! 😄"
+    },
+    {
+      "id": "e883b2cc",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "86b54d44",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "7f7f1cb2",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "92f4ea84",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "5dfba1c3",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "1856ef44",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "79b2d0b9",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "d9172fa4",
+      "translatable": true,
+      "content": "[![Tina.io is a headless CMS for Markdown-powered sites](/emails/issues/140/tinacms.jpg)](https://tina.io/?utm_source=newsletter\\&utm_term=this-week-in-react)",
+      "sourceMdx": "[![Tina.io is a headless CMS for Markdown-powered sites](/emails/issues/140/tinacms.jpg)](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)"
+    },
+    {
+      "id": "26524352",
+      "translatable": true,
+      "content": "**[Tina.io is a headless CMS for Markdown-powered sites](https://tina.io/?utm_source=newsletter\\&utm_term=this-week-in-react)**",
+      "sourceMdx": "**[Tina.io is a headless CMS for Markdown-powered sites](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)**"
+    },
+    {
+      "id": "86b525ab",
+      "translatable": true,
+      "content": "* Editing UI for your Markdown files\n* UI for MDX components\n* Supports static (SSG) and server-side rendering (SSR)\n* Option for visual editing (live-preview)\n* Build with reusable blocks",
+      "sourceMdx": "- Editing UI for your Markdown files\n- UI for MDX components\n- Supports static (SSG) and server-side rendering (SSR)\n- Option for visual editing (live-preview)\n- Build with reusable blocks"
+    },
+    {
+      "id": "135468ee",
+      "translatable": true,
+      "content": "Test a starter site",
+      "sourceMdx": "Test a starter site"
+    },
+    {
+      "id": "e7bc8c38",
+      "translatable": true,
+      "content": "* [Docusaurus](https://github.com/tinacms/tinasaurus) (Github)\n* [Next.js + Tailwind with visual editing](https://github.com/tinacms/tina-cloud-starter) (Github)",
+      "sourceMdx": "- [Docusaurus](https://github.com/tinacms/tinasaurus) (Github)\n- [Next.js + Tailwind with visual editing](https://github.com/tinacms/tina-cloud-starter) (Github)"
+    },
+    {
+      "id": "1042b50d",
+      "translatable": true,
+      "content": "Or run  `npx create-tina-app@latest` then visit `localhost:3000/admin`",
+      "sourceMdx": "Or run  `npx create-tina-app@latest` then visit `localhost:3000/admin`"
+    },
+    {
+      "id": "aa1e7006",
+      "translatable": true,
+      "content": "Watch the [4-min demo video](https://www.youtube.com/watch?v=zRkeKSZjlyw)",
+      "sourceMdx": "Watch the [4-min demo video](https://www.youtube.com/watch?v=zRkeKSZjlyw)"
+    },
+    {
+      "id": "94f98fb8",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "6f930b2f",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "c504c207",
+      "translatable": true,
+      "content": "[![How React 18 Improves Application Performance](/emails/issues/152/react18perf.jpg)](https://vercel.com/blog/how-react-18-improves-application-performance)",
+      "sourceMdx": "[![How React 18 Improves Application Performance](/emails/issues/152/react18perf.jpg)](https://vercel.com/blog/how-react-18-improves-application-performance)"
+    },
+    {
+      "id": "98d26038",
+      "translatable": true,
+      "content": "**[How React 18 Improves Application Performance](https://vercel.com/blog/how-react-18-improves-application-performance)**",
+      "sourceMdx": "**[How React 18 Improves Application Performance](https://vercel.com/blog/how-react-18-improves-application-performance)**"
+    },
+    {
+      "id": "d3649a1e",
+      "translatable": true,
+      "content": "Comprehensive, well-illustrated article on React 18 and its impact on performance. Explains how Concurrent React works and its impact on metrics such as Total Blocking Time and Interaction to Next Paint. Also presents other new features such as the Transition API, React Server Components, Suspense and the new React cache.",
+      "sourceMdx": "Comprehensive, well-illustrated article on React 18 and its impact on performance. Explains how Concurrent React works and its impact on metrics such as Total Blocking Time and Interaction to Next Paint. Also presents other new features such as the Transition API, React Server Components, Suspense and the new React cache."
+    },
+    {
+      "id": "6e9a41d8",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "23dfb152",
+      "translatable": true,
+      "content": "[![Kuma UI](/emails/issues/152/kuma.jpg)](https://www.kuma-ui.com/)",
+      "sourceMdx": "[![Kuma UI](/emails/issues/152/kuma.jpg)](https://www.kuma-ui.com/)"
+    },
+    {
+      "id": "1131ef75",
+      "translatable": true,
+      "content": "**[Kuma UI](https://www.kuma-ui.com/)**",
+      "sourceMdx": "**[Kuma UI](https://www.kuma-ui.com/)**"
+    },
+    {
+      "id": "8b2a52b1",
+      "translatable": true,
+      "content": "New CSS-in-JS library inspired by the DX offered by Chakra UI, and compatible with React Server Components. The library is based on a unique hybride method that combines the best of zero-runtime CSS-in-JS and traditional runtime solutions. We'll have to study all this, and see how this library stands up to [Panda CSS](https://panda-css.com/) from the Chakra team.",
+      "sourceMdx": "New CSS-in-JS library inspired by the DX offered by Chakra UI, and compatible with React Server Components. The library is based on a unique hybride method that combines the best of zero-runtime CSS-in-JS and traditional runtime solutions. We'll have to study all this, and see how this library stands up to [Panda CSS](https://panda-css.com/) from the Chakra team."
+    },
+    {
+      "id": "42c293cc",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "180e9ce9",
+      "translatable": true,
+      "content": "* 🐦 [DevRel Matt Carroll rejoined the React team](https://twitter.com/mattcarrollcode/status/1681342638816112641)\n* 👀 [How to Setup Redwood Experimental React Server Components](https://community.redwoodjs.com/t/react-server-components-rsc/5081)\n* 👀 [React-Query-Nextjs](https://twitter.com/TkDodo/status/1680153231853223938): React-Query experimental support for the Next.js App Directory.\n* 📜 [My take on the current React & Server Components controversy](https://phryneas.de/react-server-components-controversy): Lenz loves the React Server Components but explains his frustration as a maintainer of Apollo Client and Redux Toolkit.\n* 📜 [Demystifying React Server Components with NextJS 13 App Router](https://demystifying-rsc.vercel.app/): a great demo application with well-illustrated notes explaining how Server Components work, including many code and network payload samples.\n* 📜 [5 Common Pitfalls with Server Components in Next13 (with examples)](https://www.propelauth.com/post/5-common-pitfalls-with-server-components-in-next13-with-examples): well-illustrated article presenting the most common errors when using Server Components.\n* 📜 [Trimming typography with Capsize](https://www.skovy.dev/blog/using-capsize-with-stitches): explains how to trim and normalise whitespaces around your fonts to facilitate alignment, in a React context.\n* 📜 [SvelteJS: My ecosystem is bigger than yours](https://hackmd.io/@roguegpu/r1RKQMdt3): interesting criticism of React in favour of Svelte, which doesn't need as much of an ecosystem.\n* 📜 [Why Server Components - A Brief History of Web](https://www.perssondennis.com/articles/why-server-components-a-brief-history-of-web)\n* 📜 [A Visual Guide to Prefetching in Next.js 13](https://www.builder.io/blog/prefetching-nextjs-visual-guide)\n* 📜 [Autosave form inputs with Remix](https://www.jacobparis.com/content/remix-form-autosave)\n* 📜 [Ariakit is now stable](https://newsletter.ariakit.org/p/stable)\n* 📜 [A pattern for chaining nextjs middlewares](https://raphael.badia.cc/posts/a-pattern-for-chaining-middlewares)\n* 📜 [Embracing Polymorphism for Flexible Components](https://brightinventions.pl/blog/embracing-polymorphism-for-flexible-components/)\n* 📦 [Fresh 1.3 – Simplified Route Components and More](https://twitter.com/deno_land/status/1681340646723039232)\n* 📦 [Next.js 13.4.10](https://github.com/vercel/next.js/releases/tag/v13.4.10)\n* 📦 [Million.js 2.5 - Compile time macros](https://twitter.com/aidenybai/status/1679698685603774464)\n* 📦 [Remix Development Tools](https://twitter.com/AlemTuzlak59192/status/1680538200702369794)\n* 📦 [Remix-Hono](https://github.com/sergiodxa/remix-hono)\n* 📦 [Remix-JSON-Routes](https://github.com/brophdawg11/remix-json-routes)\n* 📦 [Vercel Platforms Starter Kit - Template for building multi-tenant applications using Next.js App Router](https://vercel.com/blog/platforms-starter-kit)\n* 📦 [MDX Editor - WYSIWYG React component for Markdown editing](https://mdxeditor.dev/)\n* 📦 [Rewind-UI - React-TailwindCSS component library](https://rewind-ui.dev/)\n* 📦 [Featurevisor - Git-based Feature flags, with React bindings](https://github.com/fahad19/featurevisor)\n* 🎥 [Tailwind Connect 2023 — Keynote](https://www.youtube.com/watch?v=CLkxRnRQtDE): annonce de Catalyst, un React UI kit\n* 🎥 [Legend: The Ultimate React State Manager?](https://www.youtube.com/watch?v=E4TH77SMOG8)",
+      "sourceMdx": "- 🐦 [DevRel Matt Carroll rejoined the React team](https://twitter.com/mattcarrollcode/status/1681342638816112641)\n- 👀 [How to Setup Redwood Experimental React Server Components](https://community.redwoodjs.com/t/react-server-components-rsc/5081)\n- 👀 [React-Query-Nextjs](https://twitter.com/TkDodo/status/1680153231853223938): React-Query experimental support for the Next.js App Directory.\n- 📜 [My take on the current React & Server Components controversy](https://phryneas.de/react-server-components-controversy): Lenz loves the React Server Components but explains his frustration as a maintainer of Apollo Client and Redux Toolkit.\n- 📜 [Demystifying React Server Components with NextJS 13 App Router](https://demystifying-rsc.vercel.app/): a great demo application with well-illustrated notes explaining how Server Components work, including many code and network payload samples.\n- 📜 [5 Common Pitfalls with Server Components in Next13 (with examples)](https://www.propelauth.com/post/5-common-pitfalls-with-server-components-in-next13-with-examples): well-illustrated article presenting the most common errors when using Server Components.\n- 📜 [Trimming typography with Capsize](https://www.skovy.dev/blog/using-capsize-with-stitches): explains how to trim and normalise whitespaces around your fonts to facilitate alignment, in a React context.\n- 📜 [SvelteJS: My ecosystem is bigger than yours](https://hackmd.io/@roguegpu/r1RKQMdt3): interesting criticism of React in favour of Svelte, which doesn't need as much of an ecosystem.\n- 📜 [Why Server Components - A Brief History of Web](https://www.perssondennis.com/articles/why-server-components-a-brief-history-of-web)\n- 📜 [A Visual Guide to Prefetching in Next.js 13](https://www.builder.io/blog/prefetching-nextjs-visual-guide)\n- 📜 [Autosave form inputs with Remix](https://www.jacobparis.com/content/remix-form-autosave)\n- 📜 [Ariakit is now stable](https://newsletter.ariakit.org/p/stable)\n- 📜 [A pattern for chaining nextjs middlewares](https://raphael.badia.cc/posts/a-pattern-for-chaining-middlewares)\n- 📜 [Embracing Polymorphism for Flexible Components](https://brightinventions.pl/blog/embracing-polymorphism-for-flexible-components/)\n- 📦 [Fresh 1.3 – Simplified Route Components and More](https://twitter.com/deno_land/status/1681340646723039232)\n- 📦 [Next.js 13.4.10](https://github.com/vercel/next.js/releases/tag/v13.4.10)\n- 📦 [Million.js 2.5 - Compile time macros](https://twitter.com/aidenybai/status/1679698685603774464)\n- 📦 [Remix Development Tools](https://twitter.com/AlemTuzlak59192/status/1680538200702369794)\n- 📦 [Remix-Hono](https://github.com/sergiodxa/remix-hono)\n- 📦 [Remix-JSON-Routes](https://github.com/brophdawg11/remix-json-routes)\n- 📦 [Vercel Platforms Starter Kit - Template for building multi-tenant applications using Next.js App Router](https://vercel.com/blog/platforms-starter-kit)\n- 📦 [MDX Editor - WYSIWYG React component for Markdown editing](https://mdxeditor.dev/)\n- 📦 [Rewind-UI - React-TailwindCSS component library](https://rewind-ui.dev/)\n- 📦 [Featurevisor - Git-based Feature flags, with React bindings](https://github.com/fahad19/featurevisor)\n- 🎥 [Tailwind Connect 2023 — Keynote](https://www.youtube.com/watch?v=CLkxRnRQtDE): annonce de Catalyst, un React UI kit\n- 🎥 [Legend: The Ultimate React State Manager?](https://www.youtube.com/watch?v=E4TH77SMOG8)"
+    },
+    {
+      "id": "0904148e",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed placement=\"middle\" />",
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+    },
+    {
+      "id": "4f2104fa",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "f8edb6d2",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "1862c5fe",
+      "translatable": true,
+      "content": "[![Porkbun.com - The Best Domain Name Registrar](/emails/issues/150/porkbun.png)](https://porkbun.com/?coupon=TWIREACT\\&utm_source=TWIREACT\\&utm_medium=Newsletter\\&utm_campaign=twirjune2023)",
+      "sourceMdx": "[![Porkbun.com - The Best Domain Name Registrar](/emails/issues/150/porkbun.png)](https://porkbun.com/?coupon=TWIREACT&utm_source=TWIREACT&utm_medium=Newsletter&utm_campaign=twirjune2023)"
+    },
+    {
+      "id": "6ca4479f",
+      "translatable": true,
+      "content": "**[Porkbun.com - The Best Domain Name Registrar](https://porkbun.com/?coupon=TWIREACT\\&utm_source=TWIREACT\\&utm_medium=Newsletter\\&utm_campaign=twirjune2023)**",
+      "sourceMdx": "**[Porkbun.com - The Best Domain Name Registrar](https://porkbun.com/?coupon=TWIREACT&utm_source=TWIREACT&utm_medium=Newsletter&utm_campaign=twirjune2023)**"
+    },
+    {
+      "id": "a2c0166e",
+      "translatable": true,
+      "content": "Porkbun offers hundreds of domain extensions for React and React-Native developers from .dev and .app to .cloud, .xyz, and .ai — all at the **lowest prices around!** Every domain name at Porkbun comes with **tons of free features** like:",
+      "sourceMdx": "Porkbun offers hundreds of domain extensions for React and React-Native developers from .dev and .app to .cloud, .xyz, and .ai — all at the **lowest prices around!** Every domain name at Porkbun comes with **tons of free features** like:"
+    },
+    {
+      "id": "cd1d0fe2",
+      "translatable": true,
+      "content": "* SSL Certificates\n* WHOIS Privacy\n* DNS\n* URL Forwarding\n* Web and Email Hosting Trials",
+      "sourceMdx": "- SSL Certificates\n- WHOIS Privacy\n- DNS\n- URL Forwarding\n- Web and Email Hosting Trials"
+    },
+    {
+      "id": "0801d969",
+      "translatable": true,
+      "content": "Check out our **AI Generated Search tool** that’s changing the way people look for domain names. All this is backed by **incredible support 365 days a year** plus thousands of real five-star reviews on Trustpilot.",
+      "sourceMdx": "Check out our **AI Generated Search tool** that’s changing the way people look for domain names. All this is backed by **incredible support 365 days a year** plus thousands of real five-star reviews on Trustpilot."
+    },
+    {
+      "id": "3c19e221",
+      "translatable": true,
+      "content": "Click the link and [get $1 off your next domain name registration](https://porkbun.com/?coupon=TWIREACT\\&utm_source=TWIREACT\\&utm_medium=Newsletter\\&utm_campaign=twirjune2023) at Porkbun.com!",
+      "sourceMdx": "Click the link and [get $1 off your next domain name registration](https://porkbun.com/?coupon=TWIREACT&utm_source=TWIREACT&utm_medium=Newsletter&utm_campaign=twirjune2023) at Porkbun.com!"
+    },
+    {
+      "id": "55c9cb00",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "f8614e13",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "396efb28",
+      "translatable": true,
+      "content": "[![Expo SDK 49](/emails/issues/152/expo49.jpg)](https://blog.expo.dev/expo-sdk-49-c6d398cdf740)",
+      "sourceMdx": "[![Expo SDK 49](/emails/issues/152/expo49.jpg)](https://blog.expo.dev/expo-sdk-49-c6d398cdf740)"
+    },
+    {
+      "id": "558df877",
+      "translatable": true,
+      "content": "**[Expo SDK 49](https://blog.expo.dev/expo-sdk-49-c6d398cdf740)**",
+      "sourceMdx": "**[Expo SDK 49](https://blog.expo.dev/expo-sdk-49-c6d398cdf740)**"
+    },
+    {
+      "id": "f38d1cb0",
+      "translatable": true,
+      "content": "The new SDK 49 has just been released. Many new features have been announced, including my favourites:",
+      "sourceMdx": "The new SDK 49 has just been released. Many new features have been announced, including my favourites:"
+    },
+    {
+      "id": "0aa939cf",
+      "translatable": true,
+      "content": "* React Native 0.72.3, React Native Web 0.19.6\n* Expo Router v2.0\n* Network debugging, VS Code debugging\n* React devtools built-in\n* Environment variables\n* Local Expo Modules\n* EAS Insights",
+      "sourceMdx": "- React Native 0.72.3, React Native Web 0.19.6\n- Expo Router v2.0\n- Network debugging, VS Code debugging\n- React devtools built-in\n- Environment variables\n- Local Expo Modules\n- EAS Insights"
+    },
+    {
+      "id": "f539b80c",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "383fbdd2",
+      "translatable": true,
+      "content": "[![Announcing Expo Router v2](/emails/issues/152/exporouter2.jpg)](https://blog.expo.dev/introducing-expo-router-v2-3850fd5c3ca1)",
+      "sourceMdx": "[![Announcing Expo Router v2](/emails/issues/152/exporouter2.jpg)](https://blog.expo.dev/introducing-expo-router-v2-3850fd5c3ca1)"
+    },
+    {
+      "id": "14bc6b75",
+      "translatable": true,
+      "content": "**[Announcing Expo Router v2](https://blog.expo.dev/introducing-expo-router-v2-3850fd5c3ca1)**",
+      "sourceMdx": "**[Announcing Expo Router v2](https://blog.expo.dev/introducing-expo-router-v2-3850fd5c3ca1)**"
+    },
+    {
+      "id": "e478ec2c",
+      "translatable": true,
+      "content": "Along with SDK 49, Expo is also announcing the release of Expo Router v2 with many enhancements, including:",
+      "sourceMdx": "Along with SDK 49, Expo is also announcing the release of Expo Router v2 with many enhancements, including:"
+    },
+    {
+      "id": "eb70e807",
+      "translatable": true,
+      "content": "* TypeScript support\n* Static routes, SEO, Head metadata\n* Async routes\n* Universal Linking, handoff\n* CSS and Styling",
+      "sourceMdx": "- TypeScript support\n- Static routes, SEO, Head metadata\n- Async routes\n- Universal Linking, handoff\n- CSS and Styling"
+    },
+    {
+      "id": "af4523c9",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "d4615819",
+      "translatable": true,
+      "content": "* 📜 [Reflecting on Code Sharing Between React and React Native](https://matthewwolfe.github.io/blog/code-sharing-react-and-react-native)\n* 📜 [A new approach to React Native development and team composition](https://itnext.io/a-new-approach-to-react-native-development-and-team-composition-d6e3e3eb5184)\n* 📦 [React-Native 0.72.3](https://github.com/facebook/react-native/releases/tag/v0.72.3)\n* 📦 [Flashlight 0.8 - measure command](https://twitter.com/almouro/status/1676202443346944000)\n* 📦 [react-native-image-colors 2.3 - Expo 49 support](https://github.com/osamaqarem/react-native-image-colors)\n* 📦 [react-native-android-widget 0.7 - Expo 49 support](https://github.com/sAleksovski/react-native-android-widget)\n* 🎙️ [RNR 271 - RN From a Flutter Dev's Perspective](https://reactnativeradio.com/episodes/rnr-271-rn-from-a-flutter-devs-perspective)\n* 🎥 [Expo SDK 49: New Features and Improvements](https://www.youtube.com/watch?v=1CVlTqHW5xQ)\n* 🎥 [Theo on Airbnb sunsetting React-Native](https://www.youtube.com/watch?v=ZM8lJIJb2Q4)\n* 🎥 [Top 9 React Native UI Component Libraries in 2023](https://www.youtube.com/watch?v=SfJGBbv-qQw)",
+      "sourceMdx": "- 📜 [Reflecting on Code Sharing Between React and React Native](https://matthewwolfe.github.io/blog/code-sharing-react-and-react-native)\n- 📜 [A new approach to React Native development and team composition](https://itnext.io/a-new-approach-to-react-native-development-and-team-composition-d6e3e3eb5184)\n- 📦 [React-Native 0.72.3](https://github.com/facebook/react-native/releases/tag/v0.72.3)\n- 📦 [Flashlight 0.8 - measure command](https://twitter.com/almouro/status/1676202443346944000)\n- 📦 [react-native-image-colors 2.3 - Expo 49 support](https://github.com/osamaqarem/react-native-image-colors)\n- 📦 [react-native-android-widget 0.7 - Expo 49 support](https://github.com/sAleksovski/react-native-android-widget)\n- 🎙️ [RNR 271 - RN From a Flutter Dev's Perspective](https://reactnativeradio.com/episodes/rnr-271-rn-from-a-flutter-devs-perspective)\n- 🎥 [Expo SDK 49: New Features and Improvements](https://www.youtube.com/watch?v=1CVlTqHW5xQ)\n- 🎥 [Theo on Airbnb sunsetting React-Native](https://www.youtube.com/watch?v=ZM8lJIJb2Q4)\n- 🎥 [Top 9 React Native UI Component Libraries in 2023](https://www.youtube.com/watch?v=SfJGBbv-qQw)"
+    },
+    {
+      "id": "d26d4100",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "7312e69e",
+      "translatable": true,
+      "content": "## 🧑‍💻 Jobs",
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+    },
+    {
+      "id": "2dbfc5f7",
+      "translatable": true,
+      "content": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)",
+      "sourceMdx": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)"
+    },
+    {
+      "id": "6b40e7a2",
+      "translatable": true,
+      "content": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses.",
+      "sourceMdx": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses."
+    },
+    {
+      "id": "39f476dc",
+      "translatable": true,
+      "content": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
+      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)"
+    },
+    {
+      "id": "827eb9a3",
+      "translatable": true,
+      "content": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
+      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!"
+    },
+    {
+      "id": "62d066b0",
+      "translatable": true,
+      "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+    },
+    {
+      "id": "89cf7bac",
+      "translatable": true,
+      "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+    },
+    {
+      "id": "808b0414",
+      "translatable": true,
+      "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+    },
+    {
+      "id": "f83eccd3",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "2b5df263",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "67a49da9",
+      "translatable": true,
+      "content": "* [Updates from the 97th TC39 meeting](https://dev.to/hemanth/updates-from-the-97th-tc39-meeting-1cnj)\n* [What’s Next for JavaScript: New Features to Look Forward to](https://thenewstack.io/whats-next-for-javascript-new-features-to-look-forward-to/)\n* [Prisma 5: Faster by Default](https://www.prisma.io/blog/prisma-5-f66prwkjx72s)\n* [Deno 1.35: A fast and convenient way to build web servers](https://deno.com/blog/v1.35)\n* [Prettier 3.0](https://prettier.io/blog/2023/07/05/3.0.0.html)\n* [TypeScript-ESLint v6](https://typescript-eslint.io/blog/announcing-typescript-eslint-v6/)\n* [Node v20.4](https://nodejs.org/en/blog/release/v20.4.0)\n* [Vite 4.4](https://twitter.com/vite_js/status/1676886213771264002)",
+      "sourceMdx": "- [Updates from the 97th TC39 meeting](https://dev.to/hemanth/updates-from-the-97th-tc39-meeting-1cnj)\n- [What’s Next for JavaScript: New Features to Look Forward to](https://thenewstack.io/whats-next-for-javascript-new-features-to-look-forward-to/)\n- [Prisma 5: Faster by Default](https://www.prisma.io/blog/prisma-5-f66prwkjx72s)\n- [Deno 1.35: A fast and convenient way to build web servers](https://deno.com/blog/v1.35)\n- [Prettier 3.0](https://prettier.io/blog/2023/07/05/3.0.0.html)\n- [TypeScript-ESLint v6](https://typescript-eslint.io/blog/announcing-typescript-eslint-v6/)\n- [Node v20.4](https://nodejs.org/en/blog/release/v20.4.0)\n- [Vite 4.4](https://twitter.com/vite_js/status/1676886213771264002)"
+    },
+    {
+      "id": "44ffe19e",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "e779f31e",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "af016b8e",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/152/meme.jpg)](https://twitter.com/jantimon/status/1681275581629964300)",
+      "sourceMdx": "[![alt](/emails/issues/152/meme.jpg)](https://twitter.com/jantimon/status/1681275581629964300)"
+    },
+    {
+      "id": "3799844b",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

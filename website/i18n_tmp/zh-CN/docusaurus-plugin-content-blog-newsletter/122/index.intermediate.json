@@ -1,0 +1,509 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/122/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /122\ntitle: \"This Week In React #122: Next.js 13, Turbopack, Remixing Shopify, React-Three-Fiber Journey, Gatsby Valhalla, Expo 47, Rive, Storybook, Asta...\"\nauthors: [slorber]\ndate: 11-01-2022\n---",
+      "sourceMdx": "---\nslug: /122\ntitle: \"This Week In React #122: Next.js 13, Turbopack, Remixing Shopify, React-Three-Fiber Journey, Gatsby Valhalla, Expo 47, Rive, Storybook, Asta...\"\nauthors: [slorber]\ndate: 11-01-2022\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "What a great week full of twists and turns!",
+      "sourceMdx": "What a great week full of twists and turns!"
+    },
+    {
+      "id": "143e51c1",
+      "translatable": true,
+      "content": "* Next.js 13 gives us access to the latest React innovations\n* Turbopack could succeed Webpack\n* Shopify acquires Remix\n* Gatsby will release its v5 and make its data-layer agnostic\n* Expo's SDK 47 is really promising",
+      "sourceMdx": "- Next.js 13 gives us access to the latest React innovations\n- Turbopack could succeed Webpack\n- Shopify acquires Remix\n- Gatsby will release its v5 and make its data-layer agnostic\n- Expo's SDK 47 is really promising"
+    },
+    {
+      "id": "39b3772c",
+      "translatable": true,
+      "content": "Also, don't miss the big update to the Three.js Journey course with React-Three-Fiber modules. I got promo code [\"TWIR\"](https://threejs-journey.com/join/TWIR) for the launch. This will be the first course to be featured on a future \"deals\" page I'll create later.",
+      "sourceMdx": "Also, don't miss the big update to the Three.js Journey course with React-Three-Fiber modules. I got promo code [\"TWIR\"](https://threejs-journey.com/join/TWIR) for the launch. This will be the first course to be featured on a future \"deals\" page I'll create later."
+    },
+    {
+      "id": "1acb9a05",
+      "translatable": true,
+      "content": "I'm testing a new format! This took much more time than usual 😅. I would really appreciate a [retweet](https://slo.im/thread), testimonial or referral to a friend if you want to support me doing this again 🙏 The bigger the newsletter, the more opportunity I have to improve it.",
+      "sourceMdx": "I'm testing a new format! This took much more time than usual 😅. I would really appreciate a [retweet](https://slo.im/thread), testimonial or referral to a friend if you want to support me doing this again 🙏 The bigger the newsletter, the more opportunity I have to improve it."
+    },
+    {
+      "id": "ea978e4d",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "98cfbd53",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "caf67047",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "cd6b8019",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "599822a5",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "2b88bb9d",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "a1b3d8cb",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "517051a7",
+      "translatable": true,
+      "content": "[![Sizzy - the browser for developers](/emails/issues/220/sizzy.jpg)](https://sizzy.co/?utm_campaign=newsletter\\&utm_source=thisweekinreact)",
+      "sourceMdx": "[![Sizzy - the browser for developers](/emails/issues/220/sizzy.jpg)](https://sizzy.co/?utm_campaign=newsletter&utm_source=thisweekinreact)"
+    },
+    {
+      "id": "135468ee",
+      "translatable": true,
+      "content": "How come professionals in every other industry have specialized tools, but web developers are still stuck using the browser that their grandma is using for shopping on Amazon?",
+      "sourceMdx": "How come professionals in every other industry have specialized tools, but web developers are still stuck using the browser that their grandma is using for shopping on Amazon?"
+    },
+    {
+      "id": "33331f27",
+      "translatable": true,
+      "content": "If you're opening localhost:3000 in any other browser except Sizzy, you're wasting hours of your precious time.",
+      "sourceMdx": "If you're opening localhost:3000 in any other browser except Sizzy, you're wasting hours of your precious time."
+    },
+    {
+      "id": "50746522",
+      "translatable": true,
+      "content": "**Before Sizzy:** web development is stressing you out, responsive design is hard, you have an overwhelming amount of opened tabs and apps.",
+      "sourceMdx": "**Before Sizzy:** web development is stressing you out, responsive design is hard, you have an overwhelming amount of opened tabs and apps."
+    },
+    {
+      "id": "95e9ba12",
+      "translatable": true,
+      "content": "**After Sizzy:** all the tools you need are in one place, responsive design is a breeze, no more context switching.",
+      "sourceMdx": "**After Sizzy:** all the tools you need are in one place, responsive design is a breeze, no more context switching."
+    },
+    {
+      "id": "8af76f3d",
+      "translatable": true,
+      "content": "You can [download it here](https://sizzy.co/?utm_campaign=newsletter\\&utm_source=thisweekinreact) and try it for free for 14 days!",
+      "sourceMdx": "You can [download it here](https://sizzy.co/?utm_campaign=newsletter&utm_source=thisweekinreact) and try it for free for 14 days!"
+    },
+    {
+      "id": "406f2538",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "6d28a77c",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "f7ef78f9",
+      "translatable": true,
+      "content": "[![Next.js 13 keynote slide](/emails/issues/122/nextjs13.jpg)](https://nextjs.org/blog/next-13)",
+      "sourceMdx": "[![Next.js 13 keynote slide](/emails/issues/122/nextjs13.jpg)](https://nextjs.org/blog/next-13)"
+    },
+    {
+      "id": "b36c6338",
+      "translatable": true,
+      "content": "**[Next.js 13 - Dynamic Without Limits](https://nextjs.org/blog/next-13)**",
+      "sourceMdx": "**[Next.js 13 - Dynamic Without Limits](https://nextjs.org/blog/next-13)**"
+    },
+    {
+      "id": "b9aaa519",
+      "translatable": true,
+      "content": "This new version of Next.js introduces the new routing system and nested layouts in beta. The migration is incremental and optional: you will have to move your Next.js pages to a new `app/` folder. This enables the latest innovations, such as React Server Components and SSR streaming support on both Edge + Node.js runtimes.",
+      "sourceMdx": "This new version of Next.js introduces the new routing system and nested layouts in beta. The migration is incremental and optional: you will have to move your Next.js pages to a new `app/` folder. This enables the latest innovations, such as React Server Components and SSR streaming support on both Edge + Node.js runtimes."
+    },
+    {
+      "id": "e536ea0d",
+      "translatable": true,
+      "content": "⚡️ Other significant improvements:",
+      "sourceMdx": "⚡️ Other significant improvements:"
+    },
+    {
+      "id": "a0e887c2",
+      "translatable": true,
+      "content": "* Turbopack: a new Rust bundler in alpha (details below).\n* next/image: new lighter, flexible and faster image component, avoids shifting layouts\n* @next/font: self-host fonts efficiently and avoid layout shifts (see also [Fontaine](https://twitter.com/danielcroe/status/1586472544491950080) presented last week)",
+      "sourceMdx": "- Turbopack: a new Rust bundler in alpha (details below).\n- next/image: new lighter, flexible and faster image component, avoids shifting layouts\n- @next/font: self-host fonts efficiently and avoid layout shifts (see also [Fontaine](https://twitter.com/danielcroe/status/1586472544491950080) presented last week)"
+    },
+    {
+      "id": "79ad944d",
+      "translatable": true,
+      "content": "💬 Comments:",
+      "sourceMdx": "💬 Comments:"
+    },
+    {
+      "id": "2eb5ba30",
+      "translatable": true,
+      "content": "* [Dan Abramov](https://twitter.com/dan_abramov/status/1585076899126345728) is excited about this release which gives a concrete implementation to the target architecture React is aiming for\n* [Andrew Clark](https://twitter.com/acdlite/status/1585029529361612801) explains his controversial \"Next.js 13 is the real React 18 release\" line\n* [Matt Kane](https://twitter.com/ascorbic/status/1585004156615479296) thinks that React is too tied to Next.js\n* [Zach Leatherman](https://twitter.com/zachleat/status/1584995586918731776) mentions that Next.js 13's Hello World still sends way too much JavaScript",
+      "sourceMdx": "- [Dan Abramov](https://twitter.com/dan_abramov/status/1585076899126345728) is excited about this release which gives a concrete implementation to the target architecture React is aiming for\n- [Andrew Clark](https://twitter.com/acdlite/status/1585029529361612801) explains his controversial \"Next.js 13 is the real React 18 release\" line\n- [Matt Kane](https://twitter.com/ascorbic/status/1585004156615479296) thinks that React is too tied to Next.js\n- [Zach Leatherman](https://twitter.com/zachleat/status/1584995586918731776) mentions that Next.js 13's Hello World still sends way too much JavaScript"
+    },
+    {
+      "id": "e7772088",
+      "translatable": true,
+      "content": "🔗 Useful links:",
+      "sourceMdx": "🔗 Useful links:"
+    },
+    {
+      "id": "69c1f590",
+      "translatable": true,
+      "content": "* 🎥 [Keynote Next.js Conf](https://www.youtube.com/watch?v=NiknNI_0J48)\n* 🎥 [Fireship - Next.js 13... this changes everything](https://www.youtube.com/watch?v=_w0Ikk4JY7U)\n* 🧵 [Next.js Upgrade Guide - Visual thread](https://twitter.com/shadcn/status/1584971527820541953)",
+      "sourceMdx": "- 🎥 [Keynote Next.js Conf](https://www.youtube.com/watch?v=NiknNI_0J48)\n- 🎥 [Fireship - Next.js 13... this changes everything](https://www.youtube.com/watch?v=_w0Ikk4JY7U)\n- 🧵 [Next.js Upgrade Guide - Visual thread](https://twitter.com/shadcn/status/1584971527820541953)"
+    },
+    {
+      "id": "63e1d83c",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "e8e162a9",
+      "translatable": true,
+      "content": "[![Turbopack keynote slide](/emails/issues/122/turbopack.jpg)](https://vercel.com/blog/turbopack)",
+      "sourceMdx": "[![Turbopack keynote slide](/emails/issues/122/turbopack.jpg)](https://vercel.com/blog/turbopack)"
+    },
+    {
+      "id": "463ed165",
+      "translatable": true,
+      "content": "**[Introducing Turbopack: Rust-based successor to Webpack](https://vercel.com/blog/turbopack)**",
+      "sourceMdx": "**[Introducing Turbopack: Rust-based successor to Webpack](https://vercel.com/blog/turbopack)**"
+    },
+    {
+      "id": "a5c5772a",
+      "translatable": true,
+      "content": "Vercel has hired Tobias Koppers (creator of Webpack), to work on Turbopack, a new very fast bundler in Rust. For now, the tool is in alpha, supports mainly Next.js, and its features are limited. Support for other frameworks (Svelte, Vue...) and features (Tailwind...) will be added later.",
+      "sourceMdx": "Vercel has hired Tobias Koppers (creator of Webpack), to work on Turbopack, a new very fast bundler in Rust. For now, the tool is in alpha, supports mainly Next.js, and its features are limited. Support for other frameworks (Svelte, Vue...) and features (Tailwind...) will be added later."
+    },
+    {
+      "id": "fbc2db85",
+      "translatable": true,
+      "content": "Turbopack is optimized for the developer experience, and Vercel announces that the tool is 700x faster than Webpack, and 20x faster than Vite. It is based on Turbo, a Rust memoization framework that is able to cache the result of each function independently. Vercel has also published an [article](https://turbo.build/blog/turbopack-benchmarks) with more detailed benchmarks.",
+      "sourceMdx": "Turbopack is optimized for the developer experience, and Vercel announces that the tool is 700x faster than Webpack, and 20x faster than Vite. It is based on Turbo, a Rust memoization framework that is able to cache the result of each function independently. Vercel has also published an [article](https://turbo.build/blog/turbopack-benchmarks) with more detailed benchmarks."
+    },
+    {
+      "id": "8126f763",
+      "translatable": true,
+      "content": "💬 Comments:",
+      "sourceMdx": "💬 Comments:"
+    },
+    {
+      "id": "9e8f150c",
+      "translatable": true,
+      "content": "* [Jared Palmer](https://twitter.com/jaredpalmer/status/1584971637694222336) explains how caching works and that Turborepo/Turbopack could merge.\n* [Evan You](https://twitter.com/youyuxi/status/1585040261922820096) question the benchmarks, and created a [Is Turbopack really 10x Faster than Vite?](https://github.com/yyx990803/vite-vs-next-turbo-hmr/discussions/8) page. Vite does not use SWC by default, and the published benchmarks rely on the use of Babel. Vite could replace esbuild/Rollup with Turbopack.\n* [Sebastian McKenzie](https://twitter.com/sebmck/status/1584971938786861056) points out the relatively small performance gain on a cold start (x4), likely due to overhead in initializing the cache.\n* [Devon Govett](https://twitter.com/devongovett/status/1585035737971724288) mentions that the architecture is similar to Parcel.\n* [Amjad Masad](https://twitter.com/amasad/status/1585001646782033921) mentions that the React-Native Metro bundler has been using a similar caching system for a very long time.",
+      "sourceMdx": "- [Jared Palmer](https://twitter.com/jaredpalmer/status/1584971637694222336) explains how caching works and that Turborepo/Turbopack could merge.\n- [Evan You](https://twitter.com/youyuxi/status/1585040261922820096) question the benchmarks, and created a [Is Turbopack really 10x Faster than Vite?](https://github.com/yyx990803/vite-vs-next-turbo-hmr/discussions/8) page. Vite does not use SWC by default, and the published benchmarks rely on the use of Babel. Vite could replace esbuild/Rollup with Turbopack.\n- [Sebastian McKenzie](https://twitter.com/sebmck/status/1584971938786861056) points out the relatively small performance gain on a cold start (x4), likely due to overhead in initializing the cache.\n- [Devon Govett](https://twitter.com/devongovett/status/1585035737971724288) mentions that the architecture is similar to Parcel.\n- [Amjad Masad](https://twitter.com/amasad/status/1585001646782033921) mentions that the React-Native Metro bundler has been using a similar caching system for a very long time."
+    },
+    {
+      "id": "b805e2c6",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "82e90254",
+      "translatable": true,
+      "content": "[![Remixing Shopify](/emails/issues/122/remixing.jpg)](https://shopify.engineering/remix-joins-shopify)",
+      "sourceMdx": "[![Remixing Shopify](/emails/issues/122/remixing.jpg)](https://shopify.engineering/remix-joins-shopify)"
+    },
+    {
+      "id": "2822251a",
+      "translatable": true,
+      "content": "**[Remix Joins Shopify to Push the Web Forward](https://shopify.engineering/remix-joins-shopify)**",
+      "sourceMdx": "**[Remix Joins Shopify to Push the Web Forward](https://shopify.engineering/remix-joins-shopify)**"
+    },
+    {
+      "id": "25212439",
+      "translatable": true,
+      "content": "Remix has just joined Shopify, and will be used in their Hydrogen e-commerce meta-framework as well as other projects. Hydrogen 2.0 will replace the use of React Server Components with Remix APIs! They found the Remix model easier to understand and more powerful than Server Components.",
+      "sourceMdx": "Remix has just joined Shopify, and will be used in their Hydrogen e-commerce meta-framework as well as other projects. Hydrogen 2.0 will replace the use of React Server Components with Remix APIs! They found the Remix model easier to understand and more powerful than Server Components."
+    },
+    {
+      "id": "d79a4831",
+      "translatable": true,
+      "content": "To me, this is a great acquisition. Shopify can focus on Hydrogen's value proposition rather than infrastructure concerns, and benefits from Remix's progressive enhancement, especially important for e-commerce. Not to mention that Remix is decoupled from React, and Shopify is working on a [Hydrogen UI](https://github.com/Shopify/hydrogen-ui) agnostic library: Shopify should be able to reach developers from various frameworks (Vue, Svelte...), without having to impose React, while relying on a shared infrastructure.",
+      "sourceMdx": "To me, this is a great acquisition. Shopify can focus on Hydrogen's value proposition rather than infrastructure concerns, and benefits from Remix's progressive enhancement, especially important for e-commerce. Not to mention that Remix is decoupled from React, and Shopify is working on a [Hydrogen UI](https://github.com/Shopify/hydrogen-ui) agnostic library: Shopify should be able to reach developers from various frameworks (Vue, Svelte...), without having to impose React, while relying on a shared infrastructure."
+    },
+    {
+      "id": "2838eb68",
+      "translatable": true,
+      "content": "💬 Comments:",
+      "sourceMdx": "💬 Comments:"
+    },
+    {
+      "id": "f6db2c30",
+      "translatable": true,
+      "content": "* [Josh Larson](https://twitter.com/jplhomer/status/1587095536833859584) worked on Hydrogen v1, lists challenges encountered, and doesn't question the benefits of React Server Components which are better implemented in Next.js 13 than Hydrogen v1.\n* [Ryan Florence](https://twitter.com/ryanflorence/status/1587171069915385856) mentions that Shopify is not against Server Components, and that they will probably be re-introduced in Remix later.\n* [Ryan Florence](https://twitter.com/ryanflorence/status/1587090973594558464) explains how this acquisition will allow them to fully focus on Remix.\n* [Guillermo Rauch](https://twitter.com/rauchg/status/1587104330053664768) says that a frontend should rather be decoupled from a headless backends. [Anthony Frehner](https://twitter.com/frehner_a/status/1587107928099651586) replies that Next.js support should be coming to Hydrogen UI.",
+      "sourceMdx": "- [Josh Larson](https://twitter.com/jplhomer/status/1587095536833859584) worked on Hydrogen v1, lists challenges encountered, and doesn't question the benefits of React Server Components which are better implemented in Next.js 13 than Hydrogen v1.\n- [Ryan Florence](https://twitter.com/ryanflorence/status/1587171069915385856) mentions that Shopify is not against Server Components, and that they will probably be re-introduced in Remix later.\n- [Ryan Florence](https://twitter.com/ryanflorence/status/1587090973594558464) explains how this acquisition will allow them to fully focus on Remix.\n- [Guillermo Rauch](https://twitter.com/rauchg/status/1587104330053664768) says that a frontend should rather be decoupled from a headless backends. [Anthony Frehner](https://twitter.com/frehner_a/status/1587107928099651586) replies that Next.js support should be coming to Hydrogen UI."
+    },
+    {
+      "id": "0801d969",
+      "translatable": true,
+      "content": "🔗 Useful links:",
+      "sourceMdx": "🔗 Useful links:"
+    },
+    {
+      "id": "1b8037f4",
+      "translatable": true,
+      "content": "* 📜 [The Hydrogen Roadmap](https://hydrogen.shopify.dev/roadmap/) has been updated with many more technical details.\n* 📜 [Remixing Shopify](https://remix.run/blog/remixing-shopify): the Remix team announcement, which will remain an independent open-source React framework decoupled from e-commerce uses.\n* 🎥 [Fireship - When your JavaScript framework gets acquired](https://www.youtube.com/watch?v=HleppfVh8jc)",
+      "sourceMdx": "- 📜 [The Hydrogen Roadmap](https://hydrogen.shopify.dev/roadmap/) has been updated with many more technical details.\n- 📜 [Remixing Shopify](https://remix.run/blog/remixing-shopify): the Remix team announcement, which will remain an independent open-source React framework decoupled from e-commerce uses.\n- 🎥 [Fireship - When your JavaScript framework gets acquired](https://www.youtube.com/watch?v=HleppfVh8jc)"
+    },
+    {
+      "id": "55ba2007",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "396efb28",
+      "translatable": true,
+      "content": "[![Three.js Journey is going React](/emails/issues/122/r3f.jpg)](https://twitter.com/bruno_simon/status/1585222892769497089)",
+      "sourceMdx": "[![Three.js Journey is going React](/emails/issues/122/r3f.jpg)](https://twitter.com/bruno_simon/status/1585222892769497089)"
+    },
+    {
+      "id": "558df877",
+      "translatable": true,
+      "content": "**[Three.js Journey is going React](https://twitter.com/bruno_simon/status/1585222892769497089)**",
+      "sourceMdx": "**[Three.js Journey is going React](https://twitter.com/bruno_simon/status/1585222892769497089)**"
+    },
+    {
+      "id": "f38d1cb0",
+      "translatable": true,
+      "content": "Three.js Journey is the reference course to learn how to create 3D scenes on the web with Three.js. Bruno Simon has just released 24 hours of additional videos based on [React-Three-Fiber](https://github.com/pmndrs/react-three-fiber) which brings a declarative model to Three.js. 3D is coming to our applications: it's a good time to get into it if you want to know how to do something other than forms and business applications. I'm also [doing this course](https://github.com/slorber/react-three-fiber-journey) and I don't regret it at all!",
+      "sourceMdx": "Three.js Journey is the reference course to learn how to create 3D scenes on the web with Three.js. Bruno Simon has just released 24 hours of additional videos based on [React-Three-Fiber](https://github.com/pmndrs/react-three-fiber) which brings a declarative model to Three.js. 3D is coming to our applications: it's a good time to get into it if you want to know how to do something other than forms and business applications. I'm also [doing this course](https://github.com/slorber/react-three-fiber-journey) and I don't regret it at all!"
+    },
+    {
+      "id": "5f82a1e9",
+      "translatable": true,
+      "content": "Bruno is offering us a promo code [\"TWIR\"](https://threejs-journey.com/join/TWIR) of -30% (or $66) for the next 10 days. This is not sponsored: I find this course really cool, and the update makes it even more relevant for a React dev.",
+      "sourceMdx": "Bruno is offering us a promo code [\"TWIR\"](https://threejs-journey.com/join/TWIR) of -30% (or $66) for the next 10 days. This is not sponsored: I find this course really cool, and the update makes it even more relevant for a React dev."
+    },
+    {
+      "id": "6fc234cf",
+      "translatable": true,
+      "content": "I plan to create a deals page soon with other interesting courses (on which I won't earn anything). Don't hesitate to tell me which courses interest you the most so that I can contact their authors!",
+      "sourceMdx": "I plan to create a deals page soon with other interesting courses (on which I won't earn anything). Don't hesitate to tell me which courses interest you the most so that I can contact their authors!"
+    },
+    {
+      "id": "714b728f",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "cd2fd2f2",
+      "translatable": true,
+      "content": "* 🤔 [React core - Add fetch Instrumentation to Dedupe Fetches](https://github.com/facebook/react/pull/25516): monkey-patching `fetch` is [controversial](https://github.com/facebook/react/issues/25573).\n* 💬 [RFC - TypeScript + React - Allow anything to be rendered by function components](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/62876)\n* 📜 [Full Stack Components](https://www.epicweb.dev/full-stack-components): Kent C. Dodds explains that Remix allows to create truly full-stack components, which encapsulate frontend and backend code in the same file. Remix's full-stack patterns are not limited to routing but can also be used on micro-interactions via the `useFetcher` hook: like button, autocomplete...\n* 📜 [Optimization techniques for Rive animations in React apps](https://pixelpoint.io/blog/rive-react-optimizations/): Rive is a more efficient animation library than Lottie. Alex explains how to optimize the loading of Rive animations in a Gatsby or Next.js app: self-hosting of the WASM runtime, Webpack loader, preloading, lazy-loading... Good techniques to know that can be used in other contexts.\n* 📜 [Deploy Next.js 13 on Netlify Today](https://www.netlify.com/blog/deploy-nextjs-13/): Netlify brings support for the latest Next.js 13 innovations.\n* 📜 [Code coverage with Storybook test runner](https://storybook.js.org/blog/code-coverage-with-the-storybook-test-runner/): summarizes well the test features of Storybook. It is now possible to generate a coverage report thanks to the [Istanbul](https://istanbul.js.org/) instrumentation. The reporting format is configurable.\n* 📜 [The Gatsby Slice API: High Precision Incremental Builds](https://www.gatsbyjs.com/blog/gatsby-slice-api/): explains how the new Gatsby 5 API works to improve build performance when a layout component (header, footer) is updated.\n* 📜 [Seeding the Query Cache](https://tkdodo.eu/blog/seeding-the-query-cache): describes a possible waterfall problem with React-Query when using Suspense. Suggests using `prefetchQuery` before component mount to optimize loading as much as possible. Gives an idea of how React-Query intends to integrate with the latest React innovations.\n* 📜 [How to Build a Blog with Fresh](https://deno.com/blog/build-a-blog-with-fresh): Fresh is the Preact framework based on Deno\n* 📦 [Gatsby 5](https://twitter.com/GatsbyJS/status/1587136776828772353): the new version should be released today! The [Gatsby Valhalla Content Hub](https://twitter.com/GatsbyJS/status/1587489648397410320) should make it possible to use the GraphQL data-layer of Gatsby in other frameworks!\n* 📦 [Docusaurus 2.2](https://twitter.com/docusaurus/status/1586347397667495936): support of Mermaid diagrams\n* 📦 [Asta](https://github.com/yisar/asta): new resumable SSR framework, inspired by Qwik and Marko, with a React-like syntax. To be continued!\n* 📦 [TanStack Query 4.14](https://twitter.com/TkDodo/status/1587411685517697028): new ESLint plugin\n* 📦 [Remix Forms 1.0](https://twitter.com/danielweinmann/status/1587465389990084609)\n* 📦 [Downshift 7.0](https://github.com/downshift-js/downshift/releases/tag/v7.0.0)",
+      "sourceMdx": "- 🤔 [React core - Add fetch Instrumentation to Dedupe Fetches](https://github.com/facebook/react/pull/25516): monkey-patching `fetch` is [controversial](https://github.com/facebook/react/issues/25573).\n- 💬 [RFC - TypeScript + React - Allow anything to be rendered by function components](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/62876)\n- 📜 [Full Stack Components](https://www.epicweb.dev/full-stack-components): Kent C. Dodds explains that Remix allows to create truly full-stack components, which encapsulate frontend and backend code in the same file. Remix's full-stack patterns are not limited to routing but can also be used on micro-interactions via the `useFetcher` hook: like button, autocomplete...\n- 📜 [Optimization techniques for Rive animations in React apps](https://pixelpoint.io/blog/rive-react-optimizations/): Rive is a more efficient animation library than Lottie. Alex explains how to optimize the loading of Rive animations in a Gatsby or Next.js app: self-hosting of the WASM runtime, Webpack loader, preloading, lazy-loading... Good techniques to know that can be used in other contexts.\n- 📜 [Deploy Next.js 13 on Netlify Today](https://www.netlify.com/blog/deploy-nextjs-13/): Netlify brings support for the latest Next.js 13 innovations.\n- 📜 [Code coverage with Storybook test runner](https://storybook.js.org/blog/code-coverage-with-the-storybook-test-runner/): summarizes well the test features of Storybook. It is now possible to generate a coverage report thanks to the [Istanbul](https://istanbul.js.org/) instrumentation. The reporting format is configurable.\n- 📜 [The Gatsby Slice API: High Precision Incremental Builds](https://www.gatsbyjs.com/blog/gatsby-slice-api/): explains how the new Gatsby 5 API works to improve build performance when a layout component (header, footer) is updated.\n- 📜 [Seeding the Query Cache](https://tkdodo.eu/blog/seeding-the-query-cache): describes a possible waterfall problem with React-Query when using Suspense. Suggests using `prefetchQuery` before component mount to optimize loading as much as possible. Gives an idea of how React-Query intends to integrate with the latest React innovations.\n- 📜 [How to Build a Blog with Fresh](https://deno.com/blog/build-a-blog-with-fresh): Fresh is the Preact framework based on Deno\n- 📦 [Gatsby 5](https://twitter.com/GatsbyJS/status/1587136776828772353): the new version should be released today! The [Gatsby Valhalla Content Hub](https://twitter.com/GatsbyJS/status/1587489648397410320) should make it possible to use the GraphQL data-layer of Gatsby in other frameworks!\n- 📦 [Docusaurus 2.2](https://twitter.com/docusaurus/status/1586347397667495936): support of Mermaid diagrams\n- 📦 [Asta](https://github.com/yisar/asta): new resumable SSR framework, inspired by Qwik and Marko, with a React-like syntax. To be continued!\n- 📦 [TanStack Query 4.14](https://twitter.com/TkDodo/status/1587411685517697028): new ESLint plugin\n- 📦 [Remix Forms 1.0](https://twitter.com/danielweinmann/status/1587465389990084609)\n- 📦 [Downshift 7.0](https://github.com/downshift-js/downshift/releases/tag/v7.0.0)"
+    },
+    {
+      "id": "20843b28",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed />",
+      "sourceMdx": "<SubscribeFormEmbed />"
+    },
+    {
+      "id": "0bed0da6",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "6ab1b234",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "42d9ca67",
+      "translatable": true,
+      "content": "[![Sunsama - How 1000s of software engineers stay productive without burning out](/emails/issues/121/sunsama.jpg)](https://www.sunsama.com/a/this-week-in-react)",
+      "sourceMdx": "[![Sunsama - How 1000s of software engineers stay productive without burning out](/emails/issues/121/sunsama.jpg)](https://www.sunsama.com/a/this-week-in-react)"
+    },
+    {
+      "id": "619c3209",
+      "translatable": true,
+      "content": "**[How 1000s of software engineers stay productive without burning out](https://www.sunsama.com/a/this-week-in-react)**",
+      "sourceMdx": "**[How 1000s of software engineers stay productive without burning out](https://www.sunsama.com/a/this-week-in-react)**"
+    },
+    {
+      "id": "44285072",
+      "translatable": true,
+      "content": "You know that the output of your work matters more than the number of hours you put in. **[Sunsama](https://www.sunsama.com/a/this-week-in-react)** has been the insider secret of 1000s of developers who use it to work less but achieve more.",
+      "sourceMdx": "You know that the output of your work matters more than the number of hours you put in. **[Sunsama](https://www.sunsama.com/a/this-week-in-react)** has been the insider secret of 1000s of developers who use it to work less but achieve more."
+    },
+    {
+      "id": "a8f09c71",
+      "translatable": true,
+      "content": "Eliminate endless tab-switching with their JIRA, Github, and Notion integration. Timebox your day and create space for your hobbies and side-projects.",
+      "sourceMdx": "Eliminate endless tab-switching with their JIRA, Github, and Notion integration. Timebox your day and create space for your hobbies and side-projects."
+    },
+    {
+      "id": "d2a3d4c7",
+      "translatable": true,
+      "content": "The best part? They're offering a **[14-day free trial](https://www.sunsama.com/a/this-week-in-react)** (no card needed) so you can start achieving more, today.",
+      "sourceMdx": "The best part? They're offering a **[14-day free trial](https://www.sunsama.com/a/this-week-in-react)** (no card needed) so you can start achieving more, today."
+    },
+    {
+      "id": "a0d6d6c7",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "a5905b07",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "fd7ed056",
+      "translatable": true,
+      "content": "[![Expo SDK 47 beta is now available](/emails/issues/122/expo47.jpg)](https://blog.expo.dev/expo-sdk-47-beta-is-now-available-fa760eea1908)",
+      "sourceMdx": "[![Expo SDK 47 beta is now available](/emails/issues/122/expo47.jpg)](https://blog.expo.dev/expo-sdk-47-beta-is-now-available-fa760eea1908)"
+    },
+    {
+      "id": "b08ad0b4",
+      "translatable": true,
+      "content": "**[Expo SDK 47 beta is now available](https://blog.expo.dev/expo-sdk-47-beta-is-now-available-fa760eea1908)**",
+      "sourceMdx": "**[Expo SDK 47 beta is now available](https://blog.expo.dev/expo-sdk-47-beta-is-now-available-fa760eea1908)**"
+    },
+    {
+      "id": "d636abf8",
+      "translatable": true,
+      "content": "The new Expo SDK is available in beta for one week. Some headlines:",
+      "sourceMdx": "The new Expo SDK is available in beta for one week. Some headlines:"
+    },
+    {
+      "id": "e1b58cbf",
+      "translatable": true,
+      "content": "* Upgrades to React-Native 0.70.4 and React 18.1\n* Hermes available in Expo Go on iOS. Hermes will be the default JS engine from SDK 48.\n* Fabric support in many Expo modules\n* Expo Modules API 1.0 that makes it easy to create native Fabric modules in Swift/Kotlin\n* Filesystem routing for React-Navigation in beta. The last release [v0.0.34](https://twitter.com/Baconbrix/status/1587303631602307076) is compatible with SDK 47.",
+      "sourceMdx": "- Upgrades to React-Native 0.70.4 and React 18.1\n- Hermes available in Expo Go on iOS. Hermes will be the default JS engine from SDK 48.\n- Fabric support in many Expo modules\n- Expo Modules API 1.0 that makes it easy to create native Fabric modules in Swift/Kotlin\n- Filesystem routing for React-Navigation in beta. The last release [v0.0.34](https://twitter.com/Baconbrix/status/1587303631602307076) is compatible with SDK 47."
+    },
+    {
+      "id": "674abb31",
+      "translatable": true,
+      "content": "We'll have more details next week, but it's clearly a big release with some very nice new features!",
+      "sourceMdx": "We'll have more details next week, but it's clearly a big release with some very nice new features!"
+    },
+    {
+      "id": "62d5dc64",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "d0f2205c",
+      "translatable": true,
+      "content": "* 💡 [Andrew Clark: \"I would love to see Expo adopt Server Components one day. We should really have Server Components for React-Native...\"](https://twitter.com/Baconbrix/status/1585058874864062466): I've been interested in the use of Server Components with React-Native [for a while](https://twitter.com/sebastienlorber/status/1470810351197433863), and I'm very happy that it's finally \"officially\" said publicly!\n* 📦 [React-Native-Gesture-Handler 2.8](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.8.0)\n* 📦 [React-Native-Fast-Shadow](https://github.com/alan-eu/react-native-fast-shadow)\n* 🐦 [React-Native Android improves build speed + `--active-arch-only` flag](https://twitter.com/o_kwasniewski/status/1585270027942502404)\n* 📜 [Stripe Identity: ID Authentication Made Simple](https://www.callstack.com/blog/stripe-identity-id-authentication-made-simple)\n* 📜 [React Native - Guide to Integration with Existing Apps - Android](https://michalchudziak.dev/blog/integration-with-existing-apps-android)\n* 📜 [React Native - Guide to Integration with Existing Apps - iOS](https://michalchudziak.dev/blog/integration-with-existing-apps-ios)\n* 🎙️ [The React Native Show #17 - React Native New Architecture](https://www.callstack.com/podcasts/react-native-new-architecture-ep-17)\n* 🎙️ [The React Native Show Podcast: Coffee Talk #6 - Webpack & Callstack experts’ take on Next.js Conf](https://www.callstack.com/podcasts/webpack-callstack-experts-take-on-next-js-conf-coffee-talk-6)\n* 🎙️ [RNR 250 - React Native Firebase](https://reactnativeradio.com/episodes/rnr-250-react-native-firebase-tl-dr)\n* 🔗 [The React Native Community Map](https://lifeiswhat.notion.site/The-React-Native-Community-Map-07f3221c294d4c8ab65a13cf1dee6901)\n* 🗣 [Wix Engineering - Now An Official React Native Partner](https://www.wix.engineering/post/wix-engineering-now-an-official-react-native-partner)",
+      "sourceMdx": "- 💡 [Andrew Clark: \"I would love to see Expo adopt Server Components one day. We should really have Server Components for React-Native...\"](https://twitter.com/Baconbrix/status/1585058874864062466): I've been interested in the use of Server Components with React-Native [for a while](https://twitter.com/sebastienlorber/status/1470810351197433863), and I'm very happy that it's finally \"officially\" said publicly!\n- 📦 [React-Native-Gesture-Handler 2.8](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.8.0)\n- 📦 [React-Native-Fast-Shadow](https://github.com/alan-eu/react-native-fast-shadow)\n- 🐦 [React-Native Android improves build speed + `--active-arch-only` flag](https://twitter.com/o_kwasniewski/status/1585270027942502404)\n- 📜 [Stripe Identity: ID Authentication Made Simple](https://www.callstack.com/blog/stripe-identity-id-authentication-made-simple)\n- 📜 [React Native - Guide to Integration with Existing Apps - Android](https://michalchudziak.dev/blog/integration-with-existing-apps-android)\n- 📜 [React Native - Guide to Integration with Existing Apps - iOS](https://michalchudziak.dev/blog/integration-with-existing-apps-ios)\n- 🎙️ [The React Native Show #17 - React Native New Architecture](https://www.callstack.com/podcasts/react-native-new-architecture-ep-17)\n- 🎙️ [The React Native Show Podcast: Coffee Talk #6 - Webpack & Callstack experts’ take on Next.js Conf](https://www.callstack.com/podcasts/webpack-callstack-experts-take-on-next-js-conf-coffee-talk-6)\n- 🎙️ [RNR 250 - React Native Firebase](https://reactnativeradio.com/episodes/rnr-250-react-native-firebase-tl-dr)\n- 🔗 [The React Native Community Map](https://lifeiswhat.notion.site/The-React-Native-Community-Map-07f3221c294d4c8ab65a13cf1dee6901)\n- 🗣 [Wix Engineering - Now An Official React Native Partner](https://www.wix.engineering/post/wix-engineering-now-an-official-react-native-partner)"
+    },
+    {
+      "id": "0e7eccf0",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "17fd5988",
+      "translatable": true,
+      "content": "## 🧑‍💻 Jobs",
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+    },
+    {
+      "id": "3208eb29",
+      "translatable": true,
+      "content": "🧑‍💼 [**Product Engineer at Causal, Remote/London/NY, $150-250k**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied\\&lever-source%5B%5D=thisweekinreact.com)",
+      "sourceMdx": "🧑‍💼 [**Product Engineer at Causal, Remote/London/NY, $150-250k**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied&lever-source%5B%5D=thisweekinreact.com)"
+    },
+    {
+      "id": "38f964f1",
+      "translatable": true,
+      "content": "Causal is a Series A Startup (backed by Coatue/Accel) building an all-in-one tool for working with numbers and visualizing data. We're looking for strong React engineers who can solve difficult UX/performance challenges.",
+      "sourceMdx": "Causal is a Series A Startup (backed by Coatue/Accel) building an all-in-one tool for working with numbers and visualizing data. We're looking for strong React engineers who can solve difficult UX/performance challenges."
+    },
+    {
+      "id": "b4204c03",
+      "translatable": true,
+      "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+    },
+    {
+      "id": "e6ac016e",
+      "translatable": true,
+      "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+    },
+    {
+      "id": "dad05c50",
+      "translatable": true,
+      "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+    },
+    {
+      "id": "203a64ec",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "97496aad",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "417c03c6",
+      "translatable": true,
+      "content": "* [Babel 7.20](https://babeljs.io/blog/2022/10/27/7.20.0): Deno target and TS 4.9 support with `satisfies`!\n* [Announcing TypeScript 4.9 RC](https://devblogs.microsoft.com/typescript/announcing-typescript-4-9-rc/): with `satisfies`!\n* [Node v18.12.0 (LTS)](https://nodejs.org/en/blog/release/v18.12.0/): first v18 LTS release\n* [Open-sourcing the new TypeScript type checker](https://kdy1.dev/posts/2022/10/open-sourcing-stc): l'auteur de swc open-source son type-checker stc qui sera finalement écrit en Rust\n* [npm v9.0.0](https://github.blog/changelog/2022-10-24-npm-v9-0-0-released/)\n* [Vercel acquires Splitbee to expand first-party analytics](https://vercel.com/blog/vercel-acquires-splitbee)\n* [Deno 1.27: Major IDE Improvements](https://deno.com/blog/v1.27)\n* [Chrome 108 beta](https://developer.chrome.com/blog/chrome-108-beta/)\n* [Vite 3.2](https://twitter.com/vite_js/status/1585261680841424897)\n* [Experimental Dev Server Persistent Caching for Vite](https://twitter.com/Akryum/status/1585769403781505024)\n* [Two JavaScripts](https://remysharp.com/2022/10/13/two-javascripts)",
+      "sourceMdx": "- [Babel 7.20](https://babeljs.io/blog/2022/10/27/7.20.0): Deno target and TS 4.9 support with `satisfies`!\n- [Announcing TypeScript 4.9 RC](https://devblogs.microsoft.com/typescript/announcing-typescript-4-9-rc/): with `satisfies`!\n- [Node v18.12.0 (LTS)](https://nodejs.org/en/blog/release/v18.12.0/): first v18 LTS release\n- [Open-sourcing the new TypeScript type checker](https://kdy1.dev/posts/2022/10/open-sourcing-stc): l'auteur de swc open-source son type-checker stc qui sera finalement écrit en Rust\n- [npm v9.0.0](https://github.blog/changelog/2022-10-24-npm-v9-0-0-released/)\n- [Vercel acquires Splitbee to expand first-party analytics](https://vercel.com/blog/vercel-acquires-splitbee)\n- [Deno 1.27: Major IDE Improvements](https://deno.com/blog/v1.27)\n- [Chrome 108 beta](https://developer.chrome.com/blog/chrome-108-beta/)\n- [Vite 3.2](https://twitter.com/vite_js/status/1585261680841424897)\n- [Experimental Dev Server Persistent Caching for Vite](https://twitter.com/Akryum/status/1585769403781505024)\n- [Two JavaScripts](https://remysharp.com/2022/10/13/two-javascripts)"
+    },
+    {
+      "id": "04dab02c",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "8e2354b8",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "dbeb30c1",
+      "translatable": true,
+      "content": "[![Next.js 13 - 1299$ price - Apple-like keynote troll](/emails/issues/122/meme.jpg)](https://twitter.com/thekitze/status/1584974847306002432)",
+      "sourceMdx": "[![Next.js 13 - 1299$ price - Apple-like keynote troll](/emails/issues/122/meme.jpg)](https://twitter.com/thekitze/status/1584974847306002432)"
+    }
+  ]
+}

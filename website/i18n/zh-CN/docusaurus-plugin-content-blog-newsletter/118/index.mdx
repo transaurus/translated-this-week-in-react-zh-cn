@@ -1,0 +1,165 @@
+---
+slug: /118
+title: "This Week In React #118: Gatsby, Beta Docs, Reactivity, Lazy Maps, Ezno, Whyframe, Reassure, Node.js, TypeScript, WASM..."
+authors: [slorber]
+date: 10-03-2022
+---
+
+大家好！
+
+好消息：新版React测试版文档即将上线！旧文档已添加跳转链接至新测试站点。Gatsby v5已发布alpha版本。
+
+当前趋势：为React注入响应式能力。
+
+本期也有优质React-Native内容。我们正密切关注Expo Router、WishList以及Reassure中web支持功能的进展。
+
+TypeScript迎来十周年庆典。Node.js即将引入`--watch`模式。关于WebAssembly的内容值得关注。
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化排版 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![Storyblok](/emails/issues/116/storyblok.png)](https://www.storyblok.com/?utm_source=thisweekinreact&utm_medium=display&utm_campaign=AWA_SPON_TWIREACT_TRA&utm_content=thisweekinreact_en)
+
+是否尝试过[Storyblok](https://www.storyblok.com/?utm_source=thisweekinreact&utm_medium=display&utm_campaign=AWA_SPON_TWIREACT_TRA&utm_content=thisweekinreact_en)？这款无头CMS配备可视化编辑器，专为开发者和营销人员设计！
+
+使用Storyblok React SDK快速构建可复用组件并获取内容，轻松创建React、Next.js、Remix甚至React-Native应用、网站或电商平台。
+
+立即访问[技术中心](https://www.storyblok.com/technologies?utm_source=thisweekinreact&utm_medium=display&utm_campaign=AWA_SPON_TWIREACT_TRA&utm_content=thisweekinreact_en)亲身体验！
+
+---
+
+## ⚛️ React {#react}
+
+**[Gatsby v5 Alpha版发布](https://www.gatsbyjs.com/blog/gatsby-v5-alpha-is-here-and-its-pretty-exciting/)**
+
+Gatsby v5 alpha版本带来两大核心特性：
+
+- 基于React服务端组件的[部分水合](https://www.gatsbyjs.com/blog/a-look-at-partial-hydration-in-gatsby-5/)支持，客户端组件顶部需添加`"client export"`指令
+- Gatsby Slices API，可大幅提升共享组件（布局/导航栏/页脚）重新渲染时的构建效率
+
+**[通过默认优化实现React真正响应式](https://legendapp.com/open-source/legend-state/)**
+
+这篇交互式文章剖析了React默认未优化的重复渲染问题，展示基于可观察对象的Legend-State库如何为React注入响应式能力（类似SolidJS）。该方案默认优化代码结构，避免不必要的重渲染。
+
+**[Ezno - 实验性编译器](https://kaleidawave.github.io/posts/introducing-ezno/)**
+
+一款兼容TypeScript注解与JSX的新型JavaScript类型检查编译器。通过依赖类型实现高级静态分析和编译时预评估（类似[prepack](https://prepack.io/)）。其目标是将React风格应用编译为响应式形态，跳过VDOM。技术细节较为深奥。
+
+**[（惰性）组件映射](https://julesblom.com/writing/lazy-component-maps)**
+
+介绍在条件渲染时利用代码分割的实用技巧，特别适用于大型枚举/联合类型场景，例如`<Icon name="my-icon-name"/>`组件。
+
+**[Whyframe](https://whyframe.dev/)**
+
+允许将前端组件渲染隔离在iframe中。现已支持[Webpack、Next.js和Docusaurus](https://twitter.com/bluwyoo/status/1576947013450539008)。这对于组件库文档站点非常实用，能确保站点的全局CSS不会影响所展示组件的渲染效果。
+
+- 📖 React Beta文档更新：[useEffect](https://twitter.com/dan_abramov/status/1575320847279071232) + [useId](https://twitter.com/dan_abramov/status/1577283961763467265) + ["所有常用API均已文档化"](https://twitter.com/dan_abramov/status/1575367224541560833)
+- 📜 [如何将Serverless Functions与SSR结合使用](https://paulie.dev/posts/2022/09/how-to-use-serverless-fucntions-with-ssr/)：详解如何在Gatsby中正确拆分服务端/客户端函数逻辑
+- 📜 [2022年最快的前端工具链](https://cpojer.net/posts/fastest-frontend-tooling-in-2022)：Christoph Nakazawa阐述其极简脚手架[vite-ts-react-tailwind-template](https://github.com/cpojer/vite-ts-react-tailwind-template)的技术选型
+- 📜 [提升Next.js站点的可访问性实践](https://vercel.com/blog/improving-the-accessibility-of-our-nextjs-site)
+- 📜 [Orton特效 - 用CSS和React实现梦幻照片效果](https://mikebifulco.com/posts/orton-effect-css-react)
+- 📜 [Mark Erikson的React渲染行为指南 - 已更新至React 18版本](https://twitter.com/acemarke/status/1577301648850014210)
+- 🚧 [no-nested-components ESLint规则](https://github.com/facebook/react/pull/25360)：即将新增的规则可避免动态声明组件
+- 🧵 [Dan Abramov - "跳过重渲染（如使用memo）仅是性能优化手段"](https://twitter.com/dan_abramov/status/1575553047408902147)
+- 🧵 [Andrew Clark - "我们认真考虑过用WASM重写React"](https://twitter.com/acdlite/status/1576302675766804480)
+- [React Spectrum - React Aria - 10月4日版本更新](https://twitter.com/devongovett/status/1577370727849680896)
+- 📦 [Redwood v3发布](https://community.redwoodjs.com/t/redwood-3-0-0-is-now-available/3989) + [Redwood v3新特性解析](https://www.youtube.com/watch?v=o9LFWOxMlTs)
+- 📦 [Supabase预构建React Auth UI组件](https://twitter.com/supabase/status/1577215238792916992)
+
+<SubscribeFormEmbed />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[**React Brussels线下&线上会议 - 2022年10月14日**](https://www.react.brussels/)
+
+React Brussels首次采用**混合模式**回归，将在欧洲中心❤️举办。议程涵盖**最前沿技术与技能**（Playwright、WebVR、useEffect、数据获取、Remix等），演讲者包括React领域的**顶尖专家**：
+
+- Tejas Kumar：开发者关系总监 - **Xata**
+- Kathleen McMahon：高级设计系统工程师 - **Northwestern Mutual**
+- David Khourshid：创始人 - **Stately**
+- Shaundai Person：高级软件工程师 - **Netflix**
+- Debbie O'Brien：高级项目经理 - **Microsoft**
+
+会后派对、竞赛、求职机会、比利时🍺、周边礼品、城市游览...所有活动都将延续会议的热度！
+
+线下门票即将**售罄**！立即[抢购](https://ti.to/bejs/react-brussels-2022/with/in-person-ticket-copy,group-3-tickets-20,group-4-tickets-25,group-5-tickets-30,student-junior-pass?source=undefined)，加入200多名开发者线下狂欢！无法到场？[30€线上票🎟](https://ti.to/bejs/react-brussels-2022/discount/online_lastweek)等你来😜
+
+---
+
+## 📱 React-Native {#react-native}
+
+**[Reassure - 简化的应用性能持续监控方案](https://www.callstack.com/blog/app-performance-monitoring)**
+
+Callstack估计80%的React-Native性能问题源于JavaScript，尤其是React的误用。为此他们开发了Reassure——一个全新的性能回归测试库。它能与CI系统无缝集成，防止应用性能随时间推移而下降。目前[网页端支持](https://github.com/callstack/reassure/issues/39)尚未实现。
+
+- 📒 [BAM Mobile Tech Radar 2022](https://www.bam.tech/en-tech-radar)：2022移动开发全景报告，包含大量React-Native相关内容
+- 🔗 [fabric-library-with-custom-cpp-example](https://github.com/callstack/fabric-library-with-custom-cpp-example/)
+- 📦 React-Native [v0.70.2](https://twitter.com/Kelset/status/1577262972396744704) 与 [v0.69.6](https://twitter.com/titozzz/status/1574744371865346049)版本更新
+- 📦 [Jest-Native 5.0](https://github.com/testing-library/jest-native/releases)：原生TypeScript支持
+- 🎥 [React-Native EU会议视频集](https://www.youtube.com/watch?v=7QeINTWLUkc&list=PLZ3MwD-soTTE-qcA0MrcvZBdmkHJSIjJX)：分段视频已上线
+- 🎥 [使用React-Native Skia、React-Native Gesture Handler和Reanimated 2实现弧形滑块](https://www.youtube.com/watch?v=fWLyKzEXaJI)
+- 📜 [如何为基于JSI的React Native库指定预处理器标志](https://dev.to/craftzdog/how-to-specify-pre-processor-flags-to-the-jsi-based-react-native-libraries-51m5)
+- 📖 [Expo路由文档](https://expo.github.io/router/)：熟悉这套全新文件系统路由方案
+- 📖 [Expo应用图标与启动屏指南更新](https://twitter.com/amanhimself/status/1575589181237043200)
+- 🎨 [原生iOS底部弹窗演示 - iOS detents特性](https://twitter.com/FernandoTheRojo/status/1575247583634935808)
+- 🎨 [React-Native心愿单功能演示 - 即将发布alpha版](https://twitter.com/margelo_io/status/1576887456024043520)
+- 🎨 [Flipper中调试Reanimated工作线程运行时（Hermes）的实验性支持](https://twitter.com/swmansion/status/1577308811890610176)
+
+---
+
+## 🧑‍💻 招聘信息 {#jobs}
+
+🧑‍💼 [**Causal产品工程师，远程/伦敦/纽约，15-25万美元**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied&lever-source%5B%5D=thisweekinreact.com)
+
+Causal是获得Coatue/Accel投资的A轮初创公司，致力于构建一体化数字处理与数据可视化工具。我们正在寻找能解决复杂UX/性能问题的资深React工程师。
+
+🧑‍💼 [**G2i - 全远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
+
+我们开放多个React Native开发岗位！年薪约16万美元外加10%奖金。应聘者需具备RN生产环境经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解详情，请注明来自This Week in React。
+
+💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
+
+---
+
+## 🔀 其他资讯 {#other}
+
+- [TypeScript 十周年](https://devblogs.microsoft.com/typescript/ten-years-of-typescript)
+- [TotalTypeScript - TypeScript 新手教程](https://www.totaltypescript.com/tutorials/beginners-typescript)
+- [为何我不使用 Prettier](https://antfu.me/posts/why-not-prettier)
+- [无.gif 的动图方案 - 当前最高效的图像与视频选择](https://css-tricks.com/gifs-without-the-gif-the-most-performant-image-and-video-options-right-now/)
+- [CSS 比较函数的应用场景](https://ishadeed.com/article/use-cases-css-comparison-functions/)
+- [Node.js 18 - `node --watch` 功能](https://github.com/nodejs/node/pull/44366)
+- [Node.js 19 RC.0 发布](https://twitter.com/ruyadorno/status/1575628377372823552)
+- [Astro 1.4 版本](https://astro.build/blog/astro-140/)
+- [Deno 1.26 版本](https://deno.com/blog/v1.26)
+- [Rome 0.10 版本](https://twitter.com/rometools/status/1577296196502278150)
+- [2022 CSS 现状调查 - 问卷开放中](https://stateofcss.com/en-us/)
+- [2022 GraphQL 现状调查 - 结果公布](https://2022.stateofgraphql.com/en-US/)
+- [渐进增强构建更具韧性的网络](https://jjenzz.com/progressively-enhance-for-a-more-resilient-web)
+- [Chrome 106 新特性](https://developer.chrome.com/blog/new-in-chrome-106/)
+- [九月 Web 平台新增内容](https://web.dev/web-platform-09-2022/)
+- [减少 Node.js 中的堆内存分配](https://blog.appsignal.com/2022/09/28/minimize-heap-allocations-in-nodejs.html)
+- [提供真实 HTML 内容会让网站更快吗？](https://blog.webpagetest.org/posts/will-html-content-make-site-faster/)
+- [是什么阻碍了 WebAssembly 的广泛采用？](https://thenewstack.io/whats-stopping-webassembly-from-widespread-adoption/)
+- [Blink 引擎 - CSS 嵌套语法原型设计意向](https://twitter.com/intenttoship/status/1576951638325186565)
+- [Postgres-WASM 项目](https://supabase.com/blog/postgres-wasm)
+- [我将 JavaScript 变成编译型语言（为了乐趣与 Wasm）](https://surma.dev/things/compile-js/)
+
+---
+
+## 🤭 趣味时刻 {#fun}
+
+[![Theo T3 最佳点击诱饵](/emails/issues/118/meme.png)](https://twitter.com/t3dotgg/status/1576467328606253057)

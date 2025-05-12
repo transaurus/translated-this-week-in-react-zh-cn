@@ -1,0 +1,165 @@
+---
+slug: /134
+title: "This Week In React #134: Gatsby ➡️ Netlify, React DOM for Native, XState, Flashlight, re-renders, Custom Hooks, Ignite Cookbook..."
+authors: [slorber]
+date: 02-07-2023
+---
+
+大家好！
+
+Gatsby刚刚被Netlify收购了 🤯！
+
+如果你对React-Native的跨平台开发感兴趣，这里还有一份非常值得阅读的RFC。
+
+除此之外，这周相对平静。时机正好，因为我最近时间有限 😄。我正在为下周的邮件做些准备工作，内容会有些不同。
+
+<!-- truncate -->
+
+**💡 [在Twitter上查看这份简报](https://slo.im/thread) - 视觉化格式 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助 {#sponsor1}
+
+[![refine](/emails/issues/132/refine.png)](https://github.com/refinedev/refine)
+
+[**refine - 100%开源的Headless React框架，用于构建CRUD应用**](https://github.com/refinedev/refine)
+
+准备好将你的技能提升到新水平！我们激动地宣布启动开源refine黑客马拉松
+
+你可以赢得1500美元和特别周边礼包！
+
+我们很高兴与Strapi、Appwrite、Meilisearch和Medusa合作。他们正在赞助refine黑客马拉松，获胜者将获得每家提供的周边礼包！
+
+[更多关于黑客马拉松的信息](https://s.refine.dev/hackathon)。
+
+---
+
+## ⚛️ React {#react}
+
+[![Netlify收购Gatsby Inc.以加速组合式Web架构的采用](/emails/issues/134/netlify-gatsby.jpg)](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)
+
+**[Netlify收购Gatsby Inc.以加速组合式Web架构的采用](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)**
+
+这是本周的重大新闻。Gatsby Inc.被Netlify收购。该框架现在与Eleventy和SolidJS一起归入Netlify旗下，并将继续发展。云功能（包括[Valhalla内容中心](https://www.gatsbyjs.com/products/valhalla-content-hub/)）将被整合到Netlify的产品中。新口号是"组合式架构"。Gatsby目前并不是最受欢迎的React框架，但我认为这次收购很有意义，特别是考虑到内容中心和他们在CMS集成方面的工作。与Netlify上的可选付费功能相比，Gatsby Cloud的采用门槛更高，对于不使用Gatsby作为框架的站点来说更是如此。
+
+另请参阅：
+
+- 📜 [Gatsby加入Netlify](https://www.gatsbyjs.com/blog/gatsby-is-joining-netlify/)
+- 📜 [Netlify收购其陷入困境的Jamstack竞争对手Gatsby](https://thenewstack.io/netlify-acquires-gatsby-its-struggling-jamstack-competitor/)
+- 🎥 [为什么会有人收购Gatsby？](https://www.youtube.com/watch?v=5HE6FcOpit8)
+
+---
+
+[![在React中实现全局状态机](/emails/issues/134/xstate.jpg)](https://stately.ai/blog/making-state-machines-global-in-react)
+
+**[在React中实现全局状态机](https://stately.ai/blog/making-state-machines-global-in-react)**
+
+介绍XState 3.1中新增的`createActorContext` API。它有助于创建与React上下文关联的全局XState状态机。可以使用选择器系统，或者通过provider提供自定义状态机（这看起来很适合根据父组件的`props`来自定义状态机）。
+
+---
+
+- 📜 [React递归渲染子组件的机制与注意事项](https://alexsidorenko.com/blog/react-render-children-prop/)：这篇可视化文章生动展示了如何通过组件拆分和状态共置来避免不必要的重新渲染。
+- 📜 [自定义React Hooks及其适用场景](https://thoughtbot.com/blog/custom-react-hooks)：即使不打算复用，有时也需要创建自定义Hook。但需警惕：不必要的抽象同样存在成本。
+- 📜 [必须掌握的TypeScript工具类型](https://www.builder.io/blog/utility-types)：重点介绍`Awaited`和`ReturnType`，以及在React语境下的`Readonly`应用。
+- 📜 [新版React文档中的最佳实践](https://sebastiancarlos.com/react-js-best-practices-from-the-new-docs-1c65570e785d)：想快速了解新文档内容值得一读。个人不完全认同所有观点，尤其别错过[被低估的useSyncExternalStore](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api) 😄。
+- 📜 [WebStorm宣布正式支持Astro](https://astro.build/blog/astro-webstorm-support/)
+- 📜 [揭秘React应用的UI框架与主题方案](https://www.velotio.com/engineering-blog/demystifying-ui-frameworks-and-theming-for-react-apps)
+- 🎥 [在React应用中集成Svelte](https://www.youtube.com/watch?v=FrusJNycQvk)
+- 👀 [Shopify.com已采用Remix](https://twitter.com/remix_run/status/1622666016135475200)
+- 👀 [`create-astro` CLI全新设计](https://twitter.com/n_moore/status/1621524815550074880)
+- 📦 [Ionic 7 Beta发布](https://ionic.io/blog/announcing-the-ionic-7-beta)
+- 📦 [Netlify/Remix-Compute适配器](https://github.com/netlify/remix-compute)：Remix与Netlify的集成方案
+
+<SubscribeFormEmbed />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+**[![构建可扩展的合成监控系统](/emails/issues/134/checkly.jpg)](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)**
+
+**[构建可扩展的合成监控系统](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)**
+
+**[Checkly](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)** 让您轻松部署Playwright脚本来监控应用、网站和API，从开发到生产全流程。验证关键用户流程、收集错误追踪、截取屏幕截图并记录性能指标，全面掌握全球用户的真实体验！
+
+使用[Checkly](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)可实现：
+
+- ✅ 运行可编程的API和浏览器检查来验证应用性能
+- ✅ 检查失败时即时告警，并与现有技术栈无缝集成
+- ✅ 利用Playwright和JavaScript最大化监控与测试效能
+
+[立即免费监控您的应用](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)
+
+---
+
+## 📱 React-Native {#react-native}
+
+[![面向原生的React DOM（减少API碎片化）](/emails/issues/134/rn-web.jpg)](https://github.com/necolas/discussions-and-proposals/blob/reduce-fragmentation/proposals/0000-reduce-fragmentation.md)
+
+**[面向原生的React DOM（减少API碎片化）](https://github.com/necolas/discussions-and-proposals/blob/reduce-fragmentation/proposals/0000-reduce-fragmentation.md)**
+
+Meta/React-Native-Web 的 Nicolas Gallagher 刚刚更新了这份 [RFC](https://github.com/react-native-community/discussions-and-proposals/pull/496)。其目标是尽可能让 React-Native API 与 Web API 对齐，包括支持 `div`、`span` 甚至 `select` 等 DOM 元素！"学一次，到处跑"的理念可能逐步演变为"写一次，到处跑"。社区对此分歧较大。我们需要时间沉淀思考这个大胆构想是否可行 😄，考虑到这个雄心勃勃项目的规模，显然短期内难以实现！
+
+---
+
+- 📜 [如何在 React Native Storybook 和应用之间切换](https://dev.to/dannyhw/how-to-swap-between-react-native-storybook-and-your-app-p3o)：对于使用 React-Native Storybook 的开发者很实用的技巧。我个人喜欢在开发环境添加菜单栏，包含打开/关闭 Storybook、切换 API 环境等按钮... 长期来看，打造专属开发者体验能节省大量时间。
+- 📦 [Flashlight.dev](https://flashlight.dev/)：Flashlight 是一项新服务，旨在成为移动端的 Lighthouse，包含便捷的 Flashlight Cloud 服务。该项目原名 [Android-Performance-Profiler](https://twitter.com/almouro/status/1622588283740880897)。
+- 📖 [React Native 的 Ignite 烹饪书](https://ignitecookbook.com/)：提供简明的 React-Native 分步教程。
+- 🎨 [SolidJS + NativeScript 演示运行 React-Native-WebView](https://twitter.com/ammarahm_ed/status/1622259723729764354)：展示了 Open Native 的可移植性承诺，对原生代码移植很有启发。
+- 👀 [白宫呼吁加强移动平台互操作性](https://twitter.com/JI/status/1620948253381632000)
+- 🎙️ [React-Native-Radio 第258期 - AI 机器人编写 React Native 代码？！](https://reactnativeradio.com/episodes/r258-robots-coding-react-native)
+
+---
+
+## 🧑‍💻 职位 {#jobs}
+
+🧑💼 [**Passionfroot - 高级全栈工程师 (Remix) - 16万欧元+，柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)
+
+Passionfroot 的使命是通过 YouTube、播客、社交媒体和新闻通讯赋能未来的独立创业者。加入我们，共同打造能帮助全球创作者建立可扩展、可持续业务的工具。
+
+🧑💼 [**Callstack - 高级 React Native 开发者 - 完全远程，B2B 月薪净收入 2.1-3.2万波兰兹罗提**](https://www.callstack.com/senior-react-native-developer)
+
+想要开发全球使用量最大的应用吗？渴望共同塑造 React Native 技术吗？加入 Callstack 这个由 React & React Native 技术领袖组成的团队。访问官网了解更多详情。我们期待看到您的申请 - 请尽情展示您的实力！
+
+🧑💼 [**G2i - 100% 远程 React Native 职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
+
+我们开放多个 React Native 开发职位！年薪约16万美元外加10%奖金。应聘者需具备 RN 生产环境经验且居住在美国。私信 [@gabe_g2i](https://twitter.com/gabe_g2i) 了解详情，别忘了提及 This Week in React。
+
+💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
+
+---
+
+## 🔀 其他 {#other}
+
+- [第94届TC39会议动态更新](https://dev.to/hemanth/updates-from-the-94th-tc39-meeting-48mb)：已确定进入下一阶段的提案清单。特别值得关注的有[AsyncContext](https://twitter.com/sebastienlorber/status/1620391460679065601)、"通过复制修改数组"以及"Symbol作为WeakMap键值"（这对[Records & Tuples](https://sebastienlorber.com/records-and-tuples-for-react)至关重要）。
+- [Deno - 服务器端渲染是Web的未来（也是过去）](https://deno.com/blog/the-future-and-past-is-server-side-rendering)
+- [WebKit - 2023年推动互操作性发展](https://webkit.org/blog/13706/interop-2023/) + [Chrome - 互操作2023：持续改善开发者体验](https://web.dev/interop-2023/)
+- [理解单态性可将JavaScript性能提升60倍](https://twitter.com/mhevery/status/1622499229813047296)
+- [加速JavaScript生态系统 - eslint篇](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-3/)
+- [Google正致力于将Chromium引入iOS](https://twitter.com/OpenWebAdvocacy/status/1621653519274246144) + [Mozilla正开发iOS版Firefox](https://twitter.com/OpenWebAdvocacy/status/1622898924775415808)
+- [2023年及未来的响应式设计指南](https://ishadeed.com/article/responsive-design/)
+- [SvelteKit的商业案例](https://elliscs.hashnode.dev/a-business-case-for-sveltekit)
+- [Node.js 19.6发布](https://twitter.com/ruyadorno/status/1621186886470361093)
+- [Ada 1.0 - 新版Node.js URL解析器](https://twitter.com/nodejs/status/1622707746716917761)
+- [Vite 4.1发布](https://twitter.com/vite_js/status/1621149774627094535)
+- [不要使用返回类型，除非...](https://www.youtube.com/watch?v=nwSe95uFN8E)
+- [TypeScript中返回类型的隐患](https://www.youtube.com/watch?v=I6V2FkW1ozQ)
+- [深入学习Web图像技术](https://web.dev/learn/images/)
+- [魔改Chrome使其在终端渲染](https://fathy.fr/carbonyl)
+
+---
+
+## 🤭 趣味时刻 {#fun}
+
+太狠了😅 为什么他这么毒舌！
+
+[![alt](/emails/issues/134/meme.png)](https://twitter.com/ThePrimeagen/status/1620827474681827333)
+
+下次见！👋

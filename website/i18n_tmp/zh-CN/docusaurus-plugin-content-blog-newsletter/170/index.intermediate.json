@@ -1,0 +1,281 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/170/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /170\ntitle: \"This Week In React #170: Waku, Remix, Donuts, RSC resentment, React 19, Aria Components, Storybook, Postgres Components, hydration, streams, VisionOS, atob, Maestro, Orbit, Tamagui, VisionCamera...\"\nauthors: [slorber, bndkt]\ndate: 01-17-2024\n---",
+      "sourceMdx": "---\nslug: /170\ntitle: \"This Week In React #170: Waku, Remix, Donuts, RSC resentment, React 19, Aria Components, Storybook, Postgres Components, hydration, streams, VisionOS, atob, Maestro, Orbit, Tamagui, VisionCamera...\"\nauthors: [slorber, bndkt]\ndate: 01-17-2024\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "This week we had some really great React articles, but also interesting releases from Waku and Remix. The community shared mitigated but interesting feedback on React Server Components, regarding complexity and ownership.",
+      "sourceMdx": "This week we had some really great React articles, but also interesting releases from Waku and Remix. The community shared mitigated but interesting feedback on React Server Components, regarding complexity and ownership."
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "On the React Native side, it's calm. We are eagerly waiting for the Expo SDK 50 which this time is released much later than the beta. We are also waiting for the official launch of VisionOS, a new platform that React Native will support.",
+      "sourceMdx": "On the React Native side, it's calm. We are eagerly waiting for the Expo SDK 50 which this time is released much later than the beta. We are also waiting for the official launch of VisionOS, a new platform that React Native will support."
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "I just [celebrated 10 years of React experience](https://twitter.com/sebastienlorber/status/1747307299356447148) 🙉 It's hard to believe how my career changed thanks to React, considering I used to really dislike JavaScript.",
+      "sourceMdx": "I just [celebrated 10 years of React experience](https://twitter.com/sebastienlorber/status/1747307299356447148) 🙉 It's hard to believe how my career changed thanks to React, considering I used to really dislike JavaScript."
+    },
+    {
+      "id": "6429a3aa",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "39b3772c",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "507b4652",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "fcd52337",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "42e34e45",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "caf67047",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "3c36424c",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "26524352",
+      "translatable": true,
+      "content": "[![CMS with Inline Visual editing for Next.js, Remix and Gatsby](/emails/issues/169/reactbricks.jpg)](https://reactbricks.com?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email)",
+      "sourceMdx": "[![CMS with Inline Visual editing for Next.js, Remix and Gatsby](/emails/issues/169/reactbricks.jpg)](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)"
+    },
+    {
+      "id": "73ab96a3",
+      "translatable": true,
+      "content": "**[CMS with Inline Visual editing for Next.js, Remix and Gatsby](https://reactbricks.com?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email)**",
+      "sourceMdx": "**[CMS with Inline Visual editing for Next.js, Remix and Gatsby](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)**"
+    },
+    {
+      "id": "7499a4e7",
+      "translatable": true,
+      "content": "[**Set up a project in just 1 minute**](https://reactbricks.com/sign-up?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email) with the CLI and define your own Visual blocks as React components to convey your pixel-perfect corporate brand, using any CSS framework.",
+      "sourceMdx": "[**Set up a project in just 1 minute**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email) with the CLI and define your own Visual blocks as React components to convey your pixel-perfect corporate brand, using any CSS framework."
+    },
+    {
+      "id": "517051a7",
+      "translatable": true,
+      "content": "Content editors can easily use these blocks to compose pages visually, just like using a word processor, without compromising the design system.",
+      "sourceMdx": "Content editors can easily use these blocks to compose pages visually, just like using a word processor, without compromising the design system."
+    },
+    {
+      "id": "135468ee",
+      "translatable": true,
+      "content": "React Bricks is enterprise-ready with Digital Assets Management, Advanced SEO, Collaboration, Scheduled Publishing, Multilanguage, Integrations with external data sources, Approval Workflow, Single Sign-On, Multiple environments, Backup and Change history.",
+      "sourceMdx": "React Bricks is enterprise-ready with Digital Assets Management, Advanced SEO, Collaboration, Scheduled Publishing, Multilanguage, Integrations with external data sources, Approval Workflow, Single Sign-On, Multiple environments, Backup and Change history."
+    },
+    {
+      "id": "33331f27",
+      "translatable": true,
+      "content": "Trusted by corporate clients such as The Weather Channel, Deel.com, La Banque Postale, leading eCommerce sites and over 8,500 users worldwide.\\\n[**Get started today!**](https://reactbricks.com/sign-up?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email)",
+      "sourceMdx": "Trusted by corporate clients such as The Weather Channel, Deel.com, La Banque Postale, leading eCommerce sites and over 8,500 users worldwide.  \n[**Get started today!**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)"
+    },
+    {
+      "id": "76a8033c",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "35a77014",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "13d9cd70",
+      "translatable": true,
+      "content": "[![Waku 0.19](/emails/issues/170/waku.jpg)](https://waku.gg/blog/introducing-create-pages)",
+      "sourceMdx": "[![Waku 0.19](/emails/issues/170/waku.jpg)](https://waku.gg/blog/introducing-create-pages)"
+    },
+    {
+      "id": "29528c8d",
+      "translatable": true,
+      "content": "**[Waku 0.19](https://waku.gg/blog/introducing-create-pages)**",
+      "sourceMdx": "**[Waku 0.19](https://waku.gg/blog/introducing-create-pages)**"
+    },
+    {
+      "id": "c504c207",
+      "translatable": true,
+      "content": "This release introduces a new `createPage` API for creating layouts and pages programmatically. This notably marks the shift of Waku from being a React Server Components learning experience to becoming a real production-ready React framework. A lightweight file-based page route is expected for v0.20.",
+      "sourceMdx": "This release introduces a new `createPage` API for creating layouts and pages programmatically. This notably marks the shift of Waku from being a React Server Components learning experience to becoming a real production-ready React framework. A lightweight file-based page route is expected for v0.20."
+    },
+    {
+      "id": "5f01394b",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "d3649a1e",
+      "translatable": true,
+      "content": "[![Delicious Donut Components](/emails/issues/170/donuts.jpg)](https://frontendatscale.com/blog/donut-components/)",
+      "sourceMdx": "[![Delicious Donut Components](/emails/issues/170/donuts.jpg)](https://frontendatscale.com/blog/donut-components/)"
+    },
+    {
+      "id": "4d52a261",
+      "translatable": true,
+      "content": "**[Delicious Donut Components](https://frontendatscale.com/blog/donut-components/)**",
+      "sourceMdx": "**[Delicious Donut Components](https://frontendatscale.com/blog/donut-components/)**"
+    },
+    {
+      "id": "23dfb152",
+      "translatable": true,
+      "content": "This joyful and awesome interactive article uses the donut analogy (client component with a “children” hole) to explain how client/server components can be interleaved. It also covers more advanced RSC composition topics. Today I learned about that fancy server action render prop trick!",
+      "sourceMdx": "This joyful and awesome interactive article uses the donut analogy (client component with a “children” hole) to explain how client/server components can be interleaved. It also covers more advanced RSC composition topics. Today I learned about that fancy server action render prop trick!"
+    },
+    {
+      "id": "aa7d3f2b",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "ea0c7bae",
+      "translatable": true,
+      "content": "* 💸 [Take the Developer Nation Survey - For each completed response, Developer Nation will donate to one of the charities of respondents’ choosing!](https://developereconomics.net/?member_id=thisweekinreact\\&utm_medium=nl_ad4)\n* 🐦 [Dan Abramov - “React Server Components does not require a server”](https://twitter.com/dan_abramov2/status/1745795274977493317): Another important reminder that RSCs can all run at build time too, and the CI is your server. You can deploy a completely static Next.js site using RSCs to S3 or GitHub Pages.\n* 🐦 [React v19 is coming - React v18.3 is not planned](https://twitter.com/sebastienlorber/status/1747633798374625525)\n* 🐦 [Pre-rendering (SSG) is coming to Remix](https://twitter.com/brophdawg11/status/1747402216925704684)\n* 👀 [React Postgres Components](https://react-postgres-components.vercel.app/): Render React SSR using V8 inside Postgres RPC? Sounds crazy, but works!\n* 📜 [React Libraries for 2024](https://www.robinwieruch.de/react-libraries/): As every year, Robin Wieruch updated his list of recommended React libraries, a good way to discover many libs of the ecosystem.\n* 📜 [Kind of annoyed at React](https://blog.cassidoo.co/post/annoyed-at-react/): Cassidy shares a reasonable take on the current state of React that seems to resonate with the community, notably 🐦 [Tanner Linsley using React with increasing resentment](https://twitter.com/tannerlinsley/status/1746970043836158330).\n* 📜 [React, where are you going?](https://dev.to/matfrana/react-where-are-you-going-5284): Matteo builds on top of Cassidy’s take and explains his frustration regarding React ownership and increasing complexity. He advocates for a financially sustainable community-driven framework. What struck me is that adding RSC support to their lib React-Bricks decreased the DX (also confirmed by a few others, 🐦 [tweet](https://twitter.com/sebastienlorber/status/1747643069460021405)).\n* 📜 [Streams and React Server Components](https://minimalistweb.dev/p/streams-and-react-server-components): Even apart from RSC, this is a great deep dive into the Streams APIs from a Waku contributor.\n* 📜 [Server-side rendering local dates without FOUC](https://blog.6nok.org/server-side-rendering-local-dates-without-fouc/): It’s common to get React hydration mismatches when trying to render time in the user timezone. This suggests to inline a script to modify the DOM SSR-rendered time just before React hydrates to avoid the mismatch.\n* 📜 [How to setup Client-Server Relaying in Next.js](https://ericbureltech.hashnode.dev/how-to-setup-client-server-relaying-in-nextjs): Explains how we can render a dynamic value on the server, and then let SWR take over that value on the client.\n* 📜 [Say Hello to Panda CSS - The New CSS-in-JS Library with Zero Runtime](https://www.telerik.com/blogs/say-hello-panda-css-new-css-js-library-zero-runtime)\n* 📜 [Build Dynamic Forms with React Hook Form](https://claritydev.net/blog/build-dynamic-forms-react-hook-form)\n* 📦 [Remix 2.5 - SPA mode](https://github.com/remix-run/remix/blob/main/CHANGELOG.md#v250): Deploy Remix apps without a server (e.g. on GitHub pages) using SPA mode, generating a single `index.html` file.\n* 📦 [React-Aria-Components + Tailwind starter kit - New set of beautifully styled component that you can modify](https://react-spectrum.adobe.com/react-aria/getting-started.html#starter-kits)\n* 🎥 [A Beginner’s Guide to Storybook 7 with React - free Egghead course](https://egghead.io/courses/a-beginner-s-guide-to-storybook-7-with-react-56f61ecf)\n* 🔐 [Critical security vulnerability in @clerk/nextjs - upgrade to 4.29.3](https://clerk.com/changelog/2024-01-12)",
+      "sourceMdx": "- 💸 [Take the Developer Nation Survey - For each completed response, Developer Nation will donate to one of the charities of respondents’ choosing!](https://developereconomics.net/?member_id=thisweekinreact&utm_medium=nl_ad4)\n- 🐦 [Dan Abramov - “React Server Components does not require a server”](https://twitter.com/dan_abramov2/status/1745795274977493317): Another important reminder that RSCs can all run at build time too, and the CI is your server. You can deploy a completely static Next.js site using RSCs to S3 or GitHub Pages.\n- 🐦 [React v19 is coming - React v18.3 is not planned](https://twitter.com/sebastienlorber/status/1747633798374625525)\n- 🐦 [Pre-rendering (SSG) is coming to Remix](https://twitter.com/brophdawg11/status/1747402216925704684)\n- 👀 [React Postgres Components](https://react-postgres-components.vercel.app/): Render React SSR using V8 inside Postgres RPC? Sounds crazy, but works!\n- 📜 [React Libraries for 2024](https://www.robinwieruch.de/react-libraries/): As every year, Robin Wieruch updated his list of recommended React libraries, a good way to discover many libs of the ecosystem.\n- 📜 [Kind of annoyed at React](https://blog.cassidoo.co/post/annoyed-at-react/): Cassidy shares a reasonable take on the current state of React that seems to resonate with the community, notably 🐦 [Tanner Linsley using React with increasing resentment](https://twitter.com/tannerlinsley/status/1746970043836158330).\n- 📜 [React, where are you going?](https://dev.to/matfrana/react-where-are-you-going-5284): Matteo builds on top of Cassidy’s take and explains his frustration regarding React ownership and increasing complexity. He advocates for a financially sustainable community-driven framework. What struck me is that adding RSC support to their lib React-Bricks decreased the DX (also confirmed by a few others, 🐦 [tweet](https://twitter.com/sebastienlorber/status/1747643069460021405)).\n- 📜 [Streams and React Server Components](https://minimalistweb.dev/p/streams-and-react-server-components): Even apart from RSC, this is a great deep dive into the Streams APIs from a Waku contributor.\n- 📜 [Server-side rendering local dates without FOUC](https://blog.6nok.org/server-side-rendering-local-dates-without-fouc/): It’s common to get React hydration mismatches when trying to render time in the user timezone. This suggests to inline a script to modify the DOM SSR-rendered time just before React hydrates to avoid the mismatch.\n- 📜 [How to setup Client-Server Relaying in Next.js](https://ericbureltech.hashnode.dev/how-to-setup-client-server-relaying-in-nextjs): Explains how we can render a dynamic value on the server, and then let SWR take over that value on the client.\n- 📜 [Say Hello to Panda CSS - The New CSS-in-JS Library with Zero Runtime](https://www.telerik.com/blogs/say-hello-panda-css-new-css-js-library-zero-runtime)\n- 📜 [Build Dynamic Forms with React Hook Form](https://claritydev.net/blog/build-dynamic-forms-react-hook-form)\n- 📦 [Remix 2.5 - SPA mode](https://github.com/remix-run/remix/blob/main/CHANGELOG.md#v250): Deploy Remix apps without a server (e.g. on GitHub pages) using SPA mode, generating a single `index.html` file.\n- 📦 [React-Aria-Components + Tailwind starter kit - New set of beautifully styled component that you can modify](https://react-spectrum.adobe.com/react-aria/getting-started.html#starter-kits)\n- 🎥 [A Beginner’s Guide to Storybook 7 with React - free Egghead course](https://egghead.io/courses/a-beginner-s-guide-to-storybook-7-with-react-56f61ecf)\n- 🔐 [Critical security vulnerability in @clerk/nextjs - upgrade to 4.29.3](https://clerk.com/changelog/2024-01-12)"
+    },
+    {
+      "id": "2128cb26",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed placement=\"middle\" />",
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+    },
+    {
+      "id": "2ff0f46f",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "0a103a02",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "8126f763",
+      "translatable": true,
+      "content": "[![Process Documents using React PDF Library by Apryse](/emails/issues/170/apryse.jpg)](https://bit.ly/3He15PD)",
+      "sourceMdx": "[![Process Documents using React PDF Library by Apryse](/emails/issues/170/apryse.jpg)](https://bit.ly/3He15PD)"
+    },
+    {
+      "id": "74dd7937",
+      "translatable": true,
+      "content": "**[Process Documents using React PDF Library by Apryse](https://bit.ly/3He15PD)**",
+      "sourceMdx": "**[Process Documents using React PDF Library by Apryse](https://bit.ly/3He15PD)**"
+    },
+    {
+      "id": "5803caac",
+      "translatable": true,
+      "content": "Transform your applications with Apryse's React PDF Library. Seamlessly integrate an exceptional viewer experience for web, mobile, and desktop. View, edit, redact and annotate with support for PDFs, Microsoft Office, video, images, HTML, and more.",
+      "sourceMdx": "Transform your applications with Apryse's React PDF Library. Seamlessly integrate an exceptional viewer experience for web, mobile, and desktop. View, edit, redact and annotate with support for PDFs, Microsoft Office, video, images, HTML, and more."
+    },
+    {
+      "id": "51867d16",
+      "translatable": true,
+      "content": "Start your free trial [today](https://apryse.com/form/contact-sales?utm_source=email%20newsletter\\&utm_medium=email\\&utm_campaign=cta%20button).",
+      "sourceMdx": "Start your free trial [today](https://apryse.com/form/contact-sales?utm_source=email%20newsletter&utm_medium=email&utm_campaign=cta%20button)."
+    },
+    {
+      "id": "b805e2c6",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "b10963d7",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "dee20070",
+      "translatable": true,
+      "content": "* 💸 [Moropo - Build and Run Open Source React Native Tests Directly From Your Browser](https://www.moropo.com?utm_source=newsletter\\&utm_medium=emails\\&utm_campaign=twir-20240117)\n* 👀 [Expo 50 launch live stream announced for January 31, 2024](https://www.youtube.com/watch?v=cKFSVUo3AnI)\n* 👀 [atob() and btoa() were just added to Hermes](https://github.com/facebook/hermes/commit/d2177c31b271e92d1725742605b53d7f6e8acf3e)\n* 👀 [ChatGPT React Native Buddy](https://chat.openai.com/g/g-S9qpp72cb-react-native-buddy)\n* 📅 [App.js Conf Call for Papers is ending January 28](https://appjs.co/#CFP)\n* 📜 [Unlocking New Possibilities with Maestro: Beyond Automated Testing](https://www.bam.tech/article/unlocking-new-possibilities-with-maestro-beyond-automated-testing): Introduction on how to do automatic visual testing of React Native apps using Maestro.\n* 📦 [Official Tamagui design system Figma released](https://www.figma.com/community/file/1326593766534421119/tamagui-v1-2-0): Create designs using Tamagui components in Figma.\n* 📦 [React Native Test App 3.0](https://github.com/microsoft/react-native-test-app/releases/tag/3.0.0): Microsoft’s test app for library authors. Mainly a clean-up release, dropping Node 14, React Native 0.65 and earlier, as well as Flipper.\n* 📦 [React Native visionOS with new CLI commands](https://github.com/callstack/react-native-visionos): visionOS will soon be available and the community is racing to get React Native ready for it.\n* 📦 [vision-camera-resize-plugin - Frame Processor plugin for fast buffer resizing](https://github.com/mrousavy/vision-camera-resize-plugin)\n* 📦 [Expo Orbit 1.0.2](https://expo.dev/orbit)\n* 🎥 [Simon Grimm - Better than React Native Stylesheet - Unistyles](https://www.youtube.com/watch?v=OT5hQbvGRW8)\n* 🎙️ [Rocket Ship 25 - EAS, Expo Prebuild & SDK 50 with Kadi Kraman](https://podcast.galaxies.dev/episodes/025-eas-expo-prebuild-sdk-50-with-kadi-kraman)\n* 🎙️ [React Native Show 33 - React Native at Scale With Rafael Mendiola](https://www.callstack.com/podcasts/react-native-at-scale-with-rafael-mendiola)",
+      "sourceMdx": "- 💸 [Moropo - Build and Run Open Source React Native Tests Directly From Your Browser](https://www.moropo.com?utm_source=newsletter&utm_medium=emails&utm_campaign=twir-20240117)\n- 👀 [Expo 50 launch live stream announced for January 31, 2024](https://www.youtube.com/watch?v=cKFSVUo3AnI)\n- 👀 [atob() and btoa() were just added to Hermes](https://github.com/facebook/hermes/commit/d2177c31b271e92d1725742605b53d7f6e8acf3e)\n- 👀 [ChatGPT React Native Buddy](https://chat.openai.com/g/g-S9qpp72cb-react-native-buddy)\n- 📅 [App.js Conf Call for Papers is ending January 28](https://appjs.co/#CFP)\n- 📜 [Unlocking New Possibilities with Maestro: Beyond Automated Testing](https://www.bam.tech/article/unlocking-new-possibilities-with-maestro-beyond-automated-testing): Introduction on how to do automatic visual testing of React Native apps using Maestro.\n- 📦 [Official Tamagui design system Figma released](https://www.figma.com/community/file/1326593766534421119/tamagui-v1-2-0): Create designs using Tamagui components in Figma.\n- 📦 [React Native Test App 3.0](https://github.com/microsoft/react-native-test-app/releases/tag/3.0.0): Microsoft’s test app for library authors. Mainly a clean-up release, dropping Node 14, React Native 0.65 and earlier, as well as Flipper.\n- 📦 [React Native visionOS with new CLI commands](https://github.com/callstack/react-native-visionos): visionOS will soon be available and the community is racing to get React Native ready for it.\n- 📦 [vision-camera-resize-plugin - Frame Processor plugin for fast buffer resizing](https://github.com/mrousavy/vision-camera-resize-plugin)\n- 📦 [Expo Orbit 1.0.2](https://expo.dev/orbit)\n- 🎥 [Simon Grimm - Better than React Native Stylesheet - Unistyles](https://www.youtube.com/watch?v=OT5hQbvGRW8)\n- 🎙️ [Rocket Ship 25 - EAS, Expo Prebuild & SDK 50 with Kadi Kraman](https://podcast.galaxies.dev/episodes/025-eas-expo-prebuild-sdk-50-with-kadi-kraman)\n- 🎙️ [React Native Show 33 - React Native at Scale With Rafael Mendiola](https://www.callstack.com/podcasts/react-native-at-scale-with-rafael-mendiola)"
+    },
+    {
+      "id": "70cef2c1",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "7974af84",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "2979d081",
+      "translatable": true,
+      "content": "* 📜 [Module Federation added to Rspack](https://www.rspack.dev/blog/module-federation-added-to-rspack.html)\n* 📜 [Rust-Based JavaScript Linters: Fast, But No Typed Linting Right Now](https://www.joshuakgoldberg.com/blog/rust-based-javascript-linters-fast-but-no-typed-linting-right-now/)\n* 📜 [npm in Review: A 2023 Retrospective on Growth, Security, and Quirky Facts](https://socket.dev/blog/2023-npm-retrospective)\n* 📜 [Is htmx Just Another JavaScript Framework?](https://htmx.org/essays/is-htmx-another-javascript-framework/)\n* 📜 [Designing better target sizes (in CSS)](https://ishadeed.com/article/target-size/)\n* 📜 [Node.js Security Progress Report](https://openjsf.org/blog/nodejs-security-progress-report-january24?utm_content=278704719\\&utm_medium=social\\&utm_source=twitter\\&hss_channel=tw-91985735)\n* 📦 [Node.js 21.6 - permission model improvements](https://nodejs.org/en/blog/release/v21.6.0)\n* 📦 [gql.tada - TypeScript that understands GraphQL](https://github.com/0no-co/gql.tada)\n* 📦 [Lightning CSS 1.23](https://github.com/parcel-bundler/lightningcss/releases/tag/v1.23.0)\n* 📦 [Prettier 3.2 - JSONC, Angular’s ICU expression](https://prettier.io/blog/2024/01/12/3.2.0)\n* 📦 [fsx - Modern filesystem API for JavaScript](https://humanwhocodes.com/blog/2024/01/fsx-modern-filesystem-api-javascript/)",
+      "sourceMdx": "- 📜 [Module Federation added to Rspack](https://www.rspack.dev/blog/module-federation-added-to-rspack.html)\n- 📜 [Rust-Based JavaScript Linters: Fast, But No Typed Linting Right Now](https://www.joshuakgoldberg.com/blog/rust-based-javascript-linters-fast-but-no-typed-linting-right-now/)\n- 📜 [npm in Review: A 2023 Retrospective on Growth, Security, and Quirky Facts](https://socket.dev/blog/2023-npm-retrospective)\n- 📜 [Is htmx Just Another JavaScript Framework?](https://htmx.org/essays/is-htmx-another-javascript-framework/)\n- 📜 [Designing better target sizes (in CSS)](https://ishadeed.com/article/target-size/)\n- 📜 [Node.js Security Progress Report](https://openjsf.org/blog/nodejs-security-progress-report-january24?utm_content=278704719&utm_medium=social&utm_source=twitter&hss_channel=tw-91985735)\n- 📦 [Node.js 21.6 - permission model improvements](https://nodejs.org/en/blog/release/v21.6.0)\n- 📦 [gql.tada - TypeScript that understands GraphQL](https://github.com/0no-co/gql.tada)\n- 📦 [Lightning CSS 1.23](https://github.com/parcel-bundler/lightningcss/releases/tag/v1.23.0)\n- 📦 [Prettier 3.2 - JSONC, Angular’s ICU expression](https://prettier.io/blog/2024/01/12/3.2.0)\n- 📦 [fsx - Modern filesystem API for JavaScript](https://humanwhocodes.com/blog/2024/01/fsx-modern-filesystem-api-javascript/)"
+    },
+    {
+      "id": "714b728f",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "47cd8dd6",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "692c6053",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/170/meme.jpg)](https://twitter.com/tlakomy/status/1745394119889801454?s=20)",
+      "sourceMdx": "[![alt](/emails/issues/170/meme.jpg)](https://twitter.com/tlakomy/status/1745394119889801454?s=20)"
+    },
+    {
+      "id": "383fbdd2",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

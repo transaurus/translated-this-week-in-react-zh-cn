@@ -1,0 +1,347 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/118/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /118\ntitle: \"This Week In React #118: Gatsby, Beta Docs, Reactivity, Lazy Maps, Ezno, Whyframe, Reassure, Node.js, TypeScript, WASM...\"\nauthors: [slorber]\ndate: 10-03-2022\n---",
+      "sourceMdx": "---\nslug: /118\ntitle: \"This Week In React #118: Gatsby, Beta Docs, Reactivity, Lazy Maps, Ezno, Whyframe, Reassure, Node.js, TypeScript, WASM...\"\nauthors: [slorber]\ndate: 10-03-2022\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "Good news: the new React beta docs will be available soon! A link on the old doc invites to visit the new beta site. Gatsby v5 released alpha.",
+      "sourceMdx": "Good news: the new React beta docs will be available soon! A link on the old doc invites to visit the new beta site. Gatsby v5 released alpha."
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "The current trend: bringing reactivity to React.",
+      "sourceMdx": "The current trend: bringing reactivity to React."
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "Some nice React-Native content too. We are watching closely the progress of Expo Router, WishList and web support in Reassure.",
+      "sourceMdx": "Some nice React-Native content too. We are watching closely the progress of Expo Router, WishList and web support in Reassure."
+    },
+    {
+      "id": "86b54d44",
+      "translatable": true,
+      "content": "TypeScript celebrates its 10th anniversary. A `--watch` mode is coming in Node.js. Interesting content about WebAssembly.",
+      "sourceMdx": "TypeScript celebrates its 10th anniversary. A `--watch` mode is coming in Node.js. Interesting content about WebAssembly."
+    },
+    {
+      "id": "45c63027",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "1acb9a05",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "fb3d50cd",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "0adfe0aa",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "1941846d",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "a5403c6e",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "d06306f7",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "73ab96a3",
+      "translatable": true,
+      "content": "[![Storyblok](/emails/issues/116/storyblok.png)](https://www.storyblok.com/?utm_source=thisweekinreact\\&utm_medium=display\\&utm_campaign=AWA_SPON_TWIREACT_TRA\\&utm_content=thisweekinreact_en)",
+      "sourceMdx": "[![Storyblok](/emails/issues/116/storyblok.png)](https://www.storyblok.com/?utm_source=thisweekinreact&utm_medium=display&utm_campaign=AWA_SPON_TWIREACT_TRA&utm_content=thisweekinreact_en)"
+    },
+    {
+      "id": "7499a4e7",
+      "translatable": true,
+      "content": "Have you already tried [Storyblok](https://www.storyblok.com/?utm_source=thisweekinreact\\&utm_medium=display\\&utm_campaign=AWA_SPON_TWIREACT_TRA\\&utm_content=thisweekinreact_en)? It's the headless CMS with a Visual Editor designed for both developers and marketers!",
+      "sourceMdx": "Have you already tried [Storyblok](https://www.storyblok.com/?utm_source=thisweekinreact&utm_medium=display&utm_campaign=AWA_SPON_TWIREACT_TRA&utm_content=thisweekinreact_en)? It's the headless CMS with a Visual Editor designed for both developers and marketers!"
+    },
+    {
+      "id": "517051a7",
+      "translatable": true,
+      "content": "Use Storyblok React SDK to quickly build reusable components and fetch the content to create your React, Next.js, Remix, or even React-Native applications, websites or eCommerces.",
+      "sourceMdx": "Use Storyblok React SDK to quickly build reusable components and fetch the content to create your React, Next.js, Remix, or even React-Native applications, websites or eCommerces."
+    },
+    {
+      "id": "135468ee",
+      "translatable": true,
+      "content": "Check out [Technology Hub](https://www.storyblok.com/technologies?utm_source=thisweekinreact\\&utm_medium=display\\&utm_campaign=AWA_SPON_TWIREACT_TRA\\&utm_content=thisweekinreact_en) and find it out yourself!",
+      "sourceMdx": "Check out [Technology Hub](https://www.storyblok.com/technologies?utm_source=thisweekinreact&utm_medium=display&utm_campaign=AWA_SPON_TWIREACT_TRA&utm_content=thisweekinreact_en) and find it out yourself!"
+    },
+    {
+      "id": "5ef5fda3",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "8d04259b",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "95e9ba12",
+      "translatable": true,
+      "content": "**[Gatsby v5 Alpha](https://www.gatsbyjs.com/blog/gatsby-v5-alpha-is-here-and-its-pretty-exciting/)**",
+      "sourceMdx": "**[Gatsby v5 Alpha](https://www.gatsbyjs.com/blog/gatsby-v5-alpha-is-here-and-its-pretty-exciting/)**"
+    },
+    {
+      "id": "8af76f3d",
+      "translatable": true,
+      "content": "The v5 of Gatsby is in alpha with 2 main new features:",
+      "sourceMdx": "The v5 of Gatsby is in alpha with 2 main new features:"
+    },
+    {
+      "id": "cef3cb03",
+      "translatable": true,
+      "content": "* support for [partial hydration](https://www.gatsbyjs.com/blog/a-look-at-partial-hydration-in-gatsby-5/) based on React Server Components and a `\"client export\"` directive at the top of client components\n* the Gatsby Slices API, which allows to significantly improve build times when a shared component (layout/navbar/footer) should be re-rendered",
+      "sourceMdx": "- support for [partial hydration](https://www.gatsbyjs.com/blog/a-look-at-partial-hydration-in-gatsby-5/) based on React Server Components and a `\"client export\"` directive at the top of client components\n- the Gatsby Slices API, which allows to significantly improve build times when a shared component (layout/navbar/footer) should be re-rendered"
+    },
+    {
+      "id": "c504c207",
+      "translatable": true,
+      "content": "**[Making React fast by default and truly reactive](https://legendapp.com/open-source/legend-state/)**",
+      "sourceMdx": "**[Making React fast by default and truly reactive](https://legendapp.com/open-source/legend-state/)**"
+    },
+    {
+      "id": "98d26038",
+      "translatable": true,
+      "content": "Interactive article that illustrates the problems of re-rendering in React which is not optimized by default. Shows how the Legend-State library, based on observables, allows to bring reactivity to React (a bit like SolidJS). The code is then optimized by default and avoids unnecessary re-renders.",
+      "sourceMdx": "Interactive article that illustrates the problems of re-rendering in React which is not optimized by default. Shows how the Legend-State library, based on observables, allows to bring reactivity to React (a bit like SolidJS). The code is then optimized by default and avoids unnecessary re-renders."
+    },
+    {
+      "id": "d3649a1e",
+      "translatable": true,
+      "content": "**[Ezno - Experimental compiler](https://kaleidawave.github.io/posts/introducing-ezno/)**",
+      "sourceMdx": "**[Ezno - Experimental compiler](https://kaleidawave.github.io/posts/introducing-ezno/)**"
+    },
+    {
+      "id": "4d52a261",
+      "translatable": true,
+      "content": "A new experimental type-checking compiler for JavaScript, compatible with TypeScript annotations and JSX. Relies on dependent typing to do advanced static analysis and pre-evaluations at compile-time (reminds [prepack](https://prepack.io/)). The goal seems to be to be able to compile an app that looks like React in a reactive form, and skip the VDOM. Quite technical to read.",
+      "sourceMdx": "A new experimental type-checking compiler for JavaScript, compatible with TypeScript annotations and JSX. Relies on dependent typing to do advanced static analysis and pre-evaluations at compile-time (reminds [prepack](https://prepack.io/)). The goal seems to be to be able to compile an app that looks like React in a reactive form, and skip the VDOM. Quite technical to read."
+    },
+    {
+      "id": "23dfb152",
+      "translatable": true,
+      "content": "**[(Lazy) Components Maps](https://julesblom.com/writing/lazy-component-maps)**",
+      "sourceMdx": "**[(Lazy) Components Maps](https://julesblom.com/writing/lazy-component-maps)**"
+    },
+    {
+      "id": "1131ef75",
+      "translatable": true,
+      "content": "Presents a useful technique to know to leverage code-splitting when you do conditional rendering. Especially useful on large enums/union-types, such as an `<Icon name=\"my-icon-name\"/>` component.",
+      "sourceMdx": "Presents a useful technique to know to leverage code-splitting when you do conditional rendering. Especially useful on large enums/union-types, such as an `<Icon name=\"my-icon-name\"/>` component."
+    },
+    {
+      "id": "8b2a52b1",
+      "translatable": true,
+      "content": "**[Whyframe](https://whyframe.dev/)**",
+      "sourceMdx": "**[Whyframe](https://whyframe.dev/)**"
+    },
+    {
+      "id": "5dae11e3",
+      "translatable": true,
+      "content": "Allows frontend component rendering to be isolated in an iframe. Now supports [Webpack, Next.js and Docusaurus](https://twitter.com/bluwyoo/status/1576947013450539008). This seems handy for component library documentation sites, ensuring the global CSS of the site does not affect the rendering of the component displayed.",
+      "sourceMdx": "Allows frontend component rendering to be isolated in an iframe. Now supports [Webpack, Next.js and Docusaurus](https://twitter.com/bluwyoo/status/1576947013450539008). This seems handy for component library documentation sites, ensuring the global CSS of the site does not affect the rendering of the component displayed."
+    },
+    {
+      "id": "180e9ce9",
+      "translatable": true,
+      "content": "* 📖 Beta React docs: [useEffect](https://twitter.com/dan_abramov/status/1575320847279071232) + [useId](https://twitter.com/dan_abramov/status/1577283961763467265) + [\"All the commonly used APIs documented\"](https://twitter.com/dan_abramov/status/1575367224541560833)\n* 📜 [How to use Serverless Functions with SSR](https://paulie.dev/posts/2022/09/how-to-use-serverless-fucntions-with-ssr/): explains how to correctly split a function between the server/client part in Gatsby\n* 📜 [Fastest Frontend Tooling in 2022](https://cpojer.net/posts/fastest-frontend-tooling-in-2022): Christoph Nakazawa justifies the choices behind his minimalist starter [vite-ts-react-tailwind-template](https://github.com/cpojer/vite-ts-react-tailwind-template)\n* 📜 [Improving the accessibility of our Next.js site](https://vercel.com/blog/improving-the-accessibility-of-our-nextjs-site)\n* 📜 [The Orton Effect - dreamy photo effect in CSS and React](https://mikebifulco.com/posts/orton-effect-css-react)\n* 📜 [Mark Erikson - Guide to React Rendering Behavior - updated for React 18](https://twitter.com/acemarke/status/1577301648850014210)\n* 🚧 [no-nested-components ESLint rule](https://github.com/facebook/react/pull/25360): a new rule could come soon and avoid declaring components on the fly\n* 🧵 [Dan Abramov - \"skipping re-renders (eg with memo) is a performance optimization only\"](https://twitter.com/dan_abramov/status/1575553047408902147)\n* 🧵 [Andrew Clark - \"We've looked very seriously at a WASM rewrite of React\"](https://twitter.com/acdlite/status/1576302675766804480)\n* [React Spectrum - React Aria - October 4 releases](https://twitter.com/devongovett/status/1577370727849680896)\n* 📦 [Redwood v3](https://community.redwoodjs.com/t/redwood-3-0-0-is-now-available/3989) + [What's new in Redwood v3?](https://www.youtube.com/watch?v=o9LFWOxMlTs)\n* 📦 [Supabase Pre-built React Auth UI](https://twitter.com/supabase/status/1577215238792916992)",
+      "sourceMdx": "- 📖 Beta React docs: [useEffect](https://twitter.com/dan_abramov/status/1575320847279071232) + [useId](https://twitter.com/dan_abramov/status/1577283961763467265) + [\"All the commonly used APIs documented\"](https://twitter.com/dan_abramov/status/1575367224541560833)\n- 📜 [How to use Serverless Functions with SSR](https://paulie.dev/posts/2022/09/how-to-use-serverless-fucntions-with-ssr/): explains how to correctly split a function between the server/client part in Gatsby\n- 📜 [Fastest Frontend Tooling in 2022](https://cpojer.net/posts/fastest-frontend-tooling-in-2022): Christoph Nakazawa justifies the choices behind his minimalist starter [vite-ts-react-tailwind-template](https://github.com/cpojer/vite-ts-react-tailwind-template)\n- 📜 [Improving the accessibility of our Next.js site](https://vercel.com/blog/improving-the-accessibility-of-our-nextjs-site)\n- 📜 [The Orton Effect - dreamy photo effect in CSS and React](https://mikebifulco.com/posts/orton-effect-css-react)\n- 📜 [Mark Erikson - Guide to React Rendering Behavior - updated for React 18](https://twitter.com/acemarke/status/1577301648850014210)\n- 🚧 [no-nested-components ESLint rule](https://github.com/facebook/react/pull/25360): a new rule could come soon and avoid declaring components on the fly\n- 🧵 [Dan Abramov - \"skipping re-renders (eg with memo) is a performance optimization only\"](https://twitter.com/dan_abramov/status/1575553047408902147)\n- 🧵 [Andrew Clark - \"We've looked very seriously at a WASM rewrite of React\"](https://twitter.com/acdlite/status/1576302675766804480)\n- [React Spectrum - React Aria - October 4 releases](https://twitter.com/devongovett/status/1577370727849680896)\n- 📦 [Redwood v3](https://community.redwoodjs.com/t/redwood-3-0-0-is-now-available/3989) + [What's new in Redwood v3?](https://www.youtube.com/watch?v=o9LFWOxMlTs)\n- 📦 [Supabase Pre-built React Auth UI](https://twitter.com/supabase/status/1577215238792916992)"
+    },
+    {
+      "id": "4edbd92a",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed />",
+      "sourceMdx": "<SubscribeFormEmbed />"
+    },
+    {
+      "id": "678c3938",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "a4bf4268",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "ec619944",
+      "translatable": true,
+      "content": "[**React Brussels - IRL & Online React conference - 14 Oct 2022**](https://www.react.brussels/)",
+      "sourceMdx": "[**React Brussels - IRL & Online React conference - 14 Oct 2022**](https://www.react.brussels/)"
+    },
+    {
+      "id": "2547a6bb",
+      "translatable": true,
+      "content": "React Brussels is back for its first **Hybrid** edition to ever happen in the ❤️of Europe. Talks about the **trendiest tech and skills** (Playwright, WebVR, useEffect, Data Fetching, Remix …) will be on agenda; from some of the **brightest minds** in the React arena; namely :",
+      "sourceMdx": "React Brussels is back for its first **Hybrid** edition to ever happen in the ❤️of Europe. Talks about the **trendiest tech and skills** (Playwright, WebVR, useEffect, Data Fetching, Remix …) will be on agenda; from some of the **brightest minds** in the React arena; namely :"
+    },
+    {
+      "id": "4d429946",
+      "translatable": true,
+      "content": "* Tejas Kumar: DevRel Director - **Xata**\n* Kathleen McMahon: Sr Design System Eng - **Northwestern Mutual**\n* David Khourshid: Founder - **Stately**\n* Shaundai Person: Sr Software Eng - **Netflix**\n* Debbie O'Brien: Sr Program Manager - **Microsoft**",
+      "sourceMdx": "- Tejas Kumar: DevRel Director - **Xata**\n- Kathleen McMahon: Sr Design System Eng - **Northwestern Mutual**\n- David Khourshid: Founder - **Stately**\n- Shaundai Person: Sr Software Eng - **Netflix**\n- Debbie O'Brien: Sr Program Manager - **Microsoft**"
+    },
+    {
+      "id": "a311e967",
+      "translatable": true,
+      "content": "Afterparty, Contests, Job Opportunities, Belgian 🍺, Swag, City Tour ... all is there to last long beyond the conference itself !",
+      "sourceMdx": "Afterparty, Contests, Job Opportunities, Belgian 🍺, Swag, City Tour ... all is there to last long beyond the conference itself !"
+    },
+    {
+      "id": "eb51d107",
+      "translatable": true,
+      "content": "IRL tickets are almost **sold-out** ! Be quick, **[Grab yours](https://ti.to/bejs/react-brussels-2022/with/in-person-ticket-copy,group-3-tickets-20,group-4-tickets-25,group-5-tickets-30,student-junior-pass?source=undefined)** and join more than 200 devs celebrating React in-person ! Can't join us? Then, here's your [**30€ online ticket 🎟**](https://ti.to/bejs/react-brussels-2022/discount/online_lastweek) 😜",
+      "sourceMdx": "IRL tickets are almost **sold-out** ! Be quick, **[Grab yours](https://ti.to/bejs/react-brussels-2022/with/in-person-ticket-copy,group-3-tickets-20,group-4-tickets-25,group-5-tickets-30,student-junior-pass?source=undefined)** and join more than 200 devs celebrating React in-person ! Can't join us? Then, here's your [**30€ online ticket 🎟**](https://ti.to/bejs/react-brussels-2022/discount/online_lastweek) 😜"
+    },
+    {
+      "id": "7fc4bca5",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "a138e327",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "a2c0166e",
+      "translatable": true,
+      "content": "**[Reassure - Continuous App Performance Monitoring Made Simple](https://www.callstack.com/blog/app-performance-monitoring)**",
+      "sourceMdx": "**[Reassure - Continuous App Performance Monitoring Made Simple](https://www.callstack.com/blog/app-performance-monitoring)**"
+    },
+    {
+      "id": "c1eaf30b",
+      "translatable": true,
+      "content": "Callstack estimates 80% of performance problems on React-Native come from JS, and in particular from React misuse. They created Reassure, a new performance regression testing library. It integrates well with your CI to prevent the performance of your apps from degrading over time. The [web support](https://github.com/callstack/reassure/issues/39) is not yet available.",
+      "sourceMdx": "Callstack estimates 80% of performance problems on React-Native come from JS, and in particular from React misuse. They created Reassure, a new performance regression testing library. It integrates well with your CI to prevent the performance of your apps from degrading over time. The [web support](https://github.com/callstack/reassure/issues/39) is not yet available."
+    },
+    {
+      "id": "7a3b7c62",
+      "translatable": true,
+      "content": "* 📒 [BAM Mobile Tech Radar 2022](https://www.bam.tech/en-tech-radar): a complete report on mobile development in 2022, with a big part on React-Native\n* 🔗 [fabric-library-with-custom-cpp-example](https://github.com/callstack/fabric-library-with-custom-cpp-example/)\n* 📦 React-Native [v0.70.2](https://twitter.com/Kelset/status/1577262972396744704) + [v0.69.6](https://twitter.com/titozzz/status/1574744371865346049)\n* 📦 [Jest-Native 5.0](https://github.com/testing-library/jest-native/releases): native TypeScript support\n* 🎥 [React-Native EU playlist](https://www.youtube.com/watch?v=7QeINTWLUkc\\&list=PLZ3MwD-soTTE-qcA0MrcvZBdmkHJSIjJX): videos are splitted are online\n* 🎥 [Arc Slider with React-Native Skia, React-Native Gesture Handler and Reanimated 2](https://www.youtube.com/watch?v=fWLyKzEXaJI)\n* 📜 [How to specify pre-processor flags to the JSI-based React Native libraries](https://dev.to/craftzdog/how-to-specify-pre-processor-flags-to-the-jsi-based-react-native-libraries-51m5)\n* 📖 [Expo Router](https://expo.github.io/router/): the doc is available to familiarize yourself with this new file-system router\n* 📖 [Expo App Icons and Splash Screen guides updated](https://twitter.com/amanhimself/status/1575589181237043200)\n* 🎨 [Native iOS bottom sheet demo - iOS detents](https://twitter.com/FernandoTheRojo/status/1575247583634935808)\n* 🎨 [React-Native WishList demo - alpha soon](https://twitter.com/margelo_io/status/1576887456024043520)\n* 🎨 [Experimental support for debugging Reanimated’s worklet runtime (Hermes) in Flipper](https://twitter.com/swmansion/status/1577308811890610176)",
+      "sourceMdx": "- 📒 [BAM Mobile Tech Radar 2022](https://www.bam.tech/en-tech-radar): a complete report on mobile development in 2022, with a big part on React-Native\n- 🔗 [fabric-library-with-custom-cpp-example](https://github.com/callstack/fabric-library-with-custom-cpp-example/)\n- 📦 React-Native [v0.70.2](https://twitter.com/Kelset/status/1577262972396744704) + [v0.69.6](https://twitter.com/titozzz/status/1574744371865346049)\n- 📦 [Jest-Native 5.0](https://github.com/testing-library/jest-native/releases): native TypeScript support\n- 🎥 [React-Native EU playlist](https://www.youtube.com/watch?v=7QeINTWLUkc&list=PLZ3MwD-soTTE-qcA0MrcvZBdmkHJSIjJX): videos are splitted are online\n- 🎥 [Arc Slider with React-Native Skia, React-Native Gesture Handler and Reanimated 2](https://www.youtube.com/watch?v=fWLyKzEXaJI)\n- 📜 [How to specify pre-processor flags to the JSI-based React Native libraries](https://dev.to/craftzdog/how-to-specify-pre-processor-flags-to-the-jsi-based-react-native-libraries-51m5)\n- 📖 [Expo Router](https://expo.github.io/router/): the doc is available to familiarize yourself with this new file-system router\n- 📖 [Expo App Icons and Splash Screen guides updated](https://twitter.com/amanhimself/status/1575589181237043200)\n- 🎨 [Native iOS bottom sheet demo - iOS detents](https://twitter.com/FernandoTheRojo/status/1575247583634935808)\n- 🎨 [React-Native WishList demo - alpha soon](https://twitter.com/margelo_io/status/1576887456024043520)\n- 🎨 [Experimental support for debugging Reanimated’s worklet runtime (Hermes) in Flipper](https://twitter.com/swmansion/status/1577308811890610176)"
+    },
+    {
+      "id": "0bee36ce",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "b9b8694c",
+      "translatable": true,
+      "content": "## 🧑‍💻 Jobs",
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+    },
+    {
+      "id": "b6152880",
+      "translatable": true,
+      "content": "🧑‍💼 [**Product Engineer at Causal, Remote/London/NY, $150-250k**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied\\&lever-source%5B%5D=thisweekinreact.com)",
+      "sourceMdx": "🧑‍💼 [**Product Engineer at Causal, Remote/London/NY, $150-250k**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied&lever-source%5B%5D=thisweekinreact.com)"
+    },
+    {
+      "id": "b9331170",
+      "translatable": true,
+      "content": "Causal is a Series A Startup (backed by Coatue/Accel) building an all-in-one tool for working with numbers and visualizing data. We're looking for strong React engineers who can solve difficult UX/performance challenges.",
+      "sourceMdx": "Causal is a Series A Startup (backed by Coatue/Accel) building an all-in-one tool for working with numbers and visualizing data. We're looking for strong React engineers who can solve difficult UX/performance challenges."
+    },
+    {
+      "id": "8fcdd6d4",
+      "translatable": true,
+      "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+    },
+    {
+      "id": "53aa2b95",
+      "translatable": true,
+      "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+    },
+    {
+      "id": "9c9e2b64",
+      "translatable": true,
+      "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+    },
+    {
+      "id": "dc45ba24",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "a461a67b",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "1fe5236e",
+      "translatable": true,
+      "content": "* [Ten Years of TypeScript](https://devblogs.microsoft.com/typescript/ten-years-of-typescript)\n* [TotalTypeScript - Beginner's TypeScript](https://www.totaltypescript.com/tutorials/beginners-typescript)\n* [Why I don't use Prettier](https://antfu.me/posts/why-not-prettier)\n* [Gifs without the .gif - The most performant image and video options](https://css-tricks.com/gifs-without-the-gif-the-most-performant-image-and-video-options-right-now/)\n* [Use cases for CSS comparison functions](https://ishadeed.com/article/use-cases-css-comparison-functions/)\n* [Node.js 18 - `node --watch`](https://github.com/nodejs/node/pull/44366)\n* [Node.js 19 RC.0](https://twitter.com/ruyadorno/status/1575628377372823552)\n* [Astro 1.4](https://astro.build/blog/astro-140/)\n* [Deno 1.26](https://deno.com/blog/v1.26)\n* [Rome 0.10](https://twitter.com/rometools/status/1577296196502278150)\n* [State of CSS 2022 - Survey open](https://stateofcss.com/en-us/)\n* [State of GraphQL 2022 - Results](https://2022.stateofgraphql.com/en-US/)\n* [Progressively enhance for a more resilient web](https://jjenzz.com/progressively-enhance-for-a-more-resilient-web)\n* [New in Chrome 106](https://developer.chrome.com/blog/new-in-chrome-106/)\n* [New to the web platform in September](https://web.dev/web-platform-09-2022/)\n* [Minimize Heap Allocations in Node.js](https://blog.appsignal.com/2022/09/28/minimize-heap-allocations-in-nodejs.html)\n* [Will Serving Real HTML Content Make A Website Faster?](https://blog.webpagetest.org/posts/will-html-content-make-site-faster/)\n* [What’s Stopping WebAssembly from Widespread Adoption?](https://thenewstack.io/whats-stopping-webassembly-from-widespread-adoption/)\n* [Blink - Intent to prototype - CSS Nesting](https://twitter.com/intenttoship/status/1576951638325186565)\n* [Postgres-WASM](https://supabase.com/blog/postgres-wasm)\n* [I turned JS into a compiled language (for fun and Wasm)](https://surma.dev/things/compile-js/)",
+      "sourceMdx": "- [Ten Years of TypeScript](https://devblogs.microsoft.com/typescript/ten-years-of-typescript)\n- [TotalTypeScript - Beginner's TypeScript](https://www.totaltypescript.com/tutorials/beginners-typescript)\n- [Why I don't use Prettier](https://antfu.me/posts/why-not-prettier)\n- [Gifs without the .gif - The most performant image and video options](https://css-tricks.com/gifs-without-the-gif-the-most-performant-image-and-video-options-right-now/)\n- [Use cases for CSS comparison functions](https://ishadeed.com/article/use-cases-css-comparison-functions/)\n- [Node.js 18 - `node --watch`](https://github.com/nodejs/node/pull/44366)\n- [Node.js 19 RC.0](https://twitter.com/ruyadorno/status/1575628377372823552)\n- [Astro 1.4](https://astro.build/blog/astro-140/)\n- [Deno 1.26](https://deno.com/blog/v1.26)\n- [Rome 0.10](https://twitter.com/rometools/status/1577296196502278150)\n- [State of CSS 2022 - Survey open](https://stateofcss.com/en-us/)\n- [State of GraphQL 2022 - Results](https://2022.stateofgraphql.com/en-US/)\n- [Progressively enhance for a more resilient web](https://jjenzz.com/progressively-enhance-for-a-more-resilient-web)\n- [New in Chrome 106](https://developer.chrome.com/blog/new-in-chrome-106/)\n- [New to the web platform in September](https://web.dev/web-platform-09-2022/)\n- [Minimize Heap Allocations in Node.js](https://blog.appsignal.com/2022/09/28/minimize-heap-allocations-in-nodejs.html)\n- [Will Serving Real HTML Content Make A Website Faster?](https://blog.webpagetest.org/posts/will-html-content-make-site-faster/)\n- [What’s Stopping WebAssembly from Widespread Adoption?](https://thenewstack.io/whats-stopping-webassembly-from-widespread-adoption/)\n- [Blink - Intent to prototype - CSS Nesting](https://twitter.com/intenttoship/status/1576951638325186565)\n- [Postgres-WASM](https://supabase.com/blog/postgres-wasm)\n- [I turned JS into a compiled language (for fun and Wasm)](https://surma.dev/things/compile-js/)"
+    },
+    {
+      "id": "d26d4100",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "7312e69e",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "2dbfc5f7",
+      "translatable": true,
+      "content": "[![Theo T3 best clickbait](/emails/issues/118/meme.png)](https://twitter.com/t3dotgg/status/1576467328606253057)",
+      "sourceMdx": "[![Theo T3 best clickbait](/emails/issues/118/meme.png)](https://twitter.com/t3dotgg/status/1576467328606253057)"
+    }
+  ]
+}

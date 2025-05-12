@@ -1,0 +1,305 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/214/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /214\ntitle: \"This Week In React #214: Base UI, Custom Elements, Next.js, React Router, TanStack, i18n, OG, Apollo, Android XR, iOS targets, Nitro, RNTL, Volume Manager, Drag Select, brownfield, Zod, Node, SourceMaps, Bun, State Of JS...\"\nauthors: [slorber]\ndate: 12-18-2024\n---",
+      "sourceMdx": "---\nslug: /214\ntitle: \"This Week In React #214: Base UI, Custom Elements, Next.js, React Router, TanStack, i18n, OG, Apollo, Android XR, iOS targets, Nitro, RNTL, Volume Manager, Drag Select, brownfield, Zod, Node, SourceMaps, Bun, State Of JS...\"\nauthors: [slorber]\ndate: 12-18-2024\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "This week I'm excited about a promising new headless component library, and I've found various interesting articles about Web Components relevant to React developers.",
+      "sourceMdx": "This week I'm excited about a promising new headless component library, and I've found various interesting articles about Web Components relevant to React developers."
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "On the mobile side, Google introduced Android XR and React Native support is already coming!",
+      "sourceMdx": "On the mobile side, Google introduced Android XR and React Native support is already coming!"
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "🎄 We are taking a Christmas break, this is the last newsletter until 8th January.\\\n🧑‍🎄 You've already given me a great gift, we are now 4th most popular JS newsletter according to the recently published [State of JS 2024 survey result](https://2024.stateofjs.com/en-US/resources/).",
+      "sourceMdx": "🎄 We are taking a Christmas break, this is the last newsletter until 8th January.\\\n🧑‍🎄 You've already given me a great gift, we are now 4th most popular JS newsletter according to the recently published [State of JS 2024 survey result](https://2024.stateofjs.com/en-US/resources/)."
+    },
+    {
+      "id": "cc2c29e1",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "2790c0f8",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "1485a88b",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "18e2d98b",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "ed7dde9c",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "a76548f8",
+      "translatable": true,
+      "content": "[![Become a better engineer one newsletter at a time.](/emails/issues/183/posthog.jpg)](https://dub.link/twir-dec18)",
+      "sourceMdx": "[![Become a better engineer one newsletter at a time.](/emails/issues/183/posthog.jpg)](https://dub.link/twir-dec18)"
+    },
+    {
+      "id": "4b1d2d7d",
+      "translatable": true,
+      "content": "**[Become a better engineer one newsletter at a time.](https://dub.link/twir-dec18)**",
+      "sourceMdx": "**[Become a better engineer one newsletter at a time.](https://dub.link/twir-dec18)**"
+    },
+    {
+      "id": "dfe931a2",
+      "translatable": true,
+      "content": "[Product for Engineers](https://dub.link/twir-dec18) is PostHog’s newsletter dedicated to helping engineers improve their product skills.",
+      "sourceMdx": "[Product for Engineers](https://dub.link/twir-dec18) is PostHog’s newsletter dedicated to helping engineers improve their product skills."
+    },
+    {
+      "id": "4daf5cdd",
+      "translatable": true,
+      "content": "With over 30k subscribers, it is a trusted source that bridges the gap between product and engineering, helping you ship products users love.",
+      "sourceMdx": "With over 30k subscribers, it is a trusted source that bridges the gap between product and engineering, helping you ship products users love."
+    },
+    {
+      "id": "bdc231b1",
+      "translatable": true,
+      "content": "It covers topics like how to choose the right technologies, non-obvious behaviors that will kill your startup, and A/B testing mistakes they learned the hard way. It’s totally free and always will be.",
+      "sourceMdx": "It covers topics like how to choose the right technologies, non-obvious behaviors that will kill your startup, and A/B testing mistakes they learned the hard way. It’s totally free and always will be."
+    },
+    {
+      "id": "97ae4a01",
+      "translatable": true,
+      "content": "[**Subscribe for free.**](https://dub.link/twir-dec18)",
+      "sourceMdx": "[**Subscribe for free.**](https://dub.link/twir-dec18)"
+    },
+    {
+      "id": "9438ce36",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "9f9e64f5",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "1042b50d",
+      "translatable": true,
+      "content": "[![Base UI 1.0 alpha](/emails/issues/214/base-ui.jpg)](https://base-ui.com/)",
+      "sourceMdx": "[![Base UI 1.0 alpha](/emails/issues/214/base-ui.jpg)](https://base-ui.com/)"
+    },
+    {
+      "id": "aa1e7006",
+      "translatable": true,
+      "content": "[**Base UI 1.0 alpha**](https://base-ui.com/)",
+      "sourceMdx": "[**Base UI 1.0 alpha**](https://base-ui.com/)"
+    },
+    {
+      "id": "13d9cd70",
+      "translatable": true,
+      "content": "I’m usually not into UI libs. But when Radix, MUI and Floating UI creators gather to create a new set of 25 unstyled, accessible, composable primitive components with great care to details, I think it’s worth paying attention! Radix is super popular these days (notably thanks to shadcn/ui), but has been [less actively maintained](https://github.com/radix-ui/primitives/graphs/contributors) recently, and a new headless lib challenger is always welcome!",
+      "sourceMdx": "I’m usually not into UI libs. But when Radix, MUI and Floating UI creators gather to create a new set of 25 unstyled, accessible, composable primitive components with great care to details, I think it’s worth paying attention\\! Radix is super popular these days (notably thanks to shadcn/ui), but has been [less actively maintained](https://github.com/radix-ui/primitives/graphs/contributors) recently, and a new headless lib challenger is always welcome\\!"
+    },
+    {
+      "id": "67c8996f",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "c504c207",
+      "translatable": true,
+      "content": "**React 19 and Custom Elements**",
+      "sourceMdx": "**React 19 and Custom Elements**"
+    },
+    {
+      "id": "98d26038",
+      "translatable": true,
+      "content": "Various related articles I found interesting:",
+      "sourceMdx": "Various related articles I found interesting:"
+    },
+    {
+      "id": "c94a9c0e",
+      "translatable": true,
+      "content": "* 📜 [React 19 and Web Component Examples](https://frontendmasters.com/blog/react-19-and-web-component-examples/): Chris Coyier testing React 19 custom elements support by creating a Lit element and rendering it though JSX. You can seamlessly pass an object as props, but for event handlers you may need to dispatch a custom event.\n* 📜 [React 19 introduces full support for custom elements](https://aleks-elkin.github.io/posts/2024-12-06-react-19/): Comparing support improvement between React 18 and React 19.\n* 📜 [Sweet Suspense](https://plainvanillaweb.com/blog/articles/2024-09-09-sweet-suspense/): Fun experiment recreating React lazy/Suspense/ErrorBoundary with custom elements.\n* 📜 [Isomorphic Web Components](https://jakelazaroff.com/words/isomorphic-web-components/): Not using React, but a useful overview of server-side rendering support for Web components.",
+      "sourceMdx": "- 📜 [React 19 and Web Component Examples](https://frontendmasters.com/blog/react-19-and-web-component-examples/): Chris Coyier testing React 19 custom elements support by creating a Lit element and rendering it though JSX. You can seamlessly pass an object as props, but for event handlers you may need to dispatch a custom event.\n- 📜 [React 19 introduces full support for custom elements](https://aleks-elkin.github.io/posts/2024-12-06-react-19/): Comparing support improvement between React 18 and React 19\\.\n- 📜 [Sweet Suspense](https://plainvanillaweb.com/blog/articles/2024-09-09-sweet-suspense/): Fun experiment recreating React lazy/Suspense/ErrorBoundary with custom elements.\n- 📜 [Isomorphic Web Components](https://jakelazaroff.com/words/isomorphic-web-components/): Not using React, but a useful overview of server-side rendering support for Web components."
+    },
+    {
+      "id": "b760ab3f",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "24c174ca",
+      "translatable": true,
+      "content": "* 💸 [React Bricks – the Visual CMS for React got more accessible with lower entry price and flexible pay-as-you-go options. Start for free!](https://www.reactbricks.com/?utm_source=twir\\&utm_campaign=ql24)\n* 🐦 [Lee Robinson explains why transitioning between pages when running Next.js locally take time](https://x.com/leeerob/status/1869095675201192335)\n* 👀 [Next.js PR - `unstable_rootParams()`](https://github.com/vercel/next.js/pull/72837): A new convenient experimental API to return path params from all path segments up to the root layout. Looks particularly useful for accessing a i18n `[locale]` param.\n* 👀 [Next.js PR - `experimental.newDevOverlay`](https://github.com/vercel/next.js/pull/73977): A new dev overlay is coming and the feature flag already exists.\n* 👀 [Rsbuild PR - plugin-react-router](https://github.com/web-infra-dev/rsbuild/pull/4186): React Router framework features (Remix) are now implemented as a Vite plugin, but it seems other bundlers could also turn React Router into a framework 😲\n* 🎄 [GitHub Unwrapped 2024](https://githubunwrapped.com/): The Remotion-based project has just been update for 2024.\n* 📜 [How to validate your React i18next application](https://lingual.dev/blog/how-to-validate-your-react-i18next-application/): Present a workflow based on react-i18next to prevent missing, unused, and invalid translation keys. There’s another post for react-intl users.\n* 📜 [Rails + Stimulus + React - The definitive way to integrate](https://blog.codeminer42.com/rails-stimulus-react/): Using Stimulus data attributes to mount a React autocomplete component on a Rails page.\n* 📜 [Build-time Open Graph Images in Remix](https://kettanaito.com/blog/build-time-og-images-in-remix): Explains limits of Satori, and introduces a new remix-og-image Vite plugin that spawns a Chromium instance.\n* 📜 [5 tips to effectively optimize INP in React](https://calendar.perfplanet.com/2024/5-tips-to-effectively-optimize-inp-in-react/): Reduce DOM size, split components, use Suspense, avoid hydration errors, pay attention to useEffect that can be synchronous.\n* 📜 [You might not need a React Form Library](https://www.robinwieruch.de/react-form-validation/): Shows how to validate forms server-side and client-side without a library.\n* 📜 [Introducing TanStack Start](https://frontendmasters.com/blog/introducing-tanstack-start/)\n* 📜 [React Tech Stack for 2025](https://www.robinwieruch.de/react-tech-stack/)\n* 📜 [Sharing Types and Code Between the Server and Client](https://echobind.com/post/sharing-types-and-code-between-the-server-and-client)\n* 📜 [Storybook tags - Organize your components and stories to match the way you work](https://storybook.js.org/blog/storybook-tags/)\n* 📜 [The Mental Model of Server Components](https://saewitz.com/the-mental-model-of-server-components)\n* 📜 [How to Dockerize a React App](https://www.docker.com/blog/how-to-dockerize-react-app/)\n* 📦 [Inertia 2.0 - Redefining Frontend Development for Laravel](https://blog.laravel.com/announcing-inertia-20-redefining-frontend-development-for-laravel): New major version of this tool that seamlessly integrates React into PHP backends. New features: async requests, deferred props, prefetching, polling.\n* 📦 [Apollo Client 3.12 - GraphQL fragment data masking](https://www.apollographql.com/blog/more-resilient-code-with-data-masking-in-apollo-client-3-12): Similar to Relay, Apollo Client improves in colocation, encapsulation, and performance. A component will only receive the fields it needs, and nothing more.\n* 📦 [Virtua 0.39 - Zero-config, fast and small virtual list - React 19 support](https://github.com/inokawa/virtua)\n* 📦 [Material UI EoY update - MUI v5/6 are compatible with React 19](https://mui.com/blog/material-ui-2024-updates/)\n* 📦 [Roadmap UI - Composable components for building interactive roadmaps - Gantt, Kanban, Calendar, List, Table](https://www.roadmap-ui.com/)\n* 🎥 [Justin Poli - What happens when you break the rules of React?](https://www.youtube.com/watch?v=NsFD-1HkJNU): Mobx-State-Tree maintainer explains plan to make the reactive library compatible with the React Compiler.\n* 🎥 [Wawa Sensei - My Journey Coding a VR/AR Rhythm Game with Three.js & React Three Fiber](https://www.youtube.com/watch?v=jBh4ftHqC5U)\n* 🎥 [Theo - Astro stole my favorite parts of Next (and I'm hyped)](https://www.youtube.com/watch?v=3xqa0SsRbdM)\n* 🎥 [Shruti Kapoor - React 19: The Features You Actually Want](https://www.youtube.com/watch?v=Hek-Ux9jha8)",
+      "sourceMdx": "- 💸 [React Bricks – the Visual CMS for React got more accessible with lower entry price and flexible pay-as-you-go options. Start for free!](https://www.reactbricks.com/?utm_source=twir&utm_campaign=ql24)\n- 🐦 [Lee Robinson explains why transitioning between pages when running Next.js locally take time](https://x.com/leeerob/status/1869095675201192335)\n- 👀 [Next.js PR \\- `unstable_rootParams()`](https://github.com/vercel/next.js/pull/72837): A new convenient experimental API to return path params from all path segments up to the root layout. Looks particularly useful for accessing a i18n `[locale]` param.\n- 👀 [Next.js PR \\- `experimental.newDevOverlay`](https://github.com/vercel/next.js/pull/73977): A new dev overlay is coming and the feature flag already exists.\n- 👀 [Rsbuild PR \\- plugin-react-router](https://github.com/web-infra-dev/rsbuild/pull/4186): React Router framework features (Remix) are now implemented as a Vite plugin, but it seems other bundlers could also turn React Router into a framework 😲\n- 🎄 [GitHub Unwrapped 2024](https://githubunwrapped.com/): The Remotion-based project has just been update for 2024.\n- 📜 [How to validate your React i18next application](https://lingual.dev/blog/how-to-validate-your-react-i18next-application/): Present a workflow based on react-i18next to prevent missing, unused, and invalid translation keys. There’s another post for react-intl users.\n- 📜 [Rails \\+ Stimulus \\+ React \\- The definitive way to integrate](https://blog.codeminer42.com/rails-stimulus-react/): Using Stimulus data attributes to mount a React autocomplete component on a Rails page.\n- 📜 [Build-time Open Graph Images in Remix](https://kettanaito.com/blog/build-time-og-images-in-remix): Explains limits of Satori, and introduces a new remix-og-image Vite plugin that spawns a Chromium instance.\n- 📜 [5 tips to effectively optimize INP in React](https://calendar.perfplanet.com/2024/5-tips-to-effectively-optimize-inp-in-react/): Reduce DOM size, split components, use Suspense, avoid hydration errors, pay attention to useEffect that can be synchronous.\n- 📜 [You might not need a React Form Library](https://www.robinwieruch.de/react-form-validation/): Shows how to validate forms server-side and client-side without a library.\n- 📜 [Introducing TanStack Start](https://frontendmasters.com/blog/introducing-tanstack-start/)\n- 📜 [React Tech Stack for 2025](https://www.robinwieruch.de/react-tech-stack/)\n- 📜 [Sharing Types and Code Between the Server and Client](https://echobind.com/post/sharing-types-and-code-between-the-server-and-client)\n- 📜 [Storybook tags \\- Organize your components and stories to match the way you work](https://storybook.js.org/blog/storybook-tags/)\n- 📜 [The Mental Model of Server Components](https://saewitz.com/the-mental-model-of-server-components)\n- 📜 [How to Dockerize a React App](https://www.docker.com/blog/how-to-dockerize-react-app/)\n- 📦 [Inertia 2.0 \\- Redefining Frontend Development for Laravel](https://blog.laravel.com/announcing-inertia-20-redefining-frontend-development-for-laravel): New major version of this tool that seamlessly integrates React into PHP backends. New features: async requests, deferred props, prefetching, polling.\n- 📦 [Apollo Client 3.12 \\- GraphQL fragment data masking](https://www.apollographql.com/blog/more-resilient-code-with-data-masking-in-apollo-client-3-12): Similar to Relay, Apollo Client improves in colocation, encapsulation, and performance. A component will only receive the fields it needs, and nothing more.\n- 📦 [Virtua 0.39 \\- Zero-config, fast and small virtual list \\- React 19 support](https://github.com/inokawa/virtua)\n- 📦 [Material UI EoY update - MUI v5/6 are compatible with React 19](https://mui.com/blog/material-ui-2024-updates/)\n- 📦 [Roadmap UI \\- Composable components for building interactive roadmaps \\- Gantt, Kanban, Calendar, List, Table](https://www.roadmap-ui.com/)\n- 🎥 [Justin Poli \\- What happens when you break the rules of React?](https://www.youtube.com/watch?v=NsFD-1HkJNU): Mobx-State-Tree maintainer explains plan to make the reactive library compatible with the React Compiler.\n- 🎥 [Wawa Sensei \\- My Journey Coding a VR/AR Rhythm Game with Three.js & React Three Fiber](https://www.youtube.com/watch?v=jBh4ftHqC5U)\n- 🎥 [Theo \\- Astro stole my favorite parts of Next (and I'm hyped)](https://www.youtube.com/watch?v=3xqa0SsRbdM)\n- 🎥 [Shruti Kapoor \\- React 19: The Features You Actually Want](https://www.youtube.com/watch?v=Hek-Ux9jha8)"
+    },
+    {
+      "id": "897e0025",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed placement=\"middle\" />",
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+    },
+    {
+      "id": "c9716ede",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "39db08de",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "785750ac",
+      "translatable": true,
+      "content": "[![Interactive Chat Made Easy with Stream’s React SDK.](/emails/issues/214/stream.jpg)](https://getstream.io/chat/react-chat/tutorial/?utm_source=newsletter\\&utm_medium=referral\\&utm_content=\\&utm_campaign=thisweekinreact)",
+      "sourceMdx": "[![Interactive Chat Made Easy with Stream’s React SDK.](/emails/issues/214/stream.jpg)](https://getstream.io/chat/react-chat/tutorial/?utm_source=newsletter&utm_medium=referral&utm_content=&utm_campaign=thisweekinreact)"
+    },
+    {
+      "id": "82e90254",
+      "translatable": true,
+      "content": "**[Interactive Chat Made Easy with Stream’s React SDK.](https://getstream.io/chat/react-chat/tutorial/?utm_source=newsletter\\&utm_medium=referral\\&utm_content=\\&utm_campaign=thisweekinreact)**",
+      "sourceMdx": "**[Interactive Chat Made Easy with Stream’s React SDK.](https://getstream.io/chat/react-chat/tutorial/?utm_source=newsletter&utm_medium=referral&utm_content=&utm_campaign=thisweekinreact)**"
+    },
+    {
+      "id": "2822251a",
+      "translatable": true,
+      "content": "**🔧 By Developers, for Developers:**",
+      "sourceMdx": "**🔧 By Developers, for Developers:**"
+    },
+    {
+      "id": "9f974d3d",
+      "translatable": true,
+      "content": "* Fully customizable UI components and hooks.\n* Comprehensive documentation and quickstart templates for rapid integration.",
+      "sourceMdx": "- Fully customizable UI components and hooks.\n- Comprehensive documentation and quickstart templates for rapid integration."
+    },
+    {
+      "id": "a2c0166e",
+      "translatable": true,
+      "content": "**⚡ Blazing-Fast Performance:**",
+      "sourceMdx": "**⚡ Blazing-Fast Performance:**"
+    },
+    {
+      "id": "cd1d0fe2",
+      "translatable": true,
+      "content": "* Sub-50ms message delivery.\n* Scalable for millions of users with a reliable infrastructure.",
+      "sourceMdx": "- Sub-50ms message delivery.\n- Scalable for millions of users with a reliable infrastructure."
+    },
+    {
+      "id": "0e80209e",
+      "translatable": true,
+      "content": "**✨ Out-of-the-Box Features:**",
+      "sourceMdx": "**✨ Out-of-the-Box Features:**"
+    },
+    {
+      "id": "38417f80",
+      "translatable": true,
+      "content": "* Typing indicators, reactions, and threads.\n* Rich media support, including file and image sharing.",
+      "sourceMdx": "- Typing indicators, reactions, and threads.\n- Rich media support, including file and image sharing."
+    },
+    {
+      "id": "3c19e221",
+      "translatable": true,
+      "content": "🚀 Build Fast. Scale Effortlessly. [Get Started With Stream](https://getstream.io/try-for-free/?utm_source=newsletter\\&utm_medium=referral\\&utm_content=\\&utm_campaign=thisweekinreact).",
+      "sourceMdx": "🚀 Build Fast. Scale Effortlessly. [Get Started With Stream](https://getstream.io/try-for-free/?utm_source=newsletter&utm_medium=referral&utm_content=&utm_campaign=thisweekinreact)."
+    },
+    {
+      "id": "55c9cb00",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "f8614e13",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "2a1e835c",
+      "translatable": true,
+      "content": "* 💸 [Demos - 90+ React Native animations crafted with Reanimated, Gesture Handler, and Skia, by Reactiive](https://reactiive.io/demos?utm_source=thisweekinreact)\n* 📊 [State of React Native 2024 - Survey open, answer it!](https://survey.stateofreactnative.com/)\n* 🐦 [Evan Bacon’s `npx create-target demo`](https://x.com/Baconbrix/status/1868672438898455023): New CLI to create iOS targets (widgets, share extensions) that live alongside your Expo app and can communicate with it through shared storage.\n* 🧵 [Infinite Red - Top 2024 React Native posts](https://x.com/infinite_red/status/1869104889777020951)\n* 📣 [Android XR SDK Developer Preview](https://developers.googleblog.com/en/introducing-android-xr-sdk-developer-preview/): Google announced a new Android platform for extended reality headsets. As you can expect from Oskar, React Native support is coming ([demo](https://x.com/o_kwasniewski/status/1868645896239690009))\n* 📣 [Expo - Upcoming Apple push notification service certificate change](https://expo.dev/blog/upcoming-apple-push-notification-service-certificate-change): Expo Push Service users do not have to do anything.\n* 📜 [Add React Native to the Signal open source app](https://blog.swmansion.com/add-react-native-to-the-signal-open-source-app-part-2-android-803c1b726582): 2-part series (iOS + Android) shows how to integrate brownfield RN into an existing app.\n* 📜 [How to Upgrade React Native in a Brownfield Application](https://www.callstack.com/blog/how-to-upgrade-react-native-in-a-brownfield-application)\n* 📜 [How we promote social sharing on Marathon with Expo](https://expo.dev/blog/how-we-promote-social-sharing-on-marathon-with-expo)\n* 📜 [Building Seamless Navigation in Expo Router: Tabs, Modals, and Stacks](https://medium.com/@coby09/building-seamless-navigation-in-expo-router-tabs-modals-and-stacks-2df1a5522321)\n* 📦 [React Native Image Playground](https://github.com/Ucekay/react-native-image-playground): To integrate the brand new iOS 18.2+ Apple Intelligence Image Playground into your app, and generate AI images.\n* 📦 [Nitro 0.19 - Swift errors, bi-directional Promises, type-erasure](https://github.com/mrousavy/nitro/releases/tag/v0.19.0)\n* 📦 [Nitro Palette 1.0 - Fast color palette extraction from images](https://github.com/Ucekay/nitro-palette/releases/tag/v1.0.0)\n* 📦 [React Native Volume Manager 2.0 - New Architecture, 0.76+, iOS 15+, Expo 52+](https://github.com/hirbod/react-native-volume-manager/releases/tag/v2.0.1)\n* 📦 [Drag Select 0.1 - Utility for creating a pan gesture that auto-selects items in a list](https://github.com/osamaqarem/drag-select)\n* 📦 [React Native Testing Library 13.0 RC - Enables concurrent rendering by default, automatically extends Jest matchers](https://github.com/callstack/react-native-testing-library/releases/tag/v13.0.0-rc.0)\n* 🎥 [Dan’s Lab - Basic 3D Graphics with Linear Algebra and React-Native Skia](https://www.youtube.com/watch?v=uZBGcbKFhXE)\n* 🎥 [Expo - Universal Full-Stack Expo Stripe Payment Integration](https://www.youtube.com/watch?v=J0tyxUV_omY)\n* 🎙️ [Rocket Ship 56 - Bluesky's React Native App & AT Protocol with Samuel Newman](https://share.transistor.fm/s/2134db4c)\n* 🎙️ [React Universe On Air - React Native FastIO: Nitro-Powered Performance Boost](https://www.youtube.com/watch?v=u4PBBLujv7I)",
+      "sourceMdx": "- 💸 [Demos \\- 90+ React Native animations crafted with Reanimated, Gesture Handler, and Skia, by Reactiive](https://reactiive.io/demos?utm_source=thisweekinreact)\n- 📊 [State of React Native 2024 \\- Survey open, answer it\\!](https://survey.stateofreactnative.com/)\n- 🐦 [Evan Bacon’s `npx create-target demo`](https://x.com/Baconbrix/status/1868672438898455023): New CLI to create iOS targets (widgets, share extensions) that live alongside your Expo app and can communicate with it through shared storage.\n- 🧵 [Infinite Red \\- Top 2024 React Native posts](https://x.com/infinite_red/status/1869104889777020951)\n- 📣 [Android XR SDK Developer Preview](https://developers.googleblog.com/en/introducing-android-xr-sdk-developer-preview/): Google announced a new Android platform for extended reality headsets. As you can expect from Oskar, React Native support is coming ([demo](https://x.com/o_kwasniewski/status/1868645896239690009))\n- 📣 [Expo \\- Upcoming Apple push notification service certificate change](https://expo.dev/blog/upcoming-apple-push-notification-service-certificate-change): Expo Push Service users do not have to do anything.\n- 📜 [Add React Native to the Signal open source app](https://blog.swmansion.com/add-react-native-to-the-signal-open-source-app-part-2-android-803c1b726582): 2-part series (iOS \\+ Android) shows how to integrate brownfield RN into an existing app.\n- 📜 [How to Upgrade React Native in a Brownfield Application](https://www.callstack.com/blog/how-to-upgrade-react-native-in-a-brownfield-application)\n- 📜 [How we promote social sharing on Marathon with Expo](https://expo.dev/blog/how-we-promote-social-sharing-on-marathon-with-expo)\n- 📜 [Building Seamless Navigation in Expo Router: Tabs, Modals, and Stacks](https://medium.com/@coby09/building-seamless-navigation-in-expo-router-tabs-modals-and-stacks-2df1a5522321)\n- 📦 [React Native Image Playground](https://github.com/Ucekay/react-native-image-playground): To integrate the brand new iOS 18.2+ Apple Intelligence Image Playground into your app, and generate AI images.\n- 📦 [Nitro 0.19 \\- Swift errors, bi-directional Promises, type-erasure](https://github.com/mrousavy/nitro/releases/tag/v0.19.0)\n- 📦 [Nitro Palette 1.0 \\- Fast color palette extraction from images](https://github.com/Ucekay/nitro-palette/releases/tag/v1.0.0)\n- 📦 [React Native Volume Manager 2.0 \\- New Architecture, 0.76+, iOS 15+, Expo 52+](https://github.com/hirbod/react-native-volume-manager/releases/tag/v2.0.1)\n- 📦 [Drag Select 0.1 \\- Utility for creating a pan gesture that auto-selects items in a list](https://github.com/osamaqarem/drag-select)\n- 📦 [React Native Testing Library 13.0 RC \\- Enables concurrent rendering by default, automatically extends Jest matchers](https://github.com/callstack/react-native-testing-library/releases/tag/v13.0.0-rc.0)\n- 🎥 [Dan’s Lab \\- Basic 3D Graphics with Linear Algebra and React-Native Skia](https://www.youtube.com/watch?v=uZBGcbKFhXE)\n- 🎥 [Expo \\- Universal Full-Stack Expo Stripe Payment Integration](https://www.youtube.com/watch?v=J0tyxUV_omY)\n- 🎙️ [Rocket Ship 56 \\- Bluesky's React Native App & AT Protocol with Samuel Newman](https://share.transistor.fm/s/2134db4c)\n- 🎙️ [React Universe On Air \\- React Native FastIO: Nitro-Powered Performance Boost](https://www.youtube.com/watch?v=u4PBBLujv7I)"
+    },
+    {
+      "id": "51e8baf4",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "734d40d8",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "6892c8d2",
+      "translatable": true,
+      "content": "* 📣 [Ecma 426 - Source map format specification](https://ecma-international.org/publications-and-standards/standards/ecma-426/): Believe it or not, it was not standardized yet.\n* 📊 [State of JavaScript 2024](https://2024.stateofjs.com/en-US)\n* 📊 [State of Node.js Performance 2024](https://nodesource.com/blog/State-of-Nodejs-Performance-2024)\n* 📦 [Zod 3.24 - First version to implement the standard-schema specification](https://github.com/colinhacks/zod/releases/tag/v3.24.0)\n* 📦 [Node 23.4 - unflag `node:sqlite` module,`--trace-env`, `assert.partialDeepStrictEqual`](https://nodejs.org/en/blog/release/v23.4.0)\n* 📜 [Bun's new text-based lockfile](https://bun.sh/blog/bun-lock-text-lockfile)",
+      "sourceMdx": "- 📣 [Ecma 426 \\- Source map format specification](https://ecma-international.org/publications-and-standards/standards/ecma-426/): Believe it or not, it was not standardized yet.\n- 📊 [State of JavaScript 2024](https://2024.stateofjs.com/en-US)\n- 📊 [State of Node.js Performance 2024](https://nodesource.com/blog/State-of-Nodejs-Performance-2024)\n- 📦 [Zod 3.24 \\- First version to implement the standard-schema specification](https://github.com/colinhacks/zod/releases/tag/v3.24.0)\n- 📦 [Node 23.4 \\- unflag `node:sqlite` module,`--trace-env`, `assert.partialDeepStrictEqual`](https://nodejs.org/en/blog/release/v23.4.0)\n- 📜 [Bun's new text-based lockfile](https://bun.sh/blog/bun-lock-text-lockfile)"
+    },
+    {
+      "id": "74a488b8",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "b77e7669",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "619c3209",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/214/meme.jpg)](https://x.com/jordwalke/status/1868092255879540957)",
+      "sourceMdx": "[![alt](/emails/issues/214/meme.jpg)](https://x.com/jordwalke/status/1868092255879540957)"
+    },
+    {
+      "id": "44285072",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/214/meme2.jpg)](https://x.com/wesbos/status/1869032343526322378)",
+      "sourceMdx": "[![alt](/emails/issues/214/meme2.jpg)](https://x.com/wesbos/status/1869032343526322378)"
+    },
+    {
+      "id": "a8f09c71",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/178/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /178\ntitle: \"This Week In React #178: Remix and Vite, Type-safe Children, Astro DB, React Compiler, Firebolt, Vitest, Composition, Remix Nitro, RSC in React Native, TenTap, Expo Atlas, TypeScript, Elysia...\"\nauthors: [slorber, bndkt]\ndate: 03-20-2024\n---",
+      "sourceMdx": "---\nslug: /178\ntitle: \"This Week In React #178: Remix and Vite, Type-safe Children, Astro DB, React Compiler, Firebolt, Vitest, Composition, Remix Nitro, RSC in React Native, TenTap, Expo Atlas, TypeScript, Elysia...\"\nauthors: [slorber, bndkt]\ndate: 03-20-2024\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "This week is different and important for me. I took a little newsletter break, and instead of having no issue (as I did before), this time it's [Benedikt](https://twitter.com/bndkt) writing the whole newsletter. Back to you Benedikt!",
+      "sourceMdx": "This week is different and important for me. I took a little newsletter break, and instead of having no issue (as I did before), this time it's [Benedikt](https://twitter.com/bndkt) writing the whole newsletter. Back to you Benedikt!"
+    },
+    {
+      "id": "8c96d250",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "This last week has not seen a lot of releases, maybe everyone is already saving up their announcements for the upcoming conference season. Astro published more details about their new database and also released a developer portal, which starts out as a theme marketplace but will cover integrations in the future as well. Remix is now Vite-first and Vercel published a new AI chatbot template. After a lot of news about React Server Components in the React section, this week we see some news about RSC in the React Native section.",
+      "sourceMdx": "This last week has not seen a lot of releases, maybe everyone is already saving up their announcements for the upcoming conference season. Astro published more details about their new database and also released a developer portal, which starts out as a theme marketplace but will cover integrations in the future as well. Remix is now Vite-first and Vercel published a new AI chatbot template. After a lot of news about React Server Components in the React section, this week we see some news about RSC in the React Native section."
+    },
+    {
+      "id": "6429a3aa",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "39b3772c",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "507b4652",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "fcd52337",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "42e34e45",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "caf67047",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "3c36424c",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "26524352",
+      "translatable": true,
+      "content": "[![Headless CMS with Inline Visual editing for Next.js](/emails/issues/169/reactbricks.jpg)](https://reactbricks.com?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email)",
+      "sourceMdx": "[![Headless CMS with Inline Visual editing for Next.js](/emails/issues/169/reactbricks.jpg)](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)"
+    },
+    {
+      "id": "73ab96a3",
+      "translatable": true,
+      "content": "**[Headless CMS with Inline Visual editing for Next.js](https://reactbricks.com?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email)**",
+      "sourceMdx": "**[Headless CMS with Inline Visual editing for Next.js](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)**"
+    },
+    {
+      "id": "7499a4e7",
+      "translatable": true,
+      "content": "[**Set up a project in just 1 minute**](https://reactbricks.com/sign-up?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email) with the CLI and define your own Visual blocks as React components to convey your pixel-perfect corporate brand, using any CSS framework. Try the new Next.js starter with Server Components!",
+      "sourceMdx": "[**Set up a project in just 1 minute**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email) with the CLI and define your own Visual blocks as React components to convey your pixel-perfect corporate brand, using any CSS framework. Try the new Next.js starter with Server Components!"
+    },
+    {
+      "id": "517051a7",
+      "translatable": true,
+      "content": "Content editors can easily use content blocks to compose pages visually, just like using a word processor, without compromising the design.",
+      "sourceMdx": "Content editors can easily use content blocks to compose pages visually, just like using a word processor, without compromising the design."
+    },
+    {
+      "id": "135468ee",
+      "translatable": true,
+      "content": "React Bricks is enterprise-ready with Digital Assets Management, Advanced SEO, Real-time Collaboration, Scheduled Publishing, Multilanguage, integration with external APIs, Approval Workflow, Multiple environments, Change history and more.",
+      "sourceMdx": "React Bricks is enterprise-ready with Digital Assets Management, Advanced SEO, Real-time Collaboration, Scheduled Publishing, Multilanguage, integration with external APIs, Approval Workflow, Multiple environments, Change history and more."
+    },
+    {
+      "id": "33331f27",
+      "translatable": true,
+      "content": "Trusted by corporate clients such as The Weather Channel, Deel.com, La Banque Postale, leading eCommerce sites and over 9,000 users worldwide.\n[**Get started today!**](https://reactbricks.com/sign-up?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email)",
+      "sourceMdx": "Trusted by corporate clients such as The Weather Channel, Deel.com, La Banque Postale, leading eCommerce sites and over 9,000 users worldwide.\n[**Get started today!**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)"
+    },
+    {
+      "id": "76a8033c",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "35a77014",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "13d9cd70",
+      "translatable": true,
+      "content": "[![Remix Vite-first](/emails/issues/178/remix_heart_vite.jpg)](https://twitter.com/markdalgleish/status/1770224011831890036)",
+      "sourceMdx": "[![Remix Vite-first](/emails/issues/178/remix_heart_vite.jpg)](https://twitter.com/markdalgleish/status/1770224011831890036)"
+    },
+    {
+      "id": "29528c8d",
+      "translatable": true,
+      "content": "🐦 [**Remix is now Vite-first**](https://twitter.com/markdalgleish/status/1770224011831890036)",
+      "sourceMdx": "🐦 [**Remix is now Vite-first**](https://twitter.com/markdalgleish/status/1770224011831890036)"
+    },
+    {
+      "id": "c504c207",
+      "translatable": true,
+      "content": "After a relatively short period of transition where Remix introduced a Vite-integration marked as unstable, this has now been marked stable and immediately became the new default. I personally really enjoyed seeing this quick transition and think Remix plus Vite is a strong combination, and having Vite be the development environment and compiler for Remix allows the Remix team to decrease their surface area and concentrate on core framework capabilities, which is a good thing! A newly created Remix project now only has a Vite config file referencing a Remix plugin, which I think is a beautiful instance of simplification!",
+      "sourceMdx": "After a relatively short period of transition where Remix introduced a Vite-integration marked as unstable, this has now been marked stable and immediately became the new default. I personally really enjoyed seeing this quick transition and think Remix plus Vite is a strong combination, and having Vite be the development environment and compiler for Remix allows the Remix team to decrease their surface area and concentrate on core framework capabilities, which is a good thing! A newly created Remix project now only has a Vite config file referencing a Remix plugin, which I think is a beautiful instance of simplification!"
+    },
+    {
+      "id": "310e47b7",
+      "translatable": true,
+      "content": "* 💸 [Document Generation with Apryse - Transforming Templates into Tailored Documents with React](https://apryse.com/blog/docx-generation-from-templates-react?utm_source=email\\&utm_medium=newsletter\\&utm_campaign=thisweekinreact4)\n* 📜 [Astro DB: A Deep Dive](https://astro.build/blog/astro-db-deep-dive/): Astro partnered with Turso to integrate libSQL. Also interesting to read why they thought about and ultimately didn’t choose Cloudflare’s D1.\n* 📜 [The Astro Developer Portal](https://astro.build/blog/dev-portal/): An official theme marketplace for Astro.\n* 📜 [How Next.js breaks React Fundamentals](https://ondrejvelisek.github.io/how-nextjs-breaks-react-fundamentals/): I don’t agree with the title and the conclusion, but it’s still an interesting exploration of the limitations of RSC (most of them not specific to Next.js).\n* 📜 [Type system of the React compiler](https://www.recompiled.dev/blog/type-system/): This is quite deep and theoretical, but if you want to learn more about the relation of compilers and type inference, it might be interesting to you.\n* 📜 [Two Types of Composition](https://kyleshevlin.com/two-types-of-composition/): I think sometimes it’s good to revisit the fundamentals of what we’re doing as developers every day. Composition is one of React’s basic principles, and this article looks at the basics of nesting composition and merging composition.\n* 📜 [Migrate Next.js app away from \"Vercel + PlanetScale\" to \"Fly.io\"](https://www.crispyscript.com/articles/13)\n* 📜 [Astro Studio - first impression](https://maciekpalmowski.dev/blog/astro-studio-first-impression/)\n* 📜 [You Are Leaking Your Next.js Application Features](https://www.rexforde.com/blog/conditional-render-problem)\n* 📜 [Embracing the Future and Moving Back Again: From Server Actions to tRPC](https://documenso.com/blog/removing-server-actions)\n* 📜 [You Can't Make Children \"Type Safe\" in React & TypeScript](https://www.totaltypescript.com/type-safe-children-in-react-and-typescript)\n* 📜 [How to test React custom hooks and components with Vitest](https://www.thisdot.co/blog/how-to-test-react-custom-hooks-and-components-with-vitest)\n* 📜 [OpenTelemetry in Practice: Instrumenting JavaScript Apps for Tracing](https://marmelab.com/blog/2024/03/14/opentelemetry-in-practice-instrumenting-javascript-apps-for-tracing.html)\n* 🗓 [React Connection - 22 April](https://reactconnection.io/) + [React-Native Connection - 23 April](https://reactnativeconnection.io/) - 🇫🇷 Paris - 2 days of web/mobile conferences. Get a -20% discount with code \"TWIR\".\n* 📦 [Firebolt](https://firebolt.dev/): A new simple React framework that reminds a bit of Remix. See also the [introductory blog post](https://firebolt.dev/blog/introducing-firebolt). RSC support is in progress.\n* 📦 [remix-nitro - An example on how to run Remix with Nitro with HMR using Vite's 5.1 experimental runtime API](https://github.com/alessandrojcm/remix-nitro)\n* 📦 [remix-hono v0.0.16 - now on Hono v4](https://github.com/sergiodxa/remix-hono/releases/tag/v0.0.16)\n* 📦 [Next.js AI Chatbot 2.0 - Now on AI SDK 3.0](https://vercel.com/changelog/next-js-ai-chatbot-2-0)\n* 🎥 [Daniel Kanem - Understanding the Steps of Migrating Your Remix App to Vite.js](https://www.youtube.com/watch?v=CTgQhNFqn5E)\n* 🎥 [Brooks Lybrand - Deploying Remix to GitHub Pages](https://www.youtube.com/watch?v=EO_-KwSslWQ)\n* 🎥 [Theo Browne - Million Lint](https://youtu.be/fcY9TthQnI4?si=bROdHJmIumw24AlO)\n* 🎥 [UI Engineering - Goodbye, forwardRef](https://www.youtube.com/watch?v=m4QbeS9BTNU)\n* 🎥 [Jack Herrington - Pigment-CSS: Material-UI Fixed on NextJS and React 19](https://www.youtube.com/watch?v=fyja_ldjxwA)\n* 🎙️ [Rocket Ship 34 - React Architecture Tips with Charlotte Isambert](https://share.transistor.fm/s/48a4b223)\n* 🎙️ [PodRocket - Partial pre-rendering in Next.js with Delba de Oliveira and Wyatt Johnson](https://podrocket.logrocket.com/partial-pre-rendering-next-js-delba-oliveira-wyatt-johnson)",
+      "sourceMdx": "- 💸 [Document Generation with Apryse - Transforming Templates into Tailored Documents with React](https://apryse.com/blog/docx-generation-from-templates-react?utm_source=email&utm_medium=newsletter&utm_campaign=thisweekinreact4)\n- 📜 [Astro DB: A Deep Dive](https://astro.build/blog/astro-db-deep-dive/): Astro partnered with Turso to integrate libSQL. Also interesting to read why they thought about and ultimately didn’t choose Cloudflare’s D1.\n- 📜 [The Astro Developer Portal](https://astro.build/blog/dev-portal/): An official theme marketplace for Astro.\n- 📜 [How Next.js breaks React Fundamentals](https://ondrejvelisek.github.io/how-nextjs-breaks-react-fundamentals/): I don’t agree with the title and the conclusion, but it’s still an interesting exploration of the limitations of RSC (most of them not specific to Next.js).\n- 📜 [Type system of the React compiler](https://www.recompiled.dev/blog/type-system/): This is quite deep and theoretical, but if you want to learn more about the relation of compilers and type inference, it might be interesting to you.\n- 📜 [Two Types of Composition](https://kyleshevlin.com/two-types-of-composition/): I think sometimes it’s good to revisit the fundamentals of what we’re doing as developers every day. Composition is one of React’s basic principles, and this article looks at the basics of nesting composition and merging composition.\n- 📜 [Migrate Next.js app away from \"Vercel + PlanetScale\" to \"Fly.io\"](https://www.crispyscript.com/articles/13)\n- 📜 [Astro Studio - first impression](https://maciekpalmowski.dev/blog/astro-studio-first-impression/)\n- 📜 [You Are Leaking Your Next.js Application Features](https://www.rexforde.com/blog/conditional-render-problem)\n- 📜 [Embracing the Future and Moving Back Again: From Server Actions to tRPC](https://documenso.com/blog/removing-server-actions)\n- 📜 [You Can't Make Children \"Type Safe\" in React & TypeScript](https://www.totaltypescript.com/type-safe-children-in-react-and-typescript)\n- 📜 [How to test React custom hooks and components with Vitest](https://www.thisdot.co/blog/how-to-test-react-custom-hooks-and-components-with-vitest)\n- 📜 [OpenTelemetry in Practice: Instrumenting JavaScript Apps for Tracing](https://marmelab.com/blog/2024/03/14/opentelemetry-in-practice-instrumenting-javascript-apps-for-tracing.html)\n- 🗓 [React Connection - 22 April](https://reactconnection.io/) + [React-Native Connection - 23 April](https://reactnativeconnection.io/) - 🇫🇷 Paris - 2 days of web/mobile conferences. Get a -20% discount with code \"TWIR\".\n- 📦 [Firebolt](https://firebolt.dev/): A new simple React framework that reminds a bit of Remix. See also the [introductory blog post](https://firebolt.dev/blog/introducing-firebolt). RSC support is in progress.\n- 📦 [remix-nitro - An example on how to run Remix with Nitro with HMR using Vite's 5.1 experimental runtime API](https://github.com/alessandrojcm/remix-nitro)\n- 📦 [remix-hono v0.0.16 - now on Hono v4](https://github.com/sergiodxa/remix-hono/releases/tag/v0.0.16)\n- 📦 [Next.js AI Chatbot 2.0 - Now on AI SDK 3.0](https://vercel.com/changelog/next-js-ai-chatbot-2-0)\n- 🎥 [Daniel Kanem - Understanding the Steps of Migrating Your Remix App to Vite.js](https://www.youtube.com/watch?v=CTgQhNFqn5E)\n- 🎥 [Brooks Lybrand - Deploying Remix to GitHub Pages](https://www.youtube.com/watch?v=EO_-KwSslWQ)\n- 🎥 [Theo Browne - Million Lint](https://youtu.be/fcY9TthQnI4?si=bROdHJmIumw24AlO)\n- 🎥 [UI Engineering - Goodbye, forwardRef](https://www.youtube.com/watch?v=m4QbeS9BTNU)\n- 🎥 [Jack Herrington - Pigment-CSS: Material-UI Fixed on NextJS and React 19](https://www.youtube.com/watch?v=fyja_ldjxwA)\n- 🎙️ [Rocket Ship 34 - React Architecture Tips with Charlotte Isambert](https://share.transistor.fm/s/48a4b223)\n- 🎙️ [PodRocket - Partial pre-rendering in Next.js with Delba de Oliveira and Wyatt Johnson](https://podrocket.logrocket.com/partial-pre-rendering-next-js-delba-oliveira-wyatt-johnson)"
+    },
+    {
+      "id": "5f852894",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed placement=\"middle\" />",
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+    },
+    {
+      "id": "aac83236",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "66819c78",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "fbc2db85",
+      "translatable": true,
+      "content": "[![FormBuilder SDK for React](/emails/issues/171/tripetto.jpg)](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact\\&utm_medium=sponsor\\&utm_campaign=sdk)",
+      "sourceMdx": "[![FormBuilder SDK for React](/emails/issues/171/tripetto.jpg)](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)"
+    },
+    {
+      "id": "8126f763",
+      "translatable": true,
+      "content": "**[FormBuilder SDK for React](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact\\&utm_medium=sponsor\\&utm_campaign=sdk)**",
+      "sourceMdx": "**[FormBuilder SDK for React](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)**"
+    },
+    {
+      "id": "74dd7937",
+      "translatable": true,
+      "content": "A complete form solution for React projects, used by Fortune 500 companies. With easy-to-use open-source components for building and running powerful forms inside your React app. Extensively documented, up in minutes, and deeply customizable.",
+      "sourceMdx": "A complete form solution for React projects, used by Fortune 500 companies. With easy-to-use open-source components for building and running powerful forms inside your React app. Extensively documented, up in minutes, and deeply customizable."
+    },
+    {
+      "id": "49f9f337",
+      "translatable": true,
+      "content": "* Builder for creating powerful forms;\n* Runner for deploying forms and collecting data;\n* Flexible form layouts (conversational, chat etc.) and styling;\n* Extensible with custom question types;\n* Complete docs, examples, and demos;\n* Self-hosted without external dependencies;\n* Start, test, and perfect for free.",
+      "sourceMdx": "- Builder for creating powerful forms;\n- Runner for deploying forms and collecting data;\n- Flexible form layouts (conversational, chat etc.) and styling;\n- Extensible with custom question types;\n- Complete docs, examples, and demos;\n- Self-hosted without external dependencies;\n- Start, test, and perfect for free."
+    },
+    {
+      "id": "2822251a",
+      "translatable": true,
+      "content": "TWIR exclusive: [Get 25% off your FormBuilder SDK license](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact\\&utm_medium=sponsor\\&utm_campaign=sdk).",
+      "sourceMdx": "TWIR exclusive: [Get 25% off your FormBuilder SDK license](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)."
+    },
+    {
+      "id": "fc25fa9c",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "94145a94",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "2838eb68",
+      "translatable": true,
+      "content": "[![React Native RSC](/emails/issues/178/rn_rsc.jpg)](https://github.com/mui/material-ui/tree/master/packages/pigment-css-react)",
+      "sourceMdx": "[![React Native RSC](/emails/issues/178/rn_rsc.jpg)](https://github.com/mui/material-ui/tree/master/packages/pigment-css-react)"
+    },
+    {
+      "id": "4be28ed1",
+      "translatable": true,
+      "content": "🐦 [**Demo of React Server Components on React Native**](https://twitter.com/SzymonRybczak/status/1769747995862384756)",
+      "sourceMdx": "🐦 [**Demo of React Server Components on React Native**](https://twitter.com/SzymonRybczak/status/1769747995862384756)"
+    },
+    {
+      "id": "0e80209e",
+      "translatable": true,
+      "content": "Conference season is coming up, and the announcements get fewer as people are saving the best for the big stages. One of the topics I’m looking most forward to hearing more about at the upcoming conferences is React Server Components on React Native. Now Szymon Rybczak from Callstack has published an interesting demo of RSC running in RN. I’m really curious to learn more about it, and glad that Szymon has announced that he’ll publish a detailed blog post and the code soon.",
+      "sourceMdx": "Conference season is coming up, and the announcements get fewer as people are saving the best for the big stages. One of the topics I’m looking most forward to hearing more about at the upcoming conferences is React Server Components on React Native. Now Szymon Rybczak from Callstack has published an interesting demo of RSC running in RN. I’m really curious to learn more about it, and glad that Szymon has announced that he’ll publish a detailed blog post and the code soon."
+    },
+    {
+      "id": "38417f80",
+      "translatable": true,
+      "content": "* 💸 [React Universe Conf - Last days to submit talk proposals: CFP closes on March 22. Don’t want to speak at RUC? Grab your early bird ticket!](https://www.reactuniverseconf.com/?utm_campaign=React_Universe_Conf\\&utm_source=email\\&utm_content=This_Week_in_React)\n* 📖 [Expo Docs: Migrate from CodePush](https://docs.expo.dev/eas-update/codepush/): Visual Studio App Center is scheduled for retirement on March 31, 2025. Users of CodePush should start thinking about alternatives.\n* 📜 [What is the Expo Router?](https://www.themorrow.digital/blog/what-is-the-expo-router)\n* 📜 [React navigation & state machine - Perfecting app flows](https://www.bam.tech/article/react-navigation-state-machine-perfecting-app-flows): Interesting exploration of how to realize complex flows in React Navigation, using either a state machine or a custom navigator.\n* 📜 [Expo Blog - 12 tips for setting up your next Expo project](https://expo.dev/blog/12-tips-for-setting-up-your-next-expo-project): Some of them quite obvious (use TS), but others like app variants for dev and prod or automatic build versioning are valuable reminders.\n* 📜 [Ship OTA (Over-The-Air) When in an Emergency](https://www.callstack.com/blog/ship-over-the-air-when-in-an-emergency)\n* 📦 [TenTap - typed, customizable, and extendable Rich Text editor for React Native](https://github.com/10play/10tap-editor)\n* 📦 [React Native 0.74.0-rc.4](https://github.com/facebook/react-native/releases/tag/v0.74.0-rc.4)\n* 📦 [expo-atlas - Experimental library to inspect bundle stats from Metro](https://github.com/byCedric/expo-atlas)\n* 📦 [New Expo Dev tools plugin for debugging React Native MMKV](https://www.npmjs.com/package/@dev-plugins/react-native-mmkv)\n* 📦 [First Expo SDK 51 canary releases showing up](https://www.npmjs.com/package/expo/v/51.0.0-canary-20240318-dd8f245)\n* 🎙️ [RNR 291 - RNR Explains: The Dev Menu](https://reactnativeradio.com/episodes/rnr-291-rnr-explains-the-dev-menu)\n* 🎥 [The Best Stack for Universal React Apps](https://www.youtube.com/watch?v=2yvjgwTZOUY)\n* 🎥 [Let’s build a Native Library using Expo Modules](https://www.youtube.com/watch?v=UczTzTBYRhA)\n* 🎥 [How to create an App Icon and Splash Screen for an Expo Project](https://www.youtube.com/watch?v=QSNkU7v0MPc)",
+      "sourceMdx": "- 💸 [React Universe Conf - Last days to submit talk proposals: CFP closes on March 22. Don’t want to speak at RUC? Grab your early bird ticket!](https://www.reactuniverseconf.com/?utm_campaign=React_Universe_Conf&utm_source=email&utm_content=This_Week_in_React)\n- 📖 [Expo Docs: Migrate from CodePush](https://docs.expo.dev/eas-update/codepush/): Visual Studio App Center is scheduled for retirement on March 31, 2025. Users of CodePush should start thinking about alternatives.\n- 📜 [What is the Expo Router?](https://www.themorrow.digital/blog/what-is-the-expo-router)\n- 📜 [React navigation & state machine - Perfecting app flows](https://www.bam.tech/article/react-navigation-state-machine-perfecting-app-flows): Interesting exploration of how to realize complex flows in React Navigation, using either a state machine or a custom navigator.\n- 📜 [Expo Blog - 12 tips for setting up your next Expo project](https://expo.dev/blog/12-tips-for-setting-up-your-next-expo-project): Some of them quite obvious (use TS), but others like app variants for dev and prod or automatic build versioning are valuable reminders.\n- 📜 [Ship OTA (Over-The-Air) When in an Emergency](https://www.callstack.com/blog/ship-over-the-air-when-in-an-emergency)\n- 📦 [TenTap - typed, customizable, and extendable Rich Text editor for React Native](https://github.com/10play/10tap-editor)\n- 📦 [React Native 0.74.0-rc.4](https://github.com/facebook/react-native/releases/tag/v0.74.0-rc.4)\n- 📦 [expo-atlas - Experimental library to inspect bundle stats from Metro](https://github.com/byCedric/expo-atlas)\n- 📦 [New Expo Dev tools plugin for debugging React Native MMKV](https://www.npmjs.com/package/@dev-plugins/react-native-mmkv)\n- 📦 [First Expo SDK 51 canary releases showing up](https://www.npmjs.com/package/expo/v/51.0.0-canary-20240318-dd8f245)\n- 🎙️ [RNR 291 - RNR Explains: The Dev Menu](https://reactnativeradio.com/episodes/rnr-291-rnr-explains-the-dev-menu)\n- 🎥 [The Best Stack for Universal React Apps](https://www.youtube.com/watch?v=2yvjgwTZOUY)\n- 🎥 [Let’s build a Native Library using Expo Modules](https://www.youtube.com/watch?v=UczTzTBYRhA)\n- 🎥 [How to create an App Icon and Splash Screen for an Expo Project](https://www.youtube.com/watch?v=QSNkU7v0MPc)"
+    },
+    {
+      "id": "18fa676c",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "2bb63d77",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "a8198b43",
+      "translatable": true,
+      "content": "* 👀 [TypeScript 5.5 PR merged - Infer type predicates from function bodies using control flow analysis](https://github.com/microsoft/TypeScript/pull/57465)\n* 📜 [Improved Cloudflare Workers testing via Vitest and workerd](https://blog.cloudflare.com/workers-vitest-integration/)\n* 📜 [Build a Node App with TypeScript](https://www.totaltypescript.com/typescript-and-node)\n* 📜 [Type Predicate Inference: The TS 5.5 Feature No One Expected](https://www.totaltypescript.com/type-predicate-inference)\n* 📜 [Hide extension requests plus more Network panel improvements](https://developer.chrome.com/blog/network-panel-improvements?hl=en)\n* 📜 [require(esm) in Node.js](https://joyeecheung.github.io/blog/2024/03/18/require-esm-in-node-js/)\n* 📜 [Comparing ECMAScript Modules and CommonJS](https://wanago.io/2024/03/18/ecmascript-modules-esm-commonjs/)\n* 📜 [A Beginner's Guide to Node.js Worker Threads](https://betterstack.com/community/guides/scaling-nodejs/nodejs-workers-explained/)\n* 📦 [Elysia 1.0 - Bun web framework](https://elysiajs.com/blog/elysia-10)\n* 📦 [Bun 1.0.31](https://bun.sh/blog/bun-v1.0.31)\n* 📦 [AnalogJS 1.0 - Angular meta-framework](https://dev.to/analogjs/announcing-analogjs-10-19an)\n* 📦 [Rsbuild 0.5 - Lightning CSS](https://rsbuild.dev/community/releases/v0-5)",
+      "sourceMdx": "- 👀 [TypeScript 5.5 PR merged - Infer type predicates from function bodies using control flow analysis](https://github.com/microsoft/TypeScript/pull/57465)\n- 📜 [Improved Cloudflare Workers testing via Vitest and workerd](https://blog.cloudflare.com/workers-vitest-integration/)\n- 📜 [Build a Node App with TypeScript](https://www.totaltypescript.com/typescript-and-node)\n- 📜 [Type Predicate Inference: The TS 5.5 Feature No One Expected](https://www.totaltypescript.com/type-predicate-inference)\n- 📜 [Hide extension requests plus more Network panel improvements](https://developer.chrome.com/blog/network-panel-improvements?hl=en)\n- 📜 [require(esm) in Node.js](https://joyeecheung.github.io/blog/2024/03/18/require-esm-in-node-js/)\n- 📜 [Comparing ECMAScript Modules and CommonJS](https://wanago.io/2024/03/18/ecmascript-modules-esm-commonjs/)\n- 📜 [A Beginner's Guide to Node.js Worker Threads](https://betterstack.com/community/guides/scaling-nodejs/nodejs-workers-explained/)\n- 📦 [Elysia 1.0 - Bun web framework](https://elysiajs.com/blog/elysia-10)\n- 📦 [Bun 1.0.31](https://bun.sh/blog/bun-v1.0.31)\n- 📦 [AnalogJS 1.0 - Angular meta-framework](https://dev.to/analogjs/announcing-analogjs-10-19an)\n- 📦 [Rsbuild 0.5 - Lightning CSS](https://rsbuild.dev/community/releases/v0-5)"
+    },
+    {
+      "id": "c63467a3",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "73776161",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "f7e6e884",
+      "translatable": true,
+      "content": "[![Dropped Animation Frames](/emails/issues/178/meme.jpg)](https://twitter.com/ryanflorence/status/1769842701904822774)",
+      "sourceMdx": "[![Dropped Animation Frames](/emails/issues/178/meme.jpg)](https://twitter.com/ryanflorence/status/1769842701904822774)"
+    },
+    {
+      "id": "17b50e81",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

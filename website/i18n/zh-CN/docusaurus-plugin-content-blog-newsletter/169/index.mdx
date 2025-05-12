@@ -1,0 +1,168 @@
+---
+slug: /169
+title: "This Week In React #169: useMemo, 2 Reacts, Next.js, Remix, JS Rising Stars, Docusaurus, Astro, Fresnel, Mutative, JSX emails, Expo usage, React-Native releases, Reanimated, VisionCamera, TypeScript, Rspack, Biome..."
+authors: [slorber, bndkt]
+date: 01-09-2024
+---
+
+大家好！
+
+本周我们将抢先窥见React未来与记忆化(memoization)的发展方向，还有大量Lee Robinson的相关内容 😄
+
+Expo在React-Native生态和应用商店中表现强劲 💪
+
+《2023年JavaScript新星榜》已发布。今年我有幸为React板块撰写评述。shadcn/ui和Bun席卷全球。也感谢Theo在其[趋势分析视频](https://www.youtube.com/watch?v=5lkMs_WEoto)中推荐本刊：欢迎最近订阅的新读者们 🙏
+
+2024巴黎不只有奥运会：我们还将重回React大会的世界中心！
+自React Europe停办后，巴黎一直缺乏顶级React会议。如今这个遗憾终将被三场重磅活动弥补 👌
+
+- 📅 3月22日 - [React巴黎大会](https://react.paris/) - React布鲁塞尔和BeJS的主创团队将在巴黎推出新会议，今天刚公布了强大阵容！
+
+- 📅 4月22-23日 - [React Connection](https://reactconnection.io/) + [React-Native Connection](https://reactnativeconnection.io/) - 去年我参与协办的半日React-Native会议大获成功。今年升级为1+1天的双会场，更值得专程前往。征稿截止2月3日。
+
+我会尽量参加这两场，期待与各位相遇！
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化排版 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助 {#sponsor1}
+
+[![Nlux ― 全新React/JS库，打造对话式AI应用](/emails/issues/169/nlux.png)](https://nlux.ai/?c-twr1-h)
+
+**[Nlux ― 全新React/JS库，打造对话式AI应用](https://nlux.ai/?c-twr1-h)**
+
+[NLUX](https://nlux.ai?c-twr1-p1)（自然语言用户体验）是一个[开源](https://github.com/nluxai/nlux)的React/Javascript库，可轻松将ChatGPT等强大语言模型(LLM)集成到网页应用中。只需几行代码，就能为产品添加对话式AI能力。
+
+核心特性 🌟 包括：
+
+- **分钟级搭建AI聊天界面** - 用少量代码构建高质量的对话式AI界面
+- **React组件与钩子** - 提供UI组件`<AiChat />`和集成钩子`useAdapter`
+- **灵活LLM适配器** - 支持`ChatGPT`和`HuggingFace`，并提供API可**自定义适配器**
+- **可定制聊天角色** - 配置机器人头像、用户名和描述实现个性化交互
+- **零依赖** - 轻量级代码，除LLM前端库外无其他依赖
+
+访问[Nlux.ai](https://nlux.ai?c-twr1-p2)获取更多示例与文档
+
+---
+
+## ⚛️ React动态 {#react}
+
+[![React.use与React.useMemo的未来——context选择器的强大替代方案](/emails/issues/169/useMemo.jpg)](https://interbolt.org/blog/react-use-selector-optimization/)
+
+**[React.use与React.useMemo的未来——context选择器的强大替代方案](https://interbolt.org/blog/react-use-selector-optimization/)**
+
+Colin剖析了React context可能引发的性能问题，官方缺乏context选择器API的现状，以及他如何利用Daishi Kato的社区实现[use-context-selector](https://github.com/dai-shi/use-context-selector)优化应用性能。
+
+最引人入胜的部分是对[近期Twitter讨论](https://twitter.com/sebastienlorber/status/1741218919732429108)的精辟总结。Dan Abramov阐释了上下文选择器难以实现良好组合性的原因。Andrew Clark则分享了扩展`useMemo()`功能的规划——允许在其内部调用其他钩子。这将与[任意可用类型](https://github.com/acdlite/rfcs/blob/first-class-promises/text/0000-first-class-support-for-promises.md#other-usable-types)的use钩子协同工作（当前支持context和promise，未来可能扩展至Observables和状态库），甚至兼容[第三方钩子](https://twitter.com/BenJ_Ayc0/status/1742499230525067408)！该方案能以高性能且可组合的方式解决细粒度选择问题，同时兼容即将到来的React Forget编译器。
+
+---
+
+[![双生React](/emails/issues/169/2reacts.jpg)](https://overreacted.io/the-two-reacts/)
+
+**[双生React](https://overreacted.io/the-two-reacts/)**
+
+Dan Abramov的这篇雄文精彩阐述了代码在本地运行（即时反馈）与远程执行（贴近数据源）的双重优势。他提出了新的React公式：`UI = f(数据, 状态)`，其中`f`代表整个React应用，运行在两个截然不同的环境中。
+
+文末抛出的深刻问题，实质是在叩问：如果是你，是否会发明React服务端组件来解决这个命题？
+
+> 我们能否以保留React核心优势的方式，将组件拆分运行于你我的设备？不同环境中的组件能否相互组合嵌套？这该如何实现？
+
+---
+
+- 💸 [从Dreamweaver到JSX：网页可视化开发工具的演进](https://mightymeld.com/blog/browser-dev-tools-understand-code?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=link1)
+- 🌟 [2023年JavaScript新星榜单](https://risingstars.js.org/2023/en)：参见我对[React板块](https://risingstars.js.org/2023/en#section-react)的评论。
+- 🐦 [Next.js现已支持本地HTTPS运行](https://twitter.com/leeerob/status/1743709145386131906)
+- 📖 [Remix文档 - 新增客户端数据指南](https://remix.run/docs/en/main/guides/client-data)
+- 📜 [Next.js App Router常见错误及修复方法](https://vercel.com/blog/common-mistakes-with-the-next-js-app-router-and-how-to-fix-them)：Lee Robinson与数百名Next.js开发者交流后总结了最常见问题。另附[视频讲解](https://www.youtube.com/watch?v=RBM03RihZVs)。新知：redirect函数返回never类型并抛出Next.js特有错误，设计令人意外。
+- 📜 [2024年我的CSS编写方式](https://leerob.io/blog/css)：Lee Robinson分享2024年CSS实践。他阐述了打造优秀用户体验/开发体验的约束条件，以及构建步骤、编译器或流式处理的作用。推荐使用CSS Modules、Tailwind CSS或StyleX。
+- 📜 [对React发布现状愈发不满](https://macwright.com/2024/01/03/miffed-about-react)：550天无稳定版发布被认为有害。
+- 📜 [在React组件中执行危险注入脚本](https://macarthur.me/posts/script-tags-in-react)：通过Document Fragments绕过安全限制，执行通过dangerouslySetInnerHTML注入的脚本的有趣技巧。
+- 📜 [28个进阶NextJS特性开发者须知](https://codedrivendevelopment.com/posts/rarely-known-nextjs-features)：列举并评论作者在实际项目中鲜少见到的各种冷门功能。
+- 📜 [我希望改进React以提升开发体验的事项](https://codedrivendevelopment.com/posts/things-i-would-change-about-react)：列出React痛点并提出粗略改进方案（个人认为并非所有建议都合理或可行）。
+- 📜 [有害的复杂性：在静态内容中使用React](https://gomakethings.com/harmful-complexity-using-react-for-static-content/)：有趣观点，但我希望证明作者有误，相信React配合RSC处理静态内容会很优雅。
+- 📜 [2024年新博客搭建](https://chrisnicholas.dev/blog/a-new-blog-for-2024)：使用Catalyst、TWC、Contentlayer、Tailwind、Next.js等现代工具。
+- 📜 [如何在React应用中设置软导航报告](https://www.debugbear.com/blog/soft-navigations-react-tutorial)：演示在CRA应用中使用Google web-vitals npm包。
+- 📜 [Superglue介绍：React ❤️ Rails](https://thoughtbot.com/blog/introducing-superglue)："Superglue让React和Redux能像Hotwire、Turbo和Stimulus那样高效"
+- 📜 [Lee Robinson如何创建留言板及你也可以做到](https://bejamas.io/blog/how-to-create-a-guestbook/?ck_subscriber_id=887776054)
+- 📜 [JavaScript前端框架维护者的2024年预测](https://thenewstack.io/2024-predictions-by-javascript-frontend-framework-maintainers/)
+- 📦 [Fresnel 7.0 - 支持React 18 - 服务端渲染兼容的响应式布局方案](https://github.com/artsy/fresnel/releases/tag/v7.0.0)
+- 📦 [@tanstack/router-vite-plugin - 路由CLI的Vite替代方案](https://tanstack.com/router/v1/docs/api/router-vite-plugin)
+- 📦 [Docusaurus 3.1 - 内置损坏锚点检测器，新增`parseFrontMatter`钩子](https://docusaurus.io/blog/releases/3.1)
+- 📦 [Astro 4.1 - 无障碍审计规则、client:visible的rootMargin、自定义cookie编码](https://astro.build/blog/astro-410/)
+- 📦 [Mutative 1.0 - 高效不可变更新，比Immer快10倍](https://dev.to/unadlib/announcing-mutative-10-a-new-era-in-efficient-immutable-updates-nml)
+- 📦 [JSX email 1.7 - 持续改进的react-email分支](https://github.com/shellscape/jsx-email)
+- 🔨 [Palettify - 即时预览主题效果 - 支持shadcn/ui且即将支持MUI](https://palettify.co/)
+- 🔗 [Remix资源 - 社区模板、技术栈和库](https://remix.run/resources)
+- 🎥 [Jack Herrington - 给React开发者的10分钟HTMX指南](https://www.youtube.com/watch?v=r0XBULqzsT0)
+- 🎥 [Lee Robinson - React服务端组件：优点、缺点与痛点](https://www.youtube.com/watch?v=8DyzsSWNcDE)
+- 🎥 [Remix单集 - "Trellix" - Cookies鉴权与拖拽功能](https://www.youtube.com/watch?v=RTHzZVbTl6c&list=PLXoynULbYuED9b2k5LS44v9TQjfXifwNu)：Remix团队制作的15支短视频，演示构建Trello克隆应用（查看[演示应用](https://trellix.fly.dev/)）。
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![面向Next.js、Remix和Gatsby的嵌入式可视化编辑CMS](/emails/issues/169/reactbricks.jpg)](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)
+
+**[面向Next.js、Remix和Gatsby的嵌入式可视化编辑CMS](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)**
+
+[**1分钟快速创建项目**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)，通过CLI工具将React组件定义为可视化区块，使用任意CSS框架实现像素级品牌呈现。
+
+内容编辑者可以像使用文字处理器一样直观地组合页面，同时确保设计系统不被破坏。
+
+React Bricks具备企业级功能：数字资产管理、高级SEO、团队协作、定时发布、多语言支持、外部数据源集成、审批流程、单点登录、多环境部署、备份与变更历史。
+
+受The Weather Channel、Deel.com、La Banque Postale等企业客户及全球8500+用户信赖。  
+[**立即体验！**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)
+
+---
+
+## 📱 React-Native动态 {#react-native}
+
+[![2024年哪些应用在使用Expo开源库](/emails/issues/169/expo.jpg)](https://evanbacon.dev/blog/expo-2024)
+
+**[2024年哪些应用在使用Expo开源库](https://evanbacon.dev/blog/expo-2024)**
+
+Evan Bacon整理了一份包含1,599个使用Expo库（即React Native技术栈）的应用程序清单，涵盖必胜客、汉堡王、微软、Discord、Shopify、NFL、Walgreens、亚马逊、CNN等知名品牌。虽然React Native的繁荣对我们来说并非新闻，但看到它在App Store头部应用中的广泛运用仍然令人振奋。
+
+---
+
+- 💸 [Galaxies.dev - 精通React Native课程，使用代码GALAXIES24可享PRO版75折](https://galaxies.dev?utm_source=thisweekinreact.com)
+- 👀 [提案：为iPad/Apple Vision Pro设计悬停样式API](https://github.com/react-native-community/discussions-and-proposals/pull/750) iPad支持鼠标/触控板的悬停效果，该特性也将适用于苹果即将推出的Vision Pro设备——当用户注视导航元素时会触发高亮效果。
+- 📜 [Reanimated动画库入门指南](https://www.reactiive.io/articles/introduction-to-reanimated)：通过共享值、Reanimated风格和动画视图等核心概念，系统学习这个最受欢迎的RN动画库。
+- 📦 [React-Native v0.73.2 + v0.72.9 + v0.71.15](https://github.com/facebook/react-native/issues/42180)：新版本修复了iOS构建时"Error installing boost Verification checksum"等错误。
+- 📦 [react-native-vision-camera 3.7.0](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.7.0)：现包含Expo配置插件，可快速启用原生QR/条形码扫描功能。
+- 🎥 [Theo - 从原生React Native迁移到Expo](https://www.youtube.com/watch?v=gntZth3mIbM)：标题党但内容翔实，探讨从原生React-Native转向Expo的技术路径。
+- 🎥 [Szymon Rybczak - 将React服务端组件引入React Native](https://portal.gitnation.org/contents/brining-react-server-components-to-react-native)
+- 🎥 [Simon Grimm - 2024年React Native技术栈推荐](https://www.youtube.com/watch?v=Xwk4rcB6qVQ)
+
+---
+
+## 🔀 其他动态 {#other}
+
+- 👀 [TypeScript 5.4 迭代计划 - `NoInfer<T>`、throw 表达式等新特性](https://github.com/microsoft/TypeScript/issues/56948)
+- 📜 [Daniel Rosenwasser 谈 TypeScript 及 2024 年展望](https://thenewstack.io/daniel-rosenwasser-on-typescript-and-whats-ahead-in-2024/)
+- 📜 [工程师对 Web 开发的常见误解](https://birtles.blog/2024/01/06/weird-things-engineers-believe-about-development/)
+- 📜 [网站与 Web 应用的二分法并不存在](https://jakelazaroff.com/words/the-website-vs-web-app-dichotomy-doesnt-exist/)
+- 📜 [2024 年 Web 互操作性热门投票结果](https://frontendmasters.com/blog/the-popular-vote-of-interop-2024/)
+- 📦 [Biome 1.5 发布 - 97% Prettier 兼容性 + 2024 年路线图](https://biomejs.dev/blog/roadmap-2024/)
+- 📦 [Node 20.11 版本 - 改进 test_runner、import.meta 及性能优化](https://nodejs.org/en/blog/release/v20.11.0)
+- 📦 [Rspact 0.5 发布 - 支持 Module Federation](https://www.rspack.dev/blog/announcing-0.5)
+
+---
+
+## 🤭 轻松一刻 {#fun}
+
+[![alt](/emails/issues/169/meme.jpg)](https://twitter.com/sebastienlorber/status/1744853546556649773)
+
+下次见！👋

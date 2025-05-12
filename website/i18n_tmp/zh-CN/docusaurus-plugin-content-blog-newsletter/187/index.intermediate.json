@@ -1,0 +1,305 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/187/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /187\ntitle: \"This Week In React #187: Next.js, Expo, Popover, rethrow, SWR, React-Query, Astro, PPR, tRPC, zsa, Memory leaks, INP, RN IDE, Skia, WebGPU, RNSC, Atlas, Re.Pack, Prisma, SwiftUI, Flutter, Angular...\"\nauthors: [slorber, bndkt]\ndate: 05-29-2024\n---",
+      "sourceMdx": "---\nslug: /187\ntitle: \"This Week In React #187: Next.js, Expo, Popover, rethrow, SWR, React-Query, Astro, PPR, tRPC, zsa, Memory leaks, INP, RN IDE, Skia, WebGPU, RNSC, Atlas, Re.Pack, Prisma, SwiftUI, Flutter, Angular...\"\nauthors: [slorber, bndkt]\ndate: 05-29-2024\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "Last week we got great announcements from Vercel Ship and App.js conferences.",
+      "sourceMdx": "Last week we got great announcements from Vercel Ship and App.js conferences."
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "I also found the community blog posts very interesting this week! There's a lot of good content to read here. The one about memory leak is quite scary 😅.",
+      "sourceMdx": "I also found the community blog posts very interesting this week! There's a lot of good content to read here. The one about memory leak is quite scary 😅."
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "I have been wondering lately: is it still useful to write a [Twitter thread](https://slo.im/thread)? I've [asked the question on Twitter](https://x.com/sebastienlorber/status/1795377678918554072) and feel like nobody reads it anymore, apart a few people. I'm considering stopping. What do you think? 🤔",
+      "sourceMdx": "I have been wondering lately: is it still useful to write a [Twitter thread](https://slo.im/thread)? I've [asked the question on Twitter](https://x.com/sebastienlorber/status/1795377678918554072) and feel like nobody reads it anymore, apart a few people. I'm considering stopping. What do you think? 🤔"
+    },
+    {
+      "id": "6429a3aa",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "39b3772c",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "507b4652",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "fcd52337",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "42e34e45",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "caf67047",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "3c36424c",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "26524352",
+      "translatable": true,
+      "content": "[![React-admin: The Open-Source Framework for B2B apps](/emails/issues/187/reactadmin.jpg)](https://marmelab.com/react-admin/)",
+      "sourceMdx": "[![React-admin: The Open-Source Framework for B2B apps](/emails/issues/187/reactadmin.jpg)](https://marmelab.com/react-admin/)"
+    },
+    {
+      "id": "73ab96a3",
+      "translatable": true,
+      "content": "**[React-admin: The Open-Source Framework for B2B apps](https://marmelab.com/react-admin/)**",
+      "sourceMdx": "**[React-admin: The Open-Source Framework for B2B apps](https://marmelab.com/react-admin/)**"
+    },
+    {
+      "id": "7499a4e7",
+      "translatable": true,
+      "content": "👩🏻‍💻 **For developers, by developers**: React-admin is a free, low-code library that accelerates the development of internal tools, admins or B2B apps. Unlike no-code tools, you use code, ensuring you’re never limited by the framework.",
+      "sourceMdx": "👩🏻‍💻 **For developers, by developers**: React-admin is a free, low-code library that accelerates the development of internal tools, admins or B2B apps. Unlike no-code tools, you use code, ensuring you’re never limited by the framework."
+    },
+    {
+      "id": "517051a7",
+      "translatable": true,
+      "content": "🔌 **Flexible Integration**: React-admin supports any API format (REST or GraphQL) and various authentication backends, including Auth0, Cognito, Google Auth, Active Directory, and Keycloak. You control the server, so there are no extra costs for Single Sign-On (SSO) capabilities. It's fully themeable, allowing you to customize it with your company's colors.",
+      "sourceMdx": "🔌 **Flexible Integration**: React-admin supports any API format (REST or GraphQL) and various authentication backends, including Auth0, Cognito, Google Auth, Active Directory, and Keycloak. You control the server, so there are no extra costs for Single Sign-On (SSO) capabilities. It's fully themeable, allowing you to customize it with your company's colors."
+    },
+    {
+      "id": "135468ee",
+      "translatable": true,
+      "content": "🚀 **Proven Success**: Over 25,000 companies have built single-page applications with React-admin. For your next project, save weeks of development time by using react-admin. [Try react-admin now](https://marmelab.com/react-admin/).",
+      "sourceMdx": "🚀 **Proven Success**: Over 25,000 companies have built single-page applications with React-admin. For your next project, save weeks of development time by using react-admin. [Try react-admin now](https://marmelab.com/react-admin/)."
+    },
+    {
+      "id": "5ef5fda3",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "8d04259b",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "95e9ba12",
+      "translatable": true,
+      "content": "[![Next.js 15 RC](/emails/issues/187/nextjs.jpg)](https://nextjs.org/blog/next-15-rc)",
+      "sourceMdx": "[![Next.js 15 RC](/emails/issues/187/nextjs.jpg)](https://nextjs.org/blog/next-15-rc)"
+    },
+    {
+      "id": "8af76f3d",
+      "translatable": true,
+      "content": "**[Next.js 15 RC](https://nextjs.org/blog/next-15-rc)**",
+      "sourceMdx": "**[Next.js 15 RC](https://nextjs.org/blog/next-15-rc)**"
+    },
+    {
+      "id": "a9d49f92",
+      "translatable": true,
+      "content": "A new major version of Next.js dropped in RC at Vercel Ship last week. The highlights of this version are:",
+      "sourceMdx": "A new major version of Next.js dropped in RC at Vercel Ship last week. The highlights of this version are:"
+    },
+    {
+      "id": "40251870",
+      "translatable": true,
+      "content": "* React 19 RC support\n* React Compiler support (experimental) through the Babel plugin (this might increase build time)\n* Hydration error improvements, displaying the diff mismatch\n* Less aggressive caching, now opt-in: `fetch` and Route Handlers are no longer cached by default\n* Incrementally adopt Partial Prerendering with a new `experimental_ppr` route config option\n* New `create-next-app` design, prompting for Turbo usage in dev, and ability to create projects\n* next/after (experimental), a new API useful to defer analytics tasks and keep responses fast\n* Optimizing bundling of external packages (`serverExternalPackages`) now stable",
+      "sourceMdx": "- React 19 RC support\n- React Compiler support (experimental) through the Babel plugin (this might increase build time)\n- Hydration error improvements, displaying the diff mismatch\n- Less aggressive caching, now opt-in: `fetch` and Route Handlers are no longer cached by default\n- Incrementally adopt Partial Prerendering with a new `experimental_ppr` route config option\n- New `create-next-app` design, prompting for Turbo usage in dev, and ability to create projects\n- next/after (experimental), a new API useful to defer analytics tasks and keep responses fast\n- Optimizing bundling of external packages (`serverExternalPackages`) now stable"
+    },
+    {
+      "id": "23dfb152",
+      "translatable": true,
+      "content": "Other interesting things were announced at Vercel Ship. Additional resources to look at:",
+      "sourceMdx": "Other interesting things were announced at Vercel Ship. Additional resources to look at:"
+    },
+    {
+      "id": "3df4f066",
+      "translatable": true,
+      "content": "* 📜 [Vercel Ship 2024 recap](https://vercel.com/blog/vercel-ship-2024)\n* 📜 [Introducing deeper integrations for feature flags in Vercel](https://vercel.com/blog/feature-flags)\n* 📜 [Introducing the Vercel Web Application Firewall](https://vercel.com/blog/introducing-the-vercel-waf)\n* 🎥 [Jack Herrington - NextJS 15: React 19, Less Caching, Turbopack, Better Hydration Errors and more from Vercel Ship!](https://www.youtube.com/watch?v=N2LzvfM2R5M)",
+      "sourceMdx": "- 📜 [Vercel Ship 2024 recap](https://vercel.com/blog/vercel-ship-2024)\n- 📜 [Introducing deeper integrations for feature flags in Vercel](https://vercel.com/blog/feature-flags)\n- 📜 [Introducing the Vercel Web Application Firewall](https://vercel.com/blog/introducing-the-vercel-waf)\n- 🎥 [Jack Herrington - NextJS 15: React 19, Less Caching, Turbopack, Better Hydration Errors and more from Vercel Ship!](https://www.youtube.com/watch?v=N2LzvfM2R5M)"
+    },
+    {
+      "id": "e874d9e7",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "645e08e3",
+      "translatable": true,
+      "content": "* 💸 [Build AI apps with React and JavaScript — Frontend and UI for any LLM](https://docs.nlkit.com/nlux/?utm_source=twir-my24-3)\n* 👀 [React Core PR - Throw if React and React DOM versions don't match](https://github.com/facebook/react/pull/29236): React 19 will be stricter and require that the renderer version (DOM or RN) uses the exact same version as the core React package.\n* 👀 [React DOM PR - Add support for Popover API](https://github.com/facebook/react/pull/27981): This new API is now available in all major browsers, and React just merged support for it.\n* 👀 [Next.js PR - `unstable_rethrow`](https://github.com/vercel/next.js/pull/65831): Upcoming Next.js API to avoid catching internal errors thrown by Next.js (such as redirect/notFound errors).\n* 🐦 [Latest SWR beta can seamlessly move data fetching between client-side and server-side](https://x.com/shuding_/status/1794461568505352693). And [React-Query](https://x.com/TkDodo/status/1794801851671695533) + [Apollo Client](https://x.com/phry/status/1795777518944784450) also implemented similar features.\n* 🗓 [React Rally](https://reactrally.com/?utm_source=thisweekinreact) - 🇺🇸 Utah - 12-13, August - Get a 10% discount with code \"TWIR\". There’s an advanced React [workshop](https://reactrally.com/workshop) with Cory House.\n* 📜 [Sneaky React Memory Leaks: How useCallback and closures can bite you](https://schiener.io/2024-03-03/react-closures): A great article simplifying a real production app memory leak to explain it. This surprised me, I couldn’t guess such React code would leak memory, and pretty sure my apps contain memory leaks now 😅. Good news though: the app wouldn't leak memory when using the new React Compiler.\n* 📜 [Automatic Query Invalidation after Mutations](https://tkdodo.eu/blog/automatic-query-invalidation-after-mutations): React Query is un-opinionated about how you invalidate cached resources and instead lets you implement a custom strategy on top of flexible primitives. For example, you can invalidate queries by tags.\n* 📜 [Migrating from Radix to React Aria: Improving Accessibility and UX](https://argos-ci.com/blog/react-aria-migration): After having used alternatives such as Reakit or Radix, Greg gives good reasons for adopting React Aria. The migration feedback is positive, but some challenges were encountered. React Aria is quite “strict” at ensuring your components remain accessible.\n* 📜 [On Laravel, Full-Stack JavaScript, and Productive Frameworks](https://www.jplhomer.org/posts/on-laravel-full-stack-javascript-and-productive-frameworks/): Josh created 2 React meta-frameworks (including Shopify Hydrogen) and also uses Laravel extensively. He shares an interesting perspective on the pros/cons of the Laravel vs React ecosystem.\n* 📜 [A virtual DOM in 200 lines of JavaScript](https://lazamar.github.io/virtual-dom/): This greatly explains how a virtual DOM (like the one from React) works under the hood, by creating a small library that can run a TodoMVC app.\n* 📜 [Design System Retrospective](https://kyleshevlin.com/design-system-retrospective/): Interesting perspective on the successfulness of implementing a Chakra-like design system (tokens as props). The average dev struggled to understand how to compose primitives. Tailwind might be a better fit for them.\n* 📜 [Combining React Server Components with react-query for Easy Data Management](https://frontendmasters.com/blog/combining-react-server-components-with-react-query-for-easy-data-management/): A good read explaining limits RSCs. Server Actions run serially, and you need to wait for RSCs to re-render which might be slow without proper caching. Using React-Query with prefetching might slightly increase bundle size and produce more roundtrips, but overall that could give a faster UX.\n* 📜 [Using Server Actions with tRPC](https://trpc.io/blog/trpc-actions): Server Actions are similar to tRPC but come barebone. tRPC maintainer explains things that tRPC enables on top, such as auth, input validation, observability, rate-limiting, and other possible middleware. Note there are alternatives to consider such as next-server-action and zsa.\n* 📜 [Optimizing INP for a React App & Performance Learnings](https://www.iamtk.co/optimizing-inp-for-a-react-app-and-performance-learnings): A long feedback on optimizing responsiveness on a React 18 prod app. Various takeaways include deferring work and analytics, or being careful of useless re-renders.\n* 📜 [Partial Prerendering without a framework](https://developers.netlify.com/guides/partial-prerendering-without-a-framework/): Demo from Netlify CEO shows how to implement “vanilla PPR” (without Next.js which has this as an experimental feature).\n* 📜 [Behind the ‘as’ prop: polymorphism done well](https://www.kripod.dev/blog/behind-the-as-prop-polymorphism-done-well/): Also explains how to type it properly.\n* 📜 [Redwood - Using Middleware: RSS and Sitemap](https://redwoodjs.com/blog/using-middleware-rss-and-sitemap)\n* 📜 [Structured logging for Next.js - Using the Pino logging library](https://blog.arcjet.com/structured-logging-in-json-for-next-js/)\n* 📜 [Facebook just updated its relationship status with web components](https://www.mux.com/blog/facebook-just-updated-it-s-relationship-status-with-web-components)\n* 📜 [Authentication with WorkOS in Next.js: A Comprehensive Guide](https://www.nirtamir.com/articles/authentication-with-workos-in-next-js-a-comprehensive-guide)\n* 📜 [The Next.js \\<Image> Component](https://www.premieroctet.com/blog/en/next-image-component)\n* 📜 [How To Dockerize A React App](https://scientyficworld.org/how-to-dockerize-a-react-app/)\n* 📦 [Astro 4.9 - React 19 support for Astro Actions](https://astro.build/blog/astro-490/): Adds new withState/getActionState APIs to integrate Astro with React 19 useActionState, including progressive enhancement.\n* 📦 [Storybook 8.1 - typesafe mocking, Unit testing React Server Components](https://storybook.js.org/blog/storybook-8-1/)\n* 📦 [NextUI 2.4](https://nextui.org/blog/v2.4.0)\n* 📦 [Ark UI 3.0](https://ark-ui.com/react/docs/overview/changelog#300---2024-05-24)\n* 📦 [React-Query 5.39 - Supports React 19](https://github.com/TanStack/query/releases/tag/v5.39.0)\n* 📦 [Redwood 7.6 - React Compiler experimental flag](https://github.com/redwoodjs/redwood/releases/tag/v7.6.0)\n* 📦 [zsa 0.1 - Typesafe Server Actions for Next.js](http://next.js)\n* 📦 [React-Executor - Asynchronous task execution and state management for React](https://github.com/smikhalevski/react-executor)\n* 🎥 [UI Engineering - Portals Can Share State Between Windows](https://www.youtube.com/watch?v=jZx33FPMXzc): It's a pretty cool idea to use React portals to integrate seamlessly between windows and might also be useful for the upcoming browser Picture-in-Picture API.\n* 🎥 [Theo - I Was Wrong About React Router.](https://www.youtube.com/watch?v=m86HssTKExU)\n* 🎥 [James Quick - Astro Launches Actions Similar like Next.js](https://www.youtube.com/watch?v=8mIUIhp2YGQ)",
+      "sourceMdx": "- 💸 [Build AI apps with React and JavaScript — Frontend and UI for any LLM](https://docs.nlkit.com/nlux/?utm_source=twir-my24-3)\n- 👀 [React Core PR - Throw if React and React DOM versions don't match](https://github.com/facebook/react/pull/29236): React 19 will be stricter and require that the renderer version (DOM or RN) uses the exact same version as the core React package.\n- 👀 [React DOM PR - Add support for Popover API](https://github.com/facebook/react/pull/27981): This new API is now available in all major browsers, and React just merged support for it.\n- 👀 [Next.js PR - `unstable_rethrow`](https://github.com/vercel/next.js/pull/65831): Upcoming Next.js API to avoid catching internal errors thrown by Next.js (such as redirect/notFound errors).\n- 🐦 [Latest SWR beta can seamlessly move data fetching between client-side and server-side](https://x.com/shuding_/status/1794461568505352693). And [React-Query](https://x.com/TkDodo/status/1794801851671695533) + [Apollo Client](https://x.com/phry/status/1795777518944784450) also implemented similar features.\n- 🗓 [React Rally](https://reactrally.com/?utm_source=thisweekinreact) - 🇺🇸 Utah - 12-13, August - Get a 10% discount with code \"TWIR\". There’s an advanced React [workshop](https://reactrally.com/workshop) with Cory House.\n- 📜 [Sneaky React Memory Leaks: How useCallback and closures can bite you](https://schiener.io/2024-03-03/react-closures): A great article simplifying a real production app memory leak to explain it. This surprised me, I couldn’t guess such React code would leak memory, and pretty sure my apps contain memory leaks now 😅. Good news though: the app wouldn't leak memory when using the new React Compiler.\n- 📜 [Automatic Query Invalidation after Mutations](https://tkdodo.eu/blog/automatic-query-invalidation-after-mutations): React Query is un-opinionated about how you invalidate cached resources and instead lets you implement a custom strategy on top of flexible primitives. For example, you can invalidate queries by tags.\n- 📜 [Migrating from Radix to React Aria: Improving Accessibility and UX](https://argos-ci.com/blog/react-aria-migration): After having used alternatives such as Reakit or Radix, Greg gives good reasons for adopting React Aria. The migration feedback is positive, but some challenges were encountered. React Aria is quite “strict” at ensuring your components remain accessible.\n- 📜 [On Laravel, Full-Stack JavaScript, and Productive Frameworks](https://www.jplhomer.org/posts/on-laravel-full-stack-javascript-and-productive-frameworks/): Josh created 2 React meta-frameworks (including Shopify Hydrogen) and also uses Laravel extensively. He shares an interesting perspective on the pros/cons of the Laravel vs React ecosystem.\n- 📜 [A virtual DOM in 200 lines of JavaScript](https://lazamar.github.io/virtual-dom/): This greatly explains how a virtual DOM (like the one from React) works under the hood, by creating a small library that can run a TodoMVC app.\n- 📜 [Design System Retrospective](https://kyleshevlin.com/design-system-retrospective/): Interesting perspective on the successfulness of implementing a Chakra-like design system (tokens as props). The average dev struggled to understand how to compose primitives. Tailwind might be a better fit for them.\n- 📜 [Combining React Server Components with react-query for Easy Data Management](https://frontendmasters.com/blog/combining-react-server-components-with-react-query-for-easy-data-management/): A good read explaining limits RSCs. Server Actions run serially, and you need to wait for RSCs to re-render which might be slow without proper caching. Using React-Query with prefetching might slightly increase bundle size and produce more roundtrips, but overall that could give a faster UX.\n- 📜 [Using Server Actions with tRPC](https://trpc.io/blog/trpc-actions): Server Actions are similar to tRPC but come barebone. tRPC maintainer explains things that tRPC enables on top, such as auth, input validation, observability, rate-limiting, and other possible middleware. Note there are alternatives to consider such as next-server-action and zsa.\n- 📜 [Optimizing INP for a React App & Performance Learnings](https://www.iamtk.co/optimizing-inp-for-a-react-app-and-performance-learnings): A long feedback on optimizing responsiveness on a React 18 prod app. Various takeaways include deferring work and analytics, or being careful of useless re-renders.\n- 📜 [Partial Prerendering without a framework](https://developers.netlify.com/guides/partial-prerendering-without-a-framework/): Demo from Netlify CEO shows how to implement “vanilla PPR” (without Next.js which has this as an experimental feature).\n- 📜 [Behind the ‘as’ prop: polymorphism done well](https://www.kripod.dev/blog/behind-the-as-prop-polymorphism-done-well/): Also explains how to type it properly.\n- 📜 [Redwood - Using Middleware: RSS and Sitemap](https://redwoodjs.com/blog/using-middleware-rss-and-sitemap)\n- 📜 [Structured logging for Next.js - Using the Pino logging library](https://blog.arcjet.com/structured-logging-in-json-for-next-js/)\n- 📜 [Facebook just updated its relationship status with web components](https://www.mux.com/blog/facebook-just-updated-it-s-relationship-status-with-web-components)\n- 📜 [Authentication with WorkOS in Next.js: A Comprehensive Guide](https://www.nirtamir.com/articles/authentication-with-workos-in-next-js-a-comprehensive-guide)\n- 📜 [The Next.js \\<Image> Component](https://www.premieroctet.com/blog/en/next-image-component)\n- 📜 [How To Dockerize A React App](https://scientyficworld.org/how-to-dockerize-a-react-app/)\n- 📦 [Astro 4.9 - React 19 support for Astro Actions](https://astro.build/blog/astro-490/): Adds new withState/getActionState APIs to integrate Astro with React 19 useActionState, including progressive enhancement.\n- 📦 [Storybook 8.1 - typesafe mocking, Unit testing React Server Components](https://storybook.js.org/blog/storybook-8-1/)\n- 📦 [NextUI 2.4](https://nextui.org/blog/v2.4.0)\n- 📦 [Ark UI 3.0](https://ark-ui.com/react/docs/overview/changelog#300---2024-05-24)\n- 📦 [React-Query 5.39 - Supports React 19](https://github.com/TanStack/query/releases/tag/v5.39.0)\n- 📦 [Redwood 7.6 - React Compiler experimental flag](https://github.com/redwoodjs/redwood/releases/tag/v7.6.0)\n- 📦 [zsa 0.1 - Typesafe Server Actions for Next.js](http://next.js)\n- 📦 [React-Executor - Asynchronous task execution and state management for React](https://github.com/smikhalevski/react-executor)\n- 🎥 [UI Engineering - Portals Can Share State Between Windows](https://www.youtube.com/watch?v=jZx33FPMXzc): It's a pretty cool idea to use React portals to integrate seamlessly between windows and might also be useful for the upcoming browser Picture-in-Picture API.\n- 🎥 [Theo - I Was Wrong About React Router.](https://www.youtube.com/watch?v=m86HssTKExU)\n- 🎥 [James Quick - Astro Launches Actions Similar like Next.js](https://www.youtube.com/watch?v=8mIUIhp2YGQ)"
+    },
+    {
+      "id": "de88dabe",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed placement=\"middle\" />",
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+    },
+    {
+      "id": "e9ae42a9",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "42a5832e",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "0e80209e",
+      "translatable": true,
+      "content": "[![Next.js auth tutorial with RSCs and Server Actions](/emails/issues/186/AuthKitNextjs.jpg)](https://www.youtube.com/watch?v=aoRG1q_kVo8)",
+      "sourceMdx": "[![Next.js auth tutorial with RSCs and Server Actions](/emails/issues/186/AuthKitNextjs.jpg)](https://www.youtube.com/watch?v=aoRG1q_kVo8)"
+    },
+    {
+      "id": "7bc8bb24",
+      "translatable": true,
+      "content": "**[Next.js auth tutorial with RSCs and Server Actions](https://www.youtube.com/watch?v=aoRG1q_kVo8)**",
+      "sourceMdx": "**[Next.js auth tutorial with RSCs and Server Actions](https://www.youtube.com/watch?v=aoRG1q_kVo8)**"
+    },
+    {
+      "id": "6693c38c",
+      "translatable": true,
+      "content": "The latest tutorial with WorkOS and Sam Selikoff shows how you can easily add AuthKit's hosted login box to a Next.js app:",
+      "sourceMdx": "The latest tutorial with WorkOS and Sam Selikoff shows how you can easily add AuthKit's hosted login box to a Next.js app:"
+    },
+    {
+      "id": "e9313fef",
+      "translatable": true,
+      "content": "📚 Get started using the Authkit \\<> Next.js [integration library](https://github.com/workos/authkit-nextjs)\\\n🤖 Set up environment variables, configure the callback route and middleware, and implement signIn and signOut functionalities\\\n⚙️ Protect routes in the Next.js app from unauthenticated users with the getUser function",
+      "sourceMdx": "📚 Get started using the Authkit \\<> Next.js [integration library](https://github.com/workos/authkit-nextjs)  \n🤖 Set up environment variables, configure the callback route and middleware, and implement signIn and signOut functionalities  \n⚙️ Protect routes in the Next.js app from unauthenticated users with the getUser function"
+    },
+    {
+      "id": "1958bc43",
+      "translatable": true,
+      "content": "AuthKit can be used with WorkOS User Management, which supports MFA, identity linking, email verification, user impersonation, and more.",
+      "sourceMdx": "AuthKit can be used with WorkOS User Management, which supports MFA, identity linking, email verification, user impersonation, and more."
+    },
+    {
+      "id": "a8610918",
+      "translatable": true,
+      "content": "Best of all, it's **free up to 1,000,000 MAUs 🚀**",
+      "sourceMdx": "Best of all, it's **free up to 1,000,000 MAUs 🚀**"
+    },
+    {
+      "id": "862bb4be",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "ed644f52",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "b9331170",
+      "translatable": true,
+      "content": "This section is authored by [Benedikt](https://twitter.com/bndkt).",
+      "sourceMdx": "This section is authored by [Benedikt](https://twitter.com/bndkt)."
+    },
+    {
+      "id": "8fcdd6d4",
+      "translatable": true,
+      "content": "![screenshot of 4 App.js slides](/emails/issues/187/rn.jpg)",
+      "sourceMdx": "![screenshot of 4 App.js slides](/emails/issues/187/rn.jpg)"
+    },
+    {
+      "id": "53aa2b95",
+      "translatable": true,
+      "content": "The dry season of everyone saving their announcements for upcoming conferences is over, with last week’s App.js Conf dropping another bucket of amazing content and exciting announcements on us! Expo announced the aptly named Atlas, which acts as a map to explore the wilderness of Bundler land. If you ever wanted to understand how code goes in and comes out of your app, this is the tool for it. It’s especially useful to reduce bundle size, but also just to get a better understanding of how your app works. In the ORM space, Drizzle launched their Studio as an Expo dev tools plugin and Prisma announced that they’ll be adding React Native support. The React Native IDE is now in open beta and you can download it in the VS Code extension marketplace and finally, William Candillon announced video support coming to RN Skia, as well as WebGPU in React Native! Of course, we remain super excited by Universal React Server Components that we already mentioned last week. Make sure to catch up and watch the [App.js Conf Live stream](http://app.js).",
+      "sourceMdx": "The dry season of everyone saving their announcements for upcoming conferences is over, with last week’s App.js Conf dropping another bucket of amazing content and exciting announcements on us! Expo announced the aptly named Atlas, which acts as a map to explore the wilderness of Bundler land. If you ever wanted to understand how code goes in and comes out of your app, this is the tool for it. It’s especially useful to reduce bundle size, but also just to get a better understanding of how your app works. In the ORM space, Drizzle launched their Studio as an Expo dev tools plugin and Prisma announced that they’ll be adding React Native support. The React Native IDE is now in open beta and you can download it in the VS Code extension marketplace and finally, William Candillon announced video support coming to RN Skia, as well as WebGPU in React Native! Of course, we remain super excited by Universal React Server Components that we already mentioned last week. Make sure to catch up and watch the [App.js Conf Live stream](http://app.js)."
+    },
+    {
+      "id": "cf542fb4",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "6409152f",
+      "translatable": true,
+      "content": "* 💸 [WithFrame - Pre-Built React Native Components](https://withfra.me/components?utm_source=thisweekinreact\\&utm_medium=email\\&utm_campaign=quick-link--1)\n* 🐦 [Re.Pack V5 will be based on Rspack instead of Webpack](https://x.com/_jbroma/status/1793286546008981933): This brings significant performance improvements (Cold start 15s → 2.5s, build 10s → 2s, HMR 450ms → 100ms).\n* 🗓 [Chain React Conf](https://chainreactconf.com/?utm_source=thisweekinreact) - 🇺🇸 Portland, OR - July 17-19. The U.S. React Native Conference is back with engaging talks and hands-on workshops! Get 15% off your ticket with code “TWIR”\n* 📜 [Introducing Expo Atlas](https://expo.dev/blog/introducing-expo-atlas): The Expo team used this internally to work on a faster Metro resolver, improve their Babel config, as well as for their work on RSC. Now you can use it to better understand and optimize your app as well!\n* 📜 [RNW 0.74 Launches: A Gallery Glow-up and Fabric Foundations! React Native](https://devblogs.microsoft.com/react-native/2024-05-24-improved-gallery-fabric-0-74/): Something new I learned from this announcement is the React Native Gallery app, basically a kitchen sink demo app for RN on Windows.\n* 📜 [Bringing Prisma ORM to React Native and Expo](https://www.prisma.io/blog/bringing-prisma-orm-to-react-native-and-expo): Prisma, including reactive queries, is now available in RN (in beta). And it seems they’re also working on a local-first sync solution.\n* 📜 [Using React-Admin With React Native](https://marmelab.com/blog/2024/05/22/using-react-admin-with-react-native.html): React-Admin is a framework for quickly building CRUD apps. This article shows how to leverage its headless architecture to use it with RN.\n* 📜 [Fluttering in the sky](https://www.celest.dev/blog/fluttering-in-the-sky): Not React Native but worth mentioning that a company is working on the equivalent of React Native Server Components for Flutter.\n* 📦 [React Native IDE is now in open beta](https://ide.swmansion.com/): Simply download as a VS Code extension from the VS Code marketplace.\n* 📦 [SwiftUI-React-Native 6.0](https://github.com/andrew-levy/swiftui-react-native): Use SwiftUI features directly from React Native.\n* 📦 [React Native Skia 1.3.0](https://github.com/Shopify/react-native-skia/releases/tag/v1.3.0): Skia can now render videos.\n* 📦 [Drizzle Studio is now available for Expo SQLite via dev tools plugin](https://github.com/drizzle-team/drizzle-studio-expo/tree/main): This is super handy! No more finding the Simulator’s file system folder on your Mac to open the sqlite-file in a separate GUI for debugging purposes.\n* 🎥 [Simon Grimm - 10 Takeaways for React Native Devs from the App.js conference](https://www.youtube.com/watch?v=mhos9givltA)",
+      "sourceMdx": "- 💸 [WithFrame - Pre-Built React Native Components](https://withfra.me/components?utm_source=thisweekinreact&utm_medium=email&utm_campaign=quick-link--1)\n- 🐦 [Re.Pack V5 will be based on Rspack instead of Webpack](https://x.com/_jbroma/status/1793286546008981933): This brings significant performance improvements (Cold start 15s → 2.5s, build 10s → 2s, HMR 450ms → 100ms).\n- 🗓 [Chain React Conf](https://chainreactconf.com/?utm_source=thisweekinreact) - 🇺🇸 Portland, OR - July 17-19. The U.S. React Native Conference is back with engaging talks and hands-on workshops! Get 15% off your ticket with code “TWIR”\n- 📜 [Introducing Expo Atlas](https://expo.dev/blog/introducing-expo-atlas): The Expo team used this internally to work on a faster Metro resolver, improve their Babel config, as well as for their work on RSC. Now you can use it to better understand and optimize your app as well!\n- 📜 [RNW 0.74 Launches: A Gallery Glow-up and Fabric Foundations! React Native](https://devblogs.microsoft.com/react-native/2024-05-24-improved-gallery-fabric-0-74/): Something new I learned from this announcement is the React Native Gallery app, basically a kitchen sink demo app for RN on Windows.\n- 📜 [Bringing Prisma ORM to React Native and Expo](https://www.prisma.io/blog/bringing-prisma-orm-to-react-native-and-expo): Prisma, including reactive queries, is now available in RN (in beta). And it seems they’re also working on a local-first sync solution.\n- 📜 [Using React-Admin With React Native](https://marmelab.com/blog/2024/05/22/using-react-admin-with-react-native.html): React-Admin is a framework for quickly building CRUD apps. This article shows how to leverage its headless architecture to use it with RN.\n- 📜 [Fluttering in the sky](https://www.celest.dev/blog/fluttering-in-the-sky): Not React Native but worth mentioning that a company is working on the equivalent of React Native Server Components for Flutter.\n- 📦 [React Native IDE is now in open beta](https://ide.swmansion.com/): Simply download as a VS Code extension from the VS Code marketplace.\n- 📦 [SwiftUI-React-Native 6.0](https://github.com/andrew-levy/swiftui-react-native): Use SwiftUI features directly from React Native.\n- 📦 [React Native Skia 1.3.0](https://github.com/Shopify/react-native-skia/releases/tag/v1.3.0): Skia can now render videos.\n- 📦 [Drizzle Studio is now available for Expo SQLite via dev tools plugin](https://github.com/drizzle-team/drizzle-studio-expo/tree/main): This is super handy! No more finding the Simulator’s file system folder on your Mac to open the sqlite-file in a separate GUI for debugging purposes.\n- 🎥 [Simon Grimm - 10 Takeaways for React Native Devs from the App.js conference](https://www.youtube.com/watch?v=mhos9givltA)"
+    },
+    {
+      "id": "f97c407b",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "3cd8185f",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "a627a446",
+      "translatable": true,
+      "content": "* 📜 [What We Learned From the First State of HTML Survey](https://frontendmasters.com/blog/state-of-html-2023-results-2/)\n* 📜 [\"Web components\" considered harmful](https://www.mayank.co/blog/web-components-considered-harmful/)\n* 📦 [Angular 18.0 - Zoneless, Material 3, deferrable views…](https://blog.angular.dev/angular-v18-is-now-available-e79d5ac0affe)\n* 📦 [TypeScript-ESLint v8 beta - ESLint 9 support](https://typescript-eslint.io/blog/announcing-typescript-eslint-v8-beta/)\n* 📦 [fnm 1.36 - fast Node.js version manager](https://github.com/Schniz/fnm/releases/tag/v1.36.0)\n* 📦 [rsbuild 0.7](https://rsbuild.dev/community/releases/v0-7)",
+      "sourceMdx": "- 📜 [What We Learned From the First State of HTML Survey](https://frontendmasters.com/blog/state-of-html-2023-results-2/)\n- 📜 [\"Web components\" considered harmful](https://www.mayank.co/blog/web-components-considered-harmful/)\n- 📦 [Angular 18.0 - Zoneless, Material 3, deferrable views…](https://blog.angular.dev/angular-v18-is-now-available-e79d5ac0affe)\n- 📦 [TypeScript-ESLint v8 beta - ESLint 9 support](https://typescript-eslint.io/blog/announcing-typescript-eslint-v8-beta/)\n- 📦 [fnm 1.36 - fast Node.js version manager](https://github.com/Schniz/fnm/releases/tag/v1.36.0)\n- 📦 [rsbuild 0.7](https://rsbuild.dev/community/releases/v0-7)"
+    },
+    {
+      "id": "b6796530",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "ee213c98",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "008183b0",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/187/meme.jpg)](https://x.com/jamonholmgren/status/1791255201774719178)",
+      "sourceMdx": "[![alt](/emails/issues/187/meme.jpg)](https://x.com/jamonholmgren/status/1791255201774719178)"
+    },
+    {
+      "id": "0ddaa835",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

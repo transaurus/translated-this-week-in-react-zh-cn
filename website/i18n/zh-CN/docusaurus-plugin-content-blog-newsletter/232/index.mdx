@@ -1,0 +1,129 @@
+---
+slug: /232
+title: "This Week In React #232: React Router, Next.js, Radix, Vite, MCP, Storybook | Entreprise Framework, Shopify, Brownfield, WebGPU, AI, Release-It, Expo | Node.js, Async Svelte, Compile Hints, View Transitions"
+authors: [slorber]
+date: 04-30-2025
+---
+
+大家好！
+
+希望各位已从上周的React Labs重磅新闻中缓过神来🔥。本周虽然相对平静，但仍有精彩的社区文章、值得关注的行业动向以及若干新版本发布。
+
+请务必升级React Router v7应用，并将Node.js版本提升至≥18！
+
+<!-- truncate -->
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![Bit: 通过SPA和SSR实现部署独立性](/emails/issues/232/bit.jpg)](https://bit.dev/?utm_source=ThisWeekInReact&utm_id=10&utm_medium=newsletter)
+
+**[Bit: 通过SPA和SSR实现部署独立性](https://bit.dev/?utm_source=ThisWeekInReact&utm_id=10&utm_medium=newsletter)**
+
+通过组合React、NodeJS、Angular或Vue组件，从独立的业务功能构建高性能且一致的平台。让开发者在完整平台上下文中独立工作时，能集成并测试变更。
+
+消除集成猜测，规避破坏现有功能的风险。
+
+立即开始组合现有代码[**今天就开始**](https://bit.dev/?utm_source=ThisWeekInReact&utm_id=10&utm_medium=newsletter)！
+
+---
+
+## ⚛️ React {#react}
+
+- 💸 [Convex 发布 MCP 服务器](https://convex.link/thisweekmcp)
+- 🔐 [React Router 漏洞及 v7.5.2 修复](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v752): React Router v7 存在两个可能导致拒绝服务攻击和跨站脚本攻击的重要安全漏洞，最新 v7.5.2 版本已修复。多家云服务商（Vercel/Netlify/Cloudflare）已部署缓解措施，但仍建议升级。
+- 👀 [Next.js 文档 PR - 移除 Vercel 相关提及](https://github.com/vercel/next.js/pull/78557): Next.js 文档将减少对 Vercel 的倾向性，更公平地展示其竞品。笔者认为开源项目通过付费服务实现可持续无可厚非，但需重建部分用户的信任。需明确 Vercel 并未"接管"React 团队，上周 React Labs 宣布的客户端功能（如`<ViewTransition>`）由[Vercel 员工实现](https://bsky.app/profile/ricky.fm/post/3lnvyuennss2b)。
+- 👀 [Vite RSC 计划](https://github.com/hi-ogawa/vite-plugins/issues/748): 某 Vite 贡献者正[接手开发](https://github.com/facebook/react/pull/31768#issuecomment-2823466684)未来的`react-server-dom-vite`包，已向 Waku/RedwoodSDK 等框架提交集成 PR。
+- 🗓 [React-Summit](https://reactsummit.com/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇳🇱 阿姆斯特丹 - 6月13&17日。全球最大 React 会议，60+演讲阵容，使用优惠码 TWIR 享9折。
+- 🗓️ [StrapiConf](https://conf.strapi.io/?utm_source=thisweekinreact) - 🇫🇷 巴黎 - 5月13日。无头网络开发深度探讨，使用代码"TWIR"享9折。
+- 📜 ["use client"的作用解析](https://overreacted.io/what-does-use-client-do/): Dan Abramov 解释 RSC 没有 API 层面，指令是连接两个世界的模块系统特性。Dan 刚[重启 YouTube 频道](https://www.youtube.com/@overreacted-io)，用视频讲解博客内容。
+- 📜 [React 可序列化 Promise](https://twofoldframework.com/blog/you-can-serialize-a-promise-in-react): 详解 React 如何通过流式传输将服务端 Promise 转发到客户端，并重建微型机制。
+- 📜 [React 原理：哪个 useEffect 先执行？](https://frontendmasters.com/blog/react-internals-which-useeffect-runs-first/): 提醒`useEffect`回调自底向上执行（除非使用`<Activity>`）。
+- 📜 [React Query 并发乐观更新](https://tkdodo.eu/blog/concurrent-optimistic-updates-in-react-query): Dominik 分享避免并发突变时界面不一致的模式，建议单次飞行突变时才调用`invalidateQueries()`。
+- 📜 [React 中的父组件与所有者组件：Context Providers](https://julesblom.com/writing/parent-owners-context): 解析父组件与所有者组件的区别，通过重构所有者树实现更精准的"更新单元"。
+- 📜 [Next.js 转 Astro 的页面体积对比](https://alan.norbauer.com/articles/astro-vs-nextjs-page-size/): 移植静态站点后 Astro 显著减小打包体积。
+- 📜 [RedwoodSDK 的路由级文档控制](https://rwsdk.com/blog/redwoodsdk-multiple-documents)
+- 📜 [React-admin 集成 Shadcn UI](https://marmelab.com/blog/2025/04/23/react-admin-with-shadcn.html)
+- 💸 [Tolgee React - 应用翻译解决方案](https://tolgee.io/apps-integrations/react)
+- 📦 [React MCP 服务器(实验性)](https://github.com/facebook/react/tree/main/compiler/packages/react-mcp-server): 目前仅是[Lauren 的个人实验项目](https://github.com/facebook/react/pull/32859)。
+- 📦 [Radix UI 1.3 - 新增一次性密码字段](https://www.radix-ui.com/primitives/docs/overview/releases#april-17-2025): 现提供统一包`radix-ui`替代`@radix-ui/*`导入，`shadcn/ui`或将[提供迁移工具](https://github.com/shadcn-ui/ui/pull/6868#issuecomment-2718219342)。
+- 📦 [Storybook 9 beta](https://storybook.js.org/blog/storybook-9-beta/): 强化测试功能（组件/交互/无障碍/视觉测试），标签式组织优化体验，新增 React Native Web 支持。
+- 📦 [Lexical 0.31 - 可扩展富文本编辑器](https://github.com/facebook/lexical/releases/tag/v0.31.0)
+- 📦 [Frimousse - 轻量级表情选择器](https://frimousse.liveblocks.io/)
+- 🎥 [Theo - React 新特性解析](https://www.youtube.com/watch?v=-dePNpdd44M)
+- 🎥 [Jack Herrington - TanStack 无头认证方案](https://www.youtube.com/watch?v=Atev8Nxpw7c)
+- 🎙️ [本月 React 动态](https://creators.spotify.com/pod/profile/reactiflux/episodes/TMiR-2025-04-React-19-1-helps-debug-owner-stacks-e324h0g)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![如何将C Clerk投入生产环境](/emails/issues/232/clerk.jpg)](https://go.clerk.com/fpzcK5F)
+
+**[如何将Clerk投入生产环境](https://go.clerk.com/ovPb3z0)**
+
+开发者分步指南：通过自定义域名、OAuth凭证和安全DNS配置，在生成环境中部署Clerk应用。
+
+---
+
+## 📱 React-Native {#react-native}
+
+[![React Native企业级框架](/emails/issues/232/rnef.jpg)](https://www.rnef.dev/)
+
+**[React Native企业级框架](https://www.rnef.dev/)**
+
+Callstack项目现已开源。该框架作为RN社区CLI的替代方案，可帮助您在现有移动应用中逐步采用React Native（又称"棕地"开发）。功能包括：
+
+- 通过简化的棕地方案实现渐进式迁移
+- 依托基础设施托管的高级原生构建缓存，获得类Web开发体验
+- 可插拔架构支持扩展平台、自定义打包器等
+
+---
+
+- 💸 [用React Native构建现代多用户聊天应用](https://go.clerk.com/Y0ne425)
+- 🐦 [RN 0.79现已通过Metro的package.json `imports`支持"别名"功能](https://x.com/satya164/status/1916095938604548366)
+- 📣 [Expo更新日志 - 新增构建对比工具、Expo Router落地页及UX改进](https://expo.dev/changelog/website-updates-4-29-2025)
+- 🗓️ [App.js大会](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 克拉科夫 - 5月28-30日。参与React Native & Expo顶级盛会的最后机会，使用代码"TWIR"可享85折
+- 📜 [Shopify移动桥接：让WebView拥有原生体验](https://shopify.engineering/mobilebridge-native-webviews)：在转向React Native过程中，Shopify实现了高性能定制WebView方案。关键页面仍采用原生技术，而这座移动桥梁支撑了大量重要非核心页面
+- 📜 [用React Native棕地方案赋能原生应用](https://www.callstack.com/blog/powering-native-apps-with-react-native-brownfield)
+- 📜 [React Native macOS - 2025年最佳自定义字体引入方案](https://shift.infinite.red/the-best-way-to-include-custom-fonts-in-react-native-for-macos-in-2025-4cb235e2d6f7)
+- 📜 [通过Expo迁移到React Native：跨平台成功之路](https://expo.dev/blog/migrating-to-react-native-with-expo)
+- 📜 [优化移动应用耗电量与崩溃率](https://blog.swmansion.com/optimizing-battery-usage-improving-crash-free-rate-in-a-react-native-app-9e80ba1f240a)
+- 📦 [React Native WebGPU工作线程](https://github.com/software-mansion-labs/react-native-webgpu-worklets)：在任何线程（UI/后台）运行流畅的WebGPU动画（包括Three.js），由Reanimated工作线程驱动
+- 📦 [React Native AI 0.1](https://github.com/callstackincubator/ai)：Callstack新项目，基于Vercel AI SDK实现在设备端运行LLM模型
+- 📦 [Expo-Release-It - 用于本地构建、上传和提交Expo CNG项目的CLI工具](https://github.com/mym0404/expo-release-it)：EAS的本地替代方案？
+- 🎥 [Simon Grimm - 必知的React Native代码片段](https://www.youtube.com/watch?v=42RKqciqjV0)
+- 🎥 [Theo - React Native比你想象的更流行](https://www.youtube.com/watch?v=GoDXfzpYGTc)
+- 🎙️ [React Native广播329期 - React Native现状调查结果出炉](https://infinite.red/react-native-radio/rnr-329-state-of-react-native-survey-results-are-in)
+- 🎙️ [火箭飞船66期 - Expo 53测试版、FlashList v2、RN流行度、应用销售与OTA替代方案](https://share.transistor.fm/s/ba0f8a72)
+
+---
+
+## 🔀 其他动态 {#other}
+
+- 📣 [Node.js 18今日终止支持](https://nodejs.org/en/about/previous-releases)：该版本将不再获得安全更新，建议升级至v20或v22。
+- 👀 [异步Svelte](https://github.com/sveltejs/svelte/discussions/15845)：Svelte推出新的异步实验模式，本文档解析其工作原理。"分支"章节的设计理念与并发React、过渡效果及即将推出的`<Activity>`组件有相似之处。
+- 👀 [Firefox 139 Nightly版本启用视图过渡动画](https://www.mozilla.org/en-US/firefox/140.0a1/releasenotes/#note-790833)：最后一个未支持该特性的主流浏览器释放积极信号。React即将推出的`<ViewTransition>`组件或将迎来最佳适配时机？
+- 📜 [为V8预热：通过显式编译提示加速JavaScript启动](https://v8.dev/blog/explicit-compile-hints)：Chrome 136引入的新特性允许通过魔法注释标注文件/函数，指示V8提前编译JS代码，实验显示网页加载速度显著提升。该技术或可优化React水合过程乃至Node.js程序性能。
+- 📜 [依赖项分类管理](https://antfu.me/posts/categorize-deps)：基于pnpm目录的实现方案。
+- 📜 [Node.js底层运行机制揭秘](https://www.deepintodev.com/blog/how-nodejs-works-behind-the-scenes)
+- 📜 [SolidJS的十年征程](https://dev.to/this-is-learning/a-decade-of-solidjs-32f4)
+
+---
+
+## 😄 轻松一刻 {#fun}
+
+[![趣味图](/emails/issues/232/meme0.jpg)](https://www.linkedin.com/posts/yangshun_react-vue-svelte-activity-7313404647040249856-uNQi/)
+
+[![趣图](/emails/issues/232/meme.jpg)](https://www.reddit.com/r/reactnative/comments/1jxoppk/is_this_you/)
+
+[![搞笑图](/emails/issues/232/meme2.jpg)](https://x.com/jarredsumner/status/1916535123568140571)
+
+下期见！👋

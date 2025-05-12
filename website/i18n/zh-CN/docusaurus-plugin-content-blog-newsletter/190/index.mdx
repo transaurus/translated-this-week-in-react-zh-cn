@@ -1,0 +1,173 @@
+---
+slug: /190
+title: "This Week In React #190: Suspense, Internals Explorer, DevTools, RSC + Vite, Codemod, Astro, INP, composition, Reassure, Fumadocs, tscircuit, Sonner, Relay, Reanimated, RNGH, BottomSheet, RNScreens, VisionOS, TC39, Node, CSS ..."
+authors: [slorber, bndkt]
+date: 06-19-2024
+---
+
+大家好！
+
+我（Seb）回来了，很高兴地告诉大家这份简报的订阅者已经突破**4万人**！🎉
+
+感谢大家的支持以及将这份简报分享给朋友。\
+有任何改进建议、反馈意见或链接投稿？直接回复这封邮件即可！
+
+本周我们期待已久的React 19稳定版因Suspense行为变更引发争议而稍有延迟。
+
+React Native方面，首个基于React 19的0.75候选版预计很快发布。
+
+<!-- truncate -->
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![企业级React网格定义者](/emails/issues/190/advertfinal.jpg)](https://1771technologies.com/graphitegrid)
+
+**[企业级React网格定义者](https://1771technologies.com/graphitegrid)**
+
+数据网格是Web应用中的复杂组件，但现有方案效率低下、维护成本高且性能不佳。[Graphite Grid](https://1771technologies.com/graphitegrid)通过两大特性改变格局：可重定向渲染与响应式信号状态。
+
+**Graphite Grid**将网格状态与视图逻辑分离，允许单一统一状态模型支持多种渲染目标（声明式或命令式）。内置**DOM和Canvas**渲染器，为开发者提供灵活的高性能选项 🚀。
+
+该网格采用声明式设计并保持一致性，利用状态信号确保与应用无缝集成。专为**React打造**，是唯一基于React状态管理原语构建的JavaScript数据网格。[立即体验！](https://1771technologies.com/graphitegrid/demo)
+
+---
+
+## ⚛️ React动态 {#react}
+
+![Suspense与兄弟组件](/emails/issues/190/suspense.jpg)
+
+**[React 19与Suspense：三幕戏剧](https://tkdodo.eu/blog/react-19-and-suspense-a-drama-in-3-acts)**
+
+两周前发布的React 19 RC.0本可能成为我们期待已久的稳定版。但由于对Suspense行为的争议性修改，React团队决定暂缓发布直至找到解决方案。
+
+与React 18不同，在v19中若组件挂起（suspend），其兄弟组件将不再渲染，可能导致"瀑布流"问题。许多场景下（使用"渲染时获取"模式、React.lazy()等），异步代码会从并行转为串行执行。此变更有其合理性：能更快显示Suspense回退内容，避免无意义渲染。理论上若在路由层"预提升"请求（使用"获取即渲染"模式）可避免瀑布流，但现有应用大多未采用此模式，性能将受影响。
+
+**相关资源**:
+
+- 📜 [React 19如何（险些）拖慢整个互联网](https://blog.codeminer42.com/how-react-19-almost-made-the-internet-slower/)
+- 🔗 [React 19问题：禁用挂起组件的兄弟预渲染破坏常见模式](https://github.com/facebook/react/issues/29898)
+- 🎥 [Jack Herrington - 详解React 19中Suspense的重大变更](https://www.youtube.com/watch?v=sgnw8dRZa3Q)
+- 🎥 [Josh tried coding - React 19存在问题](https://www.youtube.com/watch?v=PZYXTFnP2po)
+
+---
+
+![React内部原理探索器 - 截图+logo](/emails/issues/190/rie.jpg)
+
+**[React内部原理探索器 - 直观了解React工作机制](https://jser.dev/2024-05-11-introducing-rie/)**
+
+一个全新的交互式演练场，可深入探索React底层工作原理。支持逐步查看内部机制，甚至能选择React版本。本期内容尤其值得关注，因为它能直观展示React 18与React 19在Suspense行为上的差异！
+
+---
+
+- 💸 [Meilisearch - 为React构建即时搜索功能](https://www.meilisearch.com/with/react?utm_campaign=sponsoring&utm_content=june-19&utm_source=thisweekinreact)
+- 👀 [React核心PR - 在服务端抛出错误的控制台标记环境名称](https://github.com/facebook/react/pull/29846)：通过[server]控制台标记快速识别错误来源的开发者体验优化。
+- 🐦 [React Router 7 - Ryan Florence预览视频](https://x.com/ryanflorence/status/1801388170891903252)
+- 🗓️ [The Geek Conf](https://www.thegeekconf.com/?utm_source=thisweekinreact) - 🇩🇪 柏林 - 7月18日&25日 - 使用代码"TWIR"可享9折优惠。演讲者包括Tomasz Sapeta (Expo/Software Mansion)、Carmen Huidobro (DevCraft Academy)和Atila Fassina (CrabNebula)！
+- 🗓 [dotJS](https://www.dotjs.io/?utm_source=thisweekinreact) - 🇫🇷 巴黎 - 6月27日 - 距离开幕仅剩1周！使用代码"TWIR"可享9折
+- 📜 [Codemod与React团队达成合作](https://codemod.com/blog/react-announcement)：Codemod公司将协助维护react-codemod代码库，帮助开发者升级至React 19。
+- 📜 [Astro未来系列 - 零JS视图过渡、Astro内容层与服务器岛屿](https://astro.build/blog/future-of-astro-zero-js-view-transitions/)：Astro押注浏览器原生特性（如跨文档视图过渡），这让我们重新思考客户端路由和SPA的必要性。期待他们能解决新模式下组件状态跨页面保持的难题。该团队还计划改进CMS集成（基于LibSQL的可组合方案），并推出类似Suspense的"server:defer"指令（非流式渲染）。
+- 📜 [解密INP：新工具与实践洞察](https://vercel.com/blog/demystifying-inp-new-tools-and-actionable-insights)：Vercel CTO指出新版核心网页指标INP（交互到下次绘制）存在误导性——预加载数据反而可能导致分数降低。通过Next.js文档站点的React示例（JS/TS代码块语言选择器），他解释用户输入必须在200ms内得到响应，建议使用其开发的"await-interaction-response"包或React transitions来分离输入处理与结果渲染。
+- 📜 [React服务端组件与Vite的实践探索](https://danielnagy.me/posts/Post_usaivhdu3j5d)：深度技术文章，从零搭建支持RSC的Vite配置，对框架开发者极具参考价值。作者调侃这是"为猫咪Dan搭建博客的全套工程"😄。
+- 📜 [多参数JavaScript函数组合指南](https://jrsinclair.com/articles/2024/how-to-compose-functions-that-take-multiple-parameters-epic-guide/)：演示如何结合compose()函数与React useState，函数式编程爱好者不容错过。
+- 📜 [带加载状态的React表单（Pending Action）](https://www.robinwieruch.de/react-form-loading-pending-action/)：展示三种获取表单加载状态的方式：useActionState、useFormStatus和useTransition。
+- 📜 [Redwood「重装之爱」- 开发者体验演进](https://redwoodjs.com/blog/love-reloaded-a-dx-story)：Redwood对比三种即时反馈机制的优劣，其RSC方案将先采用live reload，后续再实现fast refresh。
+- 📜 [在Astro中使用React Query](https://hounie.me/writings/how-to-use-react-query-with-astro/)：用nanostores替代React Context的方案。
+- 📜 [Next.js服务端操作安全实践（next-safe-action）](https://www.davegray.codes/posts/nextjs-server-actions-with-next-safe-action)：该库提供类型安全与Zod输入验证。
+- 📜 [Next与Astro的混合国际化方案（四部曲）](https://www.ericburel.tech/blog/hybrid-i18n-next-astro-1)
+- 📜 [编写符合SOLID原则的React Hook](https://www.perssondennis.com/articles/write-solid-react-hooks)
+- 📜 [全栈Web Push API指南 - 为Remix Indie Stack添加推送通知](https://www.bocoup.com/blog/full-stack-web-push-api-guide)
+- 📦 [React DevTools 5.3 - 弱化StrictMode冗余日志，多项修复与重构](https://github.com/facebook/react/blob/main/packages/react-devtools/CHANGELOG.md#530)
+- 📦 [Vercel AI SDK 3.2](https://vercel.com/blog/introducing-vercel-ai-sdk-3-2)：现在仅需useChat()和streamText即可在React项目中构建客户端生成式UI聊天机器人
+- 📦 [Reassure 1.0发布 - React/React Native性能测试工具](https://github.com/callstack/reassure/releases/tag/reassure%401.0.0)
+- 📦 [Fumadocs 12 - Next.js文档框架](https://fumadocs.vercel.app/blog/v12)
+- 📦 [react-distributed-components - 轻松组合客户端与服务端组件](https://github.com/daniel-nagy/react-distributed-components)
+- 📦 [tscircuit - 用React和AI设计电子电路](https://tscircuit.com/)
+- 📦 [Relay 17.0发布](https://github.com/facebook/relay/releases/tag/v17.0.0)
+- 📦 [Sonner 1.5 - Toast库体积缩小3倍，多项改进](https://github.com/emilkowalski/sonner/releases/tag/v.1.5.0)
+- 📦 [Remix隐私栈 - Indie Stack + GDPR/CCPA合规流程 + 自托管方案](https://www.bocoup.com/blog/announcing-the-privacy-stack-for-remix)
+- 🎥 [Delba - Next.js认证最佳实践（服务端组件/操作/中间件）](https://www.youtube.com/watch?v=N_sUsq_y10U)
+- 🎥 [Jolly Coding - 为什么应该使用React Aria组件](https://www.youtube.com/watch?v=lTPh6NGLAmk)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![加入React Native性能优化课程](/emails/issues/190/AdCourseTWIR.jpg)](https://hubs.li/Q02B4mFd0)
+
+**[加入React Native性能优化课程](https://hubs.li/Q02B4mFd0)**
+
+**没有应用能成为拼凑的星球**
+
+因此，若想妥善应对性能瓶颈，必须理解其根源。
+
+这个[实时培训项目](https://hubs.li/Q02B4mFd0)将基于名为DMAIC的数据驱动方法🕵️，助您**破解性能优化谜题**
+
+**5**个互动模块，**3**位资深React Native专家，以及**1**套全面滋养开发生命周期的未来验证框架。
+
+想要参与这场探索？🚀 [**立即加入等候名单**](https://hubs.li/Q02B4mFd0)并标记7月9-10日的日程！
+
+---
+
+## 📱 React-Native {#react-native}
+
+本节由[Benedikt](https://twitter.com/bndkt)撰写。
+
+![](/emails/issues/190/rn.jpg)
+
+本周虽无"重磅头条"，但我想借此机会表彰React Native社区的两个项目。visionOS团队[荣获React开源大奖"最具技术突破性应用"奖项](https://x.com/michalchudziak/status/1801632496100008121)，而Infinite Red团队本周发布了[React Native Radio播客第300期](https://reactnativeradio.com/episodes/rnr-300-special-episode-ask-us-anything)。祝贺这两个团队，感谢你们为社区做出的贡献！
+
+---
+
+- 💸 [WithFrame - 预构建的React Native组件](https://withfra.me/?utm_source=thisweekinreact&utm_medium=email&utm_campaign=quick-link--3)
+- 🐦 [React Native visionOS荣获React开源大奖](https://x.com/michalchudziak/status/1801632496100008121)：恭喜！
+- 🐦 [新版React Native IDE测试版发布，速度提升](https://x.com/kzzzf/status/1801367065086816449)
+- 👀 [React Native 0.75 PR - 将依赖升级至React 19](https://github.com/facebook/react-native/pull/44990)
+- 👀 [React Native PR - requestIdleCallback](https://github.com/facebook/react-native/pull/44759)：在主事件循环中调度后台和低优先级任务。
+- 📖 [Expo文档 - React编译器 - 从Expo SDK 51开始可用](https://docs.expo.dev/guides/react-compiler/)：当然仍处于实验阶段。
+- 🗓 [Chain React大会](https://chainreactconf.com/?utm_source=thisweekinreact) - 🇺🇸 美国俄勒冈州波特兰 - 7月17-19日。美国React Native大会回归，带来精彩演讲和动手实践工作坊！使用优惠码"TWIR"可享门票15%折扣。
+- 📜 [Infinite Red维护的顶级React Native应用列表](https://shift.infinite.red/top-react-native-apps-1cae78fdee22)：没想到汉堡王和必胜客的App是用RN构建的。如果你知道某个优秀应用应该上榜，可以提名它——即使不是快餐连锁店！
+- 📜 [Reanimated可能阻塞你的JS线程](https://andrei-calazans.com/posts/reanimated-blocking-js-thread/)：是的，使用共享值时可能会搬起石头砸自己的脚，这是个很好的提醒，需要评估某个值是否需要成为共享值。
+- 📜 [使用Wagmi和Anvil测试Expo Web3应用](https://www.callstack.com/blog/testing-expo-web3-apps-with-wagmi-and-anvil)：即使你像我一样现在听到Web3这个词就会立刻睡着，这篇文章仍是个很好的测试示例教程，包括模拟测试等方面。
+- 📜 [棒球+React Native=成功](https://www.thewidlarzgroup.com/portfolio/flexpro-grip)：我喜欢看到用RN构建的非典型应用（不只是记录列表）。这是为棒球运动员训练握力的FlexPro Grip设备开发的App示例。
+- 📜 [通过ExecuTorch为移动应用带来原生AI支持——第一部分 iOS](https://blog.swmansion.com/bringing-native-ai-to-your-mobile-apps-with-executorch-part-i-ios-f1562a4556e8)
+- 📦 [react-navigation-bottom-sheet](https://github.com/th3rdwave/react-navigation-bottom-sheet)：我是@gorhom/bottom-sheet的忠实粉丝，这个新库将其与React Navigation集成。
+- 📦 [react-native-screens 3.32.0 - iOS上的返回按钮显示模式，Android的navigationBarTranslucent属性](https://github.com/software-mansion/react-native-screens/releases/tag/3.32.0)
+- 📦 [react-native-config 1.5.2新增visionOS支持](https://github.com/lugg/react-native-config/releases/tag/v1.5.2)
+- 📦 [react-native-gesture-handler 2.17.0](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.17.0)
+- 🎙️ [RNR第300期特别节目：问我们任何问题！](https://reactnativeradio.com/episodes/rnr-300-special-episode-ask-us-anything)
+- 🎙️ [Rocket Ship第43期 - 与Youssouf El Azizi探讨React Native最佳实践模板](https://share.transistor.fm/s/cc24a442)
+- 🎥 [notJust․dev - 使用React Native和Mapbox构建电动滑板车App](https://www.youtube.com/live/uxj8jnlooP8)
+- 🎥 [Simon Grimm - 5个让用户惊艳的React Native技巧](https://www.youtube.com/watch?v=pZgjlh5ezd4)
+- 🎥 [Baptiste Devessier - Expo中的XState](https://www.youtube.com/watch?v=HuXnUGfHKZs)：今天才知道Expo Updates使用了XState。
+
+---
+
+## 🔀 其他 {#other}
+
+- 📣 [第102次TC39会议更新 - Promise.try、isError、Discard Bindings、RegExp.escape、迭代器等新提案](https://dev.to/hemanth/updates-from-the-102nd-tc39-meeting-i4i)
+- 📜 [CSS自定义属性的条件判断(if)](https://geoffgraham.me/conditionals-on-custom-properties/)
+- 📜 [Drizzle框架正式发布](https://frontendmasters.com/blog/introducing-drizzle/)
+- 📜 [Node.js将长盛不衰](https://blog.platformatic.dev/nodejs-is-here-to-stay)
+- 📜 [CSS与Web UI最新动态：I/O 2024大会回顾](https://developer.chrome.com/blog/new-in-web-ui-io-2024?hl=en)
+- 📜 [用Arktype替代Zod - 解析器适配指南](https://dev.to/seasonedcc/using-arktype-in-place-of-zod-how-to-adapt-parsers-3bd5)
+- 📜 [使用预加载规则打造极速网站](https://www.debugbear.com/blog/speculation-rules)
+- 📦 [Node.js 22.3发布 - 快照测试、模块模拟(实验性)、fs.cp()稳定版](https://nodejs.org/en/blog/release/v22.3.0)
+- 📦 [htmx 2.0正式发布](https://htmx.org/posts/2024-06-17-htmx-2-0-0-is-released/)
+
+---
+
+## 🤭 轻松一刻 {#fun}
+
+[![alt](/emails/issues/190/meme.jpg)](https://x.com/trashh_dev/status/1803151970078957936)
+
+下次见！👋

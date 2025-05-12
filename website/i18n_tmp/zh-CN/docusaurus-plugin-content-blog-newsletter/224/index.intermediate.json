@@ -1,0 +1,317 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/224/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /224\ntitle: \"This Week In React #224: Next.js, TanStack Form, Astro, RTK, State Machine, Remix, StyleX | Lynx, Entreprise, SwiftUI, VisionOS, Windows, Hermes, Expo | Node.js, TypeScript, ArkType, Nitro, BetterAuth\"\nauthors: [slorber]\ndate: 03-05-2025\n---",
+      "sourceMdx": "---\nslug: /224\ntitle: \"This Week In React #224: Next.js, TanStack Form, Astro, RTK, State Machine, Remix, StyleX | Lynx, Entreprise, SwiftUI, VisionOS, Windows, Hermes, Expo | Node.js, TypeScript, ArkType, Nitro, BetterAuth\"\nauthors: [slorber]\ndate: 03-05-2025\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "This week we have:",
+      "sourceMdx": "This week we have:"
+    },
+    {
+      "id": "143e51c1",
+      "translatable": true,
+      "content": "* **React**: A cool Next.js release improving the DX, and TanStack Form launching a stable v1.\n* **React Native**: The field is getting more competitive, with ByteDance, Callstack and early signals of Vercel mobile activity.\n* **Other**: TypeScript support keeps improving!",
+      "sourceMdx": "- **React**: A cool Next.js release improving the DX, and TanStack Form launching a stable v1.\n- **React Native**: The field is getting more competitive, with ByteDance, Callstack and early signals of Vercel mobile activity.\n- **Other**: TypeScript support keeps improving!"
+    },
+    {
+      "id": "86b54d44",
+      "translatable": true,
+      "content": "Check our partner conf [React-Summit](https://reactsummit.com/?utm_source=Newsletter\\&utm_medium=thisweekinreact) - 🇳🇱 Amsterdam - 13 & 17 June - The biggest React conf worldwide! Use promo code TWIR for 10% off tickets.",
+      "sourceMdx": "Check our partner conf [React-Summit](https://reactsummit.com/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇳🇱 Amsterdam - 13 & 17 June - The biggest React conf worldwide! Use promo code TWIR for 10% off tickets."
+    },
+    {
+      "id": "45c63027",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "92f4ea84",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "5dfba1c3",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "1856ef44",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "79b2d0b9",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "d9172fa4",
+      "translatable": true,
+      "content": "[![Convex: The Database Designed for AI Coding](/emails/issues/224/convex.jpg)](https://convex.link/thisweekai)",
+      "sourceMdx": "[![Convex: The Database Designed for AI Coding](/emails/issues/224/convex.jpg)](https://convex.link/thisweekai)"
+    },
+    {
+      "id": "26524352",
+      "translatable": true,
+      "content": "**[Convex: The Database Designed for AI Coding](https://convex.link/thisweekai)**",
+      "sourceMdx": "**[Convex: The Database Designed for AI Coding](https://convex.link/thisweekai)**"
+    },
+    {
+      "id": "73ab96a3",
+      "translatable": true,
+      "content": "In the age of code generation, you need a backend that you can confidently generate with AI platforms. Convex is by far and away [best in class](https://stack.convex.dev/introducing-fullstack-bench) in this respect.",
+      "sourceMdx": "In the age of code generation, you need a backend that you can confidently generate with AI platforms. Convex is by far and away [best in class](https://stack.convex.dev/introducing-fullstack-bench) in this respect."
+    },
+    {
+      "id": "7499a4e7",
+      "translatable": true,
+      "content": "This is because Convex is just TypeScript, allowing you to write [queries as code](https://docs.convex.dev/functions/query-functions/) that are automatically transactional, cached, and realtime.",
+      "sourceMdx": "This is because Convex is just TypeScript, allowing you to write [queries as code](https://docs.convex.dev/functions/query-functions/) that are automatically transactional, cached, and realtime."
+    },
+    {
+      "id": "517051a7",
+      "translatable": true,
+      "content": "And that’s just the beginning. With Convex, you can:",
+      "sourceMdx": "And that’s just the beginning. With Convex, you can:"
+    },
+    {
+      "id": "157151e9",
+      "translatable": true,
+      "content": "* Easily schedule functions and write cron jobs\n* Set up file storage\n* Write efficient server functions\n* And so much more…",
+      "sourceMdx": "- Easily schedule functions and write cron jobs\n- Set up file storage\n- Write efficient server functions\n- And so much more…"
+    },
+    {
+      "id": "1042b50d",
+      "translatable": true,
+      "content": "[Try a Quickstart today](https://docs.convex.dev/quickstarts)",
+      "sourceMdx": "[Try a Quickstart today](https://docs.convex.dev/quickstarts)"
+    },
+    {
+      "id": "39993511",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "f44c1398",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "29528c8d",
+      "translatable": true,
+      "content": "[![Next.js 15.2](/emails/issues/224/next.jpg)](https://nextjs.org/blog/next-15-2)",
+      "sourceMdx": "[![Next.js 15.2](/emails/issues/224/next.jpg)](https://nextjs.org/blog/next-15-2)"
+    },
+    {
+      "id": "c504c207",
+      "translatable": true,
+      "content": "[**Next.js 15.2**](https://nextjs.org/blog/next-15-2)",
+      "sourceMdx": "[**Next.js 15.2**](https://nextjs.org/blog/next-15-2)"
+    },
+    {
+      "id": "98d26038",
+      "translatable": true,
+      "content": "Vercel released a new minor version of Next.js, with major DX improvements. Highlights include:",
+      "sourceMdx": "Vercel released a new minor version of Next.js, with major DX improvements. Highlights include:"
+    },
+    {
+      "id": "c94a9c0e",
+      "translatable": true,
+      "content": "* Redesigned error UI and improved stack traces: A redesigned debugging experience leveraging the brand-new React [`captureOwnerStack()`](https://react.dev/reference/react/captureOwnerStack) API\n* Streaming metadata: Async metadata will no longer block page rendering or client-side page transitions\n* Turbopack performance improvements: Faster compile times and reduced memory usage\n* React View Transitions (experimental): Experimental support for React's new View Transitions API\n* Node.js Middleware (experimental): Experimental support for using the Node.js runtime in Middleware",
+      "sourceMdx": "- Redesigned error UI and improved stack traces: A redesigned debugging experience leveraging the brand-new React [`captureOwnerStack()`](https://react.dev/reference/react/captureOwnerStack) API\n- Streaming metadata: Async metadata will no longer block page rendering or client-side page transitions\n- Turbopack performance improvements: Faster compile times and reduced memory usage\n- React View Transitions (experimental): Experimental support for React's new View Transitions API\n- Node.js Middleware (experimental): Experimental support for using the Node.js runtime in Middleware"
+    },
+    {
+      "id": "aa7d3f2b",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "8b2a52b1",
+      "translatable": true,
+      "content": "[![TanStack Form 1.0](/emails/issues/224/form.jpg)](https://tanstack.com/blog/announcing-tanstack-form-v1)",
+      "sourceMdx": "[![TanStack Form 1.0](/emails/issues/224/form.jpg)](https://tanstack.com/blog/announcing-tanstack-form-v1)"
+    },
+    {
+      "id": "5dae11e3",
+      "translatable": true,
+      "content": "[**TanStack Form 1.0**](https://tanstack.com/blog/announcing-tanstack-form-v1)",
+      "sourceMdx": "[**TanStack Form 1.0**](https://tanstack.com/blog/announcing-tanstack-form-v1)"
+    },
+    {
+      "id": "0bb95128",
+      "translatable": true,
+      "content": "A new TanStack library, years in the making, has just been released as stable. The announcement post highlights an interesting subset of its features:",
+      "sourceMdx": "A new TanStack library, years in the making, has just been released as stable. The announcement post highlights an interesting subset of its features:"
+    },
+    {
+      "id": "a4bd3cfc",
+      "translatable": true,
+      "content": "* Framework agnostic, headless: Supports 5 frameworks, including React used in the post's examples\n* Extreme type safety: I must admit `<form.Field>` is a pretty cool API\n* Schema validation: Support for Zod, Valibot, ArkType, Standard Schema\n* Async validation, built-in debouncing, AbortSignal\n* Isomorphic, multi-platform: share validation logic across client/server",
+      "sourceMdx": "- Framework agnostic, headless: Supports 5 frameworks, including React used in the post's examples\n- Extreme type safety: I must admit `<form.Field>` is a pretty cool API\n- Schema validation: Support for Zod, Valibot, ArkType, Standard Schema\n- Async validation, built-in debouncing, AbortSignal\n- Isomorphic, multi-platform: share validation logic across client/server"
+    },
+    {
+      "id": "01868def",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "caffd879",
+      "translatable": true,
+      "content": "* 💸 [Clerk - Build session-based authentication with React and Express](https://go.clerk.com/HRqsMAP)\n* 👀 [Rsbuild Plugin React Router - Epic Stack example](https://github.com/rspack-contrib/rsbuild-plugin-react-router/tree/main/examples/epic-stack): Did you know that Rsbuild can be used as an alternative to Vite for React Router framework mode? Yep, it can even run Kent’s favorite stack.\n* 🗓️ [React Paris 2025](https://react.paris/?utm_source=thisweekinreact) - 🇫🇷 Paris - 20 & 21 March (2 days) / 19th of March (Workshops) - Last call to join the React Event of the year in Paris. Get 20% off tickets with code \"TWIR\"!\n* 🗓️ [dotJS 2025](https://www.dotjs.io/?utm_source=thisweekinreact) - 🇫🇷 Paris - 03 April - Last week of regular registration! Secure your spot now to save 200€ until March 11. Join Ryan Dahl, Sarah Drasner, Wes Bos, Angie Jones, Kyle Simpson, Matteo Collina, Eduardo San Martin Morote and more! Get 15% off tickets with code \"TWIR”.\n* 📜 [\\{transitions} = f(state)](https://jordaneldredge.com/blog/transitions-f-of-state/): A rather philosophical article explaining that React can be seen as a state machine where the possible state transitions are implicitly defined by its event handlers. The asynchronous/concurrent nature of React makes it possible to introduce invalid state transitions that you should guard against explicitly.\n* 📜 [Building APIs with Next.js](https://nextjs.org/blog/building-apis-with-nextjs): New official guide from Lee Robinson, covering many cases and answering common questions.\n* 📜 [It's probably time to stop recommending Redux](https://www.bennett.ink/its-probably-time-to-stop-recommending-redux): Argues you probably don’t need a global state manager and can go a long way with an API cache + `useState`.\n* 📜 [Signals in React? Not a good idea](https://www.felgus.dev/blog/signals-in-react): React doesn’t have first-class signal support on purpose, and relies on raw data.\n* 📜 [React, Solid, htmx: Part 2](https://bobaekang.com/blog/react-solid-htmx-part-2/): The recent evolution of multiple frameworks, all pushing the web forward in their way.\n* 📜 [Building an InertiaJS app with Rails](https://avohq.io/blog/inertia-js-with-rails): A complete example of a seamless integration of a React frontend with a Rails backend through Inertia, without the need for an API.\n* 📜 [How to Show a 404 in React Router](https://sergiodxa.com/tutorials/create-show-a-404-in-react-router)\n* 📦 [XState Store 3.0](https://stately.ai/blog/2025-02-26-xstate-store-v3): I particularly like the new `store.trigger` API that permits using the store more ergonomically, in particular for cases where event-driven indirection is not useful. This new version makes it an interesting alternative to Zustand, still lightweight but more opinionated, and a path toward adopting real XState state machines.\n* 📦 [Isograph 0.3 - Modern GraphQL framework, support for Relay-style connections, fetch policies](https://isograph.dev/blog/2025/03/03/isograph-0.3.0/)\n* 📦 [Astro 5.4 - Remote image optimization in Markdown, enhanced security for dev and preview servers](https://astro.build/blog/astro-540)\n* 📦 [React Hook Form Lenses - Focus on specific parts of your deeply nested form state](https://github.com/react-hook-form/lenses)\n* 📦 [StyleX 0.11 - Debugging, CLI caching and docs improvements](https://stylexjs.com/blog/v0.11.0)\n* 📦 [Redux Toolkit 2.6 - Infinite Query support](https://github.com/reduxjs/redux-toolkit/releases/tag/v2.6.0)\n* 📦 [Remix 2.16 - Vite 6 support](https://github.com/remix-run/remix/blob/main/CHANGELOG.md#v2160)\n* 🎥 [Jack Herrington - React’s New ViewTransition Component Is A Little Flakey](https://www.youtube.com/watch?v=xfzNXa8WYW8)\n* 🎥 [Alem Tuzlak - React Router just made your apps faster (splitRouteModules)](https://www.youtube.com/watch?v=A96Xkc9GiGY)\n* 🎙️ [This Month in React - CRA, React Router, RTK, TypeScript, Astro, Standard Schema](https://creators.spotify.com/pod/show/reactiflux/episodes/TMiR-2025-02-Updated-new-project-docs-e2vj003)",
+      "sourceMdx": "- 💸 [Clerk - Build session-based authentication with React and Express](https://go.clerk.com/HRqsMAP)\n- 👀 [Rsbuild Plugin React Router \\- Epic Stack example](https://github.com/rspack-contrib/rsbuild-plugin-react-router/tree/main/examples/epic-stack): Did you know that Rsbuild can be used as an alternative to Vite for React Router framework mode? Yep, it can even run Kent’s favorite stack.\n- 🗓️ [React Paris 2025](https://react.paris/?utm_source=thisweekinreact) - 🇫🇷 Paris - 20 & 21 March (2 days) / 19th of March (Workshops) - Last call to join the React Event of the year in Paris. Get 20% off tickets with code \"TWIR\"!\n- 🗓️ [dotJS 2025](https://www.dotjs.io/?utm_source=thisweekinreact) - 🇫🇷 Paris - 03 April - Last week of regular registration! Secure your spot now to save 200€ until March 11. Join Ryan Dahl, Sarah Drasner, Wes Bos, Angie Jones, Kyle Simpson, Matteo Collina, Eduardo San Martin Morote and more! Get 15% off tickets with code \"TWIR”.\n- 📜 [\\{transitions} \\= f(state)](https://jordaneldredge.com/blog/transitions-f-of-state/): A rather philosophical article explaining that React can be seen as a state machine where the possible state transitions are implicitly defined by its event handlers. The asynchronous/concurrent nature of React makes it possible to introduce invalid state transitions that you should guard against explicitly.\n- 📜 [Building APIs with Next.js](https://nextjs.org/blog/building-apis-with-nextjs): New official guide from Lee Robinson, covering many cases and answering common questions.\n- 📜 [It's probably time to stop recommending Redux](https://www.bennett.ink/its-probably-time-to-stop-recommending-redux): Argues you probably don’t need a global state manager and can go a long way with an API cache \\+ `useState`.\n- 📜 [Signals in React? Not a good idea](https://www.felgus.dev/blog/signals-in-react): React doesn’t have first-class signal support on purpose, and relies on raw data.\n- 📜 [React, Solid, htmx: Part 2](https://bobaekang.com/blog/react-solid-htmx-part-2/): The recent evolution of multiple frameworks, all pushing the web forward in their way.\n- 📜 [Building an InertiaJS app with Rails](https://avohq.io/blog/inertia-js-with-rails): A complete example of a seamless integration of a React frontend with a Rails backend through Inertia, without the need for an API.\n- 📜 [How to Show a 404 in React Router](https://sergiodxa.com/tutorials/create-show-a-404-in-react-router)\n- 📦 [XState Store 3.0](https://stately.ai/blog/2025-02-26-xstate-store-v3): I particularly like the new `store.trigger` API that permits using the store more ergonomically, in particular for cases where event-driven indirection is not useful. This new version makes it an interesting alternative to Zustand, still lightweight but more opinionated, and a path toward adopting real XState state machines.\n- 📦 [Isograph 0.3 \\- Modern GraphQL framework, support for Relay-style connections, fetch policies](https://isograph.dev/blog/2025/03/03/isograph-0.3.0/)\n- 📦 [Astro 5.4 \\- Remote image optimization in Markdown, enhanced security for dev and preview servers](https://astro.build/blog/astro-540)\n- 📦 [React Hook Form Lenses \\- Focus on specific parts of your deeply nested form state](https://github.com/react-hook-form/lenses)\n- 📦 [StyleX 0.11 \\- Debugging, CLI caching and docs improvements](https://stylexjs.com/blog/v0.11.0)\n- 📦 [Redux Toolkit 2.6 \\- Infinite Query support](https://github.com/reduxjs/redux-toolkit/releases/tag/v2.6.0)\n- 📦 [Remix 2.16 \\- Vite 6 support](https://github.com/remix-run/remix/blob/main/CHANGELOG.md#v2160)\n- 🎥 [Jack Herrington \\- React’s New ViewTransition Component Is A Little Flakey](https://www.youtube.com/watch?v=xfzNXa8WYW8)\n- 🎥 [Alem Tuzlak \\- React Router just made your apps faster (splitRouteModules)](https://www.youtube.com/watch?v=A96Xkc9GiGY)\n- 🎙️ [This Month in React \\- CRA, React Router, RTK, TypeScript, Astro, Standard Schema](https://creators.spotify.com/pod/show/reactiflux/episodes/TMiR-2025-02-Updated-new-project-docs-e2vj003)"
+    },
+    {
+      "id": "c2059547",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed placement=\"middle\" />",
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+    },
+    {
+      "id": "fc25fa9c",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "94145a94",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "2838eb68",
+      "translatable": true,
+      "content": "[![Hands-on debugging session: instrument, monitor & fix](/emails/issues/224/sentry.jpg)](https://dub.sh/debugging-workshop)",
+      "sourceMdx": "[![Hands-on debugging session: instrument, monitor & fix](/emails/issues/224/sentry.jpg)](https://dub.sh/debugging-workshop)"
+    },
+    {
+      "id": "4be28ed1",
+      "translatable": true,
+      "content": "**[Hands-on debugging session: instrument, monitor & fix](https://dub.sh/debugging-workshop)**",
+      "sourceMdx": "**[Hands-on debugging session: instrument, monitor & fix](https://dub.sh/debugging-workshop)**"
+    },
+    {
+      "id": "0e80209e",
+      "translatable": true,
+      "content": "Join Lazar from Sentry for a hands-on session where you’ll build it, break it, debug it, and fix it. You’ll set up Sentry, track errors, use Session Replay and Tracing, and leverage some good ol’ AI to find and fix issues fast.",
+      "sourceMdx": "Join Lazar from Sentry for a hands-on session where you’ll build it, break it, debug it, and fix it. You’ll set up Sentry, track errors, use Session Replay and Tracing, and leverage some good ol’ AI to find and fix issues fast."
+    },
+    {
+      "id": "3c5a1374",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "8574d51c",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "e9313fef",
+      "translatable": true,
+      "content": "[![Lynx: Unlock Native for More](/emails/issues/224/lynx.jpg)](https://lynxjs.org/blog/lynx-unlock-native-for-more)",
+      "sourceMdx": "[![Lynx: Unlock Native for More](/emails/issues/224/lynx.jpg)](https://lynxjs.org/blog/lynx-unlock-native-for-more)"
+    },
+    {
+      "id": "1b4de6df",
+      "translatable": true,
+      "content": "[**Lynx: Unlock Native for More**](https://lynxjs.org/blog/lynx-unlock-native-for-more)",
+      "sourceMdx": "[**Lynx: Unlock Native for More**](https://lynxjs.org/blog/lynx-unlock-native-for-more)"
+    },
+    {
+      "id": "1958bc43",
+      "translatable": true,
+      "content": "ByteDance just announced Lynx, their native cross-platform technology. It’s used extensively in their production apps, including TikTok! With React bindings, it’s a serious competitor to React Native, and support for other frameworks is expected. The architectural choices are interesting, with a dual-thread model and different runtimes. It has support for some CSS and Web APIs that even React Native still doesn’t have and uses convenient built-in JSX intrinsic elements like `<view>`.",
+      "sourceMdx": "ByteDance just announced Lynx, their native cross-platform technology. It’s used extensively in their production apps, including TikTok\\! With React bindings, it’s a serious competitor to React Native, and support for other frameworks is expected. The architectural choices are interesting, with a dual-thread model and different runtimes. It has support for some CSS and Web APIs that even React Native still doesn’t have and uses convenient built-in JSX intrinsic elements like `<view>`."
+    },
+    {
+      "id": "a8610918",
+      "translatable": true,
+      "content": "The feature set at launch is impressive, but there are also some surprising things you might dislike, such as using React 17 / Preact, or custom elements on the web. Time will tell whether the technology lives up to its promise and can truly compete with the established player. In any case, competition is healthy.",
+      "sourceMdx": "The feature set at launch is impressive, but there are also some surprising things you might dislike, such as using React 17 / Preact, or custom elements on the web. Time will tell whether the technology lives up to its promise and can truly compete with the established player. In any case, competition is healthy."
+    },
+    {
+      "id": "862bb4be",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "82abb0a4",
+      "translatable": true,
+      "content": "* 💸 [WithFrame - Pre-built React Native templates](https://withfra.me/templates)\n* 👀 [Fernando Rojo joins Vercel as Head of Mobile](https://x.com/rauchg/status/1896943726486032783): Interesting to see Vercel deploying resources in the React mobile/cross-platform space.\n* 👀 [React Native Framework for Enterprise](https://enterprise-framework.callstack.com/): Callstack unveils plans to open source a new RN framework tailored for enterprise needs.\n* 💬 [Riccardo clarifies Hermes confusion](https://github.com/facebook/react-native/pull/48531): Compiling to native code is not ready for prime time, but we can expect a new version of Hermes with bytecode translation to land first.\n* 📜 [Exposing SwiftUI Views to React Native: An Integration Guide](https://www.callstack.com/blog/exposing-swiftui-views-to-react-native-an-integration-guide): Shows how to build a SwiftUI paywall in React Native that works for both architectures.\n* 📜 [Expo's AI Strategy](https://expo.dev/ai/strategy): Democratizing app creation, expanding the audience of the Expo framework and EAS to include both human developers and AI agents.\n* 📜 [State of React Native 2024: Our Key Takeaways](https://blog.swmansion.com/wstate-of-react-native-2024-our-key-takeaways-19a7c0039d36)\n* 📜 [4 must-have Radon IDE features for convenient Expo development](https://expo.dev/blog/4-must-have-radon-ide-features-for-even-more-convenient-expo-development)\n* 📜 [Implementing Internationalisation in React Native Apps](https://addjam.com/blog/2025-02-27/implementing-internationalisation-react-native/)\n* 📦 [Re.Pack 5.0 - Mobile Microfrontends, 5x Faster, Less Configuration](https://re-pack.dev/blog/repack-5-release): This alternative bundler aims to be a drop-in alternative to Metro. The new version supports Rspack for speed, Module Federation 2 for microfrontends, and has plugins for Reanimated, Expo Modules, NativeWind.\n* 📦 [Metro 0.81.3 - Support resolving package.json import subpaths](https://github.com/facebook/metro/releases/tag/v0.81.3)\n* 📦 [React Native VisionOS 0.78](https://github.com/callstack/react-native-visionos/releases/tag/v0.78.0-visionos)\n* 📦 [React Native Windows 0.78](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.78.0)\n* 🎥 [Dan's Lab - Build Layouts By Instagram with Expo and React-Native](https://www.youtube.com/watch?v=MKCUOLapII4)\n* 🎥 [Beto - Master Expo Router API Routes | Handle Requests & Stream Data](https://www.youtube.com/watch?v=2_UzR1wdimI)\n* 🎥 [Catalin Miron - Interactive Confetti Animation - Reanimated, Gestures & Skia!](https://www.youtube.com/watch?v=MPVUL3MhfZ0)\n* 🎙️ [React Native Radio 323 - Static Hermes with Tzvetan Mikov](https://infinite.red/react-native-radio/rnr-323-static-hermes-with-tzvetan-mikov)\n* 🎙️ [React Universe On Air 49 - App Development With React Native Is Not Just Mobile, But Bigger](https://www.youtube.com/watch?v=G1_RMxtswsc)",
+      "sourceMdx": "- 💸 [WithFrame - Pre-built React Native templates](https://withfra.me/templates)\n- 👀 [Fernando Rojo joins Vercel as Head of Mobile](https://x.com/rauchg/status/1896943726486032783): Interesting to see Vercel deploying resources in the React mobile/cross-platform space.\n- 👀 [React Native Framework for Enterprise](https://enterprise-framework.callstack.com/): Callstack unveils plans to open source a new RN framework tailored for enterprise needs.\n- 💬 [Riccardo clarifies Hermes confusion](https://github.com/facebook/react-native/pull/48531): Compiling to native code is not ready for prime time, but we can expect a new version of Hermes with bytecode translation to land first.\n- 📜 [Exposing SwiftUI Views to React Native: An Integration Guide](https://www.callstack.com/blog/exposing-swiftui-views-to-react-native-an-integration-guide): Shows how to build a SwiftUI paywall in React Native that works for both architectures.\n- 📜 [Expo's AI Strategy](https://expo.dev/ai/strategy): Democratizing app creation, expanding the audience of the Expo framework and EAS to include both human developers and AI agents.\n- 📜 [State of React Native 2024: Our Key Takeaways](https://blog.swmansion.com/wstate-of-react-native-2024-our-key-takeaways-19a7c0039d36)\n- 📜 [4 must-have Radon IDE features for convenient Expo development](https://expo.dev/blog/4-must-have-radon-ide-features-for-even-more-convenient-expo-development)\n- 📜 [Implementing Internationalisation in React Native Apps](https://addjam.com/blog/2025-02-27/implementing-internationalisation-react-native/)\n- 📦 [Re.Pack 5.0 \\- Mobile Microfrontends, 5x Faster, Less Configuration](https://re-pack.dev/blog/repack-5-release): This alternative bundler aims to be a drop-in alternative to Metro. The new version supports Rspack for speed, Module Federation 2 for microfrontends, and has plugins for Reanimated, Expo Modules, NativeWind.\n- 📦 [Metro 0.81.3 \\- Support resolving package.json import subpaths](https://github.com/facebook/metro/releases/tag/v0.81.3)\n- 📦 [React Native VisionOS 0.78](https://github.com/callstack/react-native-visionos/releases/tag/v0.78.0-visionos)\n- 📦 [React Native Windows 0.78](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.78.0)\n- 🎥 [Dan's Lab \\- Build Layouts By Instagram with Expo and React-Native](https://www.youtube.com/watch?v=MKCUOLapII4)\n- 🎥 [Beto \\- Master Expo Router API Routes | Handle Requests & Stream Data](https://www.youtube.com/watch?v=2_UzR1wdimI)\n- 🎥 [Catalin Miron \\- Interactive Confetti Animation \\- Reanimated, Gestures & Skia\\!](https://www.youtube.com/watch?v=MPVUL3MhfZ0)\n- 🎙️ [React Native Radio 323 \\- Static Hermes with Tzvetan Mikov](https://infinite.red/react-native-radio/rnr-323-static-hermes-with-tzvetan-mikov)\n- 🎙️ [React Universe On Air 49 \\- App Development With React Native Is Not Just Mobile, But Bigger](https://www.youtube.com/watch?v=G1_RMxtswsc)"
+    },
+    {
+      "id": "c63467a3",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "73776161",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "6b304caa",
+      "translatable": true,
+      "content": "* 👀 [Node.js PR - Unflag TypeScrit support in v22](https://github.com/nodejs/node/pull/57298): TypeScript support should be in a Node LTS version soon!\n* 📜 [Async, Sync, in Between](https://antfu.me/posts/async-sync-in-between): Using generators to create colorless functions, an interesting approach that reminds the Effect lib.\n* 📜 [The HTML command and commandfor attributes](https://fullystacked.net/command-and-commandfor/)\n* 📦 [TypeScript 5.8 - `erasableSyntaxOnly`, `require(esm)`, dependent return type narrowing](https://devblogs.microsoft.com/typescript/announcing-typescript-5-8/): A flag you should probably turn on if you ever want to run TypeScript natively in Node!\n* 📦 [Better Auth 1.2 - Stripe, Captcha, API Keys, Teams, Init CLI, and more](https://www.better-auth.com/changelogs/1-2)\n* 📦 [ArkType 2.1 - Pattern matching](https://github.com/arktypeio/arktype/releases/tag/arktype%402.1.0)\n* 📦 [Nitro 2.11 - Improved errors, dev server, database support and more](https://github.com/nitrojs/nitro/releases/tag/v2.11.0)",
+      "sourceMdx": "- 👀 [Node.js PR \\- Unflag TypeScrit support in v22](https://github.com/nodejs/node/pull/57298): TypeScript support should be in a Node LTS version soon\\!\n- 📜 [Async, Sync, in Between](https://antfu.me/posts/async-sync-in-between): Using generators to create colorless functions, an interesting approach that reminds the Effect lib.\n- 📜 [The HTML command and commandfor attributes](https://fullystacked.net/command-and-commandfor/)\n- 📦 [TypeScript 5.8 \\- `erasableSyntaxOnly`, `require(esm)`, dependent return type narrowing](https://devblogs.microsoft.com/typescript/announcing-typescript-5-8/): A flag you should probably turn on if you ever want to run TypeScript natively in Node\\!\n- 📦 [Better Auth 1.2 \\- Stripe, Captcha, API Keys, Teams, Init CLI, and more](https://www.better-auth.com/changelogs/1-2)\n- 📦 [ArkType 2.1 \\- Pattern matching](https://github.com/arktypeio/arktype/releases/tag/arktype%402.1.0)\n- 📦 [Nitro 2.11 \\- Improved errors, dev server, database support and more](https://github.com/nitrojs/nitro/releases/tag/v2.11.0)"
+    },
+    {
+      "id": "70a662e2",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "97afbaf0",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "a8f09c71",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/224/meme.jpg)](https://x.com/devagrawal09/status/1894892406480281924)",
+      "sourceMdx": "[![alt](/emails/issues/224/meme.jpg)](https://x.com/devagrawal09/status/1894892406480281924)"
+    },
+    {
+      "id": "d2a3d4c7",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/224/meme2.jpg)](https://x.com/aidenybai/status/1895868884986778103)",
+      "sourceMdx": "[![alt](/emails/issues/224/meme2.jpg)](https://x.com/aidenybai/status/1895868884986778103)"
+    },
+    {
+      "id": "008183b0",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

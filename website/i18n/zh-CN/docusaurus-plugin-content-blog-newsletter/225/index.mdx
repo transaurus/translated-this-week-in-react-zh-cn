@@ -1,0 +1,145 @@
+---
+slug: /225
+title: "This Week In React #225: React Router, React Aria, Ark, moveBefore(), Ark | JSC, Lynx, Metro, Reanimated, AI, Radon, Galeria, Zeego, Legal | TypeScript, Deno, Web Almanac"
+authors: [slorber]
+date: 03-12-2025
+---
+
+大家好！
+
+本周我们有以下内容：
+
+- **React**：一系列优质文章，以及React Router和React Aria的重大更新。
+- **React Native**：社区对Lynx的热议及多项新动态。
+- **其他**：TypeScript宣布将移植到Go语言的激动人心计划。
+
+查看我们的合作伙伴会议🗓 [Future Frontend](https://futurefrontend.com/?utm_source=thisweekinreact) - 🇫🇮 芬兰埃斯波 - 5月26-28日。芬兰单轨道会议，带您窥见前端技术未来！
+
+<!-- truncate -->
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![将React代码审查时间和错误减少一半](/emails/issues/225/coderabbit.jpg)](https://www.coderabbit.ai?utm_source=newsletter&utm_medium=email&utm_campaign=this_week_in_react_mar25)
+
+**[将React代码审查时间和错误减少一半](https://www.coderabbit.ai?utm_source=newsletter&utm_medium=email&utm_campaign=this_week_in_react_mar25)**
+
+代码审查至关重要但耗时。CodeRabbit作为您的AI副驾驶，即时提供代码审查意见和每次拉取请求的潜在影响分析。
+
+不仅发现问题，CodeRabbit还提供一键修复建议，并允许您通过AST Grep模式定义自定义代码质量规则，捕捉传统静态分析工具可能遗漏的细微问题。
+
+CodeRabbit已审查超过500万次PR，安装在100万个代码库中，被5万个开源项目使用。所有开源项目可免费使用。[立即体验！](https://www.coderabbit.ai?utm_source=newsletter&utm_medium=email&utm_campaign=this_week_in_react_mar25)
+
+---
+
+## ⚛️ React {#react}
+
+[![React Router 7.3 - 路由中间件](/emails/issues/225/rr.jpg)](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v730)
+
+**[React Router 7.3 - 路由中间件](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v730)**
+
+本次React Router发布引入了重要的中间件功能（尚不稳定，可通过`future.unstable_middleware`实验性标志启用）。支持框架和库模式，区分客户端与服务端中间件，可用于实现日志记录、鉴权等横切关注点。
+
+相关社区资源：
+
+- 📜 [在React Router中使用中间件](https://sergiodxa.com/tutorials/use-middleware-in-react-router)
+- 📜 [测试React Router中间件](https://sergiodxa.com/tutorials/test-middleware-in-react-router)
+- 📜 [如何用React Router中间件创建请求级单例](https://sergiodxa.com/tutorials/create-a-per-request-singleton-with-react-router-middleware)
+- 🎥 [Alem Tuzlak - React Router中间件来了！](https://www.youtube.com/watch?v=H9WmtBchWtQ)
+
+---
+
+- 💸 [工程师必备产品 - 什么是激活？工程师为何需要关注？](https://dub.link/twir-mar12)
+- 👀 [React `moveBefore()` + `<ViewTransition>` 演示](https://bsky.app/profile/did:plc:hxmev3uady7j4litwnr5fzbg/post/3lk6phwfik226)：这项激动人心的浏览器特性允许在保留DOM节点状态的同时移动/重排序节点（对视频播放器、iframe等场景尤为实用）。该特性已加入DOM Living Standard规范，Chrome 133已支持，并刚刚被集成到React DOM协调器中（目前仅限实验性版本）。我制作了一个演示来展示其与即将推出的ViewTransition组件结合使用的效果。
+- 🗓️ [dotJS 2025](https://www.dotjs.io/?utm_source=thisweekinreact) - 🇫🇷 巴黎 - 4月3日 - 距dotJS开幕仅剩3周！与难得在欧洲露面的顶级贡献者（如Ryan Dahl、Wes Bos等）进行一对一交流。立即预订席位，使用代码"TWIR"可享门票85折。
+- 🗓 [StrapiConf](https://conf.strapi.io/?utm_source=thisweekinreact) - 🇫🇷 巴黎 - 5月13日。不要错过我们的主题演讲嘉宾揭晓：Sébastien Chopin、Matt Kane、Haris Ali Khan！使用代码"TWIR"可享9折优惠。
+- 📜 [React Router - 拆分路由模块](https://remix.run/blog/split-route-modules)：阐释新特性标志如何让React Router 7.2将路由模块拆分为多个部分以避免网络瀑布流。
+- 📜 [超越React.memo：更智能的性能优化方案](https://cekrem.github.io/posts/beyond-react-memo-smarter-performance-optimization/)：在考虑记忆化之前，尝试重构应用并善用组合。
+- 📜 [带Toast反馈的Server Actions（useActionState）](https://www.robinwieruch.de/react-server-actions-toast-useactionstate/)：探索在Server Action执行后显示Toast通知的多种方式。我倾向于这个不依赖`useEffect`的版本。
+- 📜 [从零实现React Router错误上报](https://programmingarehard.com/2025/03/11/react-router-error-reporting.html/)：精彩文章展示如何将React Router加载器错误发送至邮箱，通过读取source map并在每个堆栈帧显示原始源代码位置，提供绝佳开发者体验。这些经验也适用于其他JS场景。
+- 📜 [纽约时报如何系统化从Enzyme迁移至React Testing Library](https://open.nytimes.com/how-the-new-york-times-systematically-migrated-from-enzyme-into-react-testing-library-b3ea538d001c)：采用渐进式迁移策略，从最简单的测试用例开始，为贡献者提供可参考的模板。
+- 📜 [Rails视图、Web组件、React。为何要选择？](https://www.aha.io/engineering/articles/rails-views-web-components-react)：每项技术都有其最佳适用场景。他们仅将React用于富状态交互场景。
+- 📜 [预渲染的Next.js站点实际能承受多大流量？](https://martijnhols.nl/blog/how-much-traffic-can-a-pre-rendered-nextjs-site-handle)：作者对自托管Next.js博客（预渲染+SSR）进行负载测试，观察每秒请求处理能力。
+- 💸 [VS Code扩展：可视化组件（及其props）的使用方式和位置](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-mar-2025)
+- 📦 [React Aria - 2025年3月5日更新 - Toast、Tree、Virtualizer、Tailwind 4支持，Autocomplete优化，Command Palette增强，DatePicker RTL支持，修复`usePress`等](https://react-spectrum.adobe.com/releases/2025-03-05.html)
+- 📦 [Ark UI 5.0 - 跨框架无头UI库 - 更快速更轻量](https://ark-ui.com/react/docs/overview/changelog#:~:text=.-,%5B5.0.0%5D%20%2D%202025%2D03%2D06)
+- 🎥 [Jack Herrington - TanStack上的React/Solid-JS模块联邦](https://www.youtube.com/watch?v=e8yY9ZgPozw)
+- 🎙️ [前端之火84期 - TanStack Form v1发布，字节跳动推出Lynx，VS Code AI升级](https://front-end-fire.com/episodes/84/)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![用Reactile重新思考React应用的用户体验](/emails/issues/216/reactile.jpg)](https://www.reactile.net/?utm_source=ThisweekinReact)
+
+**[用Reactile重新思考React应用的用户体验](https://www.reactile.net/?utm_source=ThisweekinReact)**
+
+Reactile是一个开箱即用的UI/UX框架，提供直观的平铺式工作区布局。它支持在单个浏览器标签页内实现大型Web解决方案的并行工作负载。开发者只需用React实现自定义视图容器、组件和业务逻辑，Reactile会为您处理所有显示逻辑。
+
+此外，Reactile还提供：
+
+- 基于Promise的持久化机制，实现跨设备跨时间的统一工作流
+- 支持在平铺单元中使用嵌套标签页
+- 简化的全局搜索功能
+- 基于CSS @container的响应式设计
+- 以及更多特性
+
+2.0版本即将发布。立即开始30天免费试用，更多详情请访问reactile.net。
+
+[Reactile - 新一代React UI管理系统](https://www.reactile.net/price?utm_source=ThisweekinReact)
+
+---
+
+## 📱 React-Native {#react-native}
+
+- 💸 [Expo原生支持Passkeys功能发布 - 为你的下一个项目解锁增长最快的身份验证策略](https://go.clerk.com/I4o9cHy)
+- 🧵 [Callstack的Lynx深度解析 - 3小时直播精华总结](https://threadreaderapp.com/thread/1898114457634500692.html)
+- 📜 [React Native Reanimated如何更新样式](https://blog.swmansion.com/how-react-native-reanimated-updates-the-styles-a-deep-dive-338ab22e9f21): 深入解析UI属性与原生属性的差异化处理机制
+- 📜 [移动端本地LLM目前只是噱头](https://www.callstack.com/blog/local-llms-on-mobile-are-a-gimmick): 详述在设备端运行AI模型的挑战，包括模型体积/格式、CPU/电量消耗以及质量/速度的权衡
+- 📜 [传递依赖与React Native自动链接](https://shift.infinite.red/transitive-dependencies-and-react-native-autolinking-d4d4b7a651cf): 传递依赖不会自动链接有充分理由，必须显式声明为`peerDependencies`
+- 📜 [如何为Expo应用构建可靠的测试框架](https://expo.dev/blog/how-to-build-a-solid-test-harness-for-expo-apps): 助你建立正确的RN应用测试思维
+- 📜 [React Native与Lynx JS对比](https://shift.infinite.red/react-native-vs-lynx-js-b1fffb0f0152)
+- 📜 [Android开发者React Native指南](https://dev.to/amazonappdev/an-android-developers-guide-to-react-native-j66)
+- 📦 [React Native JavaScriptCore](https://github.com/react-native-community/javascriptcore): Hermes运行时已成主流，React Native团队将JSC引擎提取至独立社区仓库。RN 0.79起可手动选择JSC替代Hermes，内置JSC将在RN 0.81或0.82移除
+- 📦 [Metro 0.82 - 支持`package.json#exports`解析与惰性文件哈希](https://github.com/facebook/metro/releases/tag/v0.82.0): 已包含在RN 0.79更新中
+- 📦 [React Native Worklets 0.1](https://github.com/software-mansion/react-native-reanimated/tree/main/packages/react-native-worklets): Software Mansion将其Reanimated的worklet系统提取为独立多线程库，目前仍在开发中
+- 📦 [Galeria 1.0 - 通用图像查看器](https://github.com/nandorojo/galeria/releases/tag/v1.0.0): 支持新架构、Web平台，兼容任意图像组件
+- 📦 [Zeego 3.0 - 通用菜单/下拉组件](https://github.com/nandorojo/zeego/releases/tag/v3.0.1): 支持新架构、RN 0.77、Expo 52
+- 📦 [React Native Legal - 自动生成依赖项/许可证声明页面](https://github.com/callstackincubator/react-native-legal)
+- 📦 [React Native Executorch 0.3 - 设备端AI体验（语音转文字、OCR等）](https://github.com/software-mansion/react-native-executorch/releases/tag/v0.3.0)
+- 📦 [Radon IDE 1.4 - 新增React Query DevTools、React Scan重渲染轮廓分析、JS采样分析器](https://github.com/software-mansion/radon-ide/releases/tag/v1.4.0)
+- 📦 [Testing Library 13.1 - 支持React 19/React Native 0.78](https://github.com/callstack/react-native-testing-library/releases/tag/v13.1.0)
+- 📦 [React Native Emoji弹窗 - 使用iOS原生MCEmojiPicker与Android原生Emoji2](https://github.com/okwasniewski/react-native-emoji-popup)
+- 🎥 [Theo深度解析TikTok的React Native竞品Lynx](https://www.youtube.com/watch?v=No0k-TMRuMA)
+- 🎥 [Simon Grimm探讨React Native现状（Lynx、React Native框架与Vercel）](https://www.youtube.com/watch?v=aqgQatFPNSw)
+- 🎥 [Catalin Miron使用Reanimated实现环形轮播](https://www.youtube.com/watch?v=6Va1yBFdUxI)
+- 🎙️ [React Native Radio第324期：与Alfred Lieth Årøe探讨迁移至Expo](https://infinite.red/react-native-radio/rnr-324-migrating-to-expo-with-alfred-lieth-are)
+- 🎙️ [Rocket Ship第62期：与Beto探讨导航、样式与React Native生态现状](https://share.transistor.fm/s/6a224b64)
+
+---
+
+## 🔀 其他动态 {#other}
+
+- 📜 [微软 - 10倍速的TypeScript](https://devblogs.microsoft.com/typescript/typescript-native-port/)：编译器正在移植到Go语言，预计性能提升10倍，将在TS 7.0中发布。详情可参阅[Syntax.fm播客](https://www.youtube.com/watch?v=ZlGza4oIleY)对TypeScript团队的专访，了解他们为何选择Go而非Rust。
+- 📜 [2024年网络年鉴 - JavaScript篇](https://almanac.httparchive.org/en/2024/javascript)：最终章节（JS）刚刚发布。React的采用率达10%（增长25%），但仍远低于JQuery（74%）。
+- 📜 [Node.js刚刚加入TypeScript支持。这对Deno意味着什么？](https://deno.com/blog/typescript-in-node-vs-deno)：两大运行时对TS的支持方式不同。例如Deno内置类型检查和JSX/TSX支持。
+- 📜 [利用document​.currentScript实现内联渲染](https://leanrada.com/notes/inline-rendering-currentscript/)
+- 📜 [可复现性 vs. 溯源：信任JavaScript供应链](https://blog.vlt.sh/blog/reproducibility)
+- 📦 [Fast-check 4.0发布 - 基于属性的测试框架](https://fast-check.dev/blog/2025/03/10/whats-new-in-fast-check-4-0-0/)
+
+---
+
+## 🤭 轻松一刻 {#fun}
+
+[![程序员梗图](/emails/issues/225/meme.jpg)](https://x.com/schlimmson/status/1895489183101440486)
+
+[![React生态梗图](/emails/issues/225/meme2.jpg)](https://x.com/sebastienlorber/status/1899482883472961833)
+
+下期见！👋

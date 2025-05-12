@@ -1,0 +1,389 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/134/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /134\ntitle: \"This Week In React #134: Gatsby ➡️ Netlify, React DOM for Native, XState, Flashlight, re-renders, Custom Hooks, Ignite Cookbook...\"\nauthors: [slorber]\ndate: 02-07-2023\n---",
+      "sourceMdx": "---\nslug: /134\ntitle: \"This Week In React #134: Gatsby ➡️ Netlify, React DOM for Native, XState, Flashlight, re-renders, Custom Hooks, Ignite Cookbook...\"\nauthors: [slorber]\ndate: 02-07-2023\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "Gatsby has just been acquired by Netlify 🤯!",
+      "sourceMdx": "Gatsby has just been acquired by Netlify 🤯!"
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "There is also a very interesting RFC to read if you are passionate about cross-platform in React-Native.",
+      "sourceMdx": "There is also a very interesting RFC to read if you are passionate about cross-platform in React-Native."
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "Otherwise, it's a pretty quiet week. That's good timing, because I don't have much time 😄. I'm finishing up some preparations for next week's email which will be a bit different.",
+      "sourceMdx": "Otherwise, it's a pretty quiet week. That's good timing, because I don't have much time 😄. I'm finishing up some preparations for next week's email which will be a bit different."
+    },
+    {
+      "id": "6429a3aa",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "39b3772c",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "507b4652",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "fcd52337",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "42e34e45",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "caf67047",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "3c36424c",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "26524352",
+      "translatable": true,
+      "content": "[![refine](/emails/issues/132/refine.png)](https://github.com/refinedev/refine)",
+      "sourceMdx": "[![refine](/emails/issues/132/refine.png)](https://github.com/refinedev/refine)"
+    },
+    {
+      "id": "73ab96a3",
+      "translatable": true,
+      "content": "[**refine - 100% open-source, headless React framework for building CRUD apps**](https://github.com/refinedev/refine)",
+      "sourceMdx": "[**refine - 100% open-source, headless React framework for building CRUD apps**](https://github.com/refinedev/refine)"
+    },
+    {
+      "id": "7499a4e7",
+      "translatable": true,
+      "content": "Get ready to take your skillset to the next level! We are thrilled to launch an Open Source refine Hackathon",
+      "sourceMdx": "Get ready to take your skillset to the next level! We are thrilled to launch an Open Source refine Hackathon"
+    },
+    {
+      "id": "517051a7",
+      "translatable": true,
+      "content": "You can win $1500 and special swag kits!",
+      "sourceMdx": "You can win $1500 and special swag kits!"
+    },
+    {
+      "id": "135468ee",
+      "translatable": true,
+      "content": "We are excited to collaborate with Strapi, Appwrite, Meilisearch, and Medusa. They are sponsoring the refine Hackathon and the winners will get a swag kit from each of them!",
+      "sourceMdx": "We are excited to collaborate with Strapi, Appwrite, Meilisearch, and Medusa. They are sponsoring the refine Hackathon and the winners will get a swag kit from each of them!"
+    },
+    {
+      "id": "33331f27",
+      "translatable": true,
+      "content": "[More information about the Hackathon](https://s.refine.dev/hackathon).",
+      "sourceMdx": "[More information about the Hackathon](https://s.refine.dev/hackathon)."
+    },
+    {
+      "id": "602e59c7",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "54268405",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "8af76f3d",
+      "translatable": true,
+      "content": "[![Netlify Acquires Gatsby Inc. to Accelerate Adoption of Composable Web Architectures](/emails/issues/134/netlify-gatsby.jpg)](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)",
+      "sourceMdx": "[![Netlify Acquires Gatsby Inc. to Accelerate Adoption of Composable Web Architectures](/emails/issues/134/netlify-gatsby.jpg)](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)"
+    },
+    {
+      "id": "a9d49f92",
+      "translatable": true,
+      "content": "**[Netlify Acquires Gatsby Inc. to Accelerate Adoption of Composable Web Architectures](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)**",
+      "sourceMdx": "**[Netlify Acquires Gatsby Inc. to Accelerate Adoption of Composable Web Architectures](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)**"
+    },
+    {
+      "id": "a44047a5",
+      "translatable": true,
+      "content": "This is the big news of the week. Gatsby Inc. bought by Netlify. The framework is now under the Netlify umbrella alongside Eleventy and SolidJS and will continue to evolve. The cloud features (including the [Valhalla Content Hub](https://www.gatsbyjs.com/products/valhalla-content-hub/)) will be integrated into Netlify's offerings. The new slogan is \"composable architecture\". Gatsby is not the most popular React framework right now, but I think this acquisition makes sense, especially for the content hub and all the CMS integrations they have been working on. The Gatsby Cloud offering is harder to adopt than an optional paid features on Netlify, and that's even more true for sites that don't use Gatsby as a framework.",
+      "sourceMdx": "This is the big news of the week. Gatsby Inc. bought by Netlify. The framework is now under the Netlify umbrella alongside Eleventy and SolidJS and will continue to evolve. The cloud features (including the [Valhalla Content Hub](https://www.gatsbyjs.com/products/valhalla-content-hub/)) will be integrated into Netlify's offerings. The new slogan is \"composable architecture\". Gatsby is not the most popular React framework right now, but I think this acquisition makes sense, especially for the content hub and all the CMS integrations they have been working on. The Gatsby Cloud offering is harder to adopt than an optional paid features on Netlify, and that's even more true for sites that don't use Gatsby as a framework."
+    },
+    {
+      "id": "f7ef78f9",
+      "translatable": true,
+      "content": "Also check:",
+      "sourceMdx": "Also check:"
+    },
+    {
+      "id": "157c9741",
+      "translatable": true,
+      "content": "* 📜 [Gatsby is joining Netlify](https://www.gatsbyjs.com/blog/gatsby-is-joining-netlify/)\n* 📜 [Netlify Acquires Gatsby, Its Struggling Jamstack Competitor](https://thenewstack.io/netlify-acquires-gatsby-its-struggling-jamstack-competitor/)\n* 🎥 [Why would anyone buy Gatsby?](https://www.youtube.com/watch?v=5HE6FcOpit8)",
+      "sourceMdx": "- 📜 [Gatsby is joining Netlify](https://www.gatsbyjs.com/blog/gatsby-is-joining-netlify/)\n- 📜 [Netlify Acquires Gatsby, Its Struggling Jamstack Competitor](https://thenewstack.io/netlify-acquires-gatsby-its-struggling-jamstack-competitor/)\n- 🎥 [Why would anyone buy Gatsby?](https://www.youtube.com/watch?v=5HE6FcOpit8)"
+    },
+    {
+      "id": "e2fed468",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "40158b4b",
+      "translatable": true,
+      "content": "[![Making state machines global in React](/emails/issues/134/xstate.jpg)](https://stately.ai/blog/making-state-machines-global-in-react)",
+      "sourceMdx": "[![Making state machines global in React](/emails/issues/134/xstate.jpg)](https://stately.ai/blog/making-state-machines-global-in-react)"
+    },
+    {
+      "id": "6ea4c715",
+      "translatable": true,
+      "content": "**[Making state machines global in React](https://stately.ai/blog/making-state-machines-global-in-react)**",
+      "sourceMdx": "**[Making state machines global in React](https://stately.ai/blog/making-state-machines-global-in-react)**"
+    },
+    {
+      "id": "79ad944d",
+      "translatable": true,
+      "content": "Presentation of the new `createActorContext` API appearing in XState 3.1. It allows to facilitate the creation of global XState state machines, associated to a React context. It is possible to use a selector system, or to provide a custom state machine to the provider (this looks convenient to customize a machine from parent `props`).",
+      "sourceMdx": "Presentation of the new `createActorContext` API appearing in XState 3.1. It allows to facilitate the creation of global XState state machines, associated to a React context. It is possible to use a selector system, or to provide a custom state machine to the provider (this looks convenient to customize a machine from parent `props`)."
+    },
+    {
+      "id": "e874d9e7",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "645e08e3",
+      "translatable": true,
+      "content": "* 📜 [React recursively re-renders child components, but there is a nuance](https://alexsidorenko.com/blog/react-render-children-prop/): nice visual article that illustrates how component splitting and state colocation can avoid unnecessary re-rendering.\n* 📜 [Custom React Hooks and When to Use Them](https://thoughtbot.com/blog/custom-react-hooks): sometimes you have to create custom hooks, even if they are not intended to be reused. But be careful: unnecessary abstractions also have a cost.\n* 📜 [TypeScript Utility Types You Need To Know](https://www.builder.io/blog/utility-types): presents in particular `Awaited` and `ReturnType`, but also `Readonly` in a React context.\n* 📜 [React JS Best Practices From The New Docs](https://sebastiancarlos.com/react-js-best-practices-from-the-new-docs-1c65570e785d): Interesting reading for those who want to have an overview of the content of the new doc. I don't agree with all the comments, in particular don't miss the [underrated useSyncExternalStore](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api) 😄.\n* 📜 [WebStorm announces official support for Astro](https://astro.build/blog/astro-webstorm-support/)\n* 📜 [Demystifying UI Frameworks and Theming for React Apps](https://www.velotio.com/engineering-blog/demystifying-ui-frameworks-and-theming-for-react-apps)\n* 🎥 [Using Svelte Inside A React App](https://www.youtube.com/watch?v=FrusJNycQvk)\n* 👀 [Shopify.com using Remix](https://twitter.com/remix_run/status/1622666016135475200)\n* 👀 [`create-astro` CLI redesign](https://twitter.com/n_moore/status/1621524815550074880)\n* 📦 [Ionic 7 Beta](https://ionic.io/blog/announcing-the-ionic-7-beta)\n* 📦 [Netlify/Remix-Compute](https://github.com/netlify/remix-compute): Remix + Netlify adapter",
+      "sourceMdx": "- 📜 [React recursively re-renders child components, but there is a nuance](https://alexsidorenko.com/blog/react-render-children-prop/): nice visual article that illustrates how component splitting and state colocation can avoid unnecessary re-rendering.\n- 📜 [Custom React Hooks and When to Use Them](https://thoughtbot.com/blog/custom-react-hooks): sometimes you have to create custom hooks, even if they are not intended to be reused. But be careful: unnecessary abstractions also have a cost.\n- 📜 [TypeScript Utility Types You Need To Know](https://www.builder.io/blog/utility-types): presents in particular `Awaited` and `ReturnType`, but also `Readonly` in a React context.\n- 📜 [React JS Best Practices From The New Docs](https://sebastiancarlos.com/react-js-best-practices-from-the-new-docs-1c65570e785d): Interesting reading for those who want to have an overview of the content of the new doc. I don't agree with all the comments, in particular don't miss the [underrated useSyncExternalStore](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api) 😄.\n- 📜 [WebStorm announces official support for Astro](https://astro.build/blog/astro-webstorm-support/)\n- 📜 [Demystifying UI Frameworks and Theming for React Apps](https://www.velotio.com/engineering-blog/demystifying-ui-frameworks-and-theming-for-react-apps)\n- 🎥 [Using Svelte Inside A React App](https://www.youtube.com/watch?v=FrusJNycQvk)\n- 👀 [Shopify.com using Remix](https://twitter.com/remix_run/status/1622666016135475200)\n- 👀 [`create-astro` CLI redesign](https://twitter.com/n_moore/status/1621524815550074880)\n- 📦 [Ionic 7 Beta](https://ionic.io/blog/announcing-the-ionic-7-beta)\n- 📦 [Netlify/Remix-Compute](https://github.com/netlify/remix-compute): Remix + Netlify adapter"
+    },
+    {
+      "id": "4edbd92a",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed />",
+      "sourceMdx": "<SubscribeFormEmbed />"
+    },
+    {
+      "id": "678c3938",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "a4bf4268",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "ec619944",
+      "translatable": true,
+      "content": "**[![Build and Run Synthetic Monitoring That Scales](/emails/issues/134/checkly.jpg)](https://www.checklyhq.com/?utm_medium=email\\&utm_source=newsletter\\&utm_campaign=this-week-in-react-february)**",
+      "sourceMdx": "**[![Build and Run Synthetic Monitoring That Scales](/emails/issues/134/checkly.jpg)](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)**"
+    },
+    {
+      "id": "2547a6bb",
+      "translatable": true,
+      "content": "**[Build and Run Synthetic Monitoring That Scales](https://www.checklyhq.com/?utm_medium=email\\&utm_source=newsletter\\&utm_campaign=this-week-in-react-february)**",
+      "sourceMdx": "**[Build and Run Synthetic Monitoring That Scales](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)**"
+    },
+    {
+      "id": "0750bfa1",
+      "translatable": true,
+      "content": "**[Checkly](https://www.checklyhq.com/?utm_medium=email\\&utm_source=newsletter\\&utm_campaign=this-week-in-react-february)** lets you easily deploy Playwright scripts to monitor apps, websites and APIs, from Dev to Production. Validate crucial user flows, collect error traces, capture screenshots and record performance metrics to understand how your app performs for users across the globe!",
+      "sourceMdx": "**[Checkly](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)** lets you easily deploy Playwright scripts to monitor apps, websites and APIs, from Dev to Production. Validate crucial user flows, collect error traces, capture screenshots and record performance metrics to understand how your app performs for users across the globe!"
+    },
+    {
+      "id": "86348f98",
+      "translatable": true,
+      "content": "Use [Checkly](https://www.checklyhq.com/?utm_medium=email\\&utm_source=newsletter\\&utm_campaign=this-week-in-react-february) to:",
+      "sourceMdx": "Use [Checkly](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february) to:"
+    },
+    {
+      "id": "023197ab",
+      "translatable": true,
+      "content": "* ✅ Run programmable API and Browser checks to validate app performance\n* ✅ Get alerts when checks are failing, and easily integrate Checkly with your existing tech stack\n* ✅ Leverage Playwright and Javascript to maximize your monitoring and testing efforts",
+      "sourceMdx": "- ✅ Run programmable API and Browser checks to validate app performance\n- ✅ Get alerts when checks are failing, and easily integrate Checkly with your existing tech stack\n- ✅ Leverage Playwright and Javascript to maximize your monitoring and testing efforts"
+    },
+    {
+      "id": "eb51d107",
+      "translatable": true,
+      "content": "[Start monitoring your apps for free](https://www.checklyhq.com/?utm_medium=email\\&utm_source=newsletter\\&utm_campaign=this-week-in-react-february)",
+      "sourceMdx": "[Start monitoring your apps for free](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)"
+    },
+    {
+      "id": "7fc4bca5",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "a138e327",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "a2c0166e",
+      "translatable": true,
+      "content": "[![React DOM for Native (reduce API fragmentation)](/emails/issues/134/rn-web.jpg)](https://github.com/necolas/discussions-and-proposals/blob/reduce-fragmentation/proposals/0000-reduce-fragmentation.md)",
+      "sourceMdx": "[![React DOM for Native (reduce API fragmentation)](/emails/issues/134/rn-web.jpg)](https://github.com/necolas/discussions-and-proposals/blob/reduce-fragmentation/proposals/0000-reduce-fragmentation.md)"
+    },
+    {
+      "id": "c1eaf30b",
+      "translatable": true,
+      "content": "**[React DOM for Native (reduce API fragmentation)](https://github.com/necolas/discussions-and-proposals/blob/reduce-fragmentation/proposals/0000-reduce-fragmentation.md)**",
+      "sourceMdx": "**[React DOM for Native (reduce API fragmentation)](https://github.com/necolas/discussions-and-proposals/blob/reduce-fragmentation/proposals/0000-reduce-fragmentation.md)**"
+    },
+    {
+      "id": "f0984c2a",
+      "translatable": true,
+      "content": "The [RFC](https://github.com/react-native-community/discussions-and-proposals/pull/496) by Nicolas Gallagher (Meta / React-Native-Web) has just been updated. The goal is to align React-Native APIs as much as possible with Web APIs, including DOM elements like `div`, `span` and even `select`! The \"learn once, run everywhere\" could gradually turn into \"write once, run everywhere\". The community is quite divided. We'll have to sleep on it a bit know if it's a good idea 😄, and considering the size of this ambitious project, it's clearly not for tomorrow!",
+      "sourceMdx": "The [RFC](https://github.com/react-native-community/discussions-and-proposals/pull/496) by Nicolas Gallagher (Meta / React-Native-Web) has just been updated. The goal is to align React-Native APIs as much as possible with Web APIs, including DOM elements like `div`, `span` and even `select`! The \"learn once, run everywhere\" could gradually turn into \"write once, run everywhere\". The community is quite divided. We'll have to sleep on it a bit know if it's a good idea 😄, and considering the size of this ambitious project, it's clearly not for tomorrow!"
+    },
+    {
+      "id": "bc8bc928",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "5cb70a3d",
+      "translatable": true,
+      "content": "* 📜 [How to swap between React Native Storybook and your app](https://dev.to/dannyhw/how-to-swap-between-react-native-storybook-and-your-app-p3o): useful technique for those who have a React-Native Storybook. Personally I like to have a menu bar in dev with buttons to open/close the Storybook, change the API environment or other... It saves a lot of time in the long run to create your own DX.\n* 📦 [Flashlight.dev](https://flashlight.dev/): Flashlight is a new service that wants to become the Lighthouse of mobile, including a convenient Flashlight Cloud offering. Project formerly named [Android-Performance-Profiler](https://twitter.com/almouro/status/1622588283740880897).\n* 📖 [Ignite Cookbook for React Native](https://ignitecookbook.com/): short step-by-step recipes for React-Native.\n* 🎨 [SolidJS + NativeScript demo running React-Native-WebView](https://twitter.com/ammarahm_ed/status/1622259723729764354): the promise of Open Native in action, is interesting for the portability of native code.\n* 👀 [The White House calls for more interoperability between mobile platforms](https://twitter.com/JI/status/1620948253381632000)\n* 🎙️ [React-Native-Radio 258 - AI Robots coding React Native?!](https://reactnativeradio.com/episodes/r258-robots-coding-react-native)",
+      "sourceMdx": "- 📜 [How to swap between React Native Storybook and your app](https://dev.to/dannyhw/how-to-swap-between-react-native-storybook-and-your-app-p3o): useful technique for those who have a React-Native Storybook. Personally I like to have a menu bar in dev with buttons to open/close the Storybook, change the API environment or other... It saves a lot of time in the long run to create your own DX.\n- 📦 [Flashlight.dev](https://flashlight.dev/): Flashlight is a new service that wants to become the Lighthouse of mobile, including a convenient Flashlight Cloud offering. Project formerly named [Android-Performance-Profiler](https://twitter.com/almouro/status/1622588283740880897).\n- 📖 [Ignite Cookbook for React Native](https://ignitecookbook.com/): short step-by-step recipes for React-Native.\n- 🎨 [SolidJS + NativeScript demo running React-Native-WebView](https://twitter.com/ammarahm_ed/status/1622259723729764354): the promise of Open Native in action, is interesting for the portability of native code.\n- 👀 [The White House calls for more interoperability between mobile platforms](https://twitter.com/JI/status/1620948253381632000)\n- 🎙️ [React-Native-Radio 258 - AI Robots coding React Native?!](https://reactnativeradio.com/episodes/r258-robots-coding-react-native)"
+    },
+    {
+      "id": "6ad15270",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "c7fa1e8d",
+      "translatable": true,
+      "content": "## 🧑‍💻 Jobs",
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+    },
+    {
+      "id": "a6c928a1",
+      "translatable": true,
+      "content": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)",
+      "sourceMdx": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)"
+    },
+    {
+      "id": "b6152880",
+      "translatable": true,
+      "content": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses.",
+      "sourceMdx": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses."
+    },
+    {
+      "id": "b9331170",
+      "translatable": true,
+      "content": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
+      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)"
+    },
+    {
+      "id": "8fcdd6d4",
+      "translatable": true,
+      "content": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
+      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!"
+    },
+    {
+      "id": "53aa2b95",
+      "translatable": true,
+      "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+    },
+    {
+      "id": "9c9e2b64",
+      "translatable": true,
+      "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+    },
+    {
+      "id": "5c7d994c",
+      "translatable": true,
+      "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+    },
+    {
+      "id": "efbc76b7",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "c6868a9f",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "8c9c56b6",
+      "translatable": true,
+      "content": "* [Updates from the 94th TC39 meeting](https://dev.to/hemanth/updates-from-the-94th-tc39-meeting-48mb): finalized list of proposals that are going to the next stage. Especially excited about [AsyncContext](https://twitter.com/sebastienlorber/status/1620391460679065601), Change array by Copy and Symbols as WeakMap keys (much needed for [Records & Tuples](https://sebastienlorber.com/records-and-tuples-for-react)).\n* [Deno - The Future (and the Past) of the Web is Server Side Rendering](https://deno.com/blog/the-future-and-past-is-server-side-rendering)\n* [WebKit - Pushing Interop Forward in 2023](https://webkit.org/blog/13706/interop-2023/) + [Chrome - Interop 2023: continuing to improve the web for developers](https://web.dev/interop-2023/)\n* [Understanding monomorphism can improve your JavaScript performance 60x](https://twitter.com/mhevery/status/1622499229813047296)\n* [Speeding up the JavaScript ecosystem - eslint](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-3/)\n* [Google is working on bringing Chromium to iOS](https://twitter.com/OpenWebAdvocacy/status/1621653519274246144) + [Mozilla is working on bringing Firefox to iOS](https://twitter.com/OpenWebAdvocacy/status/1622898924775415808)\n* [The Guide To Responsive Design In 2023 and Beyond](https://ishadeed.com/article/responsive-design/)\n* [A Business Case for SvelteKit](https://elliscs.hashnode.dev/a-business-case-for-sveltekit)\n* [Node.js 19.6](https://twitter.com/ruyadorno/status/1621186886470361093)\n* [Ada 1.0 - New Node.js URL parser](https://twitter.com/nodejs/status/1622707746716917761)\n* [Vite 4.1](https://twitter.com/vite_js/status/1621149774627094535)\n* [Don't use return types, unless...](https://www.youtube.com/watch?v=nwSe95uFN8E)\n* [The Dangers Of Return Types in TypeScript](https://www.youtube.com/watch?v=I6V2FkW1ozQ)\n* [Learn Images - In-depth course on images for the web](https://web.dev/learn/images/)\n* [Forking Chrome to render in a terminal](https://fathy.fr/carbonyl)",
+      "sourceMdx": "- [Updates from the 94th TC39 meeting](https://dev.to/hemanth/updates-from-the-94th-tc39-meeting-48mb): finalized list of proposals that are going to the next stage. Especially excited about [AsyncContext](https://twitter.com/sebastienlorber/status/1620391460679065601), Change array by Copy and Symbols as WeakMap keys (much needed for [Records & Tuples](https://sebastienlorber.com/records-and-tuples-for-react)).\n- [Deno - The Future (and the Past) of the Web is Server Side Rendering](https://deno.com/blog/the-future-and-past-is-server-side-rendering)\n- [WebKit - Pushing Interop Forward in 2023](https://webkit.org/blog/13706/interop-2023/) + [Chrome - Interop 2023: continuing to improve the web for developers](https://web.dev/interop-2023/)\n- [Understanding monomorphism can improve your JavaScript performance 60x](https://twitter.com/mhevery/status/1622499229813047296)\n- [Speeding up the JavaScript ecosystem - eslint](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-3/)\n- [Google is working on bringing Chromium to iOS](https://twitter.com/OpenWebAdvocacy/status/1621653519274246144) + [Mozilla is working on bringing Firefox to iOS](https://twitter.com/OpenWebAdvocacy/status/1622898924775415808)\n- [The Guide To Responsive Design In 2023 and Beyond](https://ishadeed.com/article/responsive-design/)\n- [A Business Case for SvelteKit](https://elliscs.hashnode.dev/a-business-case-for-sveltekit)\n- [Node.js 19.6](https://twitter.com/ruyadorno/status/1621186886470361093)\n- [Ada 1.0 - New Node.js URL parser](https://twitter.com/nodejs/status/1622707746716917761)\n- [Vite 4.1](https://twitter.com/vite_js/status/1621149774627094535)\n- [Don't use return types, unless...](https://www.youtube.com/watch?v=nwSe95uFN8E)\n- [The Dangers Of Return Types in TypeScript](https://www.youtube.com/watch?v=I6V2FkW1ozQ)\n- [Learn Images - In-depth course on images for the web](https://web.dev/learn/images/)\n- [Forking Chrome to render in a terminal](https://fathy.fr/carbonyl)"
+    },
+    {
+      "id": "c66a3543",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "c6b2ca77",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "dce16ab4",
+      "translatable": true,
+      "content": "Savage 😅 why is he so mean!",
+      "sourceMdx": "Savage 😅 why is he so mean!"
+    },
+    {
+      "id": "6f08f877",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/134/meme.png)](https://twitter.com/ThePrimeagen/status/1620827474681827333)",
+      "sourceMdx": "[![alt](/emails/issues/134/meme.png)](https://twitter.com/ThePrimeagen/status/1620827474681827333)"
+    },
+    {
+      "id": "2dbfc5f7",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

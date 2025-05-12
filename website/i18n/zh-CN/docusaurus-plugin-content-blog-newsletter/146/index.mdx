@@ -1,0 +1,183 @@
+---
+slug: /146
+title: "This Week In React #146: Concurrency, Server Components, JSX, TV, Next.js, React-Query, Apollo, Remix, Expo Router, Skia, React-Native, Remotion, Flashlight, INP, Bun..."
+authors: [slorber]
+date: 05-23-2023
+---
+
+大家好！
+
+本期带来两周的React动态汇总。除了大量优质React技术文章外，近期多场技术会议还发布了非常值得关注的React-Native相关公告。在Remix Conf、App.js、Chain React等会议密集举办期间，更不用说下周即将到来的React-Native-Connection和React Summit，实在应接不暇！
+
+React-Query和Apollo等数据获取库正在探索如何与服务器组件及Next.js应用路由集成，技术路线正逐渐明朗。
+
+简报将再停更一周：下期将于6月7日发布 👋
+
+<!-- truncate -->
+
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化版式 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![Start UI](/emails/issues/144/start_ui.jpg)](https://web.start-ui.com?utm_source=newsletter&utm_term=this-week-in-react)
+
+**[Start UI [web] - 开箱即用的Web应用UI启动器](https://web.start-ui.com?utm_source=newsletter&utm_term=this-week-in-react)**
+
+我们免费开源的Web应用UI启动器能快速搭建新项目，内置**最佳实践与生产级工具链**，助您跳过初始配置直接进入开发阶段。
+
+集成功能包括：🔐 认证系统、📱 响应式布局、🧑‍💻 用户管理、🇫🇷 国际化与右到左支持、🌚 暗黑模式、🎛️ 高阶组件等。可体验[示例应用](https://demo.start-ui.com)。
+
+基于**TypeScript**、**NextJS**技术栈，整合Chakra UI、TanStack Query、Storybook等工具。
+
+[🚀 GitHub上的Start UI [web]](https://web.start-ui.com)
+
+---
+
+## ⚛️ React技术动态 {#react}
+
+[![理解React并发机制](/emails/issues/146/concurrency.jpg)](https://www.bbss.dev/posts/react-concurrency/)
+
+**[理解React并发机制](https://www.bbss.dev/posts/react-concurrency/)**
+
+全面解析React并发特性、过渡更新机制及调度器工作原理。
+
+---
+
+[![Spotify电视端空间导航方案](/emails/issues/146/spotify.jpg)](https://engineering.atspotify.com/2023/05/tv-spatial-navigation/)
+
+**[Spotify电视端空间导航方案](https://engineering.atspotify.com/2023/05/tv-spatial-navigation/)**
+
+Spotify揭秘其基于混合(web)技术开发电视/游戏机应用的实践。由于原生Web缺乏空间导航(方向键/摇杆)支持，他们通过React组件实现了自定义的空间导航系统。
+
+---
+
+- 📖 [Next.js项目结构](https://twitter.com/delba_oliveira/status/1659276340145582088)：关于Next.js约定的新文档页面。
+- 🔨 [RSC解析器](https://rsc-parser.vercel.app/)：一个工具，可以更轻松地检查React服务器组件的有效负载。
+- 👀 [React Router增加了对Suspense的支持](https://twitter.com/remix_run/status/1658976420767604736)：将很快使用`startTransition`。
+- 📜 [你可能不需要React Query](https://tkdodo.eu/blog/you-might-not-need-react-query)：Dominik思考了在服务器组件出现后React-Query的实用性。如果你的数据获取和变更需求简单，Next.js和Remix就足够了。但有些用例React-Query仍然有用，甚至可以与RSC集成：无限滚动、离线、间隔重新获取...
+- 📜 [在Next.js 13中使用Apollo Client：发布一个官方库以支持App Router](https://www.apollographql.com/blog/announcement/frontend/using-apollo-client-with-next-js-13-releasing-an-official-library-to-support-the-app-router/)：引入一个实验性包，在两个不同的上下文中使用GraphQL Apollo客户端：服务器组件和客户端组件。
+- 📜 [构建分层现代设计系统](https://blog.almaer.com/building-a-modern-design-system-in-layers/)：建议创建多层设计系统，而不是单一的React实现。
+- 📜 [Airbnb - 通过HTTP流提高性能](https://medium.com/airbnb-engineering/improving-performance-with-http-streaming-ba9e72c66408)：Airbnb实现了HTTP流以提高性能并减少其React + Express应用中的瀑布流。
+- 📜 [自定义Fetcher钩子是Remix的类型安全RPC](https://www.jacobparis.com/content/remix-rpc-pattern)：展示了Remix的useFetcher和tRPC如何解决类似的问题。
+- 📜 [为什么我对服务器操作感到兴奋](https://andrewingram.net/posts/why-excited-about-server-actions)：强调了服务器操作相对于Remix的优势，后者需要更多的管道工作。
+- 📜 [我与React对赌并输了（但我并不后悔）](https://goauthentik.io/blog/2023-05-04-i-gambled-against-react-and-lost)：讨论了2018年选择使用Lit和Web Components的决定。
+- 📜 [React协调：它是如何工作的以及为什么我们应该关心](https://www.developerway.com/posts/reconciliation-in-react)：关于React协调、潜在条件陷阱和使用React键的完整文章。
+- 📜 [Next.js与世界](https://memos.hawkhill.ventures/p/nextjs-vs-the-world)：提到了Next.js现在为分发全栈组件提供的创业开发者体验机会。
+- 📜 [根据其他属性限制和要求组件的属性](https://nikolasbarwicki.com/articles/limit-require-props-components-based-on-other-props)：介绍了一些有用的技术来为你的React组件添加类型。
+- 📜 [构建UI系列 - 使用React服务器组件进行数据获取](https://buildui.com/series/react-server-components/building-a-users-table)
+- 📜 [Next.js 13应用目录和服务器组件：你需要知道的](https://blogs.shenyien.cyou/the-nextjs-13-app-directory-and-server-components)
+- 📜 [如何使用React Testing Library测试自定义React钩子](https://www.builder.io/blog/test-custom-hooks-react-testing-library)
+- 📜 [使用符号创建类型安全的Remix handles而不需要鸭子类型](https://www.wking.dev/library/using-symbols-to-create-type-safe-remix-handles-without-duck-typing)
+- 📜 [JavaScript生态系统令人愉悦地奇怪](https://fly.io/blog/js-ecosystem-delightfully-wierd/)
+- 🎙️ [本月React - 2023年4月](https://www.reactiflux.com/transcripts/tmir-april-2023)：FYI每个月我们都会与Reactiflux录制一个播客"本月React"，与Carl Vitullo和Mark Erikson一起。现在订阅吧！
+- 🎥 ["来自另一个维度的React"](https://www.youtube.com/watch?v=zMf_xeGPn6s)：Dan Abramov在Remix Conf 2023上的演讲。
+- 🎥 [我构建了一个作为React服务器组件的图表](https://www.youtube.com/watch?v=3JB_qEk39w0)
+- 🎥 [Remix Conf 2023播放列表](https://www.youtube.com/playlist?list=PLXoynULbYuEBSoANKVl4nKzBBae7DM3JK)
+- 🎥 [全栈React组件 - 无需API](https://www.youtube.com/watch?v=OAmp3GTfZnU)
+- 🎥 [服务器操作：NextJS 13.4的最佳新功能](https://www.youtube.com/watch?v=czvSZqnpTHs)
+- 📦 [TypeScript 5.1 RC](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-rc/)：新的TypeScript版本应该[改进React的JSX类型](https://thisweekinreact.com/newsletter/142#react)，现在是一个发布候选版本。
+- 📦 [Epic Stack](https://www.epicweb.dev/epic-stack)：Kent C. Dodds提供的新Remix堆栈，他解释了其每个技术选择的理由。
+- 📦 [upgrade-remix](https://github.com/brophdawg11/upgrade-remix)：升级Remix依赖的CLI。
+- 📦 [Legend-State v1.0](https://legendapp.com/open-source/legend-state-v1/)：基于observable和proxy的高性能响应式状态管理器。
+- 📦 [chadcn/ui表单](https://twitter.com/shadcn/status/1659639523960291328)：将Radix UI与react-hook-form集成的表单组件。
+- 📦 [Astro 2.5](https://twitter.com/astrodotbuild/status/1659272785540128776)
+- 📦 [Remix 1.16.1](https://twitter.com/remix_run/status/1658921729589415937)
+- 📦 [Cloudflare/next-on-pages v1.0](https://github.com/cloudflare/next-on-pages)
+- 📦 [React-Three-Fiber终极镜头光晕](https://twitter.com/Andersonmancini/status/1660625053497839622)
+- 👥 [React Summit](https://reactsummit.com/?utm_source=email&utm_medium=thisweekinreact)（阿姆斯特丹，6月2-6日）为我们提供门票-5%折扣（代码"ThisWeekInReact5"）和[工作坊](https://reactsummit.com/react-workshops)-10%折扣（代码"THISWEEKINREACT"）
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![Nylas](/emails/issues/146/nylas.png)](https://www.nylas.com/?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-DSU&utm_content&utm_term)
+
+**[下周直播：斩获梦想开发职位](https://info.nylas.com/webinar-devtalent-registration.html?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TLDR-2P&utm_content=2023-05-24-Issue-DevTalentWebinar)**
+
+无论您是资深开发者还是刚结束编程训练营的新人，都必须了解当前雇主对工程候选人的核心要求。
+
+加入Nylas技术招聘经理的分享会，获取面试通关秘籍。
+
+我们将探讨常见面试题应答策略、生成式AI等新兴技术话题的处理方式等内容。
+
+[立即获取5月31日直播链接！](https://info.nylas.com/webinar-devtalent-registration.html?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TLDR-2P&utm_content=2023-05-24-Issue-DevTalentWebinar)
+
+---
+
+## 📱 React-Native {#react-native}
+
+[![RN Skia演讲](/emails/issues/146/skia.jpg)](https://www.youtube.com/watch?v=Hfb_gpfCHzk)
+
+**[Skia绘画之美](https://www.youtube.com/watch?v=Hfb_gpfCHzk)**
+
+William Candillon在App.js大会上展示React-Native Skia的最新进展。Reanimated集成正在优化，富文本组件正在开发中，与原生视图的集成示例令人印象深刻。
+
+---
+
+[![Expo Router演讲](/emails/issues/146/expo-router.jpg)](https://www.youtube.com/watch?v=608r8etX_cg)
+
+**[一次编写，全端路由：基于文件系统的原生应用导航方案](https://www.youtube.com/watch?v=608r8etX_cg)**
+
+Evan Bacon在App.js介绍Expo Router v2规划特性（另见该[推文](https://twitter.com/Baconbrix/status/1656634363847507968)）。通用链接的使用带来诸多UX优势。Expo持续投入的Web支持进展良好，配合Metro打包器最新改进，甚至计划支持CSS。Expo是否将开始与Next.js在Web领域展开竞争？
+
+---
+
+- 📜 [Messenger桌面版：从Electron迁移至React Native实现更快速更轻量](https://developers.facebook.com/blog/post/2023/05/17/messenger-desktop-faster-and-smaller-by-moving-to-react-native-from-electron/): Meta现已在Messenger中采用React-Native Windows/macOS方案，报告显示性能提升的同时也面临挑战。与移动端类似，每个原生平台仍需配备专业开发人员。Meta与微软的合作将有助于维护这些平台。
+- 📦 [0.72.0-RC.3](https://github.com/facebook/react-native/releases/tag/v0.72.0-rc.3): "黄金"候选版本，预计很快会发布正式版0.72。
+- 👀 [Remotion + React-Native](https://twitter.com/JNYBGR/status/1657041691319336960): 直接在手机上渲染Remotion视频的原型。
+- 👀 [Flashlight开放测试](https://twitter.com/almouro/status/1660587299200028672): React-Native版的Lighthouse工具。
+- 👀 [Bluesky应用现已开源](https://twitter.com/addyosmani/status/1658228255328190464)
+- 🧵 [App.js Conf大会汇总帖](https://twitter.com/flexbox_/status/1657994812346499072)
+- 🧵 [App.js大会公告](https://twitter.com/expo/status/1656802035373850625)
+- 🎥 [Cedric van Putten – 调试应该更简单 | App.js Conf 2023](https://www.youtube.com/watch?v=sRLunWEzwHI)
+- 🎥 [React Native的未来？app.js大会回顾与洞见](https://www.youtube.com/watch?v=8ou9dq5HKHk)
+- 🎥 [React Native Skia实现 metaball动画](https://www.youtube.com/watch?v=HOxZegqnDC4)
+- 👥 [React-Native-Connection巴黎会议](https://reactnativeconnection.io/)（6月1日）提供门票9折优惠码"REACTHEBDO"。
+
+---
+
+## 🧑‍💻 职位招聘 {#jobs}
+
+🧑‍💼 [**Passionfroot - 高级全栈工程师(Remix) - 16万欧元+/年，柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)
+
+Passionfroot致力于通过YouTube、播客、社交媒体和新闻通讯赋能未来的独立创业者。加入我们，共同打造帮助全球创作者建立可扩展、可持续业务的工具。
+
+🧑‍💼 [**Callstack - 高级React Native开发 - 完全远程，B2B合同月薪2.1-3.2万波兰兹罗提净收入**](https://www.callstack.com/senior-react-native-developer)
+
+您想参与全球最流行应用的开发吗？愿意共同塑造React Native技术吗？加入Callstack这个React & React Native领军团队。详情请访问官网，期待看到您的申请——请尽情展示您的实力！
+
+🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
+
+我们开放多个React Native开发岗位！年薪约16万美元外加10%奖金。要求具备RN生产环境经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解详情，并请注明来自This Week in React。
+
+💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
+
+---
+
+## 🔀 其他资讯 {#other}
+
+- [推进交互到下一次绘制(INP)](https://web.dev/inp-cwv/): INP将取代首次输入延迟(FID)成为核心网页指标。这是评估React应用在初始页面加载后性能的关键指标。
+- [Bun打包工具](https://bun.sh/blog/bun-bundler): Bun现已推出打包功能。基准测试显示：比esbuild快2倍，比Webpack快200倍！
+- [第96次TC39会议更新](https://dev.to/hemanth/updates-from-the-96th-tc39-meeting-4goe)
+- [2023年Node.js性能现状报告](https://blog.rafaelgss.dev/state-of-nodejs-performance-2023)
+- [Web平台基线标准](https://web.dev/baseline/): 为Web平台功能提供清晰的浏览器支持信息
+- [CSS与UI新特性：2023 I/O大会特别版](https://developer.chrome.com/en/blog/whats-new-css-ui-2023/)
+- [2023年前端开发者必知的6个CSS代码片段](https://web.dev/6-css-snippets-every-front-end-developer-should-know-in-2023/)
+
+---
+
+## 🤭 轻松一刻 {#fun}
+
+[![alt](/emails/issues/146/meme.jpg)](https://twitter.com/BHolmesDev/status/1656866405713690626)
+
+下次见！👋

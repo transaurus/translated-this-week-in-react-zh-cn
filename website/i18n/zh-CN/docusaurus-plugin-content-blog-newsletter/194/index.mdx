@@ -1,0 +1,150 @@
+---
+slug: /194
+title: "This Week In React #194: React Conf, Rsnext, TypeScript, Next.js, PPR, Owner components, Preloading, Zustand, Flutter, Preact, Fumadocs, New Arch Survey, Expo CNG, Flutter, VisionOS, Node.js..."
+authors: [slorber, bndkt]
+date: 07-31-2024
+---
+
+大家好！
+
+不知道你们那边如何，但这里真是热浪滚滚！🌞\
+仅以°C/°F计量，因为这周的新闻热度实在低迷。🥶\
+虽然有不少优质文章，但React方面没有重大版本发布或公告。
+
+TypeScript为这周挽尊，发布了首个v5.6测试版，并且Node.js即将提供原生支持！
+
+看看我们的合作会议[React Africa](https://react-africa.com/?utm_source=thisweekinreact.com)（🇲🇦 卡萨布兰卡 - 11月29日）。\
+使用代码"TWIR"可享9折优惠。\
+这是非洲首个国际性React会议！已公布多位重量级演讲嘉宾。
+
+<!-- truncate -->
+
+**💡 [在Twitter上查看本期简报](https://slo.im/thread) - 视觉化排版 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助商 {#sponsor1}
+
+[![AI聊天React组件](/emails/issues/194/nlux.jpg)](https://docs.nlkit.com/nlux?utm_source=twir-jl24)
+
+**[AI聊天React组件](https://docs.nlkit.com/nlux?utm_source=twir-jl24)**
+
+[NLUX](https://docs.nlkit.com/nlux?utm_source=twir-jl24)是一个强大的开源React库，能让你**轻松为网页应用添加对话式AI功能**。只需几行代码即可构建高质量的聊天界面。
+
+访问项目[GitHub仓库](https://github.com/nlkitai/nlux)快速上手，或查看[文档网站](https://docs.nlkit.com/nlux?utm_source=twir-jl24)获取教程、示例和API参考。
+
+---
+
+## ⚛️ React动态 {#react}
+
+[![React Conf 2024演讲集锦](/emails/issues/194/reactconf.jpg)](https://conf.react.dev/talks)
+
+🎥 **[React Conf 2024演讲集锦](https://conf.react.dev/talks)**
+
+React Conf 2024的演讲视频终于上线，你还可以浏览[活动照片](https://conf.react.dev/photos)和[精彩集锦视频](https://www.youtube.com/watch?v=p6auCiVoa3c)。
+
+本周没有重磅React新闻，因此我认为通过[Lydia Hallie演讲中的这张精美bento幻灯片](https://www.youtube.com/watch?v=AJOGzVygGcY)来回顾React 19即将推出的各项功能会是个不错的选择。请注意[React 19已进入候选发布阶段](https://react.dev/blog/2024/04/25/react-19)，即将正式发布。
+
+---
+
+- 💸 [Reactile – 一种全新的React应用开发方式。自由创建视图，让它在单个浏览器标签页中管理窗口和小部件](https://www.reactile.net/?utm_source=reactnewsletter)
+- 👀 [Rsnext](https://github.com/ScriptedAlchemy/rsnext/commits/rspack): Rspack团队正致力于让Next.js运行在他们的Rust打包工具下，并取得了重大进展。首个alpha版本已发布，可通过[将"next"别名设置为"rsnext"](https://github.com/substancelabs/rsnext/blob/main/package.json#L11)进行尝鲜。此外[Rspack 1.0 beta 1新增"layers"分层功能](https://x.com/rspack_dev/status/1818490358319530221)，可打包应用的多重变体并支持React服务端组件。待功能完善后我们将持续跟进报道。
+- 👀 [通过Next.js集成提升Flutter Web项目的SEO](https://gist.github.com/lcw99/ac1738cb6d5bb032085077605f56665e): 在Google宣布[计划弃用HTML渲染器](https://github.com/flutter/flutter/issues/145954)后，Flutter开发者急需解决网页SEO问题。这个临时方案基于Next.js实现。
+- 🐦 [Million Lint - 悬停查看父/子组件关系，定位渲染触发器](https://x.com/aidenybai/status/1816136004388176010)
+- 📊 [Stack Overflow开发者调查报告 - 2024年度结果](https://survey.stackoverflow.co/2024/): React、Node.js和JavaScript仍是最热门技术。
+- 🗓️ [React Rally](https://reactrally.com/?utm_source=thisweekinreact) - 🇺🇸美国犹他州 - 8月12-13日 - 最后召集！使用优惠码"TWIR"可享[9折购票](https://ti.to/react-rally/react-rally-2024/discount/TWIR)。
+- 🗓️ [Squiggle Conf](https://2024.squiggleconf.com/?utm_source=thisweekinreact) - 🇺🇸美国波士顿 - 10月3-4日 - 使用优惠码"TWIR"享9折。1天主题演讲+1天实践 workshop，位于波士顿历史街区核心地带，聚焦前端工具链！
+- 📜 [React所有者组件详解](https://reacttraining.com/blog/react-owner-components): 透彻解析所有者(Owner)与父级(Parent)组件的区别。所有者负责创建JSX并传递props。客户端组件不能拥有服务端组件。
+- 📜 [深度解析部分预渲染(PPR)](https://www.nikhilsnayak.dev/blogs/dissecting-partial-pre-rendering): 通过课程页案例演示Next.js实验性PPR如何融合多种渲染策略优势：静态课程详情页+动态评论模块。
+- 📜 [Vercel - Next.js中的功能即代码](https://vercel.com/blog/flags-as-code-in-next-js): 介绍新包`@vercel/flags/next`如何实现功能开关最佳实践，解耦代码与底层开关提供商。所有开关在服务端评估，避免布局偏移、加载闪烁及敏感信息泄露。令人惊艳的是它同时支持静态页面和PPR：可以预计算所有开关组合的静态变体！
+- 📜 [Netlify - Gatsby实时预览功能回归(且更强大)，基于全新开发服务器](https://www.netlify.com/blog/gatsby-live-preview-with-new-dev-server/): Netlify推出新平台原语，可在云端启动框架开发服务器。配合兼容的CMS插件，极大提升Gatsby内容预览体验。
+- 📜 [大型SPA中的灵活网络数据预加载方案](https://mmazzarolo.com/blog/2024-07-29-data-preloading-script/): 当不使用框架时，可通过HTML内联数据预加载逻辑，并行化数据/包获取以加速应用启动。
+- 📜 [从零实现状态管理库](https://www.smallrecipesfordisaster.com/posts/local-store): 演示如何构建可与React的`useSyncExternalStore`对接的自定义状态管理。
+- 📜 [基于Zustand实现useState风格API的实验](https://www.smallrecipesfordisaster.com/posts/dispatch-zustand): 展示如何在Zustand基础上构建返回`[state, setState]`元组的selector。
+- 📜 [React十年之际，前端已进入后React时代了吗？](https://thenewstack.io/after-a-decade-of-react-is-frontend-a-post-react-world-now/): 虽然存在优秀替代方案，但React仍在增长，且增速可能正在加快(🐦 [推文](https://x.com/sebastienlorber/status/1818233736091271285))。
+- 📜 [异步方案对决](https://www.brenelz.com/posts/battle-of-the-asyncs/): 对比React的`use`钩子与Solid的`createAsync`，发现React方案略显不便(即使使用RSC)。
+- 📜 [为何Zustand成为社区宠儿？](https://www.frontendundefined.com/posts/monthly/zustand-review/): 对这款轻量级、设计精良且支持selector的状态管理库给予积极评价。
+- 📜 [性能飞跃：Faire向NextJS的迁移实践](https://craft.faire.com/boosting-performance-faires-transition-to-nextjs-3967f092caaf): 从Kotlin+React SPA到Next.js技术栈的渐进式迁移。
+- 📜 [React状态管理完全指南](https://www.propelauth.com/post/state-management-in-react): 涵盖localStorage和URL参数的综合指南。
+- 📦 [Preact 10.23 - 支持ref清理函数](https://github.com/preactjs/preact/releases/tag/10.23.0)
+- 📦 [Fumadocs 13.0 - 增强代码块和标注功能](https://fumadocs.vercel.app/blog/v13)
+- 📦 [Bun 1.1.21 - 修复Remix请求/响应覆盖问题](https://bun.sh/blog/bun-v1.1.21)
+- 📦 [Novel 0.5 - Notion风格AI驱动的富文本编辑器](https://github.com/steven-tey/novel)
+- 🎥 [Jack Herrington - Vinxi修复Vite的核心缺陷](https://www.youtube.com/watch?v=C54k7nP4OjI)
+- 🎥 [Theo - 纽约时报改用React 18实现30%性能提升](https://www.youtube.com/watch?v=_6kDnkeReKo)
+- 🎥 [Web Dev Simplified - 6分钟掌握React泛型组件](https://www.youtube.com/watch?v=5s6dIkrv6Y4)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![使用Next.js构建团队任务管理器](/emails/issues/194/clerk.jpg)](https://go.clerk.com/dAmxGNo)
+
+**[使用Next.js构建团队任务管理器](https://go.clerk.com/dAmxGNo)**
+
+学习构建多租户任务管理器，解决团队隔离、用户角色管理和认证难题。
+
+---
+
+## 📱 React-Native {#react-native}
+
+本节由[Benedikt](https://twitter.com/bndkt)撰写。
+
+[![新架构调查](/emails/issues/194/rn.jpg)](https://docs.google.com/forms/d/e/1FAIpQLSdrwmX0MvyjEuu6Kx9fH6FufcfftFgf_rqrGASf3hEGD7mupg/viewform)
+
+📊 **[新架构调查](https://docs.google.com/forms/d/e/1FAIpQLSdrwmX0MvyjEuu6Kx9fH6FufcfftFgf_rqrGASf3hEGD7mupg/viewform)**
+
+过去数月我们见证了新架构的诸多进展，包括其成为今年默认配置的里程碑。现在React Native和Expo团队发起这项调查，旨在了解开发者采用情况（或阻碍因素）。问卷仅含17个问题，耗时几分钟。建议开发者们协助Meta和Expo团队反馈新架构使用体验，这些宝贵意见必将推动后续优化！
+
+---
+
+- 💸 [使用React Native构建跨平台应用。结合原生性能与JavaScript便捷性。通过Apryse SDK学习PDF阅读器开发](https://apryse.com/blog/mobile/react-and-react-native-pdf-viewers?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=jul3124)
+- 👀 [React Native PR - React Native 0.75将添加Swift Package Manager支持](https://github.com/facebook/react-native/pull/44627)：现已包含在RC 6中
+- 👀 [Expo PR - 为react-native-macos添加配置插件支持](https://github.com/expo/expo/pull/30660)
+- 🐦 [Expo SDK 52将通过JSI实现原生fetch流式传输](https://x.com/Baconbrix/status/1816145261170692397)
+- 🐦 [UploadThing现支持通过Expo在移动端上传文件](https://x.com/t3dotgg/status/1818330724451098676)
+- 🐦 [React Native中的GPU访问 - WebGPU在React Native中的首个技术预览](https://x.com/wcandillon/status/1816758789766336624)
+- 🐦 [Expo Router常见问题 - 必须使用索引文件吗？](https://x.com/kadikraman/status/1816583383423881650)
+- 📜 [什么是持续原生生成（CNG）？为何它如此重要？](https://expo.dev/blog/what-is-continuous-native-generation) CNG是按需生成原生项目（即Android和iOS项目文件）的过程。本文深入探讨了这种方法的优势及其工作原理。
+- 📜 [在现有Flutter应用中集成React Native](https://www.callstack.com/blog/adding-react-native-to-an-existing-flutter-app)：众所周知RN在棕地方案（将RN添加到原生应用）中表现良好，但本文探讨了RN如何在Flutter应用中也发挥作用。
+- 📦 [RN 0.74.4](https://github.com/facebook/react-native/releases/tag/v0.74.4)
+- 📦 [RN 0.75.0 RC 6](https://github.com/facebook/react-native/releases/tag/v0.75.0-rc.6)
+- 📦 [React-Native-VisionOS 0.75.0-rc.1](https://github.com/callstack/react-native-visionos/releases/tag/v0.75.0-rc.1-visionos)
+- 📦 [自定义Expo Router布局仓库已更新至v3.5+版本](https://github.com/EvanBacon/expo-router-layouts-example/tree/main)
+- 📦 [expo-drag-drop-content-view 0.8.1 - 支持新架构和所有文件类型](https://github.com/AlirezaHadjar/expo-drag-drop-content-view/releases/tag/v0.8.1)
+- 🎥 [Reactiive - 复选框交互 - 布局过渡之美（React Native Reanimated）](https://www.youtube.com/watch?v=NPq_MFLnQrQ)
+- 🎥 [notJust.dev - 在React Native中构建AI驱动的谷歌翻译克隆版](https://www.youtube.com/live/wIS27dSWpfo)
+- 🎙️ [Rocket Ship第46期 - 与Giovanni Laquidara探讨React Native电视应用开发](https://share.transistor.fm/s/5a9d6e44)
+
+---
+
+## 🔀 其他 {#other}
+
+- 👀 [Node.js - 实验性TypeScript支持路线图](https://github.com/nodejs/loaders/issues/217)：重大进展，Node.js刚刚[合并了该计划的首个PR](https://github.com/nodejs/node/pull/53725)，新增`--experimental-strip-types`选项使TypeScript能在Node.js原生运行。
+- 👀 [Ecma TC39第103次会议议程](https://github.com/tc39/agendas/blob/main/2024/07.md)：正在进行中！多项重要提案已取得进展，例如`RegExp.escape`。
+- 📜 [现代原生JavaScript高效内存DOM操作模式](https://frontendmasters.com/blog/patterns-for-memory-efficient-dom-manipulation/)
+- 📜 [垃圾回收与闭包](https://jakearchibald.com/2024/garbage-collection-and-closures/)
+- 📜 [请停止使用Barrel文件](https://tkdodo.eu/blog/please-stop-using-barrel-files)
+- 📜 [使用@property为CSS提供类型定义](https://moderncss.dev/providing-type-definitions-for-css-with-at-property/)
+- 📜 [Deno - 关于HTTP导入的反思](https://deno.com/blog/http-imports)
+- 📦 [TypeScript 5.6 Beta - 检测可疑的真值/空值检查，迭代器方法...](https://devblogs.microsoft.com/typescript/announcing-typescript-5-6-beta/)
+- 📦 [Node 20.16 - 新增process.getBuiltinModule(id)](https://nodejs.org/en/blog/release/v20.16.0)
+- 📦 [Babel 7.25 - Safari错误修复及重复命名捕获组处理](https://babeljs.io/blog/2024/07/26/7.25.0)
+
+---
+
+## 🤭 趣闻 {#fun}
+
+[![alt](/emails/issues/194/meme.jpg)](https://x.com/ken_wheeler/status/1817981694320029979)
+
+[![alt](/emails/issues/194/meme2.jpg)](https://x.com/sebastienlorber/status/1817951368939749528)
+
+下次见！👋

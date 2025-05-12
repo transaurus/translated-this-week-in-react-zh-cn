@@ -1,0 +1,353 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/145/index.mdx",
+  "segments": [
+    {
+      "id": "58cfcc64",
+      "translatable": false,
+      "content": "---\nslug: /145\ntitle: \"This Week In React #145: Next.js, Server Actions, useFormStatus, useOptimistic, App Router, Canaries, Ink, ReasonML, Redwood, Reanimated, VisionCamera...\"\nauthors: [slorber]\ndate: 05-09-2023\n---",
+      "sourceMdx": "---\nslug: /145\ntitle: \"This Week In React #145: Next.js, Server Actions, useFormStatus, useOptimistic, App Router, Canaries, Ink, ReasonML, Redwood, Reanimated, VisionCamera...\"\nauthors: [slorber]\ndate: 05-09-2023\n---"
+    },
+    {
+      "id": "3fbbcc07",
+      "translatable": true,
+      "content": "Hi everyone!",
+      "sourceMdx": "Hi everyone!"
+    },
+    {
+      "id": "7e5c5a39",
+      "translatable": true,
+      "content": "As expected a new version of Next.js is out. Some React innovations that are better documented in the Next.js doc than in the React one, like form `action`, or the 2 new hooks `useFormStatus` and `useOptimistic`.",
+      "sourceMdx": "As expected a new version of Next.js is out. Some React innovations that are better documented in the Next.js doc than in the React one, like form `action`, or the 2 new hooks `useFormStatus` and `useOptimistic`."
+    },
+    {
+      "id": "8d66f911",
+      "translatable": true,
+      "content": "There are a lot of conferences at the moment. Remix Conf and App.js starting today: there will surely be some nice announcements.",
+      "sourceMdx": "There are a lot of conferences at the moment. Remix Conf and App.js starting today: there will surely be some nice announcements."
+    },
+    {
+      "id": "ad8fd492",
+      "translatable": true,
+      "content": "The [React-Native-Connection](https://reactnativeconnection.io/) (Paris, June 1st) is also a few weeks away, and you can have -20% discount with the code \"REACTHEBDO\"!",
+      "sourceMdx": "The [React-Native-Connection](https://reactnativeconnection.io/) (Paris, June 1st) is also a few weeks away, and you can have -20% discount with the code \"REACTHEBDO\"!"
+    },
+    {
+      "id": "86b54d44",
+      "translatable": true,
+      "content": "I plan to skip next week's edition. Next issue on May 24th 👋",
+      "sourceMdx": "I plan to skip next week's edition. Next issue on May 24th 👋"
+    },
+    {
+      "id": "45c63027",
+      "translatable": false,
+      "content": "<!-- truncate -->",
+      "sourceMdx": "<!-- truncate -->"
+    },
+    {
+      "id": "1acb9a05",
+      "translatable": true,
+      "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+    },
+    {
+      "id": "fb3d50cd",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "0adfe0aa",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import Support from \"../_support.mdx\";"
+    },
+    {
+      "id": "1941846d",
+      "translatable": false,
+      "content": "<Support />",
+      "sourceMdx": "<Support />"
+    },
+    {
+      "id": "a5403c6e",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "d06306f7",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+    },
+    {
+      "id": "73ab96a3",
+      "translatable": true,
+      "content": "[![Start UI](/emails/issues/144/start_ui.jpg)](https://web.start-ui.com?utm_source=newsletter\\&utm_term=this-week-in-react)",
+      "sourceMdx": "[![Start UI](/emails/issues/144/start_ui.jpg)](https://web.start-ui.com?utm_source=newsletter&utm_term=this-week-in-react)"
+    },
+    {
+      "id": "7499a4e7",
+      "translatable": true,
+      "content": "**[Start UI \\[web\\] - Opinionated web app UI starter](https://web.start-ui.com?utm_source=newsletter\\&utm_term=this-week-in-react)**",
+      "sourceMdx": "**[Start UI [web] - Opinionated web app UI starter](https://web.start-ui.com?utm_source=newsletter&utm_term=this-week-in-react)**"
+    },
+    {
+      "id": "517051a7",
+      "translatable": true,
+      "content": "Our **free and open source UI web app starter** offers a quick and easy way to bootstrap your next project. It includes **best practices & production ready tools** to help you get started right away, saving you time and effort in the initial setup phase.",
+      "sourceMdx": "Our **free and open source UI web app starter** offers a quick and easy way to bootstrap your next project. It includes **best practices & production ready tools** to help you get started right away, saving you time and effort in the initial setup phase."
+    },
+    {
+      "id": "135468ee",
+      "translatable": true,
+      "content": "Comes with built-in **features** like 🔐 Authentication, 📱Responsive Layout, 🧑‍💻 User Management, 🇫🇷 Internationalization & Right-to-Left support, 🌚 Dark Mode, 🎛 Advanced components for easy development. You can try out the [example app](https://demo.start-ui.com).",
+      "sourceMdx": "Comes with built-in **features** like 🔐 Authentication, 📱Responsive Layout, 🧑‍💻 User Management, 🇫🇷 Internationalization & Right-to-Left support, 🌚 Dark Mode, 🎛 Advanced components for easy development. You can try out the [example app](https://demo.start-ui.com)."
+    },
+    {
+      "id": "33331f27",
+      "translatable": true,
+      "content": "Ready to use with **TypeScript**, **NextJS**, Chakra UI, TanStack Query, Storybook and more.",
+      "sourceMdx": "Ready to use with **TypeScript**, **NextJS**, Chakra UI, TanStack Query, Storybook and more."
+    },
+    {
+      "id": "50746522",
+      "translatable": true,
+      "content": "[🚀 Start UI \\[web\\] on GitHub](https://web.start-ui.com)",
+      "sourceMdx": "[🚀 Start UI [web] on GitHub](https://web.start-ui.com)"
+    },
+    {
+      "id": "d4e0d4e1",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "8bddee80",
+      "translatable": true,
+      "content": "## ⚛️ React",
+      "sourceMdx": "## ⚛️ React {#react}"
+    },
+    {
+      "id": "a9d49f92",
+      "translatable": true,
+      "content": "[![Next.js 13.4](/emails/issues/145/nextjs.jpg)](https://nextjs.org/blog/next-13-4)",
+      "sourceMdx": "[![Next.js 13.4](/emails/issues/145/nextjs.jpg)](https://nextjs.org/blog/next-13-4)"
+    },
+    {
+      "id": "a44047a5",
+      "translatable": true,
+      "content": "**[Next.js 13.4](https://nextjs.org/blog/next-13-4)**",
+      "sourceMdx": "**[Next.js 13.4](https://nextjs.org/blog/next-13-4)**"
+    },
+    {
+      "id": "f7ef78f9",
+      "translatable": true,
+      "content": "A major release for Next.js, with:",
+      "sourceMdx": "A major release for Next.js, with:"
+    },
+    {
+      "id": "157c9741",
+      "translatable": true,
+      "content": "* App Router (stable): the new router based on Suspense and Server Components is ready for production\n* Turbopack (beta): the new bundler is stabilizing in dev, and prod build is coming soon\n* Server Actions (alpha): Next.js integration of the latest React innovations",
+      "sourceMdx": "- App Router (stable): the new router based on Suspense and Server Components is ready for production\n- Turbopack (beta): the new bundler is stabilizing in dev, and prod build is coming soon\n- Server Actions (alpha): Next.js integration of the latest React innovations"
+    },
+    {
+      "id": "e536ea0d",
+      "translatable": true,
+      "content": "The blog post shows many notable differences with the old router: conventions, nested layouts, selective hydration, server components, code splitting...",
+      "sourceMdx": "The blog post shows many notable differences with the old router: conventions, nested layouts, selective hydration, server components, code splitting..."
+    },
+    {
+      "id": "40158b4b",
+      "translatable": true,
+      "content": "It also unveils the new React innovations to manage mutations and form submissions, whose integration in Next.js gives birth to Server Actions. This greatly simplifies interactions with the server without the need to create an API route and the use of forms supporting [progressive enhancement](https://twitter.com/acdlite/status/1654159613950828546). It is now possible to create and distribute full-stack React components.",
+      "sourceMdx": "It also unveils the new React innovations to manage mutations and form submissions, whose integration in Next.js gives birth to Server Actions. This greatly simplifies interactions with the server without the need to create an API route and the use of forms supporting [progressive enhancement](https://twitter.com/acdlite/status/1654159613950828546). It is now possible to create and distribute full-stack React components."
+    },
+    {
+      "id": "6ea4c715",
+      "translatable": true,
+      "content": "Note that it is a bit early to adopt Server Actions in production. They are in alpha, and you could unexpectedly expose a secret captured in a Server Action closure to the client. Details here:",
+      "sourceMdx": "Note that it is a bit early to adopt Server Actions in production. They are in alpha, and you could unexpectedly expose a secret captured in a Server Action closure to the client. Details here:"
+    },
+    {
+      "id": "158e1f5d",
+      "translatable": true,
+      "content": "* 🧵 [Thread](https://twitter.com/tomus_sherman/status/1654198731313500174): warns of this issue\n* 🐦 Problem recognized by [Sebastian Markbåge](https://twitter.com/sebmarkbage/status/1654212899097960448) and [Andrew Clark](https://twitter.com/acdlite/status/1654317374777032704) who propose to encrypt variables.\n* 🎥 [Next's Server Actions Might Not Be That Safe...](https://www.youtube.com/watch?v=fdKcbyEK66M)",
+      "sourceMdx": "- 🧵 [Thread](https://twitter.com/tomus_sherman/status/1654198731313500174): warns of this issue\n- 🐦 Problem recognized by [Sebastian Markbåge](https://twitter.com/sebmarkbage/status/1654212899097960448) and [Andrew Clark](https://twitter.com/acdlite/status/1654317374777032704) who propose to encrypt variables.\n- 🎥 [Next's Server Actions Might Not Be That Safe...](https://www.youtube.com/watch?v=fdKcbyEK66M)"
+    },
+    {
+      "id": "06e24cc0",
+      "translatable": true,
+      "content": "**Other useful links:**",
+      "sourceMdx": "**Other useful links:**"
+    },
+    {
+      "id": "af7d8a35",
+      "translatable": true,
+      "content": "* 📖 [New Next.js documentation](https://twitter.com/leeerob/status/1654181055740497939): the new beta doc is deployed in production. I advise in particular to read [React Essentials](https://nextjs.org/docs/getting-started/react-essentials).\n* 👀 [useOptimistic](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions#experimental-useoptimistic) and [useFormStatus](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions#experimental-useformstatus): new React experimental hooks.\n* 📜 [Next.js 13.4 on Vercel](https://vercel.com/changelog/next-js-13-4)\n* 📜 [Introducing the Vercel Data Cache: Optimized caching for React Server Components](https://vercel.com/changelog/introducing-vercel-data-cache)\n* 🧵 [Guillermo Rauch - \"I re-designed rauchg.com with App Router\"](https://twitter.com/rauchg/status/1652093972117073920): interesting feedback.\n* 🎥 [Introducing Next.js App Router](https://www.youtube.com/watch?v=DrxiNfbr63s)",
+      "sourceMdx": "- 📖 [New Next.js documentation](https://twitter.com/leeerob/status/1654181055740497939): the new beta doc is deployed in production. I advise in particular to read [React Essentials](https://nextjs.org/docs/getting-started/react-essentials).\n- 👀 [useOptimistic](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions#experimental-useoptimistic) and [useFormStatus](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions#experimental-useformstatus): new React experimental hooks.\n- 📜 [Next.js 13.4 on Vercel](https://vercel.com/changelog/next-js-13-4)\n- 📜 [Introducing the Vercel Data Cache: Optimized caching for React Server Components](https://vercel.com/changelog/introducing-vercel-data-cache)\n- 🧵 [Guillermo Rauch - \"I re-designed rauchg.com with App Router\"](https://twitter.com/rauchg/status/1652093972117073920): interesting feedback.\n- 🎥 [Introducing Next.js App Router](https://www.youtube.com/watch?v=DrxiNfbr63s)"
+    },
+    {
+      "id": "63e1d83c",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "1316cb90",
+      "translatable": true,
+      "content": "* 🧑‍🎓 [TotalTypeScript - React with TypeScript tutorial](https://www.totaltypescript.com/tutorials/react-with-typescript): free tutorial by Matt Pocock, the TypeScript wizard.\n* 🎨 [The Rendering Journey of a React component](https://alexsidorenko.com/react-journey): step-by-step visualization of re-rendering.\n* 📜 [React Canaries: Enabling Incremental Feature Rollout Outside Meta](https://react.dev/blog/2023/05/03/react-canaries): the React team presenting a new canary release channel which allows frameworks to adopt new React features before their official stable release. The canary releases are stable enough to be adopted in production. This is what Next.js App Router uses now, but also what Meta and React-Native always relied on.\n* 📜 [React Server Components, Next.js App Router and examples](https://addyosmani.com/blog/react-server-components-app-router/): Addy Osmani shares his notes and reflections on Server Components. A good overview, as well as many examples of open-source apps. Also lists reasons to stop using Create-React-App.\n* 📜 [5 Lessons Learned From Taking Next.js App Router to Production](https://www.inngest.com/blog/5-lessons-learned-from-taking-next-js-app-router-to-production): feedback from Inngest who successfully migrated a CRA app to Next.js and App Router. There are some interesting details about caching or search parameters.\n* 📜 [Server-side rendering React in OCaml](https://sancho.dev/blog/server-side-rendering-react-in-ocaml): Ahrefs devs use Reason-React. They reimplemented `ReactDOMServer.renderToString` in OCaml to be able to run the SSR natively and solve some of their issues. Their SSR is now 10x faster than Node.js and 6x faster than Bun. The idea of running SSR natively is very interesting, but it will take a lot of work to support the latest innovations like streaming and Server Components.\n* 📜 [HTMX is the Future](https://quii.dev/HTMX_is_the_Future): a critique of SPA frameworks, in particular React. Proposes to use an alternative: HTMX and hypermedia responses. I find it interesting for backend devs who want to add interactivity without doing JavaScript, but not sure that it scales that well.\n* 📜 [Context, Composition, and Flexibility](https://kyleshevlin.com/context-composition-and-flexibility): proposes to use the React context to activate an alternative rendering of a component on a whole subtree.\n* 📜 [My Struggle With Remix](https://redd.one/blog/my-struggle-with-remix): interesting feedback. The author still loves Remix, but presents some challenges encountered while using it.\n* 📜 [Pull to refresh from scratch as a React hook](https://www.strictmode.io/articles/react-pull-to-refresh)\n* 📜 [Creating an interactive spotlight border with CSS and React](https://www.julienthibeaut.xyz/blog/create-spotlight-border-with-react-css)\n* 📦 [Redwood 5.0](https://community.redwoodjs.com/t/redwood-v5-0-0-is-now-available/4830): React 18, TypeScript v5 and observability.\n* 📦 [Ink UI - Themable UI components for your next CLI](https://twitter.com/vadimdemedes/status/1655567427885846534): great example of the React cross-platform abilities. It's possible to render to the terminal, and even create UI libs for that particular ecosystem.\n* 📦 [OpenNext 1.2.0 - geolocation in middleware](https://twitter.com/fanjiewang/status/1654192897678295040)\n* 📦 [Zact - Zod Server ACTions](https://github.com/pingdotgg/zact)\n* 📦 [Astro 2.4](https://astro.build/blog/astro-240/)\n* 📦 [server-only](https://www.npmjs.com/package/server-only): official React package to prevent the import of server code into Client Components (see [Next.js docs](https://nextjs.org/docs/getting-started/react-essentials#keeping-server-only-code-out-of-client-components-poisoning)).\n* 📦 [shadcn UI - Table and Data Table components](https://twitter.com/shadcn/status/1656019263394836480)\n* 📦 [Million.js 2.3.1 - Astro support (beta)](https://twitter.com/aidenybai/status/1655088722222923776)\n* 📊 [State of React 2023 - Preliminary Discussions](https://github.com/Devographics/surveys/issues/85): there might be a survey dedicated to React this year.\n* 👀 [RSCs on Rspack](https://twitter.com/_hyf0/status/1655538017669648385)\n* 👀 [Edit audio with Remotion](https://twitter.com/JNYBGR/status/1655853159623917568)\n* 🎥 [Always Bet On React](https://www.youtube.com/watch?v=TnyslkPfXaM)\n* 🎥 [I'm Done With React](https://www.youtube.com/watch?v=Zt8mO_Aqzw8)\n* 🎥 [Should You Learn React in 2023? - Interview with React Summit Speakers Tru Narla and Jordan Gensler](https://www.youtube.com/watch?v=5xRqP-M8MkM)\n* 👥 [React Summit](https://reactsummit.com/?utm_source=email\\&utm_medium=thisweekinreact) (Amsterdam, June 2-6) is offering us -5% on tickets (code \"ThisWeekInReact5\") and -10% on [workshops](https://reactsummit.com/react-workshops) (code \"THISWEEKINREACT\")",
+      "sourceMdx": "- 🧑‍🎓 [TotalTypeScript - React with TypeScript tutorial](https://www.totaltypescript.com/tutorials/react-with-typescript): free tutorial by Matt Pocock, the TypeScript wizard.\n- 🎨 [The Rendering Journey of a React component](https://alexsidorenko.com/react-journey): step-by-step visualization of re-rendering.\n- 📜 [React Canaries: Enabling Incremental Feature Rollout Outside Meta](https://react.dev/blog/2023/05/03/react-canaries): the React team presenting a new canary release channel which allows frameworks to adopt new React features before their official stable release. The canary releases are stable enough to be adopted in production. This is what Next.js App Router uses now, but also what Meta and React-Native always relied on.\n- 📜 [React Server Components, Next.js App Router and examples](https://addyosmani.com/blog/react-server-components-app-router/): Addy Osmani shares his notes and reflections on Server Components. A good overview, as well as many examples of open-source apps. Also lists reasons to stop using Create-React-App.\n- 📜 [5 Lessons Learned From Taking Next.js App Router to Production](https://www.inngest.com/blog/5-lessons-learned-from-taking-next-js-app-router-to-production): feedback from Inngest who successfully migrated a CRA app to Next.js and App Router. There are some interesting details about caching or search parameters.\n- 📜 [Server-side rendering React in OCaml](https://sancho.dev/blog/server-side-rendering-react-in-ocaml): Ahrefs devs use Reason-React. They reimplemented `ReactDOMServer.renderToString` in OCaml to be able to run the SSR natively and solve some of their issues. Their SSR is now 10x faster than Node.js and 6x faster than Bun. The idea of running SSR natively is very interesting, but it will take a lot of work to support the latest innovations like streaming and Server Components.\n- 📜 [HTMX is the Future](https://quii.dev/HTMX_is_the_Future): a critique of SPA frameworks, in particular React. Proposes to use an alternative: HTMX and hypermedia responses. I find it interesting for backend devs who want to add interactivity without doing JavaScript, but not sure that it scales that well.\n- 📜 [Context, Composition, and Flexibility](https://kyleshevlin.com/context-composition-and-flexibility): proposes to use the React context to activate an alternative rendering of a component on a whole subtree.\n- 📜 [My Struggle With Remix](https://redd.one/blog/my-struggle-with-remix): interesting feedback. The author still loves Remix, but presents some challenges encountered while using it.\n- 📜 [Pull to refresh from scratch as a React hook](https://www.strictmode.io/articles/react-pull-to-refresh)\n- 📜 [Creating an interactive spotlight border with CSS and React](https://www.julienthibeaut.xyz/blog/create-spotlight-border-with-react-css)\n- 📦 [Redwood 5.0](https://community.redwoodjs.com/t/redwood-v5-0-0-is-now-available/4830): React 18, TypeScript v5 and observability.\n- 📦 [Ink UI - Themable UI components for your next CLI](https://twitter.com/vadimdemedes/status/1655567427885846534): great example of the React cross-platform abilities. It's possible to render to the terminal, and even create UI libs for that particular ecosystem.\n- 📦 [OpenNext 1.2.0 - geolocation in middleware](https://twitter.com/fanjiewang/status/1654192897678295040)\n- 📦 [Zact - Zod Server ACTions](https://github.com/pingdotgg/zact)\n- 📦 [Astro 2.4](https://astro.build/blog/astro-240/)\n- 📦 [server-only](https://www.npmjs.com/package/server-only): official React package to prevent the import of server code into Client Components (see [Next.js docs](https://nextjs.org/docs/getting-started/react-essentials#keeping-server-only-code-out-of-client-components-poisoning)).\n- 📦 [shadcn UI - Table and Data Table components](https://twitter.com/shadcn/status/1656019263394836480)\n- 📦 [Million.js 2.3.1 - Astro support (beta)](https://twitter.com/aidenybai/status/1655088722222923776)\n- 📊 [State of React 2023 - Preliminary Discussions](https://github.com/Devographics/surveys/issues/85): there might be a survey dedicated to React this year.\n- 👀 [RSCs on Rspack](https://twitter.com/_hyf0/status/1655538017669648385)\n- 👀 [Edit audio with Remotion](https://twitter.com/JNYBGR/status/1655853159623917568)\n- 🎥 [Always Bet On React](https://www.youtube.com/watch?v=TnyslkPfXaM)\n- 🎥 [I'm Done With React](https://www.youtube.com/watch?v=Zt8mO_Aqzw8)\n- 🎥 [Should You Learn React in 2023? - Interview with React Summit Speakers Tru Narla and Jordan Gensler](https://www.youtube.com/watch?v=5xRqP-M8MkM)\n- 👥 [React Summit](https://reactsummit.com/?utm_source=email&utm_medium=thisweekinreact) (Amsterdam, June 2-6) is offering us -5% on tickets (code \"ThisWeekInReact5\") and -10% on [workshops](https://reactsummit.com/react-workshops) (code \"THISWEEKINREACT\")"
+    },
+    {
+      "id": "a3da9b2d",
+      "translatable": false,
+      "content": "<SubscribeFormEmbed />",
+      "sourceMdx": "<SubscribeFormEmbed />"
+    },
+    {
+      "id": "4fc5e34f",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "56bc971f",
+      "translatable": true,
+      "content": "## 💸 Sponsor",
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+    },
+    {
+      "id": "0801d969",
+      "translatable": true,
+      "content": "[![Nylas](/emails/issues/144/nylas_2.png)](https://www.nylas.com/?utm_source=TWIR\\&utm_medium=sponsoredemail\\&utm_campaign=FY23Q2-TWIR-2P-DSU\\&utm_content\\&utm_term)",
+      "sourceMdx": "[![Nylas](/emails/issues/144/nylas_2.png)](https://www.nylas.com/?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-DSU&utm_content&utm_term)"
+    },
+    {
+      "id": "3c19e221",
+      "translatable": true,
+      "content": "**[OpenAI + Nylas Fireside Chat : IA générative](https://www.nylas.com/?utm_source=TWIR\\&utm_medium=sponsoredemail\\&utm_campaign=FY23Q2-TWIR-2P-DSU\\&utm_content\\&utm_term)**",
+      "sourceMdx": "**[OpenAI + Nylas Fireside Chat : IA générative](https://www.nylas.com/?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-DSU&utm_content&utm_term)**"
+    },
+    {
+      "id": "d21af28f",
+      "translatable": true,
+      "content": "Want to get an inside look at the future of generative AI? On May 17th, [OpenAI and Nylas will be hosting an open-to-all fireside chat](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=TWIR\\&utm_medium=sponsoredemail\\&utm_campaign=FY23Q2-TWIR-2P-Webinar\\&utm_content=march-9-issue\\&utm_term=) with Evan Morikawa, Applied Engineering Manager at OpenAI, and Christine Spang, CTO and Co-Founder at Nylas. They’ll discuss what it takes to deliver and maintain AI solutions at scale, what AI's next stage of maturity looks like, and much more. [Don’t miss it](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=TWIR\\&utm_medium=sponsoredemail\\&utm_campaign=FY23Q2-TWIR-2P-Webinar\\&utm_content=march-9-issue\\&utm_term=).",
+      "sourceMdx": "Want to get an inside look at the future of generative AI? On May 17th, [OpenAI and Nylas will be hosting an open-to-all fireside chat](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-Webinar&utm_content=march-9-issue&utm_term=) with Evan Morikawa, Applied Engineering Manager at OpenAI, and Christine Spang, CTO and Co-Founder at Nylas. They’ll discuss what it takes to deliver and maintain AI solutions at scale, what AI's next stage of maturity looks like, and much more. [Don’t miss it](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-Webinar&utm_content=march-9-issue&utm_term=)."
+    },
+    {
+      "id": "55ba2007",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "638efb88",
+      "translatable": true,
+      "content": "## 📱 React-Native",
+      "sourceMdx": "## 📱 React-Native {#react-native}"
+    },
+    {
+      "id": "10e4f9ca",
+      "translatable": true,
+      "content": "* 📖 [New Reanimated Beta docs](https://twitter.com/swmansion/status/1655930596093472774): new interactive Docusaurus doc with many examples implemented in React-Native-Web.\n* 🎨 [VisionCamera + Skia + TensorFlow demo](https://twitter.com/mrousavy/status/1654143459849121792): it's impressive what can be done in React-Native today. Skia rendering and TensorFlow models can be updated with an Over-The-Air update.\n* 🎨 [Reanimated 3 + Expo Router + Shared Element Transitions demo](https://twitter.com/kacperkapusciak/status/1654434612825792513)\n* 📜 [Best tips & tricks for E2E Maestro with React Native](https://dev.to/retyui/best-tips-tricks-for-e2e-maestro-with-react-native-2kaa)\n* 📜 [React Native run-android: How to Test Various Device Types](https://www.testim.io/blog/react-native-run-android/)\n* 👥 [App.js](https://appjs.co/) (Krakow, May 10-12) is offering us [-20% on workshops](https://ti.to/appjs/2023/discount/ThisWeekinReact20) (code \"ThisWeekinReact20\").\n* 👥 [Chain React](https://chainreactconf.com/) (Portland, May 18-19) is offering us -10% on entries (code \"thisweekinreact\").\n* 👥 [React-Native-Connection](https://reactnativeconnection.io/) (Paris, 1er June) is offering us -10% on entries (code \"REACTHEBDO\").",
+      "sourceMdx": "- 📖 [New Reanimated Beta docs](https://twitter.com/swmansion/status/1655930596093472774): new interactive Docusaurus doc with many examples implemented in React-Native-Web.\n- 🎨 [VisionCamera + Skia + TensorFlow demo](https://twitter.com/mrousavy/status/1654143459849121792): it's impressive what can be done in React-Native today. Skia rendering and TensorFlow models can be updated with an Over-The-Air update.\n- 🎨 [Reanimated 3 + Expo Router + Shared Element Transitions demo](https://twitter.com/kacperkapusciak/status/1654434612825792513)\n- 📜 [Best tips & tricks for E2E Maestro with React Native](https://dev.to/retyui/best-tips-tricks-for-e2e-maestro-with-react-native-2kaa)\n- 📜 [React Native run-android: How to Test Various Device Types](https://www.testim.io/blog/react-native-run-android/)\n- 👥 [App.js](https://appjs.co/) (Krakow, May 10-12) is offering us [-20% on workshops](https://ti.to/appjs/2023/discount/ThisWeekinReact20) (code \"ThisWeekinReact20\").\n- 👥 [Chain React](https://chainreactconf.com/) (Portland, May 18-19) is offering us -10% on entries (code \"thisweekinreact\").\n- 👥 [React-Native-Connection](https://reactnativeconnection.io/) (Paris, 1er June) is offering us -10% on entries (code \"REACTHEBDO\")."
+    },
+    {
+      "id": "75603060",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "c766290e",
+      "translatable": true,
+      "content": "## 🧑‍💻 Jobs",
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+    },
+    {
+      "id": "5c7d994c",
+      "translatable": true,
+      "content": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)",
+      "sourceMdx": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)"
+    },
+    {
+      "id": "1ecf0882",
+      "translatable": true,
+      "content": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses.",
+      "sourceMdx": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses."
+    },
+    {
+      "id": "e77cf7c6",
+      "translatable": true,
+      "content": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
+      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)"
+    },
+    {
+      "id": "bb1346b6",
+      "translatable": true,
+      "content": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
+      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!"
+    },
+    {
+      "id": "8664ed0b",
+      "translatable": true,
+      "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+    },
+    {
+      "id": "9e90a9b3",
+      "translatable": true,
+      "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+    },
+    {
+      "id": "681ef526",
+      "translatable": true,
+      "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+    },
+    {
+      "id": "f97c407b",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "3cd8185f",
+      "translatable": true,
+      "content": "## 🔀 Other",
+      "sourceMdx": "## 🔀 Other {#other}"
+    },
+    {
+      "id": "a627a446",
+      "translatable": true,
+      "content": "* [Client-side rendering of HTML and interactivity](https://web.dev/client-side-rendering-of-html-and-interactivity/)\n* [Diagnose slow interactions in the lab](https://web.dev/diagnose-slow-interactions-in-the-lab/)\n* [I want to talk about WebGPU](https://cohost.org/mcc/post/1406157-i-want-to-talk-about)\n* [Animate elements on scroll with Scroll-driven animations](https://developer.chrome.com/articles/scroll-driven-animations/)\n* [Cumulative Layout Shift Differences In Lab And Field Data](https://www.debugbear.com/blog/cls-lab-field-differences)\n* [Angular v16](https://blog.angular.io/angular-v16-is-here-4d7a28ec680d)\n* [Nx v16](https://blog.nrwl.io/nx-16-is-here-69584ec87053#68c6)\n* [Vitest 0.31](https://twitter.com/sheremet_va/status/1653827712576880645)",
+      "sourceMdx": "- [Client-side rendering of HTML and interactivity](https://web.dev/client-side-rendering-of-html-and-interactivity/)\n- [Diagnose slow interactions in the lab](https://web.dev/diagnose-slow-interactions-in-the-lab/)\n- [I want to talk about WebGPU](https://cohost.org/mcc/post/1406157-i-want-to-talk-about)\n- [Animate elements on scroll with Scroll-driven animations](https://developer.chrome.com/articles/scroll-driven-animations/)\n- [Cumulative Layout Shift Differences In Lab And Field Data](https://www.debugbear.com/blog/cls-lab-field-differences)\n- [Angular v16](https://blog.angular.io/angular-v16-is-here-4d7a28ec680d)\n- [Nx v16](https://blog.nrwl.io/nx-16-is-here-69584ec87053#68c6)\n- [Vitest 0.31](https://twitter.com/sheremet_va/status/1653827712576880645)"
+    },
+    {
+      "id": "c7daeccd",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "d4eab4a6",
+      "translatable": true,
+      "content": "## 🤭 Fun",
+      "sourceMdx": "## 🤭 Fun {#fun}"
+    },
+    {
+      "id": "0ddaa835",
+      "translatable": true,
+      "content": "[![alt](/emails/issues/145/meme.jpg)](https://twitter.com/markdalgleish/status/1654259858668163072)",
+      "sourceMdx": "[![alt](/emails/issues/145/meme.jpg)](https://twitter.com/markdalgleish/status/1654259858668163072)"
+    },
+    {
+      "id": "fd7ed056",
+      "translatable": true,
+      "content": "See ya! 👋",
+      "sourceMdx": "See ya! 👋"
+    }
+  ]
+}

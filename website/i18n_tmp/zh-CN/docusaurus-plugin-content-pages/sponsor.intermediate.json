@@ -1,0 +1,527 @@
+{
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/src/pages/sponsor.mdx",
+  "segments": [
+    {
+      "id": "a9b642df",
+      "translatable": false,
+      "content": "[//]: <> (ESM Import/Export)",
+      "sourceMdx": "import {\n  newsletterStats,\n  sponsorshipCalendarLink,\n  lastIssueLink,\n} from \"@site/src/newsletter\";\nimport {\n  PrimaryAdExample,\n  SecondaryAdExample,\n} from \"@site/src/components/AdExamples\";"
+    },
+    {
+      "id": "8a5f6a7b",
+      "translatable": true,
+      "content": "# Sponsor the newsletter",
+      "sourceMdx": "# Sponsor the newsletter"
+    },
+    {
+      "id": "180bddb1",
+      "translatable": true,
+      "content": "Reach a **qualified and engaged** audience of **mid/senior React developers** with an ad in our [weekly newsletter](/newsletter).",
+      "sourceMdx": "Reach a **qualified and engaged** audience of **mid/senior React developers** with an ad in our [weekly newsletter](/newsletter)."
+    },
+    {
+      "id": "cf898102",
+      "translatable": true,
+      "content": "Get in touch:",
+      "sourceMdx": "Get in touch:"
+    },
+    {
+      "id": "84758135",
+      "translatable": true,
+      "content": "* by email at [**sponsor@thisweekinreact.com**](mailto:sponsor@thisweekinreact.com?subject=Sponsorship)\n* or fill the [**contact form**](https://thisweekinreact.com/sponsor/form)",
+      "sourceMdx": "- by email at [**sponsor@thisweekinreact.com**](mailto:sponsor@thisweekinreact.com?subject=Sponsorship)\n- or fill the [**contact form**](https://thisweekinreact.com/sponsor/form)"
+    },
+    {
+      "id": "1acb9a05",
+      "translatable": true,
+      "content": "Last updated: **February 2025**.",
+      "sourceMdx": "Last updated: **February 2025**."
+    },
+    {
+      "id": "fb3d50cd",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "95b38f97",
+      "translatable": true,
+      "content": "## TLDR",
+      "sourceMdx": "## TLDR"
+    },
+    {
+      "id": "1941846d",
+      "translatable": false,
+      "content": "<ul>\n  <li>\n    <b>Advertise</b>\n    <>: a product, course, blog post, conference...</>\n  </li>\n  <li>\n    <b>Placements</b>\n    <>: 1st sponsor, 2nd sponsor, sponsored link, custom...</>\n  </li>\n  <li>\n    <b>Subscribers count</b>\n    <>: </>\n    <span>{newsletterStats.all.subscribersCount}</span>\n  </li>\n  <li>\n    <>\n      <b>Open-rate</b>\n      <>: </>\n      <span>{newsletterStats.all.openRate}%</span>\n    </>\n  </li>\n  <li>\n    <>\n      <b>Click-rate</b>\n      <>: </>\n      <span>{newsletterStats.all.clickRate}%</span>\n    </>\n  </li>\n  <li>\n    <b>Readers at</b>\n    <>\n      {\n        \": Meta, Google, Microsoft, GitHub, Shopify, Amazon, Stripe, Cloudflare, ByteDance, Figma, Uber...\"\n      }\n    </>\n  </li>\n  <li>\n    <b>Most popular offer</b>\n    <>: </>\n    <a href=\"#sponsor-1st\">4 x 1st sponsor slots</a>\n  </li>\n  <li>\n    <b>Booking</b>\n    <>: </>\n    <>email us at </>\n    <a href=\"mailto:sponsor@thisweekinreact.com?subject=Sponsorship\">\n      <b>{\"sponsor@thisweekinreact.com\"}</b>\n    </a>\n    <> or </>\n    <a href=\"https://thisweekinreact.com/sponsor/form\">\n      <b>fill this form</b>\n    </a>\n  </li>\n</ul>",
+      "sourceMdx": "<ul>\n  <li>\n    <b>Advertise</b>\n    <>: a product, course, blog post, conference...</>\n  </li>\n  <li>\n    <b>Placements</b>\n    <>: 1st sponsor, 2nd sponsor, sponsored link, custom...</>\n  </li>\n  <li>\n    <b>Subscribers count</b>\n    <>: </>\n    <span>{newsletterStats.all.subscribersCount}</span>\n  </li>\n  <li>\n    <>\n      <b>Open-rate</b>\n      <>: </>\n      <span>{newsletterStats.all.openRate}%</span>\n    </>\n  </li>\n  <li>\n    <>\n      <b>Click-rate</b>\n      <>: </>\n      <span>{newsletterStats.all.clickRate}%</span>\n    </>\n  </li>\n  <li>\n    <b>Readers at</b>\n    <>\n      {\n        \": Meta, Google, Microsoft, GitHub, Shopify, Amazon, Stripe, Cloudflare, ByteDance, Figma, Uber...\"\n      }\n    </>\n  </li>\n  <li>\n    <b>Most popular offer</b>\n    <>: </>\n    <a href=\"#sponsor-1st\">4 x 1st sponsor slots</a>\n  </li>\n  <li>\n    <b>Booking</b>\n    <>: </>\n    <>email us at </>\n    <a href=\"mailto:sponsor@thisweekinreact.com?subject=Sponsorship\">\n      <b>{\"sponsor@thisweekinreact.com\"}</b>\n    </a>\n    <> or </>\n    <a href=\"https://thisweekinreact.com/sponsor/form\">\n      <b>fill this form</b>\n    </a>\n  </li>\n</ul>"
+    },
+    {
+      "id": "aac83236",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "66819c78",
+      "translatable": true,
+      "content": "## Audience",
+      "sourceMdx": "## Audience {#audience}"
+    },
+    {
+      "id": "fbc2db85",
+      "translatable": true,
+      "content": "The audience of our [weekly newsletter](/newsletter) is **qualitative and engaged**, with open-rates way above the industry standard.",
+      "sourceMdx": "The audience of our [weekly newsletter](/newsletter) is **qualitative and engaged**, with open-rates way above the industry standard."
+    },
+    {
+      "id": "759d12dd",
+      "translatable": true,
+      "content": "### 📜 Content",
+      "sourceMdx": "### 📜 Content {#content}"
+    },
+    {
+      "id": "74dd7937",
+      "translatable": true,
+      "content": "Our editorial line assumes readers are:",
+      "sourceMdx": "Our editorial line assumes readers are:"
+    },
+    {
+      "id": "49f9f337",
+      "translatable": true,
+      "content": "* **React developers**: we cover the whole React ecosystem\n* **React-Native developers**: there's a dedicated section in the newsletter\n* **experienced**: they know React well and are not interested in beginner-friendly content\n* **passionate**: they want to stay on top of their favorite technology\n* **open-minded**: they also want to know about non-React news that are relevant to them\n* **respecting their time**: they want a pre-filtered qualitative content",
+      "sourceMdx": "- **React developers**: we cover the whole React ecosystem\n- **React-Native developers**: there's a dedicated section in the newsletter\n- **experienced**: they know React well and are not interested in beginner-friendly content\n- **passionate**: they want to stay on top of their favorite technology\n- **open-minded**: they also want to know about non-React news that are relevant to them\n- **respecting their time**: they want a pre-filtered qualitative content"
+    },
+    {
+      "id": "f9d6f2bf",
+      "translatable": false,
+      "content": "<details>\n  <summary>What makes this newsletter unique</summary>\n\nIt is a weekly curation of news **for** React developers, not just about React. And in particular for **mid/senior** developers that are already productive using React.\n\nWe focus on what's **really new** in an **exhaustive** way. There's usually **a lof of external links**, but readers aren't expected to click all of them: simply reading the headlines and comments usually provide enough value.\n\nWe **filter content** heavily, and generally exclude:\n\n- content produced for SEO, based on keyword analysis\n- listicles, 101's\n- verbose step-by-step tutorials\n- promotional product tutorials\n- most UI libraries and npm packages\n\n</details>",
+      "sourceMdx": "<details>\n  <summary>What makes this newsletter unique</summary>\n\nIt is a weekly curation of news **for** React developers, not just about React. And in particular for **mid/senior** developers that are already productive using React.\n\nWe focus on what's **really new** in an **exhaustive** way. There's usually **a lof of external links**, but readers aren't expected to click all of them: simply reading the headlines and comments usually provide enough value.\n\nWe **filter content** heavily, and generally exclude:\n\n- content produced for SEO, based on keyword analysis\n- listicles, 101's\n- verbose step-by-step tutorials\n- promotional product tutorials\n- most UI libraries and npm packages\n\n</details>"
+    },
+    {
+      "id": "f018dbb4",
+      "translatable": false,
+      "content": "<details>\n  <summary>About the author - Sébastien Lorber</summary>\n\n[**Sébastien Lorber**](https://www.linkedin.com/in/sebastienlorber) ([@sebastienlorber](https://twitter.com/sebastienlorber)) is a **React early-adopter** and user since [January 2014](https://stackoverflow.com/questions/21352587/does-react-use-requestanimationframe-if-so-how-does-it-use-it).\n\nWith **a decade of React experience**, he has the credibility and authority to know exactly what is interesting to a senior React developer, and is able to provide **unique insight**.\n\nSince 2020, he has been **working for Meta** as a freelancer. He is the **lead maintainer of [Docusaurus](https://github.com/facebook/docusaurus)**, a React static site generator for creating beautiful documentation websites, one of Meta's most successful open source project.\n\n</details>",
+      "sourceMdx": "<details>\n  <summary>About the author - Sébastien Lorber</summary>\n\n[**Sébastien Lorber**](https://www.linkedin.com/in/sebastienlorber) ([@sebastienlorber](https://twitter.com/sebastienlorber)) is a **React early-adopter** and user since [January 2014](https://stackoverflow.com/questions/21352587/does-react-use-requestanimationframe-if-so-how-does-it-use-it).\n\nWith **a decade of React experience**, he has the credibility and authority to know exactly what is interesting to a senior React developer, and is able to provide **unique insight**.\n\nSince 2020, he has been **working for Meta** as a freelancer. He is the **lead maintainer of [Docusaurus](https://github.com/facebook/docusaurus)**, a React static site generator for creating beautiful documentation websites, one of Meta's most successful open source project.\n\n</details>"
+    },
+    {
+      "id": "b3dd1be3",
+      "translatable": false,
+      "content": "<br />",
+      "sourceMdx": "<br />"
+    },
+    {
+      "id": "36d6c3de",
+      "translatable": true,
+      "content": "### 🌍 Demography",
+      "sourceMdx": "### 🌍 Demography {#demography}"
+    },
+    {
+      "id": "c364340c",
+      "translatable": true,
+      "content": "Our audience is well-balanced, with the largest share in **Europe** (40%) followed by **North America** (18%).",
+      "sourceMdx": "Our audience is well-balanced, with the largest share in **Europe** (40%) followed by **North America** (18%)."
+    },
+    {
+      "id": "f45239ba",
+      "translatable": true,
+      "content": "![Substack audience demography stats](/img/audience-demography.png)",
+      "sourceMdx": "![Substack audience demography stats](/img/audience-demography.png)"
+    },
+    {
+      "id": "8f1c1cd6",
+      "translatable": true,
+      "content": "### 📈 Stats",
+      "sourceMdx": "### 📈 Stats {#stats}"
+    },
+    {
+      "id": "88cb26ec",
+      "translatable": false,
+      "content": "<SponsoringTabsStats>\n  <details>\n    <summary><b>Email provider screenshot</b>{\" (April 2024)\"}</summary>\n        <img alt=\"screenshot\" src=\"/img/CK_TWIR_STATS.jpg\" />\n  </details>\n  <details>\n    <summary><b>About the open-rate </b> - an unreliable metric</summary>\n\n            - [iOS 15 prevents email tracking](https://phoscreative.com/articles/ios15-email-marketing/)\n            - [Gmail clipping prevents email tracking](https://convertkit.com/sender-reputation)\n            - Readers use privacy tooling: [StoopInbox](https://stoopinbox.com/), [Kill The Newsletter](https://kill-the-newsletter.com/), [FeedBin](https://feedbin.com/), [ReadWise](https://readwise.io/), [Feedly](https://feedly.com/), [Newsletterss](https://newsletterss.com/), [Mailbrew](https://mailbrew.com/), [ProtonMail](https://proton.me/), [Apple Private Relay Email](https://developer.apple.com/documentation/sign_in_with_apple/sign_in_with_apple_js/communicating_using_the_private_email_relay_service), [Firefox Relay](https://relay.firefox.com/)...\n\n    </details>\n\n</SponsoringTabsStats>",
+      "sourceMdx": "<SponsoringTabsStats>\n  <details>\n    <summary><b>Email provider screenshot</b>{\" (April 2024)\"}</summary>\n        <img alt=\"screenshot\" src=\"/img/CK_TWIR_STATS.jpg\" />\n  </details>\n  <details>\n    <summary><b>About the open-rate </b> - an unreliable metric</summary>\n\n            - [iOS 15 prevents email tracking](https://phoscreative.com/articles/ios15-email-marketing/)\n            - [Gmail clipping prevents email tracking](https://convertkit.com/sender-reputation)\n            - Readers use privacy tooling: [StoopInbox](https://stoopinbox.com/), [Kill The Newsletter](https://kill-the-newsletter.com/), [FeedBin](https://feedbin.com/), [ReadWise](https://readwise.io/), [Feedly](https://feedly.com/), [Newsletterss](https://newsletterss.com/), [Mailbrew](https://mailbrew.com/), [ProtonMail](https://proton.me/), [Apple Private Relay Email](https://developer.apple.com/documentation/sign_in_with_apple/sign_in_with_apple_js/communicating_using_the_private_email_relay_service), [Firefox Relay](https://relay.firefox.com/)...\n\n    </details>\n\n</SponsoringTabsStats>"
+    },
+    {
+      "id": "9e0ba9d0",
+      "translatable": false,
+      "content": "<br />",
+      "sourceMdx": "<br />"
+    },
+    {
+      "id": "b77e7669",
+      "translatable": true,
+      "content": "### 🗣 Testimonials",
+      "sourceMdx": "### 🗣 Testimonials {#testimonials}"
+    },
+    {
+      "id": "619c3209",
+      "translatable": true,
+      "content": "Readers regularly express their satisfaction. Check our **[Twitter testimonials](https://twitter.com/sebastienlorber/timelines/1448942785814466561)**.",
+      "sourceMdx": "Readers regularly express their satisfaction. Check our **[Twitter testimonials](https://twitter.com/sebastienlorber/timelines/1448942785814466561)**."
+    },
+    {
+      "id": "24d53e93",
+      "translatable": false,
+      "content": "<SponsoringTabsTestimonials />",
+      "sourceMdx": "<SponsoringTabsTestimonials />"
+    },
+    {
+      "id": "b6796530",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "ee213c98",
+      "translatable": true,
+      "content": "## Placements",
+      "sourceMdx": "## Placements {#placements}"
+    },
+    {
+      "id": "008183b0",
+      "translatable": true,
+      "content": "We offer multiple sponsored placements, each of them has a different price.",
+      "sourceMdx": "We offer multiple sponsored placements, each of them has a different price."
+    },
+    {
+      "id": "0ddaa835",
+      "translatable": true,
+      "content": "The newsletter structure stays the same every week:",
+      "sourceMdx": "The newsletter structure stays the same every week:"
+    },
+    {
+      "id": "8f6fa9f3",
+      "translatable": false,
+      "content": "<BrowserWindow url={lastIssueLink}>\n\n- 👋 Introduction\n- 🥇 [**1st sponsor**](#sponsor-1st)\n- ⚛️ React section:\n  - 👀 Headlines\n  - ⚡ [**React Link sponsor**](#sponsor-link)\n  - 🔗 Links\n  - ⚡ [**React Link sponsor**](#sponsor-link)\n  - 🔗 Links\n- 🥈 [**2nd sponsor**](#sponsor-2nd)\n- 📱 React-Native section:\n  - 👀 Headlines\n  - ⚡ [**React Native Link sponsor**](#sponsor-link)\n  - 🔗 Links\n- 🔀 Other section\n- 🤭 Fun section\n\n</BrowserWindow>",
+      "sourceMdx": "<BrowserWindow url={lastIssueLink}>\n\n- 👋 Introduction\n- 🥇 [**1st sponsor**](#sponsor-1st)\n- ⚛️ React section:\n  - 👀 Headlines\n  - ⚡ [**React Link sponsor**](#sponsor-link)\n  - 🔗 Links\n  - ⚡ [**React Link sponsor**](#sponsor-link)\n  - 🔗 Links\n- 🥈 [**2nd sponsor**](#sponsor-2nd)\n- 📱 React-Native section:\n  - 👀 Headlines\n  - ⚡ [**React Native Link sponsor**](#sponsor-link)\n  - 🔗 Links\n- 🔀 Other section\n- 🤭 Fun section\n\n</BrowserWindow>"
+    },
+    {
+      "id": "b8c004ac",
+      "translatable": false,
+      "content": "<span>\n  <>Check our </>\n  <b>\n    <a href={lastIssueLink}>last newsletter issue</a>\n  </b>\n  <> to get a better idea!</>\n</span>",
+      "sourceMdx": "<span>\n  <>Check our </>\n  <b>\n    <a href={lastIssueLink}>last newsletter issue</a>\n  </b>\n  <> to get a better idea!</>\n</span>"
+    },
+    {
+      "id": "4cf02ae6",
+      "translatable": false,
+      "content": "<br />",
+      "sourceMdx": "<br />"
+    },
+    {
+      "id": "6bb4b070",
+      "translatable": false,
+      "content": "<br />",
+      "sourceMdx": "<br />"
+    },
+    {
+      "id": "17fd5988",
+      "translatable": true,
+      "content": "### 🥇 1st sponsor",
+      "sourceMdx": "### 🥇 1st sponsor {#sponsor-1st}"
+    },
+    {
+      "id": "3208eb29",
+      "translatable": true,
+      "content": "This placement offers a generous ad copy length at the beginning of the newsletter, before the React section.",
+      "sourceMdx": "This placement offers a generous ad copy length at the beginning of the newsletter, before the React section."
+    },
+    {
+      "id": "29436d5c",
+      "translatable": false,
+      "content": "<details>\n  <summary>Ad constraints and example</summary>\n\n**Placement constraints:**\n\n- **Title**: 55 characters max, 1 link\n- **Body**: 800 characters max, max 2 links, max 3 line breaks, decent usage of bold/smileys/list\n- **Image**: horizontal banner - ideally 1200x600px\n\n<PrimaryAdExample />\n\n</details>",
+      "sourceMdx": "<details>\n  <summary>Ad constraints and example</summary>\n\n**Placement constraints:**\n\n- **Title**: 55 characters max, 1 link\n- **Body**: 800 characters max, max 2 links, max 3 line breaks, decent usage of bold/smileys/list\n- **Image**: horizontal banner - ideally 1200x600px\n\n<PrimaryAdExample />\n\n</details>"
+    },
+    {
+      "id": "151776a7",
+      "translatable": false,
+      "content": "<SponsoringTabsFirstSponsor />",
+      "sourceMdx": "<SponsoringTabsFirstSponsor />"
+    },
+    {
+      "id": "b150092b",
+      "translatable": false,
+      "content": "<br />",
+      "sourceMdx": "<br />"
+    },
+    {
+      "id": "dc825187",
+      "translatable": true,
+      "content": "### 🥈 2nd sponsor",
+      "sourceMdx": "### 🥈 2nd sponsor {#sponsor-2nd}"
+    },
+    {
+      "id": "833ce577",
+      "translatable": true,
+      "content": "This placement appears in the middle of the newsletter, in between the React and React-Native sections.",
+      "sourceMdx": "This placement appears in the middle of the newsletter, in between the React and React-Native sections."
+    },
+    {
+      "id": "70c65cb9",
+      "translatable": false,
+      "content": "<details>\n    <summary>Ad constraints and example</summary>\n\n    **Placement constraints:**\n    - **Title**: 55 characters max, 1 link\n    - **Body**: 800 characters max, max 1 link, max 2 line breaks, decent usage of bold/smileys/list\n    - **Image**: horizontal banner - ideally 1200x600px\n\n    <SecondaryAdExample />\n\n</details>",
+      "sourceMdx": "<details>\n    <summary>Ad constraints and example</summary>\n\n    **Placement constraints:**\n    - **Title**: 55 characters max, 1 link\n    - **Body**: 800 characters max, max 1 link, max 2 line breaks, decent usage of bold/smileys/list\n    - **Image**: horizontal banner - ideally 1200x600px\n\n    <SecondaryAdExample />\n\n</details>"
+    },
+    {
+      "id": "de60fdf8",
+      "translatable": false,
+      "content": "<SponsoringTabsSecondSponsor />",
+      "sourceMdx": "<SponsoringTabsSecondSponsor />"
+    },
+    {
+      "id": "8ef9aa8b",
+      "translatable": false,
+      "content": "<br />",
+      "sourceMdx": "<br />"
+    },
+    {
+      "id": "ad8a5f54",
+      "translatable": true,
+      "content": "### ⚡️ Sponsored Link",
+      "sourceMdx": "### ⚡️ Sponsored Link {#sponsor-link}"
+    },
+    {
+      "id": "4033c370",
+      "translatable": true,
+      "content": "Sponsored Links are sponsored links inserted in the React or React-Native newsletter sections, alongside the regular content. **Subscribers can't miss them**, right between the section headlines and the list of links they are interested in.",
+      "sourceMdx": "Sponsored Links are sponsored links inserted in the React or React-Native newsletter sections, alongside the regular content. **Subscribers can't miss them**, right between the section headlines and the list of links they are interested in."
+    },
+    {
+      "id": "dfb6fc67",
+      "translatable": true,
+      "content": "There's up to 2 sponsored links per section. When there's more than 1 sponsored link, the 2nd link appears in the middle of the section.",
+      "sourceMdx": "There's up to 2 sponsored links per section. When there's more than 1 sponsored link, the 2nd link appears in the middle of the section."
+    },
+    {
+      "id": "d638060b",
+      "translatable": false,
+      "content": "<details>\n    <summary>Ad constraints and example</summary>\n\n    **Placement constraints:**\n    - **Title**: 140 characters max\n    - **Title**: plain text, no bold/emojis/uppercase and other attention-grabbing hacks\n    - **Title**: respects the pattern `ProductName - Description` whenever possible\n\n    **Sponsored Links examples:**\n    - [Zero To Shipped - Master Fast-Paced Fullstack Development and finally ship that product](https://www.zerotoshipped.com/)\n    - [Ably Realtime Hackathon - Create a real-time React app, win $19,000 in prizes - from real-time dashboards to collaborative experiences!](https://ably.devpost.com/?utm_campaign=23-hackathon&utm_source=thisweekinreact&utm_medium=referral)\n    - [Blitz - Build React Native Apps Faster for iOS, Android, and Web!](https://www.blitz-rn.com/)\n    - [Moropo - build and scale open-source React Native tests 10x quicker](https://www.moropo.com/for-react-native?utm_source=newsletter&utm_medium=emails&utm_campaign=twir-20231018)\n\n</details>",
+      "sourceMdx": "<details>\n    <summary>Ad constraints and example</summary>\n\n    **Placement constraints:**\n    - **Title**: 140 characters max\n    - **Title**: plain text, no bold/emojis/uppercase and other attention-grabbing hacks\n    - **Title**: respects the pattern `ProductName - Description` whenever possible\n\n    **Sponsored Links examples:**\n    - [Zero To Shipped - Master Fast-Paced Fullstack Development and finally ship that product](https://www.zerotoshipped.com/)\n    - [Ably Realtime Hackathon - Create a real-time React app, win $19,000 in prizes - from real-time dashboards to collaborative experiences!](https://ably.devpost.com/?utm_campaign=23-hackathon&utm_source=thisweekinreact&utm_medium=referral)\n    - [Blitz - Build React Native Apps Faster for iOS, Android, and Web!](https://www.blitz-rn.com/)\n    - [Moropo - build and scale open-source React Native tests 10x quicker](https://www.moropo.com/for-react-native?utm_source=newsletter&utm_medium=emails&utm_campaign=twir-20231018)\n\n</details>"
+    },
+    {
+      "id": "d29a812c",
+      "translatable": false,
+      "content": "<SponsoringTabsQuickLinkSponsor />",
+      "sourceMdx": "<SponsoringTabsQuickLinkSponsor />"
+    },
+    {
+      "id": "6088d88d",
+      "translatable": false,
+      "content": "<br />",
+      "sourceMdx": "<br />"
+    },
+    {
+      "id": "d94ec07c",
+      "translatable": true,
+      "content": ":::tip[Use sponsored links to]\n\n- promote a React or React-Native product\n- promote a relevant **piece of content** such as a product tutorial blog post\n- improve your **SEO profile** with a new do-follow backlink\n- **remind** the audience of an already-promoted product and stay top-of-mind\n- get a **lower Cost-Per-Click**: favor number of clicks instead of brand awareness\n- drive traffic to your site for creating qualified retargeting look-alike audiences\n\n:::",
+      "sourceMdx": ":::tip[Use sponsored links to]\n\n- promote a React or React-Native product\n- promote a relevant **piece of content** such as a product tutorial blog post\n- improve your **SEO profile** with a new do-follow backlink\n- **remind** the audience of an already-promoted product and stay top-of-mind\n- get a **lower Cost-Per-Click**: favor number of clicks instead of brand awareness\n- drive traffic to your site for creating qualified retargeting look-alike audiences\n\n:::"
+    },
+    {
+      "id": "846134ef",
+      "translatable": true,
+      "content": "### 🧑‍🎨 Custom",
+      "sourceMdx": "### 🧑‍🎨 Custom"
+    },
+    {
+      "id": "53e725dc",
+      "translatable": true,
+      "content": "Reach out to [sponsor@thisweekinreact.com](mailto:sponsor@thisweekinreact.com?subject=Custom%20sponsorship%20offering) to explain us your marketing goals. We can create custom offers including:",
+      "sourceMdx": "Reach out to [sponsor@thisweekinreact.com](mailto:sponsor@thisweekinreact.com?subject=Custom%20sponsorship%20offering) to explain us your marketing goals. We can create custom offers including:"
+    },
+    {
+      "id": "ce3bcadf",
+      "translatable": true,
+      "content": "* custom placement bundles with quantity discounts\n* sponsored placement at the top of the email on our occasional [React articles](/articles)\n* sponsored smart placement, tightly integrated in an article we write related to your product",
+      "sourceMdx": "- custom placement bundles with quantity discounts\n- sponsored placement at the top of the email on our occasional [React articles](/articles)\n- sponsored smart placement, tightly integrated in an article we write related to your product"
+    },
+    {
+      "id": "47d25dfc",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "1d7c4366",
+      "translatable": true,
+      "content": "## Order process",
+      "sourceMdx": "## Order process {#order-process}"
+    },
+    {
+      "id": "7fa65ec5",
+      "translatable": true,
+      "content": "The easiest way is to simply contact us, we'll get back to you asap, explaining everything:",
+      "sourceMdx": "The easiest way is to simply contact us, we'll get back to you asap, explaining everything:"
+    },
+    {
+      "id": "efec3fce",
+      "translatable": true,
+      "content": "* send an email at [**sponsor@thisweekinreact.com**](mailto:sponsor@thisweekinreact.com?subject=Sponsorships)\n* fill the [**contact form**](https://thisweekinreact.com/sponsor/form)",
+      "sourceMdx": "- send an email at [**sponsor@thisweekinreact.com**](mailto:sponsor@thisweekinreact.com?subject=Sponsorships)\n- fill the [**contact form**](https://thisweekinreact.com/sponsor/form)"
+    },
+    {
+      "id": "f3fc8281",
+      "translatable": true,
+      "content": "### ⏱ Now",
+      "sourceMdx": "### ⏱ Now {#now}"
+    },
+    {
+      "id": "60e22db4",
+      "translatable": true,
+      "content": "Alternatively, you can also provide us with all the information we need straight away, and follow these steps:",
+      "sourceMdx": "Alternatively, you can also provide us with all the information we need straight away, and follow these steps:"
+    },
+    {
+      "id": "af22f0d4",
+      "translatable": true,
+      "content": "* select your [placement](#placements) and number of issues\n* select available dates on the [public sponsorship calendar](https://thisweekinreact.com/calendar)\n* prepare your company details for invoicing\n* email us at [sponsor@thisweekinreact.com](mailto:sponsor@thisweekinreact.com?subject=Sponsorship)\n* acknowledge receipt of our invoice",
+      "sourceMdx": "- select your [placement](#placements) and number of issues\n- select available dates on the [public sponsorship calendar](https://thisweekinreact.com/calendar)\n- prepare your company details for invoicing\n- email us at [sponsor@thisweekinreact.com](mailto:sponsor@thisweekinreact.com?subject=Sponsorship)\n- acknowledge receipt of our invoice"
+    },
+    {
+      "id": "8517ac25",
+      "translatable": true,
+      "content": "**Useful additional information to provide**:",
+      "sourceMdx": "**Useful additional information to provide**:"
+    },
+    {
+      "id": "7bae3301",
+      "translatable": true,
+      "content": "* let us know if you have strict calendar constraints, such as a fixed-date event\n* give us a list of companies you don't want to advertise alongside in the same issue",
+      "sourceMdx": "- let us know if you have strict calendar constraints, such as a fixed-date event\n- give us a list of companies you don't want to advertise alongside in the same issue"
+    },
+    {
+      "id": "f527cbc4",
+      "translatable": false,
+      "content": "<details>\n\n<summary>We suggest using the following email template</summary>\n\n```txt\nHi\n\nWe would like to sponsor This Week In React.\n\nBooking informations:\n- Sponsorship placement: 1st sponsor\n- Number of issues: 4\n- Price: 1000€\n\nRequested dates (dd/MM/yyyy):\n- 06/09/2022\n- 27/09/2022\n- 04/10/2022\n- 11/10/2022\n\nAdditional information:\n- We are flexible for the dates: yes / no\n- Competitors we do not want to advertise alongside in the same issue: Company1, Company2...\n\nCompany details for invoicing:\n- Company Name: ACME Corp\n- Street: 42 Software Street,\n- Postal code: 94102\n- City: San Francisco\n- VAT / tax number (if applicable):\n- Contact email: marketing@acme.com\n\nIf this booking order is valid, please send us an invoice asap.\n\nWe will send the ad copy before the 31/08/2022\n```\n\n</details>",
+      "sourceMdx": "<details>\n\n<summary>We suggest using the following email template</summary>\n\n```txt\nHi\n\nWe would like to sponsor This Week In React.\n\nBooking informations:\n- Sponsorship placement: 1st sponsor\n- Number of issues: 4\n- Price: 1000€\n\nRequested dates (dd/MM/yyyy):\n- 06/09/2022\n- 27/09/2022\n- 04/10/2022\n- 11/10/2022\n\nAdditional information:\n- We are flexible for the dates: yes / no\n- Competitors we do not want to advertise alongside in the same issue: Company1, Company2...\n\nCompany details for invoicing:\n- Company Name: ACME Corp\n- Street: 42 Software Street,\n- Postal code: 94102\n- City: San Francisco\n- VAT / tax number (if applicable):\n- Contact email: marketing@acme.com\n\nIf this booking order is valid, please send us an invoice asap.\n\nWe will send the ad copy before the 31/08/2022\n```\n\n</details>"
+    },
+    {
+      "id": "fe45329d",
+      "translatable": true,
+      "content": "### ⏳ Later",
+      "sourceMdx": "### ⏳ Later {#later}"
+    },
+    {
+      "id": "e17d0554",
+      "translatable": true,
+      "content": "Once the order is complete:",
+      "sourceMdx": "Once the order is complete:"
+    },
+    {
+      "id": "56b7a03f",
+      "translatable": true,
+      "content": "* you pay the invoice under 15 days, before the publication date\n* we give you access to our sponsor portal\n* you provide the ad copy at least one week before the issue date\n* we review and validate the ad copy\n* we include the ad in the newsletters 🎉",
+      "sourceMdx": "- you pay the invoice under 15 days, before the publication date\n- we give you access to our sponsor portal\n- you provide the ad copy at least one week before the issue date\n- we review and validate the ad copy\n- we include the ad in the newsletters 🎉"
+    },
+    {
+      "id": "e7851494",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "d67910b8",
+      "translatable": true,
+      "content": "## To sponsor or not?",
+      "sourceMdx": "## To sponsor or not?"
+    },
+    {
+      "id": "b6abd1ad",
+      "translatable": true,
+      "content": "Make sure your ad is relevant to the target audience.",
+      "sourceMdx": "Make sure your ad is relevant to the target audience."
+    },
+    {
+      "id": "a6f3574e",
+      "translatable": true,
+      "content": "### ✅ Good fit",
+      "sourceMdx": "### ✅ Good fit"
+    },
+    {
+      "id": "8048bacc",
+      "translatable": true,
+      "content": "* Reach **mid/senior React developers**\n* Reach **cross-platform enthusiasts**, using both **React and React-Native**\n* Reach **open-minded** developers using JavaScript, TypeScript, Node.js...\n* Reach **decision makers**: CTOs, tech leads, engineering managers...",
+      "sourceMdx": "- Reach **mid/senior React developers**\n- Reach **cross-platform enthusiasts**, using both **React and React-Native**\n- Reach **open-minded** developers using JavaScript, TypeScript, Node.js...\n- Reach **decision makers**: CTOs, tech leads, engineering managers..."
+    },
+    {
+      "id": "dbd99edb",
+      "translatable": true,
+      "content": "### ❌ Bad fit",
+      "sourceMdx": "### ❌ Bad fit"
+    },
+    {
+      "id": "889194b9",
+      "translatable": true,
+      "content": "* Reach an audience of only **junior** React developers\n* Promote something **irrelevant** to React developers",
+      "sourceMdx": "- Reach an audience of only **junior** React developers\n- Promote something **irrelevant** to React developers"
+    },
+    {
+      "id": "ebcb8dc6",
+      "translatable": true,
+      "content": ":::info\n\nWe will tell you if we think your ad is not a good fit.\n\n:::",
+      "sourceMdx": ":::info\n\nWe will tell you if we think your ad is not a good fit.\n\n:::"
+    },
+    {
+      "id": "dbef9cf5",
+      "translatable": true,
+      "content": "***",
+      "sourceMdx": "---"
+    },
+    {
+      "id": "fa461c90",
+      "translatable": true,
+      "content": "## Past Sponsors",
+      "sourceMdx": "## Past Sponsors"
+    },
+    {
+      "id": "fe2c7f95",
+      "translatable": true,
+      "content": "**Previous sponsors include**: PostHog, Axiom, WorkOS, Clerk, Omlet, Highlight, FrontendMaster, Ably, AG Grid, Graphite Grid, NLUX, RevenueCat, Stream, PowerSync, Callstack, Software Mansion, Meilisearch, Storyblok, Retool, Sizzy, CoderPad, React-Bricks, Refine, Apryse, Suncel, React-Admin, TinaCMS, Checkly, SurveyJS, FrontendMasters, Flycode, WithFrame, Meteor, Hashnode, Sunsama, Moropo, RemixTape, Storetasker, Porkbun, Tripetto, MightyMeld, UXPin, Cambly, Nylas, Indy, TechTree...",
+      "sourceMdx": "**Previous sponsors include**: PostHog, Axiom, WorkOS, Clerk, Omlet, Highlight, FrontendMaster, Ably, AG Grid, Graphite Grid, NLUX, RevenueCat, Stream, PowerSync, Callstack, Software Mansion, Meilisearch, Storyblok, Retool, Sizzy, CoderPad, React-Bricks, Refine, Apryse, Suncel, React-Admin, TinaCMS, Checkly, SurveyJS, FrontendMasters, Flycode, WithFrame, Meteor, Hashnode, Sunsama, Moropo, RemixTape, Storetasker, Porkbun, Tripetto, MightyMeld, UXPin, Cambly, Nylas, Indy, TechTree..."
+    },
+    {
+      "id": "99b95415",
+      "translatable": true,
+      "content": "## FAQ",
+      "sourceMdx": "## FAQ"
+    },
+    {
+      "id": "988e25db",
+      "translatable": false,
+      "content": "<details>\n  <summary>Why are some dates unavailable</summary>\n\nThis newsletter is mostly run by a [single person](https://twitter.com/sebastienlorber) who sometimes has to take vacations 😅\n\nI prefer to be pessimistic and open sponsorship slots once I'm sure I will be available.\n\n</details>",
+      "sourceMdx": "<details>\n  <summary>Why are some dates unavailable</summary>\n\nThis newsletter is mostly run by a [single person](https://twitter.com/sebastienlorber) who sometimes has to take vacations 😅\n\nI prefer to be pessimistic and open sponsorship slots once I'm sure I will be available.\n\n</details>"
+    },
+    {
+      "id": "b6be16eb",
+      "translatable": false,
+      "content": "<details>\n  <summary>Are the sponsorship dates contractual?</summary>\n\nThe respect of sponsorship dates are a best effort and **not contractual**, unless we sign a contract.\n\nThis newsletter is mostly run by a [single person](https://twitter.com/sebastienlorber), and unexpected life events can happen.\n\nThat can lead to offset the upcoming sponsorship slots. In practice, your dates shouldn't be delayed by more than one issue/week.\n\nWe will let you know if publication dates are postponed, and look for a solution together in case your dates are not flexible.\n\n</details>",
+      "sourceMdx": "<details>\n  <summary>Are the sponsorship dates contractual?</summary>\n\nThe respect of sponsorship dates are a best effort and **not contractual**, unless we sign a contract.\n\nThis newsletter is mostly run by a [single person](https://twitter.com/sebastienlorber), and unexpected life events can happen.\n\nThat can lead to offset the upcoming sponsorship slots. In practice, your dates shouldn't be delayed by more than one issue/week.\n\nWe will let you know if publication dates are postponed, and look for a solution together in case your dates are not flexible.\n\n</details>"
+    },
+    {
+      "id": "9393abf4",
+      "translatable": false,
+      "content": "<details>\n  <summary>Do you provide tracking / reporting?</summary>\n\nWe don't provide any reporting by default, but you can ask for a basic reporting one week after the send.\n\nTo measure the result of your newsletter campaign, we suggest:\n\n- to add [`utm_` querystring parameters](https://en.wikipedia.org/wiki/UTM_parameters) (we automatically add some default utm parameters in case you don't provide them)\n- to provide your own tracking links to count clicks (please do not use [bit.ly](https://bit.ly/), it often flag emails as spam on some email clients, we prefer [dub.sh](https://dub.co/) using your own custom domain)\n\nIn the future, we will look into providing a good reporting automatically.\n\n</details>",
+      "sourceMdx": "<details>\n  <summary>Do you provide tracking / reporting?</summary>\n\nWe don't provide any reporting by default, but you can ask for a basic reporting one week after the send.\n\nTo measure the result of your newsletter campaign, we suggest:\n\n- to add [`utm_` querystring parameters](https://en.wikipedia.org/wiki/UTM_parameters) (we automatically add some default utm parameters in case you don't provide them)\n- to provide your own tracking links to count clicks (please do not use [bit.ly](https://bit.ly/), it often flag emails as spam on some email clients, we prefer [dub.sh](https://dub.co/) using your own custom domain)\n\nIn the future, we will look into providing a good reporting automatically.\n\n</details>"
+    },
+    {
+      "id": "fddb336e",
+      "translatable": false,
+      "content": "<details>\n  <summary>Why are prices higher for a single issue?</summary>\n\nTo keep a positive ROI for us, we have to take into account the time it takes to manage sponsorships: sales, support, booking, invoicing, ad copy reviews, email integration...\n\n</details>",
+      "sourceMdx": "<details>\n  <summary>Why are prices higher for a single issue?</summary>\n\nTo keep a positive ROI for us, we have to take into account the time it takes to manage sponsorships: sales, support, booking, invoicing, ad copy reviews, email integration...\n\n</details>"
+    },
+    {
+      "id": "e60524a4",
+      "translatable": false,
+      "content": "<details>\n  <summary>\nWhy is the sponsorship calendar public?\n  </summary>\n\nThis newsletter is being built in public, in a transparent way:\n\n- Check our [public spreadsheet](https://thisweekinreact.com/calendar)\n- The [Indie Hackers product page](https://thisweekinreact.com/ih) provides monthly reportings on turnover, growth...\n\nIn case you don't want your company's name to appear in our public calendar, please give us a company alias name.\n\n</details>",
+      "sourceMdx": "<details>\n  <summary>\nWhy is the sponsorship calendar public?\n  </summary>\n\nThis newsletter is being built in public, in a transparent way:\n\n- Check our [public spreadsheet](https://thisweekinreact.com/calendar)\n- The [Indie Hackers product page](https://thisweekinreact.com/ih) provides monthly reportings on turnover, growth...\n\nIn case you don't want your company's name to appear in our public calendar, please give us a company alias name.\n\n</details>"
+    },
+    {
+      "id": "0866fb3e",
+      "translatable": false,
+      "content": "<details>\n    <summary>\n        What happens if I don't submit my ad copy on time?\n    </summary>\n\n    It is your responsibility to provide the ad copy on time, at least one week before the publication date.\n\n    Unless we have an agreement, it is not possible to cancel a sponsorship slot at the last minute. We will have to run your ad, no matter what.\n\n    In case we don't receive your ad copy on time, we will:\n    - use the copy of a previous ad, if possible\n    - fallback to a quick-and-dirty ad we create ourselves based on your ad landing page\n\n    For these reasons, we strongly recommend to submit your ad copy on time, including ad updates.\n\n</details>",
+      "sourceMdx": "<details>\n    <summary>\n        What happens if I don't submit my ad copy on time?\n    </summary>\n\n    It is your responsibility to provide the ad copy on time, at least one week before the publication date.\n\n    Unless we have an agreement, it is not possible to cancel a sponsorship slot at the last minute. We will have to run your ad, no matter what.\n\n    In case we don't receive your ad copy on time, we will:\n    - use the copy of a previous ad, if possible\n    - fallback to a quick-and-dirty ad we create ourselves based on your ad landing page\n\n    For these reasons, we strongly recommend to submit your ad copy on time, including ad updates.\n\n</details>"
+    },
+    {
+      "id": "5b223f7f",
+      "translatable": false,
+      "content": "<details>\n    <summary>\n        What happens if my ad gets scheduled the same day as a company I don't like, or a competitor?\n    </summary>\n\n    Our newsletter has multiple placements, and it is possible that your ad gets matched with another ad that does not please you.\n\n    We understand that you might not want to broadcast your ad the same newsletter as your competitors. In practice, we think it is not a big deal, and many paid marketing channels (such as Google search ads) display competitors already.\n\n    However, in case there are companies and competitors you absolutely don't want to advertise alongside, we kindly ask you to be proactive and provide us with an exhaustive list of companies you do not want to be matched with.\n\n    If you don't provide such a list when booking a slot, we will do our best to not match you with a competitor on a best-effort basis based on our intuition, but there will be no guarantee.\n\n    Please keep in mind that our sales/booking team doesn't always have perfect knowledge of who's competing with whom, and to what extent. You know better than us whose companies you don't want to be matched with.\n\n</details>",
+      "sourceMdx": "<details>\n    <summary>\n        What happens if my ad gets scheduled the same day as a company I don't like, or a competitor?\n    </summary>\n\n    Our newsletter has multiple placements, and it is possible that your ad gets matched with another ad that does not please you.\n\n    We understand that you might not want to broadcast your ad the same newsletter as your competitors. In practice, we think it is not a big deal, and many paid marketing channels (such as Google search ads) display competitors already.\n\n    However, in case there are companies and competitors you absolutely don't want to advertise alongside, we kindly ask you to be proactive and provide us with an exhaustive list of companies you do not want to be matched with.\n\n    If you don't provide such a list when booking a slot, we will do our best to not match you with a competitor on a best-effort basis based on our intuition, but there will be no guarantee.\n\n    Please keep in mind that our sales/booking team doesn't always have perfect knowledge of who's competing with whom, and to what extent. You know better than us whose companies you don't want to be matched with.\n\n</details>"
+    }
+  ]
+}

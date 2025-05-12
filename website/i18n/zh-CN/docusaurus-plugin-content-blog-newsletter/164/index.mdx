@@ -1,0 +1,173 @@
+---
+slug: /164
+title: "This Week In React #164: so back! 30k, Next.js, Remix, Taint API, Activity, RSCs, React-Forget, Docusaurus, MDX, Storybook, Expo Orbit, Ignite, Victory XL, Reanimated, TypeScript..."
+authors: [slorber]
+date: 11-29-2023
+---
+
+大家好！
+
+好久不见，希望你们没有太想念我 😄
+
+我休了陪产假，享受和我的小Louise在一起的时光 👨‍🍼😍。
+
+显然我的缺席并没有减缓这份通讯的增长，它刚刚[突破了30,000名订阅者](https://www.indiehackers.com/product/french-react-newsletter/30-000-subscribers--NkKag3m683I_z7J3TCI)！🥳️
+
+这是我第一次休这么长的假（5周），重新开始工作有点困难。你们知道我喜欢详尽无遗，但不可能读完并评论自上一期以来发生的所有事情 😅。简而言之，这封邮件会包含很多有趣的链接，但不一定有评论。我保证下周会做得更好！
+
+未来，我希望让这份通讯更加专业，每周定期发布。我正在[寻找帮手](https://thisweekinreact.com/job)。如果你有兴趣，请申请（有偿）。
+
+<!-- truncate -->
+
+**💡 [在Twitter上查看这份通讯](https://slo.im/thread) - 视觉格式 🎨**
+
+---
+
+import Support from "../_support.mdx";
+
+<Support />
+
+---
+
+## 💸 赞助 {#sponsor1}
+
+[![Frontendmasters](/emails/issues/158/frontendmasters.jpg)](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)
+
+**[FrontendMasters – 从初级到高级React开发者的完整学习路径](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)**
+
+从零开始学习React.js，涵盖性能、测试和代码质量等高级主题。首先通过《React完全入门》构建一个真实世界的应用。接着学习《中级React》，集成生态系统中最流行的工具。然后学习性能优化、TypeScript，甚至是全栈React框架Next.js！
+
+---
+
+## ⚛️ React {#react}
+
+[![Next.js 14](/emails/issues/164/nextjs-14.jpg)](https://nextjs.org/blog/next-14)
+
+[**Next.js 14**](https://nextjs.org/blog/next-14)
+
+Next.js 14在Next.js大会上发布，包括：
+
+- Server Actions稳定版
+- Turbopack接近稳定
+- 引入Partial Pre-Rendering（实验性）
+- 新的学习资源
+
+另见：
+
+- 🎥 [Next.js大会YouTube播放列表](https://www.youtube.com/playlist?list=PLBnKlKpPeagl57K9bCw_IXShWQXePnXjY)
+- 📜 [Vercel上的Next.js 14](https://vercel.com/changelog/next-js-14)
+- 📜 [Vercel上的Next.js 14 Partial Prerendering介绍](https://vercel.com/blog/partial-prerendering-with-next-js-creating-a-new-default-rendering-model)
+
+---
+
+- 🐦 [Server Actions 已在 React Canary 中可用](https://twitter.com/reactjs/status/1716573234160967762)
+- 🐦 [Andrew Clark - "React 19 即将发布"](https://twitter.com/acdlite/status/1719474730363662473)
+- 🐦 [Ryan Florence - "React Server Components 已列入 Remix 路线图"](https://twitter.com/ryanflorence/status/1729274387671760936)
+- 👀 [React PR - `<Offscreen>` 重命名为 `<Activity>`](https://github.com/facebook/react/pull/27640): Dan Abramov 解释原名称 `<Offscreen>` 对这一即将推出的 Concurrent React 功能存在误导性。
+- 👀 [React PR - 为生产构建产物生成 sourcemap](https://github.com/facebook/react/pull/26446): 重大改进，可提升 Sentry 或 Replay 等工具在生产包调试时的开发者体验。
+- 👀 [React Canary 更新日志](https://github.com/facebook/react/blob/main/CHANGELOG-canary.md): 按计划，React canary 版本的变更已开始规范记录。
+- 📖 [React 文档 - "use server"](https://react.dev/reference/react/use-server)
+- 📖 [React 文档 - Taint API](https://react.dev/reference/react/experimental_taintObjectReference): 新实验性 API，用于避免在 RSC 上下文中将敏感数据发送到客户端。
+- 📖 [Redux Toolkit 2.0 + Redux core 5.0 迁移指南](https://deploy-preview-3089--redux-starter-kit-docs.netlify.app/migrations/migrating-1.x-to-2.x): RTK、React-Redux 和 Redux core 的新版本已进入 RC 阶段。
+- 📜 [Vercel - 如何在 Next.js 中考虑安全性](https://nextjs.org/blog/security-nextjs-server-components-actions): 提供避免 RSC 和 Server Actions 相关安全问题的建议，特别是如何避免暴露敏感数据。建议验证不安全输入、添加访问控制检查、使用数据访问层、测试新的 React Taint API...
+- 📜 [为何我们使用 AWS 而非 Vercel 托管 Next.js 应用](https://graphite.dev/blog/why-we-use-aws-instead-of-vercel): Graphite 选择使用 EC2 容器而非边缘运行时，性能表现却意外相近。
+- 📜 [为何 Jotai 未采用 useSyncExternalStore](https://blog.axlight.com/posts/why-use-sync-external-store-is-not-used-in-jotai/): 探讨同时实现 useTransition 和 useSyncExternalStore 的困难。
+- 📜 [React 和 TypeScript 中的事件类型](https://www.totaltypescript.com/event-types-in-react-and-typescript): 当记不清事件处理器类型时的实用技巧。
+- 📜 [为何你需要 React Query](https://tkdodo.eu/blog/why-you-want-react-query): 给出充分理由避免基于 useEffect 自行实现数据获取，这比看起来更复杂。
+- 📜 [无框架实现 React Server Components？](https://timtech.blog/posts/react-server-components-rsc-no-framework/): 深度技术文章，解析 RSC 底层原理。将简单 CRA 应用迁移至自定义 RSC 配置。
+- 📜 [Remix ❤️ Vite](https://remix.run/blog/remix-heart-vite): Remix 2.2 开始可作为 Vite 插件使用，带来显著优势。
+- 📜 [为何我选择 Next.js](https://leerob.io/blog/using-nextjs)
+- 📜 [为何我不会使用 Next.js](https://www.epicweb.dev/why-i-wont-use-nextjs)
+- 📜 [关于 React Forget 我们了解多少](https://www.code-insights.dev/posts/what-do-we-konw-about-react-forget)
+- 📜 [在 React 中使用 Selectlist](https://polypane.app/blog/using-selectlist-in-react/)
+- 📜 [Next.js 中使用 Cookie 的完整指南](https://www.propelauth.com/post/cookies-in-next-js)
+- 📜 [Pierre 的 Next.js 缓存策略](https://pierre.co/share/fe34c8b7-4054-4e07-b108-c6c8230cfab1)
+- 📜 [React Server Components - 介绍与背景](https://jessedit.tech/articles/react-server-components/1-background/)
+- 📜 [论客户端与服务端的混合](https://matt-rickard.com/on-mixing-client-and-server)
+- 📜 [构建抽屉组件 - Vaul](https://emilkowal.ski/ui/building-a-drawer-component)
+- 📜 [Remix 中类型安全的服务端 DOM 事件监听器](https://alemtuzlak.hashnode.dev/typed-server-safe-dom-event-listeners-in-remix)
+- 📜 [探索 Vite 版 Remix](https://alemtuzlak.hashnode.dev/exploring-remix-with-vite)
+- 📜 [用 Vercel 和 Next.js 14 构建最具野心的网站](https://vercel.com/blog/building-the-most-ambitious-sites-on-the-web-with-vercel-and-next-js-14)
+- 📜 [re-re-reselect — 简化 React 状态管理](https://causal.app/blog/re-re-reselect)
+- 📜 [当 Markdown 内容变更时刷新 Next.js 应用路由](https://www.steveruiz.me/posts/nextjs-refresh-content)
+- 📜 [忙碌开发者的 React Suspense 和 use hook 指南](https://sinja.io/blog/guide-to-react-suspense)
+- 📜 [忙碌开发者的 React 18 并发指南](https://sinja.io/blog/guide-to-concurrency-in-react-18)
+- 📜 [React-Admin - 开源变现之路：我们的旅程](https://marmelab.com/blog/2023/11/08/open-source-profit-1.html)
+- 📜 [保持输入光标静止！](https://giacomocerquone.com/keep-input-cursor-still/)
+- 📜 [针对每个 Next.js canary 版本进行测试](https://francoisbest.com/posts/2023/testing-against-every-nextjs-canary-release)
+- 📜 [反对单一元素 React 组件](https://www.jameskerr.blog/posts/against-single-element-react-components/)
+- 📜 [React 工作原理](https://incepter.github.io/how-react-works/)
+- 📜 [从零实现乱序流式传输](https://gal.hagever.com/posts/out-of-order-streaming-from-scratch)
+- 📜 [daily.dev - 回归 React](https://daily.dev/blog/moving-back-to-react)
+- 📜 [Headless 组件：组合 React UI 的模式](https://martinfowler.com/articles/headless-component.html)
+- 📜 [何时不应使用 shadcn/ui？](https://mwskwong.com/blog/when-not-to-use-shadcn-ui)
+- 📜 [React Query 认证令牌刷新](https://elazizi.com/posts/react-query-auth-token-refresh/)
+- 📦 [Docusaurus v3.0 - MDX 3、TS/ESM 配置、未列出功能...](https://docusaurus.io/blog/releases/3.0)
+- 📦 [React Aria Components RC](https://react-spectrum.adobe.com/releases/2023-11-8.html)
+- 📦 [MDX v3 - 升级 Node、支持 await...](https://mdxjs.com/blog/v3/)
+- 📦 [Remix v2.3](https://github.com/remix-run/remix/blob/main/CHANGELOG.md#v230)
+- 📦 [Astro 4.0 beta](https://astro.build/blog/astro-4-beta/?tw)
+- 📦 [Storybook 7.5 - Vite 5、Next.js 改进、性能提升...](https://storybook.js.org/blog/storybook-7-5/)
+- 🎥 [React Forget 编译器 - 理解符合语言习惯的 React](https://portal.gitnation.org/contents/understanding-idiomatic-react)
+
+<SubscribeFormEmbed placement="middle" />
+
+---
+
+## 💸 赞助商 {#sponsor2}
+
+[![React无代码表单构建器](/emails/issues/164/surveyjs.jpg)](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)
+
+**[React无代码表单构建器](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)**
+
+SurveyJS是一套开源的JavaScript库产品，可帮助您构建**完全集成到IT基础设施中的健壮表单管理系统**。
+
+您可以通过内置主题编辑器的拖拽式表单构建器，创建并轻松修改多个**基于JSON的表单**。调整各种UI主题设置以实现独特的表单外观。在React应用中渲染自定义表单、收集用户响应，并**全程掌控数据流**。这些库不直接与服务器代码或数据库交互。访问[surveyjs.io](https://surveyjs.io/)试用免费完整演示并查看代码示例。
+
+---
+
+## 📱 React-Native {#react-native}
+
+- 💸 [Moropo - 6周内实现60%界面测试覆盖率，未达标不收费](https://www.moropo.com/automation-offer?utm_source=newsletter&utm_medium=emails&utm_campaign=twir-20231129)
+- 🐦 [亚马逊多年使用React-Native开发包括购物主应用](https://twitter.com/reactnative/status/1722025802974277983)
+- 🐦 [静态Hermes演示 - JS性能媲美C++](https://twitter.com/tmikov/status/1720103356738474060)
+- 👀 [RFC - create-react-native-library黄金模板](https://github.com/react-native-community/discussions-and-proposals/pull/721)
+- 👀 [RFC - 在package.json引入reactNativeManifest](https://github.com/react-native-community/discussions-and-proposals/pull/717)
+- 📖 [使用Expo开发应用 - 概述](https://docs.expo.dev/workflow/overview/)
+- 📜 [通用链接的重要性](https://evanbacon.dev/blog/universal-links)
+- 📜 [用Expo CNG开发苹果主屏幕小组件](https://evanbacon.dev/blog/apple-home-screen-widgets)
+- 📜 [通过SSL证书锁定增强React Native应用安全性](https://www.bam.tech/article/securing-your-react-native-app-with-ssl-pinning)
+- 📜 [Alan公司从React Native转向Expo的移动开发实践](https://medium.com/alan/our-journey-from-react-native-to-expo-for-mobile-app-development-at-alan-%EF%B8%8F-3b1569e8ab7c)
+- 📜 [Node.js移动端重启计划](https://nodejs-mobile.github.io/blog/reboot)
+- 📜 [Victory Native迎来40版本](https://formidable.com/blog/2023/victory-native-turns-40/)
+- 📦 [Expo Orbit v1 - macOS菜单栏应用](https://expo.dev/changelog/2023/11-14-orbit-v1)
+- 📦 [React-Native 0.73 RC.6](https://github.com/facebook/react-native/releases/tag/v0.73.0-rc.6)
+- 📦 [Reanimated 3.6 - 多线程支持、Web端布局动画...](https://github.com/software-mansion/react-native-reanimated/releases/tag/3.6.0)
+- 📦 [Ignite 9.0 - 更聚焦Expo生态](https://shift.infinite.red/announcing-ignite-9-0-exp-ress-o-89ab5801937d)
+- 📦 [react-native-testing-library 12.4 - 内置Jest匹配器](https://github.com/callstack/react-native-testing-library/releases/tag/v12.4.0)
+- 📦 [react-native-ai - 跨平台移动AI应用全栈框架](https://github.com/dabit3/react-native-ai)
+- 🎥 [打造更优开发者体验之路](https://www.youtube.com/watch?v=YA0PMPm12SU)：Krzysztof演示了极具潜力的React-Native IDE（VSCode扩展形态），另见[🐦推文](https://twitter.com/kzzzf/status/1722973994368762335)。
+
+---
+
+## 🔀 其他 {#other}
+
+- 📊 [2023年JavaScript现状调查开放中](https://survey.devographics.com/en-US/survey/state-of-js/2023)
+- 📜 [CSS Grid交互式指南](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
+- 📦 [TypeScript 5.3 - 导入属性、类型收窄...](https://devblogs.microsoft.com/typescript/announcing-typescript-5-3/)
+- 📦 [Rspack 0.4 - Rsbuild 0.1发布](https://www.rspack.dev/blog/announcing-0.4.html)
+- 📦 [Yarn 4.0 - 强化模式](https://yarnpkg.com/blog/release/4.0)
+- 📦 [Deno v1.38 - HTML文档生成器与HMR](https://deno.com/blog/v1.38)
+- 📦 [Vite 5.0 - Rollup 4及代码清理](https://vitejs.dev/blog/announcing-vite5)
+- 📦 [Prettier 3.1 - 全新三元表达式格式化](https://prettier.io/blog/2023/11/13/3.1.0)
+- 📦 [Biome 1.4 - 格式化器与Prettier兼容度达96%](https://biomejs.dev/blog/biome-wins-prettier-challenge)
+- 📦 [Mock Service Worker 2.0](https://github.com/mswjs/msw/releases/tag/v2.0.0)
+- 📦 [Hono 3.10 - JSX中异步组件+Suspense支持](https://github.com/honojs/hono/releases/tag/v3.10.0)
+
+---
+
+## 🤭 趣闻 {#fun}
+
+[![alt](/emails/issues/164/meme.jpg)](https://twitter.com/sebastienlorber/status/1719831082235801974)
+
+下次见！👋
