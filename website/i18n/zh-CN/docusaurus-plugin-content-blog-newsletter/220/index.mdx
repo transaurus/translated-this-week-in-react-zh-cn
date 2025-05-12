@@ -7,13 +7,13 @@ date: 02-05-2025
 
 大家好！
 
-本周我们有许多优质的 React 文章，Next.js 终于添加了对 Node.js 运行时中间件的支持！
+本周我们汇集了丰富的React技术文章，同时Next.js终于新增了对Node.js运行时中间件的支持！
 
-移动开发者还将发现 React Native 的未来计划，包括微软的桌面支持。一个新的可排序拖放库应该能为你的应用解锁新的交互方式，考虑到自己构建所有这些相当困难。
+移动端开发者还将了解到React Native的未来规划，包括微软提供的桌面端支持。新推出的可排序拖拽库将解锁应用中的新型交互方式——毕竟从零实现这些功能相当复杂。
 
-TypeScript 继续进步，新的 beta 版本包括一个标志，以支持新添加的原生 Node.js 支持，以及即将到来的浏览器支持。原生浏览器支持的 polyfill 已经可用！
+TypeScript持续演进，最新测试版新增了支持原生Node.js功能的标志位，并即将提供浏览器支持。针对原生浏览器功能的polyfill现已可用！
 
-这周我尝试了一些新东西，用 `|` 分隔新闻标题关键词，遵循 `React 关键词 | React Native 关键词 | 其他关键词` 的模式。你觉得这有用吗？
+本周尝试新排版：用竖线分隔通讯标题关键词，遵循"React关键词 | React Native关键词 | 其他关键词"格式。您觉得这种分类方式实用吗？
 
 <!-- truncate -->
 
@@ -23,87 +23,87 @@ import Support from "../_support.mdx";
 
 ---
 
-## 💸 赞助 {#sponsor1}
+## 💸 赞助商 {#sponsor1}
 
-[![PropelAuth: 让认证成为你的优势](/emails/issues/218/propelauth.jpg)](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrfeb052024)
+[![PropelAuth：让身份验证成为您的优势](/emails/issues/218/propelauth.jpg)](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrfeb052024)
 
-**[PropelAuth: 让认证成为你的优势](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrfeb052024)**
+**[PropelAuth：让身份验证成为您的优势](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrfeb052024)**
 
-如果你的认证没有**帮助你成长**，它就是在**拖你后腿**。
+如果您的身份验证系统不能**助力业务增长**，那它就是在**拖后腿**。
 
-使用 [PropelAuth](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)，你将获得启动和扩展 B2B 产品所需的一切：
+[PropelAuth](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)为您提供B2B产品从启动到扩张所需的一切：
 
-- **易于理解** 的 [文档](https://docs.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024) 和 **友好、快速的支持**。
-- **覆盖所有用例的 UI** - 注册、登录、MFA、组织管理等。
-- **用户模拟**，以便你可以为用户提供一流的支持。
-- **企业 SAML/SSO** 和 **高级安全功能**，让你为高端市场做好准备。
-- **用户洞察**，帮助你制定战略和扩展。
+- **清晰易懂的**[文档](https://docs.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)和**高效友好的技术支持**
+- **覆盖全场景的UI组件**——注册登录、多因素认证、组织管理等
+- **用户模拟功能**助您提供顶级客户支持
+- **企业级SAML/SSO**与**高级安全特性**满足高端市场需求
+- **用户行为分析**辅助战略决策与业务拓展
 
-[立即开始](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)
+[立即体验](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)
 
 ---
 
 ## ⚛️ React {#react}
 
-[![Next.js PR - 支持 Node.js 中间件](/emails/issues/220/nextjs-middleware.jpg)](https://github.com/vercel/next.js/pull/75624)
+[![Next.js PR：支持Node.js中间件](/emails/issues/220/nextjs-middleware.jpg)](https://github.com/vercel/next.js/pull/75624)
 
-**[Next.js PR \- 支持 Node.js 中间件](https://github.com/vercel/next.js/pull/75624)**
+**[Next.js PR：支持Node.js中间件](https://github.com/vercel/next.js/pull/75624)**
 
-Next.js 社区期待已久的功能。最新的 v15.2 canary 版本新增了 `experimental.nodeMiddleware` 标志，让你可以选择 `runtime: ‘nodejs’`，从而在中间件中使用 Node.js API，并摆脱仅限于与边缘运行时兼容的 API 的限制。
+Next.js社区期待已久的功能。最新v15.2 canary版本新增`experimental.nodeMiddleware`标志位，允许通过`runtime: 'nodejs'`配置在中间件中使用Node.js API，突破原先仅限边缘运行时兼容API的限制。
 
-Vercel 中间件也已 [从头重建](https://x.com/galstar/status/1886832573482934706)，以支持多运行时并在 [Fluid compute](https://vercel.com/blog/introducing-fluid-compute) 上运行，这是 Vercel 运行无服务器函数的一种新的成本效益高的方式。
+Vercel中间件也已完成[底层重构](https://x.com/galstar/status/1886832573482934706)，现支持多运行时环境，并运行于[Fluid计算](https://vercel.com/blog/introducing-fluid-compute)——这是Vercel推出的新型高性价比无服务器函数方案。
 
 ---
 
-- 💸 [为你的应用添加协作文档编辑器](https://convex.link/0dtC5qE)
-- 👀 [Remix PR \- 拆分路由模块](https://github.com/remix-run/react-router/pull/11871): 引入新的 `future.unstable_splitRouteModules` 标志，使得路由组件及其 clientLoader 可以并行下载而非顺序加载。
-- 🗓️ [巴黎 TypeScript 大会](https://la-conf.typescript.paris/?utm_source=thisweekinreact) - 🇫🇷 巴黎 - 2月28日 - 最后机会参加巴黎首届 TypeScript 大会！使用代码 "TWIR" 可享门票8折优惠！
-- 📖 [将 Motion 与 Radix 集成](https://motion.dev/docs/radix): 新文档页面展示了退出和布局动画的集成示例。
-- 📜 [React 中的单一职责原则：组件聚焦的艺术](https://cekrem.github.io/posts/single-responsibility-principle-in-react/): 我赞同这种将 React 应用设计为“分层”的实践。
-- 📜 [React 中持久化表单数据的现代方法：使用 Nuqs](https://armand-salle.fr/post/persisting-form-data-in-react-a-modern-approach-with-nuqs/): 介绍了一个方便的库，用于以类型安全的方式使用搜索参数，并集成了 Next.js 和 React Router。
-- 📜 [将 Phoenix 与 React 和 Inertia 结合使用](https://dnlytras.com/blog/phoenix-react-inertia): 解释了将 Elixir/Phoenix 后端与 React SPA 结合的意外技术选择，包括遇到的挑战和注意事项。Inertia 协议通过适配器将这两种技术缝合在一起。
-- 📜 [使用 ast-grep 规则禁止 React 中的不良 HTML 嵌套](https://macwright.com/2025/01/30/ast-grep-to-ban-bad-nesting): ESLint 规则的替代方案。
+- 💸 [为你的应用添加协同文档编辑器](https://convex.link/0dtC5qE)
+- 👀 [Remix PR - 拆分路由模块](https://github.com/remix-run/react-router/pull/11871): 引入新的 `future.unstable_splitRouteModules` 标志，使路由组件及其 clientLoader 可以并行下载而非顺序加载。
+- 🗓️ [巴黎 TypeScript 大会](https://la-conf.typescript.paris/?utm_source=thisweekinreact) - 🇫🇷 巴黎 - 2月28日 - 首届巴黎 TypeScript 大会最后召集！使用代码 "TWIR" 可享门票8折优惠！
+- 📖 [Motion 与 Radix 集成指南](https://motion.dev/docs/radix): 新文档页面展示退出动画和布局动画的集成示例。
+- 📜 [React 中的单一职责原则：组件聚焦的艺术](https://cekrem.github.io/posts/single-responsibility-principle-in-react/): 我赞同这种将 React 应用设计为"分层"结构的实践。
+- 📜 [React 表单数据持久化：基于 Nuqs 的现代方案](https://armand-salle.fr/post/persisting-form-data-in-react-a-modern-approach-with-nuqs/): 介绍了一个便捷库，用于以类型安全的方式使用搜索参数，并集成了 Next.js 和 React Router。
+- 📜 [Phoenix 与 React 和 Inertia 的结合使用](https://dnlytras.com/blog/phoenix-react-inertia): 解释了将 Elixir/Phoenix 后端与 React SPA 结合的技术选择，包括遇到的挑战和注意事项。Inertia 协议通过适配器实现了这两种技术的缝合。
+- 📜 [用 ast-grep 规则禁止 React 中的错误 HTML 嵌套](https://macwright.com/2025/01/30/ast-grep-to-ban-bad-nesting): ESLint 规则的替代方案。
 - 📜 [如何在 React Router 中加载动态样式表](https://sergiodxa.com/tutorials/load-dynamic-stylesheets-in-react-router): 介绍了使用资源路由和元函数为认证用户/公司加载自定义样式的技术。
-- 📜 [我一直想要的 React 数据表格](https://www.openstatus.dev/blog/data-table-redesign): 一个功能齐全的 TanStack Table \+ shadcn/ui \+ Nuqs 演示，记录了经验教训。构建自己的表格的好灵感。
-- 📜 [如何使用 Next.js 检查 React 服务器组件活动](https://www.dash0.com/blog/how-to-inspect-react-server-component-activity-with-next-js): 使用 Next.js `instrumentation.js` 和 OpenTelemetry。
-- 📜 [如何在 React 中构建一个库](https://tigerabrodi.blog/how-to-build-a-library-in-react): 实现并发布 `useContextSelector` 钩子。
-- 📦 [Astro 5.2 \- 支持 Tailwind 4、尾部斜杠重定向、禁用 React 流式传输的选项](https://astro.build/blog/astro-520/): 流式传输可能与运行时 CSS-in-JS 库不兼容。
-- 📦 [mdx-prompt \- 使用 JSX 组合 LLM 提示](https://edspencer.net/2025/2/3/mdx-prompt-composable-prompts-with-jsx)
-- 📦 [React Scan 0.1.2 \- 重新渲染历史、组件树](https://github.com/aidenybai/react-scan/releases/tag/v0.1.2)
-- 📦 [Fumadocs 15.0 \- 支持 Tailwind 4](https://fumadocs.vercel.app/blog/v15)
+- 📜 [我一直想要的 React 数据表格](https://www.openstatus.dev/blog/data-table-redesign): TanStack Table + shadcn/ui + Nuqs 的全功能演示，记录了经验教训。构建自定义表格的良好参考。
+- 📜 [如何用 Next.js 检查 React 服务端组件活动](https://www.dash0.com/blog/how-to-inspect-react-server-component-activity-with-next-js): 使用 Next.js `instrumentation.js` 和 OpenTelemetry。
+- 📜 [如何构建 React 库](https://tigerabrodi.blog/how-to-build-a-library-in-react): 实现并发布 `useContextSelector` 钩子。
+- 📦 [Astro 5.2 - 支持 Tailwind 4、尾部斜杠重定向、可禁用 React 流式传输](https://astro.build/blog/astro-520/): 流式传输可能与运行时 CSS-in-JS 库不兼容。
+- 📦 [mdx-prompt - 使用 JSX 组合 LLM 提示](https://edspencer.net/2025/2/3/mdx-prompt-composable-prompts-with-jsx)
+- 📦 [React Scan 0.1.2 - 重渲染历史、组件树](https://github.com/aidenybai/react-scan/releases/tag/v0.1.2)
+- 📦 [Fumadocs 15.0 - 支持 Tailwind 4](https://fumadocs.vercel.app/blog/v15)
 - 📦 [Redwood 8.5](https://github.com/redwoodjs/redwood/releases/tag/v8.5.0)
-- 📦 [React Three XR 6.6 \- 混合现实应用的 IWER 调试工具](https://github.com/pmndrs/xr/releases/tag/v6.6.0)
+- 📦 [React Three XR 6.6 - 混合现实应用的 IWER 调试工具](https://github.com/pmndrs/xr/releases/tag/v6.6.0)
 - 📦 [MUI 7.0 alpha](https://github.com/mui/material-ui/releases/tag/v7.0.0-alpha.0)
-- 🎥 [Aaron Francis \- 介绍 Fusion \- 无缝结合 React 和 Vue 与 Laravel](https://www.youtube.com/watch?v=sa3XHjG1Kgs)
-- 🎥 [Theo \- Create React App 终于死了](https://www.youtube.com/watch?v=aujVi7ipkfM)
-- 🎥 [Jack Herrington \- 停止使用 Recoil，改用这个！](https://www.youtube.com/watch?v=QepeuHTxiLo)
-- 🎙️ [本月 React 2025-01 \- CRA 动态、Redwood.js 已死？](https://open.spotify.com/episode/45LTSjvCA5k5YAC7EM4ixk)
+- 🎥 [Aaron Francis - 介绍 Fusion - 无缝结合 React 和 Vue 与 Laravel](https://www.youtube.com/watch?v=sa3XHjG1Kgs)
+- 🎥 [Theo - Create React App 终于寿终正寝](https://www.youtube.com/watch?v=aujVi7ipkfM)
+- 🎥 [Jack Herrington - 停止使用 Recoil，改用这个！](https://www.youtube.com/watch?v=QepeuHTxiLo)
+- 🎙️ [This Month in React 2025-01 - CRA 动态，Redwood.js 已死？](https://open.spotify.com/episode/45LTSjvCA5k5YAC7EM4ixk)
 
 <SubscribeFormEmbed placement="middle" />
 
 ---
 
-## 💸 赞助 {#sponsor2}
+## 💸 赞助商 {#sponsor2}
 
-[![通过Sentry查看问题所在](/emails/issues/220/sentry.jpg)](https://sentry.io/resources/find-fix-test/?utm_source=bytes&utm_medium=paid-community&utm_campaign=general-fy25q4-evergreen&utm_content=newsletter-biweeklydemo-register)
+[![通过Sentry查看问题所在及修复方法](/emails/issues/220/sentry.jpg)](https://sentry.io/resources/find-fix-test/?utm_source=bytes&utm_medium=paid-community&utm_campaign=general-fy25q4-evergreen&utm_content=newsletter-biweeklydemo-register)
 
-**[通过Sentry查看问题所在](https://sentry.io/resources/find-fix-test/?utm_source=bytes&utm_medium=paid-community&utm_campaign=general-fy25q4-evergreen&utm_content=newsletter-biweeklydemo-register)**
+**[通过Sentry查看问题所在及修复方法](https://sentry.io/resources/find-fix-test/?utm_source=bytes&utm_medium=paid-community&utm_campaign=general-fy25q4-evergreen&utm_content=newsletter-biweeklydemo-register)**
 
-Sentry新推出的双周直播演示将向您展示如何快速发现、修复和预防问题。每周四美国东部时间下午1点加入他们的工程师团队，进行25分钟的实战演示——没有幻灯片，没有废话，只有从预发布到生产环境的代码级可视化。[立即预约](https://sentry.io/resources/find-fix-test/?utm_source=bytes&utm_medium=paid-community&utm_campaign=general-fy25q4-evergreen&utm_content=newsletter-biweeklydemo-register)
+Sentry新推出的双周直播演示将向您展示如何快速捕获、修复和预防问题。每周四美国东部时间下午1点，加入他们的工程师团队进行25分钟的实战演示——没有幻灯片，没有废话，只有从预发布到生产环境的代码级可视化。[立即预约](https://sentry.io/resources/find-fix-test/?utm_source=bytes&utm_medium=paid-community&utm_campaign=general-fy25q4-evergreen&utm_content=newsletter-biweeklydemo-register)
 
 ---
 
 ## 📱 React-Native {#react-native}
 
-[![React Native Sortables](/emails/issues/220/rnsortables.jpg)](https://react-native-sortables-docs.vercel.app/)
+[![React Native可排序组件](/emails/issues/220/rnsortables.jpg)](https://react-native-sortables-docs.vercel.app/)
 
-**[React Native Sortables](https://react-native-sortables-docs.vercel.app/)**
+**[React Native可排序组件](https://react-native-sortables-docs.vercel.app/)**
 
-一个强大的React Native库，用于通过拖放手势重新排序项目，功能包括：
+一个功能强大的React Native库，用于通过拖放手势重新排序项目，包括以下特性：
 
 - 支持网格和弹性布局
 - 支持不同项目大小、间距和排列方式
-- 拖拽超出屏幕时自动滚动
+- 拖动超出屏幕时自动滚动
 - 流畅的布局动画
 - 简洁的API，完整的TypeScript支持
 - 兼容Expo和两种架构
@@ -114,33 +114,33 @@ Sentry新推出的双周直播演示将向您展示如何快速发现、修复�
 - 📣 [苹果开源Swift构建引擎](https://www.swift.org/blog/the-next-chapter-in-swift-build-technologies/)
 - 💬 [React Native RFC - 支持Oklab色彩空间](https://github.com/react-native-community/discussions-and-proposals/pull/871)
 - 📜 [React Native核心贡献者峰会2024回顾](https://reactnative.dev/blog/2025/02/03/react-native-core-contributor-summit-2024): 去年9月React Universe会议前，众多贡献者齐聚讨论React Native的未来方向，涵盖发布流程、新架构、Lean Core 2.0、新Web API支持等议题。
-- 📜 [微软 - RNW 0.76和0.77新架构解析](https://devblogs.microsoft.com/react-native/2025-01-29-new-architecture-on-0-76-0-77/): Windows平台新架构处于预览阶段，Modal等新功能仅支持新架构。
-- 📜 [Expo Router与EAS Hosting实现iOS通用链接和Android应用链接](https://expo.dev/blog/universal-and-app-links): 相比自定义应用协议，网页URL深度链接更具优势。
-- 📜 [DOM组件的优雅用例](https://expo.dev/blog/dom-component-use-case): 快速集成D3图表等复杂Web组件。
-- 📜 [在React Native应用中实现Live Activities](https://addjam.com/blog/2025-02-04/using-live-activities-react-native-app/)
+- 📜 [微软 - RNW 0.76和0.77版本新架构解析](https://devblogs.microsoft.com/react-native/2025-01-29-new-architecture-on-0-76-0-77/): Windows平台新架构处于预览阶段，默认未启用。Modal等新功能仅支持新架构。
+- 📜 [使用Expo Router和EAS托管实现iOS通用链接与Android应用链接](https://expo.dev/blog/universal-and-app-links): 相比自定义应用协议链接，网页URL深度链接优势明显，配合Expo Router可快速配置。
+- 📜 [DOM组件的优雅用例](https://expo.dev/blog/dom-component-use-case): 快速集成D3图表等复杂Web组件的实用方案。
+- 📜 [在React Native应用中实现Live Activities功能](https://addjam.com/blog/2025-02-04/using-live-activities-react-native-app/)
 - 📜 [从零构建React Native底部弹窗](https://reactiive.io/articles/bottom-sheet-animation)
-- 📜 [预编译iOS二进制文件：将React Native开发启动时间从分钟级降至秒级](https://www.monarchmoney.com/blog/pre-built-ios-binaries-reducing-react-native-dev-start-time-from-minutes-to)
-- 📜 [React Native支持iOS分享扩展与Android意图](https://www.devas.life/supporting-ios-share-extensions-android-intents-on-react-native/)
-- 📦 [Audio API 0.4发布](https://github.com/software-mansion-labs/react-native-audio-api/releases/tag/0.4.0): 支持实时波形可视化([演示视频](https://x.com/sek_micha/status/1886814160735834540))。
+- 📜 [预构建iOS二进制文件：将React Native开发启动时间从分钟级降至秒级](https://www.monarchmoney.com/blog/pre-built-ios-binaries-reducing-react-native-dev-start-time-from-minutes-to)
+- 📜 [React Native中支持iOS分享扩展与Android意图](https://www.devas.life/supporting-ios-share-extensions-android-intents-on-react-native/)
+- 📦 [Audio API 0.4发布](https://github.com/software-mansion-labs/react-native-audio-api/releases/tag/0.4.0): 支持实时波形可视化([炫酷演示](https://x.com/sek_micha/status/1886814160735834540))。
 - 📦 [Bottom Tabs 0.8.4 - 自定义JS标签页](https://github.com/callstackincubator/react-native-bottom-tabs/releases/tag/react-native-bottom-tabs%400.8.4)
-- 📦 [Skia 1.11 - 协调器性能优化](https://github.com/Shopify/react-native-skia/releases/tag/v1.11.0)
+- 📦 [Skia 1.11 - 协调器性能提升](https://github.com/Shopify/react-native-skia/releases/tag/v1.11.0)
 - 📦 [Metro 0.81.1 - 性能优化与修复](https://github.com/facebook/metro/releases/tag/v0.81.1)
 - 📦 [Screens 4.6 - 重要修复](https://github.com/software-mansion/react-native-screens/releases/tag/4.6.0)
 - 📦 [Expo Open OTA - 面向生产的Expo Updates协议Go语言实现](https://axelmarciano.github.io/expo-open-ota/)
 - 🎥 [Fernando Rojo - 2025重大更新：混合混合模式、CSS动画、SwiftUI](https://www.youtube.com/watch?v=3V43hhMIUXE)
 - 🎥 [Dan's Lab - 使用Expo创建视频流](https://www.youtube.com/watch?v=ym51mhxFvPQ)
-- 🎙️ [RNR 320 - Catlin Miron谈丝滑动画实现](https://www.reactnativeradio.com/episodes/rnr-320-silky-smooth-animations)
+- 🎙️ [RNR第320期 - Catlin Miron谈丝滑动画实现](https://www.reactnativeradio.com/episodes/rnr-320-silky-smooth-animations)
 
 ---
 
-## 🔀 其他动态 {#other}
+## 🔀 其他 {#other}
 
-- 📜 [不应使用URLPattern在服务器端路由HTTP请求](https://adventures.nodeland.dev/archive/you-should-not-use-urlpattern-to-route-http/)：基于正则表达式的Node.js 23新特性URLPattern在扩展性上存在不足。
+- 📜 [不应使用URLPattern在服务端路由HTTP请求](https://adventures.nodeland.dev/archive/you-should-not-use-urlpattern-to-route-http/)：基于正则表达式的Node.js 23新特性URLPattern在扩展性上存在不足。
 - 📜 [从Rust到TypeScript：Prisma ORM的新篇章](https://www.prisma.io/blog/from-rust-to-typescript-a-new-chapter-for-prisma-orm)
 - 📦 [TypeScript 5.8测试版 - `erasableSyntaxOnly`、require(esm)、依赖返回类型收窄](https://devblogs.microsoft.com/typescript/announcing-typescript-5-8-beta/)
-- 📦 [ES Module Shims 2.0 - 原生ES模块特性的polyfill](https://guybedford.com/es-module-shims-2.0)：已支持TC39类型注解剥离功能，允许开发者直接在浏览器中运行带有`erasableSyntaxOnly`的TypeScript代码，与Node.js环境类似！
-- 📦 [Vite 6.1发布](https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md#610-2025-02-05)
-- 📦 [Mentoss - 面向服务端/浏览器运行时的fetch()模拟工具](https://humanwhocodes.com/blog/2025/01/introducing-mentoss-fetch-mocker/)
+- 📦 [ES Module Shims 2.0 - 原生ES模块特性的polyfill](https://guybedford.com/es-module-shims-2.0)：已支持TC39类型注解剥离，让你现在就能在浏览器中直接运行带`erasableSyntaxOnly`的TypeScript代码，与Node.js类似！
+- 📦 [Vite 6.1](https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md#610-2025-02-05)
+- 📦 [Mentoss - 服务端/浏览器运行时的fetch()模拟器](https://humanwhocodes.com/blog/2025/01/introducing-mentoss-fetch-mocker/)
 - 🎥 [Angular纪录片](https://www.youtube.com/watch?v=cRC9DlH45lA)
 
 ---
@@ -151,4 +151,4 @@ Sentry新推出的双周直播演示将向您展示如何快速发现、修复�
 
 [![alt](/emails/issues/220/meme2.jpg)](https://x.com/byteab/status/1880222322071859586)
 
-下期见！👋
+下次见！👋

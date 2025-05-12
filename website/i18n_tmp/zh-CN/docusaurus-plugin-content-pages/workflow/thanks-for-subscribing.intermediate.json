@@ -1,41 +1,53 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/src/pages/workflow/thanks-for-subscribing.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/src/pages/workflow/thanks-for-subscribing.mdx",
   "segments": [
     {
       "id": "76e4a56a",
       "translatable": true,
       "content": "# Thanks for subscribing!",
-      "sourceMdx": "# Thanks for subscribing!"
+      "sourceMdx": "# Thanks for subscribing!",
+      "nodeType": "heading",
+      "translated_content": "# 感谢订阅！"
     },
     {
       "id": "a37198cd",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import SignupConfirmationCall from \"@site/src/components/SignupConfirmationCall\";"
+      "sourceMdx": "import SignupConfirmationCall from \"@site/src/components/SignupConfirmationCall\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_a37198cd"
     },
     {
       "id": "e89f49cf",
       "translatable": false,
       "content": "<SignupConfirmationCall />",
-      "sourceMdx": "<SignupConfirmationCall />"
+      "sourceMdx": "<SignupConfirmationCall />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_e89f49cf"
     },
     {
       "id": "6ef78e84",
       "translatable": true,
       "content": "You will start receiving the React emails soon!",
-      "sourceMdx": "You will start receiving the React emails soon!"
+      "sourceMdx": "You will start receiving the React emails soon!",
+      "nodeType": "paragraph",
+      "translated_content": "您将很快开始接收React相关邮件！"
     },
     {
       "id": "53eaf0e1",
       "translatable": true,
       "content": "In the meantime you can take a look at:",
-      "sourceMdx": "In the meantime you can take a look at:"
+      "sourceMdx": "In the meantime you can take a look at:",
+      "nodeType": "paragraph",
+      "translated_content": "在此期间您可以浏览："
     },
     {
       "id": "be33979e",
       "translatable": true,
       "content": "* the [articles](/articles)\n* the [latest newsletter issues](/newsletter)\n* the [latest Twitter thread](https://slo.im/thread)",
-      "sourceMdx": "- the [articles](/articles)\n- the [latest newsletter issues](/newsletter)\n- the [latest Twitter thread](https://slo.im/thread)"
+      "sourceMdx": "- the [articles](/articles)\n- the [latest newsletter issues](/newsletter)\n- the [latest Twitter thread](https://slo.im/thread)",
+      "nodeType": "list",
+      "translated_content": "- [文章](/articles)\n- [最新通讯期刊](/newsletter)\n- [最新Twitter讨论串](https://slo.im/thread)"
     }
   ]
 }

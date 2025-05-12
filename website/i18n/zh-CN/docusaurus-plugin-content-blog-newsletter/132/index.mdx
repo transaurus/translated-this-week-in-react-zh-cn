@@ -9,11 +9,11 @@ date: 01-25-2023
 
 本周我们迎来了Astro 2.0和Remix 1.11等重要版本发布，同时还有围绕服务端组件的精彩内容。
 
-React-Native领域也不遑多让：Expo Router进入候选发布阶段，Expo Image进入测试版，还推出了创建Android小部件的新方案。
+React-Native领域也不乏亮点：Expo Router进入候选发布阶段，Expo Image进入测试版，以及全新的Android小组件解决方案。
 
-我受邀参加了[Jason的节目《学习创建部署文档网站》](https://www.learnwithjason.dev/create-and-deploy-a-documentation-website?utm_source=thisweekinreact)，节目中Jason首次尝试使用Docusaurus。
+我受邀参加了[Jason的节目《学习创建并部署文档网站》](https://www.learnwithjason.dev/create-and-deploy-a-documentation-website?utm_source=thisweekinreact)，节目中Jason首次尝试使用Docusaurus。
 
-推荐关注[ES.next News通讯](https://esnextnews.com/?utm_source=thisweekinreact)，这是追踪JavaScript语言演进、TC39委员会动态及ESLint/Babel/Bun/Prettier等工具更新的优质信息来源。
+推荐关注[ES.next News简报](https://esnextnews.com/?utm_source=thisweekinreact)，这是追踪JavaScript语言演进、TC39委员会动态及ESLint/Babel/Bun/Prettier等工具链更新的优质信息来源。
 
 <!-- truncate -->
 
@@ -27,17 +27,17 @@ import Support from "../_support.mdx";
 
 ---
 
-## 💸 赞助 {#sponsor1}
+## 💸 赞助商 {#sponsor1}
 
 [![refine](/emails/issues/132/refine.png)](https://github.com/refinedev/refine)
 
 [**refine - 100%开源的Headless React框架，专为构建CRUD应用而生**](https://github.com/refinedev/refine)
 
-准备好提升技能了吗？我们激动地宣布开源refine黑客马拉松正式启动！
+准备好提升你的技能水平！我们激动地宣布启动开源refine黑客马拉松
 
 冠军将赢得1500美元奖金及专属周边礼包！
 
-本次赛事由Strapi/Appwrite/Meilisearch/Medusa联合赞助，优胜者将获得各家提供的周边大礼包！
+我们很高兴与Strapi、Appwrite、Meilisearch和Medusa达成合作。这些赞助商将为获奖者提供各自的周边礼包！
 
 [点击了解黑客马拉松详情](https://refine.dev/blog/refine-hackathon/)。
 
@@ -51,14 +51,14 @@ import Support from "../_support.mdx";
 
 Astro发布v2版本，主要新特性包括：
 
-- 内容集合：为Markdown/MDX提供自动类型安全
-- 混合渲染：静态动态两相宜
-- 重新设计的错误提示界面
+- 内容集合：为Markdown & MDX提供自动类型安全
+- 混合渲染：静态生成与动态渲染的完美结合
+- 重新设计的错误覆盖层
 - 改进的开发服务器（HMR）
 - Vite 4.0支持
 - 公开路线图
 
-另参阅文章[《内容集合介绍：Astro 2.0中的类型安全Markdown》](https://astro.build/blog/introducing-content-collections/)，介绍了使用Zod验证front matter数据，以便在React组件中类型化使用这些数据，并在数据不符合模式时提供良好的开发者体验错误提示。这个设计非常巧妙——顺便说一句，[Docusaurus也在实现类似功能](https://github.com/facebook/docusaurus/issues/4591) 😜。
+另参阅文章[《内容集合介绍：Astro 2.0中的类型安全Markdown》](https://astro.build/blog/introducing-content-collections/)。该功能通过Zod验证front matter数据，使React组件能类型安全地使用这些数据，并在数据不符合模式时提供优秀的开发者体验提示。顺带一提，[Docusaurus也在实现类似功能](https://github.com/facebook/docusaurus/issues/4591) 😜。
 
 ---
 
@@ -66,28 +66,28 @@ Astro发布v2版本，主要新特性包括：
 
 **[Remix 1.11](https://github.com/remix-run/remix/releases/tag/remix%401.11.0)**
 
-本次Remix更新的核心功能包括：
+本次Remix更新的核心特性：
 
-- `defer`+`<Await>`实现流式响应：loader可以返回promise，后续在客户端进行异步解析
-- [路由规范v2](https://remix.run/docs/en/v1/file-conventions/route-files-v2)：新的扁平路由规范（当前可选，v2将成为默认规范）
+- `defer` + `<Await>`实现流式响应：loader可返回promise并在客户端后续处理
+- [路由规范v2](https://remix.run/docs/en/v1/file-conventions/route-files-v2)：新的扁平路由规范（当前可选，v2将成为默认）
 - 实验性支持CSS导入、CSS Modules和Vanilla Extract
 
 ---
 
-- 📖 测试版文档：["目前主要剩余障碍是着陆页，我们正在加紧处理"](https://twitter.com/dan_abramov/status/1617543301477060608)
-- 🐦 ["如果你使用React，就应该使用React框架"](https://twitter.com/acdlite/status/1617611126514266112)：Andrew Clark阐述了使用框架的充分理由。如果不使用框架，最终会自行构建一个并不理想的解决方案。
-- 📜 [优秀文档的构建要素](https://www.mux.com/blog/the-building-blocks-of-great-docs)：技术文档正在迁移至Next.js 13的过程。在拥有大量静态内容的站点上，服务器组件的使用带来了诸多优势。
-- 📜 [useGlobalState - 无需上下文或复杂库的React组件间状态共享](https://yoavik.com/snippets/use-global-state)：提出创建自己的全局状态抽象，无需使用provider。
-- 📜 [Astro的亮点](https://www.macarthur.me/posts/what-i-like-about-astro)：与Gatsby或Next.js在数据获取、集成（RSS、站点地图等）方面的有趣对比。Astro让构建缓慢站点变得困难。
-- 📜 [通过React Wrap Balancer提升可读性](https://vercel.com/blog/react-wrap-balancer)：详细解析了React Wrap Balancer的内部机制，它能在不产生布局偏移的情况下平衡标题（弥补了CSS功能的缺失）。
-- 📜 [2023年我希望看到的JavaScript和前端发展趋势](https://paularmstrong.dev/blog/2023/01/20/javascript-and-frontend-things-to-see-in-2023/)：有趣的预测与对React的尖锐批评🔥
-- 📜 [将Remix仅作为SPA使用](https://sergiodxa.com/articles/use-remix-as-a-spa-only)：使用`<ClientOnly>`组件。
-- 📜 [Gatsby 5、TypeScript与生成的GraphQL类型：实践指南](https://www.gatsbyjs.com/blog/gatsby-5-typescript-and-generated-graphql-types-a-walkthrough/)
+- 📖 测试版文档：["目前主要剩余障碍是着陆页，我们正在处理中"](https://twitter.com/dan_abramov/status/1617543301477060608)
+- 🐦 ["如果你使用React，应该搭配一个React框架"](https://twitter.com/acdlite/status/1617611126514266112)：Andrew Clark给出了使用框架的充分理由。如果不使用框架，最终会自己造出一个不太理想的轮子。
+- 📜 [优秀文档的构建要素](https://www.mux.com/blog/the-building-blocks-of-great-docs)：技术文档正在迁移至Next.js 13的过程。在大量静态内容的站点上，服务端组件的使用带来了诸多优势。
+- 📜 [useGlobalState - 无需Context或复杂库的React组件间状态共享](https://yoavik.com/snippets/use-global-state)：提出创建自己的全局状态抽象方案，无需使用Provider。
+- 📜 [Astro的亮点](https://www.macarthur.me/posts/what-i-like-about-astro)：与Gatsby和Next.js在数据获取、集成(RSS、站点地图等)方面的有趣对比。Astro让构建缓慢站点变得困难。
+- 📜 [用React Wrap Balancer提升可读性](https://vercel.com/blog/react-wrap-balancer)：详解React Wrap Balancer的内部工作原理，该工具可在不产生布局偏移的情况下平衡标题（弥补了CSS功能的不足）。
+- 📜 [2023年我希望在JavaScript和前端开发中看到的变化](https://paularmstrong.dev/blog/2023/01/20/javascript-and-frontend-things-to-see-in-2023/)：有趣的预测与对React的尖锐批评🔥
+- 📜 [将Remix仅作为SPA使用](https://sergiodxa.com/articles/use-remix-as-a-spa-only)：通过`<ClientOnly>`组件实现。
+- 📜 [Gatsby 5、TypeScript与自动生成的GraphQL类型：实践指南](https://www.gatsbyjs.com/blog/gatsby-5-typescript-and-generated-graphql-types-a-walkthrough/)
 - 📜 [React Router 6与Remix实现模态框](https://dev.to/infoxicator/modals-with-react-router-6-and-remix-1e35)
-- 📜 [为何React Router非常适合微前端架构](https://dev.to/infoxicator/why-react-router-is-excellent-for-micro-frontends-2a21)
+- 📜 [为何React Router是微前端的绝佳选择](https://dev.to/infoxicator/why-react-router-is-excellent-for-micro-frontends-2a21)
 - 📜 [useAsyncEffect：缺失的React Hook](https://marmelab.com/blog/2023/01/11/use-async-effect-react.html)
 - 📜 [NextJS API路由的测试驱动开发](https://massimilianomirra.com/notes/test-driven-development-of-nextjs-api-routes)
-- 📜 [如何用Pigeon Maps和Mapbox构建更好的React地图](https://evilmartians.com/chronicles/how-to-build-a-better-react-map-with-pigeon-maps-and-mapbox)
+- 📜 [用Pigeon Maps和Mapbox构建更好的React地图](https://evilmartians.com/chronicles/how-to-build-a-better-react-map-with-pigeon-maps-and-mapbox)
 - 📜 [折射、色散与其他着色器光效](https://blog.maximeheckel.com/posts/refraction-dispersion-and-other-shader-light-effects/)
 - 🧑‍🎓 [Josh Comeau - Joy of React课程发布](https://twitter.com/JoshWComeau/status/1617553220242661377)
 - 🎨 [TanStack Query多客户端同步演示](https://twitter.com/aryan__deora/status/1616097346558754819)
@@ -95,11 +95,11 @@ Astro发布v2版本，主要新特性包括：
 - 👀 [Remix PR - 添加内置PostCSS和Tailwind支持](https://github.com/remix-run/remix/pull/5229)
 - 👀 [XState PR - createProvider](https://twitter.com/DavidKPiano/status/1617537783018422273)
 - 👀 [React文档PR - 用Vite替代Create React App推荐](https://github.com/reactjs/reactjs.org/pull/5487)：本周引发争议的PR
-- 📦 [Bright - 语法高亮的React服务器组件](https://github.com/code-hike/bright)：前景广阔的WIP包，用于现代语法高亮。在Node.js/服务器环境中，可以运行更重的代码（如解析AST）而非使用正则表达式（Prism）。
+- 📦 [Bright - 语法高亮的服务端组件](https://github.com/code-hike/bright)：前景广阔的WIP包，用于现代语法高亮。在Node.js/服务端环境中可运行更重的代码（如解析AST而非使用正则表达式Prism）。
 - 📦 [Redwood 4.0候选版](https://twitter.com/RedwoodJS/status/1616002999729389568)：新增API认证、GraphQL Yoga v3、GraphQL Armor、Node.js 16/18支持...
-- 📦 [shadcdn/ui - 基于Radix UI和Tailwind CSS构建的精美设计组件](https://twitter.com/shadcn/status/1617916719242293248)
-- 📦 [next-mdx-remote 4.3 - 服务器组件支持（实验性）](https://github.com/hashicorp/next-mdx-remote/releases/tag/v4.3.0)
-- 🎥 [Astro 2.0的革命性意义！](https://www.youtube.com/watch?v=gi4c7fbeURc)
+- 📦 [shadcdn/ui - 基于Radix UI和Tailwind CSS构建的精美组件](https://twitter.com/shadcn/status/1617916719242293248)
+- 📦 [next-mdx-remote 4.3 - 实验性服务端组件支持](https://github.com/hashicorp/next-mdx-remote/releases/tag/v4.3.0)
+- 🎥 [Astro 2.0的革命性！](https://www.youtube.com/watch?v=gi4c7fbeURc)
 - 🎥 [Lee Robinson - 三年后重温我的React课程](https://www.youtube.com/watch?v=DQk0TWmgYXw)
 
 <SubscribeFormEmbed />
@@ -114,58 +114,58 @@ Astro发布v2版本，主要新特性包括：
 
 Expo Router 提出通过文件系统命名约定来构建移动端导航（仍基于 React-Navigation），这与大多数 React Web 框架的做法一致。常见功能如布局路由、动态路由、错误边界等一应俱全。
 
-最吸引我的特性是：全平台支持。导航基于链接、`<Link>` 组件和 Metro web 支持（实验性）。随着 Expo 原生部分日趋完善，我毫不意外它会逐步发展为全栈通用框架，实现 [Andrew Clark 的预言](https://twitter.com/acdlite/status/1489755769876754434)。
+最吸引我的特性是：全平台支持。导航基于链接、`<Link>` 组件和 Metro web 支持（实验性）。随着 Expo 原生部分日趋完善，我毫不意外它会逐渐发展为全栈通用框架，实现 [Andrew Clark 的预言](https://twitter.com/acdlite/status/1489755769876754434)。
 
 ---
 
-- 👀 [Expo-Image 进入测试阶段](https://twitter.com/JI/status/1616337848558551041)：Expo 新版图片组件开始测试。高性能、跨平台（Web/移动端）、多格式支持、占位图、object-fit... 查看[文档](https://docs.expo.dev/versions/unversioned/sdk/image/)。
-- 📖 [Maestro 指南 - React-Native](https://maestro.mobile.dev/platform-support/react-native)：端到端测试框架现已提供 React-Native 文档页。
-- 📦 [React-Native-Android-Widget](https://saleksovski.github.io/react-native-android-widget/)：用于创建 Android 小组件的新包，使用专用 UI 原语。提供小组件预览系统，可轻松集成到 Expo（配置插件）。
-- 📦 [Moti 0.22](https://twitter.com/FernandoTheRojo/status/1616583066054545408)：修复后支持 Hermes。
+- 👀 [Expo-Image 进入测试阶段](https://twitter.com/JI/status/1616337848558551041)：Expo 新版图片组件开始公测。高性能、跨平台（Web/移动端）、多格式支持、占位图、object-fit... 详见[文档](https://docs.expo.dev/versions/unversioned/sdk/image/)。
+- 📖 [Maestro 指南 - React-Native](https://maestro.mobile.dev/platform-support/react-native)：端到端测试框架现已提供 React-Native 专项文档。
+- 📦 [React-Native-Android-Widget](https://saleksovski.github.io/react-native-android-widget/)：用于创建 Android 小组件的新库，提供专属 UI 原语。内置小组件预览系统，可轻松集成至 Expo（配置插件）。
+- 📦 [Moti 0.22](https://twitter.com/FernandoTheRojo/status/1616583066054545408)：修复补丁带来 Hermes 支持。
 - 📦 [Metro 0.74](https://github.com/facebook/metro/releases/tag/v0.74.0)：显著性能提升。
 - 🎙️ [RNR 256 - 与 Evan Bacon 探讨 Expo Router](https://reactnativeradio.com/episodes/rnr-256-expo-router-with-evan-bacon)
 
 ---
 
-## 🧑‍💻 职位 {#jobs}
+## 🧑‍💻 职位招聘 {#jobs}
 
 🧑‍💼 [**Lab - 前端开发工程师 - 伦敦混合办公**](https://4dayweek.io/remote-job/frontend-developer-lab?utm_source=newsletter&utm_medium=newsletter&utm_campaign=weekinreact)
 
-加入 Riverr 机构担任前端开发，使用 React、Next.js、TypeScript 等现代技术开发客户项目。这是一份[**4天工作制**](https://4dayweek.io/?utm_source=newsletter&utm_medium=newsletter&utm_campaign=weekinreact)职位。
+加入 Riverr 机构担任前端开发，使用 React、Next.js、TypeScript 等现代技术开发客户项目。享受[每周4天工作制](https://4dayweek.io/?utm_source=newsletter&utm_medium=newsletter&utm_campaign=weekinreact)。
 
 🧑‍💼 [**TLDR - 高级软件工程师（远程，12-20万美元）**](https://tldr.tech/jobs/senior-software-engineer/23?utm_source=thisweekinreact)
 
-TLDR 通讯正在招聘首位工程师，协助构建招聘平台及其他内部项目。寻求有个人项目经验或小团队经验者，需熟悉 Next.js 和 Postgres/Supabase。
+TLDR 通讯正在招聘首位工程师，协助构建招聘平台及其他内部项目。寻求有个人项目经验或小型团队经验者，需熟悉 Next.js 和 Postgres/Supabase。
 
-🧑‍💼 [**Callstack - 高级 React Native 开发工程师 - 完全远程，B2B 月薪净收入 2.1-3.2万波兰兹罗提**](https://www.callstack.com/senior-react-native-developer)
+🧑‍💼 [**Callstack - 高级 React Native 开发工程师 - 完全远程，B2B 月薪净额 2.1-3.2万波兰兹罗提**](https://www.callstack.com/senior-react-native-developer)
 
-想参与全球最热门应用的开发吗？渴望共同塑造 React Native 技术吗？加入 React & React Native 领军团队 Callstack。详情请访问官网，期待您的申请——展现您的实力！
+您想参与全球顶级应用开发吗？渴望共同塑造 React Native 技术未来吗？加入 Callstack 这个 React & React Native 领导者团队。详情请访问官网，期待您的申请——请尽情展示实力！
 
-🧑‍💼 [**G2i - 100% 远程 React Native 职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
+🧑‍💼 [**G2i - 100%远程 React Native 职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
 
-我们开放多个 React Native 开发职位！年薪约16万美元加10%奖金。需具备 RN 生产环境经验且位于美国。私信 [@gabe_g2i](https://twitter.com/gabe_g2i) 了解详情，请注明来自 This Week in React。
+我们开放多个 React Native 开发岗位！年薪约16万美元外加10%奖金。需具备 RN 生产环境经验且常驻美国。私信 [@gabe_g2i](https://twitter.com/gabe_g2i) 了解详情，请注明来自《This Week in React》。
 
-💡 [如何发布赞助信息？](https://thisweekinreact.com/sponsor)
+💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
 
 ---
 
-## 🔀 其他 {#other}
+## 🔀 其他动态 {#other}
 
-- ["有人正在用Rust完整移植webpack。这不是turbopack。"](https://twitter.com/ScriptedAlchemy/status/1617815340905553921)
-- [V8 - 介绍WebAssembly JavaScript Promise集成API](https://v8.dev/blog/jspi)
-- [Safari 16.3中的WebKit特性](https://webkit.org/blog/13691/webkit-features-in-safari-16-3/)
+- ["有人正在用Rust完整移植webpack，但并非Turbopack"](https://twitter.com/ScriptedAlchemy/status/1617815340905553921)
+- [V8引擎 - 引入WebAssembly JavaScript Promise集成API](https://v8.dev/blog/jspi)
+- [Safari 16.3中的WebKit新特性](https://webkit.org/blog/13691/webkit-features-in-safari-16-3/)
 - [关于CSS选择器性能的真相](https://blogs.windows.com/msedgedev/2023/01/17/the-truth-about-css-selector-performance/)
 - [让泛型函数通过类型检查](https://type-level-typescript.com/articles/making-generic-functions-pass-type-checking)
-- [CSS嵌套 - Blink即将支持](https://twitter.com/sebastienlorber/status/1617882799100526595)
+- [CSS嵌套功能 - Blink引擎宣布即将支持](https://twitter.com/sebastienlorber/status/1617882799100526595)
 - [TypeScript 5.0 PR - 装饰器支持](https://twitter.com/robpalmer2/status/1616215250055090187)
-- [Bun 0.5发布](https://bun.sh/blog/bun-v0.5.0)
-- [esbuild 0.17发布](https://github.com/evanw/esbuild/releases/tag/v0.17.0)
+- [Bun 0.5版本发布](https://bun.sh/blog/bun-v0.5.0)
+- [esbuild 0.17版本发布](https://github.com/evanw/esbuild/releases/tag/v0.17.0)
 - [ESLint 2022年度回顾](https://eslint.org/blog/2023/01/eslint-2022-year-review/)
-- [大规模构建和交付前端](https://frontendmastery.com/posts/building-and-serving-frontends-at-scale/)
+- [大规模构建与交付前端应用](https://frontendmastery.com/posts/building-and-serving-frontends-at-scale/)
 - [编写微型tRPC客户端](https://trpc.io/blog/tinyrpc-client)
 
 ---
 
-## 🤭 趣味 {#fun}
+## 🤭 趣味时刻 {#fun}
 
-[![alt](/emails/issues/132/meme.jpg)](https://twitter.com/fireship_dev/status/1617708616496345088)
+[![趣味图片](/emails/issues/132/meme.jpg)](https://twitter.com/fireship_dev/status/1617708616496345088)

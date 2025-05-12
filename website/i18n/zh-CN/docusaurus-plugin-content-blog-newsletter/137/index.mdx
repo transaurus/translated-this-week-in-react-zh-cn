@@ -7,13 +7,13 @@ date: 03-07-2023
 
 大家好！
 
-本周虽然仍有大量关于信号（signals）的内容，但服务器组件（Server Components）已成为讨论焦点！
+本周关于信号（signals）的内容依然很多，但服务器组件（Server Components）已成为讨论焦点！
 
-距离向[React-Native-Connection](https://reactnativeconnection.io/)（巴黎 - 6月1日）提交演讲提案截止还有一周时间。
+距离提交演讲提案截止还有一周时间，欢迎申请[React-Native-Connection](https://reactnativeconnection.io/)大会（巴黎 - 6月1日）的CFP。
 
 <!-- truncate -->
 
-**💡 [在Twitter上查看本期简报](https://slo.im/thread) - 视觉化呈现 🎨**
+**💡 [在Twitter上查看本期简报](https://slo.im/thread) - 可视化版式 🎨**
 
 ---
 
@@ -27,16 +27,16 @@ import Support from "../_support.mdx";
 
 [![Suncel](/emails/issues/136/suncel.jpg)](https://suncel.io/)
 
-**[构建可复用区块。更快发布内容。获得更优核心网页指标与SEO。](https://suncel.io/)**
+**[构建可复用区块。更快发布内容。获得更优的核心网页指标与SEO。](https://suncel.io/)**
 
-**内容编辑者**：对于需要大量产出内容且注重SEO策略的企业堪称变革。营销人员和内容编辑者无需复杂操作即可编辑发布页面。消除冗长延迟，实现即时发布。通过Next.js优化页面和图片，达成完美的核心网页指标评分。
+**内容编辑者**：对于需要大量产出内容且注重SEO策略的企业是革命性工具。营销人员和内容编辑无需复杂操作即可修改发布页面。消除冗长延迟，实现即时发布。依托Next.js优化页面与图片，达成完美的核心网页指标评分。
 
-**开发者**：可即插即用到现有Next.js应用中。使用Suncel CMS的诸多优势：
+**开发者**：可即插即用到现有Next.js应用。使用Suncel CMS的诸多优势：
 
 - 用React构建可复用区块
-- 自动生成SEO元数据和站点地图（通过我们的SEO模块）
+- 自动生成SEO元数据和站点地图（通过SEO模块）
 - 用React创建自定义设置
-- 可基于React定制的管理后台
+- 可定制的React管理后台
 - 无需为适配CMS而设计路由系统
 
 **[访问Suncel.io](https://suncel.io/)** | **[5分钟演示视频](https://www.youtube.com/watch?v=LUupLEZKp3w)**
@@ -45,15 +45,15 @@ import Support from "../_support.mdx";
 
 ## ⚛️ React {#react}
 
-[![代码提取是什么鬼](/emails/issues/137/codeextraction.jpg)](https://www.builder.io/blog/wtf-is-code-extraction)
+[![代码提取的奥秘](/emails/issues/137/codeextraction.jpg)](https://www.builder.io/blog/wtf-is-code-extraction)
 
-**[代码提取是什么鬼](https://www.builder.io/blog/wtf-is-code-extraction)**
+**[代码提取的奥秘](https://www.builder.io/blog/wtf-is-code-extraction)**
 
-Miško（Qwik创始人）阐述了在同一个文件中混合编写服务端/客户端代码的优势，以及当前Next.js模型（导出提取）的局限性：你只能声明一个`getServerSideProps`函数，且必须使用`ReturnType`将正确数据类型注入客户端组件。函数提取和闭包提取提供了更优的开发体验。
+Miško（Qwik创始人）阐述了在同一个文件中混合编写服务端/客户端代码的优势，以及当前Next.js模型（导出提取）的局限性：只能声明一个`getServerSideProps`函数，且必须使用`ReturnType`将正确数据类型注入客户端组件。函数提取和闭包提取能提供更好的开发体验。
 
-这些技术尚未在React生态中普及，但我们有望很快在框架中见到它们。Qwik团队计划[将其代码提取功能与框架解耦](https://twitter.com/manucorporat/status/1630955309890957313)。Tanner Linsley正[与他们合作](https://twitter.com/tannerlinsley/status/1630994907405115393)，并[已在Bling工具包中应用此类提取技术](https://twitter.com/tannerlinsley/status/1631003945522065409)，该工具包将为即将推出的TanStack Start框架提供支持。
+这些技术尚未在React生态中普及，但我们有望在框架中看到它们的出现。Qwik团队计划[将其代码提取机制与框架解耦](https://twitter.com/manucorporat/status/1630955309890957313)。Tanner Linsley正[与Qwik团队合作](https://twitter.com/tannerlinsley/status/1630994907405115393)，并[已在Bling工具包中应用此类提取技术](https://twitter.com/tannerlinsley/status/1631003945522065409)，该工具包将为即将推出的TanStack Start框架提供支持。
 
-我认为在讨论Next.js当前局限时，也应将React服务器组件视为实现服务端/客户端代码无缝混合的解决方案之一。
+我认为React服务器组件也应归类于无缝混合服务端/客户端代码的技术方案：在讨论Next.js当前局限时，我们更应考量这一解决方案。
 
 ---
 
@@ -61,39 +61,39 @@ Miško（Qwik创始人）阐述了在同一个文件中混合编写服务端/客
 
 **React服务器组件**
 
-继信号之后，服务器组件本周成为关注焦点。Dan Abramov在寻找解释这一新特性的最佳心智模型时引发了大量讨论。你需要深入这些讨论，找到最能引发共鸣的类比。
+继信号之后，服务器组件本周成为关注焦点。Dan Abramov在寻找解释这一新特性的心智模型时引发了大量讨论。您需要深入这些讨论，才能找到最能引起共鸣的类比。
 
-- 🧵 [Dan Abramov - "我需要开始收集推销React服务端组件的方式"](https://twitter.com/dan_abramov/status/1631885118355718144)
-- 🧵 [Dan Abramov - "关于React服务端组件，尽管问我"](https://twitter.com/dan_abramov/status/1631641431742857216)
+- 🧵 [Dan Abramov - "我需要开始收集推介React服务端组件的方式"](https://twitter.com/dan_abramov/status/1631885118355718144)
+- 🧵 [Dan Abramov - "关于React服务端组件，欢迎向我提问"](https://twitter.com/dan_abramov/status/1631641431742857216)
 - 🧵 [Dan Abramov - `ui = client(server(data), state)`](https://twitter.com/dan_abramov/status/1632535654142713862)
 - 🧵 [Rick Hanlon - "它们将你的容器组件移至服务端"](https://twitter.com/rickhanlonii/status/1632041893960855552)
 - 🧵 [Josh Comeau谈服务端组件](https://twitter.com/JoshWComeau/status/1631398854632304641)
-- 🧵 [Andrew Clark谈框架无关与深度集成工具](https://twitter.com/acdlite/status/1632910367289491459)
-- 🐦 [Ben Holmes - "React服务端组件和Astro就像是... 同一种东西"](https://twitter.com/BHolmesDev/status/1633133090057986050)
-- 🐦 [Daishi Kato - "我是这样将RSCs放入客户端组件的"](https://twitter.com/dai_shi/status/1631989295866347520)
-- 🎥 [React现在是一个后端框架](https://www.youtube.com/watch?v=EhI6wb5nEEs)
-- 🎥 [与Dan Abramov、Joe Savona和Kent C. Dodds探讨React服务端组件](https://www.youtube.com/watch?v=h7tur48JSaw)：即将开始的现场讨论，预计会非常有趣。
+- 🧵 [Andrew Clark谈框架无关工具与深度集成工具](https://twitter.com/acdlite/status/1632910367289491459)
+- 🐦 [Ben Holmes - "React服务端组件和Astro本质上...是同一类技术"](https://twitter.com/BHolmesDev/status/1633133090057986050)
+- 🐦 [Daishi Kato - "我是这样在客户端组件中嵌入RSC的"](https://twitter.com/dai_shi/status/1631989295866347520)
+- 🎥 [React现在是个后端框架了](https://www.youtube.com/watch?v=EhI6wb5nEEs)
+- 🎥 [Dan Abramov、Joe Savona与Kent C. Dodds探讨React服务端组件](https://www.youtube.com/watch?v=h7tur48JSaw)：即将开始的直播讨论，预计会非常精彩。
 
-服务端组件还可能带来意想不到的好处：[为Electron线程提供通信层](https://twitter.com/Eli_White/status/1632445703950852096)或[为静态站点生成器提供灵活的数据层](https://twitter.com/sebastienlorber/status/1632310649609920513)。
+服务端组件还可能带来意想不到的优势：[作为Electron线程间的通信层](https://twitter.com/Eli_White/status/1632445703950852096)或[静态站点生成器的灵活数据层](https://twitter.com/sebastienlorber/status/1632310649609920513)。
 
 ---
 
-- 📜 [React vs Signals：十年之后](https://dev.to/this-is-learning/react-vs-signals-10-years-later-3k71)：不要错过Dan Abramov对Ryan Carniato这篇文章的回应。Dan不希望React组件的功能像SolidJS那样是"setup"式的：重新运行函数应该是可选的。
-- 📜 [为JavaScript中的Signals辩护](https://dev.to/this-is-learning/making-the-case-for-signals-in-javascript-4c7i)：Ryan Carniato列举了一些使用signals的充分理由，并提出了一些相当有趣的观点。我也认为，你不应该为了性能原因而改变组件的组织结构。
-- 📜 [React即将推出的编译器只能解决部分问题](https://www.builder.io/blog/react-compiler-will-not-solve-prop-drilling)：解释了为什么React Forget编译器不会像signals那样解决中间重新渲染的问题。
-- 📜 [React Hooks是一个错误吗？](https://jakelazaroff.com/words/were-react-hooks-a-mistake/)：Jake解释了hooks引入的问题，以及signals与React类组件的相似之处。
+- 📜 [React vs Signals：十年后的较量](https://dev.to/this-is-learning/react-vs-signals-10-years-later-3k71)：不要错过Dan Abramov对Ryan Carniato这篇文章的回应。Dan不希望React组件的功能像SolidJS那样作为"setup"：重新运行函数应是自愿的。
+- 📜 [为JavaScript中的Signals辩护](https://dev.to/this-is-learning/making-the-case-for-signals-in-javascript-4c7i)：Ryan Carniato列举了一些使用signals的充分理由，并提出了相当有趣的论点。我也认为，你不应该为了性能原因而改变组件的组织结构。
+- 📜 [React即将推出的编译器只解决了部分问题](https://www.builder.io/blog/react-compiler-will-not-solve-prop-drilling)：解释了为什么React Forget编译器不会像signals那样解决中间重新渲染的问题。
+- 📜 [React Hooks是个错误吗？](https://jakelazaroff.com/words/were-react-hooks-a-mistake/)：Jake解释了hooks引入的问题，以及signals与React类组件的相似之处。
 - 📜 [框架定义的基础设施](https://vercel.com/blog/framework-defined-infrastructure)：Vercel的CTO解释了基础设施如何自动适应你的代码，并以Next.js为例。
-- 📜 [2023年Web框架性能报告](https://astro.build/blog/2023-web-framework-performance-report/)：Fred（Astro）分析了真实世界的性能数据，得出了框架如何影响我们应用性能的趋势。我们找到了Astro、Gatsby、Remix和Next.js的性能评分。
+- 📜 [2023年Web框架性能报告](https://astro.build/blog/2023-web-framework-performance-report/)：Fred（Astro）分析了实际性能数据，以得出框架如何影响我们应用性能的趋势。我们找到了Astro、Gatsby、Remix和Next.js的性能评分。
 - 📜 [Deno - 你不需要构建步骤](https://deno.com/blog/you-dont-need-a-build-step)：解释了Next.js的4个构建步骤（编译、压缩、打包、代码分割）背后的复杂性。提出了Fresh及其即时模式的替代方案。
-- 📜 [React初学者的常见错误](https://www.joshwcomeau.com/react/common-beginner-mistakes/)：Josh Comeau为初学者写的互动式文章，非常棒。
-- 📜 [对React编译器的愿望清单](https://electricui.com/blog/wishlist-for-a-react-compiler)：Michael解释了他希望React-Forget编译器能做什么，并用许多编译前后的例子进行了说明。
+- 📜 [React初学者的常见错误](https://www.joshwcomeau.com/react/common-beginner-mistakes/)：Josh Comeau的精彩互动文章，适合初学者。
+- 📜 [React编译器的愿望清单](https://electricui.com/blog/wishlist-for-a-react-compiler)：Michael解释了他希望React-Forget编译器能做什么，并用许多编译前后的例子进行了说明。
 - 📜 [Preact Signals与React替代方案的基准测试](https://electricui.com/blog/benchmarking-preact-signals)
 - 📜 [Sentry的前端测试：从Enzyme迁移到React Testing Library](https://blog.sentry.io/2023/02/23/sentrys-frontend-tests-migrating-from-enzyme-to-react-testing-library/)
 - 📜 [React中的属性钻取和组件组合](https://alexsidorenko.com/blog/react-prop-drilling-composition/)
 - 🎨 ["React思维"可视化](https://twitter.com/asidorenko_/status/1631967645376315400)
-- 🎥 [在20分钟内重建Jotai状态管理器！](https://www.youtube.com/watch?v=gg31JTZmFUw)
+- 🎥 [在20分钟内重建React的Jotai状态管理器！](https://www.youtube.com/watch?v=gg31JTZmFUw)
 - 📦 [preact-reconcilers](https://github.com/CodyJasonBennett/preact-reconciler)：一个用于创建自定义Preact渲染器的包。Cody能够运行[React-Three-Fiber + Preact](https://twitter.com/Cody_J_Bennett/status/1632674026408558592)。
-- 📦 [Remix 1.14](https://twitter.com/kentcdodds/status/1631059357654818819)：热模块替换+热数据重新验证。
+- 📦 [Remix 1.14](https://twitter.com/kentcdodds/status/1631059357654818819)：热模块替换 + 热数据重新验证。
 - 📦 [Signia - TypeScript的可扩展signals](https://tldraw.substack.com/p/introducing-signia)：带有React绑定的新signal库。
 - 📦 [Remix + Fastly支持](https://twitter.com/FastlyDevs/status/1631031583523192832)：Remix的新服务器适配器。
 - 📦 [Mantine 6.0](https://mantine.dev/changelog/6-0-0/)
@@ -103,27 +103,27 @@ Miško（Qwik创始人）阐述了在同一个文件中混合编写服务端/客
 
 ---
 
-## 💸 赞助商 {#sponsor2}
+## 💸 赞助 {#sponsor2}
 
 [![Surveyjs - 可扩展的JavaScript调查和表单库](/emails/issues/136/surveyjs.jpg)](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=referral)
 
 **[可扩展的JavaScript调查问卷与表单库](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=referral)**
 
-[SurveyJS](https://surveyjs.io/form-library?utm_source=thisweekinreact&utm_medium=referral) 是一套开源JavaScript表单库，可轻松集成至您的Web应用。它能帮助您**创建并运行多种表单**，所有敏感数据保留在自有服务器，或搭建**自主托管的可视化表单编辑器**供非技术人员直接使用。
+[SurveyJS](https://surveyjs.io/form-library?utm_source=thisweekinreact&utm_medium=referral) 是一套开源JavaScript表单库，可轻松集成至您的Web应用。它支持**创建并运行多个表单**，所有敏感数据保留在您的服务器上，或拥有**自主托管的可视化表单构建器**供非技术人员直接使用。
 
-您还能**在定制仪表盘中分析调查结果**，将表单保存为PDF，或直接**转换为可编辑的PDF文件**。该库原生支持**React与Angular渲染**，且后端选择完全自由——**兼容任意服务器与数据库组合**。
+您还能**在定制仪表盘中分析调查结果**，将表单保存为PDF，或直接**转换为可编辑的PDF文件**。该库原生支持**React与Angular渲染**，且后端选择完全自由——**任何服务器与数据库组合均完全兼容**。
 
 ---
 
 ## 📱 React-Native {#react-native}
 
-- 👀 [React Native应用代码删除演示](https://twitter.com/Baconbrix/status/1631749459389431808)：即将推出的Expo CLI功能，可识别应用中未使用的原生代码并安全删除。
+- 👀 [React Native应用代码删除功能演示](https://twitter.com/Baconbrix/status/1631749459389431808)：即将推出的Expo CLI功能，可识别应用中未使用的原生代码并安全删除。
 - 👀 [React Native即将转为Monorepo架构](https://twitter.com/o_kwasniewski/status/1631292628217266176)
-- 📜 [我将JSON.parse()性能提升2倍](https://radex.io/react-native/json-parse/)：Radek提出通过基于[SIMD指令集](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data)的C++库来优化Hermes引擎性能。即使不使用React-Native也值得一读。相关讨论见[Hermes PR](https://github.com/facebook/hermes/issues/811)。
+- 📜 [我将JSON.parse()性能提升2倍](https://radex.io/react-native/json-parse/)：Radek提出通过基于[SIMD指令集](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data)的极速C++库来优化Hermes引擎性能。即使不使用React-Native也值得一读。相关讨论见[Hermes PR](https://github.com/facebook/hermes/issues/811)。
 - 📜 [参加Chain React会议的十大理由](https://shift.infinite.red/top-ten-reasons-to-go-to-chain-react-665a93883e4f)
-- 🔗 [React Native搭车指南](https://twitter.com/ospfranco/status/1631984862474248193)：Oscar分享其React-Native知识库，含大量JSI相关高级主题。
+- 🔗 [React Native漫游指南](https://twitter.com/ospfranco/status/1631984862474248193)：Oscar分享其React-Native知识库，含大量JSI相关高级主题。
 - 🎙️ [RNR 261 - EAS究竟是怎么回事？](https://reactnativeradio.com/episodes/rnr-261-whats-the-deal-with-eas)
-- 🎥 [Riveo页面卷曲效果 - "React Native能实现吗？"](https://www.youtube.com/watch?v=xNZCQvtnhIU)
+- 🎥 [Riveo翻页效果——"能用React Native实现吗？"](https://www.youtube.com/watch?v=xNZCQvtnhIU)
 - 📦 [React-Native-Graph 1.0发布](https://github.com/margelo/react-native-graph/releases/tag/v1.0.1)：Margelo基于Skia的图表库稳定版。
 - 📦 [Expo Router 1.2](https://twitter.com/Baconbrix/status/1630969201421582341)
 - 📦 [React-Native-Replicache](https://github.com/Braden1996/react-native-replicache/)
@@ -131,19 +131,19 @@ Miško（Qwik创始人）阐述了在同一个文件中混合编写服务端/客
 
 ---
 
-## 🧑‍💻 职位 {#jobs}
+## 🧑‍💻 职位招聘 {#jobs}
 
-🧑‍💼 [**Passionfroot - 高级全栈工程师（Remix）- €160k+，柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)
+🧑‍💼 [**Passionfroot - 高级全栈工程师（Remix）- 16万欧元+，柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)
 
-Passionfroot致力于通过YouTube、播客、社交媒体和新闻通讯赋能未来的独立创业者。加入我们，共同打造帮助全球创作者建立可扩展、可持续业务的工具。
+Passionfroot致力于通过YouTube、播客、社交媒体和新闻通讯赋能未来的独立创业者。加入我们共同打造全球化工具，助力创作者建立可扩展的可持续业务。
 
-🧑‍💼 [**Callstack - 高级React Native开发 - 完全远程，B2B月薪2.1-3.2万波兰兹罗提净收入**](https://www.callstack.com/senior-react-native-developer)
+🧑‍💼 [**Callstack - 高级React Native开发工程师 - 完全远程，B2B月薪2.1-3.2万波兰兹罗提（净收入）**](https://www.callstack.com/senior-react-native-developer)
 
-您想参与全球最热门应用的开发吗？您愿意共同塑造React Native技术吗？加入Callstack这支由React & React Native领军者组成的团队。详情请访问官网，我们期待看到您的申请——请尽情展示您的实力！
+您想参与全球最热门应用的开发吗？渴望共同塑造React Native技术生态吗？加入这支由React & React Native技术领袖组成的Callstack团队。详情请访问官网，我们期待看到您的申请——请尽情展示您的实力！
 
 🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
 
-我们正在招聘多位专注于React Native的开发者！薪资约16万美元外加10%奖金。应聘者需具备React Native实际生产经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解更多详情，别忘了提及This Week in React。
+我们正在招聘多位专注于React Native的开发者！薪资约16万美元外加10%奖金。应聘者需具备React Native实际生产经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解详情，别忘了提及This Week in React。
 
 💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
 
@@ -151,18 +151,18 @@ Passionfroot致力于通过YouTube、播客、社交媒体和新闻通讯赋能�
 
 ## 🔀 其他 {#other}
 
-- [用CSS锚点定位实现元素间固定](https://developer.chrome.com/blog/tether-elements-to-each-other-with-css-anchor-positioning/)：这项CSS草案特性可能取代Popper、Floating-UI等定位库
+- [用CSS锚定定位实现元素间固定连接](https://developer.chrome.com/blog/tether-elements-to-each-other-with-css-anchor-positioning/)：这项CSS草案特性可能取代Popper、Floating-UI等定位库
 - [TypeScript 5.0候选版发布](https://devblogs.microsoft.com/typescript/announcing-typescript-5-0-rc/)
 - [Zod 3.21发布](https://twitter.com/colinhacks/status/1632472849960280064)
-- [ArkType TS/JS同构类型方案](https://github.com/arktypeio/arktype)
+- [ArkType TS/JS同构类型库](https://github.com/arktypeio/arktype)
 - [JavaScript导入映射深度解析（第二部分）](https://spidermonkey.dev/blog/2023/03/02/javascript-import-maps-part-2-in-depth-exploration.html)
-- [WebAssembly能否解决Serverless的痛点？](https://thenewstack.io/can-webassembly-solve-serverless-problems/)
+- [WebAssembly能否解决无服务器计算的痛点？](https://thenewstack.io/can-webassembly-solve-serverless-problems/)
 - [JavaScript垃圾回收机制实验](https://dev.to/codux/experiments-with-the-javascript-garbage-collector-2ae3)
-- [Drizzle ORM - SQL的TypeScript ORM方案](https://github.com/drizzle-team/drizzle-orm)
+- [Drizzle ORM - SQL的TypeScript ORM](https://github.com/drizzle-team/drizzle-orm)
 
 ---
 
-## 🤭 趣味时刻 {#fun}
+## 🤭 趣味 {#fun}
 
 [![alt](/emails/issues/137/meme.jpg)](https://twitter.com/potetotes/status/1631401117186764803)
 

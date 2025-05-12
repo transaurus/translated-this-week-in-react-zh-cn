@@ -1,269 +1,357 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/228/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/228/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /228\ntitle: \"This Week In React #228: React 19.1, Next.js deployment, React-Email, Triplex, Tinybase, Rspack, i18n-check, React-Admin | 0.79 Golden RC, ExecuTorch, Unistyles, Xcode 16.3, macOS, Screens, Gesture Handler | TypeScript, TC39, WebKit, Intl.Collator, Vitest 3.1\"\nauthors: [matthieugicquel, cyrilbo]\ndate: 04-02-2025\n---",
-      "sourceMdx": "---\nslug: /228\ntitle: \"This Week In React #228: React 19.1, Next.js deployment, React-Email, Triplex, Tinybase, Rspack, i18n-check, React-Admin | 0.79 Golden RC, ExecuTorch, Unistyles, Xcode 16.3, macOS, Screens, Gesture Handler | TypeScript, TC39, WebKit, Intl.Collator, Vitest 3.1\"\nauthors: [matthieugicquel, cyrilbo]\ndate: 04-02-2025\n---"
+      "sourceMdx": "---\nslug: /228\ntitle: \"This Week In React #228: React 19.1, Next.js deployment, React-Email, Triplex, Tinybase, Rspack, i18n-check, React-Admin | 0.79 Golden RC, ExecuTorch, Unistyles, Xcode 16.3, macOS, Screens, Gesture Handler | TypeScript, TC39, WebKit, Intl.Collator, Vitest 3.1\"\nauthors: [matthieugicquel, cyrilbo]\ndate: 04-02-2025\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hey everyone!",
-      "sourceMdx": "Hey everyone!"
+      "sourceMdx": "Hey everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "Cyril and Matthieu here from [Theodo Apps](https://apps.theodo.com/) 👋 with your weekly dose of React and React Native updates, while Seb is busy enjoying the [React Native Connection](https://reactnativeconnection.io/) conf!",
-      "sourceMdx": "Cyril and Matthieu here from [Theodo Apps](https://apps.theodo.com/) 👋 with your weekly dose of React and React Native updates, while Seb is busy enjoying the [React Native Connection](https://reactnativeconnection.io/) conf!"
+      "sourceMdx": "Cyril and Matthieu here from [Theodo Apps](https://apps.theodo.com/) 👋 with your weekly dose of React and React Native updates, while Seb is busy enjoying the [React Native Connection](https://reactnativeconnection.io/) conf!",
+      "nodeType": "paragraph",
+      "translated_content": "我们是来自 [Theodo Apps](https://apps.theodo.com/) 的 Cyril 和 Matthieu 👋，在 Seb 忙着享受 [React Native Connection](https://reactnativeconnection.io/) 大会的同时，为您带来本周的 React 和 React Native 动态！"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "React 19.1 just dropped with better error handling and deeper integration for Server Components in Parcel. Meanwhile, Tailwind CSS 4.1 is right around the corner, and the community is buzzing with hot takes on CSS-in-JS. On the React Native side, the golden RC for 0.79 is out, and ExecuTorch v0.4.0 is landing soon with exciting AI features.",
-      "sourceMdx": "React 19.1 just dropped with better error handling and deeper integration for Server Components in Parcel. Meanwhile, Tailwind CSS 4.1 is right around the corner, and the community is buzzing with hot takes on CSS-in-JS. On the React Native side, the golden RC for 0.79 is out, and ExecuTorch v0.4.0 is landing soon with exciting AI features."
+      "sourceMdx": "React 19.1 just dropped with better error handling and deeper integration for Server Components in Parcel. Meanwhile, Tailwind CSS 4.1 is right around the corner, and the community is buzzing with hot takes on CSS-in-JS. On the React Native side, the golden RC for 0.79 is out, and ExecuTorch v0.4.0 is landing soon with exciting AI features.",
+      "nodeType": "paragraph",
+      "translated_content": "React 19.1 刚刚发布，改进了错误处理并深化了 Parcel 对服务器组件的支持。与此同时，Tailwind CSS 4.1 即将推出，社区对 CSS-in-JS 的讨论热火朝天。React Native 方面，0.79 的黄金候选版本已发布，ExecuTorch v0.4.0 也将很快推出，带来令人兴奋的 AI 功能。"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "Let’s get into it! 🚀",
-      "sourceMdx": "Let’s get into it! 🚀"
+      "sourceMdx": "Let’s get into it! 🚀",
+      "nodeType": "paragraph",
+      "translated_content": "让我们开始吧！🚀"
     },
     {
       "id": "6429a3aa",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_6429a3aa"
     },
     {
       "id": "6c991806",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_6c991806"
     },
     {
       "id": "8f488ab5",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_8f488ab5"
     },
     {
       "id": "fb3d50cd",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "95b38f97",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "ccc88b4c",
       "translatable": true,
       "content": "[![Bit: Celebrating 10 Years of Composability](/emails/issues/228/bit.jpg)](https://bit.cloud/?utm_source=ThisWeekInReact\\&utm_id=551)",
-      "sourceMdx": "[![Bit: Celebrating 10 Years of Composability](/emails/issues/228/bit.jpg)](https://bit.cloud/?utm_source=ThisWeekInReact&utm_id=551)"
+      "sourceMdx": "[![Bit: Celebrating 10 Years of Composability](/emails/issues/228/bit.jpg)](https://bit.cloud/?utm_source=ThisWeekInReact&utm_id=551)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Bit: 庆祝可组合性十周年](/emails/issues/228/bit.jpg)](https://bit.cloud/?utm_source=ThisWeekInReact&utm_id=551)"
     },
     {
       "id": "d9172fa4",
       "translatable": true,
       "content": "**[Bit: Celebrating 10 Years of Composability](https://bit.cloud/?utm_source=ThisWeekInReact\\&utm_id=551)**",
-      "sourceMdx": "**[Bit: Celebrating 10 Years of Composability](https://bit.cloud/?utm_source=ThisWeekInReact&utm_id=551)**"
+      "sourceMdx": "**[Bit: Celebrating 10 Years of Composability](https://bit.cloud/?utm_source=ThisWeekInReact&utm_id=551)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Bit: 庆祝可组合性十周年](https://bit.cloud/?utm_source=ThisWeekInReact&utm_id=551)**"
     },
     {
       "id": "26524352",
       "translatable": true,
       "content": "For a decade, we navigated the complexities of disconnected systems, facing integration headaches and scaling challenges. Our journey to build effectively at scale led us to a breakthrough: [**Harmony**](https://bit.dev/blog/meet-harmony-a-practical-solution-for-composability/).",
-      "sourceMdx": "For a decade, we navigated the complexities of disconnected systems, facing integration headaches and scaling challenges. Our journey to build effectively at scale led us to a breakthrough: [**Harmony**](https://bit.dev/blog/meet-harmony-a-practical-solution-for-composability/)."
+      "sourceMdx": "For a decade, we navigated the complexities of disconnected systems, facing integration headaches and scaling challenges. Our journey to build effectively at scale led us to a breakthrough: [**Harmony**](https://bit.dev/blog/meet-harmony-a-practical-solution-for-composability/).",
+      "nodeType": "paragraph",
+      "translated_content": "十年来，我们经历了分散系统的复杂性，面对集成难题和扩展挑战。为了有效构建规模化应用，我们取得了突破：[**Harmony**](https://bit.dev/blog/meet-harmony-a-practical-solution-for-composability/)。"
     },
     {
       "id": "73ab96a3",
       "translatable": true,
       "content": "Discover our 10-year story of pioneering composable architecture and how Harmony finally delivered the monolithic simplicity and distributed power we always envisioned, transforming our development from struggle to exponential progress.",
-      "sourceMdx": "Discover our 10-year story of pioneering composable architecture and how Harmony finally delivered the monolithic simplicity and distributed power we always envisioned, transforming our development from struggle to exponential progress."
+      "sourceMdx": "Discover our 10-year story of pioneering composable architecture and how Harmony finally delivered the monolithic simplicity and distributed power we always envisioned, transforming our development from struggle to exponential progress.",
+      "nodeType": "paragraph",
+      "translated_content": "了解我们十年来的可组合架构探索历程，以及 Harmony 如何最终实现了我们一直设想的单体简洁性和分布式能力，将开发从挣扎转变为指数级进步。"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "[**Read our story**](https://bit.dev/blog/telling-the-bit-story-celebrating-10-years-of-composability/?utm_source=ThisWeekInReact\\&utm_id=9\\&utm_medium=newsletter)",
-      "sourceMdx": "[**Read our story**](https://bit.dev/blog/telling-the-bit-story-celebrating-10-years-of-composability/?utm_source=ThisWeekInReact&utm_id=9&utm_medium=newsletter)"
+      "sourceMdx": "[**Read our story**](https://bit.dev/blog/telling-the-bit-story-celebrating-10-years-of-composability/?utm_source=ThisWeekInReact&utm_id=9&utm_medium=newsletter)",
+      "nodeType": "paragraph",
+      "translated_content": "[**阅读我们的故事**](https://bit.dev/blog/telling-the-bit-story-celebrating-10-years-of-composability/?utm_source=ThisWeekInReact&utm_id=9&utm_medium=newsletter)"
     },
     {
       "id": "b0e5a8f2",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "80d9e13c",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React {#react}"
     },
     {
       "id": "33331f27",
       "translatable": true,
       "content": "[![React 19.1](/emails/issues/228/react_19_1.jpg)](https://github.com/facebook/react/releases/tag/v19.1.0)",
-      "sourceMdx": "[![React 19.1](/emails/issues/228/react_19_1.jpg)](https://github.com/facebook/react/releases/tag/v19.1.0)"
+      "sourceMdx": "[![React 19.1](/emails/issues/228/react_19_1.jpg)](https://github.com/facebook/react/releases/tag/v19.1.0)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React 19.1](/emails/issues/228/react_19_1.jpg)](https://github.com/facebook/react/releases/tag/v19.1.0)"
     },
     {
       "id": "50746522",
       "translatable": true,
       "content": "**[React 19.1](https://github.com/facebook/react/releases/tag/v19.1.0)**",
-      "sourceMdx": "**[React 19.1](https://github.com/facebook/react/releases/tag/v19.1.0)**"
+      "sourceMdx": "**[React 19.1](https://github.com/facebook/react/releases/tag/v19.1.0)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[React 19.1](https://github.com/facebook/react/releases/tag/v19.1.0)**"
     },
     {
       "id": "95e9ba12",
       "translatable": true,
       "content": "React 19.1 has been released this week, the most notable changes are:",
-      "sourceMdx": "React 19.1 has been released this week, the most notable changes are:"
+      "sourceMdx": "React 19.1 has been released this week, the most notable changes are:",
+      "nodeType": "paragraph",
+      "translated_content": "React 19.1 本周发布，最显著的变化包括："
     },
     {
       "id": "824626b3",
       "translatable": true,
       "content": "* A new [`captureOwnerStack()`](https://react.dev/reference/react/captureOwnerStack) API that will be used by frameworks to provide better error information in dev. It’s different from the existing component stacks in how it handles `children` and DOM nodes.\n* The “React side” of Server Components support in Parcel, that works hand-in-hand with the new features in Parcel 2.14.\n* An experimental `unstable_prerender()` for prerendering React Server Components on the server.",
-      "sourceMdx": "- A new [`captureOwnerStack()`](https://react.dev/reference/react/captureOwnerStack) API that will be used by frameworks to provide better error information in dev. It’s different from the existing component stacks in how it handles `children` and DOM nodes.\n- The “React side” of Server Components support in Parcel, that works hand-in-hand with the new features in Parcel 2.14.\n- An experimental `unstable_prerender()` for prerendering React Server Components on the server."
+      "sourceMdx": "- A new [`captureOwnerStack()`](https://react.dev/reference/react/captureOwnerStack) API that will be used by frameworks to provide better error information in dev. It’s different from the existing component stacks in how it handles `children` and DOM nodes.\n- The “React side” of Server Components support in Parcel, that works hand-in-hand with the new features in Parcel 2.14.\n- An experimental `unstable_prerender()` for prerendering React Server Components on the server.",
+      "nodeType": "list",
+      "translated_content": "- 新增 [`captureOwnerStack()`](https://react.dev/reference/react/captureOwnerStack) API，框架将利用它在开发环境中提供更好的错误信息。它在处理 `children` 和 DOM 节点时与现有的组件堆栈有所不同。\n- Parcel 2.14 中新增的服务器组件支持，与 React 的服务器端功能协同工作。\n- 实验性的 `unstable_prerender()`，用于在服务器上预渲染 React 服务器组件。"
     },
     {
       "id": "a44047a5",
       "translatable": true,
       "content": "This release also includes a slew of minor changes and fixes, most of them related to Server Components or `Suspense` boundaries.",
-      "sourceMdx": "This release also includes a slew of minor changes and fixes, most of them related to Server Components or `Suspense` boundaries."
+      "sourceMdx": "This release also includes a slew of minor changes and fixes, most of them related to Server Components or `Suspense` boundaries.",
+      "nodeType": "paragraph",
+      "translated_content": "此版本还包括一系列次要更改和修复，其中大部分与服务器组件或 `Suspense` 边界相关。"
     },
     {
       "id": "e0a17c0d",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "157c9741",
       "translatable": true,
       "content": "* 💸 [Strapi - Open-source headless Content Management, now with generous PaaS hosting, fully managed yet flexible and customizable. ](https://strapi.link/twir)\n* 📜 [Is CSS-in-JS still a thing?](https://fullystacked.net/css-in-js-still-a-thing/) It’s not trendy anymore (at least not without a compiler to avoid the performance penalty) but it’s still widely used.\n* 📜 [Next.js Deployment Challenges: Why platforms need better open source collaboration](https://www.netlify.com/blog/how-we-run-nextjs/): Netlify explains why Next.js is complicated to deploy outside of Vercel (no adapter support, missing documentation, lack of visibility…) and what they would like to change.\n* 📜 [Adaptive Video Streaming With Dash.js In React](https://www.smashingmagazine.com/2025/03/adaptive-video-streaming-dashjs-react/): You probably won’t be building something like this every day, but it turns out adaptive streaming is not that complicated thanks to the DASH standard\n* 📜 [i18n-check: End to end React i18n testing](https://lingual.dev/blog/i18n-check-end-to-end-react-i18n-testing/)\n* 📜 [Keeping Costs in Check When Hosting Next.js on Vercel](https://www.thisdot.co/blog/keeping-costs-in-check-when-hosting-next-js-on-vercel)\n* 📜 [React Architecture Tradeoffs: SPA, SSR, or RSC](https://reacttraining.com/blog/react-architecture-spa-ssr-rsc)\n* 📜 [Understanding SPAs and their shortcomings](https://reacttraining.com/blog/problems-you-face-with-spas)\n* 💸 [VS Code extension: Get React component usage insights in VS Code](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-mar-2025)\n* 📦 [React Email 4.0](https://resend.com/blog/react-email-4): adds useful tools (a linter, spam score, a compatibility checker) and a few components\n* 📦 [Triplex beta](https://triplex.dev/blog/triplex-for-vscode): A VS Code extension to develop React apps visually. It was initially built for React Three Fiber but now supports any React component\n* 📦 [Rspack 1.3](https://rspack.dev/blog/announcing-1-3): can be used to build React Router v7 apps\n* 📦 [Tinybase 6.0](https://github.com/tinyplex/tinybase/releases/tag/v6.0.0): compatible with React 19\n* 📦 [vike-server 1.0](https://vike.dev/blog/vike-server): simplifies running and deploying the server side of vite-built apps anywhere, and handles HMR in dev.\n* 📦 [React-Admin 5.7](https://github.com/marmelab/react-admin/releases/tag/v5.7.0)\n* 🎙️ [Front-End Fire: Next.js’s Security Vulnerability, Remix Walks Away from RSCs, and Rsdoctor 1.0](https://front-end-fire.com/episodes/87/)\n* 🎙️ [This Month in React 2025-03: Next had an auth vulnerability, TypeScript is porting to Golang](https://creators.spotify.com/pod/show/reactiflux/episodes/TMiR-2025-03-Next-had-an-auth-vulnerability--TypeScript-is-porting-to-Golang-e30tvf5/a-abs3i7h)",
-      "sourceMdx": "- 💸 [Strapi - Open-source headless Content Management, now with generous PaaS hosting, fully managed yet flexible and customizable. ](https://strapi.link/twir)\n- 📜 [Is CSS-in-JS still a thing?](https://fullystacked.net/css-in-js-still-a-thing/) It’s not trendy anymore (at least not without a compiler to avoid the performance penalty) but it’s still widely used.\n- 📜 [Next.js Deployment Challenges: Why platforms need better open source collaboration](https://www.netlify.com/blog/how-we-run-nextjs/): Netlify explains why Next.js is complicated to deploy outside of Vercel (no adapter support, missing documentation, lack of visibility…) and what they would like to change.\n- 📜 [Adaptive Video Streaming With Dash.js In React](https://www.smashingmagazine.com/2025/03/adaptive-video-streaming-dashjs-react/): You probably won’t be building something like this every day, but it turns out adaptive streaming is not that complicated thanks to the DASH standard\n- 📜 [i18n-check: End to end React i18n testing](https://lingual.dev/blog/i18n-check-end-to-end-react-i18n-testing/)\n- 📜 [Keeping Costs in Check When Hosting Next.js on Vercel](https://www.thisdot.co/blog/keeping-costs-in-check-when-hosting-next-js-on-vercel)\n- 📜 [React Architecture Tradeoffs: SPA, SSR, or RSC](https://reacttraining.com/blog/react-architecture-spa-ssr-rsc)\n- 📜 [Understanding SPAs and their shortcomings](https://reacttraining.com/blog/problems-you-face-with-spas)\n- 💸 [VS Code extension: Get React component usage insights in VS Code](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-mar-2025)\n- 📦 [React Email 4.0](https://resend.com/blog/react-email-4): adds useful tools (a linter, spam score, a compatibility checker) and a few components\n- 📦 [Triplex beta](https://triplex.dev/blog/triplex-for-vscode): A VS Code extension to develop React apps visually. It was initially built for React Three Fiber but now supports any React component\n- 📦 [Rspack 1.3](https://rspack.dev/blog/announcing-1-3): can be used to build React Router v7 apps\n- 📦 [Tinybase 6.0](https://github.com/tinyplex/tinybase/releases/tag/v6.0.0): compatible with React 19\n- 📦 [vike-server 1.0](https://vike.dev/blog/vike-server): simplifies running and deploying the server side of vite-built apps anywhere, and handles HMR in dev.\n- 📦 [React-Admin 5.7](https://github.com/marmelab/react-admin/releases/tag/v5.7.0)\n- 🎙️ [Front-End Fire: Next.js’s Security Vulnerability, Remix Walks Away from RSCs, and Rsdoctor 1.0](https://front-end-fire.com/episodes/87/)\n- 🎙️ [This Month in React 2025-03: Next had an auth vulnerability, TypeScript is porting to Golang](https://creators.spotify.com/pod/show/reactiflux/episodes/TMiR-2025-03-Next-had-an-auth-vulnerability--TypeScript-is-porting-to-Golang-e30tvf5/a-abs3i7h)"
+      "sourceMdx": "- 💸 [Strapi - Open-source headless Content Management, now with generous PaaS hosting, fully managed yet flexible and customizable. ](https://strapi.link/twir)\n- 📜 [Is CSS-in-JS still a thing?](https://fullystacked.net/css-in-js-still-a-thing/) It’s not trendy anymore (at least not without a compiler to avoid the performance penalty) but it’s still widely used.\n- 📜 [Next.js Deployment Challenges: Why platforms need better open source collaboration](https://www.netlify.com/blog/how-we-run-nextjs/): Netlify explains why Next.js is complicated to deploy outside of Vercel (no adapter support, missing documentation, lack of visibility…) and what they would like to change.\n- 📜 [Adaptive Video Streaming With Dash.js In React](https://www.smashingmagazine.com/2025/03/adaptive-video-streaming-dashjs-react/): You probably won’t be building something like this every day, but it turns out adaptive streaming is not that complicated thanks to the DASH standard\n- 📜 [i18n-check: End to end React i18n testing](https://lingual.dev/blog/i18n-check-end-to-end-react-i18n-testing/)\n- 📜 [Keeping Costs in Check When Hosting Next.js on Vercel](https://www.thisdot.co/blog/keeping-costs-in-check-when-hosting-next-js-on-vercel)\n- 📜 [React Architecture Tradeoffs: SPA, SSR, or RSC](https://reacttraining.com/blog/react-architecture-spa-ssr-rsc)\n- 📜 [Understanding SPAs and their shortcomings](https://reacttraining.com/blog/problems-you-face-with-spas)\n- 💸 [VS Code extension: Get React component usage insights in VS Code](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-mar-2025)\n- 📦 [React Email 4.0](https://resend.com/blog/react-email-4): adds useful tools (a linter, spam score, a compatibility checker) and a few components\n- 📦 [Triplex beta](https://triplex.dev/blog/triplex-for-vscode): A VS Code extension to develop React apps visually. It was initially built for React Three Fiber but now supports any React component\n- 📦 [Rspack 1.3](https://rspack.dev/blog/announcing-1-3): can be used to build React Router v7 apps\n- 📦 [Tinybase 6.0](https://github.com/tinyplex/tinybase/releases/tag/v6.0.0): compatible with React 19\n- 📦 [vike-server 1.0](https://vike.dev/blog/vike-server): simplifies running and deploying the server side of vite-built apps anywhere, and handles HMR in dev.\n- 📦 [React-Admin 5.7](https://github.com/marmelab/react-admin/releases/tag/v5.7.0)\n- 🎙️ [Front-End Fire: Next.js’s Security Vulnerability, Remix Walks Away from RSCs, and Rsdoctor 1.0](https://front-end-fire.com/episodes/87/)\n- 🎙️ [This Month in React 2025-03: Next had an auth vulnerability, TypeScript is porting to Golang](https://creators.spotify.com/pod/show/reactiflux/episodes/TMiR-2025-03-Next-had-an-auth-vulnerability--TypeScript-is-porting-to-Golang-e30tvf5/a-abs3i7h)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [Strapi - 开源无头内容管理系统，现提供慷慨的PaaS托管服务，全托管且灵活可定制](https://strapi.link/twir)\n- 📜 [CSS-in-JS还流行吗？](https://fullystacked.net/css-in-js-still-a-thing/) 它已不再时髦（至少在没有编译器避免性能损耗的情况下），但仍被广泛使用。\n- 📜 [Next.js部署挑战：平台为何需要更好的开源协作](https://www.netlify.com/blog/how-we-run-nextjs/)：Netlify解释为何Next.js在Vercel之外部署复杂（缺乏适配器支持、文档缺失、透明度不足…）以及他们希望做出的改变。\n- 📜 [React中使用Dash.js实现自适应视频流](https://www.smashingmagazine.com/2025/03/adaptive-video-streaming-dashjs-react/)：这类需求虽不常见，但得益于DASH标准，自适应流媒体实现并不复杂。\n- 📜 [i18n-check：端到端React国际化测试方案](https://lingual.dev/blog/i18n-check-end-to-end-react-i18n-testing/)\n- 📜 [在Vercel托管Next.js的成本控制策略](https://www.thisdot.co/blog/keeping-costs-in-check-when-hosting-next-js-on-vercel)\n- 📜 [React架构权衡：SPA、SSR与RSC对比](https://reacttraining.com/blog/react-architecture-spa-ssr-rsc)\n- 📜 [深入理解SPA及其局限性](https://reacttraining.com/blog/problems-you-face-with-spas)\n- 💸 [VS Code扩展：获取React组件使用洞察](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-mar-2025)\n- 📦 [React Email 4.0发布](https://resend.com/blog/react-email-4)：新增实用工具（代码检查器、垃圾邮件评分、兼容性检查器）及若干组件\n- 📦 [Triplex beta版](https://triplex.dev/blog/triplex-for-vscode)：可视化开发React应用的VS Code扩展，最初为React Three Fiber设计，现支持任意React组件\n- 📦 [Rspack 1.3发布](https://rspack.dev/blog/announcing-1-3)：支持构建React Router v7应用\n- 📦 [Tinybase 6.0](https://github.com/tinyplex/tinybase/releases/tag/v6.0.0)：兼容React 19\n- 📦 [vike-server 1.0](https://vike.dev/blog/vike-server)：简化vite构建应用的服务器端部署，支持开发环境HMR\n- 📦 [React-Admin 5.7](https://github.com/marmelab/react-admin/releases/tag/v5.7.0)\n- 🎙️ [前端热点：Next.js安全漏洞、Remix放弃RSC、Rsdoctor 1.0发布](https://front-end-fire.com/episodes/87/)\n- 🎙️ [React月度综述2025-03：Next.js曝出认证漏洞，TypeScript正移植至Golang](https://creators.spotify.com/pod/show/reactiflux/episodes/TMiR-2025-03-Next-had-an-auth-vulnerability--TypeScript-is-porting-to-Golang-e30tvf5/a-abs3i7h)"
     },
     {
       "id": "5b035b90",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_5b035b90"
     },
     {
       "id": "7afb38f4",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "b051b70c",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "d0dd855b",
       "translatable": true,
       "content": "[![Ship dashboards in minutes — not sprints](/emails/issues/228/semaphor.jpg)](https://semaphor.cloud)",
-      "sourceMdx": "[![Ship dashboards in minutes — not sprints](/emails/issues/228/semaphor.jpg)](https://semaphor.cloud)"
+      "sourceMdx": "[![Ship dashboards in minutes — not sprints](/emails/issues/228/semaphor.jpg)](https://semaphor.cloud)",
+      "nodeType": "paragraph",
+      "translated_content": "[![分钟级部署仪表盘——告别迭代周期](/emails/issues/228/semaphor.jpg)](https://semaphor.cloud)"
     },
     {
       "id": "7736989b",
       "translatable": true,
       "content": "**[Ship dashboards in minutes — not sprints](https://semaphor.cloud)**",
-      "sourceMdx": "**[Ship dashboards in minutes — not sprints](https://semaphor.cloud)**"
+      "sourceMdx": "**[Ship dashboards in minutes — not sprints](https://semaphor.cloud)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[分钟级部署仪表盘——告别迭代周期](https://semaphor.cloud)**"
     },
     {
       "id": "6270d577",
       "translatable": true,
       "content": "Sempahor is a React based SDK to launch fully-interactive dashboards in your customer-facing products.",
-      "sourceMdx": "Sempahor is a React based SDK to launch fully-interactive dashboards in your customer-facing products."
+      "sourceMdx": "Sempahor is a React based SDK to launch fully-interactive dashboards in your customer-facing products.",
+      "nodeType": "paragraph",
+      "translated_content": "Semaphor是基于React的SDK，可快速在客户产品中部署全交互式仪表盘。"
     },
     {
       "id": "a1fa5396",
       "translatable": true,
       "content": "Semaphor helps you decouple analytics from your product code, so you can iterate quickly, and ship new insights independently — without needing to redeploy your app.",
-      "sourceMdx": "Semaphor helps you decouple analytics from your product code, so you can iterate quickly, and ship new insights independently — without needing to redeploy your app."
+      "sourceMdx": "Semaphor helps you decouple analytics from your product code, so you can iterate quickly, and ship new insights independently — without needing to redeploy your app.",
+      "nodeType": "paragraph",
+      "translated_content": "它能将分析系统与产品代码解耦，实现快速迭代，无需重新部署应用即可独立发布新洞察。"
     },
     {
       "id": "ec619944",
       "translatable": true,
       "content": "The CPO of TalentsConnect sums it up best:",
-      "sourceMdx": "The CPO of TalentsConnect sums it up best:"
+      "sourceMdx": "The CPO of TalentsConnect sums it up best:",
+      "nodeType": "paragraph",
+      "translated_content": "TalentsConnect首席产品官的总结最为精辟："
     },
     {
       "id": "2547a6bb",
       "translatable": true,
       "content": "\"Semaphor has transformed our product and data team's workflow. They can now more quickly prototype and test new use cases directly in our application with our clients, significantly reducing feedback cycle time. Plus, Semaphor's styling options are outstanding, fitting seamlessly with our product's design\"",
-      "sourceMdx": "\"Semaphor has transformed our product and data team's workflow. They can now more quickly prototype and test new use cases directly in our application with our clients, significantly reducing feedback cycle time. Plus, Semaphor's styling options are outstanding, fitting seamlessly with our product's design\""
+      "sourceMdx": "\"Semaphor has transformed our product and data team's workflow. They can now more quickly prototype and test new use cases directly in our application with our clients, significantly reducing feedback cycle time. Plus, Semaphor's styling options are outstanding, fitting seamlessly with our product's design\"",
+      "nodeType": "paragraph",
+      "translated_content": "\"Semaphor彻底改变了我们产品与数据团队的工作流。现在他们能直接在应用中与客户快速原型测试新用例，大幅缩短反馈周期。其样式配置方案也极其出色，与产品设计无缝融合\""
     },
     {
       "id": "233bb60e",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "bd30d33e",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native动态 {#react-native}"
     },
     {
       "id": "6b77b644",
       "translatable": true,
       "content": "It’s been a quiet week in the React Native community—perhaps because all eyes are on the React Native Connection happening right now in Paris. Hopefully, we’ll have plenty of exciting topics to dive into next week 🤗",
-      "sourceMdx": "It’s been a quiet week in the React Native community—perhaps because all eyes are on the React Native Connection happening right now in Paris. Hopefully, we’ll have plenty of exciting topics to dive into next week 🤗"
+      "sourceMdx": "It’s been a quiet week in the React Native community—perhaps because all eyes are on the React Native Connection happening right now in Paris. Hopefully, we’ll have plenty of exciting topics to dive into next week 🤗",
+      "nodeType": "paragraph",
+      "translated_content": "本周React Native社区相对平静——或许是因为所有人的目光都聚焦在巴黎正在举行的React Native Connection大会上。希望下周我们能深入探讨更多激动人心的话题🤗"
     },
     {
       "id": "e0019b35",
       "translatable": true,
       "content": "* 💸 [Radon IDE – All-in-one tool for React Native & Expo development. Now with Network Inspector and Outline Renders!](https://ide.swmansion.com/?utm_source=thisweekinreact.com)\n* 🐦 [Nice animated SplashScreen using Expo SplashScreen and RN Masked View.](https://x.com/S0LARIN/status/1905829104600875025)\n* 🐦 [React Native ExecuTorch 0.4 is announced for end of May](https://x.com/swmansion/status/1907086132828934414): with Universal LLM Runner, Additional LLMs support, Embedding models, Multilingual Whisper, OCR, Image segmentation…\n* 👀 [React Native 0.79 Golden RC](https://github.com/facebook/react-native/releases/tag/v0.79.0-rc.4): We should have a stable release next week.\n* 👀 [Lynx is exploring solutions for native plugin development](https://github.com/lynx-family/lynx/discussions/1#discussioncomment-12660488)\n* 🗓️ [App.js Conf](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 Kraków - 28-30 May. We're thrilled to announce the first speakers for App.js Conf 2025: Charlie Cheever, Enzo Manuel Mangano & Delphine Bugner! Grab your ticket now with a 15% discount using the code \"TWIR\".\n* 📜 [SDK 52 patches for Xcode 16.3](https://expo.dev/changelog/xcode-16-3-patches): If you encountered build issues when upgrading to Xcode 16.3, you may have to install the latest SDK 52 patch and RN0.77. Or move back to Xcode 16.2 🫠\n* 📜 [React Native: 10 years](https://shift.infinite.red/react-native-10-years-db9eb36c5af6): Infinite Red celebrates the birthday.\n* 📦 [React Native Screens 4.10](https://github.com/software-mansion/react-native-screens/releases/tag/4.10.0): iOS min supported version bumped to v15.1, experimental support for scrollview header when using formsheet, many android bug fixes.\n* 📦 [Unistyles 3.0 RC.1](https://github.com/jpudysz/react-native-unistyles/releases/tag/v3.0.0-rc.1): This has just been announced at React Native Connection conference, the library entered RC. Apart from the nice styling features, this version is quite exciting because it handles many things on the \"Shadow Tree\" of React Native using C++, allowing you to implement dynamic styles that do not need React to re-render components on the JS side when dependencies such as theme, signal, screen size/orientation and other dependencies change. This reminds how CSS works on the web: we don't need a React re-render when we cross a breakpoint.\n* 📦 [React Native MacOS 0.78](https://github.com/microsoft/react-native-macos/releases/tag/v0.78.0): The library caught up. We also heard it now supports Skia and WebGPU.\n* 📦 [React Native Builder Bob 0.39 - Upgrades to ESLint v9](https://github.com/callstack/react-native-builder-bob/releases/tag/react-native-builder-bob%400.39.0)\n* 📦 [React Native Gesture Handler 2.25](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.25.0)\n* 🎥 [William Candillon - The Shader's Gambit](https://www.youtube.com/watch?v=wUsFNlas620): Don’t expect much talking in this video, but it shows how far you can go with react-native-skia.\n* 🎥 [Theo - Android just changed forever](https://www.youtube.com/watch?v=ucZx1ArrIVQ)\n* 🎙️ [RNR 326 - React Native Turns 10 🎉](https://infinite.red/react-native-radio/rnr-326-react-native-turns-10)",
-      "sourceMdx": "- 💸 [Radon IDE – All-in-one tool for React Native & Expo development. Now with Network Inspector and Outline Renders!](https://ide.swmansion.com/?utm_source=thisweekinreact.com)\n- 🐦 [Nice animated SplashScreen using Expo SplashScreen and RN Masked View.](https://x.com/S0LARIN/status/1905829104600875025)\n- 🐦 [React Native ExecuTorch 0.4 is announced for end of May](https://x.com/swmansion/status/1907086132828934414): with Universal LLM Runner, Additional LLMs support, Embedding models, Multilingual Whisper, OCR, Image segmentation…\n- 👀 [React Native 0.79 Golden RC](https://github.com/facebook/react-native/releases/tag/v0.79.0-rc.4): We should have a stable release next week.\n- 👀 [Lynx is exploring solutions for native plugin development](https://github.com/lynx-family/lynx/discussions/1#discussioncomment-12660488)\n- 🗓️ [App.js Conf](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 Kraków - 28-30 May. We're thrilled to announce the first speakers for App.js Conf 2025: Charlie Cheever, Enzo Manuel Mangano & Delphine Bugner! Grab your ticket now with a 15% discount using the code \"TWIR\".\n- 📜 [SDK 52 patches for Xcode 16.3](https://expo.dev/changelog/xcode-16-3-patches): If you encountered build issues when upgrading to Xcode 16.3, you may have to install the latest SDK 52 patch and RN0.77. Or move back to Xcode 16.2 🫠\n- 📜 [React Native: 10 years](https://shift.infinite.red/react-native-10-years-db9eb36c5af6): Infinite Red celebrates the birthday.\n- 📦 [React Native Screens 4.10](https://github.com/software-mansion/react-native-screens/releases/tag/4.10.0): iOS min supported version bumped to v15.1, experimental support for scrollview header when using formsheet, many android bug fixes.\n- 📦 [Unistyles 3.0 RC.1](https://github.com/jpudysz/react-native-unistyles/releases/tag/v3.0.0-rc.1): This has just been announced at React Native Connection conference, the library entered RC. Apart from the nice styling features, this version is quite exciting because it handles many things on the \"Shadow Tree\" of React Native using C++, allowing you to implement dynamic styles that do not need React to re-render components on the JS side when dependencies such as theme, signal, screen size/orientation and other dependencies change. This reminds how CSS works on the web: we don't need a React re-render when we cross a breakpoint.\n- 📦 [React Native MacOS 0.78](https://github.com/microsoft/react-native-macos/releases/tag/v0.78.0): The library caught up. We also heard it now supports Skia and WebGPU.\n- 📦 [React Native Builder Bob 0.39 - Upgrades to ESLint v9](https://github.com/callstack/react-native-builder-bob/releases/tag/react-native-builder-bob%400.39.0)\n- 📦 [React Native Gesture Handler 2.25](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.25.0)\n- 🎥 [William Candillon \\- The Shader's Gambit](https://www.youtube.com/watch?v=wUsFNlas620): Don’t expect much talking in this video, but it shows how far you can go with react-native-skia.\n- 🎥 [Theo \\- Android just changed forever](https://www.youtube.com/watch?v=ucZx1ArrIVQ)\n- 🎙️ [RNR 326 \\- React Native Turns 10 🎉](https://infinite.red/react-native-radio/rnr-326-react-native-turns-10)"
+      "sourceMdx": "- 💸 [Radon IDE – All-in-one tool for React Native & Expo development. Now with Network Inspector and Outline Renders!](https://ide.swmansion.com/?utm_source=thisweekinreact.com)\n- 🐦 [Nice animated SplashScreen using Expo SplashScreen and RN Masked View.](https://x.com/S0LARIN/status/1905829104600875025)\n- 🐦 [React Native ExecuTorch 0.4 is announced for end of May](https://x.com/swmansion/status/1907086132828934414): with Universal LLM Runner, Additional LLMs support, Embedding models, Multilingual Whisper, OCR, Image segmentation…\n- 👀 [React Native 0.79 Golden RC](https://github.com/facebook/react-native/releases/tag/v0.79.0-rc.4): We should have a stable release next week.\n- 👀 [Lynx is exploring solutions for native plugin development](https://github.com/lynx-family/lynx/discussions/1#discussioncomment-12660488)\n- 🗓️ [App.js Conf](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 Kraków - 28-30 May. We're thrilled to announce the first speakers for App.js Conf 2025: Charlie Cheever, Enzo Manuel Mangano & Delphine Bugner! Grab your ticket now with a 15% discount using the code \"TWIR\".\n- 📜 [SDK 52 patches for Xcode 16.3](https://expo.dev/changelog/xcode-16-3-patches): If you encountered build issues when upgrading to Xcode 16.3, you may have to install the latest SDK 52 patch and RN0.77. Or move back to Xcode 16.2 🫠\n- 📜 [React Native: 10 years](https://shift.infinite.red/react-native-10-years-db9eb36c5af6): Infinite Red celebrates the birthday.\n- 📦 [React Native Screens 4.10](https://github.com/software-mansion/react-native-screens/releases/tag/4.10.0): iOS min supported version bumped to v15.1, experimental support for scrollview header when using formsheet, many android bug fixes.\n- 📦 [Unistyles 3.0 RC.1](https://github.com/jpudysz/react-native-unistyles/releases/tag/v3.0.0-rc.1): This has just been announced at React Native Connection conference, the library entered RC. Apart from the nice styling features, this version is quite exciting because it handles many things on the \"Shadow Tree\" of React Native using C++, allowing you to implement dynamic styles that do not need React to re-render components on the JS side when dependencies such as theme, signal, screen size/orientation and other dependencies change. This reminds how CSS works on the web: we don't need a React re-render when we cross a breakpoint.\n- 📦 [React Native MacOS 0.78](https://github.com/microsoft/react-native-macos/releases/tag/v0.78.0): The library caught up. We also heard it now supports Skia and WebGPU.\n- 📦 [React Native Builder Bob 0.39 - Upgrades to ESLint v9](https://github.com/callstack/react-native-builder-bob/releases/tag/react-native-builder-bob%400.39.0)\n- 📦 [React Native Gesture Handler 2.25](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.25.0)\n- 🎥 [William Candillon \\- The Shader's Gambit](https://www.youtube.com/watch?v=wUsFNlas620): Don’t expect much talking in this video, but it shows how far you can go with react-native-skia.\n- 🎥 [Theo \\- Android just changed forever](https://www.youtube.com/watch?v=ucZx1ArrIVQ)\n- 🎙️ [RNR 326 \\- React Native Turns 10 🎉](https://infinite.red/react-native-radio/rnr-326-react-native-turns-10)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [Radon IDE – 一站式React Native & Expo开发工具。现新增网络检查器和轮廓渲染功能！](https://ide.swmansion.com/?utm_source=thisweekinreact.com)\n- 🐦 [使用Expo SplashScreen和RN Masked View实现的精美动画启动屏](https://x.com/S0LARIN/status/1905829104600875025)\n- 🐦 [React Native ExecuTorch 0.4将于五月底发布](https://x.com/swmansion/status/1907086132828934414)：新增通用LLM运行器、支持更多LLM模型、嵌入模型、多语言Whisper、OCR、图像分割等功能\n- 👀 [React Native 0.79 Golden候选版](https://github.com/facebook/react-native/releases/tag/v0.79.0-rc.4)：预计下周发布稳定版\n- 👀 [Lynx正在探索原生插件开发解决方案](https://github.com/lynx-family/lynx/discussions/1#discussioncomment-12660488)\n- 🗓️ [App.js Conf](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 克拉科夫 - 5月28-30日。我们很高兴地宣布App.js Conf 2025的首批演讲嘉宾：Charlie Cheever、Enzo Manuel Mangano和Delphine Bugner！使用优惠码\"TWIR\"可享15%折扣购票\n- 📜 [针对Xcode 16.3的SDK 52补丁](https://expo.dev/changelog/xcode-16-3-patches)：如果升级到Xcode 16.3后遇到构建问题，可能需要安装最新的SDK 52补丁和RN0.77，或者回退到Xcode 16.2 🫠\n- 📜 [React Native：十年历程](https://shift.infinite.red/react-native-10-years-db9eb36c5af6)：Infinite Red庆祝这个里程碑\n- 📦 [React Native Screens 4.10](https://github.com/software-mansion/react-native-screens/releases/tag/4.10.0)：iOS最低支持版本提升至v15.1，实验性支持表单页面的滚动视图头部，修复多个Android bug\n- 📦 [Unistyles 3.0 RC.1](https://github.com/jpudysz/react-native-unistyles/releases/tag/v3.0.0-rc.1)：该版本刚在React Native Connection大会上宣布进入候选阶段。除了出色的样式功能外，这个版本令人兴奋之处在于它使用C++处理React Native\"Shadow Tree\"的许多逻辑，使得当主题、信号、屏幕尺寸/方向等依赖项变化时，无需通过React在JS端重新渲染组件即可实现动态样式。这让人联想到CSS在Web上的工作方式：当跨越断点时我们不需要React重新渲染\n- 📦 [React Native MacOS 0.78](https://github.com/microsoft/react-native-macos/releases/tag/v0.78.0)：该库已同步更新。据悉现已支持Skia和WebGPU\n- 📦 [React Native Builder Bob 0.39 - 升级至ESLint v9](https://github.com/callstack/react-native-builder-bob/releases/tag/react-native-builder-bob%400.39.0)\n- 📦 [React Native Gesture Handler 2.25](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.25.0)\n- 🎥 [William Candillon - 着色器博弈](https://www.youtube.com/watch?v=wUsFNlas620)：这个视频不会有太多解说，但它展示了react-native-skia能达到的惊人效果\n- 🎥 [Theo - Android即将迎来巨变](https://www.youtube.com/watch?v=ucZx1ArrIVQ)\n- 🎙️ [RNR 326 - React Native十周年特辑 🎉](https://infinite.red/react-native-radio/rnr-326-react-native-turns-10)"
     },
     {
       "id": "42bfcc5d",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "8172a0a5",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他 {#other}"
     },
     {
       "id": "2890f5b2",
       "translatable": true,
       "content": "* 👀 [PR on TypeScript by the ArkType maintainer](https://github.com/microsoft/TypeScript/pull/61505): A huge perf boost may be coming for codebases that use lots of “schemas” with eg Zod or ArkType.\n* 📜 [WebKit Features in Safari 18.4](https://webkit.org/blog/16574/webkit-features-in-safari-18-4/): Ships various things including 3 TC39 proposals. Iterator Helpers is now available in all browsers and Node.js!\n* 📜 [Summary of the February 2025 TC39 plenary](https://blogs.igalia.com/compilers/2025/03/27/summary-of-the-february-2025-tc39-plenary/)\n* 📜 [Faster String Sorting with Intl.Collator](https://claritydev.net/blog/faster-string-sorting-intl-collator)\n* 📜 [Forbidden Request Headers](https://macarthur.me/posts/forbidden-request-headers/)\n* 📜 [Node.js API Security Vulnerabilities with Path Traversal in files-bucket-server](https://www.nodejs-security.com/blog/nodejs-api-security-vulnerabilities-path-traversal-files-bucket-server/)\n* 📦 [Vitest 3.1](https://github.com/vitest-dev/vitest/releases/tag/v3.1.0)",
-      "sourceMdx": "- 👀 [PR on TypeScript by the ArkType maintainer](https://github.com/microsoft/TypeScript/pull/61505): A huge perf boost may be coming for codebases that use lots of “schemas” with eg Zod or ArkType.\n- 📜 [WebKit Features in Safari 18.4](https://webkit.org/blog/16574/webkit-features-in-safari-18-4/): Ships various things including 3 TC39 proposals. Iterator Helpers is now available in all browsers and Node.js!\n- 📜 [Summary of the February 2025 TC39 plenary](https://blogs.igalia.com/compilers/2025/03/27/summary-of-the-february-2025-tc39-plenary/)\n- 📜 [Faster String Sorting with Intl.Collator](https://claritydev.net/blog/faster-string-sorting-intl-collator)\n- 📜 [Forbidden Request Headers](https://macarthur.me/posts/forbidden-request-headers/)\n- 📜 [Node.js API Security Vulnerabilities with Path Traversal in files-bucket-server](https://www.nodejs-security.com/blog/nodejs-api-security-vulnerabilities-path-traversal-files-bucket-server/)\n- 📦 [Vitest 3.1](https://github.com/vitest-dev/vitest/releases/tag/v3.1.0)"
+      "sourceMdx": "- 👀 [PR on TypeScript by the ArkType maintainer](https://github.com/microsoft/TypeScript/pull/61505): A huge perf boost may be coming for codebases that use lots of “schemas” with eg Zod or ArkType.\n- 📜 [WebKit Features in Safari 18.4](https://webkit.org/blog/16574/webkit-features-in-safari-18-4/): Ships various things including 3 TC39 proposals. Iterator Helpers is now available in all browsers and Node.js!\n- 📜 [Summary of the February 2025 TC39 plenary](https://blogs.igalia.com/compilers/2025/03/27/summary-of-the-february-2025-tc39-plenary/)\n- 📜 [Faster String Sorting with Intl.Collator](https://claritydev.net/blog/faster-string-sorting-intl-collator)\n- 📜 [Forbidden Request Headers](https://macarthur.me/posts/forbidden-request-headers/)\n- 📜 [Node.js API Security Vulnerabilities with Path Traversal in files-bucket-server](https://www.nodejs-security.com/blog/nodejs-api-security-vulnerabilities-path-traversal-files-bucket-server/)\n- 📦 [Vitest 3.1](https://github.com/vitest-dev/vitest/releases/tag/v3.1.0)",
+      "nodeType": "list",
+      "translated_content": "- 👀 [ArkType维护者提交的TypeScript PR](https://github.com/microsoft/TypeScript/pull/61505)：对于大量使用Zod或ArkType等\"模式\"的代码库可能迎来显著的性能提升。\n- 📜 [Safari 18.4中的WebKit特性](https://webkit.org/blog/16574/webkit-features-in-safari-18-4/)：包含多项更新，包括3个TC39提案。Iterator Helpers现已支持所有主流浏览器和Node.js！\n- 📜 [2025年2月TC39全会纪要](https://blogs.igalia.com/compilers/2025/03/27/summary-of-the-february-2025-tc39-plenary/)\n- 📜 [使用Intl.Collator实现更快的字符串排序](https://claritydev.net/blog/faster-string-sorting-intl-collator)\n- 📜 [被禁用的请求头](https://macarthur.me/posts/forbidden-request-headers/)\n- 📜 [Node.js文件存储服务器中的路径遍历API安全漏洞](https://www.nodejs-security.com/blog/nodejs-api-security-vulnerabilities-path-traversal-files-bucket-server/)\n- 📦 [Vitest 3.1发布](https://github.com/vitest-dev/vitest/releases/tag/v3.1.0)"
     },
     {
       "id": "43fd0c1b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "23b96cc0",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 轻松一刻 {#fun}"
     },
     {
       "id": "8fcdd6d4",
       "translatable": true,
       "content": "[![alt](/emails/issues/228/next_burn.jpg)](https://x.com/aidenybai/status/1904294570533572817)",
-      "sourceMdx": "[![alt](/emails/issues/228/next_burn.jpg)](https://x.com/aidenybai/status/1904294570533572817)"
+      "sourceMdx": "[![alt](/emails/issues/228/next_burn.jpg)](https://x.com/aidenybai/status/1904294570533572817)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/228/next_burn.jpg)](https://x.com/aidenybai/status/1904294570533572817)"
     },
     {
       "id": "53aa2b95",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下次见！👋"
     }
   ]
 }

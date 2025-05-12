@@ -7,11 +7,11 @@ date: 05-07-2025
 
 大家好！
 
-本周我们虽然没有一篇，但有两篇来自Dan Abramov的有趣博客文章，以及多个React版本发布。
+本周虽然没有一篇，但有两篇来自Dan Abramov的有趣博客文章，以及各种React版本发布。
 
 我发现移动端新闻特别有意思，包括Expo 53、Skia Graphite、Reanimated共享元素转场动画，以及苹果费用法院禁令。
 
-我在ui.dev的同事们也推出了他们[react.gg](https://react.gg/?ref=twir)课程的最终内容（现在7折优惠），该课程旨在从基本原理教你所有全新的React 19概念。我有幸提前审阅过，可以保证这是种非常有趣的学习React方式，充满了交互式示例、可视化演示和实用测验。
+我在ui.dev的同事们也推出了他们[react.gg](https://react.gg/?ref=twir)课程的最终内容（现在7折优惠），该课程旨在从基本原理教你所有全新的React 19概念。我有幸提前审阅了课程内容，可以保证这是一种非常寓教于乐的学习React方式，充满了交互式示例、可视化演示和实用测验。
 
 <!-- truncate -->
 
@@ -27,44 +27,44 @@ import Support from "../_support.mdx";
 
 **[将React代码审查时间和错误减少一半](https://coderabbit.link/this-week-in-react-7may-2025)**
 
-代码审查至关重要但耗时。CodeRabbit作为您的AI副驾驶，即时提供代码审查意见和每个拉取请求的潜在影响分析。
+代码审查至关重要但耗时。CodeRabbit作为你的AI副驾驶，即时提供代码审查意见和每个拉取请求的潜在影响分析。
 
-除了标记问题外，CodeRabbit还提供一键修复建议，并允许您使用AST Grep模式定义自定义代码质量规则，捕捉传统静态分析工具可能遗漏的细微问题。
+除了标记问题，CodeRabbit还提供一键修复建议，并允许你使用AST Grep模式定义自定义代码质量规则，捕捉传统静态分析工具可能遗漏的细微问题。
 
-CodeRabbit已审查超过500万个PR，安装在100万个代码库上，被5万个开源项目使用。CodeRabbit对所有开源仓库免费。[立即开始使用！](https://coderabbit.link/this-week-in-react-7may-2025)
+CodeRabbit已审查超过500万个PR，安装在100万个代码库上，被5万个开源项目使用。所有开源仓库可免费使用。[立即体验！](https://coderabbit.link/this-week-in-react-7may-2025)
 
 ---
 
 ## ⚛️ React {#react}
 
-- 💸 [工程师的产品思维 - 工程师在沟通中常犯的错误](https://go.posthog.com/twir-may7)
-- 👀 [Next.js 文档 - 新增 `runAfterProductionCompile` 生命周期钩子](https://nextjs.org/docs/architecture/nextjs-compiler#runafterproductioncompile)：尚未发布的特性已提前文档化。
-- 💬 [React Compiler oxc 插件](https://github.com/oxc-project/oxc/issues/10048)：React Compiler 团队与 oxc 团队就编译器集成展开讨论，计划分两步实现（先确保功能可用，再优化性能）。
-- 🧵 [shadcn 推出 registry MCP - 一条命令让任何组件库兼容 MCP 协议](https://threadreaderapp.com/thread/1917597228513853603.html)
-- 📜 [函数式 HTML](https://overreacted.io/functional-html/)：Dan Abramov 从第一性原理逐步重构理想中的 HTML，最终实现 RSC 方案。
-- 📜 [给 Astro 开发者的 RSC 指南](https://overreacted.io/rsc-for-astro-developers/)：分析 RSC 与 Astro 相似架构下的微妙差异，RSC 虽初期学习曲线陡峭但能突破 Astro 的局限性。
-- 📜 [AI 交互的未来：超越文本](https://www.epicai.pro/the-future-of-ai-interaction-beyond-just-text-w22ps)：Kent 提出 MCP 协议可通过 React 服务端组件实现生成式 UI，建议扩展协议支持 HTML/RSC 等富返回值类型。
-- 📜 [前端之难](https://sst.dev/blog/frontends-are-hard)：SST 团队反思自托管现代元框架（含 React）的挑战，由此发起 OpenNext 倡议。
-- 📜 [在 React Router 中添加色彩方案切换](https://sergiodxa.com/tutorials/add-a-color-scheme-toggle-in-react-router)：通过 Cookie 而非内联 JS 避免样式闪烁问题。
-- 📜 [复杂 React/Next.js 应用的数据获取架构](https://www.trevorlasn.com/blog/fetching-data-for-complex-next-and-react-apps)：建议采用三层架构：服务端组件、React Query 和乐观更新。
-- 📜 [服务端组件赋予选择权](https://saewitz.com/server-components-give-you-optionality)：可自由决定组件运行环境（服务端、服务端+客户端或纯客户端）及执行时机。
-- 📜 [我们为何放弃 Next.js 重回 Ruby on Rails & Inertia.js](https://hardcover.app/blog/part-1-how-we-fell-out-of-love-with-next-js-and-back-in-love-with-ruby-on-rails-inertia-js)
-- 📜 [Kleinanzeigen.de 选择 Astro 而非 Next.js 的原因](https://d13z.dev/blog/07-why-kleinanzeigen-picked-astro-over-nextjs/)
-- 📜 [何时需要覆盖 TanStack Query 的默认配置](https://www.kxlaa.com/articles/when-you-might-need-to-override-the-defaults-in-tanstack-query)
-- 💸 [React.gg - 通过交互式学习掌握现代 React（含 v19 新特性）- 首发周限时 7 折](https://react.gg/?ref=twir)
-- 📦 [Unhead 2.0 - 全栈 \<head\> 管理方案](https://unhead.unjs.io/v2)：UnJS 生态推出的框架无关方案新增 React 绑定，可作为 `react-helmet` 的替代品（若 React 19 内置 API 不满足需求，参见[此评论](https://github.com/staylor/react-helmet-async/issues/239#issuecomment-2565685131)）。
-- 📦 [Blade - 用 React 构建即时 Web 应用](https://github.com/ronin-co/blade)：新推出的激进 React 元框架支持服务端组件，但刻意不遵循 RSC 规范。
-- 📦 [Relay 19.0 - 条件片段需添加 `@alias` 注解，支持 React 19](https://relay.dev/blog/2025/04/02/relay-19/)
-- 📦 [Mantine 8.0 - 日期库更新，新增 TimePicker、Heatmap、CodeHighlight 等组件，支持嵌套菜单](https://mantine.dev/changelog/8-0-0/)
-- 📦 [React Error Boundary 6.0 - 仅支持 ESM](https://github.com/bvaughn/react-error-boundary/releases/tag/6.0.0)
-- 📦 [React Admin 5.8 - 新增行内编辑器、数据表格、权限布局，支持 MUI v7 和 CSS 变量主题](https://github.com/marmelab/react-admin/releases/tag/v5.8.0)
-- 📦 [Unverceled Next.js - 基于 OpenNext 部署至 Cloudflare 的 Next.js 15 启动套件](https://github.com/ixahmedxi/unverceled-nextjs)
-- 📦 [Radix UI - 新增实验性 PasswordToggleField 和 Checkbox 部件](https://www.radix-ui.com/primitives/docs/overview/releases#may-5-2025)
-- 📦 [React Router DevTools 5.0 - 路由面板全面重构](https://github.com/forge-42/react-router-devtools/releases/tag/v5.0.0)
-- 📦 [MUI 7.1 - 支持 Tailwind CSS 4](https://github.com/mui/material-ui/releases/tag/v7.1.0)
-- 🎥 [Jack Herrington - React 全新 Activity 组件：性能飞跃！](https://www.youtube.com/watch?v=gRKVL5w-2Lc)
-- 🎥 [Fireship - React 开发者群体的分化趋势…](https://www.youtube.com/watch?v=lLJbHHeFSsE)
-- 🎙️ [前端之火 93 期 - React Activity、Storybook 9 Beta 及 AI 协作开发](https://front-end-fire.com/episodes/93/)
+- 💸 [工程师产品 - 工程师在沟通中常犯的错误](https://go.posthog.com/twir-may7)
+- 👀 [Next.js文档 - 新增`runAfterProductionCompile`生命周期钩子](https://nextjs.org/docs/architecture/nextjs-compiler#runafterproductioncompile): 尚未发布的功能已提前文档化。
+- 💬 [React编译器oxc插件](https://github.com/oxc-project/oxc/issues/10048): React编译器团队与oxc团队就如何将编译器集成作为oxc插件进行了有趣讨论，未来计划用于Vite和Oxc/Rolldown。React团队建议分两步实现（先使其工作，再优化性能）。
+- 🧵 [shadcn推出registry MCP - 一条命令使任何组件兼容registry mcp](https://threadreaderapp.com/thread/1917597228513853603.html)
+- 📜 [函数式HTML](https://overreacted.io/functional-html/): Dan从第一性原理逐步重构出理想的HTML实现，最终导向RSC方案。
+- 📜 [面向Astro开发者的RSC](https://overreacted.io/rsc-for-astro-developers/): RSC与Astro的思维模型惊人相似，但Dan揭示了某些微妙差异。RSC初看可能不够直观，但它也解决了Astro的某些局限。
+- 📜 [AI交互的未来：超越纯文本](https://www.epicai.pro/the-future-of-ai-interaction-beyond-just-text-w22ps): Kent认为MCP协议可通过React服务端组件实现生成式UI，主张协议应支持更丰富的返回类型如html和RSC负载。
+- 📜 [前端之困](https://sst.dev/blog/frontends-are-hard): SST团队反思自托管现代元框架（含React系）的挑战，这促使他们启动OpenNext项目。
+- 📜 [在React Router中添加色彩方案切换](https://sergiodxa.com/tutorials/add-a-color-scheme-toggle-in-react-router): 该方法通过cookie而非内联JS避免无样式内容闪烁(FOUC)。
+- 📜 [复杂React/Next.js应用的健壮数据获取架构](https://www.trevorlasn.com/blog/fetching-data-for-complex-next-and-react-apps): 建议采用三层架构：服务端组件、React Query和乐观更新。
+- 📜 [服务端组件赋予选择权](https://saewitz.com/server-components-give-you-optionality): 可灵活选择组件运行环境（服务端、服务端+客户端或纯客户端）及执行时机。
+- 📜 [我们如何对Next.js由爱生厌，又重拾Ruby on Rails与Inertia.js](https://hardcover.app/blog/part-1-how-we-fell-out-of-love-with-next-js-and-back-in-love-with-ruby-on-rails-inertia-js)
+- 📜 [Kleinanzeigen.de选择Astro而非Next.js的原因](https://d13z.dev/blog/07-why-kleinanzeigen-picked-astro-over-nextjs/)
+- 📜 [何时需要覆盖TanStack Query的默认配置](https://www.kxlaa.com/articles/when-you-might-need-to-override-the-defaults-in-tanstack-query)
+- 💸 [React.gg - 包含v19新模块的交互式现代React教程 - 首发周7折优惠](https://react.gg/?ref=twir)
+- 📦 [Unhead 2.0 - 全栈\<head\>管理工具](https://unhead.unjs.io/v2): 这个来自UnJS生态的框架无关包现包含React绑定。若React 19内置API不满足需求，可作为`react-helmet`的替代方案（参见[此评论](https://github.com/staylor/react-helmet-async/issues/239#issuecomment-2565685131)）。
+- 📦 [Blade - 用React构建即时Web应用](https://github.com/ronin-co/blade): 新的RSC支持但故意不兼容RSC规范的React元框架。
+- 📦 [Relay 19.0 - 条件片段需用`@alias`标注，支持React 19](https://relay.dev/blog/2025/04/02/relay-19/)
+- 📦 [Mantine 8.0 - 日期库更新，新增TimePicker、Heatmap、CodeHighlight组件，支持嵌套菜单等](https://mantine.dev/changelog/8-0-0/)
+- 📦 [React Error Boundary 6.0 - 仅支持ESM](https://github.com/bvaughn/react-error-boundary/releases/tag/6.0.0)
+- 📦 [React Admin 5.8 - 新增就地编辑器、数据表格、认证布局，支持MUI v7和CSS变量主题](https://github.com/marmelab/react-admin/releases/tag/v5.8.0)
+- 📦 [Unverceled Next.js - 基于OpenNext部署到Cloudflare的Next.js 15启动套件](https://github.com/ixahmedxi/unverceled-nextjs)
+- 📦 [Radix UI - 新增实验性PasswordToggleField和Checkbox部件](https://www.radix-ui.com/primitives/docs/overview/releases#may-5-2025)
+- 📦 [React Router DevTools 5.0 - 路由标签页全面重构](https://github.com/forge-42/react-router-devtools/releases/tag/v5.0.0)
+- 📦 [MUI 7.1 - 支持Tailwind CSS 4](https://github.com/mui/material-ui/releases/tag/v7.1.0)
+- 🎥 [Jack Herrington - React新Activity组件：巨大性能提升！](https://www.youtube.com/watch?v=gRKVL5w-2Lc)
+- 🎥 [Fireship - React开发者日益加剧的分歧…](https://www.youtube.com/watch?v=lLJbHHeFSsE)
+- 🎙️ [前端之火93期 - React Activity、Storybook 9测试版及作为协作者的AI](https://front-end-fire.com/episodes/93/)
 
 <SubscribeFormEmbed placement="middle" />
 
@@ -72,99 +72,99 @@ CodeRabbit已审查超过500万个PR，安装在100万个代码库上，被5万�
 
 ## 💸 赞助商 {#sponsor2}
 
-[![Tolgee 简化应用翻译流程](/emails/issues/233/tolgee.jpg)](https://tolg.ee/y1z3eb)
+[![Tolgee简化应用翻译](/emails/issues/233/tolgee.jpg)](https://tolg.ee/y1z3eb)
 
-**[Tolgee 让应用翻译化繁为简](https://tolg.ee/y1z3eb)**
+**[Tolgee：简化应用翻译流程](https://tolg.ee/y1z3eb)**
 
-[Tolgee](https://tolg.ee/y1z3eb) 是一款**开源**工具，通过节省开发者时间并消除无休止的翻译文本电子表格，简化**本地化**流程 🌎
+[Tolgee](https://tolg.ee/y1z3eb) 是一款**开源**工具，通过节省开发者时间并消除无休止的翻译文本电子表格，极大简化了**本地化**流程 🌎
 
-立即提升您的工作效率！Tolgee 能帮助您：
+立即提升工作效率！Tolgee能帮助您：
 
-- 将翻译任务分配给团队成员 —— 节省开发时间！
-- 上下文关联翻译
+- 将翻译任务分配给团队成员——节省开发者时间！
+- 上下文实时翻译
 - 使用浏览器扩展实现点击即译
-- 告别杂乱无章的电子表格和 JSON 文件
+- 告别杂乱无章的电子表格和JSON文件
 
-免费版**无需信用卡**，特别适合小型项目！您可以立即试用所有功能并将其集成到项目中，为迎接全球用户做好准备。
+免费版**无需信用卡**，完美适配小型项目！您可以体验全部功能并立即集成到项目中，为迎接全球用户做好准备。
 
 ---
 
-## 📱 React-Native 动态 {#react-native}
+## 📱 React-Native动态 {#react-native}
 
-[![Expo SDK 53 发布](/emails/issues/233/expo53.jpg)](https://expo.dev/changelog/sdk-53)
+[![Expo SDK 53](/emails/issues/233/expo53.jpg)](https://expo.dev/changelog/sdk-53)
 
-**[Expo SDK 53 重磅发布](https://expo.dev/changelog/sdk-53)**
+**[Expo SDK 53](https://expo.dev/changelog/sdk-53)**
 
-本次 Expo 更新亮点纷呈：
+本次Expo更新亮点纷呈：
 
-- 升级至 React Native 0.79、React 19 和 RNW 0.20
+- 升级至React Native 0.79、React 19和RNW 0.20
 - 默认启用新架构（New Arch）
-- Android 默认支持全面屏显示
-- 全新 [Expo 后台任务](https://expo.dev/blog/goodbye-background-fetch-hello-expo-background-task)，基于 Android `WorkManager` 和 iOS `BGTaskScheduler` 系统 API，提供现代、可靠、节能且面向未来的后台任务方案
-- 实验性 [Expo 地图组件](https://expo.dev/blog/introducing-expo-maps-a-modern-maps-api-for-expo-developers)（alpha 版）基于 Expo Modules API 构建，采用 SwiftUI 和 Jetpack Compose，原生集成苹果地图与谷歌地图
-- 默认启用 Metro 的 `package.json#exports` 解析功能
-- 通过 `npx testflight` 将开发版本部署至 TestFlight
-- 预构建 Expo Modules 使 Android 构建速度提升最高 25%
+- Android默认支持全面屏显示
+- 全新[Expo后台任务](https://expo.dev/blog/goodbye-background-fetch-hello-expo-background-task)，通过Android的`WorkManager`和iOS的`BGTaskScheduler`系统API实现现代化、可靠、节能且面向未来的后台任务执行
+- 实验性[Expo地图组件](https://expo.dev/blog/introducing-expo-maps-a-modern-maps-api-for-expo-developers)基于Expo Modules API构建，采用SwiftUI和Jetpack Compose，直接调用平台原生的Apple Maps和Google Maps组件
+- 默认启用Metro的`package.json#exports`解析功能
+- 通过`npx testflight`将开发版本部署至TestFlight
+- 使用预构建的Expo Modules提升Android构建速度最高达25%
 - 还有更多改进！
 
-另请参阅 [Expo Router v5](https://expo.dev/blog/expo-router-v5) 的相关更新亮点：
+另请参阅相关版本[Expo Router v5](https://expo.dev/blog/expo-router-v5)的亮点：
 
-- 需搭配 React 19 / Expo 53 使用
-- 优化开发者体验，改进错误页面与日志记录，利用 React 所有者堆栈
-- 通过 EAS Hosting 部署生产环境的版本化 API 路由
-- React 服务端函数进入测试阶段
+- 需配合React 19/Expo 53使用
+- 优化开发者体验，改进错误页面和日志记录，利用React owner stacks
+- 通过EAS Hosting在生产环境部署版本化API路由
+- React服务端函数进入测试阶段
 - 新增路由保护功能
 
 ---
 
-[![游戏开始 —— 将 WebGPU 引入 React Native](/emails/issues/233/skia.jpg)](https://www.youtube.com/watch?v=t9t-VXwIc4I)
+[![游戏开始——将WebGPU引入React Native](/emails/issues/233/skia.jpg)](https://www.youtube.com/watch?v=t9t-VXwIc4I)
 
-**[🎥 游戏开始 —— 将 WebGPU 引入 React Native](https://www.youtube.com/watch?v=t9t-VXwIc4I)**
+**[🎥 游戏开始——将WebGPU引入React Native](https://www.youtube.com/watch?v=t9t-VXwIc4I)**
 
-在这段长达 37 分钟充满重磅消息的视频中，William Candillon 与特邀嘉宾展示了绘图与动画技术的未来图景。在 Shopify 的支持下，他正为 React Native 带来现代 WebGPU 支持（Vulkan 和 Metal）。
+在这段37分钟充满惊喜的演示视频中，William Candillon与特邀嘉宾们展示了绘图与动画技术的未来图景。在Shopify的支持下，他正为React Native带来现代WebGPU支持（Vulkan和Metal）。
 
-通过对接 Web API，开发者可以直接复制/粘贴现有 Web 示例（包括 Three.js）并在全平台运行。该技术还支持 GPU 通用计算（如 AI、TensorFlow.js），借助便捷的底层 TypeGPU 库更易实现。
+通过对接Web API，可以直接复制/粘贴现有Web示例（包括Three.js）并在全平台运行。同时支持GPU通用计算（AI、TensorFlow.js），借助便捷的底层TypeGPU库更易实现。
 
-所有这些工作都是为了创建基于 WebGPU 的实验性 Skia Graphite 后端。它能像 Web 端一样跨平台高性能地组合 2D/3D 场景，并完全支持 Reanimated 集成。在此过程中，Skia 虽未新增功能，但显著提升了性能、减少了崩溃，并新增支持三大平台：tvOS、macOS 和 Node。继续驯服那只章鱼吧 William！
-
----
-
-- 💸 [React Universe Conf 2025 新增演讲嘉宾：V. Morozov 和 K. Hosany（微软）、K. Hansen（MongoDB）、Z. Chapple（Zephyr Cloud）等](https://www.reactuniverseconf.com/?utm_campaign=7310698-RUC%202025&utm_source=TWIR&utm_content=New%20Speakers)
-- ⚖️ [Epic Games 赢得重大胜利，法院命令苹果遵守应用商店反规避禁令](https://www.macrumors.com/2025/04/30/apple-app-store-anti-steering-injunction-violation/)：法院裁定苹果故意不遵守先前禁令，未允许应用使用替代支付方式绕过30%的应用内购买抽成。"本院不会给苹果第二次机会"。这是移动生态的重大事件，《堡垒之夜》得以回归，Kindle应用终于能直接销售电子书，并催生新商业模式。可参考[Expo](https://expo.dev/blog/mobile-app-payment-processing-best-practices)和[Vercel](https://vercel.com/blog/ios-developers-can-now-offer-commission-free-payments-on-web)的指南与入门模板来规避抽成。
-- 👀 [React Core PR - 为Fabric添加Fragment Refs并支持交叉观察器](https://github.com/facebook/react/pull/33056)：近期React Labs博文简要提及即将推出的[Fragment Refs](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more#fragment-refs)功能。未来或可通过类似Web的IntersectionObserver感知React片段何时进入视窗。虽仍处研究阶段，但前景令人期待。
-- 👀 [Reanimated PR - 新架构下的共享元素转场](https://github.com/software-mansion/react-native-reanimated/pull/7466)：来自Software Mansion的激动人心草案PR，计划在新架构中稳定共享元素转场功能（该架构支持跨平台共享C++代码）。
-- 📜 [警笛、Saga与堆栈追踪：一次React Native升级奥德赛](https://shift.infinite.red/sirens-sagas-and-stack-traces-a-react-native-upgrade-odyssey-52db6beb0aac)
-- 🔨 [包兼容性检查器 - 检测新架构兼容性](https://react-native-package-checker.vercel.app/)
-- 📦 [Compose Multiplatform 1.8 - iOS版Compose Multiplatform宣告稳定并可用于生产](https://blog.jetbrains.com/kotlin/2025/05/compose-multiplatform-1-8-0-released-compose-multiplatform-for-ios-is-stable-and-production-ready/)：JetBrains的跨平台UI工具链支持iOS与Android代码共享。与React Native不同，其iOS（及Web）支持基于Skia而非UIKit原生组件。
-- 📦 [Zustand 5.0.4 + Jotai 2.12.4](https://github.com/pmndrs/jotai/discussions/3041)：修复与RN 0.79/Expo 53/Metro 0.82的兼容性问题。
-- 📦 [Nitro音频管理器 - 用于AVAudioSession/AudioManager API的Nitro模块](https://github.com/ChristopherGabba/react-native-nitro-audio-manager)
-- 📦 [Expo构建磁盘缓存 - 提升构建速度的Expo CLI插件](https://github.com/WookieFPV/expo-build-disk-cache)
-- 📦 [Expo应用模板 - 现代化、合理默认配置的快速启动模板](https://github.com/nkzw-tech/expo-app-template)
-- 🎥 [Jamon Holmgren - 如何使用React Native for macOS构建Mac应用](https://www.youtube.com/watch?v=0h-owMCfy5s)
-- 🎥 [React Universe Meetup - 四月新增3个视频：Polygen、基于文件的路由、原生体验](https://www.youtube.com/playlist?list=PLZ3MwD-soTTEFaxmATqOTcitPEK5iaz1z)
-- 🎥 [Simon Grimm - 终于等到React Native UI组件（Expo 53）](http://youtube.com/watch?v=kGUrNO8WmCU)
-- 🎙️ [React Native Radio第330期 - 与Karly Lamm探讨无障碍功能](https://infinite.red/react-native-radio/rnr-330-react-native-and-accessibility-with-karly-lamm)
-- 🎙️ [火箭飞船第67期 - 放弃RN、React编译器、传奇列表与RN性能](https://share.transistor.fm/s/18111ecc)
+所有这些工作都是为了创建基于WebGPU的实验性Skia Graphite后端。它能像Web端一样跨平台高性能地组合2D/3D场景，并完全支持Reanimated集成。在此过程中，Skia虽未新增功能，但显著提升了性能、减少了崩溃，并新增支持三大平台：tvOS、macOS和Node。继续驯服那只章鱼吧William！
 
 ---
 
-## 🔀 其他资讯 {#other}
+- 💸 [React Universe Conf 2025新增演讲嘉宾：微软的V. Morozov和K. Hosany、MongoDB的K. Hansen、Zephyr Cloud的Z. Chapple等](https://www.reactuniverseconf.com/?utm_campaign=7310698-RUC%202025&utm_source=TWIR&utm_content=New%20Speakers)
+- ⚖️ [Epic Games重大胜诉：法院命令苹果遵守应用商店反规避禁令](https://www.macrumors.com/2025/04/30/apple-app-store-anti-steering-injunction-violation/)：法院认定苹果蓄意不执行先前禁令，该禁令允许应用使用替代支付方式绕过30%内购抽成。"本院不会给苹果第二次机会"。这一里程碑事件使得《堡垒之夜》重返iOS、Kindle应用终于能直接销售电子书，并催生新商业模式。可参考[Expo](https://expo.dev/blog/mobile-app-payment-processing-best-practices)和[Vercel](https://vercel.com/blog/ios-developers-can-now-offer-commission-free-payments-on-web)的指南与入门模板来规避抽成。
+- 👀 [React核心PR：为Fabric添加Fragment Refs并支持交叉观察器](https://github.com/facebook/react/pull/33056)：近期React Labs博文简要提及即将推出的[Fragment Refs](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more#fragment-refs)功能。未来或将支持类似Web的IntersectionObserver来检测React片段何时进入视窗。目前仍处于研究阶段，但前景令人期待。
+- 👀 [Reanimated PR：新架构下的共享元素转场](https://github.com/software-mansion/react-native-reanimated/pull/7466)：来自Software Mansion的草案PR计划在新架构（支持跨平台共享C++代码）中稳定共享元素转场功能。
+- 📜 [警笛、Saga与调用栈：React Native升级奥德赛](https://shift.infinite.red/sirens-sagas-and-stack-traces-a-react-native-upgrade-odyssey-52db6beb0aac)
+- 🔨 [包兼容性检查器：检测新架构适配性](https://react-native-package-checker.vercel.app/)
+- 📦 [Compose Multiplatform 1.8发布：iOS版进入稳定生产阶段](https://blog.jetbrains.com/kotlin/2025/05/compose-multiplatform-1-8-0-released-compose-multiplatform-for-ios-is-stable-and-production-ready/)：JetBrains的跨平台UI工具链现支持iOS与Android代码共享。与React Native不同，其iOS（及Web）支持基于Skia而非UIKit原生组件。
+- 📦 [Zustand 5.0.4与Jotai 2.12.4更新](https://github.com/pmndrs/jotai/discussions/3041)：修复与RN 0.79/Expo 53/Metro 0.82的兼容性问题。
+- 📦 [Nitro音频管理器：AVAudioSession/AudioManager API的Nitro模块](https://github.com/ChristopherGabba/react-native-nitro-audio-manager)
+- 📦 [Expo构建磁盘缓存：提升构建速度的Expo CLI插件](https://github.com/WookieFPV/expo-build-disk-cache)
+- 📦 [Expo应用模板：现代化、合理默认配置的快速启动模板](https://github.com/nkzw-tech/expo-app-template)
+- 🎥 [Jamon Holmgren：如何使用React Native for macOS构建Mac应用](https://www.youtube.com/watch?v=0h-owMCfy5s)
+- 🎥 [React Universe Meetup：四月新增3个视频（Polygen、基于文件的路由、原生体验）](https://www.youtube.com/playlist?list=PLZ3MwD-soTTEFaxmATqOTcitPEK5iaz1z)
+- 🎥 [Simon Grimm：终于等到React Native UI组件（Expo 53）](http://youtube.com/watch?v=kGUrNO8WmCU)
+- 🎙️ [React Native Radio第330期：与Karly Lamm探讨无障碍功能](https://infinite.red/react-native-radio/rnr-330-react-native-and-accessibility-with-karly-lamm)
+- 🎙️ [Rocket Ship第67期：告别RN、React编译器、传奇列表与RN性能](https://share.transistor.fm/s/18111ecc)
+
+---
+
+## 🔀 其他动态 {#other}
 
 - 👀 [TypeScript 5.9 迭代计划](https://github.com/microsoft/TypeScript/issues/61648)
-- 📖 [Node.js 文档 - 发布 npm 包](https://nodejs.org/en/learn/modules/publishing-a-package): 新官方指南，涵盖 ESM/CJS 模块差异细节。
-- 📜 [JavaScript 值转字符串的潜在陷阱](https://2ality.com/2025/04/stringification-javascript.html)
-- 📜 [寻求答案：为什么纯 HTML 无法实现 include 功能？](https://frontendmasters.com/blog/seeking-an-answer-why-cant-html-alone-do-includes/)
-- 📦 [Node 24.0 发布](https://nodejs.org/en/blog/release/v24.0.0): 新版 Node.js 将于 10 月成为 LTS 版本，包含 npm 11、`AsyncLocalStorage` 性能优化、`URLPattern` API 以及 V8 v13.6 重大升级（支持显式资源管理 `using` 语法和 `RegExp.escape()` 等新特性，[浏览器兼容性已全面覆盖](https://web-platform-dx.github.io/web-features-explorer/features/regexp-escape/)）。
-- 📦 [GSAP 3.13 发布 - JavaScript 动画库现已完全免费（含所有插件）](https://gsap.com/blog/3-13/)
-- 📦 [Deno 2.3 - 改进的 deno compile、本地 npm 包支持、标记模板字符串的 deno fmt 等功能](https://deno.com/blog/v2.3)
-- 📦 [Prisma 6.7 - 无 Rust 依赖的 ORM，支持多文件 schema](https://github.com/prisma/prisma/releases/tag/6.7.0)
+- 📖 [Node.js 文档 - 发布包](https://nodejs.org/en/learn/modules/publishing-a-package): 新官方指南，涵盖ESM/CJS的微妙差异。
+- 📜 [JavaScript中将值转换为字符串的陷阱](https://2ality.com/2025/04/stringification-javascript.html)
+- 📜 [寻求答案：为什么HTML不能单独实现包含功能？](https://frontendmasters.com/blog/seeking-an-answer-why-cant-html-alone-do-includes/)
+- 📦 [Node 24.0](https://nodejs.org/en/blog/release/v24.0.0): 新版Node.js发布并将于10月成为LTS版本，包含npm 11、`AsyncLocalStorage`性能改进、`URLPattern` API以及V8升级至v13.6，支持新JS API如显式资源管理(`using`)和`RegExp.escape()`（现已[全面可用](https://web-platform-dx.github.io/web-features-explorer/features/regexp-escape/)）。
+- 📦 [GSAP 3.13 - JS动画库 - 现在100%免费，包括所有插件](https://gsap.com/blog/3-13/)
+- 📦 [Deno 2.3 - 改进的deno compile、本地npm包、标记模板中的deno fmt等](https://deno.com/blog/v2.3)
+- 📦 [Prisma 6.7 - 无需Rust的ORM，支持多文件模式](https://github.com/prisma/prisma/releases/tag/6.7.0)
 
 ---
 
-## 🤭 轻松一刻 {#fun}
+## 🤭 趣闻 {#fun}
 
 [![alt](/emails/issues/233/meme.jpg)](https://x.com/sebastienlorber/status/1920045489371951117)
 
 [![alt](/emails/issues/233/meme2.jpg)](https://x.com/kzzzf/status/1920091355868520557)
 
-下期见！👋
+下次见！👋

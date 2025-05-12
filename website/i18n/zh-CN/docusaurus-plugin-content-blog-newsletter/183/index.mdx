@@ -7,19 +7,19 @@ date: 04-24-2024
 
 大家好！
 
-本周React Native成为焦点！不过Vercel也传来有趣的消息，React核心团队也有值得关注的PR。
+本周React Native成为焦点！同时Vercel也发布了有趣的消息，React核心团队也有值得关注的PR。
 
-本周早些时候，我参加了巴黎的React/RN Connection技术大会。很高兴在那里遇见了一些读者！
+本周早些时候，我参加了在巴黎举行的React/RN Connection会议。很高兴在那里见到你们中的一些人！
 
-巴黎的技术盛宴尚未落幕。时隔多年，盛大的[**dotJS大会**](https://www.dotjs.io/?utm_source=thisweekinreact)将于6月27日重返巴黎。目前已公布重量级演讲嘉宾阵容，包括Mark Dalgleish、Malte Ubl、Charlie Gerard、James Q Quick、Ben Lesh等。最后一批常规票正在发售，使用我的优惠码"TWIR"可享9折。
+巴黎的派对尚未结束。时隔多年，盛大的[**dotJS大会**](https://www.dotjs.io/?utm_source=thisweekinreact)将于6月27日重返巴黎。他们已经宣布了重磅演讲嘉宾阵容，包括Mark Dalgleish、Malte Ubl、Charlie Gerard、James Q Quick、Ben Lesh等...普通门票即将售罄，使用我的优惠码"TWIR"可享9折。
 
-由于会议缘故，我只有今天能处理通讯稿。幸好我的合著者[Benedikt](https://twitter.com/bndkt)接手完成了本周大部分工作！🙏
+由于会议缘故，我只有今天能处理新闻稿。幸好我的合著者[Benedikt](https://twitter.com/bndkt)接手并完成了本周大部分工作！🙏
 
-下周通讯将休刊一期。我们5月8日再见。
+下周，本刊将迎来应得的休刊期。我们将在5月8日回归。
 
 <!-- truncate -->
 
-**💡 [在Twitter查看本期通讯](https://slo.im/thread) - 可视化排版 🎨**
+**💡 [在Twitter查看本期简讯](https://slo.im/thread) - 视觉版式 🎨**
 
 ---
 
@@ -31,13 +31,13 @@ import Support from "../_support.mdx";
 
 ## 💸 赞助商 {#sponsor1}
 
-[![帮助提升产品技能的通讯](/emails/issues/183/posthog.jpg)](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)
+[![帮助提升产品技能的新闻简报](/emails/issues/183/posthog.jpg)](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)
 
-**[帮助工程师提升产品技能的通讯](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)**
+**[帮助工程师提升产品技能的新闻简报](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)**
 
-[**工程师的产品思维**](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)是PostHog推出的专业通讯，致力于帮助工程师培养产品意识。内容涵盖用户需求挖掘、功能开发方法论、产品市场匹配路径等实战知识。
+[**工程师的产品思维**](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)是PostHog推出的专项简报，致力于帮助工程师提升产品能力。学习如何向用户提问、打造用户喜爱的新功能，以及实现产品市场匹配的路径。
 
-[**免费订阅**](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)即可获取产品构建指南、PostHog团队的一手经验教训，以及对顶尖初创公司策略的深度解析。
+[**免费订阅**](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)获取构建优秀产品的精选建议、PostHog开发中的经验教训，以及对顶级初创公司策略的深度解析。
 
 ---
 
@@ -47,35 +47,35 @@ import Support from "../_support.mdx";
 
 🐦 [Vercel将所有边缘渲染回退至Node.js](https://x.com/leeerob/status/1780705942734331983)
 
-Vercel产品副总裁Lee Rob在X平台透露，公司正在"将所有边缘渲染回退至Node.js"。对于Vercel用户（甚至非用户）而言，该公司长期推崇的"边缘"概念包含双重含义：一方面指就近用户地理位置的分布式计算，另一方面特指基于V8而非Node.js的边缘运行时。虽然就近计算的概念颇具吸引力，但当数据仍需从中心节点获取时（多数场景如此），其优势便大打折扣。与此同时，开发团队常需适配边缘运行时有限的API子集。Vercel此番调整意味着，他们认为开发者面临的挑战已超过边缘计算带来的有限收益，因此决定回归集中式Node.js运行时。这种坦诚值得赞赏！欲了解详情，可观看Theo制作的[视频解析](https://youtu.be/lAGE-k1Zfrg?si=5SP4hyoFkixTsh-y)。
+Vercel产品副总裁Lee Rob在X平台解释，公司正在"将所有边缘渲染回退至Node.js"。如果你使用Vercel（甚至可能未使用），会注意到Vercel长期推崇"边缘"概念。一方面，边缘计算意味着在靠近访问Vercel托管网站用户的位置运行计算；另一方面，这也意味着计算运行在基于V8而非Node.js的"边缘运行时"上。虽然就近运行计算的概念很吸引人，但当数据需要从中心位置加载时（这种情况很常见），优势就迅速消失。同时，开发团队常常难以将工作负载适配到边缘运行时有限的API子集。现在Vercel似乎得出结论：对开发者而言，挑战超过了有限的好处，因此决定回归集中式Node.js运行时。我欣赏他们在这件事上的透明度！若需更多细节，Theo制作了相关[视频](https://youtu.be/lAGE-k1Zfrg?si=5SP4hyoFkixTsh-y)。
 
 ---
 
-- 💸 [Clerk的预制UI组件助您快速实现美观、功能完备的用户管理系统。立即免费试用！](https://go.clerk.com/AlkHHq8)
-- 👀 [React核心PR - React 19将不再修补fetch()！](https://github.com/facebook/react/pull/28896)：React核心中颇具争议的`fetch()`补丁（用于RSC中请求去重）现已被移除。您可能认为这是件好事，但请注意现在需要手动通过`React.cache`实现请求去重。
-- 👀 [React核心PR - 生产环境构建不再压缩符号名](https://github.com/facebook/react/pull/28881)：React 19的生产构建将保留变量/函数名称，更便于阅读调试。您仍可自行压缩代码，但HTTP gzip压缩应足以抵消增加的体积。
+- 💸 [Clerk的预制UI组件助您快速实现美观且功能完备的用户管理系统。立即免费试用！](https://go.clerk.com/AlkHHq8)
+- 👀 [React核心PR - React 19将不再修补fetch()！](https://github.com/facebook/react/pull/28896)：颇具争议的RSC请求去重`fetch()`补丁已从React核心移除。您可能认为这是件好事，但请注意现在需要手动通过`React.cache`实现请求去重。
+- 👀 [React核心PR - 生产环境构建不再压缩符号名](https://github.com/facebook/react/pull/28881)：React 19生产构建将保留变量/函数名称，更便于调试。您仍可自行压缩代码，但HTTP gzip压缩应足以抵消增加的体积。
 - 👀 [React文档PR - 新增ref清理函数文档](https://github.com/reactjs/react.dev/pull/6770)：React 19的ref函数现在可返回清理函数（🐦 [预览](https://twitter.com/sebastienlorber/status/1783108366459375675)）。该特性也有助于使用字符串ref（v19已移除）和类组件的用户通过自动化代码迁移工具升级。
 - 👀 [Remix概念验证 - Remix + Hono + Vite](https://github.com/yusukebe/hono-and-remix-on-vite)
-- 🗓 [React峰会](https://reactsummit.com/?utm_source=thisweekinreact) - 🇳🇱 阿姆斯特丹 - 6月14-18日 - 使用代码"TWIR"可享9折。演讲阵容包括Evan Bacon、Kent C. Dodds、Theo、Tim Neutkens、Mark Erikson、Fred Schott等大咖！
-- 📜 [HTML属性与DOM属性的区别](https://jakearchibald.com/2024/attributes-vs-properties/)：深入解析DOM的微妙行为与设计决策，包括React/Vue等框架如何处理差异。同时阐释React 19将如何改进对Web组件的支持。
-- 📜 [Redwood - 使用RSC构建新文档站点](https://redwoodjs.com/blog/building-a-new-docs-site-with-rsc)：Redwood通过基于MDX和RSC构建文档站点的实践来验证自身框架。
+- 🗓 [React峰会](https://reactsummit.com/?utm_source=thisweekinreact) - 🇳🇱 阿姆斯特丹 - 6月14-18日 - 使用代码"TWIR"享9折。豪华阵容包括Evan Bacon、Kent C. Dodds、Theo、Tim Neutkens、Mark Erikson、Fred Schott等大咖！
+- 📜 [HTML属性与DOM属性详解](https://jakearchibald.com/2024/attributes-vs-properties/)：深入解析DOM的微妙行为与设计决策，包括React/Vue等框架的处理差异。同时阐述React 19对Web Components的改进支持。
+- 📜 [Redwood - 使用RSC构建全新文档站点](https://redwoodjs.com/blog/building-a-new-docs-site-with-rsc)：Redwood通过基于MDX和RSC构建文档站点的实践来验证自身框架。
 - 📜 [将Remix应用部署至Cloudflare Pages](https://www.jacobparis.com/content/remix-cloudflare-pages)：近期Remix在CF Pages的部署方式有重大改进，本文是最佳实践指南。
-- 📜 [优化React与Next.js的INP指标](https://www.thisdot.co/blog/improving-inp-in-react-and-next-js)：交互到下次绘制(INP)已取代首次输入延迟(FID)成为核心网页指标，本文详述优化策略。
-- 📜 [信号机制登陆React了吗？](https://thenewstack.io/did-signals-just-land-in-react/)：剧透警告：并没有。但仍可尝试在React中使用信号。
+- 📜 [React与Next.js的INP优化指南](https://www.thisdot.co/blog/improving-inp-in-react-and-next-js)：交互到下次绘制(INP)已取代首次输入延迟(FID)成为核心Web指标，本文详述优化策略。
+- 📜 [Signals特性真的登陆React了吗？](https://thenewstack.io/did-signals-just-land-in-react/)：剧透预警：并没有。但仍有方式在React中尝试signals。
 - 📜 [Vercel - 使用React Three Fiber构建3D交互式活动徽章](https://vercel.com/blog/building-an-interactive-3d-event-badge-with-react-three-fiber)
 - 📜 [在Next.js服务端组件中获取当前URL](https://www.propelauth.com/post/getting-url-in-next-server-components)
-- 📜 [React应用集成AWS Cognito认证实践](https://evilmartians.com/chronicles/how-to-manifest-streamlined-authentication-aws-cognito-in-a-react-app)
+- 📜 [React应用集成AWS Cognito身份验证实战](https://evilmartians.com/chronicles/how-to-manifest-streamlined-authentication-aws-cognito-in-a-react-app)
 - 📜 [Remix中实现SEO友好的本地化链接标签](https://react-japan.dev/en/blog/localized-link-tags-for-seo-in-remix)
-- 📜 [Solid如何让我成为更好的React开发者](https://www.brenelz.com/posts/how-solid-made-me-a-better-react-developer/)
-- 📜 [Next.js与RSC性能优化案例研究](https://geekyants.com/blog/boosting-performance-with-nextjs-and-react-server-components-a-geekyantscom-case-study)
+- 📜 [Solid如何让我成为更优秀的React开发者](https://www.brenelz.com/posts/how-solid-made-me-a-better-react-developer/)
+- 📜 [Next.js与RSC性能优化实践 - GeekyAnts案例研究](https://geekyants.com/blog/boosting-performance-with-nextjs-and-react-server-components-a-geekyantscom-case-study)
 - 📜 [使用Jotai简化React全局状态管理](https://thenewstack.io/how-to-simplify-global-state-management-in-react-using-jotai/)
 - 📦 [Remix 2.9 - 实验性Single Fetch功能](https://github.com/remix-run/remix/blob/main/CHANGELOG.md)
-- 📦 [StyleX 0.6.1 - 类型变量、回退值、ESLint插件](https://stylexjs.com/blog/v0.6.1)
-- 📦 [Hydrogen 2024四月更新 - 分析预览、稳定版Vite支持、SEO优化、全页缓存](https://hydrogen.shopify.dev/update/april-2024)
-- 📦 [Zustand-Slices - 将多个slice组合为单一store](https://github.com/zustandjs/zustand-slices)
-- 📦 [Spoiled - 逼真的剧透遮蔽React组件](https://github.com/molefrog/spoiled)
+- 📦 [StyleX 0.6.1 - 类型化变量、回退值、ESLint插件](https://stylexjs.com/blog/v0.6.1)
+- 📦 [Hydrogen 2024四月更新 - 分析功能预览、稳定版Vite支持、SEO优化、整页缓存](https://hydrogen.shopify.dev/update/april-2024)
+- 📦 [Zustand-Slices - 将多个slice合并为单一store](https://github.com/zustandjs/zustand-slices)
+- 📦 [Spoiled - 逼真的剧透遮罩React组件](https://github.com/molefrog/spoiled)
 - 🎙️ [Off The Main Thread播客：将React放入浏览器](https://offthemainthread.tech/episode/putting-react-in-the-browser/)
-- 🎥 [Jack Herrington - 在React和Svelte中使用原生JS信号！](https://www.youtube.com/watch?v=HSVcZa5yTKE)
+- 🎥 [Jack Herrington - 在React和Svelte中使用JS原生Signals！](https://www.youtube.com/watch?v=HSVcZa5yTKE)
 - 🎥 [Ben Holmes - Vercel的决策失误](https://www.youtube.com/watch?v=_dtyYDwHAIc)：Ben Holmes对"边缘计算"话题的独到见解，详解Cloudflare的解决方案。
 
 <SubscribeFormEmbed placement="middle" />
@@ -84,20 +84,20 @@ Vercel产品副总裁Lee Rob在X平台透露，公司正在"将所有边缘渲�
 
 ## 💸 赞助商 {#sponsor2}
 
-[![NLUX ― 简化AI功能集成的新React库](/emails/issues/183/nlux.jpg)](https://nlux.dev/?c-twr2-h)
+[![NLUX ― 全新React库简化AI功能集成](/emails/issues/183/nlux.jpg)](https://nlux.dev/?c-twr2-h)
 
-**[NLUX ― 简化AI功能集成的新React库](https://nlux.dev/?c-twr2-h)**
+**[NLUX ― 全新React库简化AI功能集成](https://nlux.dev/?c-twr2-h)**
 
-[NLUX](https://nlux.dev?c-twr2-p1) 是一个[开源](https://github.com/nluxai/nlux)的React库，它能极其简单地让你将强大的大语言模型（如ChatGPT）集成到你的Web应用或网站中。只需几行代码，即可添加对话式AI功能。
+[NLUX](https://nlux.dev?c-twr2-p1) 是一个[开源](https://github.com/nluxai/nlux)的React库，它能极简地将ChatGPT等强大语言模型(LLM)集成到您的Web应用或网站中。仅需几行代码，即可添加对话式AI功能。
 
 核心特性 🌟 包括：
 
-- **几分钟内构建AI聊天界面** - 用少量代码即可创建高质量的对话式AI界面。
-- **React组件与钩子** - 提供`<AiChat />`组件用于UI，以及`useChatAdapter`钩子便于集成。
-- **灵活的适配器** - 支持`ChatGPT`、`LangChain`和`HuggingFace`，并提供API以**为任何后端创建自定义适配器**。
-- **优化UI状态与AI后端的同步**。
-- **Markdown流式渲染** - 在生成时即时渲染LLM的Markdown内容。
-- **零依赖** - 轻量级代码库。
+- **分钟级构建AI聊天界面** - 通过少量代码创建高质量的对话式AI界面
+- **React组件与钩子** - 提供`<AiChat />`组件和`useChatAdapter`钩子便于集成
+- **灵活适配器** - 支持`ChatGPT`、`LangChain`和`HuggingFace`，并提供API可**为任意后端创建自定义适配器**
+- **UI状态与AI后端优化同步**
+- **Markdown流式渲染** - 实时呈现LLM生成的Markdown
+- **零依赖** - 轻量级代码库
 
 更多信息、示例和文档请访问 [nlux.dev](https://nlux.dev?c-twr2-p1)
 
@@ -109,31 +109,31 @@ Vercel产品副总裁Lee Rob在X平台透露，公司正在"将所有边缘渲�
 
 📦 [React Native 0.74发布](https://reactnative.dev/blog/2024/04/22/release-0.74)
 
-本周React Native 0.74正式发布，这是社区的一个重要里程碑！最新版本在新架构项目中默认启用“无桥接模式”（在下一个版本0.75中，新架构也将成为默认选项）。两者仍可手动关闭，但它们显然代表了React Native的未来方向。过去几个月，尤其是有大量库已添加了对两者的支持。此外，RN 0.74还包含了Yoga 3.0。虽然破坏性变更和废弃项极少，但仍建议查阅[发布说明](https://reactnative.dev/blog/2024/04/22/release-0.74)了解详情。
+本周React Native 0.74正式发布，这是社区的重要里程碑！新版在新架构项目中默认启用"无桥模式"(bridgeless mode)，下个版本0.75还将默认启用新架构(New Arch)。两者仍可手动关闭，但它们显然代表着React Native的未来方向。过去几个月大量库已添加对两者的支持。此外，RN 0.74还包含Yoga 3.0，破坏性变更极少，但仍建议查阅[发布说明](https://reactnative.dev/blog/2024/04/22/release-0.74)了解详情。
 
 📦 [React Native IDE进入测试阶段](https://ide.swmansion.com/)
 
-本周另一激动人心的消息是Software Mansion团队开发的React Native IDE开始封闭测试。现在可以报名获取早期访问资格。他们还上线了产品页面，并公开了[文档](https://ide.swmansion.com/docs/getting-started)，供好奇者查阅。
+另一激动人心的消息是Software Mansion团队开发的React Native IDE已启动封闭测试。现可申请获取早期访问资格。[文档](https://ide.swmansion.com/docs/getting-started)已公开，供开发者了解其功能特性。
 
 ---
 
-- 💸 [React Native 分析工具 —— Omlet 全新上线，助您追踪组件使用趋势，优化代码并提升组件采用率。](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-rn-ql-apr-2024)
-- 🐦 [即将推出的 React Native IDE 支持右键检查组件层级并跳转源码？](https://x.com/kzzzf/status/1781334337960493100)
-- 🐦 [Evan Bacon 再放大招：预编译版 React Native 横空出世](https://x.com/Baconbrix/status/1782454818851663918)
-- 🗓 [App.js 开发者大会](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 克拉科夫 - 5月22-24日。使用优惠码 "TWIR" 可享[9折早鸟票](https://ti.to/appjs/2024/discount/TWIR)。
-- 📜 [Expensify 新应用中冉冉升起的新架构](https://blog.swmansion.com/sunrising-new-architecture-in-the-new-expensify-app-729d237a02f5)：开源复杂应用迁移新架构的绝佳范例！
-- 📜 [React Native 的苹果隐私清单实践指南](https://dev.to/dannyhw/apple-privacy-manifest-for-react-native-29fk)：终于有文章系统梳理了苹果隐私清单的合规要求。
-- 📜 [Expo 博客：用 expo-quick-actions 防止用户误删应用](https://expo.dev/blog/expo-quick-actions)
+- 💸 [React Native 分析工具 — Omlet 全新上线，助您追踪组件使用趋势，优化代码并提升组件采用率。](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-rn-ql-apr-2024)
+- 🐦 [即将推出的 React Native IDE 支持右键审查组件层级并跳转至源码？](https://x.com/kzzzf/status/1781334337960493100)
+- 🐦 [Evan Bacon 再放大招：预编译版 React Native 来袭](https://x.com/Baconbrix/status/1782454818851663918)
+- 🗓 [App.js Conf](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 克拉科夫 - 5月22-24日。使用优惠码 "TWIR" 可享[9折早鸟票](https://ti.to/appjs/2024/discount/TWIR)。
+- 📜 [新架构在新版 Expensify 应用中的曙光](https://blog.swmansion.com/sunrising-new-architecture-in-the-new-expensify-app-729d237a02f5)：开源复杂应用适配新架构的绝佳范例！
+- 📜 [React Native 的苹果隐私清单指南](https://dev.to/dannyhw/apple-privacy-manifest-for-react-native-29fk)：终于有文章系统梳理苹果隐私清单的合规要求。
+- 📜 [Expo 博客：通过 expo-quick-actions 防止用户误删应用](https://expo.dev/blog/expo-quick-actions)
 - 📜 [手写 SVG 实现 React Native 弧形底部导航栏](https://kyleshevlin.com/react-native-curved-bottom-bar-with-handwritten-svg/)
-- 📜 [基于 React Native 探索 VisionOS 应用开发](https://geekyants.com/blog/exploring-visionos-apps-with-react-native)
-- 📜 [微软即将停用 App Center：React Native 开发者的替代方案指南](https://shift.infinite.red/microsoft-is-retiring-app-center-heres-what-react-native-developers-should-use-instead-c2a8786f971e)
-- 📦 [React Native VisionCamera V4 发布：支持 Skia 直接绘制相机帧，修复大量 Android 问题](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v4.0.0)：附赠超酷的[人脸模糊演示应用](https://github.com/mrousavy/FaceBlurApp)！
+- 📜 [用 React Native 探索 VisionOS 应用开发](https://geekyants.com/blog/exploring-visionos-apps-with-react-native)
+- 📜 [微软将停用 App Center：React Native 开发者的替代方案指南](https://shift.infinite.red/microsoft-is-retiring-app-center-heres-what-react-native-developers-should-use-instead-c2a8786f971e)
+- 📦 [React Native VisionCamera V4 发布：支持 Skia 直接绘制相机帧画面，修复大量 Android 问题](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v4.0.0)：附赠超酷的[人脸模糊演示应用](https://github.com/mrousavy/FaceBlurApp)！
 - 📦 [react-native-svg 15.2.0 新增对 RN 0.74 新架构的支持](https://github.com/software-mansion/react-native-svg/releases/tag/v15.2.0)
 - 🎙️ [RNR 第294期 - 别了，App Center！](https://reactnativeradio.com/episodes/rnr-294-rip-app-center-and-other-news)
-- 🎙 [火箭飞船第39期 - 获奖信用卡应用 Yonder 开发幕后 with Henry Moulton](https://podcast.galaxies.dev/episodes/039-award-winning-credit-card-app-yonder-with-henry-moulton)
-- 🎥 [React Native Show 播客：咖啡时间第18期 - React Native 0.74 发布背后的故事](https://www.youtube.com/watch?v=bLHubdUE2Ew)
-- 🎥 [Simon Grimm - 基于 Supabase 实时数据库和 Skia 实现 React Native 多人游戏](https://www.youtube.com/watch?v=rqbu-nGkOgw)
-- 🎥 [Oscar Franco - 小白也能懂的 React Native 无桥接模式](https://www.youtube.com/watch?v=K5HBIKAjZ4U)
+- 🎙 [火箭飞船第39期 - 获奖信用卡应用 Yonder 开发幕后](https://podcast.galaxies.dev/episodes/039-award-winning-credit-card-app-yonder-with-henry-moulton)
+- 🎥 [React Native Show 播客：咖啡时间第18期 - React Native 0.74 发布幕后故事](https://www.youtube.com/watch?v=bLHubdUE2Ew)
+- 🎥 [Simon Grimm - 基于 Supabase 实时数据库与 Skia 的 React Native 多人游戏开发](https://www.youtube.com/watch?v=rqbu-nGkOgw)
+- 🎥 [Oscar Franco - 小白也能懂的 React Native 无桥接模式解析](https://www.youtube.com/watch?v=K5HBIKAjZ4U)
 
 ---
 
@@ -141,13 +141,13 @@ Vercel产品副总裁Lee Rob在X平台透露，公司正在"将所有边缘渲�
 
 - 🐦 [Fetch API 现已原生支持超时设置](https://x.com/goenning/status/1781290404211814903)
 - 📜 [信号中继机制深度解析](https://www.pzuraq.com/blog/on-signal-relays)
-- 📜 [WebKit 团队邀您参与 CSS Grid 第三级规范（瀑布流布局）设计](https://webkit.org/blog/15269/help-us-invent-masonry-layouts-for-css-grid-level-3/)
+- 📜 [WebKit 邀您参与 CSS Grid Level 3（瀑布流布局）标准制定](https://webkit.org/blog/15269/help-us-invent-masonry-layouts-for-css-grid-level-3/)
 - 📜 [JavaScript 开发者必读的 TSConfig 入门指南](https://deno.com/blog/intro-to-tsconfig)
 - 📜 [Vercel - 前端开发者必须掌握的延迟数据指标](https://vercel.com/blog/latency-numbers-every-web-developer-should-know)
-- 📖 [2024前端开发者/工程师手册 —— 现代Web开发权威指南（免费电子书）](https://frontendmasters.com/blog/front-end-developer-handbook-2024/)
-- 📦 [Chrome 125 Beta 发布 - 支持 CSS 锚点定位、CSS 阶梯函数等新特性](https://developer.chrome.com/blog/chrome-125-beta?hl=en)
+- 📖 [2024年前端开发者手册 — 现代 Web 开发指南（免费电子书）](https://frontendmasters.com/blog/front-end-developer-handbook-2024/)
+- 📦 [Chrome 125 Beta 更新 - CSS 锚点定位、阶梯函数等新特性](https://developer.chrome.com/blog/chrome-125-beta?hl=en)
 - 📦 [ESLint v9.1 发布](https://eslint.org/blog/2024/04/eslint-v9.1.0-released/)
-- 📦 [Electron 30.0 正式发布](https://www.electronjs.org/blog/electron-30-0)
+- 📦 [Electron 30.0 发布](https://www.electronjs.org/blog/electron-30-0)
 
 ---
 

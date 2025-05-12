@@ -1,257 +1,341 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/157/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/157/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /157\ntitle: \"This Week In React #157: Concurrent Mode, RSC DevTools Extension, Gatsby, Radix asChild, Suspense, hydration, useMemo, React-Redux, Fresh, TinyBase, Worklets, TFLite, local_modules, Bootsplash...\"\nauthors: [slorber]\ndate: 08-22-2023\n---",
-      "sourceMdx": "---\nslug: /157\ntitle: \"This Week In React #157: Concurrent Mode, RSC DevTools Extension, Gatsby, Radix asChild, Suspense, hydration, useMemo, React-Redux, Fresh, TinyBase, Worklets, TFLite, local_modules, Bootsplash...\"\nauthors: [slorber]\ndate: 08-22-2023\n---"
+      "sourceMdx": "---\nslug: /157\ntitle: \"This Week In React #157: Concurrent Mode, RSC DevTools Extension, Gatsby, Radix asChild, Suspense, hydration, useMemo, React-Redux, Fresh, TinyBase, Worklets, TFLite, local_modules, Bootsplash...\"\nauthors: [slorber]\ndate: 08-22-2023\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "It's been pretty quiet on the React front this week, but we've still got a few nice articles to read.",
-      "sourceMdx": "It's been pretty quiet on the React front this week, but we've still got a few nice articles to read."
+      "sourceMdx": "It's been pretty quiet on the React front this week, but we've still got a few nice articles to read.",
+      "nodeType": "paragraph",
+      "translated_content": "本周React领域相对平静，但我们仍有一些不错的文章值得阅读。"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "On the React-Native side, Marc Rousavy is on fire, publishing a number of packages that seem to herald the imminent arrival of VisionCamera v3.",
-      "sourceMdx": "On the React-Native side, Marc Rousavy is on fire, publishing a number of packages that seem to herald the imminent arrival of VisionCamera v3."
+      "sourceMdx": "On the React-Native side, Marc Rousavy is on fire, publishing a number of packages that seem to herald the imminent arrival of VisionCamera v3.",
+      "nodeType": "paragraph",
+      "translated_content": "在React-Native方面，Marc Rousavy火力全开，发布了多个预示着VisionCamera v3即将到来的包。"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "We should have some nice releases soon, like [🐦 Bun 1.0](https://twitter.com/jarredsumner/status/1693657906917585359), [🐦 Astro 3.0](https://twitter.com/astrodotbuild/status/1693655809711108456) and [🐦 TanStack Router](https://twitter.com/tannerlinsley/status/1691936709498552654).",
-      "sourceMdx": "We should have some nice releases soon, like [🐦 Bun 1.0](https://twitter.com/jarredsumner/status/1693657906917585359), [🐦 Astro 3.0](https://twitter.com/astrodotbuild/status/1693655809711108456) and [🐦 TanStack Router](https://twitter.com/tannerlinsley/status/1691936709498552654)."
+      "sourceMdx": "We should have some nice releases soon, like [🐦 Bun 1.0](https://twitter.com/jarredsumner/status/1693657906917585359), [🐦 Astro 3.0](https://twitter.com/astrodotbuild/status/1693655809711108456) and [🐦 TanStack Router](https://twitter.com/tannerlinsley/status/1691936709498552654).",
+      "nodeType": "paragraph",
+      "translated_content": "我们很快将迎来一些重要发布，比如[🐦 Bun 1.0](https://twitter.com/jarredsumner/status/1693657906917585359)、[🐦 Astro 3.0](https://twitter.com/astrodotbuild/status/1693655809711108456)和[🐦 TanStack Router](https://twitter.com/tannerlinsley/status/1691936709498552654)。"
     },
     {
       "id": "86b54d44",
       "translatable": true,
       "content": "I'm taking a short break next week, so I'll see you on 6 September 👋",
-      "sourceMdx": "I'm taking a short break next week, so I'll see you on 6 September 👋"
+      "sourceMdx": "I'm taking a short break next week, so I'll see you on 6 September 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下周我将短暂休假，我们9月6日再见👋"
     },
     {
       "id": "45c63027",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_45c63027"
     },
     {
       "id": "1acb9a05",
       "translatable": true,
       "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
-      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "nodeType": "paragraph",
+      "translated_content": "**💡 [在Twitter上查看本期简报](https://slo.im/thread) - 可视化格式 🎨**"
     },
     {
       "id": "fb3d50cd",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "0adfe0aa",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_0adfe0aa"
     },
     {
       "id": "1941846d",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_1941846d"
     },
     {
       "id": "a5403c6e",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "d06306f7",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "73ab96a3",
       "translatable": true,
       "content": "[![Frontendmasters](/emails/issues/151/frontendmasters.png)](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email\\&utm_medium=thisweekinreact\\&utm_content=uidev)",
-      "sourceMdx": "[![Frontendmasters](/emails/issues/151/frontendmasters.png)](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email&utm_medium=thisweekinreact&utm_content=uidev)"
+      "sourceMdx": "[![Frontendmasters](/emails/issues/151/frontendmasters.png)](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email&utm_medium=thisweekinreact&utm_content=uidev)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Frontendmasters](/emails/issues/151/frontendmasters.png)](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email&utm_medium=thisweekinreact&utm_content=uidev)"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "**[Enterprise UI Development (With React): Testing & Code Quality](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email\\&utm_medium=thisweekinreact\\&utm_content=uidev)**",
-      "sourceMdx": "**[Enterprise UI Development (With React): Testing & Code Quality](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email&utm_medium=thisweekinreact&utm_content=uidev)**"
+      "sourceMdx": "**[Enterprise UI Development (With React): Testing & Code Quality](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email&utm_medium=thisweekinreact&utm_content=uidev)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[企业级UI开发(React版)：测试与代码质量](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email&utm_medium=thisweekinreact&utm_content=uidev)**"
     },
     {
       "id": "517051a7",
       "translatable": true,
       "content": "Managing or migrating large apps and codebases? This video course covers what you need to know to scale efficiently whilst maintaining code quality. Covers unit testing, CI pipelines, mocking, code coverage, and more.",
-      "sourceMdx": "Managing or migrating large apps and codebases? This video course covers what you need to know to scale efficiently whilst maintaining code quality. Covers unit testing, CI pipelines, mocking, code coverage, and more."
+      "sourceMdx": "Managing or migrating large apps and codebases? This video course covers what you need to know to scale efficiently whilst maintaining code quality. Covers unit testing, CI pipelines, mocking, code coverage, and more.",
+      "nodeType": "paragraph",
+      "translated_content": "正在管理或迁移大型应用和代码库？本视频课程涵盖高效扩展同时保持代码质量所需的知识，包括单元测试、CI流水线、模拟测试、代码覆盖率等内容。"
     },
     {
       "id": "91afe33f",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "782c902a",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React {#react}"
     },
     {
       "id": "50746522",
       "translatable": true,
       "content": "[![The underlying mechanisms of React’s concurrent mode](/emails/issues/157/concurrentmode.jpg)](https://andreigatej.dev/blog/the-underlying-mechanisms-of-reacts-concurrent-mode/)",
-      "sourceMdx": "[![The underlying mechanisms of React’s concurrent mode](/emails/issues/157/concurrentmode.jpg)](https://andreigatej.dev/blog/the-underlying-mechanisms-of-reacts-concurrent-mode/)"
+      "sourceMdx": "[![The underlying mechanisms of React’s concurrent mode](/emails/issues/157/concurrentmode.jpg)](https://andreigatej.dev/blog/the-underlying-mechanisms-of-reacts-concurrent-mode/)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React并发模式的底层机制](/emails/issues/157/concurrentmode.jpg)](https://andreigatej.dev/blog/the-underlying-mechanisms-of-reacts-concurrent-mode/)"
     },
     {
       "id": "95e9ba12",
       "translatable": true,
       "content": "[**The underlying mechanisms of React’s concurrent mode**](https://andreigatej.dev/blog/the-underlying-mechanisms-of-reacts-concurrent-mode/)",
-      "sourceMdx": "[**The underlying mechanisms of React’s concurrent mode**](https://andreigatej.dev/blog/the-underlying-mechanisms-of-reacts-concurrent-mode/)"
+      "sourceMdx": "[**The underlying mechanisms of React’s concurrent mode**](https://andreigatej.dev/blog/the-underlying-mechanisms-of-reacts-concurrent-mode/)",
+      "nodeType": "paragraph",
+      "translated_content": "[**React并发模式的底层机制**](https://andreigatej.dev/blog/the-underlying-mechanisms-of-reacts-concurrent-mode/)"
     },
     {
       "id": "8af76f3d",
       "translatable": true,
       "content": "A quite technical but greatly educational article that study the React codebase. Explains well how `startTransition` works and how it differs from the synchronous rendering mode. I learned how React uses the `MessageChannel` API recursively to periodically hand over to the main thread.",
-      "sourceMdx": "A quite technical but greatly educational article that study the React codebase. Explains well how `startTransition` works and how it differs from the synchronous rendering mode. I learned how React uses the `MessageChannel` API recursively to periodically hand over to the main thread."
+      "sourceMdx": "A quite technical but greatly educational article that study the React codebase. Explains well how `startTransition` works and how it differs from the synchronous rendering mode. I learned how React uses the `MessageChannel` API recursively to periodically hand over to the main thread.",
+      "nodeType": "paragraph",
+      "translated_content": "一篇技术性较强但极具教育意义的文章，深入研究了React代码库。详细解释了`startTransition`的工作原理及其与同步渲染模式的区别。我了解到React如何递归使用`MessageChannel` API来周期性地交还主线程控制权。"
     },
     {
       "id": "406f2538",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "40251870",
       "translatable": true,
       "content": "* 💸 [Zero To Shipped - Master Fast-Paced Fullstack Development and **Finally** ship that product](https://www.zerotoshipped.com/)\n* 🐦 [Is Gatsby Dead?](https://twitter.com/sebastienlorber/status/1694392101281190224): not officially, but its future does not look super promising.\n* 🎮 [React Jam - Summer 2023 Winners](https://reactjam.com/summer-2023-winners): the React-based video games creation challenge for which I was a member of the jury, just announced the winners.\n* 📜 [Implement Radix's asChild pattern in React](https://www.jacobparis.com/content/react-as-child): explains how the `asChild` pattern, popularised by Radix, works as a good alternative to the `as` props for customising the underlying component.\n* 📜 [A11y-Driven Development](https://www.simplethread.com/a11y-driven-development/): interesting proposal to split and name React components according to their accessibility role.\n* 📜 [React Suspense in three different architectures](https://elanmed.dev/blog/suspense-in-different-architectures): presents 4 different `<Suspense>` use cases for 3 different architectures (CSR, SSR, RSC).\n* 📜 [How to solve hydration error in Next.js](https://chirag-gupta.hashnode.dev/how-to-solve-hydration-error-in-nextjs): highlights some common problems that can lead to hydration problems, such as using browser APIs like `localStorage` to initialise your state, or using an invalid HTML markup.\n* 📜 [Using PostHog with the Next.js App Router and Vercel](https://vercel.com/guides/posthog-nextjs-vercel-feature-flags-analytics)\n* 📜 [useMemo overdose](https://edvins.io/usememo-overdose)\n* 📦 [RSC Devtools - Chrome Extension](https://chrome.google.com/webstore/detail/rsc-devtools/jcejahepddjnppkhomnidalpnnnemomn): the unofficial extension is now available in the Chrome store. It lets you navigate and analyse a timeline of RSC payloads over time. Read the article [Devtools for React Server Components](https://www.alvar.dev/blog/creating-devtools-for-react-server-components) for details.\n* 📦 [Fresh 1.4 – Faster Page Loads, Layouts and More](https://deno.com/blog/fresh-1.4)\n* 📦 [TinyBase 4.1 - New ui-react-dom module](https://tinybase.org/guides/releases/)\n* 📦 [NextUI 2.1 - Select, Listbox, ScrollShadow](https://nextui.org/blog/v2.1.0)\n* 📦 [React-Redux 9.0 alpha](https://github.com/reduxjs/react-redux/releases/tag/v9.0.0-alpha.0)\n* 🎥 [tRPC + NextJS App Router = Simple Typesafe APIs](https://www.youtube.com/watch?v=qCLV0Iaq9zU)\n* 🎥 [Remotion Lambda - Tutorial Playlist](https://www.youtube.com/playlist?list=PLRHdymbhXiIRgAeAUpMxe7l7BNliHfWUq)\n* 🎥 [React Query is Secretly an Amazing State Manager](https://www.youtube.com/watch?v=0X3TlVklT-A)",
-      "sourceMdx": "- 💸 [Zero To Shipped - Master Fast-Paced Fullstack Development and **Finally** ship that product](https://www.zerotoshipped.com/)\n- 🐦 [Is Gatsby Dead?](https://twitter.com/sebastienlorber/status/1694392101281190224): not officially, but its future does not look super promising.\n- 🎮 [React Jam - Summer 2023 Winners](https://reactjam.com/summer-2023-winners): the React-based video games creation challenge for which I was a member of the jury, just announced the winners.\n- 📜 [Implement Radix's asChild pattern in React](https://www.jacobparis.com/content/react-as-child): explains how the `asChild` pattern, popularised by Radix, works as a good alternative to the `as` props for customising the underlying component.\n- 📜 [A11y-Driven Development](https://www.simplethread.com/a11y-driven-development/): interesting proposal to split and name React components according to their accessibility role.\n- 📜 [React Suspense in three different architectures](https://elanmed.dev/blog/suspense-in-different-architectures): presents 4 different `<Suspense>` use cases for 3 different architectures (CSR, SSR, RSC).\n- 📜 [How to solve hydration error in Next.js](https://chirag-gupta.hashnode.dev/how-to-solve-hydration-error-in-nextjs): highlights some common problems that can lead to hydration problems, such as using browser APIs like `localStorage` to initialise your state, or using an invalid HTML markup.\n- 📜 [Using PostHog with the Next.js App Router and Vercel](https://vercel.com/guides/posthog-nextjs-vercel-feature-flags-analytics)\n- 📜 [useMemo overdose](https://edvins.io/usememo-overdose)\n- 📦 [RSC Devtools - Chrome Extension](https://chrome.google.com/webstore/detail/rsc-devtools/jcejahepddjnppkhomnidalpnnnemomn): the unofficial extension is now available in the Chrome store. It lets you navigate and analyse a timeline of RSC payloads over time. Read the article [Devtools for React Server Components](https://www.alvar.dev/blog/creating-devtools-for-react-server-components) for details.\n- 📦 [Fresh 1.4 – Faster Page Loads, Layouts and More](https://deno.com/blog/fresh-1.4)\n- 📦 [TinyBase 4.1 - New ui-react-dom module](https://tinybase.org/guides/releases/)\n- 📦 [NextUI 2.1 - Select, Listbox, ScrollShadow](https://nextui.org/blog/v2.1.0)\n- 📦 [React-Redux 9.0 alpha](https://github.com/reduxjs/react-redux/releases/tag/v9.0.0-alpha.0)\n- 🎥 [tRPC + NextJS App Router = Simple Typesafe APIs](https://www.youtube.com/watch?v=qCLV0Iaq9zU)\n- 🎥 [Remotion Lambda - Tutorial Playlist](https://www.youtube.com/playlist?list=PLRHdymbhXiIRgAeAUpMxe7l7BNliHfWUq)\n- 🎥 [React Query is Secretly an Amazing State Manager](https://www.youtube.com/watch?v=0X3TlVklT-A)"
+      "sourceMdx": "- 💸 [Zero To Shipped - Master Fast-Paced Fullstack Development and **Finally** ship that product](https://www.zerotoshipped.com/)\n- 🐦 [Is Gatsby Dead?](https://twitter.com/sebastienlorber/status/1694392101281190224): not officially, but its future does not look super promising.\n- 🎮 [React Jam - Summer 2023 Winners](https://reactjam.com/summer-2023-winners): the React-based video games creation challenge for which I was a member of the jury, just announced the winners.\n- 📜 [Implement Radix's asChild pattern in React](https://www.jacobparis.com/content/react-as-child): explains how the `asChild` pattern, popularised by Radix, works as a good alternative to the `as` props for customising the underlying component.\n- 📜 [A11y-Driven Development](https://www.simplethread.com/a11y-driven-development/): interesting proposal to split and name React components according to their accessibility role.\n- 📜 [React Suspense in three different architectures](https://elanmed.dev/blog/suspense-in-different-architectures): presents 4 different `<Suspense>` use cases for 3 different architectures (CSR, SSR, RSC).\n- 📜 [How to solve hydration error in Next.js](https://chirag-gupta.hashnode.dev/how-to-solve-hydration-error-in-nextjs): highlights some common problems that can lead to hydration problems, such as using browser APIs like `localStorage` to initialise your state, or using an invalid HTML markup.\n- 📜 [Using PostHog with the Next.js App Router and Vercel](https://vercel.com/guides/posthog-nextjs-vercel-feature-flags-analytics)\n- 📜 [useMemo overdose](https://edvins.io/usememo-overdose)\n- 📦 [RSC Devtools - Chrome Extension](https://chrome.google.com/webstore/detail/rsc-devtools/jcejahepddjnppkhomnidalpnnnemomn): the unofficial extension is now available in the Chrome store. It lets you navigate and analyse a timeline of RSC payloads over time. Read the article [Devtools for React Server Components](https://www.alvar.dev/blog/creating-devtools-for-react-server-components) for details.\n- 📦 [Fresh 1.4 – Faster Page Loads, Layouts and More](https://deno.com/blog/fresh-1.4)\n- 📦 [TinyBase 4.1 - New ui-react-dom module](https://tinybase.org/guides/releases/)\n- 📦 [NextUI 2.1 - Select, Listbox, ScrollShadow](https://nextui.org/blog/v2.1.0)\n- 📦 [React-Redux 9.0 alpha](https://github.com/reduxjs/react-redux/releases/tag/v9.0.0-alpha.0)\n- 🎥 [tRPC + NextJS App Router = Simple Typesafe APIs](https://www.youtube.com/watch?v=qCLV0Iaq9zU)\n- 🎥 [Remotion Lambda - Tutorial Playlist](https://www.youtube.com/playlist?list=PLRHdymbhXiIRgAeAUpMxe7l7BNliHfWUq)\n- 🎥 [React Query is Secretly an Amazing State Manager](https://www.youtube.com/watch?v=0X3TlVklT-A)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [从零到上线 - 掌握快节奏全栈开发并**最终**发布你的产品](https://www.zerotoshipped.com/)\n- 🐦 [Gatsby已死？](https://twitter.com/sebastienlorber/status/1694392101281190224)：官方尚未宣布，但其前景并不乐观。\n- 🎮 [React Jam - 2023夏季赛获奖名单](https://reactjam.com/summer-2023-winners)：这场由我担任评委的基于React的游戏开发挑战赛刚刚公布了获奖作品。\n- 📜 [在React中实现Radix的asChild模式](https://www.jacobparis.com/content/react-as-child)：解释了Radix推广的`asChild`模式如何作为`as`属性的替代方案，用于自定义底层组件。\n- 📜 [无障碍驱动开发](https://www.simplethread.com/a11y-driven-development/)：一个有趣的提案，建议根据可访问性角色来拆分和命名React组件。\n- 📜 [三种不同架构中的React Suspense](https://elanmed.dev/blog/suspense-in-different-architectures)：展示了在CSR、SSR和RSC三种架构中四种不同的`<Suspense>`使用场景。\n- 📜 [如何解决Next.js中的水合错误](https://chirag-gupta.hashnode.dev/how-to-solve-hydration-error-in-nextjs)：指出了一些可能导致水合问题的常见问题，例如使用`localStorage`等浏览器API初始化状态，或使用无效的HTML标记。\n- 📜 [在Next.js App Router和Vercel中使用PostHog](https://vercel.com/guides/posthog-nextjs-vercel-feature-flags-analytics)\n- 📜 [useMemo滥用](https://edvins.io/usememo-overdose)\n- 📦 [RSC开发者工具 - Chrome扩展](https://chrome.google.com/webstore/detail/rsc-devtools/jcejahepddjnppkhomnidalpnnnemomn)：这款非官方扩展现已登陆Chrome商店，可让你浏览和分析RSC负载的时间线。详情请阅读文章[React服务器组件的开发者工具](https://www.alvar.dev/blog/creating-devtools-for-react-server-components)。\n- 📦 [Fresh 1.4 – 更快的页面加载、布局等](https://deno.com/blog/fresh-1.4)\n- 📦 [TinyBase 4.1 - 新增ui-react-dom模块](https://tinybase.org/guides/releases/)\n- 📦 [NextUI 2.1 - Select、Listbox、ScrollShadow](https://nextui.org/blog/v2.1.0)\n- 📦 [React-Redux 9.0 alpha](https://github.com/reduxjs/react-redux/releases/tag/v9.0.0-alpha.0)\n- 🎥 [tRPC + NextJS App Router = 简单的类型安全API](https://www.youtube.com/watch?v=qCLV0Iaq9zU)\n- 🎥 [Remotion Lambda - 教程系列](https://www.youtube.com/playlist?list=PLRHdymbhXiIRgAeAUpMxe7l7BNliHfWUq)\n- 🎥 [React Query实际上是一个很棒的状态管理器](https://www.youtube.com/watch?v=0X3TlVklT-A)"
     },
     {
       "id": "c537a3d3",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_c537a3d3"
     },
     {
       "id": "a635fada",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "047c2395",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "883231d4",
       "translatable": true,
       "content": "[![Porkbun.com - The Best Domain Name Registrar](/emails/issues/150/porkbun.png)](https://porkbun.com/?coupon=TWIREACT\\&utm_source=TWIREACT\\&utm_medium=Newsletter\\&utm_campaign=twirjune2023)",
-      "sourceMdx": "[![Porkbun.com - The Best Domain Name Registrar](/emails/issues/150/porkbun.png)](https://porkbun.com/?coupon=TWIREACT&utm_source=TWIREACT&utm_medium=Newsletter&utm_campaign=twirjune2023)"
+      "sourceMdx": "[![Porkbun.com - The Best Domain Name Registrar](/emails/issues/150/porkbun.png)](https://porkbun.com/?coupon=TWIREACT&utm_source=TWIREACT&utm_medium=Newsletter&utm_campaign=twirjune2023)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Porkbun.com - 最佳域名注册商](/emails/issues/150/porkbun.png)](https://porkbun.com/?coupon=TWIREACT&utm_source=TWIREACT&utm_medium=Newsletter&utm_campaign=twirjune2023)"
     },
     {
       "id": "6cc549f2",
       "translatable": true,
       "content": "**[Porkbun.com - The Best Domain Name Registrar](https://porkbun.com/?coupon=TWIREACT\\&utm_source=TWIREACT\\&utm_medium=Newsletter\\&utm_campaign=twirjune2023)**",
-      "sourceMdx": "**[Porkbun.com - The Best Domain Name Registrar](https://porkbun.com/?coupon=TWIREACT&utm_source=TWIREACT&utm_medium=Newsletter&utm_campaign=twirjune2023)**"
+      "sourceMdx": "**[Porkbun.com - The Best Domain Name Registrar](https://porkbun.com/?coupon=TWIREACT&utm_source=TWIREACT&utm_medium=Newsletter&utm_campaign=twirjune2023)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Porkbun.com - 最佳域名注册商](https://porkbun.com/?coupon=TWIREACT&utm_source=TWIREACT&utm_medium=Newsletter&utm_campaign=twirjune2023)**"
     },
     {
       "id": "d0dd855b",
       "translatable": true,
       "content": "Porkbun offers hundreds of domain extensions for React and React-Native developers from .dev and .app to .cloud, .xyz, and .ai — all at the **lowest prices around!** Every domain name at Porkbun comes with **tons of free features** like:",
-      "sourceMdx": "Porkbun offers hundreds of domain extensions for React and React-Native developers from .dev and .app to .cloud, .xyz, and .ai — all at the **lowest prices around!** Every domain name at Porkbun comes with **tons of free features** like:"
+      "sourceMdx": "Porkbun offers hundreds of domain extensions for React and React-Native developers from .dev and .app to .cloud, .xyz, and .ai — all at the **lowest prices around!** Every domain name at Porkbun comes with **tons of free features** like:",
+      "nodeType": "paragraph",
+      "translated_content": "Porkbun为React和React-Native开发者提供数百种域名后缀，从.dev和.app到.cloud、.xyz和.ai——**价格均为市场最低！** 在Porkbun注册的每个域名都包含**大量免费功能**，例如："
     },
     {
       "id": "ca1573da",
       "translatable": true,
       "content": "* SSL Certificates\n* WHOIS Privacy\n* DNS\n* URL Forwarding\n* Web and Email Hosting Trials",
-      "sourceMdx": "- SSL Certificates\n- WHOIS Privacy\n- DNS\n- URL Forwarding\n- Web and Email Hosting Trials"
+      "sourceMdx": "- SSL Certificates\n- WHOIS Privacy\n- DNS\n- URL Forwarding\n- Web and Email Hosting Trials",
+      "nodeType": "list",
+      "translated_content": "- SSL证书\n- WHOIS隐私保护\n- DNS服务\n- URL转发\n- 网站和电子邮件托管试用"
     },
     {
       "id": "ec619944",
       "translatable": true,
       "content": "Check out our **AI Generated Search tool** that’s changing the way people look for domain names. All this is backed by **incredible support 365 days a year** plus thousands of real five-star reviews on Trustpilot.",
-      "sourceMdx": "Check out our **AI Generated Search tool** that’s changing the way people look for domain names. All this is backed by **incredible support 365 days a year** plus thousands of real five-star reviews on Trustpilot."
+      "sourceMdx": "Check out our **AI Generated Search tool** that’s changing the way people look for domain names. All this is backed by **incredible support 365 days a year** plus thousands of real five-star reviews on Trustpilot.",
+      "nodeType": "paragraph",
+      "translated_content": "试试我们**AI生成的搜索工具**，它正在改变人们寻找域名的方式。所有这些都得到了**全年365天无休的卓越支持**，以及在Trustpilot上的数千条真实五星好评的背书。"
     },
     {
       "id": "2547a6bb",
       "translatable": true,
       "content": "Click the link and [get $1 off your next domain name registration](https://porkbun.com/?coupon=TWIREACT\\&utm_source=TWIREACT\\&utm_medium=Newsletter\\&utm_campaign=twirjune2023) at Porkbun.com!",
-      "sourceMdx": "Click the link and [get $1 off your next domain name registration](https://porkbun.com/?coupon=TWIREACT&utm_source=TWIREACT&utm_medium=Newsletter&utm_campaign=twirjune2023) at Porkbun.com!"
+      "sourceMdx": "Click the link and [get $1 off your next domain name registration](https://porkbun.com/?coupon=TWIREACT&utm_source=TWIREACT&utm_medium=Newsletter&utm_campaign=twirjune2023) at Porkbun.com!",
+      "nodeType": "paragraph",
+      "translated_content": "点击链接，[在Porkbun.com注册下一个域名可享受1美元优惠](https://porkbun.com/?coupon=TWIREACT&utm_source=TWIREACT&utm_medium=Newsletter&utm_campaign=twirjune2023)！"
     },
     {
       "id": "233bb60e",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "bd30d33e",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "023197ab",
       "translatable": true,
       "content": "* 💬 [React-Native RFC - Autolinking local modules](https://github.com/react-native-community/discussions-and-proposals/pull/702): proposes to make it easier to create local native modules, in a `local_modules` folder, using the `create-react-native-library` CLI.\n* 💬 [React-Native-Testing-Library RFC - Jest Native matchers migration](https://github.com/callstack/react-native-testing-library/issues/1468)\n* 🐦 [The top 100 Sports apps in the Apple App Store - React-Native 33/100](https://twitter.com/Baconbrix/status/1692215896029212847)\n* 👀 [Expo Preview - Static Font Optimization with Expo Router](https://twitter.com/Baconbrix/status/1692990529800167441)\n* 📜 [Simplify Your iOS Brownfield Integration with React Native Host](https://www.callstack.com/blog/simplify-your-ios-brownfield-integration-with-react-native-host)\n* 📦 [react-native-worklets-core](https://github.com/margelo/react-native-worklets-core): a standalone worklet runner, inspired by the one in Reanimated 2+, and designed to be used by various libraries such as VisionCamera, WishList and Skia.\n* 📦 [react-native-fast-tflite - High-performance TensorFlow Lite with GPU acceleration](https://github.com/mrousavy/react-native-fast-tflite)\n* 📦 [Realm JavaScript v12: complete rewrite without surprises](https://medium.com/realm/realm-javascript-v12-complete-rewrite-without-surprises-62eea2a2e8ae)\n* 📦 [react-native-bootsplash 5.0.0 - Dark mode, Brand image, Web support...](https://github.com/zoontek/react-native-bootsplash/releases/tag/5.0.0)\n* 📦 [clean-rn - Clean all React Native caches](https://github.com/mrousavy/clean-rn)\n* 🎥 [Instagram Stickers - “Can it be done in React Native?”](https://www.youtube.com/watch?v=5yM4NPcTwY4)\n* 🎥 [Flutter vs React Native and Reanimated with @Reactiive](https://www.youtube.com/watch?v=A19-UEUrg6A)\n* 🎙️ [React Native Radio 273 - Gluestack with Sanket Sahu](https://react-native-radio.simplecast.com/episodes/rnr-273-gluestack-with-sanket-sahu)\n* 👥 [React Native EU 2023](https://www.react-native.eu/) (Wrocław, September 7–8, 2023) is offering us [-15% on conference tickets](https://ti.to/react-native-eu/2023/discount/thisweekinreact15) with code \"thisweekinreact15\".",
-      "sourceMdx": "- 💬 [React-Native RFC - Autolinking local modules](https://github.com/react-native-community/discussions-and-proposals/pull/702): proposes to make it easier to create local native modules, in a `local_modules` folder, using the `create-react-native-library` CLI.\n- 💬 [React-Native-Testing-Library RFC - Jest Native matchers migration](https://github.com/callstack/react-native-testing-library/issues/1468)\n- 🐦 [The top 100 Sports apps in the Apple App Store - React-Native 33/100](https://twitter.com/Baconbrix/status/1692215896029212847)\n- 👀 [Expo Preview - Static Font Optimization with Expo Router](https://twitter.com/Baconbrix/status/1692990529800167441)\n- 📜 [Simplify Your iOS Brownfield Integration with React Native Host](https://www.callstack.com/blog/simplify-your-ios-brownfield-integration-with-react-native-host)\n- 📦 [react-native-worklets-core](https://github.com/margelo/react-native-worklets-core): a standalone worklet runner, inspired by the one in Reanimated 2+, and designed to be used by various libraries such as VisionCamera, WishList and Skia.\n- 📦 [react-native-fast-tflite - High-performance TensorFlow Lite with GPU acceleration](https://github.com/mrousavy/react-native-fast-tflite)\n- 📦 [Realm JavaScript v12: complete rewrite without surprises](https://medium.com/realm/realm-javascript-v12-complete-rewrite-without-surprises-62eea2a2e8ae)\n- 📦 [react-native-bootsplash 5.0.0 - Dark mode, Brand image, Web support...](https://github.com/zoontek/react-native-bootsplash/releases/tag/5.0.0)\n- 📦 [clean-rn - Clean all React Native caches](https://github.com/mrousavy/clean-rn)\n- 🎥 [Instagram Stickers - “Can it be done in React Native?”](https://www.youtube.com/watch?v=5yM4NPcTwY4)\n- 🎥 [Flutter vs React Native and Reanimated with @Reactiive](https://www.youtube.com/watch?v=A19-UEUrg6A)\n- 🎙️ [React Native Radio 273 - Gluestack with Sanket Sahu](https://react-native-radio.simplecast.com/episodes/rnr-273-gluestack-with-sanket-sahu)\n- 👥 [React Native EU 2023](https://www.react-native.eu/) (Wrocław, September 7–8, 2023) is offering us [-15% on conference tickets](https://ti.to/react-native-eu/2023/discount/thisweekinreact15) with code \"thisweekinreact15\"."
+      "sourceMdx": "- 💬 [React-Native RFC - Autolinking local modules](https://github.com/react-native-community/discussions-and-proposals/pull/702): proposes to make it easier to create local native modules, in a `local_modules` folder, using the `create-react-native-library` CLI.\n- 💬 [React-Native-Testing-Library RFC - Jest Native matchers migration](https://github.com/callstack/react-native-testing-library/issues/1468)\n- 🐦 [The top 100 Sports apps in the Apple App Store - React-Native 33/100](https://twitter.com/Baconbrix/status/1692215896029212847)\n- 👀 [Expo Preview - Static Font Optimization with Expo Router](https://twitter.com/Baconbrix/status/1692990529800167441)\n- 📜 [Simplify Your iOS Brownfield Integration with React Native Host](https://www.callstack.com/blog/simplify-your-ios-brownfield-integration-with-react-native-host)\n- 📦 [react-native-worklets-core](https://github.com/margelo/react-native-worklets-core): a standalone worklet runner, inspired by the one in Reanimated 2+, and designed to be used by various libraries such as VisionCamera, WishList and Skia.\n- 📦 [react-native-fast-tflite - High-performance TensorFlow Lite with GPU acceleration](https://github.com/mrousavy/react-native-fast-tflite)\n- 📦 [Realm JavaScript v12: complete rewrite without surprises](https://medium.com/realm/realm-javascript-v12-complete-rewrite-without-surprises-62eea2a2e8ae)\n- 📦 [react-native-bootsplash 5.0.0 - Dark mode, Brand image, Web support...](https://github.com/zoontek/react-native-bootsplash/releases/tag/5.0.0)\n- 📦 [clean-rn - Clean all React Native caches](https://github.com/mrousavy/clean-rn)\n- 🎥 [Instagram Stickers - “Can it be done in React Native?”](https://www.youtube.com/watch?v=5yM4NPcTwY4)\n- 🎥 [Flutter vs React Native and Reanimated with @Reactiive](https://www.youtube.com/watch?v=A19-UEUrg6A)\n- 🎙️ [React Native Radio 273 - Gluestack with Sanket Sahu](https://react-native-radio.simplecast.com/episodes/rnr-273-gluestack-with-sanket-sahu)\n- 👥 [React Native EU 2023](https://www.react-native.eu/) (Wrocław, September 7–8, 2023) is offering us [-15% on conference tickets](https://ti.to/react-native-eu/2023/discount/thisweekinreact15) with code \"thisweekinreact15\".",
+      "nodeType": "list",
+      "translated_content": "- 💬 [React-Native RFC - 本地模块自动链接](https://github.com/react-native-community/discussions-and-proposals/pull/702)：提议通过`create-react-native-library` CLI在`local_modules`文件夹中更便捷地创建本地原生模块。\n- 💬 [React-Native-Testing-Library RFC - Jest Native匹配器迁移](https://github.com/callstack/react-native-testing-library/issues/1468)\n- 🐦 [苹果应用商店Top 100体育应用 - React-Native占33席](https://twitter.com/Baconbrix/status/1692215896029212847)\n- 👀 [Expo预览 - Expo Router的静态字体优化](https://twitter.com/Baconbrix/status/1692990529800167441)\n- 📜 [通过React Native Host简化iOS棕地集成](https://www.callstack.com/blog/simplify-your-ios-brownfield-integration-with-react-native-host)\n- 📦 [react-native-worklets-core](https://github.com/margelo/react-native-worklets-core)：受Reanimated 2+启发的独立工作线程运行器，可供VisionCamera、WishList和Skia等库使用。\n- 📦 [react-native-fast-tflite - 支持GPU加速的高性能TensorFlow Lite](https://github.com/mrousavy/react-native-fast-tflite)\n- 📦 [Realm JavaScript v12：无痛重写的完整版本](https://medium.com/realm/realm-javascript-v12-complete-rewrite-without-surprises-62eea2a2e8ae)\n- 📦 [react-native-bootsplash 5.0.0 - 深色模式、品牌图片、Web支持...](https://github.com/zoontek/react-native-bootsplash/releases/tag/5.0.0)\n- 📦 [clean-rn - 清除所有React Native缓存](https://github.com/mrousavy/clean-rn)\n- 🎥 [Instagram贴纸 - \"能用React Native实现吗？\"](https://www.youtube.com/watch?v=5yM4NPcTwY4)\n- 🎥 [Flutter vs React Native与Reanimated @Reactiive](https://www.youtube.com/watch?v=A19-UEUrg6A)\n- 🎙️ [React Native Radio第273期 - 与Sanket Sahu探讨Gluestack](https://react-native-radio.simplecast.com/episodes/rnr-273-gluestack-with-sanket-sahu)\n- 👥 [React Native EU 2023](https://www.react-native.eu/)（波兰弗罗茨瓦夫，2023年9月7-8日）使用代码\"thisweekinreact15\"可享[会议门票-15%优惠](https://ti.to/react-native-eu/2023/discount/thisweekinreact15)。"
     },
     {
       "id": "04837130",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "d1f76d04",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他 {#other}"
     },
     {
       "id": "b0465fca",
       "translatable": true,
       "content": "* 👀 [Upcoming Node 20.6 - built-in .env file support](https://github.com/nodejs/node/pull/49185)\n* 🐦 [requestIdleCallback coming to Safari and soon in every browser?](https://twitter.com/sebastienlorber/status/1694260312986227187)\n* 📜 [`Array<T>` vs `T[]`: Which is better?](https://www.totaltypescript.com/array-types-in-typescript)\n* 📜 [Shadow DOM: Not by Default](https://begin.com/blog/posts/2023-08-18-shadow-dom-not-by-default)\n* 📜 [Dropbox - How we reduced the size of our JavaScript bundles by 33%](https://dropbox.tech/frontend/how-we-reduced-the-size-of-our-javascript-bundles-by-33-percent)\n* 📜 [Four new CSS features for smooth entry and exit animations](https://developer.chrome.com/blog/entry-exit-animations/)\n* 📜 [The ideal viewport doesn’t exist](https://viewports.fyi/)\n* 📜 [TypeScript is Surprisingly OK for Compilers](https://matklad.github.io/2023/08/17/typescript-is-surprisingly-ok-for-compilers.html)\n* 📦 [Chrome 117 Beta](https://developer.chrome.com/blog/chrome-117-beta/)",
-      "sourceMdx": "- 👀 [Upcoming Node 20.6 - built-in .env file support](https://github.com/nodejs/node/pull/49185)\n- 🐦 [requestIdleCallback coming to Safari and soon in every browser?](https://twitter.com/sebastienlorber/status/1694260312986227187)\n- 📜 [`Array<T>` vs `T[]`: Which is better?](https://www.totaltypescript.com/array-types-in-typescript)\n- 📜 [Shadow DOM: Not by Default](https://begin.com/blog/posts/2023-08-18-shadow-dom-not-by-default)\n- 📜 [Dropbox - How we reduced the size of our JavaScript bundles by 33%](https://dropbox.tech/frontend/how-we-reduced-the-size-of-our-javascript-bundles-by-33-percent)\n- 📜 [Four new CSS features for smooth entry and exit animations](https://developer.chrome.com/blog/entry-exit-animations/)\n- 📜 [The ideal viewport doesn’t exist](https://viewports.fyi/)\n- 📜 [TypeScript is Surprisingly OK for Compilers](https://matklad.github.io/2023/08/17/typescript-is-surprisingly-ok-for-compilers.html)\n- 📦 [Chrome 117 Beta](https://developer.chrome.com/blog/chrome-117-beta/)"
+      "sourceMdx": "- 👀 [Upcoming Node 20.6 - built-in .env file support](https://github.com/nodejs/node/pull/49185)\n- 🐦 [requestIdleCallback coming to Safari and soon in every browser?](https://twitter.com/sebastienlorber/status/1694260312986227187)\n- 📜 [`Array<T>` vs `T[]`: Which is better?](https://www.totaltypescript.com/array-types-in-typescript)\n- 📜 [Shadow DOM: Not by Default](https://begin.com/blog/posts/2023-08-18-shadow-dom-not-by-default)\n- 📜 [Dropbox - How we reduced the size of our JavaScript bundles by 33%](https://dropbox.tech/frontend/how-we-reduced-the-size-of-our-javascript-bundles-by-33-percent)\n- 📜 [Four new CSS features for smooth entry and exit animations](https://developer.chrome.com/blog/entry-exit-animations/)\n- 📜 [The ideal viewport doesn’t exist](https://viewports.fyi/)\n- 📜 [TypeScript is Surprisingly OK for Compilers](https://matklad.github.io/2023/08/17/typescript-is-surprisingly-ok-for-compilers.html)\n- 📦 [Chrome 117 Beta](https://developer.chrome.com/blog/chrome-117-beta/)",
+      "nodeType": "list",
+      "translated_content": "- 👀 [即将发布的Node 20.6 - 内置.env文件支持](https://github.com/nodejs/node/pull/49185)\n- 🐦 [requestIdleCallback即将登陆Safari并全面普及？](https://twitter.com/sebastienlorber/status/1694260312986227187)\n- 📜 [`Array<T>` vs `T[]`：哪种写法更好？](https://www.totaltypescript.com/array-types-in-typescript)\n- 📜 [Shadow DOM：默认不启用](https://begin.com/blog/posts/2023-08-18-shadow-dom-not-by-default)\n- 📜 [Dropbox - 我们如何将JavaScript包体积减小33%](https://dropbox.tech/frontend/how-we-reduced-the-size-of-our-javascript-bundles-by-33-percent)\n- 📜 [实现流畅入场退场动画的四个新CSS特性](https://developer.chrome.com/blog/entry-exit-animations/)\n- 📜 [理想的视口并不存在](https://viewports.fyi/)\n- 📜 [TypeScript编写编译器出人意料地合适](https://matklad.github.io/2023/08/17/typescript-is-surprisingly-ok-for-compilers.html)\n- 📦 [Chrome 117 Beta版发布](https://developer.chrome.com/blog/chrome-117-beta/)"
     },
     {
       "id": "862bb4be",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "ed644f52",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 趣味 {#fun}"
     },
     {
       "id": "b9331170",
       "translatable": true,
       "content": "[![alt](/emails/issues/157/meme.jpg)](https://twitter.com/BHolmesDev/status/1693624114097909851)",
-      "sourceMdx": "[![alt](/emails/issues/157/meme.jpg)](https://twitter.com/BHolmesDev/status/1693624114097909851)"
+      "sourceMdx": "[![alt](/emails/issues/157/meme.jpg)](https://twitter.com/BHolmesDev/status/1693624114097909851)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/157/meme.jpg)](https://twitter.com/BHolmesDev/status/1693624114097909851)"
     },
     {
       "id": "8fcdd6d4",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下期见！👋"
     }
   ]
 }

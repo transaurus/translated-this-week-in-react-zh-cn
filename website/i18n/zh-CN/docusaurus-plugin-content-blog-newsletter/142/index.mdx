@@ -7,15 +7,15 @@ date: 04-18-2023
 
 大家好！
 
-本周，TypeScript 5.1 发布了测试版，带来了许多与 JSX 和 React 相关的改进！
+本周，TypeScript 5.1 发布 beta 版本，带来了多项与 JSX 和 React 相关的改进！
 
-React-Query 计划在版本 5 中移除查询回调函数，这一想法并非人人赞同。
+React-Query 计划在版本 5 中移除查询回调函数，这一决定并非人人赞同。
 
-React-Native 开发者们，别错过 6 月 1 日在巴黎举行的 [React-Native-Connection](https://reactnativeconnection.io/)！我参与了演讲评选委员会，我们刚刚 [公布了完整阵容](https://twitter.com/sebastienlorber/status/1648269027318411264)，包括国际和本地演讲者。使用代码 "REACTHEBDO" 可享 10% 折扣。
+React-Native 开发者注意了，6 月 1 日巴黎举办的 [React-Native-Connection](https://reactnativeconnection.io/) 不容错过！我参与了演讲评选委员会，我们刚刚[公布了完整阵容](https://twitter.com/sebastienlorber/status/1648269027318411264)，包括国际和本地演讲者。使用代码 "REACTHEBDO" 可享 10% 折扣。
 
 <!-- truncate -->
 
-**💡 [在 Twitter 上查看本期简报](https://slo.im/thread) - 视觉版式 🎨**
+**💡 [在 Twitter 上查看本期简报](https://slo.im/thread) - 视觉化格式 🎨**
 
 ---
 
@@ -25,19 +25,19 @@ import Support from "../_support.mdx";
 
 ---
 
-## 💸 赞助 {#sponsor1}
+## 💸 赞助商 {#sponsor1}
 
 [![React-admin](/emails/issues/141/react_admin.png)](https://marmelab.com/react-admin/?utm_source=newsletter&utm_term=this-week-in-react)
 
-**[React-admin - 开源 B2B 应用框架](https://marmelab.com/react-admin/?utm_source=newsletter&utm_term=this-week-in-react)**
+**[React-admin - B2B 应用开源框架](https://marmelab.com/react-admin/?utm_source=newsletter&utm_term=this-week-in-react)**
 
-正在用 React 构建管理后台？我们有好消息！使用开源的 B2B 应用框架 React-admin，可以为你节省数天的编码时间！🤩
+正在用 React 构建管理后台？React-admin 这个 B2B 应用开源框架能为你节省数天开发时间！🤩
 
-React-admin 不仅能节省宝贵时间，还能让你成为更好的开发者！已有超过 20,000 名开发者每日使用并推崇其高效性。想了解长期使用者的体验？查看非营利组织 [Caritas 的案例分享](https://marmelab.com/blog/2022/07/07/react-admin-caritas.html)。
+使用 React-admin 不仅能节约宝贵时间，还能提升开发水平。已有超过 20,000 名开发者每日使用并验证其高效性。想了解长期使用体验？查看非营利组织 [Caritas 的案例分享](https://marmelab.com/blog/2022/07/07/react-admin-caritas.html)。
 
 加入我们活跃的社区和 [Discord](https://discord.com/invite/jR3D6SdQ) 服务器，获取最新动态和经验丰富的开发者支持。
 
-还在等什么？立即免费使用 React-admin 😉，让开发更上一层楼！🚀
+还在等什么？立即免费使用 React-admin 😉，让开发水平更上一层楼！🚀
 
 ---
 
@@ -45,48 +45,48 @@ React-admin 不仅能节省宝贵时间，还能让你成为更好的开发者�
 
 [![TypeScript 5.1 beta](/emails/issues/142/ts5.1.jpg)](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-beta/)
 
-**[TypeScript 5.1（测试版）+ React](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-beta/)**
+**[TypeScript 5.1 (beta) + React](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-beta/)**
 
-这是一个重要的 TypeScript 版本，将允许 React 声明自己的有效 JSX 类型。React 类型定义已 [分叉](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/65126)，计划尽快采用这一新特性，同时继续支持旧版本（TypeScript ≤ 5.0）。
+这个重要的 TypeScript 版本将允许 React 声明自己的有效 JSX 类型。React 类型定义已[分叉](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/65126)以继续支持旧版本（TypeScript ≤ 5.0），并计划尽快采用此新特性。
 
-尽早采用 TypeScript 5.1+ 有充分理由，它实现了以下功能：
+尽早采用 TypeScript 5.1+ 有充分理由，它实现了：
 
-- 在 JSX 中使用 React 服务端组件 `async` 而不会引发 TypeScript 错误或需要 [变通方案](https://gist.github.com/cramforce/b5e3f0b103f841d2e5e429b1d5ac4ded)
-- 无需 Fragment 即可返回所有有效的 `ReactNode` 类型（字符串、数组、布尔值等）（[详情](https://twitter.com/sebastienlorber/status/1648619398259769344)）
+- 在 JSX 中使用 React Server Component 的 `async` 而不会触发 TypeScript 错误或需要[变通方案](https://gist.github.com/cramforce/b5e3f0b103f841d2e5e429b1d5ac4ded)
+- 返回所有有效的 `ReactNode` 类型（字符串、数组、布尔值等）而无需片段（[详情](https://twitter.com/sebastienlorber/status/1648619398259769344)）
 - 其他 JSX 相关改进：命名空间属性和联动编辑（VSCode）
 
 ---
 
-[![刻意破坏 React Query 的 API](/emails/issues/142/rq.jpg)](https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose)
+[![React Query 故意破坏 API](/emails/issues/142/rq.jpg)](https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose)
 
-**[刻意破坏 React Query 的 API](https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose)**
+**[React Query 故意破坏 API](https://tkdodo.eu/blog/breaking-react-querys-api-on-purpose)**
 
-React-Query 将在 v5 版本中移除 `useQuery` 钩子的回调函数（`onSuccess`、`onError`、`onSettled`）。Dominik 解释了这一决定，并针对常见场景（如显示 toast 通知）提出了更合适的替代方案。虽然这个决定存在争议，但由于这些 API 经常被误用，因此是必要的调整。注意：`useMutation` 的回调函数仍会保留。
+React-Query 将在 v5 版本中移除 `useQuery` 钩子的回调函数（`onSuccess`、`onError`、`onSettled`）。Dominik 解释了这一决定，并针对常见场景（如显示 toast 通知）提出了更合适的替代方案。虽然这个决定存在争议，但由于这些 API 经常被误用，这一变更是必要的。注：`useMutation` 的回调函数仍会保留。
 
 ---
 
-- 🧵 [Dan Abramov - "一条经验法则：对于任何'服务器组件'"](https://twitter.com/dan_abramov/status/1647203329854799872): 阐述了实现完整服务器组件功能的最低要求，以充分发挥其潜力。分析了Qwik和Remix模型的局限性。
-- 👀 [Dan Abramov将在Remix Conf讲述"来自另一个维度的React"故事](https://twitter.com/remix_run/status/1646177445454950400)
-- 👀 [Next.js自带React副本](https://twitter.com/devongovett/status/1647728887927906304): 仅在使用App Router时启用。
+- 🧵 [Dan Abramov - "经验法则：任何'服务端组件'"](https://twitter.com/dan_abramov/status/1647203329854799872): 阐释了实现完整服务端组件功能的最低要求，以充分发挥其潜力。分析了Qwik和Remix模型的局限性。
+- 👀 [Dan Abramov将在Remix大会讲述"来自另一个维度的React"故事](https://twitter.com/remix_run/status/1646177445454950400)
+- 👀 [Next.js内置了React副本](https://twitter.com/devongovett/status/1647728887927906304): 仅在使用App Router时启用。
 - 👀 [在Rspack中使用Storybook](https://twitter.com/rspack_dev/status/1646164228598792196)
 - 👀 [React-Three-Fiber的WebGPU演示](https://twitter.com/CantBeFaraz/status/1647811509014216710)
-- ⚡ [SpiderMonkey通讯（Firefox 112-113）](https://spidermonkey.dev/blog/2023/04/14/newsletter-firefox-112-113.html): "我们正在优化React等流行Web框架的性能"。
-- 📜 [视图过渡动画指南](https://www.patterns.dev/posts/view-transitions): 讲解如何在Next.js App Router和MPA场景中使用Chrome 111+的View Transition API。当前React集成方案尚不理想。
-- 📜 [React可选参数动画图解](https://julesblom.com/writing/react-optional-parameters): 通过交互式文章展示React API中较少使用的功能。
-- 📜 [选择Next而非Remix](https://bradgarropy.com/blog/next-over-remix): 开发者原计划迁移至Remix，最终留守Next.js的心得。
-- 📜 [用Next.js 13和React服务器组件构建博客](https://maxleiter.com/blog/build-a-blog-with-nextjs-13): 全面运用Next.js最新特性创建现代化博客。
-- 📜 [React forwardRef()：向子组件传递ref的方法](https://dmitripavlutin.com/react-forwardref/)
-- 📜 [React会成为新时代的WordPress吗？](https://www.seancdavis.com/posts/is-react-the-new-wordpress/)
+- ⚡ [SpiderMonkey通讯(Firefox 112-113)](https://spidermonkey.dev/blog/2023/04/14/newsletter-firefox-112-113.html): "我们正在优化React等流行Web框架的性能"。
+- 📜 [视图过渡动画指南](https://www.patterns.dev/posts/view-transitions): 讲解如何在Next.js App Router和MPA场景下使用Chrome 111+的View Transition API。当前React集成方案尚不理想。
+- 📜 [React可选参数动画指南](https://julesblom.com/writing/react-optional-parameters): 通过交互式文章展示React API中较少使用的特性。
+- 📜 [选择Next而非Remix](https://bradgarropy.com/blog/next-over-remix): 开发者原计划迁移至Remix但最终留守Next.js的实践心得。
+- 📜 [基于Next.js 13和React服务端组件构建博客](https://maxleiter.com/blog/build-a-blog-with-nextjs-13): 运用最新Next.js特性创建现代化博客。
+- 📜 [React forwardRef()：向子组件传递引用的方法](https://dmitripavlutin.com/react-forwardref/)
+- 📜 [React会成为新WordPress吗？](https://www.seancdavis.com/posts/is-react-the-new-wordpress/)
 - 📜 [成为Astro维护者的历程](https://www.elian.codes/blog/23-04-12-becoming-an-astro-maintainer/)
-- 📜 [页面离开时显示未保存表单警告](https://claritydev.net/blog/display-warning-for-unsaved-form-data-on-page-exit)
+- 📜 [页面退出时未保存表单数据的警告提示](https://claritydev.net/blog/display-warning-for-unsaved-form-data-on-page-exit)
 - 📜 [掌握React：提升UI的高级技巧](https://blog.bitsrc.io/mastering-react-techniques-to-take-your-ui-to-the-next-level-a5002173904f)
-- 📜 [新版Storybook有哪些变化](https://www.mariasimo.codes/storybook-7-new-release)
+- 📜 [新版Storybook有哪些更新](https://www.mariasimo.codes/storybook-7-new-release)
 - 📜 [不依赖React的全栈Web应用开发](https://remotesynthesis.com/blog/full-stack-without-react/)
-- 🎥 [必须掌握的React可移植模式](https://www.youtube.com/watch?v=yi8UCnXPu8U): 降低代码与特定框架耦合度的实用建议。
+- 🎥 [必知的React可移植性模式](https://www.youtube.com/watch?v=yi8UCnXPu8U): 降低代码与特定框架耦合度的实用建议。
 - 🎥 [Create React App或许尚未消亡？](https://www.youtube.com/watch?v=A2kWoKnpy1U)
-- 📦 [Ariakit 0.1.0发布](https://github.com/ariakit/ariakit/releases/tag/%40ariakit%2Freact%400.1.0): 基于组件存储的新状态管理方案。[RFC](https://github.com/ariakit/ariakit/issues/1875)阐述了减少重渲染、框架无关等设计理念。
+- 📦 [Ariakit 0.1.0发布](https://github.com/ariakit/ariakit/releases/tag/%40ariakit%2Freact%400.1.0): 基于组件存储的新状态管理方案。[RFC](https://github.com/ariakit/ariakit/issues/1875)阐述了设计动机：减少重渲染、实现框架无关等。
 - 📦 [Million.js 2.2.1支持hooks和非原始值](https://twitter.com/aidenybai/status/1646238355427041285)。该[讨论串](https://twitter.com/aidenybai/status/1647005716350406656)深入解析了React与Million协调算法的差异。
-- 📦 [OpenNext 1.0问世](https://github.com/serverless-stack/open-next/releases/tag/v1.0.0): 通过serverless适配器增强Next.js的可移植性。
+- 📦 [OpenNext 1.0](https://github.com/serverless-stack/open-next/releases/tag/v1.0.0): 通过Serverless适配器增强Next.js的可移植性。
 - 📦 [Astro 2.3发布](https://twitter.com/astrodotbuild/status/1646593124997779465)
 - 📦 [React-Three-Next启动模板更新：支持App Router](https://twitter.com/onirenaud/status/1646139899291254786)
 - 📦 [React-Three-Fiber自动对焦景深插件](https://github.com/ektogamat/AutoFocusDOF)
@@ -97,22 +97,22 @@ React-Query 将在 v5 版本中移除 `useQuery` 钩子的回调函数（`onSucc
 
 ## 💸 赞助商 {#sponsor2}
 
-[![Tina.io 是面向 Markdown 驱动站点的无头 CMS](/emails/issues/140/tinacms.jpg)](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)
+[![Tina.io 是一款面向 Markdown 驱动站点的无头 CMS](/emails/issues/140/tinacms.jpg)](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)
 
-**[Tina.io 是面向 Markdown 驱动站点的无头 CMS](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)**
+**[Tina.io 是一款面向 Markdown 驱动站点的无头 CMS](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)**
 
 - 为 Markdown 文件提供可视化编辑界面
-- 支持 MDX 组件编辑
-- 兼容静态生成 (SSG) 和服务端渲染 (SSR)
-- 可选实时预览功能
+- 支持 MDX 组件可视化编辑
+- 兼容静态生成 (SSG) 和服务器端渲染 (SSR)
+- 可选实时预览编辑模式
 - 基于可复用区块构建
 
-体验示例项目
+体验入门模板
 
-- [Docusaurus 版](https://github.com/tinacms/tinasaurus) (GitHub)
-- [Next.js + Tailwind 可视化编辑版](https://github.com/tinacms/tina-cloud-starter) (GitHub)
+- [Docusaurus 模板](https://github.com/tinacms/tinasaurus) (GitHub)
+- [Next.js + Tailwind 可视化编辑模板](https://github.com/tinacms/tina-cloud-starter) (GitHub)
 
-或运行 `npx create-tina-app@latest` 后访问 `localhost:3000/admin`
+或运行 `npx create-tina-app@latest` 后访问 `localhost:3000/admin`
 
 观看 [4 分钟演示视频](https://www.youtube.com/watch?v=zRkeKSZjlyw)
 
@@ -120,34 +120,34 @@ React-Query 将在 v5 版本中移除 `useQuery` 钩子的回调函数（`onSucc
 
 ## 📱 React-Native 动态 {#react-native}
 
-- 👀 [React Native Gesture Handler 即将支持悬停手势](https://twitter.com/breskin67/status/1646511002933153794)：未来将提供跨 iOS/Android/Web 的统一 API
-- 👀 [图片性能演示](https://twitter.com/nightstomp/status/1647231665222176769)：展示过大图片对 React Native 应用的性能影响
-- 📦 [Expo-Image 1.2.0 支持 ThumbHash](https://twitter.com/tsapeta/status/1646875246362861569)
+- 👀 [React Native Gesture Handler 即将支持悬停手势](https://twitter.com/breskin67/status/1646511002933153794)：未来将推出跨平台 API，支持 iOS、Android 和 Web
+- 👀 [图片性能演示](https://twitter.com/nightstomp/status/1647231665222176769)：展示过大图片对 React-Native 应用的性能负面影响
+- 📦 [Expo-Image 1.2.0 - 支持 ThumbHash](https://twitter.com/tsapeta/status/1646875246362861569)
 - 📦 [React-Native-Widget-Extension 发布](https://twitter.com/bndkt/status/1648431242025766912)
 - 📦 [AnimateReactNative](https://www.animatereactnative.com/)：Catalin Miron 提供的 100+ 动画库（付费产品）
 - 🧵 [Expo 文档更新](https://twitter.com/amanhimself/status/1646959895995105281)
-- 🧵 [Jamon Holmgren - "想知道从编译后的 iPhone 应用中提取 API 密钥有多简单吗？"](https://twitter.com/jamonholmgren/status/1647305506053320704)
+- 🧵 [Jamon Holmgren - "想知道从编译好的 iPhone 应用中提取 API 密钥有多简单吗？"](https://twitter.com/jamonholmgren/status/1647305506053320704)
 - 🎥 [《Song of Bloom》- "能用 React Native 实现吗？"](https://www.youtube.com/watch?v=PfCQEA72ljU)
 - 🎥 [使用 Expo Router 实现 React Native 文件路由](https://www.youtube.com/watch?v=RglRiycD0oQ)
-- 👥 [React-Native-Connection 大会](https://reactnativeconnection.io/)（巴黎，6月1日）提供 10% 门票折扣（优惠码 "REACTHEBDO"）
-- 👥 [App.js 大会](https://appjs.co/)（克拉科夫，5月10-12日）提供 [研讨会 20% 折扣](https://ti.to/appjs/2023/discount/ThisWeekinReact20)（优惠码 "ThisWeekinReact20"）
-- 👥 [Chain React 大会](https://chainreactconf.com/)（波特兰，5月18-19日）提供 10% 门票折扣（优惠码 "thisweekinreact"）
+- 👥 [React-Native-Connection](https://reactnativeconnection.io/)（巴黎，6月1日）提供 -10% 门票优惠（优惠码 "REACTHEBDO"）
+- 👥 [App.js](https://appjs.co/)（克拉科夫，5月10-12日）提供[研讨会 -20% 优惠](https://ti.to/appjs/2023/discount/ThisWeekinReact20)（优惠码 "ThisWeekinReact20"）
+- 👥 [Chain React](https://chainreactconf.com/)（波特兰，5月18-19日）提供 -10% 门票优惠（优惠码 "thisweekinreact"）
 
 ---
 
-## 🧑‍💻 招聘信息 {#jobs}
+## 🧑‍💻 职位推荐 {#jobs}
 
 🧑‍💼 [**Passionfroot - 高级全栈工程师（Remix）- €160k+，柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)
 
-Passionfroot 致力于通过 YouTube、播客、社交媒体和新闻通讯赋能未来的独立创业者。加入我们，共同打造帮助全球创作者建立可扩展、可持续业务的工具。
+Passionfroot 的使命是通过 YouTube、播客、社交媒体和新闻通讯赋能未来的独立创业者。加入我们，共同打造帮助全球创作者建立可扩展、可持续业务的工具。
 
-🧑‍💼 [**Callstack - 高级 React Native 开发 - 完全远程，B2B 月薪 21-32k 波兰兹罗提净收入**](https://www.callstack.com/senior-react-native-developer)
+🧑‍💼 [**Callstack - 高级 React Native 开发工程师 - 完全远程，B2B 月薪 21-32k 波兰兹罗提净收入**](https://www.callstack.com/senior-react-native-developer)
 
-您想参与世界级应用开发吗？愿意共同塑造 React Native 技术未来吗？加入 React & React Native 技术领导者 Callstack 团队。详情请访问官网，我们期待看到您的申请——请尽情展示您的才华！
+您想参与全球最热门应用的开发吗？您愿意共同塑造 React Native 技术的未来吗？加入 Callstack 这个 React & React Native 技术领袖团队。详情请访问我们的网站。我们期待您的申请——请向我们展示您的实力！
 
 🧑‍💼 [**G2i - 100% 远程 React Native 职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
 
-我们正在招聘多位 React Native 开发者！年薪约 16 万美元外加 10% 奖金。要求具备 RN 生产环境经验且居住在美国。私信 [@gabe_g2i](https://twitter.com/gabe_g2i) 了解详情，请注明来自 This Week in React。
+我们正在招聘多位专注于 React Native 的开发者！年薪约 16 万美元外加 10% 奖金。应聘者需具备 RN 实际项目经验且居住在美国。私信 [@gabe_g2i](https://twitter.com/gabe_g2i) 了解更多信息，并请注明来自 This Week in React。
 
 💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
 
@@ -156,11 +156,11 @@ Passionfroot 致力于通过 YouTube、播客、社交媒体和新闻通讯赋�
 ## 🔀 其他 {#other}
 
 - [Node.js 20 正式发布](https://openjsf.org/blog/2023/04/18/node-js-20-now-available/)：包含稳定的测试运行器、权限模型、编译为可执行二进制文件等功能...
-- [pretty-ts-errors](https://github.com/yoavbls/pretty-ts-errors)：提升 VSCode 中 TypeScript 开发者体验的绝妙创意。
-- [total-typescript/shoehorn - TypeScript 中的部分模拟](https://github.com/total-typescript/shoehorn)
-- [Chrome 正式支持 WebGPU](https://developer.chrome.com/blog/webgpu-release/)：适用于 Chrome 113+ 版本。
-- [WebGPU 基础教程](https://webgpufundamentals.org/)
-- [Turborepo 1.9 发布](https://twitter.com/turborepo/status/1646238976196444162)
+- [pretty-ts-errors](https://github.com/yoavbls/pretty-ts-errors)：提升VSCode中TypeScript开发者体验的绝妙方案。
+- [total-typescript/shoehorn - TypeScript中的部分模拟](https://github.com/total-typescript/shoehorn)
+- [Chrome正式支持WebGPU](https://developer.chrome.com/blog/webgpu-release/)：适用于Chrome 113+版本。
+- [WebGPU基础教程](https://webgpufundamentals.org/)
+- [Turborepo 1.9发布](https://twitter.com/turborepo/status/1646238976196444162)
 
 ---
 

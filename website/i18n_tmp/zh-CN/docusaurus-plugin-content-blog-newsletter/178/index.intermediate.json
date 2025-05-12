@@ -1,275 +1,365 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/178/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/178/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /178\ntitle: \"This Week In React #178: Remix and Vite, Type-safe Children, Astro DB, React Compiler, Firebolt, Vitest, Composition, Remix Nitro, RSC in React Native, TenTap, Expo Atlas, TypeScript, Elysia...\"\nauthors: [slorber, bndkt]\ndate: 03-20-2024\n---",
-      "sourceMdx": "---\nslug: /178\ntitle: \"This Week In React #178: Remix and Vite, Type-safe Children, Astro DB, React Compiler, Firebolt, Vitest, Composition, Remix Nitro, RSC in React Native, TenTap, Expo Atlas, TypeScript, Elysia...\"\nauthors: [slorber, bndkt]\ndate: 03-20-2024\n---"
+      "sourceMdx": "---\nslug: /178\ntitle: \"This Week In React #178: Remix and Vite, Type-safe Children, Astro DB, React Compiler, Firebolt, Vitest, Composition, Remix Nitro, RSC in React Native, TenTap, Expo Atlas, TypeScript, Elysia...\"\nauthors: [slorber, bndkt]\ndate: 03-20-2024\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "This week is different and important for me. I took a little newsletter break, and instead of having no issue (as I did before), this time it's [Benedikt](https://twitter.com/bndkt) writing the whole newsletter. Back to you Benedikt!",
-      "sourceMdx": "This week is different and important for me. I took a little newsletter break, and instead of having no issue (as I did before), this time it's [Benedikt](https://twitter.com/bndkt) writing the whole newsletter. Back to you Benedikt!"
+      "sourceMdx": "This week is different and important for me. I took a little newsletter break, and instead of having no issue (as I did before), this time it's [Benedikt](https://twitter.com/bndkt) writing the whole newsletter. Back to you Benedikt!",
+      "nodeType": "paragraph",
+      "translated_content": "本周对我来说有些特别且重要。我暂停了简讯的发布，但这次没有空缺（像之前那样），而是由[Benedikt](https://twitter.com/bndkt)执笔完成了整期简讯。交给你了，Benedikt！"
     },
     {
       "id": "8c96d250",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "This last week has not seen a lot of releases, maybe everyone is already saving up their announcements for the upcoming conference season. Astro published more details about their new database and also released a developer portal, which starts out as a theme marketplace but will cover integrations in the future as well. Remix is now Vite-first and Vercel published a new AI chatbot template. After a lot of news about React Server Components in the React section, this week we see some news about RSC in the React Native section.",
-      "sourceMdx": "This last week has not seen a lot of releases, maybe everyone is already saving up their announcements for the upcoming conference season. Astro published more details about their new database and also released a developer portal, which starts out as a theme marketplace but will cover integrations in the future as well. Remix is now Vite-first and Vercel published a new AI chatbot template. After a lot of news about React Server Components in the React section, this week we see some news about RSC in the React Native section."
+      "sourceMdx": "This last week has not seen a lot of releases, maybe everyone is already saving up their announcements for the upcoming conference season. Astro published more details about their new database and also released a developer portal, which starts out as a theme marketplace but will cover integrations in the future as well. Remix is now Vite-first and Vercel published a new AI chatbot template. After a lot of news about React Server Components in the React section, this week we see some news about RSC in the React Native section.",
+      "nodeType": "paragraph",
+      "translated_content": "过去一周发布的新内容不多，或许大家都在为即将到来的会议季储备重磅消息。Astro公布了其新数据库的更多细节，并推出了开发者门户，初期作为主题市场，未来还将涵盖集成功能。Remix现已全面转向Vite优先，Vercel则发布了新版AI聊天机器人模板。在React板块大量关于React Server Components的新闻之后，本周我们在React Native板块也看到了一些RSC相关动态。"
     },
     {
       "id": "6429a3aa",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_6429a3aa"
     },
     {
       "id": "39b3772c",
       "translatable": true,
       "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
-      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "nodeType": "paragraph",
+      "translated_content": "**💡 [在Twitter上查看本期简讯](https://slo.im/thread) - 可视化格式 🎨**"
     },
     {
       "id": "507b4652",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "fcd52337",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_fcd52337"
     },
     {
       "id": "42e34e45",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_42e34e45"
     },
     {
       "id": "caf67047",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "3c36424c",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "26524352",
       "translatable": true,
       "content": "[![Headless CMS with Inline Visual editing for Next.js](/emails/issues/169/reactbricks.jpg)](https://reactbricks.com?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email)",
-      "sourceMdx": "[![Headless CMS with Inline Visual editing for Next.js](/emails/issues/169/reactbricks.jpg)](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)"
+      "sourceMdx": "[![Headless CMS with Inline Visual editing for Next.js](/emails/issues/169/reactbricks.jpg)](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Next.js内联可视化编辑的无头CMS](/emails/issues/169/reactbricks.jpg)](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)"
     },
     {
       "id": "73ab96a3",
       "translatable": true,
       "content": "**[Headless CMS with Inline Visual editing for Next.js](https://reactbricks.com?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email)**",
-      "sourceMdx": "**[Headless CMS with Inline Visual editing for Next.js](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)**"
+      "sourceMdx": "**[Headless CMS with Inline Visual editing for Next.js](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Next.js内联可视化编辑的无头CMS](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)**"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "[**Set up a project in just 1 minute**](https://reactbricks.com/sign-up?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email) with the CLI and define your own Visual blocks as React components to convey your pixel-perfect corporate brand, using any CSS framework. Try the new Next.js starter with Server Components!",
-      "sourceMdx": "[**Set up a project in just 1 minute**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email) with the CLI and define your own Visual blocks as React components to convey your pixel-perfect corporate brand, using any CSS framework. Try the new Next.js starter with Server Components!"
+      "sourceMdx": "[**Set up a project in just 1 minute**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email) with the CLI and define your own Visual blocks as React components to convey your pixel-perfect corporate brand, using any CSS framework. Try the new Next.js starter with Server Components!",
+      "nodeType": "paragraph",
+      "translated_content": "[**一分钟快速创建项目**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)，通过CLI定义专属可视化React组件区块，使用任意CSS框架实现像素级品牌呈现。快来尝试支持服务端组件的新版Next.js入门模板！"
     },
     {
       "id": "517051a7",
       "translatable": true,
       "content": "Content editors can easily use content blocks to compose pages visually, just like using a word processor, without compromising the design.",
-      "sourceMdx": "Content editors can easily use content blocks to compose pages visually, just like using a word processor, without compromising the design."
+      "sourceMdx": "Content editors can easily use content blocks to compose pages visually, just like using a word processor, without compromising the design.",
+      "nodeType": "paragraph",
+      "translated_content": "内容编辑者可以像使用文字处理器般直观组合内容区块，完全不影响设计效果。"
     },
     {
       "id": "135468ee",
       "translatable": true,
       "content": "React Bricks is enterprise-ready with Digital Assets Management, Advanced SEO, Real-time Collaboration, Scheduled Publishing, Multilanguage, integration with external APIs, Approval Workflow, Multiple environments, Change history and more.",
-      "sourceMdx": "React Bricks is enterprise-ready with Digital Assets Management, Advanced SEO, Real-time Collaboration, Scheduled Publishing, Multilanguage, integration with external APIs, Approval Workflow, Multiple environments, Change history and more."
+      "sourceMdx": "React Bricks is enterprise-ready with Digital Assets Management, Advanced SEO, Real-time Collaboration, Scheduled Publishing, Multilanguage, integration with external APIs, Approval Workflow, Multiple environments, Change history and more.",
+      "nodeType": "paragraph",
+      "translated_content": "React Bricks具备企业级功能：数字资产管理、高级SEO、实时协作、定时发布、多语言支持、外部API集成、审批工作流、多环境部署、变更历史记录等。"
     },
     {
       "id": "33331f27",
       "translatable": true,
       "content": "Trusted by corporate clients such as The Weather Channel, Deel.com, La Banque Postale, leading eCommerce sites and over 9,000 users worldwide.\n[**Get started today!**](https://reactbricks.com/sign-up?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email)",
-      "sourceMdx": "Trusted by corporate clients such as The Weather Channel, Deel.com, La Banque Postale, leading eCommerce sites and over 9,000 users worldwide.\n[**Get started today!**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)"
+      "sourceMdx": "Trusted by corporate clients such as The Weather Channel, Deel.com, La Banque Postale, leading eCommerce sites and over 9,000 users worldwide.\n[**Get started today!**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)",
+      "nodeType": "paragraph",
+      "translated_content": "已获The Weather Channel、Deel.com、La Banque Postale等企业客户及全球超9,000名用户信赖。\n[**立即体验！**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)"
     },
     {
       "id": "76a8033c",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "35a77014",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React {#react}"
     },
     {
       "id": "13d9cd70",
       "translatable": true,
       "content": "[![Remix Vite-first](/emails/issues/178/remix_heart_vite.jpg)](https://twitter.com/markdalgleish/status/1770224011831890036)",
-      "sourceMdx": "[![Remix Vite-first](/emails/issues/178/remix_heart_vite.jpg)](https://twitter.com/markdalgleish/status/1770224011831890036)"
+      "sourceMdx": "[![Remix Vite-first](/emails/issues/178/remix_heart_vite.jpg)](https://twitter.com/markdalgleish/status/1770224011831890036)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Remix拥抱Vite优先](/emails/issues/178/remix_heart_vite.jpg)](https://twitter.com/markdalgleish/status/1770224011831890036)"
     },
     {
       "id": "29528c8d",
       "translatable": true,
       "content": "🐦 [**Remix is now Vite-first**](https://twitter.com/markdalgleish/status/1770224011831890036)",
-      "sourceMdx": "🐦 [**Remix is now Vite-first**](https://twitter.com/markdalgleish/status/1770224011831890036)"
+      "sourceMdx": "🐦 [**Remix is now Vite-first**](https://twitter.com/markdalgleish/status/1770224011831890036)",
+      "nodeType": "paragraph",
+      "translated_content": "🐦 [**Remix正式转向Vite优先**](https://twitter.com/markdalgleish/status/1770224011831890036)"
     },
     {
       "id": "c504c207",
       "translatable": true,
       "content": "After a relatively short period of transition where Remix introduced a Vite-integration marked as unstable, this has now been marked stable and immediately became the new default. I personally really enjoyed seeing this quick transition and think Remix plus Vite is a strong combination, and having Vite be the development environment and compiler for Remix allows the Remix team to decrease their surface area and concentrate on core framework capabilities, which is a good thing! A newly created Remix project now only has a Vite config file referencing a Remix plugin, which I think is a beautiful instance of simplification!",
-      "sourceMdx": "After a relatively short period of transition where Remix introduced a Vite-integration marked as unstable, this has now been marked stable and immediately became the new default. I personally really enjoyed seeing this quick transition and think Remix plus Vite is a strong combination, and having Vite be the development environment and compiler for Remix allows the Remix team to decrease their surface area and concentrate on core framework capabilities, which is a good thing! A newly created Remix project now only has a Vite config file referencing a Remix plugin, which I think is a beautiful instance of simplification!"
+      "sourceMdx": "After a relatively short period of transition where Remix introduced a Vite-integration marked as unstable, this has now been marked stable and immediately became the new default. I personally really enjoyed seeing this quick transition and think Remix plus Vite is a strong combination, and having Vite be the development environment and compiler for Remix allows the Remix team to decrease their surface area and concentrate on core framework capabilities, which is a good thing! A newly created Remix project now only has a Vite config file referencing a Remix plugin, which I think is a beautiful instance of simplification!",
+      "nodeType": "paragraph",
+      "translated_content": "经过短暂的过渡期（期间Remix推出了标记为不稳定的Vite集成方案），现在该方案已转为稳定版并立即成为默认配置。我个人非常欣赏这种快速转型，认为Remix与Vite是强强联合。让Vite作为Remix的开发环境和编译器，使得Remix团队能缩减技术栈表面积，更专注于核心框架能力——这绝对是件好事！现在新建的Remix项目仅包含引用Remix插件的Vite配置文件，这种化繁为简的实践堪称典范！"
     },
     {
       "id": "310e47b7",
       "translatable": true,
       "content": "* 💸 [Document Generation with Apryse - Transforming Templates into Tailored Documents with React](https://apryse.com/blog/docx-generation-from-templates-react?utm_source=email\\&utm_medium=newsletter\\&utm_campaign=thisweekinreact4)\n* 📜 [Astro DB: A Deep Dive](https://astro.build/blog/astro-db-deep-dive/): Astro partnered with Turso to integrate libSQL. Also interesting to read why they thought about and ultimately didn’t choose Cloudflare’s D1.\n* 📜 [The Astro Developer Portal](https://astro.build/blog/dev-portal/): An official theme marketplace for Astro.\n* 📜 [How Next.js breaks React Fundamentals](https://ondrejvelisek.github.io/how-nextjs-breaks-react-fundamentals/): I don’t agree with the title and the conclusion, but it’s still an interesting exploration of the limitations of RSC (most of them not specific to Next.js).\n* 📜 [Type system of the React compiler](https://www.recompiled.dev/blog/type-system/): This is quite deep and theoretical, but if you want to learn more about the relation of compilers and type inference, it might be interesting to you.\n* 📜 [Two Types of Composition](https://kyleshevlin.com/two-types-of-composition/): I think sometimes it’s good to revisit the fundamentals of what we’re doing as developers every day. Composition is one of React’s basic principles, and this article looks at the basics of nesting composition and merging composition.\n* 📜 [Migrate Next.js app away from \"Vercel + PlanetScale\" to \"Fly.io\"](https://www.crispyscript.com/articles/13)\n* 📜 [Astro Studio - first impression](https://maciekpalmowski.dev/blog/astro-studio-first-impression/)\n* 📜 [You Are Leaking Your Next.js Application Features](https://www.rexforde.com/blog/conditional-render-problem)\n* 📜 [Embracing the Future and Moving Back Again: From Server Actions to tRPC](https://documenso.com/blog/removing-server-actions)\n* 📜 [You Can't Make Children \"Type Safe\" in React & TypeScript](https://www.totaltypescript.com/type-safe-children-in-react-and-typescript)\n* 📜 [How to test React custom hooks and components with Vitest](https://www.thisdot.co/blog/how-to-test-react-custom-hooks-and-components-with-vitest)\n* 📜 [OpenTelemetry in Practice: Instrumenting JavaScript Apps for Tracing](https://marmelab.com/blog/2024/03/14/opentelemetry-in-practice-instrumenting-javascript-apps-for-tracing.html)\n* 🗓 [React Connection - 22 April](https://reactconnection.io/) + [React-Native Connection - 23 April](https://reactnativeconnection.io/) - 🇫🇷 Paris - 2 days of web/mobile conferences. Get a -20% discount with code \"TWIR\".\n* 📦 [Firebolt](https://firebolt.dev/): A new simple React framework that reminds a bit of Remix. See also the [introductory blog post](https://firebolt.dev/blog/introducing-firebolt). RSC support is in progress.\n* 📦 [remix-nitro - An example on how to run Remix with Nitro with HMR using Vite's 5.1 experimental runtime API](https://github.com/alessandrojcm/remix-nitro)\n* 📦 [remix-hono v0.0.16 - now on Hono v4](https://github.com/sergiodxa/remix-hono/releases/tag/v0.0.16)\n* 📦 [Next.js AI Chatbot 2.0 - Now on AI SDK 3.0](https://vercel.com/changelog/next-js-ai-chatbot-2-0)\n* 🎥 [Daniel Kanem - Understanding the Steps of Migrating Your Remix App to Vite.js](https://www.youtube.com/watch?v=CTgQhNFqn5E)\n* 🎥 [Brooks Lybrand - Deploying Remix to GitHub Pages](https://www.youtube.com/watch?v=EO_-KwSslWQ)\n* 🎥 [Theo Browne - Million Lint](https://youtu.be/fcY9TthQnI4?si=bROdHJmIumw24AlO)\n* 🎥 [UI Engineering - Goodbye, forwardRef](https://www.youtube.com/watch?v=m4QbeS9BTNU)\n* 🎥 [Jack Herrington - Pigment-CSS: Material-UI Fixed on NextJS and React 19](https://www.youtube.com/watch?v=fyja_ldjxwA)\n* 🎙️ [Rocket Ship 34 - React Architecture Tips with Charlotte Isambert](https://share.transistor.fm/s/48a4b223)\n* 🎙️ [PodRocket - Partial pre-rendering in Next.js with Delba de Oliveira and Wyatt Johnson](https://podrocket.logrocket.com/partial-pre-rendering-next-js-delba-oliveira-wyatt-johnson)",
-      "sourceMdx": "- 💸 [Document Generation with Apryse - Transforming Templates into Tailored Documents with React](https://apryse.com/blog/docx-generation-from-templates-react?utm_source=email&utm_medium=newsletter&utm_campaign=thisweekinreact4)\n- 📜 [Astro DB: A Deep Dive](https://astro.build/blog/astro-db-deep-dive/): Astro partnered with Turso to integrate libSQL. Also interesting to read why they thought about and ultimately didn’t choose Cloudflare’s D1.\n- 📜 [The Astro Developer Portal](https://astro.build/blog/dev-portal/): An official theme marketplace for Astro.\n- 📜 [How Next.js breaks React Fundamentals](https://ondrejvelisek.github.io/how-nextjs-breaks-react-fundamentals/): I don’t agree with the title and the conclusion, but it’s still an interesting exploration of the limitations of RSC (most of them not specific to Next.js).\n- 📜 [Type system of the React compiler](https://www.recompiled.dev/blog/type-system/): This is quite deep and theoretical, but if you want to learn more about the relation of compilers and type inference, it might be interesting to you.\n- 📜 [Two Types of Composition](https://kyleshevlin.com/two-types-of-composition/): I think sometimes it’s good to revisit the fundamentals of what we’re doing as developers every day. Composition is one of React’s basic principles, and this article looks at the basics of nesting composition and merging composition.\n- 📜 [Migrate Next.js app away from \"Vercel + PlanetScale\" to \"Fly.io\"](https://www.crispyscript.com/articles/13)\n- 📜 [Astro Studio - first impression](https://maciekpalmowski.dev/blog/astro-studio-first-impression/)\n- 📜 [You Are Leaking Your Next.js Application Features](https://www.rexforde.com/blog/conditional-render-problem)\n- 📜 [Embracing the Future and Moving Back Again: From Server Actions to tRPC](https://documenso.com/blog/removing-server-actions)\n- 📜 [You Can't Make Children \"Type Safe\" in React & TypeScript](https://www.totaltypescript.com/type-safe-children-in-react-and-typescript)\n- 📜 [How to test React custom hooks and components with Vitest](https://www.thisdot.co/blog/how-to-test-react-custom-hooks-and-components-with-vitest)\n- 📜 [OpenTelemetry in Practice: Instrumenting JavaScript Apps for Tracing](https://marmelab.com/blog/2024/03/14/opentelemetry-in-practice-instrumenting-javascript-apps-for-tracing.html)\n- 🗓 [React Connection - 22 April](https://reactconnection.io/) + [React-Native Connection - 23 April](https://reactnativeconnection.io/) - 🇫🇷 Paris - 2 days of web/mobile conferences. Get a -20% discount with code \"TWIR\".\n- 📦 [Firebolt](https://firebolt.dev/): A new simple React framework that reminds a bit of Remix. See also the [introductory blog post](https://firebolt.dev/blog/introducing-firebolt). RSC support is in progress.\n- 📦 [remix-nitro - An example on how to run Remix with Nitro with HMR using Vite's 5.1 experimental runtime API](https://github.com/alessandrojcm/remix-nitro)\n- 📦 [remix-hono v0.0.16 - now on Hono v4](https://github.com/sergiodxa/remix-hono/releases/tag/v0.0.16)\n- 📦 [Next.js AI Chatbot 2.0 - Now on AI SDK 3.0](https://vercel.com/changelog/next-js-ai-chatbot-2-0)\n- 🎥 [Daniel Kanem - Understanding the Steps of Migrating Your Remix App to Vite.js](https://www.youtube.com/watch?v=CTgQhNFqn5E)\n- 🎥 [Brooks Lybrand - Deploying Remix to GitHub Pages](https://www.youtube.com/watch?v=EO_-KwSslWQ)\n- 🎥 [Theo Browne - Million Lint](https://youtu.be/fcY9TthQnI4?si=bROdHJmIumw24AlO)\n- 🎥 [UI Engineering - Goodbye, forwardRef](https://www.youtube.com/watch?v=m4QbeS9BTNU)\n- 🎥 [Jack Herrington - Pigment-CSS: Material-UI Fixed on NextJS and React 19](https://www.youtube.com/watch?v=fyja_ldjxwA)\n- 🎙️ [Rocket Ship 34 - React Architecture Tips with Charlotte Isambert](https://share.transistor.fm/s/48a4b223)\n- 🎙️ [PodRocket - Partial pre-rendering in Next.js with Delba de Oliveira and Wyatt Johnson](https://podrocket.logrocket.com/partial-pre-rendering-next-js-delba-oliveira-wyatt-johnson)"
+      "sourceMdx": "- 💸 [Document Generation with Apryse - Transforming Templates into Tailored Documents with React](https://apryse.com/blog/docx-generation-from-templates-react?utm_source=email&utm_medium=newsletter&utm_campaign=thisweekinreact4)\n- 📜 [Astro DB: A Deep Dive](https://astro.build/blog/astro-db-deep-dive/): Astro partnered with Turso to integrate libSQL. Also interesting to read why they thought about and ultimately didn’t choose Cloudflare’s D1.\n- 📜 [The Astro Developer Portal](https://astro.build/blog/dev-portal/): An official theme marketplace for Astro.\n- 📜 [How Next.js breaks React Fundamentals](https://ondrejvelisek.github.io/how-nextjs-breaks-react-fundamentals/): I don’t agree with the title and the conclusion, but it’s still an interesting exploration of the limitations of RSC (most of them not specific to Next.js).\n- 📜 [Type system of the React compiler](https://www.recompiled.dev/blog/type-system/): This is quite deep and theoretical, but if you want to learn more about the relation of compilers and type inference, it might be interesting to you.\n- 📜 [Two Types of Composition](https://kyleshevlin.com/two-types-of-composition/): I think sometimes it’s good to revisit the fundamentals of what we’re doing as developers every day. Composition is one of React’s basic principles, and this article looks at the basics of nesting composition and merging composition.\n- 📜 [Migrate Next.js app away from \"Vercel + PlanetScale\" to \"Fly.io\"](https://www.crispyscript.com/articles/13)\n- 📜 [Astro Studio - first impression](https://maciekpalmowski.dev/blog/astro-studio-first-impression/)\n- 📜 [You Are Leaking Your Next.js Application Features](https://www.rexforde.com/blog/conditional-render-problem)\n- 📜 [Embracing the Future and Moving Back Again: From Server Actions to tRPC](https://documenso.com/blog/removing-server-actions)\n- 📜 [You Can't Make Children \"Type Safe\" in React & TypeScript](https://www.totaltypescript.com/type-safe-children-in-react-and-typescript)\n- 📜 [How to test React custom hooks and components with Vitest](https://www.thisdot.co/blog/how-to-test-react-custom-hooks-and-components-with-vitest)\n- 📜 [OpenTelemetry in Practice: Instrumenting JavaScript Apps for Tracing](https://marmelab.com/blog/2024/03/14/opentelemetry-in-practice-instrumenting-javascript-apps-for-tracing.html)\n- 🗓 [React Connection - 22 April](https://reactconnection.io/) + [React-Native Connection - 23 April](https://reactnativeconnection.io/) - 🇫🇷 Paris - 2 days of web/mobile conferences. Get a -20% discount with code \"TWIR\".\n- 📦 [Firebolt](https://firebolt.dev/): A new simple React framework that reminds a bit of Remix. See also the [introductory blog post](https://firebolt.dev/blog/introducing-firebolt). RSC support is in progress.\n- 📦 [remix-nitro - An example on how to run Remix with Nitro with HMR using Vite's 5.1 experimental runtime API](https://github.com/alessandrojcm/remix-nitro)\n- 📦 [remix-hono v0.0.16 - now on Hono v4](https://github.com/sergiodxa/remix-hono/releases/tag/v0.0.16)\n- 📦 [Next.js AI Chatbot 2.0 - Now on AI SDK 3.0](https://vercel.com/changelog/next-js-ai-chatbot-2-0)\n- 🎥 [Daniel Kanem - Understanding the Steps of Migrating Your Remix App to Vite.js](https://www.youtube.com/watch?v=CTgQhNFqn5E)\n- 🎥 [Brooks Lybrand - Deploying Remix to GitHub Pages](https://www.youtube.com/watch?v=EO_-KwSslWQ)\n- 🎥 [Theo Browne - Million Lint](https://youtu.be/fcY9TthQnI4?si=bROdHJmIumw24AlO)\n- 🎥 [UI Engineering - Goodbye, forwardRef](https://www.youtube.com/watch?v=m4QbeS9BTNU)\n- 🎥 [Jack Herrington - Pigment-CSS: Material-UI Fixed on NextJS and React 19](https://www.youtube.com/watch?v=fyja_ldjxwA)\n- 🎙️ [Rocket Ship 34 - React Architecture Tips with Charlotte Isambert](https://share.transistor.fm/s/48a4b223)\n- 🎙️ [PodRocket - Partial pre-rendering in Next.js with Delba de Oliveira and Wyatt Johnson](https://podrocket.logrocket.com/partial-pre-rendering-next-js-delba-oliveira-wyatt-johnson)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [使用Apryse生成文档 - 通过React将模板转化为定制化文档](https://apryse.com/blog/docx-generation-from-templates-react?utm_source=email&utm_medium=newsletter&utm_campaign=thisweekinreact4)\n- 📜 [Astro DB深度解析](https://astro.build/blog/astro-db-deep-dive/)：Astro与Turso合作集成libSQL。文中还探讨了他们为何考虑但最终未选择Cloudflare的D1数据库。\n- 📜 [Astro开发者门户](https://astro.build/blog/dev-portal/)：Astro官方主题市场。\n- 📜 [Next.js如何打破React基本原则](https://ondrejvelisek.github.io/how-nextjs-breaks-react-fundamentals/)：虽然不认同标题和结论，但该文对RSC局限性（多数并非Next.js特有）的探讨仍具启发性。\n- 📜 [React编译器的类型系统](https://www.recompiled.dev/blog/type-system/)：内容偏理论，适合想了解编译器与类型推断关系的开发者。\n- 📜 [两种组合方式](https://kyleshevlin.com/two-types-of-composition/)：重温开发基础概念很有必要。组合是React核心原则之一，本文探讨了嵌套组合与合并组合的基础。\n- 📜 [将Next.js应用从\"Vercel+PlanetScale\"迁移至\"Fly.io\"](https://www.crispyscript.com/articles/13)\n- 📜 [Astro Studio初体验](https://maciekpalmowski.dev/blog/astro-studio-first-impression/)\n- 📜 [你的Next.js应用功能正在泄露](https://www.rexforde.com/blog/conditional-render-problem)\n- 📜 [拥抱未来与回溯：从Server Actions转向tRPC](https://documenso.com/blog/removing-server-actions)\n- 📜 [在React+TypeScript中无法实现完全类型安全的Children](https://www.totaltypescript.com/type-safe-children-in-react-and-typescript)\n- 📜 [如何使用Vitest测试React自定义钩子和组件](https://www.thisdot.co/blog/how-to-test-react-custom-hooks-and-components-with-vitest)\n- 📜 [OpenTelemetry实践：为JavaScript应用添加追踪功能](https://marmelab.com/blog/2024/03/14/opentelemetry-in-practice-instrumenting-javascript-apps-for-tracing.html)\n- 🗓 [React Connection - 4月22日](https://reactconnection.io/) + [React-Native Connection - 4月23日](https://reactnativeconnection.io/) - 🇫🇷巴黎 - 为期两天的Web/移动端技术大会。使用优惠码\"TWIR\"可享8折。\n- 📦 [Firebolt](https://firebolt.dev/)：简约的新React框架，风格类似Remix。[介绍文章](https://firebolt.dev/blog/introducing-firebolt)提及正在开发RSC支持。\n- 📦 [remix-nitro - 通过Vite 5.1实验性运行时API实现Remix与Nitro热更新的示例](https://github.com/alessandrojcm/remix-nitro)\n- 📦 [remix-hono v0.0.16 - 现已适配Hono v4](https://github.com/sergiodxa/remix-hono/releases/tag/v0.0.16)\n- 📦 [Next.js AI聊天机器人2.0 - 现已支持AI SDK 3.0](https://vercel.com/changelog/next-js-ai-chatbot-2-0)\n- 🎥 [Daniel Kanem - 迁移Remix应用到Vite.js的步骤解析](https://www.youtube.com/watch?v=CTgQhNFqn5E)\n- 🎥 [Brooks Lybrand - 将Remix部署到GitHub Pages](https://www.youtube.com/watch?v=EO_-KwSslWQ)\n- 🎥 [Theo Browne - Million Lint工具](https://youtu.be/fcY9TthQnI4?si=bROdHJmIumw24AlO)\n- 🎥 [UI工程 - 告别forwardRef](https://www.youtube.com/watch?v=m4QbeS9BTNU)\n- 🎥 [Jack Herrington - Pigment-CSS：Material-UI在NextJS和React 19上的解决方案](https://www.youtube.com/watch?v=fyja_ldjxwA)\n- 🎙️ [Rocket Ship第34期 - Charlotte Isambert谈React架构技巧](https://share.transistor.fm/s/48a4b223)\n- 🎙️ [PodRocket - Delba de Oliveira与Wyatt Johnson谈Next.js中的部分预渲染](https://podrocket.logrocket.com/partial-pre-rendering-next-js-delba-oliveira-wyatt-johnson)"
     },
     {
       "id": "5f852894",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_5f852894"
     },
     {
       "id": "aac83236",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "66819c78",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "fbc2db85",
       "translatable": true,
       "content": "[![FormBuilder SDK for React](/emails/issues/171/tripetto.jpg)](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact\\&utm_medium=sponsor\\&utm_campaign=sdk)",
-      "sourceMdx": "[![FormBuilder SDK for React](/emails/issues/171/tripetto.jpg)](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)"
+      "sourceMdx": "[![FormBuilder SDK for React](/emails/issues/171/tripetto.jpg)](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React表单构建SDK](/emails/issues/171/tripetto.jpg)](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)"
     },
     {
       "id": "8126f763",
       "translatable": true,
       "content": "**[FormBuilder SDK for React](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact\\&utm_medium=sponsor\\&utm_campaign=sdk)**",
-      "sourceMdx": "**[FormBuilder SDK for React](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)**"
+      "sourceMdx": "**[FormBuilder SDK for React](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[React表单构建SDK](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)**"
     },
     {
       "id": "74dd7937",
       "translatable": true,
       "content": "A complete form solution for React projects, used by Fortune 500 companies. With easy-to-use open-source components for building and running powerful forms inside your React app. Extensively documented, up in minutes, and deeply customizable.",
-      "sourceMdx": "A complete form solution for React projects, used by Fortune 500 companies. With easy-to-use open-source components for building and running powerful forms inside your React app. Extensively documented, up in minutes, and deeply customizable."
+      "sourceMdx": "A complete form solution for React projects, used by Fortune 500 companies. With easy-to-use open-source components for building and running powerful forms inside your React app. Extensively documented, up in minutes, and deeply customizable.",
+      "nodeType": "paragraph",
+      "translated_content": "为React项目提供的完整表单解决方案，被财富500强企业采用。通过易用的开源组件，快速在React应用中构建和运行强大的表单系统。提供详尽文档支持，分钟级部署，深度可定制化。"
     },
     {
       "id": "49f9f337",
       "translatable": true,
       "content": "* Builder for creating powerful forms;\n* Runner for deploying forms and collecting data;\n* Flexible form layouts (conversational, chat etc.) and styling;\n* Extensible with custom question types;\n* Complete docs, examples, and demos;\n* Self-hosted without external dependencies;\n* Start, test, and perfect for free.",
-      "sourceMdx": "- Builder for creating powerful forms;\n- Runner for deploying forms and collecting data;\n- Flexible form layouts (conversational, chat etc.) and styling;\n- Extensible with custom question types;\n- Complete docs, examples, and demos;\n- Self-hosted without external dependencies;\n- Start, test, and perfect for free."
+      "sourceMdx": "- Builder for creating powerful forms;\n- Runner for deploying forms and collecting data;\n- Flexible form layouts (conversational, chat etc.) and styling;\n- Extensible with custom question types;\n- Complete docs, examples, and demos;\n- Self-hosted without external dependencies;\n- Start, test, and perfect for free.",
+      "nodeType": "list",
+      "translated_content": "- 可视化构建器创建复杂表单；\n- 运行器部署表单并收集数据；\n- 灵活的表单布局（对话式、聊天式等）与样式；\n- 可扩展自定义问题类型；\n- 完整文档、示例和演示；\n- 自托管无外部依赖；\n- 免费开始试用与测试。"
     },
     {
       "id": "2822251a",
       "translatable": true,
       "content": "TWIR exclusive: [Get 25% off your FormBuilder SDK license](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact\\&utm_medium=sponsor\\&utm_campaign=sdk).",
-      "sourceMdx": "TWIR exclusive: [Get 25% off your FormBuilder SDK license](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)."
+      "sourceMdx": "TWIR exclusive: [Get 25% off your FormBuilder SDK license](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk).",
+      "nodeType": "paragraph",
+      "translated_content": "TWIR专属福利：[立享FormBuilder SDK许可证25%折扣](https://tripetto.com/sdk/this-week-in-react/?utm_source=thisweekinreact&utm_medium=sponsor&utm_campaign=sdk)。"
     },
     {
       "id": "fc25fa9c",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "94145a94",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native动态 {#react-native}"
     },
     {
       "id": "2838eb68",
       "translatable": true,
       "content": "[![React Native RSC](/emails/issues/178/rn_rsc.jpg)](https://github.com/mui/material-ui/tree/master/packages/pigment-css-react)",
-      "sourceMdx": "[![React Native RSC](/emails/issues/178/rn_rsc.jpg)](https://github.com/mui/material-ui/tree/master/packages/pigment-css-react)"
+      "sourceMdx": "[![React Native RSC](/emails/issues/178/rn_rsc.jpg)](https://github.com/mui/material-ui/tree/master/packages/pigment-css-react)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React Native服务端组件演示](/emails/issues/178/rn_rsc.jpg)](https://github.com/mui/material-ui/tree/master/packages/pigment-css-react)"
     },
     {
       "id": "4be28ed1",
       "translatable": true,
       "content": "🐦 [**Demo of React Server Components on React Native**](https://twitter.com/SzymonRybczak/status/1769747995862384756)",
-      "sourceMdx": "🐦 [**Demo of React Server Components on React Native**](https://twitter.com/SzymonRybczak/status/1769747995862384756)"
+      "sourceMdx": "🐦 [**Demo of React Server Components on React Native**](https://twitter.com/SzymonRybczak/status/1769747995862384756)",
+      "nodeType": "paragraph",
+      "translated_content": "🐦 [**React Native服务端组件演示**](https://twitter.com/SzymonRybczak/status/1769747995862384756)"
     },
     {
       "id": "0e80209e",
       "translatable": true,
       "content": "Conference season is coming up, and the announcements get fewer as people are saving the best for the big stages. One of the topics I’m looking most forward to hearing more about at the upcoming conferences is React Server Components on React Native. Now Szymon Rybczak from Callstack has published an interesting demo of RSC running in RN. I’m really curious to learn more about it, and glad that Szymon has announced that he’ll publish a detailed blog post and the code soon.",
-      "sourceMdx": "Conference season is coming up, and the announcements get fewer as people are saving the best for the big stages. One of the topics I’m looking most forward to hearing more about at the upcoming conferences is React Server Components on React Native. Now Szymon Rybczak from Callstack has published an interesting demo of RSC running in RN. I’m really curious to learn more about it, and glad that Szymon has announced that he’ll publish a detailed blog post and the code soon."
+      "sourceMdx": "Conference season is coming up, and the announcements get fewer as people are saving the best for the big stages. One of the topics I’m looking most forward to hearing more about at the upcoming conferences is React Server Components on React Native. Now Szymon Rybczak from Callstack has published an interesting demo of RSC running in RN. I’m really curious to learn more about it, and glad that Szymon has announced that he’ll publish a detailed blog post and the code soon.",
+      "nodeType": "paragraph",
+      "translated_content": "技术大会季即将来临，人们正为重磅舞台保留最佳内容，相关公告逐渐减少。我最期待在即将到来的会议上深入了解的议题之一，便是React Native中的服务端组件（RSC）。Callstack的Szymon Rybczak现已发布了一个在RN中运行RSC的精彩演示。我十分期待了解更多细节，也很高兴Szymon宣布将很快发布详细技术文章及相关代码。"
     },
     {
       "id": "38417f80",
       "translatable": true,
       "content": "* 💸 [React Universe Conf - Last days to submit talk proposals: CFP closes on March 22. Don’t want to speak at RUC? Grab your early bird ticket!](https://www.reactuniverseconf.com/?utm_campaign=React_Universe_Conf\\&utm_source=email\\&utm_content=This_Week_in_React)\n* 📖 [Expo Docs: Migrate from CodePush](https://docs.expo.dev/eas-update/codepush/): Visual Studio App Center is scheduled for retirement on March 31, 2025. Users of CodePush should start thinking about alternatives.\n* 📜 [What is the Expo Router?](https://www.themorrow.digital/blog/what-is-the-expo-router)\n* 📜 [React navigation & state machine - Perfecting app flows](https://www.bam.tech/article/react-navigation-state-machine-perfecting-app-flows): Interesting exploration of how to realize complex flows in React Navigation, using either a state machine or a custom navigator.\n* 📜 [Expo Blog - 12 tips for setting up your next Expo project](https://expo.dev/blog/12-tips-for-setting-up-your-next-expo-project): Some of them quite obvious (use TS), but others like app variants for dev and prod or automatic build versioning are valuable reminders.\n* 📜 [Ship OTA (Over-The-Air) When in an Emergency](https://www.callstack.com/blog/ship-over-the-air-when-in-an-emergency)\n* 📦 [TenTap - typed, customizable, and extendable Rich Text editor for React Native](https://github.com/10play/10tap-editor)\n* 📦 [React Native 0.74.0-rc.4](https://github.com/facebook/react-native/releases/tag/v0.74.0-rc.4)\n* 📦 [expo-atlas - Experimental library to inspect bundle stats from Metro](https://github.com/byCedric/expo-atlas)\n* 📦 [New Expo Dev tools plugin for debugging React Native MMKV](https://www.npmjs.com/package/@dev-plugins/react-native-mmkv)\n* 📦 [First Expo SDK 51 canary releases showing up](https://www.npmjs.com/package/expo/v/51.0.0-canary-20240318-dd8f245)\n* 🎙️ [RNR 291 - RNR Explains: The Dev Menu](https://reactnativeradio.com/episodes/rnr-291-rnr-explains-the-dev-menu)\n* 🎥 [The Best Stack for Universal React Apps](https://www.youtube.com/watch?v=2yvjgwTZOUY)\n* 🎥 [Let’s build a Native Library using Expo Modules](https://www.youtube.com/watch?v=UczTzTBYRhA)\n* 🎥 [How to create an App Icon and Splash Screen for an Expo Project](https://www.youtube.com/watch?v=QSNkU7v0MPc)",
-      "sourceMdx": "- 💸 [React Universe Conf - Last days to submit talk proposals: CFP closes on March 22. Don’t want to speak at RUC? Grab your early bird ticket!](https://www.reactuniverseconf.com/?utm_campaign=React_Universe_Conf&utm_source=email&utm_content=This_Week_in_React)\n- 📖 [Expo Docs: Migrate from CodePush](https://docs.expo.dev/eas-update/codepush/): Visual Studio App Center is scheduled for retirement on March 31, 2025. Users of CodePush should start thinking about alternatives.\n- 📜 [What is the Expo Router?](https://www.themorrow.digital/blog/what-is-the-expo-router)\n- 📜 [React navigation & state machine - Perfecting app flows](https://www.bam.tech/article/react-navigation-state-machine-perfecting-app-flows): Interesting exploration of how to realize complex flows in React Navigation, using either a state machine or a custom navigator.\n- 📜 [Expo Blog - 12 tips for setting up your next Expo project](https://expo.dev/blog/12-tips-for-setting-up-your-next-expo-project): Some of them quite obvious (use TS), but others like app variants for dev and prod or automatic build versioning are valuable reminders.\n- 📜 [Ship OTA (Over-The-Air) When in an Emergency](https://www.callstack.com/blog/ship-over-the-air-when-in-an-emergency)\n- 📦 [TenTap - typed, customizable, and extendable Rich Text editor for React Native](https://github.com/10play/10tap-editor)\n- 📦 [React Native 0.74.0-rc.4](https://github.com/facebook/react-native/releases/tag/v0.74.0-rc.4)\n- 📦 [expo-atlas - Experimental library to inspect bundle stats from Metro](https://github.com/byCedric/expo-atlas)\n- 📦 [New Expo Dev tools plugin for debugging React Native MMKV](https://www.npmjs.com/package/@dev-plugins/react-native-mmkv)\n- 📦 [First Expo SDK 51 canary releases showing up](https://www.npmjs.com/package/expo/v/51.0.0-canary-20240318-dd8f245)\n- 🎙️ [RNR 291 - RNR Explains: The Dev Menu](https://reactnativeradio.com/episodes/rnr-291-rnr-explains-the-dev-menu)\n- 🎥 [The Best Stack for Universal React Apps](https://www.youtube.com/watch?v=2yvjgwTZOUY)\n- 🎥 [Let’s build a Native Library using Expo Modules](https://www.youtube.com/watch?v=UczTzTBYRhA)\n- 🎥 [How to create an App Icon and Splash Screen for an Expo Project](https://www.youtube.com/watch?v=QSNkU7v0MPc)"
+      "sourceMdx": "- 💸 [React Universe Conf - Last days to submit talk proposals: CFP closes on March 22. Don’t want to speak at RUC? Grab your early bird ticket!](https://www.reactuniverseconf.com/?utm_campaign=React_Universe_Conf&utm_source=email&utm_content=This_Week_in_React)\n- 📖 [Expo Docs: Migrate from CodePush](https://docs.expo.dev/eas-update/codepush/): Visual Studio App Center is scheduled for retirement on March 31, 2025. Users of CodePush should start thinking about alternatives.\n- 📜 [What is the Expo Router?](https://www.themorrow.digital/blog/what-is-the-expo-router)\n- 📜 [React navigation & state machine - Perfecting app flows](https://www.bam.tech/article/react-navigation-state-machine-perfecting-app-flows): Interesting exploration of how to realize complex flows in React Navigation, using either a state machine or a custom navigator.\n- 📜 [Expo Blog - 12 tips for setting up your next Expo project](https://expo.dev/blog/12-tips-for-setting-up-your-next-expo-project): Some of them quite obvious (use TS), but others like app variants for dev and prod or automatic build versioning are valuable reminders.\n- 📜 [Ship OTA (Over-The-Air) When in an Emergency](https://www.callstack.com/blog/ship-over-the-air-when-in-an-emergency)\n- 📦 [TenTap - typed, customizable, and extendable Rich Text editor for React Native](https://github.com/10play/10tap-editor)\n- 📦 [React Native 0.74.0-rc.4](https://github.com/facebook/react-native/releases/tag/v0.74.0-rc.4)\n- 📦 [expo-atlas - Experimental library to inspect bundle stats from Metro](https://github.com/byCedric/expo-atlas)\n- 📦 [New Expo Dev tools plugin for debugging React Native MMKV](https://www.npmjs.com/package/@dev-plugins/react-native-mmkv)\n- 📦 [First Expo SDK 51 canary releases showing up](https://www.npmjs.com/package/expo/v/51.0.0-canary-20240318-dd8f245)\n- 🎙️ [RNR 291 - RNR Explains: The Dev Menu](https://reactnativeradio.com/episodes/rnr-291-rnr-explains-the-dev-menu)\n- 🎥 [The Best Stack for Universal React Apps](https://www.youtube.com/watch?v=2yvjgwTZOUY)\n- 🎥 [Let’s build a Native Library using Expo Modules](https://www.youtube.com/watch?v=UczTzTBYRhA)\n- 🎥 [How to create an App Icon and Splash Screen for an Expo Project](https://www.youtube.com/watch?v=QSNkU7v0MPc)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [React Universe 大会 - 演讲提案征集最后几天：CFP将于3月22日截止。不想在RUC演讲？快来抢购早鸟票！](https://www.reactuniverseconf.com/?utm_campaign=React_Universe_Conf&utm_source=email&utm_content=This_Week_in_React)\n- 📖 [Expo文档：从CodePush迁移](https://docs.expo.dev/eas-update/codepush/)：Visual Studio App Center计划于2025年3月31日停止服务。CodePush用户应开始考虑替代方案。\n- 📜 [什么是Expo Router？](https://www.themorrow.digital/blog/what-is-the-expo-router)\n- 📜 [React导航与状态机 - 优化应用流程](https://www.bam.tech/article/react-navigation-state-machine-perfecting-app-flows)：探索如何在React Navigation中通过状态机或自定义导航器实现复杂流程的有趣实践。\n- 📜 [Expo博客 - 设置新Expo项目的12个技巧](https://expo.dev/blog/12-tips-for-setting-up-your-next-expo-project)：部分建议显而易见（如使用TS），但开发/生产环境应用变体和自动构建版本号等技巧值得重温。\n- 📜 [紧急情况下的OTA（空中下载）发布方案](https://www.callstack.com/blog/ship-over-the-air-when-in-an-emergency)\n- 📦 [TenTap - React Native的类型化、可定制、可扩展富文本编辑器](https://github.com/10play/10tap-editor)\n- 📦 [React Native 0.74.0-rc.4发布](https://github.com/facebook/react-native/releases/tag/v0.74.0-rc.4)\n- 📦 [expo-atlas - 实验性Metro打包分析工具](https://github.com/byCedric/expo-atlas)\n- 📦 [新版Expo Dev工具插件：调试React Native MMKV](https://www.npmjs.com/package/@dev-plugins/react-native-mmkv)\n- 📦 [首批Expo SDK 51候选版本发布](https://www.npmjs.com/package/expo/v/51.0.0-canary-20240318-dd8f245)\n- 🎙️ [RNR 291期 - 开发者菜单详解](https://reactnativeradio.com/episodes/rnr-291-rnr-explains-the-dev-menu)\n- 🎥 [通用React应用的最佳技术栈](https://www.youtube.com/watch?v=2yvjgwTZOUY)\n- 🎥 [使用Expo Modules构建原生库](https://www.youtube.com/watch?v=UczTzTBYRhA)\n- 🎥 [为Expo项目创建应用图标和启动画面](https://www.youtube.com/watch?v=QSNkU7v0MPc)"
     },
     {
       "id": "18fa676c",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "2bb63d77",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他 {#other}"
     },
     {
       "id": "a8198b43",
       "translatable": true,
       "content": "* 👀 [TypeScript 5.5 PR merged - Infer type predicates from function bodies using control flow analysis](https://github.com/microsoft/TypeScript/pull/57465)\n* 📜 [Improved Cloudflare Workers testing via Vitest and workerd](https://blog.cloudflare.com/workers-vitest-integration/)\n* 📜 [Build a Node App with TypeScript](https://www.totaltypescript.com/typescript-and-node)\n* 📜 [Type Predicate Inference: The TS 5.5 Feature No One Expected](https://www.totaltypescript.com/type-predicate-inference)\n* 📜 [Hide extension requests plus more Network panel improvements](https://developer.chrome.com/blog/network-panel-improvements?hl=en)\n* 📜 [require(esm) in Node.js](https://joyeecheung.github.io/blog/2024/03/18/require-esm-in-node-js/)\n* 📜 [Comparing ECMAScript Modules and CommonJS](https://wanago.io/2024/03/18/ecmascript-modules-esm-commonjs/)\n* 📜 [A Beginner's Guide to Node.js Worker Threads](https://betterstack.com/community/guides/scaling-nodejs/nodejs-workers-explained/)\n* 📦 [Elysia 1.0 - Bun web framework](https://elysiajs.com/blog/elysia-10)\n* 📦 [Bun 1.0.31](https://bun.sh/blog/bun-v1.0.31)\n* 📦 [AnalogJS 1.0 - Angular meta-framework](https://dev.to/analogjs/announcing-analogjs-10-19an)\n* 📦 [Rsbuild 0.5 - Lightning CSS](https://rsbuild.dev/community/releases/v0-5)",
-      "sourceMdx": "- 👀 [TypeScript 5.5 PR merged - Infer type predicates from function bodies using control flow analysis](https://github.com/microsoft/TypeScript/pull/57465)\n- 📜 [Improved Cloudflare Workers testing via Vitest and workerd](https://blog.cloudflare.com/workers-vitest-integration/)\n- 📜 [Build a Node App with TypeScript](https://www.totaltypescript.com/typescript-and-node)\n- 📜 [Type Predicate Inference: The TS 5.5 Feature No One Expected](https://www.totaltypescript.com/type-predicate-inference)\n- 📜 [Hide extension requests plus more Network panel improvements](https://developer.chrome.com/blog/network-panel-improvements?hl=en)\n- 📜 [require(esm) in Node.js](https://joyeecheung.github.io/blog/2024/03/18/require-esm-in-node-js/)\n- 📜 [Comparing ECMAScript Modules and CommonJS](https://wanago.io/2024/03/18/ecmascript-modules-esm-commonjs/)\n- 📜 [A Beginner's Guide to Node.js Worker Threads](https://betterstack.com/community/guides/scaling-nodejs/nodejs-workers-explained/)\n- 📦 [Elysia 1.0 - Bun web framework](https://elysiajs.com/blog/elysia-10)\n- 📦 [Bun 1.0.31](https://bun.sh/blog/bun-v1.0.31)\n- 📦 [AnalogJS 1.0 - Angular meta-framework](https://dev.to/analogjs/announcing-analogjs-10-19an)\n- 📦 [Rsbuild 0.5 - Lightning CSS](https://rsbuild.dev/community/releases/v0-5)"
+      "sourceMdx": "- 👀 [TypeScript 5.5 PR merged - Infer type predicates from function bodies using control flow analysis](https://github.com/microsoft/TypeScript/pull/57465)\n- 📜 [Improved Cloudflare Workers testing via Vitest and workerd](https://blog.cloudflare.com/workers-vitest-integration/)\n- 📜 [Build a Node App with TypeScript](https://www.totaltypescript.com/typescript-and-node)\n- 📜 [Type Predicate Inference: The TS 5.5 Feature No One Expected](https://www.totaltypescript.com/type-predicate-inference)\n- 📜 [Hide extension requests plus more Network panel improvements](https://developer.chrome.com/blog/network-panel-improvements?hl=en)\n- 📜 [require(esm) in Node.js](https://joyeecheung.github.io/blog/2024/03/18/require-esm-in-node-js/)\n- 📜 [Comparing ECMAScript Modules and CommonJS](https://wanago.io/2024/03/18/ecmascript-modules-esm-commonjs/)\n- 📜 [A Beginner's Guide to Node.js Worker Threads](https://betterstack.com/community/guides/scaling-nodejs/nodejs-workers-explained/)\n- 📦 [Elysia 1.0 - Bun web framework](https://elysiajs.com/blog/elysia-10)\n- 📦 [Bun 1.0.31](https://bun.sh/blog/bun-v1.0.31)\n- 📦 [AnalogJS 1.0 - Angular meta-framework](https://dev.to/analogjs/announcing-analogjs-10-19an)\n- 📦 [Rsbuild 0.5 - Lightning CSS](https://rsbuild.dev/community/releases/v0-5)",
+      "nodeType": "list",
+      "translated_content": "- 👀 [TypeScript 5.5 PR合并 - 通过控制流分析推断函数体类型谓词](https://github.com/microsoft/TypeScript/pull/57465)\n- 📜 [通过Vitest和workerd改进Cloudflare Workers测试](https://blog.cloudflare.com/workers-vitest-integration/)\n- 📜 [使用TypeScript构建Node应用](https://www.totaltypescript.com/typescript-and-node)\n- 📜 [类型谓词推断：TS 5.5的意外惊喜特性](https://www.totaltypescript.com/type-predicate-inference)\n- 📜 [隐藏扩展请求及网络面板改进](https://developer.chrome.com/blog/network-panel-improvements?hl=en)\n- 📜 [Node.js中的require(esm)](https://joyeecheung.github.io/blog/2024/03/18/require-esm-in-node-js/)\n- 📜 [ECMAScript模块与CommonJS对比](https://wanago.io/2024/03/18/ecmascript-modules-esm-commonjs/)\n- 📜 [Node.js工作线程入门指南](https://betterstack.com/community/guides/scaling-nodejs/nodejs-workers-explained/)\n- 📦 [Elysia 1.0 - Bun Web框架](https://elysiajs.com/blog/elysia-10)\n- 📦 [Bun 1.0.31发布](https://bun.sh/blog/bun-v1.0.31)\n- 📦 [AnalogJS 1.0 - Angular元框架](https://dev.to/analogjs/announcing-analogjs-10-19an)\n- 📦 [Rsbuild 0.5 - 支持Lightning CSS](https://rsbuild.dev/community/releases/v0-5)"
     },
     {
       "id": "c63467a3",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "73776161",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 趣闻 {#fun}"
     },
     {
       "id": "f7e6e884",
       "translatable": true,
       "content": "[![Dropped Animation Frames](/emails/issues/178/meme.jpg)](https://twitter.com/ryanflorence/status/1769842701904822774)",
-      "sourceMdx": "[![Dropped Animation Frames](/emails/issues/178/meme.jpg)](https://twitter.com/ryanflorence/status/1769842701904822774)"
+      "sourceMdx": "[![Dropped Animation Frames](/emails/issues/178/meme.jpg)](https://twitter.com/ryanflorence/status/1769842701904822774)",
+      "nodeType": "paragraph",
+      "translated_content": "[![丢帧动画梗图](/emails/issues/178/meme.jpg)](https://twitter.com/ryanflorence/status/1769842701904822774)"
     },
     {
       "id": "17b50e81",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下期见！👋"
     }
   ]
 }

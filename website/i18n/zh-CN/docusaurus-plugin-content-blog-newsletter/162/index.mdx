@@ -7,11 +7,11 @@ date: 10-11-2023
 
 大家好！
 
-本周，我关注了Lit 3.0的发布，想看看在React中使用Web Components是否变得更简单了。
+本周我关注了Lit 3.0的发布，想看看在React中使用Web Components是否变得更简单了。
 
-在React-Native方面，0.73版本已进入发布候选阶段，带来了一系列开发者体验改进。关于Text和View组件可能的优化也有有趣进展。Canvaskit-js使得仅用20kb就能在Web端运行Skia！
+在React-Native方面，0.73版本已进入发布候选阶段，带来多项开发者体验改进。关于Text和View组件可能的优化也有有趣进展。Canvaskit-js实现了仅20kb就能在Web端运行Skia！
 
-上周的ViteConf上有一些有趣的公告，特别是Rollup的Rust移植版本，以及Vite在Remix和React-Native中的应用。
+上周ViteConf上有一些值得关注的公告，特别是Rollup的Rust移植版本，以及Vite在Remix和React-Native中的应用。
 
 <!-- truncate -->
 
@@ -31,11 +31,11 @@ import Support from "../_support.mdx";
 
 **[highlight.io - 开源全栈监控平台](https://www.highlight.io/)**
 
-[**highlight.io**](http://highlight.io) 是真正的开源应用监控解决方案，支持会话回放、错误监控和日志平台，是您下一个项目的理想选择。
+[**highlight.io**](http://highlight.io) 是真正的开源应用监控解决方案，支持会话回放、错误监控和日志平台，是您下一个项目的完美选择。
 
-无需浪费时间猜测bug原因。使用highlight即可清晰掌握浏览器端和服务器端应用状况。
+无需浪费时间猜测bug成因。使用highlight即可清晰掌握浏览器端和服务器端应用状态。
 
-它能轻松集成到您喜爱的框架中：[React.js](https://www.highlight.io/docs/getting-started/client-sdk/reactjs)、[Next.js](https://www.highlight.io/docs/getting-started/fullstack-frameworks/next-js)、[Remix](https://www.highlight.io/docs/getting-started/fullstack-frameworks/remix) 或其他任何框架！
+支持主流框架快速集成：[React.js](https://www.highlight.io/docs/getting-started/client-sdk/reactjs)、[Next.js](https://www.highlight.io/docs/getting-started/fullstack-frameworks/next-js)、[Remix](https://www.highlight.io/docs/getting-started/fullstack-frameworks/remix)及其他技术栈！
 
 ---
 
@@ -45,34 +45,34 @@ import Support from "../_support.mdx";
 
 [**Lit React v1.0**](https://www.npmjs.com/package/@lit/react)
 
-Google的Web Components框架[Lit刚刚发布了3.0版本](https://lit.dev/blog/2023-10-10-lit-3.0/)。除了框架本身的改进（装饰器、模板编译器、Preact Signals），特别值得注意的是`@lit/react`集成包已从实验室毕业，现在稳定且达到v1.0。
+谷歌的Web Components框架[Lit刚发布3.0版本](https://lit.dev/blog/2023-10-10-lit-3.0/)。除了框架本身的改进（装饰器、模板编译器、Preact Signals），特别值得注意的是`@lit/react`集成包已结束实验阶段，现推出稳定版v1.0。
 
-该集成通过创建包装器将React属性映射到自定义元素的属性、管理事件处理程序并简化TypeScript类型标注，极大便利了在React应用（或Preact）中使用Web Components。它弥补了React 18与Web Components集成不佳的缺陷：React属性会被映射为特性(attributes)而非属性(properties)。详见[React框架集成文档](https://lit.dev/docs/frameworks/react/)。
+该集成方案通过创建包装器将React props映射到自定义元素的属性，管理事件处理并优化TypeScript类型支持，极大简化了Web Components在React（或Preact）应用中的使用。这弥补了React 18与Web Components集成时的某些不足——React默认将props映射为属性而非特性。详见[React框架集成文档](https://lit.dev/docs/frameworks/react/)。
 
-但现代React开发者能轻松使用这些吗？Lit提供了实验性包[@lit-labs/ssr](https://www.npmjs.com/package/@lit-labs/ssr)、[@lit-labs/ssr-react](https://www.npmjs.com/package/@lit-labs/ssr-react)和[@lit-labs/nextjs](https://www.npmjs.com/package/@lit-labs/nextjs)，但支持有限且不兼容Next.js App Router。[声明式Shadow DOM](https://developer.chrome.com/articles/declarative-shadow-dom/)（支持SSR）尚未在Firefox实现，但有polyfill可用。简言之，Lit在CRA应用中表现良好，但如需SSR和SEO支持仍存在一定风险。
+但现代React开发者能轻松使用这些功能吗？Lit提供的实验性包[@lit-labs/ssr](https://www.npmjs.com/package/@lit-labs/ssr)、[@lit-labs/ssr-react](https://www.npmjs.com/package/@lit-labs/ssr-react)和[@lit-labs/nextjs](https://www.npmjs.com/package/@lit-labs/nextjs)支持有限，无法与Next.js App Router兼容。[声明式Shadow DOM](https://developer.chrome.com/articles/declarative-shadow-dom/)（实现SSR的关键）尚未在Firefox中实现，但已有polyfill方案。简而言之，Lit在CRA应用中表现良好，但在需要SSR和SEO的场景下仍存在一定风险。
 
 ---
 
-- 💸 [用Ably的应用内协作SDK，几行代码即可创建类似Figma和Miro的协作应用](https://hubs.la/Q023nqgg0)
-- 👀 [Remix PR - 添加实验性Vite支持](https://github.com/remix-run/remix/pull/7590)
-- 👀 [Remix PR - 添加startViewTransition支持](https://github.com/remix-run/react-router/pull/10916)
-- 👀 [Next.js PR - 文档化Server Actions的`.bind`方法](https://github.com/vercel/next.js/pull/56164): [Next.js文档](https://nextjs.org/docs/app/api-reference/functions/server-actions#binding-arguments)现在推荐使用`myAction.bind(null, myArg)`向Server Action传递额外参数，返回的函数仍将保持Server Action特性。
-- 📜 [UI组件组合——退一步海阔天空](https://kyleshevlin.com/ui-composition): 文章通过卡片组件过度承担职责的案例，提出通过拆分和组合提升可维护性的方案。
-- 📜 [Remix实现服务端分页](https://www.jacobparis.com/content/remix-pagination): 这种完全依赖表单原生行为、无需JS操作查询字符串的实现方式非常巧妙，完美支持渐进增强。唯一缺憾是无法在新标签页打开分页😅。
-- 📜 [在Remix中访问Loader数据](https://sergiodxa.com/tutorials/access-loaders-data-in-remix): 比较了`useLoaderData`和`useRouteLoaderData`在不同场景下的使用取舍。
-- 📜 [我为什么热爱Remix，你也应该如此](https://alemtuzlak.hashnode.dev/why-i-love-remix)
-- 📜 [提升React应用内存效率 - Million.js不止于速度](https://dev.to/ricardonunezio/millionjs-beyond-speed-making-react-apps-memory-efficient-2amn)
+- 💸 [用Ably的应用内协作SDK只需几行代码就能创建类似Figma和Miro的协作应用](https://hubs.la/Q023nqgg0)
+- 👀 [Remix PR - 新增实验性Vite支持](https://github.com/remix-run/remix/pull/7590)
+- 👀 [Remix PR - 新增startViewTransition支持](https://github.com/remix-run/react-router/pull/10916)
+- 👀 [Next.js PR - 文档说明Server Actions的`.bind`方法](https://github.com/vercel/next.js/pull/56164): [Next.js文档](https://nextjs.org/docs/app/api-reference/functions/server-actions#binding-arguments)现在推荐使用`myAction.bind(null, myArg)`向Server Action传递额外参数，返回的函数也将是一个Server Action。
+- 📜 [UI组合——退一步海阔天空](https://kyleshevlin.com/ui-composition): 文章通过一个承担过多职责的Card组件案例，建议通过拆分和组合提升可维护性。
+- 📜 [Remix实现服务端分页](https://www.jacobparis.com/content/remix-pagination): 这种完全不依赖`onClick`监听器或JS操作查询字符串的实现很有趣，仅依靠表单原生行为即可兼容渐进增强。唯一不足：无法在新标签页打开页面😅。
+- 📜 [在Remix中访问Loader数据](https://sergiodxa.com/tutorials/access-loaders-data-in-remix): 分析不同场景下使用`useLoaderData`或`useRouteLoaderData`的取舍。
+- 📜 [我为什么热爱Remix，你也应该试试](https://alemtuzlak.hashnode.dev/why-i-love-remix)
+- 📜 [提升React应用内存效率——Million.js不止于速度](https://dev.to/ricardonunezio/millionjs-beyond-speed-making-react-apps-memory-efficient-2amn)
 - 📜 [使用Yalc本地测试React库](https://www.propelauth.com/post/test-your-react-libraries-with-yalc)
 - 📜 [为什么我们仍在React中使用高阶组件](https://www.propelauth.com/post/why-we-have-both-react-hooks-and-hocs)
-- 📜 [渐进增强的WebGL透镜折射效果](https://tympanus.net/codrops/2023/10/10/progressively-enhanced-webgl-lens-refraction/)
-- 📦 [Fresh v1.5 - 局部更新、客户端导航等新特性](https://deno.com/blog/fresh-1.5): 这个Preact框架通过"Partials"实现客户端状态保持导航，视图过渡功能即将到来。
-- 📦 [next-safe-action v4 - 为Next.js 13应用提供类型安全的Server Actions](https://next-safe-action.dev/): 集成Zod进行输入验证。注：类似项目[Zact](https://github.com/pingdotgg/zact)已弃用，推荐迁移至本方案。
-- 📦 [Astro Starlight v0.11](https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.11.0): 新增[组件覆盖](https://starlight.astro.build/guides/overriding-components/)功能用于文档定制。
-- 📦 [React-Query 5.0.0 RC.10](https://github.com/TanStack/query/releases/tag/v5.0.0-rc.10): 最新候选版在[🐦开发者工具](https://twitter.com/TkDodo/status/1711297673934848388)和[🐦TypeScript支持](https://twitter.com/TkDodo/status/1711635656642855297)上有显著改进。
-- 🔗 [ServerComponents.dev](https://servercomponents.dev/): 了解服务端组件的趣味交互式资源站。
-- 🎥 [Remotion九月更新一览](https://www.youtube.com/watch?v=Ol-571DOPDY)
-- 📅 [React Jam游戏开发挑战 - 10月19-29日](https://reactjam.com/)
-- 👥 [React Advanced高级研讨会](https://reactadvanced.com/?utm_source=email&utm_medium=thisweekinreact)(伦敦🇬🇧 10月20-23日)提供[9折优惠码"REACT10"](https://ti.to/gitnation/react-advanced-london-2023/discount/REACT10)
+- 📜 [渐进增强的WebGL镜头折射效果](https://tympanus.net/codrops/2023/10/10/progressively-enhanced-webgl-lens-refraction/)
+- 📦 [Fresh v1.5 - 局部更新、客户端导航等新特性](https://deno.com/blog/fresh-1.5): 这个Preact框架通过"局部"更新实现客户端导航状态保持，视图过渡功能即将推出。
+- 📦 [next-safe-action v4 - Next.js 13的类型安全Server Actions](https://next-safe-action.dev/): 集成Zod输入验证。注：类似项目[Zact](https://github.com/pingdotgg/zact)已弃用并推荐使用本库。
+- 📦 [Astro Starlight v0.11](https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.11.0): 新增[组件覆写功能](https://starlight.astro.build/guides/overriding-components/)自定义文档。
+- 📦 [React-Query 5.0.0 RC.10](https://github.com/TanStack/query/releases/tag/v5.0.0-rc.10): 最新候选版显著优化了[🐦开发者工具](https://twitter.com/TkDodo/status/1711297673934848388)和[🐦TypeScript支持](https://twitter.com/TkDodo/status/1711635656642855297)。
+- 🔗 [ServerComponents.dev](https://servercomponents.dev/): 了解Server Components的趣味交互式资源。
+- 🎥 [Remotion新特性——2023年9月](https://www.youtube.com/watch?v=Ol-571DOPDY)
+- 📅 [React Jam - 10月19-29日 - 用10天开发游戏的React开发者盛会](https://reactjam.com/)
+- 👥 [React Advanced大会](https://reactadvanced.com/?utm_source=email&utm_medium=thisweekinreact)(伦敦🇬🇧 10月20-23日)提供[9折优惠码"REACT10"](https://ti.to/gitnation/react-advanced-london-2023/discount/REACT10)
 
 <SubscribeFormEmbed placement="middle" />
 
@@ -84,11 +84,11 @@ Google的Web Components框架[Lit刚刚发布了3.0版本](https://lit.dev/blog/
 
 **[为React应用提供即插即用的身份验证与用户管理](https://clerk.com/?utm_source=sponsorship&utm_medium=newsletter&utm_campaign=thisweekinreact&utm_term=08_08_2023)**
 
-Clerk是为现代Web应用量身打造的最简易身份验证与用户管理解决方案，助您在几分钟内快速上线。
+Clerk是为现代Web应用量身打造的身份验证与用户管理解决方案，只需几分钟即可快速集成到React项目中。
 
-Clerk提供以下功能：
+使用Clerk您将获得：
 
-- 💅 开箱即用的登录、注册、用户资料及组织管理UI组件
+- 💅 开箱即用的登录、注册、用户资料和组织管理UI组件
 
 - 📦 支持React、React Native、Next.js、Redwood、Remix等框架的SDK
 
@@ -96,57 +96,57 @@ Clerk提供以下功能：
 
 - 🎁 内置用户管理、社交登录、魔法链接、多因素认证等功能
 
-通过Clerk的[快速入门指南](https://clerk.com/docs/quickstarts/overview?utm_source=sponsorship&utm_medium=newsletter&utm_campaign=thisweekinreact&utm_term=08_08_2023)立即体验 🚀
+立即通过[Clerk快速入门指南](https://clerk.com/docs/quickstarts/overview?utm_source=sponsorship&utm_medium=newsletter&utm_campaign=thisweekinreact&utm_term=08_08_2023)开始体验 🚀
 
 ---
 
 ## 📱 React-Native {#react-native}
 
-[![使用RCTView与RCTText提升React Native性能](/emails/issues/162/rnperf.jpg)](https://blog.theodo.com/2023/10/native-views-rn-performance/)
+[![在React Native中使用RCTView和RCTText提升性能](/emails/issues/162/rnperf.jpg)](https://blog.theodo.com/2023/10/native-views-rn-performance/)
 
-[**使用RCTView与RCTText提升React Native性能**](https://blog.theodo.com/2023/10/native-views-rn-performance/)
+[**在React Native中使用RCTView和RCTText提升性能**](https://blog.theodo.com/2023/10/native-views-rn-performance/)
 
-当前React-Native开发者正在[Twitter](https://twitter.com/FernandoTheRojo/status/1707762822015267219)热议`Text`和`View`组件的性能问题——这些JS封装层相比原生`RCTText`和`RCTView`会带来额外开销。William Candillon早在2021年就通过🎥[视频解析](https://www.youtube.com/watch?v=1D78Tc46Xqo&t=1156s)过该问题，并提出在不依赖`onPress`等特性的情况下优化文本渲染的可能性。本文通过基准测试量化了使用原生组件替代常规组件的性能提升，结果显示约有15%的性能增益（具体数值因平台和架构而异）。
+近期React-Native开发者们正在[Twitter上热议](https://twitter.com/FernandoTheRojo/status/1707762822015267219)关于`Text`和`View`组件的性能问题——这些JS封装层相比原生`RCTText`和`RCTView`会带来额外开销。William Candillon早在2021年就通过🎥[视频讲解过此问题](https://www.youtube.com/watch?v=1D78Tc46Xqo&t=1156s)，并提出在不需要`onPress`等交互功能时优化文本渲染的可能性。本文通过基准测试量化了使用原生组件替代常规组件的性能提升，数据显示平均可获得约15%的性能增益，具体效果因平台和架构而异。
 
-随着该技巧的普及，React-Native社区迅速涌现了[react-native-fast-text](https://github.com/peterpme/react-native-fast-text)等优化方案，以及能自动应用此优化的Babel插件概念验证[react-native-optimizer](https://github.com/marklawlor/react-native-optimizer)。
+随着该优化技巧的普及，社区迅速涌现了[react-native-fast-text](https://github.com/peterpme/react-native-fast-text)等解决方案，以及能自动应用此优化的Babel插件概念验证[react-native-optimizer](https://github.com/marklawlor/react-native-optimizer)。
 
 ---
 
-- 💸 [Blitz - 为iOS、Android和Web更快地构建React Native应用！](https://www.blitz-rn.com/)
-- 🐦 [Expo文档更新 - Bun、本地开发、iOS功能...](https://twitter.com/amanhimself/status/1710254359274037263)
-- 📜 [如何使用Flashlight测量React Native性能](https://www.bam.tech/article/measuring-react-native-performance-with-flashlight)：展示了使用Flashlight比较Android上FlatList和Flashlist滚动性能的示例。您可以使用ADB或Maestro命令模拟滚动。
-- 📜 [React TV应用的遥控器：使用react-tv-space-navigation 1.0的声明式方法！](https://www.bam.tech/article/handling-remote-controls-in-tv-apps-the-react-way-with-react-tv-space-navigation-1-0)：详细介绍了[react-tv-space-navigation](https://github.com/bamlab/react-tv-space-navigation)的创建过程，这是一个跨平台、无关框架的空间导航解决方案，适用于基于Web和原生的React TV应用。
-- 📦 [React-Native v0.73 RC.2](https://github.com/facebook/react-native/releases/tag/v0.73.0-rc.2)：v0.73已发布RC版本。您需要查看[🎥 React-Native-EU主题演讲](https://www.youtube.com/watch?v=-rCRgbsJumk)以了解所有亮点，包括一键调试流程和稳定的符号链接支持！
-- 📦 [vxrn - Vite的魔力，遇见React Native](https://vxrn.dev/)：新的实验性项目希望使用Vite进行跨平台React Native开发，与Expo不同，它押注于Metro。
-- 📦 [Vision-Camera 3.3 - 二维码/条形码扫描器](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.3.0)
-- 📦 [Vision-Camera-Barcode-Scanner](https://github.com/mgcrea/vision-camera-barcode-scanner)
-- 📦 [Create-Expo-Stack CLI v2](https://expostack.dev/)
-- 🎥 [回到Web](https://www.youtube.com/watch?v=3p3NI1yIgcM)：William Candillon展示了一个实验性的Skia `canvaskit-js` polyfill，让您只需20kb即可在Web上运行React-Native-Skia，而不是3mb！Flutter演示已经运行得相当不错。您可以在Create-React-App中使用它，而不依赖于React-Native-Web。
-- 🎥 [React Native存储的最佳选择是什么？](https://www.youtube.com/watch?v=wVNPmxntwKQ)
-- 🎙️ [React-Native-Radio 277 - Expo发布派对](https://reactnativeradio.com/episodes/rnr-277-expo-launch-party)
-- 🎙 [The React Native Show Podcast 28 - 使用Expo改善开发者体验](https://www.youtube.com/watch?v=4PPDAvgfLHk)
+- 💸 [Blitz - 加速构建 iOS、Android 和 Web 端的 React Native 应用！](https://www.blitz-rn.com/)
+- 🐦 [Expo 文档更新 - Bun、本地开发、iOS 功能支持...](https://twitter.com/amanhimself/status/1710254359274037263)
+- 📜 [如何使用 Flashlight 测量 React Native 性能](https://www.bam.tech/article/measuring-react-native-performance-with-flashlight)：展示如何利用 Flashlight 对比 Android 平台上 FlatList 与 Flashlist 的滚动性能，可通过 ADB 或 Maestro 命令模拟滚动操作。
+- 📜 [React TV 应用的遥控器交互：基于 react-tv-space-navigation 1.0 的声明式方案！](https://www.bam.tech/article/handling-remote-controls-in-tv-apps-the-react-way-with-react-tv-space-navigation-1-0)：详解跨平台空间导航库 [react-tv-space-navigation](https://github.com/bamlab/react-tv-space-navigation) 的开发背景，该方案兼容 Web 和原生环境的 React TV 应用。
+- 📦 [React-Native v0.73 RC.2 发布](https://github.com/facebook/react-native/releases/tag/v0.73.0-rc.2)：v0.73 候选版已推出，可通过 [React-Native-EU 主题演讲](https://www.youtube.com/watch?v=-rCRgbsJumk) 了解一键调试流程和稳定符号链接支持等亮点功能。
+- 📦 [vxrn - 融合 Vite 与 React Native 的魔法](https://vxrn.dev/)：这个实验性项目尝试用 Vite 替代 Metro 实现跨平台 React Native 开发。
+- 📦 [Vision-Camera 3.3 - 二维码/条形码扫描功能](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.3.0)
+- 📦 [Vision-Camera-Barcode-Scanner 扫描器插件](https://github.com/mgcrea/vision-camera-barcode-scanner)
+- 📦 [Create-Expo-Stack CLI v2 发布](https://expostack.dev/)
+- 🎥 [回归 Web 端](https://www.youtube.com/watch?v=3p3NI1yIgcM)：William Candillon 展示仅 20kb 的 Skia canvaskit-js 实验性 polyfill，使 React-Native-Skia 能脱离 React-Native-Web 在普通 CRA 项目中运行，Flutter 演示效果流畅。
+- 🎥 [React Native 最佳存储方案是什么？](https://www.youtube.com/watch?v=wVNPmxntwKQ)
+- 🎙️ [React-Native-Radio 第277期 - Expo 发布派对](https://reactnativeradio.com/episodes/rnr-277-expo-launch-party)
+- 🎙 [The React Native Show 第28期 - 用 Expo 提升开发体验](https://www.youtube.com/watch?v=4PPDAvgfLHk)
 
 ---
 
 ## 🔀 其他 {#other}
 
-- 🐦 [Evan You - "我们正在开发Rolldown，一个Rollup的Rust移植版本"](https://twitter.com/youyuxi/status/1709943106215530867)
-- 📜 [加速JavaScript生态系统 - 桶文件的灾难](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-7/)
-- 📜 [水合作用，懒加载的破坏者](https://www.builder.io/blog/hydration-sabotages-lazy-loading)
-- 📜 [使用CSS @scope规则限制选择器的范围](https://developer.chrome.com/articles/at-scope/)
-- 📜 [强静态类型，我愿意为之奋斗的山头...](https://www.svix.com/blog/strong-typing-hill-to-die-on/)
-- 📜 [Photoshop现在可以在Web上使用了！](https://medium.com/@addyosmani/photoshop-is-now-on-the-web-38d70954365a)
-- 📜 [编写你自己的Zod](https://zackoverflow.dev/writing/write-your-own-zod)
-- 📜 [这种技术使Valibot的包大小比Zod小10倍！](https://www.builder.io/blog/valibot-bundle-size)
-- 📜 [CRDTs的交互式介绍](https://jakelazaroff.com/words/an-interactive-intro-to-crdts/)
-- 📜 [ESLint Flat配置推出计划 - 默认在v9中](https://eslint.org/blog/2023/10/flat-config-rollout-plans/)
-- 📦 [Japa v3 - Node.js的测试框架](https://japa.dev/)
+- 🐦 [尤雨溪 - "我们正在开发 Rolldown，基于 Rust 的 Rollup 移植版"](https://twitter.com/youyuxi/status/1709943106215530867)
+- 📜 [加速 JavaScript 生态系列 - 桶文件困境](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-7/)
+- 📜 [水合作用：延迟加载的破坏者](https://www.builder.io/blog/hydration-sabotages-lazy-loading)
+- 📜 [用 CSS @scope 规则限定选择器作用域](https://developer.chrome.com/articles/at-scope/)
+- 📜 [强静态类型：我愿坚守的技术立场...](https://www.svix.com/blog/strong-typing-hill-to-die-on/)
+- 📜 [Photoshop 现已登陆网页端！](https://medium.com/@addyosmani/photoshop-is-now-on-the-web-38d70954365a)
+- 📜 [动手实现你自己的 Zod](https://zackoverflow.dev/writing/write-your-own-zod)
+- 📜 [这项技术让 Valibot 的体积比 Zod 小10倍！](https://www.builder.io/blog/valibot-bundle-size)
+- 📜 [CRDTs 交互式入门指南](https://jakelazaroff.com/words/an-interactive-intro-to-crdts/)
+- 📜 [ESLint 扁平化配置推进计划 - v9 版本将默认启用](https://eslint.org/blog/2023/10/flat-config-rollout-plans/)
+- 📦 [Japa v3 - Node.js 测试框架](https://japa.dev/)
 - 📦 [Prisma v5.4 - 无服务器数据库驱动预览](https://github.com/prisma/prisma/releases/tag/5.4.0)
-- 🎥 [ViteConf 2023回放](https://viteconf.org/23/replay)
+- 🎥 [ViteConf 2023 回放视频](https://viteconf.org/23/replay)
 
 ---
 
-## 🤭 趣闻 {#fun}
+## 🤭 趣味 {#fun}
 
 [![alt](/emails/issues/162/meme.jpg)](https://twitter.com/Hacksore/status/1710826658863702314)
 

@@ -1,395 +1,525 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/151/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/151/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /151\ntitle: \"This Week In React #151: Remotion, Next.js, SVG-in-JS, TypeScript, Expo, VisionCamera, Conform, TinyBase, i18n, App Clips, ES2023, CommonJS...\"\nauthors: [slorber]\ndate: 07-04-2023\n---",
-      "sourceMdx": "---\nslug: /151\ntitle: \"This Week In React #151: Remotion, Next.js, SVG-in-JS, TypeScript, Expo, VisionCamera, Conform, TinyBase, i18n, App Clips, ES2023, CommonJS...\"\nauthors: [slorber]\ndate: 07-04-2023\n---"
+      "sourceMdx": "---\nslug: /151\ntitle: \"This Week In React #151: Remotion, Next.js, SVG-in-JS, TypeScript, Expo, VisionCamera, Conform, TinyBase, i18n, App Clips, ES2023, CommonJS...\"\nauthors: [slorber]\ndate: 07-04-2023\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "We've got some great releases this week, with Remotion 4 and Expo SDK 49 in beta. Next.js devs are working on DX optimizations. The articles on React + SVG and VisionCamera are super interesting.",
-      "sourceMdx": "We've got some great releases this week, with Remotion 4 and Expo SDK 49 in beta. Next.js devs are working on DX optimizations. The articles on React + SVG and VisionCamera are super interesting."
+      "sourceMdx": "We've got some great releases this week, with Remotion 4 and Expo SDK 49 in beta. Next.js devs are working on DX optimizations. The articles on React + SVG and VisionCamera are super interesting.",
+      "nodeType": "paragraph",
+      "translated_content": "本周我们有重磅发布：Remotion 4正式版和Expo SDK 49测试版。Next.js团队正致力于开发者体验优化。关于React+SVG和VisionCamera的技术文章非常值得一读。"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "[Remotion 4 is on ProductHunt today](https://www.producthunt.com/posts/remotion-4-0): don't hesitate to vote! 👍",
-      "sourceMdx": "[Remotion 4 is on ProductHunt today](https://www.producthunt.com/posts/remotion-4-0): don't hesitate to vote! 👍"
+      "sourceMdx": "[Remotion 4 is on ProductHunt today](https://www.producthunt.com/posts/remotion-4-0): don't hesitate to vote! 👍",
+      "nodeType": "paragraph",
+      "translated_content": "[Remotion 4今日登陆ProductHunt](https://www.producthunt.com/posts/remotion-4-0)：欢迎投票支持！👍"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "No newsletter next week, see you on 18 July 👋",
-      "sourceMdx": "No newsletter next week, see you on 18 July 👋"
+      "sourceMdx": "No newsletter next week, see you on 18 July 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下周停更一期，7月18日再见👋"
     },
     {
       "id": "6429a3aa",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_6429a3aa"
     },
     {
       "id": "39b3772c",
       "translatable": true,
       "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
-      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "nodeType": "paragraph",
+      "translated_content": "**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化排版 🎨**"
     },
     {
       "id": "507b4652",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "fcd52337",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_fcd52337"
     },
     {
       "id": "42e34e45",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_42e34e45"
     },
     {
       "id": "caf67047",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "3c36424c",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "26524352",
       "translatable": true,
       "content": "[![Frontendmasters](/emails/issues/151/frontendmasters.png)](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email\\&utm_medium=thisweekinreact\\&utm_content=uidev)",
-      "sourceMdx": "[![Frontendmasters](/emails/issues/151/frontendmasters.png)](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email&utm_medium=thisweekinreact&utm_content=uidev)"
+      "sourceMdx": "[![Frontendmasters](/emails/issues/151/frontendmasters.png)](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email&utm_medium=thisweekinreact&utm_content=uidev)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Frontendmasters](/emails/issues/151/frontendmasters.png)](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email&utm_medium=thisweekinreact&utm_content=uidev)"
     },
     {
       "id": "73ab96a3",
       "translatable": true,
       "content": "**[Enterprise UI Development (With React): Testing & Code Quality](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email\\&utm_medium=thisweekinreact\\&utm_content=uidev)**",
-      "sourceMdx": "**[Enterprise UI Development (With React): Testing & Code Quality](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email&utm_medium=thisweekinreact&utm_content=uidev)**"
+      "sourceMdx": "**[Enterprise UI Development (With React): Testing & Code Quality](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email&utm_medium=thisweekinreact&utm_content=uidev)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[企业级UI开发(React版)：测试与代码质量](https://frontendmasters.com/courses/enterprise-ui-dev/?utm_source=email&utm_medium=thisweekinreact&utm_content=uidev)**"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "Managing or migrating large apps and codebases? This video course covers what you need to know to scale efficiently whilst maintaining code quality. Covers unit testing, CI pipelines, mocking, code coverage, and more.",
-      "sourceMdx": "Managing or migrating large apps and codebases? This video course covers what you need to know to scale efficiently whilst maintaining code quality. Covers unit testing, CI pipelines, mocking, code coverage, and more."
+      "sourceMdx": "Managing or migrating large apps and codebases? This video course covers what you need to know to scale efficiently whilst maintaining code quality. Covers unit testing, CI pipelines, mocking, code coverage, and more.",
+      "nodeType": "paragraph",
+      "translated_content": "正在管理或迁移大型应用？本视频课程涵盖规模化高效开发的关键要素，包括单元测试、CI流水线、模拟测试、代码覆盖率等质量保障体系。"
     },
     {
       "id": "b0e5a8f2",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "80d9e13c",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React动态 {#react}"
     },
     {
       "id": "33331f27",
       "translatable": true,
       "content": "[![Remotion 4.0](/emails/issues/151/remotion4.jpg)](https://www.remotion.dev/blog/4-0)",
-      "sourceMdx": "[![Remotion 4.0](/emails/issues/151/remotion4.jpg)](https://www.remotion.dev/blog/4-0)"
+      "sourceMdx": "[![Remotion 4.0](/emails/issues/151/remotion4.jpg)](https://www.remotion.dev/blog/4-0)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Remotion 4.0](/emails/issues/151/remotion4.jpg)](https://www.remotion.dev/blog/4-0)"
     },
     {
       "id": "50746522",
       "translatable": true,
       "content": "**[Remotion 4.0](https://www.remotion.dev/blog/4-0)**",
-      "sourceMdx": "**[Remotion 4.0](https://www.remotion.dev/blog/4-0)**"
+      "sourceMdx": "**[Remotion 4.0](https://www.remotion.dev/blog/4-0)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Remotion 4.0](https://www.remotion.dev/blog/4-0)**"
     },
     {
       "id": "95e9ba12",
       "translatable": true,
       "content": "Remotion lets you create videos with React. This week, it's [Remotion v4 launch week](https://www.remotion.dev/4), kicked off by a [Keynote](https://www.youtube.com/watch?v=S3C9wlPNhkQ) that demonstrates well the renderer's new 3D SVG capabilities. Announcements are scheduled each day to present the new features, which are also detailed in the blog post. Here are a few highlights:",
-      "sourceMdx": "Remotion lets you create videos with React. This week, it's [Remotion v4 launch week](https://www.remotion.dev/4), kicked off by a [Keynote](https://www.youtube.com/watch?v=S3C9wlPNhkQ) that demonstrates well the renderer's new 3D SVG capabilities. Announcements are scheduled each day to present the new features, which are also detailed in the blog post. Here are a few highlights:"
+      "sourceMdx": "Remotion lets you create videos with React. This week, it's [Remotion v4 launch week](https://www.remotion.dev/4), kicked off by a [Keynote](https://www.youtube.com/watch?v=S3C9wlPNhkQ) that demonstrates well the renderer's new 3D SVG capabilities. Announcements are scheduled each day to present the new features, which are also detailed in the blog post. Here are a few highlights:",
+      "nodeType": "paragraph",
+      "translated_content": "这个用React制作视频的工具本周开启了[v4发布周](https://www.remotion.dev/4)，[主题演讲](https://www.youtube.com/watch?v=S3C9wlPNhkQ)展示了新版3D SVG渲染能力。博客详细说明了每日发布的新特性，重点包括："
     },
     {
       "id": "824626b3",
       "translatable": true,
       "content": "* Remotion Studio: Zod-based visual props editing, render button...\n* Rust-powered architecture, FFmpeg baked in, 2x faster OffthreadVideo\n* SVG 3D engine\n* Tailwind, Rive integration",
-      "sourceMdx": "- Remotion Studio: Zod-based visual props editing, render button...\n- Rust-powered architecture, FFmpeg baked in, 2x faster OffthreadVideo\n- SVG 3D engine\n- Tailwind, Rive integration"
+      "sourceMdx": "- Remotion Studio: Zod-based visual props editing, render button...\n- Rust-powered architecture, FFmpeg baked in, 2x faster OffthreadVideo\n- SVG 3D engine\n- Tailwind, Rive integration",
+      "nodeType": "list",
+      "translated_content": "- Remotion Studio：基于Zod的可视化属性编辑、渲染按钮...\n- Rust架构底层，内置FFmpeg，OffthreadVideo提速2倍\n- SVG 3D引擎\n- Tailwind/Rive集成支持"
     },
     {
       "id": "c504c207",
       "translatable": true,
       "content": "There's also a [launch on ProductHunt](https://www.producthunt.com/posts/remotion-4-0) today so don't hesitate to vote ;)",
-      "sourceMdx": "There's also a [launch on ProductHunt](https://www.producthunt.com/posts/remotion-4-0) today so don't hesitate to vote ;)"
+      "sourceMdx": "There's also a [launch on ProductHunt](https://www.producthunt.com/posts/remotion-4-0) today so don't hesitate to vote ;)",
+      "nodeType": "paragraph",
+      "translated_content": "当前正在[ProductHunt首发](https://www.producthunt.com/posts/remotion-4-0)，欢迎投票支持;)"
     },
     {
       "id": "5f01394b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "d3649a1e",
       "translatable": true,
       "content": "[![RBreaking Up with SVG-in-JS in 2023](/emails/issues/151/svginjs.jpg)](https://kurtextrem.de/posts/svg-in-js)",
-      "sourceMdx": "[![RBreaking Up with SVG-in-JS in 2023](/emails/issues/151/svginjs.jpg)](https://kurtextrem.de/posts/svg-in-js)"
+      "sourceMdx": "[![RBreaking Up with SVG-in-JS in 2023](/emails/issues/151/svginjs.jpg)](https://kurtextrem.de/posts/svg-in-js)",
+      "nodeType": "paragraph",
+      "translated_content": "[![2023年告别SVG-in-JS](/emails/issues/151/svginjs.jpg)](https://kurtextrem.de/posts/svg-in-js)"
     },
     {
       "id": "4d52a261",
       "translatable": true,
       "content": "**[Breaking Up with SVG-in-JS in 2023](https://kurtextrem.de/posts/svg-in-js)**",
-      "sourceMdx": "**[Breaking Up with SVG-in-JS in 2023](https://kurtextrem.de/posts/svg-in-js)**"
+      "sourceMdx": "**[Breaking Up with SVG-in-JS in 2023](https://kurtextrem.de/posts/svg-in-js)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[2023年告别SVG-in-JS](https://kurtextrem.de/posts/svg-in-js)**"
     },
     {
       "id": "23dfb152",
       "translatable": true,
       "content": "Very comprehensive article on the various ways of using SVGs in a React app, and their impact on performance.\nAdvises against \"SVG-in-JS\": you should avoid rendering SVG markup via React components and having the SVG code be present in the JS bundle, including via solutions such as the SVGR loader. With a few exceptions, it's best to avoid inlining SVGs in HTML: React Server Components aren't necessarily an ideal solution either. SVG sprites are a good solution.",
-      "sourceMdx": "Very comprehensive article on the various ways of using SVGs in a React app, and their impact on performance.\nAdvises against \"SVG-in-JS\": you should avoid rendering SVG markup via React components and having the SVG code be present in the JS bundle, including via solutions such as the SVGR loader. With a few exceptions, it's best to avoid inlining SVGs in HTML: React Server Components aren't necessarily an ideal solution either. SVG sprites are a good solution."
+      "sourceMdx": "Very comprehensive article on the various ways of using SVGs in a React app, and their impact on performance.\nAdvises against \"SVG-in-JS\": you should avoid rendering SVG markup via React components and having the SVG code be present in the JS bundle, including via solutions such as the SVGR loader. With a few exceptions, it's best to avoid inlining SVGs in HTML: React Server Components aren't necessarily an ideal solution either. SVG sprites are a good solution.",
+      "nodeType": "paragraph",
+      "translated_content": "深度解析React应用中SVG的各种使用方案及其性能影响。明确指出应避免\"SVG-in-JS\"模式：通过React组件渲染SVG标记会导致SVG代码被打包进JS文件，包括使用SVGR加载器等方案。除少数场景外，也不推荐内联SVG到HTML——React服务端组件未必是最佳解。SVG雪碧图是较优方案。"
     },
     {
       "id": "818747ba",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "158e1f5d",
       "translatable": true,
       "content": "* 👀 [React.dev PR - Adds a TypeScript overview page](https://github.com/reactjs/react.dev/pull/6120): a doc page is coming soon to document the use of React APIs with TypeScript.\n* 👀 [Next.js - Improving next/image support](https://twitter.com/leeerob/status/1674250190432116736)\n* 📜 [Form validation with Conform, Zod, and Remix](https://www.jacobparis.com/content/remix-conform): Conform is a library that validates FormData on the server, respects Remix's progressive enhancement and displays errors on the client. I think we should be able to [use it with Next.js Server Actions](https://twitter.com/sebastienlorber/status/1676210400256204800) later?\n* 📜 [Declaring JSX types in TypeScript 5.1](https://blog.logrocket.com/declaring-jsx-types-typescript-5-1/): explains the recent improvements to JSX typing, particularly for React.\n* 📜 [React Hook for Avoiding Flash of Empty UI While Data Transitions](https://www.jameskerr.blog/posts/use-data-transition/)\n* 📜 [Storybook - In-app tour for new users](https://storybook.js.org/blog/in-app-tour-for-new-users/)\n* 📜 [Internationalize NextJs URLs with next-translate](https://dev.to/martinratinaud/internationalize-nextjs-urls-with-next-translate-49d8)\n* 📜 [Creating a seamless multi-language user interface in React](https://www.honeybadger.io/blog/creating-multi-language-user-interface-with-react/)\n* 📜 [Aria-Live Regions in React](https://dev.to/abbeyperini/live-regions-in-react-4dmd)\n* 📦 [Next.js 13.4.8 - 1.5x faster local server startup and 54% faster updates](https://twitter.com/nextjs/status/1675929873720680459): as announced, Vercel is working on performance optimisations to improve the Next.js DX. See Tim Neutkens' [comment](https://github.com/vercel/next.js/issues/48748#issuecomment-1614456247) for more details.\n* 📦 [Styled-Components v6](https://github.com/styled-components/styled-components/releases/tag/v6.0.0): some breaking changes well documented in an upgrade guide..\n* 📦 [Astro Starlight](https://starlight.astro.build/): official Astro template for documentation, with a low carbon footprint and the option of using React and MDX.\n* 📦 [next-international v0.5 - initial App Router support](https://twitter.com/tomlienard/status/1675512683007705090)\n* 📦 [TinyBase v4.0 - Reactive data store for local‑first apps - SQLite and CRDT integrations](https://twitter.com/tinybasejs/status/1674826869169070080)\n* 📦 [Bun-Remix](https://github.com/jacob-ebey/bun-remix)\n* 🎙️ [Reactiflux - This Month in React – June 2023](https://podcasters.spotify.com/pod/show/reactiflux/episodes/This-Month-in-React--June-2023-e26dgii)\n* 🎥 [What's Next For Redux with Mark Erikson?](https://www.youtube.com/watch?v=n5FK8_EXcbs)",
-      "sourceMdx": "- 👀 [React.dev PR - Adds a TypeScript overview page](https://github.com/reactjs/react.dev/pull/6120): a doc page is coming soon to document the use of React APIs with TypeScript.\n- 👀 [Next.js - Improving next/image support](https://twitter.com/leeerob/status/1674250190432116736)\n- 📜 [Form validation with Conform, Zod, and Remix](https://www.jacobparis.com/content/remix-conform): Conform is a library that validates FormData on the server, respects Remix's progressive enhancement and displays errors on the client. I think we should be able to [use it with Next.js Server Actions](https://twitter.com/sebastienlorber/status/1676210400256204800) later?\n- 📜 [Declaring JSX types in TypeScript 5.1](https://blog.logrocket.com/declaring-jsx-types-typescript-5-1/): explains the recent improvements to JSX typing, particularly for React.\n- 📜 [React Hook for Avoiding Flash of Empty UI While Data Transitions](https://www.jameskerr.blog/posts/use-data-transition/)\n- 📜 [Storybook - In-app tour for new users](https://storybook.js.org/blog/in-app-tour-for-new-users/)\n- 📜 [Internationalize NextJs URLs with next-translate](https://dev.to/martinratinaud/internationalize-nextjs-urls-with-next-translate-49d8)\n- 📜 [Creating a seamless multi-language user interface in React](https://www.honeybadger.io/blog/creating-multi-language-user-interface-with-react/)\n- 📜 [Aria-Live Regions in React](https://dev.to/abbeyperini/live-regions-in-react-4dmd)\n- 📦 [Next.js 13.4.8 - 1.5x faster local server startup and 54% faster updates](https://twitter.com/nextjs/status/1675929873720680459): as announced, Vercel is working on performance optimisations to improve the Next.js DX. See Tim Neutkens' [comment](https://github.com/vercel/next.js/issues/48748#issuecomment-1614456247) for more details.\n- 📦 [Styled-Components v6](https://github.com/styled-components/styled-components/releases/tag/v6.0.0): some breaking changes well documented in an upgrade guide..\n- 📦 [Astro Starlight](https://starlight.astro.build/): official Astro template for documentation, with a low carbon footprint and the option of using React and MDX.\n- 📦 [next-international v0.5 - initial App Router support](https://twitter.com/tomlienard/status/1675512683007705090)\n- 📦 [TinyBase v4.0 - Reactive data store for local‑first apps - SQLite and CRDT integrations](https://twitter.com/tinybasejs/status/1674826869169070080)\n- 📦 [Bun-Remix](https://github.com/jacob-ebey/bun-remix)\n- 🎙️ [Reactiflux - This Month in React – June 2023](https://podcasters.spotify.com/pod/show/reactiflux/episodes/This-Month-in-React--June-2023-e26dgii)\n- 🎥 [What's Next For Redux with Mark Erikson?](https://www.youtube.com/watch?v=n5FK8_EXcbs)"
+      "sourceMdx": "- 👀 [React.dev PR - Adds a TypeScript overview page](https://github.com/reactjs/react.dev/pull/6120): a doc page is coming soon to document the use of React APIs with TypeScript.\n- 👀 [Next.js - Improving next/image support](https://twitter.com/leeerob/status/1674250190432116736)\n- 📜 [Form validation with Conform, Zod, and Remix](https://www.jacobparis.com/content/remix-conform): Conform is a library that validates FormData on the server, respects Remix's progressive enhancement and displays errors on the client. I think we should be able to [use it with Next.js Server Actions](https://twitter.com/sebastienlorber/status/1676210400256204800) later?\n- 📜 [Declaring JSX types in TypeScript 5.1](https://blog.logrocket.com/declaring-jsx-types-typescript-5-1/): explains the recent improvements to JSX typing, particularly for React.\n- 📜 [React Hook for Avoiding Flash of Empty UI While Data Transitions](https://www.jameskerr.blog/posts/use-data-transition/)\n- 📜 [Storybook - In-app tour for new users](https://storybook.js.org/blog/in-app-tour-for-new-users/)\n- 📜 [Internationalize NextJs URLs with next-translate](https://dev.to/martinratinaud/internationalize-nextjs-urls-with-next-translate-49d8)\n- 📜 [Creating a seamless multi-language user interface in React](https://www.honeybadger.io/blog/creating-multi-language-user-interface-with-react/)\n- 📜 [Aria-Live Regions in React](https://dev.to/abbeyperini/live-regions-in-react-4dmd)\n- 📦 [Next.js 13.4.8 - 1.5x faster local server startup and 54% faster updates](https://twitter.com/nextjs/status/1675929873720680459): as announced, Vercel is working on performance optimisations to improve the Next.js DX. See Tim Neutkens' [comment](https://github.com/vercel/next.js/issues/48748#issuecomment-1614456247) for more details.\n- 📦 [Styled-Components v6](https://github.com/styled-components/styled-components/releases/tag/v6.0.0): some breaking changes well documented in an upgrade guide..\n- 📦 [Astro Starlight](https://starlight.astro.build/): official Astro template for documentation, with a low carbon footprint and the option of using React and MDX.\n- 📦 [next-international v0.5 - initial App Router support](https://twitter.com/tomlienard/status/1675512683007705090)\n- 📦 [TinyBase v4.0 - Reactive data store for local‑first apps - SQLite and CRDT integrations](https://twitter.com/tinybasejs/status/1674826869169070080)\n- 📦 [Bun-Remix](https://github.com/jacob-ebey/bun-remix)\n- 🎙️ [Reactiflux - This Month in React – June 2023](https://podcasters.spotify.com/pod/show/reactiflux/episodes/This-Month-in-React--June-2023-e26dgii)\n- 🎥 [What's Next For Redux with Mark Erikson?](https://www.youtube.com/watch?v=n5FK8_EXcbs)",
+      "nodeType": "list",
+      "translated_content": "- 👀 [React.dev PR - 新增TypeScript概览页](https://github.com/reactjs/react.dev/pull/6120)：即将上线的新文档页，专门介绍React API与TypeScript的结合使用。\n- 👀 [Next.js - 改进next/image支持](https://twitter.com/leeerob/status/1674250190432116736)\n- 📜 [使用Conform、Zod和Remix进行表单验证](https://www.jacobparis.com/content/remix-conform)：Conform是一个在服务端验证FormData的库，兼容Remix的渐进增强特性并在客户端显示错误。未来可能[支持Next.js服务端操作](https://twitter.com/sebastienlorber/status/1676210400256204800)?\n- 📜 [TypeScript 5.1中的JSX类型声明](https://blog.logrocket.com/declaring-jsx-types-typescript-5-1/)：详解JSX类型系统的最新改进，特别是针对React的优化。\n- 📜 [避免数据加载时界面闪烁的React Hook](https://www.jameskerr.blog/posts/use-data-transition/)\n- 📜 [Storybook - 新用户应用内引导教程](https://storybook.js.org/blog/in-app-tour-for-new-users/)\n- 📜 [使用next-translate实现NextJs URL国际化](https://dev.to/martinratinaud/internationalize-nextjs-urls-with-next-translate-49d8)\n- 📜 [在React中创建无缝多语言用户界面](https://www.honeybadger.io/blog/creating-multi-language-user-interface-with-react/)\n- 📜 [React中的Aria-Live区域实现](https://dev.to/abbeyperini/live-regions-in-react-4dmd)\n- 📦 [Next.js 13.4.8 - 本地服务器启动提速1.5倍，更新快54%](https://twitter.com/nextjs/status/1675929873720680459)：Vercel正着力优化Next.js开发者体验。详见Tim Neutkens的[技术说明](https://github.com/vercel/next.js/issues/48748#issuecomment-1614456247)。\n- 📦 [Styled-Components v6发布](https://github.com/styled-components/styled-components/releases/tag/v6.0.0)：包含需注意的破坏性变更，升级指南已完善。\n- 📦 [Astro Starlight](https://starlight.astro.build/)：Astro官方文档模板，低碳足迹设计，支持React和MDX。\n- 📦 [next-international v0.5 - 初步支持App Router](https://twitter.com/tomlienard/status/1675512683007705090)\n- 📦 [TinyBase v4.0 - 本地优先应用响应式数据存储 - 集成SQLite和CRDT](https://twitter.com/tinybasejs/status/1674826869169070080)\n- 📦 [Bun-Remix](https://github.com/jacob-ebey/bun-remix)\n- 🎙️ [Reactiflux - 2023年6月React月报](https://podcasters.spotify.com/pod/show/reactiflux/episodes/This-Month-in-React--June-2023-e26dgii)\n- 🎥 [Redux未来走向与Mark Erikson对谈](https://www.youtube.com/watch?v=n5FK8_EXcbs)"
     },
     {
       "id": "41b1e179",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_41b1e179"
     },
     {
       "id": "08832b14",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "1c598ecd",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "2547a6bb",
       "translatable": true,
       "content": "[![React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](/emails/issues/148/reactbricks.png)](https://reactbricks.com/?utm_source=thisweekinreact)",
-      "sourceMdx": "[![React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](/emails/issues/148/reactbricks.png)](https://reactbricks.com/?utm_source=thisweekinreact)"
+      "sourceMdx": "[![React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](/emails/issues/148/reactbricks.png)](https://reactbricks.com/?utm_source=thisweekinreact)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React Bricks是为Next.js、Remix和Gatsby打造的带可视化编辑的CMS](/emails/issues/148/reactbricks.png)](https://reactbricks.com/?utm_source=thisweekinreact)"
     },
     {
       "id": "0750bfa1",
       "translatable": true,
       "content": "**[React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](https://reactbricks.com/?utm_source=thisweekinreact)**",
-      "sourceMdx": "**[React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](https://reactbricks.com/?utm_source=thisweekinreact)**"
+      "sourceMdx": "**[React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](https://reactbricks.com/?utm_source=thisweekinreact)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[React Bricks是为Next.js、Remix和Gatsby打造的带可视化编辑的CMS](https://reactbricks.com/?utm_source=thisweekinreact)**"
     },
     {
       "id": "86348f98",
       "translatable": true,
       "content": "**It's flexible for Developers**: with React components you can create your own design system. Add true inline Visual editing to your JSX and add sidebar controls to edit props like the background color. You can choose Next.js, Remix or Gatsby and any CSS framework!",
-      "sourceMdx": "**It's flexible for Developers**: with React components you can create your own design system. Add true inline Visual editing to your JSX and add sidebar controls to edit props like the background color. You can choose Next.js, Remix or Gatsby and any CSS framework!"
+      "sourceMdx": "**It's flexible for Developers**: with React components you can create your own design system. Add true inline Visual editing to your JSX and add sidebar controls to edit props like the background color. You can choose Next.js, Remix or Gatsby and any CSS framework!",
+      "nodeType": "paragraph",
+      "translated_content": "**开发者友好**：通过React组件构建专属设计系统，支持JSX内联可视化编辑及侧边栏控件配置（如背景色）。兼容Next.js/Remix/Gatsby和任意CSS框架！"
     },
     {
       "id": "6b77b644",
       "translatable": true,
       "content": "**Content editors** can easily edit content inline without breaking the design system. It's as easy as using Word or Pages, allowing them to create landing pages in minutes without relying on developer resources.",
-      "sourceMdx": "**Content editors** can easily edit content inline without breaking the design system. It's as easy as using Word or Pages, allowing them to create landing pages in minutes without relying on developer resources."
+      "sourceMdx": "**Content editors** can easily edit content inline without breaking the design system. It's as easy as using Word or Pages, allowing them to create landing pages in minutes without relying on developer resources.",
+      "nodeType": "paragraph",
+      "translated_content": "**内容编辑者**可像使用Word般直观操作，在保持设计系统的前提下快速编辑内容，独立创建落地页而无需开发介入。"
     },
     {
       "id": "a311e967",
       "translatable": true,
       "content": "**It's enterprise-ready** with Collaboration, Time-machine, Single Sign-on, GDPR-compliant datacenters, Global CDN for optimized images, E-commerce integration, Fine-grained permissions, Scheduled publishing and more.",
-      "sourceMdx": "**It's enterprise-ready** with Collaboration, Time-machine, Single Sign-on, GDPR-compliant datacenters, Global CDN for optimized images, E-commerce integration, Fine-grained permissions, Scheduled publishing and more."
+      "sourceMdx": "**It's enterprise-ready** with Collaboration, Time-machine, Single Sign-on, GDPR-compliant datacenters, Global CDN for optimized images, E-commerce integration, Fine-grained permissions, Scheduled publishing and more.",
+      "nodeType": "paragraph",
+      "translated_content": "**企业级功能**：协作编辑、版本回溯、单点登录、GDPR合规数据中心、全球CDN图片优化、电商集成、细粒度权限控制、定时发布等。"
     },
     {
       "id": "eb51d107",
       "translatable": true,
       "content": "**Get started here: [https://reactbricks.com](https://reactbricks.com/?utm_source=thisweekinreact)**",
-      "sourceMdx": "**Get started here: [https://reactbricks.com](https://reactbricks.com/?utm_source=thisweekinreact)**"
+      "sourceMdx": "**Get started here: [https://reactbricks.com](https://reactbricks.com/?utm_source=thisweekinreact)**",
+      "nodeType": "paragraph",
+      "translated_content": "**立即体验：[https://reactbricks.com](https://reactbricks.com/?utm_source=thisweekinreact)**"
     },
     {
       "id": "7fc4bca5",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "a138e327",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "a2c0166e",
       "translatable": true,
       "content": "[![Expo SDK 49 beta is now available](/emails/issues/151/expo49beta.jpg)](https://blog.expo.dev/expo-sdk-49-beta-is-now-available-6373e78f8624)",
-      "sourceMdx": "[![Expo SDK 49 beta is now available](/emails/issues/151/expo49beta.jpg)](https://blog.expo.dev/expo-sdk-49-beta-is-now-available-6373e78f8624)"
+      "sourceMdx": "[![Expo SDK 49 beta is now available](/emails/issues/151/expo49beta.jpg)](https://blog.expo.dev/expo-sdk-49-beta-is-now-available-6373e78f8624)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Expo SDK 49 测试版现已发布](/emails/issues/151/expo49beta.jpg)](https://blog.expo.dev/expo-sdk-49-beta-is-now-available-6373e78f8624)"
     },
     {
       "id": "c1eaf30b",
       "translatable": true,
       "content": "**[Expo SDK 49 beta is now available](https://blog.expo.dev/expo-sdk-49-beta-is-now-available-6373e78f8624)**",
-      "sourceMdx": "**[Expo SDK 49 beta is now available](https://blog.expo.dev/expo-sdk-49-beta-is-now-available-6373e78f8624)**"
+      "sourceMdx": "**[Expo SDK 49 beta is now available](https://blog.expo.dev/expo-sdk-49-beta-is-now-available-6373e78f8624)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Expo SDK 49 测试版现已发布](https://blog.expo.dev/expo-sdk-49-beta-is-now-available-6373e78f8624)**"
     },
     {
       "id": "f0984c2a",
       "translatable": true,
       "content": "The new 49 SDK has just been released, in beta for around a week. A release packed with lots of great improvements, it's difficult to list them all. Here are my highlights:",
-      "sourceMdx": "The new 49 SDK has just been released, in beta for around a week. A release packed with lots of great improvements, it's difficult to list them all. Here are my highlights:"
+      "sourceMdx": "The new 49 SDK has just been released, in beta for around a week. A release packed with lots of great improvements, it's difficult to list them all. Here are my highlights:",
+      "nodeType": "paragraph",
+      "translated_content": "新版 49 SDK 刚刚发布，测试期约为一周。这个版本包含大量改进功能，难以一一列举。以下是我认为的亮点："
     },
     {
       "id": "2270deb6",
       "translatable": true,
       "content": "* React-Native v0.72\n* Expo Router v2 RC\n* Reanimated v3\n* Network debugging, VS Code debugging\n* React devtools built-in\n* Environment variables\n* Local Expo Modules\n* Experimental support for Fabric in expo-dev-client",
-      "sourceMdx": "- React-Native v0.72\n- Expo Router v2 RC\n- Reanimated v3\n- Network debugging, VS Code debugging\n- React devtools built-in\n- Environment variables\n- Local Expo Modules\n- Experimental support for Fabric in expo-dev-client"
+      "sourceMdx": "- React-Native v0.72\n- Expo Router v2 RC\n- Reanimated v3\n- Network debugging, VS Code debugging\n- React devtools built-in\n- Environment variables\n- Local Expo Modules\n- Experimental support for Fabric in expo-dev-client",
+      "nodeType": "list",
+      "translated_content": "- React-Native v0.72\n- Expo Router v2 候选版\n- Reanimated v3\n- 网络调试、VS Code 调试\n- 内置 React 开发者工具\n- 环境变量支持\n- 本地 Expo 模块\n- expo-dev-client 中实验性支持 Fabric"
     },
     {
       "id": "6ad15270",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "a8610918",
       "translatable": true,
       "content": "[![Reinventing Camera Processing - TensorFlow Lite GPU straight from JavaScript](/emails/issues/151/visioncamera.jpg)](https://mrousavy.com/blog/Reinventing-Camera-Processing)",
-      "sourceMdx": "[![Reinventing Camera Processing - TensorFlow Lite GPU straight from JavaScript](/emails/issues/151/visioncamera.jpg)](https://mrousavy.com/blog/Reinventing-Camera-Processing)"
+      "sourceMdx": "[![Reinventing Camera Processing - TensorFlow Lite GPU straight from JavaScript](/emails/issues/151/visioncamera.jpg)](https://mrousavy.com/blog/Reinventing-Camera-Processing)",
+      "nodeType": "paragraph",
+      "translated_content": "[![重新定义相机处理 - 直接从 JavaScript 调用 TensorFlow Lite GPU](/emails/issues/151/visioncamera.jpg)](https://mrousavy.com/blog/Reinventing-Camera-Processing)"
     },
     {
       "id": "a6c928a1",
       "translatable": true,
       "content": "**[Reinventing Camera Processing - TensorFlow Lite GPU straight from JavaScript](https://mrousavy.com/blog/Reinventing-Camera-Processing)**",
-      "sourceMdx": "**[Reinventing Camera Processing - TensorFlow Lite GPU straight from JavaScript](https://mrousavy.com/blog/Reinventing-Camera-Processing)**"
+      "sourceMdx": "**[Reinventing Camera Processing - TensorFlow Lite GPU straight from JavaScript](https://mrousavy.com/blog/Reinventing-Camera-Processing)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[重新定义相机处理 - 直接从 JavaScript 调用 TensorFlow Lite GPU](https://mrousavy.com/blog/Reinventing-Camera-Processing)**"
     },
     {
       "id": "b6152880",
       "translatable": true,
       "content": "Marc Rousavy explains how he is able to run TensorFlow models on React-Native Vision Camera v3 ([demo](https://twitter.com/mrousavy/status/1674791891823648770)). His plugin has just been open-sourced in [VisionCamera v3 rc.3](https://twitter.com/mrousavy/status/1675883155822202880). The article is fairly technical, explaining how it works internally to run at 60+ FPS. TLDR: it's now very easy to integrate a TensorFlow model into Vision Camera, and draw some real-time feedback via React-Native-Skia. There's no need to write native code, and all this logic can even be deployed via Over-The-Air updates!",
-      "sourceMdx": "Marc Rousavy explains how he is able to run TensorFlow models on React-Native Vision Camera v3 ([demo](https://twitter.com/mrousavy/status/1674791891823648770)). His plugin has just been open-sourced in [VisionCamera v3 rc.3](https://twitter.com/mrousavy/status/1675883155822202880). The article is fairly technical, explaining how it works internally to run at 60+ FPS. TLDR: it's now very easy to integrate a TensorFlow model into Vision Camera, and draw some real-time feedback via React-Native-Skia. There's no need to write native code, and all this logic can even be deployed via Over-The-Air updates!"
+      "sourceMdx": "Marc Rousavy explains how he is able to run TensorFlow models on React-Native Vision Camera v3 ([demo](https://twitter.com/mrousavy/status/1674791891823648770)). His plugin has just been open-sourced in [VisionCamera v3 rc.3](https://twitter.com/mrousavy/status/1675883155822202880). The article is fairly technical, explaining how it works internally to run at 60+ FPS. TLDR: it's now very easy to integrate a TensorFlow model into Vision Camera, and draw some real-time feedback via React-Native-Skia. There's no need to write native code, and all this logic can even be deployed via Over-The-Air updates!",
+      "nodeType": "paragraph",
+      "translated_content": "Marc Rousavy 解释了如何在 React-Native Vision Camera v3 上运行 TensorFlow 模型（[演示](https://twitter.com/mrousavy/status/1674791891823648770)）。他的插件已在 [VisionCamera v3 rc.3](https://twitter.com/mrousavy/status/1675883155822202880) 中开源。这篇文章技术性较强，详细说明了如何实现 60+ FPS 的内部工作原理。简而言之：现在可以非常轻松地将 TensorFlow 模型集成到 Vision Camera 中，并通过 React-Native-Skia 绘制实时反馈。无需编写原生代码，所有这些逻辑甚至可以通过空中下载（OTA）更新部署！"
     },
     {
       "id": "18fa676c",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "4b530389",
       "translatable": true,
       "content": "* 📦 [React-Native v0.72.1](https://github.com/facebook/react-native/releases/tag/v0.72.1)\n* 📦 [App Icon Badge](https://github.com/obytes/app-icon-badge): a super handy Expo Config Plugin to generate a different icon depending on the environment: dev, staging...\n* 📜 [iOS App Clips: a faster, smoother user experience](https://www.bam.tech/en/article/app-clips-ios-experience-utilisateur): explains the UX benefits of iOS App Clips and how they can be integrated into a React-Native app. You need to stay below the 10mb limit.\n* 🧵 [Expo weekly docs update](https://twitter.com/amanhimself/status/1675794149424115714)\n* 🎥 [Hacking Xcode with Colo Loco!](https://www.youtube.com/watch?v=ucEBfIZOap8)\n* 🎥 [What's New in React Native 0.72?](https://www.youtube.com/watch?v=XNeoSaacyX4)",
-      "sourceMdx": "- 📦 [React-Native v0.72.1](https://github.com/facebook/react-native/releases/tag/v0.72.1)\n- 📦 [App Icon Badge](https://github.com/obytes/app-icon-badge): a super handy Expo Config Plugin to generate a different icon depending on the environment: dev, staging...\n- 📜 [iOS App Clips: a faster, smoother user experience](https://www.bam.tech/en/article/app-clips-ios-experience-utilisateur): explains the UX benefits of iOS App Clips and how they can be integrated into a React-Native app. You need to stay below the 10mb limit.\n- 🧵 [Expo weekly docs update](https://twitter.com/amanhimself/status/1675794149424115714)\n- 🎥 [Hacking Xcode with Colo Loco!](https://www.youtube.com/watch?v=ucEBfIZOap8)\n- 🎥 [What's New in React Native 0.72?](https://www.youtube.com/watch?v=XNeoSaacyX4)"
+      "sourceMdx": "- 📦 [React-Native v0.72.1](https://github.com/facebook/react-native/releases/tag/v0.72.1)\n- 📦 [App Icon Badge](https://github.com/obytes/app-icon-badge): a super handy Expo Config Plugin to generate a different icon depending on the environment: dev, staging...\n- 📜 [iOS App Clips: a faster, smoother user experience](https://www.bam.tech/en/article/app-clips-ios-experience-utilisateur): explains the UX benefits of iOS App Clips and how they can be integrated into a React-Native app. You need to stay below the 10mb limit.\n- 🧵 [Expo weekly docs update](https://twitter.com/amanhimself/status/1675794149424115714)\n- 🎥 [Hacking Xcode with Colo Loco!](https://www.youtube.com/watch?v=ucEBfIZOap8)\n- 🎥 [What's New in React Native 0.72?](https://www.youtube.com/watch?v=XNeoSaacyX4)",
+      "nodeType": "list",
+      "translated_content": "- 📦 [React-Native v0.72.1](https://github.com/facebook/react-native/releases/tag/v0.72.1)\n- 📦 [App Icon Badge](https://github.com/obytes/app-icon-badge): 一个超级方便的 Expo 配置插件，可根据环境（开发、预发布等）生成不同的图标\n- 📜 [iOS App Clips：更快、更流畅的用户体验](https://www.bam.tech/en/article/app-clips-ios-experience-utilisateur): 解释了 iOS App Clips 的 UX 优势以及如何将其集成到 React-Native 应用中。需要注意保持 10MB 的大小限制\n- 🧵 [Expo 每周文档更新](https://twitter.com/amanhimself/status/1675794149424115714)\n- 🎥 [用 Colo Loco 玩转 Xcode！](https://www.youtube.com/watch?v=ucEBfIZOap8)\n- 🎥 [React Native 0.72 有哪些新特性？](https://www.youtube.com/watch?v=XNeoSaacyX4)"
     },
     {
       "id": "f1a2be1a",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "13292277",
       "translatable": true,
       "content": "## 🧑‍💻 Jobs",
-      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}",
+      "nodeType": "heading",
+      "translated_content": "## 🧑‍💻 职位 {#jobs}"
     },
     {
       "id": "e478ec2c",
       "translatable": true,
       "content": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)",
-      "sourceMdx": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)"
+      "sourceMdx": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**Passionfroot - 高级全栈工程师（Remix）- €160k+，柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)"
     },
     {
       "id": "534ac82e",
       "translatable": true,
       "content": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses.",
-      "sourceMdx": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses."
+      "sourceMdx": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses.",
+      "nodeType": "paragraph",
+      "translated_content": "Passionfroot 的使命是通过 YouTube、播客、社交媒体和新闻通讯赋能未来的独立企业。加入我们，共同打造一个工具，帮助全球创作者建立可扩展、可持续的业务。"
     },
     {
       "id": "a9c2a503",
       "translatable": true,
       "content": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
-      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)"
+      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**Callstack - 高级 React Native 开发工程师 - 完全远程，B2B 合同月薪净额 21-32k 波兰兹罗提**](https://www.callstack.com/senior-react-native-developer)"
     },
     {
       "id": "cfeb9eb1",
       "translatable": true,
       "content": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
-      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!"
+      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
+      "nodeType": "paragraph",
+      "translated_content": "您想参与开发全球使用最广泛的应用吗？您愿意共同塑造 React Native 技术吗？加入 Callstack 这个由 React 和 React Native 技术领导者组成的团队。详情请查看我们的网站。我们期待您的申请——向我们展示您的实力！"
     },
     {
       "id": "f7e6e884",
       "translatable": true,
       "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
-      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**G2i - 100% 远程 React Native 职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
     },
     {
       "id": "17b50e81",
       "translatable": true,
       "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
-      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "nodeType": "paragraph",
+      "translated_content": "我们有几个专注于 React Native 的开发职位空缺！薪资约为 16 万美元外加 10% 奖金。应聘者需具备 RN 生产环境经验且位于美国境内。私信 [@gabe_g2i](https://twitter.com/gabe_g2i) 了解更多信息，别忘了提及 This Week in React。"
     },
     {
       "id": "719d3997",
       "translatable": true,
       "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
-      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "nodeType": "paragraph",
+      "translated_content": "💡 [如何发布赞助信息？](https://thisweekinreact.com/sponsor)"
     },
     {
       "id": "7057b5fb",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "2f2d5f01",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他动态 {#other}"
     },
     {
       "id": "9fbd2efb",
       "translatable": true,
       "content": "* [Ecma International approves ES2023](https://www.ecma-international.org/news/ecma-international-approves-new-standards-at-the-125th-general-assembly-27-june-2023/). Note: Change Array By Copy is now available in all browsers [with today's release of Firefox v115](https://twitter.com/sebastienlorber/status/1676139862745923585).\n* [TypeScript 5.2 Beta](https://devblogs.microsoft.com/typescript/announcing-typescript-5-2-beta/)\n* [Qwik 1.2](https://www.builder.io/blog/qwik-1-2-performance-autopilot)\n* [Ember 5.0](https://blog.emberjs.com/ember-5-0-released/)\n* [CSS: The Good Parts](https://www.builder.io/blog/css-the-good-parts)\n* [W3C First Public Working Draft: CSS Anchor Positioning](https://twitter.com/sebastienlorber/status/1675900466553659396)\n* [New to the web platform in June](https://web.dev/web-platform-06-2023/)\n* [Understanding SVG Paths](https://www.nan.fyi/svg-paths)\n* [The massive bug at the heart of the npm ecosystem](https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem)\n* [Writing a Node Library in Rust](https://blog.metlo.com/writing-a-node-library-in-rust/)\n* [CommonJS is not going away](https://bun.sh/blog/commonjs-is-not-going-away)\n* [CommonJS is hurting JavaScript](https://deno.com/blog/commonjs-is-hurting-javascript)",
-      "sourceMdx": "- [Ecma International approves ES2023](https://www.ecma-international.org/news/ecma-international-approves-new-standards-at-the-125th-general-assembly-27-june-2023/). Note: Change Array By Copy is now available in all browsers [with today's release of Firefox v115](https://twitter.com/sebastienlorber/status/1676139862745923585).\n- [TypeScript 5.2 Beta](https://devblogs.microsoft.com/typescript/announcing-typescript-5-2-beta/)\n- [Qwik 1.2](https://www.builder.io/blog/qwik-1-2-performance-autopilot)\n- [Ember 5.0](https://blog.emberjs.com/ember-5-0-released/)\n- [CSS: The Good Parts](https://www.builder.io/blog/css-the-good-parts)\n- [W3C First Public Working Draft: CSS Anchor Positioning](https://twitter.com/sebastienlorber/status/1675900466553659396)\n- [New to the web platform in June](https://web.dev/web-platform-06-2023/)\n- [Understanding SVG Paths](https://www.nan.fyi/svg-paths)\n- [The massive bug at the heart of the npm ecosystem](https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem)\n- [Writing a Node Library in Rust](https://blog.metlo.com/writing-a-node-library-in-rust/)\n- [CommonJS is not going away](https://bun.sh/blog/commonjs-is-not-going-away)\n- [CommonJS is hurting JavaScript](https://deno.com/blog/commonjs-is-hurting-javascript)"
+      "sourceMdx": "- [Ecma International approves ES2023](https://www.ecma-international.org/news/ecma-international-approves-new-standards-at-the-125th-general-assembly-27-june-2023/). Note: Change Array By Copy is now available in all browsers [with today's release of Firefox v115](https://twitter.com/sebastienlorber/status/1676139862745923585).\n- [TypeScript 5.2 Beta](https://devblogs.microsoft.com/typescript/announcing-typescript-5-2-beta/)\n- [Qwik 1.2](https://www.builder.io/blog/qwik-1-2-performance-autopilot)\n- [Ember 5.0](https://blog.emberjs.com/ember-5-0-released/)\n- [CSS: The Good Parts](https://www.builder.io/blog/css-the-good-parts)\n- [W3C First Public Working Draft: CSS Anchor Positioning](https://twitter.com/sebastienlorber/status/1675900466553659396)\n- [New to the web platform in June](https://web.dev/web-platform-06-2023/)\n- [Understanding SVG Paths](https://www.nan.fyi/svg-paths)\n- [The massive bug at the heart of the npm ecosystem](https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem)\n- [Writing a Node Library in Rust](https://blog.metlo.com/writing-a-node-library-in-rust/)\n- [CommonJS is not going away](https://bun.sh/blog/commonjs-is-not-going-away)\n- [CommonJS is hurting JavaScript](https://deno.com/blog/commonjs-is-hurting-javascript)",
+      "nodeType": "list",
+      "translated_content": "- [Ecma国际正式批准ES2023标准](https://www.ecma-international.org/news/ecma-international-approves-new-standards-at-the-125th-general-assembly-27-june-2023/)。注：通过Firefox v115今日发布，[Change Array By Copy功能现已支持全浏览器](https://twitter.com/sebastienlorber/status/1676139862745923585)。\n- [TypeScript 5.2 Beta发布](https://devblogs.microsoft.com/typescript/announcing-typescript-5-2-beta/)\n- [Qwik 1.2发布](https://www.builder.io/blog/qwik-1-2-performance-autopilot)\n- [Ember 5.0发布](https://blog.emberjs.com/ember-5-0-released/)\n- [CSS精华指南](https://www.builder.io/blog/css-the-good-parts)\n- [W3C首个公开草案：CSS锚点定位](https://twitter.com/sebastienlorber/status/1675900466553659396)\n- [6月Web平台新特性](https://web.dev/web-platform-06-2023/)\n- [深入理解SVG路径](https://www.nan.fyi/svg-paths)\n- [npm生态系统的重大漏洞](https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem)\n- [用Rust编写Node库](https://blog.metlo.com/writing-a-node-library-in-rust/)\n- [CommonJS不会消失](https://bun.sh/blog/commonjs-is-not-going-away)\n- [CommonJS正在伤害JavaScript](https://deno.com/blog/commonjs-is-hurting-javascript)"
     },
     {
       "id": "d619fa73",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "6ffd1ebe",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 轻松一刻 {#fun}"
     },
     {
       "id": "89cf7bac",
       "translatable": true,
       "content": "[![alt](/emails/issues/151/meme.jpg)](https://twitter.com/localhost_5173/status/1675142562473185281)",
-      "sourceMdx": "[![alt](/emails/issues/151/meme.jpg)](https://twitter.com/localhost_5173/status/1675142562473185281)"
+      "sourceMdx": "[![alt](/emails/issues/151/meme.jpg)](https://twitter.com/localhost_5173/status/1675142562473185281)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/151/meme.jpg)](https://twitter.com/localhost_5173/status/1675142562473185281)"
     },
     {
       "id": "808b0414",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下期见！👋"
     }
   ]
 }

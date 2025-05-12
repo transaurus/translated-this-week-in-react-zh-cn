@@ -7,11 +7,11 @@ date: 09-25-2024
 
 大家好！
 
-本周React/RN的官方公告相对平静，但我们仍收获了大量优质博客文章，以及Next.js和CSS领域的有趣动态。
+本周React/RN相关公告相对平静，但我们仍收获了大量优质博客文章，以及Next.js和CSS领域的有趣动态。
 
 <!-- truncate -->
 
-**💡 [在Twitter上浏览本期简报](https://slo.im/thread) - 可视化版式 🎨**
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 视觉化排版 🎨**
 
 ---
 
@@ -23,16 +23,16 @@ import Support from "../_support.mdx";
 
 ## 💸 赞助商 {#sponsor1}
 
-[![AG Grid：全球最优秀的React数据表格组件](/emails/issues/202/aggrid.jpg)](https://www.ag-grid.com/react-table?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=2024-email-1)
+[![AG Grid：全球最佳React数据表格](/emails/issues/202/aggrid.jpg)](https://www.ag-grid.com/react-table?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=2024-email-1)
 
-**[AG Grid：全球最优秀的React数据表格组件](https://www.ag-grid.com/react-table?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=2024-email-1)**
+**[AG Grid：全球最佳React数据表格](https://www.ag-grid.com/react-table?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=2024-email-1)**
 
-AG Grid是一款快速、免费且高度可定制的React数据表格组件。被**90%的财富500强企业**采用，作为**100%开源项目**拥有**每月超400万npm下载量**：
+AG Grid是一款快速、免费且完全可定制的React数据表格组件。被**90%的财富500强企业**采用，作为**100%开源项目**每月npm下载量超**400万次**：
 
 - 🆓 **免费：** 永久免费使用**排序**、**筛选**、**分页**、**单元格编辑**等数百项功能
-- **🚀 极速：** 原生支持**百万级单元格**渲染，性能零妥协
-- **🎨 可定制：** 可在单元格/行/列中嵌入自定义组件，通过**100+ CSS变量**精细控制样式
-- 🏢 **企业级功能：** 购买授权即可终身使用**透视表**、**分组**、**主从视图**及由[AG Charts](https://www.ag-grid.com/charts?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=2024-email-1)驱动的**内嵌图表**等高级功能（无需试用许可证）
+- **🚀 极速：** 原生支持渲染**数百万单元格**且性能无损
+- **🎨 可定制：** 在单元格/行/列中嵌入自定义组件，使用**100+ CSS变量**精细控制样式
+- 🏢 **企业功能：** 购买授权可终身使用**透视表**、**分组**、**主从视图**及**内置图表**（由我们的React图表库[AG Charts](https://www.ag-grid.com/charts?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=2024-email-1)驱动），无需试用许可证即可体验
 
 了解更多：[ag-grid.com](https://www.ag-grid.com/react-table?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=2024-email-1)
 
@@ -40,50 +40,50 @@ AG Grid是一款快速、免费且高度可定制的React数据表格组件。�
 
 ## ⚛️ React动态 {#react}
 
-[![《我的博客重构之路》](/emails/issues/202/josh.jpg)](https://www.joshwcomeau.com/blog/how-i-built-my-blog-v2/)
+[![博客重构之路](/emails/issues/202/josh.jpg)](https://www.joshwcomeau.com/blog/how-i-built-my-blog-v2/)
 
-**[《我的博客重构之路》](https://www.joshwcomeau.com/blog/how-i-built-my-blog-v2/)**
+**[博客重构之路](https://www.joshwcomeau.com/blog/how-i-built-my-blog-v2/)**
 
-Josh Comeau分享了将复杂博客系统（10万行代码）从Next.js Pages Router迁移至App Router的实践，反馈喜忧参半（Lighthouse评分下降、开发服务器变慢…）。这篇技术散文呈现精美、交互丰富，其价值不仅限于Next.js用户。详细剖析了MDX、Shiki、Linaria、Framer-Motion等依赖项的集成细节。
-
----
-
-[![《组件组合的卓越之处》](/emails/issues/202/composition.jpg)](https://tkdodo.eu/blog/component-composition-is-great-btw)
-
-**[《组件组合的卓越之处》](https://tkdodo.eu/blog/component-composition-is-great-btw)**
-
-Dominik阐释了React如何重构"关注点分离"理念，论证了组合式开发与提前返回（early return）优于条件渲染多状态的优势。笔者深有共鸣：这种模式能显著提升组件在长期迭代中的可维护性。
+Josh Comeau分享了将复杂博客系统（10万行代码）从Next.js Pages Router迁移至App Router的经验，反馈喜忧参半（Lighthouse评分下降、开发服务器变慢…）。这篇交互式技术文章呈现精彩，不仅适合Next.js用户，更涉及MDX、Shiki、Linaria、Framer-Motion等多个依赖项的深度实践。
 
 ---
 
-- 💸 [React组件分析工具Omlet——通过扫描代码库统计组件使用情况，提升代码质量与设计系统采用率](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-aug-2024)
-- 👀 [Next.js PR - `@next/codemod upgrade` CLI](https://github.com/vercel/next.js/pull/69935)：Next.js 15将提供命令行工具自动升级依赖至最新稳定版、候选版或尝鲜版，并运行相应的破坏性变更代码迁移脚本。
-- 👀 [Next.js PR - 动态API异步化改造](https://github.com/vercel/next.js/pull/68812)：`cookies()`、`headers()`、`params`等API将在Next.js 15中转为异步。该PR仍在进行中，但[代码迁移脚本已合并](https://github.com/vercel/next.js/pull/69572)。这项破坏性变更虽引发社区争议，但为Next.js团队后续创新铺平道路。
-- 🔐 [Next.js缓存投毒漏洞](https://github.com/advisories/GHSA-gp8f-8m3g-qvj9)：仅影响Page Router的非动态路由，已在13.5.7和14.2.9版本修复
-- 🧑‍🎓 [React开发者Vim指南](https://vimforreactdevs.com/)：Lee Robinson提供的免费实用迷你课程。
-- 🧑‍🎓 [EpicReact v2 - 适配React 19更新](https://www.epicreact.dev/)：Kent C. Dodds发布旗舰React课程新版（付费，目前6折优惠）。
-- 🗓️ [React Summit美国站](https://reactsummit.us/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇺🇸 纽约 - 12月19日 & 22日 - [立即领取免费远程参会门票！](https://gitnation.com/badges/react-summit-us-2024/addy_osmani?from=This+Week+In+React) 使用折扣码TWIR享9折。
-- 🗓️ [React Advanced伦敦站](https://reactadvanced.com/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇬🇧 伦敦 - 10月25日 & 28日 - 票价即将上涨，速抢早鸟票！使用折扣码"TWIR"享优惠。
-- 📜 [如何通过URL控制React组件](https://buildui.com/posts/how-to-control-a-react-component-with-the-url)：这篇交互式技术博客生动揭示了React开发者处理URL参数的常见反模式，建议将URL视为唯一数据源，而非尝试同步状态至URL。
-- 📜 [基于Cloudflare Workers实现全民化部分预渲染](https://sunilpai.dev/posts/ppr-for-everyone/)：前React团队成员Sunil Pai演示了在Next.js外实现PPR的方案，使用React实验性API如`prerender()`、`postpone()`和`resumeToPipeableStream()`。这些API极不稳定，仅限学习研究使用。
-- 📜 [React开发者必知的CSS content-visibility属性](https://dev.to/sebastienlorber/css-content-visibility-for-react-devs-4a3i)：汇总多篇推文解析这个可提升渲染性能的新CSS属性。虽兼容性有限，但可作为渐进增强方案，与虚拟滚动库配合使用以兼顾性能与可访问性。
-- 📜 [HTMX论文《你不能构建交互式Web应用除非使用单页应用...及其他谬论》](https://htmx.org/essays/you-cant/)：破除SPA框架必要性迷思，阐述借助Service Workers、视图过渡、推测规则等现代技术，MPA与SPA的界限正逐渐模糊。
-- 📜 [2024年React数据获取指南](https://www.robinwieruch.de/react-fetching-data/)：Robin Wieruch更新技术指南，涵盖React Query、useEffect、use()、RSC和tRPC等现代方案。
-- 📜 [基于React Query与Axios的高效刷新令牌实现](https://dev.to/elmehdiamlou/efficient-refresh-token-implementation-with-react-query-and-axios-f8d)：通过Axios拦截器自动添加`Authorization`请求头，利用React Query错误回调刷新过期令牌并重试请求。
-- 📜 [如何重置React useActionState的状态](https://www.nico.fyi/blog/reset-state-from-react-useactionstate)：重置action状态的操作竟出人意料地复杂。
-- 📜 [从Parcel迁移到Vite：10万行代码的改造纪实](https://blog.logto.io/parcel-to-vite)：Logto团队分享React前端迁移经验，详解MDX、SVGR、`React.lazy`和快速刷新等功能的集成细节。
+[![组件组合的卓越之处](/emails/issues/202/composition.jpg)](https://tkdodo.eu/blog/component-composition-is-great-btw)
+
+**[组件组合的卓越之处](https://tkdodo.eu/blog/component-composition-is-great-btw)**
+
+Dominik阐释了React如何重构"关注点分离"理念，主张优先采用组合方案与提前返回（early returns）而非条件渲染多状态。笔者深有同感：这种模式能显著提升组件长期可维护性。
+
+---
+
+- 💸 [React组件分析工具Omlet——扫描代码库统计组件使用情况，提升代码质量与设计系统采用率](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-aug-2024)
+- 👀 [Next.js PR - `@next/codemod upgrade` CLI工具](https://github.com/vercel/next.js/pull/69935): Next.js 15将提供命令行工具自动升级依赖至最新稳定版、候选版或尝鲜版，并运行相应的破坏性变更代码迁移脚本。
+- 👀 [Next.js PR - 动态API异步化改造](https://github.com/vercel/next.js/pull/68812): `cookies()`、`headers()`、`params`等API将在Next.js 15中转为异步。虽然该PR仍在进行中，但[相关代码迁移脚本已合并](https://github.com/vercel/next.js/pull/69572)。这一破坏性变更引发社区争议，但为Next.js团队后续创新铺平道路。
+- 🔐 [Next.js缓存投毒漏洞](https://github.com/advisories/GHSA-gp8f-8m3g-qvj9): 仅影响Page Router的非动态路由，已在13.5.7和14.2.9版本修复
+- 🧑‍🎓 [React开发者Vim指南](https://vimforreactdevs.com/): Lee Robinson提供的免费实用迷你课程。
+- 🧑‍🎓 [EpicReact v2 - 适配React 19更新](https://www.epicreact.dev/): Kent C. Dodds发布其旗舰React课程新版（付费，目前6折优惠）。
+- 🗓️ [React Summit美国站](https://reactsummit.us/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇺🇸 纽约 - 12月19-22日 - [立即领取免费远程参会门票！](https://gitnation.com/badges/react-summit-us-2024/addy_osmani?from=This+Week+In+React) 使用折扣码TWIR享9折。
+- 🗓️ [React Advanced伦敦站](https://reactadvanced.com/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇬🇧 伦敦 - 10月25-28日 - 票价即将上涨，速抢门票！使用折扣码"TWIR"享优惠。
+- 📜 [如何通过URL控制React组件](https://buildui.com/posts/how-to-control-a-react-component-with-the-url): 这篇交互式博文精彩揭示了React开发者使用搜索参数时的常见反模式。应将URL视为唯一数据源，而非尝试将状态与URL同步。
+- 📜 [基于Cloudflare Workers实现全民部分预渲染](https://sunilpai.dev/posts/ppr-for-everyone/): 前React团队成员Sunil Pai演示了在Next.js之外从零实现PPR，使用React实验性API如`prerender()`、`postpone()`和`resumeToPipeableStream()`。这些API极不稳定，仅限学习研究使用。
+- 📜 [React开发者必知的CSS content-visibility属性](https://dev.to/sebastienlorber/css-content-visibility-for-react-devs-4a3i): 汇总多篇推文解析为何React开发者应关注这项可提升渲染性能的新CSS属性。虽然浏览器支持有限，但可作为渐进增强方案，与虚拟滚动库配合使用以兼顾性能与可访问性。
+- 📜 [HTMX专题 -《你不能用多页应用构建交互式网页...及其他谬论》](https://htmx.org/essays/you-cant/): 破除迷思的深度好文，阐述无需React等SPA框架也能实现的功能。借助Service Workers、视图过渡、推测规则等现代技术，MPA与SPA的界限正逐渐模糊。
+- 📜 [2024年React数据获取指南](https://www.robinwieruch.de/react-fetching-data/): Robin Wieruch更新其数据获取全景指南，涵盖React Query、useEffect、use()、RSC和tRPC等现代方案。
+- 📜 [React Query+Axios实现高效令牌刷新](https://dev.to/elmehdiamlou/efficient-refresh-token-implementation-with-react-query-and-axios-f8d): 通过Axios拦截器自动添加`Authorization`请求头，并利用React Query的`onError`回调刷新过期令牌后重试请求。
+- 📜 [如何重置React useActionState的状态](https://www.nico.fyi/blog/reset-state-from-react-useactionstate): 重置action状态的操作意外地复杂。
+- 📜 [从Parcel迁移到Vite：10万行代码的实战记录](https://blog.logto.io/parcel-to-vite): Logto团队分享React前端迁移至Vite的完整过程，涉及MDX、SVGR、`React.lazy`和快速刷新等功能的集成细节。
 - 📜 [Astro内容层深度解析](https://astro.build/blog/content-layer-deep-dive/)
-- 📦 [Storybook 8.3发布](https://storybook.js.org/blog/storybook-8-3/)：提供原生Vitest集成使组件测试提速6倍，优化Next.js项目支持。
-- 📦 [Prompt设计库Priompt](https://www.cursor.com/blog/prompt-design)：错过这款由Cursor开发者发布的JSX式AI提示词设计工具。
+- 📦 [Storybook 8.3发布](https://storybook.js.org/blog/storybook-8-3/): 提供原生Vitest集成使组件测试速度提升6倍，并优化Next.js项目支持。
+- 📦 [Prompt设计库Priompt](https://www.cursor.com/blog/prompt-design): 由Cursor开发者去年发布的基于JSX的AI提示设计库。
 - 📦 [next-view-transitions 0.3.2 - 新增useTransitionRouter API](https://x.com/shuding_/status/1838000183356850240)
 - 📦 [Legend-State 3.0测试版 - 基于Signal的状态库 - 优化计算观察值、持久化与同步功能](https://www.legendapp.com/open-source/state/v3/)
-- 📦 [Vaultusaurus - Obsidian知识库与Docusaurus站点的集成工具，含图谱视图](https://github.com/chanjunren/vaultusaurus)
-- 🎥 [Jack Herrington - 我如何魔改ShadCN创建高阶React模板与安装器](https://www.youtube.com/watch?v=NP2ULDZxpd0)：通过编写/生成自定义JSON更新文件可劫持CLI行为。
-- 🎥 [Theo - React的"head"标签乱象...](https://www.youtube.com/watch?v=qmM91SnSw8w)：React 19仍不会自动去重`<title>`标签，你可能仍需依赖React Helmet等库。
-- 🎥 [ThePrimeTime - Remix并发提交机制的根本缺陷](https://www.youtube.com/watch?v=Tvms2DaG8UY)
-- 🎙️ [Frontend First第196期 - Tom Occhino谈React未来](https://www.youtube.com/watch?v=ktO2OqwvgEs)：回顾Facebook多年技术创新历程，从BigPipe到GraphQL/Relay再到RSC，揭示部分预渲染作为北极星架构的演进之路。
-- 🎙️ [PodRocket - TanStack与TanRouter专访Tanner Linsley](https://podrocket.logrocket.com/tanstack-tanrouter-tanner-linsley)
-- 🎙️ [Syntax.fm第824期 - Taylor Otwell对PHP、React、Laravel及兰博基尼梗图的见解](https://syntax.fm/show/824/taylor-otwell-s-opinions-on-php-react-laravel-and-lamborghini-memes)
+- 📦 [Vaultusaurus - 将Obsidian知识库与Docusaurus站点集成的工具套件，含图谱视图](https://github.com/chanjunren/vaultusaurus)
+- 🎥 [Jack Herrington - 我如何魔改ShadCN创建强大的React模板生成器](https://www.youtube.com/watch?v=NP2ULDZxpd0): 通过编写/生成自定义JSON配置文件即可劫持CLI行为。
+- 🎥 [Theo深度解读 - React的"head"标签争议...](https://www.youtube.com/watch?v=qmM91SnSw8w): React 19仍不会自动去重`<title>`标签，你可能仍需依赖React Helmet等库。
+- 🎥 [ThePrimeTime剖析 - Remix并发提交机制的根本缺陷](https://www.youtube.com/watch?v=Tvms2DaG8UY)
+- 🎙️ [Frontend First第196期 - Tom Occhino谈React未来](https://www.youtube.com/watch?v=ktO2OqwvgEs): 回顾Facebook多年技术创新史，从BigPipe到GraphQL/Relay再到RSC，揭示部分预渲染作为北极星架构的演进历程。
+- 🎙️ [PodRocket专访 - TanStack创始人Tanner Linsley谈TanRouter](https://podrocket.logrocket.com/tanstack-tanrouter-tanner-linsley)
+- 🎙️ [Syntax.fm第824期 - Taylor Otwell畅谈PHP、React、Laravel与兰博基尼梗图](https://syntax.fm/show/824/taylor-otwell-s-opinions-on-php-react-laravel-and-lamborghini-memes)
 
 <SubscribeFormEmbed placement="middle" />
 
@@ -107,8 +107,8 @@ Apryse IDP 简化了从 PDF 中提取数据的过程。轻松从财务报告或�
 - 🐦 [React-Native-WebGPU 在 macOS 上的演示](https://x.com/SaadNajmi/status/1838295375700201720)
 - 🐦 [Tzvetan Mikov 关于在 Hermes 中添加 Wasm 支持的实用性](https://x.com/tmikov/status/1837600409386734037)
 - 📊 [React Native 性能基准测试](https://dream-sports-labs.github.io/rn-benchmarking/): 这个有趣的网站允许我们根据版本、架构和平台（iOS/Android）比较 React Native 的性能
-- 🗓️ [RNLConf](https://www.reactnativelondon.co.uk/?utm_source=thisweekinreact) \- 🇬🇧 伦敦 - 11 月 14 日至 15 日 - 使用代码 "TWIR” 获得 10% 折扣，立即购票！
-- 📜 [React Native IDE 现已更名为 Radon IDE](https://blog.swmansion.com/react-native-ide-is-now-radon-ide-cfbdad77d43c): 简而言之，这只是出于实际原因的名称变更。阅读他们选择这个名字的原因也很有趣（提示：原子，钋）
+- 🗓️ [RNLConf](https://www.reactnativelondon.co.uk/?utm_source=thisweekinreact) \- 🇬🇧 伦敦 - 11 月 14 日 & 15 日 - 使用代码 "TWIR” 获得 10% 折扣，立即购票！
+- 📜 [React Native IDE 现已更名为 Radon IDE](https://blog.swmansion.com/react-native-ide-is-now-radon-ide-cfbdad77d43c): 简而言之，这只是出于实际原因的名称变更。阅读他们选择该名称的原因仍然很有趣（提示：原子、钋）
 - 📜 [如何在 React Native 中监听未捕获/未处理的错误](https://andrei-calazans.com/posts/how-to-global-catch-errors/): 使用 `globalThis.ErrorUtils.setGlobalHandler()`
 - 📜 [如何逐步采用 Expo](https://expo.dev/blog/how-to-incrementally-adopt-expo)
 - 📦 [MiniSim 0.9 \- 支持物理设备](https://github.com/okwasniewski/MiniSim/releases/tag/v0.9.0)
@@ -129,13 +129,13 @@ Apryse IDP 简化了从 PDF 中提取数据的过程。轻松从财务报告或�
 - 📜 [在CSS中实现height: auto;（及其他固有尺寸关键词）的动画效果](https://developer.chrome.com/docs/css-ui/animate-to-height-auto/)
 - 📜 [为何类型化Linting现在需要TypeScript](https://www.joshuakgoldberg.com/blog/why-typed-linting-needs-typescript-today/)
 - 📦 [Bun 1.1.28 - 在JavaScript中编译运行C代码，修复React 19 SSR问题](https://bun.sh/blog/compile-and-run-c-in-js)
-- 📦 [ts-blank-space - 快速剥离类型的编译器，将TypeScript转为JavaScript](https://bloomberg.github.io/ts-blank-space/)
+- 📦 [ts-blank-space - 将TypeScript快速转换为JavaScript的类型剥离编译器](https://bloomberg.github.io/ts-blank-space/)
 - 📦 [Deno 2.0 候选发布版](https://deno.com/blog/v2.0-release-candidate)
 - 📦 [Module Federation Vite 1.0发布](https://www.learnbydo.ing/diary/2024-09-23-module-federation-vite-v1)
 
 ---
 
-## 🤭 趣味时刻 {#fun}
+## 🤭 趣味一刻 {#fun}
 
 [![alt](/emails/issues/202/meme.jpg)](https://x.com/Nateemerson/status/1836537823027134744)
 

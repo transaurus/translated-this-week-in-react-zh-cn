@@ -7,13 +7,13 @@ date: 01-29-2025
 
 大家好！
 
-相比前一周，本周相对平静，我无法选出头条新闻！
+与上周相比，这周相对平静，我甚至选不出头条新闻！
 
 对我们生态系统最重要的消息可能是Create React App的正式弃用。此外还有Tailwind v4和Standard Schema v1的发布。
 
-我对即将到来的TypeScript 5.8中`erasableSyntaxOnly`标志感到兴奋，该标志禁止使用诸如枚举等特性。这是让你的应用兼容Node.js内置支持（未来可能还包括浏览器）的必经之路。
+我对即将到来的TypeScript 5.8中`erasableSyntaxOnly`标志感到兴奋，该标志将禁止使用枚举等功能。这是让你的应用兼容Node.js内置支持（未来可能还包括浏览器）的重要一步。
 
-查看我们的合作伙伴会议[dotJS 2025](https://www.dotjs.io/?utm_source=thisweekinreact) - 🇫🇷 巴黎 - 4月3日 - 演讲嘉宾已公布！包括Node.js创始人Ryan Dahl、Google工程总监Sarah Drasner以及Syntax.fm播客联合主持人Wes Bos。使用优惠码"TWIR"可享门票85折。
+来看看我们的合作伙伴会议[dotJS 2025](https://www.dotjs.io/?utm_source=thisweekinreact) - 🇫🇷 巴黎 - 4月3日 - 演讲嘉宾已公布！包括Node.js创始人Ryan Dahl、Google工程总监Sarah Drasner和Syntax.fm播客联合主持人Wes Bos。使用优惠码"TWIR"可享门票85折。
 
 <!-- truncate -->
 
@@ -31,7 +31,7 @@ import Support from "../_support.mdx";
 
 Convex是一站式平台，为您提供构建、发布和扩展生产级后端所需的一切。
 
-利用TypeScript编写[代码化查询](https://docs.convex.dev/functions/query-functions/)，这些查询会自动缓存并实现实时更新，配合符合ACID特性的[响应式数据库](https://docs.convex.dev/database)。
+利用TypeScript编写[查询代码](https://docs.convex.dev/functions/query-functions/)，这些查询会自动缓存并实现实时更新，配合符合ACID特性的[响应式数据库](https://docs.convex.dev/database)。
 
 而这仅仅是开始。使用Convex，您还可以：
 
@@ -48,28 +48,28 @@ Convex是一站式平台，为您提供构建、发布和扩展生产级后端�
 ## ⚛️ React {#react}
 
 - 💸 [Clerk - 使用React和Express构建基于会话的认证系统](https://go.clerk.com/HRqsMAP)
-- 📣 [Vercel收购Tremor以投资开源React组件](https://vercel.com/blog/vercel-acquires-tremor)：这款构建仪表盘的高级库现已免费开源。
-- 👀 [CRA与React 19不兼容，CRA需要弃用通知](https://github.com/facebook/create-react-app/issues/17004)：经过多次社区讨论，Create-React-App已被正式弃用\!
-- 👀 [Next.js PR - 新增独立`experimental.useCache`标志，支持脱离`dynamicIO`使用](https://github.com/vercel/next.js/pull/75240)
+- 📣 [Vercel收购Tremor以投资开源React组件](https://vercel.com/blog/vercel-acquires-tremor)：这款构建仪表盘的高级组件库现已免费开源。
+- 👀 [CRA与React 19不兼容，CRA需要弃用通知](https://github.com/facebook/create-react-app/issues/17004)：经过多次社区讨论，Create-React-App已正式被弃用！
+- 👀 [Next.js PR - 新增独立`experimental.useCache`标志，无需`dynamicIO`即可使用](https://github.com/vercel/next.js/pull/75240)
 - 👀 [Next.js PR - 新增`experimental.slowModuleDetection`标志，报告编译耗时过长的模块](https://github.com/vercel/next.js/pull/75368)
 - 👀 [Remix PR - 支持客户端`routerContext`](https://github.com/remix-run/react-router/pull/12515)
 - 🐦 [React Three Fiber v9发布候选版，支持React 19和Three.js WebGPURenderer](https://x.com/0xca0a/status/1882441755368563114)
-- 📜 [DexieJs：React中的响应式本地状态](https://www.typeonce.dev/article/dexie-js-reactive-local-state-in-react)：你可能不需要React状态管理库，浏览器内置了响应式IndexedDB。这篇精彩文章展示了如何利用现代React 19特性实现全功能（实时查询与操作）。
-- 📜 [Next.js：一份诚实的评价](https://beeps.dev/blog/nextjs-an-honest-review)：对Next.js在生产环境应用的优缺点进行了务实而有趣的盘点。
-- 📜 [为何我不再使用JSDOM](https://www.epicweb.dev/why-i-won-t-use-jsdom)：建议在真实浏览器中测试前端组件，使用Vitest浏览器模式与Playwright，而非JSDOM这类Node.js模拟环境。其React集成方案与React Testing Library类似。
-- 📜 [同步引擎带来的UX++与DX++体验](https://www.carlassmann.com/blog/improve-ux-dx-with-sync-engines)：解析了React Query中查询失效与乐观UI的实现难点，提出采用Replicache的本地优先模型解决方案。
-- 📜 [告别React一年后的思考](https://kellysutton.com/2025/01/18/moving-on-from-react-a-year-later.html)：关于在服务端渲染Rails应用中移除React的实践反馈，将JS视为开发障碍的观点。
-- 📜 [服务端React渲染为png、pdf或交互式网页应用](https://swizec.com/blog/server-side-react-that-renders-as-png-pdf-or-interactive-webapp/)：在TanStack Start应用中通过搜索参数返回PDF或png。
-- 📜 [Remix中如何处理多并发提交](https://tigerabrodi.blog/how-to-handle-multiple-concurrent-submissions-in-remix)
-- 📜 [React服务端组件的实际优势何在？](https://tigerabrodi.blog/why-is-react-server-components-actually-beneficial-full-history)
-- 📜 [为百万级用户React应用选择状态管理库（及为何最终选择MobX）](https://www.photoroom.com/inside-photoroom/picking-a-state-management-library-why-we-went-with-mobx-)
+- 📜 [DexieJs：React中的响应式本地状态](https://www.typeonce.dev/article/dexie-js-reactive-local-state-in-react)：你可能不需要React状态管理库，浏览器内置了响应式IndexedDB。这篇精彩文章展示了如何利用现代React 19特性实现实时查询和操作。
+- 📜 [Next.js：一份诚实的评价](https://beeps.dev/blog/nextjs-an-honest-review)：对Next.js在生产环境应用中的优缺点进行了务实而有趣的列举。
+- 📜 [为什么我不会使用JSDOM](https://www.epicweb.dev/why-i-won-t-use-jsdom)：建议在真实浏览器中测试前端组件，使用Vitest浏览器模式和Playwright，而非JSDOM这类Node.js polyfill环境。React集成方式与React Testing Library类似。
+- 📜 [通过同步引擎提升UX和DX](https://www.carlassmann.com/blog/improve-ux-dx-with-sync-engines)：分析了React Query中查询失效和乐观UI实现的难点，提出使用Replicache的本地优先模型。
+- 📜 [告别React一年后](https://kellysutton.com/2025/01/18/moving-on-from-react-a-year-later.html)：关于从服务端渲染Rails应用中移除React的反思，将JS视为一种阻碍。
+- 📜 [服务端React渲染为png、pdf或交互式web应用](https://swizec.com/blog/server-side-react-that-renders-as-png-pdf-or-interactive-webapp/)：在TanStack Start应用中使用搜索参数返回PDF或png。
+- 📜 [如何在Remix中处理多个并发提交](https://tigerabrodi.blog/how-to-handle-multiple-concurrent-submissions-in-remix)
+- 📜 [React服务端组件究竟有何优势？](https://tigerabrodi.blog/why-is-react-server-components-actually-beneficial-full-history)
+- 📜 [为百万级用户React应用选择状态管理库（及我们选择MobX的原因）](https://www.photoroom.com/inside-photoroom/picking-a-state-management-library-why-we-went-with-mobx-)
 - 📜 [useAsyncFetcher：在Remix应用中实现异步获取函数](https://www.cerbos.dev/blog/useasyncfetcher-implement-asynchronous-fetch-in-remix)
 - 📜 [Formik入门指南](https://playfulprogramming.com/posts/formik-intro)
 - 📜 [如何使用React-Admin构建CMS](https://marmelab.com/blog/2025/01/24/how-to-build-a-cms-with-react-admin.html)
-- 📦 [Vercel Next.js SaaS启动模板](https://github.com/nextjs/saas-starter)：最初由Lee Robinson创建，现由Vercel官方维护。你可能不再需要购买付费样板项目。
-- 📦 [2n8 - 基于类的React状态库](https://2n8.wstone.uk/)：融合MobX与Zustand特性的创新方案。
+- 📦 [Vercel Next.js SaaS启动模板](https://github.com/nextjs/saas-starter)：最初由Lee Robinson创建，现由Vercel官方维护。你可能不需要购买付费样板。
+- 📦 [2n8 - 基于类的React状态库](https://2n8.wstone.uk/)：融合MobX和Zustand的有趣尝试。
 - 🎥 [Theo - 为什么每个React网站都这么慢？](https://www.youtube.com/watch?v=INLq9RPAYUw)
-- 🎥 [Youssef Benlemlih - TanStack Router完整教程](https://www.youtube.com/watch?v=fpXOT8SNTpY)
+- 🎥 [Youssef Benlih - TanStack Router完整教程](https://www.youtube.com/watch?v=fpXOT8SNTpY)
 
 <SubscribeFormEmbed placement="middle" />
 
@@ -81,17 +81,17 @@ Convex是一站式平台，为您提供构建、发布和扩展生产级后端�
 
 **[用Reactile重新思考React应用的用户体验](https://www.reactile.net/?utm_source=ThisweekinReact)**
 
-Reactile是一个开箱即用的UI/UX框架，提供直观的平铺式工作区界面。它支持在单个浏览器标签页内实现大型Web解决方案的并行工作负载。开发者只需用React编写自定义视图容器、组件和业务逻辑，Reactile会为您处理复杂的布局渲染。
+Reactile是一个开箱即用的UI/UX框架，提供直观的平铺式工作区界面。它支持在单个浏览器标签页内实现大型Web解决方案的并行工作流。开发者只需用React编写自定义视图容器、组件和业务逻辑，Reactile会为您处理复杂的布局渲染。
 
 此外，Reactile还提供：
 
-- 基于Promise的持久化机制，实现跨设备跨时段的工作流统一
-- 支持平铺窗口的嵌套标签页功能
-- 简化的全局搜索机制
+- 基于Promise的持久化机制，实现跨设备跨时段的工作流一致性
+- 支持嵌套标签页的平铺布局
+- 简化的全局搜索功能
 - 基于CSS @container的响应式设计
 - 以及更多特性
 
-2.0版本即将发布。现在可申请30天免费试用，访问reactile.net了解更多。
+2.0版本即将发布。立即申请30天免费试用，了解更多请访问reactile.net。
 
 [Reactile - 新一代React UI管理系统](https://www.reactile.net/price?utm_source=ThisweekinReact)
 
@@ -99,25 +99,25 @@ Reactile是一个开箱即用的UI/UX框架，提供直观的平铺式工作区�
 
 ## 📱 React-Native {#react-native}
 
-- 💸 [PostHog - Swype如何利用移动端会话回放进行测试和用户洞察](https://dub.link/twir-jan29)
+- 💸 [PostHog - Swype如何利用移动端会话回放进行测试与用户洞察](https://dub.link/twir-jan29)
 - 📣 [React Native 0.79 - 移除通过Chrome的远程JS调试功能](https://github.com/react-native-community/discussions-and-proposals/discussions/872)
-- 🐦 [Fernando Rojo指出"React Native较新版本中的`<Text>`组件开销更小"](https://x.com/FernandoTheRojo/status/1882111985661415556)：从v0.75+开始（不确定确切版本），包含简单字符串子元素的文本组件性能大幅提升。
-- 🐦 [Shopify采用React Native的技术决策 - CTO视角](https://x.com/jmwind/status/1882071857098080653)：Shopify前CTO发布长文推文，对近期Shopify博客文章进行了完美补充。采用RN的决策历经数年，他们基于技术潜力和社区前景而非当前状态做出了技术押注。
-- 🐦 [Expo Router中的iOS App Clip演示](https://x.com/Baconbrix/status/1882141919574360421)：只需点击链接即可运行原生iOS应用界面，无需从App Store安装。
-- 🐦 [iPadOS多窗口功能演示](https://x.com/o_kwasniewski/status/1882388170643272130)：新推出的"React Native Factory"特性解锁了棕地开发和多窗口应用场景。
+- 🐦 [Fernando Rojo指出"React Native新版本的`<Text>`组件性能开销更低"](https://x.com/FernandoTheRojo/status/1882111985661415556)：从v0.75+开始（不确定具体版本），带有简单字符串子元素的文本组件性能大幅提升。
+- 🐦 [Shopify的React Native实践 - CTO视角](https://x.com/jmwind/status/1882071857098080653)：前Shopify CTO发布长推文，对近期Shopify博文形成补充。采用RN的决策历经数年，他们基于技术潜力和社区前景而非现状下注。
+- 🐦 [Expo Router的iOS App Clip演示](https://x.com/Baconbrix/status/1882141919574360421)：点击链接即可运行原生iOS应用界面，无需从App Store安装。
+- 🐦 [iPadOS多窗口功能演示](https://x.com/o_kwasniewski/status/1882388170643272130)：新"React Native Factory"特性解锁了遗留系统集成和多窗口可能性。
 - 📜 [如何构建精美的React Native底部标签栏](https://expo.dev/blog/how-to-build-beautiful-react-native-bottom-tabs)
 - 📜 [React Native音频API介绍](https://blog.swmansion.com/hello-react-native-audio-api-bb0f10347211)
-- 📜 [使用Zephyr实现无线(OTA)更新](https://zephyr-cloud.io/blog/ota-with-zephyr)：使超级应用能够独立更新其子模块。
-- 📦 [Polygen - 在应用中静态运行WebAssembly模块，无需解释器](https://github.com/callstackincubator/polygen)：这款Callstack预览版工具将Wasm转换为C代码，通过JSI调用以实现卓越性能。
-- 📦 [Hot Updater - 可自托管的React Native OTA更新方案](https://github.com/gronxb/hot-updater)：CodePush的替代方案，插件允许自定义JS包托管位置（S3/Supabase/PostgreSQL等）。
+- 📜 [使用Zephyr实现无线(OTA)更新](https://zephyr-cloud.io/blog/ota-with-zephyr)：使超级应用能独立更新其子模块。
+- 📦 [Polygen - 在应用中静态运行WebAssembly模块](https://github.com/callstackincubator/polygen)：这个Callstack预览版工具将Wasm转为C代码并通过JSI调用以获得卓越性能。
+- 📦 [Hot Updater - 可自托管的React Native OTA更新方案](https://github.com/gronxb/hot-updater)：CodePush的替代方案，插件支持自定义JS包托管位置（S3/Supabase/PostgreSQL等）。
 - 📦 [React Native Windows 0.77](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.77.0)，[MacOS 0.77](https://github.com/microsoft/react-native-macos/pull/2333)即将发布
 - 📦 [React Native 0.74.7](https://github.com/facebook/react-native/releases/tag/v0.74.7)：生命周期终止版本，0.74.x系列不再维护。
-- 📦 [适用于Reanimated 4的React Native CSS动画预设](https://github.com/software-mansion-labs/react-native-css-animations)
-- 🎥 [Fernando Rojo - 我用SwiftUI构建了React Native底部弹窗？](https://www.youtube.com/watch?v=TFEPTgGJ2iU)
+- 📦 [Reanimated 4的React Native CSS动画预设](https://github.com/software-mansion-labs/react-native-css-animations)
+- 🎥 [Fernando Rojo - 我用SwiftUI构建了React Native底部弹窗？！](https://www.youtube.com/watch?v=TFEPTgGJ2iU)
 - 🎥 [Jack Herrington - React Native微前端！移动应用的变革者](https://www.youtube.com/watch?v=Lp-5wSsd5Do)
 - 🎥 [Simon Grimm - React Native动画从未如此简单（Reanimated v4）](https://www.youtube.com/watch?v=QgCLSR9EbDc)
 - 🎙️ [React Universe On Air第47期 - 使用Zephyr Cloud和Re.Pack实现移动微前端](https://www.youtube.com/watch?v=9fHpEngW2lU)
-- 🎙️ [RNR第319期 - Shopify全力押注React Native（嘉宾Mustafa Ali）](https://www.reactnativeradio.com/episodes/rnr-319-shopify-goes-full-throttle-on-react-native-with-mustafa-ali)
+- 🎙️ [RNR第319期 - Shopify全面押注React Native（嘉宾Mustafa Ali）](https://www.reactnativeradio.com/episodes/rnr-319-shopify-goes-full-throttle-on-react-native-with-mustafa-ali)
 - 🎙️ [PodRocket - 通用React开发（嘉宾Mo Khazali）](https://podrocket.logrocket.com/universal-react-mo-khazali)
 - 🎙️ [Rocket Ship第59期 - Expo Router、RSC与DOM组件（嘉宾Evan Bacon）](https://share.transistor.fm/s/df636b75)
 
@@ -126,13 +126,13 @@ Reactile是一个开箱即用的UI/UX框架，提供直观的平铺式工作区�
 ## 🔀 其他 {#other}
 
 - 👀 [TypeScript 5.8 迭代计划 · `erasableSyntaxOnly`、require(esm)、依赖返回类型收窄](https://github.com/microsoft/TypeScript/issues/61023)
-- 📜 [TypeScript 5.8 发布——通过--erasableSyntaxOnly禁用枚举](https://www.totaltypescript.com/erasable-syntax-only)
+- 📜 [TypeScript 5.8 发布 --erasableSyntaxOnly 禁用枚举语法](https://www.totaltypescript.com/erasable-syntax-only)
 - 📜 [容器查询全面解析](https://www.joshwcomeau.com/css/container-queries-unleashed/)
-- 📜 [JavaScript Temporal即将到来](https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/)
-- 📜 [通过Linting和TypeScript避免使用`any`](https://typescript-eslint.io/blog/avoiding-anys/)
-- 📜 [编写JavaScript服务器的现代方式](https://marvinh.dev/blog/modern-way-to-write-javascript-servers/)
-- 📦 [Tailwind CSS 4.0 —— 高性能引擎、CSS优先配置、现代CSS、Vite插件](https://tailwindcss.com/blog/tailwindcss-v4)
-- 📦 [Standard Schema 1.0 —— TypeScript验证库的通用接口](https://standardschema.dev/)
+- 📜 [JavaScript Temporal 即将到来](https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/)
+- 📜 [通过 Linting 和 TypeScript 避免使用 `any`](https://typescript-eslint.io/blog/avoiding-anys/)
+- 📜 [编写 JavaScript 服务端的现代方式](https://marvinh.dev/blog/modern-way-to-write-javascript-servers/)
+- 📦 [Tailwind CSS 4.0 - 高性能引擎、CSS优先配置、现代CSS、Vite插件](https://tailwindcss.com/blog/tailwindcss-v4)
+- 📦 [Standard Schema 1.0 - TypeScript 验证库的通用接口](https://standardschema.dev/)
 
 ---
 
@@ -142,4 +142,4 @@ Reactile是一个开箱即用的UI/UX框架，提供直观的平铺式工作区�
 
 [![alt](/emails/issues/219/meme2.jpg)](https://x.com/thekitze/status/1883985586194706537)
 
-下次见！👋
+下期见！👋

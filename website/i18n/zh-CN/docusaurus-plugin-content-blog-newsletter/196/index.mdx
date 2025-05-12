@@ -11,16 +11,16 @@ date: 08-14-2024
 
 我们是来自[Theodo Apps（原BAM）](https://apps.theodo.com/en?utm_source=thisweekinreact)的**Cyril和Matthieu** 👋，本期由我们为大家带来React和React Native领域的最新动态。
 
-本周React社区相对平静，主要围绕React 19中Suspense机制的争议展开讨论。
+本周React方面相对平静，主要围绕React 19中Suspense相关争议的持续讨论。
 
-**但React Native领域却热闹非凡！**\
-从Expo展示如何集成React DOM组件，到激动人心的React Native WebGPU发布，亮点纷呈。此外，我们还将探讨颠覆传统开发模式的原生模块新方案。React Native 0.75版本也即将发布，下周我们将重点报道！
+**但React Native领域可谓精彩纷呈！**\
+从Expo演示如何集成React DOM组件，到激动人心的React Native WebGPU发布，亮点不断。此外，我们还将探讨可能颠覆传统开发模式的原生模块新方案。React Native 0.75版本也即将发布，下周我们将重点报道！
 
-我们的合作会议**[reactjsday](https://2024.reactjsday.it/?utm_source=thisweekinreact)**（🇮🇹 意大利维罗纳 - 10月25日）迎来十周年庆典，今年升级为双轨道议程（16场演讲）。使用优惠码"TWIR"可享9折。已公布的重磅演讲嘉宾包括：Matheus Albuquerque、Aurora Scharff、Dani Coll等！
+我们的合作会议**[reactjsday](https://2024.reactjsday.it/?utm_source=thisweekinreact)**（🇮🇹 维罗纳 - 10月25日）迎来十周年庆典，今年升级为双轨道（16场演讲）。使用优惠码"TWIR"可享9折。已公布的重磅演讲嘉宾包括：Matheus Albuquerque、Aurora Scharff、Dani Coll等！
 
 <!-- truncate -->
 
-**💡 [在Twitter上浏览本期简报](https://slo.im/thread) - 视觉化排版 🎨**
+**💡 [在Twitter上查看本期简报](https://slo.im/thread) - 可视化版式 🎨**
 
 ---
 
@@ -36,36 +36,36 @@ import Support from "../_support.mdx";
 
 **[通过StackBlitz最大化设计系统价值](https://stackblitz.com/design-systems?utm_source=twir&utm_medium=primary)**
 
-设计系统能提升开发效率和一致性，但其构建和维护过程充满挑战。[**StackBlitz**](https://stackblitz.com/) **让设计系统更易于推广、维护和演进**，它能帮助您：
+设计系统能提升开发效率和一致性，但其构建和维护过程充满挑战。[**StackBlitz**](https://stackblitz.com/) **让设计系统更易于_推广_、_维护_和_演进_**。通过StackBlitz您可以：
 
-- 📈 **提升采用率**：提供一键式即时环境，方便团队试用内部库
+- 📈 **提升采用率**：提供一键式即时环境供团队试用内部库
 - 💻 **优化开发者体验**：在文档中嵌入实时代码示例
-- 🐛 **改进缺陷报告**：快速筛选真实问题，彻底告别为简单bug搭建复杂本地环境
+- 🐛 **改进缺陷报告**：即时过滤真实问题，从此告别为简单缺陷搭建笨重本地环境
 - 🤝 **简化协作流程**：促进工程、设计等多部门无缝协作
 
-**准备好革新设计系统工作流了吗？** [立即体验](https://stackblitz.com/design-systems)！
+**准备好革新设计系统工作流了吗？** [立即开始](https://stackblitz.com/design-systems)！
 
 ---
 
 ## ⚛️ React {#react}
 
 - 💸 [Chromatic – Storybook、Playwright 和 Cypress 的可视化测试工具。捕捉功能测试遗漏的 UI 缺陷。闪电般快速且零误报。](https://www.chromatic.com/features/visual-test?utm_source=thisweekinreact&utm_medium=quick_link&utm_campaign=q3_2024)
-- 👀 [React 19 - 禁用 Suspense 组件兄弟节点的预渲染将破坏常见模式](https://github.com/facebook/react/issues/29898): React 团队正在撤销这项原计划纳入 React 19 的改动，该改动会导致大量单页应用性能下降。目前尚无明确时间表，稳定版 React 19 的发布可能需要较长时间
-- 🐦 [Matt Pocock 提出库类型声明的新方案](https://x.com/mattpocockuk/status/1821124980043636841): 例如 React 可以通过 TypeScript 命名空间暴露 `useState` 类型
+- 👀 [React 19 - 禁用 Suspense 组件兄弟节点的预渲染将破坏常见模式](https://github.com/facebook/react/issues/29898): React 团队正在撤销这项原计划纳入 React 19 的变更，该变更会导致大量单页应用性能下降。目前尚无明确发布时间，稳定版 React 19 可能还需等待
+- 🐦 [Matt Pocock 提出库类型声明的新思路](https://x.com/mattpocockuk/status/1821124980043636841): 例如 React 可以通过 TypeScript 命名空间暴露 `useState` 类型
 - 🐦 [Matt Pocock 的组件属性自动补全技巧](https://x.com/mattpocockuk/status/1821926395380986219): 使用 `string & {}` 语法
-- 📜 [现代 React 表单开发深度指南](https://www.epicreact.dev/react-forms): Kent 讲解如何运用新钩子 `useFormStatus`、`useActionState` 和 `useOptimistic`
-- 📜 [Jotai 的诞生历程](https://blog.axlight.com/posts/how-jotai-was-born/): Daishi Kato 回顾他在创建 Jotai 之前对状态管理库的多轮迭代
-- 📜 [依赖注入如何使前端代码更清晰易维护](https://codedrivendevelopment.com/posts/dependency-injection-in-react): 这篇有价值的文章鼓励在复杂 React 项目中深思熟虑地运用 DI 模式
-- 📜 [用 Next.js 和 Electron 构建支持服务器组件的应用](https://www.saybackend.com/blog/03-electron-nextjs-ssr): 讲解如何改造 Next.js 使其在 Electron 应用中运行 RSC 服务器
+- 📜 [现代 React 表单深度解析](https://www.epicreact.dev/react-forms): Kent 讲解如何运用新钩子 `useFormStatus`、`useActionState` 和 `useOptimistic`
+- 📜 [Jotai 的诞生历程](https://blog.axlight.com/posts/how-jotai-was-born/): Daishi Kato 回顾他创建状态管理库的多次迭代过程
+- 📜 [依赖注入如何使前端代码更清晰易维护](https://codedrivendevelopment.com/posts/dependency-injection-in-react): 对复杂 React 项目极具参考价值的 DI 实践指南
+- 📜 [构建支持服务器组件的 Next.js + Electron 应用](https://www.saybackend.com/blog/03-electron-nextjs-ssr): 详解在 Electron 中运行 RSC 服务器的实现方案
 - 📜 [通过异步代码块预加载优化 SPA 加载速度](https://mmazzarolo.com/blog/2024-08-13-async-chunk-preloading-on-load/)
-- 📜 [什么是组件库？你应该自建吗？](https://component-odyssey.com/articles/10-what-is-a-library-should-you-build-your-own)
+- 📜 [组件库是什么？你需要自建吗？](https://component-odyssey.com/articles/10-what-is-a-library-should-you-build-your-own)
 - 📦 [Docusaurus 3.5 - 作者页面与多项博客新功能](https://docusaurus.io/blog/releases/3.5)
-- 📦 [Impact-React RC 版 - CodeSandbox 推出的 React 信号方案](https://impact-react.dev)
+- 📦 [Impact-React RC 版 - CodeSandbox 出品的 React 信号方案](https://impact-react.dev)
 - 📦 [Plunk - 集成 react-email 和 jsx-email 的新开源邮件平台](https://www.useplunk.com/)
-- 📦 [react-switchboard - 快速创建应用专属的 DevTools](https://github.com/coryhouse/react-switchboard)
-- 📦 [react-call - 命令式显示 React 组件并等待其返回结果](https://github.com/desko27/react-call): 简化确认对话框、消息提示等实现的创新思路
+- 📦 [react-switchboard - 快速创建应用专属 DevTools](https://github.com/coryhouse/react-switchboard)
+- 📦 [react-call - 命令式调用 React 组件并等待结果](https://github.com/desko27/react-call): 简化确认对话框、消息提示等场景的有趣方案
 - 📦 [@lazarv/react-server - 支持服务器组件的替代框架](https://react-server.dev/)
-- 🎙️ [Syntax.fm - 我们对 React 现状调查的回应](https://syntax.fm/show/805/we-react-to-state-of-react-survey)
+- 🎙️ [Syntax.fm - 我们对《React 现状调研》的回应](https://syntax.fm/show/805/we-react-to-state-of-react-survey)
 - 🎙️ [Syntax.fm - CSS 组件方案全景：Tailwind、Panda、Scoped、Modules、Classes、Variables、CSS-in-JS 和 Sprinkles](https://syntax.fm/show/807/css-components-tailwind-panda-scoped-modules-classes-variables-css-in-js-and-sprinkles)
 - 🎥 [Sam Selikoff - 用无样式组件避免过早抽象](https://www.youtube.com/watch?v=9iJK-Vl6PhE)
 
@@ -75,25 +75,25 @@ import Support from "../_support.mdx";
 
 ## 💸 赞助商 {#sponsor2}
 
-[![Statsig: 发布、测量、迭代](/emails/issues/196/statsig.jpg)](https://statsig.com/?utm_campaign=this-week-in-react&utm_source=sponsorships&utm_medium=email&utm_content=website)
+[![Statsig: 发布、衡量、迭代](/emails/issues/196/statsig.jpg)](https://statsig.com/?utm_campaign=this-week-in-react&utm_source=sponsorships&utm_medium=email&utm_content=website)
 
-**[Statsig: 发布、测量、迭代](https://statsig.com/?utm_campaign=this-week-in-react&utm_source=sponsorships&utm_medium=email&utm_content=website)**
+**[Statsig: 发布、衡量、迭代](https://statsig.com/?utm_campaign=this-week-in-react&utm_source=sponsorships&utm_medium=email&utm_content=website)**
 
-OpenAI、Notion和Brex等公司采用的功能管理、A/B测试和产品分析工具。通过量化每个发布的功能，打造更出色的产品 🚀
+OpenAI、Notion和Brex等公司采用的功能管理、A/B测试与产品分析工具。通过量化每项功能发布效果，打造更出色的产品 🚀
 
-一次集成Statsig即可获得：
+集成Statsig即可获得：
 
-🧪 **A/B测试**：配备高级统计的自动化实验，仅发布真正有效的功能
+🧪 **A/B测试：** 具备高级统计的自动化实验，仅上线真正有效的功能
 
-🚩 **功能开关**：无限量免费开关，一键将任何开关转为A/B测试
+🚩 **功能开关：** 无限量免费功能开关，一键将任何开关转为A/B测试
 
-🥇 **产品分析**：追踪增长并衡量功能影响，按功能开关或A/B测试组进行分析
+🥇 **产品分析：** 追踪增长指标并衡量功能影响，支持按功能开关或A/B测试组细分分析
 
-🎥 **会话回放**：重现用户交互以理解体验和摩擦点
+🎥 **会话回放：** 重现用户交互过程，洞察体验痛点
 
-🌐 **网站分析**：插入JS代码片段即可获取关键网站指标和仪表板
+🌐 **网站分析：** 通过JS代码片段获取核心网站指标与可视化看板
 
-免费享受200万次事件和1万次会话录制——[**完全免费**](https://statsig.com/?utm_campaign=this-week-in-react&utm_source=sponsorships&utm_medium=email&utm_content=website)**！**
+免费额度包含200万次事件记录和1万次会话录制——[**永久免费**](https://statsig.com/?utm_campaign=this-week-in-react&utm_source=sponsorships&utm_medium=email&utm_content=website)**！**
 
 ---
 
@@ -103,49 +103,49 @@ OpenAI、Notion和Brex等公司采用的功能管理、A/B测试和产品分析�
 
 **🎥 [React Native WebGPU](https://www.youtube.com/watch?v=i-DGY98cTjk)**
 
-React Native WebGPU 刚刚发布，为React Native提供了利用GPU进行高级图形和计算的统一API！通过复用Web API标准，我们可以轻松集成现有的WebGPU代码示例和库（如ThreeJS）到React Native中。
-除了图形处理，React Native WebGPU还可用于矩阵计算等任务，这对设备端机器学习算法非常有用。它采用Nitro Modules实现TypeScript到C++的无缝互操作。目前处于技术预览阶段，预示着激动人心的进展！
+React Native WebGPU正式发布！这项技术通过复用Web API标准，为React Native提供了调用GPU进行高级图形渲染与计算的统一接口。开发者可直接集成现有WebGPU代码示例和类库（如ThreeJS）到React Native应用中。
+除了图形处理，React Native WebGPU还能用于矩阵运算等场景，为设备端机器学习算法提供了新可能。该技术采用Nitro Modules实现TypeScript到C++的无缝互操作，目前处于技术预览阶段，预示着激动人心的技术前景！
 
 ---
 
-**React Native模块的未来**
+**React Native模块的未来演进**
 
-React Native开发者的激动时刻！Marc Rousavy正通过NitroModules革新原生代码编写方式📦 [在速度测试中远超现有方案](https://github.com/mrousavy/NitroBenchmarks)。他在VisionCamera中遇到了JSI的一些限制。该项目在C++端已趋稳定，并已用于🐦 [react-native-unistyles](https://x.com/jpudysz/status/1822541758137303233)和react-native-webgpu等项目，Swift和Kotlin绑定仍在开发中。
+React Native开发者迎来重大革新！Marc Rousavy推出的NitroModules彻底改变了原生代码编写方式📦 [性能测试全面超越现有方案](https://github.com/mrousavy/NitroBenchmarks)。他在VisionCamera项目中发现了JSI的局限性。目前C++端已趋稳定，正被应用于🐦 [react-native-unistyles](https://x.com/jpudysz/status/1822541758137303233)和react-native-webgpu等项目，Swift与Kotlin绑定仍在开发中。
 
-👀 [与此同时，一项推动Swift用于TurboModules的新提案已提交](https://github.com/okwasniewski/discussions-and-proposals/blob/22edd2c7853aaf2ee654b57f4521e43d668103fb/proposals/0000-swift-turbo-modules.md)。这些变化将通过弃用Objective-C和C++来简化原生模块开发。随着这些更新，构建原生模块将变得更加轻松！
+👀 [与此同时，一份推动Swift开发TurboModules的新提案已提交](https://github.com/okwasniewski/discussions-and-proposals/blob/22edd2c7853aaf2ee654b57f4521e43d668103fb/proposals/0000-swift-turbo-modules.md)。通过弃用Objective-C和C++，这些改进将大幅降低原生模块开发门槛。技术升级即将带来更高效的开发体验！
 
 ---
 
 - 💸 [Galaxies.dev - 成为专业React Native开发者，在下周二涨价前立省65美元！](https://galaxies.dev/subscription?utm_campaign=announcement&utm_medium=price-updates&utm_source=thisweekinreact.com)
 - 👀 [React Native 0.76或将最低iOS版本要求提升至15.1](https://github.com/react-native-community/discussions-and-proposals/discussions/812)
-- 👀 ["use dom" - Expo正研发无缝集成React Web组件到React Native应用的新方案](https://docs.expo.dev/guides/dom-components/)：实验性功能允许导入React DOM组件，通过props和回调进行交互！组件通过webview渲染而非原生视图，可能更适用于迁移或次要功能
-- 👀 [React Native Screens 4.0测试版发布](https://github.com/software-mansion/react-native-screens/releases/tag/4.0.0-beta.0)：支持iOS自定义detents和Android表单式弹窗
-- 👀 [即将在React Native 0.75和Expo SDK 51中推出的自动链接性能优化](https://github.com/react-native-community/discussions-and-proposals/discussions/814)
-- 📖 [Expo文档更新 - 使用Jest进行单元测试](https://docs.expo.dev/develop/unit-testing/)：新增jest-expo和React Native Testing Library配置指南
-- 🗓️ [React Universe大会](https://www.reactuniverseconf.com/?utm_source=thisweekinreact) - 波兰弗罗茨瓦夫 9月5-6日。使用代码"TWIR"可享9折。演讲嘉宾包括Dan Abramov、Evan Bacon等
-- 📜 [Cocoapods正式进入维护模式](https://blog.cocoapods.org/CocoaPods-Support-Plans/)：React Native未来需迁移至其他依赖管理工具
-- 📦 [react-native-macos v0.74支持已发布](https://github.com/microsoft/react-native-macos/releases/tag/v0.74.1)
-- 🎥 [Reactiiive - 使用Reanimated构建故事列表UI（React Native）](https://www.youtube.com/watch?v=NNRym_f8JsA)
+- 👀 ["use dom" - Expo正在开发无缝集成React Web组件到React Native应用的新方案](https://docs.expo.dev/guides/dom-components/)：实验性功能允许导入React DOM组件，通过props和回调进行交互！组件通过webview而非原生视图渲染，可能更适合迁移或次要功能
+- 👀 [React Native Screens 4.0测试版发布](https://github.com/software-mansion/react-native-screens/releases/tag/4.0.0-beta.0)：支持iOS自定义悬停高度和Android表单弹窗
+- 👀 [React Native 0.75和Expo SDK 51将带来自动链接性能优化](https://github.com/react-native-community/discussions-and-proposals/discussions/814)
+- 📖 [Expo文档更新-Jest单元测试指南](https://docs.expo.dev/develop/unit-testing/)：新增jest-expo和React Native Testing Library配置说明
+- 🗓️ [React Universe大会](https://www.reactuniverseconf.com/?utm_source=thisweekinreact) - 🇵🇱 弗罗茨瓦夫 9月5-6日。使用代码"TWIR"享9折。演讲嘉宾包括Dan Abramov、Evan Bacon等
+- 📜 [Cocoapods正式进入维护模式](https://blog.cocoapods.org/CocoaPods-Support-Plans/)：React Native未来需迁移
+- 📦 [react-native-macos支持RN 0.74版本发布](https://github.com/microsoft/react-native-macos/releases/tag/v0.74.1)
+- 🎥 [Reactiiive - 使用Reanimated构建故事列表UI(React Native)](https://www.youtube.com/watch?v=NNRym_f8JsA)
 - 🎥 [Simon Grimm - 使用Expo Router实现React Native Firebase认证](https://www.youtube.com/watch?v=BsOik6ycGqk)
-- 🎙️ [RNR 303 - Chain React 2024大会故事集锦](https://www.reactnativeradio.com/episodes/rnr-303-stories-from-chain-react-2024)
+- 🎙️ [RNR 303 - Chain React 2024大会见闻](https://www.reactnativeradio.com/episodes/rnr-303-stories-from-chain-react-2024)
 
 ---
 
-## 🔀 其他领域 {#other}
+## 🔀 其他 {#other}
 
-- 👀 [Node.js - 新增对TypeScript枚举和命名空间转译的支持](https://github.com/nodejs/node/pull/54283)
-- 📜 [Node.js开始逐步移除Corepack](https://socket.dev/blog/node-js-takes-steps-towards-removing-corepack?utm_medium=feed)
-- 📜 [CSS入场动画效果现已成为基线功能（Firefox 129已支持）](https://web.dev/blog/baseline-entry-animations?hl=en)
+- 👀 [Node.js - 新增TypeScript枚举和命名空间转译支持](https://github.com/nodejs/node/pull/54283)
+- 📜 [Node.js计划逐步移除Corepack](https://socket.dev/blog/node-js-takes-steps-towards-removing-corepack?utm_medium=feed)
+- 📜 [CSS入场动画效果现已成为基线功能(Firefox 129已支持)](https://web.dev/blog/baseline-entry-animations?hl=en)
 - 📜 [JavaScript内存泄漏常见原因分析](https://www.trevorlasn.com/blog/common-causes-of-memory-leaks-in-javascript/)
-- 📜 [优化TypeScript类型检查性能的方法探索](https://www.edgedb.com/blog/an-approach-to-optimizing-typescript-type-checking-performance#how-do-we-quantify-the-type-checker-s-workload)
-- 📜 [原生JavaScript装饰器的可能性研究](https://frontendmasters.com/blog/exploring-the-possibilities-of-native-javascript-decorators/?ref=cms.macarthur.me)
-- 📜 [Figma SVG导出的动画实现技巧](https://courses.nan.fyi/blog/svg/animating-figma-exports)
-- 📦 [Cheerio 1.0正式版发布 - 历经7年测试终迎稳定](https://cheerio.js.org/blog/cheerio-1.0)
-- 🔗 [e18e - JavaScript生态系统性能优化倡议](https://e18e.dev/)
+- 📜 [优化TypeScript类型检查性能的方法](https://www.edgedb.com/blog/an-approach-to-optimizing-typescript-type-checking-performance#how-do-we-quantify-the-type-checker-s-workload)
+- 📜 [探索原生JavaScript装饰器的可能性](https://frontendmasters.com/blog/exploring-the-possibilities-of-native-javascript-decorators/?ref=cms.macarthur.me)
+- 📜 [动效化Figma导出的SVG文件](https://courses.nan.fyi/blog/svg/animating-figma-exports)
+- 📦 [Cheerio 1.0 - 历经7年测试版终迎稳定版](https://cheerio.js.org/blog/cheerio-1.0)
+- 🔗 [e18e - JavaScript生态系统性能优化计划](https://e18e.dev/)
 
 ---
 
-## 🤭 趣味时刻 {#fun}
+## 🤭 趣味 {#fun}
 
 [![alt](/emails/issues/196/meme.jpg)](https://x.com/DavidKPiano/status/1822633099433316504)
 

@@ -1,359 +1,477 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/132/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/132/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /132\ntitle: \"This Week In React #132: Astro, Remix, Server Components, useGlobalState, Next.js, Redwood, Expo Router, Expo Image, Android Widgets...\"\nauthors: [slorber]\ndate: 01-25-2023\n---",
-      "sourceMdx": "---\nslug: /132\ntitle: \"This Week In React #132: Astro, Remix, Server Components, useGlobalState, Next.js, Redwood, Expo Router, Expo Image, Android Widgets...\"\nauthors: [slorber]\ndate: 01-25-2023\n---"
+      "sourceMdx": "---\nslug: /132\ntitle: \"This Week In React #132: Astro, Remix, Server Components, useGlobalState, Next.js, Redwood, Expo Router, Expo Image, Android Widgets...\"\nauthors: [slorber]\ndate: 01-25-2023\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "This week we have some nice releases with Astro 2.0 and Remix 1.11. Also some interesting content around Server Components.",
-      "sourceMdx": "This week we have some nice releases with Astro 2.0 and Remix 1.11. Also some interesting content around Server Components."
+      "sourceMdx": "This week we have some nice releases with Astro 2.0 and Remix 1.11. Also some interesting content around Server Components.",
+      "nodeType": "paragraph",
+      "translated_content": "本周我们迎来了Astro 2.0和Remix 1.11等重要版本发布，同时还有围绕服务端组件的精彩内容。"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "React-Native is not left out with Expo Router in release candidate, Expo Image in beta, and a new solution to create Android widgets.",
-      "sourceMdx": "React-Native is not left out with Expo Router in release candidate, Expo Image in beta, and a new solution to create Android widgets."
+      "sourceMdx": "React-Native is not left out with Expo Router in release candidate, Expo Image in beta, and a new solution to create Android widgets.",
+      "nodeType": "paragraph",
+      "translated_content": "React-Native领域也不乏亮点：Expo Router进入候选发布阶段，Expo Image进入测试版，以及全新的Android小组件解决方案。"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "I was invited to the show [Learn With Jason - Create and deploy a documentation website](https://www.learnwithjason.dev/create-and-deploy-a-documentation-website?utm_source=thisweekinreact) in which Jason makes his first steps on Docusaurus.",
-      "sourceMdx": "I was invited to the show [Learn With Jason - Create and deploy a documentation website](https://www.learnwithjason.dev/create-and-deploy-a-documentation-website?utm_source=thisweekinreact) in which Jason makes his first steps on Docusaurus."
+      "sourceMdx": "I was invited to the show [Learn With Jason - Create and deploy a documentation website](https://www.learnwithjason.dev/create-and-deploy-a-documentation-website?utm_source=thisweekinreact) in which Jason makes his first steps on Docusaurus.",
+      "nodeType": "paragraph",
+      "translated_content": "我受邀参加了[Jason的节目《学习创建并部署文档网站》](https://www.learnwithjason.dev/create-and-deploy-a-documentation-website?utm_source=thisweekinreact)，节目中Jason首次尝试使用Docusaurus。"
     },
     {
       "id": "86b54d44",
       "translatable": true,
       "content": "Discover the [ES.next News newsletter](https://esnextnews.com/?utm_source=thisweekinreact), a good source of information to keep up to date on the evolution of the JavaScript language, the TC39 committee and JS tooling like ESLint, Babel, Bun, Prettier...",
-      "sourceMdx": "Discover the [ES.next News newsletter](https://esnextnews.com/?utm_source=thisweekinreact), a good source of information to keep up to date on the evolution of the JavaScript language, the TC39 committee and JS tooling like ESLint, Babel, Bun, Prettier..."
+      "sourceMdx": "Discover the [ES.next News newsletter](https://esnextnews.com/?utm_source=thisweekinreact), a good source of information to keep up to date on the evolution of the JavaScript language, the TC39 committee and JS tooling like ESLint, Babel, Bun, Prettier...",
+      "nodeType": "paragraph",
+      "translated_content": "推荐关注[ES.next News简报](https://esnextnews.com/?utm_source=thisweekinreact)，这是追踪JavaScript语言演进、TC39委员会动态及ESLint/Babel/Bun/Prettier等工具链更新的优质信息来源。"
     },
     {
       "id": "45c63027",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_45c63027"
     },
     {
       "id": "1acb9a05",
       "translatable": true,
       "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
-      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "nodeType": "paragraph",
+      "translated_content": "**💡 [在Twitter上浏览本期简报](https://slo.im/thread) - 可视化版式 🎨**"
     },
     {
       "id": "fb3d50cd",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "0adfe0aa",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_0adfe0aa"
     },
     {
       "id": "1941846d",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_1941846d"
     },
     {
       "id": "a5403c6e",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "d06306f7",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "73ab96a3",
       "translatable": true,
       "content": "[![refine](/emails/issues/132/refine.png)](https://github.com/refinedev/refine)",
-      "sourceMdx": "[![refine](/emails/issues/132/refine.png)](https://github.com/refinedev/refine)"
+      "sourceMdx": "[![refine](/emails/issues/132/refine.png)](https://github.com/refinedev/refine)",
+      "nodeType": "paragraph",
+      "translated_content": "[![refine](/emails/issues/132/refine.png)](https://github.com/refinedev/refine)"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "[**refine - 100% open-source, headless React framework for building CRUD apps**](https://github.com/refinedev/refine)",
-      "sourceMdx": "[**refine - 100% open-source, headless React framework for building CRUD apps**](https://github.com/refinedev/refine)"
+      "sourceMdx": "[**refine - 100% open-source, headless React framework for building CRUD apps**](https://github.com/refinedev/refine)",
+      "nodeType": "paragraph",
+      "translated_content": "[**refine - 100%开源的Headless React框架，专为构建CRUD应用而生**](https://github.com/refinedev/refine)"
     },
     {
       "id": "517051a7",
       "translatable": true,
       "content": "Get ready to take your skillset to the next level! We are thrilled to launch an Open Source refine Hackathon",
-      "sourceMdx": "Get ready to take your skillset to the next level! We are thrilled to launch an Open Source refine Hackathon"
+      "sourceMdx": "Get ready to take your skillset to the next level! We are thrilled to launch an Open Source refine Hackathon",
+      "nodeType": "paragraph",
+      "translated_content": "准备好提升你的技能水平！我们激动地宣布启动开源refine黑客马拉松"
     },
     {
       "id": "135468ee",
       "translatable": true,
       "content": "You can win $1500 and special swag kits!",
-      "sourceMdx": "You can win $1500 and special swag kits!"
+      "sourceMdx": "You can win $1500 and special swag kits!",
+      "nodeType": "paragraph",
+      "translated_content": "冠军将赢得1500美元奖金及专属周边礼包！"
     },
     {
       "id": "33331f27",
       "translatable": true,
       "content": "We are excited to collaborate with Strapi, Appwrite, Meilisearch, and Medusa. They are sponsoring the refine Hackathon and the winners will get a swag kit from each of them!",
-      "sourceMdx": "We are excited to collaborate with Strapi, Appwrite, Meilisearch, and Medusa. They are sponsoring the refine Hackathon and the winners will get a swag kit from each of them!"
+      "sourceMdx": "We are excited to collaborate with Strapi, Appwrite, Meilisearch, and Medusa. They are sponsoring the refine Hackathon and the winners will get a swag kit from each of them!",
+      "nodeType": "paragraph",
+      "translated_content": "我们很高兴与Strapi、Appwrite、Meilisearch和Medusa达成合作。这些赞助商将为获奖者提供各自的周边礼包！"
     },
     {
       "id": "50746522",
       "translatable": true,
       "content": "[More information about the Hackathon](https://refine.dev/blog/refine-hackathon/).",
-      "sourceMdx": "[More information about the Hackathon](https://refine.dev/blog/refine-hackathon/)."
+      "sourceMdx": "[More information about the Hackathon](https://refine.dev/blog/refine-hackathon/).",
+      "nodeType": "paragraph",
+      "translated_content": "[点击了解黑客马拉松详情](https://refine.dev/blog/refine-hackathon/)。"
     },
     {
       "id": "d4e0d4e1",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "8bddee80",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React动态 {#react}"
     },
     {
       "id": "a9d49f92",
       "translatable": true,
       "content": "[![Astro 2.0](/emails/issues/132/astro2.jpg)](https://astro.build/blog/astro-2/)",
-      "sourceMdx": "[![Astro 2.0](/emails/issues/132/astro2.jpg)](https://astro.build/blog/astro-2/)"
+      "sourceMdx": "[![Astro 2.0](/emails/issues/132/astro2.jpg)](https://astro.build/blog/astro-2/)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Astro 2.0](/emails/issues/132/astro2.jpg)](https://astro.build/blog/astro-2/)"
     },
     {
       "id": "a44047a5",
       "translatable": true,
       "content": "**[Astro 2.0](https://astro.build/blog/astro-2/)**",
-      "sourceMdx": "**[Astro 2.0](https://astro.build/blog/astro-2/)**"
+      "sourceMdx": "**[Astro 2.0](https://astro.build/blog/astro-2/)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Astro 2.0](https://astro.build/blog/astro-2/)**"
     },
     {
       "id": "f7ef78f9",
       "translatable": true,
       "content": "Astro releases its v2. New features highlighted:",
-      "sourceMdx": "Astro releases its v2. New features highlighted:"
+      "sourceMdx": "Astro releases its v2. New features highlighted:",
+      "nodeType": "paragraph",
+      "translated_content": "Astro发布v2版本，主要新特性包括："
     },
     {
       "id": "157c9741",
       "translatable": true,
       "content": "* Content Collections: Automatic type-safety for Markdown & MDX.\n* Hybrid Rendering: Static? Dynamic? Get the best of both worlds.\n* Redesigned Error Overlays\n* Improved Dev Server (HMR)\n* Vite 4.0\n* Public Roadmap",
-      "sourceMdx": "- Content Collections: Automatic type-safety for Markdown & MDX.\n- Hybrid Rendering: Static? Dynamic? Get the best of both worlds.\n- Redesigned Error Overlays\n- Improved Dev Server (HMR)\n- Vite 4.0\n- Public Roadmap"
+      "sourceMdx": "- Content Collections: Automatic type-safety for Markdown & MDX.\n- Hybrid Rendering: Static? Dynamic? Get the best of both worlds.\n- Redesigned Error Overlays\n- Improved Dev Server (HMR)\n- Vite 4.0\n- Public Roadmap",
+      "nodeType": "list",
+      "translated_content": "- 内容集合：为Markdown & MDX提供自动类型安全\n- 混合渲染：静态生成与动态渲染的完美结合\n- 重新设计的错误覆盖层\n- 改进的开发服务器（HMR）\n- Vite 4.0支持\n- 公开路线图"
     },
     {
       "id": "1131ef75",
       "translatable": true,
       "content": "See also the article [Introducing Content Collections: Type-Safe Markdown in Astro 2.0](https://astro.build/blog/introducing-content-collections/). It's about validating the front matter with Zod, to be able to use this data in a typed way in React components, and to have good error messages displayed with a good DX when front matter data that doesn't respect the schema. Definitely a good idea, by the way [Docusaurus does it too](https://github.com/facebook/docusaurus/issues/4591) 😜.",
-      "sourceMdx": "See also the article [Introducing Content Collections: Type-Safe Markdown in Astro 2.0](https://astro.build/blog/introducing-content-collections/). It's about validating the front matter with Zod, to be able to use this data in a typed way in React components, and to have good error messages displayed with a good DX when front matter data that doesn't respect the schema. Definitely a good idea, by the way [Docusaurus does it too](https://github.com/facebook/docusaurus/issues/4591) 😜."
+      "sourceMdx": "See also the article [Introducing Content Collections: Type-Safe Markdown in Astro 2.0](https://astro.build/blog/introducing-content-collections/). It's about validating the front matter with Zod, to be able to use this data in a typed way in React components, and to have good error messages displayed with a good DX when front matter data that doesn't respect the schema. Definitely a good idea, by the way [Docusaurus does it too](https://github.com/facebook/docusaurus/issues/4591) 😜.",
+      "nodeType": "paragraph",
+      "translated_content": "另参阅文章[《内容集合介绍：Astro 2.0中的类型安全Markdown》](https://astro.build/blog/introducing-content-collections/)。该功能通过Zod验证front matter数据，使React组件能类型安全地使用这些数据，并在数据不符合模式时提供优秀的开发者体验提示。顺带一提，[Docusaurus也在实现类似功能](https://github.com/facebook/docusaurus/issues/4591) 😜。"
     },
     {
       "id": "df6e96a7",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "5dae11e3",
       "translatable": true,
       "content": "[![Remix 1.11](/emails/issues/132/remix0.11.jpg)](https://github.com/remix-run/remix/releases/tag/remix%401.11.0)",
-      "sourceMdx": "[![Remix 1.11](/emails/issues/132/remix0.11.jpg)](https://github.com/remix-run/remix/releases/tag/remix%401.11.0)"
+      "sourceMdx": "[![Remix 1.11](/emails/issues/132/remix0.11.jpg)](https://github.com/remix-run/remix/releases/tag/remix%401.11.0)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Remix 1.11](/emails/issues/132/remix0.11.jpg)](https://github.com/remix-run/remix/releases/tag/remix%401.11.0)"
     },
     {
       "id": "0bb95128",
       "translatable": true,
       "content": "**[Remix 1.11](https://github.com/remix-run/remix/releases/tag/remix%401.11.0)**",
-      "sourceMdx": "**[Remix 1.11](https://github.com/remix-run/remix/releases/tag/remix%401.11.0)**"
+      "sourceMdx": "**[Remix 1.11](https://github.com/remix-run/remix/releases/tag/remix%401.11.0)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Remix 1.11](https://github.com/remix-run/remix/releases/tag/remix%401.11.0)**"
     },
     {
       "id": "657c2b20",
       "translatable": true,
       "content": "A nice Remix release with the main new features:",
-      "sourceMdx": "A nice Remix release with the main new features:"
+      "sourceMdx": "A nice Remix release with the main new features:",
+      "nodeType": "paragraph",
+      "translated_content": "本次Remix更新的核心特性："
     },
     {
       "id": "af6ca965",
       "translatable": true,
       "content": "* `defer` + `<Await>` to initiate a streamed response. The loader can return promises that will be awaited later on the client side.\n* [Route Convention v2](https://remix.run/docs/en/v1/file-conventions/route-files-v2): a new convention (flat routes) that can be activated now and will become the default convention in v2.\n* Experimental support for CSS imports, CSS Modules, Vanilla Extract.",
-      "sourceMdx": "- `defer` + `<Await>` to initiate a streamed response. The loader can return promises that will be awaited later on the client side.\n- [Route Convention v2](https://remix.run/docs/en/v1/file-conventions/route-files-v2): a new convention (flat routes) that can be activated now and will become the default convention in v2.\n- Experimental support for CSS imports, CSS Modules, Vanilla Extract."
+      "sourceMdx": "- `defer` + `<Await>` to initiate a streamed response. The loader can return promises that will be awaited later on the client side.\n- [Route Convention v2](https://remix.run/docs/en/v1/file-conventions/route-files-v2): a new convention (flat routes) that can be activated now and will become the default convention in v2.\n- Experimental support for CSS imports, CSS Modules, Vanilla Extract.",
+      "nodeType": "list",
+      "translated_content": "- `defer` + `<Await>`实现流式响应：loader可返回promise并在客户端后续处理\n- [路由规范v2](https://remix.run/docs/en/v1/file-conventions/route-files-v2)：新的扁平路由规范（当前可选，v2将成为默认）\n- 实验性支持CSS导入、CSS Modules和Vanilla Extract"
     },
     {
       "id": "01868def",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "caffd879",
       "translatable": true,
       "content": "* 📖 Beta docs: [\"the main remaining blocker is the landing page which we’re working on now\"](https://twitter.com/dan_abramov/status/1617543301477060608)\n* 🐦 [\"If you use React, you should be using a React framework\"](https://twitter.com/acdlite/status/1617611126514266112): Andrew Clark gives good reasons to use a framework. If you don't use one, you end up creating a not-so-great one yourself.\n* 📜 [The building blocks of great docs](https://www.mux.com/blog/the-building-blocks-of-great-docs): migration in progress of a technical documentation to Next.js 13. The use of Server Components brings a lot of benefits on a site with lots of static content.\n* 📜 [useGlobalState - Sharing state between React components without context or fancy libraries](https://yoavik.com/snippets/use-global-state): proposes to create its own global state abstraction, without the need to use providers.\n* 📜 [What I Like About Astro](https://www.macarthur.me/posts/what-i-like-about-astro): interesting comparison with Gatsby or Next.js on data sourcing, integrations (RSS, sitemap...). Astro makes it difficult to have a slow site.\n* 📜 [Improving readability with React Wrap Balancer](https://vercel.com/blog/react-wrap-balancer): details the inner workings of React Wrap Balancer which allows to balance headlines without producing layout shifts (missing CSS feature).\n* 📜 [Things I want to see in JavaScript and Frontend development in 2023](https://paularmstrong.dev/blog/2023/01/20/javascript-and-frontend-things-to-see-in-2023/): interesting predictions and a hot criticism of React 🔥\n* 📜 [Use Remix as a SPA only](https://sergiodxa.com/articles/use-remix-as-a-spa-only): using a `<ClientOnly>` component.\n* 📜 [Gatsby 5, TypeScript, and Generated GraphQL Types: A Walkthrough](https://www.gatsbyjs.com/blog/gatsby-5-typescript-and-generated-graphql-types-a-walkthrough/)\n* 📜 [Modals with React Router 6 and Remix](https://dev.to/infoxicator/modals-with-react-router-6-and-remix-1e35)\n* 📜 [Why React Router is excellent for Micro-Frontends](https://dev.to/infoxicator/why-react-router-is-excellent-for-micro-frontends-2a21)\n* 📜 [useAsyncEffect: The Missing React Hook](https://marmelab.com/blog/2023/01/11/use-async-effect-react.html)\n* 📜 [Test-driven development of NextJS API routes](https://massimilianomirra.com/notes/test-driven-development-of-nextjs-api-routes)\n* 📜 [How to build a better React map with Pigeon Maps and Mapbox](https://evilmartians.com/chronicles/how-to-build-a-better-react-map-with-pigeon-maps-and-mapbox)\n* 📜 [Refraction, dispersion, and other shader light effects](https://blog.maximeheckel.com/posts/refraction-dispersion-and-other-shader-light-effects/)\n* 🧑‍🎓 [Josh Comeau - Joy of React - Couse launch](https://twitter.com/JoshWComeau/status/1617553220242661377)\n* 🎨 [TanStack Query multi-client sync demo](https://twitter.com/aryan__deora/status/1616097346558754819)\n* 🎨 [DevTools - Toggle Suspense boundaries demo](https://twitter.com/delba_oliveira/status/1617205554547683328)\n* 👀 [Remix PR - add built-in PostCSS and Tailwind support](https://github.com/remix-run/remix/pull/5229)\n* 👀 [XState PR - createProvider](https://twitter.com/DavidKPiano/status/1617537783018422273)\n* 👀 [React docs PR - Replace Create React App recommendation with Vite](https://github.com/reactjs/reactjs.org/pull/5487): controversial PR this week\n* 📦 [Bright - React Server Component for syntax highlighting](https://github.com/code-hike/bright): promising WIP package for modern syntax highlighting. In a Node.js/server context, we can run heavier code like parsing an AST rather than using regexp (Prism).\n* 📦 [Redwood 4.0 RC](https://twitter.com/RedwoodJS/status/1616002999729389568): new API Auth, GraphQL Yoga v3, GraphQL Armor, Node.js 16/18...\n* 📦 [shadcdn/ui - Beautifully designed components built with Radix UI and Tailwind CSS](https://twitter.com/shadcn/status/1617916719242293248)\n* 📦 [next-mdx-remote 4.3 - Server Components Support (experimental)](https://github.com/hashicorp/next-mdx-remote/releases/tag/v4.3.0)\n* 🎥 [Astro 2.0 is Revolutionary!](https://www.youtube.com/watch?v=gi4c7fbeURc)\n* 🎥 [Lee Robinson - Revisiting my React course 3 years later](https://www.youtube.com/watch?v=DQk0TWmgYXw)",
-      "sourceMdx": "- 📖 Beta docs: [\"the main remaining blocker is the landing page which we’re working on now\"](https://twitter.com/dan_abramov/status/1617543301477060608)\n- 🐦 [\"If you use React, you should be using a React framework\"](https://twitter.com/acdlite/status/1617611126514266112): Andrew Clark gives good reasons to use a framework. If you don't use one, you end up creating a not-so-great one yourself.\n- 📜 [The building blocks of great docs](https://www.mux.com/blog/the-building-blocks-of-great-docs): migration in progress of a technical documentation to Next.js 13. The use of Server Components brings a lot of benefits on a site with lots of static content.\n- 📜 [useGlobalState - Sharing state between React components without context or fancy libraries](https://yoavik.com/snippets/use-global-state): proposes to create its own global state abstraction, without the need to use providers.\n- 📜 [What I Like About Astro](https://www.macarthur.me/posts/what-i-like-about-astro): interesting comparison with Gatsby or Next.js on data sourcing, integrations (RSS, sitemap...). Astro makes it difficult to have a slow site.\n- 📜 [Improving readability with React Wrap Balancer](https://vercel.com/blog/react-wrap-balancer): details the inner workings of React Wrap Balancer which allows to balance headlines without producing layout shifts (missing CSS feature).\n- 📜 [Things I want to see in JavaScript and Frontend development in 2023](https://paularmstrong.dev/blog/2023/01/20/javascript-and-frontend-things-to-see-in-2023/): interesting predictions and a hot criticism of React 🔥\n- 📜 [Use Remix as a SPA only](https://sergiodxa.com/articles/use-remix-as-a-spa-only): using a `<ClientOnly>` component.\n- 📜 [Gatsby 5, TypeScript, and Generated GraphQL Types: A Walkthrough](https://www.gatsbyjs.com/blog/gatsby-5-typescript-and-generated-graphql-types-a-walkthrough/)\n- 📜 [Modals with React Router 6 and Remix](https://dev.to/infoxicator/modals-with-react-router-6-and-remix-1e35)\n- 📜 [Why React Router is excellent for Micro-Frontends](https://dev.to/infoxicator/why-react-router-is-excellent-for-micro-frontends-2a21)\n- 📜 [useAsyncEffect: The Missing React Hook](https://marmelab.com/blog/2023/01/11/use-async-effect-react.html)\n- 📜 [Test-driven development of NextJS API routes](https://massimilianomirra.com/notes/test-driven-development-of-nextjs-api-routes)\n- 📜 [How to build a better React map with Pigeon Maps and Mapbox](https://evilmartians.com/chronicles/how-to-build-a-better-react-map-with-pigeon-maps-and-mapbox)\n- 📜 [Refraction, dispersion, and other shader light effects](https://blog.maximeheckel.com/posts/refraction-dispersion-and-other-shader-light-effects/)\n- 🧑‍🎓 [Josh Comeau - Joy of React - Couse launch](https://twitter.com/JoshWComeau/status/1617553220242661377)\n- 🎨 [TanStack Query multi-client sync demo](https://twitter.com/aryan__deora/status/1616097346558754819)\n- 🎨 [DevTools - Toggle Suspense boundaries demo](https://twitter.com/delba_oliveira/status/1617205554547683328)\n- 👀 [Remix PR - add built-in PostCSS and Tailwind support](https://github.com/remix-run/remix/pull/5229)\n- 👀 [XState PR - createProvider](https://twitter.com/DavidKPiano/status/1617537783018422273)\n- 👀 [React docs PR - Replace Create React App recommendation with Vite](https://github.com/reactjs/reactjs.org/pull/5487): controversial PR this week\n- 📦 [Bright - React Server Component for syntax highlighting](https://github.com/code-hike/bright): promising WIP package for modern syntax highlighting. In a Node.js/server context, we can run heavier code like parsing an AST rather than using regexp (Prism).\n- 📦 [Redwood 4.0 RC](https://twitter.com/RedwoodJS/status/1616002999729389568): new API Auth, GraphQL Yoga v3, GraphQL Armor, Node.js 16/18...\n- 📦 [shadcdn/ui - Beautifully designed components built with Radix UI and Tailwind CSS](https://twitter.com/shadcn/status/1617916719242293248)\n- 📦 [next-mdx-remote 4.3 - Server Components Support (experimental)](https://github.com/hashicorp/next-mdx-remote/releases/tag/v4.3.0)\n- 🎥 [Astro 2.0 is Revolutionary!](https://www.youtube.com/watch?v=gi4c7fbeURc)\n- 🎥 [Lee Robinson - Revisiting my React course 3 years later](https://www.youtube.com/watch?v=DQk0TWmgYXw)"
+      "sourceMdx": "- 📖 Beta docs: [\"the main remaining blocker is the landing page which we’re working on now\"](https://twitter.com/dan_abramov/status/1617543301477060608)\n- 🐦 [\"If you use React, you should be using a React framework\"](https://twitter.com/acdlite/status/1617611126514266112): Andrew Clark gives good reasons to use a framework. If you don't use one, you end up creating a not-so-great one yourself.\n- 📜 [The building blocks of great docs](https://www.mux.com/blog/the-building-blocks-of-great-docs): migration in progress of a technical documentation to Next.js 13. The use of Server Components brings a lot of benefits on a site with lots of static content.\n- 📜 [useGlobalState - Sharing state between React components without context or fancy libraries](https://yoavik.com/snippets/use-global-state): proposes to create its own global state abstraction, without the need to use providers.\n- 📜 [What I Like About Astro](https://www.macarthur.me/posts/what-i-like-about-astro): interesting comparison with Gatsby or Next.js on data sourcing, integrations (RSS, sitemap...). Astro makes it difficult to have a slow site.\n- 📜 [Improving readability with React Wrap Balancer](https://vercel.com/blog/react-wrap-balancer): details the inner workings of React Wrap Balancer which allows to balance headlines without producing layout shifts (missing CSS feature).\n- 📜 [Things I want to see in JavaScript and Frontend development in 2023](https://paularmstrong.dev/blog/2023/01/20/javascript-and-frontend-things-to-see-in-2023/): interesting predictions and a hot criticism of React 🔥\n- 📜 [Use Remix as a SPA only](https://sergiodxa.com/articles/use-remix-as-a-spa-only): using a `<ClientOnly>` component.\n- 📜 [Gatsby 5, TypeScript, and Generated GraphQL Types: A Walkthrough](https://www.gatsbyjs.com/blog/gatsby-5-typescript-and-generated-graphql-types-a-walkthrough/)\n- 📜 [Modals with React Router 6 and Remix](https://dev.to/infoxicator/modals-with-react-router-6-and-remix-1e35)\n- 📜 [Why React Router is excellent for Micro-Frontends](https://dev.to/infoxicator/why-react-router-is-excellent-for-micro-frontends-2a21)\n- 📜 [useAsyncEffect: The Missing React Hook](https://marmelab.com/blog/2023/01/11/use-async-effect-react.html)\n- 📜 [Test-driven development of NextJS API routes](https://massimilianomirra.com/notes/test-driven-development-of-nextjs-api-routes)\n- 📜 [How to build a better React map with Pigeon Maps and Mapbox](https://evilmartians.com/chronicles/how-to-build-a-better-react-map-with-pigeon-maps-and-mapbox)\n- 📜 [Refraction, dispersion, and other shader light effects](https://blog.maximeheckel.com/posts/refraction-dispersion-and-other-shader-light-effects/)\n- 🧑‍🎓 [Josh Comeau - Joy of React - Couse launch](https://twitter.com/JoshWComeau/status/1617553220242661377)\n- 🎨 [TanStack Query multi-client sync demo](https://twitter.com/aryan__deora/status/1616097346558754819)\n- 🎨 [DevTools - Toggle Suspense boundaries demo](https://twitter.com/delba_oliveira/status/1617205554547683328)\n- 👀 [Remix PR - add built-in PostCSS and Tailwind support](https://github.com/remix-run/remix/pull/5229)\n- 👀 [XState PR - createProvider](https://twitter.com/DavidKPiano/status/1617537783018422273)\n- 👀 [React docs PR - Replace Create React App recommendation with Vite](https://github.com/reactjs/reactjs.org/pull/5487): controversial PR this week\n- 📦 [Bright - React Server Component for syntax highlighting](https://github.com/code-hike/bright): promising WIP package for modern syntax highlighting. In a Node.js/server context, we can run heavier code like parsing an AST rather than using regexp (Prism).\n- 📦 [Redwood 4.0 RC](https://twitter.com/RedwoodJS/status/1616002999729389568): new API Auth, GraphQL Yoga v3, GraphQL Armor, Node.js 16/18...\n- 📦 [shadcdn/ui - Beautifully designed components built with Radix UI and Tailwind CSS](https://twitter.com/shadcn/status/1617916719242293248)\n- 📦 [next-mdx-remote 4.3 - Server Components Support (experimental)](https://github.com/hashicorp/next-mdx-remote/releases/tag/v4.3.0)\n- 🎥 [Astro 2.0 is Revolutionary!](https://www.youtube.com/watch?v=gi4c7fbeURc)\n- 🎥 [Lee Robinson - Revisiting my React course 3 years later](https://www.youtube.com/watch?v=DQk0TWmgYXw)",
+      "nodeType": "list",
+      "translated_content": "- 📖 测试版文档：[\"目前主要剩余障碍是着陆页，我们正在处理中\"](https://twitter.com/dan_abramov/status/1617543301477060608)\n- 🐦 [\"如果你使用React，应该搭配一个React框架\"](https://twitter.com/acdlite/status/1617611126514266112)：Andrew Clark给出了使用框架的充分理由。如果不使用框架，最终会自己造出一个不太理想的轮子。\n- 📜 [优秀文档的构建要素](https://www.mux.com/blog/the-building-blocks-of-great-docs)：技术文档正在迁移至Next.js 13的过程。在大量静态内容的站点上，服务端组件的使用带来了诸多优势。\n- 📜 [useGlobalState - 无需Context或复杂库的React组件间状态共享](https://yoavik.com/snippets/use-global-state)：提出创建自己的全局状态抽象方案，无需使用Provider。\n- 📜 [Astro的亮点](https://www.macarthur.me/posts/what-i-like-about-astro)：与Gatsby和Next.js在数据获取、集成(RSS、站点地图等)方面的有趣对比。Astro让构建缓慢站点变得困难。\n- 📜 [用React Wrap Balancer提升可读性](https://vercel.com/blog/react-wrap-balancer)：详解React Wrap Balancer的内部工作原理，该工具可在不产生布局偏移的情况下平衡标题（弥补了CSS功能的不足）。\n- 📜 [2023年我希望在JavaScript和前端开发中看到的变化](https://paularmstrong.dev/blog/2023/01/20/javascript-and-frontend-things-to-see-in-2023/)：有趣的预测与对React的尖锐批评🔥\n- 📜 [将Remix仅作为SPA使用](https://sergiodxa.com/articles/use-remix-as-a-spa-only)：通过`<ClientOnly>`组件实现。\n- 📜 [Gatsby 5、TypeScript与自动生成的GraphQL类型：实践指南](https://www.gatsbyjs.com/blog/gatsby-5-typescript-and-generated-graphql-types-a-walkthrough/)\n- 📜 [React Router 6与Remix实现模态框](https://dev.to/infoxicator/modals-with-react-router-6-and-remix-1e35)\n- 📜 [为何React Router是微前端的绝佳选择](https://dev.to/infoxicator/why-react-router-is-excellent-for-micro-frontends-2a21)\n- 📜 [useAsyncEffect：缺失的React Hook](https://marmelab.com/blog/2023/01/11/use-async-effect-react.html)\n- 📜 [NextJS API路由的测试驱动开发](https://massimilianomirra.com/notes/test-driven-development-of-nextjs-api-routes)\n- 📜 [用Pigeon Maps和Mapbox构建更好的React地图](https://evilmartians.com/chronicles/how-to-build-a-better-react-map-with-pigeon-maps-and-mapbox)\n- 📜 [折射、色散与其他着色器光效](https://blog.maximeheckel.com/posts/refraction-dispersion-and-other-shader-light-effects/)\n- 🧑‍🎓 [Josh Comeau - Joy of React课程发布](https://twitter.com/JoshWComeau/status/1617553220242661377)\n- 🎨 [TanStack Query多客户端同步演示](https://twitter.com/aryan__deora/status/1616097346558754819)\n- 🎨 [开发者工具-切换Suspense边界演示](https://twitter.com/delba_oliveira/status/1617205554547683328)\n- 👀 [Remix PR - 添加内置PostCSS和Tailwind支持](https://github.com/remix-run/remix/pull/5229)\n- 👀 [XState PR - createProvider](https://twitter.com/DavidKPiano/status/1617537783018422273)\n- 👀 [React文档PR - 用Vite替代Create React App推荐](https://github.com/reactjs/reactjs.org/pull/5487)：本周引发争议的PR\n- 📦 [Bright - 语法高亮的服务端组件](https://github.com/code-hike/bright)：前景广阔的WIP包，用于现代语法高亮。在Node.js/服务端环境中可运行更重的代码（如解析AST而非使用正则表达式Prism）。\n- 📦 [Redwood 4.0候选版](https://twitter.com/RedwoodJS/status/1616002999729389568)：新增API认证、GraphQL Yoga v3、GraphQL Armor、Node.js 16/18支持...\n- 📦 [shadcdn/ui - 基于Radix UI和Tailwind CSS构建的精美组件](https://twitter.com/shadcn/status/1617916719242293248)\n- 📦 [next-mdx-remote 4.3 - 实验性服务端组件支持](https://github.com/hashicorp/next-mdx-remote/releases/tag/v4.3.0)\n- 🎥 [Astro 2.0的革命性！](https://www.youtube.com/watch?v=gi4c7fbeURc)\n- 🎥 [Lee Robinson - 三年后重温我的React课程](https://www.youtube.com/watch?v=DQk0TWmgYXw)"
     },
     {
       "id": "440823bd",
       "translatable": false,
       "content": "<SubscribeFormEmbed />",
-      "sourceMdx": "<SubscribeFormEmbed />"
+      "sourceMdx": "<SubscribeFormEmbed />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_440823bd"
     },
     {
       "id": "f414353c",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "f947c8e4",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "7bc8bb24",
       "translatable": true,
       "content": "[![Expo Router RC](/emails/issues/132/expo-router.jpg)](https://blog.expo.dev/announcing-the-expo-router-v1-release-candidate-c5680b88a18c)",
-      "sourceMdx": "[![Expo Router RC](/emails/issues/132/expo-router.jpg)](https://blog.expo.dev/announcing-the-expo-router-v1-release-candidate-c5680b88a18c)"
+      "sourceMdx": "[![Expo Router RC](/emails/issues/132/expo-router.jpg)](https://blog.expo.dev/announcing-the-expo-router-v1-release-candidate-c5680b88a18c)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Expo Router RC](/emails/issues/132/expo-router.jpg)](https://blog.expo.dev/announcing-the-expo-router-v1-release-candidate-c5680b88a18c)"
     },
     {
       "id": "6693c38c",
       "translatable": true,
       "content": "**[Expo Router v1 Release Candidate](https://blog.expo.dev/announcing-the-expo-router-v1-release-candidate-c5680b88a18c)**",
-      "sourceMdx": "**[Expo Router v1 Release Candidate](https://blog.expo.dev/announcing-the-expo-router-v1-release-candidate-c5680b88a18c)**"
+      "sourceMdx": "**[Expo Router v1 Release Candidate](https://blog.expo.dev/announcing-the-expo-router-v1-release-candidate-c5680b88a18c)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Expo Router v1 候选发布版](https://blog.expo.dev/announcing-the-expo-router-v1-release-candidate-c5680b88a18c)**"
     },
     {
       "id": "e9313fef",
       "translatable": true,
       "content": "Expo Router proposes to create your mobile navigation (still based on React-Navigation) using file-system naming conventions, as do most React web frameworks already. We can find the usual features like layout routes, dynamic routes, error boundaries...",
-      "sourceMdx": "Expo Router proposes to create your mobile navigation (still based on React-Navigation) using file-system naming conventions, as do most React web frameworks already. We can find the usual features like layout routes, dynamic routes, error boundaries..."
+      "sourceMdx": "Expo Router proposes to create your mobile navigation (still based on React-Navigation) using file-system naming conventions, as do most React web frameworks already. We can find the usual features like layout routes, dynamic routes, error boundaries...",
+      "nodeType": "paragraph",
+      "translated_content": "Expo Router 提出通过文件系统命名约定来构建移动端导航（仍基于 React-Navigation），这与大多数 React Web 框架的做法一致。常见功能如布局路由、动态路由、错误边界等一应俱全。"
     },
     {
       "id": "1b4de6df",
       "translatable": true,
       "content": "The most interesting for me: the universal support. Navigation is based on links, a `<Link>` component and Metro web support (experimental). Now that the native part of Expo is working well, I wouldn't be surprised to see Expo gradually become a universal full-stack framework, and realize [Andrew Clark's prediction](https://twitter.com/acdlite/status/1489755769876754434).",
-      "sourceMdx": "The most interesting for me: the universal support. Navigation is based on links, a `<Link>` component and Metro web support (experimental). Now that the native part of Expo is working well, I wouldn't be surprised to see Expo gradually become a universal full-stack framework, and realize [Andrew Clark's prediction](https://twitter.com/acdlite/status/1489755769876754434)."
+      "sourceMdx": "The most interesting for me: the universal support. Navigation is based on links, a `<Link>` component and Metro web support (experimental). Now that the native part of Expo is working well, I wouldn't be surprised to see Expo gradually become a universal full-stack framework, and realize [Andrew Clark's prediction](https://twitter.com/acdlite/status/1489755769876754434).",
+      "nodeType": "paragraph",
+      "translated_content": "最吸引我的特性是：全平台支持。导航基于链接、`<Link>` 组件和 Metro web 支持（实验性）。随着 Expo 原生部分日趋完善，我毫不意外它会逐渐发展为全栈通用框架，实现 [Andrew Clark 的预言](https://twitter.com/acdlite/status/1489755769876754434)。"
     },
     {
       "id": "6ad15270",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "bcc700e8",
       "translatable": true,
       "content": "* 👀 [Expo-Image in beta](https://twitter.com/JI/status/1616337848558551041): Expo's new image component goes into beta. Performant, cross-platform (web/mobile), many formats, placeholders, object-fit... Check the [doc](https://docs.expo.dev/versions/unversioned/sdk/image/).\n* 📖 [Maestro Guides - React-Native](https://maestro.mobile.dev/platform-support/react-native): the e2e testing framework now offers a React-Native doc page.\n* 📦 [React-Native-Android-Widget](https://saleksovski.github.io/react-native-android-widget/): new package to create Android widgets, using dedicated UI primitives. Has a widget preview system. Easy to use in Expo (Config Plugin).\n* 📦 [Moti 0.22](https://twitter.com/FernandoTheRojo/status/1616583066054545408): a fix brings Hermes support.\n* 📦 [Metro 0.74](https://github.com/facebook/metro/releases/tag/v0.74.0): great performance improvements.\n* 🎙️ [RNR 256 - Expo Router with Evan Bacon](https://reactnativeradio.com/episodes/rnr-256-expo-router-with-evan-bacon)",
-      "sourceMdx": "- 👀 [Expo-Image in beta](https://twitter.com/JI/status/1616337848558551041): Expo's new image component goes into beta. Performant, cross-platform (web/mobile), many formats, placeholders, object-fit... Check the [doc](https://docs.expo.dev/versions/unversioned/sdk/image/).\n- 📖 [Maestro Guides - React-Native](https://maestro.mobile.dev/platform-support/react-native): the e2e testing framework now offers a React-Native doc page.\n- 📦 [React-Native-Android-Widget](https://saleksovski.github.io/react-native-android-widget/): new package to create Android widgets, using dedicated UI primitives. Has a widget preview system. Easy to use in Expo (Config Plugin).\n- 📦 [Moti 0.22](https://twitter.com/FernandoTheRojo/status/1616583066054545408): a fix brings Hermes support.\n- 📦 [Metro 0.74](https://github.com/facebook/metro/releases/tag/v0.74.0): great performance improvements.\n- 🎙️ [RNR 256 - Expo Router with Evan Bacon](https://reactnativeradio.com/episodes/rnr-256-expo-router-with-evan-bacon)"
+      "sourceMdx": "- 👀 [Expo-Image in beta](https://twitter.com/JI/status/1616337848558551041): Expo's new image component goes into beta. Performant, cross-platform (web/mobile), many formats, placeholders, object-fit... Check the [doc](https://docs.expo.dev/versions/unversioned/sdk/image/).\n- 📖 [Maestro Guides - React-Native](https://maestro.mobile.dev/platform-support/react-native): the e2e testing framework now offers a React-Native doc page.\n- 📦 [React-Native-Android-Widget](https://saleksovski.github.io/react-native-android-widget/): new package to create Android widgets, using dedicated UI primitives. Has a widget preview system. Easy to use in Expo (Config Plugin).\n- 📦 [Moti 0.22](https://twitter.com/FernandoTheRojo/status/1616583066054545408): a fix brings Hermes support.\n- 📦 [Metro 0.74](https://github.com/facebook/metro/releases/tag/v0.74.0): great performance improvements.\n- 🎙️ [RNR 256 - Expo Router with Evan Bacon](https://reactnativeradio.com/episodes/rnr-256-expo-router-with-evan-bacon)",
+      "nodeType": "list",
+      "translated_content": "- 👀 [Expo-Image 进入测试阶段](https://twitter.com/JI/status/1616337848558551041)：Expo 新版图片组件开始公测。高性能、跨平台（Web/移动端）、多格式支持、占位图、object-fit... 详见[文档](https://docs.expo.dev/versions/unversioned/sdk/image/)。\n- 📖 [Maestro 指南 - React-Native](https://maestro.mobile.dev/platform-support/react-native)：端到端测试框架现已提供 React-Native 专项文档。\n- 📦 [React-Native-Android-Widget](https://saleksovski.github.io/react-native-android-widget/)：用于创建 Android 小组件的新库，提供专属 UI 原语。内置小组件预览系统，可轻松集成至 Expo（配置插件）。\n- 📦 [Moti 0.22](https://twitter.com/FernandoTheRojo/status/1616583066054545408)：修复补丁带来 Hermes 支持。\n- 📦 [Metro 0.74](https://github.com/facebook/metro/releases/tag/v0.74.0)：显著性能提升。\n- 🎙️ [RNR 256 - 与 Evan Bacon 探讨 Expo Router](https://reactnativeradio.com/episodes/rnr-256-expo-router-with-evan-bacon)"
     },
     {
       "id": "ce5ba214",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "4dd6a631",
       "translatable": true,
       "content": "## 🧑‍💻 Jobs",
-      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}",
+      "nodeType": "heading",
+      "translated_content": "## 🧑‍💻 职位招聘 {#jobs}"
     },
     {
       "id": "f45239ba",
       "translatable": true,
       "content": "🧑‍💼 [**Lab - Frontend Developer - Hybird Remote, London**](https://4dayweek.io/remote-job/frontend-developer-lab?utm_source=newsletter\\&utm_medium=newsletter\\&utm_campaign=weekinreact)",
-      "sourceMdx": "🧑‍💼 [**Lab - Frontend Developer - Hybird Remote, London**](https://4dayweek.io/remote-job/frontend-developer-lab?utm_source=newsletter&utm_medium=newsletter&utm_campaign=weekinreact)"
+      "sourceMdx": "🧑‍💼 [**Lab - Frontend Developer - Hybird Remote, London**](https://4dayweek.io/remote-job/frontend-developer-lab?utm_source=newsletter&utm_medium=newsletter&utm_campaign=weekinreact)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**Lab - 前端开发工程师 - 伦敦混合办公**](https://4dayweek.io/remote-job/frontend-developer-lab?utm_source=newsletter&utm_medium=newsletter&utm_campaign=weekinreact)"
     },
     {
       "id": "692c6053",
       "translatable": true,
       "content": "Join the Riverr agency as a frontend developer, working on client projects using modern technologies, such as React, Next.js, TypeScript. A [**4/day week**](https://4dayweek.io/?utm_source=newsletter\\&utm_medium=newsletter\\&utm_campaign=weekinreact) job.",
-      "sourceMdx": "Join the Riverr agency as a frontend developer, working on client projects using modern technologies, such as React, Next.js, TypeScript. A [**4/day week**](https://4dayweek.io/?utm_source=newsletter&utm_medium=newsletter&utm_campaign=weekinreact) job."
+      "sourceMdx": "Join the Riverr agency as a frontend developer, working on client projects using modern technologies, such as React, Next.js, TypeScript. A [**4/day week**](https://4dayweek.io/?utm_source=newsletter&utm_medium=newsletter&utm_campaign=weekinreact) job.",
+      "nodeType": "paragraph",
+      "translated_content": "加入 Riverr 机构担任前端开发，使用 React、Next.js、TypeScript 等现代技术开发客户项目。享受[每周4天工作制](https://4dayweek.io/?utm_source=newsletter&utm_medium=newsletter&utm_campaign=weekinreact)。"
     },
     {
       "id": "383fbdd2",
       "translatable": true,
       "content": "🧑‍💼 [**TLDR - Senior Software Engineer (Remote, $120k-200k)**](https://tldr.tech/jobs/senior-software-engineer/23?utm_source=thisweekinreact)",
-      "sourceMdx": "🧑‍💼 [**TLDR - Senior Software Engineer (Remote, $120k-200k)**](https://tldr.tech/jobs/senior-software-engineer/23?utm_source=thisweekinreact)"
+      "sourceMdx": "🧑‍💼 [**TLDR - Senior Software Engineer (Remote, $120k-200k)**](https://tldr.tech/jobs/senior-software-engineer/23?utm_source=thisweekinreact)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**TLDR - 高级软件工程师（远程，12-20万美元）**](https://tldr.tech/jobs/senior-software-engineer/23?utm_source=thisweekinreact)"
     },
     {
       "id": "14bc6b75",
       "translatable": true,
       "content": "The TLDR newsletter is hiring its first engineer to help build out the hiring platform along with other internal projects. Looking for someone with experience shipping side projects or on small teams, with experience in Next.js and Postgres/Supabase.",
-      "sourceMdx": "The TLDR newsletter is hiring its first engineer to help build out the hiring platform along with other internal projects. Looking for someone with experience shipping side projects or on small teams, with experience in Next.js and Postgres/Supabase."
+      "sourceMdx": "The TLDR newsletter is hiring its first engineer to help build out the hiring platform along with other internal projects. Looking for someone with experience shipping side projects or on small teams, with experience in Next.js and Postgres/Supabase.",
+      "nodeType": "paragraph",
+      "translated_content": "TLDR 通讯正在招聘首位工程师，协助构建招聘平台及其他内部项目。寻求有个人项目经验或小型团队经验者，需熟悉 Next.js 和 Postgres/Supabase。"
     },
     {
       "id": "e478ec2c",
       "translatable": true,
       "content": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
-      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)"
+      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**Callstack - 高级 React Native 开发工程师 - 完全远程，B2B 月薪净额 2.1-3.2万波兰兹罗提**](https://www.callstack.com/senior-react-native-developer)"
     },
     {
       "id": "534ac82e",
       "translatable": true,
       "content": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
-      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!"
+      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
+      "nodeType": "paragraph",
+      "translated_content": "您想参与全球顶级应用开发吗？渴望共同塑造 React Native 技术未来吗？加入 Callstack 这个 React & React Native 领导者团队。详情请访问官网，期待您的申请——请尽情展示实力！"
     },
     {
       "id": "a9c2a503",
       "translatable": true,
       "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
-      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**G2i - 100%远程 React Native 职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
     },
     {
       "id": "cfeb9eb1",
       "translatable": true,
       "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
-      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "nodeType": "paragraph",
+      "translated_content": "我们开放多个 React Native 开发岗位！年薪约16万美元外加10%奖金。需具备 RN 生产环境经验且常驻美国。私信 [@gabe_g2i](https://twitter.com/gabe_g2i) 了解详情，请注明来自《This Week in React》。"
     },
     {
       "id": "f7e6e884",
       "translatable": true,
       "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
-      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "nodeType": "paragraph",
+      "translated_content": "💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)"
     },
     {
       "id": "0bed0da6",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "6ab1b234",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他动态 {#other}"
     },
     {
       "id": "3670cec0",
       "translatable": true,
       "content": "* [\"There’s a full port of webpack to rust underway. It’s Not turbopack.\"](https://twitter.com/ScriptedAlchemy/status/1617815340905553921)\n* [V8 - Introducing the WebAssembly JavaScript Promise Integration API](https://v8.dev/blog/jspi)\n* [WebKit Features in Safari 16.3](https://webkit.org/blog/13691/webkit-features-in-safari-16-3/)\n* [The truth about CSS selector performance](https://blogs.windows.com/msedgedev/2023/01/17/the-truth-about-css-selector-performance/)\n* [Making Generic Functions Pass Type Checking](https://type-level-typescript.com/articles/making-generic-functions-pass-type-checking)\n* [CSS Nesting - Blink Intent to ship](https://twitter.com/sebastienlorber/status/1617882799100526595)\n* [TypeScript 5.0 PR - Decorators support](https://twitter.com/robpalmer2/status/1616215250055090187)\n* [Bun 0.5](https://bun.sh/blog/bun-v0.5.0)\n* [esbuild 0.17](https://github.com/evanw/esbuild/releases/tag/v0.17.0)\n* [ESLint's 2022 year in review](https://eslint.org/blog/2023/01/eslint-2022-year-review/)\n* [Building and delivering frontends at scale](https://frontendmastery.com/posts/building-and-serving-frontends-at-scale/)\n* [Writing a tiny tRPC client](https://trpc.io/blog/tinyrpc-client)",
-      "sourceMdx": "- [\"There’s a full port of webpack to rust underway. It’s Not turbopack.\"](https://twitter.com/ScriptedAlchemy/status/1617815340905553921)\n- [V8 - Introducing the WebAssembly JavaScript Promise Integration API](https://v8.dev/blog/jspi)\n- [WebKit Features in Safari 16.3](https://webkit.org/blog/13691/webkit-features-in-safari-16-3/)\n- [The truth about CSS selector performance](https://blogs.windows.com/msedgedev/2023/01/17/the-truth-about-css-selector-performance/)\n- [Making Generic Functions Pass Type Checking](https://type-level-typescript.com/articles/making-generic-functions-pass-type-checking)\n- [CSS Nesting - Blink Intent to ship](https://twitter.com/sebastienlorber/status/1617882799100526595)\n- [TypeScript 5.0 PR - Decorators support](https://twitter.com/robpalmer2/status/1616215250055090187)\n- [Bun 0.5](https://bun.sh/blog/bun-v0.5.0)\n- [esbuild 0.17](https://github.com/evanw/esbuild/releases/tag/v0.17.0)\n- [ESLint's 2022 year in review](https://eslint.org/blog/2023/01/eslint-2022-year-review/)\n- [Building and delivering frontends at scale](https://frontendmastery.com/posts/building-and-serving-frontends-at-scale/)\n- [Writing a tiny tRPC client](https://trpc.io/blog/tinyrpc-client)"
+      "sourceMdx": "- [\"There’s a full port of webpack to rust underway. It’s Not turbopack.\"](https://twitter.com/ScriptedAlchemy/status/1617815340905553921)\n- [V8 - Introducing the WebAssembly JavaScript Promise Integration API](https://v8.dev/blog/jspi)\n- [WebKit Features in Safari 16.3](https://webkit.org/blog/13691/webkit-features-in-safari-16-3/)\n- [The truth about CSS selector performance](https://blogs.windows.com/msedgedev/2023/01/17/the-truth-about-css-selector-performance/)\n- [Making Generic Functions Pass Type Checking](https://type-level-typescript.com/articles/making-generic-functions-pass-type-checking)\n- [CSS Nesting - Blink Intent to ship](https://twitter.com/sebastienlorber/status/1617882799100526595)\n- [TypeScript 5.0 PR - Decorators support](https://twitter.com/robpalmer2/status/1616215250055090187)\n- [Bun 0.5](https://bun.sh/blog/bun-v0.5.0)\n- [esbuild 0.17](https://github.com/evanw/esbuild/releases/tag/v0.17.0)\n- [ESLint's 2022 year in review](https://eslint.org/blog/2023/01/eslint-2022-year-review/)\n- [Building and delivering frontends at scale](https://frontendmastery.com/posts/building-and-serving-frontends-at-scale/)\n- [Writing a tiny tRPC client](https://trpc.io/blog/tinyrpc-client)",
+      "nodeType": "list",
+      "translated_content": "- [\"有人正在用Rust完整移植webpack，但并非Turbopack\"](https://twitter.com/ScriptedAlchemy/status/1617815340905553921)\n- [V8引擎 - 引入WebAssembly JavaScript Promise集成API](https://v8.dev/blog/jspi)\n- [Safari 16.3中的WebKit新特性](https://webkit.org/blog/13691/webkit-features-in-safari-16-3/)\n- [关于CSS选择器性能的真相](https://blogs.windows.com/msedgedev/2023/01/17/the-truth-about-css-selector-performance/)\n- [让泛型函数通过类型检查](https://type-level-typescript.com/articles/making-generic-functions-pass-type-checking)\n- [CSS嵌套功能 - Blink引擎宣布即将支持](https://twitter.com/sebastienlorber/status/1617882799100526595)\n- [TypeScript 5.0 PR - 装饰器支持](https://twitter.com/robpalmer2/status/1616215250055090187)\n- [Bun 0.5版本发布](https://bun.sh/blog/bun-v0.5.0)\n- [esbuild 0.17版本发布](https://github.com/evanw/esbuild/releases/tag/v0.17.0)\n- [ESLint 2022年度回顾](https://eslint.org/blog/2023/01/eslint-2022-year-review/)\n- [大规模构建与交付前端应用](https://frontendmastery.com/posts/building-and-serving-frontends-at-scale/)\n- [编写微型tRPC客户端](https://trpc.io/blog/tinyrpc-client)"
     },
     {
       "id": "c81952ce",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "657bde08",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 趣味时刻 {#fun}"
     },
     {
       "id": "827eb9a3",
       "translatable": true,
       "content": "[![alt](/emails/issues/132/meme.jpg)](https://twitter.com/fireship_dev/status/1617708616496345088)",
-      "sourceMdx": "[![alt](/emails/issues/132/meme.jpg)](https://twitter.com/fireship_dev/status/1617708616496345088)"
+      "sourceMdx": "[![alt](/emails/issues/132/meme.jpg)](https://twitter.com/fireship_dev/status/1617708616496345088)",
+      "nodeType": "paragraph",
+      "translated_content": "[![趣味图片](/emails/issues/132/meme.jpg)](https://twitter.com/fireship_dev/status/1617708616496345088)"
     }
   ]
 }

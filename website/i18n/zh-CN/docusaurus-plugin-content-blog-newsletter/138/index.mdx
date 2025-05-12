@@ -9,28 +9,28 @@ date: 03-14-2023
 
 当所有人都在玩GPT-4时，我依然在为大家研读React相关文章！
 
-React-Router中新的`lazy`特性看起来非常实用，能有效避免瀑布流问题。
+React-Router中新增的`lazy`特性看起来能有效避免请求瀑布流问题。
 
-基于Rust的Rspack打包工具刚刚官宣。
+基于Rust的Rspack打包工具刚刚宣布问世。
 
-我想为这份通讯创建推荐计划。核心是鼓励您分享给朋友，并在新订阅者加入时给予奖励。您觉得提供什么奖励比较好？
+我想为本通讯设立推荐计划。核心思路是鼓励大家分享给朋友，并在成功推荐新订阅用户时给予奖励。大家觉得提供什么奖励比较好？
 
-我目前想到：
+我目前想到的方案：
 
 - 推荐+1人 - 获取我精选的十大React经典文章
-- 推荐+3人 - 获得分类标签化评级的优质文章数据库
+- 推荐+3人 - 获得分类标签完善、带评分系统的优质文章数据库
 - 推荐+5人 - 在Twitter或LinkedIn公开致谢
 - 推荐+10人 - 在通讯中刊登您的招聘信息
 - 推荐+30人 - 任选Just JavaScript（Dan Abramov）、Three.js Journey（Bruno Simon）等课程
 - 推荐+50人 - 一小时React技术咨询
 
-奖励方案确实难以抉择😅。数字产品更容易起步，但也不排斥实体奖励（贴纸/袜子/运动鞋/背包/马克杯等）。
+奖励方案确实难以抉择😅。数字产品更容易起步管理，但也不排斥实体奖品（贴纸、袜子、运动鞋、背包、马克杯...）。
 
-您能否直接回复邮件，告诉我哪种奖励最让您心动？
+欢迎直接回复邮件告诉我您的想法——什么样的奖励最能打动您？
 
 <!-- truncate -->
 
-**💡 [在Twitter查看本期通讯](https://slo.im/thread) - 可视化排版 🎨**
+**💡 [在Twitter查看本期通讯](https://slo.im/thread) - 可视化版式 🎨**
 
 ---
 
@@ -46,15 +46,15 @@ import Support from "../_support.mdx";
 
 **[构建可复用区块，加速内容发布，提升核心网页指标与SEO](https://suncel.io/)**
 
-**内容编辑者**：对于需要大量内容产出且重视SEO策略的企业堪称变革。营销与内容编辑人员无需技术背景即可快速发布页面，消除发布延迟。依托Next.js实现页面与图片优化，轻松达成完美核心网页指标。
+**内容编辑者**：对于需要大量内容产出且重视SEO策略的企业堪称变革利器。营销与内容编辑人员无需技术背景即可快速发布内容，消除冗长流程，实时发布。依托Next.js实现页面与图片优化，轻松达成完美核心网页指标。
 
 **开发者优势**：可与现有Next.js应用即插即用：
 
 - 使用React构建可复用区块
 - 自动生成SEO元数据和站点地图（通过SEO模块）
-- 用React创建自定义设置
+- 用React创建自定义设置项
 - 基于React的可定制管理后台
-- 无需适配CMS的路由系统
+- 无需额外路由系统适配CMS
 
 **[访问Suncel.io](https://suncel.io/)** | **[5分钟演示视频](https://www.youtube.com/watch?v=LUupLEZKp3w)**
 
@@ -62,47 +62,47 @@ import Support from "../_support.mdx";
 
 ## ⚛️ React动态 {#react}
 
-[![React Router 6.4+的惰性路由加载](/emails/issues/138/reactrouterlazy.jpg)](https://remix.run/blog/lazy-loading-routes)
+[![React Router 6.4+的懒加载路由](/emails/issues/138/reactrouterlazy.jpg)](https://remix.run/blog/lazy-loading-routes)
 
-**[React Router 6.4+的惰性路由加载](https://remix.run/blog/lazy-loading-routes)**
+**[React Router 6.4+的懒加载路由](https://remix.run/blog/lazy-loading-routes)**
 
-[React-Router 6.9](https://github.com/remix-run/react-router/releases/tag/react-router%406.9.0)最新发布的惰性路由特性可避免瀑布流问题，优化应用加载速度。该技术原属Remix的专属能力，现任何基于React-Router的应用均可使用。我个人计划在Docusaurus（基于React-Router）中实施此方案。
+[React-Router 6.9](https://github.com/remix-run/react-router/releases/tag/react-router%406.9.0)最新发布的懒加载路由特性可有效规避请求瀑布流，优化应用加载速度。该技术原为Remix所用，现可应用于任何基于React-Router的应用。我个人计划在Docusaurus（基于React-Router构建）中采用此方案。
 
 ---
 
 - 👀 [React Flight PR - 新增回复编码功能](https://github.com/facebook/react/pull/26360)：支持服务端到客户端的流式传输。
-- 👀 [将Remix路由与React过渡效果集成](https://twitter.com/dan_abramov/status/1634300734094057472)：Dan Abramov建议在Remix中使用`startTransition`。位于`<Suspense>`边界外的挂起组件应阻断过渡效果。
-- 🧵 [Dan Abramov - "如果你没有将多个组件的GraphQL片段组合成一个查询[...]你就错过了GraphQL 80%的意义"](https://twitter.com/dan_abramov/status/1634968234821844992)：本周关于Relay的有趣讨论。尽管这个GraphQL客户端令人望而生畏，但与简单方案相比具有诸多优势（代码共置、数据掩码等）。
-- 🧵 [70%的Docusaurus站点拥有良好的核心网页指标](https://twitter.com/sebastienlorber/status/1635661211579580429)：我的小抱怨——尽管使用率高且性能优异，Docusaurus常被排除在React元框架列表之外。
-- 📜 [JavaScript时代的伟大煤气灯效应](https://www.spicyweb.dev/the-great-gaslighting-of-the-js-age/)：对React的激烈批评😅 我持不同观点，认为React开发者通常清楚自己所做的权衡。
-- 📜 [客户端JavaScript与React批判：未来何去何从？](https://molily.de/javascript-criticism/)：更 nuanced 的批评，但我认为React与渐进增强并不矛盾，Remix就是很好的例子。
-- 📜 [React中的状态是不可变的](https://reacttraining.com/blog/state-in-react-is-immutable)：关于React不可变模型的优质入门。
-- 📜 [Hooks从何而来？](https://reacttraining.com/blog/where-did-hooks-come-from)：回溯理解为何今天我们使用hooks。新React开发者未必了解几年前遇到的问题。
-- 📜 [使用useImperativeHandle精细控制refs](https://prateeksurana.me/blog/fine-tuning-refs-with-useimperativehandle/)：关于该hook的优质介绍，它允许React组件向父组件暴露命令式API。
-- 📜 [我的React、Web标准与Remix学习体验](https://andre-landgraf.dev/blog/2023-03-11_web_standards_and_react)：回归简约，减少`useState`，更多全栈思维。
-- 📜 [使用React和Tailwind CSS发送邮件](https://resend.com/blog/tailwind-with-react-email)：React-Email现已支持Tailwind类。
-- 📜 [优雅管理React中的状态与渲染](https://remotion.com/blog/untangling-state-in-react)：重点解析更新批处理机制的工作原理，初看可能令人惊讶。
-- 📜 [响应式编程简史](https://www.builder.io/blog/history-of-reactivity)：比较包括React（粗粒度响应）在内的各框架响应模型。
+- 👀 [将Remix路由与React过渡效果集成](https://twitter.com/dan_abramov/status/1634300734094057472)：Dan Abramov建议在Remix中使用`startTransition`。处于`<Suspense>`边界之外的挂起组件应阻止过渡。
+- 🧵 [Dan Abramov - "如果你没有将来自多个组件的GraphQL片段组合成一个查询[...]，你就错过了GraphQL 80%的意义"](https://twitter.com/dan_abramov/status/1634968234821844992)：本周关于Relay的有趣讨论。尽管这个GraphQL客户端有些令人生畏，但与更简单的解决方案相比，它有许多优势（同地协作、数据屏蔽等）。
+- 🧵 [70%的Docusaurus网站拥有良好的核心网页指标](https://twitter.com/sebastienlorber/status/1635661211579580429)：我的小抱怨，因为Docusaurus经常被遗忘在React元框架列表中，尽管使用率高且性能良好。
+- 📜 [JavaScript时代的巨大欺骗](https://www.spicyweb.dev/the-great-gaslighting-of-the-js-age/)：对React的猛烈批评😅 我不同意这种观点，认为React开发者通常清楚他们所做的权衡。
+- 📜 [客户端JavaScript和React的批评：接下来会发生什么？](https://molily.de/javascript-criticism/)：更 nuanced 的批评，但我认为React和渐进增强并不矛盾，Remix就是一个很好的例子。
+- 📜 [React中的状态是不可变的](https://reacttraining.com/blog/state-in-react-is-immutable)：关于React中不可变模型的良好介绍。
+- 📜 [Hooks从何而来？](https://reacttraining.com/blog/where-did-hooks-come-from)：回顾理解为什么我们今天使用hooks。新的React开发者并不总是意识到几年前遇到的问题。
+- 📜 [使用useImperativeHandle微调refs](https://prateeksurana.me/blog/fine-tuning-refs-with-useimperativehandle/)：关于这个hook的良好介绍，它允许React组件向其父组件暴露一个命令式API。
+- 📜 [我学习React、Web标准和Remix的经验](https://andre-landgraf.dev/blog/2023-03-11_web_standards_and_react)：回归简单，减少`useState`，更多全栈。
+- 📜 [使用React和Tailwind CSS发送电子邮件](https://resend.com/blog/tailwind-with-react-email)：React-Email现在支持Tailwind类。
+- 📜 [优雅地管理React中的状态和渲染](https://remotion.com/blog/untangling-state-in-react)：强调更新批处理的工作原理，这在最初可能会令人惊讶。
+- 📜 [响应式简史](https://www.builder.io/blog/history-of-reactivity)：比较了包括React（粗粒度响应式）在内的各种框架的响应式模型。
 - 📜 [2023年最受欢迎的Node.js框架](https://stackdiary.com/node-js-frameworks/)
-- 📜 [使用tRPC和React实现全栈TypeScript](https://www.robinwieruch.de/react-trpc/)
-- 📜 [用WebGL渲染目标实现惊艳视效](https://blog.maximeheckel.com/posts/beautiful-and-mind-bending-effects-with-webgl-render-targets/)
-- 🎥 [Dan Abramov与Joe Savona关于RSC的直播](https://kentcdodds.com/blog/rsc-with-dan-abramov-and-joe-savona-live-stream)
-- 🎥 [React在前端生态中的定位](https://www.youtube.com/watch?v=GHRkN_G5BMc)
-- 🎥 [全栈框架排名（基于...类型安全？）](https://www.youtube.com/watch?v=zADNdGVIPBY)
-- 🎥 [利用Defer和NextJS 13释放AI潜力——UI魔法！](https://www.youtube.com/watch?v=kHsTp2LENUI)
-- 📦 [Ink 4.0](https://github.com/vadimdemedes/ink/releases/tag/v4.0.0)：CLI的React渲染器现已支持React 18和ESM。
-- 📦 [Koestlich](https://twitter.com/coconut_xr/status/1633770307470098434)：基于React-Three-Fiber的"3D UI组件库"。
-- 📦 [Storybook 7.0候选版](https://github.com/storybookjs/storybook/releases/tag/v7.0.0-rc.0)：支持Next.js的API框架，采用组件故事格式3、MDX 2...另见会议[Storybook Day 2023](https://www.youtube.com/watch?v=P0hJm5v8TJw)
-- 📦 [Astro 2.1](https://astro.build/blog/astro-210/)：图像组件，支持Markdoc。
-- 📦 [Million 2.0](https://twitter.com/aidenybai/status/1634060432372813829)：基于"块"概念的虚拟DOM，兼容React并可提速70%🤔
-- 📦 [SWR 2.1](https://github.com/vercel/swr/releases/tag/v2.1.0)：新增useSWRSubscription + useSWRInfinite并行选项
-- 📦 [Superflare](https://superflare.dev/)：Cloudflare Workers全栈工具包，支持D1、R2、会话、队列...与Remix集成，即将支持Next.js？
-- 📦 [Tremor 2.0](https://twitter.com/tremorlabs/status/1635064912153284609)：基于Tailwind CSS的仪表盘UI库。
+- 📜 [使用tRPC和React的全栈TypeScript](https://www.robinwieruch.de/react-trpc/)
+- 📜 [使用WebGL渲染目标创建美丽且令人费解的效果](https://blog.maximeheckel.com/posts/beautiful-and-mind-bending-effects-with-webgl-render-targets/)
+- 🎥 [与Dan Abramov和Joe Savona的RSC直播](https://kentcdodds.com/blog/rsc-with-dan-abramov-and-joe-savona-live-stream)
+- 🎥 [React在前端生态系统中的地位](https://www.youtube.com/watch?v=GHRkN_G5BMc)
+- 🎥 [排名每个全栈框架（按...类型安全？）](https://www.youtube.com/watch?v=zADNdGVIPBY)
+- 🎥 [使用Defer和NextJS 13解锁AI的力量 - UI魔法！](https://www.youtube.com/watch?v=kHsTp2LENUI)
+- 📦 [Ink 4.0](https://github.com/vadimdemedes/ink/releases/tag/v4.0.0)：CLI的React渲染器现在支持React 18和ESM。
+- 📦 [Koestlich](https://twitter.com/coconut_xr/status/1633770307470098434)：基于React-Three-Fiber的“3D UI工具包”。
+- 📦 [Storybook 7.0 RC](https://github.com/storybookjs/storybook/releases/tag/v7.0.0-rc.0)：支持Next.js的API框架，组件故事格式3，MDX 2... 另见会议[Storybook Day 2023](https://www.youtube.com/watch?v=P0hJm5v8TJw)
+- 📦 [Astro 2.1](https://astro.build/blog/astro-210/)：Image组件，Markdoc支持。
+- 📦 [Million 2.0](https://twitter.com/aidenybai/status/1634060432372813829)：基于“块”概念的虚拟DOM，与React兼容，可使其速度提高70% 🤔
+- 📦 [SWR 2.1](https://github.com/vercel/swr/releases/tag/v2.1.0)：useSWRSubscription + useSWRInfinite并行选项
+- 📦 [Superflare](https://superflare.dev/)：Cloudflare Workers的全栈工具包，支持D1、R2、Session、Queues... 与Remix集成，很快支持Next.js？
+- 📦 [Tremor 2.0](https://twitter.com/tremorlabs/status/1635064912153284609)：基于Tailwind CSS的创建仪表板的UI库。
 - 📦 [next-route-visualizer](https://github.com/DiiiaZoTe/next-route-visualizer)
-- 📦 [Radix - 新Form原语](https://twitter.com/radix_ui/status/1633483912755261443)
+- 📦 [Radix - 新的Form原语](https://twitter.com/radix_ui/status/1633483912755261443)
 - 📦 [Nodl 1.0](https://twitter.com/emilwidlund/status/1634804041397022720)
 - 📦 [Framer-Motion 10.3](https://twitter.com/mattgperry/status/1635641473319280646)
-- 🐦 [Node.js官网现采用Next.js](https://twitter.com/leeerob/status/1633595208448311296)
+- 🐦 [Node.js网站现在使用Next.js](https://twitter.com/leeerob/status/1633595208448311296)
 
 <SubscribeFormEmbed />
 
@@ -114,36 +114,36 @@ import Support from "../_support.mdx";
 
 **[可扩展的JavaScript调查问卷与表单库](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=referral)**
 
-[SurveyJS](https://surveyjs.io/form-library?utm_source=thisweekinreact&utm_medium=referral) 是一套开源JavaScript表单库，可轻松集成至您的Web应用。它能帮助您**创建并运行多种表单**，所有敏感数据保留在您的服务器上，或拥有**自主托管的WYSIWYG表单构建器**供非技术人员直接使用。
+[SurveyJS](https://surveyjs.io/form-library?utm_source=thisweekinreact&utm_medium=referral) 是一套开源的JavaScript表单库，可轻松集成至您的Web应用。它能帮助您**创建并运行多种表单**，所有敏感数据保留在您的服务器上，或拥有**自主托管的可视化表单构建器**供非技术人员直接使用。
 
-您还能**在定制仪表盘中分析调查结果**，将表单保存为PDF，或直接**转换为可编辑的PDF文件**。它原生支持**React与Angular渲染**，并提供完全的后端选择自由，因为**任何服务器与数据库组合均可完全兼容**。
+您还可以**在自定义仪表板中分析调查结果**，将表单保存为PDF，或直接**转换为可编辑的PDF文件**。它原生支持**React和Angular渲染**，并提供完全的后端选择自由，因为**任何服务器与数据库组合都完全兼容**。
 
 ---
 
 ## 📱 React-Native {#react-native}
 
-- 📜 [在React Native中构建流畅的共享元素过渡效果](https://mrousavy.com/blog/Shared-Element-Transitions-in-React-Native): Reanimated 3中共享元素过渡的优质入门指南。该方案使用简单灵活，可通过worklet自定义过渡效果。
-- 📜 [Android相机API解析](https://mrousavy.com/blog/Camera-APIs-on-Android): Marc Rousavy阐释为何相机管理（尤其在Android上）如此复杂。VisionCamera v3将回归Camera2 API，暂时搁置CameraX方案。
-- 📜 [Shopify Tophat - 打造愉悦的移动开发者体验](https://shopify.engineering/shopify-tophat-mobile-developer-testing): Shopify为其移动应用构建了专属开发者体验，与Expo方案颇为相似。虽不完全关联React-Native，仍具参考价值。
-- 📜 [Expo宣布EAS构建将默认采用M1/M2进行iOS构建](https://blog.expo.dev/eas-build-will-default-to-m1-m2-for-ios-builds-24208008a68d): 转向Apple silicon构建器可使iOS构建时间缩短40%（M1芯片），M2芯片还能再提升10%。
+- 📜 [在React Native中构建流畅的共享元素过渡效果](https://mrousavy.com/blog/Shared-Element-Transitions-in-React-Native): 关于Reanimated 3中共享元素过渡的优质入门指南。该方案使用简单灵活，可通过worklet自定义过渡效果。
+- 📜 [Android相机API解析](https://mrousavy.com/blog/Camera-APIs-on-Android): Marc Rousavy阐述为何相机管理（尤其在Android上）如此复杂。VisionCamera v3将回归Camera2 API，暂时搁置CameraX方案。
+- 📜 [Shopify Tophat - 打造愉悦的移动开发者体验](https://shopify.engineering/shopify-tophat-mobile-developer-testing): Shopify为其移动应用构建了独特的开发者体验，与Expo方案颇为相似。虽不完全关联React-Native，仍值得一读。
+- 📜 [Expo宣布EAS构建将默认采用M1/M2进行iOS构建](https://blog.expo.dev/eas-build-will-default-to-m1-m2-for-ios-builds-24208008a68d): 通过转向Apple silicon构建机，iOS构建时间将缩短40%（M1）并额外提升10%（M2）。
 - 📜 [微软指南：为React Native Windows应用添加Jest快照测试](https://devblogs.microsoft.com/react-native/2023-03-02-adding-snapshot-testing-to-rnw-apps/)
 - 📜 [React Native VisionCamera实践：演示与替代方案](https://blog.logrocket.com/react-native-visioncamera-demo-alternatives/)
-- 🧑‍🎓 [桥接教程：在React Native应用中使用任意平台API](https://mateusz1913.github.io/rnbridgingtutorial/): 创建原生模块的完整资源。
+- 🧑‍🎓 [桥接教程 - 在React Native应用中使用任意平台API](https://mateusz1913.github.io/rnbridgingtutorial/): 创建原生模块的完整资源。
 - 🎙️ [RNR第262期 - Maestro：移动端UI测试的终极解决方案](https://reactnativeradio.com/episodes/rnr-262-maestro-the-app-solute-solution-for-mobile-ui-testing)
-- 📦 [Metro 0.76发布](https://github.com/facebook/metro/releases/tag/v0.76.0): 移植自Webpack的API将支持[代码分割](https://twitter.com/sebastienlorber/status/1635671177082417158)，Expo Router将采用此特性。
+- 📦 [Metro 0.76发布](https://github.com/facebook/metro/releases/tag/v0.76.0): 移植自Webpack的API将支持[代码分割](https://twitter.com/sebastienlorber/status/1635671177082417158)，Expo Router将采用此方案。
 - 👀 [Expo Web全局CSS支持进展](https://twitter.com/Baconbrix/status/1633562265189326855)
 
 ---
 
 ## 🧑‍💻 职位招聘 {#jobs}
 
-🧑‍💼 [**Callstack招聘高级React Native开发者 - 完全远程，B2B合同月薪2.1-3.2万波兰兹罗提净收入**](https://www.callstack.com/senior-react-native-developer)
+🧑‍💼 [**Callstack - 高级React Native开发工程师 - 全职远程，B2B合同月薪2.1-3.2万波兰兹罗提（净收入）**](https://www.callstack.com/senior-react-native-developer)
 
-您希望参与全球最热门应用的开发吗？您渴望共同塑造React Native技术的未来吗？加入Callstack这个由React与React Native技术领袖组成的团队。访问官网了解详情，我们期待您的申请——请尽情展示您的才华！
+您希望参与全球最热门应用的开发吗？您想共同塑造React Native技术的未来吗？加入Callstack这个由React & React Native技术领袖组成的团队。访问官网了解详情，我们期待您的申请——请向我们展示您的实力！
 
 🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
 
-我们开放多个React Native开发职位！薪资约16万美元外加10%奖金。需具备RN生产环境经验且位于美国境内。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解详情，并请提及This Week in React。
+我们开放多个React Native开发职位！薪资约16万美元外加10%奖金。应聘者需具备RN生产环境经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解详情，并请注明来自《本周React》。
 
 💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
 
@@ -155,24 +155,24 @@ import Support from "../_support.mdx";
 
 **[Rspack](https://www.rspack.dev/)**
 
-字节跳动推出的Rust打包工具正式发布，兼容Webpack但速度更快。在Rspack和Turbopack之间做选择将很困难，后者也宣布了[即将支持Webpack加载器](https://twitter.com/jaredpalmer/status/1619071988181651456)。值得注意的是[Unplugin 1.3](https://twitter.com/antfu7/status/1634517321392726017)已支持Rspack，可创建通用打包器插件。虽然Unplugin尚未支持Turbopack，但希望已在计划中！
+字节跳动正式发布基于Rust的打包工具，兼容Webpack但速度更快。在Rspack和Turbopack之间做选择将很困难——后者也宣布了[即将支持Webpack加载器](https://twitter.com/jaredpalmer/status/1619071988181651456)。值得注意的是[Unplugin 1.3](https://twitter.com/antfu7/status/1634517321392726017)已支持Rspack，可创建通用打包器插件。目前Unplugin尚未支持Turbopack，但希望已在计划中！
 
-另阅读[Rspack：融合高性能与互操作性的Rust打包工具](https://valor-software.com/press-release/rs-pack-rust-based-web-bundler)
+另阅[Rspack：融合高性能与互操作性的Rust打包工具](https://valor-software.com/press-release/rs-pack-rust-based-web-bundler)
 
 ---
 
 - [Jest 29.5](https://github.com/facebook/jest/releases/tag/v29.5.0): 新增CLI `--randomize`选项
 - [CSS嵌套](https://developer.chrome.com/articles/css-nesting/): Chrome 112正式支持！
-- [Proto新一代工具链管理器](https://moonrepo.dev/blog/proto): 替代fnm或Volta管理Node.js运行时的新选择（不仅限于此）
+- [Proto——次世代工具链管理器](https://moonrepo.dev/blog/proto): 管理Node.js运行时的新选择（不仅限于此）
 - [SPA视图过渡登陆Chrome 111](https://developer.chrome.com/blog/spa-view-transitions-land/)
 - [TypeScript向模块化迁移](https://devblogs.microsoft.com/typescript/typescripts-migration-to-modules/)
 - [Cloudflare Workers的Node.js兼容演示](https://twitter.com/jasnell/status/1633949738516230144)
-- [ts-reset 0.4](https://twitter.com/mattpocockuk/status/1633525273860661257)
+- [ts-reset 0.4发布](https://twitter.com/mattpocockuk/status/1633525273860661257)
 - [考虑在Web Worker中执行Canvas动画](https://www.macarthur.me/posts/animate-canvas-in-a-worker)
 - [近三年所有JavaScript和TypeScript特性](https://betterprogramming.pub/all-javascript-and-typescript-features-of-the-last-3-years-629c57e73e42)
 - [如何测量单页应用的核心网页指标](https://estelafranco.com/blog/spa-cwv/)
 - [JavaScript Oxidation编译器v0.1](https://github.com/Boshen/oxc)
-- [Turborepo从Go迁移到Rust的原因](https://vercel.com/blog/turborepo-migration-go-rust)
+- [Turborepo为何从Go迁移至Rust](https://vercel.com/blog/turborepo-migration-go-rust)
 
 ---
 
@@ -182,4 +182,4 @@ import Support from "../_support.mdx";
 
 🤣 [本周其他搞笑推文](https://twitter.com/sebastienlorber/status/1635710256876777472)
 
-下次见！👋
+下期见！👋

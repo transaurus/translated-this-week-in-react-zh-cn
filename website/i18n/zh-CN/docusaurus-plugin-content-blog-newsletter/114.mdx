@@ -13,11 +13,11 @@ date: 08-01-2022
 
 🎉 [**Docusaurus 2.0正式发布**](https://docusaurus.io/blog/2022/08/01/announcing-docusaurus-2.0?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)！
 
-这是由我维护的**Meta开源项目(Facebook)**：一个基于Node.js和React的静态文档站点生成器。它能让你专注于内容创作——只需编写Markdown文件。Docusaurus具有高度可定制性，能完美适配企业品牌形象。许多知名文档站点都在使用它：React-Native、Supabase、Redux、Tauri、Electron、Courier、Ionic、Figma、Snapchat、Prettier、Babel、Solana、Cardano...
+这是由我维护的**Meta开源项目(Facebook)**：一个基于Node.js和React的静态文档站点生成器。它让你专注于内容创作——只需编写Markdown文件。Docusaurus具有高度可定制性，能完美适配企业品牌形象。许多知名文档站点都在使用它：React-Native、Supabase、Redux、Tauri、Electron、Courier、Ionic、Figma、Snapchat、Prettier、Babel、Solana、Cardano...
 
-🙏 我们同时在[**ProductHunt**](https://www.producthunt.com/posts/docusaurus-2-0?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)、[**Hacker News**](https://news.ycombinator.com/item?id=32303052&utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)和[**Twitter**](https://twitter.com/docusaurus/status/1554000364432769025?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)平台发布公告：如果您喜欢这个项目，请为我们**投票**并分享您的观点😃
+🙏 我们同时在[**ProductHunt**](https://www.producthunt.com/posts/docusaurus-2-0?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)、[**Hacker News**](https://news.ycombinator.com/item?id=32303052&utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)和[**Twitter**](https://twitter.com/docusaurus/status/1554000364432769025?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)进行发布：如果你喜欢这个项目，请**投票**并分享你的观点😃
 
-🎙️ 我在[The Developer's Bakery](https://thebakery.dev/39/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)的Docusaurus专题播客也刚刚上线😉
+🎙️ 我在[The Developer's Bakery](https://thebakery.dev/39/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)的Docusaurus播客节目也刚刚上线😉
 
 ---
 
@@ -27,13 +27,13 @@ date: 08-01-2022
 
 ## 什么是Docusaurus？
 
-Meta拥有大量内部/外部项目，每个项目都需要编写文档。编写文档本身已颇具挑战，若每次还需定制网站，就会成为时间黑洞。
+Meta有大量内部/外部项目，每个项目都需要编写文档。编写文档本身已颇具挑战，如果每次还要定制网站，就会成为时间黑洞。
 
 2017年他们开始为每个项目复制粘贴Jekyll模板，但很快就难以维护。
 
-2017年，他们决定创建Docusaurus——一个基于React的Node.js静态站点生成器，它能"隐藏"网站的技术栈，让你**专注于内容**创作：编写**Markdown**文件。这有点像Create-React-App，但用于创建内容型网站：文档、博客、落地页...
+2017年，他们决定创建Docusaurus——一个基于React的Node.js静态站点生成器，它能"隐藏"网站技术栈，让你**专注于内容**：编写**Markdown**文件。这类似于Create-React-App，但用于创建内容型网站：文档、博客、落地页...
 
-Docusaurus v1迅速流行，被React-Native、Jest、Babel、Prettier等知名项目采用。
+Docusaurus v1迅速流行，被React-Native、Jest、Babel、Prettier等项目采用。
 
 ![使用Docusaurus v1的站点](https://s3.amazonaws.com/revue/items/images/017/224/025/original/v1.gif?1659345706)
 
@@ -43,40 +43,40 @@ Docusaurus v1迅速流行，被React-Native、Jest、Babel、Prettier等知名�
 
 v1发布后，Meta意识到其局限性：
 
-- 虽然使用React但仅服务端渲染：无hydration机制也不支持单页应用导航
-- 代码库高度耦合，难以维护和测试
+- 虽然使用React但仅服务端渲染：无hydration也无单页应用导航
+- 代码库过于臃肿，难以维护和测试
 - 扩展性不足，缺乏插件系统
-- 主题系统较为局限，v1站点外观高度雷同
+- 主题定制有限，v1站点外观雷同
 
 2018年，Meta决定**从头重写Docusaurus**，采用全新架构：
 
-- 客户端和服务端均使用React（类似Next.js、Remix、Gatsby等方案）
-- 插件系统：允许社区贡献实用功能（OpenAPI集成、本地搜索引擎、Sass支持等）
-- 更灵活的主题系统：可覆盖主题中的任何React组件
-- 支持MDX（Markdown+React）让文档具备交互能力
+- 客户端和服务端均使用React（类似Next.js、Remix、Gatsby...）
+- 插件系统：社区可贡献实用功能（OpenAPI集成、本地搜索引擎、Sass支持...）
+- 更灵活的主题系统：可覆盖主题的任何React组件
+- 支持MDX（Markdown+React）让文档具有交互性
 
-Docusaurus 2.0 经历了**4年**的 alpha/beta 测试阶段 🤪，我们终于发布了**首个稳定版本**！此前由于难以严格遵循语义化版本规范，我们推迟了这次发布。
+Docusaurus 2.0 经历了长达**4年**的 alpha/beta 测试阶段 🤪，如今我们终于发布了**首个稳定版本**！此前由于难以严格遵循语义化版本规范，我们推迟了此次发布。
 
-如今 Docusaurus v2 已具备丰富功能，难以一一列举：文档系统、博客功能、版本控制、主题定制、暗黑模式、国际化、无障碍访问、SEO优化、TypeScript支持、PWA、Algolia文档搜索、MDX支持...
+当前 Docusaurus v2 已具备文档系统、博客功能、多版本支持、主题定制、暗黑模式、国际化、无障碍访问、SEO优化、TypeScript支持、PWA、Algolia文档搜索、MDX等丰富特性，难以在此逐一列举。
 
 ---
 
 ## 谁在使用 Docusaurus 2.0？
 
-尽管处于测试阶段，已有大量公司采用了 Docusaurus 2.0。v2 版本的流行度已远超 v1，我们的 npm 下载量几乎达到 Gatsby 的一半！
+尽管处于测试阶段，已有大量企业采用 Docusaurus 2.0。v2 版本的流行度远超 v1，我们的 npm 下载量已达到 Gatsby 的近半数！
 
 ![npm 增长趋势](https://s3.amazonaws.com/revue/items/images/017/224/035/mail/npm-downloads.png?1659345822)
 
-我们的[**案例展示页**](https://docusaurus.io/showcase?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)已收录近 300 个站点。
+我们的[**案例展示页**](https://docusaurus.io/showcase?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)已收录近300个站点。
 
 这还远未穷尽，许多站点尚未被收录：[Figma](https://www.figma.com/plugin-docs/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)、[Snapchat](https://docs.snap.com/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)、[Courier](https://www.courier.com/docs/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)、[1Password](https://developer.1password.com/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)...
 
-更不用说微软、LinkedIn、Shopify 等公司的众多内部站点...
+更不用说微软、LinkedIn、Shopify等企业的众多内部站点...
 
-部分典型案例：
+典型案例如下：
 
 - **科技巨头**：微软、Snapchat、Shopify、LinkedIn、Meta、SAP、字节跳动、Lacework、Palo Alto Network...
-- **初创企业**：Supabase、Ionic、Hasura、Figma、Courier、CodeSandbox、StackBlitz、Redis、Algolia、Hashnode...
+- **初创公司**：Supabase、Ionic、Hasura、Figma、Courier、CodeSandbox、StackBlitz、Redis、Algolia、Hashnode...
 - **开源项目**：React-Native、Redux、React-Navigation、Jest、Testing Library、Gulp、Babel、Lerna、pnpm、Electron、Tauri...
 - **Web3领域**：Iota、Solana、Cardano、Neo、SushiSwap...
 
@@ -88,23 +88,23 @@ Docusaurus 2.0 经历了**4年**的 alpha/beta 测试阶段 🤪，我们终于�
 
 ## 我的角色是什么？
 
-两年前，我在浏览 Twitter 时偶然看到这条消息：
+两年前浏览Twitter时，我偶然发现了这条动态：
 
 [![](https://user-images.githubusercontent.com/749374/182660849-cc39d9d0-85ad-481c-a681-743a9c5b20c7.png)](https://twitter.com/sebastienlorber/status/1232059882091749376)
 
-**专业建议**：保持开放的 Twitter 社交状态 😄 这会带来意想不到的职业机遇！
+**专业建议**：保持开放的社交网络状态 😄 这能带来意想不到的职业机遇！
 
-我认为这是个绝佳机会：以自由职业者身份为 Facebook 开发开源项目实属难得。原计划持续3个月，最终却延续了2年多——至今我仍在参与 Docusaurus 开发！
+我认为这是绝佳机会：以自由职业者身份为Facebook开发开源项目实属难得。原计划3个月的合作最终延续至今——我已参与Docusaurus开发超过两年！
 
-我很幸运能以高度灵活的方式工作，享有充分自主权，这让我能同时运营这份技术周刊。
+我很幸运能获得高度自主的工作方式，这种灵活性也让我得以同时运营这份技术周刊。
 
-见证 Docusaurus 日益流行令人振奋，我真切感受到自己的工作产生了实际影响。希望这个工具能激发你的兴趣，期待看到你们创建的站点！别忘了提交到我们的[案例展示页](https://docusaurus.io/showcase?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)！
+见证Docusaurus的流行令人振奋，我的工作产生了真实影响力。希望这个工具能激发你的尝试热情，期待看到你们创建的站点！别忘了提交到我们的[案例展示页](https://docusaurus.io/showcase?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)！
 
 ---
 
-## 我们需要帮助
+## 我们需要你的帮助
 
-如果你能助力我们**成功完成这次发布**，我将不胜感激。一次点赞、转发或评论都意义重大！
+如果你能通过点赞、转发或评论助力**本次发布取得成功**，我们将不胜感激！
 
 我们重点发布的平台包括：
 
@@ -112,7 +112,7 @@ Docusaurus 2.0 经历了**4年**的 alpha/beta 测试阶段 🤪，我们终于�
 - [Product Hunt](https://www.producthunt.com/posts/docusaurus-2-0?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 - [Hacker News](https://news.ycombinator.com/item?id=32303052&utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 
-感谢支持，我们很快会带来更多React新鲜资讯 :)
+感谢支持，我们很快会带着新鲜的React资讯与您再会 :)
 
 ![我们最可爱的吉祥物Slash 💕](https://s3.amazonaws.com/revue/items/images/017/224/190/mail/CleanShot_2022-08-01_at_11.08.03_402x.png?1659346116)
 

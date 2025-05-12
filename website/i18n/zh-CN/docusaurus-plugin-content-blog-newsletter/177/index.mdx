@@ -7,15 +7,15 @@ date: 03-13-2024
 
 大家好！
 
-本周特别令人兴奋的是React Native Skia发布了1.0版本。此外我们还有许多其他有趣的发布值得关注：Pigment、Storybook、Tailwind、Rolldown、MDXTS...
+本周特别令人兴奋的是 React Native Skia 发布了 1.0 版本。此外我们还有许多其他有趣的发布值得关注：Pigment、Storybook、Tailwind、Rolldown、MDXTS...
 
-其中也不乏一些趣味性项目，比如Mist和Geist。我很好奇大家对这些工具的看法。你们会考虑使用它们吗？
+其中也不乏一些有趣的项目，比如 Mist 和 Geist。我很好奇你们对它们的看法。你们会使用这些工具吗？
 
-我正在尝试更密切地追踪一些早期信号（PR、RFC和推文），你们觉得这类资讯有价值吗？
+我正在尝试更密切地追踪一些弱信号（PR、RFC 和推文），你们觉得这类新闻有价值吗？
 
 <!-- truncate -->
 
-**💡 [在Twitter上查看本期简报](https://slo.im/thread) - 可视化格式 🎨**
+**💡 [在 Twitter 上查看本期简报](https://slo.im/thread) - 可视化格式 🎨**
 
 ---
 
@@ -27,11 +27,11 @@ import Support from "../_support.mdx";
 
 ## 💸 赞助商 {#sponsor1}
 
-[![轻松实现应用内订阅](/emails/issues/177/revenuecat.jpg)](https://www.revenuecat.com?utm_source=twir&utm_medium=sponsorship&utm_campaign=dec_23)
+[![应用内订阅轻松实现](/emails/issues/177/revenuecat.jpg)](https://www.revenuecat.com?utm_source=twir&utm_medium=sponsorship&utm_campaign=dec_23)
 
-**[轻松实现应用内订阅](https://www.revenuecat.com?utm_source=twir&utm_medium=sponsorship&utm_campaign=dec_23)**
+**[应用内订阅轻松实现](https://www.revenuecat.com?utm_source=twir&utm_medium=sponsorship&utm_campaign=dec_23)**
 
-RevenueCat为您提供变现、分析和增长应用业务所需的一切。轻松控制用户访问权限和权益，管理数据并进行定价实验。了解为何超过30,000款应用选择RevenueCat来支持其应用内购买基础设施。
+RevenueCat 为您提供变现、分析和增长应用业务所需的一切。轻松控制客户访问权限和权益，管理数据，并进行定价实验。了解为何超过 30,000 个应用信任 RevenueCat 为其应用内购买提供基础设施支持。
 
 ---
 
@@ -41,7 +41,7 @@ RevenueCat为您提供变现、分析和增长应用业务所需的一切。轻�
 
 [**Pigment CSS**](https://github.com/mui/material-ui/tree/master/packages/pigment-css-react)
 
-MUI团队正在开发Pigment——他们自己的零运行时CSS-in-JS解决方案，旨在Material UI v6中取代Emotion。首个版本已发布至npm，包含Next.js的`withPigment()`插件。Olivier在🐦[推文](https://twitter.com/olivtassinari/status/1765719897152127315)中解释了创建新解决方案的动机，以及与现有方案（Panda、StyleX、Tailwind）的对比。与其他方案不同，这个工具将简化现有Emotion和Styled-Components用户的迁移过程。
+MUI 团队正在开发 Pigment，这是他们用于替代 Material UI v6 中 Emotion 的无运行时 CSS-in-JS 方案。首个版本已发布至 npm，包含 Next.js 的 `withPigment()` 插件。Olivier 在一条 🐦 [推文](https://twitter.com/olivtassinari/status/1765719897152127315) 中解释了创建新解决方案的动机，以及它与现有方案（Panda、StyleX、Tailwind）的对比。与其他方案不同，这将为现有的 Emotion 和 Styled-Components 用户提供更平滑的迁移路径。
 
 ---
 
@@ -49,48 +49,48 @@ MUI团队正在开发Pigment——他们自己的零运行时CSS-in-JS解决方�
 
 [**Storybook 8**](https://storybook.js.org/blog/storybook-8/)
 
-这个Storybook的新主版本带来了诸多改进，包括：
+这个 Storybook 的新主版本带来了许多改进，包括：
 
-- 实验性React Server Components支持
-- 更快的React控件自动生成（通过`react-docgen`）
-- "测试模式"下更快的静态构建（CLI标志`--test`）
-- 内置可视化测试（通过Chromatic）
-- 重构的Vite支持，Vitest，Vite 5
-- 改进的移动端/桌面端UI/UX
+- 实验性 React 服务端组件支持
+- 更快的 React 控件自动生成（通过 `react-docgen`）
+- "测试模式"下更快的静态构建（CLI 标志 `--test`）
+- 内置可视化测试（通过 Chromatic）
+- 重构后的 Vite 支持，Vitest，Vite 5
+- 改进的移动端/桌面端 UI/UX
 
 ---
 
-- 💸 [使用Apryse深入探索React PDF阅读器开发。与PDF.js无缝集成带来卓越体验，详情见我们的博客](https://apryse.com/blog/react/building-react-pdf-viewer-with-pdfjs?utm_source=emailnewsletter3&utm_medium=email)
-- 🐦 [Sebastian Markbåge建议使用package.json的"imports"而非Context实现依赖注入](https://twitter.com/sebmarkbage/status/1765828741500981475)
-- 👀 [React核心PR - 为水合警告添加差异对比](https://github.com/facebook/react/pull/28512)：React团队正在改进水合错误提示，通过显示差异对比。您可以通过单元测试🐦[预览效果](https://twitter.com/sebastienlorber/status/1765666127558918243)
-- 👀 [React 19 - 导致its-fine包失效](https://github.com/facebook/react/pull/28524)：React 19当前🐦[破坏了"its-fine"包](https://twitter.com/0xca0a/status/1766032105807483261)，该包常用于跨渲染器传递React上下文。React团队正在研究原生支持此功能，但似乎是个棘手问题
+- 💸 [通过Apryse深入探索React PDF阅读器开发。与PDF.js无缝集成带来卓越体验，详见我们的博客](https://apryse.com/blog/react/building-react-pdf-viewer-with-pdfjs?utm_source=emailnewsletter3&utm_medium=email)
+- 🐦 [Sebastian Markbåge建议使用package.json的"imports"替代Context实现依赖注入](https://twitter.com/sebmarkbage/status/1765828741500981475)
+- 👀 [React核心PR - 为水合错误提示添加差异对比](https://github.com/facebook/react/pull/28512)：React团队正在改进水合错误提示，通过显示代码差异。您可以通过单元测试🐦[预览效果](https://twitter.com/sebastienlorber/status/1765666127558918243)
+- 👀 [React 19 - 它并不完美](https://github.com/facebook/react/pull/28524)：React 19当前会🐦[破坏"its-fine"包](https://twitter.com/0xca0a/status/1766032105807483261)，该包常用于跨渲染器传递React上下文。React团队正在研究原生支持此特性，但这似乎是个棘手的问题
 - 👀 [Next.js PR已合并 - 新增Lightning CSS支持](https://github.com/vercel/next.js/pull/61327)：新的实验性CSS加载器即将推出
-- 👀 [Remix RFC - 动作函数](https://github.com/remix-run/remix/discussions/9020)：新RFC建议实现React动作函数以减少间接调用/样板代码。将先在客户端实现，后续支持RPC的"use server"指令
+- 👀 [Remix RFC - 动作函数](https://github.com/remix-run/remix/discussions/9020)：新RFC建议实现React动作函数以减少间接调用和样板代码。将先在客户端实现，后续支持RPC的"use server"指令
 - 👀 [Vercel - 支持Remix + Vite](https://vercel.com/changelog/support-for-remix-with-vite)
-- 📖 [框架领域指南](https://unicorn-utterances.com/collections/framework-field-guide)：精编的三部曲系列书籍，同时教授Angular、React和Vue，帮助理解框架差异，包含大量交互示例。首部"基础篇"已发布
+- 📖 [框架实战指南](https://unicorn-utterances.com/collections/framework-field-guide)：一套精美的三部分系列书籍，同时教授Angular、React和Vue，帮助理解框架差异，包含大量交互示例。首部"基础篇"已发布
 - 📅 [React巴黎大会 - 3月22日](https://react.paris/)：下周我将参加React巴黎大会，期待与各位相遇。会议门票已售罄，但仍可在线观看并享受[-20%折扣](https://ti.to/bejs/react-paris/discount/this-week-in-react)
-- 📜 [React编译器 & React 19 - 即将告别记忆化？](https://www.developerway.com/posts/react-compiler-soon)：全面解析即将推出的编译器功能、发布时间框架以及可能被简化的React代码模式
-- 📜 [前端开发的未来导航](https://frontendmastery.com/posts/navigating-the-future-of-frontend/)：深度文章解读前端生态当前发展方向，包括React服务端组件等趋势
-- 📜 [SafeTest vs Cypress vs WebdriverIO组件测试对比](https://bromann.dev/post/safetest-vs-cypress-vs-webdriverio)：Netflix新发布的SafeTest框架遭到竞争对手详细评测，文中包含React测试示例
-- 📜 [Next.js第三方库管理方案](https://developer.chrome.com/blog/next-third-parties)：介绍Chrome Aurora团队成果，特别是@next/third-parties包如何高效加载第三方脚本
-- 📜 [隐式断言的价值](https://www.epicweb.dev/implicit-assertions)：阐释React渲染冒烟测试的实用意义
+- 📜 [React编译器 & React 19 - 即将告别记忆化？](https://www.developerway.com/posts/react-compiler-soon)：全面解析即将推出的编译器、发布时间框架以及我们可能淘汰的React代码模式
+- 📜 [前端开发的未来方向](https://frontendmastery.com/posts/navigating-the-future-of-frontend/)：深度分析前端生态当前发展趋势，包括React服务端组件的演进
+- 📜 [SafeTest vs. Cypress vs. WebdriverIO组件测试对比](https://bromann.dev/post/safetest-vs-cypress-vs-webdriverio)：Netflix新发布的SafeTest框架近期受到竞争对手两篇详细文章的批评，均配有React测试示例
+- 📜 [Next.js第三方库管理方案](https://developer.chrome.com/blog/next-third-parties)：介绍Chrome Aurora团队的工作，特别是@next/third-parties包如何高效加载Next.js项目中的第三方脚本和嵌入内容
+- 📜 [隐式断言的价值](https://www.epicweb.dev/implicit-assertions)：阐述React渲染冒烟测试为何仍然重要
 - 📜 [Remotion Studio现已支持部署](https://www.remotion.dev/blog/deployable-studio)
-- 📜 [如何将ReactJS动画转为视频 - Remotion轻量方案](https://medium.com/numatic-ventures/how-to-transform-reactjs-animation-into-video-the-lightweight-version-of-remotion-25706b1e0251?sk=a979e3131d85e8de4f2666b134eea1ec)
-- 📜 [安全使用React的dangerouslySetInnerHTML](https://deadsimplechat.com/blog/how-to-safely-use-dangerouslysetinnerhtml-in-react/)
-- 📜 [渐进增强React服务端动作的表单处理](https://techhub.iodigital.com/articles/progressively-enhance-handling-your-forms-with-react-js-server-actions)
-- 📜 [React Testing Library最佳实践](https://claritydev.net/blog/improving-react-testing-library-tests)
-- 📦 [WinterJS 1.0发布 - 基于Rust和SpiderMonkey的WinterCG兼容运行时](https://wasmer.io/posts/winterjs-v1)：号称最快的JS运行时，现可运行Next.js。提供Hacker News RSC演示，团队计划迁移自身Next.js前端
+- 📜 [如何将ReactJS动画转换为视频 - Remotion轻量级方案](https://medium.com/numatic-ventures/how-to-transform-reactjs-animation-into-video-the-lightweight-version-of-remotion-25706b1e0251?sk=a979e3131d85e8de4f2666b134eea1ec)
+- 📜 [React中安全使用dangerouslySetInnerHTML指南](https://deadsimplechat.com/blog/how-to-safely-use-dangerouslysetinnerhtml-in-react/)
+- 📜 [渐进式增强：React.js服务端动作处理表单](https://techhub.iodigital.com/articles/progressively-enhance-handling-your-forms-with-react-js-server-actions)
+- 📜 [React Testing Library测试编写最佳实践](https://claritydev.net/blog/improving-react-testing-library-tests)
+- 📦 [WinterJS 1.0发布 - 基于Rust和SpiderMonkey的WinterCG兼容JS运行时](https://wasmer.io/posts/winterjs-v1)：这款新运行时自称速度最快，现已支持运行Next.js。提供Hacker News RSC演示，团队计划很快将其Next.js前端迁移至此
 - 📦 [React Geiger](https://github.com/kristiandupont/react-geiger)：类似WhyDidYouRender的音频版，在React重渲染时发出提示音。有趣且可能实用
-- 📦 [MistCSS - 仅用CSS编写React组件](https://typicode.github.io/mistcss/)：疯狂的工具，直接从CSS文件生成React组件，支持Tailwind 🤪
-- 📦 [Shadcn/ui三月更新 - 新增面包屑导航、一次性密码输入组件](https://ui.shadcn.com/docs/changelog)
-- 📦 [MDXTS(Beta) - React内容与文档SDK](https://www.mdxts.dev/)："类似Contentlayer与Storybook的结合体"
+- 📦 [MistCSS - 仅用CSS编写React组件](https://typicode.github.io/mistcss/)：疯狂的CSS生成JS工具，支持直接从CSS文件生成React组件，包含Tailwind支持🤪
+- 📦 [Shadcn/ui 2024年3月更新 - 新增面包屑导航、一次性密码输入组件](https://ui.shadcn.com/docs/changelog)
+- 📦 [MDXTS(Beta) - React内容与文档SDK](https://www.mdxts.dev/)："像是Contentlayer和Storybook的结合体"
 - 📦 [Astro 4.5 - 开发审计UI、视图过渡改进、多CDN支持、Shiki 1.0...](https://astro.build/blog/astro-450/)
-- 📦 [Remix开发工具4.0 - 仅支持Vite/ESM，新文档站点](https://github.com/Code-Forge-Net/Remix-Dev-Tools/releases/tag/v4.0.0)
-- 📦 [BlockNote 0.12 - 块状富文本编辑器 - 新网站与功能](https://www.blocknotejs.org/)
-- 📦 [next-cache-toolbar - 数据缓存条目识别工具栏](https://github.com/KajSzy/next-cache-toolbar/)
+- 📦 [Remix-Dev-Tools 4.0 - 现仅支持Vite/ESM，新文档站点](https://github.com/Code-Forge-Net/Remix-Dev-Tools/releases/tag/v4.0.0)
+- 📦 [BlockNote 0.12 - 块状富文本编辑器 - 新官网与功能](https://www.blocknotejs.org/)
+- 📦 [next-cache-toolbar - 识别数据缓存条目的工具栏](https://github.com/KajSzy/next-cache-toolbar/)
 - 🎥 [Theo - 新JS框架问世(TanStack Start)](https://www.youtube.com/watch?v=LMTJPKD0lQw)
-- 🎥 [Jack Herrington - Next.js应用路由的表单管理](https://www.pronextjs.dev/tutorials/forms-management-with-next-js-app-router)
-- 🎙️ [本月React动态 - 2024年2月 - React 19详情、苹果试图扼杀PWA](https://podcasters.spotify.com/pod/show/reactiflux/episodes/TMiR-2024-02-React-19-but-more-details--Apple-tries-to-kill-PWAs-e2gj9gs)
+- 🎥 [Jack Herrington - Next.js应用路由器的表单管理](https://www.pronextjs.dev/tutorials/forms-management-with-next-js-app-router)
+- 🎙️ [本月React动态 - 2024年2月 - React 19详情更新、苹果试图扼杀PWA](https://podcasters.spotify.com/pod/show/reactiflux/episodes/TMiR-2024-02-React-19-but-more-details--Apple-tries-to-kill-PWAs-e2gj9gs)
 
 <SubscribeFormEmbed placement="middle" />
 
@@ -98,76 +98,76 @@ MUI团队正在开发Pigment——他们自己的零运行时CSS-in-JS解决方�
 
 ## 💸 赞助商 {#sponsor2}
 
-[![Refine - 开源版Retool替代方案](/emails/issues/177/refine.jpg)](https://github.com/refinedev/refine)
+[![Refine - 开源的Retool替代方案](/emails/issues/177/refine.jpg)](https://github.com/refinedev/refine)
 
-**[Refine - 开源版Retool替代方案](https://github.com/refinedev/refine)**
+**[Refine - 开源的Retool替代方案](https://github.com/refinedev/refine)**
 
-专为CRUD密集型应用设计的低代码与传统开发完美结合方案。
+专为CRUD密集型应用打造，完美平衡低代码与传统开发模式。
 
-作为面向企业级应用的开源React元框架，[Refine](https://github.com/refinedev/refine) 提供无头(headless)解决方案，非常适合开发管理后台、仪表盘和内部工具。
+作为面向企业级应用的开源React元框架，[Refine](https://github.com/refinedev/refine)提供无头解决方案，特别适合开发管理后台、仪表盘和内部工具。
 
-低代码工具虽初期见效快，但在处理复杂场景时往往因扩展性不足、定制选项有限和供应商锁定风险而捉襟见肘。
+低代码工具虽初期便捷，但在处理复杂场景时往往因扩展性不足、定制受限和供应商锁定问题而捉襟见肘。
 
-Refine能让团队在保持灵活性的同时快速构建生产级应用。
+Refine让团队既能快速构建生产级应用，又能保持技术灵活性。
 
 ---
 
 ## 📱 React-Native {#react-native}
 
-本节内容现由[Benedikt](https://twitter.com/bndkt)联合撰写。欢迎通过邮件或[Twitter](https://twitter.com/bndkt)向我们反馈意见！
+本节现由[Benedikt](https://twitter.com/bndkt)联合主笔，欢迎通过邮件或[Twitter](https://twitter.com/bndkt)向我们反馈意见！
 
 [![William Candillon - 腾飞时刻 - React Native Skia 1.0](/emails/issues/177/skia.jpg)](https://www.youtube.com/watch?v=eUbj_NxcgKg)
 
 🎥 [**William Candillon - 腾飞时刻 - React Native Skia 1.0**](https://www.youtube.com/watch?v=eUbj_NxcgKg)
 
-React Native Skia迎来激动人心的重大版本发布，并配有鼓舞人心的发布视频！该库最初由William Candillon和Christian Falch于2021年发布，长期得到Shopify的大力支持。如今1.0版本终于面世，满载改进与新特性：得益于全新的Paragraph API，Skia现在能渲染富文本布局，实现系统字体与自定义字体的混合排版。动画钩子(Animations Hooks)让开发者能更轻松地基于现有RN Reanimated和Gesture Handler集成构建高性能动画。个人特别关注的是：RN Skia现在通过canvaskit-js包支持Web平台！
+React Native Skia迎来激动人心的1.0正式版，并发布了极具感染力的发布视频！该库由William Candillon和Christian Falch于2021年首次发布，长期获得Shopify的大力支持。本次重大更新包含多项改进：全新Paragraph API支持混合系统字体与自定义字体的富文本排版；动画钩子函数让基于RN Reanimated和Gesture Handler的性能动画开发更简单；个人最关注的是——通过canvaskit-js包实现了Web平台支持！
 
 ---
 
-- 💸 [React Universe 大会 - 首批演讲嘉宾揭晓，您也有机会成为其中一员？征稿通道开放至3月22日，立即申请！](https://www.reactuniverseconf.com/?utm_campaign=React_Universe_Conf&utm_source=email&utm_content=This_Week_in_React)
-- 🐦 [React Navigation 7 将支持底部标签栏动画](https://x.com/satya164/status/1766404046036844876?s=20)：过去几周内alpha版本发布频率显著提升，正式版即将来临？
-- 📖 [React Native 文档 - 关于新架构](https://reactnative.dev/docs/the-new-architecture/landing-page)："新架构"已成为高频词，它将在RN 0.75中成为默认选项。该文档章节详细阐释了这一架构的具体内涵。
-- 📖 [新文档 - 拖放内容视图](https://expo-drag-drop-content-view.vercel.app/)：上周简报中提到的这个库现已配备全新文档。
-- 📜 [一次学习，随处破解](https://www.callstack.com/blog/learn-once-hack-everywhere)：揭秘移动应用逆向工程的精彩视角。
+- 💸 [React Universe 大会 - 首批演讲嘉宾揭晓，您也有机会成为其中一员？我们的CFP开放至3月22日，立即申请！](https://www.reactuniverseconf.com/?utm_campaign=React_Universe_Conf&utm_source=email&utm_content=This_Week_in_React)
+- 🐦 [React Navigation 7 将支持底部标签栏动画](https://x.com/satya164/status/1766404046036844876?s=20): 最近几周alpha版本发布频率显著加快，正式版即将来临？
+- 📖 [React Native 文档 - 关于新架构](https://reactnative.dev/docs/the-new-architecture/landing-page): "新架构"已成为高频词，它将成为RN 0.75的默认架构。这份新文档详解了该架构的具体内容。
+- 📖 [新文档 - 拖放内容视图](https://expo-drag-drop-content-view.vercel.app/): 上周简报中提到的这个库现已配备全新文档。
+- 📜 [一次学习，随处破解](https://www.callstack.com/blog/learn-once-hack-everywhere): 揭秘移动应用逆向工程的精彩视角。
 - 📜 [React Native 的隐藏瑰宝](https://www.reactiive.io/articles/the-hidden-gems-of-react-native)
 - 📜 [Expo - 支持FCM HTTP v1 API](https://expo.dev/blog/expo-adds-support-for-fcm-http-v1-api)
 - 📜 [Expo - 通过Orbit发布EAS更新](https://expo.dev/blog/launching-eas-updates-with-orbit)
 - 📜 [Morrow指南：Expo Router详解](https://www.themorrow.digital/blog/what-is-the-expo-router)
-- 📜 [Web3场景下React Native优化迷你指南](https://www.callstack.com/blog/the-mini-guide-to-react-native-optimization-for-web3)
-- 📜 [为何你的React Native应用不需要Flipper…以及如何在没有它的情况下进行开发](https://shift.infinite.red/why-you-dont-need-flipper-in-your-react-native-app-and-how-to-get-by-without-it-3af461955109)
-- 📜 [运用DMAIC与Reassure持续提升应用性能](https://www.callstack.com/blog/consistently-improve-app-performance-with-dmaic-and-reassure)
-- 📜 [RevenueCat 2024年度订阅应用趋势报告](https://www.revenuecat.com/state-of-subscription-apps-2024/)
+- 📜 [Web3应用React Native优化迷你指南](https://www.callstack.com/blog/the-mini-guide-to-react-native-optimization-for-web3)
+- 📜 [为什么你的React Native应用不需要Flipper...以及如何在没有它的情况下进行调试](https://shift.infinite.red/why-you-dont-need-flipper-in-your-react-native-app-and-how-to-get-by-without-it-3af461955109)
+- 📜 [运用DMAIC方法和Reassure持续提升应用性能](https://www.callstack.com/blog/consistently-improve-app-performance-with-dmaic-and-reassure)
+- 📜 [RevenueCat 2024年度订阅应用报告](https://www.revenuecat.com/state-of-subscription-apps-2024/)
 - 📜 [React性能微调：来自电视应用的隐秘技巧](https://www.bam.tech/article/fine-tuning-react-performance-a-subtle-insider-tip-from-a-tv-app)
 - 📦 [react-native 0.74.0-rc.3](https://github.com/facebook/react-native/releases/tag/v0.74.0-rc.3)
 - 📦 [react-native 0.73.6](https://github.com/facebook/react-native/releases/tag/v0.73.6)
-- 📦 [faster-image](https://github.com/candlefinance/faster-image)：全新图像渲染库，iOS端封装Nuke，Android端集成Coil。
-- 📦 [OP-SQLite 3.0 - 新增（可选）加密功能](https://ospfranco.notion.site/Encryption-58aa9d33736f43e9a53a4f6f9116c36a)
+- 📦 [faster-image](https://github.com/candlefinance/faster-image): 快速图像渲染新库，iOS端封装Nuke，Android端封装Coil。
+- 📦 [OP-SQLite 3.0 - 新增可选加密功能](https://ospfranco.notion.site/Encryption-58aa9d33736f43e9a53a4f6f9116c36a)
 - 📦 [vision-camera-resize-plugin 2.1.0 - 新增"镜像"和"旋转"功能](https://github.com/mrousavy/vision-camera-resize-plugin/releases/tag/v2.1.0)
-- 📦 [react-native-graph 1.1.0现采用REA值实现UI线程更新](https://github.com/margelo/react-native-graph/releases/tag/v1.1.0)
-- 📦 [react-native-mmkv 2.12.2包含多项修复](https://github.com/mrousavy/react-native-mmkv/releases/tag/v2.12.2)
-- 📦 [Obytes启动模板 - 现支持Expo 50、Expo Router和NativeWind 4的RN应用模板](https://github.com/obytes/react-native-template-obytes/releases/tag/v5.0.0)
-- 🎥 [Simon Grimm - 基于角色的React Native导航方案（Expo Router实现）](https://www.youtube.com/watch?v=cMi6Vwo6C2M)
-- 🎙️ [火箭飞船第33期 - NativeWind与React Native样式方案（对话Mark Lawlor）](https://podcast.galaxies.dev/episodes/033-nativewind-react-native-styling-with-mark-lawlor)
+- 📦 [react-native-graph 1.1.0 现使用REA值在UI线程更新](https://github.com/margelo/react-native-graph/releases/tag/v1.1.0)
+- 📦 [react-native-mmkv 2.12.2 包含多项修复](https://github.com/mrousavy/react-native-mmkv/releases/tag/v2.12.2)
+- 📦 [Obytes启动模板 - 现支持Expo 50、Expo Router和NativeWind 4的RN启动应用](https://github.com/obytes/react-native-template-obytes/releases/tag/v5.0.0)
+- 🎥 [Simon Grimm - 在React Native中使用Expo Router实现基于角色的导航](https://www.youtube.com/watch?v=cMi6Vwo6C2M)
+- 🎙️ [火箭飞船第33期 - NativeWind与React Native样式设计（嘉宾Mark Lawlor）](https://podcast.galaxies.dev/episodes/033-nativewind-react-native-styling-with-mark-lawlor)
 
 ---
 
 ## 🔀 其他 {#other}
 
 - 📜 [Shiki v1.0 的演进之路](https://nuxt.com/blog/shiki-v1)
-- 📜 [前端价值被悄然普遍贬低的现状](https://joshcollinsworth.com/blog/devaluing-frontend)
+- 📜 [前端价值的悄然普遍贬损](https://joshcollinsworth.com/blog/devaluing-frontend)
 - 📜 [利用共享字典提升压缩效率](https://developer.chrome.com/blog/shared-dictionary-compression)
 - 📜 [交互到下次绘制(INP)正式成为核心网页指标](https://web.dev/blog/inp-cwv-launch)
-- 📦 [TypeScript 5.4 - NoInfer类型、groupBy方法、闭包内类型收窄优化](https://devblogs.microsoft.com/typescript/announcing-typescript-5-4/)
-- 📦 [Biome v1.6 - 初步支持Astro/Svelte/Vue文件](https://biomejs.dev/blog/biome-v1-6/)
+- 📦 [TypeScript 5.4 - NoInfer类型、groupBy方法、闭包内改进的类型收窄](https://devblogs.microsoft.com/typescript/announcing-typescript-5-4/)
+- 📦 [Biome v1.6 - 新增对Astro/Svelte/Vue文件的实验性支持](https://biomejs.dev/blog/biome-v1-6/)
 - 📦 [Rolldown - 基于Rust的JavaScript高速打包工具，兼容Rollup API](https://rolldown.rs/)
-- 📦 [Node.js 21.7 - 新增文本样式处理API](https://nodejs.org/en/blog/release/v21.7.0)
-- 📦 [Tailwind CSS v4 alpha版 - Oxide引擎、CSS优先配置](https://tailwindcss.com/blog/tailwindcss-v4-alpha)
-- 📦 [Speedometer 3.0 - 浏览器性能测试新标杆](https://webkit.org/blog/15131/speedometer-3-0-the-best-way-yet-to-measure-browser-performance/)
+- 📦 [Node.js 21.7 - 新增文本样式化API](https://nodejs.org/en/blog/release/v21.7.0)
+- 📦 [Tailwind CSS v4 alpha版 - 全新Oxide引擎，CSS优先配置](https://tailwindcss.com/blog/tailwindcss-v4-alpha)
+- 📦 [Speedometer 3.0 - 浏览器性能测试的终极方案](https://webkit.org/blog/15131/speedometer-3-0-the-best-way-yet-to-measure-browser-performance/)
 
 ---
 
 ## 🤭 轻松一刻 {#fun}
 
-[![梗图](/emails/issues/177/meme.jpg)](https://twitter.com/jacobmparis/status/1759264032349888799)
+[![alt](/emails/issues/177/meme.jpg)](https://twitter.com/jacobmparis/status/1759264032349888799)
 
 下期见！👋

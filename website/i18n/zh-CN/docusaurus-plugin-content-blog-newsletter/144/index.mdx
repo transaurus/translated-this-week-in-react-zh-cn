@@ -7,19 +7,19 @@ date: 05-02-2023
 
 大家好！
 
-本周是Vercel的"发布周"，预计将公布关于React、Next.js及其云服务的重大消息。我们已经可以提前窥见Next.js即将推出的新功能！
+本周是Vercel的"发布周"，预计将宣布有关React、Next.js及其云服务的重要消息。我们已经可以提前窥见Next.js即将推出的新功能！
 
-本周有不少优质文章值得阅读，其中包含几篇交互式教程。我个人特别喜欢深入了解Million.js及其"块级虚拟DOM"概念的内容。
+本周有不少值得阅读的优秀文章，其中包括几篇交互式教程。我尤其喜欢深入了解Million.js及其"区块虚拟DOM"概念的内容。
 
-在React-Native方面，macOS平台随着v0.71版本的发布正迎头赶上，而Expo让本地原生模块的使用变得前所未有的简单。
+在React-Native方面，macOS平台随着v0.71版本的发布正迎头赶上，而Expo使得使用本地原生模块比以往更加便捷。
 
-接下来几周将有多场React技术大会，届时应该会有重磅消息发布！顺便说一句，你们可能会在某个会场看到我们新闻稿的宣传单页！期待大家能推荐同事订阅这份周刊。
+未来几周将有多场React技术会议，预计会有重大公告！顺便说一句，你们可能会在某个会场看到我们新闻简讯的宣传单页——还请帮忙推荐同事订阅我们的简讯。
 
-说到技术大会，[React Summit](https://reactsummit.com/?utm_source=email&utm_medium=thisweekinreact)（6月2-6日阿姆斯特丹）是全球规模最大的React会议。他们为我们提供了5%的折扣优惠（优惠码"ThisWeekInReact5"）。
+说到技术会议，[React Summit](https://reactsummit.com/?utm_source=email&utm_medium=thisweekinreact)（6月2-6日·阿姆斯特丹）是全球规模最大的React会议。主办方为我们提供了5%的折扣（优惠码"ThisWeekInReact5"）。
 
 <!-- truncate -->
 
-**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化版式 🎨**
+**💡 [在Twitter查看本期简讯](https://slo.im/thread) - 可视化排版 🎨**
 
 ---
 
@@ -35,11 +35,11 @@ import Support from "../_support.mdx";
 
 **[Start UI [web] - 开箱即用的Web应用UI启动器](https://web.start-ui.com?utm_source=newsletter&utm_term=this-week-in-react)**
 
-我们的**免费开源Web应用UI启动器**能快速搭建新项目，包含**最佳实践与生产级工具链**，助您跳过繁琐的初始化配置。
+我们免费开源的Web应用UI启动器能快速搭建新项目，内置**最佳实践与生产级工具**，助您跳过繁琐的初始化配置阶段。
 
-内置功能包括：🔐 认证系统、📱响应式布局、🧑‍💻 用户管理、🇫🇷 国际化与右向左支持、🌚 暗黑模式、🎛 高级组件库。欢迎体验[示例应用](https://demo.start-ui.com)。
+集成功能包括：🔐 认证系统、📱响应式布局、🧑‍💻 用户管理、🇫🇷 国际化与右向文字支持、🌚 暗色模式、🎛️ 高级组件库。可体验[示例应用](https://demo.start-ui.com)。
 
-完美支持**TypeScript**、**NextJS**，集成Chakra UI、TanStack Query、Storybook等现代技术栈。
+基于**TypeScript**、**NextJS**，整合Chakra UI、TanStack Query、Storybook等工具链。
 
 [🚀 GitHub上的Start UI [web]](https://web.start-ui.com)
 
@@ -51,53 +51,53 @@ import Support from "../_support.mdx";
 
 **[Vercel存储解决方案正式发布](https://vercel.com/blog/vercel-storage)**
 
-Vercel最新推出面向边缘计算的存储服务，特别适配React服务端组件和Next.js应用场景：
+Vercel最新推出面向边缘计算的存储服务，特别适配React服务端组件与Next.js：
 
-- Vercel KV：基于Upstash的键值存储（Redis兼容）
+- Vercel KV：基于Upstash的键值存储（Redis）
 - Vercel Postgres：基于Neon的PostgreSQL数据库
 - Vercel Blob：基于Cloudflare R2的文件存储
 
-当前正值[Vercel发布周](https://vercel.com/ship)，未来几天将有更多消息公布。配图暗示明日可能发布Next.js新版本，引入**Next.js服务端操作**功能。这也体现了Vercel希望以类似Remix的方式提升React应用的[渐进增强](https://twitter.com/sebastienlorber/status/1653701538336915456)能力——示例表单可在无JavaScript或水合状态下正常工作。
+当前正值[Vercel Ship发布周](https://vercel.com/ship)，更多消息将在近日公布。配图暗示明日Next.js将发布支持**服务端操作(Server Actions)**的新版本，此举旨在通过类似Remix的方式提升React应用的[渐进增强](https://twitter.com/sebastienlorber/status/1653701538336915456)能力——该表单示例可在无JavaScript或水合状态下正常运行。
 
-注：该示例使用模板字面量，可避免SQL注入漏洞。
+注：此示例使用模板字面量，不存在SQL注入漏洞。
 
 ---
 
-[![Million.js - 虚拟DOM：重返块级时代](/emails/issues/144/million.jpg)](https://millionjs.org/blog/virtual-dom)
+[![Million.js - 区块虚拟DOM回归](/emails/issues/144/million.jpg)](https://millionjs.org/blog/virtual-dom)
 
-**[Million.js - 虚拟DOM：重返块级时代](https://millionjs.org/blog/virtual-dom)**
+**[Million.js - 区块虚拟DOM回归](https://millionjs.org/blog/virtual-dom)**
 
-互动文章介绍Million.js及其"区块虚拟DOM"概念。其差异比对方法独树一帜：采用基于静态分析、编译和脏检查的非递归方案，与Svelte的思路颇为相似。
+互动文章介绍Million.js及其"区块虚拟DOM"概念。其差异比对(diffing)机制独树一帜：采用基于静态分析、编译和脏检查的非递归方式，与Svelte的思路颇为相似。
 
 Million.js并非替代React，而是与之集成以提升性能。建议仅在特定场景使用：包含大量静态内容且UI树结构稳定的情况。
 
 ---
 
-[![React渲染交互式指南](/emails/issues/144/rendering.jpg)](https://ui.dev/why-react-renders)
+[![React渲染机制交互式指南](/emails/issues/144/rendering.jpg)](https://ui.dev/why-react-renders)
 
-**[React渲染交互式指南](https://ui.dev/why-react-renders)**
+**[React渲染机制交互式指南](https://ui.dev/why-react-renders)**
 
-详解React组件重渲染时机的互动教程。适合初学者的优质资源，涵盖setState(fn)、批处理、memo、StrictMode等概念的深度解析。
+通过交互形式解析React组件重渲染时机的优质教程。适合初学者学习setState(fn)、批处理、memo、StrictMode等核心概念。
 
 ---
 
-- 🐦 [Dan Abramov - "若认为Qwik模式更优，我们早该直接实现它了"](https://twitter.com/dan_abramov/status/1651055386101796864)
-- 🐦 [CSS作用域 - React开发者值得关注的CSS新特性](https://twitter.com/sebastienlorber/status/1653432768544534531)
-- 📜 [使用React与Framer Motion制作动画提示框](https://sinja.io/blog/animated-tooltip-with-react-framer-motion)：结合Floating UI与Framer Motion布局动画的交互式教程
-- 📜 [构建类型安全的Tailwind替代方案：vanilla-extract实践](https://www.highlight.io/blog/typesafe-tailwind)：深度解析Vanilla-Extract/Sprinkles这类类型安全的CSS方案
-- 📜 [URL是最佳全局状态管理工具](https://www.jacobparis.com/guides/url-as-state-management)：倡导使用查询字符串的React实践方案
+- 🐦 [Dan Abramov - "若认为Qwik模型更优，我们早该直接实现它了"](https://twitter.com/dan_abramov/status/1651055386101796864)
+- 🐦 [即将到来的CSS作用域功能对React开发者很有价值](https://twitter.com/sebastienlorber/status/1653432768544534531)
+- 📜 [使用React和Framer Motion制作动画提示框](https://sinja.io/blog/animated-tooltip-with-react-framer-motion)：结合Floating UI与Framer Motion布局动画的交互式教程
+- 📜 [用vanilla-extract构建类型安全的Tailwind方案](https://www.highlight.io/blog/typesafe-tailwind)：深度解析Vanilla-Extract/Sprinkles这类类型安全的替代方案
+- 📜 [URL是最佳的全局状态管理工具](https://www.jacobparis.com/guides/url-as-state-management)：倡导使用查询字符串的React实践
 - 📜 [通过Server Timing定位Remix应用性能瓶颈](https://www.jacobparis.com/guides/remix-server-timing)
-- 📜 [使用React Three Fiber与GSAP构建WebGL轮播图](https://tympanus.net/codrops/2023/04/27/building-a-webgl-carousel-with-react-three-fiber-and-gsap/)
-- 📜 [服务端组件与SSR深度对比](https://www.webscope.io/blog/server-components-vs-ssr)
+- 📜 [使用React Three Fiber和GSAP构建WebGL轮播图](https://tympanus.net/codrops/2023/04/27/building-a-webgl-carousel-with-react-three-fiber-and-gsap/)
+- 📜 [服务端组件 vs 服务端渲染](https://www.webscope.io/blog/server-components-vs-ssr)
 - 📜 [2023年最佳React学习YouTube频道](https://www.code-insights.dev/posts/best-youtube-channels-to-learn-react-in-2023)
-- 📦 [Qwik v1.0正式发布](https://www.builder.io/blog/qwik-v1)：以"可恢复性"挑战React的框架，支持React组件集成
-- 📦 [Lingui 4.0国际化方案](https://lingui.dev/blog/2023/04/26/announcing-lingui-4.0)：支持ICU语法、消息提取的React-Intl替代方案
-- 📦 [Remix 1.16稳定版](https://github.com/remix-run/remix/releases/tag/remix%401.16.0)：正式支持CSS Modules、Vanilla Extract等现代CSS方案
-- 📦 [React-Router 6.11更新](https://twitter.com/remix_run/status/1652000618620555264)
+- 📦 [Qwik v1.0正式发布](https://www.builder.io/blog/qwik-v1)：以可恢复性(resumability)挑战React的框架，支持集成React组件
+- 📦 [Lingui 4.0国际化方案](https://lingui.dev/blog/2023/04/26/announcing-lingui-4.0)：支持ICU语法、消息提取、框架无关的React方案
+- 📦 [Remix 1.16稳定版](https://github.com/remix-run/remix/releases/tag/remix%401.16.0)：支持CSS Modules、Vanilla Extract等现代CSS方案
+- 📦 [React-Router 6.11发布](https://twitter.com/remix_run/status/1652000618620555264)
 - 🎥 [45%开发者未通过Dan的服务端组件测试](https://www.youtube.com/watch?v=AGAax7WzStc)
 - 🎥 [Reactathon 2023首日直播回放](https://www.youtube.com/watch?v=gJaN9CnFqrI)
 - 🎙️ [React核心团队探讨React Forget与未来规划](https://twitter.com/PodRocketpod/status/1653429138387243010)
-- 👥 [React Summit大会](https://reactsummit.com/?utm_source=email&utm_medium=thisweekinreact)（6月2-6日·阿姆斯特丹）专属5%折扣码"ThisWeekInReact5"
+- 👥 [React Summit大会](https://reactsummit.com/?utm_source=email&utm_medium=thisweekinreact)（6月2-6日·阿姆斯特丹）提供5%折扣码"ThisWeekInReact5"
 
 <SubscribeFormEmbed />
 
@@ -107,62 +107,62 @@ Million.js并非替代React，而是与之集成以提升性能。建议仅在�
 
 [![Nylas](/emails/issues/144/nylas.jpg)](https://www.nylas.com/?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-DSU&utm_content&utm_term)
 
-**[Nylas：为您的产品提供邮件、日历和联系人功能](https://www.nylas.com/?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-DSU&utm_content&utm_term)**
+**[Nylas：为您的产品提供电子邮件、日历和联系人功能](https://www.nylas.com/?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-DSU&utm_content&utm_term)**
 
-[Nylas邮件与日历API](https://www.nylas.com/?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-DSU&utm_content&utm_term)让开发者通过单一集成即可连接全球主流服务提供商，构建通信功能。
+[Nylas电子邮件和日历API](https://www.nylas.com/?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-DSU&utm_content&utm_term)允许开发者通过单一集成，构建连接全球所有主流服务提供商的通信功能。
 
-Nylas简化了用例选择和服务器端SDK语言配置流程，提供[包含**开箱即用React前端**的逐步教程](https://www.nylas.com/blog/how-to-build-email-templates-with-react/?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-DSU&utm_content=&utm_term=)及可下载的代码库。无需再为多个供应商维护独立集成，[立即启动邮件和日历功能开发](https://www.nylas.com/?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-DSU&utm_content&utm_term)，享受99.99%运行时间保障且无维护停机。
+Nylas简化了用例选择和服务器端SDK语言的流程。您将获得[包含**即用型React前端**的逐步教程](https://www.nylas.com/blog/how-to-build-email-templates-with-react/?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-DSU&utm_content=&utm_term=)以及可下载的代码库（含API凭证）。无需再为多个供应商单独构建和维护集成，[立即启动电子邮件和日历功能](https://www.nylas.com/?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-DSU&utm_content&utm_term)，享受99.99%的运行时间保证且无维护停机。
 
-[免费开始使用Nylas构建！](https://dashboard.nylas.com/register?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-DSU&utm_content=&utm_term=)
+[立即免费使用Nylas开始构建！](https://dashboard.nylas.com/register?utm_source=TWIR&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P-DSU&utm_content=&utm_term=)
 
 ---
 
-## 📱 React-Native动态 {#react-native}
+## 📱 React-Native {#react-native}
 
 [![React Native macOS 0.71发布](/emails/issues/144/rnmacos.jpg)](https://devblogs.microsoft.com/react-native/2023-04-27-announcing-macos-71/)
 
-**[React Native macOS 0.71正式发布](https://devblogs.microsoft.com/react-native/2023-04-27-announcing-macos-71/)**
+**[React Native macOS 0.71发布](https://devblogs.microsoft.com/react-native/2023-04-27-announcing-macos-71/)**
 
-微软跳过了v0.69和v0.70版本直接发布v0.71，目标是与其它平台保持同步：v0.72版本已在开发中。这种平台版本对齐极具价值——根据反馈，在单一monorepo中混合使用不同React-Native版本相当困难。
+微软跳过了v0.69和v0.70版本，直接发布v0.71。现在的目标是与其他平台保持同步：v0.72的开发正在进行中。这种平台版本对齐非常实用：根据反馈，在单一monorepo中混合使用不同React-Native版本并不容易。
 
-新版v0.71带来了Fabric的实验性支持，以及近期其它平台已发布的所有新特性：TypeScript、Flexbox等。微软与Meta持续合作，该平台在两家公司内部的应用正在增长，例如Meta已在Messenger Desktop中使用React-Native macOS。
+新发布的v0.71带来了对Fabric的实验性支持，以及最近在其他平台发布的所有新功能：TypeScript、Flexbox...微软和Meta展开合作，该平台在两家公司内部的使用率正在增长：例如Meta在Messenger Desktop中使用了React-Native macOS。
 
 ---
 
-- 🧵 [基于文件的Expo路由演示](https://twitter.com/Baconbrix/status/1652404780881289216): Evan Bacon提供了一个支持移动端和网页端的完整Expo路由演示。
-- 🐦 [`npx create-expo-module --local`](https://twitter.com/aleqsio/status/1651268836593655808): 新的Expo功能，无需monorepo即可轻松创建本地原生模块。
-- 🐦 [`npx create-expo`](https://twitter.com/Baconbrix/status/1652372955450441729): 创建新Expo项目的命令。
-- 🐦 [Bluesky应用（iOS+Android+网页）由1名开发者使用Expo构建](https://twitter.com/GergelyOrosz/status/1652679796818694146): Gergely Orosz的声明在Twitter上引发热议。
-- 📦 [Ignite v8.7.0](https://twitter.com/ir_ignite/status/1651064452781953024): 用Maestro替换了e2e Detox测试。
+- 🧵 [基于文件的Expo路由演示](https://twitter.com/Baconbrix/status/1652404780881289216)：Evan Bacon提供了完整的Expo路由演示，支持移动端和网页端。
+- 🐦 [`npx create-expo-module --local`](https://twitter.com/aleqsio/status/1651268836593655808)：Expo新功能，轻松创建本地原生模块，无需monorepo。
+- 🐦 [`npx create-expo`](https://twitter.com/Baconbrix/status/1652372955450441729)：创建新Expo项目的命令。
+- 🐦 [Bluesky应用（iOS+Android+网页）由1名开发者使用Expo构建](https://twitter.com/GergelyOrosz/status/1652679796818694146)：Gergely Orosz的声明在Twitter上引发热议。
+- 📦 [Ignite v8.7.0](https://twitter.com/ir_ignite/status/1651064452781953024)：用Maestro替换了e2e Detox测试。
 - 📦 [Tamagui 1.17 - selectionStyles](https://twitter.com/tamagui_js/status/1651432667412566016)
 - 📦 [react-native-iconify](https://github.com/oktaysenkan/react-native-iconify)
 - 📦 [react-native-dnd](https://github.com/mgcrea/react-native-dnd)
 - 📦 [react-native-use-list](https://github.com/dozsolti/react-native-use-list)
-- 🎥 [React Native在Facebook的诞生历程](https://www.youtube.com/watch?v=On9ghjix77c): Christopher Chedeau回顾了React-Native的历史，这个项目几乎被他从可能的消亡中拯救出来。
-- 🎥 [使用Skia实现React Native转场动画](https://www.youtube.com/watch?v=PzKWpwmmRqM): William Candillon展示了如何基于着色器和手势实现图像转场。可能需要适配现有的glsl着色器。
-- 🎥 [这是最糟糕的音量控制吗？React Native与Reanimated](https://www.youtube.com/watch?v=FqdcRBqVS78)
-- 🎙️ [RNR 265 - Chain React回归!!](https://reactnativeradio.com/episodes/rnr-265-chain-react-is-back)
-- 👥 [App.js](https://appjs.co/) (克拉科夫，5月10-12日) 提供[研讨会8折优惠](https://ti.to/appjs/2023/discount/ThisWeekinReact20) (优惠码"ThisWeekinReact20")。
-- 👥 [Chain React](https://chainreactconf.com/) (波特兰，5月18-19日) 提供门票9折优惠 (优惠码"thisweekinreact")。
-- 👥 [React-Native-Connection](https://reactnativeconnection.io/) (巴黎，6月1日) 提供门票9折优惠 (优惠码"REACTHEBDO")。
+- 🎥 [React Native在Facebook的诞生历程](https://www.youtube.com/watch?v=On9ghjix77c)：Christopher Chedeau回顾React-Native的历史，这个项目几乎被他从可能的消亡中拯救出来。
+- 🎥 [使用Skia实现React Native过渡效果](https://www.youtube.com/watch?v=PzKWpwmmRqM)：William Candillon展示如何基于着色器和手势实现图像过渡。可能需要调整现有的glsl着色器。
+- 🎥 [这是最糟糕的音量控制吗？React Native和Reanimated](https://www.youtube.com/watch?v=FqdcRBqVS78)
+- 🎙️ [RNR 265 - Chain React回归！！](https://reactnativeradio.com/episodes/rnr-265-chain-react-is-back)
+- 👥 [App.js](https://appjs.co/)（克拉科夫，5月10-12日）为我们提供[研讨会20%折扣](https://ti.to/appjs/2023/discount/ThisWeekinReact20)（优惠码"ThisWeekinReact20"）。
+- 👥 [Chain React](https://chainreactconf.com/)（波特兰，5月18-19日）为我们提供门票10%折扣（优惠码"thisweekinreact"）。
+- 👥 [React-Native-Connection](https://reactnativeconnection.io/)（巴黎，6月1日）为我们提供门票10%折扣（优惠码"REACTHEBDO"）。
 
 ---
 
-## 🧑‍💻 招聘 {#jobs}
+## 🧑‍💻 职位 {#jobs}
 
-🧑‍💼 [**Passionfroot - 高级全栈工程师(Remix) - €160k+，柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)
+🧑‍💼 [**Passionfroot - 高级全栈工程师（Remix）- €160k+，柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)
 
-Passionfroot的使命是通过YouTube、播客、社交媒体和新闻通讯赋能未来的独立企业。加入我们，共同打造一个帮助全球创作者建立可扩展、可持续业务的工具。
+Passionfroot的使命是通过YouTube、播客、社交媒体和新闻通讯赋能未来的独立企业。加入我们，共同打造一个工具，帮助全球创作者建立可扩展、可持续的业务。
 
-🧑‍💼 [**Callstack - 高级React Native开发工程师 - 完全远程，B2B月薪净额21-32k波兰兹罗提**](https://www.callstack.com/senior-react-native-developer)
+🧑‍💼 [**Callstack - 高级React Native开发者 - 完全远程，B2B月薪净额21-32k PLN**](https://www.callstack.com/senior-react-native-developer)
 
-你想参与世界顶级应用开发吗？你愿意共同塑造React Native技术吗？加入Callstack这个React & React Native领导者团队。查看官网获取更多详情。期待你的申请——向我们展示你的实力！
+你想为世界上最常用的应用工作吗？你想共同创造React Native技术吗？加入Callstack的React & React Native领导者团队。查看我们的网站了解更多详情。我们期待看到你的申请——展示你的实力！
 
 🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
 
-我们开放多个React Native开发岗位！年薪约16万美元外加10%奖金。需具备RN生产环境经验且位于美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解更多，别忘了提及This Week in React。
+我们有几个React Native开发者的职位空缺！薪资约16万美元外加10%奖金。必须有RN生产经验且位于美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解更多，别忘了提及This Week in React。
 
-💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
+💡 [如何发布职位？](https://thisweekinreact.com/sponsor)
 
 ---
 
@@ -172,11 +172,11 @@ Passionfroot的使命是通过YouTube、播客、社交媒体和新闻通讯赋�
 - [Deno KV](https://deno.com/blog/kv)
 - [优先选择TypeScript类型而非接口](https://www.lloydatkinson.net/posts/2023/favour-typescript-types-over-interfaces/)
 - [避免阻塞事件循环的实用指南](https://www.bbss.dev/posts/eventloop/)
-- [TailwindCSS vs. UnoCSS](https://dev.to/mapleleaf/tailwindcss-vs-unocss-2a53)
+- [TailwindCSS与UnoCSS对比](https://dev.to/mapleleaf/tailwindcss-vs-unocss-2a53)
 - [ESLint、Prettier与TypeScript协同配置指南](https://blog.joshuakgoldberg.com/configuring-eslint-prettier-and-typescript-together/)
 - [JavaScript私有类字段的潜在危害](https://lea.verou.me/2023/04/private-fields-considered-harmful/)
-- [StackBlitz - WebContainers现已支持Safari/iOS/iPadOS](https://blog.stackblitz.com/posts/webcontainers-are-now-supported-on-safari/)
-- [使用Map/WeakMap处理DOM节点的优势解析](https://www.macarthur.me/posts/maps-for-dom-nodes)
+- [StackBlitz宣布WebContainers现已支持Safari/iOS/iPadOS](https://blog.stackblitz.com/posts/webcontainers-are-now-supported-on-safari/)
+- [为何推荐使用Map/WeakMap处理DOM节点](https://www.macarthur.me/posts/maps-for-dom-nodes)
 
 ---
 

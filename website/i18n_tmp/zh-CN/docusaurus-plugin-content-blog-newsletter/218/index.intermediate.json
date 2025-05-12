@@ -1,353 +1,469 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/218/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/218/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /218\ntitle: \"This Week In React #218: React-Scan, Server Functions, Portals, Forms, Storybook, React Aria, Unpic, React Native 0.77, Reanimated, Expo, EAS, Legend-List, Shadowlist, Document Picker, BottomTabs, Swift, Bun, Rspack, Vitest, Biome, ESLint...\"\nauthors: [slorber]\ndate: 01-22-2025\n---",
-      "sourceMdx": "---\nslug: /218\ntitle: \"This Week In React #218: React-Scan, Server Functions, Portals, Forms, Storybook, React Aria, Unpic, React Native 0.77, Reanimated, Expo, EAS, Legend-List, Shadowlist, Document Picker, BottomTabs, Swift, Bun, Rspack, Vitest, Biome, ESLint...\"\nauthors: [slorber]\ndate: 01-22-2025\n---"
+      "sourceMdx": "---\nslug: /218\ntitle: \"This Week In React #218: React-Scan, Server Functions, Portals, Forms, Storybook, React Aria, Unpic, React Native 0.77, Reanimated, Expo, EAS, Legend-List, Shadowlist, Document Picker, BottomTabs, Swift, Bun, Rspack, Vitest, Biome, ESLint...\"\nauthors: [slorber]\ndate: 01-22-2025\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "This is a crazy week, we have a lot of major releases coming from everywhere, in all the sections of this newsletter, that it's impossible to cover them all as they deserve.",
-      "sourceMdx": "This is a crazy week, we have a lot of major releases coming from everywhere, in all the sections of this newsletter, that it's impossible to cover them all as they deserve."
+      "sourceMdx": "This is a crazy week, we have a lot of major releases coming from everywhere, in all the sections of this newsletter, that it's impossible to cover them all as they deserve.",
+      "nodeType": "paragraph",
+      "translated_content": "本周堪称疯狂，各大技术栈都发布了重要更新，本期简报的每个板块都涌现了大量重磅发布，实在难以逐一详述。"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "I'm particularly excited about the React Native ecosystem improving CSS compatibility with v0.77 and Reanimated v4. This is awesome news for cross-platform development compatibility.",
-      "sourceMdx": "I'm particularly excited about the React Native ecosystem improving CSS compatibility with v0.77 and Reanimated v4. This is awesome news for cross-platform development compatibility."
+      "sourceMdx": "I'm particularly excited about the React Native ecosystem improving CSS compatibility with v0.77 and Reanimated v4. This is awesome news for cross-platform development compatibility.",
+      "nodeType": "paragraph",
+      "translated_content": "特别令人振奋的是React Native生态在v0.77版本中提升了CSS兼容性，以及Reanimated v4的发布。这对跨平台开发兼容性而言是重大利好。"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "The frontend ecosystem is on fire too 🔥 with awesome releases such as Bun 1.2, Rspack 1.2, Vitest 3.0.",
-      "sourceMdx": "The frontend ecosystem is on fire too 🔥 with awesome releases such as Bun 1.2, Rspack 1.2, Vitest 3.0."
+      "sourceMdx": "The frontend ecosystem is on fire too 🔥 with awesome releases such as Bun 1.2, Rspack 1.2, Vitest 3.0.",
+      "nodeType": "paragraph",
+      "translated_content": "前端生态同样如火如荼🔥，Bun 1.2、Rspack 1.2、Vitest 3.0等优秀版本相继发布。"
     },
     {
       "id": "86b54d44",
       "translatable": true,
       "content": "And, Tailwind v4 is expected to drop anytime soon too ! (just after I hit send of course 😅)",
-      "sourceMdx": "And, Tailwind v4 is expected to drop anytime soon too ! (just after I hit send of course 😅)"
+      "sourceMdx": "And, Tailwind v4 is expected to drop anytime soon too ! (just after I hit send of course 😅)",
+      "nodeType": "paragraph",
+      "translated_content": "另外，Tailwind v4也随时可能发布！（肯定就在我点击发送之后😅）"
     },
     {
       "id": "45c63027",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_45c63027"
     },
     {
       "id": "92f4ea84",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_92f4ea84"
     },
     {
       "id": "5dfba1c3",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_5dfba1c3"
     },
     {
       "id": "1856ef44",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "79b2d0b9",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "d9172fa4",
       "translatable": true,
       "content": "[![PropelAuth: Make Authentication Your Advantage](/emails/issues/218/propelauth.jpg)](https://www.propelauth.com/?utm_source=newsletter\\&utm_campaign=twinrjan222024)",
-      "sourceMdx": "[![PropelAuth: Make Authentication Your Advantage](/emails/issues/218/propelauth.jpg)](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)"
+      "sourceMdx": "[![PropelAuth: Make Authentication Your Advantage](/emails/issues/218/propelauth.jpg)](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)",
+      "nodeType": "paragraph",
+      "translated_content": "[![PropelAuth：让认证成为您的优势](/emails/issues/218/propelauth.jpg)](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)"
     },
     {
       "id": "26524352",
       "translatable": true,
       "content": "**[PropelAuth: Make Authentication Your Advantage](https://www.propelauth.com/?utm_source=newsletter\\&utm_campaign=twinrjan222024)**",
-      "sourceMdx": "**[PropelAuth: Make Authentication Your Advantage](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)**"
+      "sourceMdx": "**[PropelAuth: Make Authentication Your Advantage](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[PropelAuth：让认证成为您的优势](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)**"
     },
     {
       "id": "73ab96a3",
       "translatable": true,
       "content": "If your authentication isn't **helping you grow**, it's **holding you back**.",
-      "sourceMdx": "If your authentication isn't **helping you grow**, it's **holding you back**."
+      "sourceMdx": "If your authentication isn't **helping you grow**, it's **holding you back**.",
+      "nodeType": "paragraph",
+      "translated_content": "如果您的认证系统不能**助力业务增长**，那它就是在**拖后腿**。"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "With [PropelAuth](https://www.propelauth.com/?utm_source=newsletter\\&utm_campaign=twinrjan222024), you get everything you need to launch and scale your B2B product:",
-      "sourceMdx": "With [PropelAuth](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024), you get everything you need to launch and scale your B2B product:"
+      "sourceMdx": "With [PropelAuth](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024), you get everything you need to launch and scale your B2B product:",
+      "nodeType": "paragraph",
+      "translated_content": "[PropelAuth](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)为您提供B2B产品从启动到规模化所需的一切："
     },
     {
       "id": "7a2e981c",
       "translatable": true,
       "content": "* **Easy to understand** [documentation](https://docs.propelauth.com/?utm_source=newsletter\\&utm_campaign=twinrjan222024) and **friendly, fast support**.\n* **UIs that cover all your use cases** - signup, login, MFA, organization management and more.\n* **User impersonation** so you can provide top-notch support to your users.\n* **Enterprise SAML/SSO** and **advanced security features** so you can be upmarket-ready.\n* **User insights** to help you strategize and expand.",
-      "sourceMdx": "- **Easy to understand** [documentation](https://docs.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024) and **friendly, fast support**.\n- **UIs that cover all your use cases** - signup, login, MFA, organization management and more.\n- **User impersonation** so you can provide top-notch support to your users.\n- **Enterprise SAML/SSO** and **advanced security features** so you can be upmarket-ready.\n- **User insights** to help you strategize and expand."
+      "sourceMdx": "- **Easy to understand** [documentation](https://docs.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024) and **friendly, fast support**.\n- **UIs that cover all your use cases** - signup, login, MFA, organization management and more.\n- **User impersonation** so you can provide top-notch support to your users.\n- **Enterprise SAML/SSO** and **advanced security features** so you can be upmarket-ready.\n- **User insights** to help you strategize and expand.",
+      "nodeType": "list",
+      "translated_content": "- **清晰易懂**的[文档](https://docs.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)和**高效友好的技术支持**\n- **覆盖全场景的UI组件**——注册/登录/MFA/组织管理等\n- **用户模拟功能**助您提供顶级客户支持\n- **企业级SAML/SSO**和**高级安全特性**满足高端市场需求\n- **用户行为分析**助力战略决策与业务拓展"
     },
     {
       "id": "50746522",
       "translatable": true,
       "content": "[Get started today](https://www.propelauth.com/?utm_source=newsletter\\&utm_campaign=twinrjan222024)",
-      "sourceMdx": "[Get started today](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)"
+      "sourceMdx": "[Get started today](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)",
+      "nodeType": "paragraph",
+      "translated_content": "[立即体验](https://www.propelauth.com/?utm_source=newsletter&utm_campaign=twinrjan222024)"
     },
     {
       "id": "d4e0d4e1",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "8bddee80",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React动态 {#react}"
     },
     {
       "id": "a9d49f92",
       "translatable": true,
       "content": "[![React Scan 0.1](/emails/issues/218/react-scan.jpg)](https://github.com/aidenybai/react-scan)",
-      "sourceMdx": "[![React Scan 0.1](/emails/issues/218/react-scan.jpg)](https://github.com/aidenybai/react-scan)"
+      "sourceMdx": "[![React Scan 0.1](/emails/issues/218/react-scan.jpg)](https://github.com/aidenybai/react-scan)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React Scan 0.1](/emails/issues/218/react-scan.jpg)](https://github.com/aidenybai/react-scan)"
     },
     {
       "id": "a44047a5",
       "translatable": true,
       "content": "[**React Scan 0.1**](https://github.com/aidenybai/react-scan)",
-      "sourceMdx": "[**React Scan 0.1**](https://github.com/aidenybai/react-scan)"
+      "sourceMdx": "[**React Scan 0.1**](https://github.com/aidenybai/react-scan)",
+      "nodeType": "paragraph",
+      "translated_content": "[**React Scan 0.1**](https://github.com/aidenybai/react-scan)"
     },
     {
       "id": "f7ef78f9",
       "translatable": true,
       "content": "This is the first official release of React Scan, a new React performance tool that has been trending on social platforms lately with many great demos from its creator Aiden Bai. It’s easy to install and helps you find unwanted React re-renders with a great DX, a bit like “why-did-you-update” on steroids. Related podcast: 🎙️ [JavaScript Jabber - Optimizing React with React Scan](https://www.youtube.com/watch?v=pyV1wMcOtN0).",
-      "sourceMdx": "This is the first official release of React Scan, a new React performance tool that has been trending on social platforms lately with many great demos from its creator Aiden Bai. It’s easy to install and helps you find unwanted React re-renders with a great DX, a bit like “why-did-you-update” on steroids. Related podcast: 🎙️ [JavaScript Jabber \\- Optimizing React with React Scan](https://www.youtube.com/watch?v=pyV1wMcOtN0)."
+      "sourceMdx": "This is the first official release of React Scan, a new React performance tool that has been trending on social platforms lately with many great demos from its creator Aiden Bai. It’s easy to install and helps you find unwanted React re-renders with a great DX, a bit like “why-did-you-update” on steroids. Related podcast: 🎙️ [JavaScript Jabber \\- Optimizing React with React Scan](https://www.youtube.com/watch?v=pyV1wMcOtN0).",
+      "nodeType": "paragraph",
+      "translated_content": "这是React Scan的首个正式版本，这款新兴的React性能分析工具近期在社交平台引发热议，其开发者Aiden Bai展示了多个精彩案例。该工具安装简便，能精准定位非必要渲染，开发者体验极佳，堪称强化版的\"why-did-you-update\"。相关播客：🎙️ [JavaScript Jabber - 用React Scan优化React性能](https://www.youtube.com/watch?v=pyV1wMcOtN0)"
     },
     {
       "id": "49d8fe2a",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "9b797309",
       "translatable": true,
       "content": "* 💸 [What is middleware in Next.js? And how Clerk uses it for authentication](https://clerk.com/blog/what-is-middleware-in-nextjs?utm_source=thisweekinreact\\&utm_medium=newsletter\\&utm_campaign=nextjs-middleware\\&utm_content=01-22-24)\n* 🐦 [Parcel + React Server Components integration preview](https://x.com/devongovett/status/1881730597011571050)\n* 💬 [Storybook RFCs](https://github.com/storybookjs/storybook/discussions/categories/rfc): Several were created to reduce story creation boilerplate and improve autocompletion, type safety, and simplify syntax for writing tests.\n* 📖 [shadcn/ui - Block](https://ui.shadcn.com/docs/blocks): shadcn has a community-driven “reusable blocks” library and this page explains how to publish your custom blocks to the registry.\n* 📜 [Why Server Functions Matter In A Server Component World](https://www.brenelz.com/posts/why-server-functions-matter-in-a-server-component-world/): Interesting reflection on using Server Functions in a framework that doesn’t support (yet) RSCs, illustrated with TanStack Start. Using RSCs, you make a tradeoff between bundle size and payload size. See also part 2 [Server Function Benefits](https://www.brenelz.com/posts/server-function-benefits/) which explains how Server Functions can offer similar benefits to RSCs.\n* 📜 [Do JavaScript frameworks still need portals?](https://fullystacked.net/portal/): This greatly explains why modern HTML elements like `<dialog>` can solve similar cases as React portals. Even when usage is deeply nested, those dialogs are not affected by their parents. Note: you can also stack dialogs on top of each other without using `z-index`, similar to portals.\n* 📜 [Next.js on EAS Hosting](https://x.com/JI/status/1879740964492980598): Expo founder shows how to host a Next.js 15 static site on EAS from the CLI, then with an automated CI. See also Theo [deploying Universal RSCs on EAS](https://www.youtube.com/watch?v=weYe4ffxWQk), and Jack Herrington [deploying a Vite React SPA app to EAS](https://www.youtube.com/watch?v=YU0ENx1xgJk). Web devs should pay attention to EAS, it’s not just for mobile anymore.\n* 📜 [Progressive Forms with React 19](https://rdrn.me/react-forms/): A comprehensive post showing all the steps to provide a great form UX supporting optimistic UI and progressive enhancement.\n* 📜 [Formity: The Ultimate Tool For Multi-Step Forms In React](https://www.formity.app/blog/articles/formity-ultimate-tool-multi-step-forms-react): An interactive post presenting a new form library focusing on the complexities of dynamic multi-step forms that adapt to user inputs. You don’t need to abandon your favorite single-step form library, it integrates with it.\n* 📜 [The XSS dangers in interpolating styled-components](https://andrei-calazans.com/posts/styled-components-xss-danger/): You might need to sanitize your React styling props to avoid this XSS attack vector.\n* 📜 [Implementing Streaming SSR with React Relay and Vite](https://aqora.io/blog/AEJsb2dBcnRpY2xlAZRgyH4wdeKfFHS0yil0Fw/implementing-streaming-ssr-with-react-relay-and-vite): Interesting React setup to study, although not supporting SSR streaming.\n* 📦 [React Aria - January 15, 2025 Release - Overlay CSS transitions, Autocomplete (alpha), Test utils package (alpha), and more](https://react-spectrum.adobe.com/releases/2025-01-15.html)\n* 📦 [Storybook 8.5 - React 19 support, React Native Web Vite framework, A11y tests, code coverage](https://storybook.js.org/blog/storybook-8-5/)\n* 📦 [Unpic 1.0](https://unpic.pics/blog/unpic-1/): A framework-agnostic toolkit to display images that natively understand many CDNs, with first-class integrations for React and Next.js.\n* 📦 [React Three Handles](https://pmndrs.github.io/xr/docs/handles/introduction): A new convenient package to build React XR interactions.\n* 📦 [HeroUI](https://www.heroui.com/blog/introducing-heroui): New identity for NextUI library, since it’s not limited to Next.js usage.\n* 📦 [Justd - Accessible React UI Components](https://getjustd.com/): Similar shadcn/ui, but using React Aria instead of Radix.\n* 📦 [React Admin 5.5 - React 19, MUI 6, React Router 7, various new features](https://github.com/marmelab/react-admin/releases/tag/v5.5.0)\n* 📦 [React Testing Library 16.2 - Support for React 19 APIs `onRecoverableError` and `onCaughtError`](https://github.com/testing-library/react-testing-library/releases/tag/v16.2.0)\n* 📦 [Puck 0.18 - Visual editor for React](https://github.com/measuredco/puck/releases/tag/v0.18.0)\n* 🎥 [Hamed Bahram - Optimizing your NextJs app with after()](https://www.youtube.com/watch?v=0h402Lkg4xs)\n* 🎥 [Ankita - The Next.js Masterclass with Lee Rob](https://www.youtube.com/watch?v=M8bf7HJNLBo)",
-      "sourceMdx": "- 💸 [What is middleware in Next.js? And how Clerk uses it for authentication](https://clerk.com/blog/what-is-middleware-in-nextjs?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=nextjs-middleware&utm_content=01-22-24)\n- 🐦 [Parcel \\+ React Server Components integration preview](https://x.com/devongovett/status/1881730597011571050)\n- 💬 [Storybook RFCs](https://github.com/storybookjs/storybook/discussions/categories/rfc): Several were created to reduce story creation boilerplate and improve autocompletion, type safety, and simplify syntax for writing tests.\n- 📖 [shadcn/ui \\- Block](https://ui.shadcn.com/docs/blocks): shadcn has a community-driven “reusable blocks” library and this page explains how to publish your custom blocks to the registry.\n- 📜 [Why Server Functions Matter In A Server Component World](https://www.brenelz.com/posts/why-server-functions-matter-in-a-server-component-world/): Interesting reflection on using Server Functions in a framework that doesn’t support (yet) RSCs, illustrated with TanStack Start. Using RSCs, you make a tradeoff between bundle size and payload size. See also part 2 [Server Function Benefits](https://www.brenelz.com/posts/server-function-benefits/) which explains how Server Functions can offer similar benefits to RSCs.\n- 📜 [Do JavaScript frameworks still need portals?](https://fullystacked.net/portal/): This greatly explains why modern HTML elements like `<dialog>` can solve similar cases as React portals. Even when usage is deeply nested, those dialogs are not affected by their parents. Note: you can also stack dialogs on top of each other without using `z-index`, similar to portals.\n- 📜 [Next.js on EAS Hosting](https://x.com/JI/status/1879740964492980598): Expo founder shows how to host a Next.js 15 static site on EAS from the CLI, then with an automated CI. See also Theo [deploying Universal RSCs on EAS](https://www.youtube.com/watch?v=weYe4ffxWQk), and Jack Herrington [deploying a Vite React SPA app to EAS](https://www.youtube.com/watch?v=YU0ENx1xgJk). Web devs should pay attention to EAS, it’s not just for mobile anymore.\n- 📜 [Progressive Forms with React 19](https://rdrn.me/react-forms/): A comprehensive post showing all the steps to provide a great form UX supporting optimistic UI and progressive enhancement.\n- 📜 [Formity: The Ultimate Tool For Multi-Step Forms In React](https://www.formity.app/blog/articles/formity-ultimate-tool-multi-step-forms-react): An interactive post presenting a new form library focusing on the complexities of dynamic multi-step forms that adapt to user inputs. You don’t need to abandon your favorite single-step form library, it integrates with it.\n- 📜 [The XSS dangers in interpolating styled-components](https://andrei-calazans.com/posts/styled-components-xss-danger/): You might need to sanitize your React styling props to avoid this XSS attack vector.\n- 📜 [Implementing Streaming SSR with React Relay and Vite](https://aqora.io/blog/AEJsb2dBcnRpY2xlAZRgyH4wdeKfFHS0yil0Fw/implementing-streaming-ssr-with-react-relay-and-vite): Interesting React setup to study, although not supporting SSR streaming.\n- 📦 [React Aria \\- January 15, 2025 Release \\- Overlay CSS transitions, Autocomplete (alpha), Test utils package (alpha), and more](https://react-spectrum.adobe.com/releases/2025-01-15.html)\n- 📦 [Storybook 8.5 \\- React 19 support, React Native Web Vite framework, A11y tests, code coverage](https://storybook.js.org/blog/storybook-8-5/)\n- 📦 [Unpic 1.0](https://unpic.pics/blog/unpic-1/): A framework-agnostic toolkit to display images that natively understand many CDNs, with first-class integrations for React and Next.js.\n- 📦 [React Three Handles](https://pmndrs.github.io/xr/docs/handles/introduction): A new convenient package to build React XR interactions.\n- 📦 [HeroUI](https://www.heroui.com/blog/introducing-heroui): New identity for NextUI library, since it’s not limited to Next.js usage.\n- 📦 [Justd \\- Accessible React UI Components](https://getjustd.com/): Similar shadcn/ui, but using React Aria instead of Radix.\n- 📦 [React Admin 5.5 \\- React 19, MUI 6, React Router 7, various new features](https://github.com/marmelab/react-admin/releases/tag/v5.5.0)\n- 📦 [React Testing Library 16.2 \\- Support for React 19 APIs `onRecoverableError` and `onCaughtError`](https://github.com/testing-library/react-testing-library/releases/tag/v16.2.0)\n- 📦 [Puck 0.18 \\- Visual editor for React](https://github.com/measuredco/puck/releases/tag/v0.18.0)\n- 🎥 [Hamed Bahram \\- Optimizing your NextJs app with after()](https://www.youtube.com/watch?v=0h402Lkg4xs)\n- 🎥 [Ankita \\- The Next.js Masterclass with Lee Rob](https://www.youtube.com/watch?v=M8bf7HJNLBo)"
+      "sourceMdx": "- 💸 [What is middleware in Next.js? And how Clerk uses it for authentication](https://clerk.com/blog/what-is-middleware-in-nextjs?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=nextjs-middleware&utm_content=01-22-24)\n- 🐦 [Parcel \\+ React Server Components integration preview](https://x.com/devongovett/status/1881730597011571050)\n- 💬 [Storybook RFCs](https://github.com/storybookjs/storybook/discussions/categories/rfc): Several were created to reduce story creation boilerplate and improve autocompletion, type safety, and simplify syntax for writing tests.\n- 📖 [shadcn/ui \\- Block](https://ui.shadcn.com/docs/blocks): shadcn has a community-driven “reusable blocks” library and this page explains how to publish your custom blocks to the registry.\n- 📜 [Why Server Functions Matter In A Server Component World](https://www.brenelz.com/posts/why-server-functions-matter-in-a-server-component-world/): Interesting reflection on using Server Functions in a framework that doesn’t support (yet) RSCs, illustrated with TanStack Start. Using RSCs, you make a tradeoff between bundle size and payload size. See also part 2 [Server Function Benefits](https://www.brenelz.com/posts/server-function-benefits/) which explains how Server Functions can offer similar benefits to RSCs.\n- 📜 [Do JavaScript frameworks still need portals?](https://fullystacked.net/portal/): This greatly explains why modern HTML elements like `<dialog>` can solve similar cases as React portals. Even when usage is deeply nested, those dialogs are not affected by their parents. Note: you can also stack dialogs on top of each other without using `z-index`, similar to portals.\n- 📜 [Next.js on EAS Hosting](https://x.com/JI/status/1879740964492980598): Expo founder shows how to host a Next.js 15 static site on EAS from the CLI, then with an automated CI. See also Theo [deploying Universal RSCs on EAS](https://www.youtube.com/watch?v=weYe4ffxWQk), and Jack Herrington [deploying a Vite React SPA app to EAS](https://www.youtube.com/watch?v=YU0ENx1xgJk). Web devs should pay attention to EAS, it’s not just for mobile anymore.\n- 📜 [Progressive Forms with React 19](https://rdrn.me/react-forms/): A comprehensive post showing all the steps to provide a great form UX supporting optimistic UI and progressive enhancement.\n- 📜 [Formity: The Ultimate Tool For Multi-Step Forms In React](https://www.formity.app/blog/articles/formity-ultimate-tool-multi-step-forms-react): An interactive post presenting a new form library focusing on the complexities of dynamic multi-step forms that adapt to user inputs. You don’t need to abandon your favorite single-step form library, it integrates with it.\n- 📜 [The XSS dangers in interpolating styled-components](https://andrei-calazans.com/posts/styled-components-xss-danger/): You might need to sanitize your React styling props to avoid this XSS attack vector.\n- 📜 [Implementing Streaming SSR with React Relay and Vite](https://aqora.io/blog/AEJsb2dBcnRpY2xlAZRgyH4wdeKfFHS0yil0Fw/implementing-streaming-ssr-with-react-relay-and-vite): Interesting React setup to study, although not supporting SSR streaming.\n- 📦 [React Aria \\- January 15, 2025 Release \\- Overlay CSS transitions, Autocomplete (alpha), Test utils package (alpha), and more](https://react-spectrum.adobe.com/releases/2025-01-15.html)\n- 📦 [Storybook 8.5 \\- React 19 support, React Native Web Vite framework, A11y tests, code coverage](https://storybook.js.org/blog/storybook-8-5/)\n- 📦 [Unpic 1.0](https://unpic.pics/blog/unpic-1/): A framework-agnostic toolkit to display images that natively understand many CDNs, with first-class integrations for React and Next.js.\n- 📦 [React Three Handles](https://pmndrs.github.io/xr/docs/handles/introduction): A new convenient package to build React XR interactions.\n- 📦 [HeroUI](https://www.heroui.com/blog/introducing-heroui): New identity for NextUI library, since it’s not limited to Next.js usage.\n- 📦 [Justd \\- Accessible React UI Components](https://getjustd.com/): Similar shadcn/ui, but using React Aria instead of Radix.\n- 📦 [React Admin 5.5 \\- React 19, MUI 6, React Router 7, various new features](https://github.com/marmelab/react-admin/releases/tag/v5.5.0)\n- 📦 [React Testing Library 16.2 \\- Support for React 19 APIs `onRecoverableError` and `onCaughtError`](https://github.com/testing-library/react-testing-library/releases/tag/v16.2.0)\n- 📦 [Puck 0.18 \\- Visual editor for React](https://github.com/measuredco/puck/releases/tag/v0.18.0)\n- 🎥 [Hamed Bahram \\- Optimizing your NextJs app with after()](https://www.youtube.com/watch?v=0h402Lkg4xs)\n- 🎥 [Ankita \\- The Next.js Masterclass with Lee Rob](https://www.youtube.com/watch?v=M8bf7HJNLBo)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [Next.js中的中间件是什么？Clerk如何利用它实现身份验证](https://clerk.com/blog/what-is-middleware-in-nextjs?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=nextjs-middleware&utm_content=01-22-24)\n- 🐦 [Parcel与React Server Components集成预览](https://x.com/devongovett/status/1881730597011571050)\n- 💬 [Storybook RFC提案](https://github.com/storybookjs/storybook/discussions/categories/rfc)：多项提案旨在减少故事创建模板代码，提升自动补全、类型安全，并简化测试编写语法\n- 📖 [shadcn/ui区块组件](https://ui.shadcn.com/docs/blocks)：shadcn推出社区驱动的\"可复用区块\"库，此页面说明如何发布自定义区块到公共注册表\n- 📜 [Server Functions在Server Component世界的重要性](https://www.brenelz.com/posts/why-server-functions-matter-in-a-server-component-world/)：深刻探讨在不支持RSC的框架中使用Server Functions的价值，并以TanStack Start为例。使用RSC时需要在包体积与负载大小间权衡。另见第二部分[Server Functions的优势](https://www.brenelz.com/posts/server-function-benefits/)解释其如何提供类似RSC的益处\n- 📜 [JavaScript框架还需要Portal吗？](https://fullystacked.net/portal/)：详解现代HTML元素如`<dialog>`如何解决React Portal的类似场景。即使嵌套使用，这些对话框也不受父级样式影响。注：无需`z-index`即可堆叠对话框，效果类似Portal\n- 📜 [在EAS托管上部署Next.js](https://x.com/JI/status/1879740964492980598)：Expo创始人演示如何通过CLI将Next.js 15静态站点部署到EAS并实现自动化CI。另见Theo[在EAS部署通用RSC](https://www.youtube.com/watch?v=weYe4ffxWQk)和Jack Herrington[部署Vite React SPA到EAS](https://www.youtube.com/watch?v=YU0ENx1xgJk)。Web开发者应关注EAS，它已不仅限于移动端\n- 📜 [React 19中的渐进式表单](https://rdrn.me/react-forms/)：全面展示实现优秀表单UX的步骤，支持乐观UI和渐进增强\n- 📜 [Formity：React多步表单终极工具](https://www.formity.app/blog/articles/formity-ultimate-tool-multi-step-forms-react)：交互式文章介绍专注于动态多步表单复杂性的新库，可适配用户输入。无需放弃现有单步表单库，可与之集成\n- 📜 [styled-components插值中的XSS风险](https://andrei-calazans.com/posts/styled-components-xss-danger/)：可能需要清理React样式props以避免XSS攻击向量\n- 📜 [使用React Relay和Vite实现流式SSR](https://aqora.io/blog/AEJsb2dBcnRpY2xlAZRgyH4wdeKfFHS0yil0Fw/implementing-streaming-ssr-with-react-relay-and-vite)：值得研究的React配置方案，虽然暂不支持SSR流式渲染\n- 📦 [React Aria 2025年1月15日更新 - 覆盖层CSS过渡、自动补全(alpha)、测试工具包(alpha)等](https://react-spectrum.adobe.com/releases/2025-01-15.html)\n- 📦 [Storybook 8.5 - 支持React 19、React Native Web Vite框架、无障碍测试、代码覆盖率](https://storybook.js.org/blog/storybook-8-5/)\n- 📦 [Unpic 1.0发布](https://unpic.pics/blog/unpic-1/)：框架无关的图片显示工具包，原生支持多CDN，提供React和Next.js一等集成\n- 📦 [React Three Handles](https://pmndrs.github.io/xr/docs/handles/introduction)：构建React XR交互的新便捷工具包\n- 📦 [HeroUI](https://www.heroui.com/blog/introducing-heroui)：NextUI库的新品牌定位，因其不限于Next.js使用\n- 📦 [Justd - 无障碍React UI组件](https://getjustd.com/)：类似shadcn/ui，但使用React Aria而非Radix\n- 📦 [React Admin 5.5 - 支持React 19、MUI 6、React Router 7及多项新特性](https://github.com/marmelab/react-admin/releases/tag/v5.5.0)\n- 📦 [React Testing Library 16.2 - 支持React 19的`onRecoverableError`和`onCaughtError`API](https://github.com/testing-library/react-testing-library/releases/tag/v16.2.0)\n- 📦 [Puck 0.18 - React可视化编辑器](https://github.com/measuredco/puck/releases/tag/v0.18.0)\n- 🎥 [Hamed Bahram - 使用after()优化NextJs应用](https://www.youtube.com/watch?v=0h402Lkg4xs)\n- 🎥 [Ankita - 与Lee Rob的Next.js大师课](https://www.youtube.com/watch?v=M8bf7HJNLBo)"
     },
     {
       "id": "5f852894",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_5f852894"
     },
     {
       "id": "aac83236",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "66819c78",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "fbc2db85",
       "translatable": true,
       "content": "[![Tests are dead - Meticulous is here](/emails/issues/217/meticulous.jpg)](https://www.meticulous.ai?utm_source=thisweekinreact\\&utm_campaign=jan22nd)",
-      "sourceMdx": "[![Tests are dead - Meticulous is here](/emails/issues/217/meticulous.jpg)](https://www.meticulous.ai?utm_source=thisweekinreact&utm_campaign=jan22nd)"
+      "sourceMdx": "[![Tests are dead - Meticulous is here](/emails/issues/217/meticulous.jpg)](https://www.meticulous.ai?utm_source=thisweekinreact&utm_campaign=jan22nd)",
+      "nodeType": "paragraph",
+      "translated_content": "[![测试已死 - Meticulous来了](/emails/issues/217/meticulous.jpg)](https://www.meticulous.ai?utm_source=thisweekinreact&utm_campaign=jan22nd)"
     },
     {
       "id": "8126f763",
       "translatable": true,
       "content": "**[Tests are dead - Meticulous is here](https://www.meticulous.ai?utm_source=thisweekinreact\\&utm_campaign=jan22nd)**",
-      "sourceMdx": "**[Tests are dead - Meticulous is here](https://www.meticulous.ai?utm_source=thisweekinreact&utm_campaign=jan22nd)**"
+      "sourceMdx": "**[Tests are dead - Meticulous is here](https://www.meticulous.ai?utm_source=thisweekinreact&utm_campaign=jan22nd)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[测试已死 - Meticulous来了](https://www.meticulous.ai?utm_source=thisweekinreact&utm_campaign=jan22nd)**"
     },
     {
       "id": "74dd7937",
       "translatable": true,
       "content": "Meticulous creates and maintains an exhaustive suite of e2e ui tests with **zero** developer effort.",
-      "sourceMdx": "Meticulous creates and maintains an exhaustive suite of e2e ui tests with **zero** developer effort."
+      "sourceMdx": "Meticulous creates and maintains an exhaustive suite of e2e ui tests with **zero** developer effort.",
+      "nodeType": "paragraph",
+      "translated_content": "Meticulous以**零**开发工作量创建并维护一套完整的端到端UI测试套件。"
     },
     {
       "id": "5803caac",
       "translatable": true,
       "content": "This quote from the CTO of Traba sums the product up best: \"Meticulous has fundamentally changed the way we approach frontend testing in our web applications, fully eliminating the need to write any frontend tests. The software gives us confidence that every change will be completely regression tested, allowing us to ship more quickly with significantly fewer bugs in our code. The platform is easy to use and reduces the barrier to entry for backend-focused devs to contribute to our frontend codebase.\"",
-      "sourceMdx": "This quote from the CTO of Traba sums the product up best: \"Meticulous has fundamentally changed the way we approach frontend testing in our web applications, fully eliminating the need to write any frontend tests. The software gives us confidence that every change will be completely regression tested, allowing us to ship more quickly with significantly fewer bugs in our code. The platform is easy to use and reduces the barrier to entry for backend-focused devs to contribute to our frontend codebase.\""
+      "sourceMdx": "This quote from the CTO of Traba sums the product up best: \"Meticulous has fundamentally changed the way we approach frontend testing in our web applications, fully eliminating the need to write any frontend tests. The software gives us confidence that every change will be completely regression tested, allowing us to ship more quickly with significantly fewer bugs in our code. The platform is easy to use and reduces the barrier to entry for backend-focused devs to contribute to our frontend codebase.\"",
+      "nodeType": "paragraph",
+      "translated_content": "Traba首席技术官的这句评价最能概括产品价值：\"Meticulous从根本上改变了我们在Web应用中处理前端测试的方式，完全消除了编写前端测试的需求。该软件让我们确信每次变更都会经过完整的回归测试，使我们能够更快交付且代码中的错误显著减少。该平台易于使用，降低了后端开发人员参与前端代码贡献的门槛。\""
     },
     {
       "id": "51867d16",
       "translatable": true,
       "content": "Meticulous is used by companies like Lattice, Bilt Rewards, Power and many others.",
-      "sourceMdx": "Meticulous is used by companies like Lattice, Bilt Rewards, Power and many others."
+      "sourceMdx": "Meticulous is used by companies like Lattice, Bilt Rewards, Power and many others.",
+      "nodeType": "paragraph",
+      "translated_content": "Lattice、Bilt Rewards、Power等公司都在使用Meticulous。"
     },
     {
       "id": "785750ac",
       "translatable": true,
       "content": "This [post](https://www.meticulous.ai/blog/lessons-from-a-decade?utm_source=thisweekinreact\\&utm_campaign=jan15th) from our CTO sets out the context of why exhaustive testing can double engineering velocity.",
-      "sourceMdx": "This [post](https://www.meticulous.ai/blog/lessons-from-a-decade?utm_source=thisweekinreact&utm_campaign=jan15th) from our CTO sets out the context of why exhaustive testing can double engineering velocity."
+      "sourceMdx": "This [post](https://www.meticulous.ai/blog/lessons-from-a-decade?utm_source=thisweekinreact&utm_campaign=jan15th) from our CTO sets out the context of why exhaustive testing can double engineering velocity.",
+      "nodeType": "paragraph",
+      "translated_content": "我们CTO的这篇[文章](https://www.meticulous.ai/blog/lessons-from-a-decade?utm_source=thisweekinreact&utm_campaign=jan15th)阐述了全面测试如何使工程效率翻倍。"
     },
     {
       "id": "f7a7cb1b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "e06c002e",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "25212439",
       "translatable": true,
       "content": "[![React Native 0.77](/emails/issues/218/react-native-0.77.jpg)](https://reactnative.dev/blog/2025/01/21/version-0.77)",
-      "sourceMdx": "[![React Native 0.77](/emails/issues/218/react-native-0.77.jpg)](https://reactnative.dev/blog/2025/01/21/version-0.77)"
+      "sourceMdx": "[![React Native 0.77](/emails/issues/218/react-native-0.77.jpg)](https://reactnative.dev/blog/2025/01/21/version-0.77)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React Native 0.77](/emails/issues/218/react-native-0.77.jpg)](https://reactnative.dev/blog/2025/01/21/version-0.77)"
     },
     {
       "id": "d79a4831",
       "translatable": true,
       "content": "[**React Native 0.77**](https://reactnative.dev/blog/2025/01/21/version-0.77)",
-      "sourceMdx": "[**React Native 0.77**](https://reactnative.dev/blog/2025/01/21/version-0.77)"
+      "sourceMdx": "[**React Native 0.77**](https://reactnative.dev/blog/2025/01/21/version-0.77)",
+      "nodeType": "paragraph",
+      "translated_content": "[**React Native 0.77**](https://reactnative.dev/blog/2025/01/21/version-0.77)"
     },
     {
       "id": "2838eb68",
       "translatable": true,
       "content": "As planned, the next React Native version just dropped. It notably ships with:",
-      "sourceMdx": "As planned, the next React Native version just dropped. It notably ships with:"
+      "sourceMdx": "As planned, the next React Native version just dropped. It notably ships with:",
+      "nodeType": "paragraph",
+      "translated_content": "按计划发布的新版本主要包含："
     },
     {
       "id": "f6db2c30",
       "translatable": true,
       "content": "* CSS support improvement: `display: contents`, `boxSizing`, `mixBlendMode`, and `outline`\n* Support for Android 15 edge-to-edge and 16KB memory page size (perf improvement)\n* iOS init template with Swift AppDelegate",
-      "sourceMdx": "- CSS support improvement: `display: contents`, `boxSizing`, `mixBlendMode`, and `outline`\n- Support for Android 15 edge-to-edge and 16KB memory page size (perf improvement)\n- iOS init template with Swift AppDelegate"
+      "sourceMdx": "- CSS support improvement: `display: contents`, `boxSizing`, `mixBlendMode`, and `outline`\n- Support for Android 15 edge-to-edge and 16KB memory page size (perf improvement)\n- iOS init template with Swift AppDelegate",
+      "nodeType": "list",
+      "translated_content": "- CSS支持增强：`display: contents`、`boxSizing`、`mixBlendMode`和`outline`\n- 支持Android 15全屏显示和16KB内存页大小（性能优化）\n- iOS初始化模板改用Swift版AppDelegate"
     },
     {
       "id": "7bc8bb24",
       "translatable": true,
       "content": "Good news for Expo users: [SDK 52 already supports v0.77](https://expo.dev/changelog/2025/01-21-react-native-0.77), alongside many infrastructure packages (Screens, RNGH, Reanimated). For React 19 support, we’ll have to wait v0.78, but I could come sooner than you expect!",
-      "sourceMdx": "Good news for Expo users: [SDK 52 already supports v0.77](https://expo.dev/changelog/2025/01-21-react-native-0.77), alongside many infrastructure packages (Screens, RNGH, Reanimated). For React 19 support, we’ll have to wait v0.78, but I could come sooner than you expect!"
+      "sourceMdx": "Good news for Expo users: [SDK 52 already supports v0.77](https://expo.dev/changelog/2025/01-21-react-native-0.77), alongside many infrastructure packages (Screens, RNGH, Reanimated). For React 19 support, we’ll have to wait v0.78, but I could come sooner than you expect!",
+      "nodeType": "paragraph",
+      "translated_content": "Expo用户的好消息：[SDK 52已支持v0.77](https://expo.dev/changelog/2025/01-21-react-native-0.77)，同时兼容多个基础包（Screens、RNGH、Reanimated）。React 19支持需等待v0.78版本，但可能比预期来得更早！"
     },
     {
       "id": "42bfcc5d",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "e9313fef",
       "translatable": true,
       "content": "[![Reanimated 4.0 beta](/emails/issues/218/reanimated4.jpg)](https://blog.swmansion.com/reanimated-4-is-new-but-also-very-familiar-b926dd59aa40)",
-      "sourceMdx": "[![Reanimated 4.0 beta](/emails/issues/218/reanimated4.jpg)](https://blog.swmansion.com/reanimated-4-is-new-but-also-very-familiar-b926dd59aa40)"
+      "sourceMdx": "[![Reanimated 4.0 beta](/emails/issues/218/reanimated4.jpg)](https://blog.swmansion.com/reanimated-4-is-new-but-also-very-familiar-b926dd59aa40)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Reanimated 4.0测试版](/emails/issues/218/reanimated4.jpg)](https://blog.swmansion.com/reanimated-4-is-new-but-also-very-familiar-b926dd59aa40)"
     },
     {
       "id": "1b4de6df",
       "translatable": true,
       "content": "[**Reanimated 4.0 beta**](https://blog.swmansion.com/reanimated-4-is-new-but-also-very-familiar-b926dd59aa40)",
-      "sourceMdx": "[**Reanimated 4.0 beta**](https://blog.swmansion.com/reanimated-4-is-new-but-also-very-familiar-b926dd59aa40)"
+      "sourceMdx": "[**Reanimated 4.0 beta**](https://blog.swmansion.com/reanimated-4-is-new-but-also-very-familiar-b926dd59aa40)",
+      "nodeType": "paragraph",
+      "translated_content": "[**Reanimated 4.0测试版**](https://blog.swmansion.com/reanimated-4-is-new-but-also-very-familiar-b926dd59aa40)"
     },
     {
       "id": "1958bc43",
       "translatable": true,
       "content": "Reanimated 4 is in beta, and it’s a huge one! 🔥 The animation core has been revamped. You can now just animate things, with regular CSS, on the native thread, thanks to newly added support for:",
-      "sourceMdx": "Reanimated 4 is in beta, and it’s a huge one\\! 🔥 The animation core has been revamped. You can now just animate things, with regular CSS, on the native thread, thanks to newly added support for:"
+      "sourceMdx": "Reanimated 4 is in beta, and it’s a huge one\\! 🔥 The animation core has been revamped. You can now just animate things, with regular CSS, on the native thread, thanks to newly added support for:",
+      "nodeType": "paragraph",
+      "translated_content": "Reanimated 4测试版发布，这是重大更新！🔥 动画核心全面重构，现在只需常规CSS就能在原生线程实现动画，新增支持："
     },
     {
       "id": "bcc700e8",
       "translatable": true,
       "content": "* CSS property transitions\n* CSS keyframe animations",
-      "sourceMdx": "- CSS property transitions\n- CSS keyframe animations"
+      "sourceMdx": "- CSS property transitions\n- CSS keyframe animations",
+      "nodeType": "list",
+      "translated_content": "- CSS属性过渡动画\n- CSS关键帧动画"
     },
     {
       "id": "f38d1cb0",
       "translatable": true,
       "content": "This is particularly exciting for React Native micro-interactions with greatly reduced boilerplate, and the ability to ship cross-platform animations. The existing worklet APIs remains retrocompatible and relevant for more advanced needs. However, the New Architecture is now a requirement.",
-      "sourceMdx": "This is particularly exciting for React Native micro-interactions with greatly reduced boilerplate, and the ability to ship cross-platform animations. The existing worklet APIs remains retrocompatible and relevant for more advanced needs. However, the New Architecture is now a requirement."
+      "sourceMdx": "This is particularly exciting for React Native micro-interactions with greatly reduced boilerplate, and the ability to ship cross-platform animations. The existing worklet APIs remains retrocompatible and relevant for more advanced needs. However, the New Architecture is now a requirement.",
+      "nodeType": "paragraph",
+      "translated_content": "这极大简化了React Native微交互的实现，显著减少样板代码，并能交付跨平台动画。现有worklet API仍保持向后兼容，满足高级需求。但新架构（New Architecture）现已成为必需条件。"
     },
     {
       "id": "5f82a1e9",
       "translatable": true,
       "content": "See also [Reactiive migrates a Reanimated v2 animation to v4](https://reactiive.io/articles/css-animations-react-native) which greatly simplifies things. And we are not even talking about migrating old Reanimated v1 code 🙈.",
-      "sourceMdx": "See also [Reactiive migrates a Reanimated v2 animation to v4](https://reactiive.io/articles/css-animations-react-native) which greatly simplifies things. And we are not even talking about migrating old Reanimated v1 code 🙈."
+      "sourceMdx": "See also [Reactiive migrates a Reanimated v2 animation to v4](https://reactiive.io/articles/css-animations-react-native) which greatly simplifies things. And we are not even talking about migrating old Reanimated v1 code 🙈.",
+      "nodeType": "paragraph",
+      "translated_content": "参阅[Reactiive将Reanimated v2动画迁移至v4](https://reactiive.io/articles/css-animations-react-native)的案例，迁移过程大幅简化。更不用说迁移旧版Reanimated v1代码的复杂度🙈。"
     },
     {
       "id": "6fc234cf",
       "translatable": true,
       "content": "Side note: have you seen the [upcoming React `<ViewTransition>` component](https://motion.dev/blog/reacts-experimental-view-transition-api) being actively worked on? It’s not in React-DOM, and there’s probably an exciting reason for that 👀.",
-      "sourceMdx": "Side note: have you seen the [upcoming React `<ViewTransition>` component](https://motion.dev/blog/reacts-experimental-view-transition-api) being actively worked on? It’s not in React-DOM, and there’s probably an exciting reason for that 👀."
+      "sourceMdx": "Side note: have you seen the [upcoming React `<ViewTransition>` component](https://motion.dev/blog/reacts-experimental-view-transition-api) being actively worked on? It’s not in React-DOM, and there’s probably an exciting reason for that 👀.",
+      "nodeType": "paragraph",
+      "translated_content": "补充说明：是否注意到正在积极开发的[实验性React `<ViewTransition>`组件](https://motion.dev/blog/reacts-experimental-view-transition-api)？它尚未纳入React-DOM，背后可能有令人期待的原因👀。"
     },
     {
       "id": "714b728f",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "cd2fd2f2",
       "translatable": true,
       "content": "* 💸 [Codemagic - a great App Center alternative for React Native devs! 8x faster builds, CodePush, automated distribution. 1-month free trial!](https://codemagic.io/migration-from-app-center/?utm_source=newsletter\\&utm_medium=email\\&utm_campaign=app_center_this_week_react)\n* 🐦 [Expo 53 modules will support SwiftUI and Jetpack Compose](https://x.com/Baconbrix/status/1879900047397314813)\n* 💬 [React Native proposals - Improving iOS keyboard avoidance using keyboardLayoutGuide](https://github.com/react-native-community/discussions-and-proposals/discussions/867)\n* 📣 [EAS is now SOC 2 Type 2-compliant](https://expo.dev/blog/eas-soc2-type2)\n* 📜 [How I migrated my bare React Native app to Expo](https://expo.dev/blog/how-i-migrated-my-bare-react-native-app-to-expo)\n* 📜 [Solving Swift Modular Header Issues in React Native for Good](https://www.callstack.com/blog/solving-swift-modular-header-issues-in-react-native-for-good)\n* 📜 [React Native RCTRootViewFactory (Brownfield apps)](https://ospfranco.com/react-native-rctrootviewfactory/)\n* 📦 [React Native Document Picker & Viewer 10.0](https://react-native-documents.github.io/)\n* 📦 [Bottom Tabs 0.8 - Android Page Transitions, Material You support](https://github.com/callstackincubator/react-native-bottom-tabs/releases/tag/react-native-bottom-tabs%400.8.0)\n* 📦 [Legend List 1.0 beta - Claims better perf than FlashList](https://legendapp.com/open-source/list/intro/introduction/)\n* 📦 [Shadowlist alpha - New high-performance list for React Native](https://github.com/azimgd/shadowlist)\n* 📦 [Screens 4.6 beta](https://github.com/software-mansion/react-native-screens/releases/tag/4.6.0-beta.0)\n* 📦 [Repack 5.0 rc.7 - NativeWind support](https://github.com/callstack/repack/releases/tag/%40callstack%2Frepack%405.0.0-rc.7)\n* 🎥 [Catalin Miron - React Native Schedule animation](https://www.youtube.com/watch?v=F3KJNgINMIQ)\n* 🎥 [Simon Grimm - Top React Native Essentials - Tech Stack for 2025](https://www.youtube.com/watch?v=I_J7N0n5YPs)",
-      "sourceMdx": "- 💸 [Codemagic - a great App Center alternative for React Native devs! 8x faster builds, CodePush, automated distribution. 1-month free trial!](https://codemagic.io/migration-from-app-center/?utm_source=newsletter&utm_medium=email&utm_campaign=app_center_this_week_react)\n- 🐦 [Expo 53 modules will support SwiftUI and Jetpack Compose](https://x.com/Baconbrix/status/1879900047397314813)\n- 💬 [React Native proposals \\- Improving iOS keyboard avoidance using keyboardLayoutGuide](https://github.com/react-native-community/discussions-and-proposals/discussions/867)\n- 📣 [EAS is now SOC 2 Type 2-compliant](https://expo.dev/blog/eas-soc2-type2)\n- 📜 [How I migrated my bare React Native app to Expo](https://expo.dev/blog/how-i-migrated-my-bare-react-native-app-to-expo)\n- 📜 [Solving Swift Modular Header Issues in React Native for Good](https://www.callstack.com/blog/solving-swift-modular-header-issues-in-react-native-for-good)\n- 📜 [React Native RCTRootViewFactory (Brownfield apps)](https://ospfranco.com/react-native-rctrootviewfactory/)\n- 📦 [React Native Document Picker & Viewer 10.0](https://react-native-documents.github.io/)\n- 📦 [Bottom Tabs 0.8 \\- Android Page Transitions, Material You support](https://github.com/callstackincubator/react-native-bottom-tabs/releases/tag/react-native-bottom-tabs%400.8.0)\n- 📦 [Legend List 1.0 beta \\- Claims better perf than FlashList](https://legendapp.com/open-source/list/intro/introduction/)\n- 📦 [Shadowlist alpha \\- New high-performance list for React Native](https://github.com/azimgd/shadowlist)\n- 📦 [Screens 4.6 beta](https://github.com/software-mansion/react-native-screens/releases/tag/4.6.0-beta.0)\n- 📦 [Repack 5.0 rc.7 \\- NativeWind support](https://github.com/callstack/repack/releases/tag/%40callstack%2Frepack%405.0.0-rc.7)\n- 🎥 [Catalin Miron \\- React Native Schedule animation](https://www.youtube.com/watch?v=F3KJNgINMIQ)\n- 🎥 [Simon Grimm \\- Top React Native Essentials \\- Tech Stack for 2025](https://www.youtube.com/watch?v=I_J7N0n5YPs)"
+      "sourceMdx": "- 💸 [Codemagic - a great App Center alternative for React Native devs! 8x faster builds, CodePush, automated distribution. 1-month free trial!](https://codemagic.io/migration-from-app-center/?utm_source=newsletter&utm_medium=email&utm_campaign=app_center_this_week_react)\n- 🐦 [Expo 53 modules will support SwiftUI and Jetpack Compose](https://x.com/Baconbrix/status/1879900047397314813)\n- 💬 [React Native proposals \\- Improving iOS keyboard avoidance using keyboardLayoutGuide](https://github.com/react-native-community/discussions-and-proposals/discussions/867)\n- 📣 [EAS is now SOC 2 Type 2-compliant](https://expo.dev/blog/eas-soc2-type2)\n- 📜 [How I migrated my bare React Native app to Expo](https://expo.dev/blog/how-i-migrated-my-bare-react-native-app-to-expo)\n- 📜 [Solving Swift Modular Header Issues in React Native for Good](https://www.callstack.com/blog/solving-swift-modular-header-issues-in-react-native-for-good)\n- 📜 [React Native RCTRootViewFactory (Brownfield apps)](https://ospfranco.com/react-native-rctrootviewfactory/)\n- 📦 [React Native Document Picker & Viewer 10.0](https://react-native-documents.github.io/)\n- 📦 [Bottom Tabs 0.8 \\- Android Page Transitions, Material You support](https://github.com/callstackincubator/react-native-bottom-tabs/releases/tag/react-native-bottom-tabs%400.8.0)\n- 📦 [Legend List 1.0 beta \\- Claims better perf than FlashList](https://legendapp.com/open-source/list/intro/introduction/)\n- 📦 [Shadowlist alpha \\- New high-performance list for React Native](https://github.com/azimgd/shadowlist)\n- 📦 [Screens 4.6 beta](https://github.com/software-mansion/react-native-screens/releases/tag/4.6.0-beta.0)\n- 📦 [Repack 5.0 rc.7 \\- NativeWind support](https://github.com/callstack/repack/releases/tag/%40callstack%2Frepack%405.0.0-rc.7)\n- 🎥 [Catalin Miron \\- React Native Schedule animation](https://www.youtube.com/watch?v=F3KJNgINMIQ)\n- 🎥 [Simon Grimm \\- Top React Native Essentials \\- Tech Stack for 2025](https://www.youtube.com/watch?v=I_J7N0n5YPs)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [Codemagic - React Native 开发者的绝佳 App Center 替代方案！构建速度提升 8 倍，支持 CodePush 和自动化分发。提供 1 个月免费试用！](https://codemagic.io/migration-from-app-center/?utm_source=newsletter&utm_medium=email&utm_campaign=app_center_this_week_react)\n- 🐦 [Expo 53 模块将支持 SwiftUI 和 Jetpack Compose](https://x.com/Baconbrix/status/1879900047397314813)\n- 💬 [React Native 提案 - 使用 keyboardLayoutGuide 改进 iOS 键盘避让](https://github.com/react-native-community/discussions-and-proposals/discussions/867)\n- 📣 [EAS 现已通过 SOC 2 Type 2 合规认证](https://expo.dev/blog/eas-soc2-type2)\n- 📜 [我是如何将原生 React Native 应用迁移到 Expo 的](https://expo.dev/blog/how-i-migrated-my-bare-react-native-app-to-expo)\n- 📜 [彻底解决 React Native 中的 Swift 模块头文件问题](https://www.callstack.com/blog/solving-swift-modular-header-issues-in-react-native-for-good)\n- 📜 [React Native RCTRootViewFactory（棕地应用）](https://ospfranco.com/react-native-rctrootviewfactory/)\n- 📦 [React Native 文档选择器 & 查看器 10.0](https://react-native-documents.github.io/)\n- 📦 [底部标签栏 0.8 - 支持 Android 页面转场动画和 Material You 风格](https://github.com/callstackincubator/react-native-bottom-tabs/releases/tag/react-native-bottom-tabs%400.8.0)\n- 📦 [Legend List 1.0 测试版 - 宣称性能优于 FlashList](https://legendapp.com/open-source/list/intro/introduction/)\n- 📦 [Shadowlist 测试版 - React Native 高性能列表新方案](https://github.com/azimgd/shadowlist)\n- 📦 [Screens 4.6 测试版](https://github.com/software-mansion/react-native-screens/releases/tag/4.6.0-beta.0)\n- 📦 [Repack 5.0 rc.7 - 支持 NativeWind](https://github.com/callstack/repack/releases/tag/%40callstack%2Frepack%405.0.0-rc.7)\n- 🎥 [Catalin Miron - React Native 日程表动画教程](https://www.youtube.com/watch?v=F3KJNgINMIQ)\n- 🎥 [Simon Grimm - 2025 年 React Native 必备技术栈](https://www.youtube.com/watch?v=I_J7N0n5YPs)"
     },
     {
       "id": "af4523c9",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "35353302",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他 {#other}"
     },
     {
       "id": "f4e38e16",
       "translatable": true,
       "content": "* 👀 [Biome 2.0 and 2025 Roadmap - Plugins, Domains (rules for frameworks like React), HTML and template literal snippets support](https://biomejs.dev/blog/roadmap-2025/)\n* 📜 [Preserve state during DOM mutations with moveBefore()](https://developer.chrome.com/blog/movebefore-api): Exciting feature comes with Chrome 133 on February 4th, useful for React siblings reconciliation.\n* 📜 [TypeScript enums: use cases and alternatives](https://2ality.com/2025/01/typescript-enum-patterns.html)\n* 📜 [So, you want to push a web platform feature?](https://blog.yoav.ws/posts/so_you_want_to_push_a_web_platform_feature/)\n* 📦 [Bun 1.2 - Node.js compat, built-in S3 & SQL clients, text-based lockfile, HTML imports, and way more](https://bun.sh/blog/bun-v1.2)\n* 📦 [Rspack 1.2 - Persistent cache, Yarn PnP, performance improvements](https://rspack.dev/blog/announcing-1-2)\n* 📦 [Vitest 3.0 - New reporter, inline workspace, multi-browser, filtering by location, public API](https://vitest.dev/blog/vitest-3)\n* 📦 [ESLint 9.18 - Stable TypeScript config file support](https://eslint.org/blog/2025/01/eslint-v9.18.0-released/)\n* 📦 [ArkType 2.0 - Modern TypeScript validation lib](https://arktype.io/docs/blog/2.0)\n* 📦 [Shiki 2.0 - Syntax highlighter, boring release, deprecation warnings](https://shiki.style/blog/v2)",
-      "sourceMdx": "- 👀 [Biome 2.0 and 2025 Roadmap \\- Plugins, Domains (rules for frameworks like React), HTML and template literal snippets support](https://biomejs.dev/blog/roadmap-2025/)\n- 📜 [Preserve state during DOM mutations with moveBefore()](https://developer.chrome.com/blog/movebefore-api): Exciting feature comes with Chrome 133 on February 4th, useful for React siblings reconciliation.\n- 📜 [TypeScript enums: use cases and alternatives](https://2ality.com/2025/01/typescript-enum-patterns.html)\n- 📜 [So, you want to push a web platform feature?](https://blog.yoav.ws/posts/so_you_want_to_push_a_web_platform_feature/)\n- 📦 [Bun 1.2 \\- Node.js compat, built-in S3 & SQL clients, text-based lockfile, HTML imports, and way more](https://bun.sh/blog/bun-v1.2)\n- 📦 [Rspack 1.2 \\- Persistent cache, Yarn PnP, performance improvements](https://rspack.dev/blog/announcing-1-2)\n- 📦 [Vitest 3.0 \\- New reporter, inline workspace, multi-browser, filtering by location, public API](https://vitest.dev/blog/vitest-3)\n- 📦 [ESLint 9.18 \\- Stable TypeScript config file support](https://eslint.org/blog/2025/01/eslint-v9.18.0-released/)\n- 📦 [ArkType 2.0 \\- Modern TypeScript validation lib](https://arktype.io/docs/blog/2.0)\n- 📦 [Shiki 2.0 \\- Syntax highlighter, boring release, deprecation warnings](https://shiki.style/blog/v2)"
+      "sourceMdx": "- 👀 [Biome 2.0 and 2025 Roadmap \\- Plugins, Domains (rules for frameworks like React), HTML and template literal snippets support](https://biomejs.dev/blog/roadmap-2025/)\n- 📜 [Preserve state during DOM mutations with moveBefore()](https://developer.chrome.com/blog/movebefore-api): Exciting feature comes with Chrome 133 on February 4th, useful for React siblings reconciliation.\n- 📜 [TypeScript enums: use cases and alternatives](https://2ality.com/2025/01/typescript-enum-patterns.html)\n- 📜 [So, you want to push a web platform feature?](https://blog.yoav.ws/posts/so_you_want_to_push_a_web_platform_feature/)\n- 📦 [Bun 1.2 \\- Node.js compat, built-in S3 & SQL clients, text-based lockfile, HTML imports, and way more](https://bun.sh/blog/bun-v1.2)\n- 📦 [Rspack 1.2 \\- Persistent cache, Yarn PnP, performance improvements](https://rspack.dev/blog/announcing-1-2)\n- 📦 [Vitest 3.0 \\- New reporter, inline workspace, multi-browser, filtering by location, public API](https://vitest.dev/blog/vitest-3)\n- 📦 [ESLint 9.18 \\- Stable TypeScript config file support](https://eslint.org/blog/2025/01/eslint-v9.18.0-released/)\n- 📦 [ArkType 2.0 \\- Modern TypeScript validation lib](https://arktype.io/docs/blog/2.0)\n- 📦 [Shiki 2.0 \\- Syntax highlighter, boring release, deprecation warnings](https://shiki.style/blog/v2)",
+      "nodeType": "list",
+      "translated_content": "- 👀 [Biome 2.0 及 2025 年路线图 - 插件支持、框架专属规则域（如 React）、HTML 和模板字符串片段支持](https://biomejs.dev/blog/roadmap-2025/)\n- 📜 [通过 moveBefore() 在 DOM 变更时保留状态](https://developer.chrome.com/blog/movebefore-api)：Chrome 133 将于 2 月 4 日推出的新特性，对 React 兄弟节点协调很有帮助。\n- 📜 [TypeScript 枚举：使用场景与替代方案](https://2ality.com/2025/01/typescript-enum-patterns.html)\n- 📜 [如何推动 Web 平台新特性落地？](https://blog.yoav.ws/posts/so_you_want_to_push_a_web_platform_feature/)\n- 📦 [Bun 1.2 - Node.js 兼容性增强，内置 S3 & SQL 客户端，文本化 lockfile，HTML 导入等大量更新](https://bun.sh/blog/bun-v1.2)\n- 📦 [Rspack 1.2 - 持久化缓存、Yarn PnP 支持、性能优化](https://rspack.dev/blog/announcing-1-2)\n- 📦 [Vitest 3.0 - 新报告器、内联工作区、多浏览器支持、按位置过滤、公开 API](https://vitest.dev/blog/vitest-3)\n- 📦 [ESLint 9.18 - 稳定的 TypeScript 配置文件支持](https://eslint.org/blog/2025/01/eslint-v9.18.0-released/)\n- 📦 [ArkType 2.0 - 现代 TypeScript 验证库](https://arktype.io/docs/blog/2.0)\n- 📦 [Shiki 2.0 - 语法高亮工具，平淡的发布，包含弃用警告](https://shiki.style/blog/v2)"
     },
     {
       "id": "57180eb4",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "f6a06609",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 趣闻 {#fun}"
     },
     {
       "id": "6b40e7a2",
       "translatable": true,
       "content": "[![alt](/emails/issues/218/meme.jpg)](https://x.com/aidenybai/status/1881397529369034997)",
-      "sourceMdx": "[![alt](/emails/issues/218/meme.jpg)](https://x.com/aidenybai/status/1881397529369034997)"
+      "sourceMdx": "[![alt](/emails/issues/218/meme.jpg)](https://x.com/aidenybai/status/1881397529369034997)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/218/meme.jpg)](https://x.com/aidenybai/status/1881397529369034997)"
     },
     {
       "id": "39f476dc",
       "translatable": true,
       "content": "[![alt](/emails/issues/218/meme2.jpg)](https://bsky.app/profile/did:plc:hxmev3uady7j4litwnr5fzbg/post/3lgbup6t2es2b)",
-      "sourceMdx": "[![alt](/emails/issues/218/meme2.jpg)](https://bsky.app/profile/did:plc:hxmev3uady7j4litwnr5fzbg/post/3lgbup6t2es2b)"
+      "sourceMdx": "[![alt](/emails/issues/218/meme2.jpg)](https://bsky.app/profile/did:plc:hxmev3uady7j4litwnr5fzbg/post/3lgbup6t2es2b)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/218/meme2.jpg)](https://bsky.app/profile/did:plc:hxmev3uady7j4litwnr5fzbg/post/3lgbup6t2es2b)"
     },
     {
       "id": "827eb9a3",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下期见！👋"
     }
   ]
 }

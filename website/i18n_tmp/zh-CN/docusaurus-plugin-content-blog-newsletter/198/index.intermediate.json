@@ -1,305 +1,405 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/198/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/198/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /198\ntitle: \"This Week In React #198: React-Email, MUI, Rspack, prerendering, tree-shaking, Next.js, TanStack, Remix, RSC, Code Hike, Astro, CodePush, visionOS, Tophat, Bluetooth, MKKV, Swift, Re.Pack, Reanimated, TypeScript, Node...\"\nauthors: [slorber]\ndate: 08-28-2024\n---",
-      "sourceMdx": "---\nslug: /198\ntitle: \"This Week In React #198: React-Email, MUI, Rspack, prerendering, tree-shaking, Next.js, TanStack, Remix, RSC, Code Hike, Astro, CodePush, visionOS, Tophat, Bluetooth, MKKV, Swift, Re.Pack, Reanimated, TypeScript, Node...\"\nauthors: [slorber]\ndate: 08-28-2024\n---"
+      "sourceMdx": "---\nslug: /198\ntitle: \"This Week In React #198: React-Email, MUI, Rspack, prerendering, tree-shaking, Next.js, TanStack, Remix, RSC, Code Hike, Astro, CodePush, visionOS, Tophat, Bluetooth, MKKV, Swift, Re.Pack, Reanimated, TypeScript, Node...\"\nauthors: [slorber]\ndate: 08-28-2024\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "Looks like it's the end of summer already, eh?",
-      "sourceMdx": "Looks like it's the end of summer already, eh?"
+      "sourceMdx": "Looks like it's the end of summer already, eh?",
+      "nodeType": "paragraph",
+      "translated_content": "转眼间夏天就要结束了，对吧？"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "This week we had many great releases and articles!\\\nI'm particularly excited about React Email, which I'd like to use for an upcoming newsletter email template, and for Rspack that I'm adopting for Docusaurus to replace webpack.",
-      "sourceMdx": "This week we had many great releases and articles!\\\nI'm particularly excited about React Email, which I'd like to use for an upcoming newsletter email template, and for Rspack that I'm adopting for Docusaurus to replace webpack."
+      "sourceMdx": "This week we had many great releases and articles!\\\nI'm particularly excited about React Email, which I'd like to use for an upcoming newsletter email template, and for Rspack that I'm adopting for Docusaurus to replace webpack.",
+      "nodeType": "paragraph",
+      "translated_content": "本周有许多重磅发布和优质文章！\\\n我特别关注React Email，打算用它来制作下一期新闻邮件的模板；还有Rspack，我正在将其引入Docusaurus项目以替代webpack。"
     },
     {
       "id": "28a64196",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_28a64196"
     },
     {
       "id": "42ad8e83",
       "translatable": true,
       "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
-      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "nodeType": "paragraph",
+      "translated_content": "**💡 [在Twitter上浏览本期简报](https://slo.im/thread) - 可视化版式 🎨**"
     },
     {
       "id": "ade2cf6a",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "0271a665",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_0271a665"
     },
     {
       "id": "b7a64917",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_b7a64917"
     },
     {
       "id": "eaf571f0",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "fa430ad4",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "4b1d2d7d",
       "translatable": true,
       "content": "[![WorkOS: Modern Identity Platform for B2B SaaS](/emails/issues/195/workOS.jpg)](https://workos.com/?utm_source=thisweekinreact\\&utm_medium=newsletter\\&utm_campaign=q32024)",
-      "sourceMdx": "[![WorkOS: Modern Identity Platform for B2B SaaS](/emails/issues/195/workOS.jpg)](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)"
+      "sourceMdx": "[![WorkOS: Modern Identity Platform for B2B SaaS](/emails/issues/195/workOS.jpg)](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)",
+      "nodeType": "paragraph",
+      "translated_content": "[![WorkOS：面向B2B SaaS的现代身份平台](/emails/issues/195/workOS.jpg)](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)"
     },
     {
       "id": "dfe931a2",
       "translatable": true,
       "content": "**[WorkOS: Modern Identity Platform for B2B SaaS](https://workos.com/?utm_source=thisweekinreact\\&utm_medium=newsletter\\&utm_campaign=q32024)**",
-      "sourceMdx": "**[WorkOS: Modern Identity Platform for B2B SaaS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)**"
+      "sourceMdx": "**[WorkOS: Modern Identity Platform for B2B SaaS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[WorkOS：面向B2B SaaS的现代身份平台](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)**"
     },
     {
       "id": "4daf5cdd",
       "translatable": true,
       "content": "With WorkOS you can start selling to enterprises with just a few lines of code.",
-      "sourceMdx": "With WorkOS you can start selling to enterprises with just a few lines of code."
+      "sourceMdx": "With WorkOS you can start selling to enterprises with just a few lines of code.",
+      "nodeType": "paragraph",
+      "translated_content": "通过WorkOS，仅需几行代码即可开启企业级销售。"
     },
     {
       "id": "bdc231b1",
       "translatable": true,
       "content": "🔐 WorkOS AuthKit supports a complete user management solution along with **SSO, SCIM, RBAC, & FGA**.",
-      "sourceMdx": "🔐 WorkOS AuthKit supports a complete user management solution along with **SSO, SCIM, RBAC, & FGA**."
+      "sourceMdx": "🔐 WorkOS AuthKit supports a complete user management solution along with **SSO, SCIM, RBAC, & FGA**.",
+      "nodeType": "paragraph",
+      "translated_content": "🔐 WorkOS AuthKit提供完整的用户管理方案，支持**单点登录(SSO)、跨域身份管理系统(SCIM)、基于角色的访问控制(RBAC)和细粒度授权(FGA)**。"
     },
     {
       "id": "97ae4a01",
       "translatable": true,
       "content": "🏗️ The APIs are **flexible, easy-to-use, and modular**. Pick and choose what you need and integrate in minutes.",
-      "sourceMdx": "🏗️ The APIs are **flexible, easy-to-use, and modular**. Pick and choose what you need and integrate in minutes."
+      "sourceMdx": "🏗️ The APIs are **flexible, easy-to-use, and modular**. Pick and choose what you need and integrate in minutes.",
+      "nodeType": "paragraph",
+      "translated_content": "🏗️ API设计**灵活易用且模块化**，可按需选择功能，分钟级集成。"
     },
     {
       "id": "c3a738de",
       "translatable": true,
       "content": "🎨 Design and user experience are everything. From the quality of our documentation to how your users onboard, we **remove all the unnecessary complexity for developers**.",
-      "sourceMdx": "🎨 Design and user experience are everything. From the quality of our documentation to how your users onboard, we **remove all the unnecessary complexity for developers**."
+      "sourceMdx": "🎨 Design and user experience are everything. From the quality of our documentation to how your users onboard, we **remove all the unnecessary complexity for developers**.",
+      "nodeType": "paragraph",
+      "translated_content": "🎨 用户体验至上。从文档质量到用户 onboarding 流程，我们**为开发者消除所有不必要的复杂性**。"
     },
     {
       "id": "3cfe6286",
       "translatable": true,
       "content": "✨ AuthKit is **free up to 1 million MAUs** and includes bot protection, MFA, RBAC, & more.",
-      "sourceMdx": "✨ AuthKit is **free up to 1 million MAUs** and includes bot protection, MFA, RBAC, & more."
+      "sourceMdx": "✨ AuthKit is **free up to 1 million MAUs** and includes bot protection, MFA, RBAC, & more.",
+      "nodeType": "paragraph",
+      "translated_content": "✨ AuthKit**免费支持100万月活用户**，包含机器人防护、多因素认证(MFA)、RBAC等功能。"
     },
     {
       "id": "1042b50d",
       "translatable": true,
       "content": "🤝 WorkOS is trusted by hundreds of leading startups like **Perplexity**, **Vercel**, & **Webflow**.",
-      "sourceMdx": "🤝 WorkOS is trusted by hundreds of leading startups like **Perplexity**, **Vercel**, & **Webflow**."
+      "sourceMdx": "🤝 WorkOS is trusted by hundreds of leading startups like **Perplexity**, **Vercel**, & **Webflow**.",
+      "nodeType": "paragraph",
+      "translated_content": "🤝 数百家领先初创企业信任WorkOS，包括**Perplexity**、**Vercel**和**Webflow**。"
     },
     {
       "id": "aa1e7006",
       "translatable": true,
       "content": "[Get started with WorkOS](https://workos.com/?utm_source=thisweekinreact\\&utm_medium=newsletter\\&utm_campaign=q32024) 🚀",
-      "sourceMdx": "[Get started with WorkOS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024) 🚀"
+      "sourceMdx": "[Get started with WorkOS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024) 🚀",
+      "nodeType": "paragraph",
+      "translated_content": "[立即体验WorkOS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024) 🚀"
     },
     {
       "id": "94f98fb8",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "6f930b2f",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React动态 {#react}"
     },
     {
       "id": "c504c207",
       "translatable": true,
       "content": "[![React Email 3.0](/emails/issues/198/reactemail.jpg)](https://resend.com/blog/react-email-3)",
-      "sourceMdx": "[![React Email 3.0](/emails/issues/198/reactemail.jpg)](https://resend.com/blog/react-email-3)"
+      "sourceMdx": "[![React Email 3.0](/emails/issues/198/reactemail.jpg)](https://resend.com/blog/react-email-3)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React Email 3.0](/emails/issues/198/reactemail.jpg)](https://resend.com/blog/react-email-3)"
     },
     {
       "id": "98d26038",
       "translatable": true,
       "content": "**[React Email 3.0](https://resend.com/blog/react-email-3)**",
-      "sourceMdx": "**[React Email 3.0](https://resend.com/blog/react-email-3)**"
+      "sourceMdx": "**[React Email 3.0](https://resend.com/blog/react-email-3)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[React Email 3.0](https://resend.com/blog/react-email-3)**"
     },
     {
       "id": "d3649a1e",
       "translatable": true,
       "content": "A new major version of React Email is out. Highlights include:",
-      "sourceMdx": "A new major version of React Email is out. Highlights include:"
+      "sourceMdx": "A new major version of React Email is out. Highlights include:",
+      "nodeType": "paragraph",
+      "translated_content": "React Email迎来重大版本更新，亮点包括："
     },
     {
       "id": "36ab8340",
       "translatable": true,
       "content": "* A brand-new library of 54 components to copy/paste, similar to shadcn/ui\n* 11x rendering performance improvement\n* Support for React 19 RC",
-      "sourceMdx": "- A brand-new library of 54 components to copy/paste, similar to shadcn/ui\n- 11x rendering performance improvement\n- Support for React 19 RC"
+      "sourceMdx": "- A brand-new library of 54 components to copy/paste, similar to shadcn/ui\n- 11x rendering performance improvement\n- Support for React 19 RC",
+      "nodeType": "list",
+      "translated_content": "- 全新组件库提供54个开箱即用组件，类似shadcn/ui设计\n- 渲染性能提升11倍\n- 支持React 19候选版"
     },
     {
       "id": "aa7d3f2b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "ea0c7bae",
       "translatable": true,
       "content": "- 💸 [Reactile – a new approach to React-based web apps. Create your own views. Let it handle your windows and widgets in a single browser tab](https://www.reactile.net/?utm_source=reactnewsletter)\n- 👀 [React Core PR - Schedule prerender after something suspends](https://github.com/facebook/react/pull/30800): Remember the [Suspense behavior change controversy](https://github.com/facebook/react/issues/29898) delaying the React 19.0 stable release? Andrew has a working implementation to add support for pre-rendering siblings in Suspense components, and this is the first of a series of PR. It introduces a new “pre-rendering” concept that should give us the best of both worlds: keep pre-rendering siblings without blocking the Suspense fallback!\n- 👀 [Next.js PR - Apply optimization for unused actions](https://github.com/vercel/next.js/pull/69178): Implements “tree-shaking” of unused server actions found in top-level “use server” files (not inline). This mitigates a security risk reported by the community and avoids exposing endpoints by mistake.\n- 👀 [React DevTools PR - Support Server Components in Tree](https://github.com/facebook/react/pull/30684): Also adds a `[server]` badge.\n- 👀 [React Router PR - Add support for `routes.ts`](https://github.com/remix-run/react-router/pull/11773): Defines a static list of routes, with a possibility to plug in the Remix filesystem convention. The Vite plugin uses this file to create bundles for each route.\n- 📖 [TanStack Start new doc - Server Functions](https://tanstack.com/router/latest/docs/framework/react/start/server-functions): Gives an interesting preview of the upcoming TanStack-Router-based framework. It uses an explicit `createServerFn()` on top of ‘use server’ directives and can give you access to the request context.\n- 📖 [Next.js new doc - ISR with App Router](https://x.com/leeerob/status/1828142382438858994)\n- 🗓️ [React-Brussels](https://www.react.brussels/?utm_source=thisweekinreact) - 🇧🇪 Brussels - 18 October - Get a 10% discount with code “TWIR”. The full line up is now available, take a tour on the conference website !\n- 🗓️ [React Advanced London](https://reactadvanced.com/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇬🇧 London - 25 & 28 October - [Free remote tickets are available, click here !](https://gitnation.com/badges/react-advanced-conference-2024/jack_herrington?from=This+Week+In+React)\n- 🗓️ [Next.js Conf](https://nextjs.org/conf) - 🇺🇸 San Francisco & Online - October 24\n- 📜 [Error handling and retry with React Server Components](https://edspencer.net/2024/7/16/errors-and-retry-with-react-server-components): To recover from RSC failures, you can present a retry button in your `<ErrorBoundary>`, and call Next.js `router.refresh()` in a transition.\n- 📜 [Everything about Google Translate crashing React (and other web apps)](https://martijnhols.nl/gists/everything-about-google-translate-crashing-react): An interactive blog post that greatly explains how Google Translate works and how it interferes with the DOM and React reconciliation, leading to crashes or text not updating. Unfortunately, there is no real solution.\n- 📜 [Multipart Namespace Components: Addressing RSC and Dot Notation Issues](https://ivicabatinic.from.hr/posts/multipart-namespace-components-addressing-rsc-and-dot-notation-issues): Explains how components like `<Card.Body>` can cause troubles in the RSC world and prevent tree-shaking. Suggests using named ES exports instead of assigning properties to the default root component. Libs like Chakra and Radix do that.\n- 📜 [Implementing React from scratch](https://www.rob.directory/blog/react-from-scratch): Reimplements typing, reconciliation, and hooks. You might discover surprising things along the way, such as the ability to call `useContext` conditionally, or the fact that `useCallback` is similar to `useMemo` returning a callback.\n- 📜 [An SSR Performance Showdown](https://blog.platformatic.dev/an-ssr-performance-showdown): You might have seen this benchmark showing React SSR as being slow. It should be updated with more accurate numbers soon. [Dan Abramov PRs](https://github.com/platformatic/ssr-performance-showdown/pull/8) made React SSR x4 faster by enabling production mode, automatic JSX runtime, and upgrading to React 19 RC (Fast JSX).\n- 📜 [Never Call new Date() Inside Your Components](https://kyleshevlin.com/never-call-new-date-inside-your-components/): To keep your components testable you’d rather avoid initializing state with impure functions like `new Date()` or `Math.random()`, and pass it as props instead. IMHO you can also use React context.\n- 📜 [Consuming a Remix backend from a mobile app or external client](https://www.jacobparis.com/content/remix-external-client): The `?_data` workaround will not work anymore under Remix Single Fetch mode. You’d rather create dedicated API routes for mobile apps and share common code in an abstraction.\n- 📜 [Why is CSS-in-JS slow?](https://playfulprogramming.com/posts/why-is-css-in-js-slow): Greatly illustrated articles explain why traditional CSS-in-JS is slow, and how compiled CSS-in-JS makes it faster by avoiding a waterfall chain of steps for the browsers.\n- 📜 [Interface Segregation Principle in React](https://alexkondov.com/interface-segregation-principle-in-react/): Explains how to apply this SOLID principle when designing component props and encourages you to use composition. Personally, I also like to leverage TypeScript duck typing and helpers like `Pick` narrow prop types.\n- 📜 [Exploring an experimental Micro-Frontend Architecture with Server-Side Rendering using React Server Components](https://dev.to/lazarv/exploring-an-experimental-micro-frontend-architecture-with-server-side-rendering-using-react-server-components-2d0f): An alternative RSC framework introduced an innovative concept of “RSC Delegation”.\n- 📜 [Introducing InformAI - Easy & Useful AI for React apps](https://edspencer.net/2024/8/26/introducing-inform-ai)\n- 📜 [Next.js + Supabase app in production: what would I do differently](https://catjam.fi/articles/next-supabase-what-do-differently)\n- 📦 [Material UI 6.0](https://mui.com/blog/material-ui-v6-is-out/): A great release with many new features and improvements. More importantly, it introduces an opt-in integration with Pigment CSS for static CSS extraction and zero-runtime CSS-in-JS, as a replacement for Emotion, with the ability to support React Server Components and React 19.\n- 📦 [Code Hike 1.0 - Bridges the gap between Markdown to create rich interactive experiences](https://codehike.org/blog/v1)\n- 📦 [Astro 5.0 alphas - stable globalRoutePriority, stable astro:env, CSRF protection by default…](https://github.com/withastro/astro/releases?q=%22astro%405.0.0%22)\n- 🎥 [Theo - React, is it time to move on?](https://www.youtube.com/watch?v=0tvfC9r9lcw)\n- 🎥 [Lee Robinson - Fast ecommerce with optimistic UI and Next.js](https://www.youtube.com/watch?v=Fl1x57e5i4k)",
-      "sourceMdx": "- 💸 [Reactile – a new approach to React-based web apps. Create your own views. Let it handle your windows and widgets in a single browser tab](https://www.reactile.net/?utm_source=reactnewsletter)\n- 👀 [React Core PR - Schedule prerender after something suspends](https://github.com/facebook/react/pull/30800): Remember the [Suspense behavior change controversy](https://github.com/facebook/react/issues/29898) delaying the React 19.0 stable release? Andrew has a working implementation to add support for pre-rendering siblings in Suspense components, and this is the first of a series of PR. It introduces a new “pre-rendering” concept that should give us the best of both worlds: keep pre-rendering siblings without blocking the Suspense fallback!\n- 👀 [Next.js PR - Apply optimization for unused actions](https://github.com/vercel/next.js/pull/69178): Implements “tree-shaking” of unused server actions found in top-level “use server” files (not inline). This mitigates a security risk reported by the community and avoids exposing endpoints by mistake.\n- 👀 [React DevTools PR - Support Server Components in Tree](https://github.com/facebook/react/pull/30684): Also adds a `[server]` badge.\n- 👀 [React Router PR - Add support for `routes.ts`](https://github.com/remix-run/react-router/pull/11773): Defines a static list of routes, with a possibility to plug in the Remix filesystem convention. The Vite plugin uses this file to create bundles for each route.\n- 📖 [TanStack Start new doc - Server Functions](https://tanstack.com/router/latest/docs/framework/react/start/server-functions): Gives an interesting preview of the upcoming TanStack-Router-based framework. It uses an explicit `createServerFn()` on top of ‘use server’ directives and can give you access to the request context.\n- 📖 [Next.js new doc - ISR with App Router](https://x.com/leeerob/status/1828142382438858994)\n- 🗓️ [React-Brussels](https://www.react.brussels/?utm_source=thisweekinreact) - 🇧🇪 Brussels - 18 October - Get a 10% discount with code “TWIR”. The full line up is now available, take a tour on the conference website !\n- 🗓️ [React Advanced London](https://reactadvanced.com/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇬🇧 London - 25 & 28 October - [Free remote tickets are available, click here !](https://gitnation.com/badges/react-advanced-conference-2024/jack_herrington?from=This+Week+In+React)\n- 🗓️ [Next.js Conf](https://nextjs.org/conf) - 🇺🇸 San Francisco & Online - October 24\n- 📜 [Error handling and retry with React Server Components](https://edspencer.net/2024/7/16/errors-and-retry-with-react-server-components): To recover from RSC failures, you can present a retry button in your `<ErrorBoundary>`, and call Next.js `router.refresh()` in a transition.\n- 📜 [Everything about Google Translate crashing React (and other web apps)](https://martijnhols.nl/gists/everything-about-google-translate-crashing-react): An interactive blog post that greatly explains how Google Translate works and how it interferes with the DOM and React reconciliation, leading to crashes or text not updating. Unfortunately, there is no real solution.\n- 📜 [Multipart Namespace Components: Addressing RSC and Dot Notation Issues](https://ivicabatinic.from.hr/posts/multipart-namespace-components-addressing-rsc-and-dot-notation-issues): Explains how components like `<Card.Body>` can cause troubles in the RSC world and prevent tree-shaking. Suggests using named ES exports instead of assigning properties to the default root component. Libs like Chakra and Radix do that.\n- 📜 [Implementing React from scratch](https://www.rob.directory/blog/react-from-scratch): Reimplements typing, reconciliation, and hooks. You might discover surprising things along the way, such as the ability to call `useContext` conditionally, or the fact that `useCallback` is similar to `useMemo` returning a callback.\n- 📜 [An SSR Performance Showdown](https://blog.platformatic.dev/an-ssr-performance-showdown): You might have seen this benchmark showing React SSR as being slow. It should be updated with more accurate numbers soon. [Dan Abramov PRs](https://github.com/platformatic/ssr-performance-showdown/pull/8) made React SSR x4 faster by enabling production mode, automatic JSX runtime, and upgrading to React 19 RC (Fast JSX).\n- 📜 [Never Call new Date() Inside Your Components](https://kyleshevlin.com/never-call-new-date-inside-your-components/): To keep your components testable you’d rather avoid initializing state with impure functions like `new Date()` or `Math.random()`, and pass it as props instead. IMHO you can also use React context.\n- 📜 [Consuming a Remix backend from a mobile app or external client](https://www.jacobparis.com/content/remix-external-client): The `?_data` workaround will not work anymore under Remix Single Fetch mode. You’d rather create dedicated API routes for mobile apps and share common code in an abstraction.\n- 📜 [Why is CSS-in-JS slow?](https://playfulprogramming.com/posts/why-is-css-in-js-slow): Greatly illustrated articles explain why traditional CSS-in-JS is slow, and how compiled CSS-in-JS makes it faster by avoiding a waterfall chain of steps for the browsers.\n- 📜 [Interface Segregation Principle in React](https://alexkondov.com/interface-segregation-principle-in-react/): Explains how to apply this SOLID principle when designing component props and encourages you to use composition. Personally, I also like to leverage TypeScript duck typing and helpers like `Pick` narrow prop types.\n- 📜 [Exploring an experimental Micro-Frontend Architecture with Server-Side Rendering using React Server Components](https://dev.to/lazarv/exploring-an-experimental-micro-frontend-architecture-with-server-side-rendering-using-react-server-components-2d0f): An alternative RSC framework introduced an innovative concept of “RSC Delegation”.\n- 📜 [Introducing InformAI - Easy & Useful AI for React apps](https://edspencer.net/2024/8/26/introducing-inform-ai)\n- 📜 [Next.js + Supabase app in production: what would I do differently](https://catjam.fi/articles/next-supabase-what-do-differently)\n- 📦 [Material UI 6.0](https://mui.com/blog/material-ui-v6-is-out/): A great release with many new features and improvements. More importantly, it introduces an opt-in integration with Pigment CSS for static CSS extraction and zero-runtime CSS-in-JS, as a replacement for Emotion, with the ability to support React Server Components and React 19.\n- 📦 [Code Hike 1.0 - Bridges the gap between Markdown to create rich interactive experiences](https://codehike.org/blog/v1)\n- 📦 [Astro 5.0 alphas - stable globalRoutePriority, stable astro:env, CSRF protection by default…](https://github.com/withastro/astro/releases?q=%22astro%405.0.0%22)\n- 🎥 [Theo - React, is it time to move on?](https://www.youtube.com/watch?v=0tvfC9r9lcw)\n- 🎥 [Lee Robinson - Fast ecommerce with optimistic UI and Next.js](https://www.youtube.com/watch?v=Fl1x57e5i4k)"
+      "sourceMdx": "- 💸 [Reactile – a new approach to React-based web apps. Create your own views. Let it handle your windows and widgets in a single browser tab](https://www.reactile.net/?utm_source=reactnewsletter)\n- 👀 [React Core PR - Schedule prerender after something suspends](https://github.com/facebook/react/pull/30800): Remember the [Suspense behavior change controversy](https://github.com/facebook/react/issues/29898) delaying the React 19.0 stable release? Andrew has a working implementation to add support for pre-rendering siblings in Suspense components, and this is the first of a series of PR. It introduces a new “pre-rendering” concept that should give us the best of both worlds: keep pre-rendering siblings without blocking the Suspense fallback!\n- 👀 [Next.js PR - Apply optimization for unused actions](https://github.com/vercel/next.js/pull/69178): Implements “tree-shaking” of unused server actions found in top-level “use server” files (not inline). This mitigates a security risk reported by the community and avoids exposing endpoints by mistake.\n- 👀 [React DevTools PR - Support Server Components in Tree](https://github.com/facebook/react/pull/30684): Also adds a `[server]` badge.\n- 👀 [React Router PR - Add support for `routes.ts`](https://github.com/remix-run/react-router/pull/11773): Defines a static list of routes, with a possibility to plug in the Remix filesystem convention. The Vite plugin uses this file to create bundles for each route.\n- 📖 [TanStack Start new doc - Server Functions](https://tanstack.com/router/latest/docs/framework/react/start/server-functions): Gives an interesting preview of the upcoming TanStack-Router-based framework. It uses an explicit `createServerFn()` on top of ‘use server’ directives and can give you access to the request context.\n- 📖 [Next.js new doc - ISR with App Router](https://x.com/leeerob/status/1828142382438858994)\n- 🗓️ [React-Brussels](https://www.react.brussels/?utm_source=thisweekinreact) - 🇧🇪 Brussels - 18 October - Get a 10% discount with code “TWIR”. The full line up is now available, take a tour on the conference website !\n- 🗓️ [React Advanced London](https://reactadvanced.com/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇬🇧 London - 25 & 28 October - [Free remote tickets are available, click here !](https://gitnation.com/badges/react-advanced-conference-2024/jack_herrington?from=This+Week+In+React)\n- 🗓️ [Next.js Conf](https://nextjs.org/conf) - 🇺🇸 San Francisco & Online - October 24\n- 📜 [Error handling and retry with React Server Components](https://edspencer.net/2024/7/16/errors-and-retry-with-react-server-components): To recover from RSC failures, you can present a retry button in your `<ErrorBoundary>`, and call Next.js `router.refresh()` in a transition.\n- 📜 [Everything about Google Translate crashing React (and other web apps)](https://martijnhols.nl/gists/everything-about-google-translate-crashing-react): An interactive blog post that greatly explains how Google Translate works and how it interferes with the DOM and React reconciliation, leading to crashes or text not updating. Unfortunately, there is no real solution.\n- 📜 [Multipart Namespace Components: Addressing RSC and Dot Notation Issues](https://ivicabatinic.from.hr/posts/multipart-namespace-components-addressing-rsc-and-dot-notation-issues): Explains how components like `<Card.Body>` can cause troubles in the RSC world and prevent tree-shaking. Suggests using named ES exports instead of assigning properties to the default root component. Libs like Chakra and Radix do that.\n- 📜 [Implementing React from scratch](https://www.rob.directory/blog/react-from-scratch): Reimplements typing, reconciliation, and hooks. You might discover surprising things along the way, such as the ability to call `useContext` conditionally, or the fact that `useCallback` is similar to `useMemo` returning a callback.\n- 📜 [An SSR Performance Showdown](https://blog.platformatic.dev/an-ssr-performance-showdown): You might have seen this benchmark showing React SSR as being slow. It should be updated with more accurate numbers soon. [Dan Abramov PRs](https://github.com/platformatic/ssr-performance-showdown/pull/8) made React SSR x4 faster by enabling production mode, automatic JSX runtime, and upgrading to React 19 RC (Fast JSX).\n- 📜 [Never Call new Date() Inside Your Components](https://kyleshevlin.com/never-call-new-date-inside-your-components/): To keep your components testable you’d rather avoid initializing state with impure functions like `new Date()` or `Math.random()`, and pass it as props instead. IMHO you can also use React context.\n- 📜 [Consuming a Remix backend from a mobile app or external client](https://www.jacobparis.com/content/remix-external-client): The `?_data` workaround will not work anymore under Remix Single Fetch mode. You’d rather create dedicated API routes for mobile apps and share common code in an abstraction.\n- 📜 [Why is CSS-in-JS slow?](https://playfulprogramming.com/posts/why-is-css-in-js-slow): Greatly illustrated articles explain why traditional CSS-in-JS is slow, and how compiled CSS-in-JS makes it faster by avoiding a waterfall chain of steps for the browsers.\n- 📜 [Interface Segregation Principle in React](https://alexkondov.com/interface-segregation-principle-in-react/): Explains how to apply this SOLID principle when designing component props and encourages you to use composition. Personally, I also like to leverage TypeScript duck typing and helpers like `Pick` narrow prop types.\n- 📜 [Exploring an experimental Micro-Frontend Architecture with Server-Side Rendering using React Server Components](https://dev.to/lazarv/exploring-an-experimental-micro-frontend-architecture-with-server-side-rendering-using-react-server-components-2d0f): An alternative RSC framework introduced an innovative concept of “RSC Delegation”.\n- 📜 [Introducing InformAI - Easy & Useful AI for React apps](https://edspencer.net/2024/8/26/introducing-inform-ai)\n- 📜 [Next.js + Supabase app in production: what would I do differently](https://catjam.fi/articles/next-supabase-what-do-differently)\n- 📦 [Material UI 6.0](https://mui.com/blog/material-ui-v6-is-out/): A great release with many new features and improvements. More importantly, it introduces an opt-in integration with Pigment CSS for static CSS extraction and zero-runtime CSS-in-JS, as a replacement for Emotion, with the ability to support React Server Components and React 19.\n- 📦 [Code Hike 1.0 - Bridges the gap between Markdown to create rich interactive experiences](https://codehike.org/blog/v1)\n- 📦 [Astro 5.0 alphas - stable globalRoutePriority, stable astro:env, CSRF protection by default…](https://github.com/withastro/astro/releases?q=%22astro%405.0.0%22)\n- 🎥 [Theo - React, is it time to move on?](https://www.youtube.com/watch?v=0tvfC9r9lcw)\n- 🎥 [Lee Robinson - Fast ecommerce with optimistic UI and Next.js](https://www.youtube.com/watch?v=Fl1x57e5i4k)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [Reactile——一种基于React的Web应用新方案。创建自定义视图，让它在单个浏览器标签页中管理你的窗口和小部件](https://www.reactile.net/?utm_source=reactnewsletter)\n- 👀 [React核心PR——在组件挂起后调度预渲染](https://github.com/facebook/react/pull/30800)：还记得[延迟React 19.0稳定版发布的Suspense行为变更争议](https://github.com/facebook/react/issues/29898)吗？Andrew提交了一个实现方案，支持在Suspense组件中预渲染兄弟节点，这是系列PR中的第一个。该方案引入了\"预渲染\"新概念，有望兼顾两者优势：既保留兄弟节点预渲染能力，又不会阻塞Suspense回退显示！\n- 👀 [Next.js PR——对未使用操作实施优化](https://github.com/vercel/next.js/pull/69178)：实现顶层\"use server\"文件（非内联）中未使用服务端操作的\"tree-shaking\"。这缓解了社区报告的安全风险，避免意外暴露端点。\n- 👀 [React DevTools PR——支持在组件树中显示服务端组件](https://github.com/facebook/react/pull/30684)：同时添加了`[server]`标记。\n- 👀 [React Router PR——新增对`routes.ts`的支持](https://github.com/remix-run/react-router/pull/11773)：定义静态路由列表，可接入Remix文件系统约定。Vite插件利用该文件为每个路由创建bundle。\n- 📖 [TanStack Start新文档——服务端函数](https://tanstack.com/router/latest/docs/framework/react/start/server-functions)：预览了基于TanStack-Router的新框架特性。它在\"use server\"指令基础上使用显式`createServerFn()`，可获取请求上下文。\n- 📖 [Next.js新文档——App Router下的ISR](https://x.com/leeerob/status/1828142382438858994)\n- 🗓️ [React-Brussels](https://www.react.brussels/?utm_source=thisweekinreact) - 🇧🇪 布鲁塞尔 - 10月18日 - 使用优惠码\"TWIR\"可享9折。完整议程已公布，请访问会议官网查看！\n- 🗓️ [React Advanced伦敦大会](https://reactadvanced.com/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇬🇧 伦敦 - 10月25日 & 28日 - [免费远程参会名额开放申请](https://gitnation.com/badges/react-advanced-conference-2024/jack_herrington?from=This+Week+In+React)\n- 🗓️ [Next.js Conf](https://nextjs.org/conf) - 🇺🇸 旧金山 & 线上 - 10月24日\n- 📜 [React服务端组件的错误处理与重试机制](https://edspencer.net/2024/7/16/errors-and-retry-with-react-server-components)：要在RSC失败后恢复，可在`<ErrorBoundary>`中添加重试按钮，并在transition中调用Next.js的`router.refresh()`。\n- 📜 [关于谷歌翻译导致React（及其他Web应用）崩溃的全面解析](https://martijnhols.nl/gists/everything-about-google-translate-crashing-react)：这篇交互式博文详细解释了谷歌翻译的工作原理，以及它如何干扰DOM和React协调机制，导致崩溃或文本不更新。遗憾的是目前没有根本解决方案。\n- 📜 [多部分命名空间组件：解决RSC与点符号问题](https://ivicabatinic.from.hr/posts/multipart-namespace-components-addressing-rsc-and-dot-notation-issues)：分析类似`<Card.Body>`的组件在RSC环境下可能引发的问题（如阻碍tree-shaking），建议改用具名ES导出而非给默认根组件赋值属性。Chakra和Radix等库已采用此方案。\n- 📜 [从零实现React](https://www.rob.directory/blog/react-from-scratch)：重新实现类型系统、协调算法和hooks。过程中你会发现一些反直觉的特性，比如有条件地调用`useContext`，或`useCallback`本质上是返回回调函数的`useMemo`。\n- 📜 [SSR性能对决](https://blog.platformatic.dev/an-ssr-performance-showdown)：你可能见过显示React SSR性能较差的基准测试。[Dan Abramov的PR](https://github.com/platformatic/ssr-performance-showdown/pull/8)通过启用生产模式、自动JSX运行时和升级到React 19 RC（Fast JSX），使React SSR性能提升4倍。\n- 📜 [永远不要在组件内部调用new Date()](https://kyleshevlin.com/never-call-new-date-inside-your-components/)：为保证组件可测试性，应避免使用`new Date()`或`Math.random()`等非纯函数初始化状态，建议通过props传入。作者认为React context也是可行方案。\n- 📜 [从移动应用或外部客户端消费Remix后端](https://www.jacobparis.com/content/remix-external-client)：在Remix单次获取模式下，`?_data`变通方案将失效。建议为移动应用创建专用API路由，并通过抽象层共享公共代码。\n- 📜 [为什么CSS-in-JS性能差？](https://playfulprogramming.com/posts/why-is-css-in-js-slow)：这篇图文并茂的文章解析了传统CSS-in-JS缓慢的原因，以及编译型CSS-in-JS如何通过避免浏览器级联处理来提升性能。\n- 📜 [React中的接口隔离原则](https://alexkondov.com/interface-segregation-principle-in-react/)：讲解如何应用SOLID原则设计组件props，鼓励使用组合模式。作者还推荐利用TypeScript鸭子类型和`Pick`等工具类型来细化props。\n- 📜 [探索基于React服务端组件的微前端架构实验](https://dev.to/lazarv/exploring-an-experimental-micro-frontend-architecture-with-server-side-rendering-using-react-server-components-2d0f)：某RSC框架创新性地提出了\"RSC委托\"概念。\n- 📜 [InformAI发布——为React应用提供简单实用的AI功能](https://edspencer.net/2024/8/26/introducing-inform-ai)\n- 📜 [Next.js + Supabase生产实践：我会做出哪些改变](https://catjam.fi/articles/next-supabase-what-do-differently)\n- 📦 [Material UI 6.0发布](https://mui.com/blog/material-ui-v6-is-out/)：重要版本引入Pigment CSS集成，支持静态CSS提取和零运行时CSS-in-JS，作为Emotion的替代方案，兼容服务端组件和React 19。\n- 📦 [Code Hike 1.0——弥合Markdown与富交互体验的鸿沟](https://codehike.org/blog/v1)\n- 📦 [Astro 5.0 alpha——稳定的globalRoutePriority、astro:env、默认启用CSRF防护...](https://github.com/withastro/astro/releases?q=%22astro%405.0.0%22)\n- 🎥 [Theo——React，是时候转向了吗？](https://www.youtube.com/watch?v=0tvfC9r9lcw)\n- 🎥 [Lee Robinson——基于乐观UI和Next.js的极速电商方案](https://www.youtube.com/watch?v=Fl1x57e5i4k)"
     },
     {
       "id": "3ca4b8b0",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_3ca4b8b0"
     },
     {
       "id": "945bf499",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "e33a2404",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "82e90254",
       "translatable": true,
       "content": "[![Increase Library Adoption with Interactive Tutorials](/emails/issues/198/tutorialkit.jpg)](https://tutorialkit.dev/?utm_source=twir\\&utm_medium=primary)",
-      "sourceMdx": "[![Increase Library Adoption with Interactive Tutorials](/emails/issues/198/tutorialkit.jpg)](https://tutorialkit.dev/?utm_source=twir&utm_medium=primary)"
+      "sourceMdx": "[![Increase Library Adoption with Interactive Tutorials](/emails/issues/198/tutorialkit.jpg)](https://tutorialkit.dev/?utm_source=twir&utm_medium=primary)",
+      "nodeType": "paragraph",
+      "translated_content": "[![通过交互式教程提升库的采用率](/emails/issues/198/tutorialkit.jpg)](https://tutorialkit.dev/?utm_source=twir&utm_medium=primary)"
     },
     {
       "id": "2822251a",
       "translatable": true,
       "content": "**[Increase Library Adoption with Interactive Tutorials](https://tutorialkit.dev/?utm_source=twir\\&utm_medium=primary)**",
-      "sourceMdx": "**[Increase Library Adoption with Interactive Tutorials](https://tutorialkit.dev/?utm_source=twir&utm_medium=primary)**"
+      "sourceMdx": "**[Increase Library Adoption with Interactive Tutorials](https://tutorialkit.dev/?utm_source=twir&utm_medium=primary)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[通过交互式教程提升库的采用率](https://tutorialkit.dev/?utm_source=twir&utm_medium=primary)**"
     },
     {
       "id": "25212439",
       "translatable": true,
       "content": "Are you looking to increase adoption of your JavaScript framework or library? **TutorialKit by StackBlitz** is a command-line interface (CLI) generator that allows you to create fully interactive code tutorials that engage your users and help them learn quickly.",
-      "sourceMdx": "Are you looking to increase adoption of your JavaScript framework or library? **TutorialKit by StackBlitz** is a command-line interface (CLI) generator that allows you to create fully interactive code tutorials that engage your users and help them learn quickly."
+      "sourceMdx": "Are you looking to increase adoption of your JavaScript framework or library? **TutorialKit by StackBlitz** is a command-line interface (CLI) generator that allows you to create fully interactive code tutorials that engage your users and help them learn quickly.",
+      "nodeType": "paragraph",
+      "translated_content": "是否希望提升您的JavaScript框架或库的采用率？**StackBlitz推出的TutorialKit**是一个命令行界面(CLI)生成器，可帮助您创建完全交互式的代码教程，吸引用户并加速他们的学习过程。"
     },
     {
       "id": "d79a4831",
       "translatable": true,
       "content": "To get started with TutorialKit, simply run the `npm create tutorial` command to launch a wizard that guides you through the tutorial site generation process. The scaffolded project takes care of the underlying tutorial logic and in-browser code editor, so you can focus on the content.",
-      "sourceMdx": "To get started with TutorialKit, simply run the `npm create tutorial` command to launch a wizard that guides you through the tutorial site generation process. The scaffolded project takes care of the underlying tutorial logic and in-browser code editor, so you can focus on the content."
+      "sourceMdx": "To get started with TutorialKit, simply run the `npm create tutorial` command to launch a wizard that guides you through the tutorial site generation process. The scaffolded project takes care of the underlying tutorial logic and in-browser code editor, so you can focus on the content.",
+      "nodeType": "paragraph",
+      "translated_content": "只需运行`npm create tutorial`命令即可启动TutorialKit，向导将引导您完成教程站点的生成流程。脚手架项目已内置教程逻辑和浏览器内代码编辑器，您只需专注于内容创作。"
     },
     {
       "id": "2838eb68",
       "translatable": true,
       "content": "Whether you're launching a new framework or updating an existing library, TutorialKit ensures that your users have the best learning experience possible. Don't let your library go unnoticed. [Get started now!](https://tutorialkit.dev/?utm_source=twir\\&utm_medium=link)",
-      "sourceMdx": "Whether you're launching a new framework or updating an existing library, TutorialKit ensures that your users have the best learning experience possible. Don't let your library go unnoticed. [Get started now!](https://tutorialkit.dev/?utm_source=twir&utm_medium=link)"
+      "sourceMdx": "Whether you're launching a new framework or updating an existing library, TutorialKit ensures that your users have the best learning experience possible. Don't let your library go unnoticed. [Get started now!](https://tutorialkit.dev/?utm_source=twir&utm_medium=link)",
+      "nodeType": "paragraph",
+      "translated_content": "无论您是要发布新框架还是更新现有库，TutorialKit都能确保用户获得最佳学习体验。别让您的库被埋没。[立即开始使用！](https://tutorialkit.dev/?utm_source=twir&utm_medium=link)"
     },
     {
       "id": "f414353c",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "f947c8e4",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "38417f80",
       "translatable": true,
       "content": "* 💸 [Learn how to create a simple, type-safe PDF viewer with the Apryse SDK and React Native — complete with editing and annotation features.](https://apryse.com/blog/mobile/react-native-typescript-pdf-viewer?utm_source=thisweekinreact\\&utm_medium=newsletter\\&utm_campaign=0828)\n* 🐦 [Reanimated 4.0 will only work with Fabric (the new RN architecture)](https://x.com/kzzzf/status/1828461715228422153)\n* 🐦 [React Native WebGPU on visionOS demo](https://x.com/o_kwasniewski/status/1828079146456535224)\n* 👀 [React Native PR - migrate template to Swift](https://github.com/react-native-community/template/pull/45): Exciting to generate new React Native projects with AppDelegate in Swift instead of Objective-C.\n* 🗓️ [React Universe Conf](https://www.reactuniverseconf.com/?utm_source=thisweekinreact) - 🇵🇱 Wrocław - Sept 5-6. 10% discount with code \"TWIR\". Can’t make it in person? Register for Free Livestream Access! Speakers: Mike Grabowski, Fernando Rojo, Alex Hunt, Eric Vicenti...\n* 📜 [Shopify Tophat - Crafting a Delightful Mobile Developer Experience](https://shopify.engineering/shopify-tophat-mobile-developer-testing): Re-introduces “Tophat”, the macOS menubar app to increase React Native DX, that Shopify finally open-sourced last week. Apparently, this was an inspiration for Expo Orbit.\n* 📜 [Expo - What to do without CodePush](https://expo.dev/blog/what-to-do-without-codepush): Microsoft App Center will shut down soon, including CodePush. This article suggests CodePush alternatives for Over-The-Air updates. It encourages you to adopt EAS Updates by offering a nice side-by-side comparison, but also mentions self-hosted alternatives.\n* 📜 [Introducing Oblivious HTTP support in Swift](https://www.swift.org/blog/introducing-swift-nio-oblivious-http/): New Swift API could be useful for React Native devs looking to increase privacy protection.\n* 📜 [How to build a Bluetooth Low Energy powered Expo app](https://expo.dev/blog/how-to-build-a-bluetooth-low-energy-powered-expo-app): Tutorial using `react-native-ble-plx` with Expo Config plugin.\n* 📜 [How to deploy App Store and Beta versions of React Native iOS app from Azure DevOps pipeline](https://www.nico.fyi/blog/how-to-deploy-multiple-versions-react-native-ios-to-testflight-from-azure-devops-pipeline)\n* 📜 [How Rosebud decided to go native with Expo](https://expo.dev/blog/how-rosebud-decided-to-go-native-with-expo)\n* 📦 [React-Native-MMKV 3.0 - faster key/value storage, full rewrite to pure C++ TurboModule](https://github.com/mrousavy/react-native-mmkv/releases/tag/v3.0.0)\n* 📦 [React Native visionOS 0.75](https://github.com/callstack/react-native-visionos/releases/tag/v0.75.0-visionos)\n* 📦 [Re.Pack 4.3 - RN 0.75, --watch flag](https://github.com/callstack/repack/releases/tag/%40callstack%2Frepack%404.3.0)\n* 📦 [Belt - Opionated CLI tool for starting a new React Native app](https://thoughtbot.com/blog/introducing-belt-your-new-favorite-tool-for-starting-react-native-apps)\n* 🎥 [Beto - Building an Obscura Pro Camera App with React Native Vision Camera and Expo](https://www.youtube.com/watch?v=xNaGYGDZ2JU)\n* 🎥 [Simon Grimm - When does local-first make sense?](https://www.youtube.com/watch?v=vLRtC53rwCg)\n* 🎥 [The React Native Podcast rebrands to React Universe On Air](https://www.youtube.com/watch?v=Y8VVdfP9QDE): The popular Callstack podcast has rebranded to a new name matching the upcoming React Universe conf next week and for covering a broader React cross-platform scope.\n* 🎙️ [Rocket Ship 48 - MLKit & The React Native Paradox with Gant Laborde](https://share.transistor.fm/s/9b305e63)\n* 🎙️ [RNR 305 - On-device AI in React Native with Gant Laborde](https://www.reactnativeradio.com/episodes/rnr-305-on-device-ai-in-react-native-with-gant-laborde) (yes, him again!)",
-      "sourceMdx": "- 💸 [Learn how to create a simple, type-safe PDF viewer with the Apryse SDK and React Native — complete with editing and annotation features.](https://apryse.com/blog/mobile/react-native-typescript-pdf-viewer?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=0828)\n- 🐦 [Reanimated 4.0 will only work with Fabric (the new RN architecture)](https://x.com/kzzzf/status/1828461715228422153)\n- 🐦 [React Native WebGPU on visionOS demo](https://x.com/o_kwasniewski/status/1828079146456535224)\n- 👀 [React Native PR - migrate template to Swift](https://github.com/react-native-community/template/pull/45): Exciting to generate new React Native projects with AppDelegate in Swift instead of Objective-C.\n- 🗓️ [React Universe Conf](https://www.reactuniverseconf.com/?utm_source=thisweekinreact) - 🇵🇱 Wrocław - Sept 5-6. 10% discount with code \"TWIR\". Can’t make it in person? Register for Free Livestream Access! Speakers: Mike Grabowski, Fernando Rojo, Alex Hunt, Eric Vicenti...\n- 📜 [Shopify Tophat - Crafting a Delightful Mobile Developer Experience](https://shopify.engineering/shopify-tophat-mobile-developer-testing): Re-introduces “Tophat”, the macOS menubar app to increase React Native DX, that Shopify finally open-sourced last week. Apparently, this was an inspiration for Expo Orbit.\n- 📜 [Expo - What to do without CodePush](https://expo.dev/blog/what-to-do-without-codepush): Microsoft App Center will shut down soon, including CodePush. This article suggests CodePush alternatives for Over-The-Air updates. It encourages you to adopt EAS Updates by offering a nice side-by-side comparison, but also mentions self-hosted alternatives.\n- 📜 [Introducing Oblivious HTTP support in Swift](https://www.swift.org/blog/introducing-swift-nio-oblivious-http/): New Swift API could be useful for React Native devs looking to increase privacy protection.\n- 📜 [How to build a Bluetooth Low Energy powered Expo app](https://expo.dev/blog/how-to-build-a-bluetooth-low-energy-powered-expo-app): Tutorial using `react-native-ble-plx` with Expo Config plugin.\n- 📜 [How to deploy App Store and Beta versions of React Native iOS app from Azure DevOps pipeline](https://www.nico.fyi/blog/how-to-deploy-multiple-versions-react-native-ios-to-testflight-from-azure-devops-pipeline)\n- 📜 [How Rosebud decided to go native with Expo](https://expo.dev/blog/how-rosebud-decided-to-go-native-with-expo)\n- 📦 [React-Native-MMKV 3.0 - faster key/value storage, full rewrite to pure C++ TurboModule](https://github.com/mrousavy/react-native-mmkv/releases/tag/v3.0.0)\n- 📦 [React Native visionOS 0.75](https://github.com/callstack/react-native-visionos/releases/tag/v0.75.0-visionos)\n- 📦 [Re.Pack 4.3 - RN 0.75, --watch flag](https://github.com/callstack/repack/releases/tag/%40callstack%2Frepack%404.3.0)\n- 📦 [Belt - Opionated CLI tool for starting a new React Native app](https://thoughtbot.com/blog/introducing-belt-your-new-favorite-tool-for-starting-react-native-apps)\n- 🎥 [Beto - Building an Obscura Pro Camera App with React Native Vision Camera and Expo](https://www.youtube.com/watch?v=xNaGYGDZ2JU)\n- 🎥 [Simon Grimm - When does local-first make sense?](https://www.youtube.com/watch?v=vLRtC53rwCg)\n- 🎥 [The React Native Podcast rebrands to React Universe On Air](https://www.youtube.com/watch?v=Y8VVdfP9QDE): The popular Callstack podcast has rebranded to a new name matching the upcoming React Universe conf next week and for covering a broader React cross-platform scope.\n- 🎙️ [Rocket Ship 48 - MLKit & The React Native Paradox with Gant Laborde](https://share.transistor.fm/s/9b305e63)\n- 🎙️ [RNR 305 - On-device AI in React Native with Gant Laborde](https://www.reactnativeradio.com/episodes/rnr-305-on-device-ai-in-react-native-with-gant-laborde) (yes, him again!)"
+      "sourceMdx": "- 💸 [Learn how to create a simple, type-safe PDF viewer with the Apryse SDK and React Native — complete with editing and annotation features.](https://apryse.com/blog/mobile/react-native-typescript-pdf-viewer?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=0828)\n- 🐦 [Reanimated 4.0 will only work with Fabric (the new RN architecture)](https://x.com/kzzzf/status/1828461715228422153)\n- 🐦 [React Native WebGPU on visionOS demo](https://x.com/o_kwasniewski/status/1828079146456535224)\n- 👀 [React Native PR - migrate template to Swift](https://github.com/react-native-community/template/pull/45): Exciting to generate new React Native projects with AppDelegate in Swift instead of Objective-C.\n- 🗓️ [React Universe Conf](https://www.reactuniverseconf.com/?utm_source=thisweekinreact) - 🇵🇱 Wrocław - Sept 5-6. 10% discount with code \"TWIR\". Can’t make it in person? Register for Free Livestream Access! Speakers: Mike Grabowski, Fernando Rojo, Alex Hunt, Eric Vicenti...\n- 📜 [Shopify Tophat - Crafting a Delightful Mobile Developer Experience](https://shopify.engineering/shopify-tophat-mobile-developer-testing): Re-introduces “Tophat”, the macOS menubar app to increase React Native DX, that Shopify finally open-sourced last week. Apparently, this was an inspiration for Expo Orbit.\n- 📜 [Expo - What to do without CodePush](https://expo.dev/blog/what-to-do-without-codepush): Microsoft App Center will shut down soon, including CodePush. This article suggests CodePush alternatives for Over-The-Air updates. It encourages you to adopt EAS Updates by offering a nice side-by-side comparison, but also mentions self-hosted alternatives.\n- 📜 [Introducing Oblivious HTTP support in Swift](https://www.swift.org/blog/introducing-swift-nio-oblivious-http/): New Swift API could be useful for React Native devs looking to increase privacy protection.\n- 📜 [How to build a Bluetooth Low Energy powered Expo app](https://expo.dev/blog/how-to-build-a-bluetooth-low-energy-powered-expo-app): Tutorial using `react-native-ble-plx` with Expo Config plugin.\n- 📜 [How to deploy App Store and Beta versions of React Native iOS app from Azure DevOps pipeline](https://www.nico.fyi/blog/how-to-deploy-multiple-versions-react-native-ios-to-testflight-from-azure-devops-pipeline)\n- 📜 [How Rosebud decided to go native with Expo](https://expo.dev/blog/how-rosebud-decided-to-go-native-with-expo)\n- 📦 [React-Native-MMKV 3.0 - faster key/value storage, full rewrite to pure C++ TurboModule](https://github.com/mrousavy/react-native-mmkv/releases/tag/v3.0.0)\n- 📦 [React Native visionOS 0.75](https://github.com/callstack/react-native-visionos/releases/tag/v0.75.0-visionos)\n- 📦 [Re.Pack 4.3 - RN 0.75, --watch flag](https://github.com/callstack/repack/releases/tag/%40callstack%2Frepack%404.3.0)\n- 📦 [Belt - Opionated CLI tool for starting a new React Native app](https://thoughtbot.com/blog/introducing-belt-your-new-favorite-tool-for-starting-react-native-apps)\n- 🎥 [Beto - Building an Obscura Pro Camera App with React Native Vision Camera and Expo](https://www.youtube.com/watch?v=xNaGYGDZ2JU)\n- 🎥 [Simon Grimm - When does local-first make sense?](https://www.youtube.com/watch?v=vLRtC53rwCg)\n- 🎥 [The React Native Podcast rebrands to React Universe On Air](https://www.youtube.com/watch?v=Y8VVdfP9QDE): The popular Callstack podcast has rebranded to a new name matching the upcoming React Universe conf next week and for covering a broader React cross-platform scope.\n- 🎙️ [Rocket Ship 48 - MLKit & The React Native Paradox with Gant Laborde](https://share.transistor.fm/s/9b305e63)\n- 🎙️ [RNR 305 - On-device AI in React Native with Gant Laborde](https://www.reactnativeradio.com/episodes/rnr-305-on-device-ai-in-react-native-with-gant-laborde) (yes, him again!)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [了解如何使用Apryse SDK和React Native创建一个简单、类型安全的PDF查看器——包含编辑和批注功能。](https://apryse.com/blog/mobile/react-native-typescript-pdf-viewer?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=0828)\n- 🐦 [Reanimated 4.0将仅支持Fabric（新版RN架构）](https://x.com/kzzzf/status/1828461715228422153)\n- 🐦 [React Native WebGPU在visionOS上的演示](https://x.com/o_kwasniewski/status/1828079146456535224)\n- 👀 [React Native PR - 将模板迁移至Swift](https://github.com/react-native-community/template/pull/45)：令人兴奋的是，新生成的React Native项目将使用Swift而非Objective-C编写AppDelegate。\n- 🗓️ [React Universe大会](https://www.reactuniverseconf.com/?utm_source=thisweekinreact) - 🇵🇱 弗罗茨瓦夫 - 9月5-6日。使用代码\"TWIR\"可享9折优惠。无法亲临现场？可免费注册观看直播！演讲嘉宾包括Mike Grabowski、Fernando Rojo、Alex Hunt、Eric Vicenti等...\n- 📜 [Shopify Tophat - 打造愉悦的移动开发者体验](https://shopify.engineering/shopify-tophat-mobile-developer-testing)：重新介绍\"Tophat\"这款macOS菜单栏应用，旨在提升React Native开发者体验，Shopify上周终于将其开源。据悉，这曾是Expo Orbit的灵感来源。\n- 📜 [Expo - 没有CodePush怎么办](https://expo.dev/blog/what-to-do-without-codepush)：微软App Center即将关闭，包括CodePush服务。本文推荐了用于空中更新的CodePush替代方案。通过详实的对比分析鼓励采用EAS Updates，同时也提到了自托管替代方案。\n- 📜 [Swift中引入Oblivious HTTP支持](https://www.swift.org/blog/introducing-swift-nio-oblivious-http/)：新的Swift API可能对寻求增强隐私保护的React Native开发者有用。\n- 📜 [如何构建基于蓝牙低功耗的Expo应用](https://expo.dev/blog/how-to-build-a-bluetooth-low-energy-powered-expo-app)：使用`react-native-ble-plx`和Expo配置插件的教程。\n- 📜 [如何通过Azure DevOps管道部署React Native iOS应用的App Store和测试版](https://www.nico.fyi/blog/how-to-deploy-multiple-versions-react-native-ios-to-testflight-from-azure-devops-pipeline)\n- 📜 [Rosebud为何选择使用Expo进行原生开发](https://expo.dev/blog/how-rosebud-decided-to-go-native-with-expo)\n- 📦 [React-Native-MMKV 3.0 - 更快的键值存储，完全重写为纯C++ TurboModule](https://github.com/mrousavy/react-native-mmkv/releases/tag/v3.0.0)\n- 📦 [React Native visionOS 0.75](https://github.com/callstack/react-native-visionos/releases/tag/v0.75.0-visionos)\n- 📦 [Re.Pack 4.3 - 支持RN 0.75，新增--watch标志](https://github.com/callstack/repack/releases/tag/%40callstack%2Frepack%404.3.0)\n- 📦 [Belt - 用于启动新React Native应用的开箱即用CLI工具](https://thoughtbot.com/blog/introducing-belt-your-new-favorite-tool-for-starting-react-native-apps)\n- 🎥 [Beto - 使用React Native Vision Camera和Expo构建Obscura Pro相机应用](https://www.youtube.com/watch?v=xNaGYGDZ2JU)\n- 🎥 [Simon Grimm - 何时适合采用本地优先策略？](https://www.youtube.com/watch?v=vLRtC53rwCg)\n- 🎥 [React Native Podcast更名为React Universe On Air](https://www.youtube.com/watch?v=Y8VVdfP9QDE)：Callstack热门播客更名以匹配下周即将举行的React Universe大会，并拓展至更广泛的React跨平台领域。\n- 🎙️ [Rocket Ship第48期 - 与Gant Laborde探讨MLKit和React Native悖论](https://share.transistor.fm/s/9b305e63)\n- 🎙️ [RNR第305期 - Gant Laborde谈React Native中的设备端AI](https://www.reactnativeradio.com/episodes/rnr-305-on-device-ai-in-react-native-with-gant-laborde)（没错，又是他！）"
     },
     {
       "id": "44f53186",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "8f1c1cd6",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他 {#other}"
     },
     {
       "id": "383fbdd2",
       "translatable": true,
       "content": "[![Rspack 1.0](/emails/issues/198/rspack.jpg)](https://rspack.dev/blog/announcing-1-0)",
-      "sourceMdx": "[![Rspack 1.0](/emails/issues/198/rspack.jpg)](https://rspack.dev/blog/announcing-1-0)"
+      "sourceMdx": "[![Rspack 1.0](/emails/issues/198/rspack.jpg)](https://rspack.dev/blog/announcing-1-0)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Rspack 1.0](/emails/issues/198/rspack.jpg)](https://rspack.dev/blog/announcing-1-0)"
     },
     {
       "id": "14bc6b75",
       "translatable": true,
       "content": "**[Rspack 1.0](https://rspack.dev/blog/announcing-1-0)**",
-      "sourceMdx": "**[Rspack 1.0](https://rspack.dev/blog/announcing-1-0)**"
+      "sourceMdx": "**[Rspack 1.0](https://rspack.dev/blog/announcing-1-0)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Rspack 1.0](https://rspack.dev/blog/announcing-1-0)**"
     },
     {
       "id": "e478ec2c",
       "translatable": true,
       "content": "Rspack is a very fast Rust bundler that is almost 100% compatible with Webpack, including its entire ecosystem of plugins and loaders. Rspack is well suited to being a great choice for many React apps using Webpack that need to bundle faster today. It’s easy to adopt thanks to its compatibility, but also future-proof with [upcoming first-class React Server Components support](https://rspack.dev/blog/announcing-1-0#react-server-components-support). That’s why I’m [migrating Docusaurus to Rspack](https://x.com/sebastienlorber/status/1828696665135431879) by the way. I’d also recommend to take a look at [Rsdoctor](https://rsdoctor.dev/), it’s a great tool that also works with Webpack and will tell you the bottlenecks of your build.",
-      "sourceMdx": "Rspack is a very fast Rust bundler that is almost 100% compatible with Webpack, including its entire ecosystem of plugins and loaders. Rspack is well suited to being a great choice for many React apps using Webpack that need to bundle faster today. It’s easy to adopt thanks to its compatibility, but also future-proof with [upcoming first-class React Server Components support](https://rspack.dev/blog/announcing-1-0#react-server-components-support). That’s why I’m [migrating Docusaurus to Rspack](https://x.com/sebastienlorber/status/1828696665135431879) by the way. I’d also recommend to take a look at [Rsdoctor](https://rsdoctor.dev/), it’s a great tool that also works with Webpack and will tell you the bottlenecks of your build."
+      "sourceMdx": "Rspack is a very fast Rust bundler that is almost 100% compatible with Webpack, including its entire ecosystem of plugins and loaders. Rspack is well suited to being a great choice for many React apps using Webpack that need to bundle faster today. It’s easy to adopt thanks to its compatibility, but also future-proof with [upcoming first-class React Server Components support](https://rspack.dev/blog/announcing-1-0#react-server-components-support). That’s why I’m [migrating Docusaurus to Rspack](https://x.com/sebastienlorber/status/1828696665135431879) by the way. I’d also recommend to take a look at [Rsdoctor](https://rsdoctor.dev/), it’s a great tool that also works with Webpack and will tell you the bottlenecks of your build.",
+      "nodeType": "paragraph",
+      "translated_content": "Rspack 是一款基于 Rust 的极速打包工具，几乎 100% 兼容 Webpack 及其完整插件和加载器生态。对于需要立即提升打包速度的 React 应用而言，Rspack 是绝佳选择。其兼容性使得迁移成本极低，同时通过[即将原生支持的 React Server Components](https://rspack.dev/blog/announcing-1-0#react-server-components-support) 保持前瞻性。这也是我[正将 Docusaurus 迁移至 Rspack](https://x.com/sebastienlorber/status/1828696665135431879) 的原因。推荐搭配使用 [Rsdoctor](https://rsdoctor.dev/) 诊断构建瓶颈，该工具同样支持 Webpack。"
     },
     {
       "id": "8144f6e8",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "31bf14c2",
       "translatable": true,
       "content": "* 📜 [JS Dates Are About to Be Fixed](https://docs.timetime.in/blog/js-dates-finally-fixed/)\n* 📜 [How To Create An NPM Package](https://www.totaltypescript.com/how-to-create-an-npm-package)\n* 📜 [How to make your web page faster before it even loads](https://blog.sentry.io/how-to-make-your-web-page-faster-before-it-even-loads/)\n* 📜 [Fix Your Annoying Popups with the CloseWatcher API](https://logaretm.com/blog/fix-your-annoying-popups-with-the-closewatcher-api/)\n* 📜 [Custom Range Slider Using Anchor Positioning & Scroll-Driven Animations](https://frontendmasters.com/blog/custom-range-slider-using-anchor-positioning-scroll-driven-animations/)\n* 📜 [Regexes Got Good: The History And Future Of Regular Expressions In JavaScript](https://www.smashingmagazine.com/2024/08/history-future-regular-expressions-javascript/)\n* 📦 [Node v20.17 - require() sync ESM graphs, matchesGlob()](https://nodejs.org/en/blog/release/v20.17.0)\n* 📦 [Node v22.7.0 - Experimental support for TS Enums/Namespaces, detect modules stable](https://nodejs.org/en/blog/release/v22.7.0)\n* 📦 [Deno 1.46 - The Last 1.x Release](https://deno.com/blog/v1.46)\n* 📦 [Test-server - Utility for creating HTTP and WebSocket servers for testing](https://github.com/epicweb-dev/test-server)\n* 📦 [TypeScript 5.6 RC - Iterator methods, Disallowed Nullish and Truthy Checks…](https://devblogs.microsoft.com/typescript/announcing-typescript-5-6-rc/)\n* 📦 [Turborepo 2.1](https://turbo.build/blog/turbo-2-1-0)",
-      "sourceMdx": "- 📜 [JS Dates Are About to Be Fixed](https://docs.timetime.in/blog/js-dates-finally-fixed/)\n- 📜 [How To Create An NPM Package](https://www.totaltypescript.com/how-to-create-an-npm-package)\n- 📜 [How to make your web page faster before it even loads](https://blog.sentry.io/how-to-make-your-web-page-faster-before-it-even-loads/)\n- 📜 [Fix Your Annoying Popups with the CloseWatcher API](https://logaretm.com/blog/fix-your-annoying-popups-with-the-closewatcher-api/)\n- 📜 [Custom Range Slider Using Anchor Positioning & Scroll-Driven Animations](https://frontendmasters.com/blog/custom-range-slider-using-anchor-positioning-scroll-driven-animations/)\n- 📜 [Regexes Got Good: The History And Future Of Regular Expressions In JavaScript](https://www.smashingmagazine.com/2024/08/history-future-regular-expressions-javascript/)\n- 📦 [Node v20.17 - require() sync ESM graphs, matchesGlob()](https://nodejs.org/en/blog/release/v20.17.0)\n- 📦 [Node v22.7.0 - Experimental support for TS Enums/Namespaces, detect modules stable](https://nodejs.org/en/blog/release/v22.7.0)\n- 📦 [Deno 1.46 - The Last 1.x Release](https://deno.com/blog/v1.46)\n- 📦 [Test-server - Utility for creating HTTP and WebSocket servers for testing](https://github.com/epicweb-dev/test-server)\n- 📦 [TypeScript 5.6 RC - Iterator methods, Disallowed Nullish and Truthy Checks…](https://devblogs.microsoft.com/typescript/announcing-typescript-5-6-rc/)\n- 📦 [Turborepo 2.1](https://turbo.build/blog/turbo-2-1-0)"
+      "sourceMdx": "- 📜 [JS Dates Are About to Be Fixed](https://docs.timetime.in/blog/js-dates-finally-fixed/)\n- 📜 [How To Create An NPM Package](https://www.totaltypescript.com/how-to-create-an-npm-package)\n- 📜 [How to make your web page faster before it even loads](https://blog.sentry.io/how-to-make-your-web-page-faster-before-it-even-loads/)\n- 📜 [Fix Your Annoying Popups with the CloseWatcher API](https://logaretm.com/blog/fix-your-annoying-popups-with-the-closewatcher-api/)\n- 📜 [Custom Range Slider Using Anchor Positioning & Scroll-Driven Animations](https://frontendmasters.com/blog/custom-range-slider-using-anchor-positioning-scroll-driven-animations/)\n- 📜 [Regexes Got Good: The History And Future Of Regular Expressions In JavaScript](https://www.smashingmagazine.com/2024/08/history-future-regular-expressions-javascript/)\n- 📦 [Node v20.17 - require() sync ESM graphs, matchesGlob()](https://nodejs.org/en/blog/release/v20.17.0)\n- 📦 [Node v22.7.0 - Experimental support for TS Enums/Namespaces, detect modules stable](https://nodejs.org/en/blog/release/v22.7.0)\n- 📦 [Deno 1.46 - The Last 1.x Release](https://deno.com/blog/v1.46)\n- 📦 [Test-server - Utility for creating HTTP and WebSocket servers for testing](https://github.com/epicweb-dev/test-server)\n- 📦 [TypeScript 5.6 RC - Iterator methods, Disallowed Nullish and Truthy Checks…](https://devblogs.microsoft.com/typescript/announcing-typescript-5-6-rc/)\n- 📦 [Turborepo 2.1](https://turbo.build/blog/turbo-2-1-0)",
+      "nodeType": "list",
+      "translated_content": "- 📜 [JavaScript 日期问题终将修复](https://docs.timetime.in/blog/js-dates-finally-fixed/)\n- 📜 [如何创建 NPM 包](https://www.totaltypescript.com/how-to-create-an-npm-package)\n- 📜 [网页加载前的性能优化技巧](https://blog.sentry.io/how-to-make-your-web-page-faster-before-it-even-loads/)\n- 📜 [用 CloseWatcher API 解决烦人的弹窗问题](https://logaretm.com/blog/fix-your-annoying-popups-with-the-closewatcher-api/)\n- 📜 [基于锚点定位与滚动驱动动画实现自定义范围滑块](https://frontendmasters.com/blog/custom-range-slider-using-anchor-positioning-scroll-driven-animations/)\n- 📜 [正则表达式的进化：JavaScript 中的历史与未来](https://www.smashingmagazine.com/2024/08/history-future-regular-expressions-javascript/)\n- 📦 [Node v20.17 - 同步加载 ESM 模块图、matchesGlob() 方法](https://nodejs.org/en/blog/release/v20.17.0)\n- 📦 [Node v22.7.0 - 实验性支持 TS 枚举/命名空间、稳定模块检测](https://nodejs.org/en/blog/release/v22.7.0)\n- 📦 [Deno 1.46 - 最后一个 1.x 版本](https://deno.com/blog/v1.46)\n- 📦 [Test-server - 创建测试用 HTTP/WebSocket 服务器的工具](https://github.com/epicweb-dev/test-server)\n- 📦 [TypeScript 5.6 RC - 迭代器方法、禁用空值/真值检查...](https://devblogs.microsoft.com/typescript/announcing-typescript-5-6-rc/)\n- 📦 [Turborepo 2.1](https://turbo.build/blog/turbo-2-1-0)"
     },
     {
       "id": "c66a3543",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "c6b2ca77",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 轻松一刻 {#fun}"
     },
     {
       "id": "dce16ab4",
       "translatable": true,
       "content": "[![alt](/emails/issues/198/meme.jpg)](https://x.com/astrodotbuild/status/1820423005912105149)",
-      "sourceMdx": "[![alt](/emails/issues/198/meme.jpg)](https://x.com/astrodotbuild/status/1820423005912105149)"
+      "sourceMdx": "[![alt](/emails/issues/198/meme.jpg)](https://x.com/astrodotbuild/status/1820423005912105149)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/198/meme.jpg)](https://x.com/astrodotbuild/status/1820423005912105149)"
     },
     {
       "id": "6f08f877",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下期见！👋"
     }
   ]
 }

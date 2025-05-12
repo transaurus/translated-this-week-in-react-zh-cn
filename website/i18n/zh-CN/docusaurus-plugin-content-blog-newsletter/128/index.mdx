@@ -7,13 +7,13 @@ date: 12-13-2022
 
 大家好！
 
-圣诞季来临，React博主们纷纷放缓更新节奏。我本人也将暂停两期周报。
+圣诞季来临，React博主们纷纷放缓更新节奏。我将暂停两期周报。
 
-不过我们仍有精彩的版本发布和技术文章值得关注，其中关于字体布局偏移的文章尤其值得一读。
+不过本期仍有值得关注的版本发布和技术文章，特别是关于字体布局偏移的那篇让我印象深刻。
 
 <!-- truncate -->
 
-**💡 [在Twitter查看本期周报](https://slo.im/thread) - 可视化排版 🎨**
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化排版 🎨**
 
 ---
 
@@ -31,7 +31,7 @@ import Support from "../_support.mdx";
 
 **开发者友好**：用React组件构建专属设计系统，在JSX中添加可视化编辑功能，通过侧边栏控件调整背景色等props。支持Next.js、Gatsby或Remix框架，兼容任意CSS方案！
 
-**内容编辑者易上手**：直接可视化编辑不会破坏设计系统，相比传统无头CMS的抽象字段编辑更直观。**节省时间**，让内容团队自主运营！
+**内容编辑者易上手**：直接可视化编辑不会破坏设计系统，比传统无头CMS的抽象字段编辑更直观。**节省时间**让内容团队自主运营！
 
 **企业级功能**：协作编辑、版本回溯、单点登录、GDPR合规数据中心、全球CDN图片优化、电商集成、定时发布等。
 
@@ -59,7 +59,7 @@ Vercel数据请求库迎来重大更新，主要改进包括：
 
 **[Vite 4](https://vitejs.dev/blog/announcing-vite4.html)**
 
-这款前端工具持续走红，新版本采用Rollup 3大幅简化内部资源管理。现提供两个React插件满足不同需求：
+这个日益流行的前端工具现已采用Rollup 3，大幅简化内部资源管理。提供两个React插件方案：
 
 - [vite-plugin-react](https://github.com/vitejs/vite-plugin-react)：esbuild + Babel方案
 - [vite-plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)：开发环境用SWC替代Babel，提升冷启动和热更新速度
@@ -70,62 +70,62 @@ Vercel数据请求库迎来重大更新，主要改进包括：
 
 **[Codux - React项目可视化IDE](https://dev.to/codux/introducing-codux-15j5)**
 
-Wix联合创始人Nadav推出的新项目，专为React（未来支持其他框架）打造的可视化IDE。并非替代现有开发工具，而是作为补充。支持组件独立开发，通过可视化界面编辑props和样式。观看视频[Meet Codux](https://www.youtube.com/watch?v=KG6i6cCz0P0)可快速了解，类似Storybook但具备编辑能力，并与代码双向同步。
+Wix联合创始人Nadav推出的React可视化开发环境（未来支持其他框架）。不是替代现有IDE，而是作为补充工具。支持组件隔离开发，通过可视化界面编辑props和样式。观看视频[Meet Codux](https://www.youtube.com/watch?v=KG6i6cCz0P0)更直观。类似Storybook但具备编辑能力，并与代码双向同步。
 
 ---
 
 - 📖 Beta文档：[团队页面更新](https://twitter.com/reactjs/status/1601328677677338624) + [useTransition演示](https://twitter.com/dan_abramov/status/1600709819648069632) + [useSyncExternalStore API参考](https://twitter.com/dan_abramov/status/1600530747550564354)
-- 📖 [Supabase新文档，基于Next.js构建](https://supabase.com/blog/new-supabase-docs-built-with-nextjs)：Supabase文档正从Docusaurus迁移至Next.js，以满足日益增长的定制需求。尽管如此，他们对Docusaurus给予了高度评价。
+- 📖 [新版Supabase文档，基于Next.js构建](https://supabase.com/blog/new-supabase-docs-built-with-nextjs)：Supabase文档正从Docusaurus迁移至Next.js，以满足日益增长的定制化需求。尽管如此，他们对Docusaurus给予了高度评价。
 - 📖 [React Router网站仓库公开](https://twitter.com/remix_run/status/1600979694622367744)
 - 📖 [React-Spring - 新文档站点](https://twitter.com/_josh_ellis_/status/1602253329526128641)
-- 📜 [自动集成Next.js与Storybook](https://storybook.js.org/blog/integrate-nextjs-and-storybook-automatically/)：介绍了通过Storybook 7（现处于[beta](https://github.com/storybookjs/storybook/releases/tag/v7.0.0-beta.0)）中新增的[Framework API](https://storybook.js.org/blog/framework-api/)实现的Next.js自动支持。Storybook能更好地理解你的Next.js项目，不再需要为导航、Link和Image组件添加装饰器/插件。未来还将持续改进对Server Components、next/font等的支持。
-- 📜 [Next.js 13中的网页字体优化](https://www.lydiahallie.io/blog/optimizing-webfonts-in-nextjs-13)：可能是解释字体布局偏移最图文并茂的文章，文末还说明了Next.js如何自动优化这一问题。值得一读！
-- 📜 [将大型开源React应用迁移至Next.js和Vercel](https://vercel.com/blog/migrating-a-large-open-source-react-application-to-next-js-and-vercel)：Vercel为BBC的开源网站做了概念验证迁移，纯属娱乐😄 他们强调了迁移到Next.js栈带来的好处，并呼吁BBC考虑正式迁移。
-- 📜 [避免这些React useState常见陷阱](https://profy.dev/article/react-usestate-pitfalls)：列举了6种常见useState反模式及解决方案，并嵌入了交互式练习沙盒
-- 📜 [urql的演进](https://formidable.com/blog/2022/evolution-of-urql/)
-- 📜 [使用dev.to API将Docusaurus发布到dev.to](https://dev.to/johnnyreilly/publishing-docusaurus-to-devto-with-the-devto-api-9bg)
+- 📜 [自动集成Next.js与Storybook](https://storybook.js.org/blog/integrate-nextjs-and-storybook-automatically/)：介绍了通过Storybook 7（现处于[beta版](https://github.com/storybookjs/storybook/releases/tag/v7.0.0-beta.0)）的新[Framework API](https://storybook.js.org/blog/framework-api/)实现对Next.js的自动支持。Storybook能更好地理解你的Next.js项目，不再需要为导航、Link和Image组件添加装饰器/插件。未来还将持续改进对Server Components、next/font等的支持。
+- 📜 [优化Next.js 13中的网页字体](https://www.lydiahallie.io/blog/optimizing-webfonts-in-nextjs-13)：可能是解释字体布局偏移最图文并茂的文章，文末还说明了Next.js如何自动优化这一问题。值得一读！
+- 📜 [将大型开源React应用迁移至Next.js和Vercel](https://vercel.com/blog/migrating-a-large-open-source-react-application-to-next-js-and-vercel)：Vercel作为概念验证迁移了BBC的开源网站，纯属娱乐😄 他们强调了迁移到Next.js技术栈的收益，并呼吁BBC考虑正式迁移。
+- 📜 [避免这些React useState常见陷阱](https://profy.dev/article/react-usestate-pitfalls)：列举6种常见useState反模式及解决方案，并嵌入交互式练习沙盒
+- 📜 [urql的演进历程](https://formidable.com/blog/2022/evolution-of-urql/)
+- 📜 [使用dev.to API将Docusaurus内容发布至dev.to](https://dev.to/johnnyreilly/publishing-docusaurus-to-devto-with-the-devto-api-9bg)
 - 📜 [RedwoodJS入门指南](https://blog.openreplay.com/an-intro-to-redwoodjs/)
-- 📜 [React Router中的路径匹配](https://www.taniarascia.com/path-matching-in-react-router/)
-- 📜 [使用React Testing Library和Jest测试useEffect中的API调用](https://www.taniarascia.com/how-to-test-useeffect-api-call/)
-- 💬 [改进React Query水合、流式SSR和服务器组件](https://github.com/TanStack/query/discussions/4623)
-- 🐦 [Xuan Huang - "Forget现在有了团队支持"](https://twitter.com/Huxpro/status/1601345567493214208)：Xuan还提到他已离开Meta
+- 📜 [在React Router中使用路径匹配](https://www.taniarascia.com/path-matching-in-react-router/)
+- 📜 [用React Testing Library和Jest测试useEffect中的API调用](https://www.taniarascia.com/how-to-test-useeffect-api-call/)
+- 💬 [改进React Query的水合、流式SSR和服务器组件](https://github.com/TanStack/query/discussions/4623)
+- 🐦 [Xuan Huang - "Forget现在有团队接手维护了"](https://twitter.com/Huxpro/status/1601345567493214208)：Xuan同时提到他已离开Meta
 - 🎨 [React-Three-Editor演示 - Threejs Journey场景](https://twitter.com/0xca0a/status/1601315795006410752)
-- 🐦 ["我通过Vite插件修复了vanilla-extract/sprinkles"](https://twitter.com/astahmer_dev/status/1601246126396428289)：新Vite插件可能大幅减少Vanilla-Extract/Sprinkles生成的CSS体积
-- 🐦 [Ryan Florence - "Next.js并非真正开源"](https://twitter.com/ryanflorence/status/1600526114010845184)
-- 📦 [React-Nylon](https://github.com/CodyJasonBennett/react-nylon) + [Four](https://github.com/CodyJasonBennett/four)：正在酝酿新项目。或将推出轻量级[Three.js/React-Three-Fiber替代方案](https://twitter.com/0xca0a/status/1602286391777546242)？
+- 🐦 ["我通过Vite插件修复了vanilla-extract/sprinkles"](https://twitter.com/astahmer_dev/status/1601246126396428289)：新Vite插件可显著减少Vanilla-Extract/Sprinkles生成的CSS体积
+- 🐦 [Ryan Florence - "Next.js并非真正的开源"](https://twitter.com/ryanflorence/status/1600526114010845184)
+- 📦 [React-Nylon](https://github.com/CodyJasonBennett/react-nylon) + [Four](https://github.com/CodyJasonBennett/four)：酝酿中的项目，或将推出轻量级[Three.js/React-Three-Fiber替代方案](https://twitter.com/0xca0a/status/1602286391777546242)？
 - 📦 [Remix 1.8](https://github.com/remix-run/remix/releases/tag/remix%401.8.0)："React-Router化"进程持续推进
 - 📦 [Chakra UI Figma工具包](https://twitter.com/chakra_ui/status/1602683717830512641)
-- 🎥 [使用React和Storybook构建现代组件库](https://www.youtube.com/playlist?list=PLKBvDYynKmlWa59k8pnw-EHac2_miPagh)
+- 🎥 [用React和Storybook构建现代组件库](https://www.youtube.com/playlist?list=PLKBvDYynKmlWa59k8pnw-EHac2_miPagh)
 - 🎥 [MaterialUI + Qwikify演示](https://twitter.com/Steve8708/status/1601257653367209984)
 
 <SubscribeFormEmbed />
 
 ---
 
-## 💸 赞助商 {#sponsor2}
+## 💸 赞助 {#sponsor2}
 
 [![开发者国度调查 - 您想对开发者生态系统产生影响吗？](/emails/issues/128/dn-survey.png)](https://developereconomics.net/?member_id=thisweekinreact)
 
 **[您想对开发者生态系统产生影响吗？](https://developereconomics.net/?member_id=thisweekinreact)**
 
-根据最新的《开发者国度现状报告》，React 是迄今为止最受欢迎的前端库，58% 使用客户端 Web 框架的开发者都在使用它。您对此有何看法？
+根据最新的《开发者国度现状》报告，React 是迄今为止最受欢迎的前端库，58% 使用客户端 Web 框架的开发者都在使用它。您对此有何看法？
 
-参与[调查](https://developereconomics.net/?member_id=thisweekinreact)，这是 Developer Nation 迄今为止最全面的调研，塑造 2023 年开发者关键趋势并赢取丰厚奖品！🎁
+参与[开发者国度](https://developereconomics.net/?member_id=thisweekinreact)迄今为止最全面的调查，塑造 2023 年开发者关键趋势，赢取丰厚奖品！🎁
 
-完成调查后，您将免费获得我们的虚拟礼品包。别忘了注册参与每周抽奖。在 250 份奖品中，您有机会赢得 ThinkPad L15 Gen 3、Intel NUC 10 性能迷你电脑、物联网套件、iPad Air、礼品卡、Udemy 课程、科技配件等众多好礼。
+完成调查后，您将免费获得我们的虚拟礼品袋。别忘了注册参加每周抽奖。250 份奖品中包括 ThinkPad L15 Gen 3、Intel NUC 10 性能迷你电脑、物联网套件、iPad Air、礼品卡、Udemy 课程、科技配件等。
 
-[立即参与](https://developereconomics.net/?member_id=thisweekinreact)！
+[从这里开始](https://developereconomics.net/?member_id=thisweekinreact)！
 
 ---
 
 ## 📱 React-Native {#react-native}
 
 - 📜 [React Native Paper 5.0 新特性解析](https://www.callstack.com/blog/react-native-paper-5-0)：新增 Material Design 3 "Material You" 支持，同时保留 Material Design 2 的兼容性。新增组件及与 React-Navigation 集成的辅助工具。
-- 📜 [微软发布 dep-check 演进版：align-deps](https://devblogs.microsoft.com/react-native/2022-11-30-announcing-align-deps/)：微软推出的依赖检查工具新版，确保 monorepo 使用正确的包版本。因与 depcheck 冲突而更名，现可更便捷地应用于非 React-Native 项目。
+- 📜 [微软发布依赖检查工具新版本：align-deps](https://devblogs.microsoft.com/react-native/2022-11-30-announcing-align-deps/)：微软推出的依赖检查工具新版，确保 monorepo 使用正确的包版本。因命名冲突更名为 align-deps，现可更便捷地应用于非 React-Native 项目。
 - 📜 [Maestro Studio 正式发布](https://blog.mobile.dev/introducing-maestro-studio-96454c7ca98a)：通过界面创建端到端黑盒测试
 - 🔗 [微软 React-Native 开发者博客](https://devblogs.microsoft.com/react-native/)：微软官网新建的 React-Native 专题博客。
 - 🎨 [@expo-image 演示](https://twitter.com/tsapeta/status/1600888339619799042)：Software Mansion 正在开发 react-native-fast-image 的替代方案
-- 🎨 [React-Native-Skia-Gesture 演示](https://twitter.com/reactiive_/status/1600494808048467973)：Skia 画布元素的手势检测器
+- 🎨 [React-Native-Skia-Gesture 演示](https://twitter.com/reactiive_status/1600494808048467973)：Skia 画布元素的手势检测器
 - 📦 [android-performance-profiler](https://twitter.com/almouro/status/1600887206952198144)：新 API 上线
 - 📦 [expo-router@next - 共享路由 + 布局克隆（实验性）](https://twitter.com/Baconbrix/status/1601362300891328513)
 - 🎙️ [RNR 253 - 新闻快评：Kotlin 有了新东家](https://reactnativeradio.com/episodes/rnr-253-we-react-to-news)
@@ -135,19 +135,19 @@ Wix联合创始人Nadav推出的新项目，专为React（未来支持其他框�
 
 ---
 
-## 🧑‍💻 招聘 {#jobs}
+## 🧑‍💻 职位招聘 {#jobs}
 
 🧑‍💼 [**Causal 产品工程师，远程/伦敦/纽约，15-25万美元**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied&lever-source%5B%5D=thisweekinreact.com)
 
-Causal是一家A轮初创公司（由Coatue/Accel投资），致力于打造一款集数据处理与可视化于一体的全能工具。我们正在寻找能够解决复杂UX/性能难题的资深React工程师。
+Causal是一家获得Coatue/Accel投资的A轮初创公司，致力于打造集数字处理与数据可视化于一体的综合工具。我们正在寻找能够解决复杂UX/性能挑战的资深React工程师。
 
-🧑‍💼 [**Callstack - 高级React Native开发工程师 - 完全远程，B2B月薪净收入21-32k波兰兹罗提**](https://www.callstack.com/senior-react-native-developer)
+🧑‍💼 [**Callstack - 高级React Native开发工程师 - 完全远程，B2B合同月薪净额21-32k波兰兹罗提**](https://www.callstack.com/senior-react-native-developer)
 
-您想为全球使用最广泛的应用贡献力量吗？是否渴望共同塑造React Native技术生态？加入Callstack这个由React和React Native技术领袖组成的团队。访问官网了解更多详情。我们期待您的申请——请向我们展示您的实力！
+您是否希望参与全球最热门应用的开发？是否渴望共同塑造React Native技术的未来？加入Callstack这支由React与React Native技术领袖组成的团队。访问官网了解更多详情。我们期待您的申请——请尽情展示您的实力！
 
 🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
 
-我们开放多个React Native开发岗位！年薪约16万美元外加10%奖金。应聘者需具备RN生产环境经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解详情，记得提及This Week in React。
+我们开放多个React Native开发岗位！年薪约16万美元外加10%奖金。应聘者需具备RN生产环境经验且常驻美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解详情，请注明来自《This Week in React》。
 
 💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
 
@@ -155,20 +155,20 @@ Causal是一家A轮初创公司（由Coatue/Accel投资），致力于打造一�
 
 ## 🔀 其他 {#other}
 
-- [优化交互到下次绘制(INP)](https://web.dev/optimize-inp/)：谷歌开发者详解如何提升应用交互性能（新INP指标），这对React单页应用特别有价值。
-- [2022回顾：Web性能领域的新变化](https://www.debugbear.com/blog/2022-in-web-performance)：全面梳理2022年Web性能发展。2023年预测显示将更注重SPA性能评估，而非仅关注初始页面加载指标。意外收获：[软导航](https://github.com/WICG/soft-navigations)仓库。
+- [优化交互到下次绘制时间(INP)](https://web.dev/optimize-inp/)：Google开发者详解如何提升应用交互性能（新INP指标），这对React单页应用尤为关键。
+- [2022年度回顾：Web性能新动向](https://www.debugbear.com/blog/2022-in-web-performance)：全面盘点2022年Web性能领域进展。2023年预测显示将更注重SPA性能评估，而非仅关注初始页面加载指标。另可了解[soft-navigations](https://github.com/WICG/soft-navigations)新提案。
 - [Ecma国际迎来新成员](https://www.ecma-international.org/news/ecma-international-welcomes-new-members-6/)：欢迎Shopify和Vercel加入
-- [Zod 3.20发布](https://twitter.com/colinhacks/status/1602238724120924160)：新增强制类型转换功能，可自动将查询字符串参数（如?pageSize=10）转为数字类型。
+- [Zod 3.20发布](https://twitter.com/colinhacks/status/1602238724120924160)：新增强制类型转换功能，可自动将查询参数（如?pageSize=10）转为数字类型
 - [Vitest 0.27.7](https://github.com/vitest-dev/vitest/releases/tag/v0.25.7)：支持Vite 4
-- [Tauri移动端Alpha版发布](https://tauri.app/blog/2022/12/09/tauri-mobile-alpha)：据理解采用WebView技术——Cordova/Capacitor的新竞争者？🤔
-- [npm发布安全新功能](https://github.blog/2022-12-06-new-npm-features-for-secure-publishing-and-safe-consumption/)：npm网站终于上线代码查看器！
-- [Safari 16.2的WebKit特性](https://webkit.org/blog/13591/webkit-features-in-safari-16-2/)
+- [Tauri移动端Alpha版发布](https://tauri.app/blog/2022/12/09/tauri-mobile-alpha)：基于WebView的技术，或成Cordova/Capacitor新竞品？🤔
+- [npm发布安全更新](https://github.blog/2022-12-06-new-npm-features-for-secure-publishing-and-safe-consumption/)：终于支持npm网站代码预览！
+- [Safari 16.2的WebKit新特性](https://webkit.org/blog/13591/webkit-features-in-safari-16-2/)
 - [Bun 0.3.0发布](https://bun.sh/blog/bun-v0.3.0)
 - [Alma - 生成式图形数字游乐场](https://twitter.com/emilwidlund/status/1600815398672211969)
 - [TypeScript：该用Type还是Interface？](https://www.youtube.com/watch?v=zM9UPcIyyhQ)
 
 ---
 
-## 🤭 趣闻 {#fun}
+## 🤭 趣味 {#fun}
 
-[![表情包](/emails/issues/128/meme.jpg)](https://twitter.com/ThePrimeagen/status/1601570856265650176)
+[![alt](/emails/issues/128/meme.jpg)](https://twitter.com/ThePrimeagen/status/1601570856265650176)

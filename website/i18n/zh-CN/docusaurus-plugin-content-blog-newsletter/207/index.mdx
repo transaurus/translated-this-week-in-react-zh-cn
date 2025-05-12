@@ -7,13 +7,13 @@ date: 10-30-2024
 
 大家好！
 
-这又是React生态精彩的一周。
+这是React生态的又一个精彩周。
 
-Vercel为Next.js发布了令人兴奋的新缓存API，React Native社区也热闹非凡！
+Vercel发布了Next.js令人瞩目的新缓存API，React Native社区也热闹非凡！
 
-我个人受够了Twitter对站外链接评论的限流，正在尝试Bluesky平台（[@sebastienlorber.com](https://bsky.app/profile/sebastienlorber.com)）。如果你也在那里，欢迎来打个招呼。
+我个人对Twitter因外链评论限流感到疲惫，正在尝试Bluesky（[@sebastienlorber.com](https://bsky.app/profile/sebastienlorber.com)）。如果你也在那里，欢迎来打个招呼。
 
-别忘了填写[React现状调查](https://survey.devographics.com/en-US/survey/state-of-react/2024?source=this_week_in_react)，提一句你是通过本 newsletter 知道的 😇。
+别忘了填写[React现状调查](https://survey.devographics.com/en-US/survey/state-of-react/2024?source=this_week_in_react)，提一句你读过本刊会有惊喜😇。
 
 <!-- truncate -->
 
@@ -46,32 +46,32 @@ import Support from "../_support.mdx";
 上周社区齐聚Next.js大会，这篇回顾精彩呈现了包括以下亮点：
 
 - Next.js 15稳定版发布
-- Turbopack开发环境稳定版
+- Turbopack开发环境稳定
 - 更简化的缓存机制
 - 自托管优化与模板
 
-姊妹篇博文[我们的缓存演进之路](https://nextjs.org/blog/our-journey-with-caching)尤为值得关注，介绍了实验性的新缓存语义和API如`use cache`、`cacheTag`和`cacheLife`。这套更灵活的系统最酷的是甚至无需提供缓存键。
+姊妹篇博文[《我们的缓存演进之路》](https://nextjs.org/blog/our-journey-with-caching)尤为值得关注，介绍了实验性的新缓存语义和API如`use cache`、`cacheTag`和`cacheLife`。这套更灵活的系统最酷的是甚至无需提供缓存键。
 
 ---
 
-- 💸 [工程师产品 - 我从惨痛教训中学到的A/B测试误区](https://dub.sh/twir-oct30)
-- 📖 [在Next.js 15和React 19中使用shadcn/ui](https://ui.shadcn.com/docs/react-19)：讲解如何处理peer依赖，提供底层库对React 19的支持状态。
+- 💸 [工程师必备产品 - 我踩过的A/B测试坑](https://dub.sh/twir-oct30)
+- 📖 [在Next.js 15和React 19中使用shadcn/ui](https://ui.shadcn.com/docs/react-19)：讲解如何处理peer依赖，提供React 19对底层库支持状态的说明。
 - 📣 [Netlify加入OpenNext](https://www.netlify.com/blog/netlify-joins-opennext/)：他们将其适配器迁移至OpenNext组织，并与Cloudflare和SST合作提升Next.js的可移植性。
-- 🗓️ [React Day Berlin](https://reactday.berlin/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇩🇪 柏林 - 12月13日 & 16日 - [免费远程门票现已开放，点击领取！](https://gitnation.com/badges/react-day-berlin-2024/sara_vieira?from=This+Week+In+React)
-- 📜 [用React实现直播——JavaScript生态中的更多Rust](https://blog.swmansion.com/live-streaming-with-react-more-rust-in-the-javascript-ecosystem-f83a0371e16c)：这个创新项目使用自定义React渲染器控制媒体服务器进行实时视频混流，文章详解其实现决策。
-- 📜 [条件式React Hooks模式](https://robinmalfait.com/blog/conditional-react-hooks-pattern)：Headless UI维护者分享库中使用的技巧，将`enabled`作为hooks的首个参数传递。
-- 📜 [HTML表单验证被严重低估](https://expressionstatement.com/html-form-validation-is-heavily-underused)：基于`input.setCustomValidity`创建便捷的React抽象层。
-- 📜 [无需Tailwind配置文件使用Shadcn UI](https://www.luisball.com/blog/shadcn-ui-with-tailwind-v4)：在Next.js 15应用中使用Tailwind v4（alpha版）搭配shadcn/ui。需手动复制组件/依赖项直至CLI更新。
-- 📜 [为Next.js博客添加RSS订阅](https://didoesdigital.com/blog/nextjs-blog-09-rss/)：通过静态路由返回XML。强烈建议添加RSS，否则我需每月支付0.20€给Inoreader通过选择器追踪你的博客😅。
-- 📜 [如何在JavaScript & TypeScript中自建认证系统](https://www.robinwieruch.de/how-to-roll-your-own-auth/)：Next.js 15实现认证的逐步指南。
+- 🗓️ [React Day Berlin](https://reactday.berlin/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇩🇪 柏林 - 12月13日 & 16日 - [免费远程票现已开放领取！](https://gitnation.com/badges/react-day-berlin-2024/sara_vieira?from=This+Week+In+React)
+- 📜 [用React实现直播流——JavaScript生态中的Rust力量](https://blog.swmansion.com/live-streaming-with-react-more-rust-in-the-javascript-ecosystem-f83a0371e16c)：这个创新项目使用自定义React渲染器控制实时视频混流的媒体服务器，文章详解其实现决策。
+- 📜 [条件式React hooks模式](https://robinmalfait.com/blog/conditional-react-hooks-pattern)：Headless UI维护者分享库内使用的技巧，将`enabled`作为hooks的首个参数传递。
+- 📜 [HTML表单验证严重未被充分利用](https://expressionstatement.com/html-form-validation-is-heavily-underused)：基于`input.setCustomValidity`创建了便捷的React抽象层。
+- 📜 [无需Tailwind配置文件的Shadcn UI使用方案](https://www.luisball.com/blog/shadcn-ui-with-tailwind-v4)：在Next.js 15应用中使用Tailwind v4（alpha版）搭配shadcn/ui。目前需手动复制组件/依赖项，等待CLI更新。
+- 📜 [为Next.js博客添加RSS订阅源](https://didoesdigital.com/blog/nextjs-blog-09-rss/)：通过静态路由返回XML。强烈建议添加RSS源，否则我不得不每月支付0.20€给Inoreader来追踪你的博客😅。
+- 📜 [JavaScript & TypeScript中如何自建认证系统](https://www.robinwieruch.de/how-to-roll-your-own-auth/)：Next.js 15实现认证的逐步指南。
 - 📜 [useContextSelector：加速大型Context的React应用](https://marmelab.com/blog/2024/10/16/usecontextselector-a-faster-usecontext-for-react.html)
 - 📜 [Next.js中何时使用redirect() vs. router.push()](https://darios.blog/posts/redirect-vs-router-push-in-nextjs)
 - 📜 [2024年Next.js 15生产环境配置指南](https://janhesters.com/blog/how-to-set-up-nextjs-15-for-production-in-2024)
 - 📦 [Headless UI 2.2 - 支持React 19](https://github.com/tailwindlabs/headlessui/releases/tag/%40headlessui%2Freact%40v2.2.0)
 - 📦 [MDX 3.1发布](https://github.com/mdx-js/mdx/releases/tag/3.1.0)
-- 📦 [Medusa 2.0 - Next.js与Remix启动模板](https://medusajs.com/starters/)：这款Shopify的开源替代方案发布重大更新，包含多种基于React的电商店面模板。
+- 📦 [Medusa 2.0 - Next.js和Remix启动模板](https://medusajs.com/starters/)：这个Shopify的开源替代方案发布重大更新，包含多种基于React的电商店面启动模板。
 - 🎥 [Alem Tuzlak - React Router何时迎来React服务端组件？！](https://www.youtube.com/watch?v=JF9eS2bOAsM)
-- 🎥 [UI工程 - 为何"过时闭包"误导React开发者](https://www.youtube.com/watch?v=7yw_D3h4xSo)
+- 🎥 [UI工程 - 为何"陈旧闭包"误导React开发者](https://www.youtube.com/watch?v=7yw_D3h4xSo)
 
 <SubscribeFormEmbed placement="middle" />
 
@@ -79,64 +79,64 @@ import Support from "../_support.mdx";
 
 ## 💸 赞助商 {#sponsor2}
 
-[![以半价成本2倍速运行GitHub Actions](/emails/issues/207/github.jpg)](https://blacksmith.sh/?utm_source=thisweekinreact&utm_medium=classified&utm_campaign=oct-30&utm_term=react)
+[![GitHub Actions运行速度提升2倍，成本减半](/emails/issues/207/github.jpg)](https://blacksmith.sh/?utm_source=thisweekinreact&utm_medium=classified&utm_campaign=oct-30&utm_term=react)
 
-**[以半价成本2倍速运行GitHub Actions](https://blacksmith.sh/?utm_source=thisweekinreact&utm_medium=classified&utm_campaign=oct-30&utm_term=react)**
+**[GitHub Actions运行速度提升2倍，成本减半](https://blacksmith.sh/?utm_source=thisweekinreact&utm_medium=classified&utm_campaign=oct-30&utm_term=react)**
 
-Blacksmith通过在现代游戏级CPU上运行GitHub Actions，显著提升构建速度。仅需一行代码即可集成，已被Ashby、GitBook、Superblocks和Slope等100多家企业采用，帮助开发者更快合并代码。
+Blacksmith通过采用现代游戏级CPU大幅加速您的GitHub Actions工作流。仅需一行代码即可完成集成。已有Ashby、GitBook、Superblocks和Slope等100多家企业采用Blacksmith，帮助开发者更快合并代码。
 
 ---
 
 ## 📱 React-Native {#react-native}
 
-[![默认启用新架构、开发者工具等新特性](/emails/issues/207/newarch.jpg)](https://reactnative.dev/blog/2024/10/23/release-0.76-new-architecture)
+[![默认启用新架构、开发者工具等特性](/emails/issues/207/newarch.jpg)](https://reactnative.dev/blog/2024/10/23/release-0.76-new-architecture)
 
-[**React Native 0.76 - 默认启用新架构，开发者工具升级**](https://reactnative.dev/blog/2024/10/23/release-0.76-new-architecture)
+[**React Native 0.76 - 默认启用新架构、开发者工具等重大更新**](https://reactnative.dev/blog/2024/10/23/release-0.76-new-architecture)
 
-React Native 0.76重磅发布！新架构现已默认启用，全新React Native DevTools提供更强大的调试能力，CSS新增支持`boxShadow`和`filter`特效（仅限新架构）。注意破坏性变更：最低SDK要求已提升至iOS 15.1和Android SDK 24（Android 7）。是时候升级体验了！
+React Native 0.76重磅发布！新架构现已默认启用，全新的React Native DevTools带来更强大的调试能力，并支持CSS的`boxShadow`和`filter`属性以实现更丰富的UI效果（仅限新架构）。请注意以下破坏性变更：最低SDK要求已提升至iOS 15.1和Android SDK 24（Android 7）。是时候升级体验了！
 
-v0.76虽好，但更激动人心的是[新架构已正式宣告生产就绪](https://reactnative.dev/blog/2024/10/23/the-new-architecture-is-here)！这是React Native生态历经多年努力的里程碑成果。JSI、Fabric、Turbomodules、同步低开销的无桥通信、互操作模式等特性，不仅带来性能提升，更解决了诸如同步测量视图定位工具提示、使`useLayoutEffect`与网页表现一致等核心UX/DX问题。最令人兴奋且被低估的是：React Native终于能完整支持React 18+的并发特性，包括过渡更新、Suspense以及未来新功能。
+v0.76固然精彩，但更激动人心的是[新架构已正式宣告](https://reactnative.dev/blog/2024/10/23/the-new-architecture-is-here)具备生产环境使用条件！这是React Native生态历经多年努力的重大里程碑。您可能已了解JSI、Fabric、Turbomodules、同步低开销的无桥通信、互操作模式等特性——这不仅关乎性能提升，更解决了诸如同步测量视图定位工具提示、使`useLayoutEffect`实现与网页端一致行为等重要UX/DX问题。最令我振奋的或许是这个最被低估的特性：React Native终于能够完整支持React 18+的并发特性，包括过渡更新、Suspense以及未来更多可能性。
 
 ---
 
-- 💸 [Expo 启动套件 - 移动应用构建的瑞士军刀](https://expostarter.com?utm_source=this-week-in-react&utm_medium=newsletter&utm_campaign=this-week-in-react-10-30-2024)
-- 📣 [React Native 公告 - 应对 Android 15 的全面屏强制规范](https://github.com/react-native-community/discussions-and-proposals/discussions/827): Android 15 改变了屏幕内容显示方式。SafeAreaView 即将被弃用。新库 [react-native-edge-to-edge](https://github.com/zoontek/react-native-edge-to-edge) 是实现全面屏渲染的替代方案。注意该库刚发布 1.0 版本并已获得 Expo 支持。
+- 💸 [Expo 启动套件 - 移动应用开发的多功能瑞士军刀](https://expostarter.com?utm_source=this-week-in-react&utm_medium=newsletter&utm_campaign=this-week-in-react-10-30-2024)
+- 📣 [React Native 公告 - 应对 Android 15 的全面屏强制适配](https://github.com/react-native-community/discussions-and-proposals/discussions/827): Android 15 改变了屏幕内容显示方式。SafeAreaView 即将被弃用。新库 [react-native-edge-to-edge](https://github.com/zoontek/react-native-edge-to-edge) 是全面拥抱边缘渲染的替代方案。注意该库刚发布 1.0 版本并已获得 Expo 支持。
 - 📣 [Flipper 代码库即将归档](https://fbflipper.com/blog/2024/10/24/changes-to-oss-flipper/)
-- 🗓️ [RNLConf](https://www.reactnativelondon.co.uk/?utm_source=thisweekinreact) - 🇬🇧 伦敦 - 11月14-15日 - 最后抢票机会！别忘了使用优惠码 "TWIR"。
-- 📜 [React Native 与 "原生体验"](https://mozzius.dev/post/3l777nhz4h32w): Bluesky 开发者详解如何让他们的 Expo 应用具备原生质感。这是无数细节的累积，比如 hairlineWidth、底部动作条、动画效果和导航交互。
-- 📜 [使用 React Native Skia 制作螺旋动画](https://reactiive.io/articles/animated-spiral): Reactiive 博客改版上线，新增了极具互动性的 Skia 动画沙盒，视觉效果令人极度舒适！
+- 🗓️ [RNLConf](https://www.reactnativelondon.co.uk/?utm_source=thisweekinreact) - 🇬🇧 伦敦 - 11月14-15日 - 最后抢票机会！别忘了使用折扣码 "TWIR"。
+- 📜 [React Native 与 "原生体验"](https://mozzius.dev/post/3l777nhz4h32w): Bluesky 开发者详解如何让他们的 Expo 应用具备原生质感。这是诸多细节的累积成果，如 hairlineWidth、底部表单、动画效果和导航交互。
+- 📜 [使用 React Native Skia 实现螺旋动画](https://reactiive.io/articles/animated-spiral): Reactiive 博客改版上线，新增了极具互动性的 Skia 动画沙盒，视觉效果令人惊艳！
 - 📜 [通过真实用户监控(RUM)提升应用性能与业务增长](https://www.callstack.com/blog/enhance-app-performance-and-business-with-real-user-monitoring-rum)
-- 📜 [使用 Expo 和 libSQL 优化用户体验与首次加载速度](https://www.expostarter.com/blog/expo-libsql-improve-app-performance)
-- 📜 [我们为什么要分叉 Flutter](https://flutterfoundation.dev/blog/posts/we-are-forking-flutter-this-is-why/)
-- 📦 [Expo SDK 52 测试版](https://expo.dev/changelog/2024/10-24-sdk-52-beta): 重大更新包含新架构、DOM 组件、Expo Router 4、服务器组件预览...我们将在稳定版发布后几周内全面解读！
-- 📦 [NativeWind 4.1](https://www.nativewind.dev/v4-1-announcement): NativeWind v4 已作为最新版本发布至 npm 并可用于生产环境！
-- 📦 [Jetpack Compose React Native](https://github.com/andrew-levy/jetpack-compose-react-native/): Andrew 此前开发了 SwiftUI 绑定库，现正开发 Jetpack Compose 的对应方案。这些酷炫的库可能帮助原生开发者加入我们的社区！
-- 📦 [React Native 底部标签栏 0.1 + 0.2](https://github.com/okwasniewski/react-native-bottom-tabs/releases): 默认启用新架构，支持 Apple TV、长按操作和 Expo 配置插件
-- 📦 [React Native visionOS 0.76](https://github.com/callstack/react-native-visionos/releases/tag/v0.76.0-visionos): 默认启用新架构，支持调试器
-- 📦 [React Native TV 版 0.76](https://github.com/react-native-tvos/react-native-tvos/releases/tag/v0.76.0-0): 默认启用新架构，支持 NativeWind
-- 📦 [React Native 测试库 12.8](https://github.com/callstack/react-native-testing-library/releases/tag/v12.8.0): 新增选项可启用新架构的并发渲染
-- 📦 [Reassure 1.3](https://github.com/callstack/reassure/releases/tag/reassure%401.3.0): 提升 `measureRenders` 的测量精度
+- 📜 [利用 Expo 和 libSQL 优化首次加载体验](https://www.expostarter.com/blog/expo-libsql-improve-app-performance)
+- 📜 [我们为何分叉 Flutter](https://flutterfoundation.dev/blog/posts/we-are-forking-flutter-this-is-why/)
+- 📦 [Expo SDK 52 测试版](https://expo.dev/changelog/2024/10-24-sdk-52-beta): 重大更新包含新架构、DOM 组件、Expo Router 4、服务端组件预览...我们将在稳定版发布后详细解读！
+- 📦 [NativeWind 4.1](https://www.nativewind.dev/v4-1-announcement): v4 版本已作为最新稳定版发布至 npm，生产环境就绪！
+- 📦 [Jetpack Compose React Native](https://github.com/andrew-levy/jetpack-compose-react-native/): Andrew 继 SwiftUI 绑定后，现正开发 Jetpack Compose 适配库。这些优秀工具能帮助原生开发者加入我们的社区！
+- 📦 [React Native 底部标签栏 0.1 + 0.2](https://github.com/okwasniewski/react-native-bottom-tabs/releases): 默认启用新架构，新增 Apple TV 支持、长按操作和 Expo 配置插件
+- 📦 [React Native visionOS 0.76](https://github.com/callstack/react-native-visionos/releases/tag/v0.76.0-visionos): 默认新架构，支持调试器
+- 📦 [React Native TV 版 0.76](https://github.com/react-native-tvos/react-native-tvos/releases/tag/v0.76.0-0): 默认新架构，支持 NativeWind
+- 📦 [React Native 测试库 12.8](https://github.com/callstack/react-native-testing-library/releases/tag/v12.8.0): 新增选项启用新架构并发渲染
+- 📦 [Reassure 1.3](https://github.com/callstack/reassure/releases/tag/reassure%401.3.0): 提升 `measureRenders` 测量精度
 - 📦 [React Native 0.76.1](https://github.com/facebook/react-native/releases/tag/v0.76.1): 错误修复
-- 📦 [Radon IDE 0.0.21-beta](https://github.com/software-mansion/radon-ide/releases/tag/v0.0.21-beta)
+- 📦 [Radon IDE 0.0.21 测试版](https://github.com/software-mansion/radon-ide/releases/tag/v0.0.21-beta)
 - 🎥 [Expo - 能否用 DOM 组件将 React 网站迁移到原生应用？](https://www.youtube.com/watch?v=lLlu4fPMXes)
-- 🎥 [Catalin Miron - 使用 Reanimated 实现 React Native 引导页指示器](https://www.youtube.com/watch?v=m8ATJwrAif0)
-- 🎙️ [RNR 第312期 - App Center 退役特辑 - 与 React Universe On Air 和 Expo 对话](https://reactnativeradio.com/episodes/rnr-312-app-centers-retirement)
+- 🎥 [Catalin Miron - 使用 Reanimated 实现分页指示器](https://www.youtube.com/watch?v=m8ATJwrAif0)
+- 🎙️ [RNR 312 期 - App Center 退役特别节目](https://reactnativeradio.com/episodes/rnr-312-app-centers-retirement)
 
 ---
 
 ## 🔀 其他 {#other}
 
-- 📊 [2024年前端开发现状 \- 调查结果](https://tsh.io/state-of-frontend/)
-- 📊 [2024年CSS现状 \- 调查结果](https://2024.stateofcss.com/en-US)
+- 📊 [2024年前端开发现状调查报告](https://tsh.io/state-of-frontend/)
+- 📊 [2024年CSS现状调查报告](https://2024.stateofcss.com/en-US)
 - 📜 [清除、重置与恢复Mock的区别](https://www.epicweb.dev/the-difference-between-clearing-resetting-and-restoring-mocks)
-- 📦 [Babel 7.26 \- 默认启用Stage 4特性，新增实验性代码打印器](https://babeljs.io/blog/2024/10/25/7.26.0)
-- 📦 [Node.js 22.11 \- 进入活跃LTS阶段](https://nodejs.org/en/blog/release/v22.11.0)：v22版本已正式投入生产环境使用，且支持require(esm)！
-- 📦 [Node 23.1 \- JSON模块和import属性稳定化，MockTimers，可调整大小的Buffer](https://nodejs.org/en/blog/release/v23.1.0)
+- 📦 [Babel 7.26发布 - 默认启用Stage 4特性，新增实验性代码打印器](https://babeljs.io/blog/2024/10/25/7.26.0)
+- 📦 [Node.js 22.11进入活跃LTS阶段](https://nodejs.org/en/blog/release/v22.11.0)：v22版本已正式投入生产环境使用，支持require(esm)！
+- 📦 [Node 23.1发布 - JSON模块和import属性稳定化，MockTimers，可调整大小的Buffer](https://nodejs.org/en/blog/release/v23.1.0)
 - 📦 [Safari技术预览版206](https://webkit.org/blog/16186/release-notes-for-safari-technology-preview-206/)：迭代器辅助方法即将全面可用！
 
 ---
 
-## 🤭 趣闻 {#fun}
+## 🤭 趣味 {#fun}
 
 [![alt](/emails/issues/207/meme.jpg)](https://x.com/t3dotgg/status/1849572068297408568)
 

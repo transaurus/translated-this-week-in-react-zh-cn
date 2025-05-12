@@ -7,13 +7,13 @@ date: 06-12-2024
 
 大家好！
 
-本周还是由[Benedikt](https://x.com/bndkt)代班，Sebastien正在休假。
+本周还是由[Benedikt](https://x.com/bndkt)代班，因为Sebastien正在休假。
 
-对我来说，本周最有趣的话题并非重大公告或新版本发布，而是对未来工作的微妙暗示（Remix即将推出的类型安全路由模型、React Compiler即将登陆Expo、Expo Router的原生意图功能），以及关于React Suspense实现细节的线上讨论（`display: none`样式设置，更重要的是React 19在并行数据获取行为上的显著变化）。
+对我来说，本周最有趣的话题不是重大公告或新版本发布，而是对未来工作的微妙暗示（Remix即将推出的类型安全路由模型、React Compiler即将登陆Expo、Expo Router的原生意图功能），以及关于React Suspense实现细节的在线讨论（`display: none`样式，更重要的是React 19在并行获取行为上的显著变化）。
 
 <!-- truncate -->
 
-**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化版式 🎨**
+**💡 [在Twitter上查看本期简报](https://slo.im/thread) - 可视化格式 🎨**
 
 ---
 
@@ -29,46 +29,46 @@ import Support from "../_support.mdx";
 
 **[锻炼产品思维](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)**
 
-[**工程师的产品思维课**](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)是PostHog推出的新闻简报，致力于帮助工程师提升产品能力。学习如何向用户提问、如何打造用户喜爱的新功能，以及实现产品市场匹配的路径。
+[**工程师的产品思维指南**](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)是PostHog推出的新闻简报，致力于帮助工程师提升产品能力。学习如何向用户提问、如何构建用户喜爱的新功能，以及实现产品市场匹配的路径。
 
-[**免费订阅**](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)获取构建优秀产品的精选建议、PostHog开发中的经验教训，以及对顶级初创企业策略的深度解析。
+[**免费订阅**](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)获取关于打造优秀产品的精选建议、PostHog开发过程中的经验教训，以及对顶级初创公司策略的深度解析。
 
 ---
 
-## ⚛️ React动态 {#react}
+## ⚛️ React {#react}
 
-[![注意断层](/emails/issues/189/react189.jpg)](https://www.youtube.com/live/1g5ruM-16_Y?t=7443s)
+[![注意鸿沟](/emails/issues/189/react189.jpg)](https://www.youtube.com/live/1g5ruM-16_Y?t=7443s)
 
-🎥 **[Ryan Florence演讲《注意断层》](https://www.youtube.com/live/1g5ruM-16_Y?t=7443s)**
+🎥 **[Ryan Florence演讲《注意鸿沟》](https://www.youtube.com/live/1g5ruM-16_Y?t=7443s)**
 
-在听到多人评价这是他们见过最精彩的科技大会演讲后，我观看了这个演讲。我们正处于Web开发非常有趣的时期：React 19带来了React模型的重大变革、新JS框架兴起、大量线上讨论将之与Rails和Laravel进行对比区分。Ryan的演讲精彩地回顾了发展历程，在我看来，这为理解React 19提供了极佳的心智模型。另外，看到Remix创始人演示Next.js也很有趣 😉
+在听到多人评价这是他们见过最棒的技术大会演讲后，我观看了这个分享。我们正处于Web开发非常有趣的时期：React 19带来了React模型的重大转变、新JS框架兴起、大量在线讨论将React与Rails/Laravel进行对比区分。Ryan的演讲精彩概述了发展历程，并提供了（在我看来）思考React 19的绝佳心智模型。看到Remix创始人演示Next.js也很有趣😉
 
 - 💸 [NL Kit — 用 JavaScript 更快交付 AI 功能](https://nlkit.com)
 - 🐦 [流程图：如何在 30 多种 React 状态管理方案中做选择](https://x.com/housecor/status/1799435036736778364)
-- 🐦 [React 将 Suspense 上下文中的组件设为 `display: none !important` 直到数据获取完成](https://x.com/cpojer/status/1798912741383844237)
-- 🐦 [Remix/React Router 7 即将推出类型安全路由模块](https://x.com/pcattori/status/1799194706850504818)
+- 🐦 [React 将 Suspense 上下文中的组件设为 `display: none !important` 直至数据获取完成](https://x.com/cpojer/status/1798912741383844237)
+- 🐦 [Remix/React Router 7 即将引入类型安全路由模块](https://x.com/pcattori/status/1799194706850504818)
 - 🐦 [React 18 与 19 在并行数据获取处理上的显著差异引发担忧](https://x.com/TkDodo/status/1800501040766144676)
-- 🗓 [dotJS](https://www.dotjs.io/?utm_source=thisweekinreact) - 🇫🇷 巴黎 - 6月27日 - 距会议开幕仅剩2周！使用代码 "TWIR" 可享9折优惠
+- 🗓 [dotJS](https://www.dotjs.io/?utm_source=thisweekinreact) - 🇫🇷 巴黎 - 6月27日 - 距大会开幕仅剩2周！使用代码 "TWIR" 可享9折优惠
 - 🗓 [React Summit](https://reactsummit.com/?utm_source=thisweekinreact) - 🇳🇱 阿姆斯特丹 - 6月14-18日 - 门票即将售罄。使用代码 "TWIR" 可享9折优惠
-- 📜 [JavaScript 中的弱记忆化](https://dev.to/thekashey/weak-memoization-in-javascript-4po6)：我特别喜欢这类"基础原理"文章。本文并非讨论 useMemo，而是从零开始解释记忆化概念（同时大量引用 React），能有效加深对底层机制的理解
+- 📜 [JavaScript 中的弱记忆化](https://dev.to/thekashey/weak-memoization-in-javascript-4po6)：这类"基础原理"文章深得我心。本文并非讨论 useMemo，而是从零开始解释记忆化概念（同时大量引用 React），有助于深入理解底层机制
 - 📜 [使用 useFormStatus 创建可复用的 SubmitButton](https://aurorascharff.no/posts/creating-a-reusable-submitbutton-with-useformstatus/)：通过本文不仅能学习 React 19 的表单和服务器操作，还能掌握渐进增强表单的实现方式
-- 📜 [Lingui 在 React 服务器组件中的应用](https://lingui.dev/tutorials/react-rsc)：教程展示如何使用 Lingui 国际化 Next.js App Router 应用（包含 RSC）
-- 📜 [Next.js 安全清单](https://blog.arcjet.com/next-js-security-checklist/)：涵盖7大领域的实用清单，包含非常基础（更新依赖、输入消毒）和相对专业（避免暴露服务器代码、使用安全头）的内容
-- 📜 [Hydrogen - 2024年6月更新 - 乐观购物车、RichText 组件、稳定的分析功能](https://hydrogen.shopify.dev/update/june-2024)：除三项功能公告外，开篇还重申了对 Remix（即 React Router 7）的承诺
-- 📜 [Astro - Starlight（基于 Astro 的文档构建器）发布一周年](https://astro.build/blog/starlight-turns-one/)：惊人数据：24次小版本发布、181位贡献者、2000次提交、4000个 GitHub star、2700个开源 Starlight 站点
-- 📜 [Astro - 零 JavaScript 视图过渡](https://astro.build/blog/future-of-astro-zero-js-view-transitions/)：Chrome 126 刚刚支持了原生页面导航间的应用式动画
-- 📜 [速度需求：提升 React 测试效率的快捷方法](https://www.helpscout.com/blog/improve-react-testing-times/)
+- 📜 [Lingui 在 React 服务器组件中的应用](https://lingui.dev/tutorials/react-rsc)：教程展示如何用 Lingui 国际化 Next.js App Router 应用（包含 RSC）
+- 📜 [Next.js 安全清单](https://blog.arcjet.com/next-js-security-checklist/)：涵盖7大领域的实用清单，既有基础项（更新依赖、输入消毒），也有特定场景（避免暴露服务端代码、使用安全头）
+- 📜 [Hydrogen - 2024年6月更新 - 乐观购物车、RichText组件、稳定版分析工具](https://hydrogen.shopify.dev/update/june-2024)：除三项功能外，开篇再次表明对 Remix（即 React Router 7）的承诺
+- 📜 [Astro - Starlight（基于 Astro 的文档构建器）发布一周年](https://astro.build/blog/starlight-turns-one/)：惊人数据：24次小版本发布、181位贡献者、2000次提交、4000 GitHub星标、2700个开源 Starlight 站点
+- 📜 [Astro - 零 JavaScript 视图过渡](https://astro.build/blog/future-of-astro-zero-js-view-transitions/)：Chrome 126 已支持原生页面导航过渡动画
+- 📜 [速度需求：快速提升 React 测试效率的方法](https://www.helpscout.com/blog/improve-react-testing-times/)
 - 📜 [使用 Radix UI 实现交互式下拉菜单](https://www.joshuawootonn.com/radix-interactive-dropdown)
-- 📜 [如何在 Next.js 中使用 Shadcn UI 和 Tailwind CSS 渲染可缩放图像](https://www.nico.fyi/blog/easy-zoomable-image-with-shadcn-tailwind)
+- 📜 [在 Next.js 中用 Shadcn UI 和 Tailwind CSS 实现可缩放图片](https://www.nico.fyi/blog/easy-zoomable-image-with-shadcn-tailwind)
 - 📜 [Storybook - 交互式故事生成](https://storybook.js.org/blog/interactive-story-generation/)
-- 📜 [如何在 Next.js 中使用 Knock 构建通知系统](https://spacejelly.dev/posts/how-to-build-a-notification-system-in-next-js-with-knock)
-- 📦 [Code Hike + Remotion 示例](https://github.com/code-hike/examples/tree/main/with-remotion)：创建动画代码视频的巧妙组合（🐦 [演示视频](https://x.com/pomber/status/1800108854459715864?t=8ickNCn-Orou7665JY31VA&s=19)）
+- 📜 [在 Next.js 中用 Knock 构建通知系统](https://spacejelly.dev/posts/how-to-build-a-notification-system-in-next-js-with-knock)
+- 📦 [Code Hike + Remotion 示例](https://github.com/code-hike/examples/tree/main/with-remotion)：制作动画代码视频的巧妙组合（🐦 [演示视频](https://x.com/pomber/status/1800108854459715864?t=8ickNCn-Orou7665JY31VA&s=19)）
 - 📦 [@xstate/store 1.0.0](https://github.com/statelyai/xstate/releases/tag/%40xstate%2Fstore%401.0.0)
 - 📦 [@tanstack/query 5.44.0](https://github.com/TanStack/query/releases/tag/v5.44.0)：新增"staleTime"函数，例如可从 cache-control 头派生过期时间
 - 🎥 [Theo - React 编译器：比想象更奇特](https://www.youtube.com/watch?v=wnXGSwrOw80)
 - 🎥 [Ben Holmes - 服务器操作的问题](https://www.youtube.com/watch?v=GPYAC1qGD44)
-- 🎥 [Jack Herrington - Radix 主题：NextJS 的卓越新组件](https://www.youtube.com/watch?v=SKm2XGxbLLM)
-- 🎥 [Syntax - React 世界的新动态 - React Conf 2024 回顾](https://www.youtube.com/watch?v=udXZw-9LdOM)
+- 🎥 [Jack Herrington - Radix 主题：NextJS 的惊艳新组件](https://www.youtube.com/watch?v=SKm2XGxbLLM)
+- 🎥 [Syntax - React 世界新动态 - React Conf 2024 回顾](https://www.youtube.com/watch?v=udXZw-9LdOM)
 
 <SubscribeFormEmbed placement="middle" />
 
@@ -76,11 +76,11 @@ import Support from "../_support.mdx";
 
 ## 💸 赞助商 {#sponsor2}
 
-[![WorkOS：企业级认证分钟级实现](/emails/issues/189/WorkOS.jpg)](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q22024)
+[![WorkOS：企业级身份认证，分钟级部署](/emails/issues/189/WorkOS.jpg)](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q22024)
 
-**[WorkOS：企业级认证分钟级实现](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q22024)**
+**[WorkOS：企业级身份认证，分钟级部署](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q22024)**
 
-🔐 WorkOS提供完整的用户管理解决方案，支持**单点登录(SSO)、跨域身份管理系统(SCIM)、基于角色的访问控制(RBAC)和细粒度授权(FGA)**。
+🔐 WorkOS提供完整的用户管理解决方案，包括**单点登录(SSO)、跨域身份管理系统(SCIM)、基于角色的访问控制(RBAC)和细粒度授权(FGA)**。
 
 🗂️ 与其他依赖用户中心模型的认证服务不同，WorkOS专为B2B SaaS设计，采用**组织建模方案**。
 
@@ -88,7 +88,7 @@ import Support from "../_support.mdx";
 
 ✨ 用户管理服务**100万月活用户内免费**，包含机器人防护、身份模拟、多因素认证等功能。
 
-🤝 WorkOS获数百家领先初创企业信任，包括**Perplexity**、**Vercel**和**Webflow**。
+🤝 WorkOS获得数百家领先初创企业信任，包括**Perplexity**、**Vercel**和**Webflow**。
 
 立即使用[WorkOS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q22024)构建面向未来的认证体系 🚀
 
@@ -96,43 +96,43 @@ import Support from "../_support.mdx";
 
 ## 📱 React-Native {#react-native}
 
-本版块由[Benedikt](https://twitter.com/bndkt)主笔。
+本版块由[Benedikt](https://twitter.com/bndkt)撰写。
 
 - 💸 [WithFrame - 开箱即用的React Native组件](https://withfra.me/?utm_source=thisweekinreact&utm_medium=email&utm_campaign=quick-link--2)
-- 👀 [Expo新增实验性React编译器支持](https://github.com/expo/expo/pull/29168)
+- 👀 [Expo新增实验性React Compiler支持](https://github.com/expo/expo/pull/29168)
 - 👀 [Expo Router +原生意图演示](https://github.com/EvanBacon/expo-router-native-intent-demo)
-- 🐦 [Skia视频即将登陆网页端](https://x.com/wcandillon/status/1799859456584646663)
+- 🐦 [Skia视频功能即将登陆网页端](https://x.com/wcandillon/status/1799859456584646663)
 - 🐦 [Lorenzo离开微软和React Native团队](https://x.com/Kelset/status/1800158749811966280?t=jif1MJRNNYc3wIE1cIUJvw&s=19)：感谢Lorenzo作为长期核心维护者为RN社区做出的贡献，祝愿未来一切顺利！
-- 🗓 [Chain React Conf大会](https://chainreactconf.com/?utm_source=thisweekinreact) - 波特兰，俄勒冈州 - 7月17-19日。美国React Native大会回归，包含精彩演讲和实践研讨会！使用优惠码"TWIR"可享门票85折
-- 📜 [Apple Vision Pro：来自大会及其他渠道的洞见](https://www.callstack.com/blog/apple-vision-pro-insights-from-conferences-and-beyond)
-- 📜 [既然我会写React Native了，该测试什么？](https://thoughtbot.com/blog/now-that-i-can-write-react-native-what-should-i-test)：React Native单元测试与集成测试入门指南。下一步尝试端到端测试！
-- 📜 [Starlink如何用React Native和Expo构建3D与AR功能](https://www.notjust.dev/blog/react-native-starlink)：Aaron在App.js大会演讲摘要。建议观看原版演讲视频而非仅阅读文本
-- 📜 [Belka如何在3个月内用Expo开发MangaYo!应用](https://expo.dev/blog/how-belka-built-mangayo-app-in-just-3-months-with-expo)：使用Expo和Supabase开发，上线即登顶App Store排行榜第五名
-- 📜 [Flatlist渲染优化技巧](https://www.andydevs.dev/articles/flatlist-rendering-techniques)：虽然更推荐直接使用FlashList，但本文提供了经典FlatList的渲染优化方案
+- 🗓 [Chain React Conf大会](https://chainreactconf.com/?utm_source=thisweekinreact) - 波特兰，俄勒冈州 - 7月17-19日。美国React Native大会回归，包含精彩演讲和实践工作坊！使用优惠码"TWIR"可享15%门票折扣
+- 📜 [Apple Vision Pro：从会议及其他场景获得的洞察](https://www.callstack.com/blog/apple-vision-pro-insights-from-conferences-and-beyond)
+- 📜 [既然我已掌握React Native开发，接下来该测试什么](https://thoughtbot.com/blog/now-that-i-can-write-react-native-what-should-i-test)：初学者探索React Native单元测试与集成测试的旅程。下一步尝试端到端测试！
+- 📜 [Starlink如何用React Native和Expo构建3D与AR功能](https://www.notjust.dev/blog/react-native-starlink)：Aaron在App.js conf演讲的总结。建议观看原版演讲视频而非仅阅读文本
+- 📜 [Belka如何在3个月内用Expo开发出MangaYo!应用](https://expo.dev/blog/how-belka-built-mangayo-app-in-just-3-months-with-expo)：使用Expo和Supabase开发，上线即登顶App Store排行榜第五名
+- 📜 [Flatlist渲染优化技巧](https://www.andydevs.dev/articles/flatlist-rendering-techniques)：虽然我通常直接使用FlashList，但若受限于条件必须使用传统FlatList，本文介绍如何优化其渲染性能
 - 📦 [react-native-app-clip 0.3.0发布](https://github.com/bndkt/react-native-app-clip/releases/tag/v0.3.0)：支持Expo 51、RN 0.74、新架构和Apple Pay
-- 📦 [@rn-tools/navigation](https://github.com/ajsmth/rn-tools/blob/main/packages/navigation/readme.md)：React Native全新导航组件集
-- 🎙️ [RNR第299期 - React Native未来5年展望](https://www.reactnativeradio.com/episodes/rnr-299-what-to-expect-from-react-native-in-5-years)
-- 🎙️ [React Conf 2024亮点：演讲者访谈 | React Native Show第38期](https://www.youtube.com/watch?v=EP2IzK6rPv8)
-- 🎥 [Expo直播 - SDK 51新特性：新架构、Router 3.5、更快的入门流程等](https://www.youtube.com/watch?v=k1ISWPgP4S4)
+- 📦 [@rn-tools/navigation](https://github.com/ajsmth/rn-tools/blob/main/packages/navigation/readme.md)：React Native导航组件新工具集
+- 🎙️ [RNR第299期 - 未来5年React Native发展展望](https://www.reactnativeradio.com/episodes/rnr-299-what-to-expect-from-react-native-in-5-years)
+- 🎙️ [React Conf 2024亮点：演讲者访谈 | React Native Show播客第38期](https://www.youtube.com/watch?v=EP2IzK6rPv8)
+- 🎥 [Expo直播 - 发布SDK 51：新架构、Router 3.5、更快的入门流程等](https://www.youtube.com/watch?v=k1ISWPgP4S4)
 - 🎥 [Simon Grimm - 使用PowerSync和Supabase构建本地优先的React Native应用](https://www.youtube.com/watch?v=xvvVGOyRgZg)
 
 ---
 
-## 🔀 其他 {#other}
+## 🔀 其他资讯 {#other}
 
-- 📜 [Safari 18 beta中的WebKit新特性 - 视图过渡、样式查询、WebXR...](https://webkit.org/blog/15443/news-from-wwdc24-webkit-in-safari-18-beta/)
-- 📜 [你的DOM有多深？](https://frontendatscale.com/blog/how-deep-is-your-dom/)
-- 📜 [如何发现线上慢交互](https://web.dev/articles/find-slow-interactions-in-the-field)
-- 📜 [Node内存泄漏？setTimeout可能是元凶](https://lucumr.pocoo.org/2024/6/5/node-timeout/)
+- 📜 [Safari 18 beta版WebKit更新 - 视图过渡、样式查询、WebXR...](https://webkit.org/blog/15443/news-from-wwdc24-webkit-in-safari-18-beta/)
+- 📜 [你的DOM层级有多深？](https://frontendatscale.com/blog/how-deep-is-your-dom/)
+- 📜 [如何发现实际场景中的慢速交互](https://web.dev/articles/find-slow-interactions-in-the-field)
+- [Node内存泄漏？setTimeout可能是元凶](https://lucumr.pocoo.org/2024/6/5/node-timeout/)
 - 📜 [使用Chrome DevTools进行JavaScript性能分析的完整指南](https://blog.jiayihu.net/comprenhensive-guide-chrome-performance/)
 - 📦 [TypeScript 5.5候选版发布](https://devblogs.microsoft.com/typescript/announcing-typescript-5-5-rc/?t)
 - 📦 [Valibot v0.31.0正式发布](https://valibot.dev/blog/valibot-v0.31.0-is-finally-available/)
-- 📦 [Vite 5.3.0-beta.2](https://github.com/vitejs/vite/blob/v5.3.0-beta.2/packages/vite/CHANGELOG.md#530-beta2-2024-06-10)
+- 📦 [Vite 5.3.0-beta.2版本](https://github.com/vitejs/vite/blob/v5.3.0-beta.2/packages/vite/CHANGELOG.md#530-beta2-2024-06-10)
 
 ---
 
-## 🤭 轻松一刻 {#fun}
+## 🤭 趣味一刻 {#fun}
 
 [![Tailwind显示器梗图](/emails/issues/189/meme.jpg)](https://x.com/thekitze/status/1788852862669217805)
 
-下次见！👋
+下期见！👋

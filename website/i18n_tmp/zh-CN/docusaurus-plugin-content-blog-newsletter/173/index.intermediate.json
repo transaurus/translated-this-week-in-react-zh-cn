@@ -1,329 +1,437 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/173/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/173/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /173\ntitle: \"This Week In React #173: Million, Storybook, visionOS, Expo, Conform, Next.js, Remix, Astro, Apollo, useFormStatus, Framer Motion, Ariakit, Reanimated, TypeScript, JQuery, Express, Interop...\"\nauthors: [slorber, bndkt]\ndate: 02-07-2024\n---",
-      "sourceMdx": "---\nslug: /173\ntitle: \"This Week In React #173: Million, Storybook, visionOS, Expo, Conform, Next.js, Remix, Astro, Apollo, useFormStatus, Framer Motion, Ariakit, Reanimated, TypeScript, JQuery, Express, Interop...\"\nauthors: [slorber, bndkt]\ndate: 02-07-2024\n---"
+      "sourceMdx": "---\nslug: /173\ntitle: \"This Week In React #173: Million, Storybook, visionOS, Expo, Conform, Next.js, Remix, Astro, Apollo, useFormStatus, Framer Motion, Ariakit, Reanimated, TypeScript, JQuery, Express, Interop...\"\nauthors: [slorber, bndkt]\ndate: 02-07-2024\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "This week we have many great React articles and a few interesting releases. It seems that React is constantly being criticized, but overall, the arguments are always the same and many of them seems a bit outdated, and never acknowledging what React does better than other solutions.",
-      "sourceMdx": "This week we have many great React articles and a few interesting releases. It seems that React is constantly being criticized, but overall, the arguments are always the same and many of them seems a bit outdated, and never acknowledging what React does better than other solutions."
+      "sourceMdx": "This week we have many great React articles and a few interesting releases. It seems that React is constantly being criticized, but overall, the arguments are always the same and many of them seems a bit outdated, and never acknowledging what React does better than other solutions.",
+      "nodeType": "paragraph",
+      "translated_content": "本周我们有许多优质的React文章和一些有趣的发布。React似乎不断受到批评，但总体而言，这些论点总是老生常谈，许多观点显得过时，且从未承认React比其他解决方案更出色的地方。"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "The React Native world is taken over by the official launch of Vision Pro!",
-      "sourceMdx": "The React Native world is taken over by the official launch of Vision Pro!"
+      "sourceMdx": "The React Native world is taken over by the official launch of Vision Pro!",
+      "nodeType": "paragraph",
+      "translated_content": "React Native领域正被Vision Pro的正式发布所席卷！"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "We are trying something new this week, with a very first [Twitter thread dedicated to React Native](https://twitter.com/bndkt/status/1755203992039424377). Let us know if you like it.",
-      "sourceMdx": "We are trying something new this week, with a very first [Twitter thread dedicated to React Native](https://twitter.com/bndkt/status/1755203992039424377). Let us know if you like it."
+      "sourceMdx": "We are trying something new this week, with a very first [Twitter thread dedicated to React Native](https://twitter.com/bndkt/status/1755203992039424377). Let us know if you like it.",
+      "nodeType": "paragraph",
+      "translated_content": "我们本周尝试了新形式，首次推出了[专为React Native设计的Twitter讨论串](https://twitter.com/bndkt/status/1755203992039424377)。欢迎告诉我们您的看法。"
     },
     {
       "id": "86b54d44",
       "translatable": true,
       "content": "The newsletter will be on a break next week. We'll be back the 21th of February 👋.",
-      "sourceMdx": "The newsletter will be on a break next week. We'll be back the 21th of February 👋."
+      "sourceMdx": "The newsletter will be on a break next week. We'll be back the 21th of February 👋.",
+      "nodeType": "paragraph",
+      "translated_content": "下周简报将暂停一期，我们将于2月21日回归👋。"
     },
     {
       "id": "39b3772c",
       "translatable": true,
       "content": "I'd also like to ask you a small favor: can you reply to this e-mail with a simple \"hello\" or a comment? This helps increase our email deliverability. Thanks!",
-      "sourceMdx": "I'd also like to ask you a small favor: can you reply to this e-mail with a simple \"hello\" or a comment? This helps increase our email deliverability. Thanks!"
+      "sourceMdx": "I'd also like to ask you a small favor: can you reply to this e-mail with a simple \"hello\" or a comment? This helps increase our email deliverability. Thanks!",
+      "nodeType": "paragraph",
+      "translated_content": "另外想请大家帮个小忙：能否回复这封邮件，简单说声\"你好\"或留下评论？这有助于提升我们的邮件送达率。感谢！"
     },
     {
       "id": "c6da205d",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_c6da205d"
     },
     {
       "id": "2df4f75f",
       "translatable": true,
       "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
-      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "nodeType": "paragraph",
+      "translated_content": "**💡 [在Twitter查看本期简报](https://slo.im/thread) - 视觉版式 🎨**"
     },
     {
       "id": "1856ef44",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "cf4363fc",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_cf4363fc"
     },
     {
       "id": "2a3434e4",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_2a3434e4"
     },
     {
       "id": "2b28cb1b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "b25f21be",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "[![CMS with Inline Visual editing for Next.js with App routing](/emails/issues/173/reactbricks.jpg)](https://reactbricks.com?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email)",
-      "sourceMdx": "[![CMS with Inline Visual editing for Next.js with App routing](/emails/issues/173/reactbricks.jpg)](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)"
+      "sourceMdx": "[![CMS with Inline Visual editing for Next.js with App routing](/emails/issues/173/reactbricks.jpg)](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)",
+      "nodeType": "paragraph",
+      "translated_content": "[![支持内联可视化编辑的Next.js CMS（App路由）](/emails/issues/173/reactbricks.jpg)](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)"
     },
     {
       "id": "517051a7",
       "translatable": true,
       "content": "**[CMS with Inline Visual editing for Next.js with App routing](https://reactbricks.com?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email)**",
-      "sourceMdx": "**[CMS with Inline Visual editing for Next.js with App routing](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)**"
+      "sourceMdx": "**[CMS with Inline Visual editing for Next.js with App routing](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[支持内联可视化编辑的Next.js CMS（App路由）](https://reactbricks.com?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)**"
     },
     {
       "id": "135468ee",
       "translatable": true,
       "content": "[**Set up a project in just 1 minute**](https://reactbricks.com/sign-up?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email) with the CLI and define your own Visual blocks as React components to convey your pixel-perfect corporate brand, using any CSS framework. Try the new Next.js starter with Server Components!",
-      "sourceMdx": "[**Set up a project in just 1 minute**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email) with the CLI and define your own Visual blocks as React components to convey your pixel-perfect corporate brand, using any CSS framework. Try the new Next.js starter with Server Components!"
+      "sourceMdx": "[**Set up a project in just 1 minute**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email) with the CLI and define your own Visual blocks as React components to convey your pixel-perfect corporate brand, using any CSS framework. Try the new Next.js starter with Server Components!",
+      "nodeType": "paragraph",
+      "translated_content": "通过CLI[**1分钟快速创建项目**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)，将自定义可视化区块定义为React组件，使用任意CSS框架实现像素级品牌呈现。快来尝试支持Server Components的新版Next.js启动模板！"
     },
     {
       "id": "33331f27",
       "translatable": true,
       "content": "Content editors can easily use content blocks to compose pages visually, just like using a word processor, without compromising the design.",
-      "sourceMdx": "Content editors can easily use content blocks to compose pages visually, just like using a word processor, without compromising the design."
+      "sourceMdx": "Content editors can easily use content blocks to compose pages visually, just like using a word processor, without compromising the design.",
+      "nodeType": "paragraph",
+      "translated_content": "内容编辑者可以像使用文字处理器般直观组合内容区块，完全不影响设计效果。"
     },
     {
       "id": "50746522",
       "translatable": true,
       "content": "React Bricks is enterprise-ready with Digital Assets Management, Advanced SEO, Real-time Collaboration, Scheduled Publishing, Multilanguage, integration with external APIs, Approval Workflow, Multiple environments, Change history and more.",
-      "sourceMdx": "React Bricks is enterprise-ready with Digital Assets Management, Advanced SEO, Real-time Collaboration, Scheduled Publishing, Multilanguage, integration with external APIs, Approval Workflow, Multiple environments, Change history and more."
+      "sourceMdx": "React Bricks is enterprise-ready with Digital Assets Management, Advanced SEO, Real-time Collaboration, Scheduled Publishing, Multilanguage, integration with external APIs, Approval Workflow, Multiple environments, Change history and more.",
+      "nodeType": "paragraph",
+      "translated_content": "React Bricks具备企业级功能：数字资产管理、高级SEO、实时协作、定时发布、多语言支持、外部API集成、审批工作流、多环境部署、变更历史等。"
     },
     {
       "id": "95e9ba12",
       "translatable": true,
       "content": "Trusted by corporate clients such as The Weather Channel, Deel.com, La Banque Postale, leading eCommerce sites and over 9,000 users worldwide.\\\n[**Get started today!**](https://reactbricks.com/sign-up?utm_source=twir\\&utm_campaign=twir_2024\\&utm_medium=email)",
-      "sourceMdx": "Trusted by corporate clients such as The Weather Channel, Deel.com, La Banque Postale, leading eCommerce sites and over 9,000 users worldwide.  \n[**Get started today!**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)"
+      "sourceMdx": "Trusted by corporate clients such as The Weather Channel, Deel.com, La Banque Postale, leading eCommerce sites and over 9,000 users worldwide.  \n[**Get started today!**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)",
+      "nodeType": "paragraph",
+      "translated_content": "已获The Weather Channel、Deel.com、法国邮政银行等企业客户及全球9000+用户信赖。  \n[**立即体验！**](https://reactbricks.com/sign-up?utm_source=twir&utm_campaign=twir_2024&utm_medium=email)"
     },
     {
       "id": "94f98fb8",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "6f930b2f",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React动态 {#react}"
     },
     {
       "id": "c504c207",
       "translatable": true,
       "content": "[![Million 3.0](/emails/issues/173/million.jpg)](https://million.dev/blog/million-3)",
-      "sourceMdx": "[![Million 3.0](/emails/issues/173/million.jpg)](https://million.dev/blog/million-3)"
+      "sourceMdx": "[![Million 3.0](/emails/issues/173/million.jpg)](https://million.dev/blog/million-3)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Million 3.0](/emails/issues/173/million.jpg)](https://million.dev/blog/million-3)"
     },
     {
       "id": "98d26038",
       "translatable": true,
       "content": "**[Million 3.0](https://million.dev/blog/million-3)**",
-      "sourceMdx": "**[Million 3.0](https://million.dev/blog/million-3)**"
+      "sourceMdx": "**[Million 3.0](https://million.dev/blog/million-3)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Million 3.0](https://million.dev/blog/million-3)**"
     },
     {
       "id": "d3649a1e",
       "translatable": true,
       "content": "Million is an optimizing compiler for React. This new major version is a complete rewrite that fixes caveats of previous versions, handles more edge cases, brings a new optimized hydration system and improves stability.",
-      "sourceMdx": "Million is an optimizing compiler for React. This new major version is a complete rewrite that fixes caveats of previous versions, handles more edge cases, brings a new optimized hydration system and improves stability."
+      "sourceMdx": "Million is an optimizing compiler for React. This new major version is a complete rewrite that fixes caveats of previous versions, handles more edge cases, brings a new optimized hydration system and improves stability.",
+      "nodeType": "paragraph",
+      "translated_content": "Million是React的优化编译器。这个重大版本更新彻底重构了代码，修复了先前版本的缺陷，处理了更多边界情况，带来全新的优化hydration系统并提升稳定性。"
     },
     {
       "id": "4d52a261",
       "translatable": true,
       "content": "It looks like Million is planning to help us debug and maintain great web performance over time. According to their 🐦 [launch trailer](https://twitter.com/aidenybai/status/1753456530652107072), a million linter is on the roadmap.",
-      "sourceMdx": "It looks like Million is planning to help us debug and maintain great web performance over time. According to their 🐦 [launch trailer](https://twitter.com/aidenybai/status/1753456530652107072), a million linter is on the roadmap."
+      "sourceMdx": "It looks like Million is planning to help us debug and maintain great web performance over time. According to their 🐦 [launch trailer](https://twitter.com/aidenybai/status/1753456530652107072), a million linter is on the roadmap.",
+      "nodeType": "paragraph",
+      "translated_content": "据其🐦[发布预告](https://twitter.com/aidenybai/status/1753456530652107072)显示，Million计划帮助开发者长期调试和维护网页性能，路线图中还包含性能检测工具。"
     },
     {
       "id": "069f729e",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "3df4f066",
       "translatable": true,
       "content": "* 💸 [Product for Engineers - PostHog's newsletter helping engineers build their product skills.](https://newsletter.posthog.com/?utm_source=twir\\&utm_campaign=twir)\n* 👀 [React Types PR - JSDoc comments](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/68409): Matt Pocock is working on increasing our DX when using React with TypeScript.\n* 📜 [Avoid using React’s `useFormStatus`](https://allanlasser.com/posts/2024-01-26-avoid-using-reacts-useformstatus): An interesting article presenting shortcomings of this new React hook. It requires to be used under a `<form>` element, yet placing a submit `<button>` outside a form is perfectly valid HTML. Suggests using an async transition as an alternative.\n* 📜 [Direction-aware animations in Framer Motion](https://sinja.io/blog/direction-aware-animations-in-framer-motion): A pleasant interactive article showing how to animate list/details views and carousel slides in the correct direction for enter/exist animations.\n* 📜 [Open Sourcing the Remix Website](https://remix.run/blog/oss-remix-dot-run): The Remix team think there are more benefits than drawbacks to open-source their website. You can now study how their homepage scroll experience is implemented, or how they SSR their docs pages.\n* 📜 [Dockerizing a Next.js Application with GitHub Actions](https://mxd.codes/articles/ci-cd-for-nextjs-with-github-actions): Builds the default Dockerfile provided by Vercel with appropriate env variables, and publishes it to your container registry.\n* 📜 [Removing React is just weakness leaving your codebase](https://begin.com/blog/posts/2024-01-26-removing-react-is-just-weakness-leaving-your-codebase): Interesting criticism I can’t really agree with 😅 to me React doesn’t change that often, existing code doesn’t need to be rewritten and CSS-in-JS, well we know runtime-based libs are a problem for a while… And even React devs today rely more and more on web fundamentals than ever.\n* 📜 [It feels like React is getting a bit of a kicking recently](https://piccalil.li/blog/react-is-getting-a-bit-of-a-kicking-recently/): A more nuanced reply to the criticism above. React isn’t perfect, but isn’t going anywhere, and the web platform doesn’t currently give us all the tools we need.\n* 📜 [How to stream files from Next.js Route Handlers](https://www.ericburel.tech/blog/nextjs-stream-files): Shows how to serve dynamic/generated files without loading them in memory. You might need to convert Node.js streams to web streams.\n* 📜 [How to Detect Clicks Anywhere on a Page in React](https://spacejelly.dev/posts/how-to-detect-clicks-anywhere-on-a-page-in-react): TIL about the event.composedPath() API.\n* 📜 [How streaming helps build faster web applications](https://vercel.com/blog/how-streaming-helps-build-faster-web-applications)\n* 📜 [Lessons Learned from Developing DevCycle's Next.js SDK](https://blog.devcycle.com/feature-flagging-with-next-js-lessons-learned-from-developing-devcycles-sdk/): Their feature-flag SDK had to support Server/Client Components, streaming and Suspense.\n* 📜 [How to generate responsive images on Remix with Unpic](https://unpic.pics/blog/responsive-images-on-remix/)\n* 📜 [Enhance Your React App's Scalability using Storybook and Chromatic](https://dainemawer.com/articles/enhance-your-react-apps-scalability-using-storybook-and-chromatic)\n* 📜 [Tale of a Refactor - Payment system](https://commerce.nearform.com/blog/2024/tale-of-a-refactor/)\n* 📜 [How we Increased Search Traffic by 20x in 4 Months with the Next.js App Router](https://hardcover.app/blog/next-js-app-router-seo)\n* 📜 [How I generate Open Graph images for my Astro-based blog](https://techsquidtv.com/blog/generating-open-graph-images-for-astro/)\n* 📜 [Building a blog with Next.js App Router and MDX](https://www.alexchantastic.com/building-a-blog-with-next-and-mdx)\n* 📜 [React Intersection Observer - A Practical Guide](https://www.builder.io/blog/react-intersection-observer)\n* 📦 [Storybook 8 Beta - RSC support, SWC compiler, Vitest, major performance and compatibility improvements, on-the-fly visual tests…](https://storybook.js.org/blog/storybook-8-beta/)\n* 📦 [Conform 1.0 - Type-safe progressive enhancement form validation library for Remix and Next.js](https://github.com/edmundhung/conform/releases/tag/v1.0.0)\n* 📦 [Safe NextJS Navigation - Typesafe navigation for NextJS App Router](https://github.com/lukemorales/next-safe-navigation)\n* 📦 [Astro 4.3 - i18n domains, html output control, ComponentProps utility type…](https://astro.build/blog/astro-430/)\n* 📦 [Apollo Client 3.9 - Suspense data-fetching, query preloading, memory optimizations, useQueryRefHandlers hook…](https://www.apollographql.com/blog/whats-new-in-apollo-client-3-9)\n* 📦 [Remix 2.6.0 - Cloudflare support for Vite plugin (unstable)](https://github.com/remix-run/remix/blob/main/CHANGELOG.md)\n* 📦 [Sonner 1.4 - Toast component](https://github.com/emilkowalski/sonner/releases/tag/v1.4.0)\n* 📦 [Ariakit 0.4 - better support for CSS animations and transitions](https://ariakit.org/changelog#040)\n* 📦 [React-resizable-panels 2.0 - Support for multi-panel resize](https://github.com/bvaughn/react-resizable-panels/releases/tag/2.0.0)\n* 🎥 [Lee Robinson - Next.js App Router Authentication (Sessions, Cookies, JWTs)](https://www.youtube.com/watch?v=DJvM2lSPn6w)\n* 🎥 [Jack Herrington - Five Application Killing React Anti-Patterns](https://www.youtube.com/watch?v=ZkQPxP4wlE8)\n* 🎙️ [Dan Abramov on React, RSCs, and the future](https://podrocket.logrocket.com/dan-abramov-react-rscs-future)",
-      "sourceMdx": "- 💸 [Product for Engineers - PostHog's newsletter helping engineers build their product skills.](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)\n- 👀 [React Types PR - JSDoc comments](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/68409): Matt Pocock is working on increasing our DX when using React with TypeScript.\n- 📜 [Avoid using React’s `useFormStatus`](https://allanlasser.com/posts/2024-01-26-avoid-using-reacts-useformstatus): An interesting article presenting shortcomings of this new React hook. It requires to be used under a `<form>` element, yet placing a submit `<button>` outside a form is perfectly valid HTML. Suggests using an async transition as an alternative.\n- 📜 [Direction-aware animations in Framer Motion](https://sinja.io/blog/direction-aware-animations-in-framer-motion): A pleasant interactive article showing how to animate list/details views and carousel slides in the correct direction for enter/exist animations.\n- 📜 [Open Sourcing the Remix Website](https://remix.run/blog/oss-remix-dot-run): The Remix team think there are more benefits than drawbacks to open-source their website. You can now study how their homepage scroll experience is implemented, or how they SSR their docs pages.\n- 📜 [Dockerizing a Next.js Application with GitHub Actions](https://mxd.codes/articles/ci-cd-for-nextjs-with-github-actions): Builds the default Dockerfile provided by Vercel with appropriate env variables, and publishes it to your container registry.\n- 📜 [Removing React is just weakness leaving your codebase](https://begin.com/blog/posts/2024-01-26-removing-react-is-just-weakness-leaving-your-codebase): Interesting criticism I can’t really agree with 😅 to me React doesn’t change that often, existing code doesn’t need to be rewritten and CSS-in-JS, well we know runtime-based libs are a problem for a while… And even React devs today rely more and more on web fundamentals than ever.\n- 📜 [It feels like React is getting a bit of a kicking recently](https://piccalil.li/blog/react-is-getting-a-bit-of-a-kicking-recently/): A more nuanced reply to the criticism above. React isn’t perfect, but isn’t going anywhere, and the web platform doesn’t currently give us all the tools we need.\n- 📜 [How to stream files from Next.js Route Handlers](https://www.ericburel.tech/blog/nextjs-stream-files): Shows how to serve dynamic/generated files without loading them in memory. You might need to convert Node.js streams to web streams.\n- 📜 [How to Detect Clicks Anywhere on a Page in React](https://spacejelly.dev/posts/how-to-detect-clicks-anywhere-on-a-page-in-react): TIL about the event.composedPath() API.\n- 📜 [How streaming helps build faster web applications](https://vercel.com/blog/how-streaming-helps-build-faster-web-applications)\n- 📜 [Lessons Learned from Developing DevCycle's Next.js SDK](https://blog.devcycle.com/feature-flagging-with-next-js-lessons-learned-from-developing-devcycles-sdk/): Their feature-flag SDK had to support Server/Client Components, streaming and Suspense.\n- 📜 [How to generate responsive images on Remix with Unpic](https://unpic.pics/blog/responsive-images-on-remix/)\n- 📜 [Enhance Your React App's Scalability using Storybook and Chromatic](https://dainemawer.com/articles/enhance-your-react-apps-scalability-using-storybook-and-chromatic)\n- 📜 [Tale of a Refactor - Payment system](https://commerce.nearform.com/blog/2024/tale-of-a-refactor/)\n- 📜 [How we Increased Search Traffic by 20x in 4 Months with the Next.js App Router](https://hardcover.app/blog/next-js-app-router-seo)\n- 📜 [How I generate Open Graph images for my Astro-based blog](https://techsquidtv.com/blog/generating-open-graph-images-for-astro/)\n- 📜 [Building a blog with Next.js App Router and MDX](https://www.alexchantastic.com/building-a-blog-with-next-and-mdx)\n- 📜 [React Intersection Observer - A Practical Guide](https://www.builder.io/blog/react-intersection-observer)\n- 📦 [Storybook 8 Beta - RSC support, SWC compiler, Vitest, major performance and compatibility improvements, on-the-fly visual tests…](https://storybook.js.org/blog/storybook-8-beta/)\n- 📦 [Conform 1.0 - Type-safe progressive enhancement form validation library for Remix and Next.js](https://github.com/edmundhung/conform/releases/tag/v1.0.0)\n- 📦 [Safe NextJS Navigation - Typesafe navigation for NextJS App Router](https://github.com/lukemorales/next-safe-navigation)\n- 📦 [Astro 4.3 - i18n domains, html output control, ComponentProps utility type…](https://astro.build/blog/astro-430/)\n- 📦 [Apollo Client 3.9 - Suspense data-fetching, query preloading, memory optimizations, useQueryRefHandlers hook…](https://www.apollographql.com/blog/whats-new-in-apollo-client-3-9)\n- 📦 [Remix 2.6.0 - Cloudflare support for Vite plugin (unstable)](https://github.com/remix-run/remix/blob/main/CHANGELOG.md)\n- 📦 [Sonner 1.4 - Toast component](https://github.com/emilkowalski/sonner/releases/tag/v1.4.0)\n- 📦 [Ariakit 0.4 - better support for CSS animations and transitions](https://ariakit.org/changelog#040)\n- 📦 [React-resizable-panels 2.0 - Support for multi-panel resize](https://github.com/bvaughn/react-resizable-panels/releases/tag/2.0.0)\n- 🎥 [Lee Robinson - Next.js App Router Authentication (Sessions, Cookies, JWTs)](https://www.youtube.com/watch?v=DJvM2lSPn6w)\n- 🎥 [Jack Herrington - Five Application Killing React Anti-Patterns](https://www.youtube.com/watch?v=ZkQPxP4wlE8)\n- 🎙️ [Dan Abramov on React, RSCs, and the future](https://podrocket.logrocket.com/dan-abramov-react-rscs-future)"
+      "sourceMdx": "- 💸 [Product for Engineers - PostHog's newsletter helping engineers build their product skills.](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)\n- 👀 [React Types PR - JSDoc comments](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/68409): Matt Pocock is working on increasing our DX when using React with TypeScript.\n- 📜 [Avoid using React’s `useFormStatus`](https://allanlasser.com/posts/2024-01-26-avoid-using-reacts-useformstatus): An interesting article presenting shortcomings of this new React hook. It requires to be used under a `<form>` element, yet placing a submit `<button>` outside a form is perfectly valid HTML. Suggests using an async transition as an alternative.\n- 📜 [Direction-aware animations in Framer Motion](https://sinja.io/blog/direction-aware-animations-in-framer-motion): A pleasant interactive article showing how to animate list/details views and carousel slides in the correct direction for enter/exist animations.\n- 📜 [Open Sourcing the Remix Website](https://remix.run/blog/oss-remix-dot-run): The Remix team think there are more benefits than drawbacks to open-source their website. You can now study how their homepage scroll experience is implemented, or how they SSR their docs pages.\n- 📜 [Dockerizing a Next.js Application with GitHub Actions](https://mxd.codes/articles/ci-cd-for-nextjs-with-github-actions): Builds the default Dockerfile provided by Vercel with appropriate env variables, and publishes it to your container registry.\n- 📜 [Removing React is just weakness leaving your codebase](https://begin.com/blog/posts/2024-01-26-removing-react-is-just-weakness-leaving-your-codebase): Interesting criticism I can’t really agree with 😅 to me React doesn’t change that often, existing code doesn’t need to be rewritten and CSS-in-JS, well we know runtime-based libs are a problem for a while… And even React devs today rely more and more on web fundamentals than ever.\n- 📜 [It feels like React is getting a bit of a kicking recently](https://piccalil.li/blog/react-is-getting-a-bit-of-a-kicking-recently/): A more nuanced reply to the criticism above. React isn’t perfect, but isn’t going anywhere, and the web platform doesn’t currently give us all the tools we need.\n- 📜 [How to stream files from Next.js Route Handlers](https://www.ericburel.tech/blog/nextjs-stream-files): Shows how to serve dynamic/generated files without loading them in memory. You might need to convert Node.js streams to web streams.\n- 📜 [How to Detect Clicks Anywhere on a Page in React](https://spacejelly.dev/posts/how-to-detect-clicks-anywhere-on-a-page-in-react): TIL about the event.composedPath() API.\n- 📜 [How streaming helps build faster web applications](https://vercel.com/blog/how-streaming-helps-build-faster-web-applications)\n- 📜 [Lessons Learned from Developing DevCycle's Next.js SDK](https://blog.devcycle.com/feature-flagging-with-next-js-lessons-learned-from-developing-devcycles-sdk/): Their feature-flag SDK had to support Server/Client Components, streaming and Suspense.\n- 📜 [How to generate responsive images on Remix with Unpic](https://unpic.pics/blog/responsive-images-on-remix/)\n- 📜 [Enhance Your React App's Scalability using Storybook and Chromatic](https://dainemawer.com/articles/enhance-your-react-apps-scalability-using-storybook-and-chromatic)\n- 📜 [Tale of a Refactor - Payment system](https://commerce.nearform.com/blog/2024/tale-of-a-refactor/)\n- 📜 [How we Increased Search Traffic by 20x in 4 Months with the Next.js App Router](https://hardcover.app/blog/next-js-app-router-seo)\n- 📜 [How I generate Open Graph images for my Astro-based blog](https://techsquidtv.com/blog/generating-open-graph-images-for-astro/)\n- 📜 [Building a blog with Next.js App Router and MDX](https://www.alexchantastic.com/building-a-blog-with-next-and-mdx)\n- 📜 [React Intersection Observer - A Practical Guide](https://www.builder.io/blog/react-intersection-observer)\n- 📦 [Storybook 8 Beta - RSC support, SWC compiler, Vitest, major performance and compatibility improvements, on-the-fly visual tests…](https://storybook.js.org/blog/storybook-8-beta/)\n- 📦 [Conform 1.0 - Type-safe progressive enhancement form validation library for Remix and Next.js](https://github.com/edmundhung/conform/releases/tag/v1.0.0)\n- 📦 [Safe NextJS Navigation - Typesafe navigation for NextJS App Router](https://github.com/lukemorales/next-safe-navigation)\n- 📦 [Astro 4.3 - i18n domains, html output control, ComponentProps utility type…](https://astro.build/blog/astro-430/)\n- 📦 [Apollo Client 3.9 - Suspense data-fetching, query preloading, memory optimizations, useQueryRefHandlers hook…](https://www.apollographql.com/blog/whats-new-in-apollo-client-3-9)\n- 📦 [Remix 2.6.0 - Cloudflare support for Vite plugin (unstable)](https://github.com/remix-run/remix/blob/main/CHANGELOG.md)\n- 📦 [Sonner 1.4 - Toast component](https://github.com/emilkowalski/sonner/releases/tag/v1.4.0)\n- 📦 [Ariakit 0.4 - better support for CSS animations and transitions](https://ariakit.org/changelog#040)\n- 📦 [React-resizable-panels 2.0 - Support for multi-panel resize](https://github.com/bvaughn/react-resizable-panels/releases/tag/2.0.0)\n- 🎥 [Lee Robinson - Next.js App Router Authentication (Sessions, Cookies, JWTs)](https://www.youtube.com/watch?v=DJvM2lSPn6w)\n- 🎥 [Jack Herrington - Five Application Killing React Anti-Patterns](https://www.youtube.com/watch?v=ZkQPxP4wlE8)\n- 🎙️ [Dan Abramov on React, RSCs, and the future](https://podrocket.logrocket.com/dan-abramov-react-rscs-future)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [工程师产品指南 - PostHog的通讯，帮助工程师提升产品技能。](https://newsletter.posthog.com/?utm_source=twir&utm_campaign=twir)\n- 👀 [React Types PR - JSDoc注释](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/68409): Matt Pocock正在改进React与TypeScript配合使用的开发者体验。\n- 📜 [避免使用React的`useFormStatus`](https://allanlasser.com/posts/2024-01-26-avoid-using-reacts-useformstatus): 一篇有趣的文章指出了这个新React钩子的缺陷。它要求必须在`<form>`元素下使用，但将提交`<button>`放在表单外是完全有效的HTML。建议使用异步过渡作为替代方案。\n- 📜 [Framer Motion中的方向感知动画](https://sinja.io/blog/direction-aware-animations-in-framer-motion): 一篇互动性强的文章，展示了如何为列表/详情视图和轮播幻灯片设置正确的进入/退出动画方向。\n- 📜 [开源Remix官网](https://remix.run/blog/oss-remix-dot-run): Remix团队认为开源其网站利大于弊。你现在可以研究他们主页滚动效果的实现方式，或他们如何SSR文档页面。\n- 📜 [使用GitHub Actions将Next.js应用Docker化](https://mxd.codes/articles/ci-cd-for-nextjs-with-github-actions): 使用Vercel提供的默认Dockerfile构建，配置适当的环境变量，并发布到容器注册表。\n- 📜 [移除React只是代码库在示弱](https://begin.com/blog/posts/2024-01-26-removing-react-is-just-weakness-leaving-your-codebase): 一个有趣但我难以认同的批评😅在我看来React并不常变化，现有代码无需重写，而CSS-in-JS的运行时库问题我们早就知道...\n- 📜 [感觉React最近有点被针对](https://piccalil.li/blog/react-is-getting-a-bit-of-a-kicking-recently/): 对上述批评的更 nuanced 回应。React并不完美，但也不会消失，而且web平台目前并未提供我们所需的所有工具。\n- 📜 [如何从Next.js路由处理器流式传输文件](https://www.ericburel.tech/blog/nextjs-stream-files): 展示如何在不加载到内存的情况下提供动态生成的文件。可能需要将Node.js流转换为web流。\n- 📜 [如何在React中检测页面任意位置的点击](https://spacejelly.dev/posts/how-to-detect-clicks-anywhere-on-a-page-in-react): 今日学习event.composedPath() API。\n- 📜 [流式传输如何帮助构建更快的web应用](https://vercel.com/blog/how-streaming-helps-build-faster-web-applications)\n- 📜 [开发DevCycle的Next.js SDK的经验教训](https://blog.devcycle.com/feature-flagging-with-next-js-lessons-learned-from-developing-devcycles-sdk/): 他们的功能标记SDK需要支持服务端/客户端组件、流式传输和Suspense。\n- 📜 [如何在Remix中使用Unpic生成响应式图片](https://unpic.pics/blog/responsive-images-on-remix/)\n- 📜 [使用Storybook和Chromatic增强React应用的可扩展性](https://dainemawer.com/articles/enhance-your-react-apps-scalability-using-storybook-and-chromatic)\n- 📜 [重构故事 - 支付系统](https://commerce.nearform.com/blog/2024/tale-of-a-refactor/)\n- 📜 [我们如何通过Next.js App Router在4个月内将搜索流量提升20倍](https://hardcover.app/blog/next-js-app-router-seo)\n- 📜 [如何为基于Astro的博客生成Open Graph图片](https://techsquidtv.com/blog/generating-open-graph-images-for-astro/)\n- 📜 [使用Next.js App Router和MDX构建博客](https://www.alexchantastic.com/building-a-blog-with-next-and-mdx)\n- 📜 [React Intersection Observer实用指南](https://www.builder.io/blog/react-intersection-observer)\n- 📦 [Storybook 8 Beta - 支持RSC、SWC编译器、Vitest、重大性能与兼容性改进、实时视觉测试...](https://storybook.js.org/blog/storybook-8-beta/)\n- 📦 [Conform 1.0 - 用于Remix和Next.js的类型安全渐进增强表单验证库](https://github.com/edmundhung/conform/releases/tag/v1.0.0)\n- 📦 [Safe NextJS Navigation - NextJS App Router的类型安全导航](https://github.com/lukemorales/next-safe-navigation)\n- 📦 [Astro 4.3 - 国际化域名、HTML输出控制、ComponentProps工具类型...](https://astro.build/blog/astro-430/)\n- 📦 [Apollo Client 3.9 - Suspense数据获取、查询预加载、内存优化、useQueryRefHandlers钩子...](https://www.apollographql.com/blog/whats-new-in-apollo-client-3-9)\n- 📦 [Remix 2.6.0 - Vite插件的Cloudflare支持(不稳定)](https://github.com/remix-run/remix/blob/main/CHANGELOG.md)\n- 📦 [Sonner 1.4 - Toast组件](https://github.com/emilkowalski/sonner/releases/tag/v1.4.0)\n- 📦 [Ariakit 0.4 - 更好地支持CSS动画和过渡](https://ariakit.org/changelog#040)\n- 📦 [React-resizable-panels 2.0 - 支持多面板调整大小](https://github.com/bvaughn/react-resizable-panels/releases/tag/2.0.0)\n- 🎥 [Lee Robinson - Next.js App Router认证(会话、Cookies、JWTs)](https://www.youtube.com/watch?v=DJvM2lSPn6w)\n- 🎥 [Jack Herrington - 五个会杀死应用的React反模式](https://www.youtube.com/watch?v=ZkQPxP4wlE8)\n- 🎙️ [Dan Abramov谈React、RSCs和未来](https://podrocket.logrocket.com/dan-abramov-react-rscs-future)"
     },
     {
       "id": "2ef748d1",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_2ef748d1"
     },
     {
       "id": "b805e2c6",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "b10963d7",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "2822251a",
       "translatable": true,
       "content": "[![The most comprehensive User Management Platform](/emails/issues/172/clerk.jpg)](https://clerk.com/?utm_source=sponsorship\\&utm_medium=newsletter\\&utm_campaign=thisweekinreact\\&utm_term=02-7-24)",
-      "sourceMdx": "[![The most comprehensive User Management Platform](/emails/issues/172/clerk.jpg)](https://clerk.com/?utm_source=sponsorship&utm_medium=newsletter&utm_campaign=thisweekinreact&utm_term=02-7-24)"
+      "sourceMdx": "[![The most comprehensive User Management Platform](/emails/issues/172/clerk.jpg)](https://clerk.com/?utm_source=sponsorship&utm_medium=newsletter&utm_campaign=thisweekinreact&utm_term=02-7-24)",
+      "nodeType": "paragraph",
+      "translated_content": "[![最全面的用户管理平台](/emails/issues/172/clerk.jpg)](https://clerk.com/?utm_source=sponsorship&utm_medium=newsletter&utm_campaign=thisweekinreact&utm_term=02-7-24)"
     },
     {
       "id": "25212439",
       "translatable": true,
       "content": "**[The most comprehensive User Management Platform](https://clerk.com/?utm_source=sponsorship\\&utm_medium=newsletter\\&utm_campaign=thisweekinreact\\&utm_term=02-7-24)**",
-      "sourceMdx": "**[The most comprehensive User Management Platform](https://clerk.com/?utm_source=sponsorship&utm_medium=newsletter&utm_campaign=thisweekinreact&utm_term=02-7-24)**"
+      "sourceMdx": "**[The most comprehensive User Management Platform](https://clerk.com/?utm_source=sponsorship&utm_medium=newsletter&utm_campaign=thisweekinreact&utm_term=02-7-24)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[最全面的用户管理平台](https://clerk.com/?utm_source=sponsorship&utm_medium=newsletter&utm_campaign=thisweekinreact&utm_term=02-7-24)**"
     },
     {
       "id": "d79a4831",
       "translatable": true,
       "content": "Clerk streamlines React app authentication and user management, ensuring a quick setup for the modern web.",
-      "sourceMdx": "Clerk streamlines React app authentication and user management, ensuring a quick setup for the modern web."
+      "sourceMdx": "Clerk streamlines React app authentication and user management, ensuring a quick setup for the modern web.",
+      "nodeType": "paragraph",
+      "translated_content": "Clerk简化了React应用的身份验证和用户管理流程，为现代Web开发提供快速部署方案。"
     },
     {
       "id": "2838eb68",
       "translatable": true,
       "content": "Experience the benefits of Clerk:",
-      "sourceMdx": "Experience the benefits of Clerk:"
+      "sourceMdx": "Experience the benefits of Clerk:",
+      "nodeType": "paragraph",
+      "translated_content": "体验Clerk的核心优势："
     },
     {
       "id": "f6db2c30",
       "translatable": true,
       "content": "* 💅 Pre-built UI components for sign-in, sign-up, user profiles, and organizations. Customize with any CSS library and deploy on your domain\n* 📦 SDKs for React, React Native, Next.js, Redwood, Remix, and other frameworks\n* ⚡ Integrations with Firebase, Supabase, Convex, and other BaaS providers\n* 🎁 User management, social login, magic links, MFA, and more out of the box",
-      "sourceMdx": "- 💅 Pre-built UI components for sign-in, sign-up, user profiles, and organizations. Customize with any CSS library and deploy on your domain\n- 📦 SDKs for React, React Native, Next.js, Redwood, Remix, and other frameworks\n- ⚡ Integrations with Firebase, Supabase, Convex, and other BaaS providers\n- 🎁 User management, social login, magic links, MFA, and more out of the box"
+      "sourceMdx": "- 💅 Pre-built UI components for sign-in, sign-up, user profiles, and organizations. Customize with any CSS library and deploy on your domain\n- 📦 SDKs for React, React Native, Next.js, Redwood, Remix, and other frameworks\n- ⚡ Integrations with Firebase, Supabase, Convex, and other BaaS providers\n- 🎁 User management, social login, magic links, MFA, and more out of the box",
+      "nodeType": "list",
+      "translated_content": "- 💅 开箱即用的UI组件库：登录/注册页、用户资料页、组织管理页。支持任意CSS库定制，可部署在自有域名\n- 📦 多框架SDK支持：React、React Native、Next.js、Redwood、Remix等\n- ⚡ 无缝集成Firebase、Supabase、Convex等BaaS服务商\n- 🎁 完整功能套件：用户管理系统、社交账号登录、魔法链接、多因素认证等"
     },
     {
       "id": "0801d969",
       "translatable": true,
       "content": "Dive into Clerk's [quickstarts and tutorials](https://clerk.com/docs/quickstarts/overview?utm_source=sponsorship\\&utm_medium=newsletter\\&utm_campaign=thisweekinreact\\&utm_term=02-07-24) to kickstart your project🚀",
-      "sourceMdx": "Dive into Clerk's [quickstarts and tutorials](https://clerk.com/docs/quickstarts/overview?utm_source=sponsorship&utm_medium=newsletter&utm_campaign=thisweekinreact&utm_term=02-07-24) to kickstart your project🚀"
+      "sourceMdx": "Dive into Clerk's [quickstarts and tutorials](https://clerk.com/docs/quickstarts/overview?utm_source=sponsorship&utm_medium=newsletter&utm_campaign=thisweekinreact&utm_term=02-07-24) to kickstart your project🚀",
+      "nodeType": "paragraph",
+      "translated_content": "立即查阅Clerk的[快速入门指南](https://clerk.com/docs/quickstarts/overview?utm_source=sponsorship&utm_medium=newsletter&utm_campaign=thisweekinreact&utm_term=02-07-24)，快速启动项目🚀"
     },
     {
       "id": "70cef2c1",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "7974af84",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native动态 {#react-native}"
     },
     {
       "id": "44aaa880",
       "translatable": true,
       "content": "This section is now co-authored with [Benedikt](https://twitter.com/bndkt), and we also have a new [React Native thread on Twitter](https://twitter.com/bndkt/status/1755203992039424377)! Please let us know if you like it, and support us with a like or retweet 😍.",
-      "sourceMdx": "This section is now co-authored with [Benedikt](https://twitter.com/bndkt), and we also have a new [React Native thread on Twitter](https://twitter.com/bndkt/status/1755203992039424377)! Please let us know if you like it, and support us with a like or retweet 😍."
+      "sourceMdx": "This section is now co-authored with [Benedikt](https://twitter.com/bndkt), and we also have a new [React Native thread on Twitter](https://twitter.com/bndkt/status/1755203992039424377)! Please let us know if you like it, and support us with a like or retweet 😍.",
+      "nodeType": "paragraph",
+      "translated_content": "本版块现由[Benedikt](https://twitter.com/bndkt)联合策划，我们同步开通了[React Native专属推特话题](https://twitter.com/bndkt/status/1755203992039424377)！欢迎点赞转发支持😍"
     },
     {
       "id": "396efb28",
       "translatable": true,
       "content": "[![Announcing React Native for Apple Vision Pro](/emails/issues/173/visionos.jpg)](https://www.callstack.com/blog/announcing-react-native-for-apple-vision-pro)",
-      "sourceMdx": "[![Announcing React Native for Apple Vision Pro](/emails/issues/173/visionos.jpg)](https://www.callstack.com/blog/announcing-react-native-for-apple-vision-pro)"
+      "sourceMdx": "[![Announcing React Native for Apple Vision Pro](/emails/issues/173/visionos.jpg)](https://www.callstack.com/blog/announcing-react-native-for-apple-vision-pro)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React Native正式支持Apple Vision Pro](/emails/issues/173/visionos.jpg)](https://www.callstack.com/blog/announcing-react-native-for-apple-vision-pro)"
     },
     {
       "id": "558df877",
       "translatable": true,
       "content": "**[Announcing React Native for Apple Vision Pro](https://www.callstack.com/blog/announcing-react-native-for-apple-vision-pro)**",
-      "sourceMdx": "**[Announcing React Native for Apple Vision Pro](https://www.callstack.com/blog/announcing-react-native-for-apple-vision-pro)**"
+      "sourceMdx": "**[Announcing React Native for Apple Vision Pro](https://www.callstack.com/blog/announcing-react-native-for-apple-vision-pro)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[React Native正式支持Apple Vision Pro](https://www.callstack.com/blog/announcing-react-native-for-apple-vision-pro)**"
     },
     {
       "id": "f38d1cb0",
       "translatable": true,
       "content": "Last week, Apple released their Apple Vision Pro, and at least parts of the React Native community are excited about a new platform for which they’ll be able to build experiences with their favorite framework. There are two different approaches (🐦 [side-by-side comparison](https://twitter.com/o_kwasniewski/status/1754520654219493408)) to bring React Native onto visionPro:",
-      "sourceMdx": "Last week, Apple released their Apple Vision Pro, and at least parts of the React Native community are excited about a new platform for which they’ll be able to build experiences with their favorite framework. There are two different approaches (🐦 [side-by-side comparison](https://twitter.com/o_kwasniewski/status/1754520654219493408)) to bring React Native onto visionPro:"
+      "sourceMdx": "Last week, Apple released their Apple Vision Pro, and at least parts of the React Native community are excited about a new platform for which they’ll be able to build experiences with their favorite framework. There are two different approaches (🐦 [side-by-side comparison](https://twitter.com/o_kwasniewski/status/1754520654219493408)) to bring React Native onto visionPro:",
+      "nodeType": "paragraph",
+      "translated_content": "上周Apple发布Vision Pro后，React Native社区迅速响应这一全新平台。目前有两种技术路径实现支持（🐦[对比分析](https://twitter.com/o_kwasniewski/status/1754520654219493408)）："
     },
     {
       "id": "0aa939cf",
       "translatable": true,
       "content": "* Similar to how you can run an iOS app on macOS you can check a box in App Store Connect and enable your app to run on visionOS “as is,” using compatibility mode. Check out how 🐦 [Evan Bacon provisions, builds, and installs an Expo app on visionPro in under 10 minutes](https://twitter.com/Baconbrix/status/1753927218697208102). Apps in compatibility mode don’t take advantage of the “spatial computing” capabilities of visionOS though, they’re merely an iPad screen shown in the room.\n\n* To build apps that are truly optimized for this new world, additional native capabilities need to be adapted. And that is exactly what this new visionOS platform is doing, driven by Oskar Kwaśniewski and brought to us by Callstack.",
-      "sourceMdx": "- Similar to how you can run an iOS app on macOS you can check a box in App Store Connect and enable your app to run on visionOS “as is,” using compatibility mode. Check out how 🐦 [Evan Bacon provisions, builds, and installs an Expo app on visionPro in under 10 minutes](https://twitter.com/Baconbrix/status/1753927218697208102). Apps in compatibility mode don’t take advantage of the “spatial computing” capabilities of visionOS though, they’re merely an iPad screen shown in the room.\n\n- To build apps that are truly optimized for this new world, additional native capabilities need to be adapted. And that is exactly what this new visionOS platform is doing, driven by Oskar Kwaśniewski and brought to us by Callstack."
+      "sourceMdx": "- Similar to how you can run an iOS app on macOS you can check a box in App Store Connect and enable your app to run on visionOS “as is,” using compatibility mode. Check out how 🐦 [Evan Bacon provisions, builds, and installs an Expo app on visionPro in under 10 minutes](https://twitter.com/Baconbrix/status/1753927218697208102). Apps in compatibility mode don’t take advantage of the “spatial computing” capabilities of visionOS though, they’re merely an iPad screen shown in the room.\n\n- To build apps that are truly optimized for this new world, additional native capabilities need to be adapted. And that is exactly what this new visionOS platform is doing, driven by Oskar Kwaśniewski and brought to us by Callstack.",
+      "nodeType": "list",
+      "translated_content": "- 兼容模式：类似iOS应用在macOS的运行方式，开发者只需在App Store Connect勾选选项即可让现有应用运行于visionOS。🐦[Evan Bacon演示了10分钟内完成Expo应用在Vision Pro的配置、构建和安装](https://twitter.com/Baconbrix/status/1753927218697208102)。但此模式无法调用visionOS特有的\"空间计算\"能力，仅作为iPad应用的平面投射。\n\n- 原生适配：要充分发挥新硬件特性，需深度适配原生能力。这正是由Oskar Kwaśniewski主导、Callstack团队推动的visionOS平台开发方向。"
     },
     {
       "id": "c364340c",
       "translatable": true,
       "content": "It’s early days, but it's super exciting to see RN embrace a new platform so quickly! The very first React Native visionOS app [Spacial Noise](https://apps.apple.com/us/app/spatial-noise/id6477335349) is already available on the App Store.",
-      "sourceMdx": "It’s early days, but it's super exciting to see RN embrace a new platform so quickly! The very first React Native visionOS app [Spacial Noise](https://apps.apple.com/us/app/spatial-noise/id6477335349) is already available on the App Store."
+      "sourceMdx": "It’s early days, but it's super exciting to see RN embrace a new platform so quickly! The very first React Native visionOS app [Spacial Noise](https://apps.apple.com/us/app/spatial-noise/id6477335349) is already available on the App Store.",
+      "nodeType": "paragraph",
+      "translated_content": "虽然尚处早期阶段，但React Native对新平台的快速响应令人振奋！首款React Native visionOS应用[Spacial Noise](https://apps.apple.com/us/app/spatial-noise/id6477335349)已登陆App Store。"
     },
     {
       "id": "44f53186",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "d30a9380",
       "translatable": true,
       "content": "* 💸 [Moropo - Mobile Testing Infrastructure That Integrates Seamlessly With Expo EAS ](https://www.moropo.com?utm_source=newsletter\\&utm_medium=emails\\&utm_campaign=twir-20240207)\n* 👀 [RFC - React Native Frameworks](https://github.com/react-native-community/discussions-and-proposals/pull/759): Did you ever wonder where the boundary between React Native, Expo, and other community tools is? Lines are blurry, and this RFC aims to clarify things by introducing the concept of “React Native Frameworks.”\n* 👀 [CSS4 color functions](https://github.com/facebook/react-native/pull/42831) and [DisplayP3 color](https://github.com/facebook/react-native/pull/42830): More color options (e.g. Wide Gamut) coming to React Native.\n* 🐦 [Expo is dogfooding Expo web and Expo Router on their new blog](https://twitter.com/Baconbrix/status/1755026874047123843)\n* 🐦 [Shopify continues to bet on React Native](https://x.com/mustafa01ali/status/1753477532668600653?s=20)\n* 📖 [Expo Docs - Build Expo apps for TV](https://x.com/expo/status/1754208200935518292?s=20): “React Native everywhere” is becoming more true every day. Thanks to Expo config plugins, experimental support for Apple TV and Android TV is now directly available. This is a super exciting development, which I’m sure will continue with macOS, visionOS, …\n* 📖 [Improved Metro bundler docs from Expo](https://docs.expo.dev/guides/customizing-metro/): Explaining how bundle splitting, tree shaking, and minification work and and how Metro is now also used for the web.\n* 📜 [What every dev should know about using Environment Variables](https://expo.dev/blog/what-are-environment-variables): Handling environment variables in RN correctly is critical, as you otherwise run the risk of shipping (and therefore exposing) secrets to the client.\n* 📜 [Fingerprint your native runtime with @expo/fingerprint](https://expo.dev/blog/fingerprint-your-native-runtime): Determining whether an update to the JS bundle of a RN app requires a new native build is a tricky question. With SDK 50, Expo released Fingerprint, which basically creates a single hash value representing all the “native surface area” of a RN app and can then be used to trigger a new native build.\n* 📜 [6 reasons to use EAS Update](https://expo.dev/blog/6-reasons-to-use-eas-update): Did you know about the republish feature? I didn’t, before reading this article. In case of a messed up upgrade, you can quickly republish a previous (working) update!\n* 📜 [How to add a new target to your file with Expo config plugin?](https://www.reactnativecrossroads.com/posts/config-plugin-expo-add-target)\n* 📦 [React Native Storybook 7 - CSF 3, TypeScript, Markdown, Automatic story loading, Auto-generation for controls](https://storybook.js.org/blog/react-native-storybook-7/)\n* 📦 [React Native Test App 3.1 - Support for bridgeless mode](https://github.com/microsoft/react-native-test-app/releases/tag/3.1.0)\n* 🎥 [William Candillon - JavaScript Animations in 2024](https://www.youtube.com/watch?v=AHh3Bt7JpRs): The next version of Reanimated will support JavaScript generators. William rewrites 3 of his custom Reanimated animation examples to generators, using yields in a while (true) loop.\n* 🎥 [Simon Grimm - The Time for React Native is Now](https://www.youtube.com/watch?v=COH_XhlMyZ4)\n* 🎙️ [RNR 287 - Special Guest - Charlie Cheever](https://reactnativeradio.com/episodes/rnr-287-special-guest-charlie-cheever): To me it was always clear that Expo was meant to be a layer on top of React Native. But did you know that Charlie Cheever and James Ide started working on Expo before React Native was even around?\n* 🎙️ [Rocket Ship 28 - Expo Router & Universal React Native Apps with Evan Bacon](https://share.transistor.fm/s/e9f2b98e)\n* 🎙️ [The React Native Show 34 - Results of the State of React Native 2023 Survey](https://www.callstack.com/podcasts/state-of-react-native-2023)",
-      "sourceMdx": "- 💸 [Moropo - Mobile Testing Infrastructure That Integrates Seamlessly With Expo EAS ](https://www.moropo.com?utm_source=newsletter&utm_medium=emails&utm_campaign=twir-20240207)\n- 👀 [RFC - React Native Frameworks](https://github.com/react-native-community/discussions-and-proposals/pull/759): Did you ever wonder where the boundary between React Native, Expo, and other community tools is? Lines are blurry, and this RFC aims to clarify things by introducing the concept of “React Native Frameworks.”\n- 👀 [CSS4 color functions](https://github.com/facebook/react-native/pull/42831) and [DisplayP3 color](https://github.com/facebook/react-native/pull/42830): More color options (e.g. Wide Gamut) coming to React Native.\n- 🐦 [Expo is dogfooding Expo web and Expo Router on their new blog](https://twitter.com/Baconbrix/status/1755026874047123843)\n- 🐦 [Shopify continues to bet on React Native](https://x.com/mustafa01ali/status/1753477532668600653?s=20)\n- 📖 [Expo Docs - Build Expo apps for TV](https://x.com/expo/status/1754208200935518292?s=20): “React Native everywhere” is becoming more true every day. Thanks to Expo config plugins, experimental support for Apple TV and Android TV is now directly available. This is a super exciting development, which I’m sure will continue with macOS, visionOS, …\n- 📖 [Improved Metro bundler docs from Expo](https://docs.expo.dev/guides/customizing-metro/): Explaining how bundle splitting, tree shaking, and minification work and and how Metro is now also used for the web.\n- 📜 [What every dev should know about using Environment Variables](https://expo.dev/blog/what-are-environment-variables): Handling environment variables in RN correctly is critical, as you otherwise run the risk of shipping (and therefore exposing) secrets to the client.\n- 📜 [Fingerprint your native runtime with @expo/fingerprint](https://expo.dev/blog/fingerprint-your-native-runtime): Determining whether an update to the JS bundle of a RN app requires a new native build is a tricky question. With SDK 50, Expo released Fingerprint, which basically creates a single hash value representing all the “native surface area” of a RN app and can then be used to trigger a new native build.\n- 📜 [6 reasons to use EAS Update](https://expo.dev/blog/6-reasons-to-use-eas-update): Did you know about the republish feature? I didn’t, before reading this article. In case of a messed up upgrade, you can quickly republish a previous (working) update!\n- 📜 [How to add a new target to your file with Expo config plugin?](https://www.reactnativecrossroads.com/posts/config-plugin-expo-add-target)\n- 📦 [React Native Storybook 7 - CSF 3, TypeScript, Markdown, Automatic story loading, Auto-generation for controls](https://storybook.js.org/blog/react-native-storybook-7/)\n- 📦 [React Native Test App 3.1 - Support for bridgeless mode](https://github.com/microsoft/react-native-test-app/releases/tag/3.1.0)\n- 🎥 [William Candillon - JavaScript Animations in 2024](https://www.youtube.com/watch?v=AHh3Bt7JpRs): The next version of Reanimated will support JavaScript generators. William rewrites 3 of his custom Reanimated animation examples to generators, using yields in a while (true) loop.\n- 🎥 [Simon Grimm - The Time for React Native is Now](https://www.youtube.com/watch?v=COH_XhlMyZ4)\n- 🎙️ [RNR 287 - Special Guest - Charlie Cheever](https://reactnativeradio.com/episodes/rnr-287-special-guest-charlie-cheever): To me it was always clear that Expo was meant to be a layer on top of React Native. But did you know that Charlie Cheever and James Ide started working on Expo before React Native was even around?\n- 🎙️ [Rocket Ship 28 - Expo Router & Universal React Native Apps with Evan Bacon](https://share.transistor.fm/s/e9f2b98e)\n- 🎙️ [The React Native Show 34 - Results of the State of React Native 2023 Survey](https://www.callstack.com/podcasts/state-of-react-native-2023)"
+      "sourceMdx": "- 💸 [Moropo - Mobile Testing Infrastructure That Integrates Seamlessly With Expo EAS ](https://www.moropo.com?utm_source=newsletter&utm_medium=emails&utm_campaign=twir-20240207)\n- 👀 [RFC - React Native Frameworks](https://github.com/react-native-community/discussions-and-proposals/pull/759): Did you ever wonder where the boundary between React Native, Expo, and other community tools is? Lines are blurry, and this RFC aims to clarify things by introducing the concept of “React Native Frameworks.”\n- 👀 [CSS4 color functions](https://github.com/facebook/react-native/pull/42831) and [DisplayP3 color](https://github.com/facebook/react-native/pull/42830): More color options (e.g. Wide Gamut) coming to React Native.\n- 🐦 [Expo is dogfooding Expo web and Expo Router on their new blog](https://twitter.com/Baconbrix/status/1755026874047123843)\n- 🐦 [Shopify continues to bet on React Native](https://x.com/mustafa01ali/status/1753477532668600653?s=20)\n- 📖 [Expo Docs - Build Expo apps for TV](https://x.com/expo/status/1754208200935518292?s=20): “React Native everywhere” is becoming more true every day. Thanks to Expo config plugins, experimental support for Apple TV and Android TV is now directly available. This is a super exciting development, which I’m sure will continue with macOS, visionOS, …\n- 📖 [Improved Metro bundler docs from Expo](https://docs.expo.dev/guides/customizing-metro/): Explaining how bundle splitting, tree shaking, and minification work and and how Metro is now also used for the web.\n- 📜 [What every dev should know about using Environment Variables](https://expo.dev/blog/what-are-environment-variables): Handling environment variables in RN correctly is critical, as you otherwise run the risk of shipping (and therefore exposing) secrets to the client.\n- 📜 [Fingerprint your native runtime with @expo/fingerprint](https://expo.dev/blog/fingerprint-your-native-runtime): Determining whether an update to the JS bundle of a RN app requires a new native build is a tricky question. With SDK 50, Expo released Fingerprint, which basically creates a single hash value representing all the “native surface area” of a RN app and can then be used to trigger a new native build.\n- 📜 [6 reasons to use EAS Update](https://expo.dev/blog/6-reasons-to-use-eas-update): Did you know about the republish feature? I didn’t, before reading this article. In case of a messed up upgrade, you can quickly republish a previous (working) update!\n- 📜 [How to add a new target to your file with Expo config plugin?](https://www.reactnativecrossroads.com/posts/config-plugin-expo-add-target)\n- 📦 [React Native Storybook 7 - CSF 3, TypeScript, Markdown, Automatic story loading, Auto-generation for controls](https://storybook.js.org/blog/react-native-storybook-7/)\n- 📦 [React Native Test App 3.1 - Support for bridgeless mode](https://github.com/microsoft/react-native-test-app/releases/tag/3.1.0)\n- 🎥 [William Candillon - JavaScript Animations in 2024](https://www.youtube.com/watch?v=AHh3Bt7JpRs): The next version of Reanimated will support JavaScript generators. William rewrites 3 of his custom Reanimated animation examples to generators, using yields in a while (true) loop.\n- 🎥 [Simon Grimm - The Time for React Native is Now](https://www.youtube.com/watch?v=COH_XhlMyZ4)\n- 🎙️ [RNR 287 - Special Guest - Charlie Cheever](https://reactnativeradio.com/episodes/rnr-287-special-guest-charlie-cheever): To me it was always clear that Expo was meant to be a layer on top of React Native. But did you know that Charlie Cheever and James Ide started working on Expo before React Native was even around?\n- 🎙️ [Rocket Ship 28 - Expo Router & Universal React Native Apps with Evan Bacon](https://share.transistor.fm/s/e9f2b98e)\n- 🎙️ [The React Native Show 34 - Results of the State of React Native 2023 Survey](https://www.callstack.com/podcasts/state-of-react-native-2023)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [Moropo - 与Expo EAS无缝集成的移动端测试基础设施](https://www.moropo.com?utm_source=newsletter&utm_medium=emails&utm_campaign=twir-20240207)\n- 👀 [RFC - React Native框架生态](https://github.com/react-native-community/discussions-and-proposals/pull/759): 你是否曾困惑React Native、Expo和其他社区工具的边界在哪里？界限正在模糊，这份RFC通过引入\"React Native框架\"概念来厘清关系。\n- 👀 [CSS4色彩函数](https://github.com/facebook/react-native/pull/42831)与[DisplayP3广色域](https://github.com/facebook/react-native/pull/42830): React Native即将支持更多色彩选项（如广色域）。\n- 🐦 [Expo在新博客中自研自用Expo web和Expo Router](https://twitter.com/Baconbrix/status/1755026874047123843)\n- 🐦 [Shopify持续押注React Native](https://x.com/mustafa01ali/status/1753477532668600653?s=20)\n- 📖 [Expo文档 - 为电视设备构建Expo应用](https://x.com/expo/status/1754208200935518292?s=20): \"React Native全平台覆盖\"正逐步成为现实。通过Expo配置插件，现已直接支持Apple TV和Android TV实验性开发。这个激动人心的进展必将延续到macOS、visionOS等平台...\n- 📖 [Expo改进的Metro打包器文档](https://docs.expo.dev/guides/customizing-metro/): 详解代码分割、摇树优化和压缩混淆原理，以及Metro如何应用于Web打包。\n- 📜 [开发者必知的环境变量使用指南](https://expo.dev/blog/what-are-environment-variables): 正确处理RN环境变量至关重要，否则可能导致密钥泄露到客户端。\n- 📜 [使用@expo/fingerprint生成原生运行时指纹](https://expo.dev/blog/fingerprint-your-native-runtime): 判断JS包更新是否需要重新构建原生应用是个复杂问题。Expo SDK 50推出的Fingerprint功能通过生成代表RN应用\"原生接口面\"的哈希值来解决这个问题。\n- 📜 [使用EAS Update的6大理由](https://expo.dev/blog/6-reasons-to-use-eas-update): 你知道\"重新发布\"功能吗？在升级出错时，可以快速回滚到之前可用的版本！\n- 📜 [如何使用Expo配置插件为文件添加新目标平台？](https://www.reactnativecrossroads.com/posts/config-plugin-expo-add-target)\n- 📦 [React Native Storybook 7 - 支持CSF 3格式、TypeScript、Markdown、自动加载故事、控件自动生成](https://storybook.js.org/blog/react-native-storybook-7/)\n- 📦 [React Native Test App 3.1 - 支持无桥接模式](https://github.com/microsoft/react-native-test-app/releases/tag/3.1.0)\n- 🎥 [William Candillon - 2024年的JavaScript动画技术](https://www.youtube.com/watch?v=AHh3Bt7JpRs): 新版Reanimated将支持JavaScript生成器。William用while(true)循环中的yield重写了3个自定义动画示例。\n- 🎥 [Simon Grimm - React Native的黄金时代已至](https://www.youtube.com/watch?v=COH_XhlMyZ4)\n- 🎙️ [RNR第287期 - 特邀嘉宾Charlie Cheever](https://reactnativeradio.com/episodes/rnr-287-special-guest-charlie-cheever): 虽然我始终认为Expo是React Native的上层封装，但你知道Charlie Cheever和James Ide在React Native诞生前就开始开发Expo了吗？\n- 🎙️ [火箭飞船第28期 - Expo Router与通用React Native应用开发（Evan Bacon）](https://share.transistor.fm/s/e9f2b98e)\n- 🎙️ [React Native秀第34期 - 2023年React Native现状调查结果](https://www.callstack.com/podcasts/state-of-react-native-2023)"
     },
     {
       "id": "d4b679d6",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "55dc794c",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他动态 {#other}"
     },
     {
       "id": "e99d73d3",
       "translatable": true,
       "content": "* 👀 [Interop 2024 Dashboard - What browsers will prioritize this year](https://wpt.fyi/interop-2024)\n* 👀 [Express Forward - The plan for Express v5, v6, v7](https://github.com/expressjs/discussions/issues/160)\n* 📜 [The next evolution of serverless is stateful](https://sunilpai.dev/posts/the-future-of-serverless/)\n* 📜 [TotalTypeScript - Method Shorthand Syntax Considered Harmful](https://www.totaltypescript.com/method-shorthand-syntax-considered-harmful)\n* 📜 [TotalTypeScript - When 'as never' Is The Only Thing That Works](https://www.totaltypescript.com/as-never)\n* 📜 [Squeezing Last Bit Of JavaScript Performance For My Automation Game](https://ruoyusun.com/2024/01/23/cividle-optimization.html)\n* 📜 [How to Favicon in 2024: Six files that fit most needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)\n* 📜 [Using branded types in validators](https://stack.convex.dev/using-branded-types-in-validators)\n* 📦 [Turborepo 1.12](https://turbo.build/blog/turbo-1-12-0)\n* 📦 [jQuery 4.0.0 beta](https://blog.jquery.com/2024/02/06/jquery-4-0-0-beta/)",
-      "sourceMdx": "- 👀 [Interop 2024 Dashboard - What browsers will prioritize this year](https://wpt.fyi/interop-2024)\n- 👀 [Express Forward - The plan for Express v5, v6, v7](https://github.com/expressjs/discussions/issues/160)\n- 📜 [The next evolution of serverless is stateful](https://sunilpai.dev/posts/the-future-of-serverless/)\n- 📜 [TotalTypeScript - Method Shorthand Syntax Considered Harmful](https://www.totaltypescript.com/method-shorthand-syntax-considered-harmful)\n- 📜 [TotalTypeScript - When 'as never' Is The Only Thing That Works](https://www.totaltypescript.com/as-never)\n- 📜 [Squeezing Last Bit Of JavaScript Performance For My Automation Game](https://ruoyusun.com/2024/01/23/cividle-optimization.html)\n- 📜 [How to Favicon in 2024: Six files that fit most needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)\n- 📜 [Using branded types in validators](https://stack.convex.dev/using-branded-types-in-validators)\n- 📦 [Turborepo 1.12](https://turbo.build/blog/turbo-1-12-0)\n- 📦 [jQuery 4.0.0 beta](https://blog.jquery.com/2024/02/06/jquery-4-0-0-beta/)"
+      "sourceMdx": "- 👀 [Interop 2024 Dashboard - What browsers will prioritize this year](https://wpt.fyi/interop-2024)\n- 👀 [Express Forward - The plan for Express v5, v6, v7](https://github.com/expressjs/discussions/issues/160)\n- 📜 [The next evolution of serverless is stateful](https://sunilpai.dev/posts/the-future-of-serverless/)\n- 📜 [TotalTypeScript - Method Shorthand Syntax Considered Harmful](https://www.totaltypescript.com/method-shorthand-syntax-considered-harmful)\n- 📜 [TotalTypeScript - When 'as never' Is The Only Thing That Works](https://www.totaltypescript.com/as-never)\n- 📜 [Squeezing Last Bit Of JavaScript Performance For My Automation Game](https://ruoyusun.com/2024/01/23/cividle-optimization.html)\n- 📜 [How to Favicon in 2024: Six files that fit most needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)\n- 📜 [Using branded types in validators](https://stack.convex.dev/using-branded-types-in-validators)\n- 📦 [Turborepo 1.12](https://turbo.build/blog/turbo-1-12-0)\n- 📦 [jQuery 4.0.0 beta](https://blog.jquery.com/2024/02/06/jquery-4-0-0-beta/)",
+      "nodeType": "list",
+      "translated_content": "- 👀 [Interop 2024 仪表盘 - 今年浏览器将优先实现哪些功能](https://wpt.fyi/interop-2024)\n- 👀 [Express Forward - Express v5、v6、v7 的发展规划](https://github.com/expressjs/discussions/issues/160)\n- 📜 [无服务架构的下一站：有状态化](https://sunilpai.dev/posts/the-future-of-serverless/)\n- 📜 [TotalTypeScript - 慎用方法简写语法](https://www.totaltypescript.com/method-shorthand-syntax-considered-harmful)\n- 📜 [TotalTypeScript - 当 'as never' 成为唯一解决方案时](https://www.totaltypescript.com/as-never)\n- 📜 [为自动化游戏榨取JavaScript的最后一丝性能](https://ruoyusun.com/2024/01/23/cividle-optimization.html)\n- 📜 [2024年网站图标最佳实践：满足多数场景的六种文件方案](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)\n- 📜 [在验证器中使用品牌类型](https://stack.convex.dev/using-branded-types-in-validators)\n- 📦 [Turborepo 1.12 发布](https://turbo.build/blog/turbo-1-12-0)\n- 📦 [jQuery 4.0.0 beta 版](https://blog.jquery.com/2024/02/06/jquery-4-0-0-beta/)"
     },
     {
       "id": "cb3e8b91",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "58f98d22",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 轻松一刻 {#fun}"
     },
     {
       "id": "d636abf8",
       "translatable": true,
       "content": "[![alt](/emails/issues/173/meme.jpg)](https://twitter.com/wesbos/status/1754347448623890719)",
-      "sourceMdx": "[![alt](/emails/issues/173/meme.jpg)](https://twitter.com/wesbos/status/1754347448623890719)"
+      "sourceMdx": "[![alt](/emails/issues/173/meme.jpg)](https://twitter.com/wesbos/status/1754347448623890719)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/173/meme.jpg)](https://twitter.com/wesbos/status/1754347448623890719)"
     },
     {
       "id": "99840f13",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下期见！👋"
     }
   ]
 }

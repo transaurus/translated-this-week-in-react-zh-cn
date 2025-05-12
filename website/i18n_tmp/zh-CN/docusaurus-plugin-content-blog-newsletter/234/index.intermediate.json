@@ -1,227 +1,301 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/234/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/234/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /234\ntitle: \"This Week In React #234: ...\"\nauthors: [slorber]\ndate: 05-14-2025\nunlisted: true\n---",
-      "sourceMdx": "---\nslug: /234\ntitle: \"This Week In React #234: ...\"\nauthors: [slorber]\ndate: 05-14-2025\nunlisted: true\n---"
+      "sourceMdx": "---\nslug: /234\ntitle: \"This Week In React #234: ...\"\nauthors: [slorber]\ndate: 05-14-2025\nunlisted: true\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "53eaf0e1",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "88aa2da8",
       "translatable": false,
       "content": "<Todo />",
-      "sourceMdx": "<Todo />"
+      "sourceMdx": "<Todo />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_88aa2da8"
     },
     {
       "id": "730c423c",
       "translatable": true,
       "content": "* 🗓 [React Universe Conf](https://www.reactuniverseconf.com/?utm_campaign=RUC2025\\&utm_source=TWIRpartnership\\&utm_content=savethedate) - 🇵🇱 Wrocław - 2-4 September. Star speaker announced! Get a 10% discount with code \"TWIR\".",
-      "sourceMdx": "*   🗓 [React Universe Conf](https://www.reactuniverseconf.com/?utm_campaign=RUC2025&utm_source=TWIRpartnership&utm_content=savethedate) - 🇵🇱 Wrocław - 2-4 September. Star speaker announced! Get a 10% discount with code \"TWIR\"."
+      "sourceMdx": "- 🗓 [React Universe Conf](https://www.reactuniverseconf.com/?utm_campaign=RUC2025&utm_source=TWIRpartnership&utm_content=savethedate) - 🇵🇱 Wrocław - 2-4 September. Star speaker announced! Get a 10% discount with code \"TWIR\".",
+      "nodeType": "list",
+      "translated_content": "- 🗓 [React Universe 大会](https://www.reactuniverseconf.com/?utm_campaign=RUC2025&utm_source=TWIRpartnership&utm_content=savethedate) - 🇵🇱 弗罗茨瓦夫 - 9月2-4日。明星演讲嘉宾已公布！使用代码\"TWIR\"可享9折优惠。"
     },
     {
       "id": "28a64196",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_28a64196"
     },
     {
       "id": "55ad7c88",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_55ad7c88"
     },
     {
       "id": "09a8fe76",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_09a8fe76"
     },
     {
       "id": "4f4de567",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "40f9552a",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "f2c2bdd0",
       "translatable": true,
       "content": "[![This is why you're not shipping](/emails/issues/234/posthog.jpg)](https://go.posthog.com/twir-may14)",
-      "sourceMdx": "[![This is why you're not shipping](/emails/issues/234/posthog.jpg)](https://go.posthog.com/twir-may14)"
+      "sourceMdx": "[![This is why you're not shipping](/emails/issues/234/posthog.jpg)](https://go.posthog.com/twir-may14)",
+      "nodeType": "paragraph",
+      "translated_content": "[![这就是你无法交付产品的原因](/emails/issues/234/posthog.jpg)](https://go.posthog.com/twir-may14)"
     },
     {
       "id": "a76548f8",
       "translatable": true,
       "content": "**[This is why you're not shipping](https://go.posthog.com/twir-may14)**",
-      "sourceMdx": "**[This is why you're not shipping](https://go.posthog.com/twir-may14)**"
+      "sourceMdx": "**[This is why you're not shipping](https://go.posthog.com/twir-may14)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[这就是你无法交付产品的原因](https://go.posthog.com/twir-may14)**"
     },
     {
       "id": "4b1d2d7d",
       "translatable": true,
       "content": "Some red flags [PostHog](https://go.posthog.com/twir-may14-ph) has found in teams failing to ship fast: waiting for 1:1s to solve problems, needing other teams to approve your work, and sales outnumbering engineering 🚩",
-      "sourceMdx": "Some red flags [PostHog](https://go.posthog.com/twir-may14-ph) has found in teams failing to ship fast: waiting for 1:1s to solve problems, needing other teams to approve your work, and sales outnumbering engineering 🚩"
+      "sourceMdx": "Some red flags [PostHog](https://go.posthog.com/twir-may14-ph) has found in teams failing to ship fast: waiting for 1:1s to solve problems, needing other teams to approve your work, and sales outnumbering engineering 🚩",
+      "nodeType": "paragraph",
+      "translated_content": "[PostHog](https://go.posthog.com/twir-may14-ph)发现阻碍团队快速交付的几大危险信号：等待1对1会议解决问题、需要其他团队审批工作、销售人员数量超过工程师🚩"
     },
     {
       "id": "dfe931a2",
       "translatable": true,
       "content": "Learn how to identify and fix each of these (and more) in [the latest edition of their Product for Engineers newsletter](https://go.posthog.com/twir-may14) 💪",
-      "sourceMdx": "Learn how to identify and fix each of these (and more) in [the latest edition of their Product for Engineers newsletter](https://go.posthog.com/twir-may14) 💪"
+      "sourceMdx": "Learn how to identify and fix each of these (and more) in [the latest edition of their Product for Engineers newsletter](https://go.posthog.com/twir-may14) 💪",
+      "nodeType": "paragraph",
+      "translated_content": "阅读[他们最新一期《工程师产品指南》](https://go.posthog.com/twir-may14)，了解如何识别并解决这些问题（还有更多内容）💪"
     },
     {
       "id": "d5420c8e",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "f422383e",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React {#react}"
     },
     {
       "id": "7b66d6d6",
       "translatable": false,
       "content": "<Todo />",
-      "sourceMdx": "<Todo />"
+      "sourceMdx": "<Todo />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_7b66d6d6"
     },
     {
       "id": "33808f76",
       "translatable": true,
-      "content": "* 💸 [Bit - A build system framework for development of composable software. Support NodeJS, React apps (with Vite), NextJS, and modern stack.](https://bit.dev/?utm_source=ThisWeekInReact\\&utm_id=8\\&utm_medium=newsletter)",
-      "sourceMdx": "- 💸 [Bit - A build system framework for development of composable software. Support NodeJS, React apps (with Vite), NextJS, and modern stack.](https://bit.dev/?utm_source=ThisWeekInReact&utm_id=8&utm_medium=newsletter)"
+      "content": "* 💸 [Build professional design system in less than a day, using Hope AI, new model by Bit.Cloud](https://bit.cloud/solutions/design-systems?utm_source=ThisWeekInReact\\&campaign=DesignSystem)",
+      "sourceMdx": "- 💸 [Build professional design system in less than a day, using Hope AI, new model by Bit.Cloud](https://bit.cloud/solutions/design-systems?utm_source=ThisWeekInReact&campaign=DesignSystem)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [使用Bit.Cloud新推出的Hope AI模型，在一天内构建专业设计系统](https://bit.cloud/solutions/design-systems?utm_source=ThisWeekInReact&campaign=DesignSystem)"
     },
     {
       "id": "d1ce550c",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_d1ce550c"
     },
     {
       "id": "76a8033c",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "35a77014",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "13d9cd70",
       "translatable": true,
       "content": "[![Introducing Clerk Billing](/emails/issues/234/clerk.jpg)](https://go.clerk.com/LphCouG)",
-      "sourceMdx": "[![Introducing Clerk Billing](/emails/issues/234/clerk.jpg)](https://go.clerk.com/LphCouG)"
+      "sourceMdx": "[![Introducing Clerk Billing](/emails/issues/234/clerk.jpg)](https://go.clerk.com/LphCouG)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Clerk Billing功能发布](/emails/issues/234/clerk.jpg)](https://go.clerk.com/LphCouG)"
     },
     {
       "id": "29528c8d",
       "translatable": true,
       "content": "**[Introducing Clerk Billing](https://go.clerk.com/LphCouG)**",
-      "sourceMdx": "**[Introducing Clerk Billing](https://go.clerk.com/LphCouG)**"
+      "sourceMdx": "**[Introducing Clerk Billing](https://go.clerk.com/LphCouG)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Clerk Billing功能发布](https://go.clerk.com/LphCouG)**"
     },
     {
       "id": "c504c207",
       "translatable": true,
       "content": "Set up subscriptions in your B2B or B2C app without writing custom payment code or building your own UI.",
-      "sourceMdx": "Set up subscriptions in your B2B or B2C app without writing custom payment code or building your own UI."
+      "sourceMdx": "Set up subscriptions in your B2B or B2C app without writing custom payment code or building your own UI.",
+      "nodeType": "paragraph",
+      "translated_content": "无需编写支付代码或自建UI，即可为B2B/B2C应用配置订阅服务。"
     },
     {
       "id": "310e47b7",
       "translatable": true,
-      "content": "* Create a pricing page with the `<PricingTable />` component\n\n* Connect with Stripe—no manual API calls, no manual syncing\n\n* Manage plans and entitlements all within the Clerk dashboard\n\n* `has()` helper to control access based on a customer’s plan, features, and permissions\n\n* Manage user and subscription data all in one place",
-      "sourceMdx": "*   Create a pricing page with the `<PricingTable />` component\n    \n*   Connect with Stripe—no manual API calls, no manual syncing\n    \n*   Manage plans and entitlements all within the Clerk dashboard\n    \n*   `has()` helper to control access based on a customer’s plan, features, and permissions\n    \n*   Manage user and subscription data all in one place"
+      "content": "* Create a pricing page with the `<PricingTable />` component\n* Connect with Stripe—no manual API calls, no manual syncing\n* Manage plans and entitlements all within the Clerk dashboard\n* `has()` helper to control access based on a customer’s plan, features, and permissions\n* Manage user and subscription data all in one place",
+      "sourceMdx": "- Create a pricing page with the `<PricingTable />` component\n- Connect with Stripe—no manual API calls, no manual syncing\n- Manage plans and entitlements all within the Clerk dashboard\n- `has()` helper to control access based on a customer’s plan, features, and permissions\n- Manage user and subscription data all in one place",
+      "nodeType": "list",
+      "translated_content": "- 使用`<PricingTable />`组件创建定价页面\n- 无缝对接Stripe——无需手动API调用或数据同步\n- 在Clerk仪表盘中统一管理套餐和权限\n- 通过`has()`辅助函数根据用户套餐、功能权限控制访问\n- 一站式管理用户与订阅数据"
     },
     {
-      "id": "79ad944d",
+      "id": "23dfb152",
       "translatable": true,
       "content": "Enable Billing, drop in `<PricingTable/>` on your `/pricing` page and [start monetizing your application](https://go.clerk.com/LphCouG).",
-      "sourceMdx": "Enable Billing, drop in `<PricingTable/>` on your `/pricing` page and [start monetizing your application](https://go.clerk.com/LphCouG)."
+      "sourceMdx": "Enable Billing, drop in `<PricingTable/>` on your `/pricing` page and [start monetizing your application](https://go.clerk.com/LphCouG).",
+      "nodeType": "paragraph",
+      "translated_content": "启用Billing功能，在定价页面嵌入`<PricingTable/>`组件，立即[实现应用变现](https://go.clerk.com/LphCouG)。"
     },
     {
-      "id": "e874d9e7",
+      "id": "aa7d3f2b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
-      "id": "bd92edfc",
+      "id": "9e95fc4a",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
-      "id": "61a24b68",
+      "id": "19418b89",
       "translatable": false,
       "content": "<Todo />",
-      "sourceMdx": "<Todo />"
+      "sourceMdx": "<Todo />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_19418b89"
     },
     {
-      "id": "76dbcc76",
+      "id": "180e9ce9",
       "translatable": true,
       "content": "* 💸 [WithFrame - Pre-Built React Native Templates](https://withfra.me)",
-      "sourceMdx": "- 💸 [WithFrame - Pre-Built React Native Templates](https://withfra.me)"
+      "sourceMdx": "- 💸 [WithFrame - Pre-Built React Native Templates](https://withfra.me)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [WithFrame - 开箱即用的React Native模板](https://withfra.me)"
     },
     {
-      "id": "7afb38f4",
+      "id": "379d3a5b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
-      "id": "b051b70c",
+      "id": "52388877",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他 {#other}"
     },
     {
-      "id": "95729a46",
+      "id": "32db7046",
       "translatable": false,
       "content": "<Todo />",
-      "sourceMdx": "<Todo />"
+      "sourceMdx": "<Todo />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_32db7046"
     },
     {
-      "id": "0170c674",
+      "id": "01868def",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
-      "id": "8a9b6c26",
+      "id": "93028a4e",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 趣味时刻 {#fun}"
     },
     {
-      "id": "3e8b4b41",
+      "id": "5f852894",
       "translatable": false,
       "content": "<Todo />",
-      "sourceMdx": "<Todo />"
+      "sourceMdx": "<Todo />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_5f852894"
     },
     {
-      "id": "ec619944",
+      "id": "463ed165",
       "translatable": true,
       "content": "[![alt](/emails/issues/215/meme.jpg)](https://twitter.com/TODOTODOTODOTODOTODOTODOTODOTODOTODOTODO)",
-      "sourceMdx": "[![alt](/emails/issues/215/meme.jpg)](https://twitter.com/TODOTODOTODOTODOTODOTODOTODOTODOTODOTODO)"
+      "sourceMdx": "[![alt](/emails/issues/215/meme.jpg)](https://twitter.com/TODOTODOTODOTODOTODOTODOTODOTODOTODOTODO)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/215/meme.jpg)](https://twitter.com/TODOTODOTODOTODOTODOTODOTODOTODOTODOTODO)"
     },
     {
-      "id": "2547a6bb",
+      "id": "a5c5772a",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下次见！👋"
     }
   ]
 }

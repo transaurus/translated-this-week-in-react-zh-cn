@@ -7,19 +7,19 @@ date: 03-27-2024
 
 大家好！
 
-又是充满有趣资讯的一周！我收集了许多链接，并保留了一部分留待下周发布——由于复活节假期，下周应该会比较平静。
+本周又充满了有趣的新闻！我收集了许多链接，并保留了一部分留待下周发布（由于复活节周一，下周应该会比较平静）。
 
-看到Waku和Redwood逐渐成长为更强大的元框架，以及基于Bun构建的创新实验（如Kotekan和预渲染宏）令人兴奋。
+令人兴奋的是，Waku和Redwood正在成长为更强大的元框架，同时基于Bun的创新实验层出不穷，比如Kotekan和预渲染宏。
 
-React Native也有重要更新，尤其是React Navigation v7的抢先预览，以及React Native Screen的显著升级。
+React Native也有重要更新，特别是React Navigation v7的预览和React Native Screen的升级。
 
-上周我参加了[React.paris](https://react.paris/)，这场大会非常精彩，也很高兴见到你们中的一些人！巴黎终于重回React大会版图真是太好了。
+上周我参加了[React.paris](https://react.paris/)大会。这是一场非常棒的会议，很高兴见到你们中的一些人！巴黎终于重回React大会的舞台真是太好了。
 
-盛宴尚未结束，下个月4月22-23日巴黎还将举办[React Connection](https://reactconnection.io/)和[React Native Connection](https://reactnativeconnection.io/)！本 newsletter 再次成为大会媒体合作伙伴。使用代码"TWIR"可享受[-20%折扣](https://www.billetweb.fr/react-connection-2024?discount=TWIR)，我们也会在本周五通过Twitter抽奖赠送门票。
+派对还未结束，下个月4月22-23日巴黎还将举办[React Connection](https://reactconnection.io/)和[React Native Connection](https://reactnativeconnection.io/)！本通讯再次成为大会媒体合作伙伴。使用代码"TWIR"可享受[-20%折扣](https://www.billetweb.fr/react-connection-2024?discount=TWIR)，我们也会在本周五通过Twitter抽奖赠送门票。
 
 <!-- truncate -->
 
-**💡 [在Twitter上查看本期简报](https://slo.im/thread) - 视觉化排版 🎨**
+**💡 [在Twitter上查看本期通讯](https://slo.im/thread) - 视觉版式 🎨**
 
 ---
 
@@ -31,64 +31,64 @@ import Support from "../_support.mdx";
 
 ## 💸 赞助商 {#sponsor1}
 
-[![React-admin: 开源B2B应用框架](/emails/issues/179/reactadmin.jpg)](https://marmelab.com/react-admin/)
+[![React-admin：B2B应用的开源框架](/emails/issues/179/reactadmin.jpg)](https://marmelab.com/react-admin/)
 
-**[React-admin: 开源B2B应用框架](https://marmelab.com/react-admin/)**
+**[React-admin：B2B应用的开源框架](https://marmelab.com/react-admin/)**
 
-拥有23k星标和50万日活用户，react-admin是构建单页应用（ERP、管理后台、B2B应用）的首选框架。兼容Vite、Next和Remix，它基于react-hook-form、react-query、react-router和material-ui等知名库，能显著加速开发流程。
+拥有23k星标和50万日活用户，react-admin是单页应用（ERP、管理系统、B2B应用）的首选框架。兼容Vite、Next和Remix，它基于react-hook-form、react-query、react-router和material-ui等知名库构建，能显著加速开发进程。
 
 🌟 核心特性包括：
 
 - 🔌 后端无关：可连接任何REST或GraphQL API
-- 🧩 丰富组件库：提供200+应用构建模块
-- 🛠 完全可定制：可替换任意组件
+- 🧩 丰富组件库：提供200多个应用构建模块
+- 🛠 完全可定制：可替换任何组件
 - 💻 卓越的开发体验
 - 👑 出色的用户体验
 
-立即加入[React-admin社区](https://discord.gg/tKyDzXHJ7f)，亲身体验为何它成为全球数千开发者的首选框架！[免费试用](https://marmelab.com/react-admin/Tutorial.html)，永久免费！😉
+立即加入[React-admin社区](https://discord.gg/tKyDzXHJ7f)，亲身体验为何它成为全球数千开发者的首选框架！[立即试用](https://marmelab.com/react-admin/Tutorial.html)，永久免费！😉
 
 ---
 
-## ⚛️ React动态 {#react}
+## ⚛️ React {#react}
 
 [![RedwoodJS现已支持React服务端组件](/emails/issues/179/redwood.jpg)](https://redwoodjs.com/blog/rsc-now-in-redwoodjs)
 
 [**RedwoodJS现已支持React服务端组件**](https://redwoodjs.com/blog/rsc-now-in-redwoodjs)
 
-代号"Bighorn"的Redwood v8.0版本将全面拥抱React服务端组件(RSCs)。本文阐释了为何Redwood现在更倾向RSCs而非GraphQL——后者对大多数开发者和项目而言并非最佳开发体验。GraphQL仍将保留支持，并可与RSCs在同一应用中并存。Redwood Cells现在允许导出新的"data"函数来加载单元数据。
+Bighorn（Redwood v8.0开始的下一"纪元"）将全面押注React服务端组件(RSCs)。本文解释了为何Redwood现在更倾向RSCs而非GraphQL——后者对大多数开发者和项目而言并非最佳开发体验。GraphQL仍受支持，可与RSCs在同一应用中并存。Redwood Cells现在允许导出新的"data"函数来加载单元数据。
 
-当前可通过v8 canary版本尝鲜Bighorn，但博客中提到的许多待完善功能将在正式版前修复。另有一篇[对比Redwood与Next.js、Remix路由设计](https://redwoodjs.com/blog/whats-different-comparing-the-router-in-nextjs-app-api-nextjs-pages-api-remix-and-redwoodjs)的深度文章值得一读。
+您可以通过v8 canary版本提前体验Redwood Bighorn，但博客中也提到目前仍存在许多待修复的问题。另有一篇有趣的文章[比较Redwood与Next.js、Remix的路由约定](https://redwoodjs.com/blog/whats-different-comparing-the-router-in-nextjs-app-api-nextjs-pages-api-remix-and-redwoodjs)。
 
 ---
 
-- 💸 [React Universe 大会 - 我们重视多元化阵容，因此将征稿截止日期延长至4月5日。诚邀所有女性技术从业者提交演讲议题！](https://www.reactuniverseconf.com/?utm_campaign=React_Universe_Conf&utm_source=email&utm_content=This_Week_in_React)
-- 👀 [React 核心 PR - useActionState](https://github.com/facebook/react/pull/28491)：该 PR 已合并并添加到 [canary 更新日志](https://github.com/facebook/react/blob/main/CHANGELOG-canary.md)。
-- 💬 [Astro 提案 - 表单动作](https://github.com/withastro/roadmap/discussions/871)：Astro 正在探索表单提交和变动的方案以支持其新产品 Astro DB，考虑使用 React 19 的岛屿架构及 useActionState() 和 useFormStatus()。
-- 🐦 [Sebastian Silbermann（React 核心团队成员）加入 Vercel](https://twitter.com/sebsilbermann/status/1772229730747490691)
-- 📖 [Remix 新文档 - CSS 文件](https://remix.run/docs/en/main/guides/css-files)
-- 📜 [Bun 实现部分预渲染的威力](https://aralroca.com/blog/partial-prerendering)：通过 Bun 宏利用 import 属性预渲染 React 组件的创新思路。
-- 📜 [更快的 React.memo()](https://romgrk.com/posts/react-fast-memo/)：指出 React 为 React.memo() 使用的通用浅比较函数可通过专为 React props 设计的定制比较函数大幅优化。
-- 📜 [React 中的布局是什么？](https://www.ericburel.tech/blog/what-layout-means-in-react)：详细对比 Remix、Next.js 和 Astro 中布局实现的差异。
-- 📜 [深入 Node.js 官网改版](https://nodejs.org/en/blog/announcements/diving-into-the-nodejs-website-redesign)：Node.js 新推出的 Next.js 网站幕后解析。团队评估了 Nextra 后选择了自定义 Next.js 方案，静态构建配合 ISR 实现动态内容。
-- 📜 [这种模式会拖垮你的 React 应用 TypeScript 性能](https://www.totaltypescript.com/react-apps-ts-performance)：Matt 建议用 "interface extends" 替代 "&"，援引了 Sentry 的 TS 性能问题案例。
-- 📜 [在 Next.js 组件树中跨层级使用 useOptimistic()](https://aurorascharff.no/posts/utilizing-useoptimistic-across-the-component-tree-in-nextjs/)：阐述如何通过 React 上下文共享 useOptimistic 值。
-- 📜 [为什么我依然喜欢 React（即使在2024年）](https://ejosh.co/de/2024/03/why-i-like-react-even-in-2024/)
-- 📜 [用 Framer Motion 实现「长按确认」按钮](https://sinja.io/blog/hold-to-confirm-button-react-framer-motion)
-- 📜 [React useEffect 与对象依赖 - 避免不必要重渲染的4种方法](https://profy.dev/article/react-useeffect-with-object-dependency)
-- 📜 [React-Three-Fiber - 莫比乌斯风格后期处理与风格化着色器](https://blog.maximeheckel.com/posts/moebius-style-post-processing/)
-- 📜 [如何使用 Clerk & AWS Bedrock 构建自己的 ChatGPT 克隆](https://conermurphy.com/blog/how-to-build-your-own-chatgpt-clone-using-clerk-aws-bedrock)
-- 📜 [探索鲜为人知的 React Hook：useSyncExternalStore](https://blog.logrocket.com/exploring-usesyncexternalstore-react-hook/)
-- 📜 [Remix 案例研究 - Shopify 用 Remix 重构 Shop 应用](https://remix.run/blog/shop-case-study)
-- 📦 [Waku 0.20 - 引入「页面路由」](https://waku.gg/blog/introducing-pages-router)：Waku 持续向一流 React 元框架迈进，新增轻量级文件路由并支持按页面选择静态/动态渲染。
-- 📦 [Kotekan - 基于 Bun 构建的简易 React 框架，支持服务端组件](https://kotekan.dev/blog/introducing-kotekan)：合著者 Benedikt 开发的实验性元框架，利用 Bun 实现紧密耦合的打包与运行时。未在介绍中提及的亮点包括使用 react-strict-dom 和 StyleX 的移动应用演示。
+- 💸 [React Universe 大会 - 我们重视阵容多样性，因此将征稿截止日期延长至4月5日。诚邀所有女性技术从业者提交演讲议题！](https://www.reactuniverseconf.com/?utm_campaign=React_Universe_Conf&utm_source=email&utm_content=This_Week_in_React)
+- 👀 [React Core PR - useActionState](https://github.com/facebook/react/pull/28491)：该PR已合并并更新至[canary版本更新日志](https://github.com/facebook/react/blob/main/CHANGELOG-canary.md)。
+- 💬 [Astro提案 - 表单动作](https://github.com/withastro/roadmap/discussions/871)：Astro正在探索表单提交与数据变更方案以支持其新产品Astro DB，同时考虑采用React 19岛屿架构中的useActionState()和useFormStatus()。
+- 🐦 [React核心团队成员Sebastian Silbermann加入Vercel](https://twitter.com/sebsilbermann/status/1772229730747490691)
+- 📖 [Remix新文档 - CSS文件指南](https://remix.run/docs/en/main/guides/css-files)
+- 📜 [Bun实现的部分预渲染技术解析](https://aralroca.com/blog/partial-prerendering)：通过Bun宏和import属性实现React组件预渲染的创新方案。
+- 📜 [优化React.memo()性能](https://romgrk.com/posts/react-fast-memo/)：指出React默认的浅比较函数可通过专为React props设计的定制比较函数大幅优化。
+- 📜 [React中的布局是什么？](https://www.ericburel.tech/blog/what-layout-means-in-react)：对比分析Remix、Next.js和Astro中布局实现的差异。
+- 📜 [Node.js官网重构深度解析](https://nodejs.org/en/blog/announcements/diving-into-the-nodejs-website-redesign)：Node.js团队分享其基于Next.js重构官网的决策过程，放弃Nextra采用定制方案，静态构建配合ISR实现动态内容。
+- 📜 [这种模式会拖垮你的React应用TS性能](https://www.totaltypescript.com/react-apps-ts-performance)：Matt通过Sentry案例建议用"interface extends"替代"&"运算符提升类型性能。
+- 📜 [在Next.js组件树中共享useOptimistic()状态](https://aurorascharff.no/posts/utilizing-useoptimistic-across-the-component-tree-in-nextjs/)：阐述如何通过React Context跨组件共享乐观更新状态。
+- 📜 [2024年我为什么依然选择React](https://ejosh.co/de/2024/03/why-i-like-react-even-in-2024/)
+- 📜 [使用Framer Motion实现「长按确认」按钮](https://sinja.io/blog/hold-to-confirm-button-react-framer-motion)
+- 📜 [React useEffect与对象依赖项的四种优化方案](https://profy.dev/article/react-useeffect-with-object-dependency)
+- 📜 [React-Three-Fiber：莫比乌斯风格后期处理与风格化着色器](https://blog.maximeheckel.com/posts/moebius-style-post-processing/)
+- 📜 [基于Clerk和AWS Bedrock构建ChatGPT克隆应用](https://conermurphy.com/blog/how-to-build-your-own-chatgpt-clone-using-clerk-aws-bedrock)
+- 📜 [探索鲜为人知的React Hook：useSyncExternalStore](https://blog.logrocket.com/exploring-usesyncexternalstore-react-hook/)
+- 📜 [Remix案例研究：Shopify用Remix重构Shop应用](https://remix.run/blog/shop-case-study)
+- 📦 [Waku 0.20发布：新增「页面路由」系统](https://waku.gg/blog/introducing-pages-router)：该轻量级文件路由支持按页面选择静态或动态渲染，向成熟元框架迈进。
+- 📦 [Kotekan：基于Bun构建的React框架，支持RSC](https://kotekan.dev/blog/introducing-kotekan)：作者Benedikt开发的实验性框架，利用Bun深度集成实现打包与运行时优化，官网已采用该框架构建。
 - 📦 [Radix Themes 3.0](https://www.radix-ui.com/blog/themes-3)：新增自定义调色板、多款组件及新版布局引擎。
-- 📦 [shadcn/ui 更新 - 区块组件](https://ui.shadcn.com/docs/changelog)：开箱即用的响应式、可访问组合组件，首发仪表盘布局和认证页面。
-- 📦 [@vite-pwa/remix - Remix 零配置 PWA 插件](https://github.com/vite-pwa/remix)
-- 📦 [Remotion 4.0.130 - Lambda 渲染加速](https://www.remotion.dev/blog/faster-lambda)
-- 🎥 [Jack Herrington - 彻底解决 JS/React 内存泄漏问题](https://www.youtube.com/watch?v=qERgb3pWfu0)
-- 🎥 [UI Engineering - React Portals 的高阶理解](https://www.youtube.com/watch?v=5F7GrlIPdJ4)
-- 🎥 [Theo - React Router 的终结？](https://www.youtube.com/watch?v=nZKlPtQqqgQ)
-- 🎥 [James Quick - 没想到 Next.js 服务端动作还能这样用（表单外使用）](https://www.youtube.com/watch?v=ZZCXnNAOqqU)
+- 📦 [shadcn/ui更新：Blocks组件系统](https://ui.shadcn.com/docs/changelog)：提供开箱即用的响应式仪表盘布局和认证页面模组。
+- 📦 [@vite-pwa/remix：Remix零配置PWA插件](https://github.com/vite-pwa/remix)
+- 📦 [Remotion 4.0.130：Lambda渲染性能提升](https://www.remotion.dev/blog/faster-lambda)
+- 🎥 [Jack Herrington：彻底解决JS/React内存泄漏问题](https://www.youtube.com/watch?v=qERgb3pWfu0)
+- 🎥 [UI Engineering：高级React Portals原理剖析](https://www.youtube.com/watch?v=5F7GrlIPdJ4)
+- 🎥 [Theo：React Router的终局之战](https://www.youtube.com/watch?v=nZKlPtQqqgQ)
+- 🎥 [James Quick：Next.js服务端动作的非表单应用场景](https://www.youtube.com/watch?v=ZZCXnNAOqqU)
 
 <SubscribeFormEmbed placement="middle" />
 
@@ -102,15 +102,15 @@ import Support from "../_support.mdx";
 
 WorkOS 是为B2B SaaS打造的现代身份认证平台。
 
-⚡ 基于Radix组件构建的开源登录UI，提供您所需的所有可定制性
+⚡ 基于Radix组件构建的开源登录界面，提供您所需的所有可定制性
 
-⚙️ 支持更复杂的功能，如单点登录（SSO）和SCIM配置
+⚙️ 支持单点登录(SSO)和SCIM配置等复杂功能
 
 ⌨️ 灵活易用的API，帮助Vercel、Loom和Webflow等公司在几分钟内实现企业级认证
 
-💰 用户管理功能在月活跃用户数不超过100万时免费
+💰 用户管理系统在月活100万以内完全免费
 
-[立即开始使用WorkOS ↗️](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q12024)
+[立即体验WorkOS ↗️](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q12024)
 
 ---
 
@@ -118,33 +118,33 @@ WorkOS 是为B2B SaaS打造的现代身份认证平台。
 
 本版块现由[Benedikt](https://twitter.com/bndkt)共同撰写。欢迎通过邮件或[Twitter](https://twitter.com/bndkt)向我们反馈意见！
 
-[![React Navigation - 静态API正式发布](/emails/issues/179/rnav.jpg)](https://reactnavigation.org/blog/2024/03/25/introducing-static-api)
+[![React Navigation - 静态API重磅推出](/emails/issues/179/rnav.jpg)](https://reactnavigation.org/blog/2024/03/25/introducing-static-api)
 
-[**React Navigation - 静态API正式发布**](https://reactnavigation.org/blog/2024/03/25/introducing-static-api)
+[**React Navigation - 静态API重磅推出**](https://reactnavigation.org/blog/2024/03/25/introducing-static-api)
 
-React Navigation可以说是最常用、最重要的React Native库之一。当前主版本（6）大约在三年前发布，而现在我们似乎即将迎来下一个主版本。在v7（目前处于alpha阶段）中，React Navigation重新引入了静态API，允许您通过对象配置来定义屏幕。这使得类型推断成为可能（如果您曾经为动态React Navigation树创建过类型，就会知道这能减轻多少负担），同时也让深度链接配置变得更简单（甚至部分自动化）。
+React Navigation可以说是React Native生态中使用最广泛、最重要的库之一。当前主版本(v6)发布于约三年前，而现在我们即将迎来下一个重大更新。v7版本(目前处于alpha阶段)重新引入了静态API，允许通过对象配置来定义屏幕路由。这一改进不仅实现了类型推断(如果您曾为动态React Navigation树创建过类型定义，就会明白这能省去多少麻烦)，还简化了深度链接配置(部分配置甚至可以实现自动化)。
 
-如果您想了解其他即将到来的变化，请务必阅读[v7升级指南](https://reactnavigation.org/docs/7.x/upgrading-from-6.x/)！
+如果您想了解其他变更内容，请务必阅读[v7升级指南](https://reactnavigation.org/docs/7.x/upgrading-from-6.x/)！
 
 ---
 
-- 💸 [Omlet - 在生产环境中测量React Native组件使用情况。追踪采用率并在5分钟内完成设置获取代码库改进数据](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-rn-mar-2024)
-- 🐦 [React Native Server Components在visionOS上的演示](https://twitter.com/SzymonRybczak/status/1772987077488935208)
-- 📜 [使用React Native visionOS构建多窗口应用](https://www.oskarkwasniewski.dev/blog/react-native-visionos-multi-window-apps): 学习如何在visionOS应用中启用多窗口，以及如何在窗口间共享React状态。
+- 💸 [Omlet - 在生产环境中测量React Native组件使用情况。追踪采用率并获取代码库改进数据，设置时间\<5分钟](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-rn-mar-2024)
+- 🐦 [visionOS上的React Native服务组件演示](https://twitter.com/SzymonRybczak/status/1772987077488935208)
+- 📜 [使用React Native visionOS构建多窗口应用](https://www.oskarkwasniewski.dev/blog/react-native-visionos-multi-window-apps): 学习如何在visionOS应用中启用多窗口功能，以及如何在窗口间共享React状态。
 - 📜 [Expo - 如何替代App Center和CodePush](https://expo.dev/blog/how-to-replace-app-center-and-codepush): 正如上周报道，CodePush将于2025年3月31日关闭。
-- 📜 两个Expo案例研究: [用这个Expo应用赢得你的三月疯狂竞猜](https://expo.dev/blog/march-madness-expo-app) 和 [incident.io利用原生模块和CNG的力量](https://expo.dev/blog/incident-io-harnesses-the-power-of-native-modules-and-cng)
-- 📜 [重新思考布局实践 - 一个极简的Stack组件为良好布局奠定基础](https://www.reactnative.university/blog/rethinking-layout-practices): 有趣的观点：永远不要使用Text或View组件的padding或margin进行布局，而是引入Stack组件（例如Tamagui就是这样做的）。
-- 📜 [优化React Native应用的JavaScript包](https://www.callstack.com/blog/optimize-react-native-apps-javascript-bundle): 标题没有透露，但这篇是对RN替代打包工具的精彩概述。遗憾的是，与Metro相比，这些工具仍有较大妥协。
-- 📜 [如何使用AWS Amplify和React Native添加社交认证？](https://scientyficworld.org/social-auth-with-aws-amplify-and-react-native/)
-- 📜 [使用移动专用库优化React Native应用的电池消耗](https://www.callstack.com/blog/optimize-battery-drain-in-react-native-apps)
-- 📜 [高阶组件如何提升React Native应用的性能？](https://www.callstack.com/blog/improve-react-native-performance-with-higher-ordered-components)
-- 📦 [@dev-plugins/redux](https://www.npmjs.com/package/@dev-plugins/redux): Expo开发工具插件，用于调试Redux存储。
+- 📜 两个Expo案例研究: [用这款Expo应用赢得你的疯狂三月竞猜](https://expo.dev/blog/march-madness-expo-app) 和 [incident.io利用原生模块和CNG的力量](https://expo.dev/blog/incident-io-harnesses-the-power-of-native-modules-and-cng)
+- 📜 [重新思考布局实践 - 一个极简的Stack组件，为良好布局奠定基础](https://www.reactnative.university/blog/rethinking-layout-practices): 有趣观点：永远不要使用Text或View组件的padding或margin进行布局，而是引入Stack组件（例如Tamagui就采用这种方式）。
+- 📜 [优化React Native应用的JavaScript包](https://www.callstack.com/blog/optimize-react-native-apps-javascript-bundle): 标题没有明说，但这篇是对RN替代打包工具的精彩概述。遗憾的是，这些工具相比Metro仍然存在较大缺陷。
+- 📜 [如何通过AWS Amplify和React Native添加社交登录？](https://scientyficworld.org/social-auth-with-aws-amplify-and-react-native/)
+- 📜 [使用移动端专用库优化React Native应用的电池消耗](https://www.callstack.com/blog/optimize-battery-drain-in-react-native-apps)
+- 📜 [高阶组件如何提升React Native应用性能？](https://www.callstack.com/blog/improve-react-native-performance-with-higher-ordered-components)
+- 📦 [@dev-plugins/redux](https://www.npmjs.com/package/@dev-plugins/redux): Expo开发者工具插件，用于调试Redux存储。
 - 📦 [react-native-screens 3.30.0](https://github.com/software-mansion/react-native-screens/releases/tag/3.30.0): 现在包含"返回"手势并支持visionOS
 - 📦 [react-native 0.74.0-rc.5](https://github.com/facebook/react-native/releases/tag/v0.74.0-rc.5)
 - 🎙️ [RNR 292 - RNR解析：Metro打包工具](https://reactnativeradio.com/episodes/rnr-292-rnr-explains-metro-bundler)
 - 🎥 [Theo - 新的React Native架构](https://www.youtube.com/watch?v=BdPkVl4Y8TQ)
-- 🎥 [Rocket Ship 35 - 与William Candillon探讨React Native Skia](https://share.transistor.fm/s/15269c3f)
-- 🎥 [Simon: 使用React Native构建金融科技克隆应用（API路由、Zustand、Tanstack Query、FaceID、图表、Clerk）](https://www.youtube.com/watch?v=iDZBeIgcixk): 通常我们选择简短但有价值的视频来节省您的时间。这个视频长达5个半小时(!)，但如果您想观察一个现代化RN应用从零到一的完整构建过程，我们强烈推荐。
+- 🎥 [火箭飞船35期 - 与William Candillon探讨React Native Skia](https://share.transistor.fm/s/15269c3f)
+- 🎥 [Simon：用React Native构建金融科技克隆应用（API路由、Zustand、Tanstack Query、FaceID、图表、Clerk）](https://www.youtube.com/watch?v=iDZBeIgcixk): 通常我们选择简短但有价值的视频来节省您的时间。这个视频长达5个半小时(!)，但如果您想观察一个现代化RN应用从零到一的构建过程，我强烈推荐。
 
 ---
 
@@ -165,6 +165,6 @@ React Navigation可以说是最常用、最重要的React Native库之一。当�
 
 ## 🤭 轻松一刻 {#fun}
 
-[![趣味图片](/emails/issues/179/meme.jpg)](https://twitter.com/ryanflorence/status/1770638771392049400)
+[![alt](/emails/issues/179/meme.jpg)](https://twitter.com/ryanflorence/status/1770638771392049400)
 
 下次见！👋

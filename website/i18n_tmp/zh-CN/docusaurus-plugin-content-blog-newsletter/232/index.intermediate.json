@@ -1,245 +1,325 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/232/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/232/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /232\ntitle: \"This Week In React #232: React Router, Next.js, Radix, Vite, MCP, Storybook | Entreprise Framework, Shopify, Brownfield, WebGPU, AI, Release-It, Expo | Node.js, Async Svelte, Compile Hints, View Transitions\"\nauthors: [slorber]\ndate: 04-30-2025\n---",
-      "sourceMdx": "---\nslug: /232\ntitle: \"This Week In React #232: React Router, Next.js, Radix, Vite, MCP, Storybook | Entreprise Framework, Shopify, Brownfield, WebGPU, AI, Release-It, Expo | Node.js, Async Svelte, Compile Hints, View Transitions\"\nauthors: [slorber]\ndate: 04-30-2025\n---"
+      "sourceMdx": "---\nslug: /232\ntitle: \"This Week In React #232: React Router, Next.js, Radix, Vite, MCP, Storybook | Entreprise Framework, Shopify, Brownfield, WebGPU, AI, Release-It, Expo | Node.js, Async Svelte, Compile Hints, View Transitions\"\nauthors: [slorber]\ndate: 04-30-2025\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "I hope you've recovered from last week's React Labs news 🔥. This week is of course quieter, but still interesting, with great community articles, weak signals to look at, and a few releases.",
-      "sourceMdx": "I hope you've recovered from last week's React Labs news 🔥. This week is of course quieter, but still interesting, with great community articles, weak signals to look at, and a few releases."
+      "sourceMdx": "I hope you've recovered from last week's React Labs news 🔥. This week is of course quieter, but still interesting, with great community articles, weak signals to look at, and a few releases.",
+      "nodeType": "paragraph",
+      "translated_content": "希望各位已从上周的React Labs重磅消息中缓过神来🔥。本周虽然相对平静，但仍不乏精彩内容——优质的社区文章、值得关注的行业信号以及若干新版本发布。"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "Make sure to upgrade your React Router v7 app, and bump to Node.js >= 18!",
-      "sourceMdx": "Make sure to upgrade your React Router v7 app, and bump to Node.js >= 18!"
+      "sourceMdx": "Make sure to upgrade your React Router v7 app, and bump to Node.js >= 18!",
+      "nodeType": "paragraph",
+      "translated_content": "请务必升级您的React Router v7应用，并将Node.js版本提升至≥18！"
     },
     {
       "id": "e883b2cc",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_e883b2cc"
     },
     {
       "id": "6ac004a5",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_6ac004a5"
     },
     {
       "id": "21c93b79",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_21c93b79"
     },
     {
       "id": "507b4652",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "63622bf0",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "98cfbd53",
       "translatable": true,
       "content": "[![Bit: Deployment independence with SPA and SSR](/emails/issues/232/bit.jpg)](https://bit.dev/?utm_source=ThisWeekInReact\\&utm_id=10\\&utm_medium=newsletter)",
-      "sourceMdx": "[![Bit: Deployment independence with SPA and SSR](/emails/issues/232/bit.jpg)](https://bit.dev/?utm_source=ThisWeekInReact&utm_id=10&utm_medium=newsletter)"
+      "sourceMdx": "[![Bit: Deployment independence with SPA and SSR](/emails/issues/232/bit.jpg)](https://bit.dev/?utm_source=ThisWeekInReact&utm_id=10&utm_medium=newsletter)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Bit: 通过SPA和SSR实现部署独立性](/emails/issues/232/bit.jpg)](https://bit.dev/?utm_source=ThisWeekInReact&utm_id=10&utm_medium=newsletter)"
     },
     {
       "id": "ccc88b4c",
       "translatable": true,
       "content": "**[Bit: Deployment independence with SPA and SSR](https://bit.dev/?utm_source=ThisWeekInReact\\&utm_id=10\\&utm_medium=newsletter)**",
-      "sourceMdx": "**[Bit: Deployment independence with SPA and SSR](https://bit.dev/?utm_source=ThisWeekInReact&utm_id=10&utm_medium=newsletter)**"
+      "sourceMdx": "**[Bit: Deployment independence with SPA and SSR](https://bit.dev/?utm_source=ThisWeekInReact&utm_id=10&utm_medium=newsletter)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Bit: 通过SPA和SSR实现部署独立性](https://bit.dev/?utm_source=ThisWeekInReact&utm_id=10&utm_medium=newsletter)**"
     },
     {
       "id": "d9172fa4",
       "translatable": true,
       "content": "Build highly performant and consistent platforms from independent business features combining React, NodeJS, Angular or Vue components. Allow developers to integrate and test changes in the context of the complete platform while working independently.",
-      "sourceMdx": "Build highly performant and consistent platforms from independent business features combining React, NodeJS, Angular or Vue components. Allow developers to integrate and test changes in the context of the complete platform while working independently."
+      "sourceMdx": "Build highly performant and consistent platforms from independent business features combining React, NodeJS, Angular or Vue components. Allow developers to integrate and test changes in the context of the complete platform while working independently.",
+      "nodeType": "paragraph",
+      "translated_content": "通过组合React、NodeJS、Angular或Vue组件，从独立的业务功能构建高性能、高一致性的平台。开发者可在完整平台上下文中独立集成和测试变更，同时保持协作效率。"
     },
     {
       "id": "26524352",
       "translatable": true,
       "content": "Eliminate integration guesswork and the risk of breaking existing functionalities.",
-      "sourceMdx": "Eliminate integration guesswork and the risk of breaking existing functionalities."
+      "sourceMdx": "Eliminate integration guesswork and the risk of breaking existing functionalities.",
+      "nodeType": "paragraph",
+      "translated_content": "消除集成猜测，规避破坏现有功能的风险。"
     },
     {
       "id": "73ab96a3",
       "translatable": true,
       "content": "Start composing your existing code [**today**](https://bit.dev/?utm_source=ThisWeekInReact\\&utm_id=10\\&utm_medium=newsletter)!",
-      "sourceMdx": "Start composing your existing code [**today**](https://bit.dev/?utm_source=ThisWeekInReact&utm_id=10&utm_medium=newsletter)!"
+      "sourceMdx": "Start composing your existing code [**today**](https://bit.dev/?utm_source=ThisWeekInReact&utm_id=10&utm_medium=newsletter)!",
+      "nodeType": "paragraph",
+      "translated_content": "立即开始组合您的现有代码[**今天就开始**](https://bit.dev/?utm_source=ThisWeekInReact&utm_id=10&utm_medium=newsletter)！"
     },
     {
       "id": "f1a2a0d3",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "109ace10",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React {#react}"
     },
     {
       "id": "157151e9",
       "translatable": true,
       "content": "* 💸 [Convex launched an MCP Server](https://convex.link/thisweekmcp)\n* 🔐 [React Router vulnerabilities and v7.5.2 fixes](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v752): React Router v7 has 2 important security vulnerabilities that could lead to DOS and XSS attacks. They have been fixed in the latest v7.5.2 release. Various cloud providers have deployed a mitigation already (Vercel, Netlify, Cloudflare), but it remains useful to upgrade.\n* 👀 [Next.js Docs PR - Remove Vercel mentions](https://github.com/vercel/next.js/pull/78557): The Next.js docs should now be less biased toward Vercel, and include its competitors more fairly. Personally, I think there's nothing wrong with offering your OSS software to the community and using it as a marketing vector for your paid offer (this is how many OSS projects become sustainable). Even for a larger company like Vercel, it's fair play to do that, but probably necessary to restore the broken trust with some of you.. A reminder that Vercel is not “taking over” the React team, and various client-side-only React Labs features announced last week are [implemented by Vercel employees](https://bsky.app/profile/ricky.fm/post/3lnvyuennss2b) (such as `<ViewTransition>`).\n* 👀 [Vite RSC Plan](https://github.com/hi-ogawa/vite-plugins/issues/748): A Vite contributor is [taking over](https://github.com/facebook/react/pull/31768#issuecomment-2823466684) the development of an upcoming `react-server-dom-vite` package. Many integration PRs have been sent to frameworks like Waku or RedwoodSDK.\n* 🗓 [React-Summit](https://reactsummit.com/?utm_source=Newsletter\\&utm_medium=thisweekinreact) - 🇳🇱 Amsterdam - 13 & 17 June. Check out the full lineup with 60+ speakers at the biggest React conference worldwide! Use promo code TWIR for 10% off tickets.\n* 🗓️ [StrapiConf](https://conf.strapi.io/?utm_source=thisweekinreact) - 🇫🇷 Paris - 13 May. Last call to join us for a deep dive into the future of headless web development! Get a 10% discount with code \"TWIR\n* 📜 [What Does \"use client\" Do?](https://overreacted.io/what-does-use-client-do/): Dan Abramov explains RSCs have no API surfaces. The directives are module system features that open doors between 2 worlds and could even make sense beyond React. Speaking of Dan, he just [re-launched his YouTube channel](https://www.youtube.com/@overreacted-io), in case you want him to walk you through his blog posts.\n* 📜 [You can serialize a promise in React](https://twofoldframework.com/blog/you-can-serialize-a-promise-in-react): A great interactive article that explains how React is able to forward a Promise from the server to the client through a stream. To do so, it re-creates a tiny version of this mechanism.\n* 📜 [React Internals: Which useEffect runs first?](https://frontendmasters.com/blog/react-internals-which-useeffect-runs-first/): A good reminder that `useEffect` callbacks run bottom-up, from the deepest child to the root (unless you use `<Activity>,` but that’s a story for another time 🙈).\n* 📜 [Concurrent Optimistic Updates in React Query](https://tkdodo.eu/blog/concurrent-optimistic-updates-in-react-query): Dominik shares interesting patterns to avoid displaying an inconsistent UI when using React Query with concurrent mutations and optimistic updates. Tip: only call `invalidateQueries()` when there’s a single in-flight mutation.\n* 📜 [Parents & Owners in React: Context Providers](https://julesblom.com/writing/parent-owners-context): Explains the difference between parent and owner components. By restructuring the owner tree without changing the parent tree, we create more targeted “units of update”.\n* 📜 [From Next.js to Astro: A Page Size Comparison](https://alan.norbauer.com/articles/astro-vs-nextjs-page-size/): A quite fair numbers comparison after porting a small static Next.js site to Astro, reducing bundle size.\n* 📜 [Per-Route Documents in RedwoodSDK: Total Control Over Your HTML](https://rwsdk.com/blog/redwoodsdk-multiple-documents)\n* 📜 [React-admin With Shadcn UI](https://marmelab.com/blog/2025/04/23/react-admin-with-shadcn.html)\n* 💸 [Tolgee React - Translate Apps with Tolgee and Forget About Infinite Spreadsheets of Text](https://tolgee.io/apps-integrations/react)\n* 📦 [React MCP Server (experimental)](https://github.com/facebook/react/tree/main/compiler/packages/react-mcp-server): It’s in the React repo, but for now, it’s [just a one-person fun experiment by Lauren](https://github.com/facebook/react/pull/32859) (React Compiler team).\n* 📦 [Radix UI 1.3 - OneTimePasswordField](https://www.radix-ui.com/primitives/docs/overview/releases#april-17-2025): In case you missed it (we did!), there’s now a `radix-ui` package to consolidate all Radix primitives under a single roof (instead of `@radix-ui/*` imports). It’s likely that `shadcn/ui` will [adopt it and provide a codemod](https://github.com/shadcn-ui/ui/pull/6868#issuecomment-2718219342) in the future.\n* 📦 [Storybook 9 beta](https://storybook.js.org/blog/storybook-9-beta/): The new version is now feature complete, with a good focus on testing (components, interaction, accessibility, visual tests). The tag-based organization should help improve UX. Also includes first-class support for React Native Web.\n* 📦 [Lexical 0.31 - Extensible text editor with React bindings](https://github.com/facebook/lexical/releases/tag/v0.31.0)\n* 📦 [Frimousse - A lightweight, unstyled, and composable emoji picker for React](https://frimousse.liveblocks.io/)\n* 🎥 [Theo - React just got way cooler](https://www.youtube.com/watch?v=-dePNpdd44M)\n* 🎥 [Jack Herrington - Better-Auth: Headless Authentication for Your TanStack Start App](https://www.youtube.com/watch?v=Atev8Nxpw7c)\n* 🎙️ [This Month in React - React 19.1, Next.js 15.3, RN v0.79, RTK, React Aria](https://creators.spotify.com/pod/profile/reactiflux/episodes/TMiR-2025-04-React-19-1-helps-debug-owner-stacks-e324h0g)",
-      "sourceMdx": "- 💸 [Convex launched an MCP Server](https://convex.link/thisweekmcp)\n- 🔐 [React Router vulnerabilities and v7.5.2 fixes](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v752): React Router v7 has 2 important security vulnerabilities that could lead to DOS and XSS attacks. They have been fixed in the latest v7.5.2 release. Various cloud providers have deployed a mitigation already (Vercel, Netlify, Cloudflare), but it remains useful to upgrade.\n- 👀 [Next.js Docs PR \\- Remove Vercel mentions](https://github.com/vercel/next.js/pull/78557): The Next.js docs should now be less biased toward Vercel, and include its competitors more fairly. Personally, I think there's nothing wrong with offering your OSS software to the community and using it as a marketing vector for your paid offer (this is how many OSS projects become sustainable). Even for a larger company like Vercel, it's fair play to do that, but probably necessary to restore the broken trust with some of you.. A reminder that Vercel is not “taking over” the React team, and various client-side-only React Labs features announced last week are [implemented by Vercel employees](https://bsky.app/profile/ricky.fm/post/3lnvyuennss2b) (such as `<ViewTransition>`).\n- 👀 [Vite RSC Plan](https://github.com/hi-ogawa/vite-plugins/issues/748): A Vite contributor is [taking over](https://github.com/facebook/react/pull/31768#issuecomment-2823466684) the development of an upcoming `react-server-dom-vite` package. Many integration PRs have been sent to frameworks like Waku or RedwoodSDK.\n- 🗓 [React-Summit](https://reactsummit.com/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇳🇱 Amsterdam - 13 & 17 June. Check out the full lineup with 60+ speakers at the biggest React conference worldwide! Use promo code TWIR for 10% off tickets.\n- 🗓️ [StrapiConf](https://conf.strapi.io/?utm_source=thisweekinreact) - 🇫🇷 Paris - 13 May. Last call to join us for a deep dive into the future of headless web development! Get a 10% discount with code \"TWIR\n- 📜 [What Does \"use client\" Do?](https://overreacted.io/what-does-use-client-do/): Dan Abramov explains RSCs have no API surfaces. The directives are module system features that open doors between 2 worlds and could even make sense beyond React. Speaking of Dan, he just [re-launched his YouTube channel](https://www.youtube.com/@overreacted-io), in case you want him to walk you through his blog posts.\n- 📜 [You can serialize a promise in React](https://twofoldframework.com/blog/you-can-serialize-a-promise-in-react): A great interactive article that explains how React is able to forward a Promise from the server to the client through a stream. To do so, it re-creates a tiny version of this mechanism.\n- 📜 [React Internals: Which useEffect runs first?](https://frontendmasters.com/blog/react-internals-which-useeffect-runs-first/): A good reminder that `useEffect` callbacks run bottom-up, from the deepest child to the root (unless you use `<Activity>,` but that’s a story for another time 🙈).\n- 📜 [Concurrent Optimistic Updates in React Query](https://tkdodo.eu/blog/concurrent-optimistic-updates-in-react-query): Dominik shares interesting patterns to avoid displaying an inconsistent UI when using React Query with concurrent mutations and optimistic updates. Tip: only call `invalidateQueries()` when there’s a single in-flight mutation.\n- 📜 [Parents & Owners in React: Context Providers](https://julesblom.com/writing/parent-owners-context): Explains the difference between parent and owner components. By restructuring the owner tree without changing the parent tree, we create more targeted “units of update”.\n- 📜 [From Next.js to Astro: A Page Size Comparison](https://alan.norbauer.com/articles/astro-vs-nextjs-page-size/): A quite fair numbers comparison after porting a small static Next.js site to Astro, reducing bundle size.\n- 📜 [Per-Route Documents in RedwoodSDK: Total Control Over Your HTML](https://rwsdk.com/blog/redwoodsdk-multiple-documents)\n- 📜 [React-admin With Shadcn UI](https://marmelab.com/blog/2025/04/23/react-admin-with-shadcn.html)\n- 💸 [Tolgee React - Translate Apps with Tolgee and Forget About Infinite Spreadsheets of Text](https://tolgee.io/apps-integrations/react)\n- 📦 [React MCP Server (experimental)](https://github.com/facebook/react/tree/main/compiler/packages/react-mcp-server): It’s in the React repo, but for now, it’s [just a one-person fun experiment by Lauren](https://github.com/facebook/react/pull/32859) (React Compiler team).\n- 📦 [Radix UI 1.3 \\- OneTimePasswordField](https://www.radix-ui.com/primitives/docs/overview/releases#april-17-2025): In case you missed it (we did\\!), there’s now a `radix-ui` package to consolidate all Radix primitives under a single roof (instead of `@radix-ui/*` imports). It’s likely that `shadcn/ui` will [adopt it and provide a codemod](https://github.com/shadcn-ui/ui/pull/6868#issuecomment-2718219342) in the future.\n- 📦 [Storybook 9 beta](https://storybook.js.org/blog/storybook-9-beta/): The new version is now feature complete, with a good focus on testing (components, interaction, accessibility, visual tests). The tag-based organization should help improve UX. Also includes first-class support for React Native Web.\n- 📦 [Lexical 0.31 \\- Extensible text editor with React bindings](https://github.com/facebook/lexical/releases/tag/v0.31.0)\n- 📦 [Frimousse \\- A lightweight, unstyled, and composable emoji picker for React](https://frimousse.liveblocks.io/)\n- 🎥 [Theo \\- React just got way cooler](https://www.youtube.com/watch?v=-dePNpdd44M)\n- 🎥 [Jack Herrington \\- Better-Auth: Headless Authentication for Your TanStack Start App](https://www.youtube.com/watch?v=Atev8Nxpw7c)\n- 🎙️ [This Month in React \\- React 19.1, Next.js 15.3, RN v0.79, RTK, React Aria](https://creators.spotify.com/pod/profile/reactiflux/episodes/TMiR-2025-04-React-19-1-helps-debug-owner-stacks-e324h0g)"
+      "sourceMdx": "- 💸 [Convex launched an MCP Server](https://convex.link/thisweekmcp)\n- 🔐 [React Router vulnerabilities and v7.5.2 fixes](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v752): React Router v7 has 2 important security vulnerabilities that could lead to DOS and XSS attacks. They have been fixed in the latest v7.5.2 release. Various cloud providers have deployed a mitigation already (Vercel, Netlify, Cloudflare), but it remains useful to upgrade.\n- 👀 [Next.js Docs PR \\- Remove Vercel mentions](https://github.com/vercel/next.js/pull/78557): The Next.js docs should now be less biased toward Vercel, and include its competitors more fairly. Personally, I think there's nothing wrong with offering your OSS software to the community and using it as a marketing vector for your paid offer (this is how many OSS projects become sustainable). Even for a larger company like Vercel, it's fair play to do that, but probably necessary to restore the broken trust with some of you.. A reminder that Vercel is not “taking over” the React team, and various client-side-only React Labs features announced last week are [implemented by Vercel employees](https://bsky.app/profile/ricky.fm/post/3lnvyuennss2b) (such as `<ViewTransition>`).\n- 👀 [Vite RSC Plan](https://github.com/hi-ogawa/vite-plugins/issues/748): A Vite contributor is [taking over](https://github.com/facebook/react/pull/31768#issuecomment-2823466684) the development of an upcoming `react-server-dom-vite` package. Many integration PRs have been sent to frameworks like Waku or RedwoodSDK.\n- 🗓 [React-Summit](https://reactsummit.com/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇳🇱 Amsterdam - 13 & 17 June. Check out the full lineup with 60+ speakers at the biggest React conference worldwide! Use promo code TWIR for 10% off tickets.\n- 🗓️ [StrapiConf](https://conf.strapi.io/?utm_source=thisweekinreact) - 🇫🇷 Paris - 13 May. Last call to join us for a deep dive into the future of headless web development! Get a 10% discount with code \"TWIR\n- 📜 [What Does \"use client\" Do?](https://overreacted.io/what-does-use-client-do/): Dan Abramov explains RSCs have no API surfaces. The directives are module system features that open doors between 2 worlds and could even make sense beyond React. Speaking of Dan, he just [re-launched his YouTube channel](https://www.youtube.com/@overreacted-io), in case you want him to walk you through his blog posts.\n- 📜 [You can serialize a promise in React](https://twofoldframework.com/blog/you-can-serialize-a-promise-in-react): A great interactive article that explains how React is able to forward a Promise from the server to the client through a stream. To do so, it re-creates a tiny version of this mechanism.\n- 📜 [React Internals: Which useEffect runs first?](https://frontendmasters.com/blog/react-internals-which-useeffect-runs-first/): A good reminder that `useEffect` callbacks run bottom-up, from the deepest child to the root (unless you use `<Activity>,` but that’s a story for another time 🙈).\n- 📜 [Concurrent Optimistic Updates in React Query](https://tkdodo.eu/blog/concurrent-optimistic-updates-in-react-query): Dominik shares interesting patterns to avoid displaying an inconsistent UI when using React Query with concurrent mutations and optimistic updates. Tip: only call `invalidateQueries()` when there’s a single in-flight mutation.\n- 📜 [Parents & Owners in React: Context Providers](https://julesblom.com/writing/parent-owners-context): Explains the difference between parent and owner components. By restructuring the owner tree without changing the parent tree, we create more targeted “units of update”.\n- 📜 [From Next.js to Astro: A Page Size Comparison](https://alan.norbauer.com/articles/astro-vs-nextjs-page-size/): A quite fair numbers comparison after porting a small static Next.js site to Astro, reducing bundle size.\n- 📜 [Per-Route Documents in RedwoodSDK: Total Control Over Your HTML](https://rwsdk.com/blog/redwoodsdk-multiple-documents)\n- 📜 [React-admin With Shadcn UI](https://marmelab.com/blog/2025/04/23/react-admin-with-shadcn.html)\n- 💸 [Tolgee React - Translate Apps with Tolgee and Forget About Infinite Spreadsheets of Text](https://tolgee.io/apps-integrations/react)\n- 📦 [React MCP Server (experimental)](https://github.com/facebook/react/tree/main/compiler/packages/react-mcp-server): It’s in the React repo, but for now, it’s [just a one-person fun experiment by Lauren](https://github.com/facebook/react/pull/32859) (React Compiler team).\n- 📦 [Radix UI 1.3 \\- OneTimePasswordField](https://www.radix-ui.com/primitives/docs/overview/releases#april-17-2025): In case you missed it (we did\\!), there’s now a `radix-ui` package to consolidate all Radix primitives under a single roof (instead of `@radix-ui/*` imports). It’s likely that `shadcn/ui` will [adopt it and provide a codemod](https://github.com/shadcn-ui/ui/pull/6868#issuecomment-2718219342) in the future.\n- 📦 [Storybook 9 beta](https://storybook.js.org/blog/storybook-9-beta/): The new version is now feature complete, with a good focus on testing (components, interaction, accessibility, visual tests). The tag-based organization should help improve UX. Also includes first-class support for React Native Web.\n- 📦 [Lexical 0.31 \\- Extensible text editor with React bindings](https://github.com/facebook/lexical/releases/tag/v0.31.0)\n- 📦 [Frimousse \\- A lightweight, unstyled, and composable emoji picker for React](https://frimousse.liveblocks.io/)\n- 🎥 [Theo \\- React just got way cooler](https://www.youtube.com/watch?v=-dePNpdd44M)\n- 🎥 [Jack Herrington \\- Better-Auth: Headless Authentication for Your TanStack Start App](https://www.youtube.com/watch?v=Atev8Nxpw7c)\n- 🎙️ [This Month in React \\- React 19.1, Next.js 15.3, RN v0.79, RTK, React Aria](https://creators.spotify.com/pod/profile/reactiflux/episodes/TMiR-2025-04-React-19-1-helps-debug-owner-stacks-e324h0g)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [Convex发布MCP服务器](https://convex.link/thisweekmcp)\n- 🔐 [React Router漏洞及v7.5.2修复](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v752): React Router v7存在2个可能导致DOS和XSS攻击的重要安全漏洞，已在最新v7.5.2版本中修复。多家云服务商已部署缓解措施（Vercel、Netlify、Cloudflare），但仍建议升级。\n- 👀 [Next.js文档PR-移除Vercel相关提及](https://github.com/vercel/next.js/pull/78557): Next.js文档现应减少对Vercel的倾向性，更公平地涵盖其竞品。个人认为，通过开源软件为付费产品引流是许多项目实现可持续的合理方式。即便对Vercel这样的大公司，此举虽属正当，但重建部分用户的信任确有必要。需明确Vercel并未\"接管\"React团队，上周公布的客户端React Labs功能（如`<ViewTransition>`）由[Vercel员工实现](https://bsky.app/profile/ricky.fm/post/3lnvyuennss2b)。\n- 👀 [Vite RSC计划](https://github.com/hi-ogawa/vite-plugins/issues/748): 一位Vite贡献者正[接手开发](https://github.com/facebook/react/pull/31768#issuecomment-2823466684)即将推出的`react-server-dom-vite`包，已向Waku、RedwoodSDK等框架提交多项集成PR。\n- 🗓 [React峰会](https://reactsummit.com/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇳🇱 阿姆斯特丹 - 6月13日&17日。查看全球最大React会议的60+演讲阵容！使用优惠码TWIR可享门票9折。\n- 🗓️ [Strapi大会](https://conf.strapi.io/?utm_source=thisweekinreact) - 🇫🇷 巴黎 - 5月13日。把握最后机会参与无头Web开发深度探讨！使用代码\"TWIR\"享9折优惠。\n- 📜 [\"use client\"的作用解析](https://overreacted.io/what-does-use-client-do/): Dan Abramov阐释RSC并无API层面设计，这些指令是打通两个世界的模块系统特性，其意义可能超越React本身。顺带一提，Dan刚[重启YouTube频道](https://www.youtube.com/@overreacted-io)，可通过视频形式解读其博文。\n- 📜 [React中可序列化的Promise](https://twofoldframework.com/blog/you-can-serialize-a-promise-in-react): 通过交互式文章详解React如何通过流式传输将Promise从服务端传递到客户端，并重建精简版机制。\n- 📜 [React内部机制：哪个useEffect先执行？](https://frontendmasters.com/blog/react-internals-which-useeffect-runs-first/): 重要提醒——`useEffect`回调自底向上执行（从最深子组件到根组件），除非使用`<Activity>`（这又是另一个话题🙈）。\n- 📜 [React Query中的并发乐观更新](https://tkdodo.eu/blog/concurrent-optimistic-updates-in-react-query): Dominik分享在使用并发突变和乐观更新时避免UI不一致的实用模式，关键提示：仅当单个突变进行时才调用`invalidateQueries()`。\n- 📜 [React中的父组件与所有者组件：Context Providers](https://julesblom.com/writing/parent-owners-context): 解析父组件与所有者组件的区别，通过重构所有者树（不改变父组件树）可创建更精准的\"更新单元\"。\n- 📜 [Next.js转Astro的页面体积对比](https://alan.norbauer.com/articles/astro-vs-nextjs-page-size/): 将小型静态Next.js站点迁移至Astro后的客观数据对比，有效减少包体积。\n- 📜 [RedwoodSDK中的按路由文档：完全掌控HTML](https://rwsdk.com/blog/redwoodsdk-multiple-documents)\n- 📜 [结合Shadcn UI的React-admin方案](https://marmelab.com/blog/2025/04/23/react-admin-with-shadcn.html)\n- 💸 [Tolgee React - 用Tolgee翻译应用，告别无限文本表格](https://tolgee.io/apps-integrations/react)\n- 📦 [React MCP服务器(实验性)](https://github.com/facebook/react/tree/main/compiler/packages/react-mcp-server): 虽在React仓库中，但目前仅是[Lauren（React编译器团队）的个人实验项目](https://github.com/facebook/react/pull/32859)。\n- 📦 [Radix UI 1.3 - 新增OneTimePasswordField](https://www.radix-ui.com/primitives/docs/overview/releases#april-17-2025): 若您错过（我们也是！），现提供整合所有Radix原语的`radix-ui`包（替代`@radix-ui/*`导入）。预计`shadcn/ui`将[采用并提供代码迁移工具](https://github.com/shadcn-ui/ui/pull/6868#issuecomment-2718219342)。\n- 📦 [Storybook 9测试版](https://storybook.js.org/blog/storybook-9-beta/): 新版本功能完备，重点强化测试能力（组件、交互、无障碍、可视化测试）。标签式组织优化用户体验，并首次原生支持React Native Web。\n- 📦 [Lexical 0.31 - 支持React绑定的可扩展文本编辑器](https://github.com/facebook/lexical/releases/tag/v0.31.0)\n- 📦 [Frimousse - 轻量、无样式、可组合的React表情选择器](https://frimousse.liveblocks.io/)\n- 🎥 [Theo - React变得更酷了](https://www.youtube.com/watch?v=-dePNpdd44M)\n- 🎥 [Jack Herrington - Better-Auth：为TanStack Start应用提供无头认证方案](https://www.youtube.com/watch?v=Atev8Nxpw7c)\n- 🎙️ [本月React动态 - React 19.1、Next.js 15.3、RN v0.79、RTK、React Aria](https://creators.spotify.com/pod/profile/reactiflux/episodes/TMiR-2025-04-React-19-1-helps-debug-owner-stacks-e324h0g)"
     },
     {
       "id": "96e9ed17",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_96e9ed17"
     },
     {
       "id": "bcda0ab1",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "8c6d7ee7",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "06e24cc0",
       "translatable": true,
       "content": "[![How to take Clerk to Production](/emails/issues/232/clerk.jpg)](https://go.clerk.com/fpzcK5F)",
-      "sourceMdx": "[![How to take Clerk to Production](/emails/issues/232/clerk.jpg)](https://go.clerk.com/fpzcK5F)"
+      "sourceMdx": "[![How to take Clerk to Production](/emails/issues/232/clerk.jpg)](https://go.clerk.com/fpzcK5F)",
+      "nodeType": "paragraph",
+      "translated_content": "[![如何将C Clerk投入生产环境](/emails/issues/232/clerk.jpg)](https://go.clerk.com/fpzcK5F)"
     },
     {
       "id": "7f71ff2a",
       "translatable": true,
       "content": "**[How to take Clerk to Production](https://go.clerk.com/ovPb3z0)**",
-      "sourceMdx": "**[How to take Clerk to Production](https://go.clerk.com/ovPb3z0)**"
+      "sourceMdx": "**[How to take Clerk to Production](https://go.clerk.com/ovPb3z0)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[如何将Clerk投入生产环境](https://go.clerk.com/ovPb3z0)**"
     },
     {
       "id": "147e8550",
       "translatable": true,
       "content": "Step-by-step guide for developers to launch a Clerk app in a production environment with a custom domain, OAuth credentials, and secure DNS configuration.",
-      "sourceMdx": "Step-by-step guide for developers to launch a Clerk app in a production environment with a custom domain, OAuth credentials, and secure DNS configuration."
+      "sourceMdx": "Step-by-step guide for developers to launch a Clerk app in a production environment with a custom domain, OAuth credentials, and secure DNS configuration.",
+      "nodeType": "paragraph",
+      "translated_content": "开发者分步指南：如何将Clerk应用部署到生产环境，包括自定义域名配置、OAuth凭证管理和安全DNS设置。"
     },
     {
       "id": "7afb38f4",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "b051b70c",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "d0dd855b",
       "translatable": true,
       "content": "[![React Native Enterprise Framework](/emails/issues/232/rnef.jpg)](https://www.rnef.dev/)",
-      "sourceMdx": "[![React Native Enterprise Framework](/emails/issues/232/rnef.jpg)](https://www.rnef.dev/)"
+      "sourceMdx": "[![React Native Enterprise Framework](/emails/issues/232/rnef.jpg)](https://www.rnef.dev/)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React Native企业级框架](/emails/issues/232/rnef.jpg)](https://www.rnef.dev/)"
     },
     {
       "id": "7736989b",
       "translatable": true,
       "content": "**[React Native Enterprise Framework](https://www.rnef.dev/)**",
-      "sourceMdx": "**[React Native Enterprise Framework](https://www.rnef.dev/)**"
+      "sourceMdx": "**[React Native Enterprise Framework](https://www.rnef.dev/)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[React Native企业级框架](https://www.rnef.dev/)**"
     },
     {
       "id": "6270d577",
       "translatable": true,
       "content": "The Callstack project is now open source. It’s built as a drop-in replacement for the RN community CLI to help you adopt React Native incrementally in existing mobile apps (also called “brownfield”). The features include:",
-      "sourceMdx": "The Callstack project is now open source. It’s built as a drop-in replacement for the RN community CLI to help you adopt React Native incrementally in existing mobile apps (also called “brownfield”). The features include:"
+      "sourceMdx": "The Callstack project is now open source. It’s built as a drop-in replacement for the RN community CLI to help you adopt React Native incrementally in existing mobile apps (also called “brownfield”). The features include:",
+      "nodeType": "paragraph",
+      "translated_content": "Callstack项目现已开源。该框架作为RN社区CLI的替代方案，可帮助您在现有移动应用中逐步采用React Native（即\"棕地开发\"）。主要功能包括："
     },
     {
       "id": "c142abbb",
       "translatable": true,
       "content": "* Incremental adoption in native apps thanks to our simplified brownfield approach\n* Web-like DX thanks to advanced native build caching hosted on your infra\n* Pluggable design to leverage out-of-tree platforms, custom bundlers, etc.",
-      "sourceMdx": "- Incremental adoption in native apps thanks to our simplified brownfield approach\n- Web-like DX thanks to advanced native build caching hosted on your infra\n- Pluggable design to leverage out-of-tree platforms, custom bundlers, etc."
+      "sourceMdx": "- Incremental adoption in native apps thanks to our simplified brownfield approach\n- Web-like DX thanks to advanced native build caching hosted on your infra\n- Pluggable design to leverage out-of-tree platforms, custom bundlers, etc.",
+      "nodeType": "list",
+      "translated_content": "- 通过简化的棕地开发方案实现渐进式迁移\n- 依托基础设施托管的高级原生构建缓存，提供类Web开发体验\n- 可插拔架构支持扩展平台和自定义打包器等"
     },
     {
       "id": "8b0ba3cf",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "4d429946",
       "translatable": true,
       "content": "* 💸 [Build a Modern Multi-User Chat App with React Native](https://go.clerk.com/Y0ne425)\n* 🐦 [RN 0.79 now has buit-in support for \"aliases\" (through Metro package.json `imports`)](https://x.com/satya164/status/1916095938604548366)\n* 📣 [Expo Changelog - New Build Comparison Tool, Expo Router Landing Page, and UX Improvements](https://expo.dev/changelog/website-updates-4-29-2025)\n* 🗓️ [App.js Conf](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 Kraków - 28-30 May. This is your final chance to join the biggest React Native & Expo event. Secure your seat now and enjoy a 15% discount using code \"TWIR\"\n* 📜 [Shopify Mobile Bridge: Making WebViews Feel Native](https://shopify.engineering/mobilebridge-native-webviews): As part of their transition to React Native, Shopify implemented a fast custom WebView solution that looks and feels native. Critical screens remain implemented using native technologies, but this Mobile Bridge powers many of their important but non-critical screens.\n* 📜 [Powering Native Apps with React Native Brownfield](https://www.callstack.com/blog/powering-native-apps-with-react-native-brownfield)\n* 📜 [React Native macOS - The best way to include custom fonts](https://shift.infinite.red/the-best-way-to-include-custom-fonts-in-react-native-for-macos-in-2025-4cb235e2d6f7)\n* 📜 [Migrating to React Native with Expo: A Path to Cross-Platform Success](https://expo.dev/blog/migrating-to-react-native-with-expo)\n* 📜 [Optimizing Mobile App Battery Usage & Crash Rate](https://blog.swmansion.com/optimizing-battery-usage-improving-crash-free-rate-in-a-react-native-app-9e80ba1f240a)\n* 📦 [React Native WebGPU Worklets](https://github.com/software-mansion-labs/react-native-webgpu-worklets): Run smooth WebGPU-backed animations (including Three.js) on any threads (UI/background), powered by Reanimated Worklets\n* 📦 [React Native AI 0.1](https://github.com/callstackincubator/ai): New Callstack project to let you run LLM models on-device, based on Vercel AI SDK.\n* 📦 [Expo-Release-It - Opinionated CLI for building, uploading, and submitting Expo CNG project on your machine](https://github.com/mym0404/expo-release-it): An interesting local alternative to EAS?\n* 🎥 [Simon Grimm - Epic React Native Snippets You Need to Know](https://www.youtube.com/watch?v=42RKqciqjV0)\n* 🎥 [Theo - React Native Is More Popular Than You Think](https://www.youtube.com/watch?v=GoDXfzpYGTc)\n* 🎙️ [React Native Radio 329 - State of React Native Survey Results are in! - RNR 329](https://infinite.red/react-native-radio/rnr-329-state-of-react-native-survey-results-are-in)\n* 🎙️ [Rocket Ship 66 - Expo 53 BETA, FlashList v2, RN Popularity, App Sales & OTA Alternative](https://share.transistor.fm/s/ba0f8a72)",
-      "sourceMdx": "- 💸 [Build a Modern Multi-User Chat App with React Native](https://go.clerk.com/Y0ne425)\n- 🐦 [RN 0.79 now has buit-in support for \"aliases\" (through Metro package.json `imports`)](https://x.com/satya164/status/1916095938604548366)\n- 📣 [Expo Changelog \\- New Build Comparison Tool, Expo Router Landing Page, and UX Improvements](https://expo.dev/changelog/website-updates-4-29-2025)\n- 🗓️ [App.js Conf](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 Kraków - 28-30 May. This is your final chance to join the biggest React Native & Expo event. Secure your seat now and enjoy a 15% discount using code \"TWIR\"\n- 📜 [Shopify Mobile Bridge: Making WebViews Feel Native](https://shopify.engineering/mobilebridge-native-webviews): As part of their transition to React Native, Shopify implemented a fast custom WebView solution that looks and feels native. Critical screens remain implemented using native technologies, but this Mobile Bridge powers many of their important but non-critical screens.\n- 📜 [Powering Native Apps with React Native Brownfield](https://www.callstack.com/blog/powering-native-apps-with-react-native-brownfield)\n- 📜 [React Native macOS \\- The best way to include custom fonts](https://shift.infinite.red/the-best-way-to-include-custom-fonts-in-react-native-for-macos-in-2025-4cb235e2d6f7)\n- 📜 [Migrating to React Native with Expo: A Path to Cross-Platform Success](https://expo.dev/blog/migrating-to-react-native-with-expo)\n- 📜 [Optimizing Mobile App Battery Usage & Crash Rate](https://blog.swmansion.com/optimizing-battery-usage-improving-crash-free-rate-in-a-react-native-app-9e80ba1f240a)\n- 📦 [React Native WebGPU Worklets](https://github.com/software-mansion-labs/react-native-webgpu-worklets): Run smooth WebGPU-backed animations (including Three.js) on any threads (UI/background), powered by Reanimated Worklets\n- 📦 [React Native AI 0.1](https://github.com/callstackincubator/ai): New Callstack project to let you run LLM models on-device, based on Vercel AI SDK.\n- 📦 [Expo-Release-It \\- Opinionated CLI for building, uploading, and submitting Expo CNG project on your machine](https://github.com/mym0404/expo-release-it): An interesting local alternative to EAS?\n- 🎥 [Simon Grimm \\- Epic React Native Snippets You Need to Know](https://www.youtube.com/watch?v=42RKqciqjV0)\n- 🎥 [Theo \\- React Native Is More Popular Than You Think](https://www.youtube.com/watch?v=GoDXfzpYGTc)\n- 🎙️ [React Native Radio 329 \\- State of React Native Survey Results are in\\! \\- RNR 329](https://infinite.red/react-native-radio/rnr-329-state-of-react-native-survey-results-are-in)\n- 🎙️ [Rocket Ship 66 \\- Expo 53 BETA, FlashList v2, RN Popularity, App Sales & OTA Alternative](https://share.transistor.fm/s/ba0f8a72)"
+      "sourceMdx": "- 💸 [Build a Modern Multi-User Chat App with React Native](https://go.clerk.com/Y0ne425)\n- 🐦 [RN 0.79 now has buit-in support for \"aliases\" (through Metro package.json `imports`)](https://x.com/satya164/status/1916095938604548366)\n- 📣 [Expo Changelog \\- New Build Comparison Tool, Expo Router Landing Page, and UX Improvements](https://expo.dev/changelog/website-updates-4-29-2025)\n- 🗓️ [App.js Conf](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 Kraków - 28-30 May. This is your final chance to join the biggest React Native & Expo event. Secure your seat now and enjoy a 15% discount using code \"TWIR\"\n- 📜 [Shopify Mobile Bridge: Making WebViews Feel Native](https://shopify.engineering/mobilebridge-native-webviews): As part of their transition to React Native, Shopify implemented a fast custom WebView solution that looks and feels native. Critical screens remain implemented using native technologies, but this Mobile Bridge powers many of their important but non-critical screens.\n- 📜 [Powering Native Apps with React Native Brownfield](https://www.callstack.com/blog/powering-native-apps-with-react-native-brownfield)\n- 📜 [React Native macOS \\- The best way to include custom fonts](https://shift.infinite.red/the-best-way-to-include-custom-fonts-in-react-native-for-macos-in-2025-4cb235e2d6f7)\n- 📜 [Migrating to React Native with Expo: A Path to Cross-Platform Success](https://expo.dev/blog/migrating-to-react-native-with-expo)\n- 📜 [Optimizing Mobile App Battery Usage & Crash Rate](https://blog.swmansion.com/optimizing-battery-usage-improving-crash-free-rate-in-a-react-native-app-9e80ba1f240a)\n- 📦 [React Native WebGPU Worklets](https://github.com/software-mansion-labs/react-native-webgpu-worklets): Run smooth WebGPU-backed animations (including Three.js) on any threads (UI/background), powered by Reanimated Worklets\n- 📦 [React Native AI 0.1](https://github.com/callstackincubator/ai): New Callstack project to let you run LLM models on-device, based on Vercel AI SDK.\n- 📦 [Expo-Release-It \\- Opinionated CLI for building, uploading, and submitting Expo CNG project on your machine](https://github.com/mym0404/expo-release-it): An interesting local alternative to EAS?\n- 🎥 [Simon Grimm \\- Epic React Native Snippets You Need to Know](https://www.youtube.com/watch?v=42RKqciqjV0)\n- 🎥 [Theo \\- React Native Is More Popular Than You Think](https://www.youtube.com/watch?v=GoDXfzpYGTc)\n- 🎙️ [React Native Radio 329 \\- State of React Native Survey Results are in\\! \\- RNR 329](https://infinite.red/react-native-radio/rnr-329-state-of-react-native-survey-results-are-in)\n- 🎙️ [Rocket Ship 66 \\- Expo 53 BETA, FlashList v2, RN Popularity, App Sales & OTA Alternative](https://share.transistor.fm/s/ba0f8a72)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [使用React Native构建现代多用户聊天应用](https://go.clerk.com/Y0ne425)\n- 🐦 [RN 0.79现已通过Metro的package.json `imports`支持\"别名\"功能](https://x.com/satya164/status/1916095938604548366)\n- 📣 [Expo更新日志 - 新增构建对比工具、Expo Router落地页及UX改进](https://expo.dev/changelog/website-updates-4-29-2025)\n- 🗓️ [App.js Conf](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 克拉科夫 - 5月28-30日。参与最大规模React Native & Expo活动的最后机会，使用代码\"TWIR\"可享15%折扣\n- 📜 [Shopify移动端桥梁：让WebView具备原生体验](https://shopify.engineering/mobilebridge-native-webviews)：在向React Native迁移过程中，Shopify实现了高性能定制WebView方案。关键页面仍采用原生技术，而该移动桥梁支撑了大量重要非核心页面。\n- 📜 [React Native棕地开发赋能原生应用](https://www.callstack.com/blog/powering-native-apps-with-react-native-brownfield)\n- 📜 [React Native macOS - 2025年最佳自定义字体引入方案](https://shift.infinite.red/the-best-way-to-include-custom-fonts-in-react-native-for-macos-in-2025-4cb235e2d6f7)\n- 📜 [通过Expo迁移到React Native：跨平台成功之路](https://expo.dev/blog/migrating-to-react-native-with-expo)\n- 📜 [优化移动应用耗电量与崩溃率](https://blog.swmansion.com/optimizing-battery-usage-improving-crash-free-rate-in-a-react-native-app-9e80ba1f240a)\n- 📦 [React Native WebGPU工作线程](https://github.com/software-mansion-labs/react-native-webgpu-worklets)：基于Reanimated工作线程，可在任意线程（UI/后台）运行流畅的WebGPU动画（包括Three.js）\n- 📦 [React Native AI 0.1](https://github.com/callstackincubator/ai)：Callstack新项目，基于Vercel AI SDK实现设备端LLM模型运行\n- 📦 [Expo-Release-It - 用于本地构建、上传和提交Expo CNG项目的CLI工具](https://github.com/mym0404/expo-release-it)：EAS的本地替代方案？\n- 🎥 [Simon Grimm - 必知的React Native代码片段](https://www.youtube.com/watch?v=42RKqciqjV0)\n- 🎥 [Theo - React Native比你想象的更流行](https://www.youtube.com/watch?v=GoDXfzpYGTc)\n- 🎙️ [React Native Radio 329 - React Native现状调查结果公布](https://infinite.red/react-native-radio/rnr-329-state-of-react-native-survey-results-are-in)\n- 🎙️ [Rocket Ship 66 - Expo 53 BETA、FlashList v2、RN流行度、应用销售与OTA替代方案](https://share.transistor.fm/s/ba0f8a72)"
     },
     {
       "id": "f414353c",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "f947c8e4",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他 {#other}"
     },
     {
       "id": "38417f80",
       "translatable": true,
       "content": "* 📣 [Node.js 18 reaches End-of-Life today](https://nodejs.org/en/about/previous-releases): This Node.js version will no longer receive security updates, and it’s recommended to upgrade to v20 or v22.\n* 👀 [Asynchronous Svelte](https://github.com/sveltejs/svelte/discussions/15845): Svelte has a new async experimental mode, and this doc explains how it works. The “Forks” section reminds a bit of Concurrent React, transitions, and its upcoming `<Activity>` component.\n* 👀 [Firefox enabling View Transitions in Firefox 139 Nightly builds](https://www.mozilla.org/en-US/firefox/140.0a1/releasenotes/#note-790833): A positive signal from the only remaining browser to not have this feature. Good timing for React and its upcoming `<ViewTransition>` component?\n* 📜 [Giving V8 a Heads-Up: Faster JavaScript Startup with Explicit Compile Hints](https://v8.dev/blog/explicit-compile-hints): A new feature coming with Chrome 136 allows faster web page loading by annotating your files/functions with magic comments to tell V8 to compile the JS code eagerly, showing promising results on experiments. Maybe it will be useful to speed up React hydration or even Node.js programs?\n* 📜 [Categorize Your Dependencies](https://antfu.me/posts/categorize-deps): Using pnpm catalogs.\n* 📜 [How Node.js Works Behind the Scenes](https://www.deepintodev.com/blog/how-nodejs-works-behind-the-scenes)\n* 📜 [A Decade of SolidJS](https://dev.to/this-is-learning/a-decade-of-solidjs-32f4)",
-      "sourceMdx": "- 📣 [Node.js 18 reaches End-of-Life today](https://nodejs.org/en/about/previous-releases): This Node.js version will no longer receive security updates, and it’s recommended to upgrade to v20 or v22.\n- 👀 [Asynchronous Svelte](https://github.com/sveltejs/svelte/discussions/15845): Svelte has a new async experimental mode, and this doc explains how it works. The “Forks” section reminds a bit of Concurrent React, transitions, and its upcoming `<Activity>` component.\n- 👀 [Firefox enabling View Transitions in Firefox 139 Nightly builds](https://www.mozilla.org/en-US/firefox/140.0a1/releasenotes/#note-790833): A positive signal from the only remaining browser to not have this feature. Good timing for React and its upcoming `<ViewTransition>` component?\n- 📜 [Giving V8 a Heads-Up: Faster JavaScript Startup with Explicit Compile Hints](https://v8.dev/blog/explicit-compile-hints): A new feature coming with Chrome 136 allows faster web page loading by annotating your files/functions with magic comments to tell V8 to compile the JS code eagerly, showing promising results on experiments. Maybe it will be useful to speed up React hydration or even Node.js programs?\n- 📜 [Categorize Your Dependencies](https://antfu.me/posts/categorize-deps): Using pnpm catalogs.\n- 📜 [How Node.js Works Behind the Scenes](https://www.deepintodev.com/blog/how-nodejs-works-behind-the-scenes)\n- 📜 [A Decade of SolidJS](https://dev.to/this-is-learning/a-decade-of-solidjs-32f4)"
+      "sourceMdx": "- 📣 [Node.js 18 reaches End-of-Life today](https://nodejs.org/en/about/previous-releases): This Node.js version will no longer receive security updates, and it’s recommended to upgrade to v20 or v22.\n- 👀 [Asynchronous Svelte](https://github.com/sveltejs/svelte/discussions/15845): Svelte has a new async experimental mode, and this doc explains how it works. The “Forks” section reminds a bit of Concurrent React, transitions, and its upcoming `<Activity>` component.\n- 👀 [Firefox enabling View Transitions in Firefox 139 Nightly builds](https://www.mozilla.org/en-US/firefox/140.0a1/releasenotes/#note-790833): A positive signal from the only remaining browser to not have this feature. Good timing for React and its upcoming `<ViewTransition>` component?\n- 📜 [Giving V8 a Heads-Up: Faster JavaScript Startup with Explicit Compile Hints](https://v8.dev/blog/explicit-compile-hints): A new feature coming with Chrome 136 allows faster web page loading by annotating your files/functions with magic comments to tell V8 to compile the JS code eagerly, showing promising results on experiments. Maybe it will be useful to speed up React hydration or even Node.js programs?\n- 📜 [Categorize Your Dependencies](https://antfu.me/posts/categorize-deps): Using pnpm catalogs.\n- 📜 [How Node.js Works Behind the Scenes](https://www.deepintodev.com/blog/how-nodejs-works-behind-the-scenes)\n- 📜 [A Decade of SolidJS](https://dev.to/this-is-learning/a-decade-of-solidjs-32f4)",
+      "nodeType": "list",
+      "translated_content": "- 📣 [Node.js 18今日终止支持](https://nodejs.org/en/about/previous-releases)：该版本将不再获得安全更新，建议升级至v20或v22。\n- 👀 [异步Svelte](https://github.com/sveltejs/svelte/discussions/15845)：Svelte新增实验性异步模式，该文档阐释其工作原理。\"Forks\"章节的设计理念与并发式React、过渡效果及其即将推出的`<Activity>`组件有相似之处。\n- 👀 [Firefox 139 Nightly版本启用视图过渡动画](https://www.mozilla.org/en-US/firefox/140.0a1/releasenotes/#note-790833)：这个尚未支持该特性的主流浏览器释放出积极信号。对React即将推出的`<ViewTransition>`组件而言是否恰逢其时？\n- 📜 [给V8打预防针：通过显式编译提示加速JavaScript启动](https://v8.dev/blog/explicit-compile-hints)：Chrome 136将引入的新特性允许通过魔法注释标注文件/函数，指示V8提前编译JS代码以加速网页加载，实验显示显著效果。或许该技术能用于加速React水合过程乃至Node.js程序？\n- 📜 [依赖项分类管理](https://antfu.me/posts/categorize-deps)：使用pnpm目录结构。\n- 📜 [Node.js幕后工作原理](https://www.deepintodev.com/blog/how-nodejs-works-behind-the-scenes)\n- 📜 [SolidJS的十年历程](https://dev.to/this-is-learning/a-decade-of-solidjs-32f4)"
     },
     {
       "id": "6ad15270",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "c7fa1e8d",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 趣味 {#fun}"
     },
     {
       "id": "a6c928a1",
       "translatable": true,
       "content": "[![alt](/emails/issues/232/meme0.jpg)](https://www.linkedin.com/posts/yangshun_react-vue-svelte-activity-7313404647040249856-uNQi/)",
-      "sourceMdx": "[![alt](/emails/issues/232/meme0.jpg)](https://www.linkedin.com/posts/yangshun_react-vue-svelte-activity-7313404647040249856-uNQi/)"
+      "sourceMdx": "[![alt](/emails/issues/232/meme0.jpg)](https://www.linkedin.com/posts/yangshun_react-vue-svelte-activity-7313404647040249856-uNQi/)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/232/meme0.jpg)](https://www.linkedin.com/posts/yangshun_react-vue-svelte-activity-7313404647040249856-uNQi/)"
     },
     {
       "id": "b6152880",
       "translatable": true,
       "content": "[![alt](/emails/issues/232/meme.jpg)](https://www.reddit.com/r/reactnative/comments/1jxoppk/is_this_you/)",
-      "sourceMdx": "[![alt](/emails/issues/232/meme.jpg)](https://www.reddit.com/r/reactnative/comments/1jxoppk/is_this_you/)"
+      "sourceMdx": "[![alt](/emails/issues/232/meme.jpg)](https://www.reddit.com/r/reactnative/comments/1jxoppk/is_this_you/)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/232/meme.jpg)](https://www.reddit.com/r/reactnative/comments/1jxoppk/is_this_you/)"
     },
     {
       "id": "b9331170",
       "translatable": true,
       "content": "[![alt](/emails/issues/232/meme2.jpg)](https://x.com/jarredsumner/status/1916535123568140571)",
-      "sourceMdx": "[![alt](/emails/issues/232/meme2.jpg)](https://x.com/jarredsumner/status/1916535123568140571)"
+      "sourceMdx": "[![alt](/emails/issues/232/meme2.jpg)](https://x.com/jarredsumner/status/1916535123568140571)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/232/meme2.jpg)](https://x.com/jarredsumner/status/1916535123568140571)"
     },
     {
       "id": "8fcdd6d4",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下期见！👋"
     }
   ]
 }

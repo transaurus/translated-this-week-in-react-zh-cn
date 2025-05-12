@@ -5,62 +5,62 @@ authors: [slorber]
 date: 07-19-2022
 ---
 
-本周React动态 #113：React源码解析、SOLID原则、Remix框架、Docusaurus、函数式编程、Remotion动画、Rapier物理引擎、Hermes引擎、Airbnb的React Native实践...
+本周React动态 #113: React源码解析、SOLID原则、Remix、Docusaurus、函数式编程、Remotion、Rapier、Hermes、Airbnb的React Native实践...
 
 <!-- truncate -->
 
 大家好！
 
-本简报现进入**夏季模式：每两周一期**。祝各位假期愉快 😎。
+本简报即日起进入**夏季模式：每两周一期**。祝各位假期愉快 😎。
 
-我们将很快发布**Docusaurus 2.0**正式版（[2.0-rc.1](https://twitter.com/docusaurus/status/1547616687117070338?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)已发布）。届时将为您发送特别版简报。借此机会向您详细介绍这个我与Facebook合作开发两年多的项目。Docusaurus 2.0虽非最知名的React框架，但即便处于测试阶段仍保持[**较高使用率**](https://twitter.com/sebastienlorber/status/1549083893822885888?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：使用量是Remix或Redwood的两倍，并逐步追赶Gatsby。期待您支持我们的**ProductHunt发布** 😄。
+我们将很快发布**Docusaurus 2.0**正式版（已发布[2.0-rc.1](https://twitter.com/docusaurus/status/1547616687117070338?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)）。届时我会发送特别版专题介绍。借此机会向大家详细展示这个我与Facebook团队持续开发两年多的项目。Docusaurus 2.0虽非最热门的React框架，但即使处于测试阶段仍保持[**高使用率**](https://twitter.com/sebastienlorber/status/1549083893822885888?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：用户量是Remix或Redwood的两倍，并逐步追赶Gatsby。期待各位支持我们的**ProductHunt发布** 😄。
 
-本周重点推荐[tRPC](https://github.com/trpc/trpc?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)用于远程调用（客户端/服务端或服务端间通信）。这是典型的端到端解决方案，比GraphQL更轻量易用。该库近期虽无特别活动，但得益于Theo的[create-t3-app](https://github.com/t3-oss/create-t3-app?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)框架，人气显著提升。
+本周重点推荐远程调用方案[tRPC](https://github.com/trpc/trpc?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)（支持客户端/服务端及服务端间通信）。作为典型的端到端解决方案，它比GraphQL更轻量敏捷。该库近期虽无重大更新，但得益于Theo的[create-t3-app](https://github.com/t3-oss/create-t3-app?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)框架推动，人气显著攀升。
 
 Docusaurus发布在即，敬请期待 👋。
 
-🙏 **支持本简报：**
+🙏 **支持简报：**
 
-- 😘 **推荐给朋友**：这真的很有帮助！
-- 💸 [**赞助本周React动态**](https://gist.github.com/slorber/cb732fb5d0a002c4d73236a9baeba7bb?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)
-- 😍 [**在Twitter撰写推荐语**](https://twitter.com/sebastienlorber/timelines/1448942785814466561?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)
-- 🧵 [**转发最新Twitter话题**](https://slo.im/thread?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)
-- 📨 回复本[**邮件**](mailto:lorber.sebastien@gmail.com?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)：欢迎反馈
-- 👥 关注[**LinkedIn主页**](https://www.linkedin.com/company/this-week-in-react/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
+- 😘 **推荐给朋友**：这真的很有帮助！
+- 💸 [**赞助本周React动态**](https://gist.github.com/slorber/cb732fb5d0a002c4d73236a9baeba7bb?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)
+- 😍 [**在Twitter撰写推荐语**](https://twitter.com/sebastienlorber/timelines/1448942785814466561?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)
+- 🧵 [**转发最新Twitter主题**](https://slo.im/thread?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)
+- 📨 回复本封[**邮件**](mailto:lorber.sebastien@gmail.com?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)：欢迎反馈
+- 👥 关注[**领英账号**](https://www.linkedin.com/company/this-week-in-react/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 
 ---
 
 ## React核心
 
-[**React源码研读**](https://alexkondov.com/readint-source-code-react/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
+[**源码解读：React**](https://alexkondov.com/readint-source-code-react/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 
-Alex通过React应用挂载的切入点，解析并注释了React源码多个模块。其中关于原型链使用、JSX处理，以及（通用）协调器与DOM渲染器交互的细节尤为精彩。
+Alex通过React应用挂载的切入点，逐层剖析React源码并注解。揭示了原型链运用、JSX转换机制，以及（平台无关的）协调器与DOM渲染器交互等技术细节。
 
-[**React Hooks是否是个错误的设计？**](https://medium.com/codex/can-we-all-just-admit-react-hooks-were-a-bad-idea-c48120c5188d?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
+[**我们能否承认React Hooks是个错误设计？**](https://medium.com/codex/can-we-all-just-admit-react-hooks-were-a-bad-idea-c48120c5188d?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 
-Amy认为React Hooks违背了SOLID架构原则。笔者虽不完全认同，但承认网络上多数示例过于简化，未能体现良好架构实践。
+Amy认为React Hooks违背了SOLID架构原则。笔者虽不完全认同，但承认网络上的示例多为简化版，未必体现最佳实践。
 
-[**SOLID原则在React中的实践**](https://konstantinlebedev.com/solid-in-react/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
+[**在React中实践SOLID原则**](https://konstantinlebedev.com/solid-in-react/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 
-几乎是对上文观点的直接回应，尽管这里对SOLID原则的应用讨论更为全面（涵盖组件和钩子）。注：不妨考虑使用React上下文实现依赖注入。
+几乎是对上文观点的直接回应，尽管此处对SOLID原则的应用讨论更为全面（涵盖组件和钩子）。注：不妨大胆使用React上下文实现依赖注入。
 
 **扩展阅读：**
 
-- 📜 [避免使用匿名组件，善用displayName](https://julesblom.com/writing/component-displayname?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：有时React无法为组件推断合适的名称，这会增加开发工具的使用难度（Context、memo、forwardRef、高阶组件等场景）
-- 📜 [为何Remix不是React框架而是全栈Web框架](https://andre-landgraf.dev/blog/2022-07-16_why_remix_is_not_a_react_framework_but_a_full_stack_web_framework/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：清晰阐述Remix与其他框架的差异。Remix是全栈且框架无关的解决方案。
-- 📜 [函数式编程终于成为主流](https://github.com/readme/featured/functional-programming?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：GitHub指出函数式编程的普及，React、Redux和hooks功不可没。译者注：我本人在读完David Nolen那篇著名文章后从Scala转投React阵营——2014年前我甚至不喜欢JS😅
-- 📜 [Docusaurus为何是强大的文档框架](https://blog.1password.com/docusaurus-documentation-framework/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：1Password团队解析选择Docusaurus构建开发者文档门户的原因，涉及站点定制、通过remark插件扩展MDX/Markdown等高级话题
-- 📜 [使用Remix会话机制在Cookie中存储数据](https://jonmeyers.io/blog/store-data-in-a-cookie-with-sessions-and-remix?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：实现访问计数器Cookie
-- 📖 [Remix Deferred新特性](https://github.com/remix-run/remix/blob/deferred/docs/guides/streaming.md?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter#using-deferred)：开发中的API，可精细控制首屏加载时的数据加载权衡，优化首字节时间(TTFB)或累积布局偏移(CLS)
-- 📖 [Next.js无障碍文档改进](https://twitter.com/nextjs/status/1549043787330375680?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
-- 🐦 [Preact新VDOM状态模型](https://twitter.com/_developit/status/1549001036802625536?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
-- 🐦 [Remix+React 18的startTransition与时间切片水合](https://twitter.com/ryanflorence/status/1547959632663961602?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：Ryan Florence分享争议性技巧，引发关于水合机制的深度讨论（参见[Ryan Carniato](https://twitter.com/RyanCarniato/status/1549100194708353024?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)和[Andrew Clark](https://twitter.com/acdlite/status/1549109283387744256?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)的对话）
-- 📦 [pmndrs/react-three-rapier](https://github.com/pmndrs/react-three-rapier?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：将react-three-fiber与Rapier物理引擎集成
-- 📦 [Remotion 3.1发布](https://www.remotion.dev/blog/3-1?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：支持GIF生成、Tailwind CSS、带持续时间的弹簧动画、OffthreadVideo等多项新特性
-- 📦 [Remix 1.6.5更新](https://github.com/remix-run/remix/releases/tag/remix%401.6.5?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：loader与useLoaderData的TypeScript类型推断优化👌
-- 📦 [Framer Motion 6.5](https://twitter.com/mattgperry/status/1547581579974696961?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：新增滚动动画功能
-- 📦 [Zustand 4.0.0-rc.2](https://twitter.com/dai_shi/status/1548685973558800384?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：已具备生产环境使用条件
-- 📦 [Redwood 2.1发布](https://github.com/redwoodjs/redwood/releases/tag/v2.1.0?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
+- 📜 [避免使用匿名组件，推荐使用displayName](https://julesblom.com/writing/component-displayname?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：有时React无法为组件推断合适的名称，这会增加开发工具（Context、memo、forwardRef、HOC）的使用难度
+- 📜 [为什么Remix不是React框架而是全栈Web框架](https://andre-landgraf.dev/blog/2022-07-16_why_remix_is_not_a_react_framework_but_a_full_stack_web_framework/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：清晰对比Remix与其他框架的差异。Remix是全栈且框架无关的解决方案。
+- 📜 [函数式编程终于成为主流](https://github.com/readme/featured/functional-programming?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：GitHub指出函数式编程的普及，部分归功于React、Redux和Hooks。译者自述因David Nolen的著名文章从Scala转投React，2014年前甚至不喜欢JS😅
+- 📜 [Docusaurus为何是强大的文档框架](https://blog.1password.com/docusaurus-documentation-framework/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：1Password解释选择Docusaurus构建开发者文档门户的原因，涵盖站点定制、扩展MDX/Markdown的remark插件等高级主题
+- 📜 [使用Sessions和Remix在Cookie中存储数据](https://jonmeyers.io/blog/store-data-in-a-cookie-with-sessions-and-remix?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：创建访问计数器Cookie的实践
+- 📖 [Remix Deferred新特性](https://github.com/remix-run/remix/blob/deferred/docs/guides/streaming.md?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter#using-deferred)：开发中的API，可精细控制首屏加载时的数据加载权衡，优化首字节时间(TTFB)或累积布局偏移(CLS)
+- 📖 [Next.js无障碍文档改进](https://twitter.com/nextjs/status/1549043787330375680?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
+- 🐦 [Preact新版VDOM状态模型](https://twitter.com/_developit/status/1549001036802625536?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
+- 🐦 [Remix+React 18的startTransition与时间切片水合](https://twitter.com/ryanflorence/status/1547959632663961602?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：Ryan Florence分享争议性技巧，引发关于水合机制的深度讨论（[Ryan Carniato](https://twitter.com/RyanCarniato/status/1549100194708353024?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)、[Andrew Clark](https://twitter.com/acdlite/status/1549109283387744256?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)等参与）
+- 📦 [pmndrs/react-three-rapier](https://github.com/pmndrs/react-three-rapier?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：将react-three-fiber与Rapier物理引擎集成
+- 📦 [Remotion 3.1发布](https://www.remotion.dev/blog/3-1?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：支持GIF生成、Tailwind CSS、带持续时间的弹簧动画、OffthreadVideo等多项新特性
+- 📦 [Remix 1.6.5更新](https://github.com/remix-run/remix/releases/tag/remix%401.6.5?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：loader与useLoaderData的TypeScript类型推断优化👌
+- 📦 [Framer Motion 6.5](https://twitter.com/mattgperry/status/1547581579974696961?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：新增滚动动画功能
+- 📦 [Zustand 4.0.0-rc.2](https://twitter.com/dai_shi/status/1548685973558800384?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：已具备生产环境使用条件
+- 📦 [Redwood 2.1发布](https://github.com/redwoodjs/redwood/releases/tag/v2.1.0?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 
 ---
 
@@ -70,11 +70,11 @@ Amy认为React Hooks违背了SOLID架构原则。笔者虽不完全认同，但�
 
 [**Storetasker：Shopify自由开发者网络**](https://www.storetasker.com/become-an-expert?utm_campaign=thisweekinreact&utm_medium=thisweekinreact&utm_source=thisweekinreact)
 
-大家好！我是Storetasker的Tim。我们运营着最优秀的Shopify自由开发者网络。如果你喜欢构建Shopify站点，或对利用Shopify**前沿的React框架**构建定制化商店前端感兴趣：[**Hydrogen**](https://hydrogen.shopify.dev/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)，欢迎申请加入我们。
+大家好！我是Storetasker的Tim。我们运营着最优秀的Shopify自由开发者网络。如果您喜欢构建Shopify站点，或对利用Shopify**前沿的React框架**构建定制化店面感兴趣：[**Hydrogen**](https://hydrogen.shopify.dev/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)，欢迎申请加入。
 
-获准加入网络的开发者将以自由职业者身份工作，我们将为他们提供与顶尖Shopify品牌合作的机会（如Alo Yoga、Chubbies、JUDY等众多品牌）。
+获准加入网络的开发者将以自由职业者身份工作，我们将为其提供与顶级Shopify品牌合作的机会（如Alo Yoga、Chubbies、JUDY等众多品牌）。
 
-Storetasker的独特之处在于开发者之间无需竞争——他们只需选择符合自己兴趣的任务。除此之外，这里还是一个非常紧密的社区。
+Storetasker的独特之处在于开发者之间无需竞争——只需选择符合兴趣的任务即可。此外，这里还是一个非常紧密的社区。
 
 欢迎直接通过此[链接](https://www.storetasker.com/become-an-expert?utm_campaign=thisweekinreact&utm_medium=thisweekinreact&utm_source=thisweekinreact)申请加入。
 
@@ -82,7 +82,7 @@ Storetasker的独特之处在于开发者之间无需竞争——他们只需选
 
 [**CSS周刊**](https://cssw.io/this-week-in-react?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 
-通过订阅获取最前沿的CSS趋势文章和教程，直接送达您的邮箱。已有超过30,000名开发者加入，立即注册吧。
+通过订阅获取最新CSS趋势文章和教程，直接送达您的收件箱。已有超过30,000名开发者加入，立即注册吧。
 
 ---
 
@@ -90,18 +90,18 @@ Storetasker的独特之处在于开发者之间无需竞争——他们只需选
 
 [**Hermes成为默认引擎**](https://reactnative.dev/blog/2022/07/08/hermes-as-the-default?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 
-Hermes JS引擎是JSC/V8的替代方案，通过预编译为字节码可加速应用启动。随着React-Native 0.70（现已进入[发布候选阶段](https://github.com/facebook/react-native/releases/tag/v0.70.0-rc.0?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)），Hermes将默认启用。Michael分享了开源应用Mattermost的多项基准测试。Hermes的发布模式已调整以避免ABI兼容性问题。iOS平台缺失的Intl API已补充。即将支持BigInt和WeakRef。
+Hermes JS引擎是JSC/V8的替代方案，通过预编译字节码可加速应用启动。随着React-Native 0.70（现已发布[候选版本](https://github.com/facebook/react-native/releases/tag/v0.70.0-rc.0?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)）的推出，Hermes已默认启用。Michael分享了开源应用Mattermost的多项基准测试。Hermes分发模式已调整以避免ABI兼容性问题。iOS平台新增了缺失的Intl API支持。即将支持BigInt和WeakRef。
 
-[**在Airbnb React Native时代的工作经历教会我关于web3的事**](https://medium.com/@devinabbott/what-working-at-airbnb-during-its-react-native-era-taught-me-about-web3-6d34d855d892?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
+[**在Airbnb React Native时代的工作经历如何教会我理解web3**](https://medium.com/@devinabbott/what-working-at-airbnb-during-its-react-native-era-taught-me-about-web3-6d34d855d892?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 
-Devin回顾了Airbnb使用React Native的历史及其最终决定逐步淘汰该技术的复杂过程。他将其与web3的发展做了有趣的类比：长期来看，技术潜力终将克服早期采用者的阵痛。
+Devin回顾了Airbnb使用React-Native的历史及其最终放弃的复杂决策过程，并与web3的发展进行了有趣类比。长期来看，技术潜力终将超越早期采用者的阵痛。
 
 **其他资讯：**
 
-- 📜 [Ionic - 宣布推出 React Native 版 Portals](https://ionicframework.com/blog/announcing-portals-for-react-native/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：允许在 React Native 应用中集成 WebView 的 Ionic 体验。付费产品。
-- 🎙️ [React-Native-Radio 第242期 - 深度解析 React Native 0.69](https://reactnativeradio.com/episodes/rnr-242-inspecting-react-native-069?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
+- 📜 [Ionic - 宣布推出 React Native 版 Portals](https://ionicframework.com/blog/announcing-portals-for-react-native/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：允许在 React-Native 应用中集成 WebView Ionic 体验。付费产品。
+- 🎙️ [React-Native-Radio 第242期 - 深入解析 React Native 0.69](https://reactnativeradio.com/episodes/rnr-242-inspecting-react-native-069?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 - 🎙️ [The React Native Show 第14期 - React Native Paper v5](https://www.callstack.com/podcasts/react-native-paper-v-5-update-overview?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
-- 📦 [Vision Camera 2.14](https://twitter.com/mrousavy/status/1548953154993127426?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：现已支持帧处理器链式调用
+- 📦 [Vision Camera 2.14](https://twitter.com/mrousavy/status/1548953154993127426?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：现支持帧处理器链式调用
 - 📦 [expo vscode 0.8](https://twitter.com/cedricvanputten/status/1549051333595971585?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：JSON 配置自动补全功能 👍
 - 📦 [expo-music-picker](https://github.com/barthap/expo-music-picker?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 - 📦 [react-native-iconic](https://github.com/nandorojo/react-native-iconic?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
@@ -114,12 +114,12 @@ Devin回顾了Airbnb使用React Native的历史及其最终决定逐步淘汰该
 
 [**Vite 3 发布**](https://vitejs.dev/blog/announcing-vite3.html?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 
-Vite 迅速成为前端生态的标杆工具。如今，它是 Create-React-App 的优质替代方案，具备更快的开发体验，并被多个 React 元框架采用（如 Storybook、Hydrogen 等）。v3 版本带来大量变更：全新文档、多框架启动模板（含 React）、全局导入改进等。另可关注十月举办的 [ViteConf](https://viteconf.org/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter) 大会。
+Vite 迅速成为前端生态的标杆工具。如今，它是 Create-React-App 的优质替代方案，提供更快的开发体验，并被多个 React 元框架采用（如 Storybook、Hydrogen 等）。v3 版本带来大量变更：全新文档、多框架启动模板（含 React）、全局导入优化等。另可关注十月举办的 [ViteConf](https://viteconf.org/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter) 大会。
 
 **扩展阅读：**
 
 - [UI框架中一致性的代价](https://dev.to/this-is-learning/the-cost-of-consistency-in-ui-frameworks-4agi?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
-- [Node.js 18.6 - 自定义ESM加载器：何人、何事、何时、何地、为何及如何](https://dev.to/jakobjingleheimer/custom-esm-loaders-who-what-when-where-why-how-4i1o?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
+- [Node.js 18.6 - 自定义ESM加载器：何人、何事、何时、何地、为何及如何实现](https://dev.to/jakobjingleheimer/custom-esm-loaders-who-what-when-where-why-how-4i1o?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 - [Jamstack新范式：分段渲染](https://www.smashingmagazine.com/2022/07/new-pattern-jamstack-segmented-rendering/?ref=sidebar&utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 - [事件驱动的JavaScript开发](https://whistlr.info/2022/event-driven-js/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
 - [Chrome开发者内参：CSS与UI特辑](https://developer.chrome.com/blog/insider-july-2022/?linkId=8100396&utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)

@@ -1,509 +1,677 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/122/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/122/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /122\ntitle: \"This Week In React #122: Next.js 13, Turbopack, Remixing Shopify, React-Three-Fiber Journey, Gatsby Valhalla, Expo 47, Rive, Storybook, Asta...\"\nauthors: [slorber]\ndate: 11-01-2022\n---",
-      "sourceMdx": "---\nslug: /122\ntitle: \"This Week In React #122: Next.js 13, Turbopack, Remixing Shopify, React-Three-Fiber Journey, Gatsby Valhalla, Expo 47, Rive, Storybook, Asta...\"\nauthors: [slorber]\ndate: 11-01-2022\n---"
+      "sourceMdx": "---\nslug: /122\ntitle: \"This Week In React #122: Next.js 13, Turbopack, Remixing Shopify, React-Three-Fiber Journey, Gatsby Valhalla, Expo 47, Rive, Storybook, Asta...\"\nauthors: [slorber]\ndate: 11-01-2022\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "What a great week full of twists and turns!",
-      "sourceMdx": "What a great week full of twists and turns!"
+      "sourceMdx": "What a great week full of twists and turns!",
+      "nodeType": "paragraph",
+      "translated_content": "这真是充满转折的精彩一周！"
     },
     {
       "id": "143e51c1",
       "translatable": true,
       "content": "* Next.js 13 gives us access to the latest React innovations\n* Turbopack could succeed Webpack\n* Shopify acquires Remix\n* Gatsby will release its v5 and make its data-layer agnostic\n* Expo's SDK 47 is really promising",
-      "sourceMdx": "- Next.js 13 gives us access to the latest React innovations\n- Turbopack could succeed Webpack\n- Shopify acquires Remix\n- Gatsby will release its v5 and make its data-layer agnostic\n- Expo's SDK 47 is really promising"
+      "sourceMdx": "- Next.js 13 gives us access to the latest React innovations\n- Turbopack could succeed Webpack\n- Shopify acquires Remix\n- Gatsby will release its v5 and make its data-layer agnostic\n- Expo's SDK 47 is really promising",
+      "nodeType": "list",
+      "translated_content": "- Next.js 13让我们得以体验React最新创新成果\n- Turbopack可能成为Webpack的继任者\n- Shopify收购了Remix\n- Gatsby即将发布v5版本并使其数据层框架无关\n- Expo的SDK 47极具潜力"
     },
     {
       "id": "39b3772c",
       "translatable": true,
       "content": "Also, don't miss the big update to the Three.js Journey course with React-Three-Fiber modules. I got promo code [\"TWIR\"](https://threejs-journey.com/join/TWIR) for the launch. This will be the first course to be featured on a future \"deals\" page I'll create later.",
-      "sourceMdx": "Also, don't miss the big update to the Three.js Journey course with React-Three-Fiber modules. I got promo code [\"TWIR\"](https://threejs-journey.com/join/TWIR) for the launch. This will be the first course to be featured on a future \"deals\" page I'll create later."
+      "sourceMdx": "Also, don't miss the big update to the Three.js Journey course with React-Three-Fiber modules. I got promo code [\"TWIR\"](https://threejs-journey.com/join/TWIR) for the launch. This will be the first course to be featured on a future \"deals\" page I'll create later.",
+      "nodeType": "paragraph",
+      "translated_content": "另外别错过Three.js Journey课程的重大更新，新增了React-Three-Fiber模块。我获得了专属优惠码[\"TWIR\"](https://threejs-journey.com/join/TWIR)。这将成为未来我创建的\"优惠\"页面首个推荐课程。"
     },
     {
       "id": "1acb9a05",
       "translatable": true,
       "content": "I'm testing a new format! This took much more time than usual 😅. I would really appreciate a [retweet](https://slo.im/thread), testimonial or referral to a friend if you want to support me doing this again 🙏 The bigger the newsletter, the more opportunity I have to improve it.",
-      "sourceMdx": "I'm testing a new format! This took much more time than usual 😅. I would really appreciate a [retweet](https://slo.im/thread), testimonial or referral to a friend if you want to support me doing this again 🙏 The bigger the newsletter, the more opportunity I have to improve it."
+      "sourceMdx": "I'm testing a new format! This took much more time than usual 😅. I would really appreciate a [retweet](https://slo.im/thread), testimonial or referral to a friend if you want to support me doing this again 🙏 The bigger the newsletter, the more opportunity I have to improve it.",
+      "nodeType": "paragraph",
+      "translated_content": "我正在测试新格式！这次花费的时间远超平常😅。如果您愿意支持我继续这项工作，[转发推文](https://slo.im/thread)、撰写推荐或分享给朋友都将对我帮助巨大🙏 订阅规模越大，我就有更多机会优化内容质量。"
     },
     {
       "id": "ea978e4d",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_ea978e4d"
     },
     {
       "id": "98cfbd53",
       "translatable": true,
       "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
-      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "nodeType": "paragraph",
+      "translated_content": "**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化格式 🎨**"
     },
     {
       "id": "caf67047",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "cd6b8019",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_cd6b8019"
     },
     {
       "id": "599822a5",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_599822a5"
     },
     {
       "id": "2b88bb9d",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "a1b3d8cb",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "517051a7",
       "translatable": true,
       "content": "[![Sizzy - the browser for developers](/emails/issues/220/sizzy.jpg)](https://sizzy.co/?utm_campaign=newsletter\\&utm_source=thisweekinreact)",
-      "sourceMdx": "[![Sizzy - the browser for developers](/emails/issues/220/sizzy.jpg)](https://sizzy.co/?utm_campaign=newsletter&utm_source=thisweekinreact)"
+      "sourceMdx": "[![Sizzy - the browser for developers](/emails/issues/220/sizzy.jpg)](https://sizzy.co/?utm_campaign=newsletter&utm_source=thisweekinreact)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Sizzy - 开发者专属浏览器](/emails/issues/220/sizzy.jpg)](https://sizzy.co/?utm_campaign=newsletter&utm_source=thisweekinreact)"
     },
     {
       "id": "135468ee",
       "translatable": true,
       "content": "How come professionals in every other industry have specialized tools, but web developers are still stuck using the browser that their grandma is using for shopping on Amazon?",
-      "sourceMdx": "How come professionals in every other industry have specialized tools, but web developers are still stuck using the browser that their grandma is using for shopping on Amazon?"
+      "sourceMdx": "How come professionals in every other industry have specialized tools, but web developers are still stuck using the browser that their grandma is using for shopping on Amazon?",
+      "nodeType": "paragraph",
+      "translated_content": "为何其他行业的专业人士都有专用工具，而网页开发者还在使用祖母网购的浏览器？"
     },
     {
       "id": "33331f27",
       "translatable": true,
       "content": "If you're opening localhost:3000 in any other browser except Sizzy, you're wasting hours of your precious time.",
-      "sourceMdx": "If you're opening localhost:3000 in any other browser except Sizzy, you're wasting hours of your precious time."
+      "sourceMdx": "If you're opening localhost:3000 in any other browser except Sizzy, you're wasting hours of your precious time.",
+      "nodeType": "paragraph",
+      "translated_content": "如果你在非Sizzy浏览器中打开localhost:3000，就是在浪费宝贵时间。"
     },
     {
       "id": "50746522",
       "translatable": true,
       "content": "**Before Sizzy:** web development is stressing you out, responsive design is hard, you have an overwhelming amount of opened tabs and apps.",
-      "sourceMdx": "**Before Sizzy:** web development is stressing you out, responsive design is hard, you have an overwhelming amount of opened tabs and apps."
+      "sourceMdx": "**Before Sizzy:** web development is stressing you out, responsive design is hard, you have an overwhelming amount of opened tabs and apps.",
+      "nodeType": "paragraph",
+      "translated_content": "**使用Sizzy前：** 网页开发令人焦虑，响应式设计困难重重，标签页和应用窗口泛滥成灾。"
     },
     {
       "id": "95e9ba12",
       "translatable": true,
       "content": "**After Sizzy:** all the tools you need are in one place, responsive design is a breeze, no more context switching.",
-      "sourceMdx": "**After Sizzy:** all the tools you need are in one place, responsive design is a breeze, no more context switching."
+      "sourceMdx": "**After Sizzy:** all the tools you need are in one place, responsive design is a breeze, no more context switching.",
+      "nodeType": "paragraph",
+      "translated_content": "**使用Sizzy后：** 所有工具集成一处，响应式设计轻松搞定，无需频繁切换环境。"
     },
     {
       "id": "8af76f3d",
       "translatable": true,
       "content": "You can [download it here](https://sizzy.co/?utm_campaign=newsletter\\&utm_source=thisweekinreact) and try it for free for 14 days!",
-      "sourceMdx": "You can [download it here](https://sizzy.co/?utm_campaign=newsletter&utm_source=thisweekinreact) and try it for free for 14 days!"
+      "sourceMdx": "You can [download it here](https://sizzy.co/?utm_campaign=newsletter&utm_source=thisweekinreact) and try it for free for 14 days!",
+      "nodeType": "paragraph",
+      "translated_content": "立即[下载体验](https://sizzy.co/?utm_campaign=newsletter&utm_source=thisweekinreact)，享受14天免费试用！"
     },
     {
       "id": "406f2538",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "6d28a77c",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React动态 {#react}"
     },
     {
       "id": "f7ef78f9",
       "translatable": true,
       "content": "[![Next.js 13 keynote slide](/emails/issues/122/nextjs13.jpg)](https://nextjs.org/blog/next-13)",
-      "sourceMdx": "[![Next.js 13 keynote slide](/emails/issues/122/nextjs13.jpg)](https://nextjs.org/blog/next-13)"
+      "sourceMdx": "[![Next.js 13 keynote slide](/emails/issues/122/nextjs13.jpg)](https://nextjs.org/blog/next-13)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Next.js 13主题演讲幻灯片](/emails/issues/122/nextjs13.jpg)](https://nextjs.org/blog/next-13)"
     },
     {
       "id": "b36c6338",
       "translatable": true,
       "content": "**[Next.js 13 - Dynamic Without Limits](https://nextjs.org/blog/next-13)**",
-      "sourceMdx": "**[Next.js 13 - Dynamic Without Limits](https://nextjs.org/blog/next-13)**"
+      "sourceMdx": "**[Next.js 13 - Dynamic Without Limits](https://nextjs.org/blog/next-13)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Next.js 13 - 无限动态能力](https://nextjs.org/blog/next-13)**"
     },
     {
       "id": "b9aaa519",
       "translatable": true,
       "content": "This new version of Next.js introduces the new routing system and nested layouts in beta. The migration is incremental and optional: you will have to move your Next.js pages to a new `app/` folder. This enables the latest innovations, such as React Server Components and SSR streaming support on both Edge + Node.js runtimes.",
-      "sourceMdx": "This new version of Next.js introduces the new routing system and nested layouts in beta. The migration is incremental and optional: you will have to move your Next.js pages to a new `app/` folder. This enables the latest innovations, such as React Server Components and SSR streaming support on both Edge + Node.js runtimes."
+      "sourceMdx": "This new version of Next.js introduces the new routing system and nested layouts in beta. The migration is incremental and optional: you will have to move your Next.js pages to a new `app/` folder. This enables the latest innovations, such as React Server Components and SSR streaming support on both Edge + Node.js runtimes.",
+      "nodeType": "paragraph",
+      "translated_content": "新版Next.js以beta形式引入了全新路由系统和嵌套布局。迁移过程采用渐进式可选方案：需将页面移至新的`app/`目录。此举支持React服务端组件等最新创新，并实现在Edge和Node.js运行时的SSR流式渲染。"
     },
     {
       "id": "e536ea0d",
       "translatable": true,
       "content": "⚡️ Other significant improvements:",
-      "sourceMdx": "⚡️ Other significant improvements:"
+      "sourceMdx": "⚡️ Other significant improvements:",
+      "nodeType": "paragraph",
+      "translated_content": "⚡️ 其他重要改进："
     },
     {
       "id": "a0e887c2",
       "translatable": true,
       "content": "* Turbopack: a new Rust bundler in alpha (details below).\n* next/image: new lighter, flexible and faster image component, avoids shifting layouts\n* @next/font: self-host fonts efficiently and avoid layout shifts (see also [Fontaine](https://twitter.com/danielcroe/status/1586472544491950080) presented last week)",
-      "sourceMdx": "- Turbopack: a new Rust bundler in alpha (details below).\n- next/image: new lighter, flexible and faster image component, avoids shifting layouts\n- @next/font: self-host fonts efficiently and avoid layout shifts (see also [Fontaine](https://twitter.com/danielcroe/status/1586472544491950080) presented last week)"
+      "sourceMdx": "- Turbopack: a new Rust bundler in alpha (details below).\n- next/image: new lighter, flexible and faster image component, avoids shifting layouts\n- @next/font: self-host fonts efficiently and avoid layout shifts (see also [Fontaine](https://twitter.com/danielcroe/status/1586472544491950080) presented last week)",
+      "nodeType": "list",
+      "translated_content": "- Turbopack：基于Rust的新打包工具（alpha阶段，详见下文）\n- next/image：更轻量、灵活且快速的图片组件，避免布局偏移\n- @next/font：高效自托管字体并防止布局抖动（另见上周介绍的[Fontaine](https://twitter.com/danielcroe/status/1586472544491950080)）"
     },
     {
       "id": "79ad944d",
       "translatable": true,
       "content": "💬 Comments:",
-      "sourceMdx": "💬 Comments:"
+      "sourceMdx": "💬 Comments:",
+      "nodeType": "paragraph",
+      "translated_content": "💬 业界声音："
     },
     {
       "id": "2eb5ba30",
       "translatable": true,
       "content": "* [Dan Abramov](https://twitter.com/dan_abramov/status/1585076899126345728) is excited about this release which gives a concrete implementation to the target architecture React is aiming for\n* [Andrew Clark](https://twitter.com/acdlite/status/1585029529361612801) explains his controversial \"Next.js 13 is the real React 18 release\" line\n* [Matt Kane](https://twitter.com/ascorbic/status/1585004156615479296) thinks that React is too tied to Next.js\n* [Zach Leatherman](https://twitter.com/zachleat/status/1584995586918731776) mentions that Next.js 13's Hello World still sends way too much JavaScript",
-      "sourceMdx": "- [Dan Abramov](https://twitter.com/dan_abramov/status/1585076899126345728) is excited about this release which gives a concrete implementation to the target architecture React is aiming for\n- [Andrew Clark](https://twitter.com/acdlite/status/1585029529361612801) explains his controversial \"Next.js 13 is the real React 18 release\" line\n- [Matt Kane](https://twitter.com/ascorbic/status/1585004156615479296) thinks that React is too tied to Next.js\n- [Zach Leatherman](https://twitter.com/zachleat/status/1584995586918731776) mentions that Next.js 13's Hello World still sends way too much JavaScript"
+      "sourceMdx": "- [Dan Abramov](https://twitter.com/dan_abramov/status/1585076899126345728) is excited about this release which gives a concrete implementation to the target architecture React is aiming for\n- [Andrew Clark](https://twitter.com/acdlite/status/1585029529361612801) explains his controversial \"Next.js 13 is the real React 18 release\" line\n- [Matt Kane](https://twitter.com/ascorbic/status/1585004156615479296) thinks that React is too tied to Next.js\n- [Zach Leatherman](https://twitter.com/zachleat/status/1584995586918731776) mentions that Next.js 13's Hello World still sends way too much JavaScript",
+      "nodeType": "list",
+      "translated_content": "- [Dan Abramov](https://twitter.com/dan_abramov/status/1585076899126345728) 对本次发布表示兴奋，认为其实现了React的目标架构\n- [Andrew Clark](https://twitter.com/acdlite/status/1585029529361612801) 解释其争议性观点\"Next.js 13才是真正的React 18发布\"\n- [Matt Kane](https://twitter.com/ascorbic/status/1585004156615479296) 认为React与Next.js绑定过深\n- [Zach Leatherman](https://twitter.com/zachleat/status/1584995586918731776) 指出Next.js 13的Hello World示例仍包含过多JavaScript代码"
     },
     {
       "id": "e7772088",
       "translatable": true,
       "content": "🔗 Useful links:",
-      "sourceMdx": "🔗 Useful links:"
+      "sourceMdx": "🔗 Useful links:",
+      "nodeType": "paragraph",
+      "translated_content": "🔗 实用链接："
     },
     {
       "id": "69c1f590",
       "translatable": true,
       "content": "* 🎥 [Keynote Next.js Conf](https://www.youtube.com/watch?v=NiknNI_0J48)\n* 🎥 [Fireship - Next.js 13... this changes everything](https://www.youtube.com/watch?v=_w0Ikk4JY7U)\n* 🧵 [Next.js Upgrade Guide - Visual thread](https://twitter.com/shadcn/status/1584971527820541953)",
-      "sourceMdx": "- 🎥 [Keynote Next.js Conf](https://www.youtube.com/watch?v=NiknNI_0J48)\n- 🎥 [Fireship - Next.js 13... this changes everything](https://www.youtube.com/watch?v=_w0Ikk4JY7U)\n- 🧵 [Next.js Upgrade Guide - Visual thread](https://twitter.com/shadcn/status/1584971527820541953)"
+      "sourceMdx": "- 🎥 [Keynote Next.js Conf](https://www.youtube.com/watch?v=NiknNI_0J48)\n- 🎥 [Fireship - Next.js 13... this changes everything](https://www.youtube.com/watch?v=_w0Ikk4JY7U)\n- 🧵 [Next.js Upgrade Guide - Visual thread](https://twitter.com/shadcn/status/1584971527820541953)",
+      "nodeType": "list",
+      "translated_content": "- 🎥 [Next.js 主题演讲视频](https://www.youtube.com/watch?v=NiknNI_0J48)\n- 🎥 [Fireship - Next.js 13...这将改变一切](https://www.youtube.com/watch?v=_w0Ikk4JY7U)\n- 🧵 [Next.js升级指南 - 可视化线程](https://twitter.com/shadcn/status/1584971527820541953)"
     },
     {
       "id": "63e1d83c",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "e8e162a9",
       "translatable": true,
       "content": "[![Turbopack keynote slide](/emails/issues/122/turbopack.jpg)](https://vercel.com/blog/turbopack)",
-      "sourceMdx": "[![Turbopack keynote slide](/emails/issues/122/turbopack.jpg)](https://vercel.com/blog/turbopack)"
+      "sourceMdx": "[![Turbopack keynote slide](/emails/issues/122/turbopack.jpg)](https://vercel.com/blog/turbopack)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Turbopack主题演讲幻灯片](/emails/issues/122/turbopack.jpg)](https://vercel.com/blog/turbopack)"
     },
     {
       "id": "463ed165",
       "translatable": true,
       "content": "**[Introducing Turbopack: Rust-based successor to Webpack](https://vercel.com/blog/turbopack)**",
-      "sourceMdx": "**[Introducing Turbopack: Rust-based successor to Webpack](https://vercel.com/blog/turbopack)**"
+      "sourceMdx": "**[Introducing Turbopack: Rust-based successor to Webpack](https://vercel.com/blog/turbopack)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Turbopack发布：基于Rust的Webpack继任者](https://vercel.com/blog/turbopack)**"
     },
     {
       "id": "a5c5772a",
       "translatable": true,
       "content": "Vercel has hired Tobias Koppers (creator of Webpack), to work on Turbopack, a new very fast bundler in Rust. For now, the tool is in alpha, supports mainly Next.js, and its features are limited. Support for other frameworks (Svelte, Vue...) and features (Tailwind...) will be added later.",
-      "sourceMdx": "Vercel has hired Tobias Koppers (creator of Webpack), to work on Turbopack, a new very fast bundler in Rust. For now, the tool is in alpha, supports mainly Next.js, and its features are limited. Support for other frameworks (Svelte, Vue...) and features (Tailwind...) will be added later."
+      "sourceMdx": "Vercel has hired Tobias Koppers (creator of Webpack), to work on Turbopack, a new very fast bundler in Rust. For now, the tool is in alpha, supports mainly Next.js, and its features are limited. Support for other frameworks (Svelte, Vue...) and features (Tailwind...) will be added later.",
+      "nodeType": "paragraph",
+      "translated_content": "Vercel聘请了Webpack创始人Tobias Koppers开发基于Rust的超快打包工具Turbopack。目前该工具处于Alpha阶段，主要支持Next.js，功能尚有限。未来将逐步添加对其他框架（Svelte、Vue等）和功能（Tailwind等）的支持。"
     },
     {
       "id": "fbc2db85",
       "translatable": true,
       "content": "Turbopack is optimized for the developer experience, and Vercel announces that the tool is 700x faster than Webpack, and 20x faster than Vite. It is based on Turbo, a Rust memoization framework that is able to cache the result of each function independently. Vercel has also published an [article](https://turbo.build/blog/turbopack-benchmarks) with more detailed benchmarks.",
-      "sourceMdx": "Turbopack is optimized for the developer experience, and Vercel announces that the tool is 700x faster than Webpack, and 20x faster than Vite. It is based on Turbo, a Rust memoization framework that is able to cache the result of each function independently. Vercel has also published an [article](https://turbo.build/blog/turbopack-benchmarks) with more detailed benchmarks."
+      "sourceMdx": "Turbopack is optimized for the developer experience, and Vercel announces that the tool is 700x faster than Webpack, and 20x faster than Vite. It is based on Turbo, a Rust memoization framework that is able to cache the result of each function independently. Vercel has also published an [article](https://turbo.build/blog/turbopack-benchmarks) with more detailed benchmarks.",
+      "nodeType": "paragraph",
+      "translated_content": "Turbopack针对开发者体验进行了优化，Vercel宣称其速度比Webpack快700倍，比Vite快20倍。该工具基于Turbo框架（一个能独立缓存每个函数结果的Rust记忆化框架）。Vercel还发布了包含[详细基准测试](https://turbo.build/blog/turbopack-benchmarks)的文章。"
     },
     {
       "id": "8126f763",
       "translatable": true,
       "content": "💬 Comments:",
-      "sourceMdx": "💬 Comments:"
+      "sourceMdx": "💬 Comments:",
+      "nodeType": "paragraph",
+      "translated_content": "💬 业界评论："
     },
     {
       "id": "9e8f150c",
       "translatable": true,
       "content": "* [Jared Palmer](https://twitter.com/jaredpalmer/status/1584971637694222336) explains how caching works and that Turborepo/Turbopack could merge.\n* [Evan You](https://twitter.com/youyuxi/status/1585040261922820096) question the benchmarks, and created a [Is Turbopack really 10x Faster than Vite?](https://github.com/yyx990803/vite-vs-next-turbo-hmr/discussions/8) page. Vite does not use SWC by default, and the published benchmarks rely on the use of Babel. Vite could replace esbuild/Rollup with Turbopack.\n* [Sebastian McKenzie](https://twitter.com/sebmck/status/1584971938786861056) points out the relatively small performance gain on a cold start (x4), likely due to overhead in initializing the cache.\n* [Devon Govett](https://twitter.com/devongovett/status/1585035737971724288) mentions that the architecture is similar to Parcel.\n* [Amjad Masad](https://twitter.com/amasad/status/1585001646782033921) mentions that the React-Native Metro bundler has been using a similar caching system for a very long time.",
-      "sourceMdx": "- [Jared Palmer](https://twitter.com/jaredpalmer/status/1584971637694222336) explains how caching works and that Turborepo/Turbopack could merge.\n- [Evan You](https://twitter.com/youyuxi/status/1585040261922820096) question the benchmarks, and created a [Is Turbopack really 10x Faster than Vite?](https://github.com/yyx990803/vite-vs-next-turbo-hmr/discussions/8) page. Vite does not use SWC by default, and the published benchmarks rely on the use of Babel. Vite could replace esbuild/Rollup with Turbopack.\n- [Sebastian McKenzie](https://twitter.com/sebmck/status/1584971938786861056) points out the relatively small performance gain on a cold start (x4), likely due to overhead in initializing the cache.\n- [Devon Govett](https://twitter.com/devongovett/status/1585035737971724288) mentions that the architecture is similar to Parcel.\n- [Amjad Masad](https://twitter.com/amasad/status/1585001646782033921) mentions that the React-Native Metro bundler has been using a similar caching system for a very long time."
+      "sourceMdx": "- [Jared Palmer](https://twitter.com/jaredpalmer/status/1584971637694222336) explains how caching works and that Turborepo/Turbopack could merge.\n- [Evan You](https://twitter.com/youyuxi/status/1585040261922820096) question the benchmarks, and created a [Is Turbopack really 10x Faster than Vite?](https://github.com/yyx990803/vite-vs-next-turbo-hmr/discussions/8) page. Vite does not use SWC by default, and the published benchmarks rely on the use of Babel. Vite could replace esbuild/Rollup with Turbopack.\n- [Sebastian McKenzie](https://twitter.com/sebmck/status/1584971938786861056) points out the relatively small performance gain on a cold start (x4), likely due to overhead in initializing the cache.\n- [Devon Govett](https://twitter.com/devongovett/status/1585035737971724288) mentions that the architecture is similar to Parcel.\n- [Amjad Masad](https://twitter.com/amasad/status/1585001646782033921) mentions that the React-Native Metro bundler has been using a similar caching system for a very long time.",
+      "nodeType": "list",
+      "translated_content": "- [Jared Palmer](https://twitter.com/jaredpalmer/status/1584971637694222336) 解释缓存机制及Turborepo/Turbopack可能的合并\n- [尤雨溪](https://twitter.com/youyuxi/status/1585040261922820096) 质疑基准测试，创建了[《Turbopack真比Vite快10倍吗？》](https://github.com/yyx990803/vite-vs-next-turbo-hmr/discussions/8)讨论页。指出Vite默认不使用SWC，且基准测试基于Babel实现\n- [Sebastian McKenzie](https://twitter.com/sebmck/status/1584971938786861056) 指出冷启动性能提升有限（约4倍），可能因缓存初始化开销导致\n- [Devon Govett](https://twitter.com/devongovett/status/1585035737971724288) 提到其架构与Parcel相似\n- [Amjad Masad](https://twitter.com/amasad/status/1585001646782033921) 指出React-Native的Metro打包器长期使用类似缓存系统"
     },
     {
       "id": "b805e2c6",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "82e90254",
       "translatable": true,
       "content": "[![Remixing Shopify](/emails/issues/122/remixing.jpg)](https://shopify.engineering/remix-joins-shopify)",
-      "sourceMdx": "[![Remixing Shopify](/emails/issues/122/remixing.jpg)](https://shopify.engineering/remix-joins-shopify)"
+      "sourceMdx": "[![Remixing Shopify](/emails/issues/122/remixing.jpg)](https://shopify.engineering/remix-joins-shopify)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Shopify整合Remix](/emails/issues/122/remixing.jpg)](https://shopify.engineering/remix-joins-shopify)"
     },
     {
       "id": "2822251a",
       "translatable": true,
       "content": "**[Remix Joins Shopify to Push the Web Forward](https://shopify.engineering/remix-joins-shopify)**",
-      "sourceMdx": "**[Remix Joins Shopify to Push the Web Forward](https://shopify.engineering/remix-joins-shopify)**"
+      "sourceMdx": "**[Remix Joins Shopify to Push the Web Forward](https://shopify.engineering/remix-joins-shopify)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Remix加入Shopify共同推动Web发展](https://shopify.engineering/remix-joins-shopify)**"
     },
     {
       "id": "25212439",
       "translatable": true,
       "content": "Remix has just joined Shopify, and will be used in their Hydrogen e-commerce meta-framework as well as other projects. Hydrogen 2.0 will replace the use of React Server Components with Remix APIs! They found the Remix model easier to understand and more powerful than Server Components.",
-      "sourceMdx": "Remix has just joined Shopify, and will be used in their Hydrogen e-commerce meta-framework as well as other projects. Hydrogen 2.0 will replace the use of React Server Components with Remix APIs! They found the Remix model easier to understand and more powerful than Server Components."
+      "sourceMdx": "Remix has just joined Shopify, and will be used in their Hydrogen e-commerce meta-framework as well as other projects. Hydrogen 2.0 will replace the use of React Server Components with Remix APIs! They found the Remix model easier to understand and more powerful than Server Components.",
+      "nodeType": "paragraph",
+      "translated_content": "Remix被Shopify收购后，将用于其Hydrogen电商元框架等项目。Hydrogen 2.0将用Remix API替代React服务端组件！Shopify认为Remix模型比服务端组件更易理解且功能更强大。"
     },
     {
       "id": "d79a4831",
       "translatable": true,
       "content": "To me, this is a great acquisition. Shopify can focus on Hydrogen's value proposition rather than infrastructure concerns, and benefits from Remix's progressive enhancement, especially important for e-commerce. Not to mention that Remix is decoupled from React, and Shopify is working on a [Hydrogen UI](https://github.com/Shopify/hydrogen-ui) agnostic library: Shopify should be able to reach developers from various frameworks (Vue, Svelte...), without having to impose React, while relying on a shared infrastructure.",
-      "sourceMdx": "To me, this is a great acquisition. Shopify can focus on Hydrogen's value proposition rather than infrastructure concerns, and benefits from Remix's progressive enhancement, especially important for e-commerce. Not to mention that Remix is decoupled from React, and Shopify is working on a [Hydrogen UI](https://github.com/Shopify/hydrogen-ui) agnostic library: Shopify should be able to reach developers from various frameworks (Vue, Svelte...), without having to impose React, while relying on a shared infrastructure."
+      "sourceMdx": "To me, this is a great acquisition. Shopify can focus on Hydrogen's value proposition rather than infrastructure concerns, and benefits from Remix's progressive enhancement, especially important for e-commerce. Not to mention that Remix is decoupled from React, and Shopify is working on a [Hydrogen UI](https://github.com/Shopify/hydrogen-ui) agnostic library: Shopify should be able to reach developers from various frameworks (Vue, Svelte...), without having to impose React, while relying on a shared infrastructure.",
+      "nodeType": "paragraph",
+      "translated_content": "此次收购意义重大：Shopify可专注于Hydrogen的核心价值主张而非基础设施，并受益于Remix的渐进增强特性（对电商至关重要）。值得注意的是，Remix与React解耦，Shopify正在开发框架无关的[Hydrogen UI](https://github.com/Shopify/hydrogen-ui)库——既能覆盖Vue/Svelte等框架开发者，又无需强推React技术栈。"
     },
     {
       "id": "2838eb68",
       "translatable": true,
       "content": "💬 Comments:",
-      "sourceMdx": "💬 Comments:"
+      "sourceMdx": "💬 Comments:",
+      "nodeType": "paragraph",
+      "translated_content": "💬 业界评论："
     },
     {
       "id": "f6db2c30",
       "translatable": true,
       "content": "* [Josh Larson](https://twitter.com/jplhomer/status/1587095536833859584) worked on Hydrogen v1, lists challenges encountered, and doesn't question the benefits of React Server Components which are better implemented in Next.js 13 than Hydrogen v1.\n* [Ryan Florence](https://twitter.com/ryanflorence/status/1587171069915385856) mentions that Shopify is not against Server Components, and that they will probably be re-introduced in Remix later.\n* [Ryan Florence](https://twitter.com/ryanflorence/status/1587090973594558464) explains how this acquisition will allow them to fully focus on Remix.\n* [Guillermo Rauch](https://twitter.com/rauchg/status/1587104330053664768) says that a frontend should rather be decoupled from a headless backends. [Anthony Frehner](https://twitter.com/frehner_a/status/1587107928099651586) replies that Next.js support should be coming to Hydrogen UI.",
-      "sourceMdx": "- [Josh Larson](https://twitter.com/jplhomer/status/1587095536833859584) worked on Hydrogen v1, lists challenges encountered, and doesn't question the benefits of React Server Components which are better implemented in Next.js 13 than Hydrogen v1.\n- [Ryan Florence](https://twitter.com/ryanflorence/status/1587171069915385856) mentions that Shopify is not against Server Components, and that they will probably be re-introduced in Remix later.\n- [Ryan Florence](https://twitter.com/ryanflorence/status/1587090973594558464) explains how this acquisition will allow them to fully focus on Remix.\n- [Guillermo Rauch](https://twitter.com/rauchg/status/1587104330053664768) says that a frontend should rather be decoupled from a headless backends. [Anthony Frehner](https://twitter.com/frehner_a/status/1587107928099651586) replies that Next.js support should be coming to Hydrogen UI."
+      "sourceMdx": "- [Josh Larson](https://twitter.com/jplhomer/status/1587095536833859584) worked on Hydrogen v1, lists challenges encountered, and doesn't question the benefits of React Server Components which are better implemented in Next.js 13 than Hydrogen v1.\n- [Ryan Florence](https://twitter.com/ryanflorence/status/1587171069915385856) mentions that Shopify is not against Server Components, and that they will probably be re-introduced in Remix later.\n- [Ryan Florence](https://twitter.com/ryanflorence/status/1587090973594558464) explains how this acquisition will allow them to fully focus on Remix.\n- [Guillermo Rauch](https://twitter.com/rauchg/status/1587104330053664768) says that a frontend should rather be decoupled from a headless backends. [Anthony Frehner](https://twitter.com/frehner_a/status/1587107928099651586) replies that Next.js support should be coming to Hydrogen UI.",
+      "nodeType": "list",
+      "translated_content": "- [Josh Larson](https://twitter.com/jplhomer/status/1587095536833859584) 曾参与 Hydrogen v1 开发，列举了遇到的挑战，但并未质疑 React Server Components 的优势——这些特性在 Next.js 13 中的实现优于 Hydrogen v1。\n- [Ryan Florence](https://twitter.com/ryanflorence/status/1587171069915385856) 提到 Shopify 并不反对 Server Components，未来可能会在 Remix 中重新引入。\n- [Ryan Florence](https://twitter.com/ryanflorence/status/1587090973594558464) 解释此次收购将使他们能全力投入 Remix 开发。\n- [Guillermo Rauch](https://twitter.com/rauchg/status/1587104330053664768) 认为前端应该与无头后端解耦。[Anthony Frehner](https://twitter.com/frehner_a/status/1587107928099651586) 回复称 Next.js 支持即将登陆 Hydrogen UI。"
     },
     {
       "id": "0801d969",
       "translatable": true,
       "content": "🔗 Useful links:",
-      "sourceMdx": "🔗 Useful links:"
+      "sourceMdx": "🔗 Useful links:",
+      "nodeType": "paragraph",
+      "translated_content": "🔗 实用链接："
     },
     {
       "id": "1b8037f4",
       "translatable": true,
       "content": "* 📜 [The Hydrogen Roadmap](https://hydrogen.shopify.dev/roadmap/) has been updated with many more technical details.\n* 📜 [Remixing Shopify](https://remix.run/blog/remixing-shopify): the Remix team announcement, which will remain an independent open-source React framework decoupled from e-commerce uses.\n* 🎥 [Fireship - When your JavaScript framework gets acquired](https://www.youtube.com/watch?v=HleppfVh8jc)",
-      "sourceMdx": "- 📜 [The Hydrogen Roadmap](https://hydrogen.shopify.dev/roadmap/) has been updated with many more technical details.\n- 📜 [Remixing Shopify](https://remix.run/blog/remixing-shopify): the Remix team announcement, which will remain an independent open-source React framework decoupled from e-commerce uses.\n- 🎥 [Fireship - When your JavaScript framework gets acquired](https://www.youtube.com/watch?v=HleppfVh8jc)"
+      "sourceMdx": "- 📜 [The Hydrogen Roadmap](https://hydrogen.shopify.dev/roadmap/) has been updated with many more technical details.\n- 📜 [Remixing Shopify](https://remix.run/blog/remixing-shopify): the Remix team announcement, which will remain an independent open-source React framework decoupled from e-commerce uses.\n- 🎥 [Fireship - When your JavaScript framework gets acquired](https://www.youtube.com/watch?v=HleppfVh8jc)",
+      "nodeType": "list",
+      "translated_content": "- 📜 [Hydrogen 技术路线图](https://hydrogen.shopify.dev/roadmap/) 已更新更多技术细节\n- 📜 [Shopify 重塑 Remix](https://remix.run/blog/remixing-shopify)：Remix 团队声明将保持作为独立开源 React 框架，与电商场景解耦\n- 🎥 [Fireship - 当你的 JavaScript 框架被收购时](https://www.youtube.com/watch?v=HleppfVh8jc)"
     },
     {
       "id": "55ba2007",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "396efb28",
       "translatable": true,
       "content": "[![Three.js Journey is going React](/emails/issues/122/r3f.jpg)](https://twitter.com/bruno_simon/status/1585222892769497089)",
-      "sourceMdx": "[![Three.js Journey is going React](/emails/issues/122/r3f.jpg)](https://twitter.com/bruno_simon/status/1585222892769497089)"
+      "sourceMdx": "[![Three.js Journey is going React](/emails/issues/122/r3f.jpg)](https://twitter.com/bruno_simon/status/1585222892769497089)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Three.js 课程进军 React 领域](/emails/issues/122/r3f.jpg)](https://twitter.com/bruno_simon/status/1585222892769497089)"
     },
     {
       "id": "558df877",
       "translatable": true,
       "content": "**[Three.js Journey is going React](https://twitter.com/bruno_simon/status/1585222892769497089)**",
-      "sourceMdx": "**[Three.js Journey is going React](https://twitter.com/bruno_simon/status/1585222892769497089)**"
+      "sourceMdx": "**[Three.js Journey is going React](https://twitter.com/bruno_simon/status/1585222892769497089)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Three.js 课程进军 React 领域](https://twitter.com/bruno_simon/status/1585222892769497089)**"
     },
     {
       "id": "f38d1cb0",
       "translatable": true,
       "content": "Three.js Journey is the reference course to learn how to create 3D scenes on the web with Three.js. Bruno Simon has just released 24 hours of additional videos based on [React-Three-Fiber](https://github.com/pmndrs/react-three-fiber) which brings a declarative model to Three.js. 3D is coming to our applications: it's a good time to get into it if you want to know how to do something other than forms and business applications. I'm also [doing this course](https://github.com/slorber/react-three-fiber-journey) and I don't regret it at all!",
-      "sourceMdx": "Three.js Journey is the reference course to learn how to create 3D scenes on the web with Three.js. Bruno Simon has just released 24 hours of additional videos based on [React-Three-Fiber](https://github.com/pmndrs/react-three-fiber) which brings a declarative model to Three.js. 3D is coming to our applications: it's a good time to get into it if you want to know how to do something other than forms and business applications. I'm also [doing this course](https://github.com/slorber/react-three-fiber-journey) and I don't regret it at all!"
+      "sourceMdx": "Three.js Journey is the reference course to learn how to create 3D scenes on the web with Three.js. Bruno Simon has just released 24 hours of additional videos based on [React-Three-Fiber](https://github.com/pmndrs/react-three-fiber) which brings a declarative model to Three.js. 3D is coming to our applications: it's a good time to get into it if you want to know how to do something other than forms and business applications. I'm also [doing this course](https://github.com/slorber/react-three-fiber-journey) and I don't regret it at all!",
+      "nodeType": "paragraph",
+      "translated_content": "Three.js Journey 是学习使用 Three.js 创建网页 3D 场景的权威课程。Bruno Simon 最新发布了 24 小时基于 [React-Three-Fiber](https://github.com/pmndrs/react-three-fiber) 的附加视频教程，该库为 Three.js 带来了声明式编程模型。3D 技术正在进入我们的应用领域：如果你想突破表单和业务应用的局限，现在正是学习的好时机。我也在[学习这门课程](https://github.com/slorber/react-three-fiber-journey)，收获远超预期！"
     },
     {
       "id": "5f82a1e9",
       "translatable": true,
       "content": "Bruno is offering us a promo code [\"TWIR\"](https://threejs-journey.com/join/TWIR) of -30% (or $66) for the next 10 days. This is not sponsored: I find this course really cool, and the update makes it even more relevant for a React dev.",
-      "sourceMdx": "Bruno is offering us a promo code [\"TWIR\"](https://threejs-journey.com/join/TWIR) of -30% (or $66) for the next 10 days. This is not sponsored: I find this course really cool, and the update makes it even more relevant for a React dev."
+      "sourceMdx": "Bruno is offering us a promo code [\"TWIR\"](https://threejs-journey.com/join/TWIR) of -30% (or $66) for the next 10 days. This is not sponsored: I find this course really cool, and the update makes it even more relevant for a React dev.",
+      "nodeType": "paragraph",
+      "translated_content": "Bruno 提供了限时 10 天的 [\"TWIR\"](https://threejs-journey.com/join/TWIR) 专属优惠码，可享 30% 折扣（立减 66 美元）。这不是赞助内容：我认为这门课程非常出色，此次更新使其对 React 开发者更具价值。"
     },
     {
       "id": "6fc234cf",
       "translatable": true,
       "content": "I plan to create a deals page soon with other interesting courses (on which I won't earn anything). Don't hesitate to tell me which courses interest you the most so that I can contact their authors!",
-      "sourceMdx": "I plan to create a deals page soon with other interesting courses (on which I won't earn anything). Don't hesitate to tell me which courses interest you the most so that I can contact their authors!"
+      "sourceMdx": "I plan to create a deals page soon with other interesting courses (on which I won't earn anything). Don't hesitate to tell me which courses interest you the most so that I can contact their authors!",
+      "nodeType": "paragraph",
+      "translated_content": "我计划很快创建优惠页面收录其他优质课程（不参与分成）。欢迎告诉我你最感兴趣的课程，方便我联系相关作者！"
     },
     {
       "id": "714b728f",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "cd2fd2f2",
       "translatable": true,
       "content": "* 🤔 [React core - Add fetch Instrumentation to Dedupe Fetches](https://github.com/facebook/react/pull/25516): monkey-patching `fetch` is [controversial](https://github.com/facebook/react/issues/25573).\n* 💬 [RFC - TypeScript + React - Allow anything to be rendered by function components](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/62876)\n* 📜 [Full Stack Components](https://www.epicweb.dev/full-stack-components): Kent C. Dodds explains that Remix allows to create truly full-stack components, which encapsulate frontend and backend code in the same file. Remix's full-stack patterns are not limited to routing but can also be used on micro-interactions via the `useFetcher` hook: like button, autocomplete...\n* 📜 [Optimization techniques for Rive animations in React apps](https://pixelpoint.io/blog/rive-react-optimizations/): Rive is a more efficient animation library than Lottie. Alex explains how to optimize the loading of Rive animations in a Gatsby or Next.js app: self-hosting of the WASM runtime, Webpack loader, preloading, lazy-loading... Good techniques to know that can be used in other contexts.\n* 📜 [Deploy Next.js 13 on Netlify Today](https://www.netlify.com/blog/deploy-nextjs-13/): Netlify brings support for the latest Next.js 13 innovations.\n* 📜 [Code coverage with Storybook test runner](https://storybook.js.org/blog/code-coverage-with-the-storybook-test-runner/): summarizes well the test features of Storybook. It is now possible to generate a coverage report thanks to the [Istanbul](https://istanbul.js.org/) instrumentation. The reporting format is configurable.\n* 📜 [The Gatsby Slice API: High Precision Incremental Builds](https://www.gatsbyjs.com/blog/gatsby-slice-api/): explains how the new Gatsby 5 API works to improve build performance when a layout component (header, footer) is updated.\n* 📜 [Seeding the Query Cache](https://tkdodo.eu/blog/seeding-the-query-cache): describes a possible waterfall problem with React-Query when using Suspense. Suggests using `prefetchQuery` before component mount to optimize loading as much as possible. Gives an idea of how React-Query intends to integrate with the latest React innovations.\n* 📜 [How to Build a Blog with Fresh](https://deno.com/blog/build-a-blog-with-fresh): Fresh is the Preact framework based on Deno\n* 📦 [Gatsby 5](https://twitter.com/GatsbyJS/status/1587136776828772353): the new version should be released today! The [Gatsby Valhalla Content Hub](https://twitter.com/GatsbyJS/status/1587489648397410320) should make it possible to use the GraphQL data-layer of Gatsby in other frameworks!\n* 📦 [Docusaurus 2.2](https://twitter.com/docusaurus/status/1586347397667495936): support of Mermaid diagrams\n* 📦 [Asta](https://github.com/yisar/asta): new resumable SSR framework, inspired by Qwik and Marko, with a React-like syntax. To be continued!\n* 📦 [TanStack Query 4.14](https://twitter.com/TkDodo/status/1587411685517697028): new ESLint plugin\n* 📦 [Remix Forms 1.0](https://twitter.com/danielweinmann/status/1587465389990084609)\n* 📦 [Downshift 7.0](https://github.com/downshift-js/downshift/releases/tag/v7.0.0)",
-      "sourceMdx": "- 🤔 [React core - Add fetch Instrumentation to Dedupe Fetches](https://github.com/facebook/react/pull/25516): monkey-patching `fetch` is [controversial](https://github.com/facebook/react/issues/25573).\n- 💬 [RFC - TypeScript + React - Allow anything to be rendered by function components](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/62876)\n- 📜 [Full Stack Components](https://www.epicweb.dev/full-stack-components): Kent C. Dodds explains that Remix allows to create truly full-stack components, which encapsulate frontend and backend code in the same file. Remix's full-stack patterns are not limited to routing but can also be used on micro-interactions via the `useFetcher` hook: like button, autocomplete...\n- 📜 [Optimization techniques for Rive animations in React apps](https://pixelpoint.io/blog/rive-react-optimizations/): Rive is a more efficient animation library than Lottie. Alex explains how to optimize the loading of Rive animations in a Gatsby or Next.js app: self-hosting of the WASM runtime, Webpack loader, preloading, lazy-loading... Good techniques to know that can be used in other contexts.\n- 📜 [Deploy Next.js 13 on Netlify Today](https://www.netlify.com/blog/deploy-nextjs-13/): Netlify brings support for the latest Next.js 13 innovations.\n- 📜 [Code coverage with Storybook test runner](https://storybook.js.org/blog/code-coverage-with-the-storybook-test-runner/): summarizes well the test features of Storybook. It is now possible to generate a coverage report thanks to the [Istanbul](https://istanbul.js.org/) instrumentation. The reporting format is configurable.\n- 📜 [The Gatsby Slice API: High Precision Incremental Builds](https://www.gatsbyjs.com/blog/gatsby-slice-api/): explains how the new Gatsby 5 API works to improve build performance when a layout component (header, footer) is updated.\n- 📜 [Seeding the Query Cache](https://tkdodo.eu/blog/seeding-the-query-cache): describes a possible waterfall problem with React-Query when using Suspense. Suggests using `prefetchQuery` before component mount to optimize loading as much as possible. Gives an idea of how React-Query intends to integrate with the latest React innovations.\n- 📜 [How to Build a Blog with Fresh](https://deno.com/blog/build-a-blog-with-fresh): Fresh is the Preact framework based on Deno\n- 📦 [Gatsby 5](https://twitter.com/GatsbyJS/status/1587136776828772353): the new version should be released today! The [Gatsby Valhalla Content Hub](https://twitter.com/GatsbyJS/status/1587489648397410320) should make it possible to use the GraphQL data-layer of Gatsby in other frameworks!\n- 📦 [Docusaurus 2.2](https://twitter.com/docusaurus/status/1586347397667495936): support of Mermaid diagrams\n- 📦 [Asta](https://github.com/yisar/asta): new resumable SSR framework, inspired by Qwik and Marko, with a React-like syntax. To be continued!\n- 📦 [TanStack Query 4.14](https://twitter.com/TkDodo/status/1587411685517697028): new ESLint plugin\n- 📦 [Remix Forms 1.0](https://twitter.com/danielweinmann/status/1587465389990084609)\n- 📦 [Downshift 7.0](https://github.com/downshift-js/downshift/releases/tag/v7.0.0)"
+      "sourceMdx": "- 🤔 [React core - Add fetch Instrumentation to Dedupe Fetches](https://github.com/facebook/react/pull/25516): monkey-patching `fetch` is [controversial](https://github.com/facebook/react/issues/25573).\n- 💬 [RFC - TypeScript + React - Allow anything to be rendered by function components](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/62876)\n- 📜 [Full Stack Components](https://www.epicweb.dev/full-stack-components): Kent C. Dodds explains that Remix allows to create truly full-stack components, which encapsulate frontend and backend code in the same file. Remix's full-stack patterns are not limited to routing but can also be used on micro-interactions via the `useFetcher` hook: like button, autocomplete...\n- 📜 [Optimization techniques for Rive animations in React apps](https://pixelpoint.io/blog/rive-react-optimizations/): Rive is a more efficient animation library than Lottie. Alex explains how to optimize the loading of Rive animations in a Gatsby or Next.js app: self-hosting of the WASM runtime, Webpack loader, preloading, lazy-loading... Good techniques to know that can be used in other contexts.\n- 📜 [Deploy Next.js 13 on Netlify Today](https://www.netlify.com/blog/deploy-nextjs-13/): Netlify brings support for the latest Next.js 13 innovations.\n- 📜 [Code coverage with Storybook test runner](https://storybook.js.org/blog/code-coverage-with-the-storybook-test-runner/): summarizes well the test features of Storybook. It is now possible to generate a coverage report thanks to the [Istanbul](https://istanbul.js.org/) instrumentation. The reporting format is configurable.\n- 📜 [The Gatsby Slice API: High Precision Incremental Builds](https://www.gatsbyjs.com/blog/gatsby-slice-api/): explains how the new Gatsby 5 API works to improve build performance when a layout component (header, footer) is updated.\n- 📜 [Seeding the Query Cache](https://tkdodo.eu/blog/seeding-the-query-cache): describes a possible waterfall problem with React-Query when using Suspense. Suggests using `prefetchQuery` before component mount to optimize loading as much as possible. Gives an idea of how React-Query intends to integrate with the latest React innovations.\n- 📜 [How to Build a Blog with Fresh](https://deno.com/blog/build-a-blog-with-fresh): Fresh is the Preact framework based on Deno\n- 📦 [Gatsby 5](https://twitter.com/GatsbyJS/status/1587136776828772353): the new version should be released today! The [Gatsby Valhalla Content Hub](https://twitter.com/GatsbyJS/status/1587489648397410320) should make it possible to use the GraphQL data-layer of Gatsby in other frameworks!\n- 📦 [Docusaurus 2.2](https://twitter.com/docusaurus/status/1586347397667495936): support of Mermaid diagrams\n- 📦 [Asta](https://github.com/yisar/asta): new resumable SSR framework, inspired by Qwik and Marko, with a React-like syntax. To be continued!\n- 📦 [TanStack Query 4.14](https://twitter.com/TkDodo/status/1587411685517697028): new ESLint plugin\n- 📦 [Remix Forms 1.0](https://twitter.com/danielweinmann/status/1587465389990084609)\n- 📦 [Downshift 7.0](https://github.com/downshift-js/downshift/releases/tag/v7.0.0)",
+      "nodeType": "list",
+      "translated_content": "- 🤔 [React 核心 - 为重复请求添加 fetch 工具](https://github.com/facebook/react/pull/25516)：对 `fetch` 进行猴子补丁存在[争议](https://github.com/facebook/react/issues/25573)。\n- 💬 [RFC - TypeScript + React - 允许函数组件渲染任意内容](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/62876)\n- 📜 [全栈组件](https://www.epicweb.dev/full-stack-components)：Kent C. Dodds 解释 Remix 如何实现真正的全栈组件，将前端和后端代码封装在同一文件中。Remix 的全栈模式不仅限于路由，还能通过 `useFetcher` 钩子应用于微交互场景：如点赞按钮、自动补全等。\n- 📜 [React 应用中 Rive 动画的优化技巧](https://pixelpoint.io/blog/rive-react-optimizations/)：Rive 是比 Lottie 更高效的动画库。Alex 详细介绍了在 Gatsby 或 Next.js 应用中优化 Rive 动画加载的方法：自托管 WASM 运行时、Webpack 加载器、预加载、懒加载... 这些通用技巧也适用于其他场景。\n- 📜 [立即在 Netlify 上部署 Next.js 13](https://www.netlify.com/blog/deploy-nextjs-13/)：Netlify 现已支持 Next.js 13 的最新特性。\n- 📜 [使用 Storybook 测试运行器实现代码覆盖率](https://storybook.js.org/blog/code-coverage-with-the-storybook-test-runner/)：全面总结了 Storybook 的测试功能。现在通过 [Istanbul](https://istanbul.js.org/) 工具可以生成覆盖率报告，且报告格式可配置。\n- 📜 [Gatsby Slice API：高精度增量构建](https://www.gatsbyjs.com/blog/gatsby-slice-api/)：解析 Gatsby 5 新 API 如何优化布局组件（如页眉、页脚）更新时的构建性能。\n- 📜 [预填充查询缓存](https://tkdodo.eu/blog/seeding-the-query-cache)：分析了 React-Query 结合 Suspense 使用时可能出现的瀑布流问题。建议在组件挂载前使用 `prefetchQuery` 最大化加载优化，并展望了 React-Query 与最新 React 特性的整合方向。\n- 📜 [使用 Fresh 构建博客](https://deno.com/blog/build-a-blog-with-fresh)：Fresh 是基于 Deno 的 Preact 框架\n- 📦 [Gatsby 5](https://twitter.com/GatsbyJS/status/1587136776828772353)：新版本今日发布！[Gatsby Valhalla 内容中心](https://twitter.com/GatsbyJS/status/1587489648397410320)将支持在其他框架中使用 Gatsby 的 GraphQL 数据层！\n- 📦 [Docusaurus 2.2](https://twitter.com/docusaurus/status/1586347397667495936)：新增 Mermaid 图表支持\n- 📦 [Asta](https://github.com/yisar/asta)：新型可恢复 SSR 框架，受 Qwik 和 Marko 启发，采用类 React 语法。值得关注！\n- 📦 [TanStack Query 4.14](https://twitter.com/TkDodo/status/1587411685517697028)：新增 ESLint 插件\n- 📦 [Remix Forms 1.0](https://twitter.com/danielweinmann/status/1587465389990084609)\n- 📦 [Downshift 7.0](https://github.com/downshift-js/downshift/releases/tag/v7.0.0)"
     },
     {
       "id": "20843b28",
       "translatable": false,
       "content": "<SubscribeFormEmbed />",
-      "sourceMdx": "<SubscribeFormEmbed />"
+      "sourceMdx": "<SubscribeFormEmbed />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_20843b28"
     },
     {
       "id": "0bed0da6",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "6ab1b234",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助 {#sponsor2}"
     },
     {
       "id": "42d9ca67",
       "translatable": true,
       "content": "[![Sunsama - How 1000s of software engineers stay productive without burning out](/emails/issues/121/sunsama.jpg)](https://www.sunsama.com/a/this-week-in-react)",
-      "sourceMdx": "[![Sunsama - How 1000s of software engineers stay productive without burning out](/emails/issues/121/sunsama.jpg)](https://www.sunsama.com/a/this-week-in-react)"
+      "sourceMdx": "[![Sunsama - How 1000s of software engineers stay productive without burning out](/emails/issues/121/sunsama.jpg)](https://www.sunsama.com/a/this-week-in-react)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Sunsama - 数千名软件工程师保持高效且避免倦怠的秘诀](/emails/issues/121/sunsama.jpg)](https://www.sunsama.com/a/this-week-in-react)"
     },
     {
       "id": "619c3209",
       "translatable": true,
       "content": "**[How 1000s of software engineers stay productive without burning out](https://www.sunsama.com/a/this-week-in-react)**",
-      "sourceMdx": "**[How 1000s of software engineers stay productive without burning out](https://www.sunsama.com/a/this-week-in-react)**"
+      "sourceMdx": "**[How 1000s of software engineers stay productive without burning out](https://www.sunsama.com/a/this-week-in-react)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[数千名软件工程师保持高效且避免倦怠的秘诀](https://www.sunsama.com/a/this-week-in-react)**"
     },
     {
       "id": "44285072",
       "translatable": true,
       "content": "You know that the output of your work matters more than the number of hours you put in. **[Sunsama](https://www.sunsama.com/a/this-week-in-react)** has been the insider secret of 1000s of developers who use it to work less but achieve more.",
-      "sourceMdx": "You know that the output of your work matters more than the number of hours you put in. **[Sunsama](https://www.sunsama.com/a/this-week-in-react)** has been the insider secret of 1000s of developers who use it to work less but achieve more."
+      "sourceMdx": "You know that the output of your work matters more than the number of hours you put in. **[Sunsama](https://www.sunsama.com/a/this-week-in-react)** has been the insider secret of 1000s of developers who use it to work less but achieve more.",
+      "nodeType": "paragraph",
+      "translated_content": "您深知工作成果的价值远胜于投入的时间。[Sunsama](https://www.sunsama.com/a/this-week-in-react) 已成为数千名开发者的效率秘籍，帮助他们用更少时间达成更多目标。"
     },
     {
       "id": "a8f09c71",
       "translatable": true,
       "content": "Eliminate endless tab-switching with their JIRA, Github, and Notion integration. Timebox your day and create space for your hobbies and side-projects.",
-      "sourceMdx": "Eliminate endless tab-switching with their JIRA, Github, and Notion integration. Timebox your day and create space for your hobbies and side-projects."
+      "sourceMdx": "Eliminate endless tab-switching with their JIRA, Github, and Notion integration. Timebox your day and create space for your hobbies and side-projects.",
+      "nodeType": "paragraph",
+      "translated_content": "通过集成 JIRA、Github 和 Notion 消除无止境的标签页切换。合理规划每日时间，为爱好和副业创造空间。"
     },
     {
       "id": "d2a3d4c7",
       "translatable": true,
       "content": "The best part? They're offering a **[14-day free trial](https://www.sunsama.com/a/this-week-in-react)** (no card needed) so you can start achieving more, today.",
-      "sourceMdx": "The best part? They're offering a **[14-day free trial](https://www.sunsama.com/a/this-week-in-react)** (no card needed) so you can start achieving more, today."
+      "sourceMdx": "The best part? They're offering a **[14-day free trial](https://www.sunsama.com/a/this-week-in-react)** (no card needed) so you can start achieving more, today.",
+      "nodeType": "paragraph",
+      "translated_content": "最棒的是？他们提供**[14天免费试用](https://www.sunsama.com/a/this-week-in-react)**（无需绑定信用卡），让你即刻开启高效之旅。"
     },
     {
       "id": "a0d6d6c7",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "a5905b07",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "fd7ed056",
       "translatable": true,
       "content": "[![Expo SDK 47 beta is now available](/emails/issues/122/expo47.jpg)](https://blog.expo.dev/expo-sdk-47-beta-is-now-available-fa760eea1908)",
-      "sourceMdx": "[![Expo SDK 47 beta is now available](/emails/issues/122/expo47.jpg)](https://blog.expo.dev/expo-sdk-47-beta-is-now-available-fa760eea1908)"
+      "sourceMdx": "[![Expo SDK 47 beta is now available](/emails/issues/122/expo47.jpg)](https://blog.expo.dev/expo-sdk-47-beta-is-now-available-fa760eea1908)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Expo SDK 47 beta版现已发布](/emails/issues/122/expo47.jpg)](https://blog.expo.dev/expo-sdk-47-beta-is-now-available-fa760eea1908)"
     },
     {
       "id": "b08ad0b4",
       "translatable": true,
       "content": "**[Expo SDK 47 beta is now available](https://blog.expo.dev/expo-sdk-47-beta-is-now-available-fa760eea1908)**",
-      "sourceMdx": "**[Expo SDK 47 beta is now available](https://blog.expo.dev/expo-sdk-47-beta-is-now-available-fa760eea1908)**"
+      "sourceMdx": "**[Expo SDK 47 beta is now available](https://blog.expo.dev/expo-sdk-47-beta-is-now-available-fa760eea1908)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Expo SDK 47 beta版现已发布](https://blog.expo.dev/expo-sdk-47-beta-is-now-available-fa760eea1908)**"
     },
     {
       "id": "d636abf8",
       "translatable": true,
       "content": "The new Expo SDK is available in beta for one week. Some headlines:",
-      "sourceMdx": "The new Expo SDK is available in beta for one week. Some headlines:"
+      "sourceMdx": "The new Expo SDK is available in beta for one week. Some headlines:",
+      "nodeType": "paragraph",
+      "translated_content": "新版Expo SDK将进行为期一周的beta测试，主要更新包括："
     },
     {
       "id": "e1b58cbf",
       "translatable": true,
       "content": "* Upgrades to React-Native 0.70.4 and React 18.1\n* Hermes available in Expo Go on iOS. Hermes will be the default JS engine from SDK 48.\n* Fabric support in many Expo modules\n* Expo Modules API 1.0 that makes it easy to create native Fabric modules in Swift/Kotlin\n* Filesystem routing for React-Navigation in beta. The last release [v0.0.34](https://twitter.com/Baconbrix/status/1587303631602307076) is compatible with SDK 47.",
-      "sourceMdx": "- Upgrades to React-Native 0.70.4 and React 18.1\n- Hermes available in Expo Go on iOS. Hermes will be the default JS engine from SDK 48.\n- Fabric support in many Expo modules\n- Expo Modules API 1.0 that makes it easy to create native Fabric modules in Swift/Kotlin\n- Filesystem routing for React-Navigation in beta. The last release [v0.0.34](https://twitter.com/Baconbrix/status/1587303631602307076) is compatible with SDK 47."
+      "sourceMdx": "- Upgrades to React-Native 0.70.4 and React 18.1\n- Hermes available in Expo Go on iOS. Hermes will be the default JS engine from SDK 48.\n- Fabric support in many Expo modules\n- Expo Modules API 1.0 that makes it easy to create native Fabric modules in Swift/Kotlin\n- Filesystem routing for React-Navigation in beta. The last release [v0.0.34](https://twitter.com/Baconbrix/status/1587303631602307076) is compatible with SDK 47.",
+      "nodeType": "list",
+      "translated_content": "- 升级至React-Native 0.70.4和React 18.1\n- iOS版Expo Go支持Hermes引擎，SDK 48将默认启用Hermes\n- 多个Expo模块支持Fabric架构\n- 推出Expo Modules API 1.0，简化Swift/Kotlin原生Fabric模块开发\n- React-Navigation文件系统路由功能进入beta测试阶段，最新版本[v0.0.34](https://twitter.com/Baconbrix/status/1587303631602307076)已兼容SDK 47"
     },
     {
       "id": "674abb31",
       "translatable": true,
       "content": "We'll have more details next week, but it's clearly a big release with some very nice new features!",
-      "sourceMdx": "We'll have more details next week, but it's clearly a big release with some very nice new features!"
+      "sourceMdx": "We'll have more details next week, but it's clearly a big release with some very nice new features!",
+      "nodeType": "paragraph",
+      "translated_content": "下周我们将带来更详细解读，这无疑是一次重大更新，包含诸多亮眼新特性！"
     },
     {
       "id": "62d5dc64",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "d0f2205c",
       "translatable": true,
       "content": "* 💡 [Andrew Clark: \"I would love to see Expo adopt Server Components one day. We should really have Server Components for React-Native...\"](https://twitter.com/Baconbrix/status/1585058874864062466): I've been interested in the use of Server Components with React-Native [for a while](https://twitter.com/sebastienlorber/status/1470810351197433863), and I'm very happy that it's finally \"officially\" said publicly!\n* 📦 [React-Native-Gesture-Handler 2.8](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.8.0)\n* 📦 [React-Native-Fast-Shadow](https://github.com/alan-eu/react-native-fast-shadow)\n* 🐦 [React-Native Android improves build speed + `--active-arch-only` flag](https://twitter.com/o_kwasniewski/status/1585270027942502404)\n* 📜 [Stripe Identity: ID Authentication Made Simple](https://www.callstack.com/blog/stripe-identity-id-authentication-made-simple)\n* 📜 [React Native - Guide to Integration with Existing Apps - Android](https://michalchudziak.dev/blog/integration-with-existing-apps-android)\n* 📜 [React Native - Guide to Integration with Existing Apps - iOS](https://michalchudziak.dev/blog/integration-with-existing-apps-ios)\n* 🎙️ [The React Native Show #17 - React Native New Architecture](https://www.callstack.com/podcasts/react-native-new-architecture-ep-17)\n* 🎙️ [The React Native Show Podcast: Coffee Talk #6 - Webpack & Callstack experts’ take on Next.js Conf](https://www.callstack.com/podcasts/webpack-callstack-experts-take-on-next-js-conf-coffee-talk-6)\n* 🎙️ [RNR 250 - React Native Firebase](https://reactnativeradio.com/episodes/rnr-250-react-native-firebase-tl-dr)\n* 🔗 [The React Native Community Map](https://lifeiswhat.notion.site/The-React-Native-Community-Map-07f3221c294d4c8ab65a13cf1dee6901)\n* 🗣 [Wix Engineering - Now An Official React Native Partner](https://www.wix.engineering/post/wix-engineering-now-an-official-react-native-partner)",
-      "sourceMdx": "- 💡 [Andrew Clark: \"I would love to see Expo adopt Server Components one day. We should really have Server Components for React-Native...\"](https://twitter.com/Baconbrix/status/1585058874864062466): I've been interested in the use of Server Components with React-Native [for a while](https://twitter.com/sebastienlorber/status/1470810351197433863), and I'm very happy that it's finally \"officially\" said publicly!\n- 📦 [React-Native-Gesture-Handler 2.8](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.8.0)\n- 📦 [React-Native-Fast-Shadow](https://github.com/alan-eu/react-native-fast-shadow)\n- 🐦 [React-Native Android improves build speed + `--active-arch-only` flag](https://twitter.com/o_kwasniewski/status/1585270027942502404)\n- 📜 [Stripe Identity: ID Authentication Made Simple](https://www.callstack.com/blog/stripe-identity-id-authentication-made-simple)\n- 📜 [React Native - Guide to Integration with Existing Apps - Android](https://michalchudziak.dev/blog/integration-with-existing-apps-android)\n- 📜 [React Native - Guide to Integration with Existing Apps - iOS](https://michalchudziak.dev/blog/integration-with-existing-apps-ios)\n- 🎙️ [The React Native Show #17 - React Native New Architecture](https://www.callstack.com/podcasts/react-native-new-architecture-ep-17)\n- 🎙️ [The React Native Show Podcast: Coffee Talk #6 - Webpack & Callstack experts’ take on Next.js Conf](https://www.callstack.com/podcasts/webpack-callstack-experts-take-on-next-js-conf-coffee-talk-6)\n- 🎙️ [RNR 250 - React Native Firebase](https://reactnativeradio.com/episodes/rnr-250-react-native-firebase-tl-dr)\n- 🔗 [The React Native Community Map](https://lifeiswhat.notion.site/The-React-Native-Community-Map-07f3221c294d4c8ab65a13cf1dee6901)\n- 🗣 [Wix Engineering - Now An Official React Native Partner](https://www.wix.engineering/post/wix-engineering-now-an-official-react-native-partner)"
+      "sourceMdx": "- 💡 [Andrew Clark: \"I would love to see Expo adopt Server Components one day. We should really have Server Components for React-Native...\"](https://twitter.com/Baconbrix/status/1585058874864062466): I've been interested in the use of Server Components with React-Native [for a while](https://twitter.com/sebastienlorber/status/1470810351197433863), and I'm very happy that it's finally \"officially\" said publicly!\n- 📦 [React-Native-Gesture-Handler 2.8](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.8.0)\n- 📦 [React-Native-Fast-Shadow](https://github.com/alan-eu/react-native-fast-shadow)\n- 🐦 [React-Native Android improves build speed + `--active-arch-only` flag](https://twitter.com/o_kwasniewski/status/1585270027942502404)\n- 📜 [Stripe Identity: ID Authentication Made Simple](https://www.callstack.com/blog/stripe-identity-id-authentication-made-simple)\n- 📜 [React Native - Guide to Integration with Existing Apps - Android](https://michalchudziak.dev/blog/integration-with-existing-apps-android)\n- 📜 [React Native - Guide to Integration with Existing Apps - iOS](https://michalchudziak.dev/blog/integration-with-existing-apps-ios)\n- 🎙️ [The React Native Show #17 - React Native New Architecture](https://www.callstack.com/podcasts/react-native-new-architecture-ep-17)\n- 🎙️ [The React Native Show Podcast: Coffee Talk #6 - Webpack & Callstack experts’ take on Next.js Conf](https://www.callstack.com/podcasts/webpack-callstack-experts-take-on-next-js-conf-coffee-talk-6)\n- 🎙️ [RNR 250 - React Native Firebase](https://reactnativeradio.com/episodes/rnr-250-react-native-firebase-tl-dr)\n- 🔗 [The React Native Community Map](https://lifeiswhat.notion.site/The-React-Native-Community-Map-07f3221c294d4c8ab65a13cf1dee6901)\n- 🗣 [Wix Engineering - Now An Official React Native Partner](https://www.wix.engineering/post/wix-engineering-now-an-official-react-native-partner)",
+      "nodeType": "list",
+      "translated_content": "- 💡 [Andrew Clark表示：\"期待Expo未来支持Server Components。React-Native确实需要Server Components...\"](https://twitter.com/Baconbrix/status/1585058874864062466)：我长期关注[Server Components在React-Native的应用](https://twitter.com/sebastienlorber/status/1470810351197433863)，很高兴这个议题终于被官方公开讨论！\n- 📦 [React-Native-Gesture-Handler 2.8发布](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.8.0)\n- 📦 [React-Native-Fast-Shadow开源](https://github.com/alan-eu/react-native-fast-shadow)\n- 🐦 [React-Native Android构建速度提升+新增`--active-arch-only`标志](https://twitter.com/o_kwasniewski/status/1585270027942502404)\n- 📜 [Stripe Identity：简化的身份认证方案](https://www.callstack.com/blog/stripe-identity-id-authentication-made-simple)\n- 📜 [React Native与现有Android应用集成指南](https://michalchudziak.dev/blog/integration-with-existing-apps-android)\n- 📜 [React Native与现有iOS应用集成指南](https://michalchudziak.dev/blog/integration-with-existing-apps-ios)\n- 🎙️ [The React Native Show第17期：新架构解析](https://www.callstack.com/podcasts/react-native-new-architecture-ep-17)\n- 🎙️ [The React Native Show咖啡时间第6期：Webpack团队解读Next.js大会](https://www.callstack.com/podcasts/webpack-callstack-experts-take-on-next-js-conf-coffee-talk-6)\n- 🎙️ [RNR第250期：React Native Firebase专题](https://reactnativeradio.com/episodes/rnr-250-react-native-firebase-tl-dr)\n- 🔗 [React Native社区生态图谱](https://lifeiswhat.notion.site/The-React-Native-Community-Map-07f3221c294d4c8ab65a13cf1dee6901)\n- 🗣 [Wix Engineering成为React Native官方合作伙伴](https://www.wix.engineering/post/wix-engineering-now-an-official-react-native-partner)"
     },
     {
       "id": "0e7eccf0",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "17fd5988",
       "translatable": true,
       "content": "## 🧑‍💻 Jobs",
-      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}",
+      "nodeType": "heading",
+      "translated_content": "## 🧑‍💻 职位推荐 {#jobs}"
     },
     {
       "id": "3208eb29",
       "translatable": true,
       "content": "🧑‍💼 [**Product Engineer at Causal, Remote/London/NY, $150-250k**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied\\&lever-source%5B%5D=thisweekinreact.com)",
-      "sourceMdx": "🧑‍💼 [**Product Engineer at Causal, Remote/London/NY, $150-250k**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied&lever-source%5B%5D=thisweekinreact.com)"
+      "sourceMdx": "🧑‍💼 [**Product Engineer at Causal, Remote/London/NY, $150-250k**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied&lever-source%5B%5D=thisweekinreact.com)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**Causal招聘产品工程师，远程/伦敦/纽约，年薪$15-25万**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied&lever-source%5B%5D=thisweekinreact.com)"
     },
     {
       "id": "38f964f1",
       "translatable": true,
       "content": "Causal is a Series A Startup (backed by Coatue/Accel) building an all-in-one tool for working with numbers and visualizing data. We're looking for strong React engineers who can solve difficult UX/performance challenges.",
-      "sourceMdx": "Causal is a Series A Startup (backed by Coatue/Accel) building an all-in-one tool for working with numbers and visualizing data. We're looking for strong React engineers who can solve difficult UX/performance challenges."
+      "sourceMdx": "Causal is a Series A Startup (backed by Coatue/Accel) building an all-in-one tool for working with numbers and visualizing data. We're looking for strong React engineers who can solve difficult UX/performance challenges.",
+      "nodeType": "paragraph",
+      "translated_content": "Causal是由Coatue/Accel投资的A轮初创公司，致力于打造集数据计算与可视化于一体的工具。现招募能解决复杂UX/性能问题的资深React工程师。"
     },
     {
       "id": "b4204c03",
       "translatable": true,
       "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
-      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
     },
     {
       "id": "e6ac016e",
       "translatable": true,
       "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
-      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "nodeType": "paragraph",
+      "translated_content": "我们正在招聘多位专注于React Native开发的工程师！薪资约16万美元外加10%奖金。应聘者需具备RN实际项目经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解详情，请务必提及This Week in React。"
     },
     {
       "id": "dad05c50",
       "translatable": true,
       "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
-      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "nodeType": "paragraph",
+      "translated_content": "💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)"
     },
     {
       "id": "203a64ec",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "97496aad",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他 {#other}"
     },
     {
       "id": "417c03c6",
       "translatable": true,
       "content": "* [Babel 7.20](https://babeljs.io/blog/2022/10/27/7.20.0): Deno target and TS 4.9 support with `satisfies`!\n* [Announcing TypeScript 4.9 RC](https://devblogs.microsoft.com/typescript/announcing-typescript-4-9-rc/): with `satisfies`!\n* [Node v18.12.0 (LTS)](https://nodejs.org/en/blog/release/v18.12.0/): first v18 LTS release\n* [Open-sourcing the new TypeScript type checker](https://kdy1.dev/posts/2022/10/open-sourcing-stc): l'auteur de swc open-source son type-checker stc qui sera finalement écrit en Rust\n* [npm v9.0.0](https://github.blog/changelog/2022-10-24-npm-v9-0-0-released/)\n* [Vercel acquires Splitbee to expand first-party analytics](https://vercel.com/blog/vercel-acquires-splitbee)\n* [Deno 1.27: Major IDE Improvements](https://deno.com/blog/v1.27)\n* [Chrome 108 beta](https://developer.chrome.com/blog/chrome-108-beta/)\n* [Vite 3.2](https://twitter.com/vite_js/status/1585261680841424897)\n* [Experimental Dev Server Persistent Caching for Vite](https://twitter.com/Akryum/status/1585769403781505024)\n* [Two JavaScripts](https://remysharp.com/2022/10/13/two-javascripts)",
-      "sourceMdx": "- [Babel 7.20](https://babeljs.io/blog/2022/10/27/7.20.0): Deno target and TS 4.9 support with `satisfies`!\n- [Announcing TypeScript 4.9 RC](https://devblogs.microsoft.com/typescript/announcing-typescript-4-9-rc/): with `satisfies`!\n- [Node v18.12.0 (LTS)](https://nodejs.org/en/blog/release/v18.12.0/): first v18 LTS release\n- [Open-sourcing the new TypeScript type checker](https://kdy1.dev/posts/2022/10/open-sourcing-stc): l'auteur de swc open-source son type-checker stc qui sera finalement écrit en Rust\n- [npm v9.0.0](https://github.blog/changelog/2022-10-24-npm-v9-0-0-released/)\n- [Vercel acquires Splitbee to expand first-party analytics](https://vercel.com/blog/vercel-acquires-splitbee)\n- [Deno 1.27: Major IDE Improvements](https://deno.com/blog/v1.27)\n- [Chrome 108 beta](https://developer.chrome.com/blog/chrome-108-beta/)\n- [Vite 3.2](https://twitter.com/vite_js/status/1585261680841424897)\n- [Experimental Dev Server Persistent Caching for Vite](https://twitter.com/Akryum/status/1585769403781505024)\n- [Two JavaScripts](https://remysharp.com/2022/10/13/two-javascripts)"
+      "sourceMdx": "- [Babel 7.20](https://babeljs.io/blog/2022/10/27/7.20.0): Deno target and TS 4.9 support with `satisfies`!\n- [Announcing TypeScript 4.9 RC](https://devblogs.microsoft.com/typescript/announcing-typescript-4-9-rc/): with `satisfies`!\n- [Node v18.12.0 (LTS)](https://nodejs.org/en/blog/release/v18.12.0/): first v18 LTS release\n- [Open-sourcing the new TypeScript type checker](https://kdy1.dev/posts/2022/10/open-sourcing-stc): l'auteur de swc open-source son type-checker stc qui sera finalement écrit en Rust\n- [npm v9.0.0](https://github.blog/changelog/2022-10-24-npm-v9-0-0-released/)\n- [Vercel acquires Splitbee to expand first-party analytics](https://vercel.com/blog/vercel-acquires-splitbee)\n- [Deno 1.27: Major IDE Improvements](https://deno.com/blog/v1.27)\n- [Chrome 108 beta](https://developer.chrome.com/blog/chrome-108-beta/)\n- [Vite 3.2](https://twitter.com/vite_js/status/1585261680841424897)\n- [Experimental Dev Server Persistent Caching for Vite](https://twitter.com/Akryum/status/1585769403781505024)\n- [Two JavaScripts](https://remysharp.com/2022/10/13/two-javascripts)",
+      "nodeType": "list",
+      "translated_content": "- [Babel 7.20](https://babeljs.io/blog/2022/10/27/7.20.0): 支持Deno目标和TS 4.9的`satisfies`语法！\n- [TypeScript 4.9 RC发布](https://devblogs.microsoft.com/typescript/announcing-typescript-4-9-rc/): 新增`satisfies`运算符！\n- [Node v18.12.0(LTS)](https://nodejs.org/en/blog/release/v18.12.0/): 首个v18长期支持版本\n- [开源新版TypeScript类型检查器](https://kdy1.dev/posts/2022/10/open-sourcing-stc): swc作者开源基于Rust编写的类型检查器stc\n- [npm v9.0.0发布](https://github.blog/changelog/2022-10-24-npm-v9-0-0-released/)\n- [Vercel收购Splitbee扩展第一方分析能力](https://vercel.com/blog/vercel-acquires-splitbee)\n- [Deno 1.27: IDE重大改进](https://deno.com/blog/v1.27)\n- [Chrome 108测试版](https://developer.chrome.com/blog/chrome-108-beta/)\n- [Vite 3.2发布](https://twitter.com/vite_js/status/1585261680841424897)\n- [Vite实验性开发服务器持久化缓存](https://twitter.com/Akryum/status/1585769403781505024)\n- [两种JavaScript](https://remysharp.com/2022/10/13/two-javascripts)"
     },
     {
       "id": "04dab02c",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "8e2354b8",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 趣闻 {#fun}"
     },
     {
       "id": "dbeb30c1",
       "translatable": true,
       "content": "[![Next.js 13 - 1299$ price - Apple-like keynote troll](/emails/issues/122/meme.jpg)](https://twitter.com/thekitze/status/1584974847306002432)",
-      "sourceMdx": "[![Next.js 13 - 1299$ price - Apple-like keynote troll](/emails/issues/122/meme.jpg)](https://twitter.com/thekitze/status/1584974847306002432)"
+      "sourceMdx": "[![Next.js 13 - 1299$ price - Apple-like keynote troll](/emails/issues/122/meme.jpg)](https://twitter.com/thekitze/status/1584974847306002432)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Next.js 13 - 1299美元定价 - 苹果式发布会恶搞](/emails/issues/122/meme.jpg)](https://twitter.com/thekitze/status/1584974847306002432)"
     }
   ]
 }

@@ -1,59 +1,77 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/articles/old/2020-07-31-records-and-tuples-for-react-developers/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/articles/old/2020-07-31-records-and-tuples-for-react-developers/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: records-and-tuples-for-react\ntitle: Records & Tuples for React\ndescription: .Records & Tuples for React... and how they are much more than immutable data structures.\nauthors: [slorber]\ntwitterThreadUrl: \"https://slo.im/thread\"\nimage: ./images/hero.png\n---",
-      "sourceMdx": "---\nslug: records-and-tuples-for-react\ntitle: Records & Tuples for React\ndescription: .Records & Tuples for React... and how they are much more than immutable data structures.\nauthors: [slorber]\ntwitterThreadUrl: \"https://slo.im/thread\"\nimage: ./images/hero.png\n---"
+      "sourceMdx": "---\nslug: records-and-tuples-for-react\ntitle: Records & Tuples for React\ndescription: .Records & Tuples for React... and how they are much more than immutable data structures.\nauthors: [slorber]\ntwitterThreadUrl: \"https://slo.im/thread\"\nimage: ./images/hero.png\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "**Records & Tuples**, a very interesting **[proposal](https://github.com/tc39/proposal-record-tuple)**, has just reached **[stage 2](https://twitter.com/robpalmer2/status/1286040041089904640)** at **TC39**.",
-      "sourceMdx": "**Records & Tuples**, a very interesting **[proposal](https://github.com/tc39/proposal-record-tuple)**, has just reached **[stage 2](https://twitter.com/robpalmer2/status/1286040041089904640)** at **TC39**."
+      "sourceMdx": "**Records & Tuples**, a very interesting **[proposal](https://github.com/tc39/proposal-record-tuple)**, has just reached **[stage 2](https://twitter.com/robpalmer2/status/1286040041089904640)** at **TC39**.",
+      "nodeType": "paragraph",
+      "translated_content": "**Records & Tuples** 这项极具潜力的 **[提案](https://github.com/tc39/proposal-record-tuple)** 刚刚在 **TC39** 进入 **[第二阶段](https://twitter.com/robpalmer2/status/1286040041089904640)**。"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "They bring **deeply immutable data structures** to JavaScript.",
-      "sourceMdx": "They bring **deeply immutable data structures** to JavaScript."
+      "sourceMdx": "They bring **deeply immutable data structures** to JavaScript.",
+      "nodeType": "paragraph",
+      "translated_content": "它们为 JavaScript 带来了**深度不可变的数据结构**。"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "But don't overlook their **equality properties**, that are <u>**VERY**</u> interesting for **React**.",
-      "sourceMdx": "But don't overlook their **equality properties**, that are <u>**VERY**</u> interesting for **React**."
+      "sourceMdx": "But don't overlook their **equality properties**, that are <u>**VERY**</u> interesting for **React**.",
+      "nodeType": "paragraph",
+      "translated_content": "但千万别忽视其**相等性特性**，这对 **React** 而言<u>**极其**</u>重要。"
     },
     {
       "id": "86b54d44",
       "translatable": true,
       "content": "A whole category of **React bugs** are related to **unstable object identities**:",
-      "sourceMdx": "A whole category of **React bugs** are related to **unstable object identities**:"
+      "sourceMdx": "A whole category of **React bugs** are related to **unstable object identities**:",
+      "nodeType": "paragraph",
+      "translated_content": "有一整类 **React 缺陷** 都与**不稳定的对象标识**相关："
     },
     {
       "id": "11c829ab",
       "translatable": true,
       "content": "* **Performance**: re-renders that could be avoided\n* **Behavior**: useless effect re-executions, infinite loops\n* **API surface**: unability to express when a stable object identity matters",
-      "sourceMdx": "- **Performance**: re-renders that could be avoided\n- **Behavior**: useless effect re-executions, infinite loops\n- **API surface**: unability to express when a stable object identity matters"
+      "sourceMdx": "- **Performance**: re-renders that could be avoided\n- **Behavior**: useless effect re-executions, infinite loops\n- **API surface**: unability to express when a stable object identity matters",
+      "nodeType": "list",
+      "translated_content": "- **性能**：本可避免的重复渲染\n- **行为**：无意义的副作用重复执行、无限循环\n- **API 层面**：无法表达何时需要稳定的对象标识"
     },
     {
       "id": "2df4f75f",
       "translatable": true,
       "content": "I will explain the basics of **Records & Tuples**, and how they can solve **real world React issues**.",
-      "sourceMdx": "I will explain the basics of **Records & Tuples**, and how they can solve **real world React issues**."
+      "sourceMdx": "I will explain the basics of **Records & Tuples**, and how they can solve **real world React issues**.",
+      "nodeType": "paragraph",
+      "translated_content": "我将解释 **Records & Tuples** 的基础概念，以及它们如何解决 **React 实际开发中的问题**。"
     },
     {
       "id": "98cfbd53",
       "translatable": true,
       "content": "[![hero](./images/hero.png)](https://sebastienlorber.com/records-and-tuples-for-react)",
-      "sourceMdx": "[![hero](./images/hero.png)](https://sebastienlorber.com/records-and-tuples-for-react)"
+      "sourceMdx": "[![hero](./images/hero.png)](https://sebastienlorber.com/records-and-tuples-for-react)",
+      "nodeType": "paragraph",
+      "translated_content": "[![hero](./images/hero.png)](https://sebastienlorber.com/records-and-tuples-for-react)"
     },
     {
       "id": "ccc88b4c",
       "translatable": true,
       "content": "🔗 [**Read More**](https://sebastienlorber.com/records-and-tuples-for-react)",
-      "sourceMdx": "🔗 [**Read More**](https://sebastienlorber.com/records-and-tuples-for-react)"
+      "sourceMdx": "🔗 [**Read More**](https://sebastienlorber.com/records-and-tuples-for-react)",
+      "nodeType": "paragraph",
+      "translated_content": "🔗 [**阅读全文**](https://sebastienlorber.com/records-and-tuples-for-react)"
     }
   ]
 }

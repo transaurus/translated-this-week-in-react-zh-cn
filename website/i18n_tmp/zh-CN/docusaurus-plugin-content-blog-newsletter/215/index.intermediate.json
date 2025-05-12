@@ -1,335 +1,445 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/215/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/215/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /215\ntitle: \"This Week In React #215: Dropdown, i18n, Next.js, Remix, Astro, shadcn, StyleX, Fancy Components, Expo, Static Hermes, Skia, ExecuTorch, Kotlin, Node, Shortest, Rolldown, Rspack, pnpm...\"\nauthors: [slorber]\ndate: 01-02-2025\n---",
-      "sourceMdx": "---\nslug: /215\ntitle: \"This Week In React #215: Dropdown, i18n, Next.js, Remix, Astro, shadcn, StyleX, Fancy Components, Expo, Static Hermes, Skia, ExecuTorch, Kotlin, Node, Shortest, Rolldown, Rspack, pnpm...\"\nauthors: [slorber]\ndate: 01-02-2025\n---"
+      "sourceMdx": "---\nslug: /215\ntitle: \"This Week In React #215: Dropdown, i18n, Next.js, Remix, Astro, shadcn, StyleX, Fancy Components, Expo, Static Hermes, Skia, ExecuTorch, Kotlin, Node, Shortest, Rolldown, Rspack, pnpm...\"\nauthors: [slorber]\ndate: 01-02-2025\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "We initially planned to return on 8th January.\\\nBut here I am a little earlier, wishing you all a Happy New Year! 🎉\\\nWith the end-of-year festivities, it's been a quiet week for React, as you'd expect.",
-      "sourceMdx": "We initially planned to return on 8th January.\\\nBut here I am a little earlier, wishing you all a Happy New Year! 🎉\\\nWith the end-of-year festivities, it's been a quiet week for React, as you'd expect."
+      "sourceMdx": "We initially planned to return on 8th January.\\\nBut here I am a little earlier, wishing you all a Happy New Year! 🎉\\\nWith the end-of-year festivities, it's been a quiet week for React, as you'd expect.",
+      "nodeType": "paragraph",
+      "translated_content": "我们原计划1月8日回归。\\\n但我提前了一点，祝大家新年快乐！🎉\\\n正如预期的那样，由于年底的节日氛围，React社区这周比较安静。"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "I also take the opportunity to share a little newsletter retrospective, and thank you once again for reading the newsletter and making all this possible.",
-      "sourceMdx": "I also take the opportunity to share a little newsletter retrospective, and thank you once again for reading the newsletter and making all this possible."
+      "sourceMdx": "I also take the opportunity to share a little newsletter retrospective, and thank you once again for reading the newsletter and making all this possible.",
+      "nodeType": "paragraph",
+      "translated_content": "借此机会，我想分享一下这份简报的年度回顾，并再次感谢各位读者的支持，是你们让这一切成为可能。"
     },
     {
       "id": "86b54d44",
       "translatable": true,
       "content": "In 2024 the newsletter went from being a sustainable project to a break-even business. This allows me to invest more in the project and improve the content. Let's share some concrete figures from 2023 to 2024 :",
-      "sourceMdx": "In 2024 the newsletter went from being a sustainable project to a break-even business. This allows me to invest more in the project and improve the content. Let's share some concrete figures from 2023 to 2024 :"
+      "sourceMdx": "In 2024 the newsletter went from being a sustainable project to a break-even business. This allows me to invest more in the project and improve the content. Let's share some concrete figures from 2023 to 2024 :",
+      "nodeType": "paragraph",
+      "translated_content": "2024年，这份简报从一个可持续项目发展为收支平衡的业务。这让我能投入更多资源来提升内容质量。以下是2023到2024年的具体数据："
     },
     {
       "id": "11c829ab",
       "translatable": true,
       "content": "* 📈 **Subscribers**: 31k ➡️ 46k - A great +15k subscribers increase this year. Not exponential as I expected, but still very nice!\n* 👥 **Writers**: 1 ➡️ 4 - I'm no longer the sole writer of this curation newsletter: Benedikt, Matthieu and Cyril have backed me up when I was unavailable.\n* 📨 **Issues**: 38 ➡️ 47 - Onboarding other writers allowed us to send out an email almost every week!\n* 💰 **Income**: 47k€ ➡️ 99k€ ARR - We are getting good as sales, and have successfully convinced most companies we wanted to work with to sponsor us.\n* 💸 **Charges**: 15k€ ➡️ 36k€ - We have increased our charges significantly this year by onboarding guest newsletter writers (14k€). The other charges are ads (12k€), SaaS (7k€) and virtual assistants (3k€).",
-      "sourceMdx": "- 📈 **Subscribers**: 31k ➡️ 46k - A great +15k subscribers increase this year. Not exponential as I expected, but still very nice!\n- 👥 **Writers**: 1 ➡️ 4 - I'm no longer the sole writer of this curation newsletter: Benedikt, Matthieu and Cyril have backed me up when I was unavailable.\n- 📨 **Issues**: 38 ➡️ 47 - Onboarding other writers allowed us to send out an email almost every week!\n- 💰 **Income**: 47k€ ➡️ 99k€ ARR - We are getting good as sales, and have successfully convinced most companies we wanted to work with to sponsor us.\n- 💸 **Charges**: 15k€ ➡️ 36k€ - We have increased our charges significantly this year by onboarding guest newsletter writers (14k€). The other charges are ads (12k€), SaaS (7k€) and virtual assistants (3k€)."
+      "sourceMdx": "- 📈 **Subscribers**: 31k ➡️ 46k - A great +15k subscribers increase this year. Not exponential as I expected, but still very nice!\n- 👥 **Writers**: 1 ➡️ 4 - I'm no longer the sole writer of this curation newsletter: Benedikt, Matthieu and Cyril have backed me up when I was unavailable.\n- 📨 **Issues**: 38 ➡️ 47 - Onboarding other writers allowed us to send out an email almost every week!\n- 💰 **Income**: 47k€ ➡️ 99k€ ARR - We are getting good as sales, and have successfully convinced most companies we wanted to work with to sponsor us.\n- 💸 **Charges**: 15k€ ➡️ 36k€ - We have increased our charges significantly this year by onboarding guest newsletter writers (14k€). The other charges are ads (12k€), SaaS (7k€) and virtual assistants (3k€).",
+      "nodeType": "list",
+      "translated_content": "- 📈 **订阅量**: 3.1万 ➡️ 4.6万 - 今年新增1.5万订阅用户，虽未达预期的指数增长，但仍令人欣喜！\n- 👥 **撰稿人**: 1 ➡️ 4 - 我不再是这份精选简报的唯一作者：Benedikt、Matthieu和Cyril在我无暇顾及时代笔支持。\n- 📨 **期数**: 38 ➡️ 47 - 团队扩充让我们几乎每周都能发送简报！\n- 💰 **收入**: 4.7万欧元 ➡️ 9.9万欧元（年度经常性收入）- 我们的商业合作进展顺利，成功说服了多数目标企业成为赞助商。\n- 💸 **支出**: 1.5万欧元 ➡️ 3.6万欧元 - 今年支出显著增加，主要来自特邀撰稿人费用（1.4万欧元），其余为广告（1.2万欧元）、SaaS服务（7千欧元）和虚拟助理（3千欧元）。"
     },
     {
       "id": "98cfbd53",
       "translatable": true,
       "content": "Overall I think it has been a great 2024 year, looking forward to a promising future. I didn't reach my ambitious goal of 50k subscribers, but I'm not too far. After the summer, it became more challenging to grow, not sure why. I still reached another important symbolic milestone: having more newsletter subscribers than Twitter followers, becoming less dependent of social platforms.",
-      "sourceMdx": "Overall I think it has been a great 2024 year, looking forward to a promising future. I didn't reach my ambitious goal of 50k subscribers, but I'm not too far. After the summer, it became more challenging to grow, not sure why. I still reached another important symbolic milestone: having more newsletter subscribers than Twitter followers, becoming less dependent of social platforms."
+      "sourceMdx": "Overall I think it has been a great 2024 year, looking forward to a promising future. I didn't reach my ambitious goal of 50k subscribers, but I'm not too far. After the summer, it became more challenging to grow, not sure why. I still reached another important symbolic milestone: having more newsletter subscribers than Twitter followers, becoming less dependent of social platforms.",
+      "nodeType": "paragraph",
+      "translated_content": "总体而言，2024年是成果丰硕的一年，未来前景可期。虽然5万订阅量的雄心目标未达成，但已相去不远。夏季过后增长放缓，原因尚不明确。但达成了另一个重要里程碑：简报订阅量超过Twitter粉丝数，降低了对社交平台的依赖。"
     },
     {
       "id": "ccc88b4c",
       "translatable": true,
       "content": "In 2025, I'd like the newsletter to be more than just a list of curation emails. I plan to onboard guest writers, paying them to produce a series of articles on topics they are passionate about. If you think you'd be a great fit, reply and say hi! 👋",
-      "sourceMdx": "In 2025, I'd like the newsletter to be more than just a list of curation emails. I plan to onboard guest writers, paying them to produce a series of articles on topics they are passionate about. If you think you'd be a great fit, reply and say hi! 👋"
+      "sourceMdx": "In 2025, I'd like the newsletter to be more than just a list of curation emails. I plan to onboard guest writers, paying them to produce a series of articles on topics they are passionate about. If you think you'd be a great fit, reply and say hi! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "2025年，我希望能超越单纯的精选邮件列表模式。计划邀请客座撰稿人，付费请他们就擅长领域创作系列文章。若您有意向，欢迎回复联系！👋"
     },
     {
       "id": "d9172fa4",
       "translatable": true,
       "content": "If you'd like to help me realize my plans, please share the newsletter with a friend or colleague who might enjoy it, or on any social platform.",
-      "sourceMdx": "If you'd like to help me realize my plans, please share the newsletter with a friend or colleague who might enjoy it, or on any social platform."
+      "sourceMdx": "If you'd like to help me realize my plans, please share the newsletter with a friend or colleague who might enjoy it, or on any social platform.",
+      "nodeType": "paragraph",
+      "translated_content": "若您愿意助力这个计划，请将简报分享给可能感兴趣的朋友、同事，或在社交平台推荐。"
     },
     {
       "id": "93a1a7a5",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_93a1a7a5"
     },
     {
       "id": "b8530f1c",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_b8530f1c"
     },
     {
       "id": "d0d484a6",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_d0d484a6"
     },
     {
       "id": "b0e5a8f2",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "80d9e13c",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "33331f27",
       "translatable": true,
       "content": "[![Become a better engineer one newsletter at a time.](/emails/issues/183/posthog.jpg)](https://dub.link/twir-dec18)",
-      "sourceMdx": "[![Become a better engineer one newsletter at a time.](/emails/issues/183/posthog.jpg)](https://dub.link/twir-dec18)"
+      "sourceMdx": "[![Become a better engineer one newsletter at a time.](/emails/issues/183/posthog.jpg)](https://dub.link/twir-dec18)",
+      "nodeType": "paragraph",
+      "translated_content": "[![通过每期简报成为更优秀的工程师。](/emails/issues/183/posthog.jpg)](https://dub.link/twir-dec18)"
     },
     {
       "id": "50746522",
       "translatable": true,
       "content": "**[Become a better engineer one newsletter at a time.](https://dub.link/twir-dec18)**",
-      "sourceMdx": "**[Become a better engineer one newsletter at a time.](https://dub.link/twir-dec18)**"
+      "sourceMdx": "**[Become a better engineer one newsletter at a time.](https://dub.link/twir-dec18)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[通过每期简报成为更优秀的工程师。](https://dub.link/twir-dec18)**"
     },
     {
       "id": "95e9ba12",
       "translatable": true,
       "content": "[Product for Engineers](https://dub.link/twir-dec18) is PostHog’s newsletter dedicated to helping engineers improve their product skills.",
-      "sourceMdx": "[Product for Engineers](https://dub.link/twir-dec18) is PostHog’s newsletter dedicated to helping engineers improve their product skills."
+      "sourceMdx": "[Product for Engineers](https://dub.link/twir-dec18) is PostHog’s newsletter dedicated to helping engineers improve their product skills.",
+      "nodeType": "paragraph",
+      "translated_content": "[工程师的产品思维](https://dub.link/twir-dec18)是PostHog推出的专注提升工程师产品能力的简报。"
     },
     {
       "id": "8af76f3d",
       "translatable": true,
       "content": "With over 30k subscribers, it is a trusted source that bridges the gap between product and engineering, helping you ship products users love.",
-      "sourceMdx": "With over 30k subscribers, it is a trusted source that bridges the gap between product and engineering, helping you ship products users love."
+      "sourceMdx": "With over 30k subscribers, it is a trusted source that bridges the gap between product and engineering, helping you ship products users love.",
+      "nodeType": "paragraph",
+      "translated_content": "拥有超过3万订阅者，这份简报弥合产品与工程之间的鸿沟，助您打造用户喜爱的产品。"
     },
     {
       "id": "a9d49f92",
       "translatable": true,
       "content": "It covers topics like how to choose the right technologies, non-obvious behaviors that will kill your startup, and A/B testing mistakes they learned the hard way. It’s totally free and always will be.",
-      "sourceMdx": "It covers topics like how to choose the right technologies, non-obvious behaviors that will kill your startup, and A/B testing mistakes they learned the hard way. It’s totally free and always will be."
+      "sourceMdx": "It covers topics like how to choose the right technologies, non-obvious behaviors that will kill your startup, and A/B testing mistakes they learned the hard way. It’s totally free and always will be.",
+      "nodeType": "paragraph",
+      "translated_content": "内容涵盖技术选型、初创公司容易忽视的致命行为、A/B测试的血泪教训等主题。完全免费，永不变更。"
     },
     {
       "id": "a44047a5",
       "translatable": true,
       "content": "[**Subscribe for free.**](https://dub.link/twir-dec18)",
-      "sourceMdx": "[**Subscribe for free.**](https://dub.link/twir-dec18)"
+      "sourceMdx": "[**Subscribe for free.**](https://dub.link/twir-dec18)",
+      "nodeType": "paragraph",
+      "translated_content": "[**免费订阅**](https://dub.link/twir-dec18)"
     },
     {
       "id": "e0a17c0d",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "60410af6",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React {#react}"
     },
     {
       "id": "b9aaa519",
       "translatable": true,
       "content": "[![Building a dropdown](/emails/issues/215/dropdown.jpg)](https://reshaped.so/blog/building-a-dropdown)",
-      "sourceMdx": "[![Building a dropdown](/emails/issues/215/dropdown.jpg)](https://reshaped.so/blog/building-a-dropdown)"
+      "sourceMdx": "[![Building a dropdown](/emails/issues/215/dropdown.jpg)](https://reshaped.so/blog/building-a-dropdown)",
+      "nodeType": "paragraph",
+      "translated_content": "[![构建下拉菜单](/emails/issues/215/dropdown.jpg)](https://reshaped.so/blog/building-a-dropdown)"
     },
     {
       "id": "e536ea0d",
       "translatable": true,
       "content": "**[Building a dropdown](https://reshaped.so/blog/building-a-dropdown)**",
-      "sourceMdx": "**[Building a dropdown](https://reshaped.so/blog/building-a-dropdown)**"
+      "sourceMdx": "**[Building a dropdown](https://reshaped.so/blog/building-a-dropdown)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[构建下拉菜单](https://reshaped.so/blog/building-a-dropdown)**"
     },
     {
       "id": "40158b4b",
       "translatable": true,
       "content": "A great interactive article that shows how complex it can be to implement a flexible dropdown React component abstraction from scratch, covering triggers, positioning, focus traps, keyboard navigation, accessibility, and many other subtleties to consider.",
-      "sourceMdx": "A great interactive article that shows how complex it can be to implement a flexible dropdown React component abstraction from scratch, covering triggers, positioning, focus traps, keyboard navigation, accessibility, and many other subtleties to consider."
+      "sourceMdx": "A great interactive article that shows how complex it can be to implement a flexible dropdown React component abstraction from scratch, covering triggers, positioning, focus traps, keyboard navigation, accessibility, and many other subtleties to consider.",
+      "nodeType": "paragraph",
+      "translated_content": "这篇精彩的交互式文章展示了从零开始实现灵活React下拉组件抽象的复杂性，涵盖触发器、定位、焦点锁定、键盘导航、无障碍访问等需要考量的细节。"
     },
     {
       "id": "818747ba",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "79ad944d",
       "translatable": true,
       "content": "[![Scaffolding your internatlization in React with automation](/emails/issues/215/i18n.jpg)](https://lingual.dev/blog/automating-your-react-internationalization/)",
-      "sourceMdx": "[![Scaffolding your internatlization in React with automation](/emails/issues/215/i18n.jpg)](https://lingual.dev/blog/automating-your-react-internationalization/)"
+      "sourceMdx": "[![Scaffolding your internatlization in React with automation](/emails/issues/215/i18n.jpg)](https://lingual.dev/blog/automating-your-react-internationalization/)",
+      "nodeType": "paragraph",
+      "translated_content": "[![使用自动化工具为React项目搭建国际化脚手架](/emails/issues/215/i18n.jpg)](https://lingual.dev/blog/automating-your-react-internationalization/)"
     },
     {
       "id": "531437ca",
       "translatable": true,
       "content": "**[Scaffolding your internatlization in React with automation](https://lingual.dev/blog/automating-your-react-internationalization/)**",
-      "sourceMdx": "**[Scaffolding your internatlization in React with automation](https://lingual.dev/blog/automating-your-react-internationalization/)**"
+      "sourceMdx": "**[Scaffolding your internatlization in React with automation](https://lingual.dev/blog/automating-your-react-internationalization/)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[通过自动化工具为React项目搭建国际化脚手架](https://lingual.dev/blog/automating-your-react-internationalization/)**"
     },
     {
       "id": "06e24cc0",
       "translatable": true,
       "content": "This article shows how you can use ts-morph AST transformations to automatically replace all your app’s hardcoded strings by react-i18next or react-intl translation APIs.",
-      "sourceMdx": "This article shows how you can use ts-morph AST transformations to automatically replace all your app’s hardcoded strings by react-i18next or react-intl translation APIs."
+      "sourceMdx": "This article shows how you can use ts-morph AST transformations to automatically replace all your app’s hardcoded strings by react-i18next or react-intl translation APIs.",
+      "nodeType": "paragraph",
+      "translated_content": "本文演示如何利用ts-morph的AST转换功能，自动将应用中的所有硬编码字符串替换为react-i18next或react-intl的翻译API调用。"
     },
     {
       "id": "a635fada",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "76dbcc76",
       "translatable": true,
       "content": "* 💸 [React Native Zero to Hero - Everything you need to ship your first app](https://galaxies.dev/missions/zero-to-hero?utm_source=thisweekinreact)\n* 👀 [React PR - “Forgive” IDE extension](https://github.com/facebook/react/pull/31918): The React Compiler team recently [hinted at React Summit](https://www.youtube.com/watch?v=C8Mg-NSyqWg\\&t=14452s) their intent to create a “React IDE” powered by the compiler, not limited to just linting but also providing educational tooltips and more. Well, there's nothing very interesting to see yet, but work has begun on scaffolding a Language Server Protocol and VSCode extension.\n* 🗓️ [Paris TypeScript La Conf'](https://la-conf.typescript.paris/?utm_source=thisweekinreact) - 🇫🇷 Paris - 28 February - Full speaker line up just dropped! Join Mateusz Burzyński, Elise Patrikainen and David Rousset! Get 20% off tickets with code \"TWIR\"!\n* 📜 [You don't need Next.js](https://www.comfydeploy.com/blog/you-dont-need-nextjs): They migrated dashboards from Next.js 15 to just React with TanStack Router and Rspack with satisfying results.\n* 📜 [Building the Black Friday-Cyber Monday live dashboard](https://vercel.com/blog/building-the-black-friday-cyber-monday-live-dashboard): Vercel presents the technical architecture behind their Next.js-based Black Friday dashboard\n* 📜 [Replacing Legacy throw in React 19 with Suspense and use](https://peterkellner.net/2024/12/31/replacing-legacy-throw-in-react-19-with-suspense-and-use/): There’s a new `use()` hook, but throwing promises still works.\n* 📜 [Remix Security Checklist](https://blog.arcjet.com/remix-security-checklist/)\n* 📜 [Building a simple form in React - before and after React 19](https://reactpractice.dev/articles/building-a-simple-form-in-react-before-and-after-react-19/)\n* 📦 [Astro 5.1 - Experimental sessions, remote image caching, getActionPath](https://astro.build/blog/astro-510/)\n* 📦 [StyleX 0.10 - PostCSS plugin, better debugging, ESLint/Perf/CLI improvements](https://stylexjs.com/blog/v0.10.0): The new PostCSS plugin should make StyleX easier to adopt in various contexts.\n* 📦 [Fancy Components - Collection of funky, unconventional components](https://www.fancycomponents.dev/)\n* 📦 [next-intl 4.0 beta](https://next-intl.dev/blog/next-intl-4-0): type-safety for ICU params is really cool! Also lays the ground for the latest Next.js innovations like PPR, dynamicIO, and rootParams.\n* 📦 [React Router 7.1 - Support for Vite 6](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v710)\n* 📦 [shadcn/ui CLI - Experimental monorepo support](https://ui.shadcn.com/docs/monorepo)\n* 📦 [React Toastify 11.0 - Easy customization](https://github.com/fkhadra/react-toastify/releases/tag/v11.0.0)\n* 📦 [TanStack Store 0.7 - Derived/Effect classes](https://tanstack.com/store/latest/docs/quick-start#derived)\n* 🎥 [Theo - This magic hack makes Next.js possible](https://www.youtube.com/watch?v=VMDydLUCLtE): A great video explaining how Next.js implements PPR and Dynamic IO features using only JS features.\n* 🎥 [Theo - I might have a new favorite state manager (XState Store)](https://www.youtube.com/watch?v=Pmieyp75SrA)\n* 🎥 [Lee Robinson - Forms with React 19 and Next.js](https://www.youtube.com/watch?v=KhO4VjaYSXU)\n* 🎥 [Ankita - Stop! These Next.js Mistakes are Killing Your App](https://www.youtube.com/watch?v=6ZR5drEQzp4)\n* 🎙️ [This Month in React - React 19 is here, 2024 is over](https://creators.spotify.com/pod/show/reactiflux/episodes/TMiR-2024-12-React-19-is-here--2024-is-over-e2sv4o6)",
-      "sourceMdx": "- 💸 [React Native Zero to Hero - Everything you need to ship your first app](https://galaxies.dev/missions/zero-to-hero?utm_source=thisweekinreact)\n- 👀 [React PR \\- “Forgive” IDE extension](https://github.com/facebook/react/pull/31918): The React Compiler team recently [hinted at React Summit](https://www.youtube.com/watch?v=C8Mg-NSyqWg&t=14452s) their intent to create a “React IDE” powered by the compiler, not limited to just linting but also providing educational tooltips and more. Well, there's nothing very interesting to see yet, but work has begun on scaffolding a Language Server Protocol and VSCode extension.\n- 🗓️ [Paris TypeScript La Conf'](https://la-conf.typescript.paris/?utm_source=thisweekinreact) - 🇫🇷 Paris - 28 February - Full speaker line up just dropped! Join Mateusz Burzyński, Elise Patrikainen and David Rousset! Get 20% off tickets with code \"TWIR\"!\n- 📜 [You don't need Next.js](https://www.comfydeploy.com/blog/you-dont-need-nextjs): They migrated dashboards from Next.js 15 to just React with TanStack Router and Rspack with satisfying results.\n- 📜 [Building the Black Friday-Cyber Monday live dashboard](https://vercel.com/blog/building-the-black-friday-cyber-monday-live-dashboard): Vercel presents the technical architecture behind their Next.js-based Black Friday dashboard\n- 📜 [Replacing Legacy throw in React 19 with Suspense and use](https://peterkellner.net/2024/12/31/replacing-legacy-throw-in-react-19-with-suspense-and-use/): There’s a new `use()` hook, but throwing promises still works.\n- 📜 [Remix Security Checklist](https://blog.arcjet.com/remix-security-checklist/)\n- 📜 [Building a simple form in React \\- before and after React 19](https://reactpractice.dev/articles/building-a-simple-form-in-react-before-and-after-react-19/)\n- 📦 [Astro 5.1 \\- Experimental sessions, remote image caching, getActionPath](https://astro.build/blog/astro-510/)\n- 📦 [StyleX 0.10 - PostCSS plugin, better debugging, ESLint/Perf/CLI improvements](https://stylexjs.com/blog/v0.10.0): The new PostCSS plugin should make StyleX easier to adopt in various contexts.\n- 📦 [Fancy Components \\- Collection of funky, unconventional components](https://www.fancycomponents.dev/)\n- 📦 [next-intl 4.0 beta](https://next-intl.dev/blog/next-intl-4-0): type-safety for ICU params is really cool\\! Also lays the ground for the latest Next.js innovations like PPR, dynamicIO, and rootParams.\n- 📦 [React Router 7.1 \\- Support for Vite 6](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v710)\n- 📦 [shadcn/ui CLI \\- Experimental monorepo support](https://ui.shadcn.com/docs/monorepo)\n- 📦 [React Toastify 11.0 \\- Easy customization](https://github.com/fkhadra/react-toastify/releases/tag/v11.0.0)\n- 📦 [TanStack Store 0.7 \\- Derived/Effect classes](https://tanstack.com/store/latest/docs/quick-start#derived)\n- 🎥 [Theo \\- This magic hack makes Next.js possible](https://www.youtube.com/watch?v=VMDydLUCLtE): A great video explaining how Next.js implements PPR and Dynamic IO features using only JS features.\n- 🎥 [Theo \\- I might have a new favorite state manager (XState Store)](https://www.youtube.com/watch?v=Pmieyp75SrA)\n- 🎥 [Lee Robinson \\- Forms with React 19 and Next.js](https://www.youtube.com/watch?v=KhO4VjaYSXU)\n- 🎥 [Ankita \\- Stop\\! These Next.js Mistakes are Killing Your App](https://www.youtube.com/watch?v=6ZR5drEQzp4)\n- 🎙️ [This Month in React \\- React 19 is here, 2024 is over](https://creators.spotify.com/pod/show/reactiflux/episodes/TMiR-2024-12-React-19-is-here--2024-is-over-e2sv4o6)"
+      "sourceMdx": "- 💸 [React Native Zero to Hero - Everything you need to ship your first app](https://galaxies.dev/missions/zero-to-hero?utm_source=thisweekinreact)\n- 👀 [React PR \\- “Forgive” IDE extension](https://github.com/facebook/react/pull/31918): The React Compiler team recently [hinted at React Summit](https://www.youtube.com/watch?v=C8Mg-NSyqWg&t=14452s) their intent to create a “React IDE” powered by the compiler, not limited to just linting but also providing educational tooltips and more. Well, there's nothing very interesting to see yet, but work has begun on scaffolding a Language Server Protocol and VSCode extension.\n- 🗓️ [Paris TypeScript La Conf'](https://la-conf.typescript.paris/?utm_source=thisweekinreact) - 🇫🇷 Paris - 28 February - Full speaker line up just dropped! Join Mateusz Burzyński, Elise Patrikainen and David Rousset! Get 20% off tickets with code \"TWIR\"!\n- 📜 [You don't need Next.js](https://www.comfydeploy.com/blog/you-dont-need-nextjs): They migrated dashboards from Next.js 15 to just React with TanStack Router and Rspack with satisfying results.\n- 📜 [Building the Black Friday-Cyber Monday live dashboard](https://vercel.com/blog/building-the-black-friday-cyber-monday-live-dashboard): Vercel presents the technical architecture behind their Next.js-based Black Friday dashboard\n- 📜 [Replacing Legacy throw in React 19 with Suspense and use](https://peterkellner.net/2024/12/31/replacing-legacy-throw-in-react-19-with-suspense-and-use/): There’s a new `use()` hook, but throwing promises still works.\n- 📜 [Remix Security Checklist](https://blog.arcjet.com/remix-security-checklist/)\n- 📜 [Building a simple form in React \\- before and after React 19](https://reactpractice.dev/articles/building-a-simple-form-in-react-before-and-after-react-19/)\n- 📦 [Astro 5.1 \\- Experimental sessions, remote image caching, getActionPath](https://astro.build/blog/astro-510/)\n- 📦 [StyleX 0.10 - PostCSS plugin, better debugging, ESLint/Perf/CLI improvements](https://stylexjs.com/blog/v0.10.0): The new PostCSS plugin should make StyleX easier to adopt in various contexts.\n- 📦 [Fancy Components \\- Collection of funky, unconventional components](https://www.fancycomponents.dev/)\n- 📦 [next-intl 4.0 beta](https://next-intl.dev/blog/next-intl-4-0): type-safety for ICU params is really cool\\! Also lays the ground for the latest Next.js innovations like PPR, dynamicIO, and rootParams.\n- 📦 [React Router 7.1 \\- Support for Vite 6](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v710)\n- 📦 [shadcn/ui CLI \\- Experimental monorepo support](https://ui.shadcn.com/docs/monorepo)\n- 📦 [React Toastify 11.0 \\- Easy customization](https://github.com/fkhadra/react-toastify/releases/tag/v11.0.0)\n- 📦 [TanStack Store 0.7 \\- Derived/Effect classes](https://tanstack.com/store/latest/docs/quick-start#derived)\n- 🎥 [Theo \\- This magic hack makes Next.js possible](https://www.youtube.com/watch?v=VMDydLUCLtE): A great video explaining how Next.js implements PPR and Dynamic IO features using only JS features.\n- 🎥 [Theo \\- I might have a new favorite state manager (XState Store)](https://www.youtube.com/watch?v=Pmieyp75SrA)\n- 🎥 [Lee Robinson \\- Forms with React 19 and Next.js](https://www.youtube.com/watch?v=KhO4VjaYSXU)\n- 🎥 [Ankita \\- Stop\\! These Next.js Mistakes are Killing Your App](https://www.youtube.com/watch?v=6ZR5drEQzp4)\n- 🎙️ [This Month in React \\- React 19 is here, 2024 is over](https://creators.spotify.com/pod/show/reactiflux/episodes/TMiR-2024-12-React-19-is-here--2024-is-over-e2sv4o6)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [React Native 从零到英雄 - 发布首个应用所需的一切](https://galaxies.dev/missions/zero-to-hero?utm_source=thisweekinreact)\n- 👀 [React PR - \"宽恕\"IDE扩展](https://github.com/facebook/react/pull/31918): React Compiler团队近期在[React Summit暗示](https://www.youtube.com/watch?v=C8Mg-NSyqWg&t=14452s)将创建由编译器驱动的\"React IDE\"，不仅限于代码检查，还将提供教育性工具提示等功能。虽然目前尚无实质性内容，但已开始搭建语言服务器协议和VSCode扩展的脚手架。\n- 🗓️ [巴黎TypeScript大会](https://la-conf.typescript.paris/?utm_source=thisweekinreact) - 🇫🇷 巴黎 - 2月28日 - 完整演讲阵容刚刚公布！Mateusz Burzyński、Elise Patrikainen和David Rousset将联袂登场！使用优惠码\"TWIR\"可享门票8折！\n- 📜 [你并不需要Next.js](https://www.comfydeploy.com/blog/you-dont-need-nextjs): 他们将仪表盘从Next.js 15迁移至纯React+TanStack Router+Rspack方案，取得满意效果。\n- 📜 [构建黑色星期五-网络星期一实时仪表盘](https://vercel.com/blog/building-the-black-friday-cyber-monday-live-dashboard): Vercel揭秘其基于Next.js的黑色星期五仪表盘技术架构\n- 📜 [在React 19中用Suspense和use替代传统throw](https://peterkellner.net/2024/12/31/replacing-legacy-throw-in-react-19-with-suspense-and-use/): 新增了`use()`钩子，但抛出promise的方式仍然有效。\n- 📜 [Remix安全清单](https://blog.arcjet.com/remix-security-checklist/)\n- 📜 [构建React简单表单 - React 19前后对比](https://reactpractice.dev/articles/building-a-simple-form-in-react-before-and-after-react-19/)\n- 📦 [Astro 5.1 - 实验性会话、远程图片缓存、getActionPath](https://astro.build/blog/astro-510/)\n- 📦 [StyleX 0.10 - PostCSS插件、调试增强、ESLint/性能/CLI改进](https://stylexjs.com/blog/v0.10.0): 新版PostCSS插件使StyleX更易在各种场景中采用。\n- 📦 [花式组件 - 非常规组件集合](https://www.fancycomponents.dev/)\n- 📦 [next-intl 4.0测试版](https://next-intl.dev/blog/next-intl-4-0): ICU参数的类型安全非常亮眼！同时为PPR、dynamicIO和rootParams等最新Next.js特性奠定基础。\n- 📦 [React Router 7.1 - 支持Vite 6](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v710)\n- 📦 [shadcn/ui CLI - 实验性monorepo支持](https://ui.shadcn.com/docs/monorepo)\n- 📦 [React Toastify 11.0 - 轻松定制](https://github.com/fkhadra/react-toastify/releases/tag/v11.0.0)\n- 📦 [TanStack Store 0.7 - 派生/效果类](https://tanstack.com/store/latest/docs/quick-start#derived)\n- 🎥 [Theo - 这个神奇技巧让Next.js成为可能](https://www.youtube.com/watch?v=VMDydLUCLtE): 精彩视频解析Next.js如何仅用JS特性实现PPR和Dynamic IO功能。\n- 🎥 [Theo - 我可能有了新的状态管理最爱(XState Store)](https://www.youtube.com/watch?v=Pmieyp75SrA)\n- 🎥 [Lee Robinson - 使用React 19和Next.js构建表单](https://www.youtube.com/watch?v=KhO4VjaYSXU)\n- 🎥 [Ankita - 停！这些Next.js错误正在毁掉你的应用](https://www.youtube.com/watch?v=6ZR5drEQzp4)\n- 🎙️ [本月React动态 - React 19来了，2024年落幕](https://creators.spotify.com/pod/show/reactiflux/episodes/TMiR-2024-12-React-19-is-here--2024-is-over-e2sv4o6)"
     },
     {
       "id": "0904148e",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_0904148e"
     },
     {
       "id": "4f2104fa",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "f8edb6d2",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "1862c5fe",
       "translatable": true,
       "content": "[![React-admin: The Open-Source Framework for B2B apps](/emails/issues/187/reactadmin.jpg)](https://marmelab.com/react-admin/)",
-      "sourceMdx": "[![React-admin: The Open-Source Framework for B2B apps](/emails/issues/187/reactadmin.jpg)](https://marmelab.com/react-admin/)"
+      "sourceMdx": "[![React-admin: The Open-Source Framework for B2B apps](/emails/issues/187/reactadmin.jpg)](https://marmelab.com/react-admin/)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React-admin: B2B应用开源框架](/emails/issues/187/reactadmin.jpg)](https://marmelab.com/react-admin/)"
     },
     {
       "id": "6ca4479f",
       "translatable": true,
       "content": "**[React-admin: The Open-Source Framework for B2B apps](https://marmelab.com/react-admin/)**",
-      "sourceMdx": "**[React-admin: The Open-Source Framework for B2B apps](https://marmelab.com/react-admin/)**"
+      "sourceMdx": "**[React-admin: The Open-Source Framework for B2B apps](https://marmelab.com/react-admin/)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[React-admin: B2B应用开源框架](https://marmelab.com/react-admin/)**"
     },
     {
       "id": "a2c0166e",
       "translatable": true,
       "content": "👩🏻‍💻 **For developers, by developers**: React-admin is a free, low-code library that accelerates the development of internal tools, admins or B2B apps. Unlike no-code tools, you use code, ensuring you’re never limited by the framework.",
-      "sourceMdx": "👩🏻‍💻 **For developers, by developers**: React-admin is a free, low-code library that accelerates the development of internal tools, admins or B2B apps. Unlike no-code tools, you use code, ensuring you’re never limited by the framework."
+      "sourceMdx": "👩🏻‍💻 **For developers, by developers**: React-admin is a free, low-code library that accelerates the development of internal tools, admins or B2B apps. Unlike no-code tools, you use code, ensuring you’re never limited by the framework.",
+      "nodeType": "paragraph",
+      "translated_content": "👩🏻‍💻 **开发者打造，为开发者服务**：React-admin 是一个免费的低代码库，能显著加速内部工具、管理后台或B2B应用的开发。与无代码工具不同，它允许您使用代码，确保您永远不会被框架限制。"
     },
     {
       "id": "c1eaf30b",
       "translatable": true,
       "content": "🔌 **Flexible Integration**: React-admin supports any API format (REST or GraphQL) and various authentication backends, including Auth0, Cognito, Google Auth, Active Directory, and Keycloak. You control the server, so there are no extra costs for Single Sign-On (SSO) capabilities. It's fully themeable, allowing you to customize it with your company's colors.",
-      "sourceMdx": "🔌 **Flexible Integration**: React-admin supports any API format (REST or GraphQL) and various authentication backends, including Auth0, Cognito, Google Auth, Active Directory, and Keycloak. You control the server, so there are no extra costs for Single Sign-On (SSO) capabilities. It's fully themeable, allowing you to customize it with your company's colors."
+      "sourceMdx": "🔌 **Flexible Integration**: React-admin supports any API format (REST or GraphQL) and various authentication backends, including Auth0, Cognito, Google Auth, Active Directory, and Keycloak. You control the server, so there are no extra costs for Single Sign-On (SSO) capabilities. It's fully themeable, allowing you to customize it with your company's colors.",
+      "nodeType": "paragraph",
+      "translated_content": "🔌 **灵活集成**：React-admin 支持任何 API 格式（REST 或 GraphQL）以及多种认证后端，包括 Auth0、Cognito、Google Auth、Active Directory 和 Keycloak。您完全掌控服务器端，因此无需为单点登录（SSO）功能支付额外费用。它还支持完全主题定制，您可以用公司品牌色自由调整外观。"
     },
     {
       "id": "f0984c2a",
       "translatable": true,
       "content": "🚀 **Proven Success**: Over 25,000 companies have built single-page applications with React-admin. For your next project, save weeks of development time by using react-admin. [Try react-admin now](https://marmelab.com/react-admin/).",
-      "sourceMdx": "🚀 **Proven Success**: Over 25,000 companies have built single-page applications with React-admin. For your next project, save weeks of development time by using react-admin. [Try react-admin now](https://marmelab.com/react-admin/)."
+      "sourceMdx": "🚀 **Proven Success**: Over 25,000 companies have built single-page applications with React-admin. For your next project, save weeks of development time by using react-admin. [Try react-admin now](https://marmelab.com/react-admin/).",
+      "nodeType": "paragraph",
+      "translated_content": "🚀 **久经验证**：已有超过 25,000 家企业使用 React-admin 构建单页应用。在您的下一个项目中，使用 react-admin 可节省数周开发时间。[立即试用 react-admin](https://marmelab.com/react-admin/)。"
     },
     {
       "id": "bc8bc928",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "722e4930",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "3c19e221",
       "translatable": true,
       "content": "[![Expo - 2024 year in review](/emails/issues/215/expo.jpg)](https://expo.dev/blog/2024-year-in-review)",
-      "sourceMdx": "[![Expo - 2024 year in review](/emails/issues/215/expo.jpg)](https://expo.dev/blog/2024-year-in-review)"
+      "sourceMdx": "[![Expo - 2024 year in review](/emails/issues/215/expo.jpg)](https://expo.dev/blog/2024-year-in-review)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Expo - 2024年度回顾](/emails/issues/215/expo.jpg)](https://expo.dev/blog/2024-year-in-review)"
     },
     {
       "id": "d21af28f",
       "translatable": true,
       "content": "**[Expo - 2024 year in review](https://expo.dev/blog/2024-year-in-review)**",
-      "sourceMdx": "**[Expo \\- 2024 year in review](https://expo.dev/blog/2024-year-in-review)**"
+      "sourceMdx": "**[Expo \\- 2024 year in review](https://expo.dev/blog/2024-year-in-review)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Expo - 2024年度回顾](https://expo.dev/blog/2024-year-in-review)**"
     },
     {
       "id": "44aaa880",
       "translatable": true,
       "content": "To get 2025 off to a good start, let's recap all the great things Expo offered us last year:",
-      "sourceMdx": "To get 2025 off to a good start, let's recap all the great things Expo offered us last year:"
+      "sourceMdx": "To get 2025 off to a good start, let's recap all the great things Expo offered us last year:",
+      "nodeType": "paragraph",
+      "translated_content": "为了让2025年有个好的开始，让我们回顾一下Expo在去年带来的所有亮点："
     },
     {
       "id": "2a1e835c",
       "translatable": true,
       "content": "* Expo SDKs v50, v51, v52\n* Support for New Arch by default\n* Expo Router v3, v4\n* DOM components\n* Fingerprinting\n* Atlas & DevTools\n* expo.new\n* Workflows\n* Environment variables, security activity, and audit logs",
-      "sourceMdx": "- Expo SDKs v50, v51, v52\n- Support for New Arch by default\n- Expo Router v3, v4\n- DOM components\n- Fingerprinting\n- Atlas & DevTools\n- expo.new\n- Workflows\n- Environment variables, security activity, and audit logs"
+      "sourceMdx": "- Expo SDKs v50, v51, v52\n- Support for New Arch by default\n- Expo Router v3, v4\n- DOM components\n- Fingerprinting\n- Atlas & DevTools\n- expo.new\n- Workflows\n- Environment variables, security activity, and audit logs",
+      "nodeType": "list",
+      "translated_content": "- Expo SDK v50、v51、v52\n- 默认支持新架构（New Arch）\n- Expo Router v3、v4\n- DOM组件\n- 指纹识别\n- Atlas & DevTools\n- expo.new\n- 工作流\n- 环境变量、安全活动和审计日志"
     },
     {
       "id": "714b728f",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "cd2fd2f2",
       "translatable": true,
       "content": "* 💸 [Demos - 90+ React Native animations crafted with Reanimated, Gesture Handler, and Skia, by Reactiive](https://reactiive.io/demos?utm_source=thisweekinreact)\n* 👀 [RN Skia PR - macOS support](https://github.com/Shopify/react-native-skia/pull/2836)\n* 📊 [State of React Native](https://stateofreactnative.com/): Last week to answer the annual community survey!\n* 📜 [Static Hermes Update, Dec 2024](https://x.com/tmikov/status/1869945330638442651): Static Hermes is expected to roll out in 2025, initially opt-in, then enabled by default. It can compile and execute both typed and untyped code. Benchmarks show it’s already significantly faster on untyped code, particularly with JIT mode when Hermes can infer types. No benchmark was provided for typed code, but we can expect it to be much faster! The improved ES compliance will also permit to remove heavy Babel plugins. TLDR: in 2025 you can expect a great speed increase of both build and runtime.\n* 📜 [How to create beautiful glowing components on React Native 0.76+](https://www.devas.life/how-to-create-beautiful-glowing-components-on-react-native-0-76/): box-shadow support and New Architecture unlock new creative possibilities.\n* 📜 [From Native to Multiplatform Development: Unpacking Kotlin and Compose](https://www.callstack.com/blog/from-native-to-multiplatform-development-unpacking-kotlin-and-compose): Explains the Android Kotlin ecosystem from the perspective of a React Native dev.\n* 📜 [The Time for React Native is Now](https://galaxies.dev/article/time-for-react-native)\n* 📜 [Why Expo is a great fit for new and existing React Native apps](https://expo.dev/blog/why-expo-is-a-great-fit-for-new-and-existing-react-native-apps)\n* 📜 [Skeleton Animation in React Native with Moti](https://reactiive.io/articles/skeleton-loader)\n* 📦 [RN ExecuTorch 0.2 - Support for Computer Vision models](https://github.com/software-mansion/react-native-executorch/releases/tag/v0.2.0)\n* 📦 [RN Volume Manager 2.0 - New Architecture support](https://github.com/hirbod/react-native-volume-manager/releases/tag/v2.0.1)\n* 📦 [RN Skia 1.8 - New reconciler on React Native Web](https://github.com/Shopify/react-native-skia/releases/tag/v1.8.0)\n* 📦 [RN 0.77 RC.5](https://github.com/facebook/react-native/releases/tag/v0.77.0-rc.5)\n* 📦 [RN Windows 0.77 preview.1](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.77.0-preview.1)\n* 📦 [RN Screens 4.4 - Important fixes](https://github.com/software-mansion/react-native-screens/releases/tag/4.4.0)\n* 🎥 [Dan’s Lab - Trigonometry and React-Native Skia - My Take](https://www.youtube.com/watch?v=r5P7Z3O8Jog)\n* 🎙️ [React Universe On Air - Evan Bacon on Universal React Native Apps, DOM & React Server Component](https://www.youtube.com/watch?v=rA7E3rGKSZw)\n* 🎙️ [RNR - React Native Rewind 2024](https://www.reactnativeradio.com/episodes/rnr-317-react-native-rewind-2024)",
-      "sourceMdx": "- 💸 [Demos \\- 90+ React Native animations crafted with Reanimated, Gesture Handler, and Skia, by Reactiive](https://reactiive.io/demos?utm_source=thisweekinreact)\n- 👀 [RN Skia PR \\- macOS support](https://github.com/Shopify/react-native-skia/pull/2836)\n- 📊 [State of React Native](https://stateofreactnative.com/): Last week to answer the annual community survey\\!\n- 📜 [Static Hermes Update, Dec 2024](https://x.com/tmikov/status/1869945330638442651): Static Hermes is expected to roll out in 2025, initially opt-in, then enabled by default. It can compile and execute both typed and untyped code. Benchmarks show it’s already significantly faster on untyped code, particularly with JIT mode when Hermes can infer types. No benchmark was provided for typed code, but we can expect it to be much faster\\! The improved ES compliance will also permit to remove heavy Babel plugins. TLDR: in 2025 you can expect a great speed increase of both build and runtime.\n- 📜 [How to create beautiful glowing components on React Native 0.76+](https://www.devas.life/how-to-create-beautiful-glowing-components-on-react-native-0-76/): box-shadow support and New Architecture unlock new creative possibilities.\n- 📜 [From Native to Multiplatform Development: Unpacking Kotlin and Compose](https://www.callstack.com/blog/from-native-to-multiplatform-development-unpacking-kotlin-and-compose): Explains the Android Kotlin ecosystem from the perspective of a React Native dev.\n- 📜 [The Time for React Native is Now](https://galaxies.dev/article/time-for-react-native)\n- 📜 [Why Expo is a great fit for new and existing React Native apps](https://expo.dev/blog/why-expo-is-a-great-fit-for-new-and-existing-react-native-apps)\n- 📜 [Skeleton Animation in React Native with Moti](https://reactiive.io/articles/skeleton-loader)\n- 📦 [RN ExecuTorch 0.2 \\- Support for Computer Vision models](https://github.com/software-mansion/react-native-executorch/releases/tag/v0.2.0)\n- 📦 [RN Volume Manager 2.0 \\- New Architecture support](https://github.com/hirbod/react-native-volume-manager/releases/tag/v2.0.1)\n- 📦 [RN Skia 1.8 \\- New reconciler on React Native Web](https://github.com/Shopify/react-native-skia/releases/tag/v1.8.0)\n- 📦 [RN 0.77 RC.5](https://github.com/facebook/react-native/releases/tag/v0.77.0-rc.5)\n- 📦 [RN Windows 0.77 preview.1](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.77.0-preview.1)\n- 📦 [RN Screens 4.4 \\- Important fixes](https://github.com/software-mansion/react-native-screens/releases/tag/4.4.0)\n- 🎥 [Dan’s Lab \\- Trigonometry and React-Native Skia \\- My Take](https://www.youtube.com/watch?v=r5P7Z3O8Jog)\n- 🎙️ [React Universe On Air \\- Evan Bacon on Universal React Native Apps, DOM & React Server Component](https://www.youtube.com/watch?v=rA7E3rGKSZw)\n- 🎙️ [RNR \\- React Native Rewind 2024](https://www.reactnativeradio.com/episodes/rnr-317-react-native-rewind-2024)"
+      "sourceMdx": "- 💸 [Demos \\- 90+ React Native animations crafted with Reanimated, Gesture Handler, and Skia, by Reactiive](https://reactiive.io/demos?utm_source=thisweekinreact)\n- 👀 [RN Skia PR \\- macOS support](https://github.com/Shopify/react-native-skia/pull/2836)\n- 📊 [State of React Native](https://stateofreactnative.com/): Last week to answer the annual community survey\\!\n- 📜 [Static Hermes Update, Dec 2024](https://x.com/tmikov/status/1869945330638442651): Static Hermes is expected to roll out in 2025, initially opt-in, then enabled by default. It can compile and execute both typed and untyped code. Benchmarks show it’s already significantly faster on untyped code, particularly with JIT mode when Hermes can infer types. No benchmark was provided for typed code, but we can expect it to be much faster\\! The improved ES compliance will also permit to remove heavy Babel plugins. TLDR: in 2025 you can expect a great speed increase of both build and runtime.\n- 📜 [How to create beautiful glowing components on React Native 0.76+](https://www.devas.life/how-to-create-beautiful-glowing-components-on-react-native-0-76/): box-shadow support and New Architecture unlock new creative possibilities.\n- 📜 [From Native to Multiplatform Development: Unpacking Kotlin and Compose](https://www.callstack.com/blog/from-native-to-multiplatform-development-unpacking-kotlin-and-compose): Explains the Android Kotlin ecosystem from the perspective of a React Native dev.\n- 📜 [The Time for React Native is Now](https://galaxies.dev/article/time-for-react-native)\n- 📜 [Why Expo is a great fit for new and existing React Native apps](https://expo.dev/blog/why-expo-is-a-great-fit-for-new-and-existing-react-native-apps)\n- 📜 [Skeleton Animation in React Native with Moti](https://reactiive.io/articles/skeleton-loader)\n- 📦 [RN ExecuTorch 0.2 \\- Support for Computer Vision models](https://github.com/software-mansion/react-native-executorch/releases/tag/v0.2.0)\n- 📦 [RN Volume Manager 2.0 \\- New Architecture support](https://github.com/hirbod/react-native-volume-manager/releases/tag/v2.0.1)\n- 📦 [RN Skia 1.8 \\- New reconciler on React Native Web](https://github.com/Shopify/react-native-skia/releases/tag/v1.8.0)\n- 📦 [RN 0.77 RC.5](https://github.com/facebook/react-native/releases/tag/v0.77.0-rc.5)\n- 📦 [RN Windows 0.77 preview.1](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.77.0-preview.1)\n- 📦 [RN Screens 4.4 \\- Important fixes](https://github.com/software-mansion/react-native-screens/releases/tag/4.4.0)\n- 🎥 [Dan’s Lab \\- Trigonometry and React-Native Skia \\- My Take](https://www.youtube.com/watch?v=r5P7Z3O8Jog)\n- 🎙️ [React Universe On Air \\- Evan Bacon on Universal React Native Apps, DOM & React Server Component](https://www.youtube.com/watch?v=rA7E3rGKSZw)\n- 🎙️ [RNR \\- React Native Rewind 2024](https://www.reactnativeradio.com/episodes/rnr-317-react-native-rewind-2024)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [演示集锦 - 由Reactiive打造的90+个基于Reanimated、Gesture Handler和Skia的React Native动画](https://reactiive.io/demos?utm_source=thisweekinreact)\n- 👀 [RN Skia PR - 新增macOS支持](https://github.com/Shopify/react-native-skia/pull/2836)\n- 📊 [React Native现状调查](https://stateofreactnative.com/)：参与年度社区调查的最后机会！\n- 📜 [静态Hermes更新，2024年12月](https://x.com/tmikov/status/1869945330638442651)：静态Hermes预计2025年推出，初期可选启用，后续将默认开启。该版本能编译执行类型化和非类型化代码。基准测试显示其在非类型化代码上已显著提速，尤其在JIT模式下当Hermes能推断类型时。虽未提供类型化代码的基准数据，但预计会有更大性能提升！增强的ES兼容性也将移除繁重的Babel插件。简言之：2025年你将获得构建和运行时的双重性能飞跃。\n- 📜 [如何在React Native 0.76+上创建炫光组件](https://www.devas.life/how-to-create-beautiful-glowing-components-on-react-native-0-76/)：盒阴影支持与新架构解锁了全新创意可能。\n- 📜 [从原生到跨平台开发：解读Kotlin与Compose](https://www.callstack.com/blog/from-native-to-multiplatform-development-unpacking-kotlin-and-compose)：从React Native开发者视角解析Android Kotlin生态。\n- 📜 [React Native的黄金时代已至](https://galaxies.dev/article/time-for-react-native)\n- 📜 [为何Expo是新老React Native应用的理想选择](https://expo.dev/blog/why-expo-is-a-great-fit-for-new-and-existing-react-native-apps)\n- 📜 [使用Moti实现React Native骨架屏动画](https://reactiive.io/articles/skeleton-loader)\n- 📦 [RN ExecuTorch 0.2 - 支持计算机视觉模型](https://github.com/software-mansion/react-native-executorch/releases/tag/v0.2.0)\n- 📦 [RN音量管理器2.0 - 支持新架构](https://github.com/hirbod/react-native-volume-manager/releases/tag/v2.0.1)\n- 📦 [RN Skia 1.8 - React Native Web上的新协调器](https://github.com/Shopify/react-native-skia/releases/tag/v1.8.0)\n- 📦 [RN 0.77 RC.5](https://github.com/facebook/react-native/releases/tag/v0.77.0-rc.5)\n- 📦 [RN Windows 0.77预览版1](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.77.0-preview.1)\n- 📦 [RN Screens 4.4 - 重要修复](https://github.com/software-mansion/react-native-screens/releases/tag/4.4.0)\n- 🎥 [Dan的实验室 - React-Native Skia中的三角函数实践](https://www.youtube.com/watch?v=r5P7Z3O8Jog)\n- 🎙️ [React Universe On Air - Evan Bacon谈通用React Native应用、DOM与React服务端组件](https://www.youtube.com/watch?v=rA7E3rGKSZw)\n- 🎙️ [RNR - 2024年React Native年度回顾](https://www.reactnativeradio.com/episodes/rnr-317-react-native-rewind-2024)"
     },
     {
       "id": "ac00ead3",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "671cbf7c",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他 {#other}"
     },
     {
       "id": "1852dfef",
       "translatable": true,
       "content": "* 📜 [Node.js Now Supports TypeScript By Default](https://www.totaltypescript.com/typescript-is-coming-to-node-23): The upcoming Node.js release v23.6 (and later v22.x) will be able to run `.ts` files by default! 🔥\n* 📜 [Breaking Up with Long Tasks](https://calendar.perfplanet.com/2024/breaking-up-with-long-tasks-or-how-i-learned-to-group-loops-and-wield-the-yield/)\n* 📦 [Shortest - AI-powered natural language end-to-end testing framework](https://github.com/anti-work/shortest)\n* 📦 [Rolldown 1.0 beta](https://github.com/rolldown/rolldown/releases/tag/v1.0.0-beta.1): An official release of Vite running on Rolldown is expected in early 2025.\n* 📦 [Skip - The reactive framework](https://skiplabs.io/): It’s like “React for the backend” according to Christopher Chedeau. 👀\n* 📦 [Rspack 1.2 alpha - Experimental persistent caching, perf improvements](https://github.com/web-infra-dev/rspack/releases/tag/v1.2.0-alpha.0)\n* 📦 [pnpm 10.0 RC - Increased security, whitelist packages allowed to run install scripts](https://github.com/pnpm/pnpm/releases/tag/v10.0.0-rc.2)\n* 📦 [Languine - Translate your application with a CLI powered by AI](https://languine.ai/)",
-      "sourceMdx": "- 📜 [Node.js Now Supports TypeScript By Default](https://www.totaltypescript.com/typescript-is-coming-to-node-23): The upcoming Node.js release v23.6 (and later v22.x) will be able to run `.ts` files by default\\! 🔥\n- 📜 [Breaking Up with Long Tasks](https://calendar.perfplanet.com/2024/breaking-up-with-long-tasks-or-how-i-learned-to-group-loops-and-wield-the-yield/)\n- 📦 [Shortest \\- AI-powered natural language end-to-end testing framework](https://github.com/anti-work/shortest)\n- 📦 [Rolldown 1.0 beta](https://github.com/rolldown/rolldown/releases/tag/v1.0.0-beta.1): An official release of Vite running on Rolldown is expected in early 2025\\.\n- 📦 [Skip \\- The reactive framework](https://skiplabs.io/): It’s like “React for the backend” according to Christopher Chedeau. 👀\n- 📦 [Rspack 1.2 alpha \\- Experimental persistent caching, perf improvements](https://github.com/web-infra-dev/rspack/releases/tag/v1.2.0-alpha.0)\n- 📦 [pnpm 10.0 RC \\- Increased security, whitelist packages allowed to run install scripts](https://github.com/pnpm/pnpm/releases/tag/v10.0.0-rc.2)\n- 📦 [Languine \\- Translate your application with a CLI powered by AI](https://languine.ai/)"
+      "sourceMdx": "- 📜 [Node.js Now Supports TypeScript By Default](https://www.totaltypescript.com/typescript-is-coming-to-node-23): The upcoming Node.js release v23.6 (and later v22.x) will be able to run `.ts` files by default\\! 🔥\n- 📜 [Breaking Up with Long Tasks](https://calendar.perfplanet.com/2024/breaking-up-with-long-tasks-or-how-i-learned-to-group-loops-and-wield-the-yield/)\n- 📦 [Shortest \\- AI-powered natural language end-to-end testing framework](https://github.com/anti-work/shortest)\n- 📦 [Rolldown 1.0 beta](https://github.com/rolldown/rolldown/releases/tag/v1.0.0-beta.1): An official release of Vite running on Rolldown is expected in early 2025\\.\n- 📦 [Skip \\- The reactive framework](https://skiplabs.io/): It’s like “React for the backend” according to Christopher Chedeau. 👀\n- 📦 [Rspack 1.2 alpha \\- Experimental persistent caching, perf improvements](https://github.com/web-infra-dev/rspack/releases/tag/v1.2.0-alpha.0)\n- 📦 [pnpm 10.0 RC \\- Increased security, whitelist packages allowed to run install scripts](https://github.com/pnpm/pnpm/releases/tag/v10.0.0-rc.2)\n- 📦 [Languine \\- Translate your application with a CLI powered by AI](https://languine.ai/)",
+      "nodeType": "list",
+      "translated_content": "- 📜 [Node.js 现已默认支持 TypeScript](https://www.totaltypescript.com/typescript-is-coming-to-node-23)：即将发布的 Node.js v23.6（及后续 v22.x 版本）将默认支持直接运行 `.ts` 文件！🔥\n- 📜 [与长任务说再见](https://calendar.perfplanet.com/2024/breaking-up-with-long-tasks-or-how-i-learned-to-group-loops-and-wield-the-yield/)\n- 📦 [Shortest - 基于AI的自然语言端到端测试框架](https://github.com/anti-work/shortest)\n- 📦 [Rolldown 1.0 测试版](https://github.com/rolldown/rolldown/releases/tag/v1.0.0-beta.1)：预计2025年初将发布基于Rolldown的Vite正式版本\n- 📦 [Skip - 响应式框架](https://skiplabs.io/)：Christopher Chedeau称其如同\"后端的React\" 👀\n- 📦 [Rspack 1.2 alpha - 实验性持久化缓存，性能提升](https://github.com/web-infra-dev/rspack/releases/tag/v1.2.0-alpha.0)\n- 📦 [pnpm 10.0 RC - 增强安全性，新增允许运行安装脚本的白名单包功能](https://github.com/pnpm/pnpm/releases/tag/v10.0.0-rc.2)\n- 📦 [Languine - 通过AI驱动的CLI工具翻译你的应用](https://languine.ai/)"
     },
     {
       "id": "a0d6d6c7",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "a5905b07",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 轻松一刻 {#fun}"
     },
     {
       "id": "fd7ed056",
       "translatable": true,
       "content": "[![alt](/emails/issues/215/meme.jpg)](https://bsky.app/profile/brandonroberts.dev/post/3ld74oultjc2g)",
-      "sourceMdx": "[![alt](/emails/issues/215/meme.jpg)](https://bsky.app/profile/brandonroberts.dev/post/3ld74oultjc2g)"
+      "sourceMdx": "[![alt](/emails/issues/215/meme.jpg)](https://bsky.app/profile/brandonroberts.dev/post/3ld74oultjc2g)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/215/meme.jpg)](https://bsky.app/profile/brandonroberts.dev/post/3ld74oultjc2g)"
     },
     {
       "id": "b08ad0b4",
       "translatable": true,
       "content": "[![alt](/emails/issues/215/meme2.jpg)](https://x.com/flydotio/status/1873840239166226548)",
-      "sourceMdx": "[![alt](/emails/issues/215/meme2.jpg)](https://x.com/flydotio/status/1873840239166226548)"
+      "sourceMdx": "[![alt](/emails/issues/215/meme2.jpg)](https://x.com/flydotio/status/1873840239166226548)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/215/meme2.jpg)](https://x.com/flydotio/status/1873840239166226548)"
     },
     {
       "id": "d636abf8",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下次见！👋"
     }
   ]
 }

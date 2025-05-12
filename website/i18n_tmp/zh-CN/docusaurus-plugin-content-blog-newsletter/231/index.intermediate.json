@@ -1,371 +1,493 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/231/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/231/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /231\ntitle: \"This Week In React #231: React Labs, Compiler, React Router, Next.js, TanStack Query, c15t, RTK, Base UI | Legend List, FlashList, Versioning, Metro, ExecuTorch, Brownfield, Expo Router | TC39, Surveys, Rspack, tsdown\"\nauthors: [matthieugicquel, cyrilbo]\ndate: 04-23-2025\n---",
-      "sourceMdx": "---\nslug: /231\ntitle: \"This Week In React #231: React Labs, Compiler, React Router, Next.js, TanStack Query, c15t, RTK, Base UI | Legend List, FlashList, Versioning, Metro, ExecuTorch, Brownfield, Expo Router | TC39, Surveys, Rspack, tsdown\"\nauthors: [matthieugicquel, cyrilbo]\ndate: 04-23-2025\n---"
+      "sourceMdx": "---\nslug: /231\ntitle: \"This Week In React #231: React Labs, Compiler, React Router, Next.js, TanStack Query, c15t, RTK, Base UI | Legend List, FlashList, Versioning, Metro, ExecuTorch, Brownfield, Expo Router | TC39, Surveys, Rspack, tsdown\"\nauthors: [matthieugicquel, cyrilbo]\ndate: 04-23-2025\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "Cyril and Matthieu from [Theodo Apps](https://apps.theodo.com/en?utm_source=thisweekinreact) here 👋, standing in for Seb to bring you the latest news from the React and React Native worlds.",
-      "sourceMdx": "Cyril and Matthieu from [Theodo Apps](https://apps.theodo.com/en?utm_source=thisweekinreact) here 👋, standing in for Seb to bring you the latest news from the React and React Native worlds."
+      "sourceMdx": "Cyril and Matthieu from [Theodo Apps](https://apps.theodo.com/en?utm_source=thisweekinreact) here 👋, standing in for Seb to bring you the latest news from the React and React Native worlds.",
+      "nodeType": "paragraph",
+      "translated_content": "我们是来自 [Theodo Apps](https://apps.theodo.com/en?utm_source=thisweekinreact) 的 Cyril 和 Matthieu 👋，本周将代替 Seb 为大家带来 React 和 React Native 领域的最新动态。"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "This week, we have two exciting blog posts for the React team, and a special guest from the React core team has a message for you all!",
-      "sourceMdx": "This week, we have two exciting blog posts for the React team, and a special guest from the React core team has a message for you all!"
+      "sourceMdx": "This week, we have two exciting blog posts for the React team, and a special guest from the React core team has a message for you all!",
+      "nodeType": "paragraph",
+      "translated_content": "本周，React 团队发布了两篇令人兴奋的博客文章，同时 React 核心团队的一位特别嘉宾也为大家带来了寄语！"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "We've also been reading quite a few interesting blog posts from the \"official\" blogs and the community.",
-      "sourceMdx": "We've also been reading quite a few interesting blog posts from the \"official\" blogs and the community."
+      "sourceMdx": "We've also been reading quite a few interesting blog posts from the \"official\" blogs and the community.",
+      "nodeType": "paragraph",
+      "translated_content": "我们还阅读了大量来自\"官方\"博客和社区的精彩技术文章。"
     },
     {
       "id": "6429a3aa",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_6429a3aa"
     },
     {
       "id": "6c991806",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_6c991806"
     },
     {
       "id": "8f488ab5",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_8f488ab5"
     },
     {
       "id": "fb3d50cd",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "95b38f97",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "ccc88b4c",
       "translatable": true,
       "content": "[![Convex: The Database Designed for AI Coding](/emails/issues/227/convex.jpg)](https://convex.link/thisweekai)",
-      "sourceMdx": "[![Convex: The Database Designed for AI Coding](/emails/issues/227/convex.jpg)](https://convex.link/thisweekai)"
+      "sourceMdx": "[![Convex: The Database Designed for AI Coding](/emails/issues/227/convex.jpg)](https://convex.link/thisweekai)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Convex：专为AI编程设计的数据库](/emails/issues/227/convex.jpg)](https://convex.link/thisweekai)"
     },
     {
       "id": "d9172fa4",
       "translatable": true,
       "content": "**[Convex: The Database Designed for AI Coding](https://convex.link/thisweekai)**",
-      "sourceMdx": "**[Convex: The Database Designed for AI Coding](https://convex.link/thisweekai)**"
+      "sourceMdx": "**[Convex: The Database Designed for AI Coding](https://convex.link/thisweekai)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Convex：专为AI编程设计的数据库](https://convex.link/thisweekai)**"
     },
     {
       "id": "26524352",
       "translatable": true,
       "content": "In the age of code generation, you need a backend that you can confidently generate with AI platforms. Convex is by far and away [best in class](https://stack.convex.dev/introducing-fullstack-bench) in this respect.",
-      "sourceMdx": "In the age of code generation, you need a backend that you can confidently generate with AI platforms. Convex is by far and away [best in class](https://stack.convex.dev/introducing-fullstack-bench) in this respect."
+      "sourceMdx": "In the age of code generation, you need a backend that you can confidently generate with AI platforms. Convex is by far and away [best in class](https://stack.convex.dev/introducing-fullstack-bench) in this respect.",
+      "nodeType": "paragraph",
+      "translated_content": "在代码生成时代，您需要一个能与AI平台无缝协作的后端系统。Convex 在这方面 [遥遥领先](https://stack.convex.dev/introducing-fullstack-bench)，是当之无愧的行业标杆。"
     },
     {
       "id": "73ab96a3",
       "translatable": true,
       "content": "This is because Convex is just TypeScript, allowing you to write [queries as code](https://docs.convex.dev/functions/query-functions/) that are automatically transactional, cached, and realtime.",
-      "sourceMdx": "This is because Convex is just TypeScript, allowing you to write [queries as code](https://docs.convex.dev/functions/query-functions/) that are automatically transactional, cached, and realtime."
+      "sourceMdx": "This is because Convex is just TypeScript, allowing you to write [queries as code](https://docs.convex.dev/functions/query-functions/) that are automatically transactional, cached, and realtime.",
+      "nodeType": "paragraph",
+      "translated_content": "因为 Convex 完全基于 TypeScript，允许您编写自动具备事务性、缓存和实时特性的 [代码化查询](https://docs.convex.dev/functions/query-functions/)。"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "And that’s just the beginning. With Convex, you can:",
-      "sourceMdx": "And that’s just the beginning. With Convex, you can:"
+      "sourceMdx": "And that’s just the beginning. With Convex, you can:",
+      "nodeType": "paragraph",
+      "translated_content": "而这只是开始。使用 Convex 您还可以："
     },
     {
       "id": "7a2e981c",
       "translatable": true,
       "content": "* Easily schedule functions and write cron jobs\n* Set up file storage\n* Write efficient server functions\n* And so much more…",
-      "sourceMdx": "- Easily schedule functions and write cron jobs\n- Set up file storage\n- Write efficient server functions\n- And so much more…"
+      "sourceMdx": "- Easily schedule functions and write cron jobs\n- Set up file storage\n- Write efficient server functions\n- And so much more…",
+      "nodeType": "list",
+      "translated_content": "- 轻松调度函数和编写定时任务\n- 设置文件存储\n- 编写高效的服务器函数\n- 以及更多功能..."
     },
     {
       "id": "3cfe6286",
       "translatable": true,
       "content": "[Try a Quickstart today](https://docs.convex.dev/quickstarts)",
-      "sourceMdx": "[Try a Quickstart today](https://docs.convex.dev/quickstarts)"
+      "sourceMdx": "[Try a Quickstart today](https://docs.convex.dev/quickstarts)",
+      "nodeType": "paragraph",
+      "translated_content": "[立即尝试快速入门](https://docs.convex.dev/quickstarts)"
     },
     {
       "id": "76a8033c",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "35a77014",
       "translatable": true,
       "content": "## 📣 From the React team",
-      "sourceMdx": "## 📣 From the React team {#react-core-team}"
+      "sourceMdx": "## 📣 From the React team {#react-core-team}",
+      "nodeType": "heading",
+      "translated_content": "## 📣 来自 React 团队 {#react-core-team}"
     },
     {
       "id": "13d9cd70",
       "translatable": true,
       "content": "[![React Labs: View Transitions, Activity, and more](/emails/issues/231/labs.jpg)](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more)",
-      "sourceMdx": "[![React Labs: View Transitions, Activity, and more](/emails/issues/231/labs.jpg)](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more)"
+      "sourceMdx": "[![React Labs: View Transitions, Activity, and more](/emails/issues/231/labs.jpg)](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React Labs：视图过渡、Activity 等新特性](/emails/issues/231/labs.jpg)](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more)"
     },
     {
       "id": "29528c8d",
       "translatable": true,
       "content": "**[React Labs: View Transitions, Activity, and more](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more)**",
-      "sourceMdx": "**[React Labs: View Transitions, Activity, and more](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more)**"
+      "sourceMdx": "**[React Labs: View Transitions, Activity, and more](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[React Labs：视图过渡、Activity 等新特性](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more)**"
     },
     {
       "id": "c504c207",
       "translatable": true,
       "content": "The rumors you’ve heard that the React Team only cares about the server have been greatly exaggerated.",
-      "sourceMdx": "The rumors you’ve heard that the React Team only cares about the server have been greatly exaggerated."
+      "sourceMdx": "The rumors you’ve heard that the React Team only cares about the server have been greatly exaggerated.",
+      "nodeType": "paragraph",
+      "translated_content": "关于\"React 团队只关注服务端\"的传言实在言过其实。"
     },
     {
       "id": "98d26038",
       "translatable": true,
       "content": "In our [React Labs post](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more) today, we shared that [View Transitions](https://react.dev/reference/react/ViewTransition) and [Activity](https://react.dev/reference/react/Activity) are now ready to try out in our experimental channel, along with docs for each. These new features allow React running on the client to animate UI transitions, and hide and show parts of the UI as the user navigates client-side. They work with server features, but are aimed at solving problems on the client.",
-      "sourceMdx": "In our [React Labs post](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more) today, we shared that [View Transitions](https://react.dev/reference/react/ViewTransition) and [Activity](https://react.dev/reference/react/Activity) are now ready to try out in our experimental channel, along with docs for each. These new features allow React running on the client to animate UI transitions, and hide and show parts of the UI as the user navigates client-side. They work with server features, but are aimed at solving problems on the client."
+      "sourceMdx": "In our [React Labs post](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more) today, we shared that [View Transitions](https://react.dev/reference/react/ViewTransition) and [Activity](https://react.dev/reference/react/Activity) are now ready to try out in our experimental channel, along with docs for each. These new features allow React running on the client to animate UI transitions, and hide and show parts of the UI as the user navigates client-side. They work with server features, but are aimed at solving problems on the client.",
+      "nodeType": "paragraph",
+      "translated_content": "在今天的 [React Labs 文章](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more)中，我们宣布 [视图过渡](https://react.dev/reference/react/ViewTransition) 和 [Activity](https://react.dev/reference/react/Activity) 功能已进入实验频道，并提供了相关文档。这些新特性让运行在客户端的 React 能够实现UI过渡动画，并在客户端导航时动态显示/隐藏部分界面。它们虽然能与服务端特性协同工作，但主要解决的是客户端问题。"
     },
     {
       "id": "d3649a1e",
       "translatable": true,
       "content": "We also [shared updates](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more#features-in-development) on problem areas we’re focusing on that impact client-rendered apps including better profiling tools, automatically compiling effect dependencies, a potential IDE extension, fragment refs, and yes even a concurrent store. These are problem areas we’ve wanted to address for a while, which recent features like the React Compiler and the `use` API allow us to finally tackle.",
-      "sourceMdx": "We also [shared updates](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more#features-in-development) on problem areas we’re focusing on that impact client-rendered apps including better profiling tools, automatically compiling effect dependencies, a potential IDE extension, fragment refs, and yes even a concurrent store. These are problem areas we’ve wanted to address for a while, which recent features like the React Compiler and the `use` API allow us to finally tackle."
+      "sourceMdx": "We also [shared updates](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more#features-in-development) on problem areas we’re focusing on that impact client-rendered apps including better profiling tools, automatically compiling effect dependencies, a potential IDE extension, fragment refs, and yes even a concurrent store. These are problem areas we’ve wanted to address for a while, which recent features like the React Compiler and the `use` API allow us to finally tackle.",
+      "nodeType": "paragraph",
+      "translated_content": "我们还 [同步了](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more#features-in-development) 正在攻关的客户端渲染应用痛点，包括：更优的性能分析工具、自动编译 effect 依赖项、潜在的IDE扩展、片段引用(refs)，甚至包括一个并发存储方案。这些都是我们长期想解决的难题，而 React 编译器和 `use` API 等新特性终于让我们有了突破的可能。"
     },
     {
       "id": "4d52a261",
       "translatable": true,
       "content": "These features are still early and might change significantly before they’re ready to try. You can follow along while we build these features, and this newsletter is a great way to stay up to date. But don’t stress about learning everything - you can let us cook first.",
-      "sourceMdx": "These features are still early and might change significantly before they’re ready to try. You can follow along while we build these features, and this newsletter is a great way to stay up to date. But don’t stress about learning everything \\- you can let us cook first."
+      "sourceMdx": "These features are still early and might change significantly before they’re ready to try. You can follow along while we build these features, and this newsletter is a great way to stay up to date. But don’t stress about learning everything \\- you can let us cook first.",
+      "nodeType": "paragraph",
+      "translated_content": "这些功能尚处早期阶段，正式发布前可能还会有重大调整。您可以通过本通讯持续关注我们的开发进展，但不必急于学习所有内容——不妨先让我们完成烹饪过程。"
     },
     {
       "id": "23dfb152",
       "translatable": true,
       "content": "When we’re more confident a feature will ship, we’ll announce it on the blog and publish docs, like we’re doing today for View Transitions and Activity.",
-      "sourceMdx": "When we’re more confident a feature will ship, we’ll announce it on the blog and publish docs, like we’re doing today for View Transitions and Activity."
+      "sourceMdx": "When we’re more confident a feature will ship, we’ll announce it on the blog and publish docs, like we’re doing today for View Transitions and Activity.",
+      "nodeType": "paragraph",
+      "translated_content": "当我们确定某个功能即将发布时，会像今天的视图过渡和 Activity 功能一样，通过博客官宣并发布文档。"
     },
     {
       "id": "1131ef75",
       "translatable": true,
       "content": "Give the new experimental features a try, and check out the areas we’re working on in the [blog post](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more).",
-      "sourceMdx": "Give the new experimental features a try, and check out the areas we’re working on in the [blog post](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more)."
+      "sourceMdx": "Give the new experimental features a try, and check out the areas we’re working on in the [blog post](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more).",
+      "nodeType": "paragraph",
+      "translated_content": "欢迎试用这些实验性功能，并通过 [博客文章](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more) 了解我们的重点攻关方向。"
     },
     {
       "id": "8b2a52b1",
       "translatable": true,
       "content": "-[Ricky Hanlon](https://bsky.app/profile/ricky.fm)",
-      "sourceMdx": "\\-[Ricky Hanlon](https://bsky.app/profile/ricky.fm)"
+      "sourceMdx": "\\-[Ricky Hanlon](https://bsky.app/profile/ricky.fm)",
+      "nodeType": "paragraph",
+      "translated_content": "\\-[Ricky Hanlon](https://bsky.app/profile/ricky.fm)"
     },
     {
       "id": "42c293cc",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "a5a4323e",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React {#react}"
     },
     {
       "id": "657c2b20",
       "translatable": true,
       "content": "[![React Compiler RC](/emails/issues/231/compiler.jpg)](https://react.dev/blog/2025/04/21/react-compiler-rc)",
-      "sourceMdx": "[![React Compiler RC](/emails/issues/231/compiler.jpg)](https://react.dev/blog/2025/04/21/react-compiler-rc)"
+      "sourceMdx": "[![React Compiler RC](/emails/issues/231/compiler.jpg)](https://react.dev/blog/2025/04/21/react-compiler-rc)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React 编译器候选版](/emails/issues/231/compiler.jpg)](https://react.dev/blog/2025/04/21/react-compiler-rc)"
     },
     {
       "id": "e7772088",
       "translatable": true,
       "content": "**[React Compiler RC](https://react.dev/blog/2025/04/21/react-compiler-rc)**",
-      "sourceMdx": "**[React Compiler RC](https://react.dev/blog/2025/04/21/react-compiler-rc)**"
+      "sourceMdx": "**[React Compiler RC](https://react.dev/blog/2025/04/21/react-compiler-rc)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[React 编译器候选版](https://react.dev/blog/2025/04/21/react-compiler-rc)**"
     },
     {
       "id": "eab056be",
       "translatable": true,
       "content": "The React Labs post is not the only exciting update this week! The React Compiler is also in Release Candidate, in preparation of the compiler’s stable release.",
-      "sourceMdx": "The React Labs post is not the only exciting update this week! The React Compiler is also in Release Candidate, in preparation of the compiler’s stable release."
+      "sourceMdx": "The React Labs post is not the only exciting update this week! The React Compiler is also in Release Candidate, in preparation of the compiler’s stable release.",
+      "nodeType": "paragraph",
+      "translated_content": "本周的React实验室公告并非唯一重磅消息！React编译器也已进入候选发布阶段，为稳定版发布做准备。"
     },
     {
       "id": "f01228d3",
       "translatable": true,
       "content": "The Babel-free builds is a welcome improvement so that we can keep using the compiler with our modern Rust tooling!",
-      "sourceMdx": "The Babel-free builds is a welcome improvement so that we can keep using the compiler with our modern Rust tooling!"
+      "sourceMdx": "The Babel-free builds is a welcome improvement so that we can keep using the compiler with our modern Rust tooling!",
+      "nodeType": "paragraph",
+      "translated_content": "无Babel构建方案是个令人欣喜的改进，这使得我们能在现代Rust工具链中继续使用该编译器！"
     },
     {
       "id": "63e1d83c",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "1316cb90",
       "translatable": true,
       "content": "* 💸 [How to build a multi-tenant app using Clerk + Supabase](https://go.clerk.com/j5M7vZt)\n* 🗓 [Future Frontend](https://futurefrontend.com/?utm_source=thisweekinreact) - 🇫🇮 Espoo - 26-28 May. Dive into the future of frontend development with Aurora Scharff, Rachel Nabors, and others! Use code \"TWIR\" for a 10% discount.\n* 📜 [Impossible Components](https://overreacted.io/impossible-components/): Dan Abramov continues his series of blog posts about RSC, this time detailing, among other things, how it squares with React’s top-down data flow.\n* 📜 [Faster Lazy Loading in React Router v7.5+](https://remix.run/blog/faster-lazy-loading): This was released a few weeks ago. Mark Dalgleish explains in this post why the new approach (lazy loading by route properties instead of the whole route) was necessary, especially when using middlewares.\n* 📜 [Performance tips with Next.js](https://vercel.com/blog/guide-to-fast-websites-with-next-js-tips-for-maximizing-server-speeds#how-to-speed-up-the-page-render-minimize-client-burden): A nice recap of all the available optimizations: pre-render, use caching, watch bundle size, lazy-load what can be, optimize fonts and images, use virtualization…\n* 📜 [Simplify TanStack React Query State Handling with Pattern Matching](https://gabrielpichot.fr/blog/simplify-tanstack-react-query-state-handling-with-pattern-matching/)\n* 📜 [Using Client Caches In Loaders](https://www.brenelz.com/posts/using-client-caches-in-loaders/)\n* 📜 [Life of a Request: Application-aware routing - Vercel](https://vercel.com/blog/life-of-a-request-application-aware-routing)\n* 📜 [Tailwind vs Linaria: Performance Investigation](https://www.developerway.com/posts/tailwind-vs-linaria-performance)\n* 📦 [c15t](https://github.com/c15t/c15t): A new consent management framework coming with drop-in React components.\n* 📦 [Redux Toolkit 2.7](https://github.com/reduxjs/redux-toolkit/releases/tag/v2.7.0): Standard Schema for RTK query, improved infinite queries.\n* 📦 [Headless Tree 1.0](https://headless-tree.lukasbach.com/): A successor to React Complex tree, the author has a [blog post explaining the change](https://medium.com/@lukasbach/headless-tree-and-the-future-of-react-complex-tree-fc920700e82a).\n* 📦 [Module Federation Core 0.13](https://github.com/module-federation/core/releases/tag/v0.13.0): Better React 19 support and bug fixes.\n* 📦 [Base UI 1.0 alpha-8](https://github.com/mui/base-ui/releases/tag/v1.0.0-alpha.8): The new Radix UI alternative keeps progressing with new Toast and Meter components among many other things.\n* 🎙️ [Syntax.fm - React Server Components: Where are we at?](https://syntax.fm/show/895/react-server-components-where-are-we-at)",
-      "sourceMdx": "- 💸 [How to build a multi-tenant app using Clerk + Supabase](https://go.clerk.com/j5M7vZt)\n- 🗓 [Future Frontend](https://futurefrontend.com/?utm_source=thisweekinreact) \\- 🇫🇮 Espoo \\- 26-28 May. Dive into the future of frontend development with Aurora Scharff, Rachel Nabors, and others\\! Use code \"TWIR\" for a 10% discount.\n- 📜 [Impossible Components](https://overreacted.io/impossible-components/): Dan Abramov continues his series of blog posts about RSC, this time detailing, among other things, how it squares with React’s top-down data flow.\n- 📜 [Faster Lazy Loading in React Router v7.5+](https://remix.run/blog/faster-lazy-loading): This was released a few weeks ago. Mark Dalgleish explains in this post why the new approach (lazy loading by route properties instead of the whole route) was necessary, especially when using middlewares.\n- 📜 [Performance tips with Next.js](https://vercel.com/blog/guide-to-fast-websites-with-next-js-tips-for-maximizing-server-speeds#how-to-speed-up-the-page-render-minimize-client-burden): A nice recap of all the available optimizations: pre-render, use caching, watch bundle size, lazy-load what can be, optimize fonts and images, use virtualization…\n- 📜 [Simplify TanStack React Query State Handling with Pattern Matching](https://gabrielpichot.fr/blog/simplify-tanstack-react-query-state-handling-with-pattern-matching/)\n- 📜 [Using Client Caches In Loaders](https://www.brenelz.com/posts/using-client-caches-in-loaders/)\n- 📜 [Life of a Request: Application-aware routing \\- Vercel](https://vercel.com/blog/life-of-a-request-application-aware-routing)\n- 📜 [Tailwind vs Linaria: Performance Investigation](https://www.developerway.com/posts/tailwind-vs-linaria-performance)\n- 📦 [c15t](https://github.com/c15t/c15t): A new consent management framework coming with drop-in React components.\n- 📦 [Redux Toolkit 2.7](https://github.com/reduxjs/redux-toolkit/releases/tag/v2.7.0): Standard Schema for RTK query, improved infinite queries.\n- 📦 [Headless Tree 1.0](https://headless-tree.lukasbach.com/): A successor to React Complex tree, the author has a [blog post explaining the change](https://medium.com/@lukasbach/headless-tree-and-the-future-of-react-complex-tree-fc920700e82a).\n- 📦 [Module Federation Core 0.13](https://github.com/module-federation/core/releases/tag/v0.13.0): Better React 19 support and bug fixes.\n- 📦 [Base UI 1.0 alpha-8](https://github.com/mui/base-ui/releases/tag/v1.0.0-alpha.8): The new Radix UI alternative keeps progressing with new Toast and Meter components among many other things.\n- 🎙️ [Syntax.fm \\- React Server Components: Where are we at?](https://syntax.fm/show/895/react-server-components-where-are-we-at)"
+      "sourceMdx": "- 💸 [How to build a multi-tenant app using Clerk + Supabase](https://go.clerk.com/j5M7vZt)\n- 🗓 [Future Frontend](https://futurefrontend.com/?utm_source=thisweekinreact) \\- 🇫🇮 Espoo \\- 26-28 May. Dive into the future of frontend development with Aurora Scharff, Rachel Nabors, and others\\! Use code \"TWIR\" for a 10% discount.\n- 📜 [Impossible Components](https://overreacted.io/impossible-components/): Dan Abramov continues his series of blog posts about RSC, this time detailing, among other things, how it squares with React’s top-down data flow.\n- 📜 [Faster Lazy Loading in React Router v7.5+](https://remix.run/blog/faster-lazy-loading): This was released a few weeks ago. Mark Dalgleish explains in this post why the new approach (lazy loading by route properties instead of the whole route) was necessary, especially when using middlewares.\n- 📜 [Performance tips with Next.js](https://vercel.com/blog/guide-to-fast-websites-with-next-js-tips-for-maximizing-server-speeds#how-to-speed-up-the-page-render-minimize-client-burden): A nice recap of all the available optimizations: pre-render, use caching, watch bundle size, lazy-load what can be, optimize fonts and images, use virtualization…\n- 📜 [Simplify TanStack React Query State Handling with Pattern Matching](https://gabrielpichot.fr/blog/simplify-tanstack-react-query-state-handling-with-pattern-matching/)\n- 📜 [Using Client Caches In Loaders](https://www.brenelz.com/posts/using-client-caches-in-loaders/)\n- 📜 [Life of a Request: Application-aware routing \\- Vercel](https://vercel.com/blog/life-of-a-request-application-aware-routing)\n- 📜 [Tailwind vs Linaria: Performance Investigation](https://www.developerway.com/posts/tailwind-vs-linaria-performance)\n- 📦 [c15t](https://github.com/c15t/c15t): A new consent management framework coming with drop-in React components.\n- 📦 [Redux Toolkit 2.7](https://github.com/reduxjs/redux-toolkit/releases/tag/v2.7.0): Standard Schema for RTK query, improved infinite queries.\n- 📦 [Headless Tree 1.0](https://headless-tree.lukasbach.com/): A successor to React Complex tree, the author has a [blog post explaining the change](https://medium.com/@lukasbach/headless-tree-and-the-future-of-react-complex-tree-fc920700e82a).\n- 📦 [Module Federation Core 0.13](https://github.com/module-federation/core/releases/tag/v0.13.0): Better React 19 support and bug fixes.\n- 📦 [Base UI 1.0 alpha-8](https://github.com/mui/base-ui/releases/tag/v1.0.0-alpha.8): The new Radix UI alternative keeps progressing with new Toast and Meter components among many other things.\n- 🎙️ [Syntax.fm \\- React Server Components: Where are we at?](https://syntax.fm/show/895/react-server-components-where-are-we-at)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [如何使用Clerk + Supabase构建多租户应用](https://go.clerk.com/j5M7vZt)\n- 🗓 [未来前端大会](https://futurefrontend.com/?utm_source=thisweekinreact) \\- 🇫🇮 埃斯波 \\- 5月26-28日。与Aurora Scharff、Rachel Nabors等专家共同探索前端开发的未来！使用优惠码\"TWIR\"可享9折。\n- 📜 [不可能组件](https://overreacted.io/impossible-components/)：Dan Abramov继续他的RSC系列博文，本次详解了其如何与React自顶向下的数据流协同工作。\n- 📜 [React Router v7.5+更高效的懒加载方案](https://remix.run/blog/faster-lazy-loading)：该特性几周前已发布。Mark Dalgleish在文中解释了为何需要新方案（按路由属性而非整个路由进行懒加载），特别是在使用中间件时。\n- 📜 [Next.js性能优化指南](https://vercel.com/blog/guide-to-fast-websites-with-next-js-tips-for-maximizing-server-speeds#how-to-speed-up-the-page-render-minimize-client-burden)：全面汇总可用优化手段：预渲染、缓存策略、控制包体积、懒加载、字体与图片优化、虚拟化等。\n- 📜 [用模式匹配简化TanStack React Query状态管理](https://gabrielpichot.fr/blog/simplify-tanstack-react-query-state-handling-with-pattern-matching/)\n- 📜 [在Loader中使用客户端缓存](https://www.brenelz.com/posts/using-client-caches-in-loaders/)\n- 📜 [请求生命周期：应用感知路由 - Vercel](https://vercel.com/blog/life-of-a-request-application-aware-routing)\n- 📜 [Tailwind vs Linaria性能对比研究](https://www.developerway.com/posts/tailwind-vs-linaria-performance)\n- 📦 [c15t](https://github.com/c15t/c15t)：新推出的同意管理框架，附带开箱即用的React组件。\n- 📦 [Redux Toolkit 2.7](https://github.com/reduxjs/redux-toolkit/releases/tag/v2.7.0)：RTK查询的标准Schema，增强无限查询功能。\n- 📦 [Headless Tree 1.0](https://headless-tree.lukasbach.com/)：React Complex Tree的继任者，作者撰写了[迁移说明博文](https://medium.com/@lukasbach/headless-tree-and-the-future-of-react-complex-tree-fc920700e82a)。\n- 📦 [Module Federation Core 0.13](https://github.com/module-federation/core/releases/tag/v0.13.0)：更好的React 19支持及错误修复。\n- 📦 [Base UI 1.0 alpha-8](https://github.com/mui/base-ui/releases/tag/v1.0.0-alpha.8)：这款新的Radix UI替代方案持续演进，新增Toast和Meter等组件。\n- 🎙️ [Syntax.fm - React服务端组件现状解析](https://syntax.fm/show/895/react-server-components-where-are-we-at)"
     },
     {
       "id": "db2c1b40",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_db2c1b40"
     },
     {
       "id": "f7a7cb1b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "e06c002e",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "25212439",
       "translatable": true,
       "content": "[![Self-service analytics and dashboards in your product](/emails/issues/231/semaphor.jpg)](https://semaphor.cloud)",
-      "sourceMdx": "[![Self-service analytics and dashboards in your product](/emails/issues/231/semaphor.jpg)](https://semaphor.cloud)"
+      "sourceMdx": "[![Self-service analytics and dashboards in your product](/emails/issues/231/semaphor.jpg)](https://semaphor.cloud)",
+      "nodeType": "paragraph",
+      "translated_content": "[![产品内自助式分析与仪表盘](/emails/issues/231/semaphor.jpg)](https://semaphor.cloud)"
     },
     {
       "id": "d79a4831",
       "translatable": true,
       "content": "**[Self-service analytics and dashboards in your product](https://semaphor.cloud)**",
-      "sourceMdx": "**[Self-service analytics and dashboards in your product](https://semaphor.cloud)**"
+      "sourceMdx": "**[Self-service analytics and dashboards in your product](https://semaphor.cloud)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[产品内自助式分析与仪表盘](https://semaphor.cloud)**"
     },
     {
       "id": "2838eb68",
       "translatable": true,
       "content": "**Your engineers didn’t sign up to build dashboards.**\nLet them focus on features.",
-      "sourceMdx": "**Your engineers didn’t sign up to build dashboards.**\nLet them focus on features."
+      "sourceMdx": "**Your engineers didn’t sign up to build dashboards.**\nLet them focus on features.",
+      "nodeType": "paragraph",
+      "translated_content": "**您的工程师本不该为构建仪表盘而分心。**\n让他们专注于功能开发。"
     },
     {
       "id": "f0984c2a",
       "translatable": true,
       "content": "With Semaphor, your data team can ship insights independently. No code changes, no front-end redeploys. Decouple analytics from your product code and move faster.",
-      "sourceMdx": "With Semaphor, your data team can ship insights independently. No code changes, no front-end redeploys. Decouple analytics from your product code and move faster."
+      "sourceMdx": "With Semaphor, your data team can ship insights independently. No code changes, no front-end redeploys. Decouple analytics from your product code and move faster.",
+      "nodeType": "paragraph",
+      "translated_content": "通过Semaphor，数据团队可独立交付洞察。无需修改代码，无需前端重新部署。将分析系统与产品代码解耦，加速迭代进程。"
     },
     {
       "id": "bc8bc928",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "722e4930",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "3c19e221",
       "translatable": true,
       "content": "[![Legend List 1.0](/emails/issues/231/legend-list.png)](https://bsky.app/profile/jayz.us/post/3lni5ofbuvs2s)",
-      "sourceMdx": "[![Legend List 1.0](/emails/issues/231/legend-list.png)](https://bsky.app/profile/jayz.us/post/3lni5ofbuvs2s)"
+      "sourceMdx": "[![Legend List 1.0](/emails/issues/231/legend-list.png)](https://bsky.app/profile/jayz.us/post/3lni5ofbuvs2s)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Legend List 1.0](/emails/issues/231/legend-list.png)](https://bsky.app/profile/jayz.us/post/3lni5ofbuvs2s)"
     },
     {
       "id": "d21af28f",
       "translatable": true,
       "content": "**[Legend List 1.0](https://bsky.app/profile/jayz.us/post/3lni5ofbuvs2s)**",
-      "sourceMdx": "**[Legend List 1.0](https://bsky.app/profile/jayz.us/post/3lni5ofbuvs2s)**"
+      "sourceMdx": "**[Legend List 1.0](https://bsky.app/profile/jayz.us/post/3lni5ofbuvs2s)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Legend List 1.0](https://bsky.app/profile/jayz.us/post/3lni5ofbuvs2s)**"
     },
     {
       "id": "44aaa880",
       "translatable": true,
       "content": "Making long lists performant is a hard problem, and React Native’s old architecture wasn’t making it any easier with it’s asynchronous layout computation. We remember Margelo abandoning their `WishList` project.\nLegend List is now in version 1.0, and promises to be even faster than `FlashList`, all the while handling the \"hard cases\": bidirectional infinite lists, varying item sizes… And it's compatible with the old arch (though less performant and with possible glitches).",
-      "sourceMdx": "Making long lists performant is a hard problem, and React Native’s old architecture wasn’t making it any easier with it’s asynchronous layout computation. We remember Margelo abandoning their `WishList` project.\nLegend List is now in version 1.0, and promises to be even faster than `FlashList`, all the while handling the \"hard cases\": bidirectional infinite lists, varying item sizes… And it's compatible with the old arch (though less performant and with possible glitches)."
+      "sourceMdx": "Making long lists performant is a hard problem, and React Native’s old architecture wasn’t making it any easier with it’s asynchronous layout computation. We remember Margelo abandoning their `WishList` project.\nLegend List is now in version 1.0, and promises to be even faster than `FlashList`, all the while handling the \"hard cases\": bidirectional infinite lists, varying item sizes… And it's compatible with the old arch (though less performant and with possible glitches).",
+      "nodeType": "paragraph",
+      "translated_content": "实现长列表的高性能渲染是个难题，React Native 的旧架构因其异步布局计算机制更让问题雪上加霜。我们还记得 Margelo 团队放弃其 `WishList` 项目的往事。如今 Legend List 已发布 1.0 版本，承诺比 `FlashList` 更快的性能，同时能处理\"复杂场景\"：双向无限列表、动态尺寸条目... 虽然兼容旧架构（性能稍逊且可能存在显示异常）。"
     },
     {
       "id": "a8610918",
       "translatable": true,
       "content": "As Seb mentioned last week, there’s also a [v2 of `FlashList`](https://github.com/Shopify/flash-list/tree/new-rlv-prototype) in the works, which should be easier to use (no need to specify estimatedItemSize for instance).",
-      "sourceMdx": "As Seb mentioned last week, there’s also a [v2 of `FlashList`](https://github.com/Shopify/flash-list/tree/new-rlv-prototype) in the works, which should be easier to use (no need to specify estimatedItemSize for instance)."
+      "sourceMdx": "As Seb mentioned last week, there’s also a [v2 of `FlashList`](https://github.com/Shopify/flash-list/tree/new-rlv-prototype) in the works, which should be easier to use (no need to specify estimatedItemSize for instance).",
+      "nodeType": "paragraph",
+      "translated_content": "正如 Seb 上周提到的，[`FlashList` v2](https://github.com/Shopify/flash-list/tree/new-rlv-prototype) 也正在开发中，使用会更简便（例如无需指定 estimatedItemSize）。"
     },
     {
       "id": "a6c928a1",
       "translatable": true,
       "content": "Thankfully, all those copy the API of `FlatList` so it’s easy to switch back and forth 🙂.",
-      "sourceMdx": "Thankfully, all those copy the API of `FlatList` so it’s easy to switch back and forth 🙂."
+      "sourceMdx": "Thankfully, all those copy the API of `FlatList` so it’s easy to switch back and forth 🙂.",
+      "nodeType": "paragraph",
+      "translated_content": "值得庆幸的是，这些库都沿用了 `FlatList` 的 API 设计，切换起来非常方便 🙂。"
     },
     {
       "id": "43fd0c1b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "40a587f3",
       "translatable": true,
       "content": "* 💸 [PostHog - How to set up React Native session replay](https://go.posthog.com/twir-apr23)\n* 🐦 [Prototype of Module Federation working with Metro Bundler](https://x.com/_jbroma/status/1912903068464594993)\n* 🐦 [An experiment of CSS support in React Native, including grid layout](https://x.com/mani3xis/status/1912947427864441144)\n* 📖 [React Native Versioning Policy](https://reactnative.dev/contributing/versioning-policy): This new page details the versioning scheme based on the `0.x.y` pattern. Even more importantly, this also explains the release process and what is considered a breaking change. This is part of an ongoing effort to clarify the public API surface and even reduce it (see the [Removing deep imports RFC](https://github.com/react-native-community/discussions-and-proposals/pull/894)). React Native is getting more stable, and maybe we’ll get a v1.0 one day?\n* 📜 [Best Practices for reducing lag in Expo apps](https://expo.dev/blog/best-practices-for-reducing-lag-in-expo-apps): Highlight React renders directly from the devtools, React Compiler, React 19, and multi-threading.\n* 📜 [Offline Text Recognition on Mobile: How We Brought EasyOCR to React Native ExecuTorch](https://blog.swmansion.com/bringing-easyocr-to-react-native-executorch-2401c09c2d0c)\n* 📜 [How to build universal app voice agents with Expo & ElevenLabs](https://expo.dev/blog/how-to-build-universal-app-voice-agents-with-expo-and-elevenlabs)\n* 📜 [Out with the old, in with the New Architecture (by default)](https://expo.dev/blog/out-with-the-old-in-with-the-new-architecture)\n* 📦 [React Native Brownfield 1.0](https://github.com/callstack/react-native-brownfield/releases/tag/v1.0.0): Adds support for SwiftUI, Jetpack Compose, and packaging as a framework.\n* 📦 [typegpu-confetti](https://github.com/software-mansion-labs/typegpu-confetti): Confetti animations for React Native, computed and rendered exclusively on the GPU with `react-native-webgpu` and TypeGPU.\n* 🎥 [Expo Router Tutorial](https://www.youtube.com/playlist?list=PLsXDmrmFV_AT17JDf-otXSNE_eH7s0uDD): The first 5 videos are available. It covers layout files, Stack & Tab navigators, modals, and Auth Flow.\n* 🎙️ [RNR 328 - Flashlight with Alexandre Moureaux](https://infinite.red/react-native-radio/rnr-328-flashlight-with-alexandre-moureaux)\n* 🎙️ [Rocket Ship 65 - Expo SDK 53 Preview, RevenueCat Paywalls, AI Images & Gemini](https://www.youtube.com/watch?v=evGUO_CN1Fc)",
-      "sourceMdx": "- 💸 [PostHog - How to set up React Native session replay](https://go.posthog.com/twir-apr23)\n- 🐦 [Prototype of Module Federation working with Metro Bundler](https://x.com/_jbroma/status/1912903068464594993)\n- 🐦 [An experiment of CSS support in React Native, including grid layout](https://x.com/mani3xis/status/1912947427864441144)\n- 📖 [React Native Versioning Policy](https://reactnative.dev/contributing/versioning-policy): This new page details the versioning scheme based on the `0.x.y` pattern. Even more importantly, this also explains the release process and what is considered a breaking change. This is part of an ongoing effort to clarify the public API surface and even reduce it (see the [Removing deep imports RFC](https://github.com/react-native-community/discussions-and-proposals/pull/894)). React Native is getting more stable, and maybe we’ll get a v1.0 one day?\n- 📜 [Best Practices for reducing lag in Expo apps](https://expo.dev/blog/best-practices-for-reducing-lag-in-expo-apps): Highlight React renders directly from the devtools, React Compiler, React 19, and multi-threading.\n- 📜 [Offline Text Recognition on Mobile: How We Brought EasyOCR to React Native ExecuTorch](https://blog.swmansion.com/bringing-easyocr-to-react-native-executorch-2401c09c2d0c)\n- 📜 [How to build universal app voice agents with Expo & ElevenLabs](https://expo.dev/blog/how-to-build-universal-app-voice-agents-with-expo-and-elevenlabs)\n- 📜 [Out with the old, in with the New Architecture (by default)](https://expo.dev/blog/out-with-the-old-in-with-the-new-architecture)\n- 📦 [React Native Brownfield 1.0](https://github.com/callstack/react-native-brownfield/releases/tag/v1.0.0): Adds support for SwiftUI, Jetpack Compose, and packaging as a framework.\n- 📦 [typegpu-confetti](https://github.com/software-mansion-labs/typegpu-confetti): Confetti animations for React Native, computed and rendered exclusively on the GPU with `react-native-webgpu` and TypeGPU.\n- 🎥 [Expo Router Tutorial](https://www.youtube.com/playlist?list=PLsXDmrmFV_AT17JDf-otXSNE_eH7s0uDD): The first 5 videos are available. It covers layout files, Stack & Tab navigators, modals, and Auth Flow.\n- 🎙️ [RNR 328 \\- Flashlight with Alexandre Moureaux](https://infinite.red/react-native-radio/rnr-328-flashlight-with-alexandre-moureaux)\n- 🎙️ [Rocket Ship 65 \\- Expo SDK 53 Preview, RevenueCat Paywalls, AI Images & Gemini](https://www.youtube.com/watch?v=evGUO_CN1Fc)"
+      "sourceMdx": "- 💸 [PostHog - How to set up React Native session replay](https://go.posthog.com/twir-apr23)\n- 🐦 [Prototype of Module Federation working with Metro Bundler](https://x.com/_jbroma/status/1912903068464594993)\n- 🐦 [An experiment of CSS support in React Native, including grid layout](https://x.com/mani3xis/status/1912947427864441144)\n- 📖 [React Native Versioning Policy](https://reactnative.dev/contributing/versioning-policy): This new page details the versioning scheme based on the `0.x.y` pattern. Even more importantly, this also explains the release process and what is considered a breaking change. This is part of an ongoing effort to clarify the public API surface and even reduce it (see the [Removing deep imports RFC](https://github.com/react-native-community/discussions-and-proposals/pull/894)). React Native is getting more stable, and maybe we’ll get a v1.0 one day?\n- 📜 [Best Practices for reducing lag in Expo apps](https://expo.dev/blog/best-practices-for-reducing-lag-in-expo-apps): Highlight React renders directly from the devtools, React Compiler, React 19, and multi-threading.\n- 📜 [Offline Text Recognition on Mobile: How We Brought EasyOCR to React Native ExecuTorch](https://blog.swmansion.com/bringing-easyocr-to-react-native-executorch-2401c09c2d0c)\n- 📜 [How to build universal app voice agents with Expo & ElevenLabs](https://expo.dev/blog/how-to-build-universal-app-voice-agents-with-expo-and-elevenlabs)\n- 📜 [Out with the old, in with the New Architecture (by default)](https://expo.dev/blog/out-with-the-old-in-with-the-new-architecture)\n- 📦 [React Native Brownfield 1.0](https://github.com/callstack/react-native-brownfield/releases/tag/v1.0.0): Adds support for SwiftUI, Jetpack Compose, and packaging as a framework.\n- 📦 [typegpu-confetti](https://github.com/software-mansion-labs/typegpu-confetti): Confetti animations for React Native, computed and rendered exclusively on the GPU with `react-native-webgpu` and TypeGPU.\n- 🎥 [Expo Router Tutorial](https://www.youtube.com/playlist?list=PLsXDmrmFV_AT17JDf-otXSNE_eH7s0uDD): The first 5 videos are available. It covers layout files, Stack & Tab navigators, modals, and Auth Flow.\n- 🎙️ [RNR 328 \\- Flashlight with Alexandre Moureaux](https://infinite.red/react-native-radio/rnr-328-flashlight-with-alexandre-moureaux)\n- 🎙️ [Rocket Ship 65 \\- Expo SDK 53 Preview, RevenueCat Paywalls, AI Images & Gemini](https://www.youtube.com/watch?v=evGUO_CN1Fc)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [PostHog - React Native 会话回放配置指南](https://go.posthog.com/twir-apr23)\n- 🐦 [Metro 打包器支持 Module Federation 的原型演示](https://x.com/_jbroma/status/1912903068464594993)\n- 🐦 [React Native 支持 CSS 的实验性实现（含网格布局）](https://x.com/mani3xis/status/1912947427864441144)\n- 📖 [React Native 版本管理策略](https://reactnative.dev/contributing/versioning-policy)：新文档详细说明了基于 `0.x.y` 模式的版本规范，更重要的是阐述了发布流程与破坏性变更的界定标准。这是明确公共 API 边界（参见[移除深层导入 RFC](https://github.com/react-native-community/discussions-and-proposals/pull/894)）系列举措的一部分。React Native 正日趋稳定，或许有朝一日我们能迎来 v1.0？\n- 📜 [Expo 应用降低延迟的最佳实践](https://expo.dev/blog/best-practices-for-reducing-lag-in-expo-apps)：重点介绍了通过开发者工具高亮 React 渲染、React 编译器、React 19 以及多线程优化。\n- 📜 [移动端离线文字识别：如何将 EasyOCR 引入 React Native ExecuTorch](https://blog.swmansion.com/bringing-easyocr-to-react-native-executorch-2401c09c2d0c)\n- 📜 [使用 Expo 和 ElevenLabs 构建跨平台语音助手应用](https://expo.dev/blog/how-to-build-universal-app-voice-agents-with-expo-and-elevenlabs)\n- 📜 [摒弃旧架构，拥抱新架构（默认启用）](https://expo.dev/blog/out-with-the-old-in-with-the-new-architecture)\n- 📦 [React Native 混合开发 1.0](https://github.com/callstack/react-native-brownfield/releases/tag/v1.0.0)：新增 SwiftUI、Jetpack Compose 支持，以及框架化打包能力。\n- 📦 [typegpu-confetti](https://github.com/software-mansion-labs/typegpu-confetti)：基于 `react-native-webgpu` 和 TypeGPU 实现的 React Native 粒子动画库，全部计算与渲染均在 GPU 完成。\n- 🎥 [Expo Router 教程](https://www.youtube.com/playlist?list=PLsXDmrmFV_AT17JDf-otXSNE_eH7s0uDD)：已上线前5集，涵盖布局文件、堆栈/标签导航、模态框及认证流程。\n- 🎙️ [RNR 328 - 与 Alexandre Moureaux 探讨 Flashlight](https://infinite.red/react-native-radio/rnr-328-flashlight-with-alexandre-moureaux)\n- 🎙️ [火箭飞船 65 - Expo SDK 53 预览、RevenueCat 支付墙、AI 图像与 Gemini](https://www.youtube.com/watch?v=evGUO_CN1Fc)"
     },
     {
       "id": "51e8baf4",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "734d40d8",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他领域 {#other}"
     },
     {
       "id": "6892c8d2",
       "translatable": true,
       "content": "* 📣 [TC39 meeting 107th - ECMA Proposal Updates](https://ecmascript-daily.github.io/ecmascript/2025/04/19/ecmascript-proposal-update): Summarizes the proposals that progressed last week. Sad to see Records & Tuples withdraw, but we also have new interesting proposals to watch, such as Enums and Composites.\n* 📊 [State of AI 2025 - Survey results](https://2025.stateofai.dev)\n* 📜 [Optimizing Node.js Performance: V8 Memory Management & GC Tuning](https://blog.platformatic.dev/optimizing-nodejs-performance-v8-memory-management-and-gc-tuning)\n* 📜 [Launching the first ever State of Devs survey](https://dev.to/sachagreif/launching-the-first-ever-state-of-devs-survey-23il)\n* 📜 [Securing Your GitHub Actions](https://blog.rafaelgss.dev/securing-github-actions)\n* 📜 [An Introduction to JavaScript Bundler Rspack](https://blog.appsignal.com/2025/04/16/an-introduction-to-javascript-bundler-rspack.html)\n* 📦 [tsdown - The Elegant Library Bundler - Powered by Rolldown](https://tsdown.dev/)\n* 📦 [Node 22.15](https://nodejs.org/en/blog/release/v22.15.0)",
-      "sourceMdx": "- 📣 [TC39 meeting 107th \\- ECMA Proposal Updates](https://ecmascript-daily.github.io/ecmascript/2025/04/19/ecmascript-proposal-update): Summarizes the proposals that progressed last week. Sad to see Records & Tuples withdraw, but we also have new interesting proposals to watch, such as Enums and Composites.\n- 📊 [State of AI 2025 \\- Survey results](https://2025.stateofai.dev)\n- 📜 [Optimizing Node.js Performance: V8 Memory Management & GC Tuning](https://blog.platformatic.dev/optimizing-nodejs-performance-v8-memory-management-and-gc-tuning)\n- 📜 [Launching the first ever State of Devs survey](https://dev.to/sachagreif/launching-the-first-ever-state-of-devs-survey-23il)\n- 📜 [Securing Your GitHub Actions](https://blog.rafaelgss.dev/securing-github-actions)\n- 📜 [An Introduction to JavaScript Bundler Rspack](https://blog.appsignal.com/2025/04/16/an-introduction-to-javascript-bundler-rspack.html)\n- 📦 [tsdown \\- The Elegant Library Bundler \\- Powered by Rolldown](https://tsdown.dev/)\n- 📦 [Node 22.15](https://nodejs.org/en/blog/release/v22.15.0)"
+      "sourceMdx": "- 📣 [TC39 meeting 107th \\- ECMA Proposal Updates](https://ecmascript-daily.github.io/ecmascript/2025/04/19/ecmascript-proposal-update): Summarizes the proposals that progressed last week. Sad to see Records & Tuples withdraw, but we also have new interesting proposals to watch, such as Enums and Composites.\n- 📊 [State of AI 2025 \\- Survey results](https://2025.stateofai.dev)\n- 📜 [Optimizing Node.js Performance: V8 Memory Management & GC Tuning](https://blog.platformatic.dev/optimizing-nodejs-performance-v8-memory-management-and-gc-tuning)\n- 📜 [Launching the first ever State of Devs survey](https://dev.to/sachagreif/launching-the-first-ever-state-of-devs-survey-23il)\n- 📜 [Securing Your GitHub Actions](https://blog.rafaelgss.dev/securing-github-actions)\n- 📜 [An Introduction to JavaScript Bundler Rspack](https://blog.appsignal.com/2025/04/16/an-introduction-to-javascript-bundler-rspack.html)\n- 📦 [tsdown \\- The Elegant Library Bundler \\- Powered by Rolldown](https://tsdown.dev/)\n- 📦 [Node 22.15](https://nodejs.org/en/blog/release/v22.15.0)",
+      "nodeType": "list",
+      "translated_content": "- 📣 [TC39第107次会议 - ECMA提案进展](https://ecmascript-daily.github.io/ecmascript/2025/04/19/ecmascript-proposal-update)：总结上周取得进展的提案。Records & Tuples提案的撤回令人遗憾，但我们也迎来了值得关注的新提案，如Enums和Composites。\n- 📊 [2025年AI现状调查报告](https://2025.stateofai.dev)\n- 📜 [优化Node.js性能：V8内存管理与GC调优](https://blog.platformatic.dev/optimizing-nodejs-performance-v8-memory-management-and-gc-tuning)\n- 📜 [启动首届开发者现状调查](https://dev.to/sachagreif/launching-the-first-ever-state-of-devs-survey-23il)\n- 📜 [GitHub Actions安全实践](https://blog.rafaelgss.dev/securing-github-actions)\n- 📜 [JavaScript打包工具Rspack入门指南](https://blog.appsignal.com/2025/04/16/an-introduction-to-javascript-bundler-rspack.html)\n- 📦 [tsdown - 基于Rolldown的优雅库打包工具](https://tsdown.dev/)\n- 📦 [Node 22.15发布](https://nodejs.org/en/blog/release/v22.15.0)"
     },
     {
       "id": "7057b5fb",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "2f2d5f01",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 趣味时刻 {#fun}"
     },
     {
       "id": "44285072",
       "translatable": true,
       "content": "[![React Compiler RC meme - shows a cat in a React Compiler RollerCoaster](/emails/issues/231/meme0.jpg)](https://x.com/potetotes/status/1914855126348480850)",
-      "sourceMdx": "[![React Compiler RC meme - shows a cat in a React Compiler RollerCoaster](/emails/issues/231/meme0.jpg)](https://x.com/potetotes/status/1914855126348480850)"
+      "sourceMdx": "[![React Compiler RC meme - shows a cat in a React Compiler RollerCoaster](/emails/issues/231/meme0.jpg)](https://x.com/potetotes/status/1914855126348480850)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React编译器RC梗图 - 展示一只猫坐在React编译器过山车上](/emails/issues/231/meme0.jpg)](https://x.com/potetotes/status/1914855126348480850)"
     },
     {
       "id": "a8f09c71",
       "translatable": true,
       "content": "[![Evan Bacon - Coming back to Expo after spending an hour in Android Studio - Photo of Katy Perry kissing the ground after returning from her space flight](/emails/issues/231/meme1.jpg)](https://x.com/Baconbrix/status/1913353166483058931)",
-      "sourceMdx": "[![Evan Bacon - Coming back to Expo after spending an hour in Android Studio - Photo of Katy Perry kissing the ground after returning from her space flight](/emails/issues/231/meme1.jpg)](https://x.com/Baconbrix/status/1913353166483058931)"
+      "sourceMdx": "[![Evan Bacon - Coming back to Expo after spending an hour in Android Studio - Photo of Katy Perry kissing the ground after returning from her space flight](/emails/issues/231/meme1.jpg)](https://x.com/Baconbrix/status/1913353166483058931)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Evan Bacon - 在Android Studio折腾一小时后回归Expo - Katy Perry太空返回后亲吻地面的照片](/emails/issues/231/meme1.jpg)](https://x.com/Baconbrix/status/1913353166483058931)"
     },
     {
       "id": "d2a3d4c7",
       "translatable": true,
       "content": "[![A huge vertical screen with \"package.json\" deps and huge horizontall screen with \"tailwind class names\"](/emails/issues/231/meme2.jpg)](https://x.com/trashh_dev/status/1893339204710539265)",
-      "sourceMdx": "[![A huge vertical screen with \"package.json\" deps and huge horizontall screen with \"tailwind class names\"](/emails/issues/231/meme2.jpg)](https://x.com/trashh_dev/status/1893339204710539265)"
+      "sourceMdx": "[![A huge vertical screen with \"package.json\" deps and huge horizontall screen with \"tailwind class names\"](/emails/issues/231/meme2.jpg)](https://x.com/trashh_dev/status/1893339204710539265)",
+      "nodeType": "paragraph",
+      "translated_content": "[![竖向巨屏显示\"package.json依赖项\"与横向巨屏显示\"tailwind类名\"的对比图](/emails/issues/231/meme2.jpg)](https://x.com/trashh_dev/status/1893339204710539265)"
     },
     {
       "id": "008183b0",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下期见！👋"
     }
   ]
 }

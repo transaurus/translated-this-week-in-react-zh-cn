@@ -1,287 +1,381 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/113.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/113.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /113\ntitle: \"This Week In React #113: React source code, SOLID, Remix, Docusaurus, FP, Remotion, Rapier, Hermes, RN at Airbnb...\"\nauthors: [slorber]\ndate: 07-19-2022\n---",
-      "sourceMdx": "---\nslug: /113\ntitle: \"This Week In React #113: React source code, SOLID, Remix, Docusaurus, FP, Remotion, Rapier, Hermes, RN at Airbnb...\"\nauthors: [slorber]\ndate: 07-19-2022\n---"
+      "sourceMdx": "---\nslug: /113\ntitle: \"This Week In React #113: React source code, SOLID, Remix, Docusaurus, FP, Remotion, Rapier, Hermes, RN at Airbnb...\"\nauthors: [slorber]\ndate: 07-19-2022\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "This Week In React #113: React source code, SOLID, Remix, Docusaurus, FP, Remotion, Rapier, Hermes, RN at Airbnb...",
-      "sourceMdx": "This Week In React #113: React source code, SOLID, Remix, Docusaurus, FP, Remotion, Rapier, Hermes, RN at Airbnb..."
+      "sourceMdx": "This Week In React #113: React source code, SOLID, Remix, Docusaurus, FP, Remotion, Rapier, Hermes, RN at Airbnb...",
+      "nodeType": "paragraph",
+      "translated_content": "本周React动态 #113: React源码解析、SOLID原则、Remix、Docusaurus、函数式编程、Remotion、Rapier、Hermes、Airbnb的React Native实践..."
     },
     {
       "id": "fc91ee08",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_fc91ee08"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "The newsletter now enters **summer mode: 1 edition out of 2**. I hope you enjoy your vacations 😎.",
-      "sourceMdx": "The newsletter now enters **summer mode: 1 edition out of 2**. I hope you enjoy your vacations 😎."
+      "sourceMdx": "The newsletter now enters **summer mode: 1 edition out of 2**. I hope you enjoy your vacations 😎.",
+      "nodeType": "paragraph",
+      "translated_content": "本简报即日起进入**夏季模式：每两周一期**。祝各位假期愉快 😎。"
     },
     {
       "id": "86b54d44",
       "translatable": true,
       "content": "We will **launch Docusaurus 2.0** very soon ([2.0-rc.1](https://twitter.com/docusaurus/status/1547616687117070338?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter) published). I will send you a special edition for the occasion. It will be the occasion to present you better this project I work on since 2+ years with Facebook. Docusaurus 2.0 is not the most famous React framework, but it remains [**very used**](https://twitter.com/sebastienlorber/status/1549083893822885888?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter) despite being in beta: twice as much as Remix or Redwood, and is progressively catching up with Gatsby. I hope I can count on you for the **ProductHunt launch** 😄.",
-      "sourceMdx": "We will **launch Docusaurus 2.0** very soon ([2.0-rc.1](https://twitter.com/docusaurus/status/1547616687117070338?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter) published). I will send you a special edition for the occasion. It will be the occasion to present you better this project I work on since 2+ years with Facebook. Docusaurus 2.0 is not the most famous React framework, but it remains [**very used**](https://twitter.com/sebastienlorber/status/1549083893822885888?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter) despite being in beta: twice as much as Remix or Redwood, and is progressively catching up with Gatsby. I hope I can count on you for the **ProductHunt launch** 😄."
+      "sourceMdx": "We will **launch Docusaurus 2.0** very soon ([2.0-rc.1](https://twitter.com/docusaurus/status/1547616687117070338?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter) published). I will send you a special edition for the occasion. It will be the occasion to present you better this project I work on since 2+ years with Facebook. Docusaurus 2.0 is not the most famous React framework, but it remains [**very used**](https://twitter.com/sebastienlorber/status/1549083893822885888?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter) despite being in beta: twice as much as Remix or Redwood, and is progressively catching up with Gatsby. I hope I can count on you for the **ProductHunt launch** 😄.",
+      "nodeType": "paragraph",
+      "translated_content": "我们将很快发布**Docusaurus 2.0**正式版（已发布[2.0-rc.1](https://twitter.com/docusaurus/status/1547616687117070338?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)）。届时我会发送特别版专题介绍。借此机会向大家详细展示这个我与Facebook团队持续开发两年多的项目。Docusaurus 2.0虽非最热门的React框架，但即使处于测试阶段仍保持[**高使用率**](https://twitter.com/sebastienlorber/status/1549083893822885888?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：用户量是Remix或Redwood的两倍，并逐步追赶Gatsby。期待各位支持我们的**ProductHunt发布** 😄。"
     },
     {
       "id": "39b3772c",
       "translatable": true,
       "content": "This week, I want to highlight [tRPC](https://github.com/trpc/trpc?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter) to make remote calls (client/server or even server/server). Typical end-to-end solution, agile, and much easier to use than GraphQL. There is no particular event related to the lib, except a significant gain in popularity thanks to Theo and his [create-t3-app](https://github.com/t3-oss/create-t3-app?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter) framework.",
-      "sourceMdx": "This week, I want to highlight [tRPC](https://github.com/trpc/trpc?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter) to make remote calls (client/server or even server/server). Typical end-to-end solution, agile, and much easier to use than GraphQL. There is no particular event related to the lib, except a significant gain in popularity thanks to Theo and his [create-t3-app](https://github.com/t3-oss/create-t3-app?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter) framework."
+      "sourceMdx": "This week, I want to highlight [tRPC](https://github.com/trpc/trpc?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter) to make remote calls (client/server or even server/server). Typical end-to-end solution, agile, and much easier to use than GraphQL. There is no particular event related to the lib, except a significant gain in popularity thanks to Theo and his [create-t3-app](https://github.com/t3-oss/create-t3-app?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter) framework.",
+      "nodeType": "paragraph",
+      "translated_content": "本周重点推荐远程调用方案[tRPC](https://github.com/trpc/trpc?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)（支持客户端/服务端及服务端间通信）。作为典型的端到端解决方案，它比GraphQL更轻量敏捷。该库近期虽无重大更新，但得益于Theo的[create-t3-app](https://github.com/t3-oss/create-t3-app?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)框架推动，人气显著攀升。"
     },
     {
       "id": "1acb9a05",
       "translatable": true,
       "content": "See you soon for the Docusaurus launch 👋.",
-      "sourceMdx": "See you soon for the Docusaurus launch 👋."
+      "sourceMdx": "See you soon for the Docusaurus launch 👋.",
+      "nodeType": "paragraph",
+      "translated_content": "Docusaurus发布在即，敬请期待 👋。"
     },
     {
       "id": "2df4f75f",
       "translatable": true,
       "content": "🙏 **Support the newsletter:**",
-      "sourceMdx": "🙏 **Support the newsletter:**"
+      "sourceMdx": "🙏 **Support the newsletter:**",
+      "nodeType": "paragraph",
+      "translated_content": "🙏 **支持简报：**"
     },
     {
       "id": "8cf6d045",
       "translatable": true,
       "content": "* 😘 **Recommend it to your friends**: it really helps!\n* 💸 [**Sponsor This Week In React**](https://gist.github.com/slorber/cb732fb5d0a002c4d73236a9baeba7bb?utm_campaign=thisweekinreact\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* 😍 [**Write testimonials on Twitter**](https://twitter.com/sebastienlorber/timelines/1448942785814466561?utm_campaign=thisweekinreact\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* 🧵 [**Retweet the latest Twitter thread**](https://slo.im/thread?utm_campaign=thisweekinreact\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* 📨 Reply to this [**email**](mailto:lorber.sebastien@gmail.com?utm_campaign=thisweekinreact\\&utm_medium=email\\&utm_source=Revue%20newsletter): feedback is welcome\n* 👥 Follow on [**LinkedIn**](https://www.linkedin.com/company/this-week-in-react/?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)",
-      "sourceMdx": "- 😘 **Recommend it to your friends**: it really helps!\n- 💸 [**Sponsor This Week In React**](https://gist.github.com/slorber/cb732fb5d0a002c4d73236a9baeba7bb?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)\n- 😍 [**Write testimonials on Twitter**](https://twitter.com/sebastienlorber/timelines/1448942785814466561?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)\n- 🧵 [**Retweet the latest Twitter thread**](https://slo.im/thread?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)\n- 📨 Reply to this [**email**](mailto:lorber.sebastien@gmail.com?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter): feedback is welcome\n- 👥 Follow on [**LinkedIn**](https://www.linkedin.com/company/this-week-in-react/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
+      "sourceMdx": "- 😘 **Recommend it to your friends**: it really helps!\n- 💸 [**Sponsor This Week In React**](https://gist.github.com/slorber/cb732fb5d0a002c4d73236a9baeba7bb?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)\n- 😍 [**Write testimonials on Twitter**](https://twitter.com/sebastienlorber/timelines/1448942785814466561?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)\n- 🧵 [**Retweet the latest Twitter thread**](https://slo.im/thread?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)\n- 📨 Reply to this [**email**](mailto:lorber.sebastien@gmail.com?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter): feedback is welcome\n- 👥 Follow on [**LinkedIn**](https://www.linkedin.com/company/this-week-in-react/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)",
+      "nodeType": "list",
+      "translated_content": "- 😘 **推荐给朋友**：这真的很有帮助！\n- 💸 [**赞助本周React动态**](https://gist.github.com/slorber/cb732fb5d0a002c4d73236a9baeba7bb?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)\n- 😍 [**在Twitter撰写推荐语**](https://twitter.com/sebastienlorber/timelines/1448942785814466561?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)\n- 🧵 [**转发最新Twitter主题**](https://slo.im/thread?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)\n- 📨 回复本封[**邮件**](mailto:lorber.sebastien@gmail.com?utm_campaign=thisweekinreact&utm_medium=email&utm_source=Revue%20newsletter)：欢迎反馈\n- 👥 关注[**领英账号**](https://www.linkedin.com/company/this-week-in-react/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
     },
     {
       "id": "5b5d0360",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "0037ff70",
       "translatable": true,
       "content": "## React",
-      "sourceMdx": "## React"
+      "sourceMdx": "## React",
+      "nodeType": "heading",
+      "translated_content": "## React核心"
     },
     {
       "id": "bdc231b1",
       "translatable": true,
       "content": "[**Reading Source Code: React**](https://alexkondov.com/readint-source-code-react/?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)",
-      "sourceMdx": "[**Reading Source Code: React**](https://alexkondov.com/readint-source-code-react/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
+      "sourceMdx": "[**Reading Source Code: React**](https://alexkondov.com/readint-source-code-react/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)",
+      "nodeType": "paragraph",
+      "translated_content": "[**源码解读：React**](https://alexkondov.com/readint-source-code-react/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
     },
     {
       "id": "97ae4a01",
       "translatable": true,
       "content": "Alex reads the React source code and comments on several parts, taking as an entry point the mount of a React application. Interesting details about the use of prototypes, JSX, and the interaction of the (agnostic) reconciler with the DOM renderer.",
-      "sourceMdx": "Alex reads the React source code and comments on several parts, taking as an entry point the mount of a React application. Interesting details about the use of prototypes, JSX, and the interaction of the (agnostic) reconciler with the DOM renderer."
+      "sourceMdx": "Alex reads the React source code and comments on several parts, taking as an entry point the mount of a React application. Interesting details about the use of prototypes, JSX, and the interaction of the (agnostic) reconciler with the DOM renderer.",
+      "nodeType": "paragraph",
+      "translated_content": "Alex通过React应用挂载的切入点，逐层剖析React源码并注解。揭示了原型链运用、JSX转换机制，以及（平台无关的）协调器与DOM渲染器交互等技术细节。"
     },
     {
       "id": "c3a738de",
       "translatable": true,
       "content": "[**Can We All Just Admit React Hooks Were a Bad Idea?**](https://medium.com/codex/can-we-all-just-admit-react-hooks-were-a-bad-idea-c48120c5188d?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)",
-      "sourceMdx": "[**Can We All Just Admit React Hooks Were a Bad Idea?**](https://medium.com/codex/can-we-all-just-admit-react-hooks-were-a-bad-idea-c48120c5188d?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
+      "sourceMdx": "[**Can We All Just Admit React Hooks Were a Bad Idea?**](https://medium.com/codex/can-we-all-just-admit-react-hooks-were-a-bad-idea-c48120c5188d?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)",
+      "nodeType": "paragraph",
+      "translated_content": "[**我们能否承认React Hooks是个错误设计？**](https://medium.com/codex/can-we-all-just-admit-react-hooks-were-a-bad-idea-c48120c5188d?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
     },
     {
       "id": "3cfe6286",
       "translatable": true,
       "content": "Amy argues that React hooks do not respect SOLID architecture principles. I don't really agree, but recognize that most of the examples found on the internet are simplified and don't necessarily highlight a good architecture.",
-      "sourceMdx": "Amy argues that React hooks do not respect SOLID architecture principles. I don't really agree, but recognize that most of the examples found on the internet are simplified and don't necessarily highlight a good architecture."
+      "sourceMdx": "Amy argues that React hooks do not respect SOLID architecture principles. I don't really agree, but recognize that most of the examples found on the internet are simplified and don't necessarily highlight a good architecture.",
+      "nodeType": "paragraph",
+      "translated_content": "Amy认为React Hooks违背了SOLID架构原则。笔者虽不完全认同，但承认网络上的示例多为简化版，未必体现最佳实践。"
     },
     {
       "id": "1042b50d",
       "translatable": true,
       "content": "[**Applying SOLID principles in React**](https://konstantinlebedev.com/solid-in-react/?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)",
-      "sourceMdx": "[**Applying SOLID principles in React**](https://konstantinlebedev.com/solid-in-react/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
+      "sourceMdx": "[**Applying SOLID principles in React**](https://konstantinlebedev.com/solid-in-react/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)",
+      "nodeType": "paragraph",
+      "translated_content": "[**在React中实践SOLID原则**](https://konstantinlebedev.com/solid-in-react/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
     },
     {
       "id": "aa1e7006",
       "translatable": true,
       "content": "Almost a direct answer to the above article, even if the application of SOLID is more widely covered here (components + hooks). Note: don't hesitate to use the React context for dependency injection.",
-      "sourceMdx": "Almost a direct answer to the above article, even if the application of SOLID is more widely covered here (components + hooks). Note: don't hesitate to use the React context for dependency injection."
+      "sourceMdx": "Almost a direct answer to the above article, even if the application of SOLID is more widely covered here (components + hooks). Note: don't hesitate to use the React context for dependency injection.",
+      "nodeType": "paragraph",
+      "translated_content": "几乎是对上文观点的直接回应，尽管此处对SOLID原则的应用讨论更为全面（涵盖组件和钩子）。注：不妨大胆使用React上下文实现依赖注入。"
     },
     {
       "id": "13d9cd70",
       "translatable": true,
       "content": "**Extras:**",
-      "sourceMdx": "**Extras:**"
+      "sourceMdx": "**Extras:**",
+      "nodeType": "paragraph",
+      "translated_content": "**扩展阅读：**"
     },
     {
       "id": "6773b78b",
       "translatable": true,
       "content": "* 📜 [Avoid anonymous components with displayName](https://julesblom.com/writing/component-displayname?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter): sometimes React can't infer a good name for your components, which complicates the use of devtools (Context, memo, forwardRef, HOC)\n* 📜 [Why Remix is not a React framework but a full stack web framework](https://andre-landgraf.dev/blog/2022-07-16_why_remix_is_not_a_react_framework_but_a_full_stack_web_framework/?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter): a well-written overview of the differences between Remix and other frameworks. Remix is full-stack and framework-agnostic.\n* 📜 [Functional programming is finally going mainstream](https://github.com/readme/featured/functional-programming?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter): GitHub highlights the popularization of functional programming, in part thanks to React, Redux and hooks. I personally switched career from Scala to React after reading David Nolen's famous post. Didn't even like JS before 2014 😅\n* 📜 [Why Docusaurus is a powerful documentation framework](https://blog.1password.com/docusaurus-documentation-framework/?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter): 1Password explains why Docusaurus is a good solution for their developer documentation portal. Touch various advanced topics, including site customizations, remark plugins to extend MDX/Markdown...\n* 📜 [Store data in a cookie with sessions and Remix](https://jonmeyers.io/blog/store-data-in-a-cookie-with-sessions-and-remix?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter): creation of a visit counter cookie\n* 📖 [Remix Deferred](https://github.com/remix-run/remix/blob/deferred/docs/guides/streaming.md?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter#using-deferred): new API under development that gives fine control over data loading tradeoffs on initial page load. Optimize for Time-to-first-byte or Cumulative Layout Shift.\n* 📖 [Next.js accessibility doc improvements](https://twitter.com/nextjs/status/1549043787330375680?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* 🐦 [New Preact VDOM state model](https://twitter.com/_developit/status/1549001036802625536?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* 🐦 [Remix + React 18 startTransition + time-sliced hydration](https://twitter.com/ryanflorence/status/1547959632663961602?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter): Ryan Florence sharing a controversial tip. Starts interesting discussions about hydration ([Ryan Carniato](https://twitter.com/RyanCarniato/status/1549100194708353024?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter), [Andrew Clark](https://twitter.com/acdlite/status/1549109283387744256?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)...)\n* 📦 [pmndrs/react-three-rapier](https://github.com/pmndrs/react-three-rapier?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter): integrates react-three-fiber with Rapier (physics engine)\n* 📦 [Remotion 3.1](https://www.remotion.dev/blog/3-1?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter): many new features! Gifs, Tailwind CSS, springs with duration, OffthreadVideo...\n* 📦 [Remix 1.6.5](https://github.com/remix-run/remix/releases/tag/remix%401.6.5?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter): loader + useLoaderData TypeScript inference👌\n* 📦 [Framer Motion 6.5](https://twitter.com/mattgperry/status/1547581579974696961?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter): scroll animations\n* 📦 [Zustand 4.0.0-rc.2](https://twitter.com/dai_shi/status/1548685973558800384?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter): ready for production\n* 📦 [Redwood 2.1](https://github.com/redwoodjs/redwood/releases/tag/v2.1.0?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)",
-      "sourceMdx": "- 📜 [Avoid anonymous components with displayName](https://julesblom.com/writing/component-displayname?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): sometimes React can't infer a good name for your components, which complicates the use of devtools (Context, memo, forwardRef, HOC)\n- 📜 [Why Remix is not a React framework but a full stack web framework](https://andre-landgraf.dev/blog/2022-07-16_why_remix_is_not_a_react_framework_but_a_full_stack_web_framework/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): a well-written overview of the differences between Remix and other frameworks. Remix is full-stack and framework-agnostic.\n- 📜 [Functional programming is finally going mainstream](https://github.com/readme/featured/functional-programming?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): GitHub highlights the popularization of functional programming, in part thanks to React, Redux and hooks. I personally switched career from Scala to React after reading David Nolen's famous post. Didn't even like JS before 2014 😅\n- 📜 [Why Docusaurus is a powerful documentation framework](https://blog.1password.com/docusaurus-documentation-framework/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): 1Password explains why Docusaurus is a good solution for their developer documentation portal. Touch various advanced topics, including site customizations, remark plugins to extend MDX/Markdown...\n- 📜 [Store data in a cookie with sessions and Remix](https://jonmeyers.io/blog/store-data-in-a-cookie-with-sessions-and-remix?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): creation of a visit counter cookie\n- 📖 [Remix Deferred](https://github.com/remix-run/remix/blob/deferred/docs/guides/streaming.md?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter#using-deferred): new API under development that gives fine control over data loading tradeoffs on initial page load. Optimize for Time-to-first-byte or Cumulative Layout Shift.\n- 📖 [Next.js accessibility doc improvements](https://twitter.com/nextjs/status/1549043787330375680?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 🐦 [New Preact VDOM state model](https://twitter.com/_developit/status/1549001036802625536?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 🐦 [Remix + React 18 startTransition + time-sliced hydration](https://twitter.com/ryanflorence/status/1547959632663961602?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): Ryan Florence sharing a controversial tip. Starts interesting discussions about hydration ([Ryan Carniato](https://twitter.com/RyanCarniato/status/1549100194708353024?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter), [Andrew Clark](https://twitter.com/acdlite/status/1549109283387744256?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)...)\n- 📦 [pmndrs/react-three-rapier](https://github.com/pmndrs/react-three-rapier?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): integrates react-three-fiber with Rapier (physics engine)\n- 📦 [Remotion 3.1](https://www.remotion.dev/blog/3-1?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): many new features! Gifs, Tailwind CSS, springs with duration, OffthreadVideo...\n- 📦 [Remix 1.6.5](https://github.com/remix-run/remix/releases/tag/remix%401.6.5?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): loader + useLoaderData TypeScript inference👌\n- 📦 [Framer Motion 6.5](https://twitter.com/mattgperry/status/1547581579974696961?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): scroll animations\n- 📦 [Zustand 4.0.0-rc.2](https://twitter.com/dai_shi/status/1548685973558800384?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): ready for production\n- 📦 [Redwood 2.1](https://github.com/redwoodjs/redwood/releases/tag/v2.1.0?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
+      "sourceMdx": "- 📜 [Avoid anonymous components with displayName](https://julesblom.com/writing/component-displayname?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): sometimes React can't infer a good name for your components, which complicates the use of devtools (Context, memo, forwardRef, HOC)\n- 📜 [Why Remix is not a React framework but a full stack web framework](https://andre-landgraf.dev/blog/2022-07-16_why_remix_is_not_a_react_framework_but_a_full_stack_web_framework/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): a well-written overview of the differences between Remix and other frameworks. Remix is full-stack and framework-agnostic.\n- 📜 [Functional programming is finally going mainstream](https://github.com/readme/featured/functional-programming?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): GitHub highlights the popularization of functional programming, in part thanks to React, Redux and hooks. I personally switched career from Scala to React after reading David Nolen's famous post. Didn't even like JS before 2014 😅\n- 📜 [Why Docusaurus is a powerful documentation framework](https://blog.1password.com/docusaurus-documentation-framework/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): 1Password explains why Docusaurus is a good solution for their developer documentation portal. Touch various advanced topics, including site customizations, remark plugins to extend MDX/Markdown...\n- 📜 [Store data in a cookie with sessions and Remix](https://jonmeyers.io/blog/store-data-in-a-cookie-with-sessions-and-remix?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): creation of a visit counter cookie\n- 📖 [Remix Deferred](https://github.com/remix-run/remix/blob/deferred/docs/guides/streaming.md?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter#using-deferred): new API under development that gives fine control over data loading tradeoffs on initial page load. Optimize for Time-to-first-byte or Cumulative Layout Shift.\n- 📖 [Next.js accessibility doc improvements](https://twitter.com/nextjs/status/1549043787330375680?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 🐦 [New Preact VDOM state model](https://twitter.com/_developit/status/1549001036802625536?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 🐦 [Remix + React 18 startTransition + time-sliced hydration](https://twitter.com/ryanflorence/status/1547959632663961602?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): Ryan Florence sharing a controversial tip. Starts interesting discussions about hydration ([Ryan Carniato](https://twitter.com/RyanCarniato/status/1549100194708353024?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter), [Andrew Clark](https://twitter.com/acdlite/status/1549109283387744256?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)...)\n- 📦 [pmndrs/react-three-rapier](https://github.com/pmndrs/react-three-rapier?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): integrates react-three-fiber with Rapier (physics engine)\n- 📦 [Remotion 3.1](https://www.remotion.dev/blog/3-1?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): many new features! Gifs, Tailwind CSS, springs with duration, OffthreadVideo...\n- 📦 [Remix 1.6.5](https://github.com/remix-run/remix/releases/tag/remix%401.6.5?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): loader + useLoaderData TypeScript inference👌\n- 📦 [Framer Motion 6.5](https://twitter.com/mattgperry/status/1547581579974696961?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): scroll animations\n- 📦 [Zustand 4.0.0-rc.2](https://twitter.com/dai_shi/status/1548685973558800384?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): ready for production\n- 📦 [Redwood 2.1](https://github.com/redwoodjs/redwood/releases/tag/v2.1.0?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)",
+      "nodeType": "list",
+      "translated_content": "- 📜 [避免使用匿名组件，推荐使用displayName](https://julesblom.com/writing/component-displayname?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：有时React无法为组件推断合适的名称，这会增加开发工具（Context、memo、forwardRef、HOC）的使用难度\n- 📜 [为什么Remix不是React框架而是全栈Web框架](https://andre-landgraf.dev/blog/2022-07-16_why_remix_is_not_a_react_framework_but_a_full_stack_web_framework/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：清晰对比Remix与其他框架的差异。Remix是全栈且框架无关的解决方案。\n- 📜 [函数式编程终于成为主流](https://github.com/readme/featured/functional-programming?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：GitHub指出函数式编程的普及，部分归功于React、Redux和Hooks。译者自述因David Nolen的著名文章从Scala转投React，2014年前甚至不喜欢JS😅\n- 📜 [Docusaurus为何是强大的文档框架](https://blog.1password.com/docusaurus-documentation-framework/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：1Password解释选择Docusaurus构建开发者文档门户的原因，涵盖站点定制、扩展MDX/Markdown的remark插件等高级主题\n- 📜 [使用Sessions和Remix在Cookie中存储数据](https://jonmeyers.io/blog/store-data-in-a-cookie-with-sessions-and-remix?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：创建访问计数器Cookie的实践\n- 📖 [Remix Deferred新特性](https://github.com/remix-run/remix/blob/deferred/docs/guides/streaming.md?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter#using-deferred)：开发中的API，可精细控制首屏加载时的数据加载权衡，优化首字节时间(TTFB)或累积布局偏移(CLS)\n- 📖 [Next.js无障碍文档改进](https://twitter.com/nextjs/status/1549043787330375680?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 🐦 [Preact新版VDOM状态模型](https://twitter.com/_developit/status/1549001036802625536?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 🐦 [Remix+React 18的startTransition与时间切片水合](https://twitter.com/ryanflorence/status/1547959632663961602?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：Ryan Florence分享争议性技巧，引发关于水合机制的深度讨论（[Ryan Carniato](https://twitter.com/RyanCarniato/status/1549100194708353024?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)、[Andrew Clark](https://twitter.com/acdlite/status/1549109283387744256?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)等参与）\n- 📦 [pmndrs/react-three-rapier](https://github.com/pmndrs/react-three-rapier?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：将react-three-fiber与Rapier物理引擎集成\n- 📦 [Remotion 3.1发布](https://www.remotion.dev/blog/3-1?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：支持GIF生成、Tailwind CSS、带持续时间的弹簧动画、OffthreadVideo等多项新特性\n- 📦 [Remix 1.6.5更新](https://github.com/remix-run/remix/releases/tag/remix%401.6.5?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：loader与useLoaderData的TypeScript类型推断优化👌\n- 📦 [Framer Motion 6.5](https://twitter.com/mattgperry/status/1547581579974696961?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：新增滚动动画功能\n- 📦 [Zustand 4.0.0-rc.2](https://twitter.com/dai_shi/status/1548685973558800384?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：已具备生产环境使用条件\n- 📦 [Redwood 2.1发布](https://github.com/redwoodjs/redwood/releases/tag/v2.1.0?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
     },
     {
       "id": "42c293cc",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "a5a4323e",
       "translatable": true,
       "content": "## 💸 Sponsors",
-      "sourceMdx": "## 💸 Sponsors"
+      "sourceMdx": "## 💸 Sponsors",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商"
     },
     {
       "id": "657c2b20",
       "translatable": true,
       "content": "💡 [How to sponsor this newsletter](https://thisweekinreact.com/sponsor?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)",
-      "sourceMdx": "💡 [How to sponsor this newsletter](https://thisweekinreact.com/sponsor?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
+      "sourceMdx": "💡 [How to sponsor this newsletter](https://thisweekinreact.com/sponsor?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)",
+      "nodeType": "paragraph",
+      "translated_content": "💡 [如何赞助本简报](https://thisweekinreact.com/sponsor?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
     },
     {
       "id": "e7772088",
       "translatable": true,
       "content": "[**Storetasker: Freelance Shopify Devs network**](https://www.storetasker.com/become-an-expert?utm_campaign=thisweekinreact\\&utm_medium=thisweekinreact\\&utm_source=thisweekinreact)",
-      "sourceMdx": "[**Storetasker: Freelance Shopify Devs network**](https://www.storetasker.com/become-an-expert?utm_campaign=thisweekinreact&utm_medium=thisweekinreact&utm_source=thisweekinreact)"
+      "sourceMdx": "[**Storetasker: Freelance Shopify Devs network**](https://www.storetasker.com/become-an-expert?utm_campaign=thisweekinreact&utm_medium=thisweekinreact&utm_source=thisweekinreact)",
+      "nodeType": "paragraph",
+      "translated_content": "[**Storetasker：Shopify自由开发者网络**](https://www.storetasker.com/become-an-expert?utm_campaign=thisweekinreact&utm_medium=thisweekinreact&utm_source=thisweekinreact)"
     },
     {
       "id": "eab056be",
       "translatable": true,
       "content": "Hey! This is Tim from Storetasker. We run the best Shopify dev freelance network. I would love for you to apply if you enjoy building Shopify sites or are excited about leveraging Shopify's **cutting-edge React framework** for building custom storefronts: [**Hydrogen**](https://hydrogen.shopify.dev/?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter).",
-      "sourceMdx": "Hey! This is Tim from Storetasker. We run the best Shopify dev freelance network. I would love for you to apply if you enjoy building Shopify sites or are excited about leveraging Shopify's **cutting-edge React framework** for building custom storefronts: [**Hydrogen**](https://hydrogen.shopify.dev/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)."
+      "sourceMdx": "Hey! This is Tim from Storetasker. We run the best Shopify dev freelance network. I would love for you to apply if you enjoy building Shopify sites or are excited about leveraging Shopify's **cutting-edge React framework** for building custom storefronts: [**Hydrogen**](https://hydrogen.shopify.dev/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter).",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！我是Storetasker的Tim。我们运营着最优秀的Shopify自由开发者网络。如果您喜欢构建Shopify站点，或对利用Shopify**前沿的React框架**构建定制化店面感兴趣：[**Hydrogen**](https://hydrogen.shopify.dev/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)，欢迎申请加入。"
     },
     {
       "id": "f01228d3",
       "translatable": true,
       "content": "Accepted devs on the network work on a freelance basis, and we present them with great opportunities to work on some of the best Shopify brands (Alo Yoga, Chubbies, JUDY & many many more).",
-      "sourceMdx": "Accepted devs on the network work on a freelance basis, and we present them with great opportunities to work on some of the best Shopify brands (Alo Yoga, Chubbies, JUDY & many many more)."
+      "sourceMdx": "Accepted devs on the network work on a freelance basis, and we present them with great opportunities to work on some of the best Shopify brands (Alo Yoga, Chubbies, JUDY & many many more).",
+      "nodeType": "paragraph",
+      "translated_content": "获准加入网络的开发者将以自由职业者身份工作，我们将为其提供与顶级Shopify品牌合作的机会（如Alo Yoga、Chubbies、JUDY等众多品牌）。"
     },
     {
       "id": "afa378f7",
       "translatable": true,
       "content": "The great thing about Storetasker is that devs aren't in competition with each other - they just pick up the jobs that match their interests. Beyond that - it's a very tight-knit community.",
-      "sourceMdx": "The great thing about Storetasker is that devs aren't in competition with each other - they just pick up the jobs that match their interests. Beyond that - it's a very tight-knit community."
+      "sourceMdx": "The great thing about Storetasker is that devs aren't in competition with each other - they just pick up the jobs that match their interests. Beyond that - it's a very tight-knit community.",
+      "nodeType": "paragraph",
+      "translated_content": "Storetasker的独特之处在于开发者之间无需竞争——只需选择符合兴趣的任务即可。此外，这里还是一个非常紧密的社区。"
     },
     {
       "id": "e8e162a9",
       "translatable": true,
       "content": "Feel free to apply directly via this [link](https://www.storetasker.com/become-an-expert?utm_campaign=thisweekinreact\\&utm_medium=thisweekinreact\\&utm_source=thisweekinreact) to join.",
-      "sourceMdx": "Feel free to apply directly via this [link](https://www.storetasker.com/become-an-expert?utm_campaign=thisweekinreact&utm_medium=thisweekinreact&utm_source=thisweekinreact) to join."
+      "sourceMdx": "Feel free to apply directly via this [link](https://www.storetasker.com/become-an-expert?utm_campaign=thisweekinreact&utm_medium=thisweekinreact&utm_source=thisweekinreact) to join.",
+      "nodeType": "paragraph",
+      "translated_content": "欢迎直接通过此[链接](https://www.storetasker.com/become-an-expert?utm_campaign=thisweekinreact&utm_medium=thisweekinreact&utm_source=thisweekinreact)申请加入。"
     },
     {
       "id": "aac83236",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "a5c5772a",
       "translatable": true,
       "content": "[**CSS Weekly Newsletter**](https://cssw.io/this-week-in-react?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)",
-      "sourceMdx": "[**CSS Weekly Newsletter**](https://cssw.io/this-week-in-react?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
+      "sourceMdx": "[**CSS Weekly Newsletter**](https://cssw.io/this-week-in-react?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)",
+      "nodeType": "paragraph",
+      "translated_content": "[**CSS周刊**](https://cssw.io/this-week-in-react?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
     },
     {
       "id": "fbc2db85",
       "translatable": true,
       "content": "Stay up-to-date with the latest trends in CSS by getting only relevant and valuable articles and tutorials directly into your inbox. Join more than 30,000 developers and sign up now.",
-      "sourceMdx": "Stay up-to-date with the latest trends in CSS by getting only relevant and valuable articles and tutorials directly into your inbox. Join more than 30,000 developers and sign up now."
+      "sourceMdx": "Stay up-to-date with the latest trends in CSS by getting only relevant and valuable articles and tutorials directly into your inbox. Join more than 30,000 developers and sign up now.",
+      "nodeType": "paragraph",
+      "translated_content": "通过订阅获取最新CSS趋势文章和教程，直接送达您的收件箱。已有超过30,000名开发者加入，立即注册吧。"
     },
     {
       "id": "be625c00",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "3a8d2b95",
       "translatable": true,
       "content": "## React-Native",
-      "sourceMdx": "## React-Native"
+      "sourceMdx": "## React-Native",
+      "nodeType": "heading",
+      "translated_content": "## React-Native"
     },
     {
       "id": "5803caac",
       "translatable": true,
       "content": "[**Hermes as the Default**](https://reactnative.dev/blog/2022/07/08/hermes-as-the-default?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)",
-      "sourceMdx": "[**Hermes as the Default**](https://reactnative.dev/blog/2022/07/08/hermes-as-the-default?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
+      "sourceMdx": "[**Hermes as the Default**](https://reactnative.dev/blog/2022/07/08/hermes-as-the-default?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)",
+      "nodeType": "paragraph",
+      "translated_content": "[**Hermes成为默认引擎**](https://reactnative.dev/blog/2022/07/08/hermes-as-the-default?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
     },
     {
       "id": "51867d16",
       "translatable": true,
       "content": "The JS Hermes engine is an alternative to JSC/V8. It can help your app to start faster via a pre-compilation in bytecode. With React-Native 0.70 (now in [release candidate](https://github.com/facebook/react-native/releases/tag/v0.70.0-rc.0?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)), Hermes is enabled by default. Michael shares various benchmarks from the open-source app Mattermost. The Hermes distribution mode has changed to avoid ABI incompatibility issues. Missing Intl APIs have been added on iOS. Upcoming support for BigInt and WeakRef.",
-      "sourceMdx": "The JS Hermes engine is an alternative to JSC/V8. It can help your app to start faster via a pre-compilation in bytecode. With React-Native 0.70 (now in [release candidate](https://github.com/facebook/react-native/releases/tag/v0.70.0-rc.0?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)), Hermes is enabled by default. Michael shares various benchmarks from the open-source app Mattermost. The Hermes distribution mode has changed to avoid ABI incompatibility issues. Missing Intl APIs have been added on iOS. Upcoming support for BigInt and WeakRef."
+      "sourceMdx": "The JS Hermes engine is an alternative to JSC/V8. It can help your app to start faster via a pre-compilation in bytecode. With React-Native 0.70 (now in [release candidate](https://github.com/facebook/react-native/releases/tag/v0.70.0-rc.0?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)), Hermes is enabled by default. Michael shares various benchmarks from the open-source app Mattermost. The Hermes distribution mode has changed to avoid ABI incompatibility issues. Missing Intl APIs have been added on iOS. Upcoming support for BigInt and WeakRef.",
+      "nodeType": "paragraph",
+      "translated_content": "Hermes JS引擎是JSC/V8的替代方案，通过预编译字节码可加速应用启动。随着React-Native 0.70（现已发布[候选版本](https://github.com/facebook/react-native/releases/tag/v0.70.0-rc.0?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)）的推出，Hermes已默认启用。Michael分享了开源应用Mattermost的多项基准测试。Hermes分发模式已调整以避免ABI兼容性问题。iOS平台新增了缺失的Intl API支持。即将支持BigInt和WeakRef。"
     },
     {
       "id": "785750ac",
       "translatable": true,
       "content": "[**What working at Airbnb during its React Native era taught me about web3**](https://medium.com/@devinabbott/what-working-at-airbnb-during-its-react-native-era-taught-me-about-web3-6d34d855d892?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)",
-      "sourceMdx": "[**What working at Airbnb during its React Native era taught me about web3**](https://medium.com/@devinabbott/what-working-at-airbnb-during-its-react-native-era-taught-me-about-web3-6d34d855d892?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
+      "sourceMdx": "[**What working at Airbnb during its React Native era taught me about web3**](https://medium.com/@devinabbott/what-working-at-airbnb-during-its-react-native-era-taught-me-about-web3-6d34d855d892?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)",
+      "nodeType": "paragraph",
+      "translated_content": "[**在Airbnb React Native时代的工作经历如何教会我理解web3**](https://medium.com/@devinabbott/what-working-at-airbnb-during-its-react-native-era-taught-me-about-web3-6d34d855d892?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
     },
     {
       "id": "82e90254",
       "translatable": true,
       "content": "Devin goes over the history of React-Native at Airbnb and the very nuanced decision to sunset it He makes the interesting parallel with web3. In the long term, technology potential wins over the pain of early adopters.",
-      "sourceMdx": "Devin goes over the history of React-Native at Airbnb and the very nuanced decision to sunset it He makes the interesting parallel with web3. In the long term, technology potential wins over the pain of early adopters."
+      "sourceMdx": "Devin goes over the history of React-Native at Airbnb and the very nuanced decision to sunset it He makes the interesting parallel with web3. In the long term, technology potential wins over the pain of early adopters.",
+      "nodeType": "paragraph",
+      "translated_content": "Devin回顾了Airbnb使用React-Native的历史及其最终放弃的复杂决策过程，并与web3的发展进行了有趣类比。长期来看，技术潜力终将超越早期采用者的阵痛。"
     },
     {
       "id": "2822251a",
       "translatable": true,
       "content": "**Extras:**",
-      "sourceMdx": "**Extras:**"
+      "sourceMdx": "**Extras:**",
+      "nodeType": "paragraph",
+      "translated_content": "**其他资讯：**"
     },
     {
       "id": "9f974d3d",
       "translatable": true,
       "content": "* 📜 [Ionic - Announcing Portals for React Native](https://ionicframework.com/blog/announcing-portals-for-react-native/?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter): allows an integration of WebView Ionic experiences in a React-Native app. Paid product.\n* 🎙️ [React-Native-Radio #242 - Inspecting React Native 0.69](https://reactnativeradio.com/episodes/rnr-242-inspecting-react-native-069?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* 🎙️ [The React Native Show #14 - React Native Paper v.5](https://www.callstack.com/podcasts/react-native-paper-v-5-update-overview?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* 📦 [Vision Camera 2.14](https://twitter.com/mrousavy/status/1548953154993127426?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter): can now chain frame processors\n* 📦 [expo vscode 0.8](https://twitter.com/cedricvanputten/status/1549051333595971585?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter): JSON config autocomplete 👍\n* 📦 [expo-music-picker](https://github.com/barthap/expo-music-picker?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* 📦 [react-native-iconic](https://github.com/nandorojo/react-native-iconic?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* 🧑‍🎨 [React-Native-Skia + Expo web demo](https://twitter.com/Baconbrix/status/1547974280670875648?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* 🧑‍🎨 [Instagram iOS page transitions demo](https://twitter.com/enesozt_/status/1549049433148403712?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)",
-      "sourceMdx": "- 📜 [Ionic - Announcing Portals for React Native](https://ionicframework.com/blog/announcing-portals-for-react-native/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): allows an integration of WebView Ionic experiences in a React-Native app. Paid product.\n- 🎙️ [React-Native-Radio #242 - Inspecting React Native 0.69](https://reactnativeradio.com/episodes/rnr-242-inspecting-react-native-069?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 🎙️ [The React Native Show #14 - React Native Paper v.5](https://www.callstack.com/podcasts/react-native-paper-v-5-update-overview?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 📦 [Vision Camera 2.14](https://twitter.com/mrousavy/status/1548953154993127426?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): can now chain frame processors\n- 📦 [expo vscode 0.8](https://twitter.com/cedricvanputten/status/1549051333595971585?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): JSON config autocomplete 👍\n- 📦 [expo-music-picker](https://github.com/barthap/expo-music-picker?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 📦 [react-native-iconic](https://github.com/nandorojo/react-native-iconic?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 🧑‍🎨 [React-Native-Skia + Expo web demo](https://twitter.com/Baconbrix/status/1547974280670875648?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 🧑‍🎨 [Instagram iOS page transitions demo](https://twitter.com/enesozt_/status/1549049433148403712?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
+      "sourceMdx": "- 📜 [Ionic - Announcing Portals for React Native](https://ionicframework.com/blog/announcing-portals-for-react-native/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): allows an integration of WebView Ionic experiences in a React-Native app. Paid product.\n- 🎙️ [React-Native-Radio #242 - Inspecting React Native 0.69](https://reactnativeradio.com/episodes/rnr-242-inspecting-react-native-069?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 🎙️ [The React Native Show #14 - React Native Paper v.5](https://www.callstack.com/podcasts/react-native-paper-v-5-update-overview?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 📦 [Vision Camera 2.14](https://twitter.com/mrousavy/status/1548953154993127426?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): can now chain frame processors\n- 📦 [expo vscode 0.8](https://twitter.com/cedricvanputten/status/1549051333595971585?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter): JSON config autocomplete 👍\n- 📦 [expo-music-picker](https://github.com/barthap/expo-music-picker?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 📦 [react-native-iconic](https://github.com/nandorojo/react-native-iconic?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 🧑‍🎨 [React-Native-Skia + Expo web demo](https://twitter.com/Baconbrix/status/1547974280670875648?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 🧑‍🎨 [Instagram iOS page transitions demo](https://twitter.com/enesozt_/status/1549049433148403712?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)",
+      "nodeType": "list",
+      "translated_content": "- 📜 [Ionic - 宣布推出 React Native 版 Portals](https://ionicframework.com/blog/announcing-portals-for-react-native/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：允许在 React-Native 应用中集成 WebView Ionic 体验。付费产品。\n- 🎙️ [React-Native-Radio 第242期 - 深入解析 React Native 0.69](https://reactnativeradio.com/episodes/rnr-242-inspecting-react-native-069?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 🎙️ [The React Native Show 第14期 - React Native Paper v5](https://www.callstack.com/podcasts/react-native-paper-v-5-update-overview?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 📦 [Vision Camera 2.14](https://twitter.com/mrousavy/status/1548953154993127426?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：现支持帧处理器链式调用\n- 📦 [expo vscode 0.8](https://twitter.com/cedricvanputten/status/1549051333595971585?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)：JSON 配置自动补全功能 👍\n- 📦 [expo-music-picker](https://github.com/barthap/expo-music-picker?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 📦 [react-native-iconic](https://github.com/nandorojo/react-native-iconic?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 🧑‍🎨 [React-Native-Skia + Expo 网页版演示](https://twitter.com/Baconbrix/status/1547974280670875648?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- 🧑‍🎨 [Instagram iOS 页面转场动画演示](https://twitter.com/enesozt_/status/1549049433148403712?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
     },
     {
       "id": "3c5a1374",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "8574d51c",
       "translatable": true,
       "content": "## Other",
-      "sourceMdx": "## Other"
+      "sourceMdx": "## Other",
+      "nodeType": "heading",
+      "translated_content": "## 其他"
     },
     {
       "id": "e9313fef",
       "translatable": true,
       "content": "[**Vite 3**](https://vitejs.dev/blog/announcing-vite3.html?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)",
-      "sourceMdx": "[**Vite 3**](https://vitejs.dev/blog/announcing-vite3.html?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
+      "sourceMdx": "[**Vite 3**](https://vitejs.dev/blog/announcing-vite3.html?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)",
+      "nodeType": "paragraph",
+      "translated_content": "[**Vite 3 发布**](https://vitejs.dev/blog/announcing-vite3.html?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
     },
     {
       "id": "1b4de6df",
       "translatable": true,
       "content": "Vite quickly became a reference in the frontend ecosystem. Today, it is a very good alternative to Create-React-App, with a much faster DX, and some React meta-frameworks are also using it (Storybook, Hydrogen...). v3 comes with a lot of changes, a new doc, starters for various frameworks (including React), improvements on global imports, a new doc... See also the [ViteConf](https://viteconf.org/?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter) conference in October.",
-      "sourceMdx": "Vite quickly became a reference in the frontend ecosystem. Today, it is a very good alternative to Create-React-App, with a much faster DX, and some React meta-frameworks are also using it (Storybook, Hydrogen...). v3 comes with a lot of changes, a new doc, starters for various frameworks (including React), improvements on global imports, a new doc... See also the [ViteConf](https://viteconf.org/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter) conference in October."
+      "sourceMdx": "Vite quickly became a reference in the frontend ecosystem. Today, it is a very good alternative to Create-React-App, with a much faster DX, and some React meta-frameworks are also using it (Storybook, Hydrogen...). v3 comes with a lot of changes, a new doc, starters for various frameworks (including React), improvements on global imports, a new doc... See also the [ViteConf](https://viteconf.org/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter) conference in October.",
+      "nodeType": "paragraph",
+      "translated_content": "Vite 迅速成为前端生态的标杆工具。如今，它是 Create-React-App 的优质替代方案，提供更快的开发体验，并被多个 React 元框架采用（如 Storybook、Hydrogen 等）。v3 版本带来大量变更：全新文档、多框架启动模板（含 React）、全局导入优化等。另可关注十月举办的 [ViteConf](https://viteconf.org/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter) 大会。"
     },
     {
       "id": "1958bc43",
       "translatable": true,
       "content": "**Extras:**",
-      "sourceMdx": "**Extras:**"
+      "sourceMdx": "**Extras:**",
+      "nodeType": "paragraph",
+      "translated_content": "**扩展阅读：**"
     },
     {
       "id": "bcc700e8",
       "translatable": true,
       "content": "* [The Cost of Consistency in UI Frameworks](https://dev.to/this-is-learning/the-cost-of-consistency-in-ui-frameworks-4agi?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* [Node.js 18.6 - Custom ESM loaders: Who, what, when, where, why, how](https://dev.to/jakobjingleheimer/custom-esm-loaders-who-what-when-where-why-how-4i1o?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* [A New Pattern For The Jamstack: Segmented Rendering](https://www.smashingmagazine.com/2022/07/new-pattern-jamstack-segmented-rendering/?ref=sidebar\\&utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* [Event-Driven JavaScript Development](https://whistlr.info/2022/event-driven-js/?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* [Chrome Dev Insider: The CSS and UI edition](https://developer.chrome.com/blog/insider-july-2022/?linkId=8100396\\&utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* [Safari Technology Preview 149](https://webkit.org/blog/12998/release-notes-for-safari-technology-preview-149/?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* [NestJS v9](https://trilon.io/blog/nestjs-9-is-now-available?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)\n* [Parcel CSS 1.12](https://twitter.com/devongovett/status/1547615708988600322?utm_campaign=This%20Week%20In%20React\\&utm_medium=email\\&utm_source=Revue%20newsletter)",
-      "sourceMdx": "- [The Cost of Consistency in UI Frameworks](https://dev.to/this-is-learning/the-cost-of-consistency-in-ui-frameworks-4agi?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [Node.js 18.6 - Custom ESM loaders: Who, what, when, where, why, how](https://dev.to/jakobjingleheimer/custom-esm-loaders-who-what-when-where-why-how-4i1o?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [A New Pattern For The Jamstack: Segmented Rendering](https://www.smashingmagazine.com/2022/07/new-pattern-jamstack-segmented-rendering/?ref=sidebar&utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [Event-Driven JavaScript Development](https://whistlr.info/2022/event-driven-js/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [Chrome Dev Insider: The CSS and UI edition](https://developer.chrome.com/blog/insider-july-2022/?linkId=8100396&utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [Safari Technology Preview 149](https://webkit.org/blog/12998/release-notes-for-safari-technology-preview-149/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [NestJS v9](https://trilon.io/blog/nestjs-9-is-now-available?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [Parcel CSS 1.12](https://twitter.com/devongovett/status/1547615708988600322?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
+      "sourceMdx": "- [The Cost of Consistency in UI Frameworks](https://dev.to/this-is-learning/the-cost-of-consistency-in-ui-frameworks-4agi?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [Node.js 18.6 - Custom ESM loaders: Who, what, when, where, why, how](https://dev.to/jakobjingleheimer/custom-esm-loaders-who-what-when-where-why-how-4i1o?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [A New Pattern For The Jamstack: Segmented Rendering](https://www.smashingmagazine.com/2022/07/new-pattern-jamstack-segmented-rendering/?ref=sidebar&utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [Event-Driven JavaScript Development](https://whistlr.info/2022/event-driven-js/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [Chrome Dev Insider: The CSS and UI edition](https://developer.chrome.com/blog/insider-july-2022/?linkId=8100396&utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [Safari Technology Preview 149](https://webkit.org/blog/12998/release-notes-for-safari-technology-preview-149/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [NestJS v9](https://trilon.io/blog/nestjs-9-is-now-available?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [Parcel CSS 1.12](https://twitter.com/devongovett/status/1547615708988600322?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)",
+      "nodeType": "list",
+      "translated_content": "- [UI框架中一致性的代价](https://dev.to/this-is-learning/the-cost-of-consistency-in-ui-frameworks-4agi?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [Node.js 18.6 - 自定义ESM加载器：何人、何事、何时、何地、为何及如何实现](https://dev.to/jakobjingleheimer/custom-esm-loaders-who-what-when-where-why-how-4i1o?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [Jamstack新范式：分段渲染](https://www.smashingmagazine.com/2022/07/new-pattern-jamstack-segmented-rendering/?ref=sidebar&utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [事件驱动的JavaScript开发](https://whistlr.info/2022/event-driven-js/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [Chrome开发者内参：CSS与UI特辑](https://developer.chrome.com/blog/insider-july-2022/?linkId=8100396&utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [Safari技术预览版149发布说明](https://webkit.org/blog/12998/release-notes-for-safari-technology-preview-149/?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [NestJS v9正式发布](https://trilon.io/blog/nestjs-9-is-now-available?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)\n- [Parcel CSS 1.12版本更新](https://twitter.com/devongovett/status/1547615708988600322?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)"
     },
     {
       "id": "714b728f",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "f45239ba",
       "translatable": true,
       "content": "![](https://user-images.githubusercontent.com/749374/179829775-1e041995-9a6e-4681-aed4-ae661c58d84f.png)",
-      "sourceMdx": "![](https://user-images.githubusercontent.com/749374/179829775-1e041995-9a6e-4681-aed4-ae661c58d84f.png)"
+      "sourceMdx": "![](https://user-images.githubusercontent.com/749374/179829775-1e041995-9a6e-4681-aed4-ae661c58d84f.png)",
+      "nodeType": "paragraph",
+      "translated_content": "![](https://user-images.githubusercontent.com/749374/179829775-1e041995-9a6e-4681-aed4-ae661c58d84f.png)"
     }
   ]
 }

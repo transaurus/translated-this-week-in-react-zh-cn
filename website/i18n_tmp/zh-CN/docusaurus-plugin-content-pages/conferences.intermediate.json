@@ -1,215 +1,285 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/src/pages/conferences.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/src/pages/conferences.mdx",
   "segments": [
     {
       "id": "a9b642df",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import { newsletterStats } from \"@site/src/newsletter\";"
+      "sourceMdx": "import { newsletterStats } from \"@site/src/newsletter\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_a9b642df"
     },
     {
       "id": "adbc947a",
       "translatable": true,
       "content": "# For conference organizers",
-      "sourceMdx": "# For conference organizers"
+      "sourceMdx": "# For conference organizers",
+      "nodeType": "heading",
+      "translated_content": "# 致会议组织者"
     },
     {
       "id": "e7ec8f99",
       "translatable": true,
       "content": "Do you want to **promote your event** and **sell extra tickets**?",
-      "sourceMdx": "Do you want to **promote your event** and **sell extra tickets**?"
+      "sourceMdx": "Do you want to **promote your event** and **sell extra tickets**?",
+      "nodeType": "paragraph",
+      "translated_content": "您是否希望**推广活动**并**售出更多门票**？"
     },
     {
       "id": "6ef78e84",
       "translatable": true,
       "content": "Our newsletter can be your **media partner** and help you achieve your goals, promoting your event for free to **{newsletterStats.all.subscribersCount} subscribers**",
-      "sourceMdx": "Our newsletter can be your **media partner** and help you achieve your goals, promoting your event for free to **{newsletterStats.all.subscribersCount} subscribers**"
+      "sourceMdx": "Our newsletter can be your **media partner** and help you achieve your goals, promoting your event for free to **{newsletterStats.all.subscribersCount} subscribers**",
+      "nodeType": "paragraph",
+      "translated_content": "我们的简报可作为您的**媒体合作伙伴**，免费向**{newsletterStats.all.subscribersCount}名订阅者**推广活动，助力达成目标"
     },
     {
       "id": "53eaf0e1",
       "translatable": true,
       "content": "In practice, this means that we **exchange visibility** with our respective audiences as part of a **cross-promotional operation**.",
-      "sourceMdx": "In practice, this means that we **exchange visibility** with our respective audiences as part of a **cross-promotional operation**."
+      "sourceMdx": "In practice, this means that we **exchange visibility** with our respective audiences as part of a **cross-promotional operation**.",
+      "nodeType": "paragraph",
+      "translated_content": "具体而言，这意味着我们将作为**交叉推广活动**的一部分，**互换双方受众的曝光资源**"
     },
     {
       "id": "bb849aa9",
       "translatable": true,
       "content": ":::tip[is this a good fit?]\n\n[**This Week In React**](/) is a large newsletter for **mid/senior React and React Native developers** looking to stay up-to-date.\n\nThis audience is made up of **passionate and experienced developers**. We believe this partnership is a good fit for both sides:\n\n- Our audience is **likely to buy conference tickets and workshops**\n- Your audience is likely to sign up to our newsletter and keep reading it over time\n\n:::",
-      "sourceMdx": ":::tip[is this a good fit?]\n\n[**This Week In React**](/) is a large newsletter for **mid/senior React and React Native developers** looking to stay up-to-date.\n\nThis audience is made up of **passionate and experienced developers**. We believe this partnership is a good fit for both sides:\n\n- Our audience is **likely to buy conference tickets and workshops**\n- Your audience is likely to sign up to our newsletter and keep reading it over time\n\n:::"
+      "sourceMdx": ":::tip[is this a good fit?]\n\n[**This Week In React**](/) is a large newsletter for **mid/senior React and React Native developers** looking to stay up-to-date.\n\nThis audience is made up of **passionate and experienced developers**. We believe this partnership is a good fit for both sides:\n\n- Our audience is **likely to buy conference tickets and workshops**\n- Your audience is likely to sign up to our newsletter and keep reading it over time\n\n:::",
+      "nodeType": "containerDirective",
+      "translated_content": ":::tip[是否契合？]\n\n[**This Week In React**](/)是面向**中高级React和React Native开发者**的大型技术简报，旨在提供前沿技术动态。\n\n我们的受众是**充满热情的经验丰富的开发者**。这种合作对双方都有益：\n\n- 我们的读者**更有可能购买会议门票和研讨会席位**\n- 您的参会者很可能成为我们的长期订阅用户\n\n:::"
     },
     {
       "id": "63622bf0",
       "translatable": true,
       "content": "## Conferences we partner with",
-      "sourceMdx": "## Conferences we partner with"
+      "sourceMdx": "## Conferences we partner with",
+      "nodeType": "heading",
+      "translated_content": "## 合作会议标准"
     },
     {
       "id": "98cfbd53",
       "translatable": true,
       "content": "We prefer to partner with conferences that meet the following criteria:",
-      "sourceMdx": "We prefer to partner with conferences that meet the following criteria:"
+      "sourceMdx": "We prefer to partner with conferences that meet the following criteria:",
+      "nodeType": "paragraph",
+      "translated_content": "我们优先与符合以下标准的会议合作："
     },
     {
       "id": "0cc488ed",
       "translatable": true,
       "content": "* The conference is essentially about React and/or React Native\n* The conference takes place on site, with over 300 participants\n* The conference is taking place in Europe or the United States",
-      "sourceMdx": "- The conference is essentially about React and/or React Native\n- The conference takes place on site, with over 300 participants\n- The conference is taking place in Europe or the United States"
+      "sourceMdx": "- The conference is essentially about React and/or React Native\n- The conference takes place on site, with over 300 participants\n- The conference is taking place in Europe or the United States",
+      "nodeType": "list",
+      "translated_content": "- 会议主题以React和/或React Native为核心\n- 线下举办且参会规模超过300人\n- 会议地点位于欧洲或美国"
     },
     {
       "id": "26524352",
       "translatable": true,
       "content": "If you don't meet all the criteria, don't worry, you can always get in touch with us, and we'll figure this out.",
-      "sourceMdx": "If you don't meet all the criteria, don't worry, you can always get in touch with us, and we'll figure this out."
+      "sourceMdx": "If you don't meet all the criteria, don't worry, you can always get in touch with us, and we'll figure this out.",
+      "nodeType": "paragraph",
+      "translated_content": "若不完全符合标准也无需担心，欢迎随时联系我们商议合作可能"
     },
     {
       "id": "0d170438",
       "translatable": true,
       "content": ":::info[Our previous partners]\n\nWe already partnered with those conferences:\n\n- [React Summit - Amsterdam](https://reactsummit.com/)\n- [React Advanced - London](https://reactadvanced.com/)\n- [App.js - Kraków](https://appjs.co/)\n- [React Native EU - Wrocław](https://www.react-native.eu/)\n- [Chain React - Portland](https://chainreactconf.com/)\n- [React.js Day - Verona](https://2023.reactjsday.it/)\n- [React Connection - Paris](https://reactconnection.io/)\n- [React Native Connection - Paris](https://reactnativeconnection.io/)\n- [React Paris](https://react.paris/)\n\nThese conferences usually report some **extra ticket sales** attributed to our promo code, and consider this partnership to be worthwhile.\n\n:::",
-      "sourceMdx": ":::info[Our previous partners]\n\nWe already partnered with those conferences:\n\n- [React Summit - Amsterdam](https://reactsummit.com/)\n- [React Advanced - London](https://reactadvanced.com/)\n- [App.js - Kraków](https://appjs.co/)\n- [React Native EU - Wrocław](https://www.react-native.eu/)\n- [Chain React - Portland](https://chainreactconf.com/)\n- [React.js Day - Verona](https://2023.reactjsday.it/)\n- [React Connection - Paris](https://reactconnection.io/)\n- [React Native Connection - Paris](https://reactnativeconnection.io/)\n- [React Paris](https://react.paris/)\n\nThese conferences usually report some **extra ticket sales** attributed to our promo code, and consider this partnership to be worthwhile.\n\n:::"
+      "sourceMdx": ":::info[Our previous partners]\n\nWe already partnered with those conferences:\n\n- [React Summit - Amsterdam](https://reactsummit.com/)\n- [React Advanced - London](https://reactadvanced.com/)\n- [App.js - Kraków](https://appjs.co/)\n- [React Native EU - Wrocław](https://www.react-native.eu/)\n- [Chain React - Portland](https://chainreactconf.com/)\n- [React.js Day - Verona](https://2023.reactjsday.it/)\n- [React Connection - Paris](https://reactconnection.io/)\n- [React Native Connection - Paris](https://reactnativeconnection.io/)\n- [React Paris](https://react.paris/)\n\nThese conferences usually report some **extra ticket sales** attributed to our promo code, and consider this partnership to be worthwhile.\n\n:::",
+      "nodeType": "containerDirective",
+      "translated_content": ":::info[往期合作伙伴]\n\n我们曾与这些会议成功合作：\n\n- [React Summit - 阿姆斯特丹](https://reactsummit.com/)\n- [React Advanced - 伦敦](https://reactadvanced.com/)\n- [App.js - 克拉科夫](https://appjs.co/)\n- [React Native EU - 弗罗茨瓦夫](https://www.react-native.eu/)\n- [Chain React - 波特兰](https://chainreactconf.com/)\n- [React.js Day - 维罗纳](https://2023.reactjsday.it/)\n- [React Connection - 巴黎](https://reactconnection.io/)\n- [React Native Connection - 巴黎](https://reactnativeconnection.io/)\n- [React Paris](https://react.paris/)\n\n这些会议方反馈通过我们的促销码带来了**额外门票销售**，认为合作极具价值\n\n:::"
     },
     {
       "id": "816a06a6",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "cb5b269c",
       "translatable": true,
       "content": "## Partnership execution",
-      "sourceMdx": "## Partnership execution"
+      "sourceMdx": "## Partnership execution",
+      "nodeType": "heading",
+      "translated_content": "## 合作执行方案"
     },
     {
       "id": "b36c6338",
       "translatable": true,
       "content": "Here's how we generally execute this kind of media partnership.",
-      "sourceMdx": "Here's how we generally execute this kind of media partnership."
+      "sourceMdx": "Here's how we generally execute this kind of media partnership.",
+      "nodeType": "paragraph",
+      "translated_content": "以下是我们执行媒体合作的常规方式"
     },
     {
       "id": "2c1b51df",
       "translatable": true,
       "content": "### What we do",
-      "sourceMdx": "### What we do"
+      "sourceMdx": "### What we do",
+      "nodeType": "heading",
+      "translated_content": "### 我方提供"
     },
     {
       "id": "e3321a43",
       "translatable": true,
       "content": "* We mention once the conference in the newsletter intro ([example](/newsletter/159))\n* We mention it 3 times ([example](/newsletter/159#react)) at key events (early birds, CFP, speakers announcement...)",
-      "sourceMdx": "- We mention once the conference in the newsletter intro ([example](/newsletter/159))\n- We mention it 3 times ([example](/newsletter/159#react)) at key events (early birds, CFP, speakers announcement...)"
+      "sourceMdx": "- We mention once the conference in the newsletter intro ([example](/newsletter/159))\n- We mention it 3 times ([example](/newsletter/159#react)) at key events (early birds, CFP, speakers announcement...)",
+      "nodeType": "list",
+      "translated_content": "- 在简报导语中提及会议一次（[示例](/newsletter/159)）\n- 在关键节点（早鸟票、CFP、演讲者公布等）提及三次（[示例](/newsletter/159#react)）"
     },
     {
       "id": "e912d935",
       "translatable": true,
       "content": "### What you do",
-      "sourceMdx": "### What you do"
+      "sourceMdx": "### What you do",
+      "nodeType": "heading",
+      "translated_content": "### 贵方提供"
     },
     {
       "id": "ea0c7bae",
       "translatable": true,
       "content": "* You print and distribute our [Flyer (A5 leaflet format)](https://drive.google.com/drive/folders/1tVoR3u5qERjt9hwyNQQMJzax3iYEKcsL) in the conference bag\n* You put our [logo](https://drive.google.com/drive/folders/1029GIVDLUizLhhz0xNAdDlMnPhsQ3_f7) on your homepage with a do-follow backlink (with `?utm_source=<YOUR_CONF_NAME>`)\n* You mention us once in your conference newsletter (with `?utm_source=<YOUR_CONF_NAME>`)\n* You offer discount of at least 10% on tickets with promo code `TWIR`, also useful for tracking",
-      "sourceMdx": "- You print and distribute our [Flyer (A5 leaflet format)](https://drive.google.com/drive/folders/1tVoR3u5qERjt9hwyNQQMJzax3iYEKcsL) in the conference bag\n- You put our [logo](https://drive.google.com/drive/folders/1029GIVDLUizLhhz0xNAdDlMnPhsQ3_f7) on your homepage with a do-follow backlink (with `?utm_source=<YOUR_CONF_NAME>`)\n- You mention us once in your conference newsletter (with `?utm_source=<YOUR_CONF_NAME>`)\n- You offer discount of at least 10% on tickets with promo code `TWIR`, also useful for tracking"
+      "sourceMdx": "- You print and distribute our [Flyer (A5 leaflet format)](https://drive.google.com/drive/folders/1tVoR3u5qERjt9hwyNQQMJzax3iYEKcsL) in the conference bag\n- You put our [logo](https://drive.google.com/drive/folders/1029GIVDLUizLhhz0xNAdDlMnPhsQ3_f7) on your homepage with a do-follow backlink (with `?utm_source=<YOUR_CONF_NAME>`)\n- You mention us once in your conference newsletter (with `?utm_source=<YOUR_CONF_NAME>`)\n- You offer discount of at least 10% on tickets with promo code `TWIR`, also useful for tracking",
+      "nodeType": "list",
+      "translated_content": "- 在会议资料袋中发放我们的[A5尺寸宣传单页](https://drive.google.com/drive/folders/1tVoR3u5qERjt9hwyNQQMJzax3iYEKcsL)\n- 在官网添加带反向链接的[logo](https://drive.google.com/drive/folders/1029GIVDLUizLhhz0xNAdDlMnPhsQ3_f7)（需包含`?utm_source=<会议名称>`参数）\n- 在会议简报中提及我们一次（需包含`?utm_source=<会议名称>`参数）\n- 提供至少10%的门票折扣（促销码设为`TWIR`便于效果追踪）"
     },
     {
       "id": "bd92edfc",
       "translatable": true,
       "content": "### Other options",
-      "sourceMdx": "### Other options"
+      "sourceMdx": "### Other options",
+      "nodeType": "heading",
+      "translated_content": "### 其他选项"
     },
     {
       "id": "7f71ff2a",
       "translatable": true,
       "content": "We are open to negotiating other practices to give you the visibility we both need, such as:",
-      "sourceMdx": "We are open to negotiating other practices to give you the visibility we both need, such as:"
+      "sourceMdx": "We are open to negotiating other practices to give you the visibility we both need, such as:",
+      "nodeType": "paragraph",
+      "translated_content": "我们也接受其他互利共赢的合作形式："
     },
     {
       "id": "76dbcc76",
       "translatable": true,
       "content": "* Social media mentions\n* Additional newsletter inclusions\n* Creation of a conf summary blog post, that we both distribute\n* Anything else that benefit both of us",
-      "sourceMdx": "- Social media mentions\n- Additional newsletter inclusions\n- Creation of a conf summary blog post, that we both distribute\n- Anything else that benefit both of us"
+      "sourceMdx": "- Social media mentions\n- Additional newsletter inclusions\n- Creation of a conf summary blog post, that we both distribute\n- Anything else that benefit both of us",
+      "nodeType": "list",
+      "translated_content": "- 社交媒体互推\n- 额外简报露出\n- 共同撰写会议总结博文并联合推广\n- 其他对双方有利的形式"
     },
     {
       "id": "93028a4e",
       "translatable": true,
       "content": "### Ready to execute?",
-      "sourceMdx": "### Ready to execute?"
+      "sourceMdx": "### Ready to execute?",
+      "nodeType": "heading",
+      "translated_content": "### 准备就绪？"
     },
     {
       "id": "e8e162a9",
       "translatable": true,
       "content": "If this media partnership interests you, please reach out to [sebastien@thisweekinreact.com](mailto:sebastien@thisweekinreact.com?subject=%3CCONF_NAME%3E%20x%20This%20Week%20In%20React%20-%20Media%20Partnership).",
-      "sourceMdx": "If this media partnership interests you, please reach out to [sebastien@thisweekinreact.com](mailto:sebastien@thisweekinreact.com?subject=%3CCONF_NAME%3E%20x%20This%20Week%20In%20React%20-%20Media%20Partnership)."
+      "sourceMdx": "If this media partnership interests you, please reach out to [sebastien@thisweekinreact.com](mailto:sebastien@thisweekinreact.com?subject=%3CCONF_NAME%3E%20x%20This%20Week%20In%20React%20-%20Media%20Partnership).",
+      "nodeType": "paragraph",
+      "translated_content": "若有意建立媒体合作，请邮件联系[sebastien@thisweekinreact.com](mailto:sebastien@thisweekinreact.com?subject=%3CCONF_NAME%3E%20x%20This%20Week%20In%20React%20-%20Media%20Partnership)"
     },
     {
       "id": "463ed165",
       "translatable": true,
       "content": "To facilitate the execution of this partnership, it is preferable to provide us with all the relevant information about your conf upfront. In particular, knowing the key events of the conference you want us to promote ahead of time, and their respective dates, will help us better orchestrate things.",
-      "sourceMdx": "To facilitate the execution of this partnership, it is preferable to provide us with all the relevant information about your conf upfront. In particular, knowing the key events of the conference you want us to promote ahead of time, and their respective dates, will help us better orchestrate things."
+      "sourceMdx": "To facilitate the execution of this partnership, it is preferable to provide us with all the relevant information about your conf upfront. In particular, knowing the key events of the conference you want us to promote ahead of time, and their respective dates, will help us better orchestrate things.",
+      "nodeType": "paragraph",
+      "translated_content": "为便于执行此类合作，建议您提前提供会议的所有相关信息。特别是预先告知您希望我们推广的关键活动节点及其对应日期，这将有助于我们更好地协调安排。"
     },
     {
       "id": "a5c5772a",
       "translatable": true,
       "content": "Here's a useful email template you can use.",
-      "sourceMdx": "Here's a useful email template you can use."
+      "sourceMdx": "Here's a useful email template you can use.",
+      "nodeType": "paragraph",
+      "translated_content": "以下是可供参考的邮件模板。"
     },
     {
       "id": "65400624",
       "translatable": false,
       "content": "```bash title=\"Subject: <CONF_NAME> x This Week In React - Media Partnership\"\nHi,\n\nWe would like to establish a conference media with your newsletter.\n\nHere are the details of our conference:\n- Name:\n- Date:\n- Location:\n- Number of participants:\n- Topics:\n\nWe would like to promote our conference at those key events:\n- newsletter intro mention - dd/MM/yyyy - Conf scheduled, early birds\n- newsletter mention 1 - dd/MM/yyyy - CFP is opening / closing soon\n- newsletter mention 2 - dd/MM/yyyy - Speakers announcement + 3 representative headliners\n- newsletter mention 3 - dd/MM/yyyy - Last call, late birds\n\n(these key events are examples, and not strict requirements: feel free to suggest whatever helps you get conversions)\n\nWe agree to:\n- print and distribute your flyer in our swag bag\n- put your logo on our homepage with a do-follow backlink\n- mention our newsletter in your newsletter\n- offer a discount 10%+ with promo code TWIR\n\n... Other details you would like to discuss ...\n```",
-      "sourceMdx": "```bash title=\"Subject: <CONF_NAME> x This Week In React - Media Partnership\"\nHi,\n\nWe would like to establish a conference media with your newsletter.\n\nHere are the details of our conference:\n- Name:\n- Date:\n- Location:\n- Number of participants:\n- Topics:\n\nWe would like to promote our conference at those key events:\n- newsletter intro mention - dd/MM/yyyy - Conf scheduled, early birds\n- newsletter mention 1 - dd/MM/yyyy - CFP is opening / closing soon\n- newsletter mention 2 - dd/MM/yyyy - Speakers announcement + 3 representative headliners\n- newsletter mention 3 - dd/MM/yyyy - Last call, late birds\n\n(these key events are examples, and not strict requirements: feel free to suggest whatever helps you get conversions)\n\nWe agree to:\n- print and distribute your flyer in our swag bag\n- put your logo on our homepage with a do-follow backlink\n- mention our newsletter in your newsletter\n- offer a discount 10%+ with promo code TWIR\n\n... Other details you would like to discuss ...\n```"
+      "sourceMdx": "```bash title=\"Subject: <CONF_NAME> x This Week In React - Media Partnership\"\nHi,\n\nWe would like to establish a conference media with your newsletter.\n\nHere are the details of our conference:\n- Name:\n- Date:\n- Location:\n- Number of participants:\n- Topics:\n\nWe would like to promote our conference at those key events:\n- newsletter intro mention - dd/MM/yyyy - Conf scheduled, early birds\n- newsletter mention 1 - dd/MM/yyyy - CFP is opening / closing soon\n- newsletter mention 2 - dd/MM/yyyy - Speakers announcement + 3 representative headliners\n- newsletter mention 3 - dd/MM/yyyy - Last call, late birds\n\n(these key events are examples, and not strict requirements: feel free to suggest whatever helps you get conversions)\n\nWe agree to:\n- print and distribute your flyer in our swag bag\n- put your logo on our homepage with a do-follow backlink\n- mention our newsletter in your newsletter\n- offer a discount 10%+ with promo code TWIR\n\n... Other details you would like to discuss ...\n```",
+      "nodeType": "code",
+      "translated_content": "@@untranslatable_placeholder_65400624"
     },
     {
       "id": "15abb7bc",
       "translatable": true,
       "content": ":::tip[About newsletter mentions]\n\nUse our [public calendar](https://thisweekinreact.com/calendar) to know when we plan to send out an issue on which we can mention your conf.\n\nWe usually **normalize** conf mentions and **write the text ourselves**, taking into consideration what you want to highlight. If you want to provide a text, keep it super short, within these 2 sizes:\n\n- 🗓 [App.js Conf](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 Kraków - 22-24 May. Get a [10% discount](https://ti.to/appjs/2024/discount/TWIR) with code \"TWIR\".\n- 🗓 [React Summit](https://reactsummit.com/?utm_source=thisweekinreact) - 🇳🇱 Amsterdam - 14-18 June - Get a 10% discount with code \"TWIR\". Awesome lineup including Evan Bacon, Kent C. Dodds, Theo, Tim Neutkens, Mark Erikson, Fred Schott and so many others!\n\n:::",
-      "sourceMdx": ":::tip[About newsletter mentions]\n\nUse our [public calendar](https://thisweekinreact.com/calendar) to know when we plan to send out an issue on which we can mention your conf.\n\nWe usually **normalize** conf mentions and **write the text ourselves**, taking into consideration what you want to highlight. If you want to provide a text, keep it super short, within these 2 sizes:\n\n- 🗓 [App.js Conf](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 Kraków - 22-24 May. Get a [10% discount](https://ti.to/appjs/2024/discount/TWIR) with code \"TWIR\".\n- 🗓 [React Summit](https://reactsummit.com/?utm_source=thisweekinreact) - 🇳🇱 Amsterdam - 14-18 June - Get a 10% discount with code \"TWIR\". Awesome lineup including Evan Bacon, Kent C. Dodds, Theo, Tim Neutkens, Mark Erikson, Fred Schott and so many others!\n\n:::"
+      "sourceMdx": ":::tip[About newsletter mentions]\n\nUse our [public calendar](https://thisweekinreact.com/calendar) to know when we plan to send out an issue on which we can mention your conf.\n\nWe usually **normalize** conf mentions and **write the text ourselves**, taking into consideration what you want to highlight. If you want to provide a text, keep it super short, within these 2 sizes:\n\n- 🗓 [App.js Conf](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 Kraków - 22-24 May. Get a [10% discount](https://ti.to/appjs/2024/discount/TWIR) with code \"TWIR\".\n- 🗓 [React Summit](https://reactsummit.com/?utm_source=thisweekinreact) - 🇳🇱 Amsterdam - 14-18 June - Get a 10% discount with code \"TWIR\". Awesome lineup including Evan Bacon, Kent C. Dodds, Theo, Tim Neutkens, Mark Erikson, Fred Schott and so many others!\n\n:::",
+      "nodeType": "containerDirective",
+      "translated_content": ":::tip[关于通讯推广]\n\n请通过我们的[公开日历](https://thisweekinreact.com/calendar)了解可安排会议推广的刊发日期。\n\n我们通常会对会议推广文案进行标准化处理并自主撰写，同时考虑您希望突出的重点。若需提供文案，请务必精简，控制在以下两种格式范围内：\n\n- 🗓 [App.js Conf](https://appjs.co/?utm_source=thisweekinreact) - 🇵🇱 克拉科夫 - 5月22-24日。使用代码\"TWIR\"可享[10%折扣](https://ti.to/appjs/2024/discount/TWIR)。\n- 🗓 [React Summit](https://reactsummit.com/?utm_source=thisweekinreact) - 🇳🇱 阿姆斯特丹 - 6月14-18日 - 使用代码\"TWIR\"享10%折扣。阵容包括Evan Bacon、Kent C. Dodds、Theo、Tim Neutkens、Mark Erikson、Fred Schott等众多大咖！\n\n:::"
     },
     {
       "id": "43fd0c1b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "23b96cc0",
       "translatable": true,
       "content": "## About the newsletter",
-      "sourceMdx": "## About the newsletter"
+      "sourceMdx": "## About the newsletter",
+      "nodeType": "heading",
+      "translated_content": "## 关于本通讯"
     },
     {
       "id": "8fcdd6d4",
       "translatable": true,
       "content": "Here are a few statistics and testimonials to help you better understand the newsletter audience.",
-      "sourceMdx": "Here are a few statistics and testimonials to help you better understand the newsletter audience."
+      "sourceMdx": "Here are a few statistics and testimonials to help you better understand the newsletter audience.",
+      "nodeType": "paragraph",
+      "translated_content": "以下数据与用户评价可帮助您更深入了解本通讯的受众群体。"
     },
     {
       "id": "c35e5786",
       "translatable": true,
       "content": "### 📈 Stats",
-      "sourceMdx": "### 📈 Stats"
+      "sourceMdx": "### 📈 Stats",
+      "nodeType": "heading",
+      "translated_content": "### 📈 数据统计"
     },
     {
       "id": "cf6a5faa",
       "translatable": false,
       "content": "<SponsoringTabsStats />",
-      "sourceMdx": "<SponsoringTabsStats />"
+      "sourceMdx": "<SponsoringTabsStats />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_cf6a5faa"
     },
     {
       "id": "448a0039",
       "translatable": false,
       "content": "<br />",
-      "sourceMdx": "<br />"
+      "sourceMdx": "<br />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_448a0039"
     },
     {
       "id": "a461a67b",
       "translatable": true,
       "content": "### 🗣 Testimonials",
-      "sourceMdx": "### 🗣 Testimonials"
+      "sourceMdx": "### 🗣 Testimonials",
+      "nodeType": "heading",
+      "translated_content": "### 🗣 用户评价"
     },
     {
       "id": "d9572346",
       "translatable": false,
       "content": "<SponsoringTabsTestimonials />",
-      "sourceMdx": "<SponsoringTabsTestimonials />"
+      "sourceMdx": "<SponsoringTabsTestimonials />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_d9572346"
     }
   ]
 }

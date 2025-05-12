@@ -7,13 +7,13 @@ date: 02-28-2023
 
 大家好！
 
-本周，关于信号模型的讨论仍在持续。我们还迎来了Next.js的重要版本更新，推出了新的缓存系统，以促进在无服务器边缘运行时上高效使用服务器组件。
+本周，关于信号模型的讨论仍在持续。我们还迎来了Next.js的重要版本更新，推出了全新的缓存系统，旨在优化无服务器边缘运行时环境下Server Components的性能表现。
 
-React Native方面也有大量动态，包括Expo 48、Expo Router 1.0、Expo Image 1.0、Reanimated 3.0的发布，以及Metro开始支持符号链接！
+React Native领域同样活跃：Expo 48发布、Expo Router 1.0问世、Expo Image 1.0亮相、Reanimated 3.0登场，同时Metro开始支持符号链接功能！
 
 <!-- truncate -->
 
-**💡 [在Twitter上查看本期简报](https://slo.im/thread) - 可视化排版 🎨**
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化排版 🎨**
 
 ---
 
@@ -27,17 +27,17 @@ import Support from "../_support.mdx";
 
 [![Suncel](/emails/issues/136/suncel.jpg)](https://suncel.io/)
 
-**[构建可复用区块。更快发布内容。获得更好的核心网页指标和SEO。](https://suncel.io/)**
+**[构建可复用区块。更快发布内容。获得更优核心网页指标与SEO。](https://suncel.io/)**
 
-**内容编辑者**：对于需要大量生产内容并拥有强大SEO策略的公司而言，这是一项变革性工具。营销人员和内容编辑者可以毫无复杂度地编辑和发布页面。消除冗长延迟，即时发布。借助Next.js优化页面和图片，实现完美的核心网页指标得分。
+**内容编辑者**：对于需要大量产出内容且注重SEO策略的企业堪称变革利器。营销与内容编辑人员无需复杂操作即可修改发布页面。消除冗长延迟，实现即时发布。依托Next.js优化的页面与图像可达成完美核心网页指标评分。
 
-**开发者**：可与现有Next.js应用即插即用。使用Suncel CMS对开发者有多重优势：
+**开发者**：可与现有Next.js应用即插即用。使用Suncel CMS的诸多优势：
 
-- 用React构建可复用区块
-- SEO元数据和站点地图自动生成（得益于我们的SEO模块）
-- 用React创建自定义设置
-- 可定制的React管理后台
-- 无需为适配CMS而设计路由系统
+- 使用React构建可复用区块
+- 自动生成SEO元数据与站点地图（通过SEO模块实现）
+- 用React创建自定义设置项
+- 基于React的可定制管理后台
+- 无需为适配CMS构建路由系统
 
 **[访问Suncel.io](https://suncel.io/)** | **[5分钟演示视频](https://www.youtube.com/watch?v=LUupLEZKp3w)**
 
@@ -49,51 +49,51 @@ import Support from "../_support.mdx";
 
 **[Next.js 13.2](https://nextjs.org/blog/next-13-2)**
 
-这个重要版本包含Vercel开发者此前预告的多项新特性。全新的Metadata API对SEO非常有用，能与SSR流式渲染、服务器组件和新应用目录良好配合。新的路由处理器（Route Handlers）具有出色的易用性：只需导出HTTP动词即可就近配置。特别令人兴奋的是围绕MDX的新功能（Rust编译器、服务器组件），这将使基于Next.js的内容站点更轻量、更快速。据我所知，Next.js开始采用TypeScript代码生成步骤来实现类型化链接（除TypeScript插件外）。Turbopack对Webpack加载器的兼容性也让新打包器的采用更为便捷。
+本次重磅更新包含多项Vercel开发者已预告的功能。全新Metadata API完美兼容SSR流式渲染、Server Components和新应用目录，极大提升SEO效率。Route Handlers采用直观设计：同目录部署，直接导出HTTP动词即可。特别值得关注的是MDX相关创新（Rust编译器、Server Components支持），这将使Next.js内容站点更轻量高效。据理解，Next.js现采用TypeScript代码生成步骤来实现类型化链接（在原有TypeScript插件基础上）。Turbopack对Webpack加载器的兼容性将降低新打包器的迁移门槛。
 
-最让我意外的是直接集成到`fetch()`的缓存API：它能实现类似ISR（增量静态再生）的功能，但粒度更细，可在组件级别为每个请求进行缓存。甚至还有标签系统。Next.js保持可移植性：缓存可托管在自有基础设施上，或使用本地LRU缓存。当然，这针对Vercel部署进行了优化。专文详述了该特性并解释ISR模型的局限：[Vercel缓存API：与Next.js集成的渐进式缓存](https://vercel.com/blog/vercel-cache-api-nextjs-cache)。另见[Sebastian Markbåge的推文](https://twitter.com/sebmarkbage/status/1628845420121128965)。
+最令人惊喜的是直接集成到`fetch()`的缓存API：在组件级别为每个请求提供类似ISR但更精细的缓存控制，甚至包含标签系统。Next.js保持可移植性：缓存可部署在自有基础设施，或使用本地LRU缓存。当然，该功能针对Vercel部署进行了优化。专题文章[Vercel Cache API：与Next.js集成的渐进式缓存](https://vercel.com/blog/vercel-cache-api-nextjs-cache)详细解析了ISR模型的局限性。另可参阅[Sebastian Markbåge的推文](https://twitter.com/sebmarkbage/status/1628845420121128965)。
 
 ---
 
-[![JavaScript中信号的演进](/emails/issues/136/signals.jpg)](https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob)
+[![JavaScript中信号的演进历程](/emails/issues/136/signals.jpg)](https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob)
 
-**[JavaScript中信号的演进](https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob)**
+**[JavaScript中信号的演进历程](https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob)**
 
-Ryan Carniato（SolidJS）的这篇文章追溯了前端信号机制的发展历程，涵盖KnockoutJS、MobX等诸多解决方案。
+Ryan Carniato（SolidJS）的这篇文章通过KnockoutJS、MobX等解决方案，追溯了前端信号机制的发展史。
 
-信号(Signals)仍是本周的热门话题。建议您自行阅读Twitter上的诸多讨论：
+信号(Signals)仍是本周热议话题。建议您自行阅读Twitter上的诸多讨论：
 
-- Andrew Clark [阐明立场](https://twitter.com/acdlite/status/1628811935088013314)并[对React引入信号持开放态度](https://twitter.com/acdlite/status/1626590880126889984)。React Forget编译器[可编译为信号](https://twitter.com/acdlite/status/1628930249718202369)。
+- Andrew Clark [阐明立场](https://twitter.com/acdlite/status/1628811935088013314)并[对在React中引入信号持开放态度](https://twitter.com/acdlite/status/1626590880126889984)。React Forget编译器[可编译为信号实现](https://twitter.com/acdlite/status/1628930249718202369)。
 - Miško Hevery [解释](https://twitter.com/mhevery/status/1628556944318550016)信号如何避免属性下钻的性能问题。
 - Evan You [更倾向](https://twitter.com/youyuxi/status/1629636673519894528)可理解的可变模型而非存在泄漏的不可变模型。
-- Devon Govett [提醒](https://twitter.com/devongovett/status/1629540226589663233)"单向数据流"的采用原因，并指出信号的某些问题。
-- Jordan Walke [提及](https://twitter.com/jordwalke/status/1629663133039214593)React创建时曾考虑使用响应式模型，但因改变语言语义而放弃。
-- Dan Abramov [阐释](https://twitter.com/dan_abramov/status/1629872956288512007)用户期望相同数据呈现相同界面，并[说明](https://twitter.com/dan_abramov/status/1629539600489119744)使用"原始值"(非包装容器)的价值。
-- [我的观点](https://twitter.com/sebastienlorber/status/1630264713845039104)：基本认同React团队观点，认为尽管信号短期诱人，仍需在当前模型持续创新。期待JavaScript未来更好支持不可变模型，React Forget编译器仅是过渡方案。
+- Devon Govett [提醒](https://twitter.com/devongovett/status/1629540226589663233)采用"单向数据流"的初衷，并指出信号的潜在问题。
+- Jordan Walke [提及](https://twitter.com/jordwalke/status/1629663133039214593)React创建时曾考虑响应式模型，但因改变语言语义而放弃。
+- Dan Abramov [阐释](https://twitter.com/dan_abramov/status/1629872956288512007)用户期望相同数据呈现一致界面，并[说明](https://twitter.com/dan_abramov/status/1629539600489119744)使用"原始值"(非包装值)的优势。
+- [我的观点](https://twitter.com/sebastienlorber/status/1630264713845039104)：基本认同React团队观点，认为应继续创新现有模型，尽管信号短期颇具吸引力。期待JavaScript未来能更好支持不可变模型，React Forget编译器仅是过渡方案。
 
 ---
 
-- 👥 [Matt Carroll](https://twitter.com/mattcarrollcode) 与 [Sean Keegan](https://twitter.com/DevRelSean)：两位开发者关系专家近期加入React团队。
-- 📜 [模块提取：静默的Web革命](https://www.builder.io/blog/module-extraction-the-silent-web-revolution)：React框架已能在同一模块中分离客户端/服务端代码。但像Qwik这样的框架更进一步，甚至能提取闭包（包括捕获的变量）。让我们看看这一理念在大型应用中是否具备扩展性。
-- 📜 [为何useEffect可能不是最佳抽象](https://www.builder.io/blog/useeffect-not-the-best-abstraction)：对useEffect的批评及与Qwik代码的对比。
-- 📜 [Next.js 13 app-dir中服务端/客户端组件的国际化翻译方案](https://aralroca.com/blog/i18n-translations-nextjs-13-app-dir)：
-  Next-translate作者阐述了其库v2版本适配Server Components时遇到的挑战，同时也指出了一些显著优势，如JavaScript包体积的缩减。
-- 📜 [React正将我劫持](https://emnudge.dev/blog/react-hostage)：对React相对公允的批评，同时赞扬了信号和响应式模型的优势。
-- 📜 [useSyncExternalStore初探](https://julesblom.com/writing/usesyncexternalstore)：这个钩子比表面看起来更有用，切勿错过！
-- 📜 [Owncast v0.1.0回顾——前端Web重构](https://gabekangas.com/blog/2023/02/owncast-v0.1.0-retrospective-frontend-web-rewrite/)：从Preact迁移到React/Next.js的实践反馈，包括一个有趣的社会化结果（吸引了更多贡献者）。
+- 👥 [Matt Carroll](https://twitter.com/mattcarrollcode) + [Sean Keegan](https://twitter.com/DevRelSean): 两位开发者关系专家近期加入React团队。
+- 📜 [模块提取：静默的Web革命](https://www.builder.io/blog/module-extraction-the-silent-web-revolution): React框架已能实现同一模块中客户端/服务端代码分离。但像Qwik这样的框架更进一步，甚至能提取闭包（包括捕获的变量）。让我们观察这一理念在大型应用中的扩展性。
+- 📜 [为何useEffect可能不是最佳抽象](https://www.builder.io/blog/useeffect-not-the-best-abstraction): 对useEffect的批判及与Qwik代码的对比。
+- 📜 [Next.js 13 app-dir中服务端/客户端组件的国际化方案](https://aralroca.com/blog/i18n-translations-nextjs-13-app-dir):
+  Next-translate作者阐述了适配Server Components时遇到的挑战，但也指出诸如JavaScript包体积缩减等显著优势。
+- 📜 [React将我劫持](https://emnudge.dev/blog/react-hostage): 对React的客观批评，同时赞扬了信号和响应式模型的优势。
+- 📜 [useSyncExternalStore初探](https://julesblom.com/writing/usesyncexternalstore): 这个钩子比表面更有价值，不容错过！
+- 📜 [Owncast v0.1.0回顾——前端重构之路](https://gabekangas.com/blog/2023/02/owncast-v0.1.0-retrospective-frontend-web-rewrite/): 从Preact迁移到React/Next.js的经验总结，包括贡献者增长等社会效益。
 - 📜 [如何避免React中棘手的异步状态管理陷阱](https://evilmartians.com/chronicles/how-to-avoid-tricky-async-state-manager-pitfalls-react)
 - 📜 [2023年React生态库推荐](https://www.robinwieruch.de/react-libraries/)
-- 📜 [Storybook 7文档](https://storybook.js.org/blog/storybook-7-docs/)
-- 📦 [Suspense](https://github.com/bvaughn/suspense/)：React Suspense工具集，Brian Vaughn的新项目。
-- 📦 [TanStack Bling](https://github.com/TanStack/bling/)：TanStack新推出的框架无关项目，将成为下一代TanStack Start元框架的基础。
-- 📦 [Forgetti](https://github.com/lxsmnsyc/forgetti)：有开发者不愿等待React Forget编译器，于是着手开发自己的编译器。
-- 📦 [TanStack Query v5.0.0-alpha.0](https://twitter.com/TkDodo/status/1630159547405877249)：v5版本前瞻：无限查询、乐观更新、包体积优化...
-- 📦 [Tinasaurus - 用TinaCMS编辑你的Docusaurus站点](https://tina.io/blog/tinasaurus-docusaurus-starter/)：与Docusaurus深度集成的CMS，支持MDX组件使用。
-- 📦 [Sonner - 一个具有设计主张的React toast组件](https://twitter.com/emilkowalski_/status/1628742238548250624)
+- 📜 [Storybook 7文档发布](https://storybook.js.org/blog/storybook-7-docs/)
+- 📦 [Suspense工具集](https://github.com/bvaughn/suspense/): Brian Vaughn新推出的React Suspense配套工具。
+- 📦 [TanStack Bling](https://github.com/TanStack/bling/): TanStack新推出的框架无关项目，将成为下一代TanStack Start元框架基础。
+- 📦 [Forgetti编译器](https://github.com/lxsmnsyc/forgetti): 开发者因不愿等待React Forget编译器而自主开发的替代方案。
+- 📦 [TanStack Query v5.0.0-alpha.0](https://twitter.com/TkDodo/status/1630159547405877249): 预览无限查询、乐观更新等v5新特性。
+- 📦 [Tinasaurus - 用TinaCMS编辑Docusaurus站点](https://tina.io/blog/tinasaurus-docusaurus-starter/): 深度集成Docusaurus并支持MDX组件的CMS方案。
+- 📦 [Sonner - 一款极简的React toast组件](https://twitter.com/emilkowalski_/status/1628742238548250624)
 - 📦 [nodl - 可视化节点图框架](https://twitter.com/emilwidlund/status/1628877076424949760)
 - 📦 [React Aria - 2023年2月更新](https://twitter.com/devongovett/status/1629156091178131457)
 - 📦 [Radix UI新版本发布](https://twitter.com/radix_ui/status/1629120708054753281)
-- 💬 [关于stitches未来发展的讨论](https://github.com/stitchesjs/stitches/issues/1144)
+- 💬 [关于stitches未来的讨论](https://github.com/stitchesjs/stitches/issues/1144)
 - 🎙️ [Reactiflux播客 - 与Ida Bechtle和Christopher Chedeau畅谈React纪录片幕后](https://anchor.fm/reactiflux)
 - 🎥 [Solid、Qwik与React中的信号机制](https://www.youtube.com/watch?v=ZLMjJL70glE)
 
@@ -101,21 +101,21 @@ Ryan Carniato（SolidJS）的这篇文章追溯了前端信号机制的发展历
 
 ---
 
-## 💸 赞助 {#sponsor2}
+## 💸 赞助商 {#sponsor2}
 
 **[![构建可扩展的合成监控方案](/emails/issues/134/checkly.jpg)](https://www.checklyhq.com/product/monitoring-as-code/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react)**
 
 **[构建可扩展的合成监控方案](https://www.checklyhq.com/product/monitoring-as-code/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react)**
 
-"你构建它，你拥有它！"这一简单信条多年来驱动着软件开发。但如何以最佳方式监控复杂的React应用？
+"你构建，你负责！"这一简单信条多年来一直驱动着软件开发。但如何以最佳方式监控复杂的React应用？
 
 - 第一步：使用Playwright模拟用户流程，确保应用正常运行
-- 第二步：确保依赖的API服务持续可用
+- 第二步：确保所用API处于可用状态
 
-"监控即代码"——这是一种通过代码直接定义、测试和部署整套应用监控的新范式
+"监控即代码"——这是一种通过代码直接定义、测试和部署整个应用监控的新范式
 
 - 将监控配置代码化并纳入版本控制
-- 在预览环境中测试应用，避免缺陷与回归
+- 在预览环境中测试应用，避免缺陷和回归
 - 部署测试并启动生产环境监控
 
 [免费将监控融入您的代码工作流](https://www.checklyhq.com/product/monitoring-as-code/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react)
@@ -126,18 +126,18 @@ Ryan Carniato（SolidJS）的这篇文章追溯了前端信号机制的发展历
 
 **[Expo 48](https://blog.expo.dev/expo-sdk-48-ccb8302e231)**
 
-重要版本更新，包含此前测试版的核心特性：
+重要版本发布，包含此前测试版的核心特性：
 
 - React Native 0.71.3 - React 18.2.0
-- 随React-Native带来的Yoga布局引擎改进(Flexbox)
-- 默认支持M1芯片的EAS构建器
+- 随React-Native带来的Yoga引擎改进（Flexbox布局）
+- EAS构建器默认支持M1芯片
 - 默认启用Hermes引擎
 - 所有Expo模块实验性支持Fabric架构
 
-自测试版以来的新增特性：
+自测试版以来的更新：
 
-- Expo Image 1.0进入稳定版
-- Expo Router 1.0进入稳定版([专项博客](https://blog.expo.dev/announcing-expo-router-v1-1d97d7833605))
+- Expo Image 1.0 稳定版发布
+- Expo Router 1.0 稳定版发布（[专项博客](https://blog.expo.dev/announcing-expo-router-v1-1d97d7833605)）
 
 ---
 
@@ -145,38 +145,38 @@ Ryan Carniato（SolidJS）的这篇文章追溯了前端信号机制的发展历
 
 **[Reanimated 3.0](https://blog.swmansion.com/releasing-reanimated-3-0-17fab4cb2394)**
 
-Reanimated 3.0稳定版正式发布，新增共享元素过渡功能([演示](https://twitter.com/swmansion/status/1630590156255240193))。现在支持在内联样式中使用共享值。该库经过重写以提升性能、改善开发者体验，并为新特性做准备。为便于升级，保持了对Fabric架构和Reanimated 2 API的兼容，但移除了Reanimated 1 API。
+Reanimated 3.0稳定版正式发布，新增共享元素过渡功能（[演示](https://twitter.com/swmansion/status/1630590156255240193)）。现在可以在内联样式中使用共享值。该库经过重写以提升性能、改善开发者体验，并为新特性做准备。为便于升级，保持了对Fabric架构和Reanimated 2 API的兼容，但移除了Reanimated 1 API。
 
 ---
 
-- 📜 [React Native App Clip：新功能与应用体积缩减](https://bndkt.com/blog/2023/react-native-app-clip-new-capabilities)
-- 💬 [RFC：在package.json中引入reactNativeMetadata](https://github.com/react-native-community/discussions-and-proposals/pull/588)：提议在`package.json`中添加元数据以支持多种场景（应用与库开发）。
-- 💬 [RFC：惰性打包](https://github.com/react-native-community/discussions-and-proposals/pull/605)：通过动态导入加速大型应用开发环境启动。
-- 📦 [Metro 0.75.1](https://twitter.com/robjhogan/status/1628460899714449416)：实验性支持符号链接和`package.json`的"exports"字段！
+- 📜 [React Native App Clip：新功能与应用体积优化](https://bndkt.com/blog/2023/react-native-app-clip-new-capabilities)
+- 💬 [RFC：在package.json中引入reactNativeMetadata](https://github.com/react-native-community/discussions-and-proposals/pull/588)：提议在`package.json`中添加元数据以支持应用和库开发。
+- 💬 [RFC：惰性打包](https://github.com/react-native-community/discussions-and-proposals/pull/605)：通过动态导入加速大型应用的开发启动速度。
+- 📦 [Metro 0.75.1](https://twitter.com/robjhogan/status/1628460899714449416)：实验性支持符号链接和`package.json`的"exports"功能！
 - 📦 [Restyle 2.4](https://github.com/Shopify/restyle/pull/220)：Shopify样式库的多项性能优化。
-- 📦 [Dank Style (alpha)](https://dank.style/)：面向Next.js与React-Native的新一代通用样式库。
-- 👀 [Expo + React-Native服务端组件演示](https://twitter.com/Baconbrix/status/1629909713910480898)：Evan Bacon发布的首个演示证实了该技术可行性！
-- 👀 [BottomSheet - 网页支持](https://twitter.com/gorhom/status/1627399052068282368)：PR已合并，将在v5版本推出。
+- 📦 [Dank Style (alpha)](https://dank.style/)：面向Next.js和React-Native的新一代通用样式库。
+- 👀 [Expo + React-Native服务端组件演示](https://twitter.com/Baconbrix/status/1629909713910480898)：Evan Bacon发布的首次演示证实了该方案的可行性！
+- 👀 [BottomSheet - 网页端支持](https://twitter.com/gorhom/status/1627399052068282368)：PR已合并，将在v5版本中推出。
 - ⚠️ [Fastlane - 立即更新以避免Apple ID账户锁定](https://twitter.com/FastlaneTools/status/1629153901747265538)
 - 🎙️ [The React Native Show第8期咖啡座谈会 - React Native现状](https://www.youtube.com/watch?v=jwfsMzLY5Cs)
-- 🎥 [React Native中使用three.js的3D动画入门指南](https://www.youtube.com/watch?v=5WNoynmnEAs)
+- 🎥 [React Native中使用three.js实现3D动画的入门指南](https://www.youtube.com/watch?v=5WNoynmnEAs)
 - 🎥 [如何开发基于原生模块的Expo库](https://www.youtube.com/watch?v=ZNE7Of3TZAY)
 
 ---
 
-## 🧑‍💻 职位招聘 {#jobs}
+## 🧑‍💻 招聘信息 {#jobs}
 
-🧑‍💼 [**Passionfroot - 高级全栈工程师（Remix方向）- 年薪16万欧元+，柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)
+🧑‍💼 [**Passionfroot - 高级全栈工程师（Remix技术栈）- 年薪16万欧元+，柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)
 
-Passionfroot致力于通过YouTube、播客、社交媒体和新闻通讯赋能未来独立创业者。加入我们，共同打造助力全球创作者建立可扩展、可持续业务的工具。
+Passionfroot致力于通过YouTube、播客、社交媒体和新闻通讯赋能未来的独立创业者。加入我们，共同打造帮助全球创作者建立可扩展、可持续业务的工具。
 
-🧑‍💼 [**Callstack - 高级React Native开发工程师 - 完全远程，B2B合同月薪2.1-3.2万波兰兹罗提净收入**](https://www.callstack.com/senior-react-native-developer)
+🧑‍💼 [**Callstack - 高级React Native开发工程师 - 全职远程，B2B合同月薪2.1-3.2万波兰兹罗提（净收入）**](https://www.callstack.com/senior-react-native-developer)
 
-您希望参与全球顶级应用开发吗？您想共同塑造React Native技术生态吗？加入Callstack由React与React Native技术领袖组成的团队。详情请访问官网，我们期待看到您的申请——请尽情展示您的实力！
+您希望参与全球最流行应用的开发吗？您想共同塑造React Native技术的未来吗？加入Callstack这个由React & React Native技术领袖组成的团队。详情请访问我们的网站，我们期待看到您的申请——请尽情展示您的才华！
 
 🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
 
-我们开放多个React Native开发岗位！年薪约16万美元外加10%奖金。应聘者需具备RN生产环境经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解更多，并注明通过This Week in React获知该职位。
+我们正在招聘多名具有React Native生产经验的开发工程师！年薪约16万美元外加10%奖金。应聘者需具备RN实战经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解更多信息，并注明您是通过This Week in React获知该职位。
 
 💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
 
@@ -192,16 +192,16 @@ Passionfroot致力于通过YouTube、播客、社交媒体和新闻通讯赋能�
 - [Mock Service Worker 1.1](https://twitter.com/ApiMocking/status/1628909915111579650)
 - [Bun 文档已开放](https://twitter.com/colinhacks/status/1629310598004772865)
 - [SpiderMonkey - JavaScript 导入映射 - 介绍](https://spidermonkey.dev/blog/2023/02/23/javascript-import-maps-part-1-introduction.html)
-- [Ezno - 现已开源](https://twitter.com/kaleidawave/status/1629885949353009156)
+- [Ezno 现已开源](https://twitter.com/kaleidawave/status/1629885949353009156)
 - [样式查询入门指南](https://developer.chrome.com/blog/style-queries/)
 - [Chrome无头模式迎来重大升级！](https://developer.chrome.com/articles/new-headless/)
-- [Safari技术预览版164发布](https://webkit.org/blog/13902/release-notes-for-safari-technology-preview-164/)
-- [让我们开发一个能窃取一切的Chrome扩展](https://mattfrisbie.substack.com/p/spy-chrome-extension)
+- [Safari Technology Preview 164](https://webkit.org/blog/13902/release-notes-for-safari-technology-preview-164/)
+- [让我们开发一个窃取一切的Chrome扩展](https://mattfrisbie.substack.com/p/spy-chrome-extension)
 
 ---
 
-## 🤭 趣闻 {#fun}
+## 🤭 轻松一刻 {#fun}
 
 [![alt](/emails/issues/136/meme.jpg)](https://twitter.com/trashh_dev/status/1629883957121781760)
 
-下期见！👋
+下次见！👋

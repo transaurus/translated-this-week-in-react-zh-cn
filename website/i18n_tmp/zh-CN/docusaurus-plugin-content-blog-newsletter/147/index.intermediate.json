@@ -1,353 +1,469 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/147/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/147/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /147\ntitle: \"This Week In React #147: RSCs, Next.js, Remix, Redwood, Error Boundary, JSX, Raycast, Spotify, Triplex, useHooks, ReMDX, Astro, Pastel, TypeScript...\"\nauthors: [slorber]\ndate: 06-06-2023\n---",
-      "sourceMdx": "---\nslug: /147\ntitle: \"This Week In React #147: RSCs, Next.js, Remix, Redwood, Error Boundary, JSX, Raycast, Spotify, Triplex, useHooks, ReMDX, Astro, Pastel, TypeScript...\"\nauthors: [slorber]\ndate: 06-06-2023\n---"
+      "sourceMdx": "---\nslug: /147\ntitle: \"This Week In React #147: RSCs, Next.js, Remix, Redwood, Error Boundary, JSX, Raycast, Spotify, Triplex, useHooks, ReMDX, Astro, Pastel, TypeScript...\"\nauthors: [slorber]\ndate: 06-06-2023\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "This week, we're celebrating [10 years of React](https://twitter.com/sebastienlorber/status/1662957673573130244)! 🥳️",
-      "sourceMdx": "This week, we're celebrating [10 years of React](https://twitter.com/sebastienlorber/status/1662957673573130244)! 🥳️"
+      "sourceMdx": "This week, we're celebrating [10 years of React](https://twitter.com/sebastienlorber/status/1662957673573130244)! 🥳️",
+      "nodeType": "paragraph",
+      "translated_content": "本周我们正在庆祝 [React诞生10周年](https://twitter.com/sebastienlorber/status/1662957673573130244)！🥳️"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "There have been quite a few interesting articles these last 2 weeks, particularly related to the complexity of introduced with Server Components. Dan Abramov has published some interesting resources on the subject. Remix and Redwood have announced their intention to support RSCs.",
-      "sourceMdx": "There have been quite a few interesting articles these last 2 weeks, particularly related to the complexity of introduced with Server Components. Dan Abramov has published some interesting resources on the subject. Remix and Redwood have announced their intention to support RSCs."
+      "sourceMdx": "There have been quite a few interesting articles these last 2 weeks, particularly related to the complexity of introduced with Server Components. Dan Abramov has published some interesting resources on the subject. Remix and Redwood have announced their intention to support RSCs.",
+      "nodeType": "paragraph",
+      "translated_content": "过去两周涌现了许多有趣的文章，尤其聚焦于服务端组件带来的复杂性。Dan Abramov 就此主题发布了一些优质资源。Remix 和 Redwood 已宣布将支持 RSC 技术。"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "On the React-Native side, 3 conferences have been held recently and playlists are becoming available on YouTube. I [had a great time at the React-Native-Connection](https://twitter.com/sebastienlorber/status/1664584407775051779), a new React-Native conference in Paris. Thanks to everyone who came and made this first edition a success.",
-      "sourceMdx": "On the React-Native side, 3 conferences have been held recently and playlists are becoming available on YouTube. I [had a great time at the React-Native-Connection](https://twitter.com/sebastienlorber/status/1664584407775051779), a new React-Native conference in Paris. Thanks to everyone who came and made this first edition a success."
+      "sourceMdx": "On the React-Native side, 3 conferences have been held recently and playlists are becoming available on YouTube. I [had a great time at the React-Native-Connection](https://twitter.com/sebastienlorber/status/1664584407775051779), a new React-Native conference in Paris. Thanks to everyone who came and made this first edition a success.",
+      "nodeType": "paragraph",
+      "translated_content": "在 React-Native 领域，近期举办了3场会议，相关视频正陆续登陆 YouTube。我在巴黎首届 [React-Native-Connection 大会](https://twitter.com/sebastienlorber/status/1664584407775051779) 度过了愉快时光，感谢所有参与者让这场首秀圆满成功。"
     },
     {
       "id": "86b54d44",
       "translatable": true,
       "content": "So cool, the newsletter [won a React Open Source Award](https://twitter.com/sebastienlorber/status/1664667086860308481) at the React Summit conference! Thanks to everyone who voted for me, I wasn't expecting to win given the other nominees 😆",
-      "sourceMdx": "So cool, the newsletter [won a React Open Source Award](https://twitter.com/sebastienlorber/status/1664667086860308481) at the React Summit conference! Thanks to everyone who voted for me, I wasn't expecting to win given the other nominees 😆"
+      "sourceMdx": "So cool, the newsletter [won a React Open Source Award](https://twitter.com/sebastienlorber/status/1664667086860308481) at the React Summit conference! Thanks to everyone who voted for me, I wasn't expecting to win given the other nominees 😆",
+      "nodeType": "paragraph",
+      "translated_content": "令人惊喜的是，本刊在 React Summit 峰会 [斩获 React 开源大奖](https://twitter.com/sebastienlorber/status/1664667086860308481)！感谢所有投票支持的朋友，面对强劲的提名名单，这个结果真是意外之喜 😆"
     },
     {
       "id": "39b3772c",
       "translatable": true,
       "content": "[![award](/emails/issues/147/award.jpg)](https://twitter.com/sebastienlorber/status/1664667086860308481)",
-      "sourceMdx": "[![award](/emails/issues/147/award.jpg)](https://twitter.com/sebastienlorber/status/1664667086860308481)"
+      "sourceMdx": "[![award](/emails/issues/147/award.jpg)](https://twitter.com/sebastienlorber/status/1664667086860308481)",
+      "nodeType": "paragraph",
+      "translated_content": "[![奖项](/emails/issues/147/award.jpg)](https://twitter.com/sebastienlorber/status/1664667086860308481)"
     },
     {
       "id": "c6da205d",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_c6da205d"
     },
     {
       "id": "2df4f75f",
       "translatable": true,
       "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
-      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "nodeType": "paragraph",
+      "translated_content": "**💡 [在 Twitter 上浏览本期简讯](https://slo.im/thread) - 视觉化排版 🎨**"
     },
     {
       "id": "1856ef44",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "cf4363fc",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_cf4363fc"
     },
     {
       "id": "2a3434e4",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_2a3434e4"
     },
     {
       "id": "2b28cb1b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "b25f21be",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助 {#sponsor1}"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "[![Start UI](/emails/issues/144/start_ui.jpg)](https://web.start-ui.com?utm_source=newsletter\\&utm_term=this-week-in-react)",
-      "sourceMdx": "[![Start UI](/emails/issues/144/start_ui.jpg)](https://web.start-ui.com?utm_source=newsletter&utm_term=this-week-in-react)"
+      "sourceMdx": "[![Start UI](/emails/issues/144/start_ui.jpg)](https://web.start-ui.com?utm_source=newsletter&utm_term=this-week-in-react)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Start UI](/emails/issues/144/start_ui.jpg)](https://web.start-ui.com?utm_source=newsletter&utm_term=this-week-in-react)"
     },
     {
       "id": "517051a7",
       "translatable": true,
       "content": "**[Start UI \\[web\\] - Opinionated web app UI starter](https://web.start-ui.com?utm_source=newsletter\\&utm_term=this-week-in-react)**",
-      "sourceMdx": "**[Start UI [web] - Opinionated web app UI starter](https://web.start-ui.com?utm_source=newsletter&utm_term=this-week-in-react)**"
+      "sourceMdx": "**[Start UI [web] - Opinionated web app UI starter](https://web.start-ui.com?utm_source=newsletter&utm_term=this-week-in-react)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Start UI [web] - 开箱即用的 Web 应用 UI 启动器](https://web.start-ui.com?utm_source=newsletter&utm_term=this-week-in-react)**"
     },
     {
       "id": "135468ee",
       "translatable": true,
       "content": "Our **free and open source UI web app starter** offers a quick and easy way to bootstrap your next project. It includes **best practices & production ready tools** to help you get started right away, saving you time and effort in the initial setup phase.",
-      "sourceMdx": "Our **free and open source UI web app starter** offers a quick and easy way to bootstrap your next project. It includes **best practices & production ready tools** to help you get started right away, saving you time and effort in the initial setup phase."
+      "sourceMdx": "Our **free and open source UI web app starter** offers a quick and easy way to bootstrap your next project. It includes **best practices & production ready tools** to help you get started right away, saving you time and effort in the initial setup phase.",
+      "nodeType": "paragraph",
+      "translated_content": "这款**免费开源的 Web UI 启动器**能快速搭建项目基础架构，内置**最佳实践与生产级工具链**，助您跳过繁琐初始化配置，立即投入核心开发。"
     },
     {
       "id": "33331f27",
       "translatable": true,
       "content": "Comes with built-in **features** like 🔐 Authentication, 📱Responsive Layout, 🧑‍💻 User Management, 🇫🇷 Internationalization & Right-to-Left support, 🌚 Dark Mode, 🎛 Advanced components for easy development. You can try out the [example app](https://demo.start-ui.com).",
-      "sourceMdx": "Comes with built-in **features** like 🔐 Authentication, 📱Responsive Layout, 🧑‍💻 User Management, 🇫🇷 Internationalization & Right-to-Left support, 🌚 Dark Mode, 🎛 Advanced components for easy development. You can try out the [example app](https://demo.start-ui.com)."
+      "sourceMdx": "Comes with built-in **features** like 🔐 Authentication, 📱Responsive Layout, 🧑‍💻 User Management, 🇫🇷 Internationalization & Right-to-Left support, 🌚 Dark Mode, 🎛 Advanced components for easy development. You can try out the [example app](https://demo.start-ui.com).",
+      "nodeType": "paragraph",
+      "translated_content": "集成功能包括：🔐 认证系统、📱 响应式布局、🧑‍💻 用户管理、🇫🇷 国际化与右向文字支持、🌚 暗黑模式、🎛 高阶组件等。可体验 [演示应用](https://demo.start-ui.com)。"
     },
     {
       "id": "50746522",
       "translatable": true,
       "content": "Ready to use with **TypeScript**, **NextJS**, Chakra UI, TanStack Query, Storybook and more.",
-      "sourceMdx": "Ready to use with **TypeScript**, **NextJS**, Chakra UI, TanStack Query, Storybook and more."
+      "sourceMdx": "Ready to use with **TypeScript**, **NextJS**, Chakra UI, TanStack Query, Storybook and more.",
+      "nodeType": "paragraph",
+      "translated_content": "基于 **TypeScript**、**NextJS**、Chakra UI、TanStack Query、Storybook 等技术栈构建。"
     },
     {
       "id": "95e9ba12",
       "translatable": true,
       "content": "[🚀 Start UI \\[web\\] on GitHub](https://web.start-ui.com)",
-      "sourceMdx": "[🚀 Start UI [web] on GitHub](https://web.start-ui.com)"
+      "sourceMdx": "[🚀 Start UI [web] on GitHub](https://web.start-ui.com)",
+      "nodeType": "paragraph",
+      "translated_content": "[🚀 GitHub 上的 Start UI [web]](https://web.start-ui.com)"
     },
     {
       "id": "06784e79",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "c674e260",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React 动态 {#react}"
     },
     {
       "id": "a44047a5",
       "translatable": true,
       "content": "[![Why do Client Components get SSR'd to HTML?](/emails/issues/147/client-component.jpg)](https://github.com/reactwg/server-components/discussions/4)",
-      "sourceMdx": "[![Why do Client Components get SSR'd to HTML?](/emails/issues/147/client-component.jpg)](https://github.com/reactwg/server-components/discussions/4)"
+      "sourceMdx": "[![Why do Client Components get SSR'd to HTML?](/emails/issues/147/client-component.jpg)](https://github.com/reactwg/server-components/discussions/4)",
+      "nodeType": "paragraph",
+      "translated_content": "[![为何客户端组件需要 SSR 成 HTML？](/emails/issues/147/client-component.jpg)](https://github.com/reactwg/server-components/discussions/4)"
     },
     {
       "id": "f7ef78f9",
       "translatable": true,
       "content": "**[Why do Client Components get SSR'd to HTML?](https://github.com/reactwg/server-components/discussions/4)**",
-      "sourceMdx": "**[Why do Client Components get SSR'd to HTML?](https://github.com/reactwg/server-components/discussions/4)**"
+      "sourceMdx": "**[Why do Client Components get SSR'd to HTML?](https://github.com/reactwg/server-components/discussions/4)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[为何客户端组件需要 SSR 成 HTML？](https://github.com/reactwg/server-components/discussions/4)**"
     },
     {
       "id": "b36c6338",
       "translatable": true,
       "content": "Dan Abramov's short visual explanation of the difference between the Client Tree (what we already knew) and the Server Tree (new). I found this diagram interesting, because it demystifies an easy confusion: Client Components are in fact what we used to call simple React components. During SSR, **Client Components are executed on the server**, exactly as before.",
-      "sourceMdx": "Dan Abramov's short visual explanation of the difference between the Client Tree (what we already knew) and the Server Tree (new). I found this diagram interesting, because it demystifies an easy confusion: Client Components are in fact what we used to call simple React components. During SSR, **Client Components are executed on the server**, exactly as before."
+      "sourceMdx": "Dan Abramov's short visual explanation of the difference between the Client Tree (what we already knew) and the Server Tree (new). I found this diagram interesting, because it demystifies an easy confusion: Client Components are in fact what we used to call simple React components. During SSR, **Client Components are executed on the server**, exactly as before.",
+      "nodeType": "paragraph",
+      "translated_content": "Dan Abramov 用可视化方式解析了客户端树（传统模式）与服务端树（新模式）的区别。这张图表颇具启发性：客户端组件本质上就是传统 React 组件，在 SSR 过程中**它们仍会在服务端执行**，与从前完全一致。"
     },
     {
       "id": "716da8e8",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "e536ea0d",
       "translatable": true,
       "content": "[![How the Raycast API and extensions work](/emails/issues/147/raycast.jpg)](https://www.raycast.com/blog/how-raycast-api-extensions-work)",
-      "sourceMdx": "[![How the Raycast API and extensions work](/emails/issues/147/raycast.jpg)](https://www.raycast.com/blog/how-raycast-api-extensions-work)"
+      "sourceMdx": "[![How the Raycast API and extensions work](/emails/issues/147/raycast.jpg)](https://www.raycast.com/blog/how-raycast-api-extensions-work)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Raycast API 与插件运作机制](/emails/issues/147/raycast.jpg)](https://www.raycast.com/blog/how-raycast-api-extensions-work)"
     },
     {
       "id": "40158b4b",
       "translatable": true,
       "content": "**[How the Raycast API and extensions work](https://www.raycast.com/blog/how-raycast-api-extensions-work)**",
-      "sourceMdx": "**[How the Raycast API and extensions work](https://www.raycast.com/blog/how-raycast-api-extensions-work)**"
+      "sourceMdx": "**[How the Raycast API and extensions work](https://www.raycast.com/blog/how-raycast-api-extensions-work)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Raycast API 与插件运作机制解析](https://www.raycast.com/blog/how-raycast-api-extensions-work)**"
     },
     {
       "id": "6ea4c715",
       "translatable": true,
       "content": "Raycast is an extensible launcher for MacOS, an app renowned for its quality. This article explains the steps they went through to implement their plugin system. They didn't want to compromise on UX and DX: no WebView nor Electron, good security, and the possibility of using npm packages. They finally opted to create a custom React renderer that runs in a separate Node process, and drives native views with Swift through a JSON bridge. It looks a lot like React-Native.",
-      "sourceMdx": "Raycast is an extensible launcher for MacOS, an app renowned for its quality. This article explains the steps they went through to implement their plugin system. They didn't want to compromise on UX and DX: no WebView nor Electron, good security, and the possibility of using npm packages. They finally opted to create a custom React renderer that runs in a separate Node process, and drives native views with Swift through a JSON bridge. It looks a lot like React-Native."
+      "sourceMdx": "Raycast is an extensible launcher for MacOS, an app renowned for its quality. This article explains the steps they went through to implement their plugin system. They didn't want to compromise on UX and DX: no WebView nor Electron, good security, and the possibility of using npm packages. They finally opted to create a custom React renderer that runs in a separate Node process, and drives native views with Swift through a JSON bridge. It looks a lot like React-Native.",
+      "nodeType": "paragraph",
+      "translated_content": "Raycast 是一款可扩展的 macOS 启动器，这款应用以卓越品质著称。本文详细阐述了他们实现插件系统的技术路径。团队在用户体验(UX)和开发者体验(DX)上拒绝妥协：不使用 WebView 或 Electron，确保安全性，同时支持 npm 包调用。最终方案是开发了一个运行在独立 Node 进程中的自定义 React 渲染器，通过 JSON 桥接驱动 Swift 原生视图——其架构与 React-Native 极为相似。"
     },
     {
       "id": "bcda0ab1",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "2eb5ba30",
       "translatable": true,
       "content": "* 🥳️ [Celebrating 10 Years of React](https://vercel.com/blog/10-years-of-react): Vercel is celebrating a decade of React by publishing a [round table video](https://www.youtube.com/watch?v=g5BGoLyGjY0) about all the latest React innovations, with Andrew, Sebastian and Delba.\n* 👀 [React `<Catch>` API?](https://twitter.com/wongmjane/status/1661786321176911872): upcoming support for Error Boundaries without class component?\n* 👀 [Remix + RSC POC](https://twitter.com/ryanflorence/status/1663587026384584704): Remix is finally planning to implement Server Components, and gives one of the reasons why [here](https://twitter.com/remix_run/status/1661017634480201734).\n* 💬 [React WG - RSC from Scratch. Part 1: Server Components](https://github.com/reactwg/server-components/discussions/5): Dan Abramov offers a complete deep dive into implementing Server Components from scratch. Part 1 (of 3) is available and describes how to implement the Server Components side.\n* 📖 [Next.js Docs Update - Project Organization page](https://twitter.com/delba_oliveira/status/1662211824211877889)\n* 📜 [Is React Having An Angular.js Moment?](https://marmelab.com/blog/2023/06/05/react-angularjs-moment.html): does the arrival of Server Components represent a paradigm shift similar to Angular.js vs Angular 2? No, because Server Components are an optional new feature and the rest of React continues to work as before. This article does warn, however, that it may be a little early to recommend and adopt RSCs, and the ecosystem isn't fully ready.\n* 📜 [Opinionated notes on React Server components](https://github.com/nilshartmann/react-server-component-material/blob/notes-on-rsc/notes-on-rsc.md): set of notes and reflections on RSCs. Comprehensive and well-documented resource, with many relevant external references.\n* 📜 [Isomorphic Development](https://meijer.ws/articles/isomorphic-development): interesting thoughts on the complexity Server Components bring. It's not the Server Components themselves that are complex, but the new hybrid nature of our codebase, and its less well-defined boundaries.\n* 📜 [The evolution of React APIs and code reuse](https://frontendmastery.com/posts/the-evolution-of-react-patterns/): reviews the different patterns used over time, and their trade-offs (mixins, HOCs, render props, hooks, RSCs).\n* 📜 [Why We Are Dropping Support For Next Js](https://www.stormkit.io/blog/why-we-are-dropping-support-for-next-js): the Stormkit deployment platform is abandoning support for Next.js, which was too complex for their small team to handle. Instead, they propose to use a React + Vite template that supports SSR.\n* 📜 [A better learning path for React with server components](https://scastiel.dev/better-learning-path-react): what if RSCs actually made React easier to learn? I think it makes sense if you adopt a fresh perspective.\n* 📜 [RedwoodJS’ Next Epoch: All In on React Server Components](https://tom.preston-werner.com/2023/05/30/redwoods-next-epoch-all-in-on-rsc.html): Tom Preston-Werner (creator of GitHub) announcing that the Redwood framework plans to implement React Server Components. Until now, Redwood generated an SPA without SSR (limited for SEO), and the forced use of GraphQL was not always the best choice.\n* 📜 [Solving hydration errors in Remix](https://www.jacobparis.com/content/remix-hydration-errors): good advice on debugging React hydration errors. This can also be applied to other frameworks.\n* 📜 [What is JSX.IntrinsicElements?](https://www.totaltypescript.com/what-is-jsx-intrinsicelements): TypeScript uses IntrinsicElements to find out which JSX elements are natively supported. It is possible to declare your own native elements, which is what frameworks like React do.\n* 📜 [Deploying Next.js on the edge with SST](https://engineering.udacity.com/deploying-next-js-on-the-edge-with-sst-is-sst-the-game-changer-its-claimed-to-be-1f05a0abc27c): positive feedback on using OpenNext and SST to deploy a Next.js app on AWS.\n* 📜 [Spotify - Multiple Layers of Abstraction in Design Systems](https://engineering.atspotify.com/2023/05/multiple-layers-of-abstraction-in-design-systems/): Spotify explains how their React design system exposes 3 levels of abstraction (config, slots, custom).\n* 📦 [TypeScript 5.1](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1): this new TypeScript version is important for React as it allows better typing of JSX for React, and allows a component to return a Promise (async Server Component), a string, array, boolean... new React typedefs have already been [published](https://twitter.com/sebsilbermann/status/1664356039876124672)!\n* 📦 [Triplex - React Three Fiber visual editor](https://twitter.com/itsdouges/status/1664874971481382913)\n* 📦 [useHooks.com v2.0 - SSR-safe hooks collection](https://usehooks.com/)\n* 📦 [ReMDX - Beautiful Minimalist React & MDX Presentations](https://github.com/cpojer/remdx)\n* 📦 [Next-Typesafe-Url - Fully typesafe and zod validated routing for Next.JS](https://github.com/ethanniser/next-typesafe-url)\n* 📦 [Redux Toolkit v2.0.0-beta.0](https://twitter.com/acemarke/status/1663707088478953474)\n* 📦 [Pastel v2.0 - A Next.js-like framework for CLIs made with Ink](https://twitter.com/vadimdemedes/status/1661343197535129601)\n* 📦 [React Aria + React Spectrum - May 24 2023 releases](https://twitter.com/devongovett/status/1661765315825643521)\n* 📦 [Astro v2.6 - Middleware, hybrid SSR, custom client directives...](https://astro.build/blog/astro-260/)\n* 🔗 [React Handbook](https://reacthandbook.dev/)\n* 🎥 [Are React Server Components Really Slower?](https://www.youtube.com/watch?v=3Q2q2gs0nAI): benchmark showing that Pages Router from Next.js is faster than App Router, but the user experience can be better with the latter thanks to streaming.\n* 🎥 [How to NOT Poison Your React Server Components](https://www.youtube.com/watch?v=BZlwtR9pDp4): use of the `server-only` package to avoid importing server code into your Client Components.\n* 🎥 [Remix Conf - React Core Panel Q\\&A](https://www.youtube.com/watch?v=WiEtFPYGgbM)",
-      "sourceMdx": "- 🥳️ [Celebrating 10 Years of React](https://vercel.com/blog/10-years-of-react): Vercel is celebrating a decade of React by publishing a [round table video](https://www.youtube.com/watch?v=g5BGoLyGjY0) about all the latest React innovations, with Andrew, Sebastian and Delba.\n- 👀 [React `<Catch>` API?](https://twitter.com/wongmjane/status/1661786321176911872): upcoming support for Error Boundaries without class component?\n- 👀 [Remix + RSC POC](https://twitter.com/ryanflorence/status/1663587026384584704): Remix is finally planning to implement Server Components, and gives one of the reasons why [here](https://twitter.com/remix_run/status/1661017634480201734).\n- 💬 [React WG - RSC from Scratch. Part 1: Server Components](https://github.com/reactwg/server-components/discussions/5): Dan Abramov offers a complete deep dive into implementing Server Components from scratch. Part 1 (of 3) is available and describes how to implement the Server Components side.\n- 📖 [Next.js Docs Update - Project Organization page](https://twitter.com/delba_oliveira/status/1662211824211877889)\n- 📜 [Is React Having An Angular.js Moment?](https://marmelab.com/blog/2023/06/05/react-angularjs-moment.html): does the arrival of Server Components represent a paradigm shift similar to Angular.js vs Angular 2? No, because Server Components are an optional new feature and the rest of React continues to work as before. This article does warn, however, that it may be a little early to recommend and adopt RSCs, and the ecosystem isn't fully ready.\n- 📜 [Opinionated notes on React Server components](https://github.com/nilshartmann/react-server-component-material/blob/notes-on-rsc/notes-on-rsc.md): set of notes and reflections on RSCs. Comprehensive and well-documented resource, with many relevant external references.\n- 📜 [Isomorphic Development](https://meijer.ws/articles/isomorphic-development): interesting thoughts on the complexity Server Components bring. It's not the Server Components themselves that are complex, but the new hybrid nature of our codebase, and its less well-defined boundaries.\n- 📜 [The evolution of React APIs and code reuse](https://frontendmastery.com/posts/the-evolution-of-react-patterns/): reviews the different patterns used over time, and their trade-offs (mixins, HOCs, render props, hooks, RSCs).\n- 📜 [Why We Are Dropping Support For Next Js](https://www.stormkit.io/blog/why-we-are-dropping-support-for-next-js): the Stormkit deployment platform is abandoning support for Next.js, which was too complex for their small team to handle. Instead, they propose to use a React + Vite template that supports SSR.\n- 📜 [A better learning path for React with server components](https://scastiel.dev/better-learning-path-react): what if RSCs actually made React easier to learn? I think it makes sense if you adopt a fresh perspective.\n- 📜 [RedwoodJS’ Next Epoch: All In on React Server Components](https://tom.preston-werner.com/2023/05/30/redwoods-next-epoch-all-in-on-rsc.html): Tom Preston-Werner (creator of GitHub) announcing that the Redwood framework plans to implement React Server Components. Until now, Redwood generated an SPA without SSR (limited for SEO), and the forced use of GraphQL was not always the best choice.\n- 📜 [Solving hydration errors in Remix](https://www.jacobparis.com/content/remix-hydration-errors): good advice on debugging React hydration errors. This can also be applied to other frameworks.\n- 📜 [What is JSX.IntrinsicElements?](https://www.totaltypescript.com/what-is-jsx-intrinsicelements): TypeScript uses IntrinsicElements to find out which JSX elements are natively supported. It is possible to declare your own native elements, which is what frameworks like React do.\n- 📜 [Deploying Next.js on the edge with SST](https://engineering.udacity.com/deploying-next-js-on-the-edge-with-sst-is-sst-the-game-changer-its-claimed-to-be-1f05a0abc27c): positive feedback on using OpenNext and SST to deploy a Next.js app on AWS.\n- 📜 [Spotify - Multiple Layers of Abstraction in Design Systems](https://engineering.atspotify.com/2023/05/multiple-layers-of-abstraction-in-design-systems/): Spotify explains how their React design system exposes 3 levels of abstraction (config, slots, custom).\n- 📦 [TypeScript 5.1](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1): this new TypeScript version is important for React as it allows better typing of JSX for React, and allows a component to return a Promise (async Server Component), a string, array, boolean... new React typedefs have already been [published](https://twitter.com/sebsilbermann/status/1664356039876124672)!\n- 📦 [Triplex - React Three Fiber visual editor](https://twitter.com/itsdouges/status/1664874971481382913)\n- 📦 [useHooks.com v2.0 - SSR-safe hooks collection](https://usehooks.com/)\n- 📦 [ReMDX - Beautiful Minimalist React & MDX Presentations](https://github.com/cpojer/remdx)\n- 📦 [Next-Typesafe-Url - Fully typesafe and zod validated routing for Next.JS](https://github.com/ethanniser/next-typesafe-url)\n- 📦 [Redux Toolkit v2.0.0-beta.0](https://twitter.com/acemarke/status/1663707088478953474)\n- 📦 [Pastel v2.0 - A Next.js-like framework for CLIs made with Ink](https://twitter.com/vadimdemedes/status/1661343197535129601)\n- 📦 [React Aria + React Spectrum - May 24 2023 releases](https://twitter.com/devongovett/status/1661765315825643521)\n- 📦 [Astro v2.6 - Middleware, hybrid SSR, custom client directives...](https://astro.build/blog/astro-260/)\n- 🔗 [React Handbook](https://reacthandbook.dev/)\n- 🎥 [Are React Server Components Really Slower?](https://www.youtube.com/watch?v=3Q2q2gs0nAI): benchmark showing that Pages Router from Next.js is faster than App Router, but the user experience can be better with the latter thanks to streaming.\n- 🎥 [How to NOT Poison Your React Server Components](https://www.youtube.com/watch?v=BZlwtR9pDp4): use of the `server-only` package to avoid importing server code into your Client Components.\n- 🎥 [Remix Conf - React Core Panel Q&A](https://www.youtube.com/watch?v=WiEtFPYGgbM)"
+      "sourceMdx": "- 🥳️ [Celebrating 10 Years of React](https://vercel.com/blog/10-years-of-react): Vercel is celebrating a decade of React by publishing a [round table video](https://www.youtube.com/watch?v=g5BGoLyGjY0) about all the latest React innovations, with Andrew, Sebastian and Delba.\n- 👀 [React `<Catch>` API?](https://twitter.com/wongmjane/status/1661786321176911872): upcoming support for Error Boundaries without class component?\n- 👀 [Remix + RSC POC](https://twitter.com/ryanflorence/status/1663587026384584704): Remix is finally planning to implement Server Components, and gives one of the reasons why [here](https://twitter.com/remix_run/status/1661017634480201734).\n- 💬 [React WG - RSC from Scratch. Part 1: Server Components](https://github.com/reactwg/server-components/discussions/5): Dan Abramov offers a complete deep dive into implementing Server Components from scratch. Part 1 (of 3) is available and describes how to implement the Server Components side.\n- 📖 [Next.js Docs Update - Project Organization page](https://twitter.com/delba_oliveira/status/1662211824211877889)\n- 📜 [Is React Having An Angular.js Moment?](https://marmelab.com/blog/2023/06/05/react-angularjs-moment.html): does the arrival of Server Components represent a paradigm shift similar to Angular.js vs Angular 2? No, because Server Components are an optional new feature and the rest of React continues to work as before. This article does warn, however, that it may be a little early to recommend and adopt RSCs, and the ecosystem isn't fully ready.\n- 📜 [Opinionated notes on React Server components](https://github.com/nilshartmann/react-server-component-material/blob/notes-on-rsc/notes-on-rsc.md): set of notes and reflections on RSCs. Comprehensive and well-documented resource, with many relevant external references.\n- 📜 [Isomorphic Development](https://meijer.ws/articles/isomorphic-development): interesting thoughts on the complexity Server Components bring. It's not the Server Components themselves that are complex, but the new hybrid nature of our codebase, and its less well-defined boundaries.\n- 📜 [The evolution of React APIs and code reuse](https://frontendmastery.com/posts/the-evolution-of-react-patterns/): reviews the different patterns used over time, and their trade-offs (mixins, HOCs, render props, hooks, RSCs).\n- 📜 [Why We Are Dropping Support For Next Js](https://www.stormkit.io/blog/why-we-are-dropping-support-for-next-js): the Stormkit deployment platform is abandoning support for Next.js, which was too complex for their small team to handle. Instead, they propose to use a React + Vite template that supports SSR.\n- 📜 [A better learning path for React with server components](https://scastiel.dev/better-learning-path-react): what if RSCs actually made React easier to learn? I think it makes sense if you adopt a fresh perspective.\n- 📜 [RedwoodJS’ Next Epoch: All In on React Server Components](https://tom.preston-werner.com/2023/05/30/redwoods-next-epoch-all-in-on-rsc.html): Tom Preston-Werner (creator of GitHub) announcing that the Redwood framework plans to implement React Server Components. Until now, Redwood generated an SPA without SSR (limited for SEO), and the forced use of GraphQL was not always the best choice.\n- 📜 [Solving hydration errors in Remix](https://www.jacobparis.com/content/remix-hydration-errors): good advice on debugging React hydration errors. This can also be applied to other frameworks.\n- 📜 [What is JSX.IntrinsicElements?](https://www.totaltypescript.com/what-is-jsx-intrinsicelements): TypeScript uses IntrinsicElements to find out which JSX elements are natively supported. It is possible to declare your own native elements, which is what frameworks like React do.\n- 📜 [Deploying Next.js on the edge with SST](https://engineering.udacity.com/deploying-next-js-on-the-edge-with-sst-is-sst-the-game-changer-its-claimed-to-be-1f05a0abc27c): positive feedback on using OpenNext and SST to deploy a Next.js app on AWS.\n- 📜 [Spotify - Multiple Layers of Abstraction in Design Systems](https://engineering.atspotify.com/2023/05/multiple-layers-of-abstraction-in-design-systems/): Spotify explains how their React design system exposes 3 levels of abstraction (config, slots, custom).\n- 📦 [TypeScript 5.1](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1): this new TypeScript version is important for React as it allows better typing of JSX for React, and allows a component to return a Promise (async Server Component), a string, array, boolean... new React typedefs have already been [published](https://twitter.com/sebsilbermann/status/1664356039876124672)!\n- 📦 [Triplex - React Three Fiber visual editor](https://twitter.com/itsdouges/status/1664874971481382913)\n- 📦 [useHooks.com v2.0 - SSR-safe hooks collection](https://usehooks.com/)\n- 📦 [ReMDX - Beautiful Minimalist React & MDX Presentations](https://github.com/cpojer/remdx)\n- 📦 [Next-Typesafe-Url - Fully typesafe and zod validated routing for Next.JS](https://github.com/ethanniser/next-typesafe-url)\n- 📦 [Redux Toolkit v2.0.0-beta.0](https://twitter.com/acemarke/status/1663707088478953474)\n- 📦 [Pastel v2.0 - A Next.js-like framework for CLIs made with Ink](https://twitter.com/vadimdemedes/status/1661343197535129601)\n- 📦 [React Aria + React Spectrum - May 24 2023 releases](https://twitter.com/devongovett/status/1661765315825643521)\n- 📦 [Astro v2.6 - Middleware, hybrid SSR, custom client directives...](https://astro.build/blog/astro-260/)\n- 🔗 [React Handbook](https://reacthandbook.dev/)\n- 🎥 [Are React Server Components Really Slower?](https://www.youtube.com/watch?v=3Q2q2gs0nAI): benchmark showing that Pages Router from Next.js is faster than App Router, but the user experience can be better with the latter thanks to streaming.\n- 🎥 [How to NOT Poison Your React Server Components](https://www.youtube.com/watch?v=BZlwtR9pDp4): use of the `server-only` package to avoid importing server code into your Client Components.\n- 🎥 [Remix Conf - React Core Panel Q&A](https://www.youtube.com/watch?v=WiEtFPYGgbM)",
+      "nodeType": "list",
+      "translated_content": "- 🥳️ [React十周年庆典](https://vercel.com/blog/10-years-of-react): Vercel通过发布[圆桌讨论视频](https://www.youtube.com/watch?v=g5BGoLyGjY0)来庆祝React诞生十周年，Andrew、Sebastian和Delba共同探讨React最新创新成果。\n- 👀 [React `<Catch>` API？](https://twitter.com/wongmjane/status/1661786321176911872): 即将支持无需类组件的错误边界？\n- 👀 [Remix + RSC概念验证](https://twitter.com/ryanflorence/status/1663587026384584704): Remix终于计划实现服务端组件，并在此[推文](https://twitter.com/remix_run/status/1661017634480201734)中给出了原因之一。\n- 💬 [React工作组 - 从零实现RSC. 第一部分：服务端组件](https://github.com/reactwg/server-components/discussions/5): Dan Abramov深入讲解如何从头实现服务端组件。第一部分（共三部分）已发布，详细描述服务端组件的实现方式。\n- 📖 [Next.js文档更新 - 项目组织页面](https://twitter.com/delba_oliveira/status/1662211824211877889)\n- 📜 [React是否正在经历Angular.js时刻？](https://marmelab.com/blog/2023/06/05/react-angularjs-moment.html): 服务端组件的出现是否像Angular.js到Angular 2那样的范式转变？文章认为不是，因为服务端组件是可选新特性，原有React功能仍可正常使用。但作者也警告现阶段全面采用RSC可能为时过早，生态系统尚未完全成熟。\n- 📜 [关于React服务端组件的观点笔记](https://github.com/nilshartmann/react-server-component-material/blob/notes-on-rsc/notes-on-rsc.md): 对RSC的全面思考与记录，包含大量相关外部参考资料。\n- 📜 [同构开发](https://meijer.ws/articles/isomorphic-development): 探讨服务端组件带来的复杂性。真正的复杂性不在于RSC本身，而在于代码库新的混合特性及其模糊的边界。\n- 📜 [React API与代码复用的演进](https://frontendmastery.com/posts/the-evolution-of-react-patterns/): 回顾不同时期使用的模式及其权衡（混入、高阶组件、渲染属性、钩子、RSC）。\n- 📜 [为何我们放弃支持Next.js](https://www.stormkit.io/blog/why-we-are-dropping-support-for-next-js): Stormkit部署平台因Next.js过于复杂而放弃支持，转而推荐使用支持SSR的React+Vite模板。\n- 📜 [结合服务端组件的React学习路径优化](https://scastiel.dev/better-learning-path-react): 如果以全新视角看待，RSC可能使React更易学习。\n- 📜 [RedwoodJS新时代：全面拥抱React服务端组件](https://tom.preston-werner.com/2023/05/30/redwoods-next-epoch-all-in-on-rsc.html): GitHub创始人宣布Redwood框架将实现RSC。此前Redwood生成无SSR的SPA（不利于SEO），且强制使用GraphQL并非总是最佳选择。\n- 📜 [解决Remix中的水合错误](https://www.jacobparis.com/content/remix-hydration-errors): 调试React水合错误的实用建议，同样适用于其他框架。\n- 📜 [什么是JSX.IntrinsicElements？](https://www.totaltypescript.com/what-is-jsx-intrinsicelements): TypeScript通过IntrinsicElements识别原生支持的JSX元素。框架如React可声明自定义原生元素。\n- 📜 [使用SST在边缘部署Next.js](https://engineering.udacity.com/deploying-next-js-on-the-edge-with-sst-is-sst-the-game-changer-its-claimed-to-be-1f05a0abc27c): 关于使用OpenNext和SST在AWS部署Next.js的积极实践。\n- 📜 [Spotify设计系统中的多层抽象](https://engineering.atspotify.com/2023/05/multiple-layers-of-abstraction-in-design-systems/): 阐述其React设计系统如何提供三个抽象层级（配置、插槽、自定义）。\n- 📦 [TypeScript 5.1](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1): 新版本对React意义重大，改进了JSX类型支持，允许组件返回Promise（异步服务端组件）、字符串、数组等。新版React类型定义已[发布](https://twitter.com/sebsilbermann/status/1664356039876124672)。\n- 📦 [Triplex - React Three Fiber可视化编辑器](https://twitter.com/itsdouges/status/1664874971481382913)\n- 📦 [useHooks.com v2.0 - 支持SSR的钩子集合](https://usehooks.com/)\n- 📦 [ReMDX - 极简风格的React & MDX演示工具](https://github.com/cpojer/remdx)\n- 📦 [Next-Typesafe-Url - Next.js全类型安全路由验证](https://github.com/ethanniser/next-typesafe-url)\n- 📦 [Redux Toolkit v2.0.0-beta.0](https://twitter.com/acemarke/status/1663707088478953474)\n- 📦 [Pastel v2.0 - 基于Ink的类Next.js CLI框架](https://twitter.com/vadimdemedes/status/1661343197535129601)\n- 📦 [React Aria + React Spectrum 2023年5月24日更新](https://twitter.com/devongovett/status/1661765315825643521)\n- 📦 [Astro v2.6 - 中间件、混合SSR、自定义客户端指令等](https://astro.build/blog/astro-260/)\n- 🔗 [React手册](https://reacthandbook.dev/)\n- 🎥 [React服务端组件真的更慢吗？](https://www.youtube.com/watch?v=3Q2q2gs0nAI): 基准测试显示Next.js的Pages Router比App Router更快，但后者通过流式传输能提供更好用户体验。\n- 🎥 [如何避免污染React服务端组件](https://www.youtube.com/watch?v=BZlwtR9pDp4): 使用`server-only`包防止服务端代码混入客户端组件。\n- 🎥 [Remix大会 - React核心小组问答](https://www.youtube.com/watch?v=WiEtFPYGgbM)"
     },
     {
       "id": "2fb90ce3",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_2fb90ce3"
     },
     {
       "id": "ab3df6e6",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "c19de48a",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "6ca4479f",
       "translatable": true,
       "content": "[![Nylas](/emails/issues/147/Nylas.png)](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=twir\\&utm_medium=sponsoredemail\\&utm_campaign=FY23Q2-TWIR-2P\\&utm_content=2023-06-07-Issue-openaireplay)",
-      "sourceMdx": "[![Nylas](/emails/issues/147/Nylas.png)](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-openaireplay)"
+      "sourceMdx": "[![Nylas](/emails/issues/147/Nylas.png)](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-openaireplay)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Nylas](/emails/issues/147/Nylas.png)](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-openaireplay)"
     },
     {
       "id": "a2c0166e",
       "translatable": true,
       "content": "**[OpenAI + Nylas chat on generative AI : Watch now!](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=twir\\&utm_medium=sponsoredemail\\&utm_campaign=FY23Q2-TWIR-2P\\&utm_content=2023-06-07-Issue-openaireplay)**",
-      "sourceMdx": "**[OpenAI + Nylas chat on generative AI : Watch now!](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-openaireplay)**"
+      "sourceMdx": "**[OpenAI + Nylas chat on generative AI : Watch now!](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-openaireplay)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[OpenAI与Nylas关于生成式AI的对话：立即观看！](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-openaireplay)**"
     },
     {
       "id": "c1eaf30b",
       "translatable": true,
       "content": "Want an inside look at the future of generative AI? Evan Morikawa, Applied Engineering Manager at OpenAI, and Christine Spang, CTO and Co-Founder at Nylas, dive into what’s next for generative AI.",
-      "sourceMdx": "Want an inside look at the future of generative AI? Evan Morikawa, Applied Engineering Manager at OpenAI, and Christine Spang, CTO and Co-Founder at Nylas, dive into what’s next for generative AI."
+      "sourceMdx": "Want an inside look at the future of generative AI? Evan Morikawa, Applied Engineering Manager at OpenAI, and Christine Spang, CTO and Co-Founder at Nylas, dive into what’s next for generative AI.",
+      "nodeType": "paragraph",
+      "translated_content": "想了解生成式AI的未来内幕？OpenAI应用工程经理Evan Morikawa与Nylas联合创始人兼CTO Christine Spang将深入探讨生成式AI的下一步发展。"
     },
     {
       "id": "f0984c2a",
       "translatable": true,
       "content": "They’ll discuss what it takes to deliver and maintain AI solutions at scale, what AI's next stage of maturity looks like, and much more. [Get the replay now](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=twir\\&utm_medium=sponsoredemail\\&utm_campaign=FY23Q2-TWIR-2P\\&utm_content=2023-06-07-Issue-openaireplay).",
-      "sourceMdx": "They’ll discuss what it takes to deliver and maintain AI solutions at scale, what AI's next stage of maturity looks like, and much more. [Get the replay now](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-openaireplay)."
+      "sourceMdx": "They’ll discuss what it takes to deliver and maintain AI solutions at scale, what AI's next stage of maturity looks like, and much more. [Get the replay now](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-openaireplay).",
+      "nodeType": "paragraph",
+      "translated_content": "他们将讨论大规模交付和维护AI解决方案的关键要素、AI下一阶段成熟度的形态等话题。[立即获取回放](https://info.nylas.com/firesidechat-openai-registrationpage.html?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-openaireplay)。"
     },
     {
       "id": "a81544fd",
       "translatable": true,
       "content": "Want to start building with ChatGPT + Email API calls in React? [Here’s a guide to get you started.](https://www.nylas.com/blog/how-to-build-with-nylas-using-chatgpt/?utm_source=twir\\&utm_medium=sponsoredemail\\&utm_campaign=FY23Q2-TWIR-2P\\&utm_content=2023-06-07-Issue-chatgptblog)",
-      "sourceMdx": "Want to start building with ChatGPT + Email API calls in React? [Here’s a guide to get you started.](https://www.nylas.com/blog/how-to-build-with-nylas-using-chatgpt/?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-chatgptblog)"
+      "sourceMdx": "Want to start building with ChatGPT + Email API calls in React? [Here’s a guide to get you started.](https://www.nylas.com/blog/how-to-build-with-nylas-using-chatgpt/?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-chatgptblog)",
+      "nodeType": "paragraph",
+      "translated_content": "想开始在React中构建ChatGPT+邮件API调用？[这里有一份入门指南](https://www.nylas.com/blog/how-to-build-with-nylas-using-chatgpt/?utm_source=twir&utm_medium=sponsoredemail&utm_campaign=FY23Q2-TWIR-2P&utm_content=2023-06-07-Issue-chatgptblog)。"
     },
     {
       "id": "0c6c4220",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "ab39e8a7",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "8d56fc0d",
       "translatable": true,
       "content": "* 👀 [Nearly ¼ of the top Shopping Apps on the Apple App Store use React Native](https://twitter.com/Baconbrix/status/1664285684583002112): React-Native apps get the best ratings! See also other categories [Foot & Drinks](https://twitter.com/Baconbrix/status/1661775514074247169) and [Finance](https://twitter.com/Baconbrix/status/1662866951784235008).\n* 👀 [Help us Kotlin-ify React Native tests](https://twitter.com/cortinico/status/1666001895360454660): the start of a migration of React-Native from Java to Kotlin, starting with testing.\n* 👀 [React-Skia-Experiment](https://github.com/wcandillon/react-skia-experiment): William Candillon is experimenting with making the React-Native-Skia library universal ([tweet](https://twitter.com/wcandillon/status/1662037035102683136)).\n* 👀 [Portal - Apple Vision Pro app using React-Native](https://twitter.com/Baconbrix/status/1665816002712436736)\n* 📜 [How BlueSky Structure Their App and Manage State](https://alexkondov.com/reading-code-bluesky/): guided exploration of the BlueSky open-source codebase,using Expo, React-Native-Web, Mobx...\n* 🔗 [React Native Performance Issues Catalogue](https://spangled-split-858.notion.site/React-Native-Performance-Issues-Catalogue-9338979a2a5648e883331ef2050e963c): a Notion DB that lists the causes and symptoms of React-Native perf problems to help you fix them.\n* 📦 [React-Native 0.72.0-RC.5](https://github.com/facebook/react-native/releases/tag/v0.72.0-rc.5): new Golden Release Candidate.\n* 📦 [vscode-expo-tools](https://twitter.com/cedric_dev/status/1666113468078997507)\n* 📦 [style-variants - solution for creating dynamic and reusable styles](https://github.com/oktaysenkan/style-variants)\n* 🎥 [App.js 2023 - Youtube Playlist](https://www.youtube.com/playlist?list=PLSk21zn8fFZCfYEMpSqQOHMgyNKc8B7_s)\n* 🎥 [Chain React 2023 - Youtube Playlist](https://www.youtube.com/playlist?list=PLFHvL21g9bk30F2UaJfn6TqJn15MAoBOc)\n* 🎙️[React-Native-Radio 266 - Chain React Roundup](https://reactnativeradio.com/episodes/rnr-266-chain-react-roundup) + [React-Native-Radio 267 - React Native Windows With Chiara Mooney](https://reactnativeradio.com/episodes/rnr-267-react-native-windows-with-chiara-mooney)\n* 🎙️ [React Native Show Coffee Talk #10 - Vercel news, React Canaries & RN macOS 0.71](https://www.youtube.com/watch?v=qvPOkvdG0ZI)",
-      "sourceMdx": "- 👀 [Nearly ¼ of the top Shopping Apps on the Apple App Store use React Native](https://twitter.com/Baconbrix/status/1664285684583002112): React-Native apps get the best ratings! See also other categories [Foot & Drinks](https://twitter.com/Baconbrix/status/1661775514074247169) and [Finance](https://twitter.com/Baconbrix/status/1662866951784235008).\n- 👀 [Help us Kotlin-ify React Native tests](https://twitter.com/cortinico/status/1666001895360454660): the start of a migration of React-Native from Java to Kotlin, starting with testing.\n- 👀 [React-Skia-Experiment](https://github.com/wcandillon/react-skia-experiment): William Candillon is experimenting with making the React-Native-Skia library universal ([tweet](https://twitter.com/wcandillon/status/1662037035102683136)).\n- 👀 [Portal - Apple Vision Pro app using React-Native](https://twitter.com/Baconbrix/status/1665816002712436736)\n- 📜 [How BlueSky Structure Their App and Manage State](https://alexkondov.com/reading-code-bluesky/): guided exploration of the BlueSky open-source codebase,using Expo, React-Native-Web, Mobx...\n- 🔗 [React Native Performance Issues Catalogue](https://spangled-split-858.notion.site/React-Native-Performance-Issues-Catalogue-9338979a2a5648e883331ef2050e963c): a Notion DB that lists the causes and symptoms of React-Native perf problems to help you fix them.\n- 📦 [React-Native 0.72.0-RC.5](https://github.com/facebook/react-native/releases/tag/v0.72.0-rc.5): new Golden Release Candidate.\n- 📦 [vscode-expo-tools](https://twitter.com/cedric_dev/status/1666113468078997507)\n- 📦 [style-variants - solution for creating dynamic and reusable styles](https://github.com/oktaysenkan/style-variants)\n- 🎥 [App.js 2023 - Youtube Playlist](https://www.youtube.com/playlist?list=PLSk21zn8fFZCfYEMpSqQOHMgyNKc8B7_s)\n- 🎥 [Chain React 2023 - Youtube Playlist](https://www.youtube.com/playlist?list=PLFHvL21g9bk30F2UaJfn6TqJn15MAoBOc)\n- 🎙️[React-Native-Radio 266 - Chain React Roundup](https://reactnativeradio.com/episodes/rnr-266-chain-react-roundup) + [React-Native-Radio 267 - React Native Windows With Chiara Mooney](https://reactnativeradio.com/episodes/rnr-267-react-native-windows-with-chiara-mooney)\n- 🎙️ [React Native Show Coffee Talk #10 - Vercel news, React Canaries & RN macOS 0.71](https://www.youtube.com/watch?v=qvPOkvdG0ZI)"
+      "sourceMdx": "- 👀 [Nearly ¼ of the top Shopping Apps on the Apple App Store use React Native](https://twitter.com/Baconbrix/status/1664285684583002112): React-Native apps get the best ratings! See also other categories [Foot & Drinks](https://twitter.com/Baconbrix/status/1661775514074247169) and [Finance](https://twitter.com/Baconbrix/status/1662866951784235008).\n- 👀 [Help us Kotlin-ify React Native tests](https://twitter.com/cortinico/status/1666001895360454660): the start of a migration of React-Native from Java to Kotlin, starting with testing.\n- 👀 [React-Skia-Experiment](https://github.com/wcandillon/react-skia-experiment): William Candillon is experimenting with making the React-Native-Skia library universal ([tweet](https://twitter.com/wcandillon/status/1662037035102683136)).\n- 👀 [Portal - Apple Vision Pro app using React-Native](https://twitter.com/Baconbrix/status/1665816002712436736)\n- 📜 [How BlueSky Structure Their App and Manage State](https://alexkondov.com/reading-code-bluesky/): guided exploration of the BlueSky open-source codebase,using Expo, React-Native-Web, Mobx...\n- 🔗 [React Native Performance Issues Catalogue](https://spangled-split-858.notion.site/React-Native-Performance-Issues-Catalogue-9338979a2a5648e883331ef2050e963c): a Notion DB that lists the causes and symptoms of React-Native perf problems to help you fix them.\n- 📦 [React-Native 0.72.0-RC.5](https://github.com/facebook/react-native/releases/tag/v0.72.0-rc.5): new Golden Release Candidate.\n- 📦 [vscode-expo-tools](https://twitter.com/cedric_dev/status/1666113468078997507)\n- 📦 [style-variants - solution for creating dynamic and reusable styles](https://github.com/oktaysenkan/style-variants)\n- 🎥 [App.js 2023 - Youtube Playlist](https://www.youtube.com/playlist?list=PLSk21zn8fFZCfYEMpSqQOHMgyNKc8B7_s)\n- 🎥 [Chain React 2023 - Youtube Playlist](https://www.youtube.com/playlist?list=PLFHvL21g9bk30F2UaJfn6TqJn15MAoBOc)\n- 🎙️[React-Native-Radio 266 - Chain React Roundup](https://reactnativeradio.com/episodes/rnr-266-chain-react-roundup) + [React-Native-Radio 267 - React Native Windows With Chiara Mooney](https://reactnativeradio.com/episodes/rnr-267-react-native-windows-with-chiara-mooney)\n- 🎙️ [React Native Show Coffee Talk #10 - Vercel news, React Canaries & RN macOS 0.71](https://www.youtube.com/watch?v=qvPOkvdG0ZI)",
+      "nodeType": "list",
+      "translated_content": "- 👀 [苹果应用商店Top购物应用中近1/4使用React Native](https://twitter.com/Baconbrix/status/1664285684583002112)：React-Native应用评分最高！另见其他分类[餐饮类](https://twitter.com/Baconbrix/status/1661775514074247169)和[金融类](https://twitter.com/Baconbrix/status/1662866951784235008)。\n- 👀 [帮助我们用Kotlin重构React Native测试](https://twitter.com/cortinico/status/1666001895360454660)：React-Native从Java迁移到Kotlin的开始，从测试代码着手。\n- 👀 [React-Skia实验项目](https://github.com/wcandillon/react-skia-experiment)：William Candillon正在尝试让React-Native-Skia库实现跨平台支持([推文](https://twitter.com/wcandillon/status/1662037035102683136))。\n- 👀 [Portal - 使用React-Native开发的Apple Vision Pro应用](https://twitter.com/Baconbrix/status/1665816002712436736)\n- 📜 [BlueSky如何构建应用架构与管理状态](https://alexkondov.com/reading-code-bluesky/)：基于Expo、React-Native-Web、Mobx等技术的BlueSky开源代码库导览。\n- 🔗 [React Native性能问题目录](https://spangled-split-858.notion.site/React-Native-Performance-Issues-Catalogue-9338979a2a5648e883331ef2050e963c)：记录React-Native性能问题的成因与症状的Notion数据库，助力问题排查。\n- 📦 [React-Native 0.72.0-RC.5](https://github.com/facebook/react-native/releases/tag/v0.72.0-rc.5)：新版Golden候选版本。\n- 📦 [vscode-expo-tools](https://twitter.com/cedric_dev/status/1666113468078997507)\n- 📦 [style-variants - 创建动态可复用样式的解决方案](https://github.com/oktaysenkan/style-variants)\n- 🎥 [App.js 2023大会 - YouTube播放列表](https://www.youtube.com/playlist?list=PLSk21zn8fFZCfYEMpSqQOHMgyNKc8B7_s)\n- 🎥 [Chain React 2023大会 - YouTube播放列表](https://www.youtube.com/playlist?list=PLFHvL21g9bk30F2UaJfn6TqJn15MAoBOc)\n- 🎙️[React-Native广播第266期 - Chain React大会综述](https://reactnativeradio.com/episodes/rnr-266-chain-react-roundup) + [第267期 - 与Chiara Mooney探讨React Native Windows](https://reactnativeradio.com/episodes/rnr-267-react-native-windows-with-chiara-mooney)\n- 🎙️ [React Native咖啡闲谈第10期 - Vercel动态、React Canaries及RN macOS 0.71](https://www.youtube.com/watch?v=qvPOkvdG0ZI)"
     },
     {
       "id": "714b728f",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "47cd8dd6",
       "translatable": true,
       "content": "## 🧑‍💻 Jobs",
-      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}",
+      "nodeType": "heading",
+      "translated_content": "## 🧑‍💻 职位招聘 {#jobs}"
     },
     {
       "id": "692c6053",
       "translatable": true,
       "content": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)",
-      "sourceMdx": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)"
+      "sourceMdx": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**Passionfroot - 高级全栈工程师（Remix方向）- €160k+，柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)"
     },
     {
       "id": "383fbdd2",
       "translatable": true,
       "content": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses.",
-      "sourceMdx": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses."
+      "sourceMdx": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses.",
+      "nodeType": "paragraph",
+      "translated_content": "Passionfroot的使命是通过YouTube、播客、社交媒体和新闻通讯赋能未来的独立创业者。加入我们，共同打造一个能帮助全球创作者建立可扩展、可持续业务的工具。"
     },
     {
       "id": "14bc6b75",
       "translatable": true,
       "content": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
-      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)"
+      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**Callstack - 高级React Native开发工程师 - 完全远程，B2B月薪净额21-32k波兰兹罗提**](https://www.callstack.com/senior-react-native-developer)"
     },
     {
       "id": "e478ec2c",
       "translatable": true,
       "content": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
-      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!"
+      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
+      "nodeType": "paragraph",
+      "translated_content": "您是否希望参与开发全球使用最广泛的应用？是否愿意共同塑造React Native技术？加入Callstack这支由React和React Native领军人物组成的团队。详情请访问我们的网站。我们期待您的申请——请向我们展示您的实力！"
     },
     {
       "id": "534ac82e",
       "translatable": true,
       "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
-      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
     },
     {
       "id": "a9c2a503",
       "translatable": true,
       "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
-      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "nodeType": "paragraph",
+      "translated_content": "我们开放了多个专注于React Native的开发者职位！薪资约16万美元外加10%奖金。应聘者需具备RN生产环境经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解更多，并请提及This Week in React。"
     },
     {
       "id": "cfeb9eb1",
       "translatable": true,
       "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
-      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "nodeType": "paragraph",
+      "translated_content": "💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)"
     },
     {
       "id": "af4523c9",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "35353302",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他 {#other}"
     },
     {
       "id": "f4e38e16",
       "translatable": true,
       "content": "* [An introduction to @scope in CSS](https://fullystacked.net/posts/scope-in-css/)\n* [Running Promises in Parallel: A Visual Guide](https://julesblom.com/writing/running-promises-in-parallel)\n* [One Hour Advanced TypeScript Workshop](https://type-level-typescript.com/articles/one-hour-workshop)\n* [JavaScript Macros in Bun](https://bun.sh/blog/bun-macros)\n* [New to the web platform in May](https://web.dev/web-platform-05-2023/)\n* [Introducing the popover API](https://developer.chrome.com/blog/introducing-popover-api/)\n* [Web Share API is now a W3C Recommendation](https://www.w3.org/blog/news/archives/9931)\n* [WebKit Features in Safari 17 beta](https://webkit.org/blog/14205/news-from-wwdc23-webkit-features-in-safari-17-beta/)\n* [Deno 1.34: deno compile supports npm packages](https://deno.com/blog/v1.34)\n* [Parcel 2.9](https://parceljs.org/blog/v2-9-0/)\n* [XState v5 beta](https://stately.ai/blog/announcing-xstate-v5-beta)\n* [Rspack 0.2](https://twitter.com/rspack_dev/status/1664510907379228672)",
-      "sourceMdx": "- [An introduction to @scope in CSS](https://fullystacked.net/posts/scope-in-css/)\n- [Running Promises in Parallel: A Visual Guide](https://julesblom.com/writing/running-promises-in-parallel)\n- [One Hour Advanced TypeScript Workshop](https://type-level-typescript.com/articles/one-hour-workshop)\n- [JavaScript Macros in Bun](https://bun.sh/blog/bun-macros)\n- [New to the web platform in May](https://web.dev/web-platform-05-2023/)\n- [Introducing the popover API](https://developer.chrome.com/blog/introducing-popover-api/)\n- [Web Share API is now a W3C Recommendation](https://www.w3.org/blog/news/archives/9931)\n- [WebKit Features in Safari 17 beta](https://webkit.org/blog/14205/news-from-wwdc23-webkit-features-in-safari-17-beta/)\n- [Deno 1.34: deno compile supports npm packages](https://deno.com/blog/v1.34)\n- [Parcel 2.9](https://parceljs.org/blog/v2-9-0/)\n- [XState v5 beta](https://stately.ai/blog/announcing-xstate-v5-beta)\n- [Rspack 0.2](https://twitter.com/rspack_dev/status/1664510907379228672)"
+      "sourceMdx": "- [An introduction to @scope in CSS](https://fullystacked.net/posts/scope-in-css/)\n- [Running Promises in Parallel: A Visual Guide](https://julesblom.com/writing/running-promises-in-parallel)\n- [One Hour Advanced TypeScript Workshop](https://type-level-typescript.com/articles/one-hour-workshop)\n- [JavaScript Macros in Bun](https://bun.sh/blog/bun-macros)\n- [New to the web platform in May](https://web.dev/web-platform-05-2023/)\n- [Introducing the popover API](https://developer.chrome.com/blog/introducing-popover-api/)\n- [Web Share API is now a W3C Recommendation](https://www.w3.org/blog/news/archives/9931)\n- [WebKit Features in Safari 17 beta](https://webkit.org/blog/14205/news-from-wwdc23-webkit-features-in-safari-17-beta/)\n- [Deno 1.34: deno compile supports npm packages](https://deno.com/blog/v1.34)\n- [Parcel 2.9](https://parceljs.org/blog/v2-9-0/)\n- [XState v5 beta](https://stately.ai/blog/announcing-xstate-v5-beta)\n- [Rspack 0.2](https://twitter.com/rspack_dev/status/1664510907379228672)",
+      "nodeType": "list",
+      "translated_content": "- [CSS中@scope的简介](https://fullystacked.net/posts/scope-in-css/)\n- [并行运行Promise：可视化指南](https://julesblom.com/writing/running-promises-in-parallel)\n- [一小时TypeScript进阶研讨会](https://type-level-typescript.com/articles/one-hour-workshop)\n- [Bun中的JavaScript宏](https://bun.sh/blog/bun-macros)\n- [5月Web平台新特性](https://web.dev/web-platform-05-2023/)\n- [弹出层API介绍](https://developer.chrome.com/blog/introducing-popover-api/)\n- [Web Share API正式成为W3C推荐标准](https://www.w3.org/blog/news/archives/9931)\n- [Safari 17 beta中的WebKit特性](https://webkit.org/blog/14205/news-from-wwdc23-webkit-features-in-safari-17-beta/)\n- [Deno 1.34：deno compile支持npm包](https://deno.com/blog/v1.34)\n- [Parcel 2.9发布](https://parceljs.org/blog/v2-9-0/)\n- [XState v5 beta版](https://stately.ai/blog/announcing-xstate-v5-beta)\n- [Rspack 0.2发布](https://twitter.com/rspack_dev/status/1664510907379228672)"
     },
     {
       "id": "1af652fb",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "3f77c6a0",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 趣闻 {#fun}"
     },
     {
       "id": "39f476dc",
       "translatable": true,
       "content": "[![alt](/emails/issues/147/meme.jpg)](https://twitter.com/sophiebits/status/1663710200078151681)",
-      "sourceMdx": "[![alt](/emails/issues/147/meme.jpg)](https://twitter.com/sophiebits/status/1663710200078151681)"
+      "sourceMdx": "[![alt](/emails/issues/147/meme.jpg)](https://twitter.com/sophiebits/status/1663710200078151681)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/147/meme.jpg)](https://twitter.com/sophiebits/status/1663710200078151681)"
     },
     {
       "id": "827eb9a3",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下次见！👋"
     }
   ]
 }

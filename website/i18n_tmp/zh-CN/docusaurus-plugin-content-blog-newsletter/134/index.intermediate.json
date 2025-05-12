@@ -1,389 +1,517 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/134/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/134/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /134\ntitle: \"This Week In React #134: Gatsby ➡️ Netlify, React DOM for Native, XState, Flashlight, re-renders, Custom Hooks, Ignite Cookbook...\"\nauthors: [slorber]\ndate: 02-07-2023\n---",
-      "sourceMdx": "---\nslug: /134\ntitle: \"This Week In React #134: Gatsby ➡️ Netlify, React DOM for Native, XState, Flashlight, re-renders, Custom Hooks, Ignite Cookbook...\"\nauthors: [slorber]\ndate: 02-07-2023\n---"
+      "sourceMdx": "---\nslug: /134\ntitle: \"This Week In React #134: Gatsby ➡️ Netlify, React DOM for Native, XState, Flashlight, re-renders, Custom Hooks, Ignite Cookbook...\"\nauthors: [slorber]\ndate: 02-07-2023\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "Gatsby has just been acquired by Netlify 🤯!",
-      "sourceMdx": "Gatsby has just been acquired by Netlify 🤯!"
+      "sourceMdx": "Gatsby has just been acquired by Netlify 🤯!",
+      "nodeType": "paragraph",
+      "translated_content": "Gatsby刚刚被Netlify收购了 🤯！"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "There is also a very interesting RFC to read if you are passionate about cross-platform in React-Native.",
-      "sourceMdx": "There is also a very interesting RFC to read if you are passionate about cross-platform in React-Native."
+      "sourceMdx": "There is also a very interesting RFC to read if you are passionate about cross-platform in React-Native.",
+      "nodeType": "paragraph",
+      "translated_content": "如果你对React-Native的跨平台开发感兴趣，这里还有一份非常值得阅读的RFC。"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "Otherwise, it's a pretty quiet week. That's good timing, because I don't have much time 😄. I'm finishing up some preparations for next week's email which will be a bit different.",
-      "sourceMdx": "Otherwise, it's a pretty quiet week. That's good timing, because I don't have much time 😄. I'm finishing up some preparations for next week's email which will be a bit different."
+      "sourceMdx": "Otherwise, it's a pretty quiet week. That's good timing, because I don't have much time 😄. I'm finishing up some preparations for next week's email which will be a bit different.",
+      "nodeType": "paragraph",
+      "translated_content": "本周其他方面相对平静。这正好是个好时机，因为我最近时间有限 😄。我正在为下周的邮件做些准备工作，内容会有些不同。"
     },
     {
       "id": "6429a3aa",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_6429a3aa"
     },
     {
       "id": "39b3772c",
       "translatable": true,
       "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
-      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "nodeType": "paragraph",
+      "translated_content": "**💡 [在Twitter上查看本期简报](https://slo.im/thread) - 可视化格式 🎨**"
     },
     {
       "id": "507b4652",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "fcd52337",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_fcd52337"
     },
     {
       "id": "42e34e45",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_42e34e45"
     },
     {
       "id": "caf67047",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "3c36424c",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "26524352",
       "translatable": true,
       "content": "[![refine](/emails/issues/132/refine.png)](https://github.com/refinedev/refine)",
-      "sourceMdx": "[![refine](/emails/issues/132/refine.png)](https://github.com/refinedev/refine)"
+      "sourceMdx": "[![refine](/emails/issues/132/refine.png)](https://github.com/refinedev/refine)",
+      "nodeType": "paragraph",
+      "translated_content": "[![refine](/emails/issues/132/refine.png)](https://github.com/refinedev/refine)"
     },
     {
       "id": "73ab96a3",
       "translatable": true,
       "content": "[**refine - 100% open-source, headless React framework for building CRUD apps**](https://github.com/refinedev/refine)",
-      "sourceMdx": "[**refine - 100% open-source, headless React framework for building CRUD apps**](https://github.com/refinedev/refine)"
+      "sourceMdx": "[**refine - 100% open-source, headless React framework for building CRUD apps**](https://github.com/refinedev/refine)",
+      "nodeType": "paragraph",
+      "translated_content": "[**refine - 100%开源的Headless React框架，用于构建CRUD应用**](https://github.com/refinedev/refine)"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "Get ready to take your skillset to the next level! We are thrilled to launch an Open Source refine Hackathon",
-      "sourceMdx": "Get ready to take your skillset to the next level! We are thrilled to launch an Open Source refine Hackathon"
+      "sourceMdx": "Get ready to take your skillset to the next level! We are thrilled to launch an Open Source refine Hackathon",
+      "nodeType": "paragraph",
+      "translated_content": "准备好将你的技能提升到新水平！我们激动地宣布启动开源refine黑客马拉松"
     },
     {
       "id": "517051a7",
       "translatable": true,
       "content": "You can win $1500 and special swag kits!",
-      "sourceMdx": "You can win $1500 and special swag kits!"
+      "sourceMdx": "You can win $1500 and special swag kits!",
+      "nodeType": "paragraph",
+      "translated_content": "你可以赢得1500美元和特别周边礼包！"
     },
     {
       "id": "135468ee",
       "translatable": true,
       "content": "We are excited to collaborate with Strapi, Appwrite, Meilisearch, and Medusa. They are sponsoring the refine Hackathon and the winners will get a swag kit from each of them!",
-      "sourceMdx": "We are excited to collaborate with Strapi, Appwrite, Meilisearch, and Medusa. They are sponsoring the refine Hackathon and the winners will get a swag kit from each of them!"
+      "sourceMdx": "We are excited to collaborate with Strapi, Appwrite, Meilisearch, and Medusa. They are sponsoring the refine Hackathon and the winners will get a swag kit from each of them!",
+      "nodeType": "paragraph",
+      "translated_content": "我们很高兴与Strapi、Appwrite、Meilisearch和Medusa合作。他们赞助了本次refine黑客马拉松，获胜者将获得每家提供的周边礼包！"
     },
     {
       "id": "33331f27",
       "translatable": true,
       "content": "[More information about the Hackathon](https://s.refine.dev/hackathon).",
-      "sourceMdx": "[More information about the Hackathon](https://s.refine.dev/hackathon)."
+      "sourceMdx": "[More information about the Hackathon](https://s.refine.dev/hackathon).",
+      "nodeType": "paragraph",
+      "translated_content": "[了解更多黑客马拉松信息](https://s.refine.dev/hackathon)。"
     },
     {
       "id": "602e59c7",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "54268405",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React {#react}"
     },
     {
       "id": "8af76f3d",
       "translatable": true,
       "content": "[![Netlify Acquires Gatsby Inc. to Accelerate Adoption of Composable Web Architectures](/emails/issues/134/netlify-gatsby.jpg)](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)",
-      "sourceMdx": "[![Netlify Acquires Gatsby Inc. to Accelerate Adoption of Composable Web Architectures](/emails/issues/134/netlify-gatsby.jpg)](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)"
+      "sourceMdx": "[![Netlify Acquires Gatsby Inc. to Accelerate Adoption of Composable Web Architectures](/emails/issues/134/netlify-gatsby.jpg)](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Netlify收购Gatsby Inc.以加速组合式Web架构的采用](/emails/issues/134/netlify-gatsby.jpg)](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)"
     },
     {
       "id": "a9d49f92",
       "translatable": true,
       "content": "**[Netlify Acquires Gatsby Inc. to Accelerate Adoption of Composable Web Architectures](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)**",
-      "sourceMdx": "**[Netlify Acquires Gatsby Inc. to Accelerate Adoption of Composable Web Architectures](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)**"
+      "sourceMdx": "**[Netlify Acquires Gatsby Inc. to Accelerate Adoption of Composable Web Architectures](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Netlify收购Gatsby Inc.以加速组合式Web架构的采用](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)**"
     },
     {
       "id": "a44047a5",
       "translatable": true,
       "content": "This is the big news of the week. Gatsby Inc. bought by Netlify. The framework is now under the Netlify umbrella alongside Eleventy and SolidJS and will continue to evolve. The cloud features (including the [Valhalla Content Hub](https://www.gatsbyjs.com/products/valhalla-content-hub/)) will be integrated into Netlify's offerings. The new slogan is \"composable architecture\". Gatsby is not the most popular React framework right now, but I think this acquisition makes sense, especially for the content hub and all the CMS integrations they have been working on. The Gatsby Cloud offering is harder to adopt than an optional paid features on Netlify, and that's even more true for sites that don't use Gatsby as a framework.",
-      "sourceMdx": "This is the big news of the week. Gatsby Inc. bought by Netlify. The framework is now under the Netlify umbrella alongside Eleventy and SolidJS and will continue to evolve. The cloud features (including the [Valhalla Content Hub](https://www.gatsbyjs.com/products/valhalla-content-hub/)) will be integrated into Netlify's offerings. The new slogan is \"composable architecture\". Gatsby is not the most popular React framework right now, but I think this acquisition makes sense, especially for the content hub and all the CMS integrations they have been working on. The Gatsby Cloud offering is harder to adopt than an optional paid features on Netlify, and that's even more true for sites that don't use Gatsby as a framework."
+      "sourceMdx": "This is the big news of the week. Gatsby Inc. bought by Netlify. The framework is now under the Netlify umbrella alongside Eleventy and SolidJS and will continue to evolve. The cloud features (including the [Valhalla Content Hub](https://www.gatsbyjs.com/products/valhalla-content-hub/)) will be integrated into Netlify's offerings. The new slogan is \"composable architecture\". Gatsby is not the most popular React framework right now, but I think this acquisition makes sense, especially for the content hub and all the CMS integrations they have been working on. The Gatsby Cloud offering is harder to adopt than an optional paid features on Netlify, and that's even more true for sites that don't use Gatsby as a framework.",
+      "nodeType": "paragraph",
+      "translated_content": "这是本周的大新闻。Netlify收购了Gatsby Inc.。该框架现在与Eleventy和SolidJS一起归入Netlify旗下，并将继续发展。云功能（包括[Valhalla内容中心](https://www.gatsbyjs.com/products/valhalla-content-hub/)）将被整合到Netlify的产品中。新口号是\"组合式架构\"。Gatsby目前并不是最受欢迎的React框架，但我认为这次收购很有意义，特别是考虑到内容中心和他们在CMS集成方面的工作。相比Netlify上的可选付费功能，Gatsby Cloud的采用门槛更高，对于不使用Gatsby作为框架的站点来说更是如此。"
     },
     {
       "id": "f7ef78f9",
       "translatable": true,
       "content": "Also check:",
-      "sourceMdx": "Also check:"
+      "sourceMdx": "Also check:",
+      "nodeType": "paragraph",
+      "translated_content": "另请参阅："
     },
     {
       "id": "157c9741",
       "translatable": true,
       "content": "* 📜 [Gatsby is joining Netlify](https://www.gatsbyjs.com/blog/gatsby-is-joining-netlify/)\n* 📜 [Netlify Acquires Gatsby, Its Struggling Jamstack Competitor](https://thenewstack.io/netlify-acquires-gatsby-its-struggling-jamstack-competitor/)\n* 🎥 [Why would anyone buy Gatsby?](https://www.youtube.com/watch?v=5HE6FcOpit8)",
-      "sourceMdx": "- 📜 [Gatsby is joining Netlify](https://www.gatsbyjs.com/blog/gatsby-is-joining-netlify/)\n- 📜 [Netlify Acquires Gatsby, Its Struggling Jamstack Competitor](https://thenewstack.io/netlify-acquires-gatsby-its-struggling-jamstack-competitor/)\n- 🎥 [Why would anyone buy Gatsby?](https://www.youtube.com/watch?v=5HE6FcOpit8)"
+      "sourceMdx": "- 📜 [Gatsby is joining Netlify](https://www.gatsbyjs.com/blog/gatsby-is-joining-netlify/)\n- 📜 [Netlify Acquires Gatsby, Its Struggling Jamstack Competitor](https://thenewstack.io/netlify-acquires-gatsby-its-struggling-jamstack-competitor/)\n- 🎥 [Why would anyone buy Gatsby?](https://www.youtube.com/watch?v=5HE6FcOpit8)",
+      "nodeType": "list",
+      "translated_content": "- 📜 [Gatsby加入Netlify](https://www.gatsbyjs.com/blog/gatsby-is-joining-netlify/)\n- 📜 [Netlify收购其陷入困境的Jamstack竞争对手Gatsby](https://thenewstack.io/netlify-acquires-gatsby-its-struggling-jamstack-competitor/)\n- 🎥 [为什么会有人收购Gatsby？](https://www.youtube.com/watch?v=5HE6FcOpit8)"
     },
     {
       "id": "e2fed468",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "40158b4b",
       "translatable": true,
       "content": "[![Making state machines global in React](/emails/issues/134/xstate.jpg)](https://stately.ai/blog/making-state-machines-global-in-react)",
-      "sourceMdx": "[![Making state machines global in React](/emails/issues/134/xstate.jpg)](https://stately.ai/blog/making-state-machines-global-in-react)"
+      "sourceMdx": "[![Making state machines global in React](/emails/issues/134/xstate.jpg)](https://stately.ai/blog/making-state-machines-global-in-react)",
+      "nodeType": "paragraph",
+      "translated_content": "[![在React中实现全局状态机](/emails/issues/134/xstate.jpg)](https://stately.ai/blog/making-state-machines-global-in-react)"
     },
     {
       "id": "6ea4c715",
       "translatable": true,
       "content": "**[Making state machines global in React](https://stately.ai/blog/making-state-machines-global-in-react)**",
-      "sourceMdx": "**[Making state machines global in React](https://stately.ai/blog/making-state-machines-global-in-react)**"
+      "sourceMdx": "**[Making state machines global in React](https://stately.ai/blog/making-state-machines-global-in-react)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[在React中实现全局状态机](https://stately.ai/blog/making-state-machines-global-in-react)**"
     },
     {
       "id": "79ad944d",
       "translatable": true,
       "content": "Presentation of the new `createActorContext` API appearing in XState 3.1. It allows to facilitate the creation of global XState state machines, associated to a React context. It is possible to use a selector system, or to provide a custom state machine to the provider (this looks convenient to customize a machine from parent `props`).",
-      "sourceMdx": "Presentation of the new `createActorContext` API appearing in XState 3.1. It allows to facilitate the creation of global XState state machines, associated to a React context. It is possible to use a selector system, or to provide a custom state machine to the provider (this looks convenient to customize a machine from parent `props`)."
+      "sourceMdx": "Presentation of the new `createActorContext` API appearing in XState 3.1. It allows to facilitate the creation of global XState state machines, associated to a React context. It is possible to use a selector system, or to provide a custom state machine to the provider (this looks convenient to customize a machine from parent `props`).",
+      "nodeType": "paragraph",
+      "translated_content": "介绍XState 3.1中新增的`createActorContext` API。它有助于创建与React上下文关联的全局XState状态机。可以使用选择器系统，或通过provider提供自定义状态机（这看起来很适合根据父组件的`props`来自定义状态机）。"
     },
     {
       "id": "e874d9e7",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "645e08e3",
       "translatable": true,
       "content": "* 📜 [React recursively re-renders child components, but there is a nuance](https://alexsidorenko.com/blog/react-render-children-prop/): nice visual article that illustrates how component splitting and state colocation can avoid unnecessary re-rendering.\n* 📜 [Custom React Hooks and When to Use Them](https://thoughtbot.com/blog/custom-react-hooks): sometimes you have to create custom hooks, even if they are not intended to be reused. But be careful: unnecessary abstractions also have a cost.\n* 📜 [TypeScript Utility Types You Need To Know](https://www.builder.io/blog/utility-types): presents in particular `Awaited` and `ReturnType`, but also `Readonly` in a React context.\n* 📜 [React JS Best Practices From The New Docs](https://sebastiancarlos.com/react-js-best-practices-from-the-new-docs-1c65570e785d): Interesting reading for those who want to have an overview of the content of the new doc. I don't agree with all the comments, in particular don't miss the [underrated useSyncExternalStore](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api) 😄.\n* 📜 [WebStorm announces official support for Astro](https://astro.build/blog/astro-webstorm-support/)\n* 📜 [Demystifying UI Frameworks and Theming for React Apps](https://www.velotio.com/engineering-blog/demystifying-ui-frameworks-and-theming-for-react-apps)\n* 🎥 [Using Svelte Inside A React App](https://www.youtube.com/watch?v=FrusJNycQvk)\n* 👀 [Shopify.com using Remix](https://twitter.com/remix_run/status/1622666016135475200)\n* 👀 [`create-astro` CLI redesign](https://twitter.com/n_moore/status/1621524815550074880)\n* 📦 [Ionic 7 Beta](https://ionic.io/blog/announcing-the-ionic-7-beta)\n* 📦 [Netlify/Remix-Compute](https://github.com/netlify/remix-compute): Remix + Netlify adapter",
-      "sourceMdx": "- 📜 [React recursively re-renders child components, but there is a nuance](https://alexsidorenko.com/blog/react-render-children-prop/): nice visual article that illustrates how component splitting and state colocation can avoid unnecessary re-rendering.\n- 📜 [Custom React Hooks and When to Use Them](https://thoughtbot.com/blog/custom-react-hooks): sometimes you have to create custom hooks, even if they are not intended to be reused. But be careful: unnecessary abstractions also have a cost.\n- 📜 [TypeScript Utility Types You Need To Know](https://www.builder.io/blog/utility-types): presents in particular `Awaited` and `ReturnType`, but also `Readonly` in a React context.\n- 📜 [React JS Best Practices From The New Docs](https://sebastiancarlos.com/react-js-best-practices-from-the-new-docs-1c65570e785d): Interesting reading for those who want to have an overview of the content of the new doc. I don't agree with all the comments, in particular don't miss the [underrated useSyncExternalStore](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api) 😄.\n- 📜 [WebStorm announces official support for Astro](https://astro.build/blog/astro-webstorm-support/)\n- 📜 [Demystifying UI Frameworks and Theming for React Apps](https://www.velotio.com/engineering-blog/demystifying-ui-frameworks-and-theming-for-react-apps)\n- 🎥 [Using Svelte Inside A React App](https://www.youtube.com/watch?v=FrusJNycQvk)\n- 👀 [Shopify.com using Remix](https://twitter.com/remix_run/status/1622666016135475200)\n- 👀 [`create-astro` CLI redesign](https://twitter.com/n_moore/status/1621524815550074880)\n- 📦 [Ionic 7 Beta](https://ionic.io/blog/announcing-the-ionic-7-beta)\n- 📦 [Netlify/Remix-Compute](https://github.com/netlify/remix-compute): Remix + Netlify adapter"
+      "sourceMdx": "- 📜 [React recursively re-renders child components, but there is a nuance](https://alexsidorenko.com/blog/react-render-children-prop/): nice visual article that illustrates how component splitting and state colocation can avoid unnecessary re-rendering.\n- 📜 [Custom React Hooks and When to Use Them](https://thoughtbot.com/blog/custom-react-hooks): sometimes you have to create custom hooks, even if they are not intended to be reused. But be careful: unnecessary abstractions also have a cost.\n- 📜 [TypeScript Utility Types You Need To Know](https://www.builder.io/blog/utility-types): presents in particular `Awaited` and `ReturnType`, but also `Readonly` in a React context.\n- 📜 [React JS Best Practices From The New Docs](https://sebastiancarlos.com/react-js-best-practices-from-the-new-docs-1c65570e785d): Interesting reading for those who want to have an overview of the content of the new doc. I don't agree with all the comments, in particular don't miss the [underrated useSyncExternalStore](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api) 😄.\n- 📜 [WebStorm announces official support for Astro](https://astro.build/blog/astro-webstorm-support/)\n- 📜 [Demystifying UI Frameworks and Theming for React Apps](https://www.velotio.com/engineering-blog/demystifying-ui-frameworks-and-theming-for-react-apps)\n- 🎥 [Using Svelte Inside A React App](https://www.youtube.com/watch?v=FrusJNycQvk)\n- 👀 [Shopify.com using Remix](https://twitter.com/remix_run/status/1622666016135475200)\n- 👀 [`create-astro` CLI redesign](https://twitter.com/n_moore/status/1621524815550074880)\n- 📦 [Ionic 7 Beta](https://ionic.io/blog/announcing-the-ionic-7-beta)\n- 📦 [Netlify/Remix-Compute](https://github.com/netlify/remix-compute): Remix + Netlify adapter",
+      "nodeType": "list",
+      "translated_content": "- 📜 [React子组件递归重渲染的微妙之处](https://alexsidorenko.com/blog/react-render-children-prop/)：这篇可视化文章生动展示了如何通过组件拆分和状态共置避免不必要的重渲染。\n- 📜 [自定义React Hooks及其适用场景](https://thoughtbot.com/blog/custom-react-hooks)：即使无需复用，有时也需要创建自定义Hook。但需注意：不必要的抽象同样存在成本。\n- 📜 [必须掌握的TypeScript工具类型](https://www.builder.io/blog/utility-types)：重点介绍`Awaited`和`ReturnType`，以及在React上下文中使用的`Readonly`。\n- 📜 [新版React文档中的最佳实践](https://sebastiancarlos.com/react-js-best-practices-from-the-new-docs-1c65570e785d)：想了解新文档内容的读者值得一读。笔者并非完全认同所有观点，特别是别错过[被低估的useSyncExternalStore](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api) 😄。\n- 📜 [WebStorm宣布正式支持Astro](https://astro.build/blog/astro-webstorm-support/)\n- 📜 [揭秘React应用的UI框架与主题系统](https://www.velotio.com/engineering-blog/demystifying-ui-frameworks-and-theming-for-react-apps)\n- 🎥 [在React应用中嵌入Svelte](https://www.youtube.com/watch?v=FrusJNycQvk)\n- 👀 [Shopify.com已采用Remix](https://twitter.com/remix_run/status/1622666016135475200)\n- 👀 [`create-astro` CLI重新设计](https://twitter.com/n_moore/status/1621524815550074880)\n- 📦 [Ionic 7 Beta发布](https://ionic.io/blog/announcing-the-ionic-7-beta)\n- 📦 [Netlify/Remix-Compute](https://github.com/netlify/remix-compute)：Remix的Netlify适配器"
     },
     {
       "id": "4edbd92a",
       "translatable": false,
       "content": "<SubscribeFormEmbed />",
-      "sourceMdx": "<SubscribeFormEmbed />"
+      "sourceMdx": "<SubscribeFormEmbed />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_4edbd92a"
     },
     {
       "id": "678c3938",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "a4bf4268",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "ec619944",
       "translatable": true,
       "content": "**[![Build and Run Synthetic Monitoring That Scales](/emails/issues/134/checkly.jpg)](https://www.checklyhq.com/?utm_medium=email\\&utm_source=newsletter\\&utm_campaign=this-week-in-react-february)**",
-      "sourceMdx": "**[![Build and Run Synthetic Monitoring That Scales](/emails/issues/134/checkly.jpg)](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)**"
+      "sourceMdx": "**[![Build and Run Synthetic Monitoring That Scales](/emails/issues/134/checkly.jpg)](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[![构建可扩展的合成监控系统](/emails/issues/134/checkly.jpg)](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)**"
     },
     {
       "id": "2547a6bb",
       "translatable": true,
       "content": "**[Build and Run Synthetic Monitoring That Scales](https://www.checklyhq.com/?utm_medium=email\\&utm_source=newsletter\\&utm_campaign=this-week-in-react-february)**",
-      "sourceMdx": "**[Build and Run Synthetic Monitoring That Scales](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)**"
+      "sourceMdx": "**[Build and Run Synthetic Monitoring That Scales](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[构建可扩展的合成监控系统](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)**"
     },
     {
       "id": "0750bfa1",
       "translatable": true,
       "content": "**[Checkly](https://www.checklyhq.com/?utm_medium=email\\&utm_source=newsletter\\&utm_campaign=this-week-in-react-february)** lets you easily deploy Playwright scripts to monitor apps, websites and APIs, from Dev to Production. Validate crucial user flows, collect error traces, capture screenshots and record performance metrics to understand how your app performs for users across the globe!",
-      "sourceMdx": "**[Checkly](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)** lets you easily deploy Playwright scripts to monitor apps, websites and APIs, from Dev to Production. Validate crucial user flows, collect error traces, capture screenshots and record performance metrics to understand how your app performs for users across the globe!"
+      "sourceMdx": "**[Checkly](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)** lets you easily deploy Playwright scripts to monitor apps, websites and APIs, from Dev to Production. Validate crucial user flows, collect error traces, capture screenshots and record performance metrics to understand how your app performs for users across the globe!",
+      "nodeType": "paragraph",
+      "translated_content": "**[Checkly](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)** 让您轻松部署Playwright脚本，从开发到生产环境监控应用、网站和API。验证关键用户流程、收集错误追踪、截取屏幕截图并记录性能指标，全面掌握全球用户的真实体验！"
     },
     {
       "id": "86348f98",
       "translatable": true,
       "content": "Use [Checkly](https://www.checklyhq.com/?utm_medium=email\\&utm_source=newsletter\\&utm_campaign=this-week-in-react-february) to:",
-      "sourceMdx": "Use [Checkly](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february) to:"
+      "sourceMdx": "Use [Checkly](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february) to:",
+      "nodeType": "paragraph",
+      "translated_content": "使用[Checkly](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)可实现："
     },
     {
       "id": "023197ab",
       "translatable": true,
       "content": "* ✅ Run programmable API and Browser checks to validate app performance\n* ✅ Get alerts when checks are failing, and easily integrate Checkly with your existing tech stack\n* ✅ Leverage Playwright and Javascript to maximize your monitoring and testing efforts",
-      "sourceMdx": "- ✅ Run programmable API and Browser checks to validate app performance\n- ✅ Get alerts when checks are failing, and easily integrate Checkly with your existing tech stack\n- ✅ Leverage Playwright and Javascript to maximize your monitoring and testing efforts"
+      "sourceMdx": "- ✅ Run programmable API and Browser checks to validate app performance\n- ✅ Get alerts when checks are failing, and easily integrate Checkly with your existing tech stack\n- ✅ Leverage Playwright and Javascript to maximize your monitoring and testing efforts",
+      "nodeType": "list",
+      "translated_content": "- ✅ 运行可编程的API和浏览器检查来验证应用性能\n- ✅ 检查失败时获取警报，并能轻松与现有技术栈集成\n- ✅ 利用Playwright和JavaScript最大化监控和测试效能"
     },
     {
       "id": "eb51d107",
       "translatable": true,
       "content": "[Start monitoring your apps for free](https://www.checklyhq.com/?utm_medium=email\\&utm_source=newsletter\\&utm_campaign=this-week-in-react-february)",
-      "sourceMdx": "[Start monitoring your apps for free](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)"
+      "sourceMdx": "[Start monitoring your apps for free](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)",
+      "nodeType": "paragraph",
+      "translated_content": "[立即免费监控您的应用](https://www.checklyhq.com/?utm_medium=email&utm_source=newsletter&utm_campaign=this-week-in-react-february)"
     },
     {
       "id": "7fc4bca5",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "a138e327",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "a2c0166e",
       "translatable": true,
       "content": "[![React DOM for Native (reduce API fragmentation)](/emails/issues/134/rn-web.jpg)](https://github.com/necolas/discussions-and-proposals/blob/reduce-fragmentation/proposals/0000-reduce-fragmentation.md)",
-      "sourceMdx": "[![React DOM for Native (reduce API fragmentation)](/emails/issues/134/rn-web.jpg)](https://github.com/necolas/discussions-and-proposals/blob/reduce-fragmentation/proposals/0000-reduce-fragmentation.md)"
+      "sourceMdx": "[![React DOM for Native (reduce API fragmentation)](/emails/issues/134/rn-web.jpg)](https://github.com/necolas/discussions-and-proposals/blob/reduce-fragmentation/proposals/0000-reduce-fragmentation.md)",
+      "nodeType": "paragraph",
+      "translated_content": "[![面向原生的React DOM（减少API碎片化）](/emails/issues/134/rn-web.jpg)](https://github.com/necolas/discussions-and-proposals/blob/reduce-fragmentation/proposals/0000-reduce-fragmentation.md)"
     },
     {
       "id": "c1eaf30b",
       "translatable": true,
       "content": "**[React DOM for Native (reduce API fragmentation)](https://github.com/necolas/discussions-and-proposals/blob/reduce-fragmentation/proposals/0000-reduce-fragmentation.md)**",
-      "sourceMdx": "**[React DOM for Native (reduce API fragmentation)](https://github.com/necolas/discussions-and-proposals/blob/reduce-fragmentation/proposals/0000-reduce-fragmentation.md)**"
+      "sourceMdx": "**[React DOM for Native (reduce API fragmentation)](https://github.com/necolas/discussions-and-proposals/blob/reduce-fragmentation/proposals/0000-reduce-fragmentation.md)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[面向原生的React DOM（减少API碎片化）](https://github.com/necolas/discussions-and-proposals/blob/reduce-fragmentation/proposals/0000-reduce-fragmentation.md)**"
     },
     {
       "id": "f0984c2a",
       "translatable": true,
       "content": "The [RFC](https://github.com/react-native-community/discussions-and-proposals/pull/496) by Nicolas Gallagher (Meta / React-Native-Web) has just been updated. The goal is to align React-Native APIs as much as possible with Web APIs, including DOM elements like `div`, `span` and even `select`! The \"learn once, run everywhere\" could gradually turn into \"write once, run everywhere\". The community is quite divided. We'll have to sleep on it a bit know if it's a good idea 😄, and considering the size of this ambitious project, it's clearly not for tomorrow!",
-      "sourceMdx": "The [RFC](https://github.com/react-native-community/discussions-and-proposals/pull/496) by Nicolas Gallagher (Meta / React-Native-Web) has just been updated. The goal is to align React-Native APIs as much as possible with Web APIs, including DOM elements like `div`, `span` and even `select`! The \"learn once, run everywhere\" could gradually turn into \"write once, run everywhere\". The community is quite divided. We'll have to sleep on it a bit know if it's a good idea 😄, and considering the size of this ambitious project, it's clearly not for tomorrow!"
+      "sourceMdx": "The [RFC](https://github.com/react-native-community/discussions-and-proposals/pull/496) by Nicolas Gallagher (Meta / React-Native-Web) has just been updated. The goal is to align React-Native APIs as much as possible with Web APIs, including DOM elements like `div`, `span` and even `select`! The \"learn once, run everywhere\" could gradually turn into \"write once, run everywhere\". The community is quite divided. We'll have to sleep on it a bit know if it's a good idea 😄, and considering the size of this ambitious project, it's clearly not for tomorrow!",
+      "nodeType": "paragraph",
+      "translated_content": "[Nicolas Gallagher（Meta/React-Native-Web）提出的RFC](https://github.com/react-native-community/discussions-and-proposals/pull/496)刚刚更新。其目标是尽可能将React-Native API与Web API对齐，包括`div`、`span`甚至`select`等DOM元素！\"一次学习，随处运行\"可能逐渐演变为\"一次编写，随处运行\"。社区对此意见分歧较大。我们需要时间沉淀思考这是否是个好主意😄，考虑到这个雄心勃勃项目的规模，显然短期内难以实现！"
     },
     {
       "id": "bc8bc928",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "5cb70a3d",
       "translatable": true,
       "content": "* 📜 [How to swap between React Native Storybook and your app](https://dev.to/dannyhw/how-to-swap-between-react-native-storybook-and-your-app-p3o): useful technique for those who have a React-Native Storybook. Personally I like to have a menu bar in dev with buttons to open/close the Storybook, change the API environment or other... It saves a lot of time in the long run to create your own DX.\n* 📦 [Flashlight.dev](https://flashlight.dev/): Flashlight is a new service that wants to become the Lighthouse of mobile, including a convenient Flashlight Cloud offering. Project formerly named [Android-Performance-Profiler](https://twitter.com/almouro/status/1622588283740880897).\n* 📖 [Ignite Cookbook for React Native](https://ignitecookbook.com/): short step-by-step recipes for React-Native.\n* 🎨 [SolidJS + NativeScript demo running React-Native-WebView](https://twitter.com/ammarahm_ed/status/1622259723729764354): the promise of Open Native in action, is interesting for the portability of native code.\n* 👀 [The White House calls for more interoperability between mobile platforms](https://twitter.com/JI/status/1620948253381632000)\n* 🎙️ [React-Native-Radio 258 - AI Robots coding React Native?!](https://reactnativeradio.com/episodes/r258-robots-coding-react-native)",
-      "sourceMdx": "- 📜 [How to swap between React Native Storybook and your app](https://dev.to/dannyhw/how-to-swap-between-react-native-storybook-and-your-app-p3o): useful technique for those who have a React-Native Storybook. Personally I like to have a menu bar in dev with buttons to open/close the Storybook, change the API environment or other... It saves a lot of time in the long run to create your own DX.\n- 📦 [Flashlight.dev](https://flashlight.dev/): Flashlight is a new service that wants to become the Lighthouse of mobile, including a convenient Flashlight Cloud offering. Project formerly named [Android-Performance-Profiler](https://twitter.com/almouro/status/1622588283740880897).\n- 📖 [Ignite Cookbook for React Native](https://ignitecookbook.com/): short step-by-step recipes for React-Native.\n- 🎨 [SolidJS + NativeScript demo running React-Native-WebView](https://twitter.com/ammarahm_ed/status/1622259723729764354): the promise of Open Native in action, is interesting for the portability of native code.\n- 👀 [The White House calls for more interoperability between mobile platforms](https://twitter.com/JI/status/1620948253381632000)\n- 🎙️ [React-Native-Radio 258 - AI Robots coding React Native?!](https://reactnativeradio.com/episodes/r258-robots-coding-react-native)"
+      "sourceMdx": "- 📜 [How to swap between React Native Storybook and your app](https://dev.to/dannyhw/how-to-swap-between-react-native-storybook-and-your-app-p3o): useful technique for those who have a React-Native Storybook. Personally I like to have a menu bar in dev with buttons to open/close the Storybook, change the API environment or other... It saves a lot of time in the long run to create your own DX.\n- 📦 [Flashlight.dev](https://flashlight.dev/): Flashlight is a new service that wants to become the Lighthouse of mobile, including a convenient Flashlight Cloud offering. Project formerly named [Android-Performance-Profiler](https://twitter.com/almouro/status/1622588283740880897).\n- 📖 [Ignite Cookbook for React Native](https://ignitecookbook.com/): short step-by-step recipes for React-Native.\n- 🎨 [SolidJS + NativeScript demo running React-Native-WebView](https://twitter.com/ammarahm_ed/status/1622259723729764354): the promise of Open Native in action, is interesting for the portability of native code.\n- 👀 [The White House calls for more interoperability between mobile platforms](https://twitter.com/JI/status/1620948253381632000)\n- 🎙️ [React-Native-Radio 258 - AI Robots coding React Native?!](https://reactnativeradio.com/episodes/r258-robots-coding-react-native)",
+      "nodeType": "list",
+      "translated_content": "- 📜 [如何在React Native Storybook和应用之间切换](https://dev.to/dannyhw/how-to-swap-between-react-native-storybook-and-your-app-p3o)：对于使用React-Native Storybook的开发者很有用的技巧。我个人喜欢在开发环境中设置一个菜单栏，包含打开/关闭Storybook、切换API环境等按钮...长期来看，打造专属开发者体验能节省大量时间。\n- 📦 [Flashlight.dev](https://flashlight.dev/)：这个新服务旨在成为移动端的Lighthouse，提供便捷的Flashlight云服务。该项目原名[Android性能分析器](https://twitter.com/almouro/status/1622588283740880897)。\n- 📖 [React Native的Ignite Cookbook](https://ignitecookbook.com/)：简明的React-Native分步教程。\n- 🎨 [SolidJS+NativeScript演示运行React-Native-WebView](https://twitter.com/ammarahm_ed/status/1622259723729764354)：Open Native理念的实践，对原生代码的可移植性很有启发。\n- 👀 [白宫呼吁加强移动平台间的互操作性](https://twitter.com/JI/status/1620948253381632000)\n- 🎙️ [React-Native广播第258期-AI机器人编写React Native代码?!](https://reactnativeradio.com/episodes/r258-robots-coding-react-native)"
     },
     {
       "id": "6ad15270",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "c7fa1e8d",
       "translatable": true,
       "content": "## 🧑‍💻 Jobs",
-      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}",
+      "nodeType": "heading",
+      "translated_content": "## 🧑‍💻 职位招聘 {#jobs}"
     },
     {
       "id": "a6c928a1",
       "translatable": true,
       "content": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)",
-      "sourceMdx": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)"
+      "sourceMdx": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**Passionfroot - 高级全栈工程师(Remix) - 16万欧元+, 柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)"
     },
     {
       "id": "b6152880",
       "translatable": true,
       "content": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses.",
-      "sourceMdx": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses."
+      "sourceMdx": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses.",
+      "nodeType": "paragraph",
+      "translated_content": "Passionfroot的使命是通过YouTube、播客、社交媒体和新闻通讯赋能未来的独立创业者。加入我们，共同打造能帮助全球创作者建立可扩展、可持续业务的工具。"
     },
     {
       "id": "b9331170",
       "translatable": true,
       "content": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
-      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)"
+      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**Callstack - 高级React Native开发工程师 - 完全远程, B2B合同月薪2.1-3.2万波兰兹罗提净收入**](https://www.callstack.com/senior-react-native-developer)"
     },
     {
       "id": "8fcdd6d4",
       "translatable": true,
       "content": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
-      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!"
+      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
+      "nodeType": "paragraph",
+      "translated_content": "想要开发全球使用最广泛的应用吗？渴望参与React Native技术的共同创造吗？加入Callstack这个由React和React Native技术领袖组成的团队。访问官网了解更多详情，我们期待看到你的申请——请尽情展示你的实力！"
     },
     {
       "id": "53aa2b95",
       "translatable": true,
       "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
-      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
     },
     {
       "id": "9c9e2b64",
       "translatable": true,
       "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
-      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "nodeType": "paragraph",
+      "translated_content": "我们开放多个React Native开发职位！年薪约16万美元外加10%奖金。要求具备RN实际项目经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解更多，记得提及This Week in React。"
     },
     {
       "id": "5c7d994c",
       "translatable": true,
       "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
-      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "nodeType": "paragraph",
+      "translated_content": "💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)"
     },
     {
       "id": "efbc76b7",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "c6868a9f",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他 {#other}"
     },
     {
       "id": "8c9c56b6",
       "translatable": true,
       "content": "* [Updates from the 94th TC39 meeting](https://dev.to/hemanth/updates-from-the-94th-tc39-meeting-48mb): finalized list of proposals that are going to the next stage. Especially excited about [AsyncContext](https://twitter.com/sebastienlorber/status/1620391460679065601), Change array by Copy and Symbols as WeakMap keys (much needed for [Records & Tuples](https://sebastienlorber.com/records-and-tuples-for-react)).\n* [Deno - The Future (and the Past) of the Web is Server Side Rendering](https://deno.com/blog/the-future-and-past-is-server-side-rendering)\n* [WebKit - Pushing Interop Forward in 2023](https://webkit.org/blog/13706/interop-2023/) + [Chrome - Interop 2023: continuing to improve the web for developers](https://web.dev/interop-2023/)\n* [Understanding monomorphism can improve your JavaScript performance 60x](https://twitter.com/mhevery/status/1622499229813047296)\n* [Speeding up the JavaScript ecosystem - eslint](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-3/)\n* [Google is working on bringing Chromium to iOS](https://twitter.com/OpenWebAdvocacy/status/1621653519274246144) + [Mozilla is working on bringing Firefox to iOS](https://twitter.com/OpenWebAdvocacy/status/1622898924775415808)\n* [The Guide To Responsive Design In 2023 and Beyond](https://ishadeed.com/article/responsive-design/)\n* [A Business Case for SvelteKit](https://elliscs.hashnode.dev/a-business-case-for-sveltekit)\n* [Node.js 19.6](https://twitter.com/ruyadorno/status/1621186886470361093)\n* [Ada 1.0 - New Node.js URL parser](https://twitter.com/nodejs/status/1622707746716917761)\n* [Vite 4.1](https://twitter.com/vite_js/status/1621149774627094535)\n* [Don't use return types, unless...](https://www.youtube.com/watch?v=nwSe95uFN8E)\n* [The Dangers Of Return Types in TypeScript](https://www.youtube.com/watch?v=I6V2FkW1ozQ)\n* [Learn Images - In-depth course on images for the web](https://web.dev/learn/images/)\n* [Forking Chrome to render in a terminal](https://fathy.fr/carbonyl)",
-      "sourceMdx": "- [Updates from the 94th TC39 meeting](https://dev.to/hemanth/updates-from-the-94th-tc39-meeting-48mb): finalized list of proposals that are going to the next stage. Especially excited about [AsyncContext](https://twitter.com/sebastienlorber/status/1620391460679065601), Change array by Copy and Symbols as WeakMap keys (much needed for [Records & Tuples](https://sebastienlorber.com/records-and-tuples-for-react)).\n- [Deno - The Future (and the Past) of the Web is Server Side Rendering](https://deno.com/blog/the-future-and-past-is-server-side-rendering)\n- [WebKit - Pushing Interop Forward in 2023](https://webkit.org/blog/13706/interop-2023/) + [Chrome - Interop 2023: continuing to improve the web for developers](https://web.dev/interop-2023/)\n- [Understanding monomorphism can improve your JavaScript performance 60x](https://twitter.com/mhevery/status/1622499229813047296)\n- [Speeding up the JavaScript ecosystem - eslint](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-3/)\n- [Google is working on bringing Chromium to iOS](https://twitter.com/OpenWebAdvocacy/status/1621653519274246144) + [Mozilla is working on bringing Firefox to iOS](https://twitter.com/OpenWebAdvocacy/status/1622898924775415808)\n- [The Guide To Responsive Design In 2023 and Beyond](https://ishadeed.com/article/responsive-design/)\n- [A Business Case for SvelteKit](https://elliscs.hashnode.dev/a-business-case-for-sveltekit)\n- [Node.js 19.6](https://twitter.com/ruyadorno/status/1621186886470361093)\n- [Ada 1.0 - New Node.js URL parser](https://twitter.com/nodejs/status/1622707746716917761)\n- [Vite 4.1](https://twitter.com/vite_js/status/1621149774627094535)\n- [Don't use return types, unless...](https://www.youtube.com/watch?v=nwSe95uFN8E)\n- [The Dangers Of Return Types in TypeScript](https://www.youtube.com/watch?v=I6V2FkW1ozQ)\n- [Learn Images - In-depth course on images for the web](https://web.dev/learn/images/)\n- [Forking Chrome to render in a terminal](https://fathy.fr/carbonyl)"
+      "sourceMdx": "- [Updates from the 94th TC39 meeting](https://dev.to/hemanth/updates-from-the-94th-tc39-meeting-48mb): finalized list of proposals that are going to the next stage. Especially excited about [AsyncContext](https://twitter.com/sebastienlorber/status/1620391460679065601), Change array by Copy and Symbols as WeakMap keys (much needed for [Records & Tuples](https://sebastienlorber.com/records-and-tuples-for-react)).\n- [Deno - The Future (and the Past) of the Web is Server Side Rendering](https://deno.com/blog/the-future-and-past-is-server-side-rendering)\n- [WebKit - Pushing Interop Forward in 2023](https://webkit.org/blog/13706/interop-2023/) + [Chrome - Interop 2023: continuing to improve the web for developers](https://web.dev/interop-2023/)\n- [Understanding monomorphism can improve your JavaScript performance 60x](https://twitter.com/mhevery/status/1622499229813047296)\n- [Speeding up the JavaScript ecosystem - eslint](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-3/)\n- [Google is working on bringing Chromium to iOS](https://twitter.com/OpenWebAdvocacy/status/1621653519274246144) + [Mozilla is working on bringing Firefox to iOS](https://twitter.com/OpenWebAdvocacy/status/1622898924775415808)\n- [The Guide To Responsive Design In 2023 and Beyond](https://ishadeed.com/article/responsive-design/)\n- [A Business Case for SvelteKit](https://elliscs.hashnode.dev/a-business-case-for-sveltekit)\n- [Node.js 19.6](https://twitter.com/ruyadorno/status/1621186886470361093)\n- [Ada 1.0 - New Node.js URL parser](https://twitter.com/nodejs/status/1622707746716917761)\n- [Vite 4.1](https://twitter.com/vite_js/status/1621149774627094535)\n- [Don't use return types, unless...](https://www.youtube.com/watch?v=nwSe95uFN8E)\n- [The Dangers Of Return Types in TypeScript](https://www.youtube.com/watch?v=I6V2FkW1ozQ)\n- [Learn Images - In-depth course on images for the web](https://web.dev/learn/images/)\n- [Forking Chrome to render in a terminal](https://fathy.fr/carbonyl)",
+      "nodeType": "list",
+      "translated_content": "- [第94届TC39会议更新](https://dev.to/hemanth/updates-from-the-94th-tc39-meeting-48mb): 已确定进入下一阶段的提案清单。特别令人期待的是[AsyncContext](https://twitter.com/sebastienlorber/status/1620391460679065601)、Change array by Copy以及Symbols as WeakMap keys（这对[Records & Tuples](https://sebastienlorber.com/records-and-tuples-for-react)至关重要）。\n- [Deno - 服务器端渲染是Web的未来（也是过去）](https://deno.com/blog/the-future-and-past-is-server-side-rendering)\n- [WebKit - 2023年推动互操作性向前发展](https://webkit.org/blog/13706/interop-2023/) + [Chrome - Interop 2023: 持续改进开发者体验](https://web.dev/interop-2023/)\n- [理解单态性可将JavaScript性能提升60倍](https://twitter.com/mhevery/status/1622499229813047296)\n- [加速JavaScript生态系统 - eslint篇](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-3/)\n- [Google正致力于将Chromium引入iOS](https://twitter.com/OpenWebAdvocacy/status/1621653519274246144) + [Mozilla正致力于将Firefox引入iOS](https://twitter.com/OpenWebAdvocacy/status/1622898924775415808)\n- [2023年及未来的响应式设计指南](https://ishadeed.com/article/responsive-design/)\n- [SvelteKit的商业案例](https://elliscs.hashnode.dev/a-business-case-for-sveltekit)\n- [Node.js 19.6发布](https://twitter.com/ruyadorno/status/1621186886470361093)\n- [Ada 1.0 - 新版Node.js URL解析器](https://twitter.com/nodejs/status/1622707746716917761)\n- [Vite 4.1发布](https://twitter.com/vite_js/status/1621149774627094535)\n- [不要使用返回类型，除非...](https://www.youtube.com/watch?v=nwSe95uFN8E)\n- [TypeScript中返回类型的隐患](https://www.youtube.com/watch?v=I6V2FkW1ozQ)\n- [深入学习Web图像课程](https://web.dev/learn/images/)\n- [分叉Chrome以在终端中渲染](https://fathy.fr/carbonyl)"
     },
     {
       "id": "c66a3543",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "c6b2ca77",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 趣闻 {#fun}"
     },
     {
       "id": "dce16ab4",
       "translatable": true,
       "content": "Savage 😅 why is he so mean!",
-      "sourceMdx": "Savage 😅 why is he so mean!"
+      "sourceMdx": "Savage 😅 why is he so mean!",
+      "nodeType": "paragraph",
+      "translated_content": "太狠了😅 为什么他这么刻薄！"
     },
     {
       "id": "6f08f877",
       "translatable": true,
       "content": "[![alt](/emails/issues/134/meme.png)](https://twitter.com/ThePrimeagen/status/1620827474681827333)",
-      "sourceMdx": "[![alt](/emails/issues/134/meme.png)](https://twitter.com/ThePrimeagen/status/1620827474681827333)"
+      "sourceMdx": "[![alt](/emails/issues/134/meme.png)](https://twitter.com/ThePrimeagen/status/1620827474681827333)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/134/meme.png)](https://twitter.com/ThePrimeagen/status/1620827474681827333)"
     },
     {
       "id": "2dbfc5f7",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下次见！👋"
     }
   ]
 }

@@ -1,299 +1,397 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/204/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/204/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /204\ntitle: \"This Week In React #204: React at Meta, React Compiler, React Router, Next.js, StyleX, Mitosis, One, Hermes, BottomTabs, Zeego, Storybook, Nitro, TC39, Vite, Deno, Bun, Brisa, Lucia...\"\nauthors: [slorber]\ndate: 10-09-2024\n---",
-      "sourceMdx": "---\nslug: /204\ntitle: \"This Week In React #204: React at Meta, React Compiler, React Router, Next.js, StyleX, Mitosis, One, Hermes, BottomTabs, Zeego, Storybook, Nitro, TC39, Vite, Deno, Bun, Brisa, Lucia...\"\nauthors: [slorber]\ndate: 10-09-2024\n---"
+      "sourceMdx": "---\nslug: /204\ntitle: \"This Week In React #204: React at Meta, React Compiler, React Router, Next.js, StyleX, Mitosis, One, Hermes, BottomTabs, Zeego, Storybook, Nitro, TC39, Vite, Deno, Bun, Brisa, Lucia...\"\nauthors: [slorber]\ndate: 10-09-2024\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "It's been another exciting week with great React cross-platform announcements at the Meta Connect event giving positive feedback on the usage of React Compiler, StyleX, React Strict DOM, and Hermes. I'm also excited for the React Compiler to add official support for React 18 and React 17 (experimental).",
-      "sourceMdx": "It's been another exciting week with great React cross-platform announcements at the Meta Connect event giving positive feedback on the usage of React Compiler, StyleX, React Strict DOM, and Hermes. I'm also excited for the React Compiler to add official support for React 18 and React 17 (experimental)."
+      "sourceMdx": "It's been another exciting week with great React cross-platform announcements at the Meta Connect event giving positive feedback on the usage of React Compiler, StyleX, React Strict DOM, and Hermes. I'm also excited for the React Compiler to add official support for React 18 and React 17 (experimental).",
+      "nodeType": "paragraph",
+      "translated_content": "这是激动人心的一周，Meta Connect活动发布了多项React跨平台重磅消息——React Compiler、StyleX、React Strict DOM和Hermes的实际应用获得积极反馈。更令人振奋的是，React Compiler现已（实验性）官方支持React 18和17版本。"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "On the React Native side, we also had great releases and announcements, notably a new cross-platform framework from the Tamagui team, Zeego 2, native bottom tabs, and RN Storybook 8.",
-      "sourceMdx": "On the React Native side, we also had great releases and announcements, notably a new cross-platform framework from the Tamagui team, Zeego 2, native bottom tabs, and RN Storybook 8."
+      "sourceMdx": "On the React Native side, we also had great releases and announcements, notably a new cross-platform framework from the Tamagui team, Zeego 2, native bottom tabs, and RN Storybook 8.",
+      "nodeType": "paragraph",
+      "translated_content": "React Native领域同样捷报频传：Tamagui团队推出全新跨平台框架Zeego 2、原生底部标签栏实现、以及RN Storybook 8等重要发布。"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "In the frontend world, Deno 2.0 just came out, and we also have a very exciting TC39 meeting happening right now.",
-      "sourceMdx": "In the frontend world, Deno 2.0 just came out, and we also have a very exciting TC39 meeting happening right now."
+      "sourceMdx": "In the frontend world, Deno 2.0 just came out, and we also have a very exciting TC39 meeting happening right now.",
+      "nodeType": "paragraph",
+      "translated_content": "前端生态方面，Deno 2.0正式发布，TC39会议也正在如火如荼进行中。"
     },
     {
       "id": "86b54d44",
       "translatable": true,
       "content": "Happy reading!",
-      "sourceMdx": "Happy reading!"
+      "sourceMdx": "Happy reading!",
+      "nodeType": "paragraph",
+      "translated_content": "祝您阅读愉快！"
     },
     {
       "id": "45c63027",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_45c63027"
     },
     {
       "id": "1acb9a05",
       "translatable": true,
       "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
-      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "nodeType": "paragraph",
+      "translated_content": "**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化版式 🎨**"
     },
     {
       "id": "fb3d50cd",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "0adfe0aa",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_0adfe0aa"
     },
     {
       "id": "1941846d",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_1941846d"
     },
     {
       "id": "a5403c6e",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "d06306f7",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "73ab96a3",
       "translatable": true,
       "content": "[![Securing Node.js Express APIs with Clerk and React](/emails/issues/204/clerk.jpg)](https://go.clerk.com/WER1UiL)",
-      "sourceMdx": "[![Securing Node.js Express APIs with Clerk and React](/emails/issues/204/clerk.jpg)](https://go.clerk.com/WER1UiL)"
+      "sourceMdx": "[![Securing Node.js Express APIs with Clerk and React](/emails/issues/204/clerk.jpg)](https://go.clerk.com/WER1UiL)",
+      "nodeType": "paragraph",
+      "translated_content": "[![使用Clerk和React保护Node.js Express API](/emails/issues/204/clerk.jpg)](https://go.clerk.com/WER1UiL)"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "**[Securing Node.js Express APIs with Clerk and React](https://go.clerk.com/WER1UiL)**",
-      "sourceMdx": "**[Securing Node.js Express APIs with Clerk and React](https://go.clerk.com/WER1UiL)**"
+      "sourceMdx": "**[Securing Node.js Express APIs with Clerk and React](https://go.clerk.com/WER1UiL)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[使用Clerk和React保护Node.js Express API](https://go.clerk.com/WER1UiL)**"
     },
     {
       "id": "517051a7",
       "translatable": true,
       "content": "Learn how to use Clerk with Express to authenticate API requests.",
-      "sourceMdx": "Learn how to use Clerk with Express to authenticate API requests."
+      "sourceMdx": "Learn how to use Clerk with Express to authenticate API requests.",
+      "nodeType": "paragraph",
+      "translated_content": "学习如何通过Clerk与Express实现API请求认证。"
     },
     {
       "id": "135468ee",
       "translatable": true,
       "content": "Utilize the `ClerkExpressWithAuth()` and `ClerkExpressRequireAuth()` middleware to secure any endpoint and integrate authentication without the complexity of building it from scratch.",
-      "sourceMdx": "Utilize the `ClerkExpressWithAuth()` and `ClerkExpressRequireAuth()` middleware to secure any endpoint and integrate authentication without the complexity of building it from scratch."
+      "sourceMdx": "Utilize the `ClerkExpressWithAuth()` and `ClerkExpressRequireAuth()` middleware to secure any endpoint and integrate authentication without the complexity of building it from scratch.",
+      "nodeType": "paragraph",
+      "translated_content": "利用`ClerkExpressWithAuth()`和`ClerkExpressRequireAuth()`中间件保护任意端点，无需从零构建认证系统。"
     },
     {
       "id": "5ef5fda3",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "8d04259b",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React {#react}"
     },
     {
       "id": "95e9ba12",
       "translatable": true,
       "content": "[![React at Meta Connect 2024](/emails/issues/204/meta.jpg)](https://engineering.fb.com/2024/10/02/android/react-at-meta-connect-2024/)",
-      "sourceMdx": "[![React at Meta Connect 2024](/emails/issues/204/meta.jpg)](https://engineering.fb.com/2024/10/02/android/react-at-meta-connect-2024/)"
+      "sourceMdx": "[![React at Meta Connect 2024](/emails/issues/204/meta.jpg)](https://engineering.fb.com/2024/10/02/android/react-at-meta-connect-2024/)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Meta Connect 2024上的React技术](/emails/issues/204/meta.jpg)](https://engineering.fb.com/2024/10/02/android/react-at-meta-connect-2024/)"
     },
     {
       "id": "8af76f3d",
       "translatable": true,
       "content": "[**React at Meta Connect 2024**](https://engineering.fb.com/2024/10/02/android/react-at-meta-connect-2024/)",
-      "sourceMdx": "[**React at Meta Connect 2024**](https://engineering.fb.com/2024/10/02/android/react-at-meta-connect-2024/)"
+      "sourceMdx": "[**React at Meta Connect 2024**](https://engineering.fb.com/2024/10/02/android/react-at-meta-connect-2024/)",
+      "nodeType": "paragraph",
+      "translated_content": "[**Meta Connect 2024上的React技术**](https://engineering.fb.com/2024/10/02/android/react-at-meta-connect-2024/)"
     },
     {
       "id": "a9d49f92",
       "translatable": true,
       "content": "At a recent event, Meta announced:",
-      "sourceMdx": "At a recent event, Meta announced:"
+      "sourceMdx": "At a recent event, Meta announced:",
+      "nodeType": "paragraph",
+      "translated_content": "Meta在近期活动中宣布："
     },
     {
       "id": "40251870",
       "translatable": true,
       "content": "* New Instagram and Facebook mixed-reality apps for the Meta Quest headset. These apps use React Native and run on Static Hermes. The team was able to reuse existing Facebook web code and infrastructure thanks to technologies such as StyleX and React Strict DOM.\n* A new Meta Horizon RN app that performs on par with their main native Facebook app. They mention the render-as-you-fetch pattern as the most impactful performance improvement they implemented.\n* Meta Horizon Store for web/mobile/HorizonOS built using the bleeding-edge React Compiler, StyleX, React Strict DOM\n* Meta Spatial Editor built on top of React Native Windows/macOS enables them to integrate natively their custom 3D rendering engine. The C++/Qt team was initially skeptical but ended up loving Fast Refresh.",
-      "sourceMdx": "- New Instagram and Facebook mixed-reality apps for the Meta Quest headset. These apps use React Native and run on Static Hermes. The team was able to reuse existing Facebook web code and infrastructure thanks to technologies such as StyleX and React Strict DOM.\n- A new Meta Horizon RN app that performs on par with their main native Facebook app. They mention the render-as-you-fetch pattern as the most impactful performance improvement they implemented.\n- Meta Horizon Store for web/mobile/HorizonOS built using the bleeding-edge React Compiler, StyleX, React Strict DOM\n- Meta Spatial Editor built on top of React Native Windows/macOS enables them to integrate natively their custom 3D rendering engine. The C++/Qt team was initially skeptical but ended up loving Fast Refresh."
+      "sourceMdx": "- New Instagram and Facebook mixed-reality apps for the Meta Quest headset. These apps use React Native and run on Static Hermes. The team was able to reuse existing Facebook web code and infrastructure thanks to technologies such as StyleX and React Strict DOM.\n- A new Meta Horizon RN app that performs on par with their main native Facebook app. They mention the render-as-you-fetch pattern as the most impactful performance improvement they implemented.\n- Meta Horizon Store for web/mobile/HorizonOS built using the bleeding-edge React Compiler, StyleX, React Strict DOM\n- Meta Spatial Editor built on top of React Native Windows/macOS enables them to integrate natively their custom 3D rendering engine. The C++/Qt team was initially skeptical but ended up loving Fast Refresh.",
+      "nodeType": "list",
+      "translated_content": "- 为Meta Quest头显开发的新款Instagram和Facebook混合现实应用，采用React Native与Static Hermes运行。通过StyleX和React Strict DOM等技术，团队成功复用了现有Facebook网页代码与基础设施\n- 新推出的Meta Horizon RN应用性能媲美原生Facebook主应用，其中\"边渲染边获取\"模式被列为最具影响力的性能优化方案\n- 基于最前沿React Compiler、StyleX和React Strict DOM构建的Meta Horizon商店（支持网页/移动端/HorizonOS）\n- 基于React Native Windows/macOS开发的Meta空间编辑器，可原生集成其定制3D渲染引擎。最初持怀疑态度的C++/Qt团队最终爱上了Fast Refresh功能"
     },
     {
       "id": "d3649a1e",
       "translatable": true,
       "content": "Many great innovative projects are being dogfooded at Meta on real production apps, improving the framework and ecosystem for all of us along the way, for all platforms. With all this, we can confidently claim that Meta will continue to bet on React as an excellent cross-platform solution for the years to come.",
-      "sourceMdx": "Many great innovative projects are being dogfooded at Meta on real production apps, improving the framework and ecosystem for all of us along the way, for all platforms. With all this, we can confidently claim that Meta will continue to bet on React as an excellent cross-platform solution for the years to come."
+      "sourceMdx": "Many great innovative projects are being dogfooded at Meta on real production apps, improving the framework and ecosystem for all of us along the way, for all platforms. With all this, we can confidently claim that Meta will continue to bet on React as an excellent cross-platform solution for the years to come.",
+      "nodeType": "paragraph",
+      "translated_content": "众多创新项目正在Meta的实际生产应用中接受检验，这些实践将持续优化框架与生态，惠及所有平台开发者。由此我们可以确信，未来数年Meta将继续押注React作为卓越的跨平台解决方案。"
     },
     {
       "id": "4d52a261",
       "translatable": true,
       "content": "See also the 🎥 [commented video from Theo](https://www.youtube.com/watch?v=GjBfD9PHff4).",
-      "sourceMdx": "See also the 🎥 [commented video from Theo](https://www.youtube.com/watch?v=GjBfD9PHff4)."
+      "sourceMdx": "See also the 🎥 [commented video from Theo](https://www.youtube.com/watch?v=GjBfD9PHff4).",
+      "nodeType": "paragraph",
+      "translated_content": "另可观看🎥 [Theo的解说视频](https://www.youtube.com/watch?v=GjBfD9PHff4)。"
     },
     {
       "id": "069f729e",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "3df4f066",
       "translatable": true,
       "content": "* 💸 [Omlet – A new tool for measuring React component usage across your repos. Try for free with unlimited scans and improve your code quality.](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-oct-2024)\n* 👀 [React Router v7 Prerelease](https://reactrouter.com/dev/guides/start/installation): The first prerelease (7.0.0-pre.0) is available on npm and you can already read the docs. The new version comes with a Vite plugin that enables React Router to be a full-stack framework (aka Remix). It also supports SSG, has a better config-based routing system, improves type-safety. RSC support will come later once React 19 and Vite Environment API are ready.\n* 👀 [React Compiler Docs - Usage with React v18 and v17](http://react-compiler-runtime) : A new official `react-compiler-runtime` package (experimental) has been published by the React team to support older versions of React. The babel config now accepts a new `target: '17' | '18' | '19'` option.\n* 👀 [Next.js Guide - Fixing breaking changes after v15.0.0-canary.171](https://github.com/vercel/next.js/issues/70899): For those living on the bleeding edge, the Next.js team explains how migrate the Dynamic APIs that now return promises.\n* 🗓️ [reactjsday](https://2024.reactjsday.it/?utm_source=thisweekinreact) - 🇮🇹 Verona - 25 October - Last call for tickets! Don’t forget “TWIR” 10% discount code!\n* 🗓️ [React-Africa](https://react-africa.com/?utm_source=thisweekinreact) - 🇲🇦 Casablanca - 29 November - Get a 10% discount with code “TWIR”. And come listen from the best! Tejas Kumar et Jemima Abu will be here!\n* 📜 [Serverless servers and the challenge of new React architecture](https://bobaekang.com/blog/serverless-servers-and-the-challenge-of-new-react-architecture/): Vercel recently launched a new “Serverless Servers” feature (wait, what? 😅) that enables a Serverless Function instance to behave more like a traditional Node.js server accepting concurrent requests while idling. React RSCs will be more cost-effective: you won't be charged for the time spent awaiting promises.\n* 📜 [Handling Form Validation Errors and Resets with useActionState](https://aurorascharff.no/posts/handling-form-validation-errors-and-resets-with-useactionstate/): Teaches you how to handle React 19 resetting the fields of uncontrolled forms on submit.\n* 📜 [How Do Server Actions Work in NextJS?](https://codelynx.dev/posts/how-work-server-actions): Explains what happens under the hood when you call a Next.js Server Action, including simplified Next.js source code snippets.\n* 📜 [Using Mitosis to build a Design System](https://www.voorhoede.nl/en/blog/write-components-once-run-everywhere-with-mitosis-a-beautiful-dream-or-reality/): Mitigated feedback on this tool that permits creating cross-framework components from a shared JSX dialect.\n* 📜 [Increasing Vite's potential with the Environment API](https://green.sapphi.red/blog/increasing-vites-potential-with-the-environment-api): A modern React RSC app needs to bundle the code in multiple ways, one for each environment (client, SSR, RSC). A Vite contributor explains how Vite 6 helps you do so efficiently, and presents other use cases.\n* 📜 [Code based routing in Next.js](https://www.nico.fyi/blog/next-js-code-config-based-routing): Possible to achieve thanks to a catch-all route segment.\n* 📜 [Why Gumroad Didn't Choose htmx](https://htmx.org/essays/why-gumroad-didnt-choose-htmx/): Explain why they chose Next.js for their new product.\n* 📜 [React on the server is not PHP](https://www.artmann.co/articles/react-on-the-server-is-not-php)\n* 📦 [StyleX 0.8 - LightningCSS post-processing, theming and linting improvements](https://stylexjs.com/blog/v0.8.0)\n* 📦 [JSX Email 2.0 - config file, plugins, email compat, CSS inlining, new components](https://jsx.email/docs/v2/migration)\n* 📦 [Framer motion 11.11 - `animate()` can now animate any object such as Object3D from Three.js](https://www.framer.com/motion/animate-function/##objects)\n* 📦 [React-To-Print 3.0 - API modernization, React 19, smaller, Shadow DOM support, improved error handling](https://github.com/MatthewHerbst/react-to-print/blob/master/CHANGELOG.md#300-september-28th-2024)\n* 📦 [Assistant-UI - React Components for AI Chat](https://github.com/Yonom/assistant-ui)\n* 🎥 [Lee Robinson - Self-Hosting Next.js](https://www.youtube.com/watch?v=sIVL4JMqRfc): Including how to configure Next.js features like image optimization, caching, ISR, streaming, middleware …\n* 🎥 [Sam Selikoff - How to share a React Component with the URL](https://www.youtube.com/watch?v=fYqMPvPvVAc)\n* 🎥 [Jack Herrington - 5 Hidden React Server Function TRAPS Beginners Fall Into](https://www.youtube.com/watch?v=_wnamPRhgkA)",
-      "sourceMdx": "- 💸 [Omlet – A new tool for measuring React component usage across your repos. Try for free with unlimited scans and improve your code quality.](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-oct-2024)\n- 👀 [React Router v7 Prerelease](https://reactrouter.com/dev/guides/start/installation): The first prerelease (7.0.0-pre.0) is available on npm and you can already read the docs. The new version comes with a Vite plugin that enables React Router to be a full-stack framework (aka Remix). It also supports SSG, has a better config-based routing system, improves type-safety. RSC support will come later once React 19 and Vite Environment API are ready.\n- 👀 [React Compiler Docs - Usage with React v18 and v17](http://react-compiler-runtime) : A new official `react-compiler-runtime` package (experimental) has been published by the React team to support older versions of React. The babel config now accepts a new `target: '17' | '18' | '19'` option.\n- 👀 [Next.js Guide - Fixing breaking changes after v15.0.0-canary.171](https://github.com/vercel/next.js/issues/70899): For those living on the bleeding edge, the Next.js team explains how migrate the Dynamic APIs that now return promises.\n- 🗓️ [reactjsday](https://2024.reactjsday.it/?utm_source=thisweekinreact) - 🇮🇹 Verona - 25 October - Last call for tickets! Don’t forget “TWIR” 10% discount code!\n- 🗓️ [React-Africa](https://react-africa.com/?utm_source=thisweekinreact) - 🇲🇦 Casablanca - 29 November - Get a 10% discount with code “TWIR”. And come listen from the best! Tejas Kumar et Jemima Abu will be here!\n- 📜 [Serverless servers and the challenge of new React architecture](https://bobaekang.com/blog/serverless-servers-and-the-challenge-of-new-react-architecture/): Vercel recently launched a new “Serverless Servers” feature (wait, what? 😅) that enables a Serverless Function instance to behave more like a traditional Node.js server accepting concurrent requests while idling. React RSCs will be more cost-effective: you won't be charged for the time spent awaiting promises.\n- 📜 [Handling Form Validation Errors and Resets with useActionState](https://aurorascharff.no/posts/handling-form-validation-errors-and-resets-with-useactionstate/): Teaches you how to handle React 19 resetting the fields of uncontrolled forms on submit.\n- 📜 [How Do Server Actions Work in NextJS?](https://codelynx.dev/posts/how-work-server-actions): Explains what happens under the hood when you call a Next.js Server Action, including simplified Next.js source code snippets.\n- 📜 [Using Mitosis to build a Design System](https://www.voorhoede.nl/en/blog/write-components-once-run-everywhere-with-mitosis-a-beautiful-dream-or-reality/): Mitigated feedback on this tool that permits creating cross-framework components from a shared JSX dialect.\n- 📜 [Increasing Vite's potential with the Environment API](https://green.sapphi.red/blog/increasing-vites-potential-with-the-environment-api): A modern React RSC app needs to bundle the code in multiple ways, one for each environment (client, SSR, RSC). A Vite contributor explains how Vite 6 helps you do so efficiently, and presents other use cases.\n- 📜 [Code based routing in Next.js](https://www.nico.fyi/blog/next-js-code-config-based-routing): Possible to achieve thanks to a catch-all route segment.\n- 📜 [Why Gumroad Didn't Choose htmx](https://htmx.org/essays/why-gumroad-didnt-choose-htmx/): Explain why they chose Next.js for their new product.\n- 📜 [React on the server is not PHP](https://www.artmann.co/articles/react-on-the-server-is-not-php)\n- 📦 [StyleX 0.8 - LightningCSS post-processing, theming and linting improvements](https://stylexjs.com/blog/v0.8.0)\n- 📦 [JSX Email 2.0 - config file, plugins, email compat, CSS inlining, new components](https://jsx.email/docs/v2/migration)\n- 📦 [Framer motion 11.11 - `animate()` can now animate any object such as Object3D from Three.js](https://www.framer.com/motion/animate-function/##objects)\n- 📦 [React-To-Print 3.0 - API modernization, React 19, smaller, Shadow DOM support, improved error handling](https://github.com/MatthewHerbst/react-to-print/blob/master/CHANGELOG.md#300-september-28th-2024)\n- 📦 [Assistant-UI - React Components for AI Chat](https://github.com/Yonom/assistant-ui)\n- 🎥 [Lee Robinson - Self-Hosting Next.js](https://www.youtube.com/watch?v=sIVL4JMqRfc): Including how to configure Next.js features like image optimization, caching, ISR, streaming, middleware …\n- 🎥 [Sam Selikoff - How to share a React Component with the URL](https://www.youtube.com/watch?v=fYqMPvPvVAc)\n- 🎥 [Jack Herrington - 5 Hidden React Server Function TRAPS Beginners Fall Into](https://www.youtube.com/watch?v=_wnamPRhgkA)"
+      "sourceMdx": "- 💸 [Omlet – A new tool for measuring React component usage across your repos. Try for free with unlimited scans and improve your code quality.](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-oct-2024)\n- 👀 [React Router v7 Prerelease](https://reactrouter.com/dev/guides/start/installation): The first prerelease (7.0.0-pre.0) is available on npm and you can already read the docs. The new version comes with a Vite plugin that enables React Router to be a full-stack framework (aka Remix). It also supports SSG, has a better config-based routing system, improves type-safety. RSC support will come later once React 19 and Vite Environment API are ready.\n- 👀 [React Compiler Docs - Usage with React v18 and v17](http://react-compiler-runtime) : A new official `react-compiler-runtime` package (experimental) has been published by the React team to support older versions of React. The babel config now accepts a new `target: '17' | '18' | '19'` option.\n- 👀 [Next.js Guide - Fixing breaking changes after v15.0.0-canary.171](https://github.com/vercel/next.js/issues/70899): For those living on the bleeding edge, the Next.js team explains how migrate the Dynamic APIs that now return promises.\n- 🗓️ [reactjsday](https://2024.reactjsday.it/?utm_source=thisweekinreact) - 🇮🇹 Verona - 25 October - Last call for tickets! Don’t forget “TWIR” 10% discount code!\n- 🗓️ [React-Africa](https://react-africa.com/?utm_source=thisweekinreact) - 🇲🇦 Casablanca - 29 November - Get a 10% discount with code “TWIR”. And come listen from the best! Tejas Kumar et Jemima Abu will be here!\n- 📜 [Serverless servers and the challenge of new React architecture](https://bobaekang.com/blog/serverless-servers-and-the-challenge-of-new-react-architecture/): Vercel recently launched a new “Serverless Servers” feature (wait, what? 😅) that enables a Serverless Function instance to behave more like a traditional Node.js server accepting concurrent requests while idling. React RSCs will be more cost-effective: you won't be charged for the time spent awaiting promises.\n- 📜 [Handling Form Validation Errors and Resets with useActionState](https://aurorascharff.no/posts/handling-form-validation-errors-and-resets-with-useactionstate/): Teaches you how to handle React 19 resetting the fields of uncontrolled forms on submit.\n- 📜 [How Do Server Actions Work in NextJS?](https://codelynx.dev/posts/how-work-server-actions): Explains what happens under the hood when you call a Next.js Server Action, including simplified Next.js source code snippets.\n- 📜 [Using Mitosis to build a Design System](https://www.voorhoede.nl/en/blog/write-components-once-run-everywhere-with-mitosis-a-beautiful-dream-or-reality/): Mitigated feedback on this tool that permits creating cross-framework components from a shared JSX dialect.\n- 📜 [Increasing Vite's potential with the Environment API](https://green.sapphi.red/blog/increasing-vites-potential-with-the-environment-api): A modern React RSC app needs to bundle the code in multiple ways, one for each environment (client, SSR, RSC). A Vite contributor explains how Vite 6 helps you do so efficiently, and presents other use cases.\n- 📜 [Code based routing in Next.js](https://www.nico.fyi/blog/next-js-code-config-based-routing): Possible to achieve thanks to a catch-all route segment.\n- 📜 [Why Gumroad Didn't Choose htmx](https://htmx.org/essays/why-gumroad-didnt-choose-htmx/): Explain why they chose Next.js for their new product.\n- 📜 [React on the server is not PHP](https://www.artmann.co/articles/react-on-the-server-is-not-php)\n- 📦 [StyleX 0.8 - LightningCSS post-processing, theming and linting improvements](https://stylexjs.com/blog/v0.8.0)\n- 📦 [JSX Email 2.0 - config file, plugins, email compat, CSS inlining, new components](https://jsx.email/docs/v2/migration)\n- 📦 [Framer motion 11.11 - `animate()` can now animate any object such as Object3D from Three.js](https://www.framer.com/motion/animate-function/##objects)\n- 📦 [React-To-Print 3.0 - API modernization, React 19, smaller, Shadow DOM support, improved error handling](https://github.com/MatthewHerbst/react-to-print/blob/master/CHANGELOG.md#300-september-28th-2024)\n- 📦 [Assistant-UI - React Components for AI Chat](https://github.com/Yonom/assistant-ui)\n- 🎥 [Lee Robinson - Self-Hosting Next.js](https://www.youtube.com/watch?v=sIVL4JMqRfc): Including how to configure Next.js features like image optimization, caching, ISR, streaming, middleware …\n- 🎥 [Sam Selikoff - How to share a React Component with the URL](https://www.youtube.com/watch?v=fYqMPvPvVAc)\n- 🎥 [Jack Herrington - 5 Hidden React Server Function TRAPS Beginners Fall Into](https://www.youtube.com/watch?v=_wnamPRhgkA)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [Omlet – 一款用于测量跨代码库中React组件使用情况的新工具。免费试用无限扫描，提升代码质量。](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-oct-2024)\n- 👀 [React Router v7 预发布版](https://reactrouter.com/dev/guides/start/installation): 首个预发布版本(7.0.0-pre.0)已登陆npm且文档可查阅。新版配备Vite插件使其成为全栈框架(类似Remix)，支持SSG、更优的配置式路由系统、增强类型安全。RSC支持待React 19和Vite环境API就绪后推出。\n- 👀 [React编译器文档 - 支持React v18与v17的用法](http://react-compiler-runtime): React团队新发布的实验性官方包`react-compiler-runtime`支持旧版React。Babel配置新增`target: '17' | '18' | '19'`选项。\n- 👀 [Next.js指南 - 修复v15.0.0-canary.171后的破坏性变更](https://github.com/vercel/next.js/issues/70899): 针对前沿用户，Next.js团队详解如何迁移现在返回Promise的动态API。\n- 🗓️ [reactjsday](https://2024.reactjsday.it/?utm_source=thisweekinreact) - 🇮🇹 维罗纳 - 10月25日 - 最后售票机会！别忘了使用\"TWIR\"专属9折码！\n- 🗓️ [React-Africa](https://react-africa.com/?utm_source=thisweekinreact) - 🇲🇦 卡萨布兰卡 - 11月29日 - 使用代码\"TWIR\"享9折。聆听Tejas Kumar和Jemima Abu等大咖分享！\n- 📜 [无服务器服务器与React新架构的挑战](https://bobaekang.com/blog/serverless-servers-and-the-challenge-of-new-react-architecture/): Vercel新推出的\"无服务器服务器\"功能使Serverless Function实例能像传统Node.js服务器般处理并发请求。React RSCs将更具成本效益：等待Promise期间不计费。\n- 📜 [使用useActionState处理表单验证错误与重置](https://aurorascharff.no/posts/handling-form-validation-errors-and-resets-withuseactionstate/): 教你应对React 19在提交时重置非受控表单字段的问题。\n- 📜 [NextJS中服务器动作如何工作？](https://codelynx.dev/posts/how-work-server-actions): 解析调用Next.js服务器动作时的底层机制，含简化版源码片段。\n- 📜 [使用Mitosis构建设计系统](https://www.voorhoede.nl/en/blog/write-components-once-run-everywhere-with-mitosis-a-beautiful-dream-or-reality/): 对该跨框架组件工具的实际使用反馈。\n- 📜 [通过环境API提升Vite潜力](https://green.sapphi.red/blog/increasing-vites-potential-with-the-environment-api): Vite贡献者详解Vite 6如何高效打包多环境代码(客户端/SSR/RSC)。\n- 📜 [Next.js中的代码式路由](https://www.nico.fyi/blog/next-js-code-config-based-routing): 借助全匹配路由段实现配置式路由。\n- 📜 [Gumroad为何未选择htmx](https://htmx.org/essays/why-gumroad-didnt-choose-htmx/): 解释其新产品选用Next.js的原因。\n- 📜 [服务端React不是PHP](https://www.artmann.co/articles/react-on-the-server-is-not-php)\n- 📦 [StyleX 0.8 - LightningCSS后处理、主题与lint改进](https://stylexjs.com/blog/v0.8.0)\n- 📦 [JSX Email 2.0 - 配置文件、插件、邮件兼容、CSS内联、新组件](https://jsx.email/docs/v2/migration)\n- 📦 [Framer motion 11.11 - `animate()`现可动画化Three.js的Object3D等对象](https://www.framer.com/motion/animate-function/##objects)\n- 📦 [React-To-Print 3.0 - API现代化、React 19支持、体积更小、Shadow DOM支持、错误处理改进](https://github.com/MatthewHerbst/react-to-print/blob/master/CHANGELOG.md#300-september-28th-2024)\n- 📦 [Assistant-UI - AI聊天React组件库](https://github.com/Yonom/assistant-ui)\n- 🎥 [Lee Robinson - 自托管Next.js](https://www.youtube.com/watch?v=sIVL4JMqRfc): 含图片优化、缓存、ISR、流式传输、中间件等配置。\n- 🎥 [Sam Selikoff - 如何通过URL共享React组件](https://www.youtube.com/watch?v=fYqMPvPvVAc)\n- 🎥 [Jack Herrington - 初学者易入的5个React服务器函数陷阱](https://www.youtube.com/watch?v=_wnamPRhgkA)"
     },
     {
       "id": "3e8b4b41",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_3e8b4b41"
     },
     {
       "id": "c46c3e3d",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "2e771fd0",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "0750bfa1",
       "translatable": true,
       "content": "[![Join the Open Source Pledge](/emails/issues/204/sentry.jpg)](https://osspledge.com/?utm_source=thisweekinreact\\&utm_medium=paid-community\\&utm_campaign=oss-fy25q3-pledge\\&utm_content=newsletter-dontbea-join)",
-      "sourceMdx": "[![Join the Open Source Pledge](/emails/issues/204/sentry.jpg)](https://osspledge.com/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=oss-fy25q3-pledge&utm_content=newsletter-dontbea-join)"
+      "sourceMdx": "[![Join the Open Source Pledge](/emails/issues/204/sentry.jpg)](https://osspledge.com/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=oss-fy25q3-pledge&utm_content=newsletter-dontbea-join)",
+      "nodeType": "paragraph",
+      "translated_content": "[![加入开源承诺计划](/emails/issues/204/sentry.jpg)](https://osspledge.com/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=oss-fy25q3-pledge&utm_content=newsletter-dontbea-join)"
     },
     {
       "id": "86348f98",
       "translatable": true,
       "content": "**[Join the Open Source Pledge](https://osspledge.com/?utm_source=thisweekinreact\\&utm_medium=paid-community\\&utm_campaign=oss-fy25q3-pledge\\&utm_content=newsletter-dontbea-join)**",
-      "sourceMdx": "**[Join the Open Source Pledge](https://osspledge.com/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=oss-fy25q3-pledge&utm_content=newsletter-dontbea-join)**"
+      "sourceMdx": "**[Join the Open Source Pledge](https://osspledge.com/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=oss-fy25q3-pledge&utm_content=newsletter-dontbea-join)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[加入开源承诺计划](https://osspledge.com/?utm_source=thisweekinreact&utm_medium=paid-community&utm_campaign=oss-fy25q3-pledge&utm_content=newsletter-dontbea-join)**"
     },
     {
       "id": "6b77b644",
       "translatable": true,
       "content": "Year after year, companies feast at the Open Source table, but few pay the maintainers—creating burnout-related security incidents. Through the Pledge, forward-thinking companies are working together to change the status quo. It’s time we paid our share. Will you join us?",
-      "sourceMdx": "Year after year, companies feast at the Open Source table, but few pay the maintainers—creating burnout-related security incidents. Through the Pledge, forward-thinking companies are working together to change the status quo. It’s time we paid our share. Will you join us?"
+      "sourceMdx": "Year after year, companies feast at the Open Source table, but few pay the maintainers—creating burnout-related security incidents. Through the Pledge, forward-thinking companies are working together to change the status quo. It’s time we paid our share. Will you join us?",
+      "nodeType": "paragraph",
+      "translated_content": "年复一年，企业享受着开源的红利，却鲜少回馈维护者——这导致了与倦怠相关的安全事件频发。通过这项承诺计划，具有前瞻性的企业正携手改变现状。是时候承担我们应尽的责任了。您愿意加入吗？"
     },
     {
       "id": "4f2104fa",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "f8edb6d2",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "1862c5fe",
       "translatable": true,
       "content": "[![One - New cross-platform React framework](/emails/issues/204/one.jpg)](https://onestack.dev/)",
-      "sourceMdx": "[![One - New cross-platform React framework](/emails/issues/204/one.jpg)](https://onestack.dev/)"
+      "sourceMdx": "[![One - New cross-platform React framework](/emails/issues/204/one.jpg)](https://onestack.dev/)",
+      "nodeType": "paragraph",
+      "translated_content": "[![One - 全新跨平台React框架](/emails/issues/204/one.jpg)](https://onestack.dev/)"
     },
     {
       "id": "6ca4479f",
       "translatable": true,
       "content": "[**One - New cross-platform React framework**](https://onestack.dev/)",
-      "sourceMdx": "[**One - New cross-platform React framework**](https://onestack.dev/)"
+      "sourceMdx": "[**One - New cross-platform React framework**](https://onestack.dev/)",
+      "nodeType": "paragraph",
+      "translated_content": "[**One - 全新跨平台React框架**](https://onestack.dev/)"
     },
     {
       "id": "a2c0166e",
       "translatable": true,
       "content": "Nate, the creator of Tamagui, released a new universal framework that supports web and mobile. It’s built on top of Vite instead of Metro, has universal typed file-based routing, Remix-like loaders, and various render modes (SSG/SSR/SPA). It also helps you build local-first apps with an opt-in integration with the granular Zero sync engine.",
-      "sourceMdx": "Nate, the creator of Tamagui, released a new universal framework that supports web and mobile. It’s built on top of Vite instead of Metro, has universal typed file-based routing, Remix-like loaders, and various render modes (SSG/SSR/SPA). It also helps you build local-first apps with an opt-in integration with the granular Zero sync engine."
+      "sourceMdx": "Nate, the creator of Tamagui, released a new universal framework that supports web and mobile. It’s built on top of Vite instead of Metro, has universal typed file-based routing, Remix-like loaders, and various render modes (SSG/SSR/SPA). It also helps you build local-first apps with an opt-in integration with the granular Zero sync engine.",
+      "nodeType": "paragraph",
+      "translated_content": "Tamagui的创造者Nate发布了一个支持Web和移动端的通用框架。它基于Vite而非Metro构建，具备类型化文件路由系统、类Remix的加载器机制，支持多种渲染模式（SSG/SSR/SPA）。该框架还通过可选的Zero同步引擎集成，助力开发者构建本地优先应用。"
     },
     {
       "id": "05765487",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "7a3b7c62",
       "translatable": true,
       "content": "* 💸 [Apryse React Native PDF Library - Easily add PDF viewing and editing to your cross-platform apps.](https://docs.apryse.com/documentation/ios/react-native/?utm_source=thisweekinreact\\&utm_medium=newsletter\\&utm_campaign=1009)\n* 👀 [Static Hermes for React Native – Experimental Builds](https://github.com/software-mansion-labs/hermes): Software Mansion is collaborating with the Hermes team on a fork to bring Static Hermes to RN apps, that you can try today, starting with iOS. Initial benchmarks show a 16% faster startup on a production app.\n* 👀 [React Native Docs PR - Discourage using controlled inputs in React Native because they are broken](https://github.com/facebook/react-native-website/pull/4247): Dan Abramov is unhappy about a core primitive of React Native not working as expected and suggests advising against using controlled inputs. Apparently, it used to work better but recent iOS features broke it (autocorrect and predictive text). The New Architecture allows synchronous native calls and might permit fixing it.\n* 📖 [React Native Testing Library Cookbook](https://callstack.github.io/react-native-testing-library/cookbook/index)\n* 📜 [Journeying from React to React Native: Differences & Similarities](https://dev.to/amazonappdev/journeying-from-react-to-react-native-21ep)\n* 📦 [React Native Storybook 8](https://storybook.js.org/blog/react-native-storybook-8/): An important milestone for Storybook React Native which finally caught up with Storybook core and plans to keep it in sync thanks to shared infrastructure. This new major includes many new features, including a new mobile UI, widescreen layout, simpler Metro config, hot reloading, stable RNW support, and more.\n* 📦 [React-Native-Bottom-Tabs - Bottom Tabs that use native platform primitives](https://github.com/okwasniewski/react-native-bottom-tabs): An early version of the lib we mentioned last week, meant to be used with React-Navigation and replace its non-native JS-based implementation. Also works with Expo Router.\n* 📦 [Zeego 2.0 - Cross-platform menus for React Native](https://github.com/nandorojo/zeego/releases/tag/v2.0.0): Improves web support, drops the RNW dependency in favor of a thin RadixUI layer wrapper.\n* 📦 [setup-ci - CLI to spin your CI/CD for react-native](https://github.com/software-mansion/setup-ci): New Software Mansion CLI project to help you quickly create RN GitHub Actions.\n* 📦 [Nitro Modules 0.11 - Add Old Architecture support](https://github.com/mrousavy/nitro/releases/tag/v0.11.0)\n* 📦 [React Native 0.76.0-rc.4](https://github.com/facebook/react-native/releases/tag/v0.76.0-rc.4)\n* 🎥 [Simon Grimm - Build AI Powered Mobile Apps FASTER with Expo API Routes & Cursor](https://www.youtube.com/watch?v=9FzkE1qVBiA)\n* 🎥 [Reactiive - Animated Blur Cards with React Native (Skia)](https://www.youtube.com/watch?v=SveA2QjmEzM)\n* 🎙️ [RNR 310 - Nitro with Marc Rousavy](https://www.reactnativeradio.com/episodes/rnr-310-nitro-with-marc-rousavy)\n* 🎙️ [Rocket Ship 51 - React Native Brownfield Integration with Mariusz Stanisz](https://share.transistor.fm/s/e737607c)",
-      "sourceMdx": "- 💸 [Apryse React Native PDF Library - Easily add PDF viewing and editing to your cross-platform apps.](https://docs.apryse.com/documentation/ios/react-native/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=1009)\n- 👀 [Static Hermes for React Native – Experimental Builds](https://github.com/software-mansion-labs/hermes): Software Mansion is collaborating with the Hermes team on a fork to bring Static Hermes to RN apps, that you can try today, starting with iOS. Initial benchmarks show a 16% faster startup on a production app.\n- 👀 [React Native Docs PR - Discourage using controlled inputs in React Native because they are broken](https://github.com/facebook/react-native-website/pull/4247): Dan Abramov is unhappy about a core primitive of React Native not working as expected and suggests advising against using controlled inputs. Apparently, it used to work better but recent iOS features broke it (autocorrect and predictive text). The New Architecture allows synchronous native calls and might permit fixing it.\n- 📖 [React Native Testing Library Cookbook](https://callstack.github.io/react-native-testing-library/cookbook/index)\n- 📜 [Journeying from React to React Native: Differences & Similarities](https://dev.to/amazonappdev/journeying-from-react-to-react-native-21ep)\n- 📦 [React Native Storybook 8](https://storybook.js.org/blog/react-native-storybook-8/): An important milestone for Storybook React Native which finally caught up with Storybook core and plans to keep it in sync thanks to shared infrastructure. This new major includes many new features, including a new mobile UI, widescreen layout, simpler Metro config, hot reloading, stable RNW support, and more.\n- 📦 [React-Native-Bottom-Tabs - Bottom Tabs that use native platform primitives](https://github.com/okwasniewski/react-native-bottom-tabs): An early version of the lib we mentioned last week, meant to be used with React-Navigation and replace its non-native JS-based implementation. Also works with Expo Router.\n- 📦 [Zeego 2.0 - Cross-platform menus for React Native](https://github.com/nandorojo/zeego/releases/tag/v2.0.0): Improves web support, drops the RNW dependency in favor of a thin RadixUI layer wrapper.\n- 📦 [setup-ci - CLI to spin your CI/CD for react-native](https://github.com/software-mansion/setup-ci): New Software Mansion CLI project to help you quickly create RN GitHub Actions.\n- 📦 [Nitro Modules 0.11 - Add Old Architecture support](https://github.com/mrousavy/nitro/releases/tag/v0.11.0)\n- 📦 [React Native 0.76.0-rc.4](https://github.com/facebook/react-native/releases/tag/v0.76.0-rc.4)\n- 🎥 [Simon Grimm - Build AI Powered Mobile Apps FASTER with Expo API Routes & Cursor](https://www.youtube.com/watch?v=9FzkE1qVBiA)\n- 🎥 [Reactiive - Animated Blur Cards with React Native (Skia)](https://www.youtube.com/watch?v=SveA2QjmEzM)\n- 🎙️ [RNR 310 - Nitro with Marc Rousavy](https://www.reactnativeradio.com/episodes/rnr-310-nitro-with-marc-rousavy)\n- 🎙️ [Rocket Ship 51 - React Native Brownfield Integration with Mariusz Stanisz](https://share.transistor.fm/s/e737607c)"
+      "sourceMdx": "- 💸 [Apryse React Native PDF Library - Easily add PDF viewing and editing to your cross-platform apps.](https://docs.apryse.com/documentation/ios/react-native/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=1009)\n- 👀 [Static Hermes for React Native – Experimental Builds](https://github.com/software-mansion-labs/hermes): Software Mansion is collaborating with the Hermes team on a fork to bring Static Hermes to RN apps, that you can try today, starting with iOS. Initial benchmarks show a 16% faster startup on a production app.\n- 👀 [React Native Docs PR - Discourage using controlled inputs in React Native because they are broken](https://github.com/facebook/react-native-website/pull/4247): Dan Abramov is unhappy about a core primitive of React Native not working as expected and suggests advising against using controlled inputs. Apparently, it used to work better but recent iOS features broke it (autocorrect and predictive text). The New Architecture allows synchronous native calls and might permit fixing it.\n- 📖 [React Native Testing Library Cookbook](https://callstack.github.io/react-native-testing-library/cookbook/index)\n- 📜 [Journeying from React to React Native: Differences & Similarities](https://dev.to/amazonappdev/journeying-from-react-to-react-native-21ep)\n- 📦 [React Native Storybook 8](https://storybook.js.org/blog/react-native-storybook-8/): An important milestone for Storybook React Native which finally caught up with Storybook core and plans to keep it in sync thanks to shared infrastructure. This new major includes many new features, including a new mobile UI, widescreen layout, simpler Metro config, hot reloading, stable RNW support, and more.\n- 📦 [React-Native-Bottom-Tabs - Bottom Tabs that use native platform primitives](https://github.com/okwasniewski/react-native-bottom-tabs): An early version of the lib we mentioned last week, meant to be used with React-Navigation and replace its non-native JS-based implementation. Also works with Expo Router.\n- 📦 [Zeego 2.0 - Cross-platform menus for React Native](https://github.com/nandorojo/zeego/releases/tag/v2.0.0): Improves web support, drops the RNW dependency in favor of a thin RadixUI layer wrapper.\n- 📦 [setup-ci - CLI to spin your CI/CD for react-native](https://github.com/software-mansion/setup-ci): New Software Mansion CLI project to help you quickly create RN GitHub Actions.\n- 📦 [Nitro Modules 0.11 - Add Old Architecture support](https://github.com/mrousavy/nitro/releases/tag/v0.11.0)\n- 📦 [React Native 0.76.0-rc.4](https://github.com/facebook/react-native/releases/tag/v0.76.0-rc.4)\n- 🎥 [Simon Grimm - Build AI Powered Mobile Apps FASTER with Expo API Routes & Cursor](https://www.youtube.com/watch?v=9FzkE1qVBiA)\n- 🎥 [Reactiive - Animated Blur Cards with React Native (Skia)](https://www.youtube.com/watch?v=SveA2QjmEzM)\n- 🎙️ [RNR 310 - Nitro with Marc Rousavy](https://www.reactnativeradio.com/episodes/rnr-310-nitro-with-marc-rousavy)\n- 🎙️ [Rocket Ship 51 - React Native Brownfield Integration with Mariusz Stanisz](https://share.transistor.fm/s/e737607c)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [Apryse React Native PDF库 - 轻松为跨平台应用添加PDF查看与编辑功能](https://docs.apryse.com/documentation/ios/react-native/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=1009)\n- 👀 [React Native静态Hermes - 实验性构建](https://github.com/software-mansion-labs/hermes): Software Mansion正与Hermes团队合作开发分支版本，目前可从iOS端尝鲜。生产环境基准测试显示应用启动速度提升16%。\n- 👀 [React Native文档PR - 建议避免使用受控输入组件因其存在缺陷](https://github.com/facebook/react-native-website/pull/4247): Dan Abramov对React Native核心功能异常表示不满，指出近期iOS特性（自动修正和预测文本）导致原本可用的受控输入失效。新架构允许同步原生调用可能修复此问题。\n- 📖 [React Native测试库操作指南](https://callstack.github.io/react-native-testing-library/cookbook/index)\n- 📜 [从React到React Native的迁移之旅：差异与共性](https://dev.to/amazonappdev/journeying-from-react-to-react-native-21ep)\n- 📦 [React Native Storybook 8发布](https://storybook.js.org/blog/react-native-storybook-8/): 该版本与Storybook核心功能同步，新增移动端UI、宽屏布局、简化Metro配置、热重载、稳定RNW支持等特性。\n- 📦 [React-Native-Bottom-Tabs - 基于原生平台实现的底部标签栏](https://github.com/okwasniewski/react-native-bottom-tabs): 可搭配React-Navigation使用以替代其非原生的JS实现，同时支持Expo Router。\n- 📦 [Zeego 2.0 - React Native跨平台菜单组件](https://github.com/nandorojo/zeego/releases/tag/v2.0.0): 增强Web支持，改用RadixUI轻量封装层替代RNW依赖。\n- 📦 [setup-ci - React Native CI/CD快速配置工具](https://github.com/software-mansion/setup-ci): Software Mansion新推CLI工具，可快速创建GitHub Actions工作流。\n- 📦 [Nitro Modules 0.11 - 新增旧架构支持](https://github.com/mrousavy/nitro/releases/tag/v0.11.0)\n- 📦 [React Native 0.76.0-rc.4版本](https://github.com/facebook/react-native/releases/tag/v0.76.0-rc.4)\n- 🎥 [Simon Grimm - 使用Expo API Routes和Cursor快速构建AI移动应用](https://www.youtube.com/watch?v=9FzkE1qVBiA)\n- 🎥 [Reactiive - 用React Native(Skia)实现动态模糊卡片](https://www.youtube.com/watch?v=SveA2QjmEzM)\n- 🎙️ [RNR第310期 - 专访Marc Rousavy谈Nitro](https://www.reactnativeradio.com/episodes/rnr-310-nitro-with-marc-rousavy)\n- 🎙️ [Rocket Ship第51期 - Mariusz Stanisz谈React Native混合开发](https://share.transistor.fm/s/e737607c)"
     },
     {
       "id": "cf53fc07",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "47516512",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他 {#other}"
     },
     {
       "id": "683a33d9",
       "translatable": true,
       "content": "* 👀 [TC39 - Agenda for the 104th meeting](https://github.com/tc39/agendas/blob/main/2024/10.md): The meeting is still in progress, but many proposals progressed to stage 4 and will be standardized in ES2025, we’ll share the final list next week!\n* 👀 [Lucia Auth - Future plans: deprecate the library, transform to a learning resource](https://github.com/lucia-auth/lucia/discussions/1707)\n* 📜 [Building a Single-Page App with htmx](https://jakelazaroff.com/words/building-a-single-page-app-with-htmx/)\n* 📜 [Do not use secrets in environment variables and here's how to do it better](https://www.nodejs-security.com/blog/do-not-use-secrets-in-environment-variables-and-here-is-how-to-do-it-better/)\n* 📦 [Deno 2.0 - Backwards-compatible, forward-thinking](https://deno.com/blog/v2.0)\n* 📦 [Brisa - Full-stack Framework with Server Components, Server Actions, JSX, Web Components, JSX](https://brisa.build/blog/introducing-brisa): An interesting new framework inspired by React and Next.js and leveraging Declarative Shadow DOM for SSR.\n* 📦 [Bun 1.1.30 - CSS Parsing & bundling, bun publish, CJS output](https://bun.sh/blog/bun-v1.1.30)\n* 📦 [Better-Auth - The most comprehensive authentication library for TypeScript](https://github.com/better-auth/better-auth)",
-      "sourceMdx": "- 👀 [TC39 - Agenda for the 104th meeting](https://github.com/tc39/agendas/blob/main/2024/10.md): The meeting is still in progress, but many proposals progressed to stage 4 and will be standardized in ES2025, we’ll share the final list next week\\!\n- 👀 [Lucia Auth - Future plans: deprecate the library, transform to a learning resource](https://github.com/lucia-auth/lucia/discussions/1707)\n- 📜 [Building a Single-Page App with htmx](https://jakelazaroff.com/words/building-a-single-page-app-with-htmx/)\n- 📜 [Do not use secrets in environment variables and here's how to do it better](https://www.nodejs-security.com/blog/do-not-use-secrets-in-environment-variables-and-here-is-how-to-do-it-better/)\n- 📦 [Deno 2.0 - Backwards-compatible, forward-thinking](https://deno.com/blog/v2.0)\n- 📦 [Brisa - Full-stack Framework with Server Components, Server Actions, JSX, Web Components, JSX](https://brisa.build/blog/introducing-brisa): An interesting new framework inspired by React and Next.js and leveraging Declarative Shadow DOM for SSR.\n- 📦 [Bun 1.1.30 - CSS Parsing & bundling, bun publish, CJS output](https://bun.sh/blog/bun-v1.1.30)\n- 📦 [Better-Auth - The most comprehensive authentication library for TypeScript](https://github.com/better-auth/better-auth)"
+      "sourceMdx": "- 👀 [TC39 - Agenda for the 104th meeting](https://github.com/tc39/agendas/blob/main/2024/10.md): The meeting is still in progress, but many proposals progressed to stage 4 and will be standardized in ES2025, we’ll share the final list next week\\!\n- 👀 [Lucia Auth - Future plans: deprecate the library, transform to a learning resource](https://github.com/lucia-auth/lucia/discussions/1707)\n- 📜 [Building a Single-Page App with htmx](https://jakelazaroff.com/words/building-a-single-page-app-with-htmx/)\n- 📜 [Do not use secrets in environment variables and here's how to do it better](https://www.nodejs-security.com/blog/do-not-use-secrets-in-environment-variables-and-here-is-how-to-do-it-better/)\n- 📦 [Deno 2.0 - Backwards-compatible, forward-thinking](https://deno.com/blog/v2.0)\n- 📦 [Brisa - Full-stack Framework with Server Components, Server Actions, JSX, Web Components, JSX](https://brisa.build/blog/introducing-brisa): An interesting new framework inspired by React and Next.js and leveraging Declarative Shadow DOM for SSR.\n- 📦 [Bun 1.1.30 - CSS Parsing & bundling, bun publish, CJS output](https://bun.sh/blog/bun-v1.1.30)\n- 📦 [Better-Auth - The most comprehensive authentication library for TypeScript](https://github.com/better-auth/better-auth)",
+      "nodeType": "list",
+      "translated_content": "- 👀 [TC39 - 第104次会议议程](https://github.com/tc39/agendas/blob/main/2024/10.md)：会议仍在进行中，但已有多个提案进入第4阶段并将纳入ES2025标准，我们将在下周分享最终清单！\n- 👀 [Lucia Auth - 未来计划：停止维护该库，转型为学习资源](https://github.com/lucia-auth/lucia/discussions/1707)\n- 📜 [使用htmx构建单页应用](https://jakelazaroff.com/words/building-a-single-page-app-with-htmx/)\n- 📜 [不要在环境变量中使用密钥，这里有更好的方法](https://www.nodejs-security.com/blog/do-not-use-secrets-in-environment-variables-and-here-is-how-to-do-it-better/)\n- 📦 [Deno 2.0 - 向后兼容，前瞻性设计](https://deno.com/blog/v2.0)\n- 📦 [Brisa - 全栈框架，支持服务器组件、服务器动作、JSX、Web组件](https://brisa.build/blog/introducing-brisa)：一个受React和Next.js启发的新框架，利用声明式Shadow DOM实现SSR。\n- 📦 [Bun 1.1.30 - CSS解析与打包、bun publish、CJS输出](https://bun.sh/blog/bun-v1.1.30)\n- 📦 [Better-Auth - 最全面的TypeScript身份验证库](https://github.com/better-auth/better-auth)"
     },
     {
       "id": "efbc76b7",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "c6868a9f",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 趣闻 {#fun}"
     },
     {
       "id": "bb1346b6",
       "translatable": true,
       "content": "[![alt](/emails/issues/204/meme.jpg)](https://x.com/jacobmparis/status/1841450326744010914)",
-      "sourceMdx": "[![alt](/emails/issues/204/meme.jpg)](https://x.com/jacobmparis/status/1841450326744010914)"
+      "sourceMdx": "[![alt](/emails/issues/204/meme.jpg)](https://x.com/jacobmparis/status/1841450326744010914)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/204/meme.jpg)](https://x.com/jacobmparis/status/1841450326744010914)"
     },
     {
       "id": "8664ed0b",
       "translatable": true,
       "content": "[![alt](/emails/issues/204/meme2.jpg)](https://x.com/sebastienlorber/status/1842131680833741094)",
-      "sourceMdx": "[![alt](/emails/issues/204/meme2.jpg)](https://x.com/sebastienlorber/status/1842131680833741094)"
+      "sourceMdx": "[![alt](/emails/issues/204/meme2.jpg)](https://x.com/sebastienlorber/status/1842131680833741094)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/204/meme2.jpg)](https://x.com/sebastienlorber/status/1842131680833741094)"
     },
     {
       "id": "9e90a9b3",
       "translatable": true,
       "content": "[![alt](/emails/issues/204/meme3.jpg)](https://x.com/saltyAom/status/1842543015472386440)",
-      "sourceMdx": "[![alt](/emails/issues/204/meme3.jpg)](https://x.com/saltyAom/status/1842543015472386440)"
+      "sourceMdx": "[![alt](/emails/issues/204/meme3.jpg)](https://x.com/saltyAom/status/1842543015472386440)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/204/meme3.jpg)](https://x.com/saltyAom/status/1842543015472386440)"
     },
     {
       "id": "681ef526",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下次见！👋"
     }
   ]
 }

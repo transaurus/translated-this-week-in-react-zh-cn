@@ -1,35 +1,45 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/articles/old/2019-08-30-handling-race-conditions-in-react/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/articles/old/2019-08-30-handling-race-conditions-in-react/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: handling-api-request-race-conditions-in-react\ntitle: Handling API request race conditions in React\ndescription: Handling API request race conditions in React... or how to avoid rendering the wrong data\nauthors: [slorber]\ntwitterThreadUrl: \"https://slo.im/thread\"\nimage: ./images/hero.png\n---",
-      "sourceMdx": "---\nslug: handling-api-request-race-conditions-in-react\ntitle: Handling API request race conditions in React\ndescription: Handling API request race conditions in React... or how to avoid rendering the wrong data\nauthors: [slorber]\ntwitterThreadUrl: \"https://slo.im/thread\"\nimage: ./images/hero.png\n---"
+      "sourceMdx": "---\nslug: handling-api-request-race-conditions-in-react\ntitle: Handling API request race conditions in React\ndescription: Handling API request race conditions in React... or how to avoid rendering the wrong data\nauthors: [slorber]\ntwitterThreadUrl: \"https://slo.im/thread\"\nimage: ./images/hero.png\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "Many blog articles talk about loading api/async data in React apps, with `componentDidMount`, `useEffect`, Redux, Apollo...",
-      "sourceMdx": "Many blog articles talk about loading api/async data in React apps, with `componentDidMount`, `useEffect`, Redux, Apollo..."
+      "sourceMdx": "Many blog articles talk about loading api/async data in React apps, with `componentDidMount`, `useEffect`, Redux, Apollo...",
+      "nodeType": "paragraph",
+      "translated_content": "许多博客文章都探讨了在React应用中加载API/异步数据的方案，比如使用`componentDidMount`、`useEffect`、Redux或Apollo..."
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "Yet, all those articles are **generally optimistic**, and never mention something important to consider: race conditions could happen, and your UI may end up in an **inconsistent state**.",
-      "sourceMdx": "Yet, all those articles are **generally optimistic**, and never mention something important to consider: race conditions could happen, and your UI may end up in an **inconsistent state**."
+      "sourceMdx": "Yet, all those articles are **generally optimistic**, and never mention something important to consider: race conditions could happen, and your UI may end up in an **inconsistent state**.",
+      "nodeType": "paragraph",
+      "translated_content": "然而这些文章**普遍持乐观态度**，却从未提及一个关键问题：竞态条件可能发生，最终导致你的UI陷入**不一致状态**。"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "[![hero](./images/hero.png)](https://sebastienlorber.com/handling-api-request-race-conditions-in-react)",
-      "sourceMdx": "[![hero](./images/hero.png)](https://sebastienlorber.com/handling-api-request-race-conditions-in-react)"
+      "sourceMdx": "[![hero](./images/hero.png)](https://sebastienlorber.com/handling-api-request-race-conditions-in-react)",
+      "nodeType": "paragraph",
+      "translated_content": "[![hero](./images/hero.png)](https://sebastienlorber.com/handling-api-request-race-conditions-in-react)"
     },
     {
       "id": "86b54d44",
       "translatable": true,
       "content": "🔗 [**Read More**](https://sebastienlorber.com/handling-api-request-race-conditions-in-react)",
-      "sourceMdx": "🔗 [**Read More**](https://sebastienlorber.com/handling-api-request-race-conditions-in-react)"
+      "sourceMdx": "🔗 [**Read More**](https://sebastienlorber.com/handling-api-request-race-conditions-in-react)",
+      "nodeType": "paragraph",
+      "translated_content": "🔗 [**阅读全文**](https://sebastienlorber.com/handling-api-request-race-conditions-in-react)"
     }
   ]
 }

@@ -1,311 +1,413 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/233/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/233/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /233\ntitle: \"This Week In React #233: RSC, Next.js, Compiler, Unhead, Shadcn, Relay, Mantine | Expo, WebGPU, Skia, Apple fees, Reanimated, Fragment Refs | Node.js, TS, Prisma, Deno, GSAP\"\nauthors: [slorber]\ndate: 05-07-2025\n---",
-      "sourceMdx": "---\nslug: /233\ntitle: \"This Week In React #233: RSC, Next.js, Compiler, Unhead, Shadcn, Relay, Mantine | Expo, WebGPU, Skia, Apple fees, Reanimated, Fragment Refs | Node.js, TS, Prisma, Deno, GSAP\"\nauthors: [slorber]\ndate: 05-07-2025\n---"
+      "sourceMdx": "---\nslug: /233\ntitle: \"This Week In React #233: RSC, Next.js, Compiler, Unhead, Shadcn, Relay, Mantine | Expo, WebGPU, Skia, Apple fees, Reanimated, Fragment Refs | Node.js, TS, Prisma, Deno, GSAP\"\nauthors: [slorber]\ndate: 05-07-2025\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "This week we don't have one, but 2 interesting blog posts from Dan Abramov, and various React releases.",
-      "sourceMdx": "This week we don't have one, but 2 interesting blog posts from Dan Abramov, and various React releases."
+      "sourceMdx": "This week we don't have one, but 2 interesting blog posts from Dan Abramov, and various React releases.",
+      "nodeType": "paragraph",
+      "translated_content": "本周虽然没有一篇，但有两篇来自Dan Abramov的有趣博客文章，以及各种React版本发布。"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "I found the mobile news particularly interesting, with Expo 53, Skia Graphite, Reanimated Shared Elements Transitions, and the Apple fees court injunction.",
-      "sourceMdx": "I found the mobile news particularly interesting, with Expo 53, Skia Graphite, Reanimated Shared Elements Transitions, and the Apple fees court injunction."
+      "sourceMdx": "I found the mobile news particularly interesting, with Expo 53, Skia Graphite, Reanimated Shared Elements Transitions, and the Apple fees court injunction.",
+      "nodeType": "paragraph",
+      "translated_content": "我发现移动端新闻特别有意思，包括Expo 53、Skia Graphite、Reanimated共享元素转场动画，以及苹果费用法院禁令。"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "My fellows at ui.dev are also launching the final content of their [react.gg](https://react.gg/?ref=twir) course (30% off now), designed to teach you all the brand-new React 19 concepts from first principles. I got access to review it and can assure you that it's a really playful way to learn React, full of interactive examples, visualizations and pragmatic quizzes.",
-      "sourceMdx": "My fellows at ui.dev are also launching the final content of their [react.gg](https://react.gg/?ref=twir) course (30% off now), designed to teach you all the brand-new React 19 concepts from first principles. I got access to review it and can assure you that it's a really playful way to learn React, full of interactive examples, visualizations and pragmatic quizzes."
+      "sourceMdx": "My fellows at ui.dev are also launching the final content of their [react.gg](https://react.gg/?ref=twir) course (30% off now), designed to teach you all the brand-new React 19 concepts from first principles. I got access to review it and can assure you that it's a really playful way to learn React, full of interactive examples, visualizations and pragmatic quizzes.",
+      "nodeType": "paragraph",
+      "translated_content": "我在ui.dev的同事们也推出了他们[react.gg](https://react.gg/?ref=twir)课程的最终内容（现在7折优惠），该课程旨在从基本原理教你所有全新的React 19概念。我有幸提前审阅了课程内容，可以保证这是一种非常寓教于乐的学习React方式，充满了交互式示例、可视化演示和实用测验。"
     },
     {
       "id": "6429a3aa",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_6429a3aa"
     },
     {
       "id": "6c991806",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_6c991806"
     },
     {
       "id": "8f488ab5",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_8f488ab5"
     },
     {
       "id": "fb3d50cd",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "95b38f97",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "ccc88b4c",
       "translatable": true,
       "content": "[![Cut React Code Review Time & Bugs in Half](/emails/issues/233/coderabbit.jpg)](https://coderabbit.link/this-week-in-react-7may-2025)",
-      "sourceMdx": "[![Cut React Code Review Time & Bugs in Half](/emails/issues/233/coderabbit.jpg)](https://coderabbit.link/this-week-in-react-7may-2025)"
+      "sourceMdx": "[![Cut React Code Review Time & Bugs in Half](/emails/issues/233/coderabbit.jpg)](https://coderabbit.link/this-week-in-react-7may-2025)",
+      "nodeType": "paragraph",
+      "translated_content": "[![将React代码审查时间和错误减少一半](/emails/issues/233/coderabbit.jpg)](https://coderabbit.link/this-week-in-react-7may-2025)"
     },
     {
       "id": "d9172fa4",
       "translatable": true,
       "content": "**[Cut React Code Review Time & Bugs in Half](https://coderabbit.link/this-week-in-react-7may-2025)**",
-      "sourceMdx": "**[Cut React Code Review Time & Bugs in Half](https://coderabbit.link/this-week-in-react-7may-2025)**"
+      "sourceMdx": "**[Cut React Code Review Time & Bugs in Half](https://coderabbit.link/this-week-in-react-7may-2025)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[将React代码审查时间和错误减少一半](https://coderabbit.link/this-week-in-react-7may-2025)**"
     },
     {
       "id": "26524352",
       "translatable": true,
       "content": "Code reviews are critical but time-consuming. CodeRabbit acts as your AI co-pilot, providing instant Code review comments and potential impacts of every pull request.",
-      "sourceMdx": "Code reviews are critical but time-consuming. CodeRabbit acts as your AI co-pilot, providing instant Code review comments and potential impacts of every pull request. "
+      "sourceMdx": "Code reviews are critical but time-consuming. CodeRabbit acts as your AI co-pilot, providing instant Code review comments and potential impacts of every pull request. ",
+      "nodeType": "paragraph",
+      "translated_content": "代码审查至关重要但耗时。CodeRabbit作为你的AI副驾驶，即时提供代码审查意见和每个拉取请求的潜在影响分析。"
     },
     {
       "id": "73ab96a3",
       "translatable": true,
       "content": "Beyond just flagging issues, CodeRabbit provides one-click fix suggestions and lets you define custom code quality rules using AST Grep patterns, catching subtle issues that traditional static analysis tools might miss.",
-      "sourceMdx": "Beyond just flagging issues, CodeRabbit provides one-click fix suggestions and lets you define custom code quality rules using AST Grep patterns, catching subtle issues that traditional static analysis tools might miss."
+      "sourceMdx": "Beyond just flagging issues, CodeRabbit provides one-click fix suggestions and lets you define custom code quality rules using AST Grep patterns, catching subtle issues that traditional static analysis tools might miss.",
+      "nodeType": "paragraph",
+      "translated_content": "除了标记问题，CodeRabbit还提供一键修复建议，并允许你使用AST Grep模式定义自定义代码质量规则，捕捉传统静态分析工具可能遗漏的细微问题。"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "CodeRabbit has so far reviewed more than 5 million PRs, installed on 1 million repositories, and used by 50 thousand Open-source projects. CodeRabbit is free for all open-source repo's. [Get started today!](https://coderabbit.link/this-week-in-react-7may-2025)",
-      "sourceMdx": "CodeRabbit has so far reviewed more than 5 million PRs, installed on 1 million repositories, and used by 50 thousand Open-source projects. CodeRabbit is free for all open-source repo's. [Get started today!](https://coderabbit.link/this-week-in-react-7may-2025)"
+      "sourceMdx": "CodeRabbit has so far reviewed more than 5 million PRs, installed on 1 million repositories, and used by 50 thousand Open-source projects. CodeRabbit is free for all open-source repo's. [Get started today!](https://coderabbit.link/this-week-in-react-7may-2025)",
+      "nodeType": "paragraph",
+      "translated_content": "CodeRabbit已审查超过500万个PR，安装在100万个代码库上，被5万个开源项目使用。所有开源仓库可免费使用。[立即体验！](https://coderabbit.link/this-week-in-react-7may-2025)"
     },
     {
       "id": "b0e5a8f2",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "80d9e13c",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React {#react}"
     },
     {
       "id": "e7bc8c38",
       "translatable": true,
       "content": "* 💸 [Product for Engineers - What engineers get wrong about communication](https://go.posthog.com/twir-may7)\n* 👀 [Next.js Docs - New `runAfterProductionCompile` lifecycle hook](https://nextjs.org/docs/architecture/nextjs-compiler#runafterproductioncompile): Upcoming (unreleased) feature already documented.\n* 💬 [React Compiler oxc plugin](https://github.com/oxc-project/oxc/issues/10048): Interesting discussions between the React Compiler team and the oxc team to integrate the compiler as an oxc plugin for upcoming usage with Vite and Oxc/Rolldown. The React team suggests making it happen in 2 steps (make it work, then make it fast).\n* 🧵 [shadcn introducing the registry MCP - One command to make any component registry mcp-compatible.](https://threadreaderapp.com/thread/1917597228513853603.html)\n* 📜 [Functional HTML](https://overreacted.io/functional-html/): Dan gradually reinvents the HTML he wants from first principles, leading to an RSC implementation.\n* 📜 [RSC for Astro Developers](https://overreacted.io/rsc-for-astro-developers/): RSC and Astro have 2 remarkably similar mental models, but Dan exposes some interesting subtle differences. RSCs may feel less intuitive at first, but they also solve some of Astro’s limitations.\n* 📜 [The future of AI interaction: Beyond just text](https://www.epicai.pro/the-future-of-ai-interaction-beyond-just-text-w22ps): Kent argues that MCPs could have a role to play in implementing generative UIs with React Server Components. He wants the protocol to allow richer return types like html and RSC payloads.\n* 📜 [Frontends are hard](https://sst.dev/blog/frontends-are-hard): The devs at SST reflect on the challenges of self-hosting modern meta-frameworks, including React ones, that led them to start the OpenNext initiative.\n* 📜 [Add a Color Scheme Toggle in React Router](https://sergiodxa.com/tutorials/add-a-color-scheme-toggle-in-react-router): This method avoids FOUC with a cookie instead of inlined JS.\n* 📜 [Robust Data Fetching Architecture For Complex React/Next.js Apps](https://www.trevorlasn.com/blog/fetching-data-for-complex-next-and-react-apps): Suggests using 3 layers: Server Components, React Query, and Optimistic Updates.\n* 📜 [Server Components Give You Optionality](https://saewitz.com/server-components-give-you-optionality): They give flexibility to choose in which environments your components run in (Server, Server+Client, or Client) and when.\n* 📜 [How We Fell Out of Love with Next.js and Back in Love with Ruby on Rails & Inertia.js](https://hardcover.app/blog/part-1-how-we-fell-out-of-love-with-next-js-and-back-in-love-with-ruby-on-rails-inertia-js)\n* 📜 [Why Kleinanzeigen.de Picked Astro Over Next.js](https://d13z.dev/blog/07-why-kleinanzeigen-picked-astro-over-nextjs/)\n* 📜 [When You Might Need to Override the Defaults in TanStack Query](https://www.kxlaa.com/articles/when-you-might-need-to-override-the-defaults-in-tanstack-query)\n* 💸 [React.gg - The interactive way to master modern React, including new v19 modules - 30% off during launch week](https://react.gg/?ref=twir)\n* 📦 [Unhead 2.0 - The full stack \\<head> package for any framework](https://unhead.unjs.io/v2): This framework-agnostic package from the UnJS ecosystem now includes React bindings. This could be a great drop-in alternative to `react-helmet` with React 19 support if the new built-in APIs are not good enough for you (see [my comment here](https://github.com/staylor/react-helmet-async/issues/239#issuecomment-2565685131)).\n* 📦 [Blade - Build instant web apps with React](https://github.com/ronin-co/blade): A new opinionated React meta-framework with Server Components support, that purposefully doesn’t comply with the RSC spec.\n* 📦 [Relay 19.0 - `@alias` required on conditional fragments, support React 19](https://relay.dev/blog/2025/04/02/relay-19/)\n* 📦 [Mantine 8.0 - Updated dates package, new TimePicker, Heatmap, CodeHighlight components, nested menus and more](https://mantine.dev/changelog/8-0-0/)\n* 📦 [React Error Boundary 6.0 - ESM-only](https://github.com/bvaughn/react-error-boundary/releases/tag/6.0.0)\n* 📦 [React Admin 5.8 - InPlaceEditor, DataTable, AuthLayout, MUI v7, CSS vars, theming](https://github.com/marmelab/react-admin/releases/tag/v5.8.0)\n* 📦 [Unverceled Next.js - A Next.js 15 Starter Kit Deployed to Cloudflare using OpenNext](https://github.com/ixahmedxi/unverceled-nextjs)\n* 📦 [Radix UI - New unstable PasswordToggleField and Checkbox parts](https://www.radix-ui.com/primitives/docs/overview/releases#may-5-2025)\n* 📦 [React Router DevTools 5.0 - Complete overhaul of the routes tab](https://github.com/forge-42/react-router-devtools/releases/tag/v5.0.0)\n* 📦 [MUI 7.1 - Support for Tailwind CSS 4](https://github.com/mui/material-ui/releases/tag/v7.1.0)\n* 🎥 [Jack Herrington - React's New Activity Component: Huge Performance Win!](https://www.youtube.com/watch?v=gRKVL5w-2Lc)\n* 🎥 [Fireship - The growing divide among React developers…](https://www.youtube.com/watch?v=lLJbHHeFSsE)\n* 🎙️ [Front-end Fire 93 - React Activity, Storybook 9 Beta, and AI as a Collaborator](https://front-end-fire.com/episodes/93/)",
-      "sourceMdx": "- 💸 [Product for Engineers - What engineers get wrong about communication](https://go.posthog.com/twir-may7)\n- 👀 [Next.js Docs \\- New `runAfterProductionCompile` lifecycle hook](https://nextjs.org/docs/architecture/nextjs-compiler#runafterproductioncompile): Upcoming (unreleased) feature already documented.\n- 💬 [React Compiler oxc plugin](https://github.com/oxc-project/oxc/issues/10048): Interesting discussions between the React Compiler team and the oxc team to integrate the compiler as an oxc plugin for upcoming usage with Vite and Oxc/Rolldown. The React team suggests making it happen in 2 steps (make it work, then make it fast).\n- 🧵 [shadcn introducing the registry MCP \\- One command to make any component registry mcp-compatible.](https://threadreaderapp.com/thread/1917597228513853603.html)\n- 📜 [Functional HTML](https://overreacted.io/functional-html/): Dan gradually reinvents the HTML he wants from first principles, leading to an RSC implementation.\n- 📜 [RSC for Astro Developers](https://overreacted.io/rsc-for-astro-developers/): RSC and Astro have 2 remarkably similar mental models, but Dan exposes some interesting subtle differences. RSCs may feel less intuitive at first, but they also solve some of Astro’s limitations.\n- 📜 [The future of AI interaction: Beyond just text](https://www.epicai.pro/the-future-of-ai-interaction-beyond-just-text-w22ps): Kent argues that MCPs could have a role to play in implementing generative UIs with React Server Components. He wants the protocol to allow richer return types like html and RSC payloads.\n- 📜 [Frontends are hard](https://sst.dev/blog/frontends-are-hard): The devs at SST reflect on the challenges of self-hosting modern meta-frameworks, including React ones, that led them to start the OpenNext initiative.\n- 📜 [Add a Color Scheme Toggle in React Router](https://sergiodxa.com/tutorials/add-a-color-scheme-toggle-in-react-router): This method avoids FOUC with a cookie instead of inlined JS.\n- 📜 [Robust Data Fetching Architecture For Complex React/Next.js Apps](https://www.trevorlasn.com/blog/fetching-data-for-complex-next-and-react-apps): Suggests using 3 layers: Server Components, React Query, and Optimistic Updates.\n- 📜 [Server Components Give You Optionality](https://saewitz.com/server-components-give-you-optionality): They give flexibility to choose in which environments your components run in (Server, Server+Client, or Client) and when.\n- 📜 [How We Fell Out of Love with Next.js and Back in Love with Ruby on Rails & Inertia.js](https://hardcover.app/blog/part-1-how-we-fell-out-of-love-with-next-js-and-back-in-love-with-ruby-on-rails-inertia-js)\n- 📜 [Why Kleinanzeigen.de Picked Astro Over Next.js](https://d13z.dev/blog/07-why-kleinanzeigen-picked-astro-over-nextjs/)\n- 📜 [When You Might Need to Override the Defaults in TanStack Query](https://www.kxlaa.com/articles/when-you-might-need-to-override-the-defaults-in-tanstack-query)\n- 💸 [React.gg - The interactive way to master modern React, including new v19 modules - 30% off during launch week](https://react.gg/?ref=twir)\n- 📦 [Unhead 2.0 \\- The full stack \\<head\\> package for any framework](https://unhead.unjs.io/v2): This framework-agnostic package from the UnJS ecosystem now includes React bindings. This could be a great drop-in alternative to `react-helmet` with React 19 support if the new built-in APIs are not good enough for you (see [my comment here](https://github.com/staylor/react-helmet-async/issues/239#issuecomment-2565685131)).\n- 📦 [Blade \\- Build instant web apps with React](https://github.com/ronin-co/blade): A new opinionated React meta-framework with Server Components support, that purposefully doesn’t comply with the RSC spec.\n- 📦 [Relay 19.0 \\- `@alias` required on conditional fragments, support React 19](https://relay.dev/blog/2025/04/02/relay-19/)\n- 📦 [Mantine 8.0 \\- Updated dates package, new TimePicker, Heatmap, CodeHighlight components, nested menus and more](https://mantine.dev/changelog/8-0-0/)\n- 📦 [React Error Boundary 6.0 \\- ESM-only](https://github.com/bvaughn/react-error-boundary/releases/tag/6.0.0)\n- 📦 [React Admin 5.8 \\- InPlaceEditor, DataTable, AuthLayout, MUI v7, CSS vars, theming](https://github.com/marmelab/react-admin/releases/tag/v5.8.0)\n- 📦 [Unverceled Next.js \\- A Next.js 15 Starter Kit Deployed to Cloudflare using OpenNext](https://github.com/ixahmedxi/unverceled-nextjs)\n- 📦 [Radix UI \\- New unstable PasswordToggleField and Checkbox parts](https://www.radix-ui.com/primitives/docs/overview/releases#may-5-2025)\n- 📦 [React Router DevTools 5.0 \\- Complete overhaul of the routes tab](https://github.com/forge-42/react-router-devtools/releases/tag/v5.0.0)\n- 📦 [MUI 7.1 \\- Support for Tailwind CSS 4](https://github.com/mui/material-ui/releases/tag/v7.1.0)\n- 🎥 [Jack Herrington \\- React's New Activity Component: Huge Performance Win\\!](https://www.youtube.com/watch?v=gRKVL5w-2Lc)\n- 🎥 [Fireship \\- The growing divide among React developers…](https://www.youtube.com/watch?v=lLJbHHeFSsE)\n- 🎙️ [Front-end Fire 93 \\- React Activity, Storybook 9 Beta, and AI as a Collaborator](https://front-end-fire.com/episodes/93/)"
+      "sourceMdx": "- 💸 [Product for Engineers - What engineers get wrong about communication](https://go.posthog.com/twir-may7)\n- 👀 [Next.js Docs \\- New `runAfterProductionCompile` lifecycle hook](https://nextjs.org/docs/architecture/nextjs-compiler#runafterproductioncompile): Upcoming (unreleased) feature already documented.\n- 💬 [React Compiler oxc plugin](https://github.com/oxc-project/oxc/issues/10048): Interesting discussions between the React Compiler team and the oxc team to integrate the compiler as an oxc plugin for upcoming usage with Vite and Oxc/Rolldown. The React team suggests making it happen in 2 steps (make it work, then make it fast).\n- 🧵 [shadcn introducing the registry MCP \\- One command to make any component registry mcp-compatible.](https://threadreaderapp.com/thread/1917597228513853603.html)\n- 📜 [Functional HTML](https://overreacted.io/functional-html/): Dan gradually reinvents the HTML he wants from first principles, leading to an RSC implementation.\n- 📜 [RSC for Astro Developers](https://overreacted.io/rsc-for-astro-developers/): RSC and Astro have 2 remarkably similar mental models, but Dan exposes some interesting subtle differences. RSCs may feel less intuitive at first, but they also solve some of Astro’s limitations.\n- 📜 [The future of AI interaction: Beyond just text](https://www.epicai.pro/the-future-of-ai-interaction-beyond-just-text-w22ps): Kent argues that MCPs could have a role to play in implementing generative UIs with React Server Components. He wants the protocol to allow richer return types like html and RSC payloads.\n- 📜 [Frontends are hard](https://sst.dev/blog/frontends-are-hard): The devs at SST reflect on the challenges of self-hosting modern meta-frameworks, including React ones, that led them to start the OpenNext initiative.\n- 📜 [Add a Color Scheme Toggle in React Router](https://sergiodxa.com/tutorials/add-a-color-scheme-toggle-in-react-router): This method avoids FOUC with a cookie instead of inlined JS.\n- 📜 [Robust Data Fetching Architecture For Complex React/Next.js Apps](https://www.trevorlasn.com/blog/fetching-data-for-complex-next-and-react-apps): Suggests using 3 layers: Server Components, React Query, and Optimistic Updates.\n- 📜 [Server Components Give You Optionality](https://saewitz.com/server-components-give-you-optionality): They give flexibility to choose in which environments your components run in (Server, Server+Client, or Client) and when.\n- 📜 [How We Fell Out of Love with Next.js and Back in Love with Ruby on Rails & Inertia.js](https://hardcover.app/blog/part-1-how-we-fell-out-of-love-with-next-js-and-back-in-love-with-ruby-on-rails-inertia-js)\n- 📜 [Why Kleinanzeigen.de Picked Astro Over Next.js](https://d13z.dev/blog/07-why-kleinanzeigen-picked-astro-over-nextjs/)\n- 📜 [When You Might Need to Override the Defaults in TanStack Query](https://www.kxlaa.com/articles/when-you-might-need-to-override-the-defaults-in-tanstack-query)\n- 💸 [React.gg - The interactive way to master modern React, including new v19 modules - 30% off during launch week](https://react.gg/?ref=twir)\n- 📦 [Unhead 2.0 \\- The full stack \\<head\\> package for any framework](https://unhead.unjs.io/v2): This framework-agnostic package from the UnJS ecosystem now includes React bindings. This could be a great drop-in alternative to `react-helmet` with React 19 support if the new built-in APIs are not good enough for you (see [my comment here](https://github.com/staylor/react-helmet-async/issues/239#issuecomment-2565685131)).\n- 📦 [Blade \\- Build instant web apps with React](https://github.com/ronin-co/blade): A new opinionated React meta-framework with Server Components support, that purposefully doesn’t comply with the RSC spec.\n- 📦 [Relay 19.0 \\- `@alias` required on conditional fragments, support React 19](https://relay.dev/blog/2025/04/02/relay-19/)\n- 📦 [Mantine 8.0 \\- Updated dates package, new TimePicker, Heatmap, CodeHighlight components, nested menus and more](https://mantine.dev/changelog/8-0-0/)\n- 📦 [React Error Boundary 6.0 \\- ESM-only](https://github.com/bvaughn/react-error-boundary/releases/tag/6.0.0)\n- 📦 [React Admin 5.8 \\- InPlaceEditor, DataTable, AuthLayout, MUI v7, CSS vars, theming](https://github.com/marmelab/react-admin/releases/tag/v5.8.0)\n- 📦 [Unverceled Next.js \\- A Next.js 15 Starter Kit Deployed to Cloudflare using OpenNext](https://github.com/ixahmedxi/unverceled-nextjs)\n- 📦 [Radix UI \\- New unstable PasswordToggleField and Checkbox parts](https://www.radix-ui.com/primitives/docs/overview/releases#may-5-2025)\n- 📦 [React Router DevTools 5.0 \\- Complete overhaul of the routes tab](https://github.com/forge-42/react-router-devtools/releases/tag/v5.0.0)\n- 📦 [MUI 7.1 \\- Support for Tailwind CSS 4](https://github.com/mui/material-ui/releases/tag/v7.1.0)\n- 🎥 [Jack Herrington \\- React's New Activity Component: Huge Performance Win\\!](https://www.youtube.com/watch?v=gRKVL5w-2Lc)\n- 🎥 [Fireship \\- The growing divide among React developers…](https://www.youtube.com/watch?v=lLJbHHeFSsE)\n- 🎙️ [Front-end Fire 93 \\- React Activity, Storybook 9 Beta, and AI as a Collaborator](https://front-end-fire.com/episodes/93/)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [工程师产品 - 工程师在沟通中常犯的错误](https://go.posthog.com/twir-may7)\n- 👀 [Next.js文档 - 新增`runAfterProductionCompile`生命周期钩子](https://nextjs.org/docs/architecture/nextjs-compiler#runafterproductioncompile): 尚未发布的功能已提前文档化。\n- 💬 [React编译器oxc插件](https://github.com/oxc-project/oxc/issues/10048): React编译器团队与oxc团队就如何将编译器集成作为oxc插件进行了有趣讨论，未来计划用于Vite和Oxc/Rolldown。React团队建议分两步实现（先使其工作，再优化性能）。\n- 🧵 [shadcn推出registry MCP - 一条命令使任何组件兼容registry mcp](https://threadreaderapp.com/thread/1917597228513853603.html)\n- 📜 [函数式HTML](https://overreacted.io/functional-html/): Dan从第一性原理逐步重构出理想的HTML实现，最终导向RSC方案。\n- 📜 [面向Astro开发者的RSC](https://overreacted.io/rsc-for-astro-developers/): RSC与Astro的思维模型惊人相似，但Dan揭示了某些微妙差异。RSC初看可能不够直观，但它也解决了Astro的某些局限。\n- 📜 [AI交互的未来：超越纯文本](https://www.epicai.pro/the-future-of-ai-interaction-beyond-just-text-w22ps): Kent认为MCP协议可通过React服务端组件实现生成式UI，主张协议应支持更丰富的返回类型如html和RSC负载。\n- 📜 [前端之困](https://sst.dev/blog/frontends-are-hard): SST团队反思自托管现代元框架（含React系）的挑战，这促使他们启动OpenNext项目。\n- 📜 [在React Router中添加色彩方案切换](https://sergiodxa.com/tutorials/add-a-color-scheme-toggle-in-react-router): 该方法通过cookie而非内联JS避免无样式内容闪烁(FOUC)。\n- 📜 [复杂React/Next.js应用的健壮数据获取架构](https://www.trevorlasn.com/blog/fetching-data-for-complex-next-and-react-apps): 建议采用三层架构：服务端组件、React Query和乐观更新。\n- 📜 [服务端组件赋予选择权](https://saewitz.com/server-components-give-you-optionality): 可灵活选择组件运行环境（服务端、服务端+客户端或纯客户端）及执行时机。\n- 📜 [我们如何对Next.js由爱生厌，又重拾Ruby on Rails与Inertia.js](https://hardcover.app/blog/part-1-how-we-fell-out-of-love-with-next-js-and-back-in-love-with-ruby-on-rails-inertia-js)\n- 📜 [Kleinanzeigen.de选择Astro而非Next.js的原因](https://d13z.dev/blog/07-why-kleinanzeigen-picked-astro-over-nextjs/)\n- 📜 [何时需要覆盖TanStack Query的默认配置](https://www.kxlaa.com/articles/when-you-might-need-to-override-the-defaults-in-tanstack-query)\n- 💸 [React.gg - 包含v19新模块的交互式现代React教程 - 首发周7折优惠](https://react.gg/?ref=twir)\n- 📦 [Unhead 2.0 - 全栈\\<head\\>管理工具](https://unhead.unjs.io/v2): 这个来自UnJS生态的框架无关包现包含React绑定。若React 19内置API不满足需求，可作为`react-helmet`的替代方案（参见[此评论](https://github.com/staylor/react-helmet-async/issues/239#issuecomment-2565685131)）。\n- 📦 [Blade - 用React构建即时Web应用](https://github.com/ronin-co/blade): 新的RSC支持但故意不兼容RSC规范的React元框架。\n- 📦 [Relay 19.0 - 条件片段需用`@alias`标注，支持React 19](https://relay.dev/blog/2025/04/02/relay-19/)\n- 📦 [Mantine 8.0 - 日期库更新，新增TimePicker、Heatmap、CodeHighlight组件，支持嵌套菜单等](https://mantine.dev/changelog/8-0-0/)\n- 📦 [React Error Boundary 6.0 - 仅支持ESM](https://github.com/bvaughn/react-error-boundary/releases/tag/6.0.0)\n- 📦 [React Admin 5.8 - 新增就地编辑器、数据表格、认证布局，支持MUI v7和CSS变量主题](https://github.com/marmelab/react-admin/releases/tag/v5.8.0)\n- 📦 [Unverceled Next.js - 基于OpenNext部署到Cloudflare的Next.js 15启动套件](https://github.com/ixahmedxi/unverceled-nextjs)\n- 📦 [Radix UI - 新增实验性PasswordToggleField和Checkbox部件](https://www.radix-ui.com/primitives/docs/overview/releases#may-5-2025)\n- 📦 [React Router DevTools 5.0 - 路由标签页全面重构](https://github.com/forge-42/react-router-devtools/releases/tag/v5.0.0)\n- 📦 [MUI 7.1 - 支持Tailwind CSS 4](https://github.com/mui/material-ui/releases/tag/v7.1.0)\n- 🎥 [Jack Herrington - React新Activity组件：巨大性能提升！](https://www.youtube.com/watch?v=gRKVL5w-2Lc)\n- 🎥 [Fireship - React开发者日益加剧的分歧…](https://www.youtube.com/watch?v=lLJbHHeFSsE)\n- 🎙️ [前端之火93期 - React Activity、Storybook 9测试版及作为协作者的AI](https://front-end-fire.com/episodes/93/)"
     },
     {
       "id": "3a0902ca",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_3a0902ca"
     },
     {
       "id": "803be95a",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "d422fb13",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "f01228d3",
       "translatable": true,
       "content": "[![App Translation Simplified with Tolgee](/emails/issues/233/tolgee.jpg)](https://tolg.ee/y1z3eb)",
-      "sourceMdx": "[![App Translation Simplified with Tolgee](/emails/issues/233/tolgee.jpg)](https://tolg.ee/y1z3eb)"
+      "sourceMdx": "[![App Translation Simplified with Tolgee](/emails/issues/233/tolgee.jpg)](https://tolg.ee/y1z3eb)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Tolgee简化应用翻译](/emails/issues/233/tolgee.jpg)](https://tolg.ee/y1z3eb)"
     },
     {
       "id": "afa378f7",
       "translatable": true,
       "content": "**[App Translation Simplified with Tolgee](https://tolg.ee/y1z3eb)**",
-      "sourceMdx": "**[App Translation Simplified with Tolgee](https://tolg.ee/y1z3eb)**"
+      "sourceMdx": "**[App Translation Simplified with Tolgee](https://tolg.ee/y1z3eb)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Tolgee：简化应用翻译流程](https://tolg.ee/y1z3eb)**"
     },
     {
       "id": "e8e162a9",
       "translatable": true,
       "content": "[Tolgee](https://tolg.ee/y1z3eb) is an **open-source** tool that simplifies **localization** by saving developers time and eliminating endless spreadsheets of text to translate 🌎",
-      "sourceMdx": "[Tolgee](https://tolg.ee/y1z3eb) is an **open-source** tool that simplifies **localization** by saving developers time and eliminating endless spreadsheets of text to translate 🌎"
+      "sourceMdx": "[Tolgee](https://tolg.ee/y1z3eb) is an **open-source** tool that simplifies **localization** by saving developers time and eliminating endless spreadsheets of text to translate 🌎",
+      "nodeType": "paragraph",
+      "translated_content": "[Tolgee](https://tolg.ee/y1z3eb) 是一款**开源**工具，通过节省开发者时间并消除无休止的翻译文本电子表格，极大简化了**本地化**流程 🌎"
     },
     {
       "id": "463ed165",
       "translatable": true,
       "content": "Speed up your work now! Tolgee helps with:",
-      "sourceMdx": "Speed up your work now! Tolgee helps with:"
+      "sourceMdx": "Speed up your work now! Tolgee helps with:",
+      "nodeType": "paragraph",
+      "translated_content": "立即提升工作效率！Tolgee能帮助您："
     },
     {
       "id": "536b7b6b",
       "translatable": true,
       "content": "* Delegating translation to other team members - save the developer's time!\n* In-context translation\n* Click to translate with the browser extension\n* Get rid of unorganized spreadsheets and JSONs",
-      "sourceMdx": "- Delegating translation to other team members - save the developer's time!\n- In-context translation\n- Click to translate with the browser extension\n- Get rid of unorganized spreadsheets and JSONs"
+      "sourceMdx": "- Delegating translation to other team members - save the developer's time!\n- In-context translation\n- Click to translate with the browser extension\n- Get rid of unorganized spreadsheets and JSONs",
+      "nodeType": "list",
+      "translated_content": "- 将翻译任务分配给团队成员——节省开发者时间！\n- 上下文实时翻译\n- 使用浏览器扩展实现点击即译\n- 告别杂乱无章的电子表格和JSON文件"
     },
     {
       "id": "2547a6bb",
       "translatable": true,
       "content": "**No credit card is needed** for the free version, perfect for smaller projects! You can try all the features and integrate it into your project right away to prepare it to meet a global audience.",
-      "sourceMdx": "**No credit card is needed** for the free version, perfect for smaller projects! You can try all the features and integrate it into your project right away to prepare it to meet a global audience."
+      "sourceMdx": "**No credit card is needed** for the free version, perfect for smaller projects! You can try all the features and integrate it into your project right away to prepare it to meet a global audience.",
+      "nodeType": "paragraph",
+      "translated_content": "免费版**无需信用卡**，完美适配小型项目！您可以体验全部功能并立即集成到项目中，为迎接全球用户做好准备。"
     },
     {
       "id": "233bb60e",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "bd30d33e",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native动态 {#react-native}"
     },
     {
       "id": "6b77b644",
       "translatable": true,
       "content": "[![Expo SDK 53](/emails/issues/233/expo53.jpg)](https://expo.dev/changelog/sdk-53)",
-      "sourceMdx": "[![Expo SDK 53](/emails/issues/233/expo53.jpg)](https://expo.dev/changelog/sdk-53)"
+      "sourceMdx": "[![Expo SDK 53](/emails/issues/233/expo53.jpg)](https://expo.dev/changelog/sdk-53)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Expo SDK 53](/emails/issues/233/expo53.jpg)](https://expo.dev/changelog/sdk-53)"
     },
     {
       "id": "a311e967",
       "translatable": true,
       "content": "**[Expo SDK 53](https://expo.dev/changelog/sdk-53)**",
-      "sourceMdx": "**[Expo SDK 53](https://expo.dev/changelog/sdk-53)**"
+      "sourceMdx": "**[Expo SDK 53](https://expo.dev/changelog/sdk-53)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Expo SDK 53](https://expo.dev/changelog/sdk-53)**"
     },
     {
       "id": "eb51d107",
       "translatable": true,
       "content": "This is quite an impressive Expo release, with highlights:",
-      "sourceMdx": "This is quite an impressive Expo release, with highlights:"
+      "sourceMdx": "This is quite an impressive Expo release, with highlights:",
+      "nodeType": "paragraph",
+      "translated_content": "本次Expo更新亮点纷呈："
     },
     {
       "id": "85aeef6c",
       "translatable": true,
       "content": "* Upgrades to React Native 0.79, React 19, and RNW 0.20\n* Turns the New Arch on by default\n* Edge-to-edge on Android is enabled by default\n* New [Expo BackgroundTask](https://expo.dev/blog/goodbye-background-fetch-hello-expo-background-task), a modern, reliable, power-efficient, and future-proof way to run background tasks using Android `WorkManager` and iOS `BGTaskScheduler` system APIs\n* New [Expo Maps](https://expo.dev/blog/introducing-expo-maps-a-modern-maps-api-for-expo-developers) (alpha) built on Expo Modules API, using SwiftUI and Jetpack Compose, expose platform default Apple Maps and Google Maps components.\n* Metro `package.json#exports` resolution enabled by default\n* Deploy development builds to TestFlight with `npx testflight`\n* Improve Android build times up to 25% with prebuilt Expo Modules\n* And way more!",
-      "sourceMdx": "- Upgrades to React Native 0.79, React 19, and RNW 0.20\n- Turns the New Arch on by default\n- Edge-to-edge on Android is enabled by default\n- New [Expo BackgroundTask](https://expo.dev/blog/goodbye-background-fetch-hello-expo-background-task), a modern, reliable, power-efficient, and future-proof way to run background tasks using Android `WorkManager` and iOS `BGTaskScheduler` system APIs\n- New [Expo Maps](https://expo.dev/blog/introducing-expo-maps-a-modern-maps-api-for-expo-developers) (alpha) built on Expo Modules API, using SwiftUI and Jetpack Compose, expose platform default Apple Maps and Google Maps components.\n- Metro `package.json#exports` resolution enabled by default\n- Deploy development builds to TestFlight with `npx testflight`\n- Improve Android build times up to 25% with prebuilt Expo Modules\n- And way more\\!"
+      "sourceMdx": "- Upgrades to React Native 0.79, React 19, and RNW 0.20\n- Turns the New Arch on by default\n- Edge-to-edge on Android is enabled by default\n- New [Expo BackgroundTask](https://expo.dev/blog/goodbye-background-fetch-hello-expo-background-task), a modern, reliable, power-efficient, and future-proof way to run background tasks using Android `WorkManager` and iOS `BGTaskScheduler` system APIs\n- New [Expo Maps](https://expo.dev/blog/introducing-expo-maps-a-modern-maps-api-for-expo-developers) (alpha) built on Expo Modules API, using SwiftUI and Jetpack Compose, expose platform default Apple Maps and Google Maps components.\n- Metro `package.json#exports` resolution enabled by default\n- Deploy development builds to TestFlight with `npx testflight`\n- Improve Android build times up to 25% with prebuilt Expo Modules\n- And way more\\!",
+      "nodeType": "list",
+      "translated_content": "- 升级至React Native 0.79、React 19和RNW 0.20\n- 默认启用新架构（New Arch）\n- Android默认支持全面屏显示\n- 全新[Expo后台任务](https://expo.dev/blog/goodbye-background-fetch-hello-expo-background-task)，通过Android的`WorkManager`和iOS的`BGTaskScheduler`系统API实现现代化、可靠、节能且面向未来的后台任务执行\n- 实验性[Expo地图组件](https://expo.dev/blog/introducing-expo-maps-a-modern-maps-api-for-expo-developers)基于Expo Modules API构建，采用SwiftUI和Jetpack Compose，直接调用平台原生的Apple Maps和Google Maps组件\n- 默认启用Metro的`package.json#exports`解析功能\n- 通过`npx testflight`将开发版本部署至TestFlight\n- 使用预构建的Expo Modules提升Android构建速度最高达25%\n- 还有更多改进！"
     },
     {
       "id": "a81544fd",
       "translatable": true,
       "content": "See also the [Expo Router v5](https://expo.dev/blog/expo-router-v5) related release with its own highlights:",
-      "sourceMdx": "See also the [Expo Router v5](https://expo.dev/blog/expo-router-v5) related release with its own highlights:"
+      "sourceMdx": "See also the [Expo Router v5](https://expo.dev/blog/expo-router-v5) related release with its own highlights:",
+      "nodeType": "paragraph",
+      "translated_content": "另请参阅相关版本[Expo Router v5](https://expo.dev/blog/expo-router-v5)的亮点："
     },
     {
       "id": "5cb70a3d",
       "translatable": true,
       "content": "* Requires React 19 / Expo 53\n* Improves DX, error screen and logging, leverages React owner stacks\n* Deploy versioned API Routes in production with EAS Hosting\n* React Server Functions in beta\n* Protected routes",
-      "sourceMdx": "- Requires React 19 / Expo 53\n- Improves DX, error screen and logging, leverages React owner stacks\n- Deploy versioned API Routes in production with EAS Hosting\n- React Server Functions in beta\n- Protected routes"
+      "sourceMdx": "- Requires React 19 / Expo 53\n- Improves DX, error screen and logging, leverages React owner stacks\n- Deploy versioned API Routes in production with EAS Hosting\n- React Server Functions in beta\n- Protected routes",
+      "nodeType": "list",
+      "translated_content": "- 需配合React 19/Expo 53使用\n- 优化开发者体验，改进错误页面和日志记录，利用React owner stacks\n- 通过EAS Hosting在生产环境部署版本化API路由\n- React服务端函数进入测试阶段\n- 新增路由保护功能"
     },
     {
       "id": "55ba2007",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "396efb28",
       "translatable": true,
       "content": "[![Game On - Bringing WebGPU to React Native](/emails/issues/233/skia.jpg)](https://www.youtube.com/watch?v=t9t-VXwIc4I)",
-      "sourceMdx": "[![Game On - Bringing WebGPU to React Native](/emails/issues/233/skia.jpg)](https://www.youtube.com/watch?v=t9t-VXwIc4I)"
+      "sourceMdx": "[![Game On - Bringing WebGPU to React Native](/emails/issues/233/skia.jpg)](https://www.youtube.com/watch?v=t9t-VXwIc4I)",
+      "nodeType": "paragraph",
+      "translated_content": "[![游戏开始——将WebGPU引入React Native](/emails/issues/233/skia.jpg)](https://www.youtube.com/watch?v=t9t-VXwIc4I)"
     },
     {
       "id": "558df877",
       "translatable": true,
       "content": "**[🎥 Game On - Bringing WebGPU to React Native](https://www.youtube.com/watch?v=t9t-VXwIc4I)**",
-      "sourceMdx": "**[🎥 Game On \\- Bringing WebGPU to React Native](https://www.youtube.com/watch?v=t9t-VXwIc4I)**"
+      "sourceMdx": "**[🎥 Game On \\- Bringing WebGPU to React Native](https://www.youtube.com/watch?v=t9t-VXwIc4I)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[🎥 游戏开始——将WebGPU引入React Native](https://www.youtube.com/watch?v=t9t-VXwIc4I)**"
     },
     {
       "id": "f38d1cb0",
       "translatable": true,
       "content": "In a 37-minute video packed with exciting announcements, William Candillon and guests gave us a glimpse into the future of drawing and animation. Supported by Shopify, he’s bringing modern WebGPU support (Vulkan and Metal) to React Native.",
-      "sourceMdx": "In a 37-minute video packed with exciting announcements, William Candillon and guests gave us a glimpse into the future of drawing and animation. Supported by Shopify, he’s bringing modern WebGPU support (Vulkan and Metal) to React Native."
+      "sourceMdx": "In a 37-minute video packed with exciting announcements, William Candillon and guests gave us a glimpse into the future of drawing and animation. Supported by Shopify, he’s bringing modern WebGPU support (Vulkan and Metal) to React Native.",
+      "nodeType": "paragraph",
+      "translated_content": "在这段37分钟充满惊喜的演示视频中，William Candillon与特邀嘉宾们展示了绘图与动画技术的未来图景。在Shopify的支持下，他正为React Native带来现代WebGPU支持（Vulkan和Metal）。"
     },
     {
       "id": "5f82a1e9",
       "translatable": true,
       "content": "By aligning to the web APIs, it's possible to copy/paste existing web examples (including Three.js) and make them work on all platforms. It also enables general-purpose use of the GPU (AI, TensorFlow\\.js), which you may achieve more easily thanks to a convenient low-level TypeGPU library.",
-      "sourceMdx": "By aligning to the web APIs, it's possible to copy/paste existing web examples (including Three.js) and make them work on all platforms. It also enables general-purpose use of the GPU (AI, TensorFlow.js), which you may achieve more easily thanks to a convenient low-level TypeGPU library."
+      "sourceMdx": "By aligning to the web APIs, it's possible to copy/paste existing web examples (including Three.js) and make them work on all platforms. It also enables general-purpose use of the GPU (AI, TensorFlow.js), which you may achieve more easily thanks to a convenient low-level TypeGPU library.",
+      "nodeType": "paragraph",
+      "translated_content": "通过对接Web API，可以直接复制/粘贴现有Web示例（包括Three.js）并在全平台运行。同时支持GPU通用计算（AI、TensorFlow.js），借助便捷的底层TypeGPU库更易实现。"
     },
     {
       "id": "6fc234cf",
       "translatable": true,
       "content": "All this work was needed to create a new experimental Skia Graphite backend based on WebGPU. It enables composing and interleaving 2D/3D experiences in a performant way, like on the web, but across all platforms, with full Reanimated integration. Along the way, Skia doesn’t come with any new feature, but has significantly improved performance, reduced, crashes, and supports 3 new platforms: tvOS, macOS and Node. Keep massaging that octopus William!",
-      "sourceMdx": "All this work was needed to create a new experimental Skia Graphite backend based on WebGPU. It enables composing and interleaving 2D/3D experiences in a performant way, like on the web, but across all platforms, with full Reanimated integration. Along the way, Skia doesn’t come with any new feature, but has significantly improved performance, reduced, crashes, and supports 3 new platforms: tvOS, macOS and Node. Keep massaging that octopus William\\!"
+      "sourceMdx": "All this work was needed to create a new experimental Skia Graphite backend based on WebGPU. It enables composing and interleaving 2D/3D experiences in a performant way, like on the web, but across all platforms, with full Reanimated integration. Along the way, Skia doesn’t come with any new feature, but has significantly improved performance, reduced, crashes, and supports 3 new platforms: tvOS, macOS and Node. Keep massaging that octopus William\\!",
+      "nodeType": "paragraph",
+      "translated_content": "所有这些工作都是为了创建基于WebGPU的实验性Skia Graphite后端。它能像Web端一样跨平台高性能地组合2D/3D场景，并完全支持Reanimated集成。在此过程中，Skia虽未新增功能，但显著提升了性能、减少了崩溃，并新增支持三大平台：tvOS、macOS和Node。继续驯服那只章鱼吧William！"
     },
     {
       "id": "714b728f",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "cd2fd2f2",
       "translatable": true,
       "content": "* 💸 [React Universe Conf 2025 adds new speakers: V. Morozov & K. Hosany (Microsoft), K. Hansen (MongoDB), Z. Chapple (Zephyr Cloud) and more.](https://www.reactuniverseconf.com/?utm_campaign=7310698-RUC%202025\\&utm_source=TWIR\\&utm_content=New%20Speakers)\n* ⚖️ [Epic Games Wins Major Victory as Apple is Ordered to Comply With App Store Anti-Steering Injunction](https://www.macrumors.com/2025/04/30/apple-app-store-anti-steering-injunction-violation/): A court judged that Apple purposefully did not comply with a former injunction to let apps use alternative payment methods and bypass the 30% fee on in-app purchases. “For this Court, there is no second bite at the apple”. A major event for the mobile industry that enables Fortnite to return, the Kindle app to finally sell e-books directly, and new business models. Check [Expo](https://expo.dev/blog/mobile-app-payment-processing-best-practices) and [Vercel](https://vercel.com/blog/ios-developers-can-now-offer-commission-free-payments-on-web) guides and starters to avoid the fee.\n* 👀 [React Core PR - Add Fragment Refs to Fabric with intersection observer support](https://github.com/facebook/react/pull/33056): The recent React Labs post briefly mentioned an upcoming [Fragment Refs](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more#fragment-refs) feature. It looks like in the future we’ll be able to use a web-like IntersectionObserver to know when a React fragment enters the screen. Still research/work-in-progress, but exciting new features ahead.\n* 👀 [Reanimated PR - Shared Elements Transitions on the New Architecture](https://github.com/software-mansion/react-native-reanimated/pull/7466): Exciting draft PR from Software Mansion that plans to stabilize Shared Elements Transitions for the New Architecture (that enables sharing C++ code between platforms).\n* 📜 [Sirens, Sagas, and Stack Traces: A React Native Upgrade Odyssey](https://shift.infinite.red/sirens-sagas-and-stack-traces-a-react-native-upgrade-odyssey-52db6beb0aac)\n* 🔨 [Package Checker - Check for New Architecture compatibility](https://react-native-package-checker.vercel.app/)\n* 📦 [Compose Multiplatform 1.8 - Compose Multiplatform for iOS Is Stable and Production-Ready](https://blog.jetbrains.com/kotlin/2025/05/compose-multiplatform-1-8-0-released-compose-multiplatform-for-ios-is-stable-and-production-ready/): The cross-platform UI toolkit from JetBrains enables code sharing between iOS and Android. Unlike React Native, the iOS (and web) support is based on Skia, not using UIKit native elements.\n* 📦 [Zustand 5.0.4 + Jotai 2.12.4](https://github.com/pmndrs/jotai/discussions/3041): Fixing an incompatibility issue with RN 0.79 / Expo 53 / Metro 0.82.\n* 📦 [Nitro Audio Manager - Nitro module for AVAudioSession/AudioManager APIs](https://github.com/ChristopherGabba/react-native-nitro-audio-manager)\n* 📦 [Expo Build Disk Cache - A plugin for Expo CLI to improve build time](https://github.com/WookieFPV/expo-build-disk-cache)\n* 📦 [Expo App Template - Modern, sensible defaults and fast Expo app template](https://github.com/nkzw-tech/expo-app-template)\n* 🎥 [Jamon Holmgren - How to build a Mac app with React Native for macOS](https://www.youtube.com/watch?v=0h-owMCfy5s)\n* 🎥 [React Universe Meetup - 3 new videos from April: Polygen, File-based router, native feel](https://www.youtube.com/playlist?list=PLZ3MwD-soTTEFaxmATqOTcitPEK5iaz1z)\n* 🎥 [Simon Grimm - Finally React Native UI Components (Expo 53)](http://youtube.com/watch?v=kGUrNO8WmCU)\n* 🎙️ [React Native Radio 330 - and Accessibility with Karly Lamm](https://infinite.red/react-native-radio/rnr-330-react-native-and-accessibility-with-karly-lamm)\n* 🎙️ [Rocket Ship 67 - Quitting RN, React Compiler, Legend List & RN Performance](https://share.transistor.fm/s/18111ecc)",
-      "sourceMdx": "- 💸 [React Universe Conf 2025 adds new speakers: V. Morozov & K. Hosany (Microsoft), K. Hansen (MongoDB), Z. Chapple (Zephyr Cloud) and more.](https://www.reactuniverseconf.com/?utm_campaign=7310698-RUC%202025&utm_source=TWIR&utm_content=New%20Speakers)\n- ⚖️ [Epic Games Wins Major Victory as Apple is Ordered to Comply With App Store Anti-Steering Injunction](https://www.macrumors.com/2025/04/30/apple-app-store-anti-steering-injunction-violation/): A court judged that Apple purposefully did not comply with a former injunction to let apps use alternative payment methods and bypass the 30% fee on in-app purchases. “For this Court, there is no second bite at the apple”. A major event for the mobile industry that enables Fortnite to return, the Kindle app to finally sell e-books directly, and new business models. Check [Expo](https://expo.dev/blog/mobile-app-payment-processing-best-practices) and [Vercel](https://vercel.com/blog/ios-developers-can-now-offer-commission-free-payments-on-web) guides and starters to avoid the fee.\n- 👀 [React Core PR \\- Add Fragment Refs to Fabric with intersection observer support](https://github.com/facebook/react/pull/33056): The recent React Labs post briefly mentioned an upcoming [Fragment Refs](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more#fragment-refs) feature. It looks like in the future we’ll be able to use a web-like IntersectionObserver to know when a React fragment enters the screen. Still research/work-in-progress, but exciting new features ahead.\n- 👀 [Reanimated PR \\- Shared Elements Transitions on the New Architecture](https://github.com/software-mansion/react-native-reanimated/pull/7466): Exciting draft PR from Software Mansion that plans to stabilize Shared Elements Transitions for the New Architecture (that enables sharing C++ code between platforms).\n- 📜 [Sirens, Sagas, and Stack Traces: A React Native Upgrade Odyssey](https://shift.infinite.red/sirens-sagas-and-stack-traces-a-react-native-upgrade-odyssey-52db6beb0aac)\n- 🔨 [Package Checker \\- Check for New Architecture compatibility](https://react-native-package-checker.vercel.app/)\n- 📦 [Compose Multiplatform 1.8 \\- Compose Multiplatform for iOS Is Stable and Production-Ready](https://blog.jetbrains.com/kotlin/2025/05/compose-multiplatform-1-8-0-released-compose-multiplatform-for-ios-is-stable-and-production-ready/): The cross-platform UI toolkit from JetBrains enables code sharing between iOS and Android. Unlike React Native, the iOS (and web) support is based on Skia, not using UIKit native elements.\n- 📦 [Zustand 5.0.4 \\+ Jotai 2.12.4](https://github.com/pmndrs/jotai/discussions/3041): Fixing an incompatibility issue with RN 0.79 / Expo 53 / Metro 0.82.\n- 📦 [Nitro Audio Manager \\- Nitro module for AVAudioSession/AudioManager APIs](https://github.com/ChristopherGabba/react-native-nitro-audio-manager)\n- 📦 [Expo Build Disk Cache \\- A plugin for Expo CLI to improve build time](https://github.com/WookieFPV/expo-build-disk-cache)\n- 📦 [Expo App Template \\- Modern, sensible defaults and fast Expo app template](https://github.com/nkzw-tech/expo-app-template)\n- 🎥 [Jamon Holmgren \\- How to build a Mac app with React Native for macOS](https://www.youtube.com/watch?v=0h-owMCfy5s)\n- 🎥 [React Universe Meetup \\- 3 new videos from April: Polygen, File-based router, native feel](https://www.youtube.com/playlist?list=PLZ3MwD-soTTEFaxmATqOTcitPEK5iaz1z)\n- 🎥 [Simon Grimm \\- Finally React Native UI Components (Expo 53\\)](http://youtube.com/watch?v=kGUrNO8WmCU)\n- 🎙️ [React Native Radio 330 \\- and Accessibility with Karly Lamm](https://infinite.red/react-native-radio/rnr-330-react-native-and-accessibility-with-karly-lamm)\n- 🎙️ [Rocket Ship 67 \\- Quitting RN, React Compiler, Legend List & RN Performance](https://share.transistor.fm/s/18111ecc)"
+      "sourceMdx": "- 💸 [React Universe Conf 2025 adds new speakers: V. Morozov & K. Hosany (Microsoft), K. Hansen (MongoDB), Z. Chapple (Zephyr Cloud) and more.](https://www.reactuniverseconf.com/?utm_campaign=7310698-RUC%202025&utm_source=TWIR&utm_content=New%20Speakers)\n- ⚖️ [Epic Games Wins Major Victory as Apple is Ordered to Comply With App Store Anti-Steering Injunction](https://www.macrumors.com/2025/04/30/apple-app-store-anti-steering-injunction-violation/): A court judged that Apple purposefully did not comply with a former injunction to let apps use alternative payment methods and bypass the 30% fee on in-app purchases. “For this Court, there is no second bite at the apple”. A major event for the mobile industry that enables Fortnite to return, the Kindle app to finally sell e-books directly, and new business models. Check [Expo](https://expo.dev/blog/mobile-app-payment-processing-best-practices) and [Vercel](https://vercel.com/blog/ios-developers-can-now-offer-commission-free-payments-on-web) guides and starters to avoid the fee.\n- 👀 [React Core PR \\- Add Fragment Refs to Fabric with intersection observer support](https://github.com/facebook/react/pull/33056): The recent React Labs post briefly mentioned an upcoming [Fragment Refs](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more#fragment-refs) feature. It looks like in the future we’ll be able to use a web-like IntersectionObserver to know when a React fragment enters the screen. Still research/work-in-progress, but exciting new features ahead.\n- 👀 [Reanimated PR \\- Shared Elements Transitions on the New Architecture](https://github.com/software-mansion/react-native-reanimated/pull/7466): Exciting draft PR from Software Mansion that plans to stabilize Shared Elements Transitions for the New Architecture (that enables sharing C++ code between platforms).\n- 📜 [Sirens, Sagas, and Stack Traces: A React Native Upgrade Odyssey](https://shift.infinite.red/sirens-sagas-and-stack-traces-a-react-native-upgrade-odyssey-52db6beb0aac)\n- 🔨 [Package Checker \\- Check for New Architecture compatibility](https://react-native-package-checker.vercel.app/)\n- 📦 [Compose Multiplatform 1.8 \\- Compose Multiplatform for iOS Is Stable and Production-Ready](https://blog.jetbrains.com/kotlin/2025/05/compose-multiplatform-1-8-0-released-compose-multiplatform-for-ios-is-stable-and-production-ready/): The cross-platform UI toolkit from JetBrains enables code sharing between iOS and Android. Unlike React Native, the iOS (and web) support is based on Skia, not using UIKit native elements.\n- 📦 [Zustand 5.0.4 \\+ Jotai 2.12.4](https://github.com/pmndrs/jotai/discussions/3041): Fixing an incompatibility issue with RN 0.79 / Expo 53 / Metro 0.82.\n- 📦 [Nitro Audio Manager \\- Nitro module for AVAudioSession/AudioManager APIs](https://github.com/ChristopherGabba/react-native-nitro-audio-manager)\n- 📦 [Expo Build Disk Cache \\- A plugin for Expo CLI to improve build time](https://github.com/WookieFPV/expo-build-disk-cache)\n- 📦 [Expo App Template \\- Modern, sensible defaults and fast Expo app template](https://github.com/nkzw-tech/expo-app-template)\n- 🎥 [Jamon Holmgren \\- How to build a Mac app with React Native for macOS](https://www.youtube.com/watch?v=0h-owMCfy5s)\n- 🎥 [React Universe Meetup \\- 3 new videos from April: Polygen, File-based router, native feel](https://www.youtube.com/playlist?list=PLZ3MwD-soTTEFaxmATqOTcitPEK5iaz1z)\n- 🎥 [Simon Grimm \\- Finally React Native UI Components (Expo 53\\)](http://youtube.com/watch?v=kGUrNO8WmCU)\n- 🎙️ [React Native Radio 330 \\- and Accessibility with Karly Lamm](https://infinite.red/react-native-radio/rnr-330-react-native-and-accessibility-with-karly-lamm)\n- 🎙️ [Rocket Ship 67 \\- Quitting RN, React Compiler, Legend List & RN Performance](https://share.transistor.fm/s/18111ecc)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [React Universe Conf 2025新增演讲嘉宾：微软的V. Morozov和K. Hosany、MongoDB的K. Hansen、Zephyr Cloud的Z. Chapple等](https://www.reactuniverseconf.com/?utm_campaign=7310698-RUC%202025&utm_source=TWIR&utm_content=New%20Speakers)\n- ⚖️ [Epic Games重大胜诉：法院命令苹果遵守应用商店反规避禁令](https://www.macrumors.com/2025/04/30/apple-app-store-anti-steering-injunction-violation/)：法院认定苹果蓄意不执行先前禁令，该禁令允许应用使用替代支付方式绕过30%内购抽成。\"本院不会给苹果第二次机会\"。这一里程碑事件使得《堡垒之夜》重返iOS、Kindle应用终于能直接销售电子书，并催生新商业模式。可参考[Expo](https://expo.dev/blog/mobile-app-payment-processing-best-practices)和[Vercel](https://vercel.com/blog/ios-developers-can-now-offer-commission-free-payments-on-web)的指南与入门模板来规避抽成。\n- 👀 [React核心PR：为Fabric添加Fragment Refs并支持交叉观察器](https://github.com/facebook/react/pull/33056)：近期React Labs博文简要提及即将推出的[Fragment Refs](https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more#fragment-refs)功能。未来或将支持类似Web的IntersectionObserver来检测React片段何时进入视窗。目前仍处于研究阶段，但前景令人期待。\n- 👀 [Reanimated PR：新架构下的共享元素转场](https://github.com/software-mansion/react-native-reanimated/pull/7466)：来自Software Mansion的草案PR计划在新架构（支持跨平台共享C++代码）中稳定共享元素转场功能。\n- 📜 [警笛、Saga与调用栈：React Native升级奥德赛](https://shift.infinite.red/sirens-sagas-and-stack-traces-a-react-native-upgrade-odyssey-52db6beb0aac)\n- 🔨 [包兼容性检查器：检测新架构适配性](https://react-native-package-checker.vercel.app/)\n- 📦 [Compose Multiplatform 1.8发布：iOS版进入稳定生产阶段](https://blog.jetbrains.com/kotlin/2025/05/compose-multiplatform-1-8-0-released-compose-multiplatform-for-ios-is-stable-and-production-ready/)：JetBrains的跨平台UI工具链现支持iOS与Android代码共享。与React Native不同，其iOS（及Web）支持基于Skia而非UIKit原生组件。\n- 📦 [Zustand 5.0.4与Jotai 2.12.4更新](https://github.com/pmndrs/jotai/discussions/3041)：修复与RN 0.79/Expo 53/Metro 0.82的兼容性问题。\n- 📦 [Nitro音频管理器：AVAudioSession/AudioManager API的Nitro模块](https://github.com/ChristopherGabba/react-native-nitro-audio-manager)\n- 📦 [Expo构建磁盘缓存：提升构建速度的Expo CLI插件](https://github.com/WookieFPV/expo-build-disk-cache)\n- 📦 [Expo应用模板：现代化、合理默认配置的快速启动模板](https://github.com/nkzw-tech/expo-app-template)\n- 🎥 [Jamon Holmgren：如何使用React Native for macOS构建Mac应用](https://www.youtube.com/watch?v=0h-owMCfy5s)\n- 🎥 [React Universe Meetup：四月新增3个视频（Polygen、基于文件的路由、原生体验）](https://www.youtube.com/playlist?list=PLZ3MwD-soTTEFaxmATqOTcitPEK5iaz1z)\n- 🎥 [Simon Grimm：终于等到React Native UI组件（Expo 53）](http://youtube.com/watch?v=kGUrNO8WmCU)\n- 🎙️ [React Native Radio第330期：与Karly Lamm探讨无障碍功能](https://infinite.red/react-native-radio/rnr-330-react-native-and-accessibility-with-karly-lamm)\n- 🎙️ [Rocket Ship第67期：告别RN、React编译器、传奇列表与RN性能](https://share.transistor.fm/s/18111ecc)"
     },
     {
       "id": "f97c407b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "3cd8185f",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他动态 {#other}"
     },
     {
       "id": "a627a446",
       "translatable": true,
       "content": "* 👀 [TypeScript 5.9 Iteration Plan](https://github.com/microsoft/TypeScript/issues/61648)\n* 📖 [Node.js Docs - Publishing a package](https://nodejs.org/en/learn/modules/publishing-a-package): A new official guide that also covers ESM/CJS subtleties.\n* 📜 [Converting values to strings in JavaScript has pitfalls](https://2ality.com/2025/04/stringification-javascript.html)\n* 📜 [Seeking an Answer: Why can’t HTML alone do includes?](https://frontendmasters.com/blog/seeking-an-answer-why-cant-html-alone-do-includes/)\n* 📦 [Node 24.0](https://nodejs.org/en/blog/release/v24.0.0): The new Node.js version is out and set to become LTS in October, including npm 11, `AsyncLocalStorage` perf improvements, the `URLPattern` API and a major V8 upgrade to v13.6 that unlocks cool new JS APIs such as Explicit Resource Management (`using`) or `RegExp.escape()` (which is now [available everywhere](https://web-platform-dx.github.io/web-features-explorer/features/regexp-escape/)).\n* 📦 [GSAP 3.13 - JS animations library - Now 100% free, including all plugins](https://gsap.com/blog/3-13/)\n* 📦 [Deno 2.3 - Improved deno compile, local npm packages, deno fmt in tagged templates, and more](https://deno.com/blog/v2.3)\n* 📦 [Prisma 6.7 - ORM without Rust, multi-file schemas](https://github.com/prisma/prisma/releases/tag/6.7.0)",
-      "sourceMdx": "- 👀 [TypeScript 5.9 Iteration Plan](https://github.com/microsoft/TypeScript/issues/61648)\n- 📖 [Node.js Docs \\- Publishing a package](https://nodejs.org/en/learn/modules/publishing-a-package): A new official guide that also covers ESM/CJS subtleties.\n- 📜 [Converting values to strings in JavaScript has pitfalls](https://2ality.com/2025/04/stringification-javascript.html)\n- 📜 [Seeking an Answer: Why can’t HTML alone do includes?](https://frontendmasters.com/blog/seeking-an-answer-why-cant-html-alone-do-includes/)\n- 📦 [Node 24.0](https://nodejs.org/en/blog/release/v24.0.0): The new Node.js version is out and set to become LTS in October, including npm 11, `AsyncLocalStorage` perf improvements, the `URLPattern` API and a major V8 upgrade to v13.6 that unlocks cool new JS APIs such as Explicit Resource Management (`using`) or `RegExp.escape()` (which is now [available everywhere](https://web-platform-dx.github.io/web-features-explorer/features/regexp-escape/)).\n- 📦 [GSAP 3.13 \\- JS animations library \\- Now 100% free, including all plugins](https://gsap.com/blog/3-13/)\n- 📦 [Deno 2.3 \\- Improved deno compile, local npm packages, deno fmt in tagged templates, and more](https://deno.com/blog/v2.3)\n- 📦 [Prisma 6.7 \\- ORM without Rust, multi-file schemas](https://github.com/prisma/prisma/releases/tag/6.7.0)"
+      "sourceMdx": "- 👀 [TypeScript 5.9 Iteration Plan](https://github.com/microsoft/TypeScript/issues/61648)\n- 📖 [Node.js Docs \\- Publishing a package](https://nodejs.org/en/learn/modules/publishing-a-package): A new official guide that also covers ESM/CJS subtleties.\n- 📜 [Converting values to strings in JavaScript has pitfalls](https://2ality.com/2025/04/stringification-javascript.html)\n- 📜 [Seeking an Answer: Why can’t HTML alone do includes?](https://frontendmasters.com/blog/seeking-an-answer-why-cant-html-alone-do-includes/)\n- 📦 [Node 24.0](https://nodejs.org/en/blog/release/v24.0.0): The new Node.js version is out and set to become LTS in October, including npm 11, `AsyncLocalStorage` perf improvements, the `URLPattern` API and a major V8 upgrade to v13.6 that unlocks cool new JS APIs such as Explicit Resource Management (`using`) or `RegExp.escape()` (which is now [available everywhere](https://web-platform-dx.github.io/web-features-explorer/features/regexp-escape/)).\n- 📦 [GSAP 3.13 \\- JS animations library \\- Now 100% free, including all plugins](https://gsap.com/blog/3-13/)\n- 📦 [Deno 2.3 \\- Improved deno compile, local npm packages, deno fmt in tagged templates, and more](https://deno.com/blog/v2.3)\n- 📦 [Prisma 6.7 \\- ORM without Rust, multi-file schemas](https://github.com/prisma/prisma/releases/tag/6.7.0)",
+      "nodeType": "list",
+      "translated_content": "- 👀 [TypeScript 5.9 迭代计划](https://github.com/microsoft/TypeScript/issues/61648)\n- 📖 [Node.js 文档 - 发布包](https://nodejs.org/en/learn/modules/publishing-a-package): 新官方指南，涵盖ESM/CJS的微妙差异。\n- 📜 [JavaScript中将值转换为字符串的陷阱](https://2ality.com/2025/04/stringification-javascript.html)\n- 📜 [寻求答案：为什么HTML不能单独实现包含功能？](https://frontendmasters.com/blog/seeking-an-answer-why-cant-html-alone-do-includes/)\n- 📦 [Node 24.0](https://nodejs.org/en/blog/release/v24.0.0): 新版Node.js发布并将于10月成为LTS版本，包含npm 11、`AsyncLocalStorage`性能改进、`URLPattern` API以及V8升级至v13.6，支持新JS API如显式资源管理(`using`)和`RegExp.escape()`（现已[全面可用](https://web-platform-dx.github.io/web-features-explorer/features/regexp-escape/)）。\n- 📦 [GSAP 3.13 - JS动画库 - 现在100%免费，包括所有插件](https://gsap.com/blog/3-13/)\n- 📦 [Deno 2.3 - 改进的deno compile、本地npm包、标记模板中的deno fmt等](https://deno.com/blog/v2.3)\n- 📦 [Prisma 6.7 - 无需Rust的ORM，支持多文件模式](https://github.com/prisma/prisma/releases/tag/6.7.0)"
     },
     {
       "id": "c7daeccd",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "d4eab4a6",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 趣闻 {#fun}"
     },
     {
       "id": "0ddaa835",
       "translatable": true,
       "content": "[![alt](/emails/issues/233/meme.jpg)](https://x.com/sebastienlorber/status/1920045489371951117)",
-      "sourceMdx": "[![alt](/emails/issues/233/meme.jpg)](https://x.com/sebastienlorber/status/1920045489371951117)"
+      "sourceMdx": "[![alt](/emails/issues/233/meme.jpg)](https://x.com/sebastienlorber/status/1920045489371951117)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/233/meme.jpg)](https://x.com/sebastienlorber/status/1920045489371951117)"
     },
     {
       "id": "fd7ed056",
       "translatable": true,
       "content": "[![alt](/emails/issues/233/meme2.jpg)](https://x.com/kzzzf/status/1920091355868520557)",
-      "sourceMdx": "[![alt](/emails/issues/233/meme2.jpg)](https://x.com/kzzzf/status/1920091355868520557)"
+      "sourceMdx": "[![alt](/emails/issues/233/meme2.jpg)](https://x.com/kzzzf/status/1920091355868520557)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/233/meme2.jpg)](https://x.com/kzzzf/status/1920091355868520557)"
     },
     {
       "id": "b08ad0b4",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下次见！👋"
     }
   ]
 }

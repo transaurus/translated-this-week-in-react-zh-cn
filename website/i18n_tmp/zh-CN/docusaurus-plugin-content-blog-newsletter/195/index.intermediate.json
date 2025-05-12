@@ -1,269 +1,357 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/195/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/195/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /195\ntitle: \"This Week In React #195: Compiler, Refactoring components, XState Store, Next.js, Redwood, Vitale, Astro, LLMs, Astro, Dédale, XR, tldraw, RN + Amazon, RN new styles, Gesture Handler, Reanimated, TC39, Node, TypeScript...\"\nauthors: [slorber]\ndate: 08-07-2024\n---",
-      "sourceMdx": "---\nslug: /195\ntitle: \"This Week In React #195: Compiler, Refactoring components, XState Store, Next.js, Redwood, Vitale, Astro, LLMs, Astro, Dédale, XR, tldraw, RN + Amazon, RN new styles, Gesture Handler, Reanimated, TC39, Node, TypeScript...\"\nauthors: [slorber]\ndate: 08-07-2024\n---"
+      "sourceMdx": "---\nslug: /195\ntitle: \"This Week In React #195: Compiler, Refactoring components, XState Store, Next.js, Redwood, Vitale, Astro, LLMs, Astro, Dédale, XR, tldraw, RN + Amazon, RN new styles, Gesture Handler, Reanimated, TC39, Node, TypeScript...\"\nauthors: [slorber]\ndate: 08-07-2024\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "Another calm week in the React world. No huge announcement, but many great community articles to read.",
-      "sourceMdx": "Another calm week in the React world. No huge announcement, but many great community articles to read."
+      "sourceMdx": "Another calm week in the React world. No huge announcement, but many great community articles to read.",
+      "nodeType": "paragraph",
+      "translated_content": "React生态圈度过了平静的一周。虽然没有重磅公告，但社区涌现了许多优质技术文章值得阅读。"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "Node.js v22.6 is out with experimental TypeScript support! 🎉",
-      "sourceMdx": "Node.js v22.6 is out with experimental TypeScript support! 🎉"
+      "sourceMdx": "Node.js v22.6 is out with experimental TypeScript support! 🎉",
+      "nodeType": "paragraph",
+      "translated_content": "Node.js v22.6版本发布，带来了实验性TypeScript支持！🎉"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "Check our partner [React Universe Conf](https://www.reactuniverseconf.com/?utm_source=thisweekinreact) (🇵🇱 Wrocław - Sept 5-6), formerly named React Native EU. Get a 10% discount with code \"TWIR\". They really have a stunning speakers lineup this year!",
-      "sourceMdx": "Check our partner [React Universe Conf](https://www.reactuniverseconf.com/?utm_source=thisweekinreact) (🇵🇱 Wrocław - Sept 5-6), formerly named React Native EU. Get a 10% discount with code \"TWIR\". They really have a stunning speakers lineup this year!"
+      "sourceMdx": "Check our partner [React Universe Conf](https://www.reactuniverseconf.com/?utm_source=thisweekinreact) (🇵🇱 Wrocław - Sept 5-6), formerly named React Native EU. Get a 10% discount with code \"TWIR\". They really have a stunning speakers lineup this year!",
+      "nodeType": "paragraph",
+      "translated_content": "欢迎关注我们的合作伙伴[React Universe Conf](https://www.reactuniverseconf.com/?utm_source=thisweekinreact)（🇵🇱 波兰弗罗茨瓦夫 - 9月5-6日），前身为React Native EU大会。使用优惠码\"TWIR\"可享9折。今年的演讲嘉宾阵容堪称惊艳！"
     },
     {
       "id": "6429a3aa",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_6429a3aa"
     },
     {
       "id": "39b3772c",
       "translatable": true,
       "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
-      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "nodeType": "paragraph",
+      "translated_content": "**💡 [在Twitter上浏览本期简报](https://slo.im/thread) - 可视化排版 🎨**"
     },
     {
       "id": "507b4652",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "fcd52337",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_fcd52337"
     },
     {
       "id": "42e34e45",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_42e34e45"
     },
     {
       "id": "caf67047",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "3c36424c",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "26524352",
       "translatable": true,
       "content": "[![WorkOS: Modern Identity Platform for B2B SaaS](/emails/issues/195/workOS.jpg)](https://workos.com/?utm_source=thisweekinreact\\&utm_medium=newsletter\\&utm_campaign=q32024)",
-      "sourceMdx": "[![WorkOS: Modern Identity Platform for B2B SaaS](/emails/issues/195/workOS.jpg)](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)"
+      "sourceMdx": "[![WorkOS: Modern Identity Platform for B2B SaaS](/emails/issues/195/workOS.jpg)](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)",
+      "nodeType": "paragraph",
+      "translated_content": "[![WorkOS：面向B2B SaaS的现代身份平台](/emails/issues/195/workOS.jpg)](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)"
     },
     {
       "id": "73ab96a3",
       "translatable": true,
       "content": "**[WorkOS: Modern Identity Platform for B2B SaaS](https://workos.com/?utm_source=thisweekinreact\\&utm_medium=newsletter\\&utm_campaign=q32024)**",
-      "sourceMdx": "**[WorkOS: Modern Identity Platform for B2B SaaS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)**"
+      "sourceMdx": "**[WorkOS: Modern Identity Platform for B2B SaaS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[WorkOS：面向B2B SaaS的现代身份平台](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)**"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "With WorkOS you can start selling to enterprises with just a few lines of code.",
-      "sourceMdx": "With WorkOS you can start selling to enterprises with just a few lines of code."
+      "sourceMdx": "With WorkOS you can start selling to enterprises with just a few lines of code.",
+      "nodeType": "paragraph",
+      "translated_content": "通过WorkOS，仅需几行代码即可开启企业级销售。"
     },
     {
       "id": "517051a7",
       "translatable": true,
       "content": "🔐 WorkOS AuthKit supports a complete user management solution along with **SSO, SCIM, RBAC, & FGA**.",
-      "sourceMdx": "🔐 WorkOS AuthKit supports a complete user management solution along with **SSO, SCIM, RBAC, & FGA**."
+      "sourceMdx": "🔐 WorkOS AuthKit supports a complete user management solution along with **SSO, SCIM, RBAC, & FGA**.",
+      "nodeType": "paragraph",
+      "translated_content": "🔐 WorkOS AuthKit提供完整的用户管理方案，支持**单点登录(SSO)、跨域身份管理(SCIM)、基于角色的访问控制(RBAC)和细粒度授权(FGA)**。"
     },
     {
       "id": "135468ee",
       "translatable": true,
       "content": "🏗️ The APIs are **flexible, easy-to-use, and modular**. Pick and choose what you need and integrate in minutes.",
-      "sourceMdx": "🏗️ The APIs are **flexible, easy-to-use, and modular**. Pick and choose what you need and integrate in minutes."
+      "sourceMdx": "🏗️ The APIs are **flexible, easy-to-use, and modular**. Pick and choose what you need and integrate in minutes.",
+      "nodeType": "paragraph",
+      "translated_content": "🏗️ API设计**灵活易用且模块化**，按需选用，分钟级集成。"
     },
     {
       "id": "33331f27",
       "translatable": true,
       "content": "🎨 Design and user experience are everything. From the quality of our documentation to how your users onboard, we **remove all the unnecessary complexity for developers**.",
-      "sourceMdx": "🎨 Design and user experience are everything. From the quality of our documentation to how your users onboard, we **remove all the unnecessary complexity for developers**."
+      "sourceMdx": "🎨 Design and user experience are everything. From the quality of our documentation to how your users onboard, we **remove all the unnecessary complexity for developers**.",
+      "nodeType": "paragraph",
+      "translated_content": "🎨 用户体验至上。从文档质量到用户引导流程，我们**为开发者消除所有不必要的复杂性**。"
     },
     {
       "id": "50746522",
       "translatable": true,
       "content": "✨ AuthKit is **free up to 1 million MAUs** and includes bot protection, MFA, RBAC, & more.",
-      "sourceMdx": "✨ AuthKit is **free up to 1 million MAUs** and includes bot protection, MFA, RBAC, & more."
+      "sourceMdx": "✨ AuthKit is **free up to 1 million MAUs** and includes bot protection, MFA, RBAC, & more.",
+      "nodeType": "paragraph",
+      "translated_content": "✨ AuthKit**免费支持100万月活用户**，包含机器人防护、多因素认证(MFA)、基于角色的访问控制等功能。"
     },
     {
       "id": "95e9ba12",
       "translatable": true,
       "content": "🤝 WorkOS is trusted by hundreds of leading startups like **Perplexity**, **Vercel**, & **Webflow**.",
-      "sourceMdx": "🤝 WorkOS is trusted by hundreds of leading startups like **Perplexity**, **Vercel**, & **Webflow**."
+      "sourceMdx": "🤝 WorkOS is trusted by hundreds of leading startups like **Perplexity**, **Vercel**, & **Webflow**.",
+      "nodeType": "paragraph",
+      "translated_content": "🤝 WorkOS已获**Perplexity**、**Vercel**和**Webflow**等数百家领先初创企业信赖。"
     },
     {
       "id": "8af76f3d",
       "translatable": true,
       "content": "[Get started with WorkOS](https://workos.com/?utm_source=thisweekinreact\\&utm_medium=newsletter\\&utm_campaign=q32024) 🚀",
-      "sourceMdx": "[Get started with WorkOS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024) 🚀"
+      "sourceMdx": "[Get started with WorkOS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024) 🚀",
+      "nodeType": "paragraph",
+      "translated_content": "[立即体验WorkOS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024) 🚀"
     },
     {
       "id": "406f2538",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "6d28a77c",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React动态 {#react}"
     },
     {
       "id": "b4ef1e56",
       "translatable": true,
       "content": "* 💸 [Reactile – a new approach to React-based web apps. Create your own views. Let it handle your windows and widgets in a single browser tab](https://www.reactile.net/?utm_source=reactnewsletter)\n* 🐦 [Zuckerberg calling out React as one of Meta’s major open source initiatives](https://x.com/Vjeux/status/1818766264833392763)\n* 🐦 [Visual editing with ReactBricks using RSC](https://x.com/rauchg/status/1819383553668370440)\n* 📖 [Revised ”Redux Essentials\" tutorial](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)\n* 🗓️ [React-Africa](https://react-africa.com/?utm_source=thisweekinreact) - 🇲🇦 Casablanca - 29 November - Line up is online, check, and apply a 10% discount on tickets with code TWIR !\n* 📜 [React Compiler, How Does It Work?](https://yongseok.me/blog/en/react_compiler_1/): A 4-part series going really deep on the React Compiler code, explaining the Babel Plugin, useMemoCache, HIR/SSA transformations. That’s a lot of implementation details to read, and very technical, but there are also great overviews that describe the main algorithms at the end of each post. It operates on individual functions, with an AST “lowered” to a Hight-level Intermediate Representation (HIR) that also permits to decouple the compiler from Babel. A quite advanced piece of technology!\n* 📜 [Avoiding premature abstraction with Unstyled React Components](https://buildui.com/posts/avoiding-premature-abstraction-with-unstyled-react-components): Sam refactors a concrete Form button to a headless LoadingButton abstraction that remains flexible and doesn’t prematurely abstract styling. I agree, and once time comes you can still create another styled abstraction on top.\n* 📜 [Common Sense Refactoring of a Messy React Component](https://alexkondov.com/refactoring-a-messy-react-component/): Alex explains his process to refactor a bloated real-world Form component. I do the same: extracting sub-components, custom hooks, and helper code from the main component usually improves clarity.\n* 📜 [Introducing XState Store](https://tkdodo.eu/blog/introducing-x-state-store): Dominik (React Query) likes Zustand, but explains why he now finds XState Store a more compelling option. It’s quite similar but more opinionated (separate state/actions, event-driven…). Daishi answered you can get a similar interface with his new [Zustand-xs middleware](https://github.com/zustandjs/zustand-xs). I explained ([tweet](https://x.com/sebastienlorber/status/1821166302469194062)) why I’m not always a fan of an event-driven interface.\n* 📜 [Using Notion as my CMS with Next.js](https://jordaneldredge.com/notes/notion-cms/): Describes a setup to reduce the friction of creating and publishing notes. Notion content is first converted as Markdown, and then renderer in a Next.js app.\n* 📜 [Next.js’s unstable\\_cache() demystified](https://jordaneldredge.com/notes/unstable_cache/): Some notes on the dangers of returning classes, and a link to an interesting related article/package listing even more caching gotchas.\n* 📜 [Build your own React state management library in under 40 lines of code](https://paripsky.github.io/blog/build-your-own-react-state-management/): Creates a custom external store and reads it in React with… useSyncExternalStore + 2 improvement suggestions such as adding an Immer integration.\n* 📜 [GitHub Vitale - Live notebooks in VS Code for JavaScript/TypeScript, web development, and AI experimentation](https://githubnext.com/projects/vitale/): The GitHub Next team introduced a new Notebook technology (like Jupyter) for interactive exploratory coding based on Vite. It supports rendering a React component in a notebook cell.\n* 📜 [Frontend Security Checklist](https://www.trevorlasn.com/blog/frontend-security-checklist): Includes examples of mitigating XSS and CSRF attacks in a React context.\n* 📜 [The Art of Dithering and Retro Shading for the Web (with React Three Fiber)](https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/)\n* 🔨 [Dédale - Email template development environment, based on React Email](https://bireme.io/en/blog/announcing-dedale)\n* 📦 [Redwood 8.0 RC](https://github.com/redwoodjs/redwood/releases/tag/v8.0.0-rc.1114): New version of the full-stack React framework is now in release candidate. It adds SSR and RSC support (experimental), Vite 5, Prettier 3. See the [v8 upgrade guide](https://community.redwoodjs.com/t/redwood-v8-0-0-upgrade-guide/7250). They also plan to introduce soon a Background Jobs feature.\n* 📦 [Vercel AI SDK 3.3 - useChat() supports file attachments, useObject() streams structured data](https://vercel.com/blog/vercel-ai-sdk-3-3): With structured data based on Zod schemas, LLMs are getting easier to use for devs. Note that [OpenAI also announced support for structured output with Zod support](https://openai.com/index/introducing-structured-outputs-in-the-api/)!\n* 📦 [Astro 4.13 - stable request rewriting, stable content collections JSON schemas](https://astro.build/blog/astro-4130/)\n* 📦 [react-three/xr 6.1 - WebXR Anchor API, Hit Testing API, DOM Overlay API, experimental Emulator](https://github.com/pmndrs/xr/releases/tag/v6.1.0)\n* 📦 [Tldraw sync - self-hostable real-time collaboration engine for React whiteboard drawing app](https://tldraw.substack.com/p/announcing-tldraw-sync)\n* 🎥 [Theo - Server Islands are really cool](https://www.youtube.com/watch?v=uBxehYwQox4)\n* 🎥 [Jack Herrington - NextJS Feature Flagging Made Easy](https://www.youtube.com/watch?v=M1Rj1xSm3SM)\n* 🎥 [UI Engineering - Why React is Declarative?](https://www.youtube.com/watch?v=TVmRuP0_RGM)\n* 🎥 [Expo - What React devs need to know about React Native](https://www.youtube.com/live/iB7sc-fzpWw)\n* 🎙️ [Syntax - Why the jQuery Creator Uses React and Typescript - John Resig](https://syntax.fm/show/800/why-the-jquery-creator-uses-react-and-typescript-john-resig?utm_source=thisweekinreact)\n* 🎙️ [This Month in React - July 2024 - State of JS, React, HTML](https://podcasters.spotify.com/pod/show/reactiflux/episodes/TMiR-2024-07-State-of-JS--React--HTML-e2mplrc)",
-      "sourceMdx": "- 💸 [Reactile – a new approach to React-based web apps. Create your own views. Let it handle your windows and widgets in a single browser tab](https://www.reactile.net/?utm_source=reactnewsletter)\n- 🐦 [Zuckerberg calling out React as one of Meta’s major open source initiatives](https://x.com/Vjeux/status/1818766264833392763)\n- 🐦 [Visual editing with ReactBricks using RSC](https://x.com/rauchg/status/1819383553668370440)\n- 📖 [Revised ”Redux Essentials\" tutorial](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)\n- 🗓️ [React-Africa](https://react-africa.com/?utm_source=thisweekinreact) - 🇲🇦 Casablanca - 29 November - Line up is online, check, and apply a 10% discount on tickets with code TWIR !\n- 📜 [React Compiler, How Does It Work?](https://yongseok.me/blog/en/react_compiler_1/): A 4-part series going really deep on the React Compiler code, explaining the Babel Plugin, useMemoCache, HIR/SSA transformations. That’s a lot of implementation details to read, and very technical, but there are also great overviews that describe the main algorithms at the end of each post. It operates on individual functions, with an AST “lowered” to a Hight-level Intermediate Representation (HIR) that also permits to decouple the compiler from Babel. A quite advanced piece of technology!\n- 📜 [Avoiding premature abstraction with Unstyled React Components](https://buildui.com/posts/avoiding-premature-abstraction-with-unstyled-react-components): Sam refactors a concrete Form button to a headless LoadingButton abstraction that remains flexible and doesn’t prematurely abstract styling. I agree, and once time comes you can still create another styled abstraction on top.\n- 📜 [Common Sense Refactoring of a Messy React Component](https://alexkondov.com/refactoring-a-messy-react-component/): Alex explains his process to refactor a bloated real-world Form component. I do the same: extracting sub-components, custom hooks, and helper code from the main component usually improves clarity.\n- 📜 [Introducing XState Store](https://tkdodo.eu/blog/introducing-x-state-store): Dominik (React Query) likes Zustand, but explains why he now finds XState Store a more compelling option. It’s quite similar but more opinionated (separate state/actions, event-driven…). Daishi answered you can get a similar interface with his new [Zustand-xs middleware](https://github.com/zustandjs/zustand-xs). I explained ([tweet](https://x.com/sebastienlorber/status/1821166302469194062)) why I’m not always a fan of an event-driven interface.\n- 📜 [Using Notion as my CMS with Next.js](https://jordaneldredge.com/notes/notion-cms/): Describes a setup to reduce the friction of creating and publishing notes. Notion content is first converted as Markdown, and then renderer in a Next.js app.\n- 📜 [Next.js’s unstable_cache() demystified](https://jordaneldredge.com/notes/unstable_cache/): Some notes on the dangers of returning classes, and a link to an interesting related article/package listing even more caching gotchas.\n- 📜 [Build your own React state management library in under 40 lines of code](https://paripsky.github.io/blog/build-your-own-react-state-management/): Creates a custom external store and reads it in React with… useSyncExternalStore + 2 improvement suggestions such as adding an Immer integration.\n- 📜 [GitHub Vitale - Live notebooks in VS Code for JavaScript/TypeScript, web development, and AI experimentation](https://githubnext.com/projects/vitale/): The GitHub Next team introduced a new Notebook technology (like Jupyter) for interactive exploratory coding based on Vite. It supports rendering a React component in a notebook cell.\n- 📜 [Frontend Security Checklist](https://www.trevorlasn.com/blog/frontend-security-checklist): Includes examples of mitigating XSS and CSRF attacks in a React context.\n- 📜 [The Art of Dithering and Retro Shading for the Web (with React Three Fiber)](https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/)\n- 🔨 [Dédale - Email template development environment, based on React Email](https://bireme.io/en/blog/announcing-dedale)\n- 📦 [Redwood 8.0 RC](https://github.com/redwoodjs/redwood/releases/tag/v8.0.0-rc.1114): New version of the full-stack React framework is now in release candidate. It adds SSR and RSC support (experimental), Vite 5, Prettier 3. See the [v8 upgrade guide](https://community.redwoodjs.com/t/redwood-v8-0-0-upgrade-guide/7250). They also plan to introduce soon a Background Jobs feature.\n- 📦 [Vercel AI SDK 3.3 - useChat() supports file attachments, useObject() streams structured data](https://vercel.com/blog/vercel-ai-sdk-3-3): With structured data based on Zod schemas, LLMs are getting easier to use for devs. Note that [OpenAI also announced support for structured output with Zod support](https://openai.com/index/introducing-structured-outputs-in-the-api/)!\n- 📦 [Astro 4.13 - stable request rewriting, stable content collections JSON schemas](https://astro.build/blog/astro-4130/)\n- 📦 [react-three/xr 6.1 - WebXR Anchor API, Hit Testing API, DOM Overlay API, experimental Emulator](https://github.com/pmndrs/xr/releases/tag/v6.1.0)\n- 📦 [Tldraw sync - self-hostable real-time collaboration engine for React whiteboard drawing app](https://tldraw.substack.com/p/announcing-tldraw-sync)\n- 🎥 [Theo - Server Islands are really cool](https://www.youtube.com/watch?v=uBxehYwQox4)\n- 🎥 [Jack Herrington - NextJS Feature Flagging Made Easy](https://www.youtube.com/watch?v=M1Rj1xSm3SM)\n- 🎥 [UI Engineering - Why React is Declarative?](https://www.youtube.com/watch?v=TVmRuP0_RGM)\n- 🎥 [Expo - What React devs need to know about React Native](https://www.youtube.com/live/iB7sc-fzpWw)\n- 🎙️ [Syntax - Why the jQuery Creator Uses React and Typescript - John Resig](https://syntax.fm/show/800/why-the-jquery-creator-uses-react-and-typescript-john-resig?utm_source=thisweekinreact)\n- 🎙️ [This Month in React - July 2024 - State of JS, React, HTML](https://podcasters.spotify.com/pod/show/reactiflux/episodes/TMiR-2024-07-State-of-JS--React--HTML-e2mplrc)"
+      "sourceMdx": "- 💸 [Reactile – a new approach to React-based web apps. Create your own views. Let it handle your windows and widgets in a single browser tab](https://www.reactile.net/?utm_source=reactnewsletter)\n- 🐦 [Zuckerberg calling out React as one of Meta’s major open source initiatives](https://x.com/Vjeux/status/1818766264833392763)\n- 🐦 [Visual editing with ReactBricks using RSC](https://x.com/rauchg/status/1819383553668370440)\n- 📖 [Revised ”Redux Essentials\" tutorial](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)\n- 🗓️ [React-Africa](https://react-africa.com/?utm_source=thisweekinreact) - 🇲🇦 Casablanca - 29 November - Line up is online, check, and apply a 10% discount on tickets with code TWIR !\n- 📜 [React Compiler, How Does It Work?](https://yongseok.me/blog/en/react_compiler_1/): A 4-part series going really deep on the React Compiler code, explaining the Babel Plugin, useMemoCache, HIR/SSA transformations. That’s a lot of implementation details to read, and very technical, but there are also great overviews that describe the main algorithms at the end of each post. It operates on individual functions, with an AST “lowered” to a Hight-level Intermediate Representation (HIR) that also permits to decouple the compiler from Babel. A quite advanced piece of technology!\n- 📜 [Avoiding premature abstraction with Unstyled React Components](https://buildui.com/posts/avoiding-premature-abstraction-with-unstyled-react-components): Sam refactors a concrete Form button to a headless LoadingButton abstraction that remains flexible and doesn’t prematurely abstract styling. I agree, and once time comes you can still create another styled abstraction on top.\n- 📜 [Common Sense Refactoring of a Messy React Component](https://alexkondov.com/refactoring-a-messy-react-component/): Alex explains his process to refactor a bloated real-world Form component. I do the same: extracting sub-components, custom hooks, and helper code from the main component usually improves clarity.\n- 📜 [Introducing XState Store](https://tkdodo.eu/blog/introducing-x-state-store): Dominik (React Query) likes Zustand, but explains why he now finds XState Store a more compelling option. It’s quite similar but more opinionated (separate state/actions, event-driven…). Daishi answered you can get a similar interface with his new [Zustand-xs middleware](https://github.com/zustandjs/zustand-xs). I explained ([tweet](https://x.com/sebastienlorber/status/1821166302469194062)) why I’m not always a fan of an event-driven interface.\n- 📜 [Using Notion as my CMS with Next.js](https://jordaneldredge.com/notes/notion-cms/): Describes a setup to reduce the friction of creating and publishing notes. Notion content is first converted as Markdown, and then renderer in a Next.js app.\n- 📜 [Next.js’s unstable_cache() demystified](https://jordaneldredge.com/notes/unstable_cache/): Some notes on the dangers of returning classes, and a link to an interesting related article/package listing even more caching gotchas.\n- 📜 [Build your own React state management library in under 40 lines of code](https://paripsky.github.io/blog/build-your-own-react-state-management/): Creates a custom external store and reads it in React with… useSyncExternalStore + 2 improvement suggestions such as adding an Immer integration.\n- 📜 [GitHub Vitale - Live notebooks in VS Code for JavaScript/TypeScript, web development, and AI experimentation](https://githubnext.com/projects/vitale/): The GitHub Next team introduced a new Notebook technology (like Jupyter) for interactive exploratory coding based on Vite. It supports rendering a React component in a notebook cell.\n- 📜 [Frontend Security Checklist](https://www.trevorlasn.com/blog/frontend-security-checklist): Includes examples of mitigating XSS and CSRF attacks in a React context.\n- 📜 [The Art of Dithering and Retro Shading for the Web (with React Three Fiber)](https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/)\n- 🔨 [Dédale - Email template development environment, based on React Email](https://bireme.io/en/blog/announcing-dedale)\n- 📦 [Redwood 8.0 RC](https://github.com/redwoodjs/redwood/releases/tag/v8.0.0-rc.1114): New version of the full-stack React framework is now in release candidate. It adds SSR and RSC support (experimental), Vite 5, Prettier 3. See the [v8 upgrade guide](https://community.redwoodjs.com/t/redwood-v8-0-0-upgrade-guide/7250). They also plan to introduce soon a Background Jobs feature.\n- 📦 [Vercel AI SDK 3.3 - useChat() supports file attachments, useObject() streams structured data](https://vercel.com/blog/vercel-ai-sdk-3-3): With structured data based on Zod schemas, LLMs are getting easier to use for devs. Note that [OpenAI also announced support for structured output with Zod support](https://openai.com/index/introducing-structured-outputs-in-the-api/)!\n- 📦 [Astro 4.13 - stable request rewriting, stable content collections JSON schemas](https://astro.build/blog/astro-4130/)\n- 📦 [react-three/xr 6.1 - WebXR Anchor API, Hit Testing API, DOM Overlay API, experimental Emulator](https://github.com/pmndrs/xr/releases/tag/v6.1.0)\n- 📦 [Tldraw sync - self-hostable real-time collaboration engine for React whiteboard drawing app](https://tldraw.substack.com/p/announcing-tldraw-sync)\n- 🎥 [Theo - Server Islands are really cool](https://www.youtube.com/watch?v=uBxehYwQox4)\n- 🎥 [Jack Herrington - NextJS Feature Flagging Made Easy](https://www.youtube.com/watch?v=M1Rj1xSm3SM)\n- 🎥 [UI Engineering - Why React is Declarative?](https://www.youtube.com/watch?v=TVmRuP0_RGM)\n- 🎥 [Expo - What React devs need to know about React Native](https://www.youtube.com/live/iB7sc-fzpWw)\n- 🎙️ [Syntax - Why the jQuery Creator Uses React and Typescript - John Resig](https://syntax.fm/show/800/why-the-jquery-creator-uses-react-and-typescript-john-resig?utm_source=thisweekinreact)\n- 🎙️ [This Month in React - July 2024 - State of JS, React, HTML](https://podcasters.spotify.com/pod/show/reactiflux/episodes/TMiR-2024-07-State-of-JS--React--HTML-e2mplrc)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [Reactile——一种基于React的Web应用新方案。创建自定义视图，在单个浏览器标签页中管理窗口和小部件](https://www.reactile.net/?utm_source=reactnewsletter)\n- 🐦 [扎克伯格将React列为Meta主要开源项目之一](https://x.com/Vjeux/status/1818766264833392763)\n- 🐦 [使用ReactBricks配合RSC实现可视化编辑](https://x.com/rauchg/status/1819383553668370440)\n- 📖 [新版《Redux Essentials》教程](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)\n- 🗓️ [React-Africa大会](https://react-africa.com/?utm_source=thisweekinreact) - 🇲🇦 卡萨布兰卡 - 11月29日 - 演讲阵容已公布，使用折扣码TWIR可享门票9折！\n- 📜 [React编译器工作原理解析](https://yongseok.me/blog/en/react_compiler_1/)：四篇系列文章深入解析React编译器代码，涵盖Babel插件、useMemoCache、HIR/SSA转换等实现细节。技术性极强，但每篇末尾的算法概述非常精彩。该编译器基于函数级操作，通过高级中间表示(HIR)实现与Babel的解耦。\n- 📜 [避免过早抽象：无样式React组件实践](https://buildui.com/posts/avoiding-premature-abstraction-with-unstyled-react-components)：Sam通过将具体表单按钮重构为无样式的LoadingButton抽象，既保持灵活性又避免过早抽象样式层。作者认同此观点，待时机成熟时仍可在上层创建样式化抽象。\n- 📜 [混乱React组件的通用重构方法](https://alexkondov.com/refactoring-a-messy-react-component/)：Alex演示如何重构真实场景中的臃肿表单组件。其流程与常规实践一致：提取子组件、自定义hook和辅助代码以提升可读性。\n- 📜 [XState Store技术解析](https://tkdodo.eu/blog/introducing-x-state-store)：React Query作者Dominik对比Zustand后，认为事件驱动、强制分离状态/操作的XState Store更具优势。Daishi随即推出[Zustand-xs中间件](https://github.com/zustandjs/zustand-xs)实现相似接口。作者通过[推文](https://x.com/sebastienlorber/status/1821166302469194062)解释了对事件驱动接口的保留意见。\n- 📜 [Notion作为Next.js CMS的实践](https://jordaneldredge.com/notes/notion-cms/)：构建低摩擦的内容发布流程，将Notion内容转为Markdown后在Next.js中渲染。\n- 📜 [Next.js unstable_cache()机制解密](https://jordaneldredge.com/notes/unstable_cache/)：警示返回类实例的风险，并链接到详述缓存陷阱的深度解析文章。\n- 📜 [40行代码实现React状态管理库](https://paripsky.github.io/blog/build-your-own-react-state-management/)：基于useSyncExternalStore创建外部存储，附Immer集成等优化建议。\n- 📜 [GitHub Vitale - VS Code中的JavaScript/TypeScript实时笔记本](https://githubnext.com/projects/vitale/)：GitHub Next团队推出类Jupyter的交互式编程环境，支持在单元格中渲染React组件。\n- 📜 [前端安全清单](https://www.trevorlasn.com/blog/frontend-security-checklist)：包含React场景下防御XSS/CSRF攻击的实践案例。\n- 📜 [Web端抖动与复古着色艺术（React Three Fiber实现）](https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/)\n- 🔨 [Dédale - 基于React Email的邮件模板开发环境](https://bireme.io/en/blog/announcing-dedale)\n- 📦 [Redwood 8.0候选版](https://github.com/redwoodjs/redwood/releases/tag/v8.0.0-rc.1114)：全栈框架新增SSR/RSC支持(实验性)、Vite 5、Prettier 3，详见[v8迁移指南](https://community.redwoodjs.com/t/redwood-v8-0-0-upgrade-guide/7250)，即将推出后台任务功能。\n- 📦 [Vercel AI SDK 3.3 - useChat()支持文件附件，useObject()实现结构化数据流](https://vercel.com/blog/vercel-ai-sdk-3-3)：基于Zod模式的结构化数据使LLM更易集成。注：[OpenAI同期宣布支持Zod结构化输出](https://openai.com/index/introducing-structured-outputs-in-the-api/)。\n- 📦 [Astro 4.13 - 稳定的请求重写与内容集合JSON模式](https://astro.build/blog/astro-4130/)\n- 📦 [react-three/xr 6.1 - WebXR锚点API、命中测试API、DOM覆盖API及实验性模拟器](https://github.com/pmndrs/xr/releases/tag/v6.1.0)\n- 📦 [Tldraw同步引擎 - 可自托管的React白板应用实时协作系统](https://tldraw.substack.com/p/announcing-tldraw-sync)\n- 🎥 [Theo - 服务端岛屿架构解析](https://www.youtube.com/watch?v=uBxehYwQox4)\n- 🎥 [Jack Herrington - NextJS功能标记实践](https://www.youtube.com/watch?v=M1Rj1xSm3SM)\n- 🎥 [UI工程 - React为何是声明式的？](https://www.youtube.com/watch?v=TVmRuP0_RGM)\n- 🎥 [Expo - React开发者需要了解的React Native知识](https://www.youtube.com/live/iB7sc-fzpWw)\n- 🎙️ [Syntax - jQuery创始人为何选择React和TypeScript - John Resig专访](https://syntax.fm/show/800/why-the-jquery-creator-uses-react-and-typescript-john-resig?utm_source=thisweekinreact)\n- 🎙️ [React月度播报 - 2024年7月 - JS/React/HTML生态现状](https://podcasters.spotify.com/pod/show/reactiflux/episodes/TMiR-2024-07-State-of-JS--React--HTML-e2mplrc)"
     },
     {
       "id": "4edbd92a",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_4edbd92a"
     },
     {
       "id": "678c3938",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "a4bf4268",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "ec619944",
       "translatable": true,
       "content": "[![Let's meet at React Universe Conf 2024 ](/emails/issues/195/callstack.jpg)](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter\\&utm_source=RUC%202024%20-%20TWIR%20Nesletter\\&utm_medium=TWIR%20NesletterOrganic\\&utm_content=TWIR%20Nesletter)",
-      "sourceMdx": "[![Let's meet at React Universe Conf 2024 ](/emails/issues/195/callstack.jpg)](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter)"
+      "sourceMdx": "[![Let's meet at React Universe Conf 2024 ](/emails/issues/195/callstack.jpg)](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter)",
+      "nodeType": "paragraph",
+      "translated_content": "[![相约React Universe Conf 2024](/emails/issues/195/callstack.jpg)](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter)"
     },
     {
       "id": "2547a6bb",
       "translatable": true,
       "content": "**[Let's meet at React Universe Conf 2024 ](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter\\&utm_source=RUC%202024%20-%20TWIR%20Nesletter\\&utm_medium=TWIR%20NesletterOrganic\\&utm_content=TWIR%20Nesletter)**",
-      "sourceMdx": "**[Let's meet at React Universe Conf 2024 ](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter)**"
+      "sourceMdx": "**[Let's meet at React Universe Conf 2024 ](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[相约React Universe Conf 2024](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter)**"
     },
     {
       "id": "0750bfa1",
       "translatable": true,
       "content": "[React Universe Conf](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter\\&utm_source=RUC%202024%20-%20TWIR%20Nesletter\\&utm_medium=TWIR%20NesletterOrganic\\&utm_content=TWIR%20Nesletter) is two incredible days of learning, networking, and innovation in the heart of Europe. Formerly known as React Native EU, [React Universe Conf](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter\\&utm_source=RUC%202024%20-%20TWIR%20Nesletter\\&utm_medium=TWIR%20NesletterOrganic\\&utm_content=TWIR%20Nesletter) is now the ultimate gathering for React and React Native enthusiasts. What's in it for you this year?",
-      "sourceMdx": "[React Universe Conf](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter) is two incredible days of learning, networking, and innovation in the heart of Europe. Formerly known as React Native EU, [React Universe Conf](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter) is now the ultimate gathering for React and React Native enthusiasts. What's in it for you this year?"
+      "sourceMdx": "[React Universe Conf](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter) is two incredible days of learning, networking, and innovation in the heart of Europe. Formerly known as React Native EU, [React Universe Conf](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter) is now the ultimate gathering for React and React Native enthusiasts. What's in it for you this year?",
+      "nodeType": "paragraph",
+      "translated_content": "[React Universe Conf](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter) 是欧洲中心为期两天的学习、交流与创新盛会。前身为React Native EU，[React Universe Conf](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter) 现已成为React和React Native爱好者的终极聚会。今年有哪些亮点？"
     },
     {
       "id": "2fc7ec55",
       "translatable": true,
       "content": "* **Exceptional lineup:** Dan Abramov, Evan Bacon, Kent C. Dodds, Delba de Oliveira, Marc Rousavy, and many other great speakers.\n* **Hot topics:** New architecture, React Server Components, Static Hermes, and Out-of-Tree platforms.\n* **Practical insights** on cross-platform app development with React Native.",
-      "sourceMdx": "- **Exceptional lineup:** Dan Abramov, Evan Bacon, Kent C. Dodds, Delba de Oliveira, Marc Rousavy, and many other great speakers.\n- **Hot topics:** New architecture, React Server Components, Static Hermes, and Out-of-Tree platforms.\n- **Practical insights** on cross-platform app development with React Native."
+      "sourceMdx": "- **Exceptional lineup:** Dan Abramov, Evan Bacon, Kent C. Dodds, Delba de Oliveira, Marc Rousavy, and many other great speakers.\n- **Hot topics:** New architecture, React Server Components, Static Hermes, and Out-of-Tree platforms.\n- **Practical insights** on cross-platform app development with React Native.",
+      "nodeType": "list",
+      "translated_content": "- **豪华阵容：** Dan Abramov、Evan Bacon、Kent C. Dodds、Delba de Oliveira、Marc Rousavy等众多顶尖演讲者。\n- **热门话题：** 新架构、React服务端组件、静态Hermes以及树外平台开发。\n- **实战洞见：** 关于使用React Native进行跨平台应用开发的实用技巧。"
     },
     {
       "id": "a311e967",
       "translatable": true,
       "content": "Use promo code **TWIR** for **10% discount** on your ticket. Book your spot [HERE](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter\\&utm_source=RUC%202024%20-%20TWIR%20Nesletter\\&utm_medium=TWIR%20NesletterOrganic\\&utm_content=TWIR%20Nesletter) and see you in Wrocław!",
-      "sourceMdx": "Use promo code **TWIR** for **10% discount** on your ticket. Book your spot [HERE](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter) and see you in Wrocław!"
+      "sourceMdx": "Use promo code **TWIR** for **10% discount** on your ticket. Book your spot [HERE](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter) and see you in Wrocław!",
+      "nodeType": "paragraph",
+      "translated_content": "使用优惠码 **TWIR** 可享门票 **9折优惠**。[立即预订](https://www.reactuniverseconf.com/?utm_campaign=RUC%202024%20-%20TWIR%20Nesletter&utm_source=RUC%202024%20-%20TWIR%20Nesletter&utm_medium=TWIR%20NesletterOrganic&utm_content=TWIR%20Nesletter)，我们弗罗茨瓦夫见！"
     },
     {
       "id": "ab3df6e6",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "c19de48a",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "6ca4479f",
       "translatable": true,
       "content": "This section is authored by [Benedikt](https://twitter.com/bndkt).",
-      "sourceMdx": "This section is authored by [Benedikt](https://twitter.com/bndkt)."
+      "sourceMdx": "This section is authored by [Benedikt](https://twitter.com/bndkt).",
+      "nodeType": "paragraph",
+      "translated_content": "本版块由[Benedikt](https://twitter.com/bndkt)主笔。"
     },
     {
       "id": "936011bd",
       "translatable": true,
       "content": "* 💸 [React Native Mastery - The only course you need to Master React Native & Expo](https://notjust.dev/react-native-mastery?utm_source=twir\\&utm_medium=email)\n* 🐦 [Why the Hermes team favors JSI NativeState over HostObject](https://x.com/tmikov/status/1820266381545468200)\n* 🐦 [Experimental tree shaking support landed for Expo](https://x.com/baconbrix/status/1816488585409052925): Experimentally available in SDK 52 (which is in canary)\n* 🐦 [Styles coming to React Native - Linear gradients, box shadows, CSS filters, % flex gaps](https://x.com/Baconbrix/status/1821039004671741984)\n* 👀 [React Native PR - Linear gradient in React Native under experimental backgroundImage style prop](https://github.com/facebook/react-native/pull/45434)\n* 📜 [From JS to Fire OS - React Native for Amazon Devices](https://dev.to/amazonappdev/get-started-with-react-native-for-amazon-fire-os-51j8): Reminder that RN can be used to build apps for Fire Tablets and Fire TVs, as Fire OS is based on Android.\n* 📜 [TV Navigation in React Native: A Guide to using TVFocusGuideView](https://dev.to/amazonappdev/tv-navigation-in-react-native-a-guide-to-using-tvfocusguideview-302i): I’m really excited about RN beyond just phones and tablets, so I appreciate articles on how to best leverage platform specific behaviors like this article does for tvOS and Android TV.\n* 📜 [Xcode UI debugging with Quick Look](https://www.oskarkwasniewski.dev/blog/xcode-quick-look-debugging): Comes in handy if you happen to work in Xcode a lot (I don’t 😅).\n* 📜 [My visit to Chain React 2024 (and some tips for going to conferences)](https://dev.to/amazonappdev/my-visit-to-chain-react-2024-nfj): Warning - if you didn’t go to Chain React yourself, this article will give you major FOMO, but I still enjoyed reading this.\n* 📦 [React Native 0.75.0-rc.7 - update CLI to 14.0](https://github.com/facebook/react-native/releases/tag/v0.75.0-rc.7)\n* 📦 [React Native 0.74.5 - minor fixes](https://github.com/facebook/react-native/releases/tag/v0.74.5)\n* 📦 [react-native-gesture-handler 2.18.0 - Now has ReanimatedSwipeable as a standalone component, adds a couple improvements and support for RN 0.75](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.18.0)\n* 📦 [react-native-svg 15.5.0 - Minor release introducing new filters, CSS filters API on FilterImage component and many bug fixes](https://github.com/software-mansion/react-native-svg/releases/tag/v15.5.0)\n* 📦 [react-native-reanimated 3.15.0 - ReducedMotionConfig, EntryExitTransition, CurvedTransition, RN 0.75 support and a lot of fixes](https://github.com/software-mansion/react-native-reanimated/releases/tag/3.15.0)\n* 🎥 [Simon Grimm - React Native Server Defined Rendering](https://www.youtube.com/watch?v=-6Mrar0r3kg)\n* 🎥 [Reactiiive - The secret behind Jotai and MMKV (React Native)](https://www.youtube.com/watch?v=-AR2PN38ovo)\n* 🎥 [notJust.dev - Building the iOS 18 Photos App with React Native and Reanimated](https://www.youtube.com/watch?v=pZHRFNpYkAY)\n* 🎙️ [PodRocket - Using RSCs in Expo Router with Evan Bacon](https://podrocket.logrocket.com/using-rscs-expo-router-evan-bacon)",
-      "sourceMdx": "- 💸 [React Native Mastery - The only course you need to Master React Native & Expo](https://notjust.dev/react-native-mastery?utm_source=twir&utm_medium=email)\n- 🐦 [Why the Hermes team favors JSI NativeState over HostObject](https://x.com/tmikov/status/1820266381545468200)\n- 🐦 [Experimental tree shaking support landed for Expo](https://x.com/baconbrix/status/1816488585409052925): Experimentally available in SDK 52 (which is in canary)\n- 🐦 [Styles coming to React Native - Linear gradients, box shadows, CSS filters, % flex gaps](https://x.com/Baconbrix/status/1821039004671741984)\n- 👀 [React Native PR - Linear gradient in React Native under experimental backgroundImage style prop](https://github.com/facebook/react-native/pull/45434)\n- 📜 [From JS to Fire OS - React Native for Amazon Devices](https://dev.to/amazonappdev/get-started-with-react-native-for-amazon-fire-os-51j8): Reminder that RN can be used to build apps for Fire Tablets and Fire TVs, as Fire OS is based on Android.\n- 📜 [TV Navigation in React Native: A Guide to using TVFocusGuideView](https://dev.to/amazonappdev/tv-navigation-in-react-native-a-guide-to-using-tvfocusguideview-302i): I’m really excited about RN beyond just phones and tablets, so I appreciate articles on how to best leverage platform specific behaviors like this article does for tvOS and Android TV.\n- 📜 [Xcode UI debugging with Quick Look](https://www.oskarkwasniewski.dev/blog/xcode-quick-look-debugging): Comes in handy if you happen to work in Xcode a lot (I don’t 😅).\n- 📜 [My visit to Chain React 2024 (and some tips for going to conferences)](https://dev.to/amazonappdev/my-visit-to-chain-react-2024-nfj): Warning - if you didn’t go to Chain React yourself, this article will give you major FOMO, but I still enjoyed reading this.\n- 📦 [React Native 0.75.0-rc.7 - update CLI to 14.0](https://github.com/facebook/react-native/releases/tag/v0.75.0-rc.7)\n- 📦 [React Native 0.74.5 - minor fixes](https://github.com/facebook/react-native/releases/tag/v0.74.5)\n- 📦 [react-native-gesture-handler 2.18.0 - Now has ReanimatedSwipeable as a standalone component, adds a couple improvements and support for RN 0.75](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.18.0)\n- 📦 [react-native-svg 15.5.0 - Minor release introducing new filters, CSS filters API on FilterImage component and many bug fixes](https://github.com/software-mansion/react-native-svg/releases/tag/v15.5.0)\n- 📦 [react-native-reanimated 3.15.0 - ReducedMotionConfig, EntryExitTransition, CurvedTransition, RN 0.75 support and a lot of fixes](https://github.com/software-mansion/react-native-reanimated/releases/tag/3.15.0)\n- 🎥 [Simon Grimm - React Native Server Defined Rendering](https://www.youtube.com/watch?v=-6Mrar0r3kg)\n- 🎥 [Reactiiive - The secret behind Jotai and MMKV (React Native)](https://www.youtube.com/watch?v=-AR2PN38ovo)\n- 🎥 [notJust.dev - Building the iOS 18 Photos App with React Native and Reanimated](https://www.youtube.com/watch?v=pZHRFNpYkAY)\n- 🎙️ [PodRocket - Using RSCs in Expo Router with Evan Bacon](https://podrocket.logrocket.com/using-rscs-expo-router-evan-bacon)"
+      "sourceMdx": "- 💸 [React Native Mastery - The only course you need to Master React Native & Expo](https://notjust.dev/react-native-mastery?utm_source=twir&utm_medium=email)\n- 🐦 [Why the Hermes team favors JSI NativeState over HostObject](https://x.com/tmikov/status/1820266381545468200)\n- 🐦 [Experimental tree shaking support landed for Expo](https://x.com/baconbrix/status/1816488585409052925): Experimentally available in SDK 52 (which is in canary)\n- 🐦 [Styles coming to React Native - Linear gradients, box shadows, CSS filters, % flex gaps](https://x.com/Baconbrix/status/1821039004671741984)\n- 👀 [React Native PR - Linear gradient in React Native under experimental backgroundImage style prop](https://github.com/facebook/react-native/pull/45434)\n- 📜 [From JS to Fire OS - React Native for Amazon Devices](https://dev.to/amazonappdev/get-started-with-react-native-for-amazon-fire-os-51j8): Reminder that RN can be used to build apps for Fire Tablets and Fire TVs, as Fire OS is based on Android.\n- 📜 [TV Navigation in React Native: A Guide to using TVFocusGuideView](https://dev.to/amazonappdev/tv-navigation-in-react-native-a-guide-to-using-tvfocusguideview-302i): I’m really excited about RN beyond just phones and tablets, so I appreciate articles on how to best leverage platform specific behaviors like this article does for tvOS and Android TV.\n- 📜 [Xcode UI debugging with Quick Look](https://www.oskarkwasniewski.dev/blog/xcode-quick-look-debugging): Comes in handy if you happen to work in Xcode a lot (I don’t 😅).\n- 📜 [My visit to Chain React 2024 (and some tips for going to conferences)](https://dev.to/amazonappdev/my-visit-to-chain-react-2024-nfj): Warning - if you didn’t go to Chain React yourself, this article will give you major FOMO, but I still enjoyed reading this.\n- 📦 [React Native 0.75.0-rc.7 - update CLI to 14.0](https://github.com/facebook/react-native/releases/tag/v0.75.0-rc.7)\n- 📦 [React Native 0.74.5 - minor fixes](https://github.com/facebook/react-native/releases/tag/v0.74.5)\n- 📦 [react-native-gesture-handler 2.18.0 - Now has ReanimatedSwipeable as a standalone component, adds a couple improvements and support for RN 0.75](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.18.0)\n- 📦 [react-native-svg 15.5.0 - Minor release introducing new filters, CSS filters API on FilterImage component and many bug fixes](https://github.com/software-mansion/react-native-svg/releases/tag/v15.5.0)\n- 📦 [react-native-reanimated 3.15.0 - ReducedMotionConfig, EntryExitTransition, CurvedTransition, RN 0.75 support and a lot of fixes](https://github.com/software-mansion/react-native-reanimated/releases/tag/3.15.0)\n- 🎥 [Simon Grimm - React Native Server Defined Rendering](https://www.youtube.com/watch?v=-6Mrar0r3kg)\n- 🎥 [Reactiiive - The secret behind Jotai and MMKV (React Native)](https://www.youtube.com/watch?v=-AR2PN38ovo)\n- 🎥 [notJust.dev - Building the iOS 18 Photos App with React Native and Reanimated](https://www.youtube.com/watch?v=pZHRFNpYkAY)\n- 🎙️ [PodRocket - Using RSCs in Expo Router with Evan Bacon](https://podrocket.logrocket.com/using-rscs-expo-router-evan-bacon)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [React Native 大师课 - 掌握 React Native 和 Expo 的唯一课程](https://notjust.dev/react-native-mastery?utm_source=twir&utm_medium=email)\n- 🐦 [为何 Hermes 团队更青睐 JSI NativeState 而非 HostObject](https://x.com/tmikov/status/1820266381545468200)\n- 🐦 [Expo 实验性支持 Tree Shaking 功能已落地](https://x.com/baconbrix/status/1816488585409052925)：实验性功能已在 SDK 52（Canary 版本）中提供\n- 🐦 [React Native 即将引入的样式特性 - 线性渐变、盒阴影、CSS 滤镜、百分比弹性间隙](https://x.com/Baconbrix/status/1821039004671741984)\n- 👀 [React Native PR - 通过实验性 backgroundImage 样式属性实现线性渐变](https://github.com/facebook/react-native/pull/45434)\n- 📜 [从 JS 到 Fire OS - 面向亚马逊设备的 React Native 开发](https://dev.to/amazonappdev/get-started-with-react-native-for-amazon-fire-os-51j8)：提醒您 React Native 可用于为 Fire 平板和 Fire TV 构建应用，因为 Fire OS 基于 Android。\n- 📜 [React Native 中的电视导航：TVFocusGuideView 使用指南](https://dev.to/amazonappdev/tv-navigation-in-react-native-a-guide-to-using-tvfocusguideview-302i)：我对 React Native 超越手机和平板的潜力感到兴奋，因此很欣赏这类针对 tvOS 和 Android TV 平台特性的最佳实践文章。\n- 📜 [使用 Xcode Quick Look 进行 UI 调试](https://www.oskarkwasniewski.dev/blog/xcode-quick-look-debugging)：如果您经常使用 Xcode 会很有帮助（我不用 😅）。\n- 📜 [Chain React 2024 参会记（附会议参加建议）](https://dev.to/amazonappdev/my-visit-to-chain-react-2024-nfj)：警告 - 如果您没参加 Chain React，这篇文章会让您产生严重错失恐惧症，但我仍然很享受阅读它。\n- 📦 [React Native 0.75.0-rc.7 - 更新 CLI 至 14.0 版本](https://github.com/facebook/react-native/releases/tag/v0.75.0-rc.7)\n- 📦 [React Native 0.74.5 - 小修复版本](https://github.com/facebook/react-native/releases/tag/v0.74.5)\n- 📦 [react-native-gesture-handler 2.18.0 - 新增独立组件 ReanimatedSwipeable，多项改进并支持 RN 0.75](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.18.0)\n- 📦 [react-native-svg 15.5.0 - 小版本更新引入新滤镜，FilterImage 组件的 CSS 滤镜 API 及多项错误修复](https://github.com/software-mansion/react-native-svg/releases/tag/v15.5.0)\n- 📦 [react-native-reanimated 3.15.0 - 新增 ReducedMotionConfig、EntryExitTransition、CurvedTransition，支持 RN 0.75 及大量修复](https://github.com/software-mansion/react-native-reanimated/releases/tag/3.15.0)\n- 🎥 [Simon Grimm - React Native 服务端定义渲染](https://www.youtube.com/watch?v=-6Mrar0r3kg)\n- 🎥 [Reactiiive - Jotai 和 MMKV 背后的秘密（React Native）](https://www.youtube.com/watch?v=-AR2PN38ovo)\n- 🎥 [notJust.dev - 使用 React Native 和 Reanimated 构建 iOS 18 照片应用](https://www.youtube.com/watch?v=pZHRFNpYkAY)\n- 🎙️ [PodRocket - 与 Evan Bacon 探讨在 Expo Router 中使用 RSC](https://podrocket.logrocket.com/using-rscs-expo-router-evan-bacon)"
     },
     {
       "id": "862bb4be",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "ed644f52",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他 {#other}"
     },
     {
       "id": "40a587f3",
       "translatable": true,
       "content": "* 🐦 [TC39 meeting 103 - `RegExp.escape` stage 3, Concurrency Control + Unordered Async Iterator Helpers stage 1](https://x.com/robpalmer2/status/1819051033215049742)\n* 📜 [How Google handles JavaScript throughout the indexing process](https://vercel.com/blog/how-google-handles-javascript-throughout-the-indexing-process)\n* 📜 [Why Unknown Types Are Useful](https://michaeluloth.com/programming-types-unknown-why-useful/)\n* 📜 [A different way to think about TypeScript](https://www.rob.directory/blog/a-different-way-to-think-about-typescript)\n* 📜 [What if you used Container Units for… everything?](https://frontendmasters.com/blog/what-if-you-used-container-units-for-everything/)\n* 📜 [Effect Best Practices](https://ethanniser.dev/blog/effect-best-practices/)\n* 📦 [Node v22.6.0 - with Experimental TypeScript support](https://nodejs.org/en/blog/release/v22.6.0)\n* 📦 [Rslib - The library build tool powered by Rsbuild](https://github.com/web-infra-dev/rslib)\n* 📦 [Nx 19.5 - Stackblitz, Bun, Pnpm 9, Incremental Builds for Vite, Gradle Test Atomizer](https://nx.dev/blog/nx-19-5-adds-stackblitz-new-features-and-more)",
-      "sourceMdx": "- 🐦 [TC39 meeting 103 - `RegExp.escape` stage 3, Concurrency Control + Unordered Async Iterator Helpers stage 1](https://x.com/robpalmer2/status/1819051033215049742)\n- 📜 [How Google handles JavaScript throughout the indexing process](https://vercel.com/blog/how-google-handles-javascript-throughout-the-indexing-process)\n- 📜 [Why Unknown Types Are Useful](https://michaeluloth.com/programming-types-unknown-why-useful/)\n- 📜 [A different way to think about TypeScript](https://www.rob.directory/blog/a-different-way-to-think-about-typescript)\n- 📜 [What if you used Container Units for… everything?](https://frontendmasters.com/blog/what-if-you-used-container-units-for-everything/)\n- 📜 [Effect Best Practices](https://ethanniser.dev/blog/effect-best-practices/)\n- 📦 [Node v22.6.0 - with Experimental TypeScript support](https://nodejs.org/en/blog/release/v22.6.0)\n- 📦 [Rslib - The library build tool powered by Rsbuild](https://github.com/web-infra-dev/rslib)\n- 📦 [Nx 19.5 - Stackblitz, Bun, Pnpm 9, Incremental Builds for Vite, Gradle Test Atomizer](https://nx.dev/blog/nx-19-5-adds-stackblitz-new-features-and-more)"
+      "sourceMdx": "- 🐦 [TC39 meeting 103 - `RegExp.escape` stage 3, Concurrency Control + Unordered Async Iterator Helpers stage 1](https://x.com/robpalmer2/status/1819051033215049742)\n- 📜 [How Google handles JavaScript throughout the indexing process](https://vercel.com/blog/how-google-handles-javascript-throughout-the-indexing-process)\n- 📜 [Why Unknown Types Are Useful](https://michaeluloth.com/programming-types-unknown-why-useful/)\n- 📜 [A different way to think about TypeScript](https://www.rob.directory/blog/a-different-way-to-think-about-typescript)\n- 📜 [What if you used Container Units for… everything?](https://frontendmasters.com/blog/what-if-you-used-container-units-for-everything/)\n- 📜 [Effect Best Practices](https://ethanniser.dev/blog/effect-best-practices/)\n- 📦 [Node v22.6.0 - with Experimental TypeScript support](https://nodejs.org/en/blog/release/v22.6.0)\n- 📦 [Rslib - The library build tool powered by Rsbuild](https://github.com/web-infra-dev/rslib)\n- 📦 [Nx 19.5 - Stackblitz, Bun, Pnpm 9, Incremental Builds for Vite, Gradle Test Atomizer](https://nx.dev/blog/nx-19-5-adds-stackblitz-new-features-and-more)",
+      "nodeType": "list",
+      "translated_content": "- 🐦 [TC39第103次会议 - `RegExp.escape`进入stage 3，并发控制+无序异步迭代器助手进入stage 1](https://x.com/robpalmer2/status/1819051033215049742)\n- 📜 [Google如何处理JavaScript索引过程](https://vercel.com/blog/how-google-handles-javascript-throughout-the-indexing-process)\n- 📜 [为什么Unknown类型很有用](https://michaeluloth.com/programming-types-unknown-why-useful/)\n- 📜 [关于TypeScript的另一种思考方式](https://www.rob.directory/blog/a-different-way-to-think-about-typescript)\n- 📜 [如果用Container Units来...处理一切会怎样？](https://frontendmasters.com/blog/what-if-you-used-container-units-for-everything/)\n- 📜 [Effect最佳实践](https://ethanniser.dev/blog/effect-best-practices/)\n- 📦 [Node v22.6.0 - 实验性支持TypeScript](https://nodejs.org/en/blog/release/v22.6.0)\n- 📦 [Rslib - 由Rsbuild驱动的库构建工具](https://github.com/web-infra-dev/rslib)\n- 📦 [Nx 19.5 - 新增Stackblitz支持、Bun、Pnpm 9、Vite增量构建、Gradle测试原子化](https://nx.dev/blog/nx-19-5-adds-stackblitz-new-features-and-more)"
     },
     {
       "id": "efbc76b7",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "c6868a9f",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 趣闻 {#fun}"
     },
     {
       "id": "bb1346b6",
       "translatable": true,
       "content": "[![alt](/emails/issues/195/meme.jpg)](https://x.com/ryanflorence/status/1820284287356383321)",
-      "sourceMdx": "[![alt](/emails/issues/195/meme.jpg)](https://x.com/ryanflorence/status/1820284287356383321)"
+      "sourceMdx": "[![alt](/emails/issues/195/meme.jpg)](https://x.com/ryanflorence/status/1820284287356383321)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/195/meme.jpg)](https://x.com/ryanflorence/status/1820284287356383321)"
     },
     {
       "id": "8664ed0b",
       "translatable": true,
       "content": "[![alt](/emails/issues/195/meme2.jpg)](https://x.com/jaredpalmer/status/1819165228052996209)",
-      "sourceMdx": "[![alt](/emails/issues/195/meme2.jpg)](https://x.com/jaredpalmer/status/1819165228052996209)"
+      "sourceMdx": "[![alt](/emails/issues/195/meme2.jpg)](https://x.com/jaredpalmer/status/1819165228052996209)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/195/meme2.jpg)](https://x.com/jaredpalmer/status/1819165228052996209)"
     },
     {
       "id": "9e90a9b3",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下次见！👋"
     }
   ]
 }

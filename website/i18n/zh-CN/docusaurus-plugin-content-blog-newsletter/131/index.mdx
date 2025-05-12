@@ -7,17 +7,17 @@ date: 01-17-2023
 
 大家好！
 
-我们正逐渐从假期季回归。本周有不少技术博文发布，但除了React-Native 0.71外没有重大公告。
+我们正逐渐从假期季回归。本周有不少博客文章，但除了React-Native 0.71外没有重大公告。
 
-我刚结束滑雪假期回归周刊工作。虽然没全程跟进，但本周Twitter上的技术圈争议似乎是围绕Tailwind展开的？😅
+我刚结束滑雪假期回归，重新开始每周通讯的节奏。虽然没全程跟进，但本周Twitter上的热议话题似乎是关于Tailwind的争议？😅
 
-距离[React-Native现状调查](https://survey.stateofreactnative.com/)截止只剩2天🙏
+距离[React-Native现状调查](https://survey.stateofreactnative.com/)截止只剩2天，恳请参与 🙏
 
-对React-Three-Fiber感兴趣的创意开发者可以订阅[Web游戏开发通讯](https://www.webgamedev.com/newsletter)，那里有比本刊更专业的信息。
+对React-Three-Fiber感兴趣的创意开发者，可订阅[Web游戏开发](https://www.webgamedev.com/newsletter)通讯：那里有比本刊更专业的信息。
 
 <!-- truncate -->
 
-**💡 [在Twitter查看本期可视化版本](https://slo.im/thread) 🎨**
+**💡 [在Twitter查看本期通讯](https://slo.im/thread) - 可视化版式 🎨**
 
 ---
 
@@ -27,19 +27,19 @@ import Support from "../_support.mdx";
 
 ---
 
-## 💸 赞助 {#sponsor1}
+## 💸 赞助商 {#sponsor1}
 
 [![React Bricks是基于React组件的可视化编辑CMS](/emails/issues/128/reactbricks.png)](https://reactbricks.com/?utm_source=this_week_in_react)
 
 **[React Bricks是基于React组件的可视化编辑CMS](https://reactbricks.com/?utm_source=this_week_in_react)**
 
-**开发者友好**：用React组件构建设计系统，在JSX中添加可视化编辑功能，通过侧边栏控制props（如背景色）。支持Next.js、Gatsby或Remix框架，兼容任意CSS方案！
+**开发者友好**：用React组件创建自己的设计系统，在JSX中添加可视化编辑功能，通过侧边栏控件编辑背景色等props。支持Next.js、Gatsby或Remix框架，兼容任意CSS方案！
 
-**内容编辑简易**：非技术人员可直接可视化编辑而不破坏设计系统，比传统无头CMS的抽象字段编辑更直观。**节省时间**让内容编辑自主完成工作！
+**内容编辑者易上手**：直接在可视化界面编辑，不会破坏设计系统，比传统无头CMS的抽象字段编辑直观得多。**您将节省时间**，因为内容团队可以自主操作！
 
 **企业级功能**：协作编辑、时间机器、单点登录、GDPR合规数据中心、全球CDN图片优化、电商集成、定时发布等。
 
-立即体验：[ReactBricks.com](https://reactbricks.com/?utm_source=this_week_in_react)
+从这里开始：[ReactBricks.com](https://reactbricks.com/?utm_source=this_week_in_react)
 
 ---
 
@@ -47,9 +47,9 @@ import Support from "../_support.mdx";
 
 [![useReducer](/emails/issues/131/useReducer.jpg)](https://www.builder.io/blog/use-reducer)
 
-**[解救useState困境](https://www.builder.io/blog/use-reducer)**
+**[解救useState地狱的良方](https://www.builder.io/blog/use-reducer)**
 
-建议用单一action的`useReducer`替代多个`useState`。文章阐述了确保状态一致性和未来扩展为多action reducer的优势。个人观点：通过单一对象和自定义hook的`useState`也能实现类似效果，选择`useState`还是`useReducer`应是实现细节。
+建议用单个action的`useReducer`替代多个`useState`。文章阐述了确保状态一致性、未来扩展为多action reducer等优势。这是个值得了解的范式。笔者的观点：通过单个对象结构的`useState`配合自定义hook也能达到类似效果，`useState`或`useReducer`本质上应是实现细节。
 
 ---
 
@@ -57,41 +57,41 @@ import Support from "../_support.mdx";
 
 **[类型安全的React Query](https://tkdodo.eu/blog/type-safe-react-query)**
 
-Dominik提出结合React-Query与Zod实现类型安全。通过类型推断避免使用`as`或泛型强制类型。在全栈同仓库项目中，可搭配tRPC或Zodios使用。
+使用TypeScript时，我们不愿自欺欺人。如何确保后端返回正确的数据格式？Dominik提出将React-Query与Zod结合。通过类型推断，不再需要强制使用`as`或泛型。当后端和前端处于同一monorepo时，可搭配tRPC或Zodios实现全栈类型安全。
 
 ---
 
-- 📜 [React中的数据绑定](https://www.joshwcomeau.com/react/data-binding/)：Josh Comeau关于React受控输入的新互动文章，涵盖各类输入控件的使用细节及无障碍设计中id的应用技巧。
-- 📜 [NextJS 13中的异步React](https://swizec.com/blog/async-react-with-nextjs-13/)：探讨Next.js 13应用中异步服务器组件的使用，涉及错误边界、Next.js扩展的fetch方法、React缓存等深度内容。
-- 📜 [如何在React中实现防抖与节流而不抓狂](https://www.developerway.com/posts/debouncing-in-react)：指出在React中实现防抖并不简单：不稳定的防抖函数、记忆化、闭包陷阱等问题。
-- 📜 [为何应该使用React框架](https://leerob.substack.com/p/react-frameworks)：Lee Robinson阐述使用框架的多种理由，以节省更多时间专注产品开发。React已不仅是库，更代表架构、社区和生态系统。
-- 📜 [Storybook 2023年发展展望](https://storybook.js.org/blog/future-of-storybook-in-2023/)：回顾2022并预告2023计划：Storybook 7.0、性能优化、Turbopack支持、嵌入式组件、测试增强及React-Native支持改进。
-- 📜 [Storybook生态系统持续集成](https://storybook.js.org/blog/storybook-ecosystem-ci/)：新系统可提前检测由间接依赖升级引起的回归问题。
-- 📜 [如何用Replay Routines重构React开发者工具](https://blog.replay.io/how-we-rebuilt-react-devtools-with-replay-routines)：Mark Erikson深入解析React DevTools工作原理及其与Replay时间旅行调试器的新集成。
-- 📜 [无需ref和memo的React性能优化](https://alexsidorenko.com/blog/react-optimize-rerenders-without-refs-memo/)：通过将代码隔离至更小组件来优化React重渲染。
-- 📜 [Vercel OG的卓越之处及使用指南](https://www.flavienbonvin.com/why-vercel-og-is-amazing-and-how-to-use-it/)：元图像对营销至关重要。Vercel OG创新性地结合JSX与Tailwind，可轻松集成至部署于Vercel的Next.js项目。
+- 📜 [React中的数据绑定](https://www.joshwcomeau.com/react/data-binding/)：Josh Comeau关于React受控输入的新交互式文章，涵盖各类输入控件的使用细节及无障碍访问中id的应用。
+- 📜 [NextJS 13中的异步React](https://swizec.com/blog/async-react-with-nextjs-13/)：在Next.js 13应用中实践异步服务端组件，深入探讨错误边界、Next.js扩展的fetch方法、React缓存等特性。
+- 📜 [如何在React中实现防抖与节流而不抓狂](https://www.developerway.com/posts/debouncing-in-react)：指出在React中实现防抖并非易事——不稳定的防抖函数、记忆化处理、闭包陷阱等问题需特别注意。
+- 📜 [为什么你应该使用React框架](https://leerob.substack.com/p/react-frameworks)：Lee Robinson阐述采用框架的优势，以便将更多精力投入产品开发。React已不仅是库，更代表架构范式、社区生态和工具链。
+- 📜 [Storybook 2023年发展路线](https://storybook.js.org/blog/future-of-storybook-in-2023/)：回顾2022年并展望7.0版本——性能优化、Turbopack支持、嵌入式组件、测试增强及React-Native适配改进。
+- 📜 [Storybook生态持续集成系统](https://storybook.js.org/blog/storybook-ecosystem-ci/)：新机制可提前检测由间接依赖升级引发的回归问题。
+- 📜 [我们如何用Replay Routines重构React开发者工具](https://blog.replay.io/how-we-rebuilt-react-devtools-with-replay-routines)：Mark Erikson深度解析React DevTools工作原理及其与Replay时间旅行调试器的集成方案。
+- 📜 [无需ref和memo的React性能优化](https://alexsidorenko.com/blog/react-optimize-rerenders-without-refs-memo/)：通过将代码拆分为更小组件来优化重渲染性能。
+- 📜 [Vercel OG的卓越之处及使用指南](https://www.flavienbonvin.com/why-vercel-og-is-amazing-and-how-to-use-it/)：营销用元图像至关重要。Vercel OG创新性地结合JSX与Tailwind，可轻松集成至部署于Vercel的Next.js项目。
 - 📜 [Excalidraw - 重新设计组件API](https://blog.excalidraw.com/redesigning-editor-api/)：详解Excalidraw编辑器放弃render props转而采用React.Children（已弃用API）的React设计决策。
-- 📜 [用Next.js构建快速动画图库](https://vercel.com/blog/building-a-fast-animated-image-gallery-with-next-js)
-- 📜 [React、Vite与TypeScript：2分钟快速上手](https://blog.nrwl.io/react-vite-and-typescript-get-started-in-under-2-minutes-3bd5cd836175)
-- 📜 [React 18流式SSR指南](https://blog.logrocket.com/streaming-ssr-with-react-18/)
-- 📜 [React小知识：React应用即函数](https://www.zekehernandez.com/posts/react-applications-are-functions)
+- 📜 [用Next.js构建高性能动画图库](https://vercel.com/blog/building-a-fast-animated-image-gallery-with-next-js)
+- 📜 [React+Vite+TypeScript：2分钟快速上手](https://blog.nrwl.io/react-vite-and-typescript-get-started-in-under-2-minutes-3bd5cd836175)
+- 📜 [React 18流式服务端渲染指南](https://blog.logrocket.com/streaming-ssr-with-react-18/)
+- 📜 [React小知识：React应用本质是函数](https://www.zekehernandez.com/posts/react-applications-are-functions)
 - 🧑‍🎓 [Relay官方新教程](https://twitter.com/RelayFramework/status/1611424289068314625)
-- 👀 [Remix合并Vanilla Extract的PR](https://github.com/remix-run/remix/pull/5040)
-- 🐦 [在React中使用Solid](https://twitter.com/RyanCarniato/status/1611448920521179136)：Ryan Carniato实现SolidJS组件集成至React应用的验证概念
-- 📦 [Remix 1.10发布](https://github.com/remix-run/remix/releases/tag/remix%401.10.0)：标志着"React-Routering Remix"项目正式终结，新增多个实用钩子。
-- 📦 [create-react-signals](https://github.com/dai-shi/create-react-signals)：Daishi Kato受Preact signals启发，为Zustand、Valtio和Jotai创建新的响应式绑定。
-- 📦 [Mutative](https://github.com/unadlib/mutative) + [Structura.js](https://giusepperaso.github.io/structura.js)：两种比Immer更快的不可变更新方案？
-- 📦 [Redux Toolkit 2.0 alpha版](https://github.com/reduxjs/redux-toolkit/releases/tag/v2.0.0-alpha.0)：预览v2版本的重大变更
-- 📦 [Create-Universal-App](https://github.com/chen-rn/CUA)：全栈应用（Web+移动端）启动模板：Next.js、Expo、Tamagui、tRPC...
+- 👀 [Remix合并Vanilla Extract支持PR](https://github.com/remix-run/remix/pull/5040)
+- 🐦 [在React中使用Solid](https://twitter.com/RyanCarniato/status/1611448920521179136)：Ryan Carniato实现SolidJS组件接入React应用的验证概念
+- 📦 [Remix 1.10发布](https://github.com/remix-run/remix/releases/tag/remix%401.10.0)：正式结束"React-Routering Remix"项目并新增多个实用钩子。
+- 📦 [create-react-signals](https://github.com/dai-shi/create-react-signals)：Daishi Kato受Preact signals启发，为Zustand/Valtio/Jotai创建新的响应式绑定方案。
+- 📦 [Mutative](https://github.com/unadlib/mutative)与[Structura.js](https://giusepperaso.github.io/structura.js)：两种比Immer更快的不可变更新方案？
+- 📦 [Redux Toolkit 2.0 alpha](https://github.com/reduxjs/redux-toolkit/releases/tag/v2.0.0-alpha.0)：预览v2版本的重大变更
+- 📦 [Create-Universal-App](https://github.com/chen-rn/CUA)：全栈通用应用脚手架（Web+移动端），集成Next.js/Expo/Tamagui/tRPC等
 - 📦 [Chakra UI FigPilot](https://twitter.com/chakra_ui/status/1613267652717191191)：将Figma设计转换为Chakra UI代码
-- 📦 [Inertia 1.0发布](https://twitter.com/inertiajs/status/1614295060610437123)：Tailwind联合创始人开发的PHP框架，采用服务端路由与React集成。
-- 📦 [Precedent](https://twitter.com/steventey/status/1613928948915920896)："Next.js的构建模块"
-- 📦 [VSCode的MDX扩展1.1版](https://twitter.com/remcohaszing/status/1613910319805382657)：实验性智能提示支持
+- 📦 [Inertia 1.0发布](https://twitter.com/inertiajs/status/1614295060610437123)：Tailwind联创者开发的PHP框架，采用服务端路由与React集成方案。
+- 📦 [Precedent](https://twitter.com/steventey/status/1613928948915920896)："Next.js的构建模块集"
+- 📦 [VSCode MDX扩展1.1版](https://twitter.com/remcohaszing/status/1613910319805382657)：实验性智能提示支持
 - 📦 [Next.js 13.1.2更新](https://twitter.com/nextjs/status/1613910922128416768)
-- 📦 [Radix 1月17日更新](https://www.radix-ui.com/docs/primitives/overview/releases#january-17-2023)
+- 📦 [Radix组件库1月17日更新](https://www.radix-ui.com/docs/primitives/overview/releases#january-17-2023)
 - 📦 [Visx 3.0发布](https://github.com/airbnb/visx/releases/tag/v3.0.0)
 - 🎥 [NextJS 13是否破坏了状态管理？](https://www.youtube.com/watch?v=OpMAH2hzKi8)
-- 🎥 [极速技巧：React与TypeScript](https://www.youtube.com/watch?v=37PafxU_uzQ)
+- 🎥 [React & TypeScript高效开发技巧](https://www.youtube.com/watch?v=37PafxU_uzQ)
 - 🎥 [现在学React是否为时已晚？](https://www.youtube.com/watch?v=WByOlXWrGaY)
 
 <SubscribeFormEmbed />
@@ -104,11 +104,11 @@ Dominik提出结合React-Query与Zod实现类型安全。通过类型推断避�
 
 **[您想对开发者生态产生影响吗？](https://developereconomics.net/?member_id=thisweekinreact)**
 
-根据最新《开发者国度现状》报告，React以58%的使用率成为最受欢迎的客户端库。您对此有何看法？
+根据最新《开发者国度现状》报告，React 是迄今为止最受欢迎的前端库，58% 使用客户端框架的网页开发者选择它。您有何见解？
 
 参与[调查](https://developereconomics.net/?member_id=thisweekinreact)（开发者国度迄今最全面的调研），塑造2023年开发者关键趋势，赢取丰厚奖品！🎁
 
-完成问卷即可免费获取虚拟礼包。注册参与每周抽奖，250份奖品包括ThinkPad L15 Gen 3、Intel NUC 10性能迷你主机、物联网套件、iPad Air、礼品卡、Udemy课程、科技配件等。
+完成问卷即可免费获取虚拟礼包。记得注册参与每周抽奖。250份奖品包括ThinkPad L15 Gen 3笔记本、Intel NUC 10迷你主机、物联网套件、iPad Air、礼品卡、Udemy课程、科技配件等。
 
 [立即参与](https://developereconomics.net/?member_id=thisweekinreact)！
 
@@ -124,9 +124,9 @@ Dominik提出结合React-Query与Zod实现类型安全。通过类型推断避�
 
 - 默认集成TypeScript
 - 像素级Flex间隙支持（百分比支持后续推出）
-- 新增Web风格API（无障碍/样式/事件）简化跨平台开发
-- 开发体验优化：点击检查DevTools、新版Hermes、新架构...
-- [Android预构建件迁移至Maven中央仓库](https://github.com/reactwg/react-native-new-architecture/discussions/105)：构建时间减少94%，另有[iOS构建加速方案](https://twitter.com/Baconbrix/status/1611527618444120065)正在探索
+- 新增Web风格API（无障碍、样式、事件），简化跨平台开发
+- 开发者体验优化：点击检查DevTools、新版Hermes引擎、新架构...
+- [Maven中央仓库提供Android预编译包](https://github.com/reactwg/react-native-new-architecture/discussions/105)：Android构建时间减少94%。注：iOS构建时间也有望[大幅优化](https://twitter.com/Baconbrix/status/1611527618444120065)
 
 ---
 
@@ -134,21 +134,21 @@ Dominik提出结合React-Query与Zod实现类型安全。通过类型推断避�
 
 **Expo博客新文章汇总**：
 
-- 👀 SDK 48计划2月底发布
-- 📜 [官宣：EAS构建服务全面支持M1处理器](https://blog.expo.dev/m1-workers-on-eas-build-dcaa2c1333ad)：iOS构建时间缩短40%，即将成为默认构建环境
-- 📜 [Android推送通知服务实现变更](https://blog.expo.dev/an-implementation-change-to-expo-push-notification-service-for-android-notifications-ede056189e33)：Expo API将不再区分APNS/FCM推送渠道
-- 📜 [测试React Native夜间构建版本](https://blog.expo.dev/testing-react-native-from-the-nightly-builds-ee54ad0c9830)：使用开发版提前发现问题
-- 📜 [经典构建服务终止支持](https://blog.expo.dev/classic-build-service-no-longer-supported-73c82b500f56)：需迁移至EAS或使用`turtle-cli`自主构建
+- 👀 SDK 48计划二月底发布
+- 📜 [宣布EAS构建服务全面支持M1处理器](https://blog.expo.dev/m1-workers-on-eas-build-dcaa2c1333ad)：M1工作节点使iOS构建时间缩短40%，即将成为默认配置
+- 📜 [Android推送通知服务实现变更](https://blog.expo.dev/an-implementation-change-to-expo-push-notification-service-for-android-notifications-ede056189e33)：Expo API不再区分APNS/FCM推送渠道
+- 📜 [测试React Native夜间构建版本](https://blog.expo.dev/testing-react-native-from-the-nightly-builds-ee54ad0c9830)：使用开发版React Native及早发现问题
+- 📜 [经典构建服务终止支持](https://blog.expo.dev/classic-build-service-no-longer-supported-73c82b500f56)：需迁移至EAS或使用`turtle-cli`自行构建
 
 ---
 
-- 📊 [React-Native现状调查](https://survey.stateofreactnative.com/)：调查将于本周五截止，别忘了在截止前参与！
-- 📖 [Callstack - React Native优化终极指南](https://www.callstack.com/campaigns/download-the-ultimate-guide-to-react-native-optimization)
-- 🐦 ["Metro v74中，React Native打包速度提升约10%"](https://twitter.com/Baconbrix/status/1613899384504127488)
-- 🎨 [多窗口iOS演示](https://twitter.com/jpdriver/status/1612265133497282561)
-- 📦 [React-Native-OpenAI-JSX](https://github.com/cawfree/react-native-openai-jsx)
-- 🎥 [Skia着色器与线段SDF](https://www.youtube.com/watch?v=KgJUNYS7ZnA)
-- 🧑‍🎓 [React Native 10倍加速](https://react-native-10x-faster.com/)
+- 📊 [React-Native现状调查](https://survey.stateofreactnative.com/)：调查将于本周五截止，请抓紧时间参与！
+- 📖 [Callstack - React Native性能优化终极指南](https://www.callstack.com/campaigns/download-the-ultimate-guide-to-react-native-optimization)
+- 🐦 ["Metro v74版本中，React Native打包速度提升约10%"](https://twitter.com/Baconbrix/status/1613899384504127488)
+- 🎨 [多窗口iOS应用演示](https://twitter.com/jpdriver/status/1612265133497282561)
+- 📦 [React-Native-OpenAI-JSX项目](https://github.com/cawfree/react-native-openai-jsx)
+- 🎥 [Skia着色器与线段SDF解析](https://www.youtube.com/watch?v=KgJUNYS7ZnA)
+- 🧑‍🎓 [React Native 10倍性能提升方案](https://react-native-10x-faster.com/)
 
 ---
 
@@ -156,45 +156,45 @@ Dominik提出结合React-Query与Zod实现类型安全。通过类型推断避�
 
 🧑‍💼 [**TLDR - 高级软件工程师（远程，12-20万美元）**](https://tldr.tech/jobs/senior-software-engineer/23?utm_source=thisweekinreact)
 
-TLDR新闻简报正在招聘首位工程师，协助构建招聘平台及其他内部项目。寻求有副业项目或小团队经验的人选，需熟悉Next.js和Postgres/Supabase。
+TLDR新闻简报正在招聘首位工程师，负责搭建招聘平台及其他内部项目。要求候选人具备Next.js和Postgres/Supabase经验，有个人项目或小团队开发经历者优先。
 
-🧑‍💼 [**Causal产品工程师，远程/伦敦/纽约，15-25万美元**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied&lever-source%5B%5D=thisweekinreact.com)
+🧑‍💼 [**Causal产品工程师 - 远程/伦敦/纽约，15-25万美元**](https://jobs.lever.co/causal-app/4acaafbe-ef3d-45a6-bbe6-687c022d727c?lever-origin=applied&lever-source%5B%5D=thisweekinreact.com)
 
-Causal是一家A轮初创公司（由Coatue/Accel支持），致力于构建一款集数字处理和数据可视化于一体的工具。我们正在寻找能够解决复杂UX/性能问题的优秀React工程师。
+Causal是获得Coatue/Accel投资的A轮初创公司，致力于构建一体化数字处理与数据可视化工具。现招募能解决复杂UX/性能问题的资深React工程师。
 
-🧑‍💼 [**Callstack - 高级React Native开发工程师 - 完全远程，B2B月薪2.1-3.2万波兰兹罗提净收入**](https://www.callstack.com/senior-react-native-developer)
+🧑‍💼 [**Callstack - 高级React Native开发工程师 - 全职远程，B2B月薪2.1-3.2万波兰兹罗提（净收入）**](https://www.callstack.com/senior-react-native-developer)
 
-您想参与全球最热门应用的开发吗？您愿意共同塑造React Native技术吗？加入Callstack的React & React Native领军团队。详情请访问我们的网站。我们期待您的申请——展示您的才华！
+您想参与全球顶级应用开发吗？您愿意共同塑造React Native技术未来吗？加入Callstack这支React & React Native领军团队。详情请访问官网，我们期待看到您的作品集！
 
 🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)
 
-我们有几个专注于React Native的开发职位空缺！薪资约为16万美元外加10%奖金。您必须具备RN生产经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解更多信息，别忘了提及This Week in React。
+我们开放多个React Native开发岗位！年薪约16万美元外加10%奖金。要求具备RN生产环境经验且居住在美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解详情，请注明来自This Week in React。
 
 💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)
 
 ---
 
-## 🔀 其他 {#other}
+## 🔀 其他资讯 {#other}
 
-- [State of JS 2022 结果](https://2022.stateofjs.com/)
+- [State of JS 2022 调查结果](https://2022.stateofjs.com/)
 - [2022 JavaScript 新星项目](https://risingstars.js.org/)
 - [Turborepo 1.7](https://turbo.build/blog/turbo-1-7-0)
-- [tRPC - v10重构过程中的TypeScript性能经验](https://trpc.io/blog/typescript-performance-lessons)
+- [tRPC - v10重构过程中的TypeScript性能优化经验](https://trpc.io/blog/typescript-performance-lessons)
 - [微前端开发指南](https://microfrontend.dev/)
 - [加速JavaScript生态 - 模块解析篇](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-2/)
-- [修复生产环境Node.js应用的内存泄漏](https://kentcdodds.com/blog/fixing-a-memory-leak-in-a-production-node-js-app)
-- [Chrome 109新特性](https://developer.chrome.com/blog/new-in-chrome-109/) + [Chrome 110 Beta](https://developer.chrome.com/blog/chrome-110-beta/)
-- [2023年核心Web指标优化建议](https://web.dev/top-cwv-2023/)
-- [TypeScript错误的结构解析](https://www.totaltypescript.com/structure-of-a-typescript-error)
-- [TypeScript泛型的思维模型](https://www.totaltypescript.com/mental-model-for-typescript-generics)
+- [生产环境Node.js应用内存泄漏修复实录](https://kentcdodds.com/blog/fixing-a-memory-leak-in-a-production-node-js-app)
+- [Chrome 109新特性](https://developer.chrome.com/blog/new-in-chrome-109/) + [Chrome 110 Beta版](https://developer.chrome.com/blog/chrome-110-beta/)
+- [2023年核心网页指标优化建议](https://web.dev/top-cwv-2023/)
+- [TypeScript错误结构解析](https://www.totaltypescript.com/structure-of-a-typescript-error)
+- [TypeScript泛型心智模型](https://www.totaltypescript.com/mental-model-for-typescript-generics)
 - [未处理Promise拒绝的陷阱](https://jakearchibald.com/2023/unhandled-rejections/)
-- [从Ruby到Node：Shopify CLI重构以提升开发者体验](https://shopify.engineering/overhauling-shopify-cli-for-a-better-developer-experience)
+- [从Ruby到Node：Shopify CLI重构之路](https://shopify.engineering/overhauling-shopify-cli-for-a-better-developer-experience)
 - [条件式CSS](https://ishadeed.com/article/conditional-css/)
-- [NPM Kiosk - 销售NPM包的新方式](https://npm-kiosk.remotion.dev/)
-- [Lightning CSS访问者API](https://twitter.com/devongovett/status/1610683620255043591)
+- [NPM Kiosk - 全新的NPM包销售方式](https://npm-kiosk.remotion.dev/)
+- [Lightning CSS访问器API](https://twitter.com/devongovett/status/1610683620255043591)
 
 ---
 
-## 🤭 趣味板块 {#fun}
+## 🤭 趣味时刻 {#fun}
 
-[![alt](/emails/issues/131/meme.jpg)](https://twitter.com/t3dotgg/status/1614125827054260224)
+[![趣味图片](/emails/issues/131/meme.jpg)](https://twitter.com/t3dotgg/status/1614125827054260224)

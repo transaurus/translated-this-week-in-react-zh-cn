@@ -9,11 +9,11 @@ date: 12-06-2023
 
 本周的CSS新闻特别有意思！StyleX、CSS Hooks、Panda、Tailwind、CSS4...
 
-React Native现状调查已开放。全新的"无桥模式"将在0.73版本中引入（就在点击发布按钮前5分钟刚发布，笑死！）
+React Native现状调查已开放。新版0.73将引入"无桥模式"（刚在点击发布前5分钟发布，笑！）
 
 <!-- truncate -->
 
-**💡 [在Twitter上查看本期简报](https://slo.im/thread) - 可视化版式 🎨**
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化版式 🎨**
 
 ---
 
@@ -29,7 +29,7 @@ import Support from "../_support.mdx";
 
 **[应用内订阅轻松实现](https://www.revenuecat.com?utm_source=twir&utm_medium=sponsorship&utm_campaign=dec_23)**
 
-RevenueCat为您提供变现、分析和增长应用业务所需的一切。轻松控制客户访问权限与权益、管理数据并进行定价实验。了解为何超过30,000款应用选择RevenueCat来支撑其应用内购买基础设施。
+RevenueCat为您提供变现、分析和增长应用业务所需的一切。轻松控制客户访问权限、管理数据并进行定价实验。了解为何超过30,000款应用选择RevenueCat为其应用内购买提供基础设施支持。
 
 ---
 
@@ -39,44 +39,44 @@ RevenueCat为您提供变现、分析和增长应用业务所需的一切。轻�
 
 [**StyleX**](https://github.com/facebook/stylex)
 
-Meta的CSS-in-JS解决方案终于开源，经过漫长等待。该方案已应用于Facebook、Instagram和WhatsApp等主流应用。它并非严格绑定React，原子化CSS将在构建时提取，并配有轻量级运行时用于类名拼接。TypeScript支持设计精良。API极简主义，主要依赖两个函数：`create`和`props`。我们将观察这个新方案如何在已有Tailwind、Panda等竞争者的生态中定位自己。
+Meta的CSS-in-JS解决方案终于开源，经过漫长等待。该方案应用于Facebook、Instagram和WhatsApp等主要应用。它并非严格绑定React，原子化CSS将在构建时提取，并配有轻量级运行时用于类名拼接。TypeScript支持考虑周全。API极简主义，主要依赖两个函数：`create`和`props`。我们将观察这个新方案如何在已有Tailwind、Panda等竞争激烈的生态中定位。
 
-另请参阅：
+另见：
 
 - 🎥 [Jack Herrington - StyleX：Meta应对大规模CSS的解决方案](https://www.youtube.com/watch?v=6ZDiGtg1jN4)
-- 🎥 [Theo T3 - Facebook尝试Tailwind后，转而开发了这个](https://www.youtube.com/watch?v=PHV94q7BivI)
+- 🎥 [Theo T3 - Facebook尝试Tailwind后，构建了这个](https://www.youtube.com/watch?v=PHV94q7BivI)
 
 ---
 
 [![CSS Hooks](/emails/issues/165/csshooks.jpg)](https://css-hooks.com/)
 
-这个带有React绑定的CSS库，通过内联样式实现真正的返璞归真。作者在[从CSS混乱到CSS Hooks](https://nsaunders.dev/posts/css-madness-to-hooks)中解释如何运用CSS变量技巧来支持媒体查询、伪选择器等缺失功能。
+这个带有React绑定的CSS库通过内联样式实现真正回归基础。作者在[从CSS混乱到CSS Hooks](https://nsaunders.dev/posts/css-madness-to-hooks)中解释如何利用CSS变量技巧支持媒体查询、伪选择器等缺失功能。
 
-就个人而言，我一直偏爱内联样式的开发体验，但实践中功能受限且性能欠佳。这项创新能否经得起实践考验尚待观察。Mark Dalgleish（🐦 [推文](https://twitter.com/markdalgleish/status/1729399475494608923)）对此感到兴奋。值得注意的是，如果内联样式支持更完善，Adam Wathan可能就不会创建Tailwind了（🐦 [推文](https://twitter.com/adamwathan/status/1732209400641724785)）。
+就个人而言，我一直偏爱内联样式的开发体验，但实践中功能有限且性能不佳。这项创新能否经得起实践考验尚待观察。Mark Dalgleish（🐦 [推文](https://twitter.com/markdalgleish/status/1729399475494608923)）对此表示兴奋。值得注意的是，如果内联样式支持更好，Adam Wathan可能就不会创建Tailwind（🐦 [推文](https://twitter.com/adamwathan/status/1732209400641724785)）。
 
 ---
 
-- 💸 [开发者国度调查 - 2024年及未来开发者趋势预测？参与调查赢取奖品！](https://developereconomics.net/?member_id=thisweekinreact&utm_medium=nl_ad1)
+- 💸 [开发者国情调查 - 2024年及未来开发者将何去何从？参与调查赢取奖品！](https://developereconomics.net/?member_id=thisweekinreact&utm_medium=nl_ad1)
 - 👀 [Remix RFC - 客户端数据（clientLoader、clientAction）](https://github.com/remix-run/remix/discussions/7634)：Remix即将支持新导出功能，便于将React-Router应用迁移至Remix
-- 🐦 [TanStack React Query v5 + 路由器预览版使用指南](https://twitter.com/tannerlinsley/status/1730621837212876829)
-- 📜 [XXX与Panda CSS对比分析](https://www.astahmer.dev/posts/how-does-xxx-compares-to-panda-css)：Panda CSS维护者对其优势及当前局限性的全面解析。这款基于静态分析的现代CSS-in-JS方案兼容服务端组件，虽含轻量JS运行时，但原子化CSS仍会在构建时提取。
-- 📜 [Tailwind存在扩展性问题，如何解决？](https://byteofdev.com/posts/scale-tailwindcss/)：建议使用`cva`（Class Variance Authority）提升Tailwind代码在React环境中的可维护性。
-- 📜 [Next.js高性能网站指南：最大化服务器速度与最小化客户端负担的技巧](https://vercel.com/blog/guide-to-fast-websites-with-next-js-tips-for-maximizing-server-speeds)：某机构在Vercel博客分享实现卓越性能的Next.js技术方案。
-- 📜 [向JavaScript传递状态的最快方式再探讨](https://calendar.perfplanet.com/2023/fastest-way-passing-state-javascript-revisited/)：针对SSR架构的React/Redux应用需向客户端发送存储数据以实现水合，对比三种技术的性能表现。
-- 📜 [在Remix中保持Loader数据新鲜度](https://sergiodxa.com/tutorials/keep-your-loader-data-fresh-in-remix)：演示如何在网络恢复或标签页重获焦点时调用`useRevalidator`钩子。
-- 📜 [构建你的StorybookGPT](https://storybook.js.org/blog/build-your-own-storybook-gpt/)：利用AI自动生成组件故事的实践指南。
-- 📜 [谷歌地图JavaScript API的React组件正式发布](https://cloud.google.com/blog/products/maps-platform/introducing-react-components-for-the-maps-javascript-api/)：谷歌官方终于支持开发React版谷歌地图库。
-- 📜 [Slack工作流构建器中的自定义动画实现](https://slack.engineering/building-custom-animations-in-the-workflow-builder/)：Slack团队使用`react-beautiful-dnd`实现拖拽功能的经验总结。
+- 🐦 [使用TanStack React Query v5 + 路由器预览版](https://twitter.com/tannerlinsley/status/1730621837212876829)
+- 📜 [xxx与Panda CSS对比分析](https://www.astahmer.dev/posts/how-does-xxx-compares-to-panda-css)：Panda CSS维护者对其优势与当前局限性的全面解析。这款基于静态分析的现代CSS-in-JS方案兼容服务端组件，虽含轻量JS运行时，但原子化CSS仍会在构建时提取。
+- 📜 [Tailwind存在可扩展性问题，如何解决？](https://byteofdev.com/posts/scale-tailwindcss/)：建议使用`cva`（Class Variance Authority）提升Tailwind代码在React环境中的可维护性。
+- 📜 [Next.js高性能网站指南：最大化服务器速度与最小化客户端负担的技巧](https://vercel.com/blog/guide-to-fast-websites-with-next-js-tips-for-maximizing-server-speeds)：某机构在Vercel博客的客座文章，详解实现卓越性能的Next.js技术方案。
+- 📜 [向JavaScript传递状态的最快方式（再探）](https://calendar.perfplanet.com/2023/fastest-way-passing-state-javascript-revisited/)：基于SSR的React/Redux应用需将存储数据发送至客户端进行水合。对比三种技术方案的性能表现。
+- 📜 [保持Remix中Loader数据新鲜度](https://sergiodxa.com/tutorials/keep-your-loader-data-fresh-in-remix)：演示如何在网络恢复或标签页重获焦点时调用`useRevalidator`钩子。
+- 📜 [构建专属StorybookGPT](https://storybook.js.org/blog/build-your-own-storybook-gpt/)：指导使用AI自动生成组件故事。
+- 📜 [谷歌地图JavaScript API的React组件正式发布](https://cloud.google.com/blog/products/maps-platform/introducing-react-components-for-the-maps-javascript-api/)：谷歌终于官方支持React版地图库开发。
+- 📜 [Slack工作流构建器的自定义动画实现](https://slack.engineering/building-custom-animations-in-the-workflow-builder/)：Slack团队使用`react-beautiful-dnd`实现拖拽功能的经验分享。
 - 📜 [Relay如何实现最优数据获取](https://relay.dev/blog/2023/10/24/how-relay-enables-optimal-data-fetching/)
 - 📜 [TanStack Router——面向大众的现代React路由方案](https://swizec.com/blog/tanstack-router-modern-react-for-the-rest-of-us/)
-- 📜 [在React i18next翻译中处理HTML内容](https://rafaelcamargo.com/blog/handling-html-within-react-i18next-translations/)
-- 📜 [Next.js极简无依赖多语言系统实现](https://www.thomasledoux.be/blog/minimal-dependency-free-translation-system-nextjs)
-- 📜 [全栈可组合性架构入门指南](https://www.smashingmagazine.com/2023/11/introduction-full-stack-composability/)
-- 📦 [Redux全家桶重大更新：Redux Toolkit 2.0/Redux 5.0/React-Redux 9.0/Reselect 5.0/Redux-Thunk 3.0](https://github.com/reduxjs/redux-toolkit/releases/tag/v2.0.0)：同步更新所有Redux包，新增`combineSlices`功能，优化体积、性能与类型系统，移除废弃特性。
-- 📦 [Astro 4.0发布：开发者工具栏、国际化路由、增量内容缓存、视图过渡API...](https://astro.build/blog/astro-4/)
-- 📦 [Storybook 7.6：转向SWC编译器、性能提升、react-docgen升级、控件改进、doctor CLI工具...](https://storybook.js.org/blog/storybook-7-6/)
+- 📜 [在React i18next翻译中处理HTML标签](https://rafaelcamargo.com/blog/handling-html-within-react-i18next-translations/)
+- 📜 [Next.js极简无依赖国际化方案](https://www.thomasledoux.be/blog/minimal-dependency-free-translation-system-nextjs)
+- 📜 [全栈可组合性入门指南](https://www.smashingmagazine.com/2023/11/introduction-full-stack-composability/)
+- 📦 [Redux Toolkit 2.0、Redux 5.0、React-Redux 9.0、Reselect 5.0、Redux-Thunk 3.0同步更新](https://github.com/reduxjs/redux-toolkit/releases/tag/v2.0.0)：包含新功能（`combineSlices`）、体积/性能/类型优化及废弃特性移除。
+- 📦 [Astro 4.0发布：开发者工具栏、国际化路由、增量内容缓存、视图过渡API等](https://astro.build/blog/astro-4/)
+- 📦 [Storybook 7.6：转用SWC编译器、性能提升、react-docgen升级、控件改进、doctor CLI工具](https://storybook.js.org/blog/storybook-7-6/)
 - 📦 [Remix Dev Tools 3.5支持Vite](https://github.com/Code-Forge-Net/Remix-Dev-Tools/releases/tag/v3.5.0)
-- 📦 [Starlight 0.14推出插件API](https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.14.0)
+- 📦 [Starlight 0.14插件系统](https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.14.0)
 - 📦 [Jotai 2.6支持在React服务端组件中使用`<Provider>`](https://github.com/pmndrs/jotai/releases/tag/v2.6.0)
 - 🎥 [React服务端组件专题讨论 - React Summit US 2023](https://www.youtube.com/watch?v=ujaTs-5LEWM)
 - 🎥 [Lee Robinson的Next.js与React入门教程](https://www.youtube.com/@leerob)
@@ -91,9 +91,9 @@ Meta的CSS-in-JS解决方案终于开源，经过漫长等待。该方案已应�
 
 **[断点和console.log已成过去，时间旅行才是未来](https://wallabyjs.com/?referrer=ThisWeekInReact1)**
 
-比使用断点和console.log快15倍的JavaScript调试体验。
+比传统断点调试快15倍的JavaScript调试方案。
 
-[Wallaby.js](https://wallabyjs.com/?referrer=ThisWeekInReact1) 会在您输入代码时立即运行测试，并将运行时值、错误和代码覆盖率实时显示在代码旁边。
+[Wallaby.js](https://wallabyjs.com/?referrer=ThisWeekInReact1) 能在您键入时即时运行测试，实时在代码旁显示运行时值、错误和测试覆盖率。
 
 专为测试设计的Wallaby提供[时间旅行调试器](https://wallabyjs.com/docs/intro/time-travel-debugger.html?referrer=ThisWeekInReact1)、仅运行已打开测试文件等功能。
 
@@ -101,40 +101,40 @@ Meta的CSS-in-JS解决方案终于开源，经过漫长等待。该方案已应�
 
 ## 📱 React-Native {#react-native}
 
-- 📦[React Native 0.73 - 调试改进、稳定符号链接支持等](https://reactnative.dev/blog/2023/12/06/0.73-debugging-improvements-stable-symlinks)：刚刚发布，下周我将详细介绍 😄
-- 📊 [2023年React Native现状调查](https://survey.stateofreactnative.com/)：React Native调查第二年回归。您的回答将影响我们优先改进最受关注的功能。
-- 🐦 [通过 Actions和Expo配置插件在iOS Safari中"检查元素"](https://twitter.com/Baconbrix/status/1731407884624310708)
+- 📦[React Native 0.73 - 调试改进、稳定符号链接支持等](https://reactnative.dev/blog/2023/12/06/0.73-debugging-improvements-stable-symlinks)：本周刚发布，下周详解 😄
+- 📊 [2023年React Native现状调查](https://survey.stateofreactnative.com/)：第二年度的RN调查问卷，您的反馈将影响功能优先级排序
+- 🐦 [通过 Actions和Expo配置插件在iOS Safari实现"Inspect Element"](https://twitter.com/Baconbrix/status/1731407884624310708)
 - 📖 [Expo Router文档 - 从Expo Webpack迁移](https://docs.expo.dev/router/migrate/from-expo-webpack/)
-- 💬 [React-Native 0.73 - 引入无桥接模式](https://github.com/reactwg/react-native-new-architecture/discussions/154)：0.73版本提供新标志来完全禁用旧架构桥接（默认仍用于错误处理、事件发射器、定时器等）。互操作层使迁移更顺畅，但部分API调用需手动迁移。
-- 💬 [React-Native 0.74 - 将Android最低支持版本提升至v6 (API 23)](https://github.com/react-native-community/discussions-and-proposals/discussions/740)
-- 📜 [Shopify - React Native Skia入门指南](https://shopify.engineering/getting-started-with-react-native-skia)：介绍RN-Skia的应用场景、与Reanimated的集成、内置特效及Web支持。
+- 💬 [React-Native 0.73 - 桥接模式革新](https://github.com/reactwg/react-native-new-architecture/discussions/154)：0.73版本新增标志位可完全禁用旧架构桥接，互操作层简化迁移但需手动调整部分API
+- 💬 [React-Native 0.74 - 将提升Android最低支持版本至v6 (API 23)](https://github.com/react-native-community/discussions-and-proposals/discussions/740)
+- 📜 [Shopify技术博客 - React Native Skia入门指南](https://shopify.engineering/getting-started-with-react-native-skia)：详解RN-Skia的应用场景、Reanimated集成、特效功能及Web支持
 - 📜 [如何修改React Native iOS根视图背景色？](https://www.oskarkwasniewski.dev/blog/react-native-change-native-background-color)
-- 📜 [Expo EAS - 通过GitHub自动构建加速开发流程](https://expo.dev/changelog/2023/11-29-automatic-github-builds)
-- 📜 [Expo EAS - 构建注解功能上线](https://expo.dev/changelog/2023/12-01-build-annotations)
+- 📜 [Expo EAS - 利用GitHub自动构建加速开发流程](https://expo.dev/changelog/2023/11-29-automatic-github-builds)
+- 📜 [Expo EAS - 构建注解功能发布](https://expo.dev/changelog/2023/12-01-build-annotations)
 - 📦 [React-Native-Skia - 文本布局/段落支持](https://shopify.github.io/react-native-skia/docs/text/paragraph/)
-- 📦 [React-Native-VisionOS](https://github.com/callstack/react-native-visionos)：现可在npm试用（🐦 [演示视频](https://twitter.com/o_kwasniewski/status/1729453555201802495)）
+- 📦 [React-Native-VisionOS](https://github.com/callstack/react-native-visionos)：现可通过npm体验（🐦 [演示视频](https://twitter.com/o_kwasniewski/status/1729453555201802495)）
 - 🎙️ [React Native Radio第281期 - 真实案例：Share My Stack创始人Benedikt Müller访谈](https://reactnativeradio.com/episodes/rnr-281-real-life-react-native-benedikt-muller-of-share-my-stack)
 
 ---
 
 ## 🔀 其他 {#other}
 
-- 🧵 [尤雨溪谈"无打包方案难以扩展"的讨论](https://twitter.com/youyuxi/status/1730537401217610234)
-- 📜 [第99次TC39会议更新 - Array Grouping进入stage 4，Promise.withResolvers进入stage 4](https://dev.to/hemanth/updates-from-the-99th-tc39-meeting-15hn)
-- 📜 [Prettier CLI性能深度解析](https://prettier.io/blog/2023/11/30/cli-deep-dive)
-- 📜 [Biome格式化工具赢得Prettier挑战赛](https://biomejs.dev/blog/biome-wins-prettier-challenge/)
-- 📜 [通过构建一个框架来学习现代JavaScript框架工作原理](https://nolanlawson.com/2023/12/02/lets-learn-how-modern-javascript-frameworks-work-by-building-one/)
+- 🧵 [尤雨溪关于"无打包方案难以扩展"的讨论](https://twitter.com/youyuxi/status/1730537401217610234)
+- 📜 [第99次TC39会议更新 - Array Grouping进入stage 4, Promise.withResolvers进入stage 4](https://dev.to/hemanth/updates-from-the-99th-tc39-meeting-15hn)
+- 📜 [Prettier命令行工具性能深度解析](https://prettier.io/blog/2023/11/30/cli-deep-dive)
+- 📜 [Biome格式化器赢得Prettier挑战赛](https://biomejs.dev/blog/biome-wins-prettier-challenge/)
+- 📜 [通过构建一个现代JavaScript框架来学习其工作原理](https://nolanlawson.com/2023/12/02/lets-learn-how-modern-javascript-frameworks-work-by-building-one/)
 - 📜 [Web组件消除JavaScript框架锁定](https://jakelazaroff.com/words/web-components-eliminate-javascript-framework-lock-in/)
 - 📜 [使用Playwright fixtures追踪前端JavaScript异常](https://www.checklyhq.com/blog/track-frontend-javascript-exceptions-with-playwright/)
 - 📦 [XState 5.0 - 万物皆Actor](https://stately.ai/blog/2023-12-01-xstate-v5)
 - 📦 [Fresh 1.6 - Tailwind CSS插件、简化类型声明等](https://deno.com/blog/fresh-1.6)
-- 📦 [Vitest 1.0发布](https://github.com/vitest-dev/vitest/releases/tag/v1.0.0)
-- 📦 [Hono 3.11 - 错误边界](https://github.com/honojs/hono/releases/tag/v3.11.0)
+- 📦 [Vitest 1.0正式发布](https://github.com/vitest-dev/vitest/releases/tag/v1.0.0)
+- 📦 [Hono 3.11 - 错误边界支持](https://github.com/honojs/hono/releases/tag/v3.11.0)
 - 🎥 [CSS4即将到来](https://www.youtube.com/watch?v=j4mOm1qic7k)
 
 ---
 
-## 🤭 趣闻 {#fun}
+## 🤭 趣味一刻 {#fun}
 
 [![alt](/emails/issues/165/meme.jpg)](https://twitter.com/bndkt/status/1729743347370139940)
 

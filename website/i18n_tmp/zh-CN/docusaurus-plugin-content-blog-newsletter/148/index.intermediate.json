@@ -1,347 +1,461 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/148/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/148/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /148\ntitle: \"This Week In React #148: Remix Routing, Hydration, React.FC, Vite + RSC, Zedux, Astro, Tremor, Valhalla, Reanimated, Expo-Apple-Targets, XCode 15...\"\nauthors: [slorber]\ndate: 06-13-2023\n---",
-      "sourceMdx": "---\nslug: /148\ntitle: \"This Week In React #148: Remix Routing, Hydration, React.FC, Vite + RSC, Zedux, Astro, Tremor, Valhalla, Reanimated, Expo-Apple-Targets, XCode 15...\"\nauthors: [slorber]\ndate: 06-13-2023\n---"
+      "sourceMdx": "---\nslug: /148\ntitle: \"This Week In React #148: Remix Routing, Hydration, React.FC, Vite + RSC, Zedux, Astro, Tremor, Valhalla, Reanimated, Expo-Apple-Targets, XCode 15...\"\nauthors: [slorber]\ndate: 06-13-2023\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "Well, Dan Abramov is [on holiday](https://twitter.com/dan_abramov/status/1666459095979753477), which is probably why there hasn't been much happening this week in our beloved ecosystem 😅.",
-      "sourceMdx": "Well, Dan Abramov is [on holiday](https://twitter.com/dan_abramov/status/1666459095979753477), which is probably why there hasn't been much happening this week in our beloved ecosystem 😅."
+      "sourceMdx": "Well, Dan Abramov is [on holiday](https://twitter.com/dan_abramov/status/1666459095979753477), which is probably why there hasn't been much happening this week in our beloved ecosystem 😅.",
+      "nodeType": "paragraph",
+      "translated_content": "由于Dan Abramov正在[休假](https://twitter.com/dan_abramov/status/1666459095979753477)，这大概就是我们心爱的React生态系统本周动静不大的原因吧😅。"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "We do, however, have a few interesting articles and a potential official package for integrating React Server Components with Vite.",
-      "sourceMdx": "We do, however, have a few interesting articles and a potential official package for integrating React Server Components with Vite."
+      "sourceMdx": "We do, however, have a few interesting articles and a potential official package for integrating React Server Components with Vite.",
+      "nodeType": "paragraph",
+      "translated_content": "不过我们仍有一些有趣的文章，以及一个可能成为官方包的Vite集成方案用于React服务端组件。"
     },
     {
       "id": "e883b2cc",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_e883b2cc"
     },
     {
       "id": "86b54d44",
       "translatable": true,
       "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
-      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "nodeType": "paragraph",
+      "translated_content": "**💡 [在Twitter上查看本期简报](https://slo.im/thread) - 可视化格式 🎨**"
     },
     {
       "id": "7f7f1cb2",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "92f4ea84",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_92f4ea84"
     },
     {
       "id": "5dfba1c3",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_5dfba1c3"
     },
     {
       "id": "1856ef44",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "79b2d0b9",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "d9172fa4",
       "translatable": true,
       "content": "[![Tina.io is a headless CMS for Markdown-powered sites](/emails/issues/140/tinacms.jpg)](https://tina.io/?utm_source=newsletter\\&utm_term=this-week-in-react)",
-      "sourceMdx": "[![Tina.io is a headless CMS for Markdown-powered sites](/emails/issues/140/tinacms.jpg)](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)"
+      "sourceMdx": "[![Tina.io is a headless CMS for Markdown-powered sites](/emails/issues/140/tinacms.jpg)](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Tina.io是为Markdown站点打造的无头CMS](/emails/issues/140/tinacms.jpg)](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)"
     },
     {
       "id": "26524352",
       "translatable": true,
       "content": "**[Tina.io is a headless CMS for Markdown-powered sites](https://tina.io/?utm_source=newsletter\\&utm_term=this-week-in-react)**",
-      "sourceMdx": "**[Tina.io is a headless CMS for Markdown-powered sites](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)**"
+      "sourceMdx": "**[Tina.io is a headless CMS for Markdown-powered sites](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Tina.io是为Markdown站点打造的无头CMS](https://tina.io/?utm_source=newsletter&utm_term=this-week-in-react)**"
     },
     {
       "id": "86b525ab",
       "translatable": true,
       "content": "* Editing UI for your Markdown files\n* UI for MDX components\n* Supports static (SSG) and server-side rendering (SSR)\n* Option for visual editing (live-preview)\n* Build with reusable blocks",
-      "sourceMdx": "- Editing UI for your Markdown files\n- UI for MDX components\n- Supports static (SSG) and server-side rendering (SSR)\n- Option for visual editing (live-preview)\n- Build with reusable blocks"
+      "sourceMdx": "- Editing UI for your Markdown files\n- UI for MDX components\n- Supports static (SSG) and server-side rendering (SSR)\n- Option for visual editing (live-preview)\n- Build with reusable blocks",
+      "nodeType": "list",
+      "translated_content": "- 为Markdown文件提供可视化编辑界面\n- 支持MDX组件编辑\n- 兼容静态生成(SSG)和服务器渲染(SSR)\n- 可选实时预览编辑功能\n- 采用可复用区块构建"
     },
     {
       "id": "135468ee",
       "translatable": true,
       "content": "Test a starter site",
-      "sourceMdx": "Test a starter site"
+      "sourceMdx": "Test a starter site",
+      "nodeType": "paragraph",
+      "translated_content": "体验入门模板"
     },
     {
       "id": "e7bc8c38",
       "translatable": true,
       "content": "* [Docusaurus](https://github.com/tinacms/tinasaurus) (Github)\n* [Next.js + Tailwind with visual editing](https://github.com/tinacms/tina-cloud-starter) (Github)",
-      "sourceMdx": "- [Docusaurus](https://github.com/tinacms/tinasaurus) (Github)\n- [Next.js + Tailwind with visual editing](https://github.com/tinacms/tina-cloud-starter) (Github)"
+      "sourceMdx": "- [Docusaurus](https://github.com/tinacms/tinasaurus) (Github)\n- [Next.js + Tailwind with visual editing](https://github.com/tinacms/tina-cloud-starter) (Github)",
+      "nodeType": "list",
+      "translated_content": "- [Docusaurus版](https://github.com/tinacms/tinasaurus) (Github)\n- [Next.js + Tailwind可视化编辑版](https://github.com/tinacms/tina-cloud-starter) (Github)"
     },
     {
       "id": "1042b50d",
       "translatable": true,
       "content": "Or run  `npx create-tina-app@latest` then visit `localhost:3000/admin`",
-      "sourceMdx": "Or run  `npx create-tina-app@latest` then visit `localhost:3000/admin`"
+      "sourceMdx": "Or run  `npx create-tina-app@latest` then visit `localhost:3000/admin`",
+      "nodeType": "paragraph",
+      "translated_content": "或运行 `npx create-tina-app@latest` 后访问 `localhost:3000/admin`"
     },
     {
       "id": "aa1e7006",
       "translatable": true,
       "content": "Watch the [4-min demo video](https://www.youtube.com/watch?v=zRkeKSZjlyw)",
-      "sourceMdx": "Watch the [4-min demo video](https://www.youtube.com/watch?v=zRkeKSZjlyw)"
+      "sourceMdx": "Watch the [4-min demo video](https://www.youtube.com/watch?v=zRkeKSZjlyw)",
+      "nodeType": "paragraph",
+      "translated_content": "观看[4分钟演示视频](https://www.youtube.com/watch?v=zRkeKSZjlyw)"
     },
     {
       "id": "94f98fb8",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "6f930b2f",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React动态 {#react}"
     },
     {
       "id": "c504c207",
       "translatable": true,
       "content": "[![Colocate your routes into feature folders with Remix Custom Routes](/emails/issues/148/remix-routing.jpg)](https://www.jacobparis.com/content/remix-custom-routes)",
-      "sourceMdx": "[![Colocate your routes into feature folders with Remix Custom Routes](/emails/issues/148/remix-routing.jpg)](https://www.jacobparis.com/content/remix-custom-routes)"
+      "sourceMdx": "[![Colocate your routes into feature folders with Remix Custom Routes](/emails/issues/148/remix-routing.jpg)](https://www.jacobparis.com/content/remix-custom-routes)",
+      "nodeType": "paragraph",
+      "translated_content": "[![通过Remix自定义路由实现功能文件夹路由聚合](/emails/issues/148/remix-routing.jpg)](https://www.jacobparis.com/content/remix-custom-routes)"
     },
     {
       "id": "98d26038",
       "translatable": true,
       "content": "**[Colocate your routes into feature folders with Remix Custom Routes](https://www.jacobparis.com/content/remix-custom-routes)**",
-      "sourceMdx": "**[Colocate your routes into feature folders with Remix Custom Routes](https://www.jacobparis.com/content/remix-custom-routes)**"
+      "sourceMdx": "**[Colocate your routes into feature folders with Remix Custom Routes](https://www.jacobparis.com/content/remix-custom-routes)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[通过Remix自定义路由实现功能文件夹路由聚合](https://www.jacobparis.com/content/remix-custom-routes)**"
     },
     {
       "id": "d3649a1e",
       "translatable": true,
       "content": "Explains how Remix v2's flat file routing will improve featured-based code colocation. This can be activated from Remix v1 with a feature flag. With Remix, you can create your own routing conventions: Jacob proposes to improve colocation even further with [remix-custom-routes](https://github.com/jacobparis-insiders/remix-custom-routes) and a naming convention using the `.route.tsx` suffix.",
-      "sourceMdx": "Explains how Remix v2's flat file routing will improve featured-based code colocation. This can be activated from Remix v1 with a feature flag. With Remix, you can create your own routing conventions: Jacob proposes to improve colocation even further with [remix-custom-routes](https://github.com/jacobparis-insiders/remix-custom-routes) and a naming convention using the `.route.tsx` suffix."
+      "sourceMdx": "Explains how Remix v2's flat file routing will improve featured-based code colocation. This can be activated from Remix v1 with a feature flag. With Remix, you can create your own routing conventions: Jacob proposes to improve colocation even further with [remix-custom-routes](https://github.com/jacobparis-insiders/remix-custom-routes) and a naming convention using the `.route.tsx` suffix.",
+      "nodeType": "paragraph",
+      "translated_content": "解析Remix v2的扁平化文件路由如何优化功能模块的代码聚合。该特性可通过功能标志在Remix v1中启用。借助Remix的灵活路由机制，Jacob提出通过[remix-custom-routes](https://github.com/jacobparis-insiders/remix-custom-routes)和`.route.tsx`后缀命名规范进一步强化代码聚合。"
     },
     {
       "id": "6e9a41d8",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "23dfb152",
       "translatable": true,
       "content": "[![Hydration is a tree, Resumability is a map](/emails/issues/148/hydration.jpg)](https://www.builder.io/blog/hydration-tree-resumability-map)",
-      "sourceMdx": "[![Hydration is a tree, Resumability is a map](/emails/issues/148/hydration.jpg)](https://www.builder.io/blog/hydration-tree-resumability-map)"
+      "sourceMdx": "[![Hydration is a tree, Resumability is a map](/emails/issues/148/hydration.jpg)](https://www.builder.io/blog/hydration-tree-resumability-map)",
+      "nodeType": "paragraph",
+      "translated_content": "[![水合是棵树，可恢复性是张图](/emails/issues/148/hydration.jpg)](https://www.builder.io/blog/hydration-tree-resumability-map)"
     },
     {
       "id": "1131ef75",
       "translatable": true,
       "content": "**[Hydration is a tree, Resumability is a map](https://www.builder.io/blog/hydration-tree-resumability-map)**",
-      "sourceMdx": "**[Hydration is a tree, Resumability is a map](https://www.builder.io/blog/hydration-tree-resumability-map)**"
+      "sourceMdx": "**[Hydration is a tree, Resumability is a map](https://www.builder.io/blog/hydration-tree-resumability-map)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[水合是棵树，可恢复性是张图](https://www.builder.io/blog/hydration-tree-resumability-map)**"
     },
     {
       "id": "8b2a52b1",
       "translatable": true,
       "content": "Gives an interesting mental model for understanding the difference between hydration (React) and resumability (Qwik). With resumability, all components are considered static, and event handlers are the entry point for interactivity. There is no need to traverse a tree (`O(n)`): with resumability, scalability is good, like the lookup in a hashmap (`O(1)`).",
-      "sourceMdx": "Gives an interesting mental model for understanding the difference between hydration (React) and resumability (Qwik). With resumability, all components are considered static, and event handlers are the entry point for interactivity. There is no need to traverse a tree (`O(n)`): with resumability, scalability is good, like the lookup in a hashmap (`O(1)`)."
+      "sourceMdx": "Gives an interesting mental model for understanding the difference between hydration (React) and resumability (Qwik). With resumability, all components are considered static, and event handlers are the entry point for interactivity. There is no need to traverse a tree (`O(n)`): with resumability, scalability is good, like the lookup in a hashmap (`O(1)`).",
+      "nodeType": "paragraph",
+      "translated_content": "通过心智模型对比React的水合机制与Qwik的可恢复性设计。可恢复性将所有组件视为静态，事件处理器才是交互入口。无需遍历组件树(`O(n)`)，其扩展性如同哈希表查询(`O(1)`)般高效。"
     },
     {
       "id": "42c293cc",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "180e9ce9",
       "translatable": true,
       "content": "* 👀 [react-server-dom-vite](https://twitter.com/nkSaraf98/status/1667934636297650179): WIP React core PR being reviewed to add an official Vite integration package for React Server Components, supporting the lazy and ESM nature of the bundler.\n* 👤 [Sophie Alpert looking for a job](https://twitter.com/sebastienlorber/status/1668562588781748224): unique opportunity to hire one of the top React contributors of all time.\n* 📜 [You Can Stop Hating React.FC](https://www.totaltypescript.com/you-can-stop-hating-react-fc): for Matt Pocock, `React.FC` is no longer an anti-pattern starting with TypeScript 5.1 and React 18, but he recommends sticking to annotating props.\n* 📜 [Better Images in Astro](https://astro.build/blog/images/): Astro v2.6 brings a new optimised image component (experimental). It uses webp, avoids layout shifts, supports Markdown relative paths and external image services.\n* 📜 [Zedux: Is this the one?](https://omnistac.github.io/zedux/blog/zedux-is-this-the-one): introduction to Zedux, a new React state manager based on atoms and composition. There are a lot of React state managers out there, and I thought this one stood out and was worth taking a look at: impressive list of features, polished documentation, and takes the best of existing solutions.\n* 📜 [React: how to debug the source code](https://andreigatej.dev/blog/react-debugging-the-source-code/): a few setup tips if you want to debug Jest tests of the React codebase.\n* 📜 [Netlify Connect](https://twitter.com/ascorbic/status/1668586011117465600): integration of the Gatsby Valhalla GraphQL data layer into Netlify, following the acquisition of the React framework.\n* 📜 [Add Drizzle ORM to a Remix app](https://www.jacobparis.com/content/remix-drizzle)\n* 📜 [A Visual Guide to the new App Router in Next.js 13](https://www.builder.io/blog/next-13-app-router)\n* 🔗 [Thinking in React Query](https://tkdodo.eu/blog/thinking-in-react-query): slides from React-Summit talk. React-Query is an Async State Manager, not just a data fetching solution.\n* 📦 [Shadcn UI CLI](https://twitter.com/shadcn/status/1666861850091458560): new configurable CLI for the Radix/Tailwind Shadcn UI component collection.\n* 📦 [Hiber 3D](https://hiberworld.com/developer): new framework for creating interactive 3D worlds, based on React.\n* 📦 [NakedJSX](https://nakedjsx.org/): simple CLI tool to generate static sites in JSX.\n* 📦 [rad-event-listener](https://github.com/JLarky/rad-event-listener): alternative API for adding listeners. Returns a cleanup function: useful for reducing the React boilerplate.\n* 📦 [Tremor v3 - React library to build dashboards](https://twitter.com/tremorlabs/status/1666706183409860610)\n* 📦 [React-Redux 8.1](https://github.com/reduxjs/react-redux/releases/tag/v8.1.0)\n* 🎙️ [This Month in React – May 2023](https://podcasters.spotify.com/pod/show/reactiflux/episodes/This-Month-in-React--May-2023-e25flvh): our monthly podcast with Reactiflux.\n* 🎥 [Does Lock-In Even Matter Anymore?](https://www.youtube.com/watch?v=rtgjFEJaFI8): interesting reflection on the potential lock-in (or not) of Vercel when using certain Next.js features.\n* 🎥 [Is Next.js App Router Slow? Performance Deep Dive](https://www.youtube.com/watch?v=HbUDiNlU6Yw)\n* 🎥 [From Pages to the App Directory in Next.js 13 (Nested Layouts)](https://www.youtube.com/watch?v=QkntFWb_V8k)\n* 🎥 [High-school student makes React a million times faster](https://www.youtube.com/watch?v=VkezQMb1DHw)",
-      "sourceMdx": "- 👀 [react-server-dom-vite](https://twitter.com/nkSaraf98/status/1667934636297650179): WIP React core PR being reviewed to add an official Vite integration package for React Server Components, supporting the lazy and ESM nature of the bundler.\n- 👤 [Sophie Alpert looking for a job](https://twitter.com/sebastienlorber/status/1668562588781748224): unique opportunity to hire one of the top React contributors of all time.\n- 📜 [You Can Stop Hating React.FC](https://www.totaltypescript.com/you-can-stop-hating-react-fc): for Matt Pocock, `React.FC` is no longer an anti-pattern starting with TypeScript 5.1 and React 18, but he recommends sticking to annotating props.\n- 📜 [Better Images in Astro](https://astro.build/blog/images/): Astro v2.6 brings a new optimised image component (experimental). It uses webp, avoids layout shifts, supports Markdown relative paths and external image services.\n- 📜 [Zedux: Is this the one?](https://omnistac.github.io/zedux/blog/zedux-is-this-the-one): introduction to Zedux, a new React state manager based on atoms and composition. There are a lot of React state managers out there, and I thought this one stood out and was worth taking a look at: impressive list of features, polished documentation, and takes the best of existing solutions.\n- 📜 [React: how to debug the source code](https://andreigatej.dev/blog/react-debugging-the-source-code/): a few setup tips if you want to debug Jest tests of the React codebase.\n- 📜 [Netlify Connect](https://twitter.com/ascorbic/status/1668586011117465600): integration of the Gatsby Valhalla GraphQL data layer into Netlify, following the acquisition of the React framework.\n- 📜 [Add Drizzle ORM to a Remix app](https://www.jacobparis.com/content/remix-drizzle)\n- 📜 [A Visual Guide to the new App Router in Next.js 13](https://www.builder.io/blog/next-13-app-router)\n- 🔗 [Thinking in React Query](https://tkdodo.eu/blog/thinking-in-react-query): slides from React-Summit talk. React-Query is an Async State Manager, not just a data fetching solution.\n- 📦 [Shadcn UI CLI](https://twitter.com/shadcn/status/1666861850091458560): new configurable CLI for the Radix/Tailwind Shadcn UI component collection.\n- 📦 [Hiber 3D](https://hiberworld.com/developer): new framework for creating interactive 3D worlds, based on React.\n- 📦 [NakedJSX](https://nakedjsx.org/): simple CLI tool to generate static sites in JSX.\n- 📦 [rad-event-listener](https://github.com/JLarky/rad-event-listener): alternative API for adding listeners. Returns a cleanup function: useful for reducing the React boilerplate.\n- 📦 [Tremor v3 - React library to build dashboards](https://twitter.com/tremorlabs/status/1666706183409860610)\n- 📦 [React-Redux 8.1](https://github.com/reduxjs/react-redux/releases/tag/v8.1.0)\n- 🎙️ [This Month in React – May 2023](https://podcasters.spotify.com/pod/show/reactiflux/episodes/This-Month-in-React--May-2023-e25flvh): our monthly podcast with Reactiflux.\n- 🎥 [Does Lock-In Even Matter Anymore?](https://www.youtube.com/watch?v=rtgjFEJaFI8): interesting reflection on the potential lock-in (or not) of Vercel when using certain Next.js features.\n- 🎥 [Is Next.js App Router Slow? Performance Deep Dive](https://www.youtube.com/watch?v=HbUDiNlU6Yw)\n- 🎥 [From Pages to the App Directory in Next.js 13 (Nested Layouts)](https://www.youtube.com/watch?v=QkntFWb_V8k)\n- 🎥 [High-school student makes React a million times faster](https://www.youtube.com/watch?v=VkezQMb1DHw)"
+      "sourceMdx": "- 👀 [react-server-dom-vite](https://twitter.com/nkSaraf98/status/1667934636297650179): WIP React core PR being reviewed to add an official Vite integration package for React Server Components, supporting the lazy and ESM nature of the bundler.\n- 👤 [Sophie Alpert looking for a job](https://twitter.com/sebastienlorber/status/1668562588781748224): unique opportunity to hire one of the top React contributors of all time.\n- 📜 [You Can Stop Hating React.FC](https://www.totaltypescript.com/you-can-stop-hating-react-fc): for Matt Pocock, `React.FC` is no longer an anti-pattern starting with TypeScript 5.1 and React 18, but he recommends sticking to annotating props.\n- 📜 [Better Images in Astro](https://astro.build/blog/images/): Astro v2.6 brings a new optimised image component (experimental). It uses webp, avoids layout shifts, supports Markdown relative paths and external image services.\n- 📜 [Zedux: Is this the one?](https://omnistac.github.io/zedux/blog/zedux-is-this-the-one): introduction to Zedux, a new React state manager based on atoms and composition. There are a lot of React state managers out there, and I thought this one stood out and was worth taking a look at: impressive list of features, polished documentation, and takes the best of existing solutions.\n- 📜 [React: how to debug the source code](https://andreigatej.dev/blog/react-debugging-the-source-code/): a few setup tips if you want to debug Jest tests of the React codebase.\n- 📜 [Netlify Connect](https://twitter.com/ascorbic/status/1668586011117465600): integration of the Gatsby Valhalla GraphQL data layer into Netlify, following the acquisition of the React framework.\n- 📜 [Add Drizzle ORM to a Remix app](https://www.jacobparis.com/content/remix-drizzle)\n- 📜 [A Visual Guide to the new App Router in Next.js 13](https://www.builder.io/blog/next-13-app-router)\n- 🔗 [Thinking in React Query](https://tkdodo.eu/blog/thinking-in-react-query): slides from React-Summit talk. React-Query is an Async State Manager, not just a data fetching solution.\n- 📦 [Shadcn UI CLI](https://twitter.com/shadcn/status/1666861850091458560): new configurable CLI for the Radix/Tailwind Shadcn UI component collection.\n- 📦 [Hiber 3D](https://hiberworld.com/developer): new framework for creating interactive 3D worlds, based on React.\n- 📦 [NakedJSX](https://nakedjsx.org/): simple CLI tool to generate static sites in JSX.\n- 📦 [rad-event-listener](https://github.com/JLarky/rad-event-listener): alternative API for adding listeners. Returns a cleanup function: useful for reducing the React boilerplate.\n- 📦 [Tremor v3 - React library to build dashboards](https://twitter.com/tremorlabs/status/1666706183409860610)\n- 📦 [React-Redux 8.1](https://github.com/reduxjs/react-redux/releases/tag/v8.1.0)\n- 🎙️ [This Month in React – May 2023](https://podcasters.spotify.com/pod/show/reactiflux/episodes/This-Month-in-React--May-2023-e25flvh): our monthly podcast with Reactiflux.\n- 🎥 [Does Lock-In Even Matter Anymore?](https://www.youtube.com/watch?v=rtgjFEJaFI8): interesting reflection on the potential lock-in (or not) of Vercel when using certain Next.js features.\n- 🎥 [Is Next.js App Router Slow? Performance Deep Dive](https://www.youtube.com/watch?v=HbUDiNlU6Yw)\n- 🎥 [From Pages to the App Directory in Next.js 13 (Nested Layouts)](https://www.youtube.com/watch?v=QkntFWb_V8k)\n- 🎥 [High-school student makes React a million times faster](https://www.youtube.com/watch?v=VkezQMb1DHw)",
+      "nodeType": "list",
+      "translated_content": "- 👀 [react-server-dom-vite](https://twitter.com/nkSaraf98/status/1667934636297650179): 正在审查中的React核心PR，旨在为React服务端组件添加官方Vite集成包，支持该打包器的懒加载和ESM特性。\n- 👤 [Sophie Alpert正在求职](https://twitter.com/sebastienlorber/status/1668562588781748224): 雇佣这位史上顶级React贡献者之一的独特机会。\n- 📜 [你可以停止讨厌React.FC了](https://www.totaltypescript.com/you-can-stop-hating-react-fc): Matt Pocock认为从TypeScript 5.1和React 18开始，`React.FC`不再是反模式，但仍建议坚持对props进行类型标注。\n- 📜 [Astro中的更佳图片处理](https://astro.build/blog/images/): Astro v2.6带来了新的实验性优化图片组件，支持webp格式、避免布局偏移、兼容Markdown相对路径和外部图片服务。\n- 📜 [Zedux：就是它了吗？](https://omnistac.github.io/zedux/blog/zedux-is-this-the-one): 介绍基于原子和组合的新React状态管理器Zedux。其功能列表令人印象深刻，文档精良，并吸收了现有解决方案的优点。\n- 📜 [React：如何调试源码](https://andreigatej.dev/blog/react-debugging-the-source-code/): 调试React代码库Jest测试的配置技巧。\n- 📜 [Netlify Connect](https://twitter.com/ascorbic/status/1668586011117465600): 在收购React框架后，将Gatsby Valhalla GraphQL数据层集成至Netlify。\n- 📜 [在Remix应用中添加Drizzle ORM](https://www.jacobparis.com/content/remix-drizzle)\n- 📜 [Next.js 13新App Router可视化指南](https://www.builder.io/blog/next-13-app-router)\n- 🔗 [React Query思维模式](https://tkdodo.eu/blog/thinking-in-react-query): React峰会演讲幻灯片。React-Query是异步状态管理器，而不仅是数据获取方案。\n- 📦 [Shadcn UI CLI](https://twitter.com/shadcn/status/1666861850091458560): 为Radix/Tailwind组件集合Shadcn UI推出的可配置CLI工具。\n- 📦 [Hiber 3D](https://hiberworld.com/developer): 基于React构建交互式3D世界的新框架。\n- 📦 [NakedJSX](https://nakedjsx.org/): 用JSX生成静态站点的简易CLI工具。\n- 📦 [rad-event-listener](https://github.com/JLarky/rad-event-listener): 返回清理函数的事件监听替代API，可减少React样板代码。\n- 📦 [Tremor v3 - 仪表盘构建React库](https://twitter.com/tremorlabs/status/1666706183409860610)\n- 📦 [React-Redux 8.1](https://github.com/reduxjs/react-redux/releases/tag/v8.1.0)\n- 🎙️ [React月度动态 - 2023年5月](https://podcasters.spotify.com/pod/show/reactiflux/episodes/This-Month-in-React--May-2023-e25flvh): 与Reactiflux合作的月度播客。\n- 🎥 [锁定效应还重要吗？](https://www.youtube.com/watch?v=rtgjFEJaFI8): 关于使用Next.js特定功能时可能产生的Vercel锁定效应的思考。\n- 🎥 [Next.js App Router慢吗？性能深度分析](https://www.youtube.com/watch?v=HbUDiNlU6Yw)\n- 🎥 [从Pages迁移到Next.js 13的App Directory（嵌套布局）](https://www.youtube.com/watch?v=QkntFWb_V8k)\n- 🎥 [高中生让React性能提升百万倍](https://www.youtube.com/watch?v=VkezQMb1DHw)"
     },
     {
       "id": "897e0025",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_897e0025"
     },
     {
       "id": "c9716ede",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "39db08de",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "785750ac",
       "translatable": true,
       "content": "[![React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](/emails/issues/148/reactbricks.png)](https://reactbricks.com/?utm_source=thisweekinreact)",
-      "sourceMdx": "[![React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](/emails/issues/148/reactbricks.png)](https://reactbricks.com/?utm_source=thisweekinreact)"
+      "sourceMdx": "[![React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](/emails/issues/148/reactbricks.png)](https://reactbricks.com/?utm_source=thisweekinreact)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React Bricks是支持Next.js、Remix和Gatsby可视化编辑的CMS](/emails/issues/148/reactbricks.png)](https://reactbricks.com/?utm_source=thisweekinreact)"
     },
     {
       "id": "82e90254",
       "translatable": true,
       "content": "**[React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](https://reactbricks.com/?utm_source=thisweekinreact)**",
-      "sourceMdx": "**[React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](https://reactbricks.com/?utm_source=thisweekinreact)**"
+      "sourceMdx": "**[React Bricks is a CMS with visual editing for Next.js, Remix and Gatsby.](https://reactbricks.com/?utm_source=thisweekinreact)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[React Bricks是支持Next.js、Remix和Gatsby可视化编辑的CMS](https://reactbricks.com/?utm_source=thisweekinreact)**"
     },
     {
       "id": "2822251a",
       "translatable": true,
       "content": "**It's flexible for Developers**: with React components you can create your own design system. Add true inline Visual editing to your JSX and add sidebar controls to edit props like the background color. You can choose Next.js, Remix or Gatsby and any CSS framework!",
-      "sourceMdx": "**It's flexible for Developers**: with React components you can create your own design system. Add true inline Visual editing to your JSX and add sidebar controls to edit props like the background color. You can choose Next.js, Remix or Gatsby and any CSS framework!"
+      "sourceMdx": "**It's flexible for Developers**: with React components you can create your own design system. Add true inline Visual editing to your JSX and add sidebar controls to edit props like the background color. You can choose Next.js, Remix or Gatsby and any CSS framework!",
+      "nodeType": "paragraph",
+      "translated_content": "**开发者友好设计**：通过React组件，您可以创建自己的设计系统。为JSX添加真正的内联可视化编辑功能，并通过侧边栏控件调整背景色等属性。支持Next.js、Remix或Gatsby框架，兼容任何CSS方案！"
     },
     {
       "id": "25212439",
       "translatable": true,
       "content": "**Content editors** can easily edit content inline without breaking the design system. It's as easy as using Word or Pages, allowing them to create landing pages in minutes without relying on developer resources.",
-      "sourceMdx": "**Content editors** can easily edit content inline without breaking the design system. It's as easy as using Word or Pages, allowing them to create landing pages in minutes without relying on developer resources."
+      "sourceMdx": "**Content editors** can easily edit content inline without breaking the design system. It's as easy as using Word or Pages, allowing them to create landing pages in minutes without relying on developer resources.",
+      "nodeType": "paragraph",
+      "translated_content": "**内容编辑者** 无需破坏设计系统即可轻松内联编辑内容。操作如同使用Word或Pages般简单，使非技术人员也能快速创建落地页，无需依赖开发资源。"
     },
     {
       "id": "d79a4831",
       "translatable": true,
       "content": "**It's enterprise-ready** with Collaboration, Time-machine, Single Sign-on, GDPR-compliant datacenters, Global CDN for optimized images, E-commerce integration, Fine-grained permissions, Scheduled publishing and more.",
-      "sourceMdx": "**It's enterprise-ready** with Collaboration, Time-machine, Single Sign-on, GDPR-compliant datacenters, Global CDN for optimized images, E-commerce integration, Fine-grained permissions, Scheduled publishing and more."
+      "sourceMdx": "**It's enterprise-ready** with Collaboration, Time-machine, Single Sign-on, GDPR-compliant datacenters, Global CDN for optimized images, E-commerce integration, Fine-grained permissions, Scheduled publishing and more.",
+      "nodeType": "paragraph",
+      "translated_content": "**企业级功能** 包含多人协作、版本回溯、单点登录、符合GDPR的数据中心、全球CDN图像优化、电商集成、细粒度权限控制、定时发布等特性。"
     },
     {
       "id": "2838eb68",
       "translatable": true,
       "content": "**Get started here: [https://reactbricks.com](https://reactbricks.com/?utm_source=thisweekinreact)**",
-      "sourceMdx": "**Get started here: [https://reactbricks.com](https://reactbricks.com/?utm_source=thisweekinreact)**"
+      "sourceMdx": "**Get started here: [https://reactbricks.com](https://reactbricks.com/?utm_source=thisweekinreact)**",
+      "nodeType": "paragraph",
+      "translated_content": "**立即体验：[https://reactbricks.com](https://reactbricks.com/?utm_source=thisweekinreact)**"
     },
     {
       "id": "f414353c",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "f947c8e4",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "38417f80",
       "translatable": true,
       "content": "* 📦 [React-Native 0.72.0-RC.6](https://github.com/facebook/react-native/releases/tag/v0.72.0-rc.6): new Golden RC fixing bugs and bringing XCode 15 support.\n* 📦 [React-Native 0.71.10](https://github.com/facebook/react-native/releases/tag/v0.71.10): XCode 15 support, also available for v0.70 and v0.69.\n* 📦 [Reanimated 3.3](https://twitter.com/swmansion/status/1668640779923849216): supports React-Native v0.72 and React Native Web v0.19.\n* 📦 [Expo-Apple-Targets](https://github.com/EvanBacon/expo-apple-targets): Config Plugin to create Apple targets (Share Extension, Widgets, Watch App...). It only handles target generation and linking, and is not a way to [develop those targets with React-Native](https://twitter.com/Baconbrix/status/1668001651922223104).\n* 📜 [Running Maestro UI Tests in an Expo Development Build](https://blog.mobile.dev/running-maestro-ui-tests-in-an-expo-development-builds-1ca443ab2a30)\n* 🎙️ [React-Native-Radio 268 - Embarking on Expo SDK 48](https://reactnativeradio.com/episodes/rnr-268-embarking-on-expo-sdk-48)\n* 🎥 [Building a MacOS App with React Native: Is it Possible?](https://www.youtube.com/watch?v=xkYy_6kje9E)\n* 🎥 [What’s the best cross-platform technology in 2023](https://www.youtube.com/watch?v=lYfgGgJgHB0): nice retrospective of cross-platform from 2010 to 2023, and the main players in 2023.\n* 🎥 [React Native Shared Element Transitions with Reanimated 3](https://www.youtube.com/watch?v=tsleLxbvxe0)",
-      "sourceMdx": "- 📦 [React-Native 0.72.0-RC.6](https://github.com/facebook/react-native/releases/tag/v0.72.0-rc.6): new Golden RC fixing bugs and bringing XCode 15 support.\n- 📦 [React-Native 0.71.10](https://github.com/facebook/react-native/releases/tag/v0.71.10): XCode 15 support, also available for v0.70 and v0.69.\n- 📦 [Reanimated 3.3](https://twitter.com/swmansion/status/1668640779923849216): supports React-Native v0.72 and React Native Web v0.19.\n- 📦 [Expo-Apple-Targets](https://github.com/EvanBacon/expo-apple-targets): Config Plugin to create Apple targets (Share Extension, Widgets, Watch App...). It only handles target generation and linking, and is not a way to [develop those targets with React-Native](https://twitter.com/Baconbrix/status/1668001651922223104).\n- 📜 [Running Maestro UI Tests in an Expo Development Build](https://blog.mobile.dev/running-maestro-ui-tests-in-an-expo-development-builds-1ca443ab2a30)\n- 🎙️ [React-Native-Radio 268 - Embarking on Expo SDK 48](https://reactnativeradio.com/episodes/rnr-268-embarking-on-expo-sdk-48)\n- 🎥 [Building a MacOS App with React Native: Is it Possible?](https://www.youtube.com/watch?v=xkYy_6kje9E)\n- 🎥 [What’s the best cross-platform technology in 2023](https://www.youtube.com/watch?v=lYfgGgJgHB0): nice retrospective of cross-platform from 2010 to 2023, and the main players in 2023.\n- 🎥 [React Native Shared Element Transitions with Reanimated 3](https://www.youtube.com/watch?v=tsleLxbvxe0)"
+      "sourceMdx": "- 📦 [React-Native 0.72.0-RC.6](https://github.com/facebook/react-native/releases/tag/v0.72.0-rc.6): new Golden RC fixing bugs and bringing XCode 15 support.\n- 📦 [React-Native 0.71.10](https://github.com/facebook/react-native/releases/tag/v0.71.10): XCode 15 support, also available for v0.70 and v0.69.\n- 📦 [Reanimated 3.3](https://twitter.com/swmansion/status/1668640779923849216): supports React-Native v0.72 and React Native Web v0.19.\n- 📦 [Expo-Apple-Targets](https://github.com/EvanBacon/expo-apple-targets): Config Plugin to create Apple targets (Share Extension, Widgets, Watch App...). It only handles target generation and linking, and is not a way to [develop those targets with React-Native](https://twitter.com/Baconbrix/status/1668001651922223104).\n- 📜 [Running Maestro UI Tests in an Expo Development Build](https://blog.mobile.dev/running-maestro-ui-tests-in-an-expo-development-builds-1ca443ab2a30)\n- 🎙️ [React-Native-Radio 268 - Embarking on Expo SDK 48](https://reactnativeradio.com/episodes/rnr-268-embarking-on-expo-sdk-48)\n- 🎥 [Building a MacOS App with React Native: Is it Possible?](https://www.youtube.com/watch?v=xkYy_6kje9E)\n- 🎥 [What’s the best cross-platform technology in 2023](https://www.youtube.com/watch?v=lYfgGgJgHB0): nice retrospective of cross-platform from 2010 to 2023, and the main players in 2023.\n- 🎥 [React Native Shared Element Transitions with Reanimated 3](https://www.youtube.com/watch?v=tsleLxbvxe0)",
+      "nodeType": "list",
+      "translated_content": "- 📦 [React-Native 0.72.0-RC.6](https://github.com/facebook/react-native/releases/tag/v0.72.0-rc.6)：修复bug的新Golden候选版，支持XCode 15\n- 📦 [React-Native 0.71.10](https://github.com/facebook/react-native/releases/tag/v0.71.10)：同样支持XCode 15，适用于v0.70和v0.69版本\n- 📦 [Reanimated 3.3](https://twitter.com/swmansion/status/1668640779923849216)：兼容React-Native v0.72和React Native Web v0.19\n- 📦 [Expo-Apple-Targets](https://github.com/EvanBacon/expo-apple-targets)：创建Apple扩展目标的配置插件（共享扩展、小组件、手表应用等）。仅处理目标生成和链接，不涉及[用React-Native开发这些目标](https://twitter.com/Baconbrix/status/1668001651922223104)\n- 📜 [在Expo开发构建中运行Maestro UI测试](https://blog.mobile.dev/running-maestro-ui-tests-in-an-expo-development-builds-1ca443ab2a30)\n- 🎙️ [React-Native-Radio 268 - 探索Expo SDK 48](https://reactnativeradio.com/episodes/rnr-268-embarking-on-expo-sdk-48)\n- 🎥 [用React Native构建MacOS应用：可行吗？](https://www.youtube.com/watch?v=xkYy_6kje9E)\n- 🎥 [2023年最佳跨平台技术是什么](https://www.youtube.com/watch?v=lYfgGgJgHB0)：回顾2010至2023年跨平台技术发展历程及当前主流方案\n- 🎥 [使用Reanimated 3实现React Native共享元素转场动画](https://www.youtube.com/watch?v=tsleLxbvxe0)"
     },
     {
       "id": "0bee36ce",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "b9b8694c",
       "translatable": true,
       "content": "## 🧑‍💻 Jobs",
-      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}"
+      "sourceMdx": "## 🧑‍💻 Jobs {#jobs}",
+      "nodeType": "heading",
+      "translated_content": "## 🧑‍💻 职位招聘 {#jobs}"
     },
     {
       "id": "b6152880",
       "translatable": true,
       "content": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)",
-      "sourceMdx": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)"
+      "sourceMdx": "🧑‍💼 [**Passionfroot - Senior Full-stack Engineer (Remix) - €160k+, Berlin/remote**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**Passionfroot - 高级全栈工程师（Remix）- €160k+，柏林/远程**](https://passionfroot.recruitee.com/o/senior-fullstack-engineer)"
     },
     {
       "id": "b9331170",
       "translatable": true,
       "content": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses.",
-      "sourceMdx": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses."
+      "sourceMdx": "Passionfroot's mission is to empower the independent businesses of tomorrow via YouTube, Podcasts, Social Media, and Newsletters. Join us in building a tool that will empower creators globally to build scalable, sustainable businesses.",
+      "nodeType": "paragraph",
+      "translated_content": "Passionfroot致力于通过YouTube、播客、社交媒体和新闻通讯赋能未来的独立商业。加入我们，共同打造帮助全球创作者建立可扩展、可持续业务的工具。"
     },
     {
       "id": "8fcdd6d4",
       "translatable": true,
       "content": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
-      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)"
+      "sourceMdx": "🧑‍💼 [**Callstack - Senior React Native Developer - Fully Remote, PLN 21-32k net on B2B, monthly**](https://www.callstack.com/senior-react-native-developer)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**Callstack - 高级React Native开发工程师 - 完全远程，B2B月薪净收入2.1-3.2万波兰兹罗提**](https://www.callstack.com/senior-react-native-developer)"
     },
     {
       "id": "53aa2b95",
       "translatable": true,
       "content": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
-      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!"
+      "sourceMdx": "Do you want to work on the world's most used apps? Would you like to co-create the React Native technology? Join the Callstack team of React & React Native leaders. Check our website for more details. We are looking forward to seeing your application - show us what you've got!",
+      "nodeType": "paragraph",
+      "translated_content": "您想参与全球最热门应用的开发吗？愿意共同塑造React Native技术未来吗？加入Callstack这个由React和React Native技术领袖组成的团队。详情请访问官网，期待看到您的申请——请尽情展示您的才华！"
     },
     {
       "id": "9c9e2b64",
       "translatable": true,
       "content": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20\\&t=ArRLC77BpRwXXCdx8fnUqw)",
-      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
+      "sourceMdx": "🧑‍💼 [**G2i - 100% Remote React Native Jobs**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)",
+      "nodeType": "paragraph",
+      "translated_content": "🧑‍💼 [**G2i - 100%远程React Native职位**](https://twitter.com/gabe_g2i/status/1563204813881425926?s=20&t=ArRLC77BpRwXXCdx8fnUqw)"
     },
     {
       "id": "5c7d994c",
       "translatable": true,
       "content": "We have several roles open for developers focused on React Native! Pay is \\~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe\\_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
-      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React."
+      "sourceMdx": "We have several roles open for developers focused on React Native! Pay is ~160k plus 10% bonus. You must have production experience with RN and be based in the US. DM [@gabe_g2i](https://twitter.com/gabe_g2i) to learn more and don't forget to mention This Week in React.",
+      "nodeType": "paragraph",
+      "translated_content": "我们开放多个React Native开发岗位！年薪约16万美元外加10%奖金。应聘者需具备RN生产环境经验且常驻美国。私信[@gabe_g2i](https://twitter.com/gabe_g2i)了解详情，提及This Week in React可获得优先考虑。"
     },
     {
       "id": "1ecf0882",
       "translatable": true,
       "content": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
-      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)"
+      "sourceMdx": "💡 [How to publish an offer?](https://thisweekinreact.com/sponsor)",
+      "nodeType": "paragraph",
+      "translated_content": "💡 [如何发布招聘信息？](https://thisweekinreact.com/sponsor)"
     },
     {
       "id": "8bafd2d7",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "fff17ff8",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他资讯 {#other}"
     },
     {
       "id": "b459cfc1",
       "translatable": true,
       "content": "* [Polywasm - A polyfill for WebAssembly](https://github.com/evanw/polywasm)\n* [Wasmati - a TypeScript library to write Wasm at the instruction level](https://www.zksecurity.xyz/blog/posts/wasmati/)\n* [Ezno compiler/typechecker open-sourced](https://github.com/kaleidawave/ezno/discussions/21)\n* [Why We Should Stop Using JavaScript According to Douglas Crockford](https://www.youtube.com/watch?v=lc5Np9OqDHU)\n* [Web Apps on macOS Sonoma 14 Beta](https://blog.tomayac.com/2023/06/07/web-apps-on-macos-sonoma-14-beta/)\n* [Modern CSS in Real Life](https://chriscoyier.net/2023/06/06/modern-css-in-real-life/)\n* [Modern CSS For Dynamic Component-Based Architecture](https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/)\n* [Lightning CSS 1.21](https://twitter.com/devongovett/status/1666476856990908416)\n* [ts-patterns 5.0](https://github.com/gvergnaud/ts-pattern/releases/tag/v5.0.0)\n* [What's New in DevTools (Chrome 115)](https://developer.chrome.com/blog/new-in-devtools-115/)",
-      "sourceMdx": "- [Polywasm - A polyfill for WebAssembly](https://github.com/evanw/polywasm)\n- [Wasmati - a TypeScript library to write Wasm at the instruction level](https://www.zksecurity.xyz/blog/posts/wasmati/)\n- [Ezno compiler/typechecker open-sourced](https://github.com/kaleidawave/ezno/discussions/21)\n- [Why We Should Stop Using JavaScript According to Douglas Crockford](https://www.youtube.com/watch?v=lc5Np9OqDHU)\n- [Web Apps on macOS Sonoma 14 Beta](https://blog.tomayac.com/2023/06/07/web-apps-on-macos-sonoma-14-beta/)\n- [Modern CSS in Real Life](https://chriscoyier.net/2023/06/06/modern-css-in-real-life/)\n- [Modern CSS For Dynamic Component-Based Architecture](https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/)\n- [Lightning CSS 1.21](https://twitter.com/devongovett/status/1666476856990908416)\n- [ts-patterns 5.0](https://github.com/gvergnaud/ts-pattern/releases/tag/v5.0.0)\n- [What's New in DevTools (Chrome 115)](https://developer.chrome.com/blog/new-in-devtools-115/)"
+      "sourceMdx": "- [Polywasm - A polyfill for WebAssembly](https://github.com/evanw/polywasm)\n- [Wasmati - a TypeScript library to write Wasm at the instruction level](https://www.zksecurity.xyz/blog/posts/wasmati/)\n- [Ezno compiler/typechecker open-sourced](https://github.com/kaleidawave/ezno/discussions/21)\n- [Why We Should Stop Using JavaScript According to Douglas Crockford](https://www.youtube.com/watch?v=lc5Np9OqDHU)\n- [Web Apps on macOS Sonoma 14 Beta](https://blog.tomayac.com/2023/06/07/web-apps-on-macos-sonoma-14-beta/)\n- [Modern CSS in Real Life](https://chriscoyier.net/2023/06/06/modern-css-in-real-life/)\n- [Modern CSS For Dynamic Component-Based Architecture](https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/)\n- [Lightning CSS 1.21](https://twitter.com/devongovett/status/1666476856990908416)\n- [ts-patterns 5.0](https://github.com/gvergnaud/ts-pattern/releases/tag/v5.0.0)\n- [What's New in DevTools (Chrome 115)](https://developer.chrome.com/blog/new-in-devtools-115/)",
+      "nodeType": "list",
+      "translated_content": "- [Polywasm - WebAssembly 的 polyfill 方案](https://github.com/evanw/polywasm)\n- [Wasmati - 指令级编写 Wasm 的 TypeScript 库](https://www.zksecurity.xyz/blog/posts/wasmati/)\n- [Ezno 编译器/类型检查器开源](https://github.com/kaleidawave/ezno/discussions/21)\n- [Douglas Crockford 谈为何应该停止使用 JavaScript](https://www.youtube.com/watch?v=lc5Np9OqDHU)\n- [macOS Sonoma 14 Beta 上的 Web 应用](https://blog.tomayac.com/2023/06/07/web-apps-on-macos-sonoma-14-beta/)\n- [现实中的现代 CSS 实践](https://chriscoyier.net/2023/06/06/modern-css-in-real-life/)\n- [动态组件化架构中的现代 CSS](https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/)\n- [Lightning CSS 1.21 发布](https://twitter.com/devongovett/status/1666476856990908416)\n- [ts-patterns 5.0 发布](https://github.com/gvergnaud/ts-pattern/releases/tag/v5.0.0)\n- [Chrome 115 开发者工具新特性](https://developer.chrome.com/blog/new-in-devtools-115/)"
     },
     {
       "id": "7057b5fb",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "2f2d5f01",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 轻松一刻 {#fun}"
     },
     {
       "id": "44285072",
       "translatable": true,
       "content": "[![alt](/emails/issues/148/meme.jpg)](https://twitter.com/adamwathan/status/1666939669311901696)",
-      "sourceMdx": "[![alt](/emails/issues/148/meme.jpg)](https://twitter.com/adamwathan/status/1666939669311901696)"
+      "sourceMdx": "[![alt](/emails/issues/148/meme.jpg)](https://twitter.com/adamwathan/status/1666939669311901696)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/148/meme.jpg)](https://twitter.com/adamwathan/status/1666939669311901696)"
     },
     {
       "id": "a8f09c71",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下期见！👋"
     }
   ]
 }

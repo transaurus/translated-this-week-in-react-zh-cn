@@ -1,335 +1,445 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/158/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/158/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /158\ntitle: \"This Week In React #158: Astro, Server Components, VisionCamera, Owner Tree, Props Drilling, Next.js, Remix, Chakra, TypeScript, Skia, Biome, CSS, Node.js...\"\nauthors: [slorber]\ndate: 09-06-2023\n---",
-      "sourceMdx": "---\nslug: /158\ntitle: \"This Week In React #158: Astro, Server Components, VisionCamera, Owner Tree, Props Drilling, Next.js, Remix, Chakra, TypeScript, Skia, Biome, CSS, Node.js...\"\nauthors: [slorber]\ndate: 09-06-2023\n---"
+      "sourceMdx": "---\nslug: /158\ntitle: \"This Week In React #158: Astro, Server Components, VisionCamera, Owner Tree, Props Drilling, Next.js, Remix, Chakra, TypeScript, Skia, Biome, CSS, Node.js...\"\nauthors: [slorber]\ndate: 09-06-2023\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "We're covering 2 weeks of news, including 2 great releases: Astro 3.0 and VisionCamera 3.0. There have also been a lot of interesting articles, so I've had to filter a bit!",
-      "sourceMdx": "We're covering 2 weeks of news, including 2 great releases: Astro 3.0 and VisionCamera 3.0. There have also been a lot of interesting articles, so I've had to filter a bit!"
+      "sourceMdx": "We're covering 2 weeks of news, including 2 great releases: Astro 3.0 and VisionCamera 3.0. There have also been a lot of interesting articles, so I've had to filter a bit!",
+      "nodeType": "paragraph",
+      "translated_content": "本期我们将涵盖两周的新闻，包括两个重要版本发布：Astro 3.0 和 VisionCamera 3.0。同时还有大量精彩文章，因此我不得不进行筛选！"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "Bun 1.0 coming out tonight. I'm curious to see what they have planned. Having tested it on unit tests as a replacement for Jest, it's really very fast.",
-      "sourceMdx": "Bun 1.0 coming out tonight. I'm curious to see what they have planned. Having tested it on unit tests as a replacement for Jest, it's really very fast."
+      "sourceMdx": "Bun 1.0 coming out tonight. I'm curious to see what they have planned. Having tested it on unit tests as a replacement for Jest, it's really very fast.",
+      "nodeType": "paragraph",
+      "translated_content": "Bun 1.0 将于今晚发布。我很好奇他们的规划。在单元测试中用它替代 Jest 进行测试时，速度确实非常快。"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "The React-Native EU conference kicks off today. I spotted some [🐦 very interesting talks](https://twitter.com/sebastienlorber/status/1696837186677530813), particularly the one on Static Hermes.",
-      "sourceMdx": "The React-Native EU conference kicks off today. I spotted some [🐦 very interesting talks](https://twitter.com/sebastienlorber/status/1696837186677530813), particularly the one on Static Hermes."
+      "sourceMdx": "The React-Native EU conference kicks off today. I spotted some [🐦 very interesting talks](https://twitter.com/sebastienlorber/status/1696837186677530813), particularly the one on Static Hermes.",
+      "nodeType": "paragraph",
+      "translated_content": "React-Native EU 大会今日开幕。我发现了[🐦 一些非常有趣的演讲](https://twitter.com/sebastienlorber/status/1696837186677530813)，特别是关于 Static Hermes 的分享。"
     },
     {
       "id": "86b54d44",
       "translatable": true,
       "content": "For those who want to visit Italy, go to [reactjsday](https://2023.reactjsday.it/) in Verona on 27 October 27. The conference is offering [-10% on tickets](https://ti.to/grusp/reactjsday-2023/discount/media_TWIR) and 2 online/remote tickets to our readers, which I'm giving away to the first 2 people who reply to this email and claim them.",
-      "sourceMdx": "For those who want to visit Italy, go to [reactjsday](https://2023.reactjsday.it/) in Verona on 27 October 27. The conference is offering [-10% on tickets](https://ti.to/grusp/reactjsday-2023/discount/media_TWIR) and 2 online/remote tickets to our readers, which I'm giving away to the first 2 people who reply to this email and claim them."
+      "sourceMdx": "For those who want to visit Italy, go to [reactjsday](https://2023.reactjsday.it/) in Verona on 27 October 27. The conference is offering [-10% on tickets](https://ti.to/grusp/reactjsday-2023/discount/media_TWIR) and 2 online/remote tickets to our readers, which I'm giving away to the first 2 people who reply to this email and claim them.",
+      "nodeType": "paragraph",
+      "translated_content": "想去意大利的朋友可以参加10月27日在维罗纳举办的[reactjsday](https://2023.reactjsday.it/)。主办方为读者提供[-10%门票优惠](https://ti.to/grusp/reactjsday-2023/discount/media_TWIR)和2张在线参会名额，前两位回复邮件申领的读者将获得赠票。"
     },
     {
       "id": "39b3772c",
       "translatable": true,
       "content": "I often forget to mention it here, but I \"build in public\". You can check out my latest [monthly Indie Hackers report](https://www.indiehackers.com/product/french-react-newsletter) and [🐦 more Twitter details](https://twitter.com/sebastienlorber/status/1699065823959421109).",
-      "sourceMdx": "I often forget to mention it here, but I \"build in public\". You can check out my latest [monthly Indie Hackers report](https://www.indiehackers.com/product/french-react-newsletter) and [🐦 more Twitter details](https://twitter.com/sebastienlorber/status/1699065823959421109)."
+      "sourceMdx": "I often forget to mention it here, but I \"build in public\". You can check out my latest [monthly Indie Hackers report](https://www.indiehackers.com/product/french-react-newsletter) and [🐦 more Twitter details](https://twitter.com/sebastienlorber/status/1699065823959421109).",
+      "nodeType": "paragraph",
+      "translated_content": "我常忘记在这里提及，但我坚持\"公开构建\"。你可以查看我最新的[月度独立开发者报告](https://www.indiehackers.com/product/french-react-newsletter)和[🐦 Twitter详情](https://twitter.com/sebastienlorber/status/1699065823959421109)。"
     },
     {
       "id": "c6da205d",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_c6da205d"
     },
     {
       "id": "2df4f75f",
       "translatable": true,
       "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
-      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "nodeType": "paragraph",
+      "translated_content": "**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化格式 🎨**"
     },
     {
       "id": "1856ef44",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "cf4363fc",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_cf4363fc"
     },
     {
       "id": "2a3434e4",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_2a3434e4"
     },
     {
       "id": "2b28cb1b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "b25f21be",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "[![Frontendmasters](/emails/issues/158/frontendmasters.jpg)](https://frontendmasters.com/learn/react/?utm_source=newsletter\\&utm_medium=thisweekinreact\\&utm_campaign=reactpath)",
-      "sourceMdx": "[![Frontendmasters](/emails/issues/158/frontendmasters.jpg)](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)"
+      "sourceMdx": "[![Frontendmasters](/emails/issues/158/frontendmasters.jpg)](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Frontendmasters](/emails/issues/158/frontendmasters.jpg)](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)"
     },
     {
       "id": "517051a7",
       "translatable": true,
       "content": "**[FrontendMasters – Complete React.js Learning Path to Senior React Developer](https://frontendmasters.com/learn/react/?utm_source=newsletter\\&utm_medium=thisweekinreact\\&utm_campaign=reactpath)**",
-      "sourceMdx": "**[FrontendMasters – Complete React.js Learning Path to Senior React Developer](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)**"
+      "sourceMdx": "**[FrontendMasters – Complete React.js Learning Path to Senior React Developer](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[FrontendMasters - 从入门到资深React开发者的完整学习路径](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)**"
     },
     {
       "id": "135468ee",
       "translatable": true,
       "content": "Learn React.js from the ground up to advanced topics like performance, testing, and code quality. Start by building a real-world app in the Complete Introduction to React. Continue with Intermediate React, integrating the most popular tools from the ecosystem. Then learn performance, TypeScript, and even Next.js, the fullstack React framework!",
-      "sourceMdx": "Learn React.js from the ground up to advanced topics like performance, testing, and code quality. Start by building a real-world app in the Complete Introduction to React. Continue with Intermediate React, integrating the most popular tools from the ecosystem. Then learn performance, TypeScript, and even Next.js, the fullstack React framework!"
+      "sourceMdx": "Learn React.js from the ground up to advanced topics like performance, testing, and code quality. Start by building a real-world app in the Complete Introduction to React. Continue with Intermediate React, integrating the most popular tools from the ecosystem. Then learn performance, TypeScript, and even Next.js, the fullstack React framework!",
+      "nodeType": "paragraph",
+      "translated_content": "从零开始学习React.js，直至掌握性能优化、测试和代码质量等高级主题。首先通过《React完全入门》构建真实应用，接着学习《中级React》集成生态流行工具，最后深入性能优化、TypeScript乃至全栈框架Next.js！"
     },
     {
       "id": "5ef5fda3",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "8d04259b",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React {#react}"
     },
     {
       "id": "95e9ba12",
       "translatable": true,
       "content": "[![Astro 3.0](/emails/issues/158/astro3.jpg)](https://astro.build/blog/astro-3/)",
-      "sourceMdx": "[![Astro 3.0](/emails/issues/158/astro3.jpg)](https://astro.build/blog/astro-3/)"
+      "sourceMdx": "[![Astro 3.0](/emails/issues/158/astro3.jpg)](https://astro.build/blog/astro-3/)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Astro 3.0](/emails/issues/158/astro3.jpg)](https://astro.build/blog/astro-3/)"
     },
     {
       "id": "8af76f3d",
       "translatable": true,
       "content": "[**Astro 3.0**](https://astro.build/blog/astro-3/)",
-      "sourceMdx": "[**Astro 3.0**](https://astro.build/blog/astro-3/)"
+      "sourceMdx": "[**Astro 3.0**](https://astro.build/blog/astro-3/)",
+      "nodeType": "paragraph",
+      "translated_content": "[**Astro 3.0**](https://astro.build/blog/astro-3/)"
     },
     {
       "id": "a9d49f92",
       "translatable": true,
       "content": "This new version of Astro innovates in particular through the use of the new View Transition API, and the ability to navigate fluidly and animatedly from one page to another, while preserving the state of the components displayed. This reduces the need for a SPA in many use cases.",
-      "sourceMdx": "This new version of Astro innovates in particular through the use of the new View Transition API, and the ability to navigate fluidly and animatedly from one page to another, while preserving the state of the components displayed. This reduces the need for a SPA in many use cases."
+      "sourceMdx": "This new version of Astro innovates in particular through the use of the new View Transition API, and the ability to navigate fluidly and animatedly from one page to another, while preserving the state of the components displayed. This reduces the need for a SPA in many use cases.",
+      "nodeType": "paragraph",
+      "translated_content": "新版本创新性地运用了View Transition API，实现页面间流畅的转场动画效果，同时保持组件状态，这在许多场景下减少了对SPA的需求。"
     },
     {
       "id": "a44047a5",
       "translatable": true,
       "content": "Other notable improvements include:",
-      "sourceMdx": "Other notable improvements include:"
+      "sourceMdx": "Other notable improvements include:",
+      "nodeType": "paragraph",
+      "translated_content": "其他显著改进包括："
     },
     {
       "id": "b4ef1e56",
       "translatable": true,
       "content": "* Image Optimization stable\n* Faster Rendering Performance: Astro components render 30-75% faster.\n* SSR Enhancements for Serverless: New ways to connect to your hosting platform.\n* HMR Enhancements for JSX: Fast Refresh support for React and Preact.\n* Optimized Build Output: Cleaner and more performant HTML.",
-      "sourceMdx": "- Image Optimization stable\n- Faster Rendering Performance: Astro components render 30-75% faster.\n- SSR Enhancements for Serverless: New ways to connect to your hosting platform.\n- HMR Enhancements for JSX: Fast Refresh support for React and Preact.\n- Optimized Build Output: Cleaner and more performant HTML."
+      "sourceMdx": "- Image Optimization stable\n- Faster Rendering Performance: Astro components render 30-75% faster.\n- SSR Enhancements for Serverless: New ways to connect to your hosting platform.\n- HMR Enhancements for JSX: Fast Refresh support for React and Preact.\n- Optimized Build Output: Cleaner and more performant HTML.",
+      "nodeType": "list",
+      "translated_content": "- 图片优化功能稳定版\n- 渲染性能提升30-75%\n- 无服务端SSR增强：新增与托管平台对接方案\n- JSX的HMR增强：支持React/Preact的快速刷新\n- 构建输出优化：生成更简洁高效的HTML"
     },
     {
       "id": "e2fed468",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "40158b4b",
       "translatable": true,
       "content": "[![Making Sense of React Server Components](/emails/issues/158/rsc.jpg)](https://www.joshwcomeau.com/react/server-components/)",
-      "sourceMdx": "[![Making Sense of React Server Components](/emails/issues/158/rsc.jpg)](https://www.joshwcomeau.com/react/server-components/)"
+      "sourceMdx": "[![Making Sense of React Server Components](/emails/issues/158/rsc.jpg)](https://www.joshwcomeau.com/react/server-components/)",
+      "nodeType": "paragraph",
+      "translated_content": "[![理解React服务端组件](/emails/issues/158/rsc.jpg)](https://www.joshwcomeau.com/react/server-components/)"
     },
     {
       "id": "6ea4c715",
       "translatable": true,
       "content": "[**Making Sense of React Server Components**](https://www.joshwcomeau.com/react/server-components/)",
-      "sourceMdx": "[**Making Sense of React Server Components**](https://www.joshwcomeau.com/react/server-components/)"
+      "sourceMdx": "[**Making Sense of React Server Components**](https://www.joshwcomeau.com/react/server-components/)",
+      "nodeType": "paragraph",
+      "translated_content": "[**理解React服务端组件**](https://www.joshwcomeau.com/react/server-components/)"
     },
     {
       "id": "79ad944d",
       "translatable": true,
       "content": "Josh Comeau is back with a great introduction to React Server Components, taken from his [course](https://www.joyofreact.com/) that should become available next week. The many animated diagrams make it easy to understand this new React paradigm.",
-      "sourceMdx": "Josh Comeau is back with a great introduction to React Server Components, taken from his [course](https://www.joyofreact.com/) that should become available next week. The many animated diagrams make it easy to understand this new React paradigm."
+      "sourceMdx": "Josh Comeau is back with a great introduction to React Server Components, taken from his [course](https://www.joyofreact.com/) that should become available next week. The many animated diagrams make it easy to understand this new React paradigm.",
+      "nodeType": "paragraph",
+      "translated_content": "Josh Comeau 带着他对React服务端组件的精彩解读回归，这篇出自他下周即将发布的[课程](https://www.joyofreact.com/)内容。丰富的动态图解让这个React新范式变得通俗易懂。"
     },
     {
       "id": "e874d9e7",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "645e08e3",
       "translatable": true,
       "content": "* 💸 [Zero To Shipped - Master Fast-Paced Fullstack Development and **Finally** ship that product](https://www.zerotoshipped.com/)\n* 🐦 [Remix v2 pre-release](https://twitter.com/remix_run/status/1696525340640936190): if you have already enabled [future flags v2](https://remix.run/blog/future-flags), you should be able to upgrade easily and remove these flags.\n* 🐦 [Dan Abramov joins Bluesky](https://twitter.com/dan_abramov/status/1695566446007386214): Dan has left Meta and joined this Twitter competitor based on a cross-platform Expo app. I think this is great news, we may have gained a great evangelist [to promote cross-platform and Expo](https://twitter.com/dan_abramov/status/1699476986727399933).\n* 🐦 [WIP testing docs for Next.js App Router](https://twitter.com/leeerob/status/1698758756924825723)\n* 🧑‍🎓 [Next.js App Router - Forms and Mutations docs](https://nextjs.org/docs/app/building-your-application/data-fetching/forms-and-mutations): new doc page explaining the use of Server Actions and the React `useFormStatus` and `useOptimistic` hooks.\n* 💬 [Next.js Tim Neutkens' Deep Dive - Caching and Revalidating](https://github.com/vercel/next.js/discussions/54075)\n* 📜 [Parents & Owners in React: Data Flow](https://julesblom.com/writing/parents-owners-data-flow): original interactive and visual article, explaining the problem of props drilling and how to avoid it with slotted components. Explains the concepts of parent tree and owner tree. The props drilling problem becomes clearly visible in the diagrams.\n* 📜 [Challenging Established Norms: Making Component Fetching the Exception](https://jjenzz.com/making-component-fetching-the-exception/): an interesting thought that encourages you to run your queries at route level to avoid waterfalls, and use composition to avoid props drilling.\n* 📜 [Rust Server Components](https://anto.pt/articles/rust-server-components): proposes to partially reproduce RSC, MDX and Suspense using Rust, HTMX and a few other libs. \"the Rust equivalent of T3 Stack\". Nice to read, even though I don't do Rust. Not convinced that the end result solves all the problems RSCs do.\n* 📜 [Chakra, Panda and Ark - What's the plan?](https://www.adebayosegun.com/blog/chakra-panda-ark-whats-the-plan): Segun answers a number of questions about his libraries. Chakra v3 arrives in Q4, but will still use Emotion. The addition of \"use client\" makes it easier to use in RSCs. Adoption of the Radix `asChild` pattern.\n* 📜 [How to Pass a Component as a Prop in React](https://www.totaltypescript.com/pass-component-as-prop-react): Matt shares some TypeScript + React typing tips. The type to implement \"as\" prop is quite scary 😬.\n* 📜 [Handling type-safe toast notifications with zod in Remix applications](https://alemtuzlak.hashnode.dev/handling-toasts-in-remix): explains how to use the Remix flash session to give feedback after an action.\n* 📜 [Optimizing Next.js cold starts for Vercel](https://holocron.so/blog/optimizing-next.js-cold-starts-for-vercel)\n* 📜 [Strongly Typing React Props with TypeScript](https://www.totaltypescript.com/react-props-typescript)\n* 📜 [You Might Not Need A useEffectAsync Hook](https://krassnig.dev/blog/you-might-not-need-a-use-effect-async-hook.html)\n* 📜 [Web Developers, CSS-in-JS is Ruining Your Product](https://cord.com/blog/migrating-from-css-in-js-to-vanilla-extract)\n* 📜 [Build your own headless UI components](https://www.jacobparis.com/content/react-headless-submenus)\n* 📜 [Building a toast component](https://emilkowal.ski/ui/building-a-toast-component)\n* 📦 [next-flat-routes](https://github.com/ifyio/next-flat-routes)\n* 📦 [Puck - Self-hosted drag and drop editor for React](https://github.com/measuredco/puck)\n* 📦 [react-prod-sourcemaps](https://github.com/markerikson/react-prod-sourcemaps)\n* 📦 [Reshaped 2.2 - Now available on NPM](https://reshaped.so/content/blog/2.2)\n* 👥 [reactjsday](https://2023.reactjsday.it/) (Verona 🇮🇹, Octobre 27, 2023) is offering us [-10% on conference tickets](https://ti.to/grusp/reactjsday-2023/discount/media_TWIR) with code \"media\\_TWIR\"",
-      "sourceMdx": "- 💸 [Zero To Shipped - Master Fast-Paced Fullstack Development and **Finally** ship that product](https://www.zerotoshipped.com/)\n- 🐦 [Remix v2 pre-release](https://twitter.com/remix_run/status/1696525340640936190): if you have already enabled [future flags v2](https://remix.run/blog/future-flags), you should be able to upgrade easily and remove these flags.\n- 🐦 [Dan Abramov joins Bluesky](https://twitter.com/dan_abramov/status/1695566446007386214): Dan has left Meta and joined this Twitter competitor based on a cross-platform Expo app. I think this is great news, we may have gained a great evangelist [to promote cross-platform and Expo](https://twitter.com/dan_abramov/status/1699476986727399933).\n- 🐦 [WIP testing docs for Next.js App Router](https://twitter.com/leeerob/status/1698758756924825723)\n- 🧑‍🎓 [Next.js App Router - Forms and Mutations docs](https://nextjs.org/docs/app/building-your-application/data-fetching/forms-and-mutations): new doc page explaining the use of Server Actions and the React `useFormStatus` and `useOptimistic` hooks.\n- 💬 [Next.js Tim Neutkens' Deep Dive - Caching and Revalidating](https://github.com/vercel/next.js/discussions/54075)\n- 📜 [Parents & Owners in React: Data Flow](https://julesblom.com/writing/parents-owners-data-flow): original interactive and visual article, explaining the problem of props drilling and how to avoid it with slotted components. Explains the concepts of parent tree and owner tree. The props drilling problem becomes clearly visible in the diagrams.\n- 📜 [Challenging Established Norms: Making Component Fetching the Exception](https://jjenzz.com/making-component-fetching-the-exception/): an interesting thought that encourages you to run your queries at route level to avoid waterfalls, and use composition to avoid props drilling.\n- 📜 [Rust Server Components](https://anto.pt/articles/rust-server-components): proposes to partially reproduce RSC, MDX and Suspense using Rust, HTMX and a few other libs. \"the Rust equivalent of T3 Stack\". Nice to read, even though I don't do Rust. Not convinced that the end result solves all the problems RSCs do.\n- 📜 [Chakra, Panda and Ark - What's the plan?](https://www.adebayosegun.com/blog/chakra-panda-ark-whats-the-plan): Segun answers a number of questions about his libraries. Chakra v3 arrives in Q4, but will still use Emotion. The addition of \"use client\" makes it easier to use in RSCs. Adoption of the Radix `asChild` pattern.\n- 📜 [How to Pass a Component as a Prop in React](https://www.totaltypescript.com/pass-component-as-prop-react): Matt shares some TypeScript + React typing tips. The type to implement \"as\" prop is quite scary 😬.\n- 📜 [Handling type-safe toast notifications with zod in Remix applications](https://alemtuzlak.hashnode.dev/handling-toasts-in-remix): explains how to use the Remix flash session to give feedback after an action.\n- 📜 [Optimizing Next.js cold starts for Vercel](https://holocron.so/blog/optimizing-next.js-cold-starts-for-vercel)\n- 📜 [Strongly Typing React Props with TypeScript](https://www.totaltypescript.com/react-props-typescript)\n- 📜 [You Might Not Need A useEffectAsync Hook](https://krassnig.dev/blog/you-might-not-need-a-use-effect-async-hook.html)\n- 📜 [Web Developers, CSS-in-JS is Ruining Your Product](https://cord.com/blog/migrating-from-css-in-js-to-vanilla-extract)\n- 📜 [Build your own headless UI components](https://www.jacobparis.com/content/react-headless-submenus)\n- 📜 [Building a toast component](https://emilkowal.ski/ui/building-a-toast-component)\n- 📦 [next-flat-routes](https://github.com/ifyio/next-flat-routes)\n- 📦 [Puck - Self-hosted drag and drop editor for React](https://github.com/measuredco/puck)\n- 📦 [react-prod-sourcemaps](https://github.com/markerikson/react-prod-sourcemaps)\n- 📦 [Reshaped 2.2 - Now available on NPM](https://reshaped.so/content/blog/2.2)\n- 👥 [reactjsday](https://2023.reactjsday.it/) (Verona 🇮🇹, Octobre 27, 2023) is offering us [-10% on conference tickets](https://ti.to/grusp/reactjsday-2023/discount/media_TWIR) with code \"media_TWIR\""
+      "sourceMdx": "- 💸 [Zero To Shipped - Master Fast-Paced Fullstack Development and **Finally** ship that product](https://www.zerotoshipped.com/)\n- 🐦 [Remix v2 pre-release](https://twitter.com/remix_run/status/1696525340640936190): if you have already enabled [future flags v2](https://remix.run/blog/future-flags), you should be able to upgrade easily and remove these flags.\n- 🐦 [Dan Abramov joins Bluesky](https://twitter.com/dan_abramov/status/1695566446007386214): Dan has left Meta and joined this Twitter competitor based on a cross-platform Expo app. I think this is great news, we may have gained a great evangelist [to promote cross-platform and Expo](https://twitter.com/dan_abramov/status/1699476986727399933).\n- 🐦 [WIP testing docs for Next.js App Router](https://twitter.com/leeerob/status/1698758756924825723)\n- 🧑‍🎓 [Next.js App Router - Forms and Mutations docs](https://nextjs.org/docs/app/building-your-application/data-fetching/forms-and-mutations): new doc page explaining the use of Server Actions and the React `useFormStatus` and `useOptimistic` hooks.\n- 💬 [Next.js Tim Neutkens' Deep Dive - Caching and Revalidating](https://github.com/vercel/next.js/discussions/54075)\n- 📜 [Parents & Owners in React: Data Flow](https://julesblom.com/writing/parents-owners-data-flow): original interactive and visual article, explaining the problem of props drilling and how to avoid it with slotted components. Explains the concepts of parent tree and owner tree. The props drilling problem becomes clearly visible in the diagrams.\n- 📜 [Challenging Established Norms: Making Component Fetching the Exception](https://jjenzz.com/making-component-fetching-the-exception/): an interesting thought that encourages you to run your queries at route level to avoid waterfalls, and use composition to avoid props drilling.\n- 📜 [Rust Server Components](https://anto.pt/articles/rust-server-components): proposes to partially reproduce RSC, MDX and Suspense using Rust, HTMX and a few other libs. \"the Rust equivalent of T3 Stack\". Nice to read, even though I don't do Rust. Not convinced that the end result solves all the problems RSCs do.\n- 📜 [Chakra, Panda and Ark - What's the plan?](https://www.adebayosegun.com/blog/chakra-panda-ark-whats-the-plan): Segun answers a number of questions about his libraries. Chakra v3 arrives in Q4, but will still use Emotion. The addition of \"use client\" makes it easier to use in RSCs. Adoption of the Radix `asChild` pattern.\n- 📜 [How to Pass a Component as a Prop in React](https://www.totaltypescript.com/pass-component-as-prop-react): Matt shares some TypeScript + React typing tips. The type to implement \"as\" prop is quite scary 😬.\n- 📜 [Handling type-safe toast notifications with zod in Remix applications](https://alemtuzlak.hashnode.dev/handling-toasts-in-remix): explains how to use the Remix flash session to give feedback after an action.\n- 📜 [Optimizing Next.js cold starts for Vercel](https://holocron.so/blog/optimizing-next.js-cold-starts-for-vercel)\n- 📜 [Strongly Typing React Props with TypeScript](https://www.totaltypescript.com/react-props-typescript)\n- 📜 [You Might Not Need A useEffectAsync Hook](https://krassnig.dev/blog/you-might-not-need-a-use-effect-async-hook.html)\n- 📜 [Web Developers, CSS-in-JS is Ruining Your Product](https://cord.com/blog/migrating-from-css-in-js-to-vanilla-extract)\n- 📜 [Build your own headless UI components](https://www.jacobparis.com/content/react-headless-submenus)\n- 📜 [Building a toast component](https://emilkowal.ski/ui/building-a-toast-component)\n- 📦 [next-flat-routes](https://github.com/ifyio/next-flat-routes)\n- 📦 [Puck - Self-hosted drag and drop editor for React](https://github.com/measuredco/puck)\n- 📦 [react-prod-sourcemaps](https://github.com/markerikson/react-prod-sourcemaps)\n- 📦 [Reshaped 2.2 - Now available on NPM](https://reshaped.so/content/blog/2.2)\n- 👥 [reactjsday](https://2023.reactjsday.it/) (Verona 🇮🇹, Octobre 27, 2023) is offering us [-10% on conference tickets](https://ti.to/grusp/reactjsday-2023/discount/media_TWIR) with code \"media_TWIR\"",
+      "nodeType": "list",
+      "translated_content": "- 💸 [从零到上线 - 掌握快速全栈开发并**最终**发布产品](https://www.zerotoshipped.com/)\n- 🐦 [Remix v2 预发布版](https://twitter.com/remix_run/status/1696525340640936190)：若已启用 [v2 未来标志](https://remix.run/blog/future-flags)，升级过程将更顺畅并可移除这些标志。\n- 🐦 [Dan Abramov 加入 Bluesky](https://twitter.com/dan_abramov/status/1695566446007386214)：Dan 已离开 Meta 并加入这个基于跨平台 Expo 应用的 Twitter 竞品。我认为这是重大利好消息，我们可能收获了一位强力布道者 [推广跨平台与 Expo](https://twitter.com/dan_abramov/status/1699476986727399933)。\n- 🐦 [Next.js App Router 测试文档（进行中）](https://twitter.com/leeerob/status/1698758756924825723)\n- 🧑‍🎓 [Next.js App Router - 表单与数据变更文档](https://nextjs.org/docs/app/building-your-application/data-fetching/forms-and-mutations)：新文档页面详解 Server Actions 及 React `useFormStatus`、`useOptimistic` 钩子的使用。\n- 💬 [Next.js Tim Neutkens 深度探讨 - 缓存与重新验证](https://github.com/vercel/next.js/discussions/54075)\n- 📜 [React 中的父级与所有者：数据流](https://julesblom.com/writing/parents-owners-data-flow)：原创交互式可视化文章，解析属性钻取问题及如何通过插槽组件规避。清晰图解父级树与所有者树概念。\n- 📜 [挑战既定规范：让组件级数据获取成为例外](https://jjenzz.com/making-component-fetching-the-exception/)：提倡在路由层级执行查询以避免瀑布流，并通过组合模式规避属性钻取。\n- 📜 [Rust 服务端组件](https://anto.pt/articles/rust-server-components)：尝试用 Rust、HTMX 等库部分复现 RSC、MDX 和 Suspense 功能。\"相当于 Rust 版的 T3 技术栈\"。虽不熟悉 Rust 也值得一读，但不确定其解决方案能否完全覆盖 RSC 的功能。\n- 📜 [Chakra、Panda 与 Ark - 未来规划是什么？](https://www.adebayosegun.com/blog/chakra-panda-ark-whats-the-plan)：Segun 解答关于其库的诸多疑问。Chakra v3 将于第四季度发布，仍使用 Emotion。\"use client\" 的加入使其更易在 RSC 中使用。采用 Radix 的 `asChild` 模式。\n- 📜 [如何在 React 中将组件作为属性传递](https://www.totaltypescript.com/pass-component-as-prop-react)：Matt 分享 TypeScript + React 类型技巧。实现 \"as\" 属性的类型定义相当复杂 😬。\n- 📜 [在 Remix 应用中通过 zod 实现类型安全的 toast 通知](https://alemtuzlak.hashnode.dev/handling-toasts-in-remix)：讲解如何利用 Remix 闪存会话在操作后提供反馈。\n- 📜 [为 Vercel 优化 Next.js 冷启动](https://holocron.so/blog/optimizing-next.js-cold-starts-for-vercel)\n- 📜 [使用 TypeScript 强类型化 React 属性](https://www.totaltypescript.com/react-props-typescript)\n- 📜 [你可能不需要 useEffectAsync 钩子](https://krassnig.dev/blog/you-might-not-need-a-use-effect-async-hook.html)\n- 📜 [Web 开发者们，CSS-in-JS 正在损害你的产品](https://cord.com/blog/migrating-from-css-in-js-to-vanilla-extract)\n- 📜 [构建你自己的无头 UI 组件](https://www.jacobparis.com/content/react-headless-submenus)\n- 📜 [构建 toast 通知组件](https://emilkowal.ski/ui/building-a-toast-component)\n- 📦 [next-flat-routes](https://github.com/ifyio/next-flat-routes)\n- 📦 [Puck - 自托管的 React 拖拽编辑器](https://github.com/measuredco/puck)\n- 📦 [react-prod-sourcemaps](https://github.com/markerikson/react-prod-sourcemaps)\n- 📦 [Reshaped 2.2 - 现已登陆 NPM](https://reshaped.so/content/blog/2.2)\n- 👥 [reactjsday](https://2023.reactjsday.it/)（意大利维罗纳，2023年10月27日）为我们提供 [会议门票 -10% 折扣](https://ti.to/grusp/reactjsday-2023/discount/media_TWIR)，优惠码 \"media_TWIR\""
     },
     {
       "id": "9cb0b344",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_9cb0b344"
     },
     {
       "id": "cb0bf89b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "5baf88e2",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "eb51d107",
       "translatable": true,
       "content": "[![A Non-Cloud Alternative to Google Forms that has it all](/emails/issues/155/surveyjs.jpg)](https://surveyjs.io/?utm_source=thisweekinreact\\&utm_medium=email)",
-      "sourceMdx": "[![A Non-Cloud Alternative to Google Forms that has it all](/emails/issues/155/surveyjs.jpg)](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)"
+      "sourceMdx": "[![A Non-Cloud Alternative to Google Forms that has it all](/emails/issues/155/surveyjs.jpg)](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)",
+      "nodeType": "paragraph",
+      "translated_content": "[![谷歌表单的非云端替代方案，功能一应俱全](/emails/issues/155/surveyjs.jpg)](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)"
     },
     {
       "id": "1862c5fe",
       "translatable": true,
       "content": "**[A Non-Cloud Alternative to Google Forms that has it all](https://surveyjs.io/?utm_source=thisweekinreact\\&utm_medium=email)**",
-      "sourceMdx": "**[A Non-Cloud Alternative to Google Forms that has it all](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)**"
+      "sourceMdx": "**[A Non-Cloud Alternative to Google Forms that has it all](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[谷歌表单的非云端替代方案，功能一应俱全](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)**"
     },
     {
       "id": "6ca4479f",
       "translatable": true,
       "content": "If you are looking to set up a robust form management system fully integrated in your IT infrastructure that allows you to retain full control over the data flow, and you don’t want to spend months and thousands of dollars to get it up and running, then SurveyJS is the way to go!",
-      "sourceMdx": "If you are looking to set up a robust form management system fully integrated in your IT infrastructure that allows you to retain full control over the data flow, and you don’t want to spend months and thousands of dollars to get it up and running, then SurveyJS is the way to go!"
+      "sourceMdx": "If you are looking to set up a robust form management system fully integrated in your IT infrastructure that allows you to retain full control over the data flow, and you don’t want to spend months and thousands of dollars to get it up and running, then SurveyJS is the way to go!",
+      "nodeType": "paragraph",
+      "translated_content": "如果您正在寻找一个完全集成到IT基础设施中的强大表单管理系统，希望完全掌控数据流，同时不想花费数月时间和数千美元来搭建系统，那么SurveyJS正是您需要的解决方案！"
     },
     {
       "id": "a2c0166e",
       "translatable": true,
       "content": "SurveyJS is a product suite of four open-source JavaScript libraries that allow you to create and edit multiple dynamic JSON-based forms in a drag-and-drop form builder, render them in your React app and store sensitive survey data within your in-house infrastructure. You can then render your custom surveys and forms as editable PDF files in a browser and visualize survey results with interactive charts and tables. [Learn more now](https://surveyjs.io/?utm_source=thisweekinreact\\&utm_medium=email).",
-      "sourceMdx": "SurveyJS is a product suite of four open-source JavaScript libraries that allow you to create and edit multiple dynamic JSON-based forms in a drag-and-drop form builder, render them in your React app and store sensitive survey data within your in-house infrastructure. You can then render your custom surveys and forms as editable PDF files in a browser and visualize survey results with interactive charts and tables. [Learn more now](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)."
+      "sourceMdx": "SurveyJS is a product suite of four open-source JavaScript libraries that allow you to create and edit multiple dynamic JSON-based forms in a drag-and-drop form builder, render them in your React app and store sensitive survey data within your in-house infrastructure. You can then render your custom surveys and forms as editable PDF files in a browser and visualize survey results with interactive charts and tables. [Learn more now](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email).",
+      "nodeType": "paragraph",
+      "translated_content": "SurveyJS是由四个开源JavaScript库组成的产品套件，支持通过拖拽式表单构建器创建和编辑多个基于JSON的动态表单，在React应用中渲染它们，并将敏感调查数据存储于内部基础设施中。您还可以将自定义调查问卷渲染为可编辑的PDF文件，并通过交互式图表和表格可视化调查结果。[立即了解更多](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)。"
     },
     {
       "id": "05765487",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "1f4b3b94",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "a81544fd",
       "translatable": true,
       "content": "[![VisionCamera 3.0](/emails/issues/158/visioncamera3.jpg)](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.0.0)",
-      "sourceMdx": "[![VisionCamera 3.0](/emails/issues/158/visioncamera3.jpg)](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.0.0)"
+      "sourceMdx": "[![VisionCamera 3.0](/emails/issues/158/visioncamera3.jpg)](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.0.0)",
+      "nodeType": "paragraph",
+      "translated_content": "[![VisionCamera 3.0](/emails/issues/158/visioncamera3.jpg)](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.0.0)"
     },
     {
       "id": "0801d969",
       "translatable": true,
       "content": "[**VisionCamera 3.0**](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.0.0)",
-      "sourceMdx": "[**VisionCamera 3.0**](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.0.0)"
+      "sourceMdx": "[**VisionCamera 3.0**](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.0.0)",
+      "nodeType": "paragraph",
+      "translated_content": "[**VisionCamera 3.0**](https://github.com/mrousavy/react-native-vision-camera/releases/tag/v3.0.0)"
     },
     {
       "id": "3c19e221",
       "translatable": true,
       "content": "The new version of VisionCamera has just been released. Highlights:",
-      "sourceMdx": "The new version of VisionCamera has just been released. Highlights:"
+      "sourceMdx": "The new version of VisionCamera has just been released. Highlights:",
+      "nodeType": "paragraph",
+      "translated_content": "VisionCamera的新版本刚刚发布，主要亮点包括："
     },
     {
       "id": "8d56fc0d",
       "translatable": true,
       "content": "* Full Android Camera2 rewrite\n* Custom GPU OpenGL Video Pipeline\n* New Camera Features\n* New Frame Processor Engine (react-native-worklets-core)\n* New Frame Processor Plugin API",
-      "sourceMdx": "- Full Android Camera2 rewrite\n- Custom GPU OpenGL Video Pipeline\n- New Camera Features\n- New Frame Processor Engine (react-native-worklets-core)\n- New Frame Processor Plugin API"
+      "sourceMdx": "- Full Android Camera2 rewrite\n- Custom GPU OpenGL Video Pipeline\n- New Camera Features\n- New Frame Processor Engine (react-native-worklets-core)\n- New Frame Processor Plugin API",
+      "nodeType": "list",
+      "translated_content": "- 完整的Android Camera2重写\n- 自定义GPU OpenGL视频处理管线\n- 新增相机功能\n- 全新的帧处理器引擎（react-native-worklets-core）\n- 新增帧处理器插件API"
     },
     {
       "id": "558df877",
       "translatable": true,
       "content": "Marc took the decision to finally [remove the integration with Skia](https://github.com/mrousavy/react-native-vision-camera/pull/1740) to keep the code size and complexity reasonable on VisionCamera.",
-      "sourceMdx": "Marc took the decision to finally [remove the integration with Skia](https://github.com/mrousavy/react-native-vision-camera/pull/1740) to keep the code size and complexity reasonable on VisionCamera."
+      "sourceMdx": "Marc took the decision to finally [remove the integration with Skia](https://github.com/mrousavy/react-native-vision-camera/pull/1740) to keep the code size and complexity reasonable on VisionCamera.",
+      "nodeType": "paragraph",
+      "translated_content": "Marc最终决定[移除与Skia的集成](https://github.com/mrousavy/react-native-vision-camera/pull/1740)，以保持VisionCamera的代码体积和复杂度在合理范围内。"
     },
     {
       "id": "f38d1cb0",
       "translatable": true,
       "content": "In [**Pose Detection using VisionCamera V3, TFLite and Skia**](https://mrousavy.com/blog/VisionCamera-Pose-Detection-TFLite), he explains what is possible with such integration. The results are very impressive.",
-      "sourceMdx": "In [**Pose Detection using VisionCamera V3, TFLite and Skia**](https://mrousavy.com/blog/VisionCamera-Pose-Detection-TFLite), he explains what is possible with such integration. The results are very impressive."
+      "sourceMdx": "In [**Pose Detection using VisionCamera V3, TFLite and Skia**](https://mrousavy.com/blog/VisionCamera-Pose-Detection-TFLite), he explains what is possible with such integration. The results are very impressive.",
+      "nodeType": "paragraph",
+      "translated_content": "在[**使用VisionCamera V3、TFLite和Skia进行姿态检测**](https://mrousavy.com/blog/VisionCamera-Pose-Detection-TFLite)一文中，他阐述了此类集成的可能性，实际效果令人印象深刻。"
     },
     {
       "id": "5f82a1e9",
       "translatable": true,
       "content": "[![Pose Detection using VisionCamera V3, TFLite and Skia](/emails/issues/158/frame-processing-skia.jpg)](https://mrousavy.com/blog/VisionCamera-Pose-Detection-TFLite)",
-      "sourceMdx": "[![Pose Detection using VisionCamera V3, TFLite and Skia](/emails/issues/158/frame-processing-skia.jpg)](https://mrousavy.com/blog/VisionCamera-Pose-Detection-TFLite)"
+      "sourceMdx": "[![Pose Detection using VisionCamera V3, TFLite and Skia](/emails/issues/158/frame-processing-skia.jpg)](https://mrousavy.com/blog/VisionCamera-Pose-Detection-TFLite)",
+      "nodeType": "paragraph",
+      "translated_content": "[![使用VisionCamera V3、TFLite和Skia进行姿态检测](/emails/issues/158/frame-processing-skia.jpg)](https://mrousavy.com/blog/VisionCamera-Pose-Detection-TFLite)"
     },
     {
       "id": "ce5ba214",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "d9b1e67e",
       "translatable": true,
       "content": "* 📜 [Things to look forward to in React Native](https://buttondown.email/whatever_jamie/archive/things-to-look-forward-to-in-react-native/): offers a good overview of what we can expect from React-Native in the years to come. Web Conformance, Static Hermes, Node-API, React Server Components...\n* 📜 [React Native Performance Measuring and Monitoring Tools](https://semaphoreci.com/blog/react-native-performance-measuring-monitoring-tools)\n* 🧵 [All gestures from React Native Gesture Handler explained with real-world examples](https://twitter.com/kacperkapusciak/status/1698719844089160189)\n* 👀 [Expo - Understand your users and grow your app with EAS Insights](https://expo.dev/changelog/2023/08-22-insights)\n* 📦 [expo-ahap - Apple Haptic and Audio Pattern](https://github.com/EvanBacon/expo-ahap)\n* 📦 [react-native-z-view](https://github.com/intergalacticspacehighway/react-native-z-view)\n* 📦 [Universal Medusa - E-commerce starter using Expo, Solito, Next.js, Nativewind, Medusa](https://github.com/bidah/universal-medusa/)\n* 🔗 [Awesome Universal React - Universal frameworks, libraries, design systems, apps and resources](https://github.com/axeldelafosse/awesome-universal-react)\n* 🎥 [Experimental Blur Gradient in React Native](https://www.youtube.com/watch?v=oboF_H1MApo)\n* 🎥 [iPhone wallpapers, but in React Native Skia](https://www.youtube.com/watch?v=Apqd749v34I)\n* 👥 [React Native EU 2023](https://www.react-native.eu/) (Wrocław 🇵🇱, September 7–8) is offering us [-15% on conference tickets](https://ti.to/react-native-eu/2023/discount/thisweekinreact15) with code \"thisweekinreact15\".",
-      "sourceMdx": "- 📜 [Things to look forward to in React Native](https://buttondown.email/whatever_jamie/archive/things-to-look-forward-to-in-react-native/): offers a good overview of what we can expect from React-Native in the years to come. Web Conformance, Static Hermes, Node-API, React Server Components...\n- 📜 [React Native Performance Measuring and Monitoring Tools](https://semaphoreci.com/blog/react-native-performance-measuring-monitoring-tools)\n- 🧵 [All gestures from React Native Gesture Handler explained with real-world examples](https://twitter.com/kacperkapusciak/status/1698719844089160189)\n- 👀 [Expo - Understand your users and grow your app with EAS Insights](https://expo.dev/changelog/2023/08-22-insights)\n- 📦 [expo-ahap - Apple Haptic and Audio Pattern](https://github.com/EvanBacon/expo-ahap)\n- 📦 [react-native-z-view](https://github.com/intergalacticspacehighway/react-native-z-view)\n- 📦 [Universal Medusa - E-commerce starter using Expo, Solito, Next.js, Nativewind, Medusa](https://github.com/bidah/universal-medusa/)\n- 🔗 [Awesome Universal React - Universal frameworks, libraries, design systems, apps and resources](https://github.com/axeldelafosse/awesome-universal-react)\n- 🎥 [Experimental Blur Gradient in React Native](https://www.youtube.com/watch?v=oboF_H1MApo)\n- 🎥 [iPhone wallpapers, but in React Native Skia](https://www.youtube.com/watch?v=Apqd749v34I)\n- 👥 [React Native EU 2023](https://www.react-native.eu/) (Wrocław 🇵🇱, September 7–8) is offering us [-15% on conference tickets](https://ti.to/react-native-eu/2023/discount/thisweekinreact15) with code \"thisweekinreact15\"."
+      "sourceMdx": "- 📜 [Things to look forward to in React Native](https://buttondown.email/whatever_jamie/archive/things-to-look-forward-to-in-react-native/): offers a good overview of what we can expect from React-Native in the years to come. Web Conformance, Static Hermes, Node-API, React Server Components...\n- 📜 [React Native Performance Measuring and Monitoring Tools](https://semaphoreci.com/blog/react-native-performance-measuring-monitoring-tools)\n- 🧵 [All gestures from React Native Gesture Handler explained with real-world examples](https://twitter.com/kacperkapusciak/status/1698719844089160189)\n- 👀 [Expo - Understand your users and grow your app with EAS Insights](https://expo.dev/changelog/2023/08-22-insights)\n- 📦 [expo-ahap - Apple Haptic and Audio Pattern](https://github.com/EvanBacon/expo-ahap)\n- 📦 [react-native-z-view](https://github.com/intergalacticspacehighway/react-native-z-view)\n- 📦 [Universal Medusa - E-commerce starter using Expo, Solito, Next.js, Nativewind, Medusa](https://github.com/bidah/universal-medusa/)\n- 🔗 [Awesome Universal React - Universal frameworks, libraries, design systems, apps and resources](https://github.com/axeldelafosse/awesome-universal-react)\n- 🎥 [Experimental Blur Gradient in React Native](https://www.youtube.com/watch?v=oboF_H1MApo)\n- 🎥 [iPhone wallpapers, but in React Native Skia](https://www.youtube.com/watch?v=Apqd749v34I)\n- 👥 [React Native EU 2023](https://www.react-native.eu/) (Wrocław 🇵🇱, September 7–8) is offering us [-15% on conference tickets](https://ti.to/react-native-eu/2023/discount/thisweekinreact15) with code \"thisweekinreact15\".",
+      "nodeType": "list",
+      "translated_content": "- 📜 [React Native未来值得期待的特性](https://buttondown.email/whatever_jamie/archive/things-to-look-forward-to-in-react-native/)：全面展望了React Native未来几年的发展方向，包括Web一致性、静态Hermes、Node-API、React服务端组件等\n- 📜 [React Native性能测量与监控工具指南](https://semaphoreci.com/blog/react-native-performance-measuring-monitoring-tools)\n- 🧵 [通过真实案例详解React Native手势处理库的所有手势](https://twitter.com/kacperkapusciak/status/1698719844089160189)\n- 👀 [Expo新功能：通过EAS Insights了解用户行为并促进应用增长](https://expo.dev/changelog/2023/08-22-insights)\n- 📦 [expo-ahap - 苹果触觉与音频模式库](https://github.com/EvanBacon/expo-ahap)\n- 📦 [react-native-z-view三维视图组件](https://github.com/intergalacticspacehighway/react-native-z-view)\n- 📦 [Universal Medusa - 基于Expo/Solito/Next.js/Nativewind/Medusa的全栈电商模板](https://github.com/bidah/universal-medusa/)\n- 🔗 [Awesome Universal React - 跨端框架/组件库/设计系统/应用资源大全](https://github.com/axeldelafosse/awesome-universal-react)\n- 🎥 [React Native实验性模糊渐变效果实现](https://www.youtube.com/watch?v=oboF_H1MApo)\n- 🎥 [使用React Native Skia复刻iPhone动态壁纸](https://www.youtube.com/watch?v=Apqd749v34I)\n- 👥 [React Native EU 2023大会](https://www.react-native.eu/)（波兰弗罗茨瓦夫，9月7-8日）提供[门票85折优惠码](https://ti.to/react-native-eu/2023/discount/thisweekinreact15)\"thisweekinreact15\""
     },
     {
       "id": "8144f6e8",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "0d5321b7",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他领域 {#other}"
     },
     {
       "id": "17ca27eb",
       "translatable": true,
       "content": "* 📊 [State of CSS 2023 - Survey Results](https://2023.stateofcss.com/)\n* 📜 [My Node.js is a bit Rusty](https://gal.hagever.com/posts/my-node-js-is-a-bit-rusty)\n* 📜 [Announcing Biome - The official fork of Rome (unmaintained)](https://biomejs.dev/blog/annoucing-biome)\n* 📜 [View Transitions Break Incremental Rendering](https://ericportis.com/posts/2023/view-transitions-break-incremental-rendering/)\n* 📜 [Use web components for what they’re good at](https://nolanlawson.com/2023/08/23/use-web-components-for-what-theyre-good-at/)\n* 📜 [Type safe CSS design systems with @property](https://nerdy.dev/cant-break-this-design-system)\n* 👀 [TypeScript 5.3 Iteration Plan](https://github.com/microsoft/TypeScript/issues/55486)\n* 📦 [Announcing TypeScript 5.2](https://devblogs.microsoft.com/typescript/announcing-typescript-5-2/)\n* 📦 [Node 20.6 - Built-in .env file support](https://nodejs.org/en/blog/release/v20.6.0)\n* 📦 [Firefox 117 - CSS Nesting is now widely available](https://www.mozilla.org/en-US/firefox/117.0/releasenotes/)\n* 📦 [Espresso Build - Experimental next-gen package registry, package manager, and toolchain](https://espresso.build/)",
-      "sourceMdx": "- 📊 [State of CSS 2023 - Survey Results](https://2023.stateofcss.com/)\n- 📜 [My Node.js is a bit Rusty](https://gal.hagever.com/posts/my-node-js-is-a-bit-rusty)\n- 📜 [Announcing Biome - The official fork of Rome (unmaintained)](https://biomejs.dev/blog/annoucing-biome)\n- 📜 [View Transitions Break Incremental Rendering](https://ericportis.com/posts/2023/view-transitions-break-incremental-rendering/)\n- 📜 [Use web components for what they’re good at](https://nolanlawson.com/2023/08/23/use-web-components-for-what-theyre-good-at/)\n- 📜 [Type safe CSS design systems with @property](https://nerdy.dev/cant-break-this-design-system)\n- 👀 [TypeScript 5.3 Iteration Plan](https://github.com/microsoft/TypeScript/issues/55486)\n- 📦 [Announcing TypeScript 5.2](https://devblogs.microsoft.com/typescript/announcing-typescript-5-2/)\n- 📦 [Node 20.6 - Built-in .env file support](https://nodejs.org/en/blog/release/v20.6.0)\n- 📦 [Firefox 117 - CSS Nesting is now widely available](https://www.mozilla.org/en-US/firefox/117.0/releasenotes/)\n- 📦 [Espresso Build - Experimental next-gen package registry, package manager, and toolchain](https://espresso.build/)"
+      "sourceMdx": "- 📊 [State of CSS 2023 - Survey Results](https://2023.stateofcss.com/)\n- 📜 [My Node.js is a bit Rusty](https://gal.hagever.com/posts/my-node-js-is-a-bit-rusty)\n- 📜 [Announcing Biome - The official fork of Rome (unmaintained)](https://biomejs.dev/blog/annoucing-biome)\n- 📜 [View Transitions Break Incremental Rendering](https://ericportis.com/posts/2023/view-transitions-break-incremental-rendering/)\n- 📜 [Use web components for what they’re good at](https://nolanlawson.com/2023/08/23/use-web-components-for-what-theyre-good-at/)\n- 📜 [Type safe CSS design systems with @property](https://nerdy.dev/cant-break-this-design-system)\n- 👀 [TypeScript 5.3 Iteration Plan](https://github.com/microsoft/TypeScript/issues/55486)\n- 📦 [Announcing TypeScript 5.2](https://devblogs.microsoft.com/typescript/announcing-typescript-5-2/)\n- 📦 [Node 20.6 - Built-in .env file support](https://nodejs.org/en/blog/release/v20.6.0)\n- 📦 [Firefox 117 - CSS Nesting is now widely available](https://www.mozilla.org/en-US/firefox/117.0/releasenotes/)\n- 📦 [Espresso Build - Experimental next-gen package registry, package manager, and toolchain](https://espresso.build/)",
+      "nodeType": "list",
+      "translated_content": "- 📊 [2023年CSS现状调查报告](https://2023.stateofcss.com/)\n- 📜 [当Node.js遇上Rust](https://gal.hagever.com/posts/my-node-js-is-a-bit-rusty)\n- 📜 [Birome工具链正式分叉自Rome项目](https://biomejs.dev/blog/annoucing-biome)\n- 📜 [视图过渡动画可能破坏渐进式渲染](https://ericportis.com/posts/2023/view-transitions-break-incremental-rendering/)\n- 📜 [合理运用Web Components的优势场景](https://nolanlawson.com/2023/08/23/use-web-components-for-what-theyre-good-at/)\n- 📜 [基于@property实现类型安全的CSS设计系统](https://nerdy.dev/cant-break-this-design-system)\n- 👀 [TypeScript 5.3迭代计划](https://github.com/microsoft/TypeScript/issues/55486)\n- 📦 [TypeScript 5.2正式发布](https://devblogs.microsoft.com/typescript/announcing-typescript-5-2/)\n- 📦 [Node.js 20.6新增原生.env文件支持](https://nodejs.org/en/blog/release/v20.6.0)\n- 📦 [Firefox 117全面支持CSS嵌套语法](https://www.mozilla.org/en-US/firefox/117.0/releasenotes/)\n- 📦 [Espresso Build实验性下一代包管理工具链](https://espresso.build/)"
     },
     {
       "id": "a19e2d81",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "531ec0bb",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 轻松一刻 {#fun}"
     },
     {
       "id": "d2a3d4c7",
       "translatable": true,
       "content": "[![alt](/emails/issues/158/meme.jpg)](https://twitter.com/sebastienlorber/status/1687456078198394882)",
-      "sourceMdx": "[![alt](/emails/issues/158/meme.jpg)](https://twitter.com/sebastienlorber/status/1687456078198394882)"
+      "sourceMdx": "[![alt](/emails/issues/158/meme.jpg)](https://twitter.com/sebastienlorber/status/1687456078198394882)",
+      "nodeType": "paragraph",
+      "translated_content": "[![趣味图片](/emails/issues/158/meme.jpg)](https://twitter.com/sebastienlorber/status/1687456078198394882)"
     },
     {
       "id": "008183b0",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下期见！👋"
     }
   ]
 }

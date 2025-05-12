@@ -1,23 +1,29 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/src/pages/emailCodeBlock.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/src/pages/emailCodeBlock.mdx",
   "segments": [
     {
       "id": "76e4a56a",
       "translatable": true,
       "content": "# EmailCodeBlock",
-      "sourceMdx": "# EmailCodeBlock"
+      "sourceMdx": "# EmailCodeBlock",
+      "nodeType": "heading",
+      "translated_content": "# 邮件代码块"
     },
     {
       "id": "a37198cd",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import EmailCodeBlock from \"@site/src/components/EmailCodeBlock\";"
+      "sourceMdx": "import EmailCodeBlock from \"@site/src/components/EmailCodeBlock\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_a37198cd"
     },
     {
       "id": "e89f49cf",
       "translatable": false,
       "content": "<EmailCodeBlock />",
-      "sourceMdx": "<EmailCodeBlock />"
+      "sourceMdx": "<EmailCodeBlock />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_e89f49cf"
     }
   ]
 }

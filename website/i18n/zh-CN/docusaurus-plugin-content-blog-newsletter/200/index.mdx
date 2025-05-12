@@ -9,17 +9,17 @@ date: 09-11-2024
 
 我们是来自[Theodo Apps（原BAM）](https://apps.theodo.com/en?utm_source=thisweekinreact)的**Cyril和Matthieu** 👋，本周代替Seb为大家带来React和React Native领域的最新动态。
 
-本周焦点是服务端组件，Vite和Next.js都发布了相关新特性。我们还精选了几篇值得阅读的专题文章。此外还有大量关于Remix的内容，以及围绕ChatGPT应用的讨论。
+本周聚焦服务端组件，Vite和Next.js都发布了相关新特性。我们还精选了几篇值得一读的专题文章。此外还有大量关于Remix的内容和ChatGPT应用相关讨论。
 
-React Native方面，按计划在React Universe大会上发布了重要公告，React Native 0.76版本将于几周后发布！
+React Native方面，正如预期，React Universe大会发布了重要公告，React Native 0.76版本将于数周后发布！
 
-React Native的盛宴仍在继续。欢迎关注我们的合作伙伴会议[**React Native 🇬🇧 伦敦大会**](https://www.reactnativelondon.co.uk/?utm_source=thisweekinreact)（11月14-15日），使用优惠码"TWIR"可享9折。这是首届活动，已邀请到Charlie Cheever、Alex Hunt、Charlotte Isambert和Cedric Van Putten等重磅嘉宾。
+React Native的盛宴仍在继续。欢迎关注我们的合作伙伴会议[**React Native 🇬🇧 伦敦站**](https://www.reactnativelondon.co.uk/?utm_source=thisweekinreact)（11月14-15日），使用优惠码"TWIR"可享9折。这是首届活动，目前已确认Charlie Cheever、Alex Hunt、Charlotte Isambert和Cedric Van Putten等重磅嘉宾阵容。
 
-**Seb**：我简短插播庆祝本刊第200期🎉。感谢大家多年来的忠实阅读。目前4.3万订阅量让我们实现了可持续发展，正逐步成为开发者领域的专业媒体。
+**Seb**：我简短插播庆祝本刊第200期🎉。感谢大家多年来的忠实阅读。目前4.3万订阅量让我们实现了可持续运营，正逐步成为开发者领域的专业媒体。
 
 <!-- truncate -->
 
-**💡 [在Twitter查看本期简报](https://slo.im/thread) - 视觉化排版 🎨**
+**💡 [在Twitter查看本期简报](https://slo.im/thread) - 视觉化呈现 🎨**
 
 ---
 
@@ -31,19 +31,19 @@ import Support from "../_support.mdx";
 
 ## 💸 赞助商 {#sponsor1}
 
-[![Handsontable：React高级数据表格](/emails/issues/200/handsontable.jpg)](https://handsontable.com/docs/react-data-grid/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=twirsep11)
+[![Handsontable：React高级数据网格](/emails/issues/200/handsontable.jpg)](https://handsontable.com/docs/react-data-grid/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=twirsep11)
 
-**[Handsontable：React高级数据表格](https://handsontable.com/docs/react-data-grid/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=twirsep11)**
+**[Handsontable：React高级数据网格](https://handsontable.com/docs/react-data-grid/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=twirsep11)**
 
-Handsontable是[功能丰富的数据表格](https://handsontable.com/demo?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=twirsep11)，专为需要强大、可定制且易访问方案来管理复杂数据的React开发者设计。
+Handsontable是[功能丰富的数据网格](https://handsontable.com/demo?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=twirsep11)，专为需要强大、可定制且易访问方案来管理复杂数据的React开发者设计。
 
 - 独特的**类电子表格界面**，支持排序、筛选和CRUD操作
 - 高级功能如条件格式和**400多种内置公式**，媲美Excel
 - **可定制的编辑器和渲染器**，支持在单元格内嵌入下拉菜单或自定义组件
-- **性能优化**确保流畅响应
+- **性能优化**确保流畅交互
 - **符合WCAG 2.1标准**，提升残障用户支持
 
-Handsontable适用于从企业级应用到简单网站的各种场景，其性能和灵活性已获全球企业信赖。
+从企业级应用到简易网站，Handsontable能适应各类场景，其性能和灵活性已获全球企业验证。
 
 [立即体验！](https://handsontable.com/docs/react-data-grid/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=twirsep11)
 
@@ -55,55 +55,55 @@ Handsontable适用于从企业级应用到简单网站的各种场景，其性�
 
 **React开发者必备的CSS `:has`选择器**
 
-本周我们有两篇关于CSS新特性`:has`选择器的深度好文，探讨React开发者如何利用它简化/删除JS代码并提升性能。该CSS特性目前支持率良好（92%），但无法被polyfill，因此现阶段建议用于渐进增强场景。
+本周我们有两篇关于CSS新特性`:has`选择器的深度好文，解析React开发者如何利用它简化/删除JS代码并提升性能。该CSS特性目前支持度良好（92%），但无法降级兼容，建议现阶段用于渐进增强场景。
 
 推荐阅读顺序：
 
-- 📜 [Josh Comeau - CSS `:has` 选择器的不可否认实用性](https://www.joshwcomeau.com/css/has/)：一篇优秀的交互式入门文章，包含了对React开发者特别相关的评论和示例，例如通过数据属性而非`useEffect`来阻止模态框打开时的全局页面滚动。
+- 📜 [Josh Comeau - CSS `:has` 选择器的不可否认实用性](https://www.joshwcomeau.com/css/has/)：这篇互动式入门文章同样包含了对React开发者有价值的评论和示例，例如通过数据属性而非`useEffect`来阻止模态框打开时的全局页面滚动。
 - 📜 [Nadia Makarevich - 用CSS `:has` 选择器替代React代码](https://www.developerway.com/posts/replacing-react-with-css)：提供了更多基于React的有趣示例，例如处理焦点状态、根据输入状态高亮表格行或表单字段集。
 
-能力越大，责任越大。请务必保持React组件的封装性，尽可能避免样式泄漏到组件边界之外。
+能力越大，责任越大。请记住保持React组件的封装性，尽可能避免样式泄漏到组件边界之外。
 
 ---
 
-- 💸 [React组件分析工具Omlet——扫描代码库量化组件使用率，提升代码质量与设计系统采用度](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-aug-2024)
-- 🐦 [Next.js新增`experimental.dynamicIO`标志位终结缓存难题](https://x.com/feedthejim/status/1831224197827166613)：该标志将确保执行异步IO（如数据请求和数据库查询）的组件默认启用动态渲染
-- 🐦 [ChatGPT从Next.js迁移至Remix框架](https://x.com/ryanflorence/status/1831379475654947233)
-- 👀 [Vite 6合并环境API PR](https://github.com/vitejs/vite/pull/16471)：对React尤其重要，它能准确建模React应用运行的不同环境（浏览器/SSR/RSC），并维护独立的模块图
+- 💸 [React组件分析工具Omlet——扫描代码库统计组件使用情况，提升代码质量与设计系统采用率](https://omlet.dev/?utm_campaign=partner_this-week-in-react_newsletter-quick-link-aug-2024)
+- 🐦 [Next.js新增`experimental.dynamicIO`标志——终结缓存难题](https://x.com/feedthejim/status/1831224197827166613)：该标志将确保执行异步IO（如数据获取和数据库查询）的组件默认采用动态渲染
+- 🐦 [ChatGPT从Next.js迁移至Remix](https://x.com/ryanflorence/status/1831379475654947233)
+- 👀 [Vite 6环境API PR已合并](https://github.com/vitejs/vite/pull/16471)：对React尤其重要，它能正确建模React应用运行的不同"环境"（浏览器、SSR、RSC），并支持独立的模块图
 - 👀 [Next.js部分回退预渲染PR](https://github.com/vercel/next.js/pull/68958)
-- 📖 [TanStack Router推出虚拟文件路由](https://tanstack.com/router/v1/docs/framework/react/guide/virtual-file-routes)：相当于Remix的`routes.ts`方案
-- 📖 [Next.js新文档：渐进式Web应用(PWA)指南](https://nextjs.org/docs/app/building-your-application/configuring/progressive-web-apps)
-- 🗓️ [React布鲁塞尔大会](https://www.react.brussels/?utm_source=thisweekinreact) - 🇧🇪 10月18日 - 使用优惠码"TWIR"享9折，向Nicolas Dubien和Charlotte Isambert学习
-- 🗓️ [React意大利日](https://2024.reactjsday.it/?utm_source=thisweekinreact) - 🇮🇹 10月25日 - 使用"TWIR"码享9折，阵容包括Matheus Albuquerque、Aurora Scharff和Dani Coll
-- 🗓️ [Squiggle技术大会](https://2024.squiggleconf.com/?utm_source=thisweekinreact) - 🇺🇸 波士顿10月3-4日 - 最后售票阶段，使用"TWIR"码享9折
-- 📜 [React与FormData实践指南](https://reacttraining.com/blog/react-and-form-data)：提倡使用FormData并给出Zod类型兼容方案
-- 📜 [现代React数据获取策略对比](https://reacttraining.com/blog/modern-data-fetching-in-react)：分析`useEffect`/`useQuery`/路由加载器/Next.js服务端Props/Remix加载器/RSC等方案的客户端-服务端取舍
-- 📜 [意外之喜：迁移Remix竟使网站性能飙升](https://echobind.com/post/oops-i-accidentally-made-our-website-faster-by-switching-to-remix)：从Next.js/Vercel迁移至Remix/Railway后，Lighthouse评分和SEO显著提升
-- 📜 [非Vercel环境部署Next.js生产应用指南](https://www.saybackend.com/blog/04-deploy-nextjs-to-production-without-vercel)：使用Docker配合Next.js独立输出模式部署
-- 📜 [Next.js中利用RSC和Suspense实现任务序列进度指示](https://www.nico.fyi/blog/next-js-sequential-tasks-progress-stepper-with-rsc-and-suspense)：基于`use`钩子的实现
-- 📜 [原生React表达性组件实践(1)：类型状态机](https://massimilianomirra.com/notes/expressive-components-in-vanilla-react-part-1-type-states)："选择不在于是否构建状态机，而在于隐式还是显式构建"
-- 📜 [Preact vs Svelte：嵌入式组件选型实践](https://sentry.engineering/blog/preact-or-svelte-an-embedded-widget-use-case)：Sentry用户反馈组件最终选择Preact
+- 📖 [TanStack Router虚拟文件路由](https://tanstack.com/router/v1/docs/framework/react/guide/virtual-file-routes)：Tanstack Start实现了类似Remix的`routes.ts`功能
+- 📖 [Next.js新文档——渐进式Web应用(PWA)](https://nextjs.org/docs/app/building-your-application/configuring/progressive-web-apps)
+- 🗓️ [React-Brussels大会](https://www.react.brussels/?utm_source=thisweekinreact) - 🇧🇪 布鲁塞尔 - 10月18日 - 使用代码"TWIR"可享9折优惠。向Nicolas Dubien和Charlotte Isambert学习！
+- 🗓️ [reactjsday大会](https://2024.reactjsday.it/?utm_source=thisweekinreact) - 🇮🇹 维罗纳 - 10月25日 - 使用代码"TWIR"享9折。阵容包括Matheus Albuquerque、Aurora Scharff和Dani Coll！
+- 🗓️ [Squiggle Conf大会](https://2024.squiggleconf.com/?utm_source=thisweekinreact) - 🇺🇸 波士顿 - 10月3-4日 - 最后售票阶段！使用"TWIR"代码享9折！
+- 📜 [React与FormData实践指南](https://reacttraining.com/blog/react-and-form-data)：倡导使用FormData，并提供通过Zod实现TypeScript兼容的解决方案
+- 📜 [React现代数据获取方案](https://reacttraining.com/blog/modern-data-fetching-in-react)：对比`useEffect`、`useQuery`、React Router加载器、Next.js的`getServerSideProps`、Remix加载器和React服务器组件等方法，分析客户端与服务器端方案的权衡
+- 📜 [意外之喜：迁移到Remix让网站性能飙升](https://echobind.com/post/oops-i-accidentally-made-our-website-faster-by-switching-to-remix)：Echobind详述从Next.js/Vercel迁移到Remix/Railway的经历，原本只为节省成本，却意外获得Lighthouse评分和SEO提升
+- 📜 [Next.js应用非Vercel生产环境部署指南](https://www.saybackend.com/blog/04-deploy-nextjs-to-production-without-vercel)：虽然无法获得Vercel的全部优化，但可通过Docker和Next.js的`standalone`输出模式部署
+- 📜 [Next.js中利用React Suspense和RSC实现任务序列进度展示](https://www.nico.fyi/blog/next-js-sequential-tasks-progress-stepper-with-rsc-and-suspense)：使用`use`钩子实现
+- 📜 [原生React的富有表现力组件（第一部分）：类型状态](https://massimilianomirra.com/notes/expressive-components-in-vanilla-react-part-1-type-states)："选择不在于是否构建状态机，而在于隐式还是显式构建"
+- 📜 [Preact还是Svelte？嵌入式小部件的选择](https://sentry.engineering/blog/preact-or-svelte-an-embedded-widget-use-case)：Sentry最终为其用户反馈小部件选择了Preact
 - 📜 [Vercel解读React 19新特性](https://vercel.com/blog/whats-new-in-react-19)
 - 📜 [React编译器完全指南](https://www.freecodecamp.org/news/react-compiler-complete-guide-react-19/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-use-react-compiler)
-- 📜 [Next.js中的MDX集成方案](https://spacejelly.dev/posts/mdx-in-nextjs)
-- 📜 [Astro与MDX的组件自动导入](https://lirantal.com/blog/component-auto-import-in-astro-framework/)
-- 📜 [Remix文件上传实践](https://programmingarehard.com/2024/09/06/remix-file-uploads-updated.html/)
-- 📦 [Redwood v8.0发布](https://redwoodjs.com/upgrade/v8)：支持后台任务、简化SSR/RSC配置、Storybook改用Vite、Docker支持等
-- 📦 [Remix 2.12：单次请求优化+实验性依赖优化标志](https://remix.run/docs/en/main/start/changelog#v2120)
-- 📦 [React Router 6.26.2更新不稳定数据策略API](https://reactrouter.com/en/main/start/changelog#v6262)
-- 📦 [Remix生态工具集remix-the-web发布](https://github.com/mjackson/remix-the-web)
-- 📦 [Atomic-CRM：基于React/react-admin/Supabase的全功能免费CRM](https://marmelab.com/atomic-crm/)
-- 🎥 [Wes Bos解析OpenAI从Next.js迁移至Remix的原因](https://www.youtube.com/watch?v=hHWgGfZpk00)
-- 🎥 [Fireship探讨前端变革趋势(shadcn/ui/V0等)](https://www.youtube.com/watch?v=TBIjgBVFjVI)
-- 🎥 [Theo分析React最危险特性("use server")](https://www.youtube.com/watch?v=yUm-ET8w_28&t=1068s)
-- 🎥 [Jack Herrington解读ShadCN革命性新CLI](https://www.youtube.com/watch?v=LEFRcCf4ehc)
-- 🎙️ [本月React动态(2024年8月)：Matt Pocock模块教学、RN性能提升、迭代器工具、JSR/Deno动态](https://podcasters.spotify.com/pod/show/reactiflux/episodes/TMiR-2024-08-Matt-Pocock-taught-us-to-make-modules--RN-is-faster--iterator-helpers-are-cool--JSRDeno-going-sour-e2o0cor)
+- 📜 [Next.js中的MDX实践](https://spacejelly.dev/posts/mdx-in-nextjs)
+- 📜 [Astro和MDX中的组件自动导入](https://lirantal.com/blog/component-auto-import-in-astro-framework/)
+- 📜 [Remix实现文件上传](https://programmingarehard.com/2024/09/06/remix-file-uploads-updated.html/)
+- 📦 [Redwood v8.0发布](https://redwoodjs.com/upgrade/v8)：支持后台任务、简化的SSR/RSC配置、Storybook改用Vite、Docker支持，同时弃用Webpack
+- 📦 [Remix 2.12——Single Fetch改进与`future.unstable_optimizeDeps`](https://remix.run/docs/en/main/start/changelog#v2120)
+- 📦 [React Router 6.26.2——更新`unstable_dataStrategy` API](https://reactrouter.com/en/main/start/changelog#v6262)
+- 📦 [Remix-the-web——适用于Remix或任何Web框架的工具包集合](https://github.com/mjackson/remix-the-web)
+- 📦 [Atomic-CRM——基于React/react-admin和Supabase的全功能免费CRM](https://marmelab.com/atomic-crm/)
+- 🎥 [Wes Bos解析OpenAI为何从Next.js迁移至Remix](https://www.youtube.com/watch?v=hHWgGfZpk00)
+- 🎥 [Fireship：前端开发正在快速变革（shadcn/ui, V0）](https://www.youtube.com/watch?v=TBIjgBVFjVI)
+- 🎥 [Theo：React最危险的功能（"use server"）](https://www.youtube.com/watch?v=yUm-ET8w_28&t=1068s)
+- 🎥 [Jack Herrington：ShadCN革命性新CLI工具](https://www.youtube.com/watch?v=LEFRcCf4ehc)
+- 🎙️ [2024年8月React月报——Matt Pocock模块教学、RN性能提升、迭代器助手、JSR/Deno发展遇冷](https://podcasters.spotify.com/pod/show/reactiflux/episodes/TMiR-2024-08-Matt-Pocock-taught-us-to-make-modules--RN-is-faster--iterator-helpers-are-cool--JSRDeno-going-sour-e2o0cor)
 
 <SubscribeFormEmbed placement="middle" />
 
 ---
 
-## 💸 赞助商 {#sponsor2}
+## 💸 赞助 {#sponsor2}
 
 [![为您的React应用解锁文档超能力！](/emails/issues/200/pspdfkit.jpg)](https://pspdfkit.com/pdf-sdk/web)
 
@@ -112,71 +112,71 @@ Handsontable适用于从企业级应用到简单网站的各种场景，其性�
 React开发者们注意啦！👋 使用PSPDFKit React SDK提升您的文档处理能力：
 
 - 🏎️ 通过免费试用和详尽文档快速上手
-- ⏱️ 利用精美的内置UI和全新设计系统**Baseline-UI**节省开发时间
+- ⏱️ 利用精美的内置UI和我们的新设计系统**Baseline-UI**节省开发时间
 - 🛠️ 通过丰富的API进行文档处理和定制
-- 🆘 获得领域专家支持团队的协助
+- 🆘 获得领域专家支持团队的帮助
 
 我们支持**全平台**，从移动端到后端。
 
-想要解决具有挑战性的问题并对**数百个应用产生影响**？查看我们的开放职位，例如[高级前端工程师](https://pspdfkit.bamboohr.com/careers/163)。
+想要解决具有挑战性的问题并对**数百个应用程序产生影响**吗？查看我们的[高级前端工程师](https://pspdfkit.bamboohr.com/careers/163)等开放职位。
 
 ---
 
 ## 📱 React-Native {#react-native}
 
-上周，弗罗茨瓦夫成为React Universe的舞台，一系列重大公告让React Native社区为之振奋。其中最引人注目的是React Native 0.76的发布计划，预计将于10月底推出。该版本带来重大改进，包括默认启用新架构，以及全新设计的React Native DevTools。目前已经可以通过[0.76发布候选版本](https://github.com/facebook/react-native/releases/tag/v0.76.0-rc.0)体验！
+上周，弗罗茨瓦夫成为React Universe的舞台，React Native社区的重大公告令人振奋。其中最引人注目的是React Native 0.76的发布，计划于10月底推出。此版本带来了重大进展，包括默认启用新架构和完全重新设计的React Native DevTools。它已经作为[0.76发布候选版本](https://github.com/facebook/react-native/releases/tag/v0.76.0-rc.0)提供！
 
 [![React Native DevTools](/emails/issues/200/react-native-devtools.jpg)](https://www.youtube.com/watch?v=b48Lax2-jOQ&t=4350s)
 
-- 🎥 [Alex Hunt - 全新React Native调试器 - 代号"Fusebox"](https://www.youtube.com/watch?v=b48Lax2-jOQ&t=4350s)
-  React Native的调试工具长期处于碎片化状态，但新的"React Native DevTools"通过基于Chrome DevTools协议(CDP)的全新后端提供了统一体验。这种架构受到IDE和Chrome DevTools支持，承诺提供更可靠的断点和稳定的重载功能。它同时支持新旧架构，将成为React Native应用调试的首选方案。虽然直接通过Chrome调试Hermes的方式将被逐步淘汰，但性能和网络检查功能仍在开发中。
+- 🎥 [Alex Hunt - 新的React Native调试器 - 代号"Fusebox"](https://www.youtube.com/watch?v=b48Lax2-jOQ&t=4350s)
+  React Native的调试工具长期以来一直分散，但新的"React Native DevTools"引入了统一体验，采用由Chrome DevTools协议(CDP)支持的新后端。这种架构得到IDE和Chrome DevTools的支持，承诺更可靠的断点和稳定的重新加载。它支持新旧架构，成为React Native应用程序的首选调试解决方案。通过Chrome直接调试Hermes将被逐步淘汰，尽管性能和网络检查功能仍在开发中。
 
 [![Hermes性能图表](/emails/issues/200/hermes-perf.jpg)](https://www.youtube.com/watch?v=pfeTPSai6vc&t=8702s)
 
 - 🎥 [Tzvetan Mikov - Hermes：通过运行时字节码翻译获得更好性能](https://www.youtube.com/watch?v=pfeTPSai6vc&t=8702s)  
-  去年在React Native Europe上亮相的静态Hermes通过挑战现有JavaScript引擎标准引起了广泛关注。虽然仍在开发中，静态Hermes通过类型注解分析将JavaScript编译为原生机器码或类型化字节码，有望实现C++级别的性能。但这种工作流存在限制：OTA更新将不再可用，当前Babel等JavaScript构建工具不保留类型注解，且仍有大量无类型代码在使用。为解决这些问题，Hermes团队引入了运行时字节码翻译技术，原生编译性能最高可提升12倍。这些创新将在经过Meta内部充分测试后，随Hermes v2一起发布。
+  去年在React Native Europe上推出的静态Hermes通过挑战现有的JavaScript引擎标准引起了极大兴趣。虽然仍在开发中，静态Hermes通过类型注释分析将JavaScript编译成本机机器码或类型化字节码，提供了新颖的方法，具有达到C++级别性能的潜力。然而，这种工作流程有其局限性：空中(OTA)更新将不再起作用，当前的JavaScript构建工具如Babel不保留类型注释，并且仍有大量未类型化代码在使用。为了解决这些挑战，Hermes团队引入了运行时字节码翻译，承诺本机编译性能提升高达12倍。这些创新将在Hermes v2中提供，一旦在Meta内部经过广泛测试。
 
 ---
 
-- 💸 [React Native 大师课 - 精通 React Native 和 Expo 的唯一课程](https://notjust.dev/react-native-mastery?utm_source=twir&utm_medium=email)
-- 🐦 [React Native Firebase 支持新架构](https://x.com/notbrent/status/1832108444578672709): 重大利好消息，因其在项目中广泛使用。这是激活新架构所需的最后一块拼图。
-- 🐦 [React Native IDE 将支持新 React 调试器 (Fusebox)](https://x.com/kzzzf/status/1832017321235190117)
-- 📖 [Expo 文档更新](https://x.com/amanhimself/status/1833466032209727662): expo-router 中的非路由文件、SDK 51 升级助手更新、推送通知指南、使用 Maestro 进行端到端测试。
+- 💸 [React Native Mastery - 掌握React Native与Expo的唯一课程](https://notjust.dev/react-native-mastery?utm_source=twir&utm_medium=email)
+- 🐦 [React Native Firebase现已支持新架构](https://x.com/notbrent/status/1832108444578672709): 重大利好消息，因其在项目中广泛使用。这是启用新架构的最后一块拼图。
+- 🐦 [React Native IDE将支持全新React调试器(Fusebox)](https://x.com/kzzzf/status/1832017321235190117)
+- 📖 [Expo文档更新动态](https://x.com/amanhimself/status/1833466032209727662): expo-router中的非路由文件支持，SDK 51升级助手更新，推送通知指南，Maestro端到端测试方案。
 - 📜 [数学之美：打造惊艳动画的艺术](https://expo.dev/blog/the-beauty-of-mathematics-in-crafting-stunning-animations)
-- 📜 [通用 React Native - 跨平台操作效率](https://raf.dev/blog/universal-react-native/)
-- 📜 [从创意到 Google Play 商店的 100 天](https://expo.dev/blog/from-idea-to-google-play-store-in-100-days)
-- 📦 [Metro v0.80.11 - 性能优化使构建速度提升高达 15 倍](https://x.com/MetroBundler/status/1831709057670861260)
-- 📦 [React Native Gesture Handler 2.19 - 完整支持 macOS、Web 键盘可访问性、LongPress 多指针支持](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.19.0)
-- 📦 [TypeGPU - 增强 WebGPU API 的 TypeScript 库，支持类型安全声明式资源管理](https://docs.swmansion.com/TypeGPU/)
-- 📦 [expo-reaction-menu](https://github.com/arunabhverma/expo-reaction-menu): 使用 Expo 和 Reanimated 实现的消息应用丝滑反应菜单演示。
-- 📦 [InAppModule - 在应用中本地添加 Turbo Native Module 的示例仓库（非外部库）](https://github.com/cipolleschi/inappmodule)
-- 🎥 [Reactiive - 使用 React Native (Reanimated) 实现分页指示点动画](https://www.youtube.com/watch?v=04K3wPK2yC8)
-- 🎥 [Expo - 使用 Expo modules API 创建原生模块](https://youtu.be/CdaQSlyGik8?si=aH_DWm6nr5BM3hYL)
-- 🎙️ [React Universe On Air 第 42 期 - React 与 React Native 生态的交叉路径](https://www.callstack.com/podcasts/crossing-paths-of-react-and-react-native-ecosystems)
-- 🎙️ [React-Native-Radio 第 306 期 - React Native + Sentry：天作之合](https://reactnativeradio.com/episodes/306-react-native-sentry-a-match-made-in-heaven-with-krystof-woldrich)
-- 🎙️ [Rocket Ship 第 49 期 - 从 RNC CLI 迁移到 Expo 及测试库实践（Steve Galili 主讲）](https://share.transistor.fm/s/e96a142b)
+- 📜 [通用React Native - 跨平台操作效率实践](https://raf.dev/blog/universal-react-native/)
+- 📜 [从创意到Google Play商店的100天历程](https://expo.dev/blog/from-idea-to-google-play-store-in-100-days)
+- 📦 [Metro v0.80.11 - 构建性能提升高达15倍](https://x.com/MetroBundler/status/1831709057670861260)
+- 📦 [React Native手势处理库2.19 - 完整macOS支持，Web端键盘可访问性优化，长按多指针支持](https://github.com/software-mansion/react-native-gesture-handler/releases/tag/2.19.0)
+- 📦 [TypeGPU - 增强WebGPU API的类型安全库，支持声明式资源管理](https://docs.swmansion.com/TypeGPU/)
+- 📦 [expo-reaction-menu](https://github.com/arunabhverma/expo-reaction-menu): 使用Expo和Reanimated实现的丝滑消息应用反应菜单组件。
+- 📦 [InAppModule - 本地集成Turbo原生模块的示例仓库（非外部依赖）](https://github.com/cipolleschi/inappmodule)
+- 🎥 [Reactiive - 使用React Native(Reanimated)实现分页指示器动画](https://www.youtube.com/watch?v=04K3wPK2yC8)
+- 🎥 [Expo - 使用Expo模块API创建原生模块](https://youtu.be/CdaQSlyGik8?si=aH_DWm6nr5BM3hYL)
+- 🎙️ [React Universe On Air第42期 - React与React Native生态的交叉演进](https://www.callstack.com/podcasts/crossing-paths-of-react-and-react-native-ecosystems)
+- 🎙️ [React-Native-Radio第306期 - React Native与Sentry的天作之合](https://reactnativeradio.com/episodes/306-react-native-sentry-a-match-made-in-heaven-with-krystof-woldrich)
+- 🎙️ [Rocket Ship第49期 - 从RNC CLI迁移到Expo及测试库实践](https://share.transistor.fm/s/e96a142b)
 
 ---
 
-## 🔀 其他 {#other}
+## 🔀 其他资源 {#other}
 
-- 🐦 [Tailwind v4 alpha 版本演示](https://x.com/adamwathan/status/1830715726195306731)
+- 🐦 [Tailwind v4 alpha 演示](https://x.com/adamwathan/status/1830715726195306731)
 - 📖 [Vitest 速查表](https://github.com/sapegin/vitest-cheat-sheet)
-- 📜 [ESLint v8.x 生命周期终止及版本支持政策](https://eslint.org/blog/2024/09/eslint-v8-eol-version-support/)：支持将于10月终止，是时候迁移到ESLint v9和平坦配置了
-- 📜 [CSS display contents属性解析](https://ishadeed.com/article/display-contents/)
-- 📜 [Web端ES5现状报告](https://philipwalton.com/articles/the-state-of-es5-on-the-web/)
-- 📜 [CSS @property与新样式实践](https://ryanmulligan.dev/blog/css-property-new-style/)
-- 📦 [TypeScript v5.6发布](https://devblogs.microsoft.com/typescript/announcing-typescript-5-6/)：新增禁止空值与真值检查、迭代器辅助方法、`--noUncheckedSideEffectImports`、`--noCheck`、自动导入排除模式等功能
-- 📦 [Rsbuild 1.0正式发布 - 基于Rspack的构建工具](https://rsbuild.dev/community/releases/v1-0)
-- 📦 [Express 5.0发布](https://github.com/expressjs/express/releases/tag/v5.0.0)：但仍在通过`next` npm标签分发，[需等待类型更新和迁移文档完成](https://github.com/expressjs/express/issues/5944#issuecomment-2341980442)。
-- 🎥 [Matt Pocock - TypeScript永远不会添加的5个特性](https://www.youtube.com/watch?v=Zsj1UlCsuio)：更严格的Omit、否定类型、名义/标记类型、Throws和精确类型。
+- 📜 [ESLint v8.x 生命周期终止及版本支持政策](https://eslint.org/blog/2024/09/eslint-v8-eol-version-support/)：支持将于10月停止，是时候迁移到ESLint v9和平坦配置了
+- 📜 [CSS display contents详解](https://ishadeed.com/article/display-contents/)
+- 📜 [Web上的ES5现状](https://philipwalton.com/articles/the-state-of-es5-on-the-web/)
+- 📜 [CSS @property与新样式](https://ryanmulligan.dev/blog/css-property-new-style/)
+- 📦 [TypeScript v5.6发布](https://devblogs.microsoft.com/typescript/announcing-typescript-5-6/)：禁止空值与真值检查、迭代器辅助方法、`--noUncheckedSideEffectImports`、`--noCheck`、自动导入排除模式等新特性
+- 📦 [Rsbuild 1.0发布](https://rsbuild.dev/community/releases/v1-0)：基于Rspack的构建工具
+- 📦 [Express 5.0发布](https://github.com/expressjs/express/releases/tag/v5.0.0)：但仍使用`next` npm标签[直到类型更新和迁移文档完成](https://github.com/expressjs/express/issues/5944#issuecomment-2341980442)
+- 🎥 [Matt Pocock - TypeScript永远不会添加的5个特性](https://www.youtube.com/watch?v=Zsj1UlCsuio)：更严格的Omit、否定类型、名义/品牌类型、Throws和精确类型
 
 ---
 
 ## 🤭 轻松一刻 {#fun}
 
-[![趣味图片](/emails/issues/200/meme.jpg)](https://x.com/JLarky/status/1831873626985144708)
+[![alt](/emails/issues/200/meme.jpg)](https://x.com/JLarky/status/1831873626985144708)
 
-[![趣味图片](/emails/issues/200/meme2.jpg)](https://x.com/bionanek/status/1831649116415299837)
+[![alt](/emails/issues/200/meme2.jpg)](https://x.com/bionanek/status/1831649116415299837)
 
-下期见！👋
+下次见！👋

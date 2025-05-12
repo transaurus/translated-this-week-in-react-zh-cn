@@ -7,14 +7,14 @@ date: 08-28-2024
 
 大家好！
 
-夏天似乎已经结束了，对吧？
+转眼间夏天就要结束了，对吧？
 
-本周我们有许多精彩的发布和文章！\
-我特别对React Email感到兴奋，我打算用它来制作即将发布的新闻邮件模板，还有Rspack，我正在Docusaurus中采用它来替代webpack。
+本周有许多重磅发布和优质文章！\
+我特别关注React Email，打算用它来制作下一期新闻邮件的模板；还有Rspack，我正在将其引入Docusaurus项目以替代webpack。
 
 <!-- truncate -->
 
-**💡 [在Twitter上查看这份简报](https://slo.im/thread) - 视觉化格式 🎨**
+**💡 [在Twitter上浏览本期简报](https://slo.im/thread) - 可视化版式 🎨**
 
 ---
 
@@ -26,67 +26,67 @@ import Support from "../_support.mdx";
 
 ## 💸 赞助商 {#sponsor1}
 
-[![WorkOS: 面向B2B SaaS的现代身份平台](/emails/issues/195/workOS.jpg)](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)
+[![WorkOS：面向B2B SaaS的现代身份平台](/emails/issues/195/workOS.jpg)](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)
 
-**[WorkOS: 面向B2B SaaS的现代身份平台](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)**
+**[WorkOS：面向B2B SaaS的现代身份平台](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024)**
 
-通过WorkOS，您只需几行代码就可以开始向企业销售。
+通过WorkOS，仅需几行代码即可开启企业级销售。
 
-🔐 WorkOS AuthKit支持完整的用户管理解决方案，包括**SSO、SCIM、RBAC和FGA**。
+🔐 WorkOS AuthKit提供完整的用户管理方案，支持**单点登录(SSO)、跨域身份管理系统(SCIM)、基于角色的访问控制(RBAC)和细粒度授权(FGA)**。
 
-🏗️ API**灵活、易用且模块化**。按需选择，几分钟内即可集成。
+🏗️ API设计**灵活易用且模块化**，可按需选择功能，分钟级集成。
 
-🎨 设计和用户体验至关重要。从我们的文档质量到用户如何上手，我们**为开发者消除了所有不必要的复杂性**。
+🎨 用户体验至上。从文档质量到用户 onboarding 流程，我们**为开发者消除所有不必要的复杂性**。
 
-✨ AuthKit**免费支持高达100万月活跃用户**，包括机器人防护、MFA、RBAC等功能。
+✨ AuthKit**免费支持100万月活用户**，包含机器人防护、多因素认证(MFA)、RBAC等功能。
 
-🤝 WorkOS受到数百家领先初创公司的信任，如**Perplexity**、**Vercel**和**Webflow**。
+🤝 数百家领先初创企业信任WorkOS，包括**Perplexity**、**Vercel**和**Webflow**。
 
-[立即开始使用WorkOS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024) 🚀
+[立即体验WorkOS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q32024) 🚀
 
 ---
 
-## ⚛️ React {#react}
+## ⚛️ React动态 {#react}
 
 [![React Email 3.0](/emails/issues/198/reactemail.jpg)](https://resend.com/blog/react-email-3)
 
 **[React Email 3.0](https://resend.com/blog/react-email-3)**
 
-React Email的新主要版本发布了。亮点包括：
+React Email迎来重大版本更新，亮点包括：
 
-- 全新的54个组件库，可复制/粘贴，类似于shadcn/ui
+- 全新组件库提供54个开箱即用组件，类似shadcn/ui设计
 - 渲染性能提升11倍
-- 支持React 19 RC
+- 支持React 19候选版
 
 ---
 
-- 💸 [Reactile – 一种基于React的Web应用新范式。可自定义视图，在单一浏览器标签页内管理窗口和小部件](https://www.reactile.net/?utm_source=reactnewsletter)
-- 👀 [React核心PR - 在组件挂起后调度预渲染](https://github.com/facebook/react/pull/30800)：还记得[因Suspense行为变更争议](https://github.com/facebook/react/issues/29898)导致React 19.0稳定版延期吗？Andrew提出了支持预渲染Suspense组件内兄弟节点的实现方案，这是系列PR中的第一个。该方案引入了"预渲染"新概念，有望实现两全其美：既保持兄弟节点预渲染能力，又不阻塞Suspense回退显示！
-- 👀 [Next.js PR - 对未使用操作实施优化](https://github.com/vercel/next.js/pull/69178)：实现对顶层"use server"文件（非内联）中未使用服务端操作的"tree-shaking"优化。此举可缓解社区报告的安全风险，避免意外暴露接口端点。
-- 👀 [React DevTools PR - 在组件树中支持服务端组件](https://github.com/facebook/react/pull/30684)：同时新增`[server]`标记标识。
-- 👀 [React Router PR - 新增对`routes.ts`的支持](https://github.com/remix-run/react-router/pull/11773)：支持定义静态路由列表，并可接入Remix文件系统约定。Vite插件利用该文件为每个路由创建打包产物。
-- 📖 [TanStack Start新文档 - 服务端函数](https://tanstack.com/router/latest/docs/framework/react/start/server-functions)：前瞻性展示了基于TanStack-Router的框架设计。其在"use server"指令基础上采用显式`createServerFn()`，可获取请求上下文。
-- 📖 [Next.js新文档 - App Router下的ISR](https://x.com/leeerob/status/1828142382438858994)
+- 💸 [Reactile——一种基于React的Web应用新方案。创建自定义视图，让它在单个浏览器标签页中管理你的窗口和小部件](https://www.reactile.net/?utm_source=reactnewsletter)
+- 👀 [React核心PR——在组件挂起后调度预渲染](https://github.com/facebook/react/pull/30800)：还记得[延迟React 19.0稳定版发布的Suspense行为变更争议](https://github.com/facebook/react/issues/29898)吗？Andrew提交了一个实现方案，支持在Suspense组件中预渲染兄弟节点，这是系列PR中的第一个。该方案引入了"预渲染"新概念，有望兼顾两者优势：既保留兄弟节点预渲染能力，又不会阻塞Suspense回退显示！
+- 👀 [Next.js PR——对未使用操作实施优化](https://github.com/vercel/next.js/pull/69178)：实现顶层"use server"文件（非内联）中未使用服务端操作的"tree-shaking"。这缓解了社区报告的安全风险，避免意外暴露端点。
+- 👀 [React DevTools PR——支持在组件树中显示服务端组件](https://github.com/facebook/react/pull/30684)：同时添加了`[server]`标记。
+- 👀 [React Router PR——新增对`routes.ts`的支持](https://github.com/remix-run/react-router/pull/11773)：定义静态路由列表，可接入Remix文件系统约定。Vite插件利用该文件为每个路由创建bundle。
+- 📖 [TanStack Start新文档——服务端函数](https://tanstack.com/router/latest/docs/framework/react/start/server-functions)：预览了基于TanStack-Router的新框架特性。它在"use server"指令基础上使用显式`createServerFn()`，可获取请求上下文。
+- 📖 [Next.js新文档——App Router下的ISR](https://x.com/leeerob/status/1828142382438858994)
 - 🗓️ [React-Brussels](https://www.react.brussels/?utm_source=thisweekinreact) - 🇧🇪 布鲁塞尔 - 10月18日 - 使用优惠码"TWIR"可享9折。完整议程已公布，请访问会议官网查看！
 - 🗓️ [React Advanced伦敦大会](https://reactadvanced.com/?utm_source=Newsletter&utm_medium=thisweekinreact) - 🇬🇧 伦敦 - 10月25日 & 28日 - [免费远程参会名额开放申请](https://gitnation.com/badges/react-advanced-conference-2024/jack_herrington?from=This+Week+In+React)
 - 🗓️ [Next.js Conf](https://nextjs.org/conf) - 🇺🇸 旧金山 & 线上 - 10月24日
-- 📜 [React服务端组件的错误处理与重试机制](https://edspencer.net/2024/7/16/errors-and-retry-with-react-server-components)：要在RSC失败时恢复，可在`<ErrorBoundary>`中展示重试按钮，并在transition中调用Next.js的`router.refresh()`。
-- 📜 [关于谷歌翻译导致React（及其他Web应用）崩溃的全面解析](https://martijnhols.nl/gists/everything-about-google-translate-crashing-react)：这篇交互式博客详细解释了谷歌翻译的工作原理，及其如何干扰DOM与React协调机制，导致应用崩溃或文本不更新。遗憾的是目前尚无根治方案。
-- 📜 [多段命名空间组件：解决RSC与点符号问题](https://ivicabatinic.from.hr/posts/multipart-namespace-components-addressing-rsc-and-dot-notation-issues)：解析了`<Card.Body>`类组件在RSC环境引发的问题及对tree-shaking的影响。建议改用具名ES导出而非向根组件添加属性。Chakra和Radix等库已采用此方案。
-- 📜 [从零实现React](https://www.rob.directory/blog/react-from-scratch)：重新实现了类型系统、协调算法和钩子机制。探索过程中会发现许多反直觉的设计，例如有条件调用`useContext`的可行性，或`useCallback`实质是返回回调的`useMemo`。
-- 📜 [SSR性能对决](https://blog.platformatic.dev/an-ssr-performance-showdown)：你可能见过显示React SSR性能不佳的基准测试。该测试即将更新更准确的数据。[Dan Abramov的PR](https://github.com/platformatic/ssr-performance-showdown/pull/8)通过启用生产模式、自动JSX运行时和升级至React 19 RC（Fast JSX），使React SSR性能提升4倍。
-- 📜 [永远不要在组件内部调用new Date()](https://kyleshevlin.com/never-call-new-date-inside-your-components/)：为保证组件可测试性，应避免使用`new Date()`或`Math.random()`等非纯函数初始化状态，改为通过props传入。个人认为也可使用React context实现。
-- 📜 [在移动应用或外部客户端消费Remix后端](https://www.jacobparis.com/content/remix-external-client)：`?_data`方案在Remix单次获取模式下将失效。建议为移动应用创建专用API路由，并通过抽象层共享公共代码。
-- 📜 [为什么CSS-in-JS性能差？](https://playfulprogramming.com/posts/why-is-css-in-js-slow)：这篇图文并茂的文章解析了传统CSS-in-JS性能瓶颈的成因，以及编译型CSS-in-JS如何通过避免浏览器级联计算实现性能跃升。
-- 📜 [React中的接口隔离原则](https://alexkondov.com/interface-segregation-principle-in-react/)：阐述如何应用SOLID原则设计组件props，提倡组合优于继承。个人建议还可配合TypeScript鸭子类型和`Pick`等工具类型细化props。
-- 📜 [基于React服务端组件的微前端架构探索](https://dev.to/lazarv/exploring-an-experimental-micro-frontend-architecture-with-server-side-rendering-using-react-server-components-2d0f)：某创新RSC框架提出了"RSC委托"的新概念。
-- 📜 [InformAI发布 - 为React应用提供简易实用的AI能力](https://edspencer.net/2024/8/26/introducing-inform-ai)
+- 📜 [React服务端组件的错误处理与重试机制](https://edspencer.net/2024/7/16/errors-and-retry-with-react-server-components)：要在RSC失败后恢复，可在`<ErrorBoundary>`中添加重试按钮，并在transition中调用Next.js的`router.refresh()`。
+- 📜 [关于谷歌翻译导致React（及其他Web应用）崩溃的全面解析](https://martijnhols.nl/gists/everything-about-google-translate-crashing-react)：这篇交互式博文详细解释了谷歌翻译的工作原理，以及它如何干扰DOM和React协调机制，导致崩溃或文本不更新。遗憾的是目前没有根本解决方案。
+- 📜 [多部分命名空间组件：解决RSC与点符号问题](https://ivicabatinic.from.hr/posts/multipart-namespace-components-addressing-rsc-and-dot-notation-issues)：分析类似`<Card.Body>`的组件在RSC环境下可能引发的问题（如阻碍tree-shaking），建议改用具名ES导出而非给默认根组件赋值属性。Chakra和Radix等库已采用此方案。
+- 📜 [从零实现React](https://www.rob.directory/blog/react-from-scratch)：重新实现类型系统、协调算法和hooks。过程中你会发现一些反直觉的特性，比如有条件地调用`useContext`，或`useCallback`本质上是返回回调函数的`useMemo`。
+- 📜 [SSR性能对决](https://blog.platformatic.dev/an-ssr-performance-showdown)：你可能见过显示React SSR性能较差的基准测试。[Dan Abramov的PR](https://github.com/platformatic/ssr-performance-showdown/pull/8)通过启用生产模式、自动JSX运行时和升级到React 19 RC（Fast JSX），使React SSR性能提升4倍。
+- 📜 [永远不要在组件内部调用new Date()](https://kyleshevlin.com/never-call-new-date-inside-your-components/)：为保证组件可测试性，应避免使用`new Date()`或`Math.random()`等非纯函数初始化状态，建议通过props传入。作者认为React context也是可行方案。
+- 📜 [从移动应用或外部客户端消费Remix后端](https://www.jacobparis.com/content/remix-external-client)：在Remix单次获取模式下，`?_data`变通方案将失效。建议为移动应用创建专用API路由，并通过抽象层共享公共代码。
+- 📜 [为什么CSS-in-JS性能差？](https://playfulprogramming.com/posts/why-is-css-in-js-slow)：这篇图文并茂的文章解析了传统CSS-in-JS缓慢的原因，以及编译型CSS-in-JS如何通过避免浏览器级联处理来提升性能。
+- 📜 [React中的接口隔离原则](https://alexkondov.com/interface-segregation-principle-in-react/)：讲解如何应用SOLID原则设计组件props，鼓励使用组合模式。作者还推荐利用TypeScript鸭子类型和`Pick`等工具类型来细化props。
+- 📜 [探索基于React服务端组件的微前端架构实验](https://dev.to/lazarv/exploring-an-experimental-micro-frontend-architecture-with-server-side-rendering-using-react-server-components-2d0f)：某RSC框架创新性地提出了"RSC委托"概念。
+- 📜 [InformAI发布——为React应用提供简单实用的AI功能](https://edspencer.net/2024/8/26/introducing-inform-ai)
 - 📜 [Next.js + Supabase生产实践：我会做出哪些改变](https://catjam.fi/articles/next-supabase-what-do-differently)
-- 📦 [Material UI 6.0发布](https://mui.com/blog/material-ui-v6-is-out/)：重要版本引入Pigment CSS集成选项，通过静态CSS提取和零运行时CSS-in-JS方案替代Emotion，支持React服务端组件和React 19。
-- 📦 [Code Hike 1.0 - 搭建Markdown到富交互体验的桥梁](https://codehike.org/blog/v1)
-- 📦 [Astro 5.0 alpha版本 - 稳定的globalRoutePriority、astro:env，默认启用CSRF防护...](https://github.com/withastro/astro/releases?q=%22astro%405.0.0%22)
-- 🎥 [Theo - React，是时候转向了吗？](https://www.youtube.com/watch?v=0tvfC9r9lcw)
-- 🎥 [Lee Robinson - 基于乐观UI和Next.js的极速电商方案](https://www.youtube.com/watch?v=Fl1x57e5i4k)
+- 📦 [Material UI 6.0发布](https://mui.com/blog/material-ui-v6-is-out/)：重要版本引入Pigment CSS集成，支持静态CSS提取和零运行时CSS-in-JS，作为Emotion的替代方案，兼容服务端组件和React 19。
+- 📦 [Code Hike 1.0——弥合Markdown与富交互体验的鸿沟](https://codehike.org/blog/v1)
+- 📦 [Astro 5.0 alpha——稳定的globalRoutePriority、astro:env、默认启用CSRF防护...](https://github.com/withastro/astro/releases?q=%22astro%405.0.0%22)
+- 🎥 [Theo——React，是时候转向了吗？](https://www.youtube.com/watch?v=0tvfC9r9lcw)
+- 🎥 [Lee Robinson——基于乐观UI和Next.js的极速电商方案](https://www.youtube.com/watch?v=Fl1x57e5i4k)
 
 <SubscribeFormEmbed placement="middle" />
 
@@ -98,36 +98,36 @@ React Email的新主要版本发布了。亮点包括：
 
 **[通过交互式教程提升库的采用率](https://tutorialkit.dev/?utm_source=twir&utm_medium=primary)**
 
-你是否希望提升你的 JavaScript 框架或库的采用率？**StackBlitz 的 TutorialKit** 是一个命令行界面（CLI）生成器，可帮助你创建完全交互式的代码教程，吸引用户并帮助他们快速学习。
+是否希望提升您的JavaScript框架或库的采用率？**StackBlitz推出的TutorialKit**是一个命令行界面(CLI)生成器，可帮助您创建完全交互式的代码教程，吸引用户并加速他们的学习过程。
 
-要开始使用 TutorialKit，只需运行 `npm create tutorial` 命令，启动一个向导，引导你完成教程站点的生成过程。脚手架项目会处理底层的教程逻辑和浏览器内代码编辑器，让你可以专注于内容。
+只需运行`npm create tutorial`命令即可启动TutorialKit，向导将引导您完成教程站点的生成流程。脚手架项目已内置教程逻辑和浏览器内代码编辑器，您只需专注于内容创作。
 
-无论你是发布一个新框架还是更新现有库，TutorialKit 都能确保你的用户获得最佳的学习体验。别让你的库被忽视。[立即开始吧！](https://tutorialkit.dev/?utm_source=twir&utm_medium=link)
+无论您是要发布新框架还是更新现有库，TutorialKit都能确保用户获得最佳学习体验。别让您的库被埋没。[立即开始使用！](https://tutorialkit.dev/?utm_source=twir&utm_medium=link)
 
 ---
 
 ## 📱 React-Native {#react-native}
 
-- 💸 [了解如何使用Apryse SDK和React Native创建一个简单、类型安全的PDF查看器——包含编辑和注释功能。](https://apryse.com/blog/mobile/react-native-typescript-pdf-viewer?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=0828)
+- 💸 [了解如何使用Apryse SDK和React Native创建一个简单、类型安全的PDF查看器——包含编辑和批注功能。](https://apryse.com/blog/mobile/react-native-typescript-pdf-viewer?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=0828)
 - 🐦 [Reanimated 4.0将仅支持Fabric（新版RN架构）](https://x.com/kzzzf/status/1828461715228422153)
 - 🐦 [React Native WebGPU在visionOS上的演示](https://x.com/o_kwasniewski/status/1828079146456535224)
 - 👀 [React Native PR - 将模板迁移至Swift](https://github.com/react-native-community/template/pull/45)：令人兴奋的是，新生成的React Native项目将使用Swift而非Objective-C编写AppDelegate。
-- 🗓️ [React Universe大会](https://www.reactuniverseconf.com/?utm_source=thisweekinreact) - 🇵🇱 弗罗茨瓦夫 - 9月5-6日。使用代码"TWIR"可享9折优惠。无法亲临现场？注册免费直播观看！演讲嘉宾：Mike Grabowski、Fernando Rojo、Alex Hunt、Eric Vicenti等...
-- 📜 [Shopify Tophat - 打造愉悦的移动开发者体验](https://shopify.engineering/shopify-tophat-mobile-developer-testing)：重新介绍"Tophat"，这款macOS菜单栏应用旨在提升React Native开发者体验，Shopify上周终于将其开源。显然，这是Expo Orbit的灵感来源。
-- 📜 [Expo - 没有CodePush怎么办](https://expo.dev/blog/what-to-do-without-codepush)：微软App Center即将关闭，包括CodePush服务。本文推荐了CodePush的替代方案以实现空中更新(OTA)。文章通过详尽的对比推荐使用EAS Updates，同时也提到了自托管方案。
-- 📜 [Swift中引入Oblivious HTTP支持](https://www.swift.org/blog/introducing-swift-nio-oblivious-http/)：这个新的Swift API可能对需要增强隐私保护的React Native开发者有用。
-- 📜 [如何构建基于蓝牙低功耗(BLE)的Expo应用](https://expo.dev/blog/how-to-build-a-bluetooth-low-energy-powered-expo-app)：使用`react-native-ble-plx`和Expo配置插件的教程。
-- 📜 [如何通过Azure DevOps流水线部署React Native iOS应用到App Store和测试版](https://www.nico.fyi/blog/how-to-deploy-multiple-versions-react-native-ios-to-testflight-from-azure-devops-pipeline)
+- 🗓️ [React Universe大会](https://www.reactuniverseconf.com/?utm_source=thisweekinreact) - 🇵🇱 弗罗茨瓦夫 - 9月5-6日。使用代码"TWIR"可享9折优惠。无法亲临现场？可免费注册观看直播！演讲嘉宾包括Mike Grabowski、Fernando Rojo、Alex Hunt、Eric Vicenti等...
+- 📜 [Shopify Tophat - 打造愉悦的移动开发者体验](https://shopify.engineering/shopify-tophat-mobile-developer-testing)：重新介绍"Tophat"这款macOS菜单栏应用，旨在提升React Native开发者体验，Shopify上周终于将其开源。据悉，这曾是Expo Orbit的灵感来源。
+- 📜 [Expo - 没有CodePush怎么办](https://expo.dev/blog/what-to-do-without-codepush)：微软App Center即将关闭，包括CodePush服务。本文推荐了用于空中更新的CodePush替代方案。通过详实的对比分析鼓励采用EAS Updates，同时也提到了自托管替代方案。
+- 📜 [Swift中引入Oblivious HTTP支持](https://www.swift.org/blog/introducing-swift-nio-oblivious-http/)：新的Swift API可能对寻求增强隐私保护的React Native开发者有用。
+- 📜 [如何构建基于蓝牙低功耗的Expo应用](https://expo.dev/blog/how-to-build-a-bluetooth-low-energy-powered-expo-app)：使用`react-native-ble-plx`和Expo配置插件的教程。
+- 📜 [如何通过Azure DevOps管道部署React Native iOS应用的App Store和测试版](https://www.nico.fyi/blog/how-to-deploy-multiple-versions-react-native-ios-to-testflight-from-azure-devops-pipeline)
 - 📜 [Rosebud为何选择使用Expo进行原生开发](https://expo.dev/blog/how-rosebud-decided-to-go-native-with-expo)
 - 📦 [React-Native-MMKV 3.0 - 更快的键值存储，完全重写为纯C++ TurboModule](https://github.com/mrousavy/react-native-mmkv/releases/tag/v3.0.0)
 - 📦 [React Native visionOS 0.75](https://github.com/callstack/react-native-visionos/releases/tag/v0.75.0-visionos)
 - 📦 [Re.Pack 4.3 - 支持RN 0.75，新增--watch标志](https://github.com/callstack/repack/releases/tag/%40callstack%2Frepack%404.3.0)
 - 📦 [Belt - 用于启动新React Native应用的开箱即用CLI工具](https://thoughtbot.com/blog/introducing-belt-your-new-favorite-tool-for-starting-react-native-apps)
 - 🎥 [Beto - 使用React Native Vision Camera和Expo构建Obscura Pro相机应用](https://www.youtube.com/watch?v=xNaGYGDZ2JU)
-- 🎥 [Simon Grimm - 何时适合采用本地优先(local-first)架构？](https://www.youtube.com/watch?v=vLRtC53rwCg)
-- 🎥 [React Native Podcast更名为React Universe On Air](https://www.youtube.com/watch?v=Y8VVdfP9QDE)：Callstack的热门播客更名以匹配下周举行的React Universe大会，并扩展至更广泛的React跨平台领域。
+- 🎥 [Simon Grimm - 何时适合采用本地优先策略？](https://www.youtube.com/watch?v=vLRtC53rwCg)
+- 🎥 [React Native Podcast更名为React Universe On Air](https://www.youtube.com/watch?v=Y8VVdfP9QDE)：Callstack热门播客更名以匹配下周即将举行的React Universe大会，并拓展至更广泛的React跨平台领域。
 - 🎙️ [Rocket Ship第48期 - 与Gant Laborde探讨MLKit和React Native悖论](https://share.transistor.fm/s/9b305e63)
-- 🎙️ [RNR第305期 - 与Gant Laborde探讨React Native中的设备端AI](https://www.reactnativeradio.com/episodes/rnr-305-on-device-ai-in-react-native-with-gant-laborde)（没错，又是他！）
+- 🎙️ [RNR第305期 - Gant Laborde谈React Native中的设备端AI](https://www.reactnativeradio.com/episodes/rnr-305-on-device-ai-in-react-native-with-gant-laborde)（没错，又是他！）
 
 ---
 
@@ -135,29 +135,29 @@ React Email的新主要版本发布了。亮点包括：
 
 [![Rspack 1.0](/emails/issues/198/rspack.jpg)](https://rspack.dev/blog/announcing-1-0)
 
-**[Rspack 1.0 正式发布](https://rspack.dev/blog/announcing-1-0)**
+**[Rspack 1.0](https://rspack.dev/blog/announcing-1-0)**
 
-Rspack 是一款基于 Rust 的极速打包工具，几乎 100% 兼容 Webpack 生态，包括其所有插件和加载器。对于需要即时提升构建速度的 React 应用而言，Rspack 是绝佳选择。其兼容性使得迁移成本极低，同时通过[即将原生支持的 React 服务器组件](https://rspack.dev/blog/announcing-1-0#react-server-components-support)保持前瞻性——这也正是我[将 Docusaurus 迁移至 Rspack](https://x.com/sebastienlorber/status/1828696665135431879)的原因。推荐搭配使用[Rsdoctor](https://rsdoctor.dev/)分析构建瓶颈，该工具同样支持 Webpack。
+Rspack 是一款基于 Rust 的极速打包工具，几乎 100% 兼容 Webpack 及其完整插件和加载器生态。对于需要立即提升打包速度的 React 应用而言，Rspack 是绝佳选择。其兼容性使得迁移成本极低，同时通过[即将原生支持的 React Server Components](https://rspack.dev/blog/announcing-1-0#react-server-components-support) 保持前瞻性。这也是我[正将 Docusaurus 迁移至 Rspack](https://x.com/sebastienlorber/status/1828696665135431879) 的原因。推荐搭配使用 [Rsdoctor](https://rsdoctor.dev/) 诊断构建瓶颈，该工具同样支持 Webpack。
 
 ---
 
-- 📜 [JavaScript 日期处理即将迎来重大改进](https://docs.timetime.in/blog/js-dates-finally-fixed/)
-- 📜 [从零开发 NPM 包实战指南](https://www.totaltypescript.com/how-to-create-an-npm-package)
+- 📜 [JavaScript 日期问题终将修复](https://docs.timetime.in/blog/js-dates-finally-fixed/)
+- 📜 [如何创建 NPM 包](https://www.totaltypescript.com/how-to-create-an-npm-package)
 - 📜 [网页加载前的性能优化技巧](https://blog.sentry.io/how-to-make-your-web-page-faster-before-it-even-loads/)
-- 📜 [用 CloseWatcher API 根治弹窗顽疾](https://logaretm.com/blog/fix-your-annoying-popups-with-the-closewatcher-api/)
-- 📜 [基于锚点定位与滚动驱动动画实现自定义滑块](https://frontendmasters.com/blog/custom-range-slider-using-anchor-positioning-scroll-driven-animations/)
-- 📜 [正则表达式进化史：JavaScript 中的模式匹配今昔谈](https://www.smashingmagazine.com/2024/08/history-future-regular-expressions-javascript/)
-- 📦 [Node v20.17 发布 - 同步加载 ESM 依赖图，新增 matchesGlob() 方法](https://nodejs.org/en/blog/release/v20.17.0)
-- 📦 [Node v22.7.0 发布 - 实验性支持 TS 枚举/命名空间，模块检测功能稳定](https://nodejs.org/en/blog/release/v22.7.0)
-- 📦 [Deno 1.46 - 1.x 系列最终版](https://deno.com/blog/v1.46)
-- 📦 [test-server - 专为测试打造的 HTTP/WebSocket 服务器工具](https://github.com/epicweb-dev/test-server)
-- 📦 [TypeScript 5.6 RC - 迭代器方法、非空断言检查强化...](https://devblogs.microsoft.com/typescript/announcing-typescript-5-6-rc/)
-- 📦 [Turborepo 2.1 发布](https://turbo.build/blog/turbo-2-1-0)
+- 📜 [用 CloseWatcher API 解决烦人的弹窗问题](https://logaretm.com/blog/fix-your-annoying-popups-with-the-closewatcher-api/)
+- 📜 [基于锚点定位与滚动驱动动画实现自定义范围滑块](https://frontendmasters.com/blog/custom-range-slider-using-anchor-positioning-scroll-driven-animations/)
+- 📜 [正则表达式的进化：JavaScript 中的历史与未来](https://www.smashingmagazine.com/2024/08/history-future-regular-expressions-javascript/)
+- 📦 [Node v20.17 - 同步加载 ESM 模块图、matchesGlob() 方法](https://nodejs.org/en/blog/release/v20.17.0)
+- 📦 [Node v22.7.0 - 实验性支持 TS 枚举/命名空间、稳定模块检测](https://nodejs.org/en/blog/release/v22.7.0)
+- 📦 [Deno 1.46 - 最后一个 1.x 版本](https://deno.com/blog/v1.46)
+- 📦 [Test-server - 创建测试用 HTTP/WebSocket 服务器的工具](https://github.com/epicweb-dev/test-server)
+- 📦 [TypeScript 5.6 RC - 迭代器方法、禁用空值/真值检查...](https://devblogs.microsoft.com/typescript/announcing-typescript-5-6-rc/)
+- 📦 [Turborepo 2.1](https://turbo.build/blog/turbo-2-1-0)
 
 ---
 
 ## 🤭 轻松一刻 {#fun}
 
-[![趣味图](/emails/issues/198/meme.jpg)](https://x.com/astrodotbuild/status/1820423005912105149)
+[![alt](/emails/issues/198/meme.jpg)](https://x.com/astrodotbuild/status/1820423005912105149)
 
 下期见！👋

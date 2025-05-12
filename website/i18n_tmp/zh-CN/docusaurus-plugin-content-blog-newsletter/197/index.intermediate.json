@@ -1,323 +1,429 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/197/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/197/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /197\ntitle: \"This Week In React #197: Waku, Effect, TanStack, Framer Motion, use(), Preact, Valtio, Astro, Three.js, Nitrogen, React-Native-Web, expo-dom, Tophat, React-Navigation, Skip, TypeScript, Rspack, Volta...\"\nauthors: [matthieugicquel, cyrilbo]\ndate: 08-21-2024\n---",
-      "sourceMdx": "---\nslug: /197\ntitle: \"This Week In React #197: Waku, Effect, TanStack, Framer Motion, use(), Preact, Valtio, Astro, Three.js, Nitrogen, React-Native-Web, expo-dom, Tophat, React-Navigation, Skip, TypeScript, Rspack, Volta...\"\nauthors: [matthieugicquel, cyrilbo]\ndate: 08-21-2024\n---"
+      "sourceMdx": "---\nslug: /197\ntitle: \"This Week In React #197: Waku, Effect, TanStack, Framer Motion, use(), Preact, Valtio, Astro, Three.js, Nitrogen, React-Native-Web, expo-dom, Tophat, React-Navigation, Skip, TypeScript, Rspack, Volta...\"\nauthors: [matthieugicquel, cyrilbo]\ndate: 08-21-2024\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "Cyril and Matthieu from [Theodo Apps (formerly BAM)](https://apps.theodo.com/en?utm_source=thisweekinreact) here 👋, standing in for Seb to bring you the latest news from the React and React Native worlds.",
-      "sourceMdx": "Cyril and Matthieu from [Theodo Apps (formerly BAM)](https://apps.theodo.com/en?utm_source=thisweekinreact) here 👋, standing in for Seb to bring you the latest news from the React and React Native worlds."
+      "sourceMdx": "Cyril and Matthieu from [Theodo Apps (formerly BAM)](https://apps.theodo.com/en?utm_source=thisweekinreact) here 👋, standing in for Seb to bring you the latest news from the React and React Native worlds.",
+      "nodeType": "paragraph",
+      "translated_content": "我们是来自[Theodo Apps（原BAM）](https://apps.theodo.com/en?utm_source=thisweekinreact)的Cyril和Matthieu 👋，本期暂代Seb为大家带来React和React Native领域的最新动态。"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "It’s been another calm week, but we've still got some great updates for you. Waku now supports React Server Actions, there are tips for using TanStack/Router, and we explore React's journey to becoming a full-stack framework. Plus, check out what's new in React Native 0.75 ! We also have some updates on NitroModules and react-native-webGPU. Dive in and enjoy!",
-      "sourceMdx": "It’s been another calm week, but we've still got some great updates for you. Waku now supports React Server Actions, there are tips for using TanStack/Router, and we explore React's journey to becoming a full-stack framework. Plus, check out what's new in React Native 0.75 ! We also have some updates on NitroModules and react-native-webGPU. Dive in and enjoy!"
+      "sourceMdx": "It’s been another calm week, but we've still got some great updates for you. Waku now supports React Server Actions, there are tips for using TanStack/Router, and we explore React's journey to becoming a full-stack framework. Plus, check out what's new in React Native 0.75 ! We also have some updates on NitroModules and react-native-webGPU. Dive in and enjoy!",
+      "nodeType": "paragraph",
+      "translated_content": "本周虽较为平静，但仍有许多精彩更新：Waku现已支持React Server Actions，TanStack/Router使用技巧分享，探讨React如何演进为全栈框架，以及React Native 0.75的新特性。此外还有NitroModules和react-native-webGPU的相关进展。欢迎阅读！"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "Check our partner conf **[React Advanced London](https://reactadvanced.com/?utm_source=Newsletter\\&utm_medium=thisweekinreact)** (🇬🇧 London - 25 & 28 October). We really like the idea of advanced React talks, and so far the lineup doesn't disappoint! 👌",
-      "sourceMdx": "Check our partner conf **[React Advanced London](https://reactadvanced.com/?utm_source=Newsletter&utm_medium=thisweekinreact)** (🇬🇧 London - 25 & 28 October). We really like the idea of advanced React talks, and so far the lineup doesn't disappoint! 👌"
+      "sourceMdx": "Check our partner conf **[React Advanced London](https://reactadvanced.com/?utm_source=Newsletter&utm_medium=thisweekinreact)** (🇬🇧 London - 25 & 28 October). We really like the idea of advanced React talks, and so far the lineup doesn't disappoint! 👌",
+      "nodeType": "paragraph",
+      "translated_content": "推荐我们的合作会议**[React Advanced London](https://reactadvanced.com/?utm_source=Newsletter&utm_medium=thisweekinreact)**（🇬🇧 伦敦 - 10月25日 & 28日）。我们非常欣赏其专注高级React议题的定位，目前公布的演讲阵容令人期待！👌"
     },
     {
       "id": "6429a3aa",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_6429a3aa"
     },
     {
       "id": "39b3772c",
       "translatable": true,
       "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
-      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "nodeType": "paragraph",
+      "translated_content": "**💡 [在Twitter查看本期简报](https://slo.im/thread) - 可视化排版 🎨**"
     },
     {
       "id": "507b4652",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "fcd52337",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_fcd52337"
     },
     {
       "id": "42e34e45",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_42e34e45"
     },
     {
       "id": "caf67047",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "3c36424c",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor1}"
     },
     {
       "id": "26524352",
       "translatable": true,
       "content": "[![Are your React PR reviews turning into component chaos?](/emails/issues/197/coderabbit.jpg)](https://coderabbit.ai/?utm_source=newsletter\\&utm_medium=this-week-react-aug-21)",
-      "sourceMdx": "[![Are your React PR reviews turning into component chaos?](/emails/issues/197/coderabbit.jpg)](https://coderabbit.ai/?utm_source=newsletter&utm_medium=this-week-react-aug-21)"
+      "sourceMdx": "[![Are your React PR reviews turning into component chaos?](/emails/issues/197/coderabbit.jpg)](https://coderabbit.ai/?utm_source=newsletter&utm_medium=this-week-react-aug-21)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React代码评审是否陷入了组件混乱？](/emails/issues/197/coderabbit.jpg)](https://coderabbit.ai/?utm_source=newsletter&utm_medium=this-week-react-aug-21)"
     },
     {
       "id": "73ab96a3",
       "translatable": true,
       "content": "**[Are your React PR reviews turning into component chaos?](https://coderabbit.ai/?utm_source=newsletter\\&utm_medium=this-week-react-aug-21)**",
-      "sourceMdx": "**[Are your React PR reviews turning into component chaos?](https://coderabbit.ai/?utm_source=newsletter&utm_medium=this-week-react-aug-21)**"
+      "sourceMdx": "**[Are your React PR reviews turning into component chaos?](https://coderabbit.ai/?utm_source=newsletter&utm_medium=this-week-react-aug-21)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[React代码评审是否陷入了组件混乱？](https://coderabbit.ai/?utm_source=newsletter&utm_medium=this-week-react-aug-21)**"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "Discover strategies to streamline your React PR reviews and elevate your team's focus to critical aspects of code quality. We'll review every PR with dependency management, code reconciliation & more, allowing your team to concentrate on architectural decisions, component design, and performance optimizations.",
-      "sourceMdx": "Discover strategies to streamline your React PR reviews and elevate your team's focus to critical aspects of code quality. We'll review every PR with dependency management, code reconciliation & more, allowing your team to concentrate on architectural decisions, component design, and performance optimizations."
+      "sourceMdx": "Discover strategies to streamline your React PR reviews and elevate your team's focus to critical aspects of code quality. We'll review every PR with dependency management, code reconciliation & more, allowing your team to concentrate on architectural decisions, component design, and performance optimizations.",
+      "nodeType": "paragraph",
+      "translated_content": "探索优化React代码评审的策略，让团队更专注于代码质量的核心维度。我们将通过依赖管理、代码协调等功能审查每个PR，使您的团队能聚焦架构决策、组件设计和性能优化。"
     },
     {
       "id": "517051a7",
       "translatable": true,
       "content": "CodeRabbit helps with:",
-      "sourceMdx": "CodeRabbit helps with:"
+      "sourceMdx": "CodeRabbit helps with:",
+      "nodeType": "paragraph",
+      "translated_content": "CodeRabbit提供以下支持："
     },
     {
       "id": "157151e9",
       "translatable": true,
       "content": "* Best Practice Enforcement: Leverage CodeRabbit's ability to identify common React anti-patterns and suggest best practices, ensuring good code quality.\n* Component Structure Review: Benefit from a thorough summary of your component structure, receiving suggestions for better composition.\n* Actionable Code Review Comments: Fix the code right in the PR, with 1-click commit suggestion.",
-      "sourceMdx": "- Best Practice Enforcement: Leverage CodeRabbit's ability to identify common React anti-patterns and suggest best practices, ensuring good code quality.\n- Component Structure Review: Benefit from a thorough summary of your component structure, receiving suggestions for better composition.\n- Actionable Code Review Comments: Fix the code right in the PR, with 1-click commit suggestion."
+      "sourceMdx": "- Best Practice Enforcement: Leverage CodeRabbit's ability to identify common React anti-patterns and suggest best practices, ensuring good code quality.\n- Component Structure Review: Benefit from a thorough summary of your component structure, receiving suggestions for better composition.\n- Actionable Code Review Comments: Fix the code right in the PR, with 1-click commit suggestion.",
+      "nodeType": "list",
+      "translated_content": "- 最佳实践强化：自动识别React常见反模式并给出改进建议，保障代码质量\n- 组件结构审查：生成详细的组件结构摘要，提供组合优化方案\n- 可操作的评审意见：直接在PR中一键提交修复建议"
     },
     {
       "id": "50746522",
       "translatable": true,
       "content": "CodeRabbit is free for all open-source repo's. [Get started today!](https://coderabbit.ai/?utm_source=newsletter\\&utm_medium=this-week-react-aug-21)",
-      "sourceMdx": "CodeRabbit is free for all open-source repo's. [Get started today!](https://coderabbit.ai/?utm_source=newsletter&utm_medium=this-week-react-aug-21)"
+      "sourceMdx": "CodeRabbit is free for all open-source repo's. [Get started today!](https://coderabbit.ai/?utm_source=newsletter&utm_medium=this-week-react-aug-21)",
+      "nodeType": "paragraph",
+      "translated_content": "开源项目可免费使用CodeRabbit。[立即体验！](https://coderabbit.ai/?utm_source=newsletter&utm_medium=this-week-react-aug-21)"
     },
     {
       "id": "d4e0d4e1",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "8bddee80",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React {#react}"
     },
     {
       "id": "a9d49f92",
       "translatable": true,
       "content": "[![Waku v0.21 - Full support for React Server Actions](/emails/issues/197/waku.jpg)](https://waku.gg/blog/server-actions-are-here)",
-      "sourceMdx": "[![Waku v0.21 - Full support for React Server Actions](/emails/issues/197/waku.jpg)](https://waku.gg/blog/server-actions-are-here)"
+      "sourceMdx": "[![Waku v0.21 - Full support for React Server Actions](/emails/issues/197/waku.jpg)](https://waku.gg/blog/server-actions-are-here)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Waku v0.21 - 全面支持React Server Actions](/emails/issues/197/waku.jpg)](https://waku.gg/blog/server-actions-are-here)"
     },
     {
       "id": "a44047a5",
       "translatable": true,
       "content": "**[Waku v0.21 - Full support for React Server Actions](https://waku.gg/blog/server-actions-are-here)**",
-      "sourceMdx": "**[Waku v0.21 - Full support for React Server Actions](https://waku.gg/blog/server-actions-are-here)**"
+      "sourceMdx": "**[Waku v0.21 - Full support for React Server Actions](https://waku.gg/blog/server-actions-are-here)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Waku v0.21 - 全面支持React Server Actions](https://waku.gg/blog/server-actions-are-here)**"
     },
     {
       "id": "f7ef78f9",
       "translatable": true,
       "content": "React Server components have inspired a new wave of “React frameworks”. Waku, created by Daishi Kato (the creator of jotai, valtio…) is one of them. It was one of the first outside of Next.js offering support for server components.",
-      "sourceMdx": "React Server components have inspired a new wave of “React frameworks”. Waku, created by Daishi Kato (the creator of jotai, valtio…) is one of them. It was one of the first outside of Next.js offering support for server components."
+      "sourceMdx": "React Server components have inspired a new wave of “React frameworks”. Waku, created by Daishi Kato (the creator of jotai, valtio…) is one of them. It was one of the first outside of Next.js offering support for server components.",
+      "nodeType": "paragraph",
+      "translated_content": "React Server Components催生了新一代\"React框架\"。由jotai、valtio作者Daishi Kato开发的Waku便是其中之一，它是最早支持服务端组件的Next.js替代方案之一。"
     },
     {
       "id": "b36c6338",
       "translatable": true,
       "content": "With the addition of Server Actions, most React 19 features are now supported by Waku, and it’s possible to develop full apps while skipping the “have an API” part.",
-      "sourceMdx": "With the addition of Server Actions, most React 19 features are now supported by Waku, and it’s possible to develop full apps while skipping the “have an API” part."
+      "sourceMdx": "With the addition of Server Actions, most React 19 features are now supported by Waku, and it’s possible to develop full apps while skipping the “have an API” part.",
+      "nodeType": "paragraph",
+      "translated_content": "随着Server Actions的加入，Waku现已支持大部分React 19特性，开发者可以跳过\"构建API\"环节直接开发完整应用。"
     },
     {
       "id": "716da8e8",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "e536ea0d",
       "translatable": true,
       "content": "[![From React to Effect](/emails/issues/197/effect.jpg)](https://effect.website/blog/from-react-to-effect)",
-      "sourceMdx": "[![From React to Effect](/emails/issues/197/effect.jpg)](https://effect.website/blog/from-react-to-effect)"
+      "sourceMdx": "[![From React to Effect](/emails/issues/197/effect.jpg)](https://effect.website/blog/from-react-to-effect)",
+      "nodeType": "paragraph",
+      "translated_content": "[![从React到Effect](/emails/issues/197/effect.jpg)](https://effect.website/blog/from-react-to-effect)"
     },
     {
       "id": "40158b4b",
       "translatable": true,
       "content": "**[From React to Effect](https://effect.website/blog/from-react-to-effect)**",
-      "sourceMdx": "**[From React to Effect](https://effect.website/blog/from-react-to-effect)**"
+      "sourceMdx": "**[From React to Effect](https://effect.website/blog/from-react-to-effect)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[从React到Effect](https://effect.website/blog/from-react-to-effect)**"
     },
     {
       "id": "6ea4c715",
       "translatable": true,
       "content": "Michael Arnaldi, the creator of Effect, explains how the models used by Effect and React are similar. While Effect is a powerful toolkit, it’s quite hard to get started with, almost like a new language, so drawing parallels with what we’re already familiar with can help.",
-      "sourceMdx": "Michael Arnaldi, the creator of Effect, explains how the models used by Effect and React are similar. While Effect is a powerful toolkit, it’s quite hard to get started with, almost like a new language, so drawing parallels with what we’re already familiar with can help."
+      "sourceMdx": "Michael Arnaldi, the creator of Effect, explains how the models used by Effect and React are similar. While Effect is a powerful toolkit, it’s quite hard to get started with, almost like a new language, so drawing parallels with what we’re already familiar with can help.",
+      "nodeType": "paragraph",
+      "translated_content": "Effect框架创始人Michael Arnaldi阐释了Effect与React设计理念的相似性。虽然Effect是强大的工具集，但其学习曲线陡峭近乎新语言，通过与现有认知建立关联能降低入门门槛。"
     },
     {
       "id": "79ad944d",
       "translatable": true,
       "content": "In Effect, just like with React, most of the code you write is a “blueprint”: you declare what your program should do without running it directly. Then the library (React of Effect) takes care of running it.",
-      "sourceMdx": "In Effect, just like with React, most of the code you write is a “blueprint”: you declare what your program should do without running it directly. Then the library (React of Effect) takes care of running it."
+      "sourceMdx": "In Effect, just like with React, most of the code you write is a “blueprint”: you declare what your program should do without running it directly. Then the library (React of Effect) takes care of running it.",
+      "nodeType": "paragraph",
+      "translated_content": "在Effect中，与React类似，您编写的大部分代码都是\"蓝图\"：您声明程序应该做什么，而无需直接运行它。然后由库（React或Effect）负责执行这些声明。"
     },
     {
       "id": "e874d9e7",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "645e08e3",
       "translatable": true,
       "content": "* 💸 [TutorialKit — Create interactive tutorials instantly without building or managing any backend infrastructure.](https://tutorialkit.dev/)\n* 🗓️ [reactjsday](https://2024.reactjsday.it/?utm_source=thisweekinreact) - 🇮🇹 Verona - 25 October - Get a 10% discount with code \"TWIR\". A, B and C will speak !\n* 🗓️ [Squiggle Conf](https://2024.squiggleconf.com/?utm_source=thisweekinreact) - 🇺🇸 Boston - 03 & 04 October - Get a 10% discount with code \"TWIR\". Speakers are announced, please take a tour on the conf website.\n* 📜 [Tips from 8 months of TanStack/Router in production](https://swizec.com/blog/tips-from-8-months-of-tan-stack-router-in-production/): Swizec Teller shares the guiding principles he applies, for instance when he uses loaders, suspense queries or queries\n* 📜 [React is (becoming) a Full-Stack Framework](https://www.robinwieruch.de/react-full-stack-framework/): With the addition of Server Components and Server Actions\n* 📜 [Synchronizing State In React](https://www.brenelz.com/posts/synchronizing-state-in-react/): Explains how to solve a classic bug “the right way”, not with a useEffect but by splitting components\n* 📜 [Building Swipe Actions component with React and Framer Motion](https://sinja.io/blog/swipe-actions-react-framer-motion)\n* 📜 [useStateObject: A Simple, Convenient API Around useState](https://www.jameskerr.blog/posts/use-state-object/)\n* 📜 [How to Build a React Hook That Handles Sequential Requests - Using an AbortController](https://webdeveloper.beehiiv.com/p/build-react-hook-handles-sequential-requests)\n* 📜 [Generate a PDF in React](https://spacejelly.dev/posts/generate-a-pdf-from-html-in-javascript) - html2pdf.js, React PDF, and Puppeteer\n* 📜 [Preact - Prerendering with Preset Vite](https://preactjs.com/blog/prerendering-preset-vite)\n* 📜 [Good Refactoring vs Bad Refactoring](https://www.builder.io/blog/good-vs-bad-refactoring)\n* 📜 [How Valtio Was Born](https://blog.axlight.com/posts/how-valtio-was-born/)\n* 📦 [Astro v4.14 - Experimental Content Layer API with Intellisense support in content files](https://astro.build/blog/astro-4140/)\n* 📦 [react-three/xr 6.2.0](https://github.com/pmndrs/xr/releases/tag/v6.2.0): Adds unbounded spaces, depth sensing, and secondary input sources\n* 📦 [react18-use](https://github.com/dai-shi/react18-use): Daishi Kato created a shim of the React 19 `use` hook that works in React 18. Includes the ability to 🐦 [call `use(Context)` inside `useMemo`](https://x.com/dai_shi/status/1825484689030955094) (experimental), a better alternative to context selectors the React team plans to implement.\n* 📦 [Formity](https://www.formity.app/): Define complex forms with a JSON structure, let the package handle the heavy-lifting\n* 📦 [rspack-plugin-react-refresh v1.0](https://github.com/rspack-contrib/rspack-plugin-react-refresh)\n* 🎙️ [PodRocket - Generative UI and React components with Malte Ubl](https://podrocket.logrocket.com/generative-ui-react-components-malte-ubl)\n* 🎥 [Jack Herrington - Secret React-Native Hack For React Web Devs! - use patch-package to patch a dependency not working with Server Components](https://www.youtube.com/watch?v=81oUBWJQii4)",
-      "sourceMdx": "- 💸 [TutorialKit — Create interactive tutorials instantly without building or managing any backend infrastructure.](https://tutorialkit.dev/)\n- 🗓️ [reactjsday](https://2024.reactjsday.it/?utm_source=thisweekinreact) - 🇮🇹 Verona - 25 October - Get a 10% discount with code \"TWIR\". A, B and C will speak !\n- 🗓️ [Squiggle Conf](https://2024.squiggleconf.com/?utm_source=thisweekinreact) - 🇺🇸 Boston - 03 & 04 October - Get a 10% discount with code \"TWIR\". Speakers are announced, please take a tour on the conf website.\n- 📜 [Tips from 8 months of TanStack/Router in production](https://swizec.com/blog/tips-from-8-months-of-tan-stack-router-in-production/): Swizec Teller shares the guiding principles he applies, for instance when he uses loaders, suspense queries or queries\n- 📜 [React is (becoming) a Full-Stack Framework](https://www.robinwieruch.de/react-full-stack-framework/): With the addition of Server Components and Server Actions\n- 📜 [Synchronizing State In React](https://www.brenelz.com/posts/synchronizing-state-in-react/): Explains how to solve a classic bug “the right way”, not with a useEffect but by splitting components\n- 📜 [Building Swipe Actions component with React and Framer Motion](https://sinja.io/blog/swipe-actions-react-framer-motion)\n- 📜 [useStateObject: A Simple, Convenient API Around useState](https://www.jameskerr.blog/posts/use-state-object/)\n- 📜 [How to Build a React Hook That Handles Sequential Requests - Using an AbortController](https://webdeveloper.beehiiv.com/p/build-react-hook-handles-sequential-requests)\n- 📜 [Generate a PDF in React](https://spacejelly.dev/posts/generate-a-pdf-from-html-in-javascript) - html2pdf.js, React PDF, and Puppeteer\n- 📜 [Preact - Prerendering with Preset Vite](https://preactjs.com/blog/prerendering-preset-vite)\n- 📜 [Good Refactoring vs Bad Refactoring](https://www.builder.io/blog/good-vs-bad-refactoring)\n- 📜 [How Valtio Was Born](https://blog.axlight.com/posts/how-valtio-was-born/)\n- 📦 [Astro v4.14 - Experimental Content Layer API with Intellisense support in content files](https://astro.build/blog/astro-4140/)\n- 📦 [react-three/xr 6.2.0](https://github.com/pmndrs/xr/releases/tag/v6.2.0): Adds unbounded spaces, depth sensing, and secondary input sources\n- 📦 [react18-use](https://github.com/dai-shi/react18-use): Daishi Kato created a shim of the React 19 `use` hook that works in React 18. Includes the ability to 🐦 [call `use(Context)` inside `useMemo`](https://x.com/dai_shi/status/1825484689030955094) (experimental), a better alternative to context selectors the React team plans to implement.\n- 📦 [Formity](https://www.formity.app/): Define complex forms with a JSON structure, let the package handle the heavy-lifting\n- 📦 [rspack-plugin-react-refresh v1.0](https://github.com/rspack-contrib/rspack-plugin-react-refresh)\n- 🎙️ [PodRocket - Generative UI and React components with Malte Ubl](https://podrocket.logrocket.com/generative-ui-react-components-malte-ubl)\n- 🎥 [Jack Herrington - Secret React-Native Hack For React Web Devs! - use patch-package to patch a dependency not working with Server Components](https://www.youtube.com/watch?v=81oUBWJQii4)"
+      "sourceMdx": "- 💸 [TutorialKit — Create interactive tutorials instantly without building or managing any backend infrastructure.](https://tutorialkit.dev/)\n- 🗓️ [reactjsday](https://2024.reactjsday.it/?utm_source=thisweekinreact) - 🇮🇹 Verona - 25 October - Get a 10% discount with code \"TWIR\". A, B and C will speak !\n- 🗓️ [Squiggle Conf](https://2024.squiggleconf.com/?utm_source=thisweekinreact) - 🇺🇸 Boston - 03 & 04 October - Get a 10% discount with code \"TWIR\". Speakers are announced, please take a tour on the conf website.\n- 📜 [Tips from 8 months of TanStack/Router in production](https://swizec.com/blog/tips-from-8-months-of-tan-stack-router-in-production/): Swizec Teller shares the guiding principles he applies, for instance when he uses loaders, suspense queries or queries\n- 📜 [React is (becoming) a Full-Stack Framework](https://www.robinwieruch.de/react-full-stack-framework/): With the addition of Server Components and Server Actions\n- 📜 [Synchronizing State In React](https://www.brenelz.com/posts/synchronizing-state-in-react/): Explains how to solve a classic bug “the right way”, not with a useEffect but by splitting components\n- 📜 [Building Swipe Actions component with React and Framer Motion](https://sinja.io/blog/swipe-actions-react-framer-motion)\n- 📜 [useStateObject: A Simple, Convenient API Around useState](https://www.jameskerr.blog/posts/use-state-object/)\n- 📜 [How to Build a React Hook That Handles Sequential Requests - Using an AbortController](https://webdeveloper.beehiiv.com/p/build-react-hook-handles-sequential-requests)\n- 📜 [Generate a PDF in React](https://spacejelly.dev/posts/generate-a-pdf-from-html-in-javascript) - html2pdf.js, React PDF, and Puppeteer\n- 📜 [Preact - Prerendering with Preset Vite](https://preactjs.com/blog/prerendering-preset-vite)\n- 📜 [Good Refactoring vs Bad Refactoring](https://www.builder.io/blog/good-vs-bad-refactoring)\n- 📜 [How Valtio Was Born](https://blog.axlight.com/posts/how-valtio-was-born/)\n- 📦 [Astro v4.14 - Experimental Content Layer API with Intellisense support in content files](https://astro.build/blog/astro-4140/)\n- 📦 [react-three/xr 6.2.0](https://github.com/pmndrs/xr/releases/tag/v6.2.0): Adds unbounded spaces, depth sensing, and secondary input sources\n- 📦 [react18-use](https://github.com/dai-shi/react18-use): Daishi Kato created a shim of the React 19 `use` hook that works in React 18. Includes the ability to 🐦 [call `use(Context)` inside `useMemo`](https://x.com/dai_shi/status/1825484689030955094) (experimental), a better alternative to context selectors the React team plans to implement.\n- 📦 [Formity](https://www.formity.app/): Define complex forms with a JSON structure, let the package handle the heavy-lifting\n- 📦 [rspack-plugin-react-refresh v1.0](https://github.com/rspack-contrib/rspack-plugin-react-refresh)\n- 🎙️ [PodRocket - Generative UI and React components with Malte Ubl](https://podrocket.logrocket.com/generative-ui-react-components-malte-ubl)\n- 🎥 [Jack Herrington - Secret React-Native Hack For React Web Devs! - use patch-package to patch a dependency not working with Server Components](https://www.youtube.com/watch?v=81oUBWJQii4)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [TutorialKit — 无需构建或管理任何后端基础设施，即可即时创建交互式教程。](https://tutorialkit.dev/)\n- 🗓️ [reactjsday](https://2024.reactjsday.it/?utm_source=thisweekinreact) - 🇮🇹 维罗纳 - 10月25日 - 使用代码\"TWIR\"可享9折优惠。A、B和C将发表演讲！\n- 🗓️ [Squiggle Conf](https://2024.squiggleconf.com/?utm_source=thisweekinreact) - 🇺🇸 波士顿 - 10月3日至4日 - 使用代码\"TWIR\"可享9折优惠。演讲嘉宾已公布，请访问会议官网查看。\n- 📜 [TanStack/Router在生产环境8个月的使用技巧](https://swizec.com/blog/tips-from-8-months-of-tan-stack-router-in-production/)：Swizec Teller分享了他应用的指导原则，例如在使用加载器、悬念查询或查询时的经验\n- 📜 [React正在成为全栈框架](https://www.robinwieruch.de/react-full-stack-framework/)：随着服务器组件和服务器操作的加入\n- 📜 [React中的状态同步](https://www.brenelz.com/posts/synchronizing-state-in-react/)：解释了如何\"以正确的方式\"解决一个经典bug，不是用useEffect，而是通过拆分组件\n- 📜 [使用React和Framer Motion构建滑动操作组件](https://sinja.io/blog/swipe-actions-react-framer-motion)\n- 📜 [useStateObject：围绕useState的简单便捷API](https://www.jameskerr.blog/posts/use-state-object/)\n- 📜 [如何构建一个处理顺序请求的React Hook - 使用AbortController](https://webdeveloper.beehiiv.com/p/build-react-hook-handles-sequential-requests)\n- 📜 [在React中生成PDF](https://spacejelly.dev/posts/generate-a-pdf-from-html-in-javascript) - html2pdf.js、React PDF和Puppeteer\n- 📜 [Preact - 使用Preset Vite进行预渲染](https://preactjs.com/blog/prerendering-preset-vite)\n- 📜 [好的重构与坏的重构](https://www.builder.io/blog/good-vs-bad-refactoring)\n- 📜 [Valtio的诞生](https://blog.axlight.com/posts/how-valtio-was-born/)\n- 📦 [Astro v4.14 - 实验性内容层API，支持内容文件中的智能感知](https://astro.build/blog/astro-4140/)\n- 📦 [react-three/xr 6.2.0](https://github.com/pmndrs/xr/releases/tag/v6.2.0)：添加了无边界空间、深度感知和次要输入源\n- 📦 [react18-use](https://github.com/dai-shi/react18-use)：Daishi Kato创建了一个适用于React 18的React 19 `use`钩子的垫片。包括能够在🐦 [`useMemo`内部调用`use(Context)`](https://x.com/dai_shi/status/1825484689030955094)（实验性功能），这是React团队计划实现的上下文选择器的更好替代方案。\n- 📦 [Formity](https://www.formity.app/)：通过JSON结构定义复杂表单，让包处理繁重的工作\n- 📦 [rspack-plugin-react-refresh v1.0](https://github.com/rspack-contrib/rspack-plugin-react-refresh)\n- 🎙️ [PodRocket - 与Malte Ubl探讨生成式UI和React组件](https://podrocket.logrocket.com/generative-ui-react-components-malte-ubl)\n- 🎥 [Jack Herrington - React Web开发者的秘密React-Native技巧！- 使用patch-package修补不兼容服务器组件的依赖项](https://www.youtube.com/watch?v=81oUBWJQii4)"
     },
     {
       "id": "897e0025",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_897e0025"
     },
     {
       "id": "c9716ede",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "39db08de",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助商 {#sponsor2}"
     },
     {
       "id": "785750ac",
       "translatable": true,
       "content": "[![Visual testing for Storybook, Playwright & Cypress](/emails/issues/197/chromatic.jpg)](https://www.chromatic.com/features/visual-test?utm_source=thisweekinreact\\&utm_medium=2nd_sponsor\\&utm_campaign=q3_2024)",
-      "sourceMdx": "[![Visual testing for Storybook, Playwright & Cypress](/emails/issues/197/chromatic.jpg)](https://www.chromatic.com/features/visual-test?utm_source=thisweekinreact&utm_medium=2nd_sponsor&utm_campaign=q3_2024)"
+      "sourceMdx": "[![Visual testing for Storybook, Playwright & Cypress](/emails/issues/197/chromatic.jpg)](https://www.chromatic.com/features/visual-test?utm_source=thisweekinreact&utm_medium=2nd_sponsor&utm_campaign=q3_2024)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Storybook、Playwright和Cypress的视觉测试](/emails/issues/197/chromatic.jpg)](https://www.chromatic.com/features/visual-test?utm_source=thisweekinreact&utm_medium=2nd_sponsor&utm_campaign=q3_2024)"
     },
     {
       "id": "82e90254",
       "translatable": true,
       "content": "**[Visual testing for Storybook, Playwright & Cypress](https://www.chromatic.com/features/visual-test?utm_source=thisweekinreact\\&utm_medium=2nd_sponsor\\&utm_campaign=q3_2024)**",
-      "sourceMdx": "**[Visual testing for Storybook, Playwright & Cypress](https://www.chromatic.com/features/visual-test?utm_source=thisweekinreact&utm_medium=2nd_sponsor&utm_campaign=q3_2024)**"
+      "sourceMdx": "**[Visual testing for Storybook, Playwright & Cypress](https://www.chromatic.com/features/visual-test?utm_source=thisweekinreact&utm_medium=2nd_sponsor&utm_campaign=q3_2024)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[Storybook、Playwright和Cypress的视觉测试](https://www.chromatic.com/features/visual-test?utm_source=thisweekinreact&utm_medium=2nd_sponsor&utm_campaign=q3_2024)**"
     },
     {
       "id": "2822251a",
       "translatable": true,
       "content": "Tired of broken layouts and janky UI slowing you down? Chromatic’s visual tests allow you to build with confidence. They catch bugs that functional tests miss, from misaligned elements to incorrect colors and z-index glitches.",
-      "sourceMdx": "Tired of broken layouts and janky UI slowing you down? Chromatic’s visual tests allow you to build with confidence. They catch bugs that functional tests miss, from misaligned elements to incorrect colors and z-index glitches."
+      "sourceMdx": "Tired of broken layouts and janky UI slowing you down? Chromatic’s visual tests allow you to build with confidence. They catch bugs that functional tests miss, from misaligned elements to incorrect colors and z-index glitches.",
+      "nodeType": "paragraph",
+      "translated_content": "厌倦了布局错乱和卡顿的UI拖慢开发进度？Chromatic的视觉测试让您自信构建。它能捕捉功能测试遗漏的缺陷，包括元素错位、颜色偏差和z-index层级问题。"
     },
     {
       "id": "25212439",
       "translatable": true,
       "content": "No need for separate test cases or configuration. Chromatic plugs into your existing setup for Storybook, Playwright, or Cypress to enable visual testing of your application's UI. All tests run in parallel — at no extra cost — powered by Chromatic’s lightning-fast Capture Cloud infrastructure.",
-      "sourceMdx": "No need for separate test cases or configuration. Chromatic plugs into your existing setup for Storybook, Playwright, or Cypress to enable visual testing of your application's UI. All tests run in parallel — at no extra cost — powered by Chromatic’s lightning-fast Capture Cloud infrastructure."
+      "sourceMdx": "No need for separate test cases or configuration. Chromatic plugs into your existing setup for Storybook, Playwright, or Cypress to enable visual testing of your application's UI. All tests run in parallel — at no extra cost — powered by Chromatic’s lightning-fast Capture Cloud infrastructure.",
+      "nodeType": "paragraph",
+      "translated_content": "无需额外测试用例或配置。Chromatic无缝集成您现有的Storybook、Playwright或Cypress环境，实现对应用UI的视觉测试。所有测试通过Chromatic高速Capture Cloud基础设施并行运行——且不产生额外费用。"
     },
     {
       "id": "d79a4831",
       "translatable": true,
       "content": "Setup takes just two minutes, and our base plan includes 5,000 free snapshots per month. [Get started today »](https://www.chromatic.com/features/visual-test?utm_source=thisweekinreact\\&utm_medium=2nd_sponsor\\&utm_campaign=q3_2024)",
-      "sourceMdx": "Setup takes just two minutes, and our base plan includes 5,000 free snapshots per month. [Get started today »](https://www.chromatic.com/features/visual-test?utm_source=thisweekinreact&utm_medium=2nd_sponsor&utm_campaign=q3_2024)"
+      "sourceMdx": "Setup takes just two minutes, and our base plan includes 5,000 free snapshots per month. [Get started today »](https://www.chromatic.com/features/visual-test?utm_source=thisweekinreact&utm_medium=2nd_sponsor&utm_campaign=q3_2024)",
+      "nodeType": "paragraph",
+      "translated_content": "两分钟即可完成设置，基础方案每月包含5,000次免费快照。[立即开始 »](https://www.chromatic.com/features/visual-test?utm_source=thisweekinreact&utm_medium=2nd_sponsor&utm_campaign=q3_2024)"
     },
     {
       "id": "e9ae42a9",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "42a5832e",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "0e80209e",
       "translatable": true,
       "content": "**[React Native 0.75](https://reactnative.dev/blog/2024/08/12/release-0.75)**",
-      "sourceMdx": "**[React Native 0.75](https://reactnative.dev/blog/2024/08/12/release-0.75)**"
+      "sourceMdx": "**[React Native 0.75](https://reactnative.dev/blog/2024/08/12/release-0.75)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[React Native 0.75](https://reactnative.dev/blog/2024/08/12/release-0.75)**"
     },
     {
       "id": "7bc8bb24",
       "translatable": true,
       "content": "This week marks the release of React Native 0.75, where the core team has reinforced their recommendation to use a React Native framework like Expo for building production-ready apps. Reflecting this shift, the `/template` folder has been removed from the core `react-native` package, and the `react-native init` command is set to be deprecated by the end of 2024, though both will still be accessible within the `@react-native-community` packages. Notably, this update brings significant improvements, including [enhanced performance during the auto-linking build phase](https://github.com/react-native-community/discussions-and-proposals/discussions/814) and the addition of [Yoga 3.1](https://www.yogalayout.dev/blog/announcing-yoga-3.1), which now supports the use of percentages for `gap`, `columnGap`, `rowGap`, and `translation` props when the new architecture is enabled. With these advancements, it's clear that adopting the new architecture is crucial for staying up to date with the latest features and stability improvements.",
-      "sourceMdx": "This week marks the release of React Native 0.75, where the core team has reinforced their recommendation to use a React Native framework like Expo for building production-ready apps. Reflecting this shift, the `/template` folder has been removed from the core `react-native` package, and the `react-native init` command is set to be deprecated by the end of 2024, though both will still be accessible within the `@react-native-community` packages. Notably, this update brings significant improvements, including [enhanced performance during the auto-linking build phase](https://github.com/react-native-community/discussions-and-proposals/discussions/814) and the addition of [Yoga 3.1](https://www.yogalayout.dev/blog/announcing-yoga-3.1), which now supports the use of percentages for `gap`, `columnGap`, `rowGap`, and `translation` props when the new architecture is enabled. With these advancements, it's clear that adopting the new architecture is crucial for staying up to date with the latest features and stability improvements."
+      "sourceMdx": "This week marks the release of React Native 0.75, where the core team has reinforced their recommendation to use a React Native framework like Expo for building production-ready apps. Reflecting this shift, the `/template` folder has been removed from the core `react-native` package, and the `react-native init` command is set to be deprecated by the end of 2024, though both will still be accessible within the `@react-native-community` packages. Notably, this update brings significant improvements, including [enhanced performance during the auto-linking build phase](https://github.com/react-native-community/discussions-and-proposals/discussions/814) and the addition of [Yoga 3.1](https://www.yogalayout.dev/blog/announcing-yoga-3.1), which now supports the use of percentages for `gap`, `columnGap`, `rowGap`, and `translation` props when the new architecture is enabled. With these advancements, it's clear that adopting the new architecture is crucial for staying up to date with the latest features and stability improvements.",
+      "nodeType": "paragraph",
+      "translated_content": "本周发布的React Native 0.75中，核心团队强化了推荐使用Expo等框架构建生产级应用的建议。为反映这一转变，核心包中的`/template`文件夹已被移除，`react-native init`命令也将在2024年底弃用（但仍可通过`@react-native-community`包访问）。本次更新带来显著改进：包括[自动链接构建阶段的性能提升](https://github.com/react-native-community/discussions-and-proposals/discussions/814)，以及集成[Yoga 3.1](https://www.yogalayout.dev/blog/announcing-yoga-3.1)——启用新架构后现支持对`gap`、`columnGap`、`rowGap`和`translation`属性使用百分比值。这些进展表明，采用新架构对获取最新功能和稳定性改进至关重要。"
     },
     {
       "id": "42bfcc5d",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "0422e2e2",
       "translatable": true,
       "content": "* 💸 [React Native Mastery - The only course you need to Master React Native & Expo](https://notjust.dev/react-native-mastery?utm_source=twir\\&utm_medium=email)\n* 👀 [React Native 0.76 will ship with a single merged dynamic library called libreactnative.so](https://github.com/react-native-community/discussions-and-proposals/discussions/816): This will reduce app size and startup time\n* 🐦 [Nitrogen, the new Codegen for NitroModules](https://x.com/mrousavy/status/1823796378860184044): Marc presents how Nitrogen generates swift specs that you can then implement without touching Objective-C & C++ code 👏\n* 🐦 [Types for react-native-web are now published on DefinitelyTyped](https://x.com/swmansion/status/1824379053836480771)\n* 🐦 [three.js running in RN thanks to react-native-webGPU](https://x.com/wcandillon/status/1825862686300672124)\n* 🐦 [expo-dom demo with React Three Fiber component](https://x.com/Baconbrix/status/1825128678683971733)\n* 🗓️ [React Universe Conf](https://www.reactuniverseconf.com/?utm_source=thisweekinreact) - 🇵🇱 Wrocław - Sept 5-6. Get a 10% discount with code \"TWIR\". Speakers: Evan Bacon, Marc Rousavy, Tzvetan Mikov, Oskar Kwaśniewski...\n* 📜 [React Native 0.75 is now available with Expo SDK 51](https://expo.dev/changelog/2024/08-14-react-native-0.75): No need to wait for SDK 52, take advantage of bug fixes, performance improvements, and the stabilization of the new architecture at a lower upgrade cost.\n* 📜 [Progressive Web Apps (PWAs): A stepping stone towards a native mobile application](https://www.thinkmill.com.au/blog/progressive-web-apps-pw-as-a-stepping-stone-towards-a-native-mobile-application): An up-to-date assessment of the trade-off between PWAs and native apps\n* 📦 [React Native Keyboard Controller v1.13](https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.13.0): Adds support for Android modals and React Native 0.75\n* 📦 [Skip v1.0](https://skip.tools/blog/skip-1_0-release/): New cross-platform framework that allows developers to write native iOS apps in Swift and SwiftUI while automatically generating native Android code\n* 📦 [Shopify - Tophat is now open sourced](https://github.com/shopify/tophat)\n* 🎙️ [RNR 304 - React Navigation V7 with Satyajit Sahoo - React Navigation 7's new features, including the static API, improved deep linking, and enhanced TypeScript support](https://reactnativeradio.com/episodes/rnr-304-react-navigation-v7-with-satyajit-saho)\n* 🎥 [Jolly Coding - Expo Just Made Web-to-Native Migration Easier - expo-dom demo](https://www.youtube.com/watch?v=MKoZTAcVCJU)",
-      "sourceMdx": "- 💸 [React Native Mastery - The only course you need to Master React Native & Expo](https://notjust.dev/react-native-mastery?utm_source=twir&utm_medium=email)\n- 👀 [React Native 0.76 will ship with a single merged dynamic library called libreactnative.so](https://github.com/react-native-community/discussions-and-proposals/discussions/816): This will reduce app size and startup time\n- 🐦 [Nitrogen, the new Codegen for NitroModules](https://x.com/mrousavy/status/1823796378860184044): Marc presents how Nitrogen generates swift specs that you can then implement without touching Objective-C & C++ code 👏\n- 🐦 [Types for react-native-web are now published on DefinitelyTyped](https://x.com/swmansion/status/1824379053836480771)\n- 🐦 [three.js running in RN thanks to react-native-webGPU](https://x.com/wcandillon/status/1825862686300672124)\n- 🐦 [expo-dom demo with React Three Fiber component](https://x.com/Baconbrix/status/1825128678683971733)\n- 🗓️ [React Universe Conf](https://www.reactuniverseconf.com/?utm_source=thisweekinreact) - 🇵🇱 Wrocław - Sept 5-6. Get a 10% discount with code \"TWIR\". Speakers: Evan Bacon, Marc Rousavy, Tzvetan Mikov, Oskar Kwaśniewski...\n- 📜 [React Native 0.75 is now available with Expo SDK 51](https://expo.dev/changelog/2024/08-14-react-native-0.75): No need to wait for SDK 52, take advantage of bug fixes, performance improvements, and the stabilization of the new architecture at a lower upgrade cost.\n- 📜 [Progressive Web Apps (PWAs): A stepping stone towards a native mobile application](https://www.thinkmill.com.au/blog/progressive-web-apps-pw-as-a-stepping-stone-towards-a-native-mobile-application): An up-to-date assessment of the trade-off between PWAs and native apps\n- 📦 [React Native Keyboard Controller v1.13](https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.13.0): Adds support for Android modals and React Native 0.75\n- 📦 [Skip v1.0](https://skip.tools/blog/skip-1_0-release/): New cross-platform framework that allows developers to write native iOS apps in Swift and SwiftUI while automatically generating native Android code\n- 📦 [Shopify - Tophat is now open sourced](https://github.com/shopify/tophat)\n- 🎙️ [RNR 304 - React Navigation V7 with Satyajit Sahoo - React Navigation 7's new features, including the static API, improved deep linking, and enhanced TypeScript support](https://reactnativeradio.com/episodes/rnr-304-react-navigation-v7-with-satyajit-saho)\n- 🎥 [Jolly Coding - Expo Just Made Web-to-Native Migration Easier - expo-dom demo](https://www.youtube.com/watch?v=MKoZTAcVCJU)"
+      "sourceMdx": "- 💸 [React Native Mastery - The only course you need to Master React Native & Expo](https://notjust.dev/react-native-mastery?utm_source=twir&utm_medium=email)\n- 👀 [React Native 0.76 will ship with a single merged dynamic library called libreactnative.so](https://github.com/react-native-community/discussions-and-proposals/discussions/816): This will reduce app size and startup time\n- 🐦 [Nitrogen, the new Codegen for NitroModules](https://x.com/mrousavy/status/1823796378860184044): Marc presents how Nitrogen generates swift specs that you can then implement without touching Objective-C & C++ code 👏\n- 🐦 [Types for react-native-web are now published on DefinitelyTyped](https://x.com/swmansion/status/1824379053836480771)\n- 🐦 [three.js running in RN thanks to react-native-webGPU](https://x.com/wcandillon/status/1825862686300672124)\n- 🐦 [expo-dom demo with React Three Fiber component](https://x.com/Baconbrix/status/1825128678683971733)\n- 🗓️ [React Universe Conf](https://www.reactuniverseconf.com/?utm_source=thisweekinreact) - 🇵🇱 Wrocław - Sept 5-6. Get a 10% discount with code \"TWIR\". Speakers: Evan Bacon, Marc Rousavy, Tzvetan Mikov, Oskar Kwaśniewski...\n- 📜 [React Native 0.75 is now available with Expo SDK 51](https://expo.dev/changelog/2024/08-14-react-native-0.75): No need to wait for SDK 52, take advantage of bug fixes, performance improvements, and the stabilization of the new architecture at a lower upgrade cost.\n- 📜 [Progressive Web Apps (PWAs): A stepping stone towards a native mobile application](https://www.thinkmill.com.au/blog/progressive-web-apps-pw-as-a-stepping-stone-towards-a-native-mobile-application): An up-to-date assessment of the trade-off between PWAs and native apps\n- 📦 [React Native Keyboard Controller v1.13](https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.13.0): Adds support for Android modals and React Native 0.75\n- 📦 [Skip v1.0](https://skip.tools/blog/skip-1_0-release/): New cross-platform framework that allows developers to write native iOS apps in Swift and SwiftUI while automatically generating native Android code\n- 📦 [Shopify - Tophat is now open sourced](https://github.com/shopify/tophat)\n- 🎙️ [RNR 304 - React Navigation V7 with Satyajit Sahoo - React Navigation 7's new features, including the static API, improved deep linking, and enhanced TypeScript support](https://reactnativeradio.com/episodes/rnr-304-react-navigation-v7-with-satyajit-saho)\n- 🎥 [Jolly Coding - Expo Just Made Web-to-Native Migration Easier - expo-dom demo](https://www.youtube.com/watch?v=MKoZTAcVCJU)",
+      "nodeType": "list",
+      "translated_content": "- 💸 [React Native 大师课 - 掌握 React Native 和 Expo 的唯一课程](https://notjust.dev/react-native-mastery?utm_source=twir&utm_medium=email)\n- 👀 [React Native 0.76 将合并动态库为单一 libreactnative.so](https://github.com/react-native-community/discussions-and-proposals/discussions/816)：此举将减少应用体积并提升启动速度\n- 🐦 [NitroModules 新代码生成器 Nitrogen](https://x.com/mrousavy/status/1823796378860184044)：Marc 演示如何生成 Swift 规范，无需接触 Objective-C 和 C++ 代码 👏\n- 🐦 [react-native-web 类型声明现已发布至 DefinitelyTyped](https://x.com/swmansion/status/1824379053836480771)\n- 🐦 [基于 react-native-webGPU 在 RN 中运行 three.js](https://x.com/wcandillon/status/1825862686300672124)\n- 🐦 [expo-dom 结合 React Three Fiber 组件的演示](https://x.com/Baconbrix/status/1825128678683971733)\n- 🗓️ [React Universe 大会](https://www.reactuniverseconf.com/?utm_source=thisweekinreact) - 🇵🇱 弗罗茨瓦夫 - 9月5-6日。使用优惠码 \"TWIR\" 可享9折。演讲嘉宾：Evan Bacon、Marc Rousavy、Tzvetan Mikov、Oskar Kwaśniewski...\n- 📜 [Expo SDK 51 现已支持 React Native 0.75](https://expo.dev/changelog/2024/08-14-react-native-0.75)：无需等待 SDK 52，即可享受错误修复、性能提升及新架构的稳定化，且升级成本更低\n- 📜 [渐进式 Web 应用（PWA）：通向原生移动应用的垫脚石](https://www.thinkmill.com.au/blog/progressive-web-apps-pw-as-a-stepping-stone-towards-a-native-mobile-application)：关于 PWA 与原生应用权衡的最新评估\n- 📦 [React Native Keyboard Controller v1.13](https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.13.0)：新增 Android 模态框支持和 React Native 0.75 适配\n- 📦 [Skip 跨平台框架 v1.0](https://skip.tools/blog/skip-1_0-release/)：允许开发者用 Swift 和 SwiftUI 编写原生 iOS 应用，同时自动生成 Android 原生代码\n- 📦 [Shopify 开源 Tophat 工具](https://github.com/shopify/tophat)\n- 🎙️ [RNR 304 期 - 与 Satyajit Sahoo 探讨 React Navigation V7](https://reactnativeradio.com/episodes/rnr-304-react-navigation-v7-with-satyajit-saho)：包括静态 API、增强的深度链接和改进的 TypeScript 支持等新特性\n- 🎥 [Jolly Coding - Expo 让 Web 到原生迁移更简单 - expo-dom 演示](https://www.youtube.com/watch?v=MKoZTAcVCJU)"
     },
     {
       "id": "714b728f",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "47cd8dd6",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他 {#other}"
     },
     {
       "id": "d30a9380",
       "translatable": true,
       "content": "* 📊 [State of CSS 2024 survey is out](https://survey.devographics.com/en-US/survey/state-of-css/2024)\n* 👀 [Chrome 129 will introduce two new Javascript Events - scrollSnapChange and scrollSnapChanging](https://developer.chrome.com/blog/scroll-snap-events?hl=en)\n* 👀 [ECMAScript Error Safe Assignment Operator proposal](https://github.com/arthurfiorette/proposal-safe-assignment-operator) - Inspired by functional programming concepts like monads and Rust's `Result` type, It aims to streamline error handling in JavaScript by returning a tuple `[error, result]` from functions.\n* 🐦 [Colin’s hack to filter keys from a TS interface:](https://x.com/colinhacks/status/1824052417820021173) Using Omit/Pick and a string template literal\n* 📜 [Branded Types in Typescript](https://www.learningtypescript.com/articles/branded-types): Branded types are key if you want to strengthen your type system. Prices are not just numbers, nor is an amount of time, so protect your functions by narrowing down the types you accept.\n* 📜 [Total TypeScript - Why I Don't Like Enums - Numeric vs String Enums, Nominal typing and other quirks.](https://www.totaltypescript.com/why-i-dont-like-typescript-enums)\n* 📜 [Syntax Highlighting in Hand-Coded Websites - Implement syntax highlighting using OpenType features directly within a font](https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/)\n* 📜 [“Smart” Layouts With Container Queries - Comparison of container queries with traditional media queries](https://css-tricks.com/smart-layouts-with-container-queries/)\n* 📜 [Lessons learned switching to Rspack - challenges and benefits of migrating a SPA from webpack to Rspack](https://birtles.blog/2024/08/14/lessons-learned-switching-to-rspack/)\n* 📜 [Spatial compute - Let the network decide where in the world to run your code](https://sunilpai.dev/posts/spatial-compute/)\n* 📦 [Chrome 128 Devtools update - Console insights by Gemini, Performance & Network panels improvements](https://developer.chrome.com/blog/new-in-devtools-128?hl=en)\n* 📦 [Volta 2.0 The Hassle-Free JavaScript Tool Manager](https://github.com/volta-cli/volta/releases/tag/v2.0.0)\n* 🎥 [Lydia Hallie - JavaScript Visualized - Closures](https://www.youtube.com/watch?v=6Ixyltr8_R0)",
-      "sourceMdx": "- 📊 [State of CSS 2024 survey is out](https://survey.devographics.com/en-US/survey/state-of-css/2024)\n- 👀 [Chrome 129 will introduce two new Javascript Events - scrollSnapChange and scrollSnapChanging](https://developer.chrome.com/blog/scroll-snap-events?hl=en)\n- 👀 [ECMAScript Error Safe Assignment Operator proposal](https://github.com/arthurfiorette/proposal-safe-assignment-operator) - Inspired by functional programming concepts like monads and Rust's `Result` type, It aims to streamline error handling in JavaScript by returning a tuple `[error, result]` from functions.\n- 🐦 [Colin’s hack to filter keys from a TS interface:](https://x.com/colinhacks/status/1824052417820021173) Using Omit/Pick and a string template literal\n- 📜 [Branded Types in Typescript](https://www.learningtypescript.com/articles/branded-types): Branded types are key if you want to strengthen your type system. Prices are not just numbers, nor is an amount of time, so protect your functions by narrowing down the types you accept.\n- 📜 [Total TypeScript - Why I Don't Like Enums - Numeric vs String Enums, Nominal typing and other quirks.](https://www.totaltypescript.com/why-i-dont-like-typescript-enums)\n- 📜 [Syntax Highlighting in Hand-Coded Websites - Implement syntax highlighting using OpenType features directly within a font](https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/)\n- 📜 [“Smart” Layouts With Container Queries - Comparison of container queries with traditional media queries](https://css-tricks.com/smart-layouts-with-container-queries/)\n- 📜 [Lessons learned switching to Rspack - challenges and benefits of migrating a SPA from webpack to Rspack](https://birtles.blog/2024/08/14/lessons-learned-switching-to-rspack/)\n- 📜 [Spatial compute - Let the network decide where in the world to run your code](https://sunilpai.dev/posts/spatial-compute/)\n- 📦 [Chrome 128 Devtools update - Console insights by Gemini, Performance & Network panels improvements](https://developer.chrome.com/blog/new-in-devtools-128?hl=en)\n- 📦 [Volta 2.0 The Hassle-Free JavaScript Tool Manager](https://github.com/volta-cli/volta/releases/tag/v2.0.0)\n- 🎥 [Lydia Hallie - JavaScript Visualized - Closures](https://www.youtube.com/watch?v=6Ixyltr8_R0)"
+      "sourceMdx": "- 📊 [State of CSS 2024 survey is out](https://survey.devographics.com/en-US/survey/state-of-css/2024)\n- 👀 [Chrome 129 will introduce two new Javascript Events - scrollSnapChange and scrollSnapChanging](https://developer.chrome.com/blog/scroll-snap-events?hl=en)\n- 👀 [ECMAScript Error Safe Assignment Operator proposal](https://github.com/arthurfiorette/proposal-safe-assignment-operator) - Inspired by functional programming concepts like monads and Rust's `Result` type, It aims to streamline error handling in JavaScript by returning a tuple `[error, result]` from functions.\n- 🐦 [Colin’s hack to filter keys from a TS interface:](https://x.com/colinhacks/status/1824052417820021173) Using Omit/Pick and a string template literal\n- 📜 [Branded Types in Typescript](https://www.learningtypescript.com/articles/branded-types): Branded types are key if you want to strengthen your type system. Prices are not just numbers, nor is an amount of time, so protect your functions by narrowing down the types you accept.\n- 📜 [Total TypeScript - Why I Don't Like Enums - Numeric vs String Enums, Nominal typing and other quirks.](https://www.totaltypescript.com/why-i-dont-like-typescript-enums)\n- 📜 [Syntax Highlighting in Hand-Coded Websites - Implement syntax highlighting using OpenType features directly within a font](https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/)\n- 📜 [“Smart” Layouts With Container Queries - Comparison of container queries with traditional media queries](https://css-tricks.com/smart-layouts-with-container-queries/)\n- 📜 [Lessons learned switching to Rspack - challenges and benefits of migrating a SPA from webpack to Rspack](https://birtles.blog/2024/08/14/lessons-learned-switching-to-rspack/)\n- 📜 [Spatial compute - Let the network decide where in the world to run your code](https://sunilpai.dev/posts/spatial-compute/)\n- 📦 [Chrome 128 Devtools update - Console insights by Gemini, Performance & Network panels improvements](https://developer.chrome.com/blog/new-in-devtools-128?hl=en)\n- 📦 [Volta 2.0 The Hassle-Free JavaScript Tool Manager](https://github.com/volta-cli/volta/releases/tag/v2.0.0)\n- 🎥 [Lydia Hallie - JavaScript Visualized - Closures](https://www.youtube.com/watch?v=6Ixyltr8_R0)",
+      "nodeType": "list",
+      "translated_content": "- 📊 [2024年CSS现状调查报告已发布](https://survey.devographics.com/en-US/survey/state-of-css/2024)\n- 👀 [Chrome 129将引入两个新的JavaScript事件 - scrollSnapChange和scrollSnapChanging](https://developer.chrome.com/blog/scroll-snap-events?hl=en)\n- 👀 [ECMAScript安全赋值运算符提案](https://github.com/arthurfiorette/proposal-safe-assignment-operator) - 灵感源自函数式编程概念如单子(monad)和Rust的`Result`类型，旨在通过从函数返回元组`[error, result]`来简化JavaScript中的错误处理。\n- 🐦 [Colin的TS接口键过滤技巧：](https://x.com/colinhacks/status/1824052417820021173) 使用Omit/Pick结合字符串模板字面量\n- 📜 [TypeScript中的品牌类型](https://www.learningtypescript.com/articles/branded-types)：品牌类型是强化类型系统的关键。价格不仅仅是数字，时间量也不是，因此通过收窄函数接受的类型来保护你的函数。\n- 📜 [Total TypeScript - 为什么我不喜欢枚举 - 数值枚举 vs 字符串枚举、名义类型及其他特性](https://www.totaltypescript.com/why-i-dont-like-typescript-enums)\n- 📜 [手写网站中的语法高亮 - 直接在字体中使用OpenType特性实现语法高亮](https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/)\n- 📜 [\"智能\"布局与容器查询 - 容器查询与传统媒体查询的对比](https://css-tricks.com/smart-layouts-with-container-queries/)\n- 📜 [切换到Rspack的经验教训 - 从webpack迁移到Rspack的挑战与收益](https://birtles.blog/2024/08/14/lessons-learned-switching-to-rspack/)\n- 📜 [空间计算 - 让网络决定在世界的哪个位置运行你的代码](https://sunilpai.dev/posts/spatial-compute/)\n- 📦 [Chrome 128开发者工具更新 - Gemini提供的控制台洞察、性能与网络面板改进](https://developer.chrome.com/blog/new-in-devtools-128?hl=en)\n- 📦 [Volta 2.0 无烦恼的JavaScript工具管理器](https://github.com/volta-cli/volta/releases/tag/v2.0.0)\n- 🎥 [Lydia Hallie - JavaScript可视化 - 闭包](https://www.youtube.com/watch?v=6Ixyltr8_R0)"
     },
     {
       "id": "af4523c9",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "35353302",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 趣闻 {#fun}"
     },
     {
       "id": "719d3997",
       "translatable": true,
       "content": "[![alt](/emails/issues/197/meme.jpg)](https://x.com/colinhacks/status/1823445912997515429)",
-      "sourceMdx": "[![alt](/emails/issues/197/meme.jpg)](https://x.com/colinhacks/status/1823445912997515429)"
+      "sourceMdx": "[![alt](/emails/issues/197/meme.jpg)](https://x.com/colinhacks/status/1823445912997515429)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/197/meme.jpg)](https://x.com/colinhacks/status/1823445912997515429)"
     },
     {
       "id": "42d9ca67",
       "translatable": true,
       "content": "[![alt](/emails/issues/197/meme2.jpg)](https://x.com/nativewindcss/status/1824558552972923122)",
-      "sourceMdx": "[![alt](/emails/issues/197/meme2.jpg)](https://x.com/nativewindcss/status/1824558552972923122)"
+      "sourceMdx": "[![alt](/emails/issues/197/meme2.jpg)](https://x.com/nativewindcss/status/1824558552972923122)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/197/meme2.jpg)](https://x.com/nativewindcss/status/1824558552972923122)"
     },
     {
       "id": "619c3209",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下次见！👋"
     }
   ]
 }

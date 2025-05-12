@@ -1,287 +1,381 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/articles/useSyncExternalStore-the-underrated-react-api/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/articles/useSyncExternalStore-the-underrated-react-api/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: useSyncExternalStore-the-underrated-react-api\ntitle: useSyncExternalStore - The underrated React API\nauthors: [slorber]\ndate: 2022-09-06\ntwitterThreadUrl: \"https://slo.im/t/articles/useSyncExternalStore\"\nimage: ./social-card.png\n---",
-      "sourceMdx": "---\nslug: useSyncExternalStore-the-underrated-react-api\ntitle: useSyncExternalStore - The underrated React API\nauthors: [slorber]\ndate: 2022-09-06\ntwitterThreadUrl: \"https://slo.im/t/articles/useSyncExternalStore\"\nimage: ./social-card.png\n---"
+      "sourceMdx": "---\nslug: useSyncExternalStore-the-underrated-react-api\ntitle: useSyncExternalStore - The underrated React API\nauthors: [slorber]\ndate: 2022-09-06\ntwitterThreadUrl: \"https://slo.im/t/articles/useSyncExternalStore\"\nimage: ./social-card.png\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "1cc03ec8",
       "translatable": true,
       "content": "# useSyncExternalStore - The underrated React API",
-      "sourceMdx": "# useSyncExternalStore - The underrated React API"
+      "sourceMdx": "# useSyncExternalStore - The underrated React API",
+      "nodeType": "heading",
+      "translated_content": "# useSyncExternalStore - 被低估的React API"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "You might have heard of [`useSyncExternalStore()`](https://reactjs.org/docs/hooks-reference.html#usesyncexternalstore), a new React 18 hook to **subscribe to external data sources**. It is often used internally by state management libraries - like [Redux](https://github.com/reduxjs/react-redux/pull/1808) - to implement a **selector system**.",
-      "sourceMdx": "You might have heard of [`useSyncExternalStore()`](https://reactjs.org/docs/hooks-reference.html#usesyncexternalstore), a new React 18 hook to **subscribe to external data sources**. It is often used internally by state management libraries - like [Redux](https://github.com/reduxjs/react-redux/pull/1808) - to implement a **selector system**."
+      "sourceMdx": "You might have heard of [`useSyncExternalStore()`](https://reactjs.org/docs/hooks-reference.html#usesyncexternalstore), a new React 18 hook to **subscribe to external data sources**. It is often used internally by state management libraries - like [Redux](https://github.com/reduxjs/react-redux/pull/1808) - to implement a **selector system**.",
+      "nodeType": "paragraph",
+      "translated_content": "你可能听说过[`useSyncExternalStore()`](https://reactjs.org/docs/hooks-reference.html#usesyncexternalstore)，这个React 18的新Hook用于**订阅外部数据源**。它常被状态管理库（如[Redux](https://github.com/reduxjs/react-redux/pull/1808)）内部使用，用于实现**选择器系统**。"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "But what about using `useSyncExternalStore()` in your own application code?",
-      "sourceMdx": "But what about using `useSyncExternalStore()` in your own application code?"
+      "sourceMdx": "But what about using `useSyncExternalStore()` in your own application code?",
+      "nodeType": "paragraph",
+      "translated_content": "但你是否考虑过在自己的应用代码中使用`useSyncExternalStore()`？"
     },
     {
       "id": "86b54d44",
       "translatable": true,
       "content": "In this interactive article, I want to present you a problem: **over-returning React hooks triggering useless re-renders**. We will see how `useSyncExternalStore()` can be a good fix.",
-      "sourceMdx": "In this interactive article, I want to present you a problem: **over-returning React hooks triggering useless re-renders**. We will see how `useSyncExternalStore()` can be a good fix."
+      "sourceMdx": "In this interactive article, I want to present you a problem: **over-returning React hooks triggering useless re-renders**. We will see how `useSyncExternalStore()` can be a good fix.",
+      "nodeType": "paragraph",
+      "translated_content": "在这篇互动文章中，我想提出一个问题：**过度返回值的React Hook会触发不必要的重新渲染**。我们将看到`useSyncExternalStore()`如何成为解决方案。"
     },
     {
       "id": "39b3772c",
       "translatable": true,
       "content": "![social card](./social-card.png)",
-      "sourceMdx": "![social card](./social-card.png)"
+      "sourceMdx": "![social card](./social-card.png)",
+      "nodeType": "paragraph",
+      "translated_content": "![社交卡片](./social-card.png)"
     },
     {
       "id": "c6da205d",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_c6da205d"
     },
     {
       "id": "5dfba1c3",
       "translatable": false,
       "content": "<SubscribeFormEmbed />",
-      "sourceMdx": "<SubscribeFormEmbed />"
+      "sourceMdx": "<SubscribeFormEmbed />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_5dfba1c3"
     },
     {
       "id": "0adfe0aa",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import {\n  App,\n  AppFixed,\n  ScrollApp,\n} from \"@site/articles/useSyncExternalStore-the-underrated-react-api/demos\";"
+      "sourceMdx": "import {\n  App,\n  AppFixed,\n  ScrollApp,\n} from \"@site/articles/useSyncExternalStore-the-underrated-react-api/demos\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_0adfe0aa"
     },
     {
       "id": "d06306f7",
       "translatable": true,
       "content": "## Over-returning hooks",
-      "sourceMdx": "## Over-returning hooks"
+      "sourceMdx": "## Over-returning hooks",
+      "nodeType": "heading",
+      "translated_content": "## 过度返回的Hook"
     },
     {
       "id": "73ab96a3",
       "translatable": true,
       "content": "Let's illustrate the problem with [`useLocation()`](https://reactrouter.com/en/main/hooks/use-location) from React-Router.",
-      "sourceMdx": "Let's illustrate the problem with [`useLocation()`](https://reactrouter.com/en/main/hooks/use-location) from React-Router."
+      "sourceMdx": "Let's illustrate the problem with [`useLocation()`](https://reactrouter.com/en/main/hooks/use-location) from React-Router.",
+      "nodeType": "paragraph",
+      "translated_content": "让我们用React-Router的[`useLocation()`](https://reactrouter.com/en/main/hooks/use-location)来说明这个问题。"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "This hook returns an object with many attributes (`pathname`, `hash`, `search`...), but you might not read all of them. Just calling the hook will trigger re-renders when any of these attributes is updated.",
-      "sourceMdx": "This hook returns an object with many attributes (`pathname`, `hash`, `search`...), but you might not read all of them. Just calling the hook will trigger re-renders when any of these attributes is updated."
+      "sourceMdx": "This hook returns an object with many attributes (`pathname`, `hash`, `search`...), but you might not read all of them. Just calling the hook will trigger re-renders when any of these attributes is updated.",
+      "nodeType": "paragraph",
+      "translated_content": "该Hook返回包含多个属性（`pathname`、`hash`、`search`等）的对象，但你可能不会使用全部属性。仅调用该Hook就会在任意属性更新时触发重新渲染。"
     },
     {
       "id": "517051a7",
       "translatable": true,
       "content": "Let's consider this app:",
-      "sourceMdx": "Let's consider this app:"
+      "sourceMdx": "Let's consider this app:",
+      "nodeType": "paragraph",
+      "translated_content": "考虑以下应用："
     },
     {
       "id": "4dd51304",
       "translatable": false,
       "content": "```tsx\nfunction CurrentPathname() {\n  const { pathname } = useLocation();\n  return <div>{pathname}</div>;\n}\n\nfunction CurrentHash() {\n  const { hash } = useLocation();\n  return <div>{hash}</div>;\n}\n\nfunction Links() {\n  return (\n    <div>\n      <Link to=\"#link1\">#link1</Link>\n      <Link to=\"#link2\">#link2</Link>\n      <Link to=\"#link3\">#link3</Link>\n    </div>\n  );\n}\n\nfunction App() {\n  return (\n    <div>\n      <CurrentPathname />\n      <CurrentHash />\n      <Links />\n    </div>\n  );\n}\n```",
-      "sourceMdx": "```tsx\nfunction CurrentPathname() {\n  const { pathname } = useLocation();\n  return <div>{pathname}</div>;\n}\n\nfunction CurrentHash() {\n  const { hash } = useLocation();\n  return <div>{hash}</div>;\n}\n\nfunction Links() {\n  return (\n    <div>\n      <Link to=\"#link1\">#link1</Link>\n      <Link to=\"#link2\">#link2</Link>\n      <Link to=\"#link3\">#link3</Link>\n    </div>\n  );\n}\n\nfunction App() {\n  return (\n    <div>\n      <CurrentPathname />\n      <CurrentHash />\n      <Links />\n    </div>\n  );\n}\n```"
+      "sourceMdx": "```tsx\nfunction CurrentPathname() {\n  const { pathname } = useLocation();\n  return <div>{pathname}</div>;\n}\n\nfunction CurrentHash() {\n  const { hash } = useLocation();\n  return <div>{hash}</div>;\n}\n\nfunction Links() {\n  return (\n    <div>\n      <Link to=\"#link1\">#link1</Link>\n      <Link to=\"#link2\">#link2</Link>\n      <Link to=\"#link3\">#link3</Link>\n    </div>\n  );\n}\n\nfunction App() {\n  return (\n    <div>\n      <CurrentPathname />\n      <CurrentHash />\n      <Links />\n    </div>\n  );\n}\n```",
+      "nodeType": "code",
+      "translated_content": "@@untranslatable_placeholder_4dd51304"
     },
     {
       "id": "61a24b68",
       "translatable": false,
       "content": "<App />",
-      "sourceMdx": "<App />"
+      "sourceMdx": "<App />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_61a24b68"
     },
     {
       "id": "147e8550",
       "translatable": true,
       "content": "On any hash link click, the `CurrentPathname` component will re-render, even if it's not even using the `hash` attribute 😅.",
-      "sourceMdx": "On any hash link click, the `CurrentPathname` component will re-render, even if it's not even using the `hash` attribute 😅."
+      "sourceMdx": "On any hash link click, the `CurrentPathname` component will re-render, even if it's not even using the `hash` attribute 😅.",
+      "nodeType": "paragraph",
+      "translated_content": "每次点击哈希链接时，`CurrentPathname`组件都会重新渲染——即使它根本没有使用`hash`属性 😅。"
     },
     {
       "id": "07837485",
       "translatable": true,
       "content": ":::tip\n\nWhenever a hook returns data that you don't display, think about React re-renders. If you don't pay attention, a tiny `useLocation()` call added at the top of a React tree could harm your app's performance.\n\n:::",
-      "sourceMdx": ":::tip\n\nWhenever a hook returns data that you don't display, think about React re-renders. If you don't pay attention, a tiny `useLocation()` call added at the top of a React tree could harm your app's performance.\n\n:::"
+      "sourceMdx": ":::tip\n\nWhenever a hook returns data that you don't display, think about React re-renders. If you don't pay attention, a tiny `useLocation()` call added at the top of a React tree could harm your app's performance.\n\n:::",
+      "nodeType": "containerDirective",
+      "translated_content": ":::tip\n\n当Hook返回的数据未被使用时，请考虑React的重新渲染机制。如果不加注意，在React树顶部添加的一个小小`useLocation()`调用就可能损害应用性能。\n\n:::"
     },
     {
       "id": "f5db8e60",
       "translatable": true,
       "content": ":::info\n\nThe goal is not to criticize React-Router, but rather to illustrate the problem. `useLocation()` is just a good pragmatic candidate to create this interactive article. Your own React hooks and other third-party libraries might also over-return.\n\n:::",
-      "sourceMdx": ":::info\n\nThe goal is not to criticize React-Router, but rather to illustrate the problem. `useLocation()` is just a good pragmatic candidate to create this interactive article. Your own React hooks and other third-party libraries might also over-return.\n\n:::"
+      "sourceMdx": ":::info\n\nThe goal is not to criticize React-Router, but rather to illustrate the problem. `useLocation()` is just a good pragmatic candidate to create this interactive article. Your own React hooks and other third-party libraries might also over-return.\n\n:::",
+      "nodeType": "containerDirective",
+      "translated_content": ":::info\n\n本文并非批评React-Router，而是为了说明问题。`useLocation()`只是构建这篇互动文章的典型案例。你自己的React Hook或其他第三方库也可能存在过度返回值的情况。\n\n:::"
     },
     {
       "id": "1c598ecd",
       "translatable": true,
       "content": "## `useSyncExternalStore` to the rescue?",
-      "sourceMdx": "## `useSyncExternalStore` to the rescue?"
+      "sourceMdx": "## `useSyncExternalStore` to the rescue?",
+      "nodeType": "heading",
+      "translated_content": "## `useSyncExternalStore`来救援？"
     },
     {
       "id": "2547a6bb",
       "translatable": true,
       "content": "The [official documentation](https://reactjs.org/docs/hooks-reference.html#usesyncexternalstore) says:",
-      "sourceMdx": "The [official documentation](https://reactjs.org/docs/hooks-reference.html#usesyncexternalstore) says:"
+      "sourceMdx": "The [official documentation](https://reactjs.org/docs/hooks-reference.html#usesyncexternalstore) says:",
+      "nodeType": "paragraph",
+      "translated_content": "[官方文档](https://reactjs.org/docs/hooks-reference.html#usesyncexternalstore)说明："
     },
     {
       "id": "30d027a1",
       "translatable": true,
       "content": "> useSyncExternalStore is a hook recommended for reading and subscribing from external data sources in a way that’s compatible with concurrent rendering features like selective hydration and time slicing.\n> This method returns the value of the store and accepts three arguments:\n>\n> * `subscribe`: function to register a callback that is called whenever the store changes.\n> * `getSnapshot`: function that returns the current value of the store.\n> * `getServerSnapshot`: function that returns the snapshot used during server rendering.",
-      "sourceMdx": "> useSyncExternalStore is a hook recommended for reading and subscribing from external data sources in a way that’s compatible with concurrent rendering features like selective hydration and time slicing.\n> This method returns the value of the store and accepts three arguments:\n>\n> - `subscribe`: function to register a callback that is called whenever the store changes.\n> - `getSnapshot`: function that returns the current value of the store.\n> - `getServerSnapshot`: function that returns the snapshot used during server rendering."
+      "sourceMdx": "> useSyncExternalStore is a hook recommended for reading and subscribing from external data sources in a way that’s compatible with concurrent rendering features like selective hydration and time slicing.\n> This method returns the value of the store and accepts three arguments:\n>\n> - `subscribe`: function to register a callback that is called whenever the store changes.\n> - `getSnapshot`: function that returns the current value of the store.\n> - `getServerSnapshot`: function that returns the snapshot used during server rendering.",
+      "nodeType": "blockquote",
+      "translated_content": "> useSyncExternalStore是一个推荐用于读取和订阅外部数据源的Hook，其实现方式与选择性注水和时间切片等并发渲染特性兼容。\n> 该方法返回存储的值并接受三个参数：\n>\n> - `subscribe`: 用于注册在存储变化时被调用的回调函数\n> - `getSnapshot`: 返回存储当前值的函数\n> - `getServerSnapshot`: 服务端渲染时返回快照的函数"
     },
     {
       "id": "ec99e704",
       "translatable": false,
       "content": "```tsx\nfunction useSyncExternalStore<Snapshot>(\n  subscribe: (onStoreChange: () => void) => () => void,\n  getSnapshot: () => Snapshot,\n  getServerSnapshot?: () => Snapshot,\n): Snapshot;\n```",
-      "sourceMdx": "```tsx\nfunction useSyncExternalStore<Snapshot>(\n  subscribe: (onStoreChange: () => void) => () => void,\n  getSnapshot: () => Snapshot,\n  getServerSnapshot?: () => Snapshot,\n): Snapshot;\n```"
+      "sourceMdx": "```tsx\nfunction useSyncExternalStore<Snapshot>(\n  subscribe: (onStoreChange: () => void) => () => void,\n  getSnapshot: () => Snapshot,\n  getServerSnapshot?: () => Snapshot,\n): Snapshot;\n```",
+      "nodeType": "code",
+      "translated_content": "@@untranslatable_placeholder_ec99e704"
     },
     {
       "id": "2838eb68",
       "translatable": true,
       "content": "This feels a bit abstract. This [beta doc page](https://beta.reactjs.org/learn/you-might-not-need-an-effect#subscribing-to-an-external-store) gives a good example:",
-      "sourceMdx": "This feels a bit abstract. This [beta doc page](https://beta.reactjs.org/learn/you-might-not-need-an-effect#subscribing-to-an-external-store) gives a good example:"
+      "sourceMdx": "This feels a bit abstract. This [beta doc page](https://beta.reactjs.org/learn/you-might-not-need-an-effect#subscribing-to-an-external-store) gives a good example:",
+      "nodeType": "paragraph",
+      "translated_content": "这听起来有些抽象。[Beta版文档](https://beta.reactjs.org/learn/you-might-not-need-an-effect#subscribing-to-an-external-store)提供了很好的示例："
     },
     {
       "id": "de26f08a",
       "translatable": false,
       "content": "```tsx\nfunction subscribe(callback) {\n  window.addEventListener(\"online\", callback);\n  window.addEventListener(\"offline\", callback);\n  return () => {\n    window.removeEventListener(\"online\", callback);\n    window.removeEventListener(\"offline\", callback);\n  };\n}\n\nfunction useOnlineStatus() {\n  return useSyncExternalStore(\n    subscribe,\n    () => navigator.onLine,\n    () => true,\n  );\n}\n\nfunction ChatIndicator() {\n  const isOnline = useOnlineStatus();\n  // ...\n}\n```",
-      "sourceMdx": "```tsx\nfunction subscribe(callback) {\n  window.addEventListener(\"online\", callback);\n  window.addEventListener(\"offline\", callback);\n  return () => {\n    window.removeEventListener(\"online\", callback);\n    window.removeEventListener(\"offline\", callback);\n  };\n}\n\nfunction useOnlineStatus() {\n  return useSyncExternalStore(\n    subscribe,\n    () => navigator.onLine,\n    () => true,\n  );\n}\n\nfunction ChatIndicator() {\n  const isOnline = useOnlineStatus();\n  // ...\n}\n```"
+      "sourceMdx": "```tsx\nfunction subscribe(callback) {\n  window.addEventListener(\"online\", callback);\n  window.addEventListener(\"offline\", callback);\n  return () => {\n    window.removeEventListener(\"online\", callback);\n    window.removeEventListener(\"offline\", callback);\n  };\n}\n\nfunction useOnlineStatus() {\n  return useSyncExternalStore(\n    subscribe,\n    () => navigator.onLine,\n    () => true,\n  );\n}\n\nfunction ChatIndicator() {\n  const isOnline = useOnlineStatus();\n  // ...\n}\n```",
+      "nodeType": "code",
+      "translated_content": "@@untranslatable_placeholder_de26f08a"
     },
     {
       "id": "53aa2b95",
       "translatable": true,
       "content": "It turns out that the browser history can also be considered as an external data source. Let's see how to use `useSyncExternalStore` with React-Router!",
-      "sourceMdx": "It turns out that the browser history can also be considered as an external data source. Let's see how to use `useSyncExternalStore` with React-Router!"
+      "sourceMdx": "It turns out that the browser history can also be considered as an external data source. Let's see how to use `useSyncExternalStore` with React-Router!",
+      "nodeType": "paragraph",
+      "translated_content": "实际上，浏览器历史记录也可以被视为外部数据源。让我们看看如何将`useSyncExternalStore`与React-Router结合使用！"
     },
     {
       "id": "c766290e",
       "translatable": true,
       "content": "## Implementing `useHistorySelector()`",
-      "sourceMdx": "## Implementing `useHistorySelector()`"
+      "sourceMdx": "## Implementing `useHistorySelector()`",
+      "nodeType": "heading",
+      "translated_content": "## 实现`useHistorySelector()`"
     },
     {
       "id": "5c7d994c",
       "translatable": true,
       "content": "React-Router expose everything we need to wire `useSyncExternalStore`:",
-      "sourceMdx": "React-Router expose everything we need to wire `useSyncExternalStore`:"
+      "sourceMdx": "React-Router expose everything we need to wire `useSyncExternalStore`:",
+      "nodeType": "paragraph",
+      "translated_content": "React-Router提供了我们连接`useSyncExternalStore`所需的一切："
     },
     {
       "id": "ecba4df2",
       "translatable": true,
       "content": "* access the browser history with [`useHistory()`](https://v5.reactrouter.com/web/api/Hooks/usehistory)\n* subscribe for history updates with [`history.listen(callback)`](https://github.com/remix-run/history/blob/main/docs/api-reference.md#history.listen)\n* access a snapshot of the current location with [`history.location`](https://github.com/remix-run/history/blob/main/docs/api-reference.md#historylocation)",
-      "sourceMdx": "- access the browser history with [`useHistory()`](https://v5.reactrouter.com/web/api/Hooks/usehistory)\n- subscribe for history updates with [`history.listen(callback)`](https://github.com/remix-run/history/blob/main/docs/api-reference.md#history.listen)\n- access a snapshot of the current location with [`history.location`](https://github.com/remix-run/history/blob/main/docs/api-reference.md#historylocation)"
+      "sourceMdx": "- access the browser history with [`useHistory()`](https://v5.reactrouter.com/web/api/Hooks/usehistory)\n- subscribe for history updates with [`history.listen(callback)`](https://github.com/remix-run/history/blob/main/docs/api-reference.md#history.listen)\n- access a snapshot of the current location with [`history.location`](https://github.com/remix-run/history/blob/main/docs/api-reference.md#historylocation)",
+      "nodeType": "list",
+      "translated_content": "- 通过[`useHistory()`](https://v5.reactrouter.com/web/api/Hooks/usehistory)访问浏览器历史记录\n- 通过[`history.listen(callback)`](https://github.com/remix-run/history/blob/main/docs/api-reference.md#history.listen)订阅历史记录更新\n- 通过[`history.location`](https://github.com/remix-run/history/blob/main/docs/api-reference.md#historylocation)访问当前位置快照"
     },
     {
       "id": "51186659",
       "translatable": true,
       "content": ":::caution\n\nThis website uses React-Router v5: the solution will be different for React-Router v6 ([see](https://twitter.com/Zh0uzi/status/1567523679604539405)).\n\n:::",
-      "sourceMdx": ":::caution\n\nThis website uses React-Router v5: the solution will be different for React-Router v6 ([see](https://twitter.com/Zh0uzi/status/1567523679604539405)).\n\n:::"
+      "sourceMdx": ":::caution\n\nThis website uses React-Router v5: the solution will be different for React-Router v6 ([see](https://twitter.com/Zh0uzi/status/1567523679604539405)).\n\n:::",
+      "nodeType": "containerDirective",
+      "translated_content": ":::caution\n\n本网站使用React-Router v5：React-Router v6的解决方案会有所不同（[参见](https://twitter.com/Zh0uzi/status/1567523679604539405)）。\n\n:::"
     },
     {
       "id": "681ef526",
       "translatable": true,
       "content": "The implementation of `useHistorySelector()` relatively simple:",
-      "sourceMdx": "The implementation of `useHistorySelector()` relatively simple:"
+      "sourceMdx": "The implementation of `useHistorySelector()` relatively simple:",
+      "nodeType": "paragraph",
+      "translated_content": "`useHistorySelector()` 的实现相对简单："
     },
     {
       "id": "eb25bb8c",
       "translatable": false,
       "content": "```tsx\nfunction useHistorySelector(selector) {\n  const history = useHistory();\n  return useSyncExternalStore(history.listen, () =>\n    selector(history),\n  );\n}\n```",
-      "sourceMdx": "```tsx\nfunction useHistorySelector(selector) {\n  const history = useHistory();\n  return useSyncExternalStore(history.listen, () =>\n    selector(history),\n  );\n}\n```"
+      "sourceMdx": "```tsx\nfunction useHistorySelector(selector) {\n  const history = useHistory();\n  return useSyncExternalStore(history.listen, () =>\n    selector(history),\n  );\n}\n```",
+      "nodeType": "code",
+      "translated_content": "@@untranslatable_placeholder_eb25bb8c"
     },
     {
       "id": "44285072",
       "translatable": true,
       "content": "Let's use it in our app:",
-      "sourceMdx": "Let's use it in our app:"
+      "sourceMdx": "Let's use it in our app:",
+      "nodeType": "paragraph",
+      "translated_content": "让我们在应用中使用它："
     },
     {
       "id": "5680b15c",
       "translatable": false,
       "content": "```tsx\nfunction CurrentPathname() {\n  const pathname = useHistorySelector(\n    (history) => history.location.pathname,\n  );\n  return <div>{pathname}</div>;\n}\n\nfunction CurrentHash() {\n  const hash = useHistorySelector(\n    (history) => history.location.hash,\n  );\n  return <div>{hash}</div>;\n}\n```",
-      "sourceMdx": "```tsx\nfunction CurrentPathname() {\n  const pathname = useHistorySelector(\n    (history) => history.location.pathname,\n  );\n  return <div>{pathname}</div>;\n}\n\nfunction CurrentHash() {\n  const hash = useHistorySelector(\n    (history) => history.location.hash,\n  );\n  return <div>{hash}</div>;\n}\n```"
+      "sourceMdx": "```tsx\nfunction CurrentPathname() {\n  const pathname = useHistorySelector(\n    (history) => history.location.pathname,\n  );\n  return <div>{pathname}</div>;\n}\n\nfunction CurrentHash() {\n  const hash = useHistorySelector(\n    (history) => history.location.hash,\n  );\n  return <div>{hash}</div>;\n}\n```",
+      "nodeType": "code",
+      "translated_content": "@@untranslatable_placeholder_5680b15c"
     },
     {
       "id": "b905852a",
       "translatable": false,
       "content": "<AppFixed />",
-      "sourceMdx": "<AppFixed />"
+      "sourceMdx": "<AppFixed />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_b905852a"
     },
     {
       "id": "dc72fd20",
       "translatable": true,
       "content": "Now, when you click on a hash link above, the `CurrentPathname` component will **not re-render** anymore!",
-      "sourceMdx": "Now, when you click on a hash link above, the `CurrentPathname` component will **not re-render** anymore!"
+      "sourceMdx": "Now, when you click on a hash link above, the `CurrentPathname` component will **not re-render** anymore!",
+      "nodeType": "paragraph",
+      "translated_content": "现在，当你点击上面的哈希链接时，`CurrentPathname` 组件将**不再重新渲染**！"
     },
     {
       "id": "445c72bd",
       "translatable": true,
       "content": "## Another example: `scrollY`",
-      "sourceMdx": "## Another example: `scrollY`"
+      "sourceMdx": "## Another example: `scrollY`",
+      "nodeType": "heading",
+      "translated_content": "## 另一个示例：`scrollY`"
     },
     {
       "id": "9ef42155",
       "translatable": true,
       "content": "There are so many external data sources that we can subscribe to, and implementing your own selector system on top might enable you to optimize React re-renders.",
-      "sourceMdx": "There are so many external data sources that we can subscribe to, and implementing your own selector system on top might enable you to optimize React re-renders."
+      "sourceMdx": "There are so many external data sources that we can subscribe to, and implementing your own selector system on top might enable you to optimize React re-renders.",
+      "nodeType": "paragraph",
+      "translated_content": "我们可以订阅的外部数据源非常多，在其基础上实现自己的选择器系统可能有助于优化 React 的重新渲染。"
     },
     {
       "id": "fe25bd72",
       "translatable": true,
       "content": "For example, let's consider we want to use the `scrollY` position of a page. We can implement this custom React hook:",
-      "sourceMdx": "For example, let's consider we want to use the `scrollY` position of a page. We can implement this custom React hook:"
+      "sourceMdx": "For example, let's consider we want to use the `scrollY` position of a page. We can implement this custom React hook:",
+      "nodeType": "paragraph",
+      "translated_content": "例如，假设我们想使用页面的 `scrollY` 位置。我们可以实现这个自定义 React Hook："
     },
     {
       "id": "65ba7468",
       "translatable": false,
       "content": "```tsx\n// A memoized constant fn prevents unsubscribe/resubscribe\n// In practice it is not a big deal\nfunction subscribe(onStoreChange) {\n  global.window?.addEventListener(\"scroll\", onStoreChange);\n  return () =>\n    global.window?.removeEventListener(\n      \"scroll\",\n      onStoreChange,\n    );\n}\n\nfunction useScrollY(selector = (id) => id) {\n  return useSyncExternalStore(\n    subscribe,\n    () => selector(global.window?.scrollY),\n    () => undefined,\n  );\n}\n```",
-      "sourceMdx": "```tsx\n// A memoized constant fn prevents unsubscribe/resubscribe\n// In practice it is not a big deal\nfunction subscribe(onStoreChange) {\n  global.window?.addEventListener(\"scroll\", onStoreChange);\n  return () =>\n    global.window?.removeEventListener(\n      \"scroll\",\n      onStoreChange,\n    );\n}\n\nfunction useScrollY(selector = (id) => id) {\n  return useSyncExternalStore(\n    subscribe,\n    () => selector(global.window?.scrollY),\n    () => undefined,\n  );\n}\n```"
+      "sourceMdx": "```tsx\n// A memoized constant fn prevents unsubscribe/resubscribe\n// In practice it is not a big deal\nfunction subscribe(onStoreChange) {\n  global.window?.addEventListener(\"scroll\", onStoreChange);\n  return () =>\n    global.window?.removeEventListener(\n      \"scroll\",\n      onStoreChange,\n    );\n}\n\nfunction useScrollY(selector = (id) => id) {\n  return useSyncExternalStore(\n    subscribe,\n    () => selector(global.window?.scrollY),\n    () => undefined,\n  );\n}\n```",
+      "nodeType": "code",
+      "translated_content": "@@untranslatable_placeholder_65ba7468"
     },
     {
       "id": "e6ac016e",
       "translatable": true,
       "content": "We can now use this hook with an optional selector:",
-      "sourceMdx": "We can now use this hook with an optional selector:"
+      "sourceMdx": "We can now use this hook with an optional selector:",
+      "nodeType": "paragraph",
+      "translated_content": "现在我们可以使用这个 Hook 并传入一个可选的选择器："
     },
     {
       "id": "5b2e44c7",
       "translatable": false,
       "content": "```tsx\nfunction ScrollY() {\n  const scrollY = useScrollY();\n  return <div>{scrollY}</div>;\n}\n\nfunction ScrollYFloored() {\n  const to = 100;\n  const scrollYFloored = useScrollY((y) =>\n    y ? Math.floor(y / to) * to : undefined,\n  );\n  return <div>{scrollYFloored}</div>;\n}\n```",
-      "sourceMdx": "```tsx\nfunction ScrollY() {\n  const scrollY = useScrollY();\n  return <div>{scrollY}</div>;\n}\n\nfunction ScrollYFloored() {\n  const to = 100;\n  const scrollYFloored = useScrollY((y) =>\n    y ? Math.floor(y / to) * to : undefined,\n  );\n  return <div>{scrollYFloored}</div>;\n}\n```"
+      "sourceMdx": "```tsx\nfunction ScrollY() {\n  const scrollY = useScrollY();\n  return <div>{scrollY}</div>;\n}\n\nfunction ScrollYFloored() {\n  const to = 100;\n  const scrollYFloored = useScrollY((y) =>\n    y ? Math.floor(y / to) * to : undefined,\n  );\n  return <div>{scrollYFloored}</div>;\n}\n```",
+      "nodeType": "code",
+      "translated_content": "@@untranslatable_placeholder_5b2e44c7"
     },
     {
       "id": "70c65cb9",
       "translatable": false,
       "content": "<ScrollApp />",
-      "sourceMdx": "<ScrollApp />"
+      "sourceMdx": "<ScrollApp />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_70c65cb9"
     },
     {
       "id": "61e5dad6",
       "translatable": true,
       "content": "Scroll the page and see how the components above re-render? One is re-rendering less than the other!",
-      "sourceMdx": "Scroll the page and see how the components above re-render? One is re-rendering less than the other!"
+      "sourceMdx": "Scroll the page and see how the components above re-render? One is re-rendering less than the other!",
+      "nodeType": "paragraph",
+      "translated_content": "滚动页面并观察上方组件的重新渲染情况？其中一个组件的重新渲染次数比另一个少！"
     },
     {
       "id": "78bd731b",
       "translatable": true,
       "content": ":::info\n\nWhen you don't need a `scrollY` 1 pixel precision level, returning a wide range value such as `scrollY` can also be considered as over-returning. Consider returning a narrower value.\n\nFor example: a `useResponsiveBreakpoint()` hook that only returns a limited set of values (`small`, `medium` or `large`) will be more optimized than a `useViewportWidth()` hook.\n\nIf a React component only handles `large` screens differently, you can create an even narrower `useIsLargeScreen()` hook returning a boolean.\n\n:::",
-      "sourceMdx": ":::info\n\nWhen you don't need a `scrollY` 1 pixel precision level, returning a wide range value such as `scrollY` can also be considered as over-returning. Consider returning a narrower value.\n\nFor example: a `useResponsiveBreakpoint()` hook that only returns a limited set of values (`small`, `medium` or `large`) will be more optimized than a `useViewportWidth()` hook.\n\nIf a React component only handles `large` screens differently, you can create an even narrower `useIsLargeScreen()` hook returning a boolean.\n\n:::"
+      "sourceMdx": ":::info\n\nWhen you don't need a `scrollY` 1 pixel precision level, returning a wide range value such as `scrollY` can also be considered as over-returning. Consider returning a narrower value.\n\nFor example: a `useResponsiveBreakpoint()` hook that only returns a limited set of values (`small`, `medium` or `large`) will be more optimized than a `useViewportWidth()` hook.\n\nIf a React component only handles `large` screens differently, you can create an even narrower `useIsLargeScreen()` hook returning a boolean.\n\n:::",
+      "nodeType": "containerDirective",
+      "translated_content": ":::info\n\n当你不需要 `scrollY` 的 1 像素精度时，返回一个宽泛的值（如 `scrollY`）也可以被视为过度返回。考虑返回一个更窄的值。\n\n例如：一个仅返回有限值集（`small`、`medium` 或 `large`）的 `useResponsiveBreakpoint()` Hook 会比返回 `useViewportWidth()` 的 Hook 更优化。\n\n如果一个 React 组件仅针对 `large` 屏幕有不同处理，你甚至可以创建一个更窄的 `useIsLargeScreen()` Hook，返回一个布尔值。\n\n:::"
     },
     {
       "id": "67dfd717",
       "translatable": true,
       "content": "## Conclusion",
-      "sourceMdx": "## Conclusion"
+      "sourceMdx": "## Conclusion",
+      "nodeType": "heading",
+      "translated_content": "## 结论"
     },
     {
       "id": "ba12acea",
       "translatable": true,
       "content": "I hope this article convinced you to take a second look at `useSyncExternalStore()`. I feel this hook is currently underused in the React ecosystem, and deserves a bit more attention. There are many external data sources that you can subscribe to.",
-      "sourceMdx": "I hope this article convinced you to take a second look at `useSyncExternalStore()`. I feel this hook is currently underused in the React ecosystem, and deserves a bit more attention. There are many external data sources that you can subscribe to."
+      "sourceMdx": "I hope this article convinced you to take a second look at `useSyncExternalStore()`. I feel this hook is currently underused in the React ecosystem, and deserves a bit more attention. There are many external data sources that you can subscribe to.",
+      "nodeType": "paragraph",
+      "translated_content": "我希望这篇文章能让你重新审视 `useSyncExternalStore()`。我觉得这个 Hook 目前在 React 生态系统中使用不足，值得更多关注。有许多外部数据源可以订阅。"
     },
     {
       "id": "4033c370",
       "translatable": true,
       "content": "If you still haven't upgraded to React 18, there's a npm [use-sync-external-store](https://www.npmjs.com/package/use-sync-external-store) shim that you can already use today in older versions. There is also a `use-sync-external-store/with-selector` export in case you need to return a memoized non-primitive value.",
-      "sourceMdx": "If you still haven't upgraded to React 18, there's a npm [use-sync-external-store](https://www.npmjs.com/package/use-sync-external-store) shim that you can already use today in older versions. There is also a `use-sync-external-store/with-selector` export in case you need to return a memoized non-primitive value."
+      "sourceMdx": "If you still haven't upgraded to React 18, there's a npm [use-sync-external-store](https://www.npmjs.com/package/use-sync-external-store) shim that you can already use today in older versions. There is also a `use-sync-external-store/with-selector` export in case you need to return a memoized non-primitive value.",
+      "nodeType": "paragraph",
+      "translated_content": "如果你还没有升级到 React 18，可以使用 npm 上的 [use-sync-external-store](https://www.npmjs.com/package/use-sync-external-store) 垫片，它已经支持旧版本。如果你需要返回一个记忆化的非原始值，还可以使用 `use-sync-external-store/with-selector` 导出。"
     }
   ]
 }

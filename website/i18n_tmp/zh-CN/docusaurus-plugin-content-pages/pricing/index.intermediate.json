@@ -1,23 +1,29 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/src/pages/pricing/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/src/pages/pricing/index.mdx",
   "segments": [
     {
       "id": "a9b642df",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import PriceCalculator from \"./priceCalculator\";"
+      "sourceMdx": "import PriceCalculator from \"./priceCalculator\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_a9b642df"
     },
     {
       "id": "adbc947a",
       "translatable": true,
       "content": "# Price calculator",
-      "sourceMdx": "# Price calculator"
+      "sourceMdx": "# Price calculator",
+      "nodeType": "heading",
+      "translated_content": "# 价格计算器"
     },
     {
       "id": "e89f49cf",
       "translatable": false,
       "content": "<PriceCalculator />",
-      "sourceMdx": "<PriceCalculator />"
+      "sourceMdx": "<PriceCalculator />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_e89f49cf"
     }
   ]
 }

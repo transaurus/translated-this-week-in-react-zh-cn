@@ -1,269 +1,357 @@
 {
-  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_translation_lla55koz/tmpk9jspxfh/website/newsletter/164/index.mdx",
+  "source_path": "/var/folders/71/_th644vd5kxcpmnfqgtm275m0000gn/T/e2e_transaurus_ut53hddt/tmp9qn097ks/website/newsletter/164/index.mdx",
   "segments": [
     {
       "id": "58cfcc64",
       "translatable": false,
       "content": "---\nslug: /164\ntitle: \"This Week In React #164: so back! 30k, Next.js, Remix, Taint API, Activity, RSCs, React-Forget, Docusaurus, MDX, Storybook, Expo Orbit, Ignite, Victory XL, Reanimated, TypeScript...\"\nauthors: [slorber]\ndate: 11-29-2023\n---",
-      "sourceMdx": "---\nslug: /164\ntitle: \"This Week In React #164: so back! 30k, Next.js, Remix, Taint API, Activity, RSCs, React-Forget, Docusaurus, MDX, Storybook, Expo Orbit, Ignite, Victory XL, Reanimated, TypeScript...\"\nauthors: [slorber]\ndate: 11-29-2023\n---"
+      "sourceMdx": "---\nslug: /164\ntitle: \"This Week In React #164: so back! 30k, Next.js, Remix, Taint API, Activity, RSCs, React-Forget, Docusaurus, MDX, Storybook, Expo Orbit, Ignite, Victory XL, Reanimated, TypeScript...\"\nauthors: [slorber]\ndate: 11-29-2023\n---",
+      "nodeType": "yaml",
+      "translated_content": "@@untranslatable_placeholder_58cfcc64"
     },
     {
       "id": "3fbbcc07",
       "translatable": true,
       "content": "Hi everyone!",
-      "sourceMdx": "Hi everyone!"
+      "sourceMdx": "Hi everyone!",
+      "nodeType": "paragraph",
+      "translated_content": "大家好！"
     },
     {
       "id": "7e5c5a39",
       "translatable": true,
       "content": "It's been a long time, I hope you haven't missed me too much 😄",
-      "sourceMdx": "It's been a long time, I hope you haven't missed me too much 😄"
+      "sourceMdx": "It's been a long time, I hope you haven't missed me too much 😄",
+      "nodeType": "paragraph",
+      "translated_content": "好久不见，希望你们没有太想我 😄"
     },
     {
       "id": "8d66f911",
       "translatable": true,
       "content": "I've been on paternity leave and enjoyed my little Louise 👨‍🍼😍.",
-      "sourceMdx": "I've been on paternity leave and enjoyed my little Louise 👨‍🍼😍."
+      "sourceMdx": "I've been on paternity leave and enjoyed my little Louise 👨‍🍼😍.",
+      "nodeType": "paragraph",
+      "translated_content": "我休了陪产假，享受和小Louise在一起的时光 👨‍🍼😍。"
     },
     {
       "id": "ad8fd492",
       "translatable": true,
       "content": "Apparently my absence hasn't slowed down the growth of this newsletter, which has just [passed 30,000 subscribers](https://www.indiehackers.com/product/french-react-newsletter/30-000-subscribers--NkKag3m683I_z7J3TCI)! 🥳️",
-      "sourceMdx": "Apparently my absence hasn't slowed down the growth of this newsletter, which has just [passed 30,000 subscribers](https://www.indiehackers.com/product/french-react-newsletter/30-000-subscribers--NkKag3m683I_z7J3TCI)! 🥳️"
+      "sourceMdx": "Apparently my absence hasn't slowed down the growth of this newsletter, which has just [passed 30,000 subscribers](https://www.indiehackers.com/product/french-react-newsletter/30-000-subscribers--NkKag3m683I_z7J3TCI)! 🥳️",
+      "nodeType": "paragraph",
+      "translated_content": "显然我的缺席并未减缓这份通讯的增长，它刚刚[突破了30,000名订阅者](https://www.indiehackers.com/product/french-react-newsletter/30-000-subscribers--NkKag3m683I_z7J3TCI)！🥳️"
     },
     {
       "id": "86b54d44",
       "translatable": true,
       "content": "This is the first time I've taken such a long break (5 weeks), and it's hard to get back at it. You know I like to be exhaustive, but it's impossible for me to read and comment on everything that's happened since the last issue 😅. In short, this email is going to contain a lot of interesting links, but not necessarily commented on. I'll do better next week, I promise!",
-      "sourceMdx": "This is the first time I've taken such a long break (5 weeks), and it's hard to get back at it. You know I like to be exhaustive, but it's impossible for me to read and comment on everything that's happened since the last issue 😅. In short, this email is going to contain a lot of interesting links, but not necessarily commented on. I'll do better next week, I promise!"
+      "sourceMdx": "This is the first time I've taken such a long break (5 weeks), and it's hard to get back at it. You know I like to be exhaustive, but it's impossible for me to read and comment on everything that's happened since the last issue 😅. In short, this email is going to contain a lot of interesting links, but not necessarily commented on. I'll do better next week, I promise!",
+      "nodeType": "paragraph",
+      "translated_content": "这是我第一次休这么长的假（5周），重新投入工作有点困难。你们知道我喜欢详尽无遗，但不可能读完并评论自上一期以来发生的所有事情 😅。简而言之，这封邮件会包含很多有趣的链接，但不一定有评论。下周我会做得更好，我保证！"
     },
     {
       "id": "39b3772c",
       "translatable": true,
       "content": "In the future, I'd like to make this more professional, and publish every single week consistently. I'm [looking for someone to help me](https://thisweekinreact.com/job). If you're interested, please apply (paid).",
-      "sourceMdx": "In the future, I'd like to make this more professional, and publish every single week consistently. I'm [looking for someone to help me](https://thisweekinreact.com/job). If you're interested, please apply (paid)."
+      "sourceMdx": "In the future, I'd like to make this more professional, and publish every single week consistently. I'm [looking for someone to help me](https://thisweekinreact.com/job). If you're interested, please apply (paid).",
+      "nodeType": "paragraph",
+      "translated_content": "未来，我希望让这份通讯更加专业，每周定期发布。我正在[寻找帮手](https://thisweekinreact.com/job)。如果你感兴趣，请申请（有偿）。"
     },
     {
       "id": "c6da205d",
       "translatable": false,
       "content": "<!-- truncate -->",
-      "sourceMdx": "<!-- truncate -->"
+      "sourceMdx": "<!-- truncate -->",
+      "nodeType": "comment",
+      "translated_content": "@@untranslatable_placeholder_c6da205d"
     },
     {
       "id": "2df4f75f",
       "translatable": true,
       "content": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
-      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**"
+      "sourceMdx": "**💡 [Check this newsletter on Twitter](https://slo.im/thread) - visual format 🎨**",
+      "nodeType": "paragraph",
+      "translated_content": "**💡 [在Twitter上查看这份通讯](https://slo.im/thread) - 视觉格式 🎨**"
     },
     {
       "id": "1856ef44",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "cf4363fc",
       "translatable": false,
       "content": "[//]: <> (ESM Import/Export)",
-      "sourceMdx": "import Support from \"../_support.mdx\";"
+      "sourceMdx": "import Support from \"../_support.mdx\";",
+      "nodeType": "mdxjsEsm",
+      "translated_content": "@@untranslatable_placeholder_cf4363fc"
     },
     {
       "id": "2a3434e4",
       "translatable": false,
       "content": "<Support />",
-      "sourceMdx": "<Support />"
+      "sourceMdx": "<Support />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_2a3434e4"
     },
     {
       "id": "2b28cb1b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "b25f21be",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor1}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor1}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助 {#sponsor1}"
     },
     {
       "id": "7499a4e7",
       "translatable": true,
       "content": "[![Frontendmasters](/emails/issues/158/frontendmasters.jpg)](https://frontendmasters.com/learn/react/?utm_source=newsletter\\&utm_medium=thisweekinreact\\&utm_campaign=reactpath)",
-      "sourceMdx": "[![Frontendmasters](/emails/issues/158/frontendmasters.jpg)](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)"
+      "sourceMdx": "[![Frontendmasters](/emails/issues/158/frontendmasters.jpg)](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Frontendmasters](/emails/issues/158/frontendmasters.jpg)](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)"
     },
     {
       "id": "517051a7",
       "translatable": true,
       "content": "**[FrontendMasters – Complete React.js Learning Path to Senior React Developer](https://frontendmasters.com/learn/react/?utm_source=newsletter\\&utm_medium=thisweekinreact\\&utm_campaign=reactpath)**",
-      "sourceMdx": "**[FrontendMasters – Complete React.js Learning Path to Senior React Developer](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)**"
+      "sourceMdx": "**[FrontendMasters – Complete React.js Learning Path to Senior React Developer](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[FrontendMasters – 从初级到高级React开发者的完整学习路径](https://frontendmasters.com/learn/react/?utm_source=newsletter&utm_medium=thisweekinreact&utm_campaign=reactpath)**"
     },
     {
       "id": "135468ee",
       "translatable": true,
       "content": "Learn React.js from the ground up to advanced topics like performance, testing, and code quality. Start by building a real-world app in the Complete Introduction to React. Continue with Intermediate React, integrating the most popular tools from the ecosystem. Then learn performance, TypeScript, and even Next.js, the fullstack React framework!",
-      "sourceMdx": "Learn React.js from the ground up to advanced topics like performance, testing, and code quality. Start by building a real-world app in the Complete Introduction to React. Continue with Intermediate React, integrating the most popular tools from the ecosystem. Then learn performance, TypeScript, and even Next.js, the fullstack React framework!"
+      "sourceMdx": "Learn React.js from the ground up to advanced topics like performance, testing, and code quality. Start by building a real-world app in the Complete Introduction to React. Continue with Intermediate React, integrating the most popular tools from the ecosystem. Then learn performance, TypeScript, and even Next.js, the fullstack React framework!",
+      "nodeType": "paragraph",
+      "translated_content": "从零开始学习React.js，涵盖性能、测试和代码质量等高级主题。首先通过《React完全入门》构建一个真实世界的应用。接着学习《中级React》，集成生态中最流行的工具。然后学习性能优化、TypeScript，甚至是全栈React框架Next.js！"
     },
     {
       "id": "5ef5fda3",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "8d04259b",
       "translatable": true,
       "content": "## ⚛️ React",
-      "sourceMdx": "## ⚛️ React {#react}"
+      "sourceMdx": "## ⚛️ React {#react}",
+      "nodeType": "heading",
+      "translated_content": "## ⚛️ React {#react}"
     },
     {
       "id": "95e9ba12",
       "translatable": true,
       "content": "[![Next.js 14](/emails/issues/164/nextjs-14.jpg)](https://nextjs.org/blog/next-14)",
-      "sourceMdx": "[![Next.js 14](/emails/issues/164/nextjs-14.jpg)](https://nextjs.org/blog/next-14)"
+      "sourceMdx": "[![Next.js 14](/emails/issues/164/nextjs-14.jpg)](https://nextjs.org/blog/next-14)",
+      "nodeType": "paragraph",
+      "translated_content": "[![Next.js 14](/emails/issues/164/nextjs-14.jpg)](https://nextjs.org/blog/next-14)"
     },
     {
       "id": "8af76f3d",
       "translatable": true,
       "content": "[**Next.js 14**](https://nextjs.org/blog/next-14)",
-      "sourceMdx": "[**Next.js 14**](https://nextjs.org/blog/next-14)"
+      "sourceMdx": "[**Next.js 14**](https://nextjs.org/blog/next-14)",
+      "nodeType": "paragraph",
+      "translated_content": "[**Next.js 14**](https://nextjs.org/blog/next-14)"
     },
     {
       "id": "a9d49f92",
       "translatable": true,
       "content": "Next.js 14 has been announced at Next.js conf, including:",
-      "sourceMdx": "Next.js 14 has been announced at Next.js conf, including:"
+      "sourceMdx": "Next.js 14 has been announced at Next.js conf, including:",
+      "nodeType": "paragraph",
+      "translated_content": "Next.js 14在Next.js大会上发布，包括："
     },
     {
       "id": "40251870",
       "translatable": true,
       "content": "* Server Actions stable\n* Turbopack almost stable\n* Introducing Partial Pre-Rendering (experimental)\n* New learning resource",
-      "sourceMdx": "- Server Actions stable\n- Turbopack almost stable\n- Introducing Partial Pre-Rendering (experimental)\n- New learning resource"
+      "sourceMdx": "- Server Actions stable\n- Turbopack almost stable\n- Introducing Partial Pre-Rendering (experimental)\n- New learning resource",
+      "nodeType": "list",
+      "translated_content": "- Server Actions稳定版\n- Turbopack接近稳定\n- 引入Partial Pre-Rendering（实验性）\n- 新的学习资源"
     },
     {
       "id": "d3649a1e",
       "translatable": true,
       "content": "See also:",
-      "sourceMdx": "See also:"
+      "sourceMdx": "See also:",
+      "nodeType": "paragraph",
+      "translated_content": "另见："
     },
     {
       "id": "36ab8340",
       "translatable": true,
       "content": "* 🎥 [Playlist YouTube Next.js conf](https://www.youtube.com/playlist?list=PLBnKlKpPeagl57K9bCw_IXShWQXePnXjY)\n* 📜 [Next.js 14 on Vercel](https://vercel.com/changelog/next-js-14)\n* 📜 [A look at Partial Prerendering with Next.js 14 on Vercel.](https://vercel.com/blog/partial-prerendering-with-next-js-creating-a-new-default-rendering-model)",
-      "sourceMdx": "- 🎥 [Playlist YouTube Next.js conf](https://www.youtube.com/playlist?list=PLBnKlKpPeagl57K9bCw_IXShWQXePnXjY)\n- 📜 [Next.js 14 on Vercel](https://vercel.com/changelog/next-js-14)\n- 📜 [A look at Partial Prerendering with Next.js 14 on Vercel.](https://vercel.com/blog/partial-prerendering-with-next-js-creating-a-new-default-rendering-model)"
+      "sourceMdx": "- 🎥 [Playlist YouTube Next.js conf](https://www.youtube.com/playlist?list=PLBnKlKpPeagl57K9bCw_IXShWQXePnXjY)\n- 📜 [Next.js 14 on Vercel](https://vercel.com/changelog/next-js-14)\n- 📜 [A look at Partial Prerendering with Next.js 14 on Vercel.](https://vercel.com/blog/partial-prerendering-with-next-js-creating-a-new-default-rendering-model)",
+      "nodeType": "list",
+      "translated_content": "- 🎥 [Next.js大会YouTube播放列表](https://www.youtube.com/playlist?list=PLBnKlKpPeagl57K9bCw_IXShWQXePnXjY)\n- 📜 [Vercel上的Next.js 14](https://vercel.com/changelog/next-js-14)\n- 📜 [Vercel博客：Next.js 14的Partial Prerendering](https://vercel.com/blog/partial-prerendering-with-next-js-creating-a-new-default-rendering-model)"
     },
     {
       "id": "aa7d3f2b",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "ea0c7bae",
       "translatable": true,
       "content": "* 🐦 [Server Actions are available in React Canary](https://twitter.com/reactjs/status/1716573234160967762)\n* 🐦 [Andrew Clark - \"React 19 coming soon\"](https://twitter.com/acdlite/status/1719474730363662473)\n* 🐦 [Ryan Florence - \"React Server Components on the Remix roadmap\"](https://twitter.com/ryanflorence/status/1729274387671760936)\n* 👀 [React PR - `<Offscreen>` renamed as `<Activity>`](https://github.com/facebook/react/pull/27640): Dan Abramov explains the `<Offscreen>` name was misleading for this upcoming Concurrent React feature.\n* 👀 [React PR - Generate sourcemaps for production build artifacts](https://github.com/facebook/react/pull/26446): great news to improve the DX of many tools permitting to debug on your prod bundle, such as Sentry or Replay.\n* 👀 [React Canary Changelog](https://github.com/facebook/react/blob/main/CHANGELOG-canary.md): as planned, React canary releases have started to be documented properly.\n* 📖 [React docs - \"use server\"](https://react.dev/reference/react/use-server)\n* 📖 [React docs - Taint API](https://react.dev/reference/react/experimental_taintObjectReference): new experimental API to avoid sending sensitive data to the client in a RSC context.\n* 📖 [Redux Toolkit 2.0 + Redux core 5.0 Migration Guide](https://deploy-preview-3089--redux-starter-kit-docs.netlify.app/migrations/migrating-1.x-to-2.x): new versions of RTK, React-Redux and Redux core are in RC.\n* 📜 [Vercel - How to Think About Security in Next.js](https://nextjs.org/blog/security-nextjs-server-components-actions): gives great advices to avoid security issues related to RSCs and Server Actions, in particular how to avoid exposing sensitive data. Recommends to validate unsafe inputs, to add Access Control checks, to use a Data Access Layer, to test the new React Taint API...\n* 📜 [Why we use AWS instead of Vercel to host our Next.js app](https://graphite.dev/blog/why-we-use-aws-instead-of-vercel): Graphite decided to use EC2 containers instead of an edge runtime. Surprisingly performance remains similar.\n* 📜 [Why useSyncExternalStore Is Not Used in Jotai](https://blog.axlight.com/posts/why-use-sync-external-store-is-not-used-in-jotai/): on the difficulty to make both useTransition and useSyncExternalStore work at the same time.\n* 📜 [Event Types in React and TypeScript](https://www.totaltypescript.com/event-types-in-react-and-typescript): useful techniques if you can't remember types to use for your event handlers.\n* 📜 [Why You Need React Query](https://tkdodo.eu/blog/why-you-want-react-query): gives great reasons to avoid implementing your own data fetching based on useEffect, it's more complex than it looks like.\n* 📜 [React Server Components, without a framework?](https://timtech.blog/posts/react-server-components-rsc-no-framework/): great technical article to understand how RSCs work under the hood. Migrates a simple CRA app to a custom RSC setup.\n* 📜 [Remix ❤️ Vite](https://remix.run/blog/remix-heart-vite): with Remix 2.2, it's now possible to use Remix as a Vite plugin. This comes with interesting benefits.\n* 📜 [Why I'm Using Next.js](https://leerob.io/blog/using-nextjs)\n* 📜 [Why I Won't Use Next.js](https://www.epicweb.dev/why-i-wont-use-nextjs)\n* 📜 [What do we know about React Forget](https://www.code-insights.dev/posts/what-do-we-konw-about-react-forget)\n* 📜 [Using Selectlist in React](https://polypane.app/blog/using-selectlist-in-react/)\n* 📜 [A Complete Guide To Using Cookies in Next.js](https://www.propelauth.com/post/cookies-in-next-js)\n* 📜 [Pierre's Next.js Cache Strategy](https://pierre.co/share/fe34c8b7-4054-4e07-b108-c6c8230cfab1)\n* 📜 [React Server Components - Introduction and Background](https://jessedit.tech/articles/react-server-components/1-background/)\n* 📜 [On Mixing Client and Server](https://matt-rickard.com/on-mixing-client-and-server)\n* 📜 [Building a drawer component - Vaul](https://emilkowal.ski/ui/building-a-drawer-component)\n* 📜 [Typed server-safe DOM event listeners in Remix](https://alemtuzlak.hashnode.dev/typed-server-safe-dom-event-listeners-in-remix)\n* 📜 [Exploring Remix with Vite](https://alemtuzlak.hashnode.dev/exploring-remix-with-vite)\n* 📜 [Building the most ambitious sites on the Web with Vercel and Next.js 14](https://vercel.com/blog/building-the-most-ambitious-sites-on-the-web-with-vercel-and-next-js-14)\n* 📜 [re-re-reselect — Simplifying React state management](https://causal.app/blog/re-re-reselect)\n* 📜 [Refreshing the Next.js App Router When Your Markdown Content Changes](https://www.steveruiz.me/posts/nextjs-refresh-content)\n* 📜 [Guide to React Suspense and use hook for busy bees](https://sinja.io/blog/guide-to-react-suspense)\n* 📜 [Concurrency in React 18 for busy bees](https://sinja.io/blog/guide-to-concurrency-in-react-18)\n* 📜 [React-Admin - Turning Open-Source Into Profit: Our Journey](https://marmelab.com/blog/2023/11/08/open-source-profit-1.html)\n* 📜 [Keep that cursor still!](https://giacomocerquone.com/keep-input-cursor-still/)\n* 📜 [Testing against every Next.js canary release](https://francoisbest.com/posts/2023/testing-against-every-nextjs-canary-release)\n* 📜 [Against Single Element React Components](https://www.jameskerr.blog/posts/against-single-element-react-components/)\n* 📜 [How React works](https://incepter.github.io/how-react-works/)\n* 📜 [Out of Order Streaming from Scratch](https://gal.hagever.com/posts/out-of-order-streaming-from-scratch)\n* 📜 [daily.dev - Moving back to React](https://daily.dev/blog/moving-back-to-react)\n* 📜 [Headless Component: a pattern for composing React UIs](https://martinfowler.com/articles/headless-component.html)\n* 📜 [When NOT to use shadcn/ui?](https://mwskwong.com/blog/when-not-to-use-shadcn-ui)\n* 📜 [React Query Auth Token Refresh](https://elazizi.com/posts/react-query-auth-token-refresh/)\n* 📦 [Docusaurus v3.0 - MDX 3, TS/ESM configs, unlisted...](https://docusaurus.io/blog/releases/3.0)\n* 📦 [React Aria Components RC](https://react-spectrum.adobe.com/releases/2023-11-8.html)\n* 📦 [MDX v3 - Updating Node, await support...](https://mdxjs.com/blog/v3/)\n* 📦 [Remix v2.3](https://github.com/remix-run/remix/blob/main/CHANGELOG.md#v230)\n* 📦 [Astro 4.0 beta](https://astro.build/blog/astro-4-beta/?tw)\n* 📦 [Storybook 7.5 - Vite 5, Next.js improvements, faster...](https://storybook.js.org/blog/storybook-7-5/)\n* 🎥 [React Forget Compiler - Understanding Idiomatic React](https://portal.gitnation.org/contents/understanding-idiomatic-react)",
-      "sourceMdx": "- 🐦 [Server Actions are available in React Canary](https://twitter.com/reactjs/status/1716573234160967762)\n- 🐦 [Andrew Clark - \"React 19 coming soon\"](https://twitter.com/acdlite/status/1719474730363662473)\n- 🐦 [Ryan Florence - \"React Server Components on the Remix roadmap\"](https://twitter.com/ryanflorence/status/1729274387671760936)\n- 👀 [React PR - `<Offscreen>` renamed as `<Activity>`](https://github.com/facebook/react/pull/27640): Dan Abramov explains the `<Offscreen>` name was misleading for this upcoming Concurrent React feature.\n- 👀 [React PR - Generate sourcemaps for production build artifacts](https://github.com/facebook/react/pull/26446): great news to improve the DX of many tools permitting to debug on your prod bundle, such as Sentry or Replay.\n- 👀 [React Canary Changelog](https://github.com/facebook/react/blob/main/CHANGELOG-canary.md): as planned, React canary releases have started to be documented properly.\n- 📖 [React docs - \"use server\"](https://react.dev/reference/react/use-server)\n- 📖 [React docs - Taint API](https://react.dev/reference/react/experimental_taintObjectReference): new experimental API to avoid sending sensitive data to the client in a RSC context.\n- 📖 [Redux Toolkit 2.0 + Redux core 5.0 Migration Guide](https://deploy-preview-3089--redux-starter-kit-docs.netlify.app/migrations/migrating-1.x-to-2.x): new versions of RTK, React-Redux and Redux core are in RC.\n- 📜 [Vercel - How to Think About Security in Next.js](https://nextjs.org/blog/security-nextjs-server-components-actions): gives great advices to avoid security issues related to RSCs and Server Actions, in particular how to avoid exposing sensitive data. Recommends to validate unsafe inputs, to add Access Control checks, to use a Data Access Layer, to test the new React Taint API...\n- 📜 [Why we use AWS instead of Vercel to host our Next.js app](https://graphite.dev/blog/why-we-use-aws-instead-of-vercel): Graphite decided to use EC2 containers instead of an edge runtime. Surprisingly performance remains similar.\n- 📜 [Why useSyncExternalStore Is Not Used in Jotai](https://blog.axlight.com/posts/why-use-sync-external-store-is-not-used-in-jotai/): on the difficulty to make both useTransition and useSyncExternalStore work at the same time.\n- 📜 [Event Types in React and TypeScript](https://www.totaltypescript.com/event-types-in-react-and-typescript): useful techniques if you can't remember types to use for your event handlers.\n- 📜 [Why You Need React Query](https://tkdodo.eu/blog/why-you-want-react-query): gives great reasons to avoid implementing your own data fetching based on useEffect, it's more complex than it looks like.\n- 📜 [React Server Components, without a framework?](https://timtech.blog/posts/react-server-components-rsc-no-framework/): great technical article to understand how RSCs work under the hood. Migrates a simple CRA app to a custom RSC setup.\n- 📜 [Remix ❤️ Vite](https://remix.run/blog/remix-heart-vite): with Remix 2.2, it's now possible to use Remix as a Vite plugin. This comes with interesting benefits.\n- 📜 [Why I'm Using Next.js](https://leerob.io/blog/using-nextjs)\n- 📜 [Why I Won't Use Next.js](https://www.epicweb.dev/why-i-wont-use-nextjs)\n- 📜 [What do we know about React Forget](https://www.code-insights.dev/posts/what-do-we-konw-about-react-forget)\n- 📜 [Using Selectlist in React](https://polypane.app/blog/using-selectlist-in-react/)\n- 📜 [A Complete Guide To Using Cookies in Next.js](https://www.propelauth.com/post/cookies-in-next-js)\n- 📜 [Pierre's Next.js Cache Strategy](https://pierre.co/share/fe34c8b7-4054-4e07-b108-c6c8230cfab1)\n- 📜 [React Server Components - Introduction and Background](https://jessedit.tech/articles/react-server-components/1-background/)\n- 📜 [On Mixing Client and Server](https://matt-rickard.com/on-mixing-client-and-server)\n- 📜 [Building a drawer component - Vaul](https://emilkowal.ski/ui/building-a-drawer-component)\n- 📜 [Typed server-safe DOM event listeners in Remix](https://alemtuzlak.hashnode.dev/typed-server-safe-dom-event-listeners-in-remix)\n- 📜 [Exploring Remix with Vite](https://alemtuzlak.hashnode.dev/exploring-remix-with-vite)\n- 📜 [Building the most ambitious sites on the Web with Vercel and Next.js 14](https://vercel.com/blog/building-the-most-ambitious-sites-on-the-web-with-vercel-and-next-js-14)\n- 📜 [re-re-reselect — Simplifying React state management](https://causal.app/blog/re-re-reselect)\n- 📜 [Refreshing the Next.js App Router When Your Markdown Content Changes](https://www.steveruiz.me/posts/nextjs-refresh-content)\n- 📜 [Guide to React Suspense and use hook for busy bees](https://sinja.io/blog/guide-to-react-suspense)\n- 📜 [Concurrency in React 18 for busy bees](https://sinja.io/blog/guide-to-concurrency-in-react-18)\n- 📜 [React-Admin - Turning Open-Source Into Profit: Our Journey](https://marmelab.com/blog/2023/11/08/open-source-profit-1.html)\n- 📜 [Keep that cursor still!](https://giacomocerquone.com/keep-input-cursor-still/)\n- 📜 [Testing against every Next.js canary release](https://francoisbest.com/posts/2023/testing-against-every-nextjs-canary-release)\n- 📜 [Against Single Element React Components](https://www.jameskerr.blog/posts/against-single-element-react-components/)\n- 📜 [How React works](https://incepter.github.io/how-react-works/)\n- 📜 [Out of Order Streaming from Scratch](https://gal.hagever.com/posts/out-of-order-streaming-from-scratch)\n- 📜 [daily.dev - Moving back to React](https://daily.dev/blog/moving-back-to-react)\n- 📜 [Headless Component: a pattern for composing React UIs](https://martinfowler.com/articles/headless-component.html)\n- 📜 [When NOT to use shadcn/ui?](https://mwskwong.com/blog/when-not-to-use-shadcn-ui)\n- 📜 [React Query Auth Token Refresh](https://elazizi.com/posts/react-query-auth-token-refresh/)\n- 📦 [Docusaurus v3.0 - MDX 3, TS/ESM configs, unlisted...](https://docusaurus.io/blog/releases/3.0)\n- 📦 [React Aria Components RC](https://react-spectrum.adobe.com/releases/2023-11-8.html)\n- 📦 [MDX v3 - Updating Node, await support...](https://mdxjs.com/blog/v3/)\n- 📦 [Remix v2.3](https://github.com/remix-run/remix/blob/main/CHANGELOG.md#v230)\n- 📦 [Astro 4.0 beta](https://astro.build/blog/astro-4-beta/?tw)\n- 📦 [Storybook 7.5 - Vite 5, Next.js improvements, faster...](https://storybook.js.org/blog/storybook-7-5/)\n- 🎥 [React Forget Compiler - Understanding Idiomatic React](https://portal.gitnation.org/contents/understanding-idiomatic-react)"
+      "sourceMdx": "- 🐦 [Server Actions are available in React Canary](https://twitter.com/reactjs/status/1716573234160967762)\n- 🐦 [Andrew Clark - \"React 19 coming soon\"](https://twitter.com/acdlite/status/1719474730363662473)\n- 🐦 [Ryan Florence - \"React Server Components on the Remix roadmap\"](https://twitter.com/ryanflorence/status/1729274387671760936)\n- 👀 [React PR - `<Offscreen>` renamed as `<Activity>`](https://github.com/facebook/react/pull/27640): Dan Abramov explains the `<Offscreen>` name was misleading for this upcoming Concurrent React feature.\n- 👀 [React PR - Generate sourcemaps for production build artifacts](https://github.com/facebook/react/pull/26446): great news to improve the DX of many tools permitting to debug on your prod bundle, such as Sentry or Replay.\n- 👀 [React Canary Changelog](https://github.com/facebook/react/blob/main/CHANGELOG-canary.md): as planned, React canary releases have started to be documented properly.\n- 📖 [React docs - \"use server\"](https://react.dev/reference/react/use-server)\n- 📖 [React docs - Taint API](https://react.dev/reference/react/experimental_taintObjectReference): new experimental API to avoid sending sensitive data to the client in a RSC context.\n- 📖 [Redux Toolkit 2.0 + Redux core 5.0 Migration Guide](https://deploy-preview-3089--redux-starter-kit-docs.netlify.app/migrations/migrating-1.x-to-2.x): new versions of RTK, React-Redux and Redux core are in RC.\n- 📜 [Vercel - How to Think About Security in Next.js](https://nextjs.org/blog/security-nextjs-server-components-actions): gives great advices to avoid security issues related to RSCs and Server Actions, in particular how to avoid exposing sensitive data. Recommends to validate unsafe inputs, to add Access Control checks, to use a Data Access Layer, to test the new React Taint API...\n- 📜 [Why we use AWS instead of Vercel to host our Next.js app](https://graphite.dev/blog/why-we-use-aws-instead-of-vercel): Graphite decided to use EC2 containers instead of an edge runtime. Surprisingly performance remains similar.\n- 📜 [Why useSyncExternalStore Is Not Used in Jotai](https://blog.axlight.com/posts/why-use-sync-external-store-is-not-used-in-jotai/): on the difficulty to make both useTransition and useSyncExternalStore work at the same time.\n- 📜 [Event Types in React and TypeScript](https://www.totaltypescript.com/event-types-in-react-and-typescript): useful techniques if you can't remember types to use for your event handlers.\n- 📜 [Why You Need React Query](https://tkdodo.eu/blog/why-you-want-react-query): gives great reasons to avoid implementing your own data fetching based on useEffect, it's more complex than it looks like.\n- 📜 [React Server Components, without a framework?](https://timtech.blog/posts/react-server-components-rsc-no-framework/): great technical article to understand how RSCs work under the hood. Migrates a simple CRA app to a custom RSC setup.\n- 📜 [Remix ❤️ Vite](https://remix.run/blog/remix-heart-vite): with Remix 2.2, it's now possible to use Remix as a Vite plugin. This comes with interesting benefits.\n- 📜 [Why I'm Using Next.js](https://leerob.io/blog/using-nextjs)\n- 📜 [Why I Won't Use Next.js](https://www.epicweb.dev/why-i-wont-use-nextjs)\n- 📜 [What do we know about React Forget](https://www.code-insights.dev/posts/what-do-we-konw-about-react-forget)\n- 📜 [Using Selectlist in React](https://polypane.app/blog/using-selectlist-in-react/)\n- 📜 [A Complete Guide To Using Cookies in Next.js](https://www.propelauth.com/post/cookies-in-next-js)\n- 📜 [Pierre's Next.js Cache Strategy](https://pierre.co/share/fe34c8b7-4054-4e07-b108-c6c8230cfab1)\n- 📜 [React Server Components - Introduction and Background](https://jessedit.tech/articles/react-server-components/1-background/)\n- 📜 [On Mixing Client and Server](https://matt-rickard.com/on-mixing-client-and-server)\n- 📜 [Building a drawer component - Vaul](https://emilkowal.ski/ui/building-a-drawer-component)\n- 📜 [Typed server-safe DOM event listeners in Remix](https://alemtuzlak.hashnode.dev/typed-server-safe-dom-event-listeners-in-remix)\n- 📜 [Exploring Remix with Vite](https://alemtuzlak.hashnode.dev/exploring-remix-with-vite)\n- 📜 [Building the most ambitious sites on the Web with Vercel and Next.js 14](https://vercel.com/blog/building-the-most-ambitious-sites-on-the-web-with-vercel-and-next-js-14)\n- 📜 [re-re-reselect — Simplifying React state management](https://causal.app/blog/re-re-reselect)\n- 📜 [Refreshing the Next.js App Router When Your Markdown Content Changes](https://www.steveruiz.me/posts/nextjs-refresh-content)\n- 📜 [Guide to React Suspense and use hook for busy bees](https://sinja.io/blog/guide-to-react-suspense)\n- 📜 [Concurrency in React 18 for busy bees](https://sinja.io/blog/guide-to-concurrency-in-react-18)\n- 📜 [React-Admin - Turning Open-Source Into Profit: Our Journey](https://marmelab.com/blog/2023/11/08/open-source-profit-1.html)\n- 📜 [Keep that cursor still!](https://giacomocerquone.com/keep-input-cursor-still/)\n- 📜 [Testing against every Next.js canary release](https://francoisbest.com/posts/2023/testing-against-every-nextjs-canary-release)\n- 📜 [Against Single Element React Components](https://www.jameskerr.blog/posts/against-single-element-react-components/)\n- 📜 [How React works](https://incepter.github.io/how-react-works/)\n- 📜 [Out of Order Streaming from Scratch](https://gal.hagever.com/posts/out-of-order-streaming-from-scratch)\n- 📜 [daily.dev - Moving back to React](https://daily.dev/blog/moving-back-to-react)\n- 📜 [Headless Component: a pattern for composing React UIs](https://martinfowler.com/articles/headless-component.html)\n- 📜 [When NOT to use shadcn/ui?](https://mwskwong.com/blog/when-not-to-use-shadcn-ui)\n- 📜 [React Query Auth Token Refresh](https://elazizi.com/posts/react-query-auth-token-refresh/)\n- 📦 [Docusaurus v3.0 - MDX 3, TS/ESM configs, unlisted...](https://docusaurus.io/blog/releases/3.0)\n- 📦 [React Aria Components RC](https://react-spectrum.adobe.com/releases/2023-11-8.html)\n- 📦 [MDX v3 - Updating Node, await support...](https://mdxjs.com/blog/v3/)\n- 📦 [Remix v2.3](https://github.com/remix-run/remix/blob/main/CHANGELOG.md#v230)\n- 📦 [Astro 4.0 beta](https://astro.build/blog/astro-4-beta/?tw)\n- 📦 [Storybook 7.5 - Vite 5, Next.js improvements, faster...](https://storybook.js.org/blog/storybook-7-5/)\n- 🎥 [React Forget Compiler - Understanding Idiomatic React](https://portal.gitnation.org/contents/understanding-idiomatic-react)",
+      "nodeType": "list",
+      "translated_content": "- 🐦 [Server Actions 已在 React Canary 版本中可用](https://twitter.com/reactjs/status/1716573234160967762)\n- 🐦 [Andrew Clark - \"React 19 即将发布\"](https://twitter.com/acdlite/status/1719474730363662473)\n- 🐦 [Ryan Florence - \"Remix 路线图中将支持 React Server Components\"](https://twitter.com/ryanflorence/status/1729274387671760936)\n- 👀 [React PR - `<Offscreen>` 更名为 `<Activity>`](https://github.com/facebook/react/pull/27640): Dan Abramov 解释原名称容易误导用户理解这一即将推出的并发渲染特性。\n- 👀 [React PR - 为生产环境构建产物生成 Sourcemap](https://github.com/facebook/react/pull/26446): 显著提升 Sentry 或 Replay 等工具调试生产环境代码的开发者体验。\n- 👀 [React Canary 更新日志](https://github.com/facebook/react/blob/main/CHANGELOG-canary.md): 按计划开始规范记录 Canary 版本的变更内容。\n- 📖 [React 文档 - \"use server\"](https://react.dev/reference/react/use-server)\n- 📖 [React 文档 - Taint API](https://react.dev/reference/react/experimental_taintObjectReference): 实验性 API，防止 RSC 环境下敏感数据泄露至客户端。\n- 📖 [Redux Toolkit 2.0 + Redux core 5.0 迁移指南](https://deploy-preview-3089--redux-starter-kit-docs.netlify.app/migrations/migrating-1.x-to-2.x): RTK、React-Redux 和 Redux 核心库的新版本已进入 RC 阶段。\n- 📜 [Vercel - Next.js 安全实践指南](https://nextjs.org/blog/security-nextjs-server-components-actions): 提供避免 RSC 和 Server Actions 安全漏洞的专业建议，包括验证非安全输入、访问控制检查、数据访问层设计、测试 Taint API 等。\n- 📜 [为何我们选择 AWS 而非 Vercel 部署 Next.js 应用](https://graphite.dev/blog/why-we-use-aws-instead-of-vercel): Graphite 使用 EC2 容器替代边缘运行时，性能表现相近。\n- 📜 [Jotai 为何不使用 useSyncExternalStore](https://blog.axlight.com/posts/why-use-sync-external-store-is-not-used-in-jotai/): 探讨同时实现 useTransition 和 useSyncExternalStore 的技术难点。\n- 📜 [React 与 TypeScript 中的事件类型](https://www.totaltypescript.com/event-types-in-react-and-typescript): 事件处理器类型定义实用技巧。\n- 📜 [你需要 React Query 的十大理由](https://tkdodo.eu/blog/why-you-want-react-query): 论证基于 useEffect 自实现数据获取的复杂性。\n- 📜 [无框架实现 React Server Components？](https://timtech.blog/posts/react-server-components-rsc-no-framework/): 深度解析 RSC 底层原理，演示如何改造 CRA 项目支持 RSC。\n- 📜 [Remix ❤️ Vite](https://remix.run/blog/remix-heart-vite): Remix 2.2 支持作为 Vite 插件使用，带来多项优势。\n- 📜 [我选择 Next.js 的原因](https://leerob.io/blog/using-nextjs)\n- 📜 [我拒绝使用 Next.js 的原因](https://www.epicweb.dev/why-i-wont-use-nextjs)\n- 📜 [关于 React Forget 的已知信息](https://www.code-insights.dev/posts/what-do-we-konw-about-react-forget)\n- 📜 [在 React 中使用 Selectlist](https://polypane.app/blog/using-selectlist-in-react/)\n- 📜 [Next.js Cookie 使用完全指南](https://www.propelauth.com/post/cookies-in-next-js)\n- 📜 [Pierre 的 Next.js 缓存策略](https://pierre.co/share/fe34c8b7-4054-4e07-b108-c6c8230cfab1)\n- 📜 [React Server Components 背景解析](https://jessedit.tech/articles/react-server-components/1-background/)\n- 📜 [论客户端与服务端的混合架构](https://matt-rickard.com/on-mixing-client-and-server)\n- 📜 [构建抽屉组件 - Vaul](https://emilkowal.ski/ui/building-a-drawer-component)\n- 📜 [Remix 中类型安全的服务端 DOM 事件监听](https://alemtuzlak.hashnode.dev/typed-server-safe-dom-event-listeners-in-remix)\n- 📜 [基于 Vite 探索 Remix](https://alemtuzlak.hashnode.dev/exploring-remix-with-vite)\n- 📜 [用 Vercel 和 Next.js 14 构建雄心勃勃的网站](https://vercel.com/blog/building-the-most-ambitious-sites-on-the-web-with-vercel-and-next-js-14)\n- 📜 [re-re-reselect — 简化 React 状态管理](https://causal.app/blog/re-re-reselect)\n- 📜 [Next.js App Router 内容更新自动刷新方案](https://www.steveruiz.me/posts/nextjs-refresh-content)\n- 📜 [React Suspense 与 use hook 速成指南](https://sinja.io/blog/guide-to-react-suspense)\n- 📜 [React 18 并发渲染原理精要](https://sinja.io/blog/guide-to-concurrency-in-react-18)\n- 📜 [React-Admin 开源商业化实践](https://marmelab.com/blog/2023/11/08/open-source-profit-1.html)\n- 📜 [保持输入光标稳定！](https://giacomocerquone.com/keep-input-cursor-still/)\n- 📜 [针对每个 Next.js Canary 版本进行测试](https://francoisbest.com/posts/2023/testing-against-every-nextjs-canary-release)\n- 📜 [反对单一元素 React 组件](https://www.jameskerr.blog/posts/against-single-element-react-components/)\n- 📜 [React 工作原理剖析](https://incepter.github.io/how-react-works/)\n- 📜 [从零实现乱序流式渲染](https://gal.hagever.com/posts/out-of-order-streaming-from-scratch)\n- 📜 [daily.dev 回归 React 技术栈](https://daily.dev/blog/moving-back-to-react)\n- 📜 [无头组件模式：构建 React UI 的新范式](https://martinfowler.com/articles/headless-component.html)\n- 📜 [何时不应使用 shadcn/ui？](https://mwskwong.com/blog/when-not-to-use-shadcn-ui)\n- 📜 [React Query 鉴权令牌刷新策略](https://elazizi.com/posts/react-query-auth-token-refresh/)\n- 📦 [Docusaurus v3.0 - 支持 MDX 3、TS/ESM 配置、未列出功能...](https://docusaurus.io/blog/releases/3.0)\n- 📦 [React Aria Components 发布候选版](https://react-spectrum.adobe.com/releases/2023-11-8.html)\n- 📦 [MDX v3 - Node 版本要求升级、支持 await...](https://mdxjs.com/blog/v3/)\n- 📦 [Remix v2.3 发布](https://github.com/remix-run/remix/blob/main/CHANGELOG.md#v230)\n- 📦 [Astro 4.0 测试版](https://astro.build/blog/astro-4-beta/?tw)\n- 📦 [Storybook 7.5 - 支持 Vite 5、Next.js 优化、性能提升...](https://storybook.js.org/blog/storybook-7-5/)\n- 🎥 [React Forget 编译器 - 理解 React 惯用模式](https://portal.gitnation.org/contents/understanding-idiomatic-react)"
     },
     {
       "id": "65095059",
       "translatable": false,
       "content": "<SubscribeFormEmbed placement=\"middle\" />",
-      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />"
+      "sourceMdx": "<SubscribeFormEmbed placement=\"middle\" />",
+      "nodeType": "mdxJsxFlowElement",
+      "translated_content": "@@untranslatable_placeholder_65095059"
     },
     {
       "id": "e55f4c1f",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "48155948",
       "translatable": true,
       "content": "## 💸 Sponsor",
-      "sourceMdx": "## 💸 Sponsor {#sponsor2}"
+      "sourceMdx": "## 💸 Sponsor {#sponsor2}",
+      "nodeType": "heading",
+      "translated_content": "## 💸 赞助 {#sponsor2}"
     },
     {
       "id": "1958bc43",
       "translatable": true,
       "content": "[![No-Code Form Builder for React](/emails/issues/164/surveyjs.jpg)](https://surveyjs.io/?utm_source=thisweekinreact\\&utm_medium=email)",
-      "sourceMdx": "[![No-Code Form Builder for React](/emails/issues/164/surveyjs.jpg)](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)"
+      "sourceMdx": "[![No-Code Form Builder for React](/emails/issues/164/surveyjs.jpg)](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)",
+      "nodeType": "paragraph",
+      "translated_content": "[![React无代码表单构建工具](/emails/issues/164/surveyjs.jpg)](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)"
     },
     {
       "id": "a8610918",
       "translatable": true,
       "content": "**[No-Code Form Builder for React](https://surveyjs.io/?utm_source=thisweekinreact\\&utm_medium=email)**",
-      "sourceMdx": "**[No-Code Form Builder for React](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)**"
+      "sourceMdx": "**[No-Code Form Builder for React](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)**",
+      "nodeType": "paragraph",
+      "translated_content": "**[React无代码表单构建工具](https://surveyjs.io/?utm_source=thisweekinreact&utm_medium=email)**"
     },
     {
       "id": "a6c928a1",
       "translatable": true,
       "content": "SurveyJS is a product suite of open-source JavaScript libraries that allow you to **build a** **robust form management system** fully integrated into your IT infrastructure.",
-      "sourceMdx": "SurveyJS is a product suite of open-source JavaScript libraries that allow you to **build a** **robust form management system** fully integrated into your IT infrastructure."
+      "sourceMdx": "SurveyJS is a product suite of open-source JavaScript libraries that allow you to **build a** **robust form management system** fully integrated into your IT infrastructure.",
+      "nodeType": "paragraph",
+      "translated_content": "SurveyJS是一套开源JavaScript库产品，可帮助您构建**完全集成到IT基础设施中的强大表单管理系统**。"
     },
     {
       "id": "b6152880",
       "translatable": true,
       "content": "You can create and easily modify multiple **JSON-based forms in a drag-and-drop form builder with an integrated Theme Editor**. Adjust various UI theme settings to achieve unique form looks. Render custom forms in your React application, collect responses from users, and **maintain full control over the data flow**. These libraries do not directly interact with server code or databases. Visit [https://surveyjs.io/](https://surveyjs.io/) to try out our free full-scale demo and find multiple code examples.",
-      "sourceMdx": "You can create and easily modify multiple **JSON-based forms in a drag-and-drop form builder with an integrated Theme Editor**. Adjust various UI theme settings to achieve unique form looks. Render custom forms in your React application, collect responses from users, and **maintain full control over the data flow**. These libraries do not directly interact with server code or databases. Visit [https://surveyjs.io/](https://surveyjs.io/) to try out our free full-scale demo and find multiple code examples."
+      "sourceMdx": "You can create and easily modify multiple **JSON-based forms in a drag-and-drop form builder with an integrated Theme Editor**. Adjust various UI theme settings to achieve unique form looks. Render custom forms in your React application, collect responses from users, and **maintain full control over the data flow**. These libraries do not directly interact with server code or databases. Visit [https://surveyjs.io/](https://surveyjs.io/) to try out our free full-scale demo and find multiple code examples.",
+      "nodeType": "paragraph",
+      "translated_content": "您可以通过拖拽式表单构建器和集成的主题编辑器创建并轻松修改多个**基于JSON的表单**。调整各种UI主题设置以实现独特的表单外观。在React应用中渲染自定义表单、收集用户响应，并**完全掌控数据流**。这些库不直接与服务器代码或数据库交互。访问[surveyjs.io](https://surveyjs.io/)试用免费完整演示并查看多个代码示例。"
     },
     {
       "id": "18fa676c",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "2bb63d77",
       "translatable": true,
       "content": "## 📱 React-Native",
-      "sourceMdx": "## 📱 React-Native {#react-native}"
+      "sourceMdx": "## 📱 React-Native {#react-native}",
+      "nodeType": "heading",
+      "translated_content": "## 📱 React-Native {#react-native}"
     },
     {
       "id": "a8198b43",
       "translatable": true,
       "content": "* 💸 [Moropo - We'll Get Your App to 60% UI Test Coverage in 6 Weeks or You Don't Pay](https://www.moropo.com/automation-offer?utm_source=newsletter\\&utm_medium=emails\\&utm_campaign=twir-20231129)\n* 🐦 [Amazon using React-Native for years, including the main Amazon Shopping app](https://twitter.com/reactnative/status/1722025802974277983)\n* 🐦 [Static Hermes demo - JS performance comparable to C++](https://twitter.com/tmikov/status/1720103356738474060)\n* 👀 [RFC - Golden Template for create-react-native-library](https://github.com/react-native-community/discussions-and-proposals/pull/721)\n* 👀 [RFC - Introducing reactNativeManifest to package.json](https://github.com/react-native-community/discussions-and-proposals/pull/717)\n* 📖 [Develop an app with Expo - Overview](https://docs.expo.dev/workflow/overview/)\n* 📜 [Universal Links are Important](https://evanbacon.dev/blog/universal-links)\n* 📜 [Apple Home Screen Widgets with Expo CNG](https://evanbacon.dev/blog/apple-home-screen-widgets)\n* 📜 [Securing your React Native app with SSL Pinning](https://www.bam.tech/article/securing-your-react-native-app-with-ssl-pinning)\n* 📜 [Our journey from React Native to Expo for mobile app development at Alan](https://medium.com/alan/our-journey-from-react-native-to-expo-for-mobile-app-development-at-alan-%EF%B8%8F-3b1569e8ab7c)\n* 📜 [Node.js mobile rebooted](https://nodejs-mobile.github.io/blog/reboot)\n* 📜 [Victory Native Turns 40](https://formidable.com/blog/2023/victory-native-turns-40/)\n* 📦 [Expo Orbit v1 - macOS menu bar app](https://expo.dev/changelog/2023/11-14-orbit-v1)\n* 📦 [React-Native 0.73 RC.6](https://github.com/facebook/react-native/releases/tag/v0.73.0-rc.6)\n* 📦 [Reanimated 3.6 - Multithreading, Layout animations on web...](https://github.com/software-mansion/react-native-reanimated/releases/tag/3.6.0)\n* 📦 [Ignite 9.0 - More Expo-focused than ever](https://shift.infinite.red/announcing-ignite-9-0-exp-ress-o-89ab5801937d)\n* 📦 [react-native-testing-library 12.4 - Built-in Jest matchers](https://github.com/callstack/react-native-testing-library/releases/tag/v12.4.0)\n* 📦 [react-native-ai - full stack framework for building cross-platform mobile AI apps](https://github.com/dabit3/react-native-ai)\n* 🎥 [The road to a better developer experience](https://www.youtube.com/watch?v=YA0PMPm12SU): Krzysztof presented a demo of a very promising React-Native IDE taking the form of a VSCode extension. See also this [🐦 thread](https://twitter.com/kzzzf/status/1722973994368762335).",
-      "sourceMdx": "- 💸 [Moropo - We'll Get Your App to 60% UI Test Coverage in 6 Weeks or You Don't Pay](https://www.moropo.com/automation-offer?utm_source=newsletter&utm_medium=emails&utm_campaign=twir-20231129)\n- 🐦 [Amazon using React-Native for years, including the main Amazon Shopping app](https://twitter.com/reactnative/status/1722025802974277983)\n- 🐦 [Static Hermes demo - JS performance comparable to C++](https://twitter.com/tmikov/status/1720103356738474060)\n- 👀 [RFC - Golden Template for create-react-native-library](https://github.com/react-native-community/discussions-and-proposals/pull/721)\n- 👀 [RFC - Introducing reactNativeManifest to package.json](https://github.com/react-native-community/discussions-and-proposals/pull/717)\n- 📖 [Develop an app with Expo - Overview](https://docs.expo.dev/workflow/overview/)\n- 📜 [Universal Links are Important](https://evanbacon.dev/blog/universal-links)\n- 📜 [Apple Home Screen Widgets with Expo CNG](https://evanbacon.dev/blog/apple-home-screen-widgets)\n- 📜 [Securing your React Native app with SSL Pinning](https://www.bam.tech/article/securing-your-react-native-app-with-ssl-pinning)\n- 📜 [Our journey from React Native to Expo for mobile app development at Alan](https://medium.com/alan/our-journey-from-react-native-to-expo-for-mobile-app-development-at-alan-%EF%B8%8F-3b1569e8ab7c)\n- 📜 [Node.js mobile rebooted](https://nodejs-mobile.github.io/blog/reboot)\n- 📜 [Victory Native Turns 40](https://formidable.com/blog/2023/victory-native-turns-40/)\n- 📦 [Expo Orbit v1 - macOS menu bar app](https://expo.dev/changelog/2023/11-14-orbit-v1)\n- 📦 [React-Native 0.73 RC.6](https://github.com/facebook/react-native/releases/tag/v0.73.0-rc.6)\n- 📦 [Reanimated 3.6 - Multithreading, Layout animations on web...](https://github.com/software-mansion/react-native-reanimated/releases/tag/3.6.0)\n- 📦 [Ignite 9.0 - More Expo-focused than ever](https://shift.infinite.red/announcing-ignite-9-0-exp-ress-o-89ab5801937d)\n- 📦 [react-native-testing-library 12.4 - Built-in Jest matchers](https://github.com/callstack/react-native-testing-library/releases/tag/v12.4.0)\n- 📦 [react-native-ai - full stack framework for building cross-platform mobile AI apps](https://github.com/dabit3/react-native-ai)\n- 🎥 [The road to a better developer experience](https://www.youtube.com/watch?v=YA0PMPm12SU): Krzysztof presented a demo of a very promising React-Native IDE taking the form of a VSCode extension. See also this [🐦 thread](https://twitter.com/kzzzf/status/1722973994368762335)."
+      "sourceMdx": "- 💸 [Moropo - We'll Get Your App to 60% UI Test Coverage in 6 Weeks or You Don't Pay](https://www.moropo.com/automation-offer?utm_source=newsletter&utm_medium=emails&utm_campaign=twir-20231129)\n- 🐦 [Amazon using React-Native for years, including the main Amazon Shopping app](https://twitter.com/reactnative/status/1722025802974277983)\n- 🐦 [Static Hermes demo - JS performance comparable to C++](https://twitter.com/tmikov/status/1720103356738474060)\n- 👀 [RFC - Golden Template for create-react-native-library](https://github.com/react-native-community/discussions-and-proposals/pull/721)\n- 👀 [RFC - Introducing reactNativeManifest to package.json](https://github.com/react-native-community/discussions-and-proposals/pull/717)\n- 📖 [Develop an app with Expo - Overview](https://docs.expo.dev/workflow/overview/)\n- 📜 [Universal Links are Important](https://evanbacon.dev/blog/universal-links)\n- 📜 [Apple Home Screen Widgets with Expo CNG](https://evanbacon.dev/blog/apple-home-screen-widgets)\n- 📜 [Securing your React Native app with SSL Pinning](https://www.bam.tech/article/securing-your-react-native-app-with-ssl-pinning)\n- 📜 [Our journey from React Native to Expo for mobile app development at Alan](https://medium.com/alan/our-journey-from-react-native-to-expo-for-mobile-app-development-at-alan-%EF%B8%8F-3b1569e8ab7c)\n- 📜 [Node.js mobile rebooted](https://nodejs-mobile.github.io/blog/reboot)\n- 📜 [Victory Native Turns 40](https://formidable.com/blog/2023/victory-native-turns-40/)\n- 📦 [Expo Orbit v1 - macOS menu bar app](https://expo.dev/changelog/2023/11-14-orbit-v1)\n- 📦 [React-Native 0.73 RC.6](https://github.com/facebook/react-native/releases/tag/v0.73.0-rc.6)\n- 📦 [Reanimated 3.6 - Multithreading, Layout animations on web...](https://github.com/software-mansion/react-native-reanimated/releases/tag/3.6.0)\n- 📦 [Ignite 9.0 - More Expo-focused than ever](https://shift.infinite.red/announcing-ignite-9-0-exp-ress-o-89ab5801937d)\n- 📦 [react-native-testing-library 12.4 - Built-in Jest matchers](https://github.com/callstack/react-native-testing-library/releases/tag/v12.4.0)\n- 📦 [react-native-ai - full stack framework for building cross-platform mobile AI apps](https://github.com/dabit3/react-native-ai)\n- 🎥 [The road to a better developer experience](https://www.youtube.com/watch?v=YA0PMPm12SU): Krzysztof presented a demo of a very promising React-Native IDE taking the form of a VSCode extension. See also this [🐦 thread](https://twitter.com/kzzzf/status/1722973994368762335).",
+      "nodeType": "list",
+      "translated_content": "- 💸 [Moropo - 6周内实现60% UI测试覆盖率，否则免费](https://www.moropo.com/automation-offer?utm_source=newsletter&utm_medium=emails&utm_campaign=twir-20231129)\n- 🐦 [亚马逊长期使用React-Native开发包括Amazon Shopping主应用](https://twitter.com/reactnative/status/1722025802974277983)\n- 🐦 [静态Hermes演示 - JS性能媲美C++](https://twitter.com/tmikov/status/1720103356738474060)\n- 👀 [RFC - create-react-native-library黄金模板](https://github.com/react-native-community/discussions-and-proposals/pull/721)\n- 👀 [RFC - 在package.json引入reactNativeManifest](https://github.com/react-native-community/discussions-and-proposals/pull/717)\n- 📖 [使用Expo开发应用 - 概述](https://docs.expo.dev/workflow/overview/)\n- 📜 [通用链接的重要性](https://evanbacon.dev/blog/universal-links)\n- 📜 [使用Expo CNG开发Apple主屏幕小组件](https://evanbacon.dev/blog/apple-home-screen-widgets)\n- 📜 [通过SSL Pinning保护React Native应用](https://www.bam.tech/article/securing-your-react-native-app-with-ssl-pinning)\n- 📜 [Alan公司从React Native转向Expo的移动开发之旅](https://medium.com/alan/our-journey-from-react-native-to-expo-for-mobile-app-development-at-alan-%EF%B8%8F-3b1569e8ab7c)\n- 📜 [Node.js移动端重启计划](https://nodejs-mobile.github.io/blog/reboot)\n- 📜 [Victory Native迎来40版本](https://formidable.com/blog/2023/victory-native-turns-40/)\n- 📦 [Expo Orbit v1 - macOS菜单栏应用](https://expo.dev/changelog/2023/11-14-orbit-v1)\n- 📦 [React-Native 0.73 RC.6](https://github.com/facebook/react-native/releases/tag/v0.73.0-rc.6)\n- 📦 [Reanimated 3.6 - 多线程支持、Web端布局动画...](https://github.com/software-mansion/react-native-reanimated/releases/tag/3.6.0)\n- 📦 [Ignite 9.0 - 更加聚焦Expo生态](https://shift.infinite.red/announcing-ignite-9-0-exp-ress-o-89ab5801937d)\n- 📦 [react-native-testing-library 12.4 - 内置Jest匹配器](https://github.com/callstack/react-native-testing-library/releases/tag/v12.4.0)\n- 📦 [react-native-ai - 构建跨平台移动AI应用的全栈框架](https://github.com/dabit3/react-native-ai)\n- 🎥 [打造更优开发者体验之路](https://www.youtube.com/watch?v=YA0PMPm12SU)：Krzysztof演示了极具潜力的React-Native IDE（VSCode扩展形态），另见[🐦推文](https://twitter.com/kzzzf/status/1722973994368762335)。"
     },
     {
       "id": "ac00ead3",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "671cbf7c",
       "translatable": true,
       "content": "## 🔀 Other",
-      "sourceMdx": "## 🔀 Other {#other}"
+      "sourceMdx": "## 🔀 Other {#other}",
+      "nodeType": "heading",
+      "translated_content": "## 🔀 其他 {#other}"
     },
     {
       "id": "1852dfef",
       "translatable": true,
       "content": "* 📊 [State of JavaScript 2023 - Survey is open](https://survey.devographics.com/en-US/survey/state-of-js/2023)\n* 📜 [An Interactive Guide to CSS Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)\n* 📦 [TypeScript 5.3 - import attributes, narrowing...](https://devblogs.microsoft.com/typescript/announcing-typescript-5-3/)\n* 📦 [Rspack 0.4 - Rsbuild 0.1](https://www.rspack.dev/blog/announcing-0.4.html)\n* 📦 [Yarn 4.0 - Hardened mode](https://yarnpkg.com/blog/release/4.0)\n* 📦 [Deno v1.38 - HTML doc generator and HMR](https://deno.com/blog/v1.38)\n* 📦 [Vite 5.0 - Rollup 4 and cleanups](https://vitejs.dev/blog/announcing-vite5)\n* 📦 [Prettier 3.1 - new ternary formatting](https://prettier.io/blog/2023/11/13/3.1.0)\n* 📦 [Biome 1.4 - Formatter 96% compatible with Prettier](https://biomejs.dev/blog/biome-wins-prettier-challenge)\n* 📦 [Mock Service Worker 2.0](https://github.com/mswjs/msw/releases/tag/v2.0.0)\n* 📦 [Hono 3.10 - Support for Async Components in JSX + Suspense](https://github.com/honojs/hono/releases/tag/v3.10.0)",
-      "sourceMdx": "- 📊 [State of JavaScript 2023 - Survey is open](https://survey.devographics.com/en-US/survey/state-of-js/2023)\n- 📜 [An Interactive Guide to CSS Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)\n- 📦 [TypeScript 5.3 - import attributes, narrowing...](https://devblogs.microsoft.com/typescript/announcing-typescript-5-3/)\n- 📦 [Rspack 0.4 - Rsbuild 0.1](https://www.rspack.dev/blog/announcing-0.4.html)\n- 📦 [Yarn 4.0 - Hardened mode](https://yarnpkg.com/blog/release/4.0)\n- 📦 [Deno v1.38 - HTML doc generator and HMR](https://deno.com/blog/v1.38)\n- 📦 [Vite 5.0 - Rollup 4 and cleanups](https://vitejs.dev/blog/announcing-vite5)\n- 📦 [Prettier 3.1 - new ternary formatting](https://prettier.io/blog/2023/11/13/3.1.0)\n- 📦 [Biome 1.4 - Formatter 96% compatible with Prettier](https://biomejs.dev/blog/biome-wins-prettier-challenge)\n- 📦 [Mock Service Worker 2.0](https://github.com/mswjs/msw/releases/tag/v2.0.0)\n- 📦 [Hono 3.10 - Support for Async Components in JSX + Suspense](https://github.com/honojs/hono/releases/tag/v3.10.0)"
+      "sourceMdx": "- 📊 [State of JavaScript 2023 - Survey is open](https://survey.devographics.com/en-US/survey/state-of-js/2023)\n- 📜 [An Interactive Guide to CSS Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)\n- 📦 [TypeScript 5.3 - import attributes, narrowing...](https://devblogs.microsoft.com/typescript/announcing-typescript-5-3/)\n- 📦 [Rspack 0.4 - Rsbuild 0.1](https://www.rspack.dev/blog/announcing-0.4.html)\n- 📦 [Yarn 4.0 - Hardened mode](https://yarnpkg.com/blog/release/4.0)\n- 📦 [Deno v1.38 - HTML doc generator and HMR](https://deno.com/blog/v1.38)\n- 📦 [Vite 5.0 - Rollup 4 and cleanups](https://vitejs.dev/blog/announcing-vite5)\n- 📦 [Prettier 3.1 - new ternary formatting](https://prettier.io/blog/2023/11/13/3.1.0)\n- 📦 [Biome 1.4 - Formatter 96% compatible with Prettier](https://biomejs.dev/blog/biome-wins-prettier-challenge)\n- 📦 [Mock Service Worker 2.0](https://github.com/mswjs/msw/releases/tag/v2.0.0)\n- 📦 [Hono 3.10 - Support for Async Components in JSX + Suspense](https://github.com/honojs/hono/releases/tag/v3.10.0)",
+      "nodeType": "list",
+      "translated_content": "- 📊 [2023年JavaScript现状调查 - 问卷开放中](https://survey.devographics.com/en-US/survey/state-of-js/2023)\n- 📜 [CSS Grid交互式指南](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)\n- 📦 [TypeScript 5.3 - 导入属性、类型收窄...](https://devblogs.microsoft.com/typescript/announcing-typescript-5-3/)\n- 📦 [Rspack 0.4 - Rsbuild 0.1发布](https://www.rspack.dev/blog/announcing-0.4.html)\n- 📦 [Yarn 4.0 - 强化模式](https://yarnpkg.com/blog/release/4.0)\n- 📦 [Deno v1.38 - HTML文档生成器与HMR](https://deno.com/blog/v1.38)\n- 📦 [Vite 5.0 - Rollup 4与代码清理](https://vitejs.dev/blog/announcing-vite5)\n- 📦 [Prettier 3.1 - 新的三元表达式格式化](https://prettier.io/blog/2023/11/13/3.1.0)\n- 📦 [Biome 1.4 - 格式化器与Prettier兼容度达96%](https://biomejs.dev/blog/biome-wins-prettier-challenge)\n- 📦 [Mock Service Worker 2.0发布](https://github.com/mswjs/msw/releases/tag/v2.0.0)\n- 📦 [Hono 3.10 - 支持JSX中的异步组件+Suspense](https://github.com/honojs/hono/releases/tag/v3.10.0)"
     },
     {
       "id": "c81952ce",
       "translatable": true,
       "content": "***",
-      "sourceMdx": "---"
+      "sourceMdx": "---",
+      "nodeType": "thematicBreak",
+      "translated_content": "---"
     },
     {
       "id": "657bde08",
       "translatable": true,
       "content": "## 🤭 Fun",
-      "sourceMdx": "## 🤭 Fun {#fun}"
+      "sourceMdx": "## 🤭 Fun {#fun}",
+      "nodeType": "heading",
+      "translated_content": "## 🤭 趣闻 {#fun}"
     },
     {
       "id": "827eb9a3",
       "translatable": true,
       "content": "[![alt](/emails/issues/164/meme.jpg)](https://twitter.com/sebastienlorber/status/1719831082235801974)",
-      "sourceMdx": "[![alt](/emails/issues/164/meme.jpg)](https://twitter.com/sebastienlorber/status/1719831082235801974)"
+      "sourceMdx": "[![alt](/emails/issues/164/meme.jpg)](https://twitter.com/sebastienlorber/status/1719831082235801974)",
+      "nodeType": "paragraph",
+      "translated_content": "[![alt](/emails/issues/164/meme.jpg)](https://twitter.com/sebastienlorber/status/1719831082235801974)"
     },
     {
       "id": "62d066b0",
       "translatable": true,
       "content": "See ya! 👋",
-      "sourceMdx": "See ya! 👋"
+      "sourceMdx": "See ya! 👋",
+      "nodeType": "paragraph",
+      "translated_content": "下期见！👋"
     }
   ]
 }

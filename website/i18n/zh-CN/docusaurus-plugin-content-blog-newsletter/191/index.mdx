@@ -7,13 +7,13 @@ date: 06-26-2024
 
 大家好！
 
-本周我们似乎终于进入了夏季/假期季节，React的重大公告节奏也有所放缓。我们将短暂休刊两周，7月17日恢复更新。
+本周我们似乎终于进入了夏季/假期模式，React的重大公告节奏明显放缓。我们将短暂休刊两期，于7月17日恢复更新。
 
-React方面，上周关于Suspense的争议仍在持续发酵。React Router的新特性允许开发者对路由树进行代码分割。
+React方面，上周关于Suspense的争议仍在持续发酵。React Router的新特性现在支持对路由树进行代码分割。
 
-React Native团队正试图发布v0.75的候选版本，虽然遇到些阻碍，但应该很快就能面世。
+React Native团队正试图发布v0.75的候选版本，虽然遇到些阻碍，但应该很快就能推出。
 
-最令人振奋的消息当属TypeScript 5.5稳定版发布：这个版本非常出色，特别是谓词类型推断功能！State of JS调查结果也已公布，可供了解JavaScript生态趋势。
+最令人兴奋的消息是TypeScript 5.5稳定版发布：这个版本非常出色，特别是谓词类型推断功能！《JavaScript现状》调查报告也已发布，可供了解JS趋势。
 
 <!-- truncate -->
 
@@ -29,62 +29,62 @@ import Support from "../_support.mdx";
 
 ## 💸 赞助商 {#sponsor1}
 
-[![企业级React网格组件新标杆](/emails/issues/190/advertfinal.jpg)](https://1771technologies.com/graphitegrid)
+[![企业级React数据网格的品类定义者](/emails/issues/190/advertfinal.jpg)](https://1771technologies.com/graphitegrid)
 
-**[企业级React网格组件新标杆](https://1771technologies.com/graphitegrid)**
+**[企业级React数据网格的品类定义者](https://1771technologies.com/graphitegrid)**
 
-数据网格是Web应用中的复杂组件，但现有解决方案效率低下、维护成本高且性能不佳。[Graphite Grid](https://1771technologies.com/graphitegrid)通过两大核心特性改变格局：可重定向渲染与响应式信号状态。
+数据网格是Web应用中的复杂组件，但现有解决方案效率低下、维护成本高且性能不佳。[Graphite Grid](https://1771technologies.com/graphitegrid)通过两大特性改变格局：可重定向渲染和响应式信号状态。
 
-**Graphite Grid**将网格状态与视图逻辑解耦，允许单一状态模型支持多种渲染目标（声明式或命令式）。内置**DOM和Canvas**渲染器，为开发者提供灵活的高性能选择方案 🚀。
+**Graphite Grid**将网格状态与视图逻辑分离，允许单一统一状态模型支持多种渲染目标（声明式或命令式）。包含**DOM和Canvas**渲染器，为开发者提供灵活的高性能选择🚀。
 
-该网格采用声明式设计并保持一致性，利用状态信号确保与应用的完美集成。作为**专为React打造**的解决方案，这是唯一基于React状态管理原语构建的JavaScript数据网格。[立即体验！](https://1771technologies.com/graphitegrid/demo)
+Graphite Grid采用声明式设计，通过状态信号确保与应用无缝集成。这是唯一基于React状态管理原语构建的JavaScript数据网格。[立即试用！](https://1771technologies.com/graphitegrid/demo)
 
 ---
 
-## ⚛️ React动态 {#react}
+## ⚛️ React {#react}
 
-[![React-Router 6.24 - 延迟路由发现](/emails/issues/191/rr.jpg)](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v6240)
+[![React-Router 6.24 - 惰性路由发现](/emails/issues/191/rr.jpg)](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v6240)
 
-**📦 [React-Router 6.24 - 延迟路由发现](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v6240)**
+**📦 [React-Router 6.24 - 惰性路由发现](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md#v6240)**
 
-新版React Router新增`unstable_patchRoutesOnMiss`钩子，当路由匹配失败时触发。开发者可借此动态加载额外路由，实现路由树代码分割，避免将所有路由集中在单一模块导致水合延迟。对于包含数千路由的大型应用，此特性尤为实用。
+新版React Router新增了`unstable_patchRoutesOnMiss`钩子，当路由匹配失败时触发。该特性允许动态加载路由模块，实现路由代码分割，避免将所有路由集中在单一模块导致水合延迟。对于包含数千条路由的大型应用尤为实用。
 
-Remix本应进入休眠期，但显然还没停下脚步！📦 [Remix 2.10](https://remix.run/docs/en/main/start/changelog#v2100)已通过简单的`future.unstable_fogOfWar`标志集成了该特性，命名为["战争迷雾"](https://remix.run/docs/en/main/guides/fog-of-war)功能。还实现了早期发现优化以避免请求瀑布。
+Remix本应进入休眠期，但显然还没到时候！📦 [Remix 2.10](https://remix.run/docs/en/main/start/changelog#v2100)已发布，通过便捷的["战争迷雾"](https://remix.run/docs/en/main/guides/fog-of-war)功能直接集成了该特性，只需设置`future.unstable_fogOfWar`标志即可启用。还实现了早期发现优化以避免请求瀑布。
 
 ---
 
 - 💸 [Meilisearch — 用React构建快速、容错的搜索功能](https://dub.sh/ueC2f57)
-- 👀 [React.dev PR - 添加品牌上下文菜单](https://github.com/reactjs/react.dev/pull/6986): 右键点击网站导航栏logo可访问React官方SVG和品牌色。
+- 👀 [React.dev PR - 添加品牌上下文菜单](https://github.com/reactjs/react.dev/pull/6986): 右键点击网站导航栏logo可访问React官方SVG和品牌色值。
 - 👀 [Next.js PR草案 - `nextConfig.requiredEnv`](https://github.com/vercel/next.js/pull/67187)
 - 👀 [Next.js PR草案 - 对`env`进行类型检查](https://github.com/vercel/next.js/pull/67157s)
-- 🐦 [Joe Savona - "关于19 RC版Suspense变更的一些思考"](https://x.com/en_JS/status/1803480672327311425): 为避免上周Suspense争议重演，React团队正通过工作组/RFC/canary渠道更早获取反馈。
-- 🐦 [Lee Robinsin - "Next.js缓存机制的演进方向"](https://x.com/leeerob/status/1803824227704877236): "我们的目标是让所有异步操作(如`fetch`)都需显式选择动态渲染"，"部分预渲染(PPR)将成为默认模式"。
-- 🗓️ [React Rally](https://reactrally.com/?utm_source=thisweekinreact) - 美国犹他州 - 8月12-13日 - 使用优惠码"TWIR"享9折。Kent C. Dodds将开设[React服务端组件工作坊](https://reactrally.com/workshop)
+- 🐦 [Joe Savona - "关于React 19 RC中Suspense变更的一些思考"](https://x.com/en_JS/status/1803480672327311425): 为避免上周Suspense争议重演，React团队正通过工作组、RFC和Canary版本提前收集反馈。
+- 🐦 [Lee Robinsin - "Next.js缓存机制的演进方向"](https://x.com/leeerob/status/1803824227704877236): "我们的目标是让所有异步操作(如`fetch`)都需显式选择动态渲染"，"相信部分预渲染(PPR)将成为默认模式"。
+- 🗓️ [React Rally大会](https://reactrally.com/?utm_source=thisweekinreact) - 美国犹他州 - 8月12-13日 - 使用优惠码"TWIR"享9折。Kent C. Dodds将开设[React服务端组件工作坊](https://reactrally.com/workshop)
 - 📨 [ECMAScript动态 - 订阅合作伙伴通讯掌握ES标准、TC39、JS工具链和运行时最新进展](https://ecmascript.news/?utm_source=thisweekinreact)
 - 📜 [组件化、同置与组合：React现状观察](https://bobaekang.com/blog/component-colocation-composition/): 近期Suspense争议凸显了React组件化愿景与当前实现间的鸿沟。
-- 📜 [从Markdown到视频 - 用Code Hike和Remotion制作动态代码演示](https://v1.codehike.org/blog/remotion): 若见过Matt Pocock或Delba的代码动画视频，本文详解其实现原理并附演示。
-- 📜 [深入理解React编译器](https://tonyalicea.dev/blog/understanding-react-compiler/): 从基础概念(转译器/AST/记忆化)切入，通过具体示例分析编译器输出。
-- 📜 [等待挂起状态：Suspense的(非最佳)替代算法](https://dev.to/alexandereardon/wait-for-pending-a-not-great-alternative-suspense-algorithm-1gdl): 探讨具有不同权衡的Suspense替代方案。
-- 📜 [如何让Framer Motion可拖拽元素吸附到断点](https://sinja.io/blog/framer-motion-drag-snap-points): 交互式教程实现基于惯性的吸附断点功能。
-- 📜 [Mobx自动记忆组件(无需React编译器)](https://www.mikejohnson.dev/posts/2024/06/mobx-react-compiler): 将React编译器示例改造为Mobx优化应用。MobX通过依赖自动追踪避免重渲染。[此issue](https://github.com/mobxjs/mobx/issues/3874)说明基于代理的Mobx与编译器不兼容，但作者确认已优化。
-- 📜 [Web Workers、Comlink、Vite与TanStack Query协同实践](https://johnnyreilly.com/web-workers-comlink-vite-tanstack-query): React Query作为"异步状态管理器"也能分流主线程计算压力。
-- 📜 [Storybook - 视觉测试：UI开发中的终极技巧](https://storybook.js.org/blog/visual-testing-is-the-greatest-trick-in-ui-development/): 视觉回归测试投入产出比极高，相比React Testing Library能更轻量覆盖组件。
-- 📜 [Next.js中客户端组件间的通信方案](https://www.thisdot.co/blog/communication-between-client-components-in-next-js): RSC时代下，提出Provider、搜索参数和服务状态三种跨组件通信方案。
-- 📜 [如何在Remix中用clientAction验证表单](https://sergiodxa.com/tutorials/validate-form-in-remix-with-clientaction): 新`clientAction`导出可完善服务端验证，渐进增强表单错误处理。
-- 📜 [基于OpenAPI实现类型安全的TanStack Query](https://ruanmartinelli.com/blog/tanstack-query-openapi): 创建符合OpenAPI规范的通用Query钩子(useGetQuery/usePostMutation等)。
-- 📜 [通过Next.js将Google Sheets作为React数据库](https://thenewstack.io/how-to-use-google-sheets-as-a-database-with-react-and-ssr/)
+- 📜 [从Markdown到视频 - 用Code Hike和Remotion制作动态代码演示](https://v1.codehike.org/blog/remotion): 若您看过Matt Pocock或Delba的代码动画视频，本文详解其实现原理并附演示案例。
+- 📜 [深入理解React编译器](https://tonyalicea.dev/blog/understanding-react-compiler/): 从基础概念(转译器、AST、记忆化)切入，通过具体示例分析编译器输出结果。
+- 📜 [等待进行中：一种(不完美)的Suspense替代算法](https://dev.to/alexandereardon/wait-for-pending-a-not-great-alternative-suspense-algorithm-1gdl): 探讨具有不同权衡的Suspense替代方案。
+- 📜 [如何让Framer Motion可拖拽元素吸附到断点](https://sinja.io/blog/framer-motion-drag-snap-points): 在Framer Motion上实现包含惯性/速度支持的吸附点交互方案。
+- 📜 [Mobx自动记忆组件(无需React编译器)](https://www.mikejohnson.dev/posts/2024/06/mobx-react-compiler): 将React编译器示例改造为Mobx优化应用。MobX通过自动依赖追踪避免重复渲染。[此Mobx issue](https://github.com/mobxjs/mobx/issues/3874)说明基于Proxy的Mobx与编译器不兼容，但作者确认其已优化。
+- 📜 [Web Workers、Comlink、Vite与TanStack Query整合实践](https://johnnyreilly.com/web-workers-comlink-vite-tanstack-query): React Query作为"异步状态管理器"，也能有效分流主线程计算压力。
+- 📜 [Storybook - 视觉测试：UI开发中的终极技巧](https://storybook.js.org/blog/visual-testing-is-the-greatest-trick-in-ui-development/): 视觉回归测试投入产出比极高，本文对比了在Storybook中添加比用React Testing Library实现相同覆盖更便捷。
+- 📜 [Next.js中客户端组件间的通信方案](https://www.thisdot.co/blog/communication-between-client-components-in-next-js): RSC时代下，提出了Provider、搜索参数和服务器状态三种跨客户端组件通信方案。
+- 📜 [如何在Remix中用clientAction验证表单](https://sergiodxa.com/tutorials/validate-form-in-remix-with-clientaction): 使用Remix新增的`clientAction`导出可渐进增强服务端`action`的本地验证能力。
+- 📜 [基于OpenAPI实现类型安全的TanStack Query](https://ruanmartinelli.com/blog/tanstack-query-openapi): 创建符合OpenAPI规范的全类型React Query钩子(如`useGetQuery`、`usePostMutation`)。
+- 📜 [如何通过Next.js将Google Sheets作为React应用的数据库](https://thenewstack.io/how-to-use-google-sheets-as-a-database-with-react-and-ssr/)
 - 📜 [在React中传递setState作为prop是否合理？](https://tigerabrodi.blog/is-it-ok-to-pass-setstate-as-a-prop-in-react)
-- 📦 [StyleX 0.7 - 实验性CLI工具/CSS变量字面量命名](https://stylexjs.com/blog/v0.7.0): 新CLI可批量转换文件夹，替代构建器集成方案。
-- 📦 [Next-Safe-Action 7.0 - 类型安全的服务端动作验证](https://github.com/TheEdoRan/next-safe-action/releases/tag/v7.0.0) 另见[v6到v7迁移指南](https://next-safe-action.dev/docs/migrations/v6-to-v7)。
-- 📦 [Astro 4.11 - 500页优化/Shiki转换器支持`<Code>`组件](https://astro.build/blog/astro-4110/)
-- 📦 [React-Admin 5.0 - 优化UI/开发体验/数据提供器/表单等](https://marmelab.com/blog/2024/06/20/react-admin-v5.html)
-- 📦 [Shopify Hydrogen更新 - 可视化编辑器/乐观购物车/Vite稳定版/RichText组件/SEO元导出](https://hydrogen.shopify.dev/update/summer-editions-24-announcing-the-hydrogen-visual-editor-and-a-ton-of-dx-improvements)
+- 📦 [StyleX 0.7 - 实验性CLI工具、CSS变量字面量命名](https://stylexjs.com/blog/v0.7.0): 新增可替代打包器集成的文件夹级转换CLI。
+- 📦 [Next-Safe-Action 7.0 - 类型安全的服务端动作验证](https://github.com/TheEdoRan/next-safe-action/releases/tag/v7.0.0): 另见[v6到v7迁移指南](https://next-safe-action.dev/docs/migrations/v6-to-v7)。
+- 📦 [Astro 4.11 - 500错误页优化、`<Code>`组件Shiki转换器](https://astro.build/blog/astro-4110/)
+- 📦 [React-Admin 5.0 - 优化UI、开发者体验、应用初始化、数据提供器和表单等](https://marmelab.com/blog/2024/06/20/react-admin-v5.html)
+- 📦 [Shopify Hydrogen更新 - 可视化编辑器、乐观购物车、Vite稳定版、RichText组件、SEO元数据导出等](https://hydrogen.shopify.dev/update/summer-editions-24-announcing-the-hydrogen-visual-editor-and-a-ton-of-dx-improvements)
 - 📦 [stan-js - 极简状态管理库](https://codemask-labs.github.io/stan-js/)
-- 🎥 [Jack Herrington - 全面解析React 19的useOptimistic](https://www.youtube.com/watch?v=QWVr7uDyBXE)
+- 🎥 [Jack Herrington - 掌握React 19的useOptimistic](https://www.youtube.com/watch?v=QWVr7uDyBXE)
 - 🎥 [Theo - 我曾讨厌Next.js...](https://www.youtube.com/watch?v=6q1eL7IcKzw)
-- 🎥 [Dave Gray - 更优的Next.js服务端动作方案(next-safe-action)](https://www.youtube.com/watch?v=ahB3DgUMs1A)
+- 🎥 [Dave Gray - 更优的Next.js服务端动作实践(使用next-safe-action)](https://www.youtube.com/watch?v=ahB3DgUMs1A)
 - 🎥 [Ryan Carniato - 直面前端的存在主义危机(React Summit 2024)](https://www.youtube.com/watch?v=nzbV0YgSBuo)
-- 🎙️ [Syntax播客 - Tim Neutkens谈Next.js未来](https://www.youtube.com/watch?v=fXugpgknScY)
+- 🎙️ [Syntax播客 - Tim Neutkens谈Next.js未来规划](https://www.youtube.com/watch?v=fXugpgknScY)
 
 <SubscribeFormEmbed placement="middle" />
 
@@ -96,42 +96,42 @@ Remix本应进入休眠期，但显然还没停下脚步！📦 [Remix 2.10](htt
 
 **[WorkOS：面向B2B SaaS的现代身份平台](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q22024)**
 
-通过WorkOS，您只需几行代码即可开始向企业客户销售产品。
+通过WorkOS，仅需几行代码即可开始向企业客户销售产品。
 
 🔐 WorkOS提供完整的用户管理解决方案，支持**单点登录(SSO)、跨域身份管理系统(SCIM)、基于角色的访问控制(RBAC)和细粒度授权(FGA)**。
 
-🏗️ API设计**灵活、易用且模块化**。按需选择功能，几分钟即可完成集成。
+🏗️ API设计**灵活易用且模块化**，可根据需求选择功能并快速集成。
 
-🎨 设计与用户体验至关重要。从高质量的文档到用户 onboarding 流程，我们**为开发者消除了所有不必要的复杂性**。
+🎨 设计与用户体验至关重要。从高质量的文档到用户引导流程，我们**为开发者消除所有不必要的复杂性**。
 
 ✨ 用户管理功能**在100万月活用户(MAU)以内免费**，包含机器人防护、身份模拟、多因素认证(MFA)等功能。
 
-🤝 WorkOS获得数百家领先初创企业的信任，包括**Perplexity**、**Vercel**和**Webflow**。
+🤝 WorkOS获得数百家领先初创企业信任，包括**Perplexity**、**Vercel**和**Webflow**。
 
-立即使用[WorkOS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q22024)为您的身份验证系统构建未来🚀
+使用[WorkOS](https://workos.com/?utm_source=thisweekinreact&utm_medium=newsletter&utm_campaign=q22024)为您的认证系统构建面向未来的解决方案 🚀
 
 ---
 
 ## 📱 React-Native {#react-native}
 
-本栏目由[Benedikt](https://twitter.com/bndkt)主笔。
+本版块由[Benedikt](https://twitter.com/bndkt)撰写。
 
 - 💸 [WithFrame - 开箱即用的React Native组件库](https://withfra.me/?utm_source=thisweekinreact&utm_medium=email&utm_campaign=quick-link--4)
-- 🐦 [Marc Rousavy分享如何获取RN相关日志或崩溃信息以便为开源库提交issue](https://x.com/mrousavy/status/1805637303726973437)
-- 🗓️ [The Geek Conf技术大会](https://www.thegeekconf.com/?utm_source=thisweekinreact) - 🇩🇪 柏林 - 7月18日&25日 - 使用优惠码"TWIR"可享9折。特邀嘉宾包括Theodo UK移动端负责人Mo Khazali、Platformatic.dev CTO Matteo Collina以及GitHub高级工程师Siddharth Kshetrapal
-- 🗓 [Chain React Conf大会](https://chainreactconf.com/?utm_source=thisweekinreact) - 🇺🇸 波特兰 - 7月17-19日。美国React Native年度盛会回归！使用优惠码"TWIR"可享85折
-- 👀 [撤销「将新架构设为默认选项」的提交](https://github.com/facebook/react-native/commit/37e8fa113ef6a8be7cd057b2bf6ffaa4ae6439d9)：新架构可能延期启用，最终不会随v0.75版本发布？
+- 🐦 [Marc Rousavy分享如何获取RN相关日志或崩溃信息以提交开源库问题](https://x.com/mrousavy/status/1805637303726973437)
+- 🗓️ [The Geek Conf技术大会](https://www.thegeekconf.com/?utm_source=thisweekinreact) - 🇩🇪 柏林 - 7月18日&25日 - 使用优惠码"TWIR"可享9折。演讲嘉宾包括：Theodo UK移动端负责人Mo Khazali、Platformatic.dev CTO Matteo Collina、GitHub高级软件工程师Siddharth Kshetrapal！
+- 🗓 [Chain React Conf大会](https://chainreactconf.com/?utm_source=thisweekinreact) - 🇺🇸 波特兰 - 7月17-19日。美国React Native年度盛会回归，含主题演讲与实操研讨会！使用优惠码"TWIR"可享85折
+- 👀 [Revert "将新架构设为默认选项"](https://github.com/facebook/react-native/commit/37e8fa113ef6a8be7cd057b2bf6ffaa4ae6439d9)：新架构可能推迟启用，最终不会包含在v0.75版本中？
 - 👀 [Shopify FlashList PR - 新架构支持已合并（尚未发布）](https://github.com/Shopify/flash-list/pull/550)
-- 👀 [Fishjam Cloud - Software Mansion新项目：为React Native提供视频流支持](https://cloud.fishjam.stream/)
-- 👀 [expo-router-native-intent-demo - 在Expo Router中使用+native-intent API实现iOS「拷贝到应用」功能](https://github.com/EvanBacon/expo-router-native-intent-demo)
-- 📜 [React Native模块客户端指南](https://ospfranco.com/client-guide-to-react-native-modules/)：Oscar详细解析了向React Native暴露原生模块的不同方式及其优劣，帮助开发者根据场景选择最佳方案
-- 📜 [通过JSI桥接React Native与Rust](https://ditto.live/blog/bridging-react-native-and-rust-via-jsi)：数据同步引擎Ditto撰文介绍如何将其Rust核心逻辑通过JSI接入RN
-- 📜 [React Native中的设备端AI/ML应用](https://blog.swmansion.com/on-device-ai-ml-in-react-native-137918d0331b)：这项突破性技术展示了如何在RN中构建基于设备端AI的实时相机滤镜
-- 📜 [从Web开发转向React Native与Expo的原生应用开发](https://expo.dev/blog/from-web-to-native-with-react-native-and-expo)：记录一位Web开发者使用RN/Expo构建首款移动应用的历程
-- 📜 [与Google同步，BAM技术团队看好Kotlin多平台方案](https://www.bam.tech/article/just-as-google-bam-believes-in-kotlin-multiplatform)：专注RN的BAM公司分析KMP在跨平台方案中的优势与局限
-- 📜 [Expo公告：FCM v1迁移截止日期调整至7月20日](https://expo.dev/blog/fcm-v1-migration-deadline-changed-to-july-20th)
-- 🎥 [Simon Grimm - 使用React Native开发电视应用](https://www.youtube.com/watch?v=4S7Ftg58Yeg)
-- 🎥 [JavaScript Mastery - 2024年React Native初学者免费教程（4.5小时）](https://www.youtube.com/watch?v=ZBCUegTZF7M)
+- 👀 [Fishjam Cloud - Software Mansion新项目，为React Native带来视频流功能](https://cloud.fishjam.stream/)
+- 👀 [expo-router-native-intent-demo - 在Expo Router中使用+native-intent API实现iOS"复制到应用"功能](https://github.com/EvanBacon/expo-router-native-intent-demo)
+- 📜 [React Native模块客户端指南](https://ospfranco.com/client-guide-to-react-native-modules/)：Oscar详细解析了向React Native暴露原生模块的不同方式及其优缺点，帮助开发者根据场景选择最佳方案
+- 📜 [通过JSI桥接React Native与Rust](https://ditto.live/blog/bridging-react-native-and-rust-via-jsi)：数据同步引擎Ditto撰文介绍如何通过JSI将其Rust核心逻辑桥接到RN
+- 📜 [React Native中的设备端AI/ML](https://blog.swmansion.com/on-device-ai-ml-in-react-native-137918d0331b)：这项令人惊叹的技术在不久前还难以想象，文章展示了如何在RN中构建基于设备端AI的实时相机滤镜
+- 📜 [从Web到原生：React Native与Expo开发之旅](https://expo.dev/blog/from-web-to-native-with-react-native-and-expo)：记录一位Web开发者使用RN/Expo构建首个移动应用的经验
+- 📜 [与Google一样，BAM坚信Kotlin多平台方案](https://www.bam.tech/article/just-as-google-bam-believes-in-kotlin-multiplatform)：专注RN的BAM公司认为KMP在跨平台方案中极具潜力，并分析了其优势与局限
+- 📜 [Expo - FCM v1迁移截止日期调整为7月20日](https://expo.dev/blog/fcm-v1-migration-deadline-changed-to-july-20th)
+- 🎥 [Simon Grimm - 用React Native开发电视应用](https://www.youtube.com/watch?v=4S7Ftg58Yeg)
+- 🎥 [JavaScript Mastery - 2024年React Native初学者免费4.5小时课程](https://www.youtube.com/watch?v=ZBCUegTZF7M)
 
 ---
 
@@ -139,18 +139,18 @@ Remix本应进入休眠期，但显然还没停下脚步！📦 [Remix 2.10](htt
 
 - 📊 [2023年JavaScript现状调查报告](https://2023.stateofjs.com/en-US)
 - 📜 [JavaScript如何最终改善模块体验](https://thenewstack.io/how-javascript-is-finally-improving-the-module-experience/)
-- 📜 [CSS中现在支持内联条件语句了？](https://lea.verou.me/blog/2024/css-conditionals-now/)
+- 📜 [CSS现在支持内联条件语句了？](https://lea.verou.me/blog/2024/css-conditionals-now/)
 - 📜 [GitHub Copilot扩展就是你所需的一切](https://code.visualstudio.com/blogs/2024/06/24/extensions-are-all-you-need)
-- 📜 [MDN - JavaScript新的Set方法](https://developer.mozilla.org/en-US/blog/javascript-set-methods/)
-- 📦 [TypeScript 5.5 - 推断类型谓词、索引访问类型收窄、JSDoc @import](https://devblogs.microsoft.com/typescript/announcing-typescript-5-5/)
-- 📦 [farm - 用Rust编写的极速Vite兼容Web构建工具](https://github.com/farm-fe/farm)
-- 📦 [Node 20.15 - 测试计划、–inspect-await](https://nodejs.org/en/blog/release/v20.15.0)
-- 📦 [node-swift - 用Swift创建Node模块](https://github.com/kabiroberai/node-swift)
+- 📜 [MDN - JavaScript新增Set方法](https://developer.mozilla.org/en-US/blog/javascript-set-methods/)
+- 📦 [TypeScript 5.5 - 推断类型谓词、索引访问类型收窄、JSDoc @import支持](https://devblogs.microsoft.com/typescript/announcing-typescript-5-5/)
+- 📦 [farm - 基于Rust开发的极速Vite兼容Web构建工具](https://github.com/farm-fe/farm)
+- 📦 [Node 20.15 - 测试计划、–inspect-await功能](https://nodejs.org/en/blog/release/v20.15.0)
+- 📦 [node-swift - 用Swift编写Node模块](https://github.com/kabiroberai/node-swift)
 - 🎥 [Matt Pocock：TypeScript 5.5太棒了](https://www.youtube.com/watch?v=sciBO_IaxTw)
 
 ---
 
-## 🤭 趣闻 {#fun}
+## 🤭 趣味一刻 {#fun}
 
 [![alt](/emails/issues/191/meme.jpg)](https://x.com/ccccjjjjeeee/status/1804814043359621254)
 
